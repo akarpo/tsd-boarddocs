@@ -1,0 +1,8 @@
+# Ignore everything at root by default
+/*
+
+# Track scripts and project metadata
+!/*.py
+!/.gitignore
+!/README.md
+!/LICENSE
