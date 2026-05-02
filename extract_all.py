@@ -1,13 +1,15 @@
 """Extract plain text from every TroySD document into _text/ mirror tree.
 
-Output layout:
-  C:\\Dev\\TroySD\\_text\\<meeting_folder>\\<original_filename>.txt
+Output layout (corpus root from TSD_BOE_ROOT env var, default ~/tsd-boe-data):
+  <root>/_text/<meeting_folder>/<original_filename>.txt
 
 For .doc and .ppt (legacy formats), no extractor is bundled — those files
-are skipped and recorded in _text\\_skipped.txt for visibility.
+are skipped and recorded in _text/_skipped.txt for visibility. See
+extract_legacy.py for an MS Word/PowerPoint COM-based fallback (Windows only).
 """
 from __future__ import annotations
 
+import os
 import sys
 import time
 from pathlib import Path
@@ -20,7 +22,7 @@ from pptx import Presentation
 import openpyxl
 from striprtf.striprtf import rtf_to_text
 
-ROOT = Path(r"C:\Dev\TroySD")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 TEXT_ROOT = ROOT / "_text"
 
 

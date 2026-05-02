@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -23,7 +24,7 @@ except Exception:
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(r"C:\Dev\TroySD")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 INDEX_DIR = ROOT / "_index"
 
 

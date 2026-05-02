@@ -4,12 +4,14 @@ For each supported file type, extract plain text and count tokens with
 tiktoken cl100k_base (GPT-4 tokenizer) — a reasonable proxy for Claude's
 tokenizer (Claude tokens for English text are typically within ~5-10%).
 
-Output: per-type and grand totals to stdout, plus _tokens_per_file.csv.
+Output: per-type and grand totals to stdout, plus _tokens_per_file.csv
+under the corpus root (TSD_BOE_ROOT env var, default ~/tsd-boe-data).
 """
 from __future__ import annotations
 
 import csv
 import io
+import os
 import sys
 import time
 from pathlib import Path
@@ -22,7 +24,7 @@ from pptx import Presentation
 import openpyxl
 from striprtf.striprtf import rtf_to_text
 
-ROOT = Path(r"C:\Dev\TroySD")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 ENC = tiktoken.get_encoding("cl100k_base")
 
 

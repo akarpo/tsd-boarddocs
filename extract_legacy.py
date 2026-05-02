@@ -1,7 +1,13 @@
 """Extract text from legacy .doc and .ppt files via MS Word/PowerPoint COM.
 
-Output mirrors extract_all.py: writes .txt files into C:\\Dev\\TroySD\\_text\\
-so build_index.py can pick them up automatically.
+Windows-only — uses COM automation against installed Microsoft Office.
+On macOS or Linux, convert legacy files to .docx/.pptx with LibreOffice
+(`soffice --headless --convert-to docx file.doc`) and run extract_all.py
+instead.
+
+Output mirrors extract_all.py: writes .txt files under <root>/_text/ so
+build_index.py can pick them up automatically. Corpus root is set via
+the TSD_BOE_ROOT env var (default ~/tsd-boe-data).
 
 Skips files that already have a non-empty .txt counterpart (idempotent).
 Restarts Word/PowerPoint every 50 files to avoid memory bloat or hangs.
@@ -13,11 +19,20 @@ import sys
 import time
 from pathlib import Path
 
+if sys.platform != "win32":
+    sys.exit(
+        "extract_legacy.py requires Windows + Microsoft Office (uses COM).\n"
+        "On macOS/Linux, convert .doc/.ppt to .docx/.pptx with LibreOffice:\n"
+        "  soffice --headless --convert-to docx <file>.doc\n"
+        "  soffice --headless --convert-to pptx <file>.ppt\n"
+        "then run extract_all.py."
+    )
+
 import win32com.client
 import pythoncom
 from pywintypes import com_error
 
-ROOT = Path(r"C:\Dev\TroySD")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 TEXT_ROOT = ROOT / "_text"
 
 

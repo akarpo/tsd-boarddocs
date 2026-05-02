@@ -10,10 +10,11 @@ Endpoints discovered on https://go.boarddocs.com/mi/troysd/Board.nsf:
   POST BD-GetMinutes        form: id, current_committee_id      -> HTML/empty
   GET  files/<unid>/$file/<name>                                -> binary
 
-Output:
-  C:\\Dev\\TroySD\\<YYYY-MM-DD>_<meeting_name>\\<filename>
-  C:\\Dev\\TroySD\\_download.log
-  C:\\Dev\\TroySD\\_index.csv
+Output (under the corpus root, configurable via TSD_BOE_ROOT env var;
+defaults to ~/tsd-boe-data):
+  <root>/<YYYY-MM-DD>_<meeting_name>/<filename>
+  <root>/_download.log
+  <root>/_index.csv
 
 Idempotent: existing non-empty files are skipped.
 """
@@ -22,6 +23,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import sys
 import time
@@ -36,8 +38,8 @@ SITE_URL = "https://go.boarddocs.com/mi/troysd/Board.nsf"
 COMMITTEE_ID = "A4EP6J588C05"  # Board of Education
 START = date(2011, 7, 1)
 END = date.today()
-OUT = Path(r"C:\Dev\TroySD")
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) TroySD-BoardDocs-Downloader/1.0"
+OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
 
 ITEM_RE = re.compile(r'<li\b[^>]*\bunique="(?P<unique>[A-Z0-9]+)"', re.I)
 FILE_RE = re.compile(

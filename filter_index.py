@@ -8,11 +8,13 @@ A chunk is kept if:
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import numpy as np
 
-INDEX_DIR = Path(r"C:\Dev\TroySD\_index")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+INDEX_DIR = ROOT / "_index"
 
 MIN_WORDS = 30
 MAX_SINGLE_RATIO = 0.30

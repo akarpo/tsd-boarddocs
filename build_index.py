@@ -1,10 +1,11 @@
 """Chunk extracted text and build a local vector index.
 
-Input:  C:\\Dev\\TroySD\\_text\\<meeting>\\<file>.txt
-Output: C:\\Dev\\TroySD\\_index\\
-          vectors.npy   float32 (N, 384)  L2-normalized
-          chunks.jsonl  one JSON per chunk: id, text, source, meeting_date,
-                        meeting_name, file, chunk_idx, char_start, char_end
+Corpus root via TSD_BOE_ROOT env var (default ~/tsd-boe-data):
+  Input:  <root>/_text/<meeting>/<file>.txt
+  Output: <root>/_index/
+            vectors.npy   float32 (N, 384)  L2-normalized
+            chunks.jsonl  one JSON per chunk: id, text, source, meeting_date,
+                          meeting_name, file, chunk_idx, char_start, char_end
 
 Chunking: ~800 tokens per chunk with 100-token overlap (cl100k tokenizer).
 Embedding: sentence-transformers all-MiniLM-L6-v2 (384-dim, free, local).
@@ -12,6 +13,7 @@ Embedding: sentence-transformers all-MiniLM-L6-v2 (384-dim, free, local).
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -21,7 +23,7 @@ import numpy as np
 import tiktoken
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(r"C:\Dev\TroySD")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 TEXT_ROOT = ROOT / "_text"
 INDEX_DIR = ROOT / "_index"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
