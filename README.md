@@ -1,4 +1,4 @@
-# tsd-boe
+# tools-troysdscrape
 
 Tooling to download every public Troy School District (Michigan) Board of
 Education document from BoardDocs, extract their text, and build a local
@@ -32,7 +32,7 @@ count_tokens.py       per-type and grand-total token counts (cl100k_base)
 
 | Script | What it does |
 | --- | --- |
-| `download_troysd.py` | Crawls BoardDocs (`go.boarddocs.com/mi/troysd/Board.nsf`) using the `BD-GetMeetingsList` / `BD-GetAgenda` / `BD-GetPublicFiles` / `BD-GetMinutes` endpoints, saves every public file under `<YYYY-MM-DD>_<meeting_name>\`, writes `_download.log` and `_index.csv`. Idempotent — existing non-empty files are skipped. |
+| `download_troysd.py` | Crawls BoardDocs (`go.boarddocs.com/mi/troysd/Board.nsf`) via the `BD-GetMeetingsList` / `BD-GetAgenda` / `BD-GetPublicFiles` / `BD-GetMinutes` endpoints, saving every public file under `<YYYY-MM-DD>_<meeting_name>\` plus `_download.log` and `_index.csv`. On run it lists the meetings online, shows how many you already have locally, and prompts you to fetch **all** of them, a **date range**, or a **specific picked set** — or pass `--all` / `--start` / `--end` / `--meetings` / `--meetings-file` to skip the prompt. **Incremental:** meetings already saved locally are skipped (use `--recheck` to re-verify them, `--dry-run` to preview). Individual files are skipped if already present and non-empty. |
 | `extract_all.py` | Walks the corpus and writes plain-text `.txt` mirrors into `_text\` for `.pdf`, `.docx`, `.pptx`, `.xlsx`, and `.rtf`. PDF extraction tries `pypdf` first, then falls back to `pdfplumber`. Records skips/errors in `_text\_skipped.txt`. |
 | `extract_legacy.py` | Handles the old `.doc` and `.ppt` formats via Word and PowerPoint COM automation. **Windows-only**; exits early on other platforms with conversion instructions for LibreOffice. Restarts the COM apps every 50 files to avoid memory bloat. |
 | `count_tokens.py` | Estimates total corpus token cost using the `cl100k_base` (GPT-4) tokenizer as a proxy for Claude. Writes `_tokens_per_file.csv`. |
@@ -101,8 +101,13 @@ The scripts run on any platform with Python 3.10+ with one exception:
 export TSD_BOE_ROOT=/path/to/corpus            # macOS/Linux
 $env:TSD_BOE_ROOT = "D:\corpus\tsd-boe"        # PowerShell
 
-# 1. Download every meeting document (long; one-time)
+# 1. Download meeting documents. Run with no flags for an interactive menu
+#    (all meetings / a date range / a specific set); re-runs only fetch
+#    meetings you don't already have locally.
 python download_troysd.py
+python download_troysd.py --all --dry-run        # non-interactive; preview
+python download_troysd.py --start 2024-01-01     # just a date range
+python download_troysd.py --meetings 2025-06,Workshop   # dates / name substrings
 
 # 2. Extract text
 python extract_all.py
