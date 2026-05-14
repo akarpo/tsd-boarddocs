@@ -1,4 +1,4 @@
-# tools-troysdscrape
+# tools-troysdboarddocs
 
 Tooling to download every public Troy School District (Michigan) Board of
 Education document from BoardDocs, extract their text, and build a local
