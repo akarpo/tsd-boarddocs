@@ -62,6 +62,7 @@ SITE_URL = "https://go.boarddocs.com/mi/troysd/Board.nsf"
 COMMITTEE_ID = "A4EP6J588C05"  # Board of Education
 OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
+BASELINE_PATH = Path(__file__).parent / "boarddocs_unids.json"
 
 ITEM_RE = re.compile(r'<li\b[^>]*\bunique="(?P<unique>[A-Z0-9]+)"', re.I)
 FILE_RE = re.compile(
@@ -69,6 +70,7 @@ FILE_RE = re.compile(
     r'(?P<text>.*?)</a>',
     re.I | re.S,
 )
+FILE_UNID_RE = re.compile(r'/files/(?P<unid>[A-Z0-9]+)/\$file/', re.I)
 INVALID_FN = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 MEETING_DIR_RE = re.compile(r'\d{4}-\d{2}-\d{2}_')
 DATE_TERM_RE = re.compile(r'\d{4}(-\d{2}(-\d{2})?)?$')
@@ -135,6 +137,34 @@ def fetch_minutes(meeting_unique: str) -> str:
         "id": meeting_unique,
         "current_committee_id": COMMITTEE_ID,
     })
+
+
+# --------------------------------------------------------------------------
+# Baseline UNID index (boarddocs_unids.json)
+#
+# Read by verify_unids.py to spot-check that BoardDocs identifiers still
+# resolve. Maintained additively here — every observed meeting + file UNID
+# stays in the baseline forever, even when meetings drop off the live list.
+# --------------------------------------------------------------------------
+def extract_file_unid(href: str):
+    m = FILE_UNID_RE.search(href)
+    return m.group("unid") if m else None
+
+
+def write_baseline(observed_meetings: dict, observed_files: dict) -> None:
+    baseline = {}
+    if BASELINE_PATH.exists():
+        try:
+            baseline = json.loads(BASELINE_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            baseline = {}
+    baseline["committee_id"] = COMMITTEE_ID
+    baseline.setdefault("meetings", {})
+    baseline.setdefault("files", {})
+    baseline["meetings"].update(observed_meetings)
+    baseline["files"].update(observed_files)
+    BASELINE_PATH.write_text(
+        json.dumps(baseline, indent=2, sort_keys=True), encoding="utf-8")
 
 
 # --------------------------------------------------------------------------
@@ -366,135 +396,156 @@ def main(argv=None):
     say(f"{len(dated)} meetings online ({dated[0][0]} .. {dated[-1][0]}) "
         f"| {len(local)} meeting folder(s) already saved locally")
 
-    # --- choose meetings ---------------------------------------------------
-    if has_flag_selection:
-        if args.all:
-            selected = list(dated)
+    # Baseline accumulators (written at end of run via try/finally).
+    # Meeting UNIDs come from the live list and can be captured before any
+    # download; file UNIDs are only known after list_files() runs per meeting.
+    observed_meetings = {
+        m["unique"]: {"date": d.isoformat(), "name": m.get("name", "")}
+        for d, m in dated if m.get("unique")
+    }
+    observed_files: dict = {}
+    try:
+
+        # --- choose meetings ---------------------------------------------------
+        if has_flag_selection:
+            if args.all:
+                selected = list(dated)
+            else:
+                terms = load_meeting_terms(args.meetings, args.meetings_file)
+                selected = apply_filters(dated, args.start, args.end, terms)
+        elif interactive:
+            selected = prompt_selection(dated, local)
         else:
-            terms = load_meeting_terms(args.meetings, args.meetings_file)
-            selected = apply_filters(dated, args.start, args.end, terms)
-    elif interactive:
-        selected = prompt_selection(dated, local)
-    else:
-        selected = list(dated)  # non-interactive default: every meeting
-    selected.sort(key=lambda x: x[0])
+            selected = list(dated)  # non-interactive default: every meeting
+        selected.sort(key=lambda x: x[0])
 
-    # --- review against what's already downloaded --------------------------
-    todo = []
-    already = 0
-    for d, m in selected:
-        if not args.recheck and meeting_dirname(d, m.get("name", "")) in local:
-            already += 1
-        else:
-            todo.append((d, m))
+        # --- review against what's already downloaded --------------------------
+        todo = []
+        already = 0
+        for d, m in selected:
+            if not args.recheck and meeting_dirname(d, m.get("name", "")) in local:
+                already += 1
+            else:
+                todo.append((d, m))
 
-    verb = "re-check" if args.recheck else "download"
-    say(f"selected {len(selected)} meeting(s) | {already} already downloaded "
-        f"locally | {len(todo)} to {verb}")
+        verb = "re-check" if args.recheck else "download"
+        say(f"selected {len(selected)} meeting(s) | {already} already downloaded "
+            f"locally | {len(todo)} to {verb}")
 
-    if args.dry_run:
-        for d, m in todo:
-            say(f"   would {verb}: {d} | {m.get('name', '')}")
-        say("DONE dry-run (nothing downloaded)")
-        return 0
+        if args.dry_run:
+            for d, m in todo:
+                say(f"   would {verb}: {d} | {m.get('name', '')}")
+            say("DONE dry-run (nothing downloaded)")
+            return 0
 
-    if not todo:
-        say("DONE nothing to download")
-        if log_f:
-            log_f.close()
-        return 0
-
-    # --- confirm -----------------------------------------------------------
-    if interactive and not args.yes:
-        try:
-            ans = input(f"Proceed to {verb} {len(todo)} meeting(s)? [Y/n] ").strip().lower()
-        except EOFError:
-            ans = "n"
-        if ans in ("n", "no"):
-            say("aborted by user")
+        if not todo:
+            say("DONE nothing to download")
             if log_f:
                 log_f.close()
             return 0
 
-    # --- download ----------------------------------------------------------
-    idx_path = OUT / "_index.csv"
-    idx_new = not idx_path.exists()
-    idx_f = idx_path.open("a", encoding="utf-8", newline="")
-    idx_w = csv.writer(idx_f)
-    if idx_new:
-        idx_w.writerow(["meeting_date", "meeting_name", "meeting_unique",
-                        "item_unique", "filename", "size_bytes", "url"])
-
-    downloaded = skipped = failed = 0
-    minutes_saved = 0
-
-    for d, m in todo:
-        meeting_unique = m["unique"]
-        meeting_name = m.get("name", "")
-        folder = meeting_folder(OUT, d, meeting_name)
-        folder.mkdir(parents=True, exist_ok=True)
-        say(f"-- {d} | {meeting_name} | {meeting_unique}")
-
-        # Best-effort: save minutes HTML if recorded
-        try:
-            minutes_html = fetch_minutes(meeting_unique).strip()
-            if minutes_html:
-                mp = folder / "_minutes.html"
-                if not mp.exists():
-                    mp.write_text(minutes_html, encoding="utf-8")
-                    minutes_saved += 1
-                    say(f"   m _minutes.html ({len(minutes_html):,} B)")
-        except Exception as e:
-            say(f"   ! minutes fetch failed: {e}")
-
-        try:
-            items = list_item_uniques(meeting_unique)
-        except Exception as e:
-            say(f"   ! agenda failed: {e}")
-            failed += 1
-            continue
-
-        for item_unique in items:
+        # --- confirm -----------------------------------------------------------
+        if interactive and not args.yes:
             try:
-                files = list_files(item_unique)
+                ans = input(f"Proceed to {verb} {len(todo)} meeting(s)? [Y/n] ").strip().lower()
+            except EOFError:
+                ans = "n"
+            if ans in ("n", "no"):
+                say("aborted by user")
+                if log_f:
+                    log_f.close()
+                return 0
+
+        # --- download ----------------------------------------------------------
+        idx_path = OUT / "_index.csv"
+        idx_new = not idx_path.exists()
+        idx_f = idx_path.open("a", encoding="utf-8", newline="")
+        idx_w = csv.writer(idx_f)
+        if idx_new:
+            idx_w.writerow(["meeting_date", "meeting_name", "meeting_unique",
+                            "item_unique", "filename", "size_bytes", "url"])
+
+        downloaded = skipped = failed = 0
+        minutes_saved = 0
+
+        for d, m in todo:
+            meeting_unique = m["unique"]
+            meeting_name = m.get("name", "")
+            folder = meeting_folder(OUT, d, meeting_name)
+            folder.mkdir(parents=True, exist_ok=True)
+            say(f"-- {d} | {meeting_name} | {meeting_unique}")
+
+            # Best-effort: save minutes HTML if recorded
+            try:
+                minutes_html = fetch_minutes(meeting_unique).strip()
+                if minutes_html:
+                    mp = folder / "_minutes.html"
+                    if not mp.exists():
+                        mp.write_text(minutes_html, encoding="utf-8")
+                        minutes_saved += 1
+                        say(f"   m _minutes.html ({len(minutes_html):,} B)")
             except Exception as e:
-                say(f"   ! item {item_unique} list-files failed: {e}")
+                say(f"   ! minutes fetch failed: {e}")
+
+            try:
+                items = list_item_uniques(meeting_unique)
+            except Exception as e:
+                say(f"   ! agenda failed: {e}")
                 failed += 1
                 continue
 
-            for href, fname in files:
-                fname = safe_name(fname)
-                dest = folder / fname
-                if dest.exists() and dest.stat().st_size > 0:
-                    skipped += 1
-                    continue
+            for item_unique in items:
                 try:
-                    data = _get(href)
-                except (HTTPError, URLError) as e:
-                    say(f"   ! download {href}: {e}")
-                    failed += 1
-                    continue
+                    files = list_files(item_unique)
                 except Exception as e:
-                    say(f"   ! download {href}: {e}")
+                    say(f"   ! item {item_unique} list-files failed: {e}")
                     failed += 1
                     continue
-                dest.write_bytes(data)
-                downloaded += 1
-                idx_w.writerow([d.isoformat(), meeting_name, meeting_unique,
-                                item_unique, fname, len(data),
-                                "https://go.boarddocs.com" + href if href.startswith("/") else href])
-                idx_f.flush()
-                say(f"   + {fname} ({len(data):,} B)")
-                time.sleep(0.1)
 
-        time.sleep(0.2)
+                for href, fname in files:
+                    fname = safe_name(fname)
+                    file_unid = extract_file_unid(href)
+                    if file_unid:
+                        observed_files[file_unid] = {
+                            "meeting_unid": meeting_unique,
+                            "name": fname,
+                        }
+                    else:
+                        say(f"   ! could not extract file UNID from href: {href}")
+                    dest = folder / fname
+                    if dest.exists() and dest.stat().st_size > 0:
+                        skipped += 1
+                        continue
+                    try:
+                        data = _get(href)
+                    except (HTTPError, URLError) as e:
+                        say(f"   ! download {href}: {e}")
+                        failed += 1
+                        continue
+                    except Exception as e:
+                        say(f"   ! download {href}: {e}")
+                        failed += 1
+                        continue
+                    dest.write_bytes(data)
+                    downloaded += 1
+                    idx_w.writerow([d.isoformat(), meeting_name, meeting_unique,
+                                    item_unique, fname, len(data),
+                                    "https://go.boarddocs.com" + href if href.startswith("/") else href])
+                    idx_f.flush()
+                    say(f"   + {fname} ({len(data):,} B)")
+                    time.sleep(0.1)
 
-    say(f"DONE downloaded={downloaded} skipped={skipped} failed={failed} "
-        f"minutes={minutes_saved}")
-    if log_f:
-        log_f.close()
-    idx_f.close()
-    return 0
+            time.sleep(0.2)
+
+        say(f"DONE downloaded={downloaded} skipped={skipped} failed={failed} "
+            f"minutes={minutes_saved}")
+        if log_f:
+            log_f.close()
+        idx_f.close()
+        return 0
+    finally:
+        if not args.dry_run and (observed_meetings or observed_files):
+            write_baseline(observed_meetings, observed_files)
 
 
 if __name__ == "__main__":
