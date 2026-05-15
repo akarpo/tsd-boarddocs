@@ -1,0 +1,69 @@
+name: Verify BoardDocs identifiers
+
+on:
+  schedule:
+    - cron: '23 11 * * *'   # daily 11:23 UTC; offset from cot-permits' 11:17
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write   # to open/comment on drift issues
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run verifier
+        id: verify
+        continue-on-error: true
+        run: |
+          set +e
+          python verify_unids.py
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+      - name: Open or update per-UNID drift issue
+        if: steps.verify.outputs.rc == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE_PREFIX: 'BoardDocs per-UNID drift detected'
+        run: |
+          existing=$(gh issue list --state open \
+                       --search "in:title \"$TITLE_PREFIX\"" \
+                       --json number --jq '.[0].number' || echo "")
+          {
+            cat verify-report.txt
+            echo ""
+            echo "Workflow run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > issue_body.txt
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file issue_body.txt
+          else
+            gh issue create \
+              --title "$TITLE_PREFIX ($(date -u +%Y-%m-%d))" \
+              --body-file issue_body.txt
+          fi
+      - name: Open or update committee-ID liveness issue
+        if: steps.verify.outputs.rc == '3'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE_PREFIX: 'BoardDocs committee-ID liveness failed'
+        run: |
+          existing=$(gh issue list --state open \
+                       --search "in:title \"$TITLE_PREFIX\"" \
+                       --json number --jq '.[0].number' || echo "")
+          {
+            cat verify-report.txt
+            echo ""
+            echo "Workflow run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > issue_body.txt
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file issue_body.txt
+          else
+            gh issue create \
+              --title "$TITLE_PREFIX ($(date -u +%Y-%m-%d))" \
+              --body-file issue_body.txt
+          fi

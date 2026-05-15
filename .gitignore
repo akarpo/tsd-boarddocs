@@ -6,3 +6,10 @@
 !/.gitignore
 !/README.md
 !/LICENSE
+!/boarddocs_unids.json
+!/.github/
+
+# Transient verifier output — written only when drift is detected, consumed
+# by the workflow's issue step, never committed.
+verify-report.txt
+issue_body.txt
