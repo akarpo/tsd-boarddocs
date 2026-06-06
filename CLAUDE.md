@@ -43,7 +43,7 @@ retrieval-augmented generation rather than answering from memory:
 of public-record PDFs). It needs:
 
 - Python deps installed: `pip install sentence-transformers numpy`.
-- A built index under `$TSD_BOE_ROOT` (default `~/tsd-boe-data`). If
+- A built index under `$TSD_BOE_ROOT` (default: a `tsd-boe-data/` folder inside the repo). If
   `retrieve.py` reports no index, the corpus hasn't been built yet — point the
   user at the pipeline in `README.md`: `download_troysd.py` → `extract_all.py` →
   `build_index.py`.

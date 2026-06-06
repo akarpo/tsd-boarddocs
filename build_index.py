@@ -1,6 +1,6 @@
 """Chunk extracted text and build a local vector index.
 
-Corpus root via TSD_BOE_ROOT env var (default ~/tsd-boe-data):
+Corpus root via TSD_BOE_ROOT env var (default: a tsd-boe-data/ folder beside the scripts):
   Input:  <root>/_text/<meeting>/<file>.txt
   Output: <root>/_index/
             vectors.npy   float32 (N, 384)  L2-normalized
@@ -23,7 +23,7 @@ import numpy as np
 import tiktoken
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path(__file__).resolve().parent / "tsd-boe-data")
 TEXT_ROOT = ROOT / "_text"
 INDEX_DIR = ROOT / "_index"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"

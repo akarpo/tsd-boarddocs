@@ -62,9 +62,9 @@ You can also run `retrieve.py` yourself to inspect the raw matches. See
 ## Data layout
 
 All scripts read from and write under a single corpus root. The root is
-resolved from the `TSD_BOE_ROOT` environment variable, falling back to
-`~/tsd-boe-data` (i.e. `%USERPROFILE%\tsd-boe-data` on Windows,
-`$HOME/tsd-boe-data` on macOS / Linux).
+resolved from the `TSD_BOE_ROOT` environment variable, falling back to a
+`tsd-boe-data/` folder inside the repository, alongside the scripts. That
+folder is matched by `.gitignore`, so the multi-GB corpus is never committed.
 
 ```
 <root>/
@@ -116,7 +116,7 @@ The scripts run on any platform with Python 3.10+ with one exception:
 ## Quick start
 
 ```bash
-# Optional — pick a corpus location; otherwise defaults to ~/tsd-boe-data
+# Optional — pick a corpus location; otherwise defaults to ./tsd-boe-data (in the repo)
 export TSD_BOE_ROOT=/path/to/corpus            # macOS/Linux
 $env:TSD_BOE_ROOT = "D:\corpus\tsd-boe"        # PowerShell
 

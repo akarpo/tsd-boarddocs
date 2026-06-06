@@ -11,6 +11,11 @@
 !/boarddocs_unids.json
 !/.github/
 
+# Local-only — large, never committed (already covered by /* above; explicit
+# for clarity): the downloaded corpus and the pipeline venv both live in-repo.
+/tsd-boe-data/
+/.venv/
+
 # Transient verifier output — written only when drift is detected, consumed
 # by the workflow's issue step, never committed.
 verify-report.txt
