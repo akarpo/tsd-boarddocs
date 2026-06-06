@@ -50,6 +50,11 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
 - [x] Retrieval layer (`build_index.py`, `retrieve.py`) — pre-existing
 - [x] Generation layer = CLI agent, codified as the `CLAUDE.md` RAG protocol
 - [x] README documents the CLI-driven RAG flow
+- [x] Corpus downloaded — 344 meetings, ~3,222 files, 3.4 GB (in-repo `tsd-boe-data/`)
+- [x] Cloudflare R2 mirror — `sync_r2.py` (pull/push/manifest); public reads at
+      `media.karpowitsch.org/troysd-boarddocs/`; seeded (3,222 objects + manifest)
+- [ ] Index cache to R2 (re-upload on corpus change) — pending the first index build
+- [~] Opt-in CI upload in `verify-boarddocs.yml` (gated on a `CLOUDFLARE_API_TOKEN` secret)
 - [ ] Exercise end-to-end against a built index (needs `sentence-transformers`
       installed and a corpus built under `$TSD_BOE_ROOT`)
 - [~] `retrieve.py --json` for stricter machine parsing (text output is fine today)
@@ -63,3 +68,7 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
   earlier Claude-API `ask.py` direction — no external API wanted). Added the
   `CLAUDE.md` RAG protocol and this doc, and a README section. End-to-end run
   still pending a locally built index.
+- 2026-06-06 — Downloaded the full BoardDocs corpus (344 meetings, 3,222 files,
+  3.4 GB), moved it in-repo, and mirrored it to Cloudflare R2
+  (`media/troysd-boarddocs/`, public) via the new `sync_r2.py` + manifest.
+  Hardened `safe_name()` (collapse `..`) after 5 keys failed to upload on `..`.

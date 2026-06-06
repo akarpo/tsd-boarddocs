@@ -47,6 +47,9 @@ of public-record PDFs). It needs:
   `retrieve.py` reports no index, the corpus hasn't been built yet — point the
   user at the pipeline in `README.md`: `download_troysd.py` → `extract_all.py` →
   `build_index.py`.
+- The corpus is mirrored to Cloudflare R2. If it's missing locally, `python
+  sync_r2.py pull` rehydrates it from R2 (public, no credentials) — faster than
+  re-crawling BoardDocs.
 
 ## Working on the tooling
 

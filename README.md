@@ -59,6 +59,37 @@ corpus doesn't cover the question rather than guessing.
 You can also run `retrieve.py` yourself to inspect the raw matches. See
 [`RAG.md`](RAG.md) for the architecture and build status.
 
+## Mirroring to Cloudflare R2
+
+The corpus is mirrored to Cloudflare R2 so it lives off-machine and any
+environment can rehydrate it without re-crawling BoardDocs. `sync_r2.py` manages
+the mirror:
+
+- **Reads are public and credential-free** — objects live at
+  `https://media.karpowitsch.org/troysd-boarddocs/<meeting>/<file>`, and a public
+  `_manifest.json` lists every key, so the diff and hydrate need no credentials.
+- **Writes use `wrangler`** with a `CLOUDFLARE_API_TOKEN` (prompted if it isn't in
+  the environment) — only needed when *uploading* net-new documents.
+
+```bash
+python sync_r2.py pull              # hydrate the local corpus from R2 (no creds)
+python sync_r2.py push              # upload local files missing from R2 (prompts for token)
+python sync_r2.py reconcile         # pull, then push (default)
+python sync_r2.py rebuild-manifest  # reset the manifest to the local file set
+```
+
+Keep-current routine (run locally):
+
+```bash
+python sync_r2.py pull                       # get what's already mirrored
+python download_troysd.py --all --recheck    # fetch only net-new from BoardDocs
+python sync_r2.py push                        # publish the net-new to R2
+```
+
+The daily `verify-boarddocs.yml` Action is the "BoardDocs changed" signal that
+prompts a sync; uploads are intentionally a local action (the R2 token isn't
+stored in CI). See [`RAG.md`](RAG.md).
+
 ## Data layout
 
 All scripts read from and write under a single corpus root. The root is

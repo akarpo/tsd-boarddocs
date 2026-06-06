@@ -171,7 +171,8 @@ def write_baseline(observed_meetings: dict, observed_files: dict) -> None:
 # Naming / dates
 # --------------------------------------------------------------------------
 def safe_name(s: str, max_len: int = 150) -> str:
-    s = INVALID_FN.sub("_", s).strip().rstrip(". ")
+    s = INVALID_FN.sub("_", s).strip()
+    s = re.sub(r"\.{2,}", ".", s).strip(". ")  # collapse repeated dots — object-storage keys reject ".."
     return (s[:max_len] or "_unnamed").strip()
 
 
