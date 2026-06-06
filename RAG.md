@@ -55,8 +55,8 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
       `media.karpowitsch.org/troysd-boarddocs/`; seeded (3,222 objects + manifest)
 - [ ] Index cache to R2 (re-upload on corpus change) — pending the first index build
 - [~] Opt-in CI upload in `verify-boarddocs.yml` (gated on a `CLOUDFLARE_API_TOKEN` secret)
-- [ ] Exercise end-to-end against a built index (needs `sentence-transformers`
-      installed and a corpus built under `$TSD_BOE_ROOT`)
+- [x] Index built + RAG verified — 2,738 docs → 43,603 chunks, filtered to 42,807
+      (`all-MiniLM-L6-v2`); `retrieve.py` returns relevant, well-ranked results
 - [~] `retrieve.py --json` for stricter machine parsing (text output is fine today)
 - [~] A `/ask` Claude Code slash command as an explicit alternative to the
       ambient CLAUDE.md protocol
@@ -72,3 +72,7 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
   3.4 GB), moved it in-repo, and mirrored it to Cloudflare R2
   (`media/troysd-boarddocs/`, public) via the new `sync_r2.py` + manifest.
   Hardened `safe_name()` (collapse `..`) after 5 keys failed to upload on `..`.
+- 2026-06-06 — Built the index: `extract_all` (2,738/3,222 docs yielded text) →
+  `build_index` (43,603 chunks, `all-MiniLM-L6-v2`) → `filter_index` (kept 42,807).
+  Verified `retrieve.py` against it; wrapped the cosine matmul in `np.errstate`
+  to silence benign float32 FP warnings. RAG is live end-to-end.
