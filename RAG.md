@@ -53,7 +53,7 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
 - [x] Corpus downloaded — 344 meetings, ~3,222 files, 3.4 GB (in-repo `tsd-boe-data/`)
 - [x] Cloudflare R2 mirror — `sync_r2.py` (pull/push/manifest); public reads at
       `media.karpowitsch.org/troysd-boarddocs/`; seeded (3,222 objects + manifest)
-- [ ] Index cache to R2 (re-upload on corpus change) — pending the first index build
+- [x] Index cached to R2 — `sync_r2.py index` pushes `_index/` (vectors + chunks + model); seeded (189 MB) at `media.karpowitsch.org/troysd-boarddocs/_index/`
 - [~] Opt-in CI upload in `verify-boarddocs.yml` (gated on a `CLOUDFLARE_API_TOKEN` secret)
 - [x] Index built + RAG verified — 2,738 docs → 43,603 chunks, filtered to 42,807
       (`all-MiniLM-L6-v2`); `retrieve.py` returns relevant, well-ranked results

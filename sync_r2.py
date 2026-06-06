@@ -15,6 +15,7 @@ Modes:
   reconcile         pull, then push (default)
   rebuild-manifest  set the manifest to the current local file set and upload it
                     (seed/repair; needs token)
+  index             upload the built _index/ (vectors, chunks, model) to R2
 
 The routine from the design = download_troysd.py (BoardDocs -> local, net-new)
 sandwiched between `pull` (hydrate first, credential-free) and `push` (publish
@@ -195,13 +196,30 @@ def do_rebuild_manifest() -> None:
     upload_manifest(keys)
 
 
+def do_index() -> None:
+    """Upload the built _index/ (vectors.npy, chunks.jsonl, model.txt) to R2 so
+    consumers can fetch a ready-to-query index instead of re-embedding."""
+    idx = ROOT / "_index"
+    if not idx.is_dir():
+        sys.exit("no _index/ to upload — run build_index.py first")
+    rels = sorted(p.relative_to(ROOT).as_posix() for p in idx.rglob("*") if p.is_file())
+    size = sum((ROOT / r).stat().st_size for r in rels)
+    print(f"index: uploading {len(rels)} file(s) ({size / 1e6:.0f} MB) from _index/ -> R2")
+    ensure_token()
+    ok, fails = _parallel(wrangler_put, rels)
+    print(f"index done: {ok}/{len(rels)} uploaded" + (f"; {len(fails)} failed" if fails else ""))
+    for r in fails:
+        print(f"  FAIL {r}")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Sync the TroySD corpus with Cloudflare R2.")
     ap.add_argument("mode", nargs="?", default="reconcile",
-                    choices=["pull", "push", "reconcile", "rebuild-manifest"],
+                    choices=["pull", "push", "reconcile", "rebuild-manifest", "index"],
                     help="pull (hydrate from R2, no creds), push (upload net-new, "
                          "needs token), reconcile (pull then push; default), "
-                         "rebuild-manifest (set manifest to the local set)")
+                         "rebuild-manifest (set manifest to the local set), "
+                         "index (upload the built _index/ to R2)")
     args = ap.parse_args()
     if args.mode == "pull":
         do_pull()
@@ -209,6 +227,8 @@ def main():
         do_push()
     elif args.mode == "rebuild-manifest":
         do_rebuild_manifest()
+    elif args.mode == "index":
+        do_index()
     else:
         do_pull()
         do_push()
