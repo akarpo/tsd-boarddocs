@@ -5,8 +5,10 @@ Education document from BoardDocs, extract their text, and build a local
 semantic-search index that can be queried from the command line.
 
 The pipeline runs end-to-end on a single machine with no cloud services or
-API keys required — embedding and retrieval are local. Most scripts work on
-Windows, macOS, and Linux; only `extract_legacy.py` is Windows-only (it
+API keys required — embedding and retrieval are local, and **answering is done
+by the Claude Code CLI prompt itself**, not an LLM API (see [Asking
+questions](#asking-questions-rag) below). Most scripts work on Windows, macOS,
+and Linux; only `extract_legacy.py` is Windows-only (it
 relies on Microsoft Word and PowerPoint COM automation to read the obsolete
 `.doc` / `.ppt` formats). See [Platform notes](#platform-notes) below.
 
@@ -25,6 +27,10 @@ filter_index.py       drop low-quality chunks in place (optional cleanup)
         |
         v
 retrieve.py "query"   top-k cosine search over the index
+        |
+        v
+Claude Code (CLI)     reads the retrieved chunks, answers grounded + cited
+                      — the generation half of the RAG; see CLAUDE.md
 count_tokens.py       per-type and grand-total token counts (cl100k_base)
 ```
 
@@ -39,6 +45,19 @@ count_tokens.py       per-type and grand-total token counts (cl100k_base)
 | `build_index.py` | Token-windowed chunking (~800 tokens, 100 overlap) + embedding with `sentence-transformers/all-MiniLM-L6-v2` (384-dim, runs locally). Writes `_index\vectors.npy` and `_index\chunks.jsonl`. |
 | `filter_index.py` | Removes low-quality chunks (mostly single-character noise from scanned CAD/spec PDFs) in place. Keeps chunks with at least 30 word-like tokens and no more than 30% length-1 tokens. |
 | `retrieve.py` | Loads the index, embeds a query, returns top-k chunks ranked by cosine similarity. Supports `--since` / `--until` date filters and a literal `--grep` substring filter. |
+
+## Asking questions (RAG)
+
+Retrieval is only half of a RAG system; the other half is generation. **This
+repo uses the Claude Code CLI prompt as the generator** — there is no LLM API
+call in the tooling. Open the repo in Claude Code and ask a question about Troy
+SD board business; following the protocol in [`CLAUDE.md`](CLAUDE.md), Claude
+runs `retrieve.py --full` to pull the most relevant excerpts, then answers
+grounded in them, citing each claim by meeting and date — and says so when the
+corpus doesn't cover the question rather than guessing.
+
+You can also run `retrieve.py` yourself to inspect the raw matches. See
+[`RAG.md`](RAG.md) for the architecture and build status.
 
 ## Data layout
 

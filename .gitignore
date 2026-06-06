@@ -5,6 +5,8 @@
 !/*.py
 !/.gitignore
 !/README.md
+!/CLAUDE.md
+!/RAG.md
 !/LICENSE
 !/boarddocs_unids.json
 !/.github/
