@@ -39,7 +39,7 @@ count_tokens.py       per-type and grand-total token counts (cl100k_base)
 | Script | What it does |
 | --- | --- |
 | `download_troysd.py` | Crawls BoardDocs (`go.boarddocs.com/mi/troysd/Board.nsf`) via the `BD-GetMeetingsList` / `BD-GetAgenda` / `BD-GetPublicFiles` / `BD-GetMinutes` endpoints, saving every public file under `<YYYY-MM-DD>_<meeting_name>\` plus `_download.log` and `_index.csv`. On run it lists the meetings online, shows how many you already have locally, and prompts you to fetch **all** of them, a **date range**, or a **specific picked set** — or pass `--all` / `--start` / `--end` / `--meetings` / `--meetings-file` to skip the prompt. **Incremental:** meetings already saved locally are skipped (use `--recheck` to re-verify them, `--dry-run` to preview). Individual files are skipped if already present and non-empty. It also harvests file links embedded in published **minutes** (`BD-GetMinutes`), which `BD-GetPublicFiles` never returns. |
-| `audit_coverage.py` | Cross-references every live agenda item against what the crawl actually captured (`_index.csv`) and writes `_coverage_audit.csv` — one row per agenda item, flagging the gaps the crawler structurally can't see. An item is `marker-no-file` when BoardDocs marks it as having an attachment but none was fetched (non-public attachment), and `doclike-no-file` when its title reads like a document (report / findings / recommendation / presentation / study / …) yet nothing is attached at all (presented to the board but never uploaded — e.g. the 2024-03-05 "Levinson Report"). Read-only against BoardDocs; downloads nothing. Supports `--start` / `--end` / `--gaps-only`. |
+| `audit_coverage.py` | Cross-references every live agenda item against the corpus and writes `_coverage_audit.csv` — one row per agenda item, flagging the gaps the crawler structurally can't see. A fast pre-filter uses the crawl manifest (`_index.csv`), but because BoardDocs regenerates item/file id tokens on every agenda edit, each candidate gap is then **confirmed live** — re-asking BoardDocs for the item's current public files and matching them by filename (the only stable key) against what's on disk. Statuses: `missed-fetchable` (BoardDocs has a public file but it isn't on disk — a real crawl miss, re-run the downloader), `partial-capture` (some of the item's files captured, some not), `marker-no-file` (BoardDocs flags an attachment but exposes none publicly), and `doclike-no-file` (title reads like a document — report / findings / recommendation / presentation / … — yet nothing is attached at all, e.g. the 2024-03-05 "Levinson Report"). Read-only against BoardDocs; downloads nothing. Supports `--start` / `--end` / `--gaps-only`. |
 | `extract_all.py` | Walks the corpus and writes plain-text `.txt` mirrors into `_text\` for `.pdf`, `.docx`, `.pptx`, `.xlsx`, and `.rtf`. PDF extraction tries `pypdf` first, then falls back to `pdfplumber`. Records skips/errors in `_text\_skipped.txt`. |
 | `extract_legacy.py` | Handles the old `.doc` and `.ppt` formats via Word and PowerPoint COM automation. **Windows-only**; exits early on other platforms with conversion instructions for LibreOffice. Restarts the COM apps every 50 files to avoid memory bloat. |
 | `count_tokens.py` | Estimates total corpus token cost using the `cl100k_base` (GPT-4) tokenizer as a proxy for Claude. Writes `_tokens_per_file.csv`. |
@@ -63,18 +63,25 @@ You can also run `retrieve.py` yourself to inspect the raw matches. See
 ## Coverage auditing
 
 The crawler can only save what BoardDocs exposes as a public file attachment.
-Two kinds of document slip through that net:
+Three kinds of document slip through that net:
 
+- **Genuinely missed** — BoardDocs *does* expose a public file, but the crawl
+  didn't capture it (interrupted run, transient error). These are re-fetchable.
 - **Non-public attachments** — the agenda marks an item "contains an
-  attachment," but the file isn't fetchable.
+  attachment," but the file isn't exposed publicly, so it can't be fetched.
 - **Never-attached documents** — a report is presented to the board straight
   from a deck and never uploaded at all (e.g. the 2024-03-05 *Levinson Report -
   Outcomes & Recommendations*, which has zero attachments on BoardDocs).
 
-`audit_coverage.py` makes those gaps visible. It walks every live agenda,
-cross-references each item against the captured set in `_index.csv`, and writes
-`_coverage_audit.csv` — a per-item index that classifies each as `ok`,
-`marker-no-file`, or `doclike-no-file`:
+`audit_coverage.py` makes those gaps visible. It walks every live agenda and
+writes `_coverage_audit.csv` — a per-item index classifying each item as `ok`,
+`missed-fetchable`, `partial-capture`, `marker-no-file`, or `doclike-no-file`.
+A fast pre-filter uses the crawl manifest (`_index.csv`), but BoardDocs
+regenerates its item/file id tokens whenever an agenda is edited — so a captured
+item can look uncaptured by id alone. Each candidate gap is therefore
+**confirmed live**: the audit asks BoardDocs for the item's current public files
+and checks whether those filenames (the only stable key) exist on disk. That is
+what separates a real `missed-fetchable` from harmless id drift.
 
 ```bash
 python audit_coverage.py                              # full audit -> _coverage_audit.csv
@@ -82,10 +89,11 @@ python audit_coverage.py --start 2023-01-01 --end 2024-06-30
 python audit_coverage.py --gaps-only                  # print only the flagged items
 ```
 
-The `doclike-no-file` rows are the actionable ones: a document was almost
-certainly presented but isn't in the corpus, so it has to be sourced out-of-band
-(then dropped into the meeting folder and re-indexed). The audit is read-only —
-it downloads nothing.
+The actionable rows split cleanly by remedy: `missed-fetchable` /
+`partial-capture` are fixed by re-running `download_troysd.py` (the file is on
+BoardDocs), while `marker-no-file` / `doclike-no-file` mean the document isn't on
+BoardDocs at all and must be sourced out-of-band, dropped into the meeting
+folder, and re-indexed. The audit itself is read-only — it downloads nothing.
 
 ## Mirroring to Cloudflare R2
 

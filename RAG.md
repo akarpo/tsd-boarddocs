@@ -58,9 +58,12 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
 - [x] Index built + RAG verified — 2,738 docs → 43,603 chunks, filtered to 42,807
       (`all-MiniLM-L6-v2`); `retrieve.py` returns relevant, well-ranked results
 - [x] Coverage audit — `audit_coverage.py` cross-references every live agenda
-      item against the captured set and writes `_coverage_audit.csv`
-      (344 meetings / 2,156 items → 50 `doclike-no-file` + 4 `marker-no-file`
-      gaps the crawler structurally can't see, e.g. the 2024-03-05 Levinson Report)
+      item against the corpus and writes `_coverage_audit.csv` (344 meetings /
+      2,156 items). A fast `_index.csv` pre-filter, then a drift-proof live
+      confirm of every candidate (BoardDocs regenerates id tokens on edits, so it
+      matches by filename): 48 `doclike-no-file` + 2 `missed-fetchable` real gaps,
+      4 drift false-positives correctly cleared (e.g. the 2024-03-05 Levinson
+      Report stays flagged; the 2024-05-07 Algebra deck is correctly `ok`)
 - [x] Scraper hardened to also harvest file links embedded in published minutes
       (`BD-GetMinutes`), which `BD-GetPublicFiles` never returns
 - [~] `retrieve.py --json` for stricter machine parsing (text output is fine today)
@@ -86,9 +89,13 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
   Levinson report. Two parts: (1) hardened `download_troysd.py` to also pull file
   links embedded in published minutes (`BD-GetMinutes`), which the public-files
   endpoint never returns; (2) added `audit_coverage.py`, which audits all 344
-  meetings (2,156 agenda items) against the captured set and emits
-  `_coverage_audit.csv` flagging 50 `doclike-no-file` + 4 `marker-no-file` gaps —
-  documents presented to the board but never attached on BoardDocs (the
-  2024-03-05 Levinson Report among them). The NSK12 re-index landed too: the
-  Findings Report is now searchable under both the Dec-5-2023 and Mar-5-2024
-  workshops (43,713 chunks).
+  meetings (2,156 agenda items) and emits `_coverage_audit.csv`. First cut judged
+  capture from `_index.csv` alone and over-reported (BoardDocs regenerates item /
+  file id tokens on every agenda edit, so a captured item can look uncaptured —
+  e.g. the 2024-05-07 Algebra deck). Fixed with a two-pass design: fast manifest
+  pre-filter, then a live confirm of each candidate that matches by filename (the
+  only stable key) against disk. Result: 48 `doclike-no-file` (presented, never
+  attached — Levinson among them) + 2 `missed-fetchable` (a genuinely missed
+  2020-07-21 meeting BoardDocs still serves) real gaps; 4 drift false-positives
+  cleared. The NSK12 re-index landed too: the Findings Report is now searchable
+  under both the Dec-5-2023 and Mar-5-2024 workshops (43,713 chunks).

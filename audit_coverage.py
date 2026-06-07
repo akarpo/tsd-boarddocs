@@ -5,18 +5,29 @@ The crawler (download_troysd.py) only harvests an agenda item's *public-file*
 attachments (BD-GetPublicFiles). Documents that are presented but never attached
 (e.g. the 2024-03-05 "Levinson Report - Outcomes & Recommendations"), or attached
 non-publicly, slip through. This audit cross-references every live agenda item
-against what the crawl actually captured (`_index.csv`) and classifies each item:
+against the corpus and classifies each item:
 
-  ok               file(s) captured, or a procedural item (no document expected)
-  marker-no-file   BoardDocs marks it "contains an attachment", but the crawl
-                   captured none — the attachment is non-public / not fetchable
-  doclike-no-file  the title reads like a document (report / findings /
-                   recommendation / presentation / study / plan / review /
-                   proposal / audit / analysis) with no marker and no file —
-                   most likely presented to the board but never attached
+  ok                file(s) captured, or a procedural item (no document expected)
+  missed-fetchable  BoardDocs HAS public file(s) for this item but none are on
+                    disk — a genuine crawl miss; re-run download_troysd.py
+  partial-capture   some of the item's public files are on disk, some are not
+  marker-no-file    BoardDocs marks it "contains an attachment", but exposes no
+                    public file — the attachment is non-public / not fetchable
+  doclike-no-file   the title reads like a document (report / findings /
+                    recommendation / presentation / study / plan / review /
+                    proposal / audit / analysis) with no marker and no file —
+                    most likely presented to the board but never attached
+
+A fast pre-filter uses the crawl manifest (`_index.csv`), but BoardDocs
+regenerates item/file unique tokens whenever an agenda is edited, so a captured
+item can look uncaptured by id alone. Every flagged candidate is therefore
+*confirmed live*: we ask BoardDocs for the item's current public files and check
+whether those filenames (the only stable key) exist on disk. This eliminates
+drift false-positives and is what distinguishes `missed-fetchable` (re-fetch)
+from `*-no-file` (nothing to fetch).
 
 It writes `<root>/_coverage_audit.csv` (one row per agenda item) and prints a
-summary plus the flagged gaps. Reads-only against BoardDocs; downloads nothing.
+summary plus the flagged gaps. Read-only against BoardDocs; downloads nothing.
 
 Usage:
   python audit_coverage.py
@@ -76,7 +87,11 @@ def parse_items(agenda_html: str):
 
 
 def captured_item_unids() -> set:
-    """item_unique values that have >=1 file in the crawl manifest (_index.csv)."""
+    """item_unique values that have >=1 file in the crawl manifest (_index.csv).
+
+    A fast pre-filter only: BoardDocs regenerates these tokens on agenda edits,
+    so absence here is a *candidate* gap to confirm live, not a proven one.
+    """
     idx, out = ROOT / "_index.csv", set()
     if idx.exists():
         with idx.open(encoding="utf-8") as f:
@@ -84,6 +99,28 @@ def captured_item_unids() -> set:
                 if row.get("item_unique"):
                     out.add(row["item_unique"])
     return out
+
+
+def confirm_gap(unid: str, folder: Path, marker: bool):
+    """Live-confirm a candidate gap, drift-proof. Ask BoardDocs for the item's
+    *current* public files and match them by filename (the only stable key)
+    against the meeting folder on disk — the same path the crawler would write.
+
+    Returns (status, n_boarddocs_files, n_on_disk).
+    """
+    try:
+        files = d.list_files(unid)                       # [(href, filename), …] live
+    except Exception:
+        files = []
+    present = sum(1 for _href, fn in files if (folder / d.safe_name(fn)).exists())
+    n = len(files)
+    if n and present == n:
+        return "ok", n, present                          # captured; the id had drifted
+    if present:
+        return "partial-capture", n, present
+    if n:
+        return "missed-fetchable", n, present            # BoardDocs has it, disk doesn't
+    return ("marker-no-file" if marker else "doclike-no-file"), 0, 0
 
 
 def main(argv=None):
@@ -102,11 +139,11 @@ def main(argv=None):
 
     ROOT.mkdir(parents=True, exist_ok=True)
     out_path = ROOT / "_coverage_audit.csv"
-    gaps, n_items = [], 0
+    gaps, n_items, n_confirm = [], 0, 0
     with out_path.open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["meeting_date", "meeting_name", "item_unique", "item_title",
-                    "attachment_marker", "file_captured", "status"])
+                    "attachment_marker", "boarddocs_files", "files_on_disk", "status"])
         for dt, m in meetings:
             try:
                 agenda = d._post("BD-GetAgenda",
@@ -114,35 +151,45 @@ def main(argv=None):
             except Exception as e:
                 print(f"  ! agenda {dt}: {e}", file=sys.stderr)
                 continue
+            folder = d.meeting_folder(ROOT, dt, m.get("name", ""))
             for unid, title, marker in parse_items(agenda):
                 n_items += 1
-                has_file = unid in have
-                if has_file:
-                    status = "ok"
-                elif marker:
-                    status = "marker-no-file"
-                elif DOC_RE.search(title):
-                    status = "doclike-no-file"
+                doclike = bool(DOC_RE.search(title))
+                n_bd = n_disk = ""
+                if unid in have:
+                    status = "ok"                       # captured (manifest fast-path)
+                elif not marker and not doclike:
+                    status = "ok"                       # no document implied
                 else:
-                    status = "ok"
+                    # Candidate gap — confirm live (id may have just drifted).
+                    status, n_bd, n_disk = confirm_gap(unid, folder, marker)
+                    n_confirm += 1
+                    time.sleep(0.1)
                 w.writerow([dt.isoformat(), m.get("name", ""), unid, title,
-                            "yes" if marker else "no", "yes" if has_file else "no", status])
+                            "yes" if marker else "no", n_bd, n_disk, status])
                 if status != "ok":
                     gaps.append((dt.isoformat(), m.get("name", ""), title, status))
             if not args.gaps_only:
                 print(f"  {dt} | {m.get('name','')[:45]}", flush=True)
             time.sleep(0.1)
 
-    marker_gaps = [g for g in gaps if g[3] == "marker-no-file"]
-    doc_gaps = [g for g in gaps if g[3] == "doclike-no-file"]
-    print(f"\nDONE  meetings={len(meetings)}  items={n_items}")
-    print(f"GAPS  marker-no-file={len(marker_gaps)}  doclike-no-file={len(doc_gaps)}  -> {out_path}")
-    print("\n--- doclike-no-file (a document is implied but nothing was attached) ---")
-    for iso, name, title, _ in doc_gaps:
-        print(f"  {iso} | {name[:32]} | {title}")
-    print("\n--- marker-no-file (BoardDocs flags an attachment we couldn't fetch) ---")
-    for iso, name, title, _ in marker_gaps[:60]:
-        print(f"  {iso} | {name[:32]} | {title}")
+    by = lambda s: [g for g in gaps if g[3] == s]
+    order = ["missed-fetchable", "partial-capture", "marker-no-file", "doclike-no-file"]
+    blurb = {
+        "missed-fetchable": "BoardDocs HAS public file(s) but none are on disk — re-run download_troysd.py",
+        "partial-capture": "some of the item's public files are on disk, some are missing",
+        "marker-no-file": "BoardDocs flags an attachment but exposes no public file (non-public)",
+        "doclike-no-file": "title implies a document but nothing is attached (presented, never uploaded)",
+    }
+    print(f"\nDONE  meetings={len(meetings)}  items={n_items}  live-confirmed={n_confirm}")
+    print("GAPS  " + "  ".join(f"{s}={len(by(s))}" for s in order) + f"  -> {out_path}")
+    for s in order:
+        rows = by(s)
+        if not rows:
+            continue
+        print(f"\n--- {s} ({blurb[s]}) ---")
+        for iso, name, title, _ in rows:
+            print(f"  {iso} | {name[:32]} | {title}")
     return 0
 
 
