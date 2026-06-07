@@ -71,6 +71,7 @@ FILE_RE = re.compile(
     re.I | re.S,
 )
 FILE_UNID_RE = re.compile(r'/files/(?P<unid>[A-Z0-9]+)/\$file/', re.I)
+MINUTES_FILE_RE = re.compile(r'href="([^"]*?/files/[A-Z0-9]+/\$file/[^"]+)"', re.I)
 INVALID_FN = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 MEETING_DIR_RE = re.compile(r'\d{4}-\d{2}-\d{2}_')
 DATE_TERM_RE = re.compile(r'\d{4}(-\d{2}(-\d{2})?)?$')
@@ -485,6 +486,21 @@ def main(argv=None):
                         mp.write_text(minutes_html, encoding="utf-8")
                         minutes_saved += 1
                         say(f"   m _minutes.html ({len(minutes_html):,} B)")
+                    # Hardening: minutes can embed file links that BD-GetPublicFiles
+                    # never returns — pull those too.
+                    for mhref in MINUTES_FILE_RE.findall(minutes_html):
+                        mhref = unescape(mhref.strip())
+                        mfname = safe_name(unquote(mhref.rsplit("/", 1)[-1]))
+                        mdest = folder / mfname
+                        if mdest.exists() and mdest.stat().st_size > 0:
+                            continue
+                        try:
+                            mdata = _get(mhref)
+                            mdest.write_bytes(mdata)
+                            downloaded += 1
+                            say(f"   + (from minutes) {mfname} ({len(mdata):,} B)")
+                        except Exception as e:
+                            say(f"   ! minutes file {mhref}: {e}")
             except Exception as e:
                 say(f"   ! minutes fetch failed: {e}")
 

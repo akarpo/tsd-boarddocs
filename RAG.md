@@ -57,6 +57,12 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
 - [~] Opt-in CI upload in `verify-boarddocs.yml` (gated on a `CLOUDFLARE_API_TOKEN` secret)
 - [x] Index built + RAG verified — 2,738 docs → 43,603 chunks, filtered to 42,807
       (`all-MiniLM-L6-v2`); `retrieve.py` returns relevant, well-ranked results
+- [x] Coverage audit — `audit_coverage.py` cross-references every live agenda
+      item against the captured set and writes `_coverage_audit.csv`
+      (344 meetings / 2,156 items → 50 `doclike-no-file` + 4 `marker-no-file`
+      gaps the crawler structurally can't see, e.g. the 2024-03-05 Levinson Report)
+- [x] Scraper hardened to also harvest file links embedded in published minutes
+      (`BD-GetMinutes`), which `BD-GetPublicFiles` never returns
 - [~] `retrieve.py --json` for stricter machine parsing (text output is fine today)
 - [~] A `/ask` Claude Code slash command as an explicit alternative to the
       ambient CLAUDE.md protocol
@@ -76,3 +82,13 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
   `build_index` (43,603 chunks, `all-MiniLM-L6-v2`) → `filter_index` (kept 42,807).
   Verified `retrieve.py` against it; wrapped the cosine matmul in `np.errstate`
   to silence benign float32 FP warnings. RAG is live end-to-end.
+- 2026-06-07 — Closed the coverage blind spot surfaced by the missing NSK12 /
+  Levinson report. Two parts: (1) hardened `download_troysd.py` to also pull file
+  links embedded in published minutes (`BD-GetMinutes`), which the public-files
+  endpoint never returns; (2) added `audit_coverage.py`, which audits all 344
+  meetings (2,156 agenda items) against the captured set and emits
+  `_coverage_audit.csv` flagging 50 `doclike-no-file` + 4 `marker-no-file` gaps —
+  documents presented to the board but never attached on BoardDocs (the
+  2024-03-05 Levinson Report among them). The NSK12 re-index landed too: the
+  Findings Report is now searchable under both the Dec-5-2023 and Mar-5-2024
+  workshops (43,713 chunks).
