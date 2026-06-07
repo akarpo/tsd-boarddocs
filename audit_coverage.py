@@ -8,8 +8,10 @@ non-publicly, slip through. This audit cross-references every live agenda item
 against the corpus and classifies each item:
 
   ok                file(s) captured, or a procedural item (no document expected)
-  missed-fetchable  BoardDocs HAS public file(s) for this item but none are on
+  missed-fetchable  BoardDocs serves public file(s) for this item but none are on
                     disk — a genuine crawl miss; re-run download_troysd.py
+  listed-unavailable the agenda lists file(s) but every one 404s — purged from
+                    BoardDocs (the agenda outlived its files); unrecoverable
   partial-capture   some of the item's public files are on disk, some are not
   marker-no-file    BoardDocs marks it "contains an attachment", but exposes no
                     public file — the attachment is non-public / not fetchable
@@ -27,7 +29,9 @@ drift false-positives and is what distinguishes `missed-fetchable` (re-fetch)
 from `*-no-file` (nothing to fetch).
 
 It writes `<root>/_coverage_audit.csv` (one row per agenda item) and prints a
-summary plus the flagged gaps. Read-only against BoardDocs; downloads nothing.
+summary plus the flagged gaps. Read-only against BoardDocs; it downloads no
+documents (only a 1-byte ranged probe per candidate, to tell a real miss from a
+dead link).
 
 Usage:
   python audit_coverage.py
@@ -43,6 +47,7 @@ import os
 import re
 import sys
 import time
+import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -101,6 +106,21 @@ def captured_item_unids() -> set:
     return out
 
 
+def _reachable(href: str) -> bool:
+    """True if the file href actually serves bytes. A ranged GET (1 byte) probes
+    existence without downloading the document — so a dangling link whose file
+    was purged from BoardDocs (HTTP 404) is told apart from a real, re-fetchable
+    miss. BoardDocs ignores the Range and may answer 200 or 206; both mean it's
+    there."""
+    url = href if href.startswith("http") else "https://go.boarddocs.com" + href
+    req = urllib.request.Request(url, headers={"User-Agent": d.UA, "Range": "bytes=0-0"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status in (200, 206)
+    except Exception:
+        return False
+
+
 def confirm_gap(unid: str, folder: Path, marker: bool):
     """Live-confirm a candidate gap, drift-proof. Ask BoardDocs for the item's
     *current* public files and match them by filename (the only stable key)
@@ -119,7 +139,10 @@ def confirm_gap(unid: str, folder: Path, marker: bool):
     if present:
         return "partial-capture", n, present
     if n:
-        return "missed-fetchable", n, present            # BoardDocs has it, disk doesn't
+        # Listed but none on disk: re-fetchable, or a dead link to a purged file?
+        if any(_reachable(href) for href, _ in files):
+            return "missed-fetchable", n, present        # really downloadable; re-run crawler
+        return "listed-unavailable", n, present          # agenda lists files, all 404 (gone)
     return ("marker-no-file" if marker else "doclike-no-file"), 0, 0
 
 
@@ -174,9 +197,11 @@ def main(argv=None):
             time.sleep(0.1)
 
     by = lambda s: [g for g in gaps if g[3] == s]
-    order = ["missed-fetchable", "partial-capture", "marker-no-file", "doclike-no-file"]
+    order = ["missed-fetchable", "listed-unavailable", "partial-capture",
+             "marker-no-file", "doclike-no-file"]
     blurb = {
-        "missed-fetchable": "BoardDocs HAS public file(s) but none are on disk — re-run download_troysd.py",
+        "missed-fetchable": "BoardDocs serves public file(s) but none are on disk — re-run download_troysd.py",
+        "listed-unavailable": "agenda lists file(s) but they 404 — purged from BoardDocs, unrecoverable",
         "partial-capture": "some of the item's public files are on disk, some are missing",
         "marker-no-file": "BoardDocs flags an attachment but exposes no public file (non-public)",
         "doclike-no-file": "title implies a document but nothing is attached (presented, never uploaded)",

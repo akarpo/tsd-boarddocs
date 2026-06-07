@@ -61,9 +61,12 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
       item against the corpus and writes `_coverage_audit.csv` (344 meetings /
       2,156 items). A fast `_index.csv` pre-filter, then a drift-proof live
       confirm of every candidate (BoardDocs regenerates id tokens on edits, so it
-      matches by filename): 48 `doclike-no-file` + 2 `missed-fetchable` real gaps,
-      4 drift false-positives correctly cleared (e.g. the 2024-03-05 Levinson
-      Report stays flagged; the 2024-05-07 Algebra deck is correctly `ok`)
+      matches by filename, and a 1-byte ranged probe separates re-fetchable
+      misses from dead links): 48 `doclike-no-file` + 2 `listed-unavailable`
+      (agenda lists files that now 404) gaps, 4 drift false-positives cleared
+      (the 2024-03-05 Levinson Report stays flagged; the 2024-05-07 Algebra deck
+      is correctly `ok`). Zero re-fetchable misses — the corpus is complete
+      w.r.t. what BoardDocs still serves
 - [x] Scraper hardened to also harvest file links embedded in published minutes
       (`BD-GetMinutes`), which `BD-GetPublicFiles` never returns
 - [~] `retrieve.py --json` for stricter machine parsing (text output is fine today)
@@ -94,8 +97,9 @@ Legend: `[x]` done · `[ ]` todo · `[~]` optional
   file id tokens on every agenda edit, so a captured item can look uncaptured —
   e.g. the 2024-05-07 Algebra deck). Fixed with a two-pass design: fast manifest
   pre-filter, then a live confirm of each candidate that matches by filename (the
-  only stable key) against disk. Result: 48 `doclike-no-file` (presented, never
-  attached — Levinson among them) + 2 `missed-fetchable` (a genuinely missed
-  2020-07-21 meeting BoardDocs still serves) real gaps; 4 drift false-positives
-  cleared. The NSK12 re-index landed too: the Findings Report is now searchable
+  only stable key) against disk, plus a 1-byte ranged probe to tell a real miss
+  from a dead link. Result: 48 `doclike-no-file` (presented, never attached —
+  Levinson among them) + 2 `listed-unavailable` (a 2020-07-21 meeting whose
+  agenda still lists files that now 404) gaps; 4 drift false-positives cleared;
+  zero re-fetchable misses. The NSK12 re-index landed too: the Findings Report is now searchable
   under both the Dec-5-2023 and Mar-5-2024 workshops (43,713 chunks).
