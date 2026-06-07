@@ -22,7 +22,7 @@ Endpoints discovered on https://go.boarddocs.com/mi/troysd/Board.nsf:
   GET  files/<unid>/$file/<name>                                -> binary
 
 Output (under the corpus root, configurable via TSD_BOE_ROOT env var;
-defaults to ~/tsd-boe-data):
+defaults to a tsd-boe-data/ folder beside this script):
   <root>/<YYYY-MM-DD>_<meeting_name>/<filename>
   <root>/_download.log
   <root>/_index.csv     (one row per newly downloaded file)
@@ -60,7 +60,7 @@ from urllib.request import Request, urlopen
 
 SITE_URL = "https://go.boarddocs.com/mi/troysd/Board.nsf"
 COMMITTEE_ID = "A4EP6J588C05"  # Board of Education
-OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path(__file__).resolve().parent / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
 BASELINE_PATH = Path(__file__).parent / "boarddocs_unids.json"
 
@@ -71,6 +71,7 @@ FILE_RE = re.compile(
     re.I | re.S,
 )
 FILE_UNID_RE = re.compile(r'/files/(?P<unid>[A-Z0-9]+)/\$file/', re.I)
+MINUTES_FILE_RE = re.compile(r'href="([^"]*?/files/[A-Z0-9]+/\$file/[^"]+)"', re.I)
 INVALID_FN = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 MEETING_DIR_RE = re.compile(r'\d{4}-\d{2}-\d{2}_')
 DATE_TERM_RE = re.compile(r'\d{4}(-\d{2}(-\d{2})?)?$')
@@ -171,7 +172,8 @@ def write_baseline(observed_meetings: dict, observed_files: dict) -> None:
 # Naming / dates
 # --------------------------------------------------------------------------
 def safe_name(s: str, max_len: int = 150) -> str:
-    s = INVALID_FN.sub("_", s).strip().rstrip(". ")
+    s = INVALID_FN.sub("_", s).strip()
+    s = re.sub(r"\.{2,}", ".", s).strip(". ")  # collapse repeated dots — object-storage keys reject ".."
     return (s[:max_len] or "_unnamed").strip()
 
 
@@ -484,6 +486,21 @@ def main(argv=None):
                         mp.write_text(minutes_html, encoding="utf-8")
                         minutes_saved += 1
                         say(f"   m _minutes.html ({len(minutes_html):,} B)")
+                    # Hardening: minutes can embed file links that BD-GetPublicFiles
+                    # never returns — pull those too.
+                    for mhref in MINUTES_FILE_RE.findall(minutes_html):
+                        mhref = unescape(mhref.strip())
+                        mfname = safe_name(unquote(mhref.rsplit("/", 1)[-1]))
+                        mdest = folder / mfname
+                        if mdest.exists() and mdest.stat().st_size > 0:
+                            continue
+                        try:
+                            mdata = _get(mhref)
+                            mdest.write_bytes(mdata)
+                            downloaded += 1
+                            say(f"   + (from minutes) {mfname} ({len(mdata):,} B)")
+                        except Exception as e:
+                            say(f"   ! minutes file {mhref}: {e}")
             except Exception as e:
                 say(f"   ! minutes fetch failed: {e}")
 

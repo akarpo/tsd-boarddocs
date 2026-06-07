@@ -24,7 +24,7 @@ except Exception:
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path(__file__).resolve().parent / "tsd-boe-data")
 INDEX_DIR = ROOT / "_index"
 
 
@@ -52,7 +52,8 @@ def main():
     model = SentenceTransformer(model_name)
     q = model.encode([args.query], normalize_embeddings=True,
                      convert_to_numpy=True).astype("float32")
-    sims = vecs @ q[0]
+    with np.errstate(divide="ignore", over="ignore", invalid="ignore"):
+        sims = vecs @ q[0]  # silence benign float32/BLAS FP flags (vectors are finite)
 
     # date + grep filter
     mask = np.ones(len(chunks), dtype=bool)

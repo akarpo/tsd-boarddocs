@@ -7,7 +7,7 @@ instead.
 
 Output mirrors extract_all.py: writes .txt files under <root>/_text/ so
 build_index.py can pick them up automatically. Corpus root is set via
-the TSD_BOE_ROOT env var (default ~/tsd-boe-data).
+the TSD_BOE_ROOT env var (default: a tsd-boe-data/ folder beside the scripts).
 
 Skips files that already have a non-empty .txt counterpart (idempotent).
 Restarts Word/PowerPoint every 50 files to avoid memory bloat or hangs.
@@ -32,7 +32,7 @@ import win32com.client
 import pythoncom
 from pywintypes import com_error
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path(__file__).resolve().parent / "tsd-boe-data")
 TEXT_ROOT = ROOT / "_text"
 
 
