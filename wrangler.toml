@@ -1,0 +1,22 @@
+# Cloudflare Worker config for tsd-boarddocs.
+# The Git build runs `wrangler deploy`, which reads this file: worker.js is the
+# entry point, ./public is served as static assets, and the AI + Vectorize
+# bindings are applied automatically (no manual dashboard binding needed).
+name = "tsd-boarddocs"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+# Static site. Assets matching a request path are served directly; everything
+# else (/api/*, /mcp) falls through to the Worker.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Workers AI — @cf/baai/bge-base-en-v1.5 (768-dim), same model that embedded the corpus.
+[ai]
+binding = "AI"
+
+# Vectorize index holding the chunk vectors + citation metadata.
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "tsd-boarddocs"

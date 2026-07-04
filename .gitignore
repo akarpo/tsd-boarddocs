@@ -9,10 +9,10 @@
 !/boarddocs_unids.json
 !/.github/
 
-# Website (Cloudflare Pages): static shell, deploy config, and Functions
-!/index.html
-!/.assetsignore
-!/functions/
+# Website (Cloudflare Worker): entry point, config, and static assets
+!/worker.js
+!/wrangler.toml
+!/public/
 
 # Transient verifier output — written only when drift is detected, consumed
 # by the workflow's issue step, never committed.
