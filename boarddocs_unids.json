@@ -1,5 +1,2619 @@
 {
   "committee_id": "A4EP6J588C05",
-  "files": {},
-  "meetings": {}
+  "files": {
+    "DQ5T3Q756E1F": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "4.a. Budget Presentation 1-13-26.pdf"
+    },
+    "DQ5T42757995": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "4.b. RFP 2526-16 - BOND-BSSF - AHS-THS - GYM Renovations - Rec.docx"
+    },
+    "DQ5T44757AD4": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "4.b. RFP 2526-16 - BOND-BSSF - THS - AHS - GYM RENOVATIONS REC-TAB.pdf"
+    },
+    "DQ5T4A758417": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "4.c. RFP 2526-12 Elementary Bathrooms Award BMB Rec-bid tab.pdf"
+    },
+    "DQ5T4N7591E2": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "4.c. RFP 2526-12 - BOND - Phase 1 Elementary Toilet Room Renovations - Rec.docx"
+    },
+    "DQ6NNP60C3C0": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "Updates to CDB 2026.pdf"
+    },
+    "DQ6NNR60C63E": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "Updates to CDB 2026-2.pdf"
+    },
+    "DQ729N011D28": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "Board Budget Planning.pptx"
+    },
+    "DQAV6F7F34EB": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "Honors Math - 8th Grade Enrollment Trends.pdf"
+    },
+    "DQBK3R4FEF8C": {
+      "meeting_unid": "DN6L4B54B680",
+      "name": "Middle School Math Update January 2026.pdf"
+    },
+    "DQCLLQ570CCE": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "3 ApptTempSecretary.doc"
+    },
+    "DQCLMA5730B9": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4A NomElectionOfficePresident.doc"
+    },
+    "DQCLNE5759C9": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4B NomElectionOfficeVicePresident.doc"
+    },
+    "DQCLNP5765C7": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4C NomElectionOfficeSecretary.doc"
+    },
+    "DQCLRN57D4E0": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4D NomElectionOfficeTreasurer.docx"
+    },
+    "DQCLTM581DF6": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4F Board_DistrictLegalCounsel.doc"
+    },
+    "DQCLTX582B35": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4G ApptDeputySecretary.doc"
+    },
+    "DQCLUF583D26": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4H PostingNoticesofMeetingsDesignation.doc"
+    },
+    "DQCLUY58500C": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4I Board Meetings Schedule2026.doc"
+    },
+    "DQCLV3580A30": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "4.E. Establish Fund Depositories and Investment Resolution.docx"
+    },
+    "DQCLVJ585BFD": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "2026 BoardMtgSchedule DRAFT 3.docx"
+    },
+    "DQCMB25938F5": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "5B Board Recognition.docx"
+    },
+    "DQCMQ45C4615": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "M120925BdWkshp.docx"
+    },
+    "DQCMQ95C510B": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "M121625BdMtg.docx"
+    },
+    "DQCMQF5C5837": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "November 2025 Treasurers Letter.pdf"
+    },
+    "DQCMQJ5C5A21": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "November 2025 Wire Transfers.pdf"
+    },
+    "DQCMQL5C5CF0": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "November 2025 PCARD Report.pdf"
+    },
+    "DQCMQN5C5F21": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "November 2025 Financial Statements.pdf"
+    },
+    "DQCMQQ5C6178": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "November 2025 ACH Report.pdf"
+    },
+    "DQCMQW5C632A": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "November 2025 - Check Register.pdf"
+    },
+    "DQCMS35C940E": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "8 ConsentRes.docx"
+    },
+    "DQCQ4V67847E": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "Updates to CDB 2026.pdf"
+    },
+    "DQCQ53678F16": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "Updates to CDB 2026-2.pdf"
+    },
+    "DQCQY56B8881": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.A. Resolution AHS & THS Gym Renovation Project.docx"
+    },
+    "DQCQYA6B8E3C": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.A. RFP 2526-16 - BOND-BSSF - AHS-THS - GYM Renovations - Rec.docx"
+    },
+    "DQCQYC6B90AD": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.A. RFP 2526-16 - BOND-BSSF - THS - AHS - GYM RENOVATIONS REC-TAB.pdf"
+    },
+    "DQCQZW6BCABD": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.B. Resolution Elementary Toilet Room Renovations.docx"
+    },
+    "DQCR236BD0FD": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.B. RFP 2526-12 - BOND - Phase 1 Elementary Toilet Room Renovations - Rec.docx"
+    },
+    "DQCR266BD428": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.B. RFP 2526-12 Elementary Bathrooms Award BMB Rec-bid tab.pdf"
+    },
+    "DQCR546C41B6": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "9A TESA CONTRACT EXTENSION 2028-2030.doc"
+    },
+    "DQCR7B6C958E": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "9B TESPA CONTRACT EXTENSION 2028-2030.doc"
+    },
+    "DQCRX6701133": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "Budget Presentation 1-20-26.pdf"
+    },
+    "DQCRX8701345": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "District Comparisons - Operating Expenditures.pdf"
+    },
+    "DQHKLC525E20": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "0AgendaMemo 012026.docx"
+    },
+    "DQHKLW52734E": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "2 ElectActingChair.doc"
+    },
+    "DQHPX9665BAC": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.C. Resolution to Opt-In 31aa_ summary.docx"
+    },
+    "DQHPXB665CCE": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "11.C. Resolution to Opt-In 31aa.docx"
+    },
+    "DQHQ8J674089": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "CommitteeAssign2026 draft.docx"
+    },
+    "DQHUHQ7C2C1C": {
+      "meeting_unid": "DQ4NP660D8C6",
+      "name": "5A TSD Mission Moment - SSAB Exec Board.docx"
+    },
+    "DQSNB75F1703": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "TSD Curriculum Adoption Administrative Regulation 12.17.25..docx"
+    },
+    "DQSNB95F18A1": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "K-8 Literacy Adoption Timeline.docx"
+    },
+    "DQSUPY7D15E2": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.b. NOVA - 2526-20 BP Abatement Rec Letter 2026.pdf"
+    },
+    "DQSUQ27D17BD": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.b. RFP 2526-20 - BOND - Boulan Park Asbestos Abatement - 1 2026 Rec.docx"
+    },
+    "DQSUQ47D1A04": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.b. RFP 2526-20 - BOND - 2026 Boulan Park Abatement BID TAB.pdf"
+    },
+    "DQSUQ87D1FF4": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.c. RFP 2526-23 - BOND - Athens Front Aux Lot Bid Rec 1 2026.docx"
+    },
+    "DQSUQB7D2274": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.c. Bid Tab - RFP #2526-23 Athens High School Front Auxiliary Parking Lot.pdf"
+    },
+    "DQSUQE7D2651": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.c. RFP 2526-23 - Lecole Planners Rec - AHS Aux Lot 1 2026.pdf"
+    },
+    "DQWTEQ770ABE": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.a. Flooring 3742_001.pdf"
+    },
+    "DQWTEU770D90": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.a. RFP 2526-15  - BSSF - Flooring Bid Tab 2 2026.pdf"
+    },
+    "DQWTMJ780A17": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "3.a. RFP 2526-15 - BSSF - Flooring Replacement Bid Rec 2 2026.docx"
+    },
+    "DQZR8S6CCC34": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "TSD Enhancement Millage August 2026.pptx"
+    },
+    "DQZR8X6CD24D": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "TSD Enhancement Millage Brief.docx"
+    },
+    "DRDSK2726015": {
+      "meeting_unid": "DQJK9C50A05E",
+      "name": "Middle School Math Data 2.3.26 Workshop.pdf"
+    },
+    "DRFLR757C44C": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "M011326SpBdMtg.docx"
+    },
+    "DRFLRB57C8CA": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "M011326ClosedSession.docx"
+    },
+    "DRFLRG57CE2B": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "M011326BdWkshp.docx"
+    },
+    "DRFM2S592BB7": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8A Countywide EM Intro.docx"
+    },
+    "DRFPTH662AE1": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.B. Summary Resolution Requesting Enhancement Millage Proposal (002).docx"
+    },
+    "DRFPTP662DCB": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.A. Full Resolution Requesting Enhancement Millage Proposal.docx"
+    },
+    "DRFPU3663F5E": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "TSD Enhancement Millage August 2026.pptx"
+    },
+    "DRFPU5664062": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "EnhancementMillage ppt.pdf"
+    },
+    "DRFPUQ66561A": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.C. Resolution Flooring Replacement.docx"
+    },
+    "DRFPUT665BB3": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.C. RFP 2526-15 - BSSF - Flooring Replacement Bid Rec 2 2026.docx"
+    },
+    "DRFPUV665D87": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.C. RFP 2526-15  - BSSF - Flooring Bid Tab 2 2026.pdf"
+    },
+    "DRFPUX665EF0": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.C. Flooring 3742_001.pdf"
+    },
+    "DRFPW96677D2": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.D. Resolution Asbestos Abatement.docx"
+    },
+    "DRFPWF667D30": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.D. RFP 2526-20 - BOND - Boulan Park Asbestos Abatement - 1 2026 Rec.docx"
+    },
+    "DRFPWH667EFA": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.D. RFP 2526-20 - BOND - 2026 Boulan Park Abatement BID TAB.pdf"
+    },
+    "DRFPWK66811B": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.D. NOVA - 2526-20 BP Abatement Rec Letter 2026.pdf"
+    },
+    "DRFPYM669936": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.E.  Resolution Athens Aux Parking Lot.docx"
+    },
+    "DRFPYR669CC1": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.E. RFP 2526-23 - BOND - Athens Front Aux Lot Bid Rec 1 2026.docx"
+    },
+    "DRFPYT669DF9": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.E. Bid Tab - RFP #2526-23 Athens High School Front Auxiliary Parking Lot.pdf"
+    },
+    "DRFPYX669F0F": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "8.E.  RFP 2526-23 - Lecole Planners Rec - AHS Aux Lot 1 2026.pdf"
+    },
+    "DRLHTJ4A0959": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "M012026Org_Reg_BdMtg.docx"
+    },
+    "DRLLNF575C5A": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "2A All state list fall 2025.docx"
+    },
+    "DRLLNV576D3E": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "2B TSD Mission Moment - SchroederStudentEssay.docx"
+    },
+    "DRLLP85779A7": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "December 2025 Treasurers Letter.pdf"
+    },
+    "DRLLPA577B78": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "December 2025 Wire Transfers.pdf"
+    },
+    "DRLLPC577CC6": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "December 2025 P Card Report.pdf"
+    },
+    "DRLLPE578012": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "December 2025 Financial Statements.pdf"
+    },
+    "DRLLPK5786CE": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "December 2025 - Check Register.pdf"
+    },
+    "DRLLPM57896B": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "December 2025 ACH Report.pdf"
+    },
+    "DRLQXB6B5982": {
+      "meeting_unid": "DQJK9Z50A633",
+      "name": "5 ConsentRes.docx"
+    },
+    "DRNTP57846F7": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "TSD_AI_Guidance_2026_Executive_Summary.pptx"
+    },
+    "DRNTPS785EF6": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.a. Letter of Recommendation - RFP2526-24UPS.docx"
+    },
+    "DRNTPU786199": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.a. Letter of Recommendation - RFP2526-27NetworkEquip.docx"
+    },
+    "DRNTPX7863B1": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.a. Bid Tabulation - RFPs 2526-24, 26 & 27 022326.pdf"
+    },
+    "DRNTQ27868D5": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.c. RFP 2526-22 BOND - THS Running Track Replacement Bid Rec - 2 2026.docx"
+    },
+    "DRNTQ5786B9B": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.c. RFP 2526-22 BOND - THS Running Track Replacement Bid Summary - 2 2026.pdf"
+    },
+    "DRPRKZ6E70AE": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.b. BP#7 Boulan Middle School - Award Rec 2.26.pdf"
+    },
+    "DRPRL36E721B": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "3.b. Bond - 2526-21 - Boulan Park Renovation Rec - 2 2026.docx"
+    },
+    "DRTQNK6A1F23": {
+      "meeting_unid": "DRLT5D74D946",
+      "name": "2026 BOE Comms Presentation.pptx"
+    },
+    "DRUSAZ71CFA7": {
+      "meeting_unid": "DRLTFB7722E5",
+      "name": "2026 Letter of Recommendation_Board Workshop.pdf"
+    },
+    "DRUSB371D16A": {
+      "meeting_unid": "DRLTFB7722E5",
+      "name": "TSD Guiding Princples for Furniture.pdf"
+    },
+    "DRVRVG6FD3F6": {
+      "meeting_unid": "DRLTFB7722E5",
+      "name": "20260302 - Troy School District Pupil Enrollment Projection Report.pdf"
+    },
+    "DRWJV84EFAD0": {
+      "meeting_unid": "DRLTFB7722E5",
+      "name": "General Fund - FY26 4-Year Projections.pdf"
+    },
+    "DRWP4X62DCAE": {
+      "meeting_unid": "DRLTFB7722E5",
+      "name": "TSD Budget Amendment #2 for 3-7-26.pdf"
+    },
+    "DS4L8254F53A": {
+      "meeting_unid": "DRUQY86B5A15",
+      "name": "3A ClosedSession_Negotiations.docx"
+    },
+    "DS4LB65523F7": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "2A All-State Band & Orchestra Students.docx"
+    },
+    "DS4MM25BD768": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "2B TSD Mission Moment - Athens Stdudents' Documentary.docx"
+    },
+    "DS4MNJ5C10B9": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "January 2026 Treasurers Letter.pdf"
+    },
+    "DS4MNL5C1252": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "January 2026 Wire Transfers.pdf"
+    },
+    "DS4MNQ5C1486": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "January 2026 P Card Report.pdf"
+    },
+    "DS4MNS5C1617": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "January 2026 Financial Statements.pdf"
+    },
+    "DS4MNW5C1782": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "January 2026 Check Register.pdf"
+    },
+    "DS4MNZ5C18A2": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "January 2026 ACH Report.pdf"
+    },
+    "DS4MPB5C2DB9": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "5.D. TSD Budget Amendment 2 for 3-17-26.pdf"
+    },
+    "DS4MPD5C3058": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "5.D. Resolutions Budget Amendment #2 03.17.26.pdf"
+    },
+    "DS4MPK5C36AC": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "5ESchoolsClosedOpenEnroll_2026-2027.docx"
+    },
+    "DS4MPS5C3E0E": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "5F Sex Ed Advisory Board.rtf"
+    },
+    "DS4MPU5C400F": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "SEAB List 3.3.26 (003).docx"
+    },
+    "DS4MT75CBF43": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8A Enrollment Projections Intro.doc"
+    },
+    "DS4MTF5CC882": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.A. 20260302 - Troy School District Pupil Enrollment Projection Report.pdf"
+    },
+    "DS4N9Z5EEA7B": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.C. Resolution Boulan Park Renovation Project.docx"
+    },
+    "DS4NA65EF02B": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.C. Bond - 2526-21 - Boulan Park Renovation Rec 1 of 2 - Revised 3 2026.pdf"
+    },
+    "DS4NA85EF2BB": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.C. RFP 2526-21 - Boulan Park Reno - Locker Category Info Rec - 3 2026.docx"
+    },
+    "DS4NB35F124F": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.D. Resolution THS Stadium Paving and Track Replacement.docx"
+    },
+    "DS4NB75F1672": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.D. RFP 2526-22 BOND - THS Running Track Replacement Bid Rec - 3 2026 - Revised.pdf"
+    },
+    "DS4NB95F1795": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.D. RFP 2526-22 BOND  - THS Running Track BMB Rec - 3 2026.pdf"
+    },
+    "DS4NBE5F1F3F": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.E.  Resolution  Furniture Purchase.docx"
+    },
+    "DS4NBJ5F2299": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.E. 2026 Letter of Recommendation_Board Workshop.pdf"
+    },
+    "DS4NBL5F23C6": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "8.E. TSD Guiding Princples for Furniture.pdf"
+    },
+    "DS4RNJ6ED026": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "6 A ELEM-SEC hire list for Board 3.17.26.doc"
+    },
+    "DS5JAH4C3D83": {
+      "meeting_unid": "DRLTJU77A713",
+      "name": "5 ConsentRes.docx"
+    },
+    "DSRUPK7D0679": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "Sidewalk EASEMENT 22-1098.pdf"
+    },
+    "DSRUPM7D098E": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "UPDATED Highway Easement 22-1098.pdf"
+    },
+    "DSRVFR809223": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "Policy - Acceptable Use AI.pdf"
+    },
+    "DSRVFU809472": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "Policy - Facility Dogs.pdf"
+    },
+    "DSRVFW809732": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "March 2026 Spring Update.pdf"
+    },
+    "DSRVMB816290": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3A World Languages Levels 1-4.pptx"
+    },
+    "DSRVMD816499": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3A Carnegie Quote - French.pdf"
+    },
+    "DSRVMF816633": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3A Klett Quote - Spanish.pdf"
+    },
+    "DSRVMH8168C8": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3A Ltr of Rec - Teaching & Learning - World Languages.pdf"
+    },
+    "DSRVMK816AFC": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3A Vista Quote - German.pdf"
+    },
+    "DSRVMU8176D9": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3B Meet the New You.pdf"
+    },
+    "DSRVMW8178B0": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3B Ltr of Rec - Teaching & Learning -  Meet the New You.pdf"
+    },
+    "DSRVN5818087": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3C Code of Conduct and Athletic Handbook Review BOE April 2026.pptx"
+    },
+    "DSRVN781831E": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3C BOE DRAFT 25.26 TSD Student Code of Conduct.pdf"
+    },
+    "DSRVNA81867E": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3C DRAFT BOE TSD Athletic Handbook.pdf"
+    },
+    "DSRVNK819155": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3D 2026 Geometry BOE Presentation.pptx"
+    },
+    "DSRVNN8194BB": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3D Ltr of Rec - Teaching & Learning - Geo and Geo H.pdf"
+    },
+    "DSRVNR819835": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3D Estimate_65944_from_DeltaMath_Solutions_Inc.pdf"
+    },
+    "DSRVNT819A74": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "3D Matrix Imaging Solutions Quote.pdf"
+    },
+    "DSS44S09C5A8": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "BMB 2 of 3 BP#7 Boulan Middle School - Award Rec 3.26.pdf"
+    },
+    "DSS44U09C86E": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "Bond - 2526-21 - Boulan Park Renovation Rec 2 of 3- 2 2026.docx"
+    },
+    "DSS45309D133": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "Recommendation Letter Final - RFP #2526-28 THS Classroom Remodel Baker Vestibule Barnard  Bemis Operable Partition (002).pdf"
+    },
+    "DSS45509D3A7": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "RFP 2526-28- BSSF - THS Clasroom- Baker Vesituble- Barnard-Bemis Operable Wall Bid Rec.docx"
+    },
+    "DSWJR44E600C": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "3.B. Resolution to Authorize Condemnation.docx"
+    },
+    "DSWJR84E63B7": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "3.B. Declaration of Taking Baig Easements (Troy School District)(287251943.1).pdf"
+    },
+    "DSWJSR4E9C05": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "4A Reschedule May 5 Workshop to April 28.doc"
+    },
+    "DSWQDZ68E053": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "3.A. Resolution to Authorize SidewalkHighwayEasements.docx"
+    },
+    "DSXJAQ4C459A": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "3.A. Troy - Resolution for  Sidewalk and Highway Easements - Board of Road Commissioners(287269816.1).pdf"
+    },
+    "DSXJB34C51EB": {
+      "meeting_unid": "DSHMVU5D2395",
+      "name": "3.B. Resolution Authorizing Condemnation - Baig property (Troy School District) v2(287252006.2).pdf"
+    },
+    "DSXPWP66A177": {
+      "meeting_unid": "DS9LBG55BDB5",
+      "name": "MS Math Update BOE 4.6.26.pdf"
+    },
+    "DT5MG95ADDDD": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "5G SecondReadingAdoption Policies.doc"
+    },
+    "DT7LBV55D02E": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "2A Teacher of the Year Intro2026.docx"
+    },
+    "DT7LC955DE15": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "2B TSD Mission Moment-ShamrockShakedown.docx"
+    },
+    "DT7LEG5631BA": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "February 2026 Treasurers Letter.pdf"
+    },
+    "DT7LEJ56332D": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "February 2026 Wire Transfers.pdf"
+    },
+    "DT7LEL56363B": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "February 2026 Financial Statements.pdf"
+    },
+    "DT7LEN5638B8": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "February 2026 P Card Report.pdf"
+    },
+    "DT7LEQ5639AF": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "February 2026 ACH Report.pdf"
+    },
+    "DT7LEZ564561": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "March 2026 Spring Update.pdf"
+    },
+    "DT7LFD56544E": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8000.01 - Acceptable Use.pdf"
+    },
+    "DT7LFF565598": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "Policy - Facility Dogs.pdf"
+    },
+    "DT7LFV566693": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "5.H. Resolution Bid Pack E-Rate Network Equip.docx"
+    },
+    "DT7LFX5667D8": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "5.H. 031726 Letter of Recommendation - RFP2526-27NetworkEquip.docx"
+    },
+    "DT7LUE583BE8": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3A Ltr of Rec - Teaching & Learning - World Languages.pdf"
+    },
+    "DT7LUJ5840D6": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3A Klett Quote - Spanish.pdf"
+    },
+    "DT7LUL584220": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3A Carnegie Quote - French.pdf"
+    },
+    "DT7LUN58438E": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3A Vista Quote - German.pdf"
+    },
+    "DT7LUZ585131": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3D Ltr of Rec - Teaching & Learning - Geo and Geo H.pdf"
+    },
+    "DT7LV35853C4": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3D Matrix Imaging Solutions Quote.pdf"
+    },
+    "DT7LV85855D4": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3D Estimate_65944_from_DeltaMath_Solutions_Inc.pdf"
+    },
+    "DT7LVG5864E7": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3B Ltr of Rec - Teaching & Learning -  Meet the New You.pdf"
+    },
+    "DT7LVL586648": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3B Meet the New You.pdf"
+    },
+    "DT7LY258C4AE": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "5 ConsentRes.doc"
+    },
+    "DT7RH76E0513": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "M030326BdWkshp.docx"
+    },
+    "DT7RHP6E0FAB": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "M031726SpBdMtg.docx"
+    },
+    "DT7RHZ6E1DA1": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "M031726BdMtg.docx"
+    },
+    "DT8NFT5FC422": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8.A. Resolution Boulan Park Renovation Project 2.docx"
+    },
+    "DT8NFZ5FCAFB": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8.A. Bond - 2526-21 - Boulan Park Renovation Rec 2 of 3- 2 2026.docx"
+    },
+    "DT8NG35FCCAF": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8.A. BMB 2 of 3 BP#7 Boulan Middle School - Award Rec 3.26.pdf"
+    },
+    "DT8NG95FD39E": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8.B. Resolution THS Barnard Bemis Baker Renovation.docx"
+    },
+    "DT8NGD5FD755": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8.B. Recommendation Letter Final - RFP #2526-28 THS Classroom Remodel Baker Vestibule Barnard  Bemis Operable Partition (002).pdf"
+    },
+    "DT8NGF5FD847": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "8.B. RFP 2526-28- BSSF - THS Clasroom- Baker Vesituble- Barnard-Bemis Operable Wall Bid Rec.docx"
+    },
+    "DT8NH35FF141": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "08 Feb 2026 - Check Register.pdf"
+    },
+    "DT8NHB5F681A": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3C Code of Conduct and Athletic Handbook Review BOE April 2026.pptx"
+    },
+    "DT8NHL5F77B2": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "3C DRAFT BOE TSD Athletic Handbook.pdf"
+    },
+    "DTCL9G55769A": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "CODE OF CONDUCT DRAFT.pdf"
+    },
+    "DTCQDQ68D60D": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "M031726ClosedSession.docx"
+    },
+    "DTCQGD6938F6": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "M030726BdRetreat.docx"
+    },
+    "DTCQW96B3F23": {
+      "meeting_unid": "DSWQXY6B83BF",
+      "name": "2C Autism Acceptance Month.docx"
+    },
+    "DTEQAX686CDD": {
+      "meeting_unid": "DTCSKW731F25",
+      "name": "3A ClosedSession_Negotiations.docx"
+    },
+    "DTEQVS6B2FA4": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "2.a. Bond - 2526-21 - Boulan Park Renovation Rec 3 of 3- 4 2026.docx"
+    },
+    "DTEQVU6B314E": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "2.a.  BP#7 Boulan Middle School - Award Rec 4.22.pdf"
+    },
+    "DTEQWC6B4524": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "2.b. TROY SCHL ROB 4.7.26 (27 F6A VAN).pdf"
+    },
+    "DTEQWE6B4695": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "2.b. 2026 Vehicle Replacement Request - delivery trucks - 4 2026.pdf"
+    },
+    "DTERPJ6EF54D": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Secondary Support-26-27 Parent Letter.pdf"
+    },
+    "DTFHGF486B99": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "BOE Literacy Pilots Update.pdf"
+    },
+    "DTFKWZ53ED35": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Final LiteracyVision Statement.docx"
+    },
+    "DTFKXG53F741": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Key Troy School District K.pdf"
+    },
+    "DTFKXS540207": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Elementary Reading Review Rubric.docx"
+    },
+    "DTFKYP542BE5": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Curiculum Review Rubric.pdf"
+    },
+    "DTFKYW5435B6": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Final Collaborative Quote.pdf"
+    },
+    "DTFKYY543746": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "Section_35m_Ranking_Tier_1_Materials_and_Series.pdf"
+    },
+    "DTKRKG6E5D73": {
+      "meeting_unid": "DTCSKW731F25",
+      "name": "4A TEA CONTRACT Approval 2028-2030.doc"
+    },
+    "DTSRGU6DFB60": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M040726SpBdMtg.docx"
+    },
+    "DTSRXW702DFE": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M042126BdMtg.docx"
+    },
+    "DTSRY37035F5": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M042826ClosedSession.docx"
+    },
+    "DTSS76713FF4": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M042826BdWkshp.docx"
+    },
+    "DTSSLH6FBD11": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M040726BdWkshp.docx"
+    },
+    "DTSSLM6FC577": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M041426SpBdMtg.docx"
+    },
+    "DTSSNU703216": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "M042826SpBdMtg.docx"
+    },
+    "DU3RTG6F8950": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "8.A. Resolution Boulan Park Renovation Project 3.docx"
+    },
+    "DU3RTK6F8CB0": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "8.A. Bond - 2526-21 - Boulan Park Renovation Rec 3 of 3- 4 2026.docx"
+    },
+    "DU3RTL6F8D75": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "8.A.  BP#7 Boulan Middle School - Award Rec 4.22.pdf"
+    },
+    "DU3RUM6FB454": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "8.B. Resolution Operations Vehicle Purchase.docx"
+    },
+    "DU3RUR6FB950": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "8.B. TROY SCHL ROB 4.7.26 (27 F6A VAN).pdf"
+    },
+    "DU3RUS6FBAED": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "8.B. 2026 Vehicle Replacement Request - delivery trucks - 4 2026.pdf"
+    },
+    "DU3RYB703DA6": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "IA 2026-27 Preliminary Tuition by district - 5.13.26.pdf"
+    },
+    "DU3RYJ7046E3": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "International Academy - Final 25-26 and Original 26-27 - 5.13.26.pdf"
+    },
+    "DU3RYK704867": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "IA Budget Memo 25-26 and 26-27 - 5.13.26.pdf"
+    },
+    "DU3RYR704D7A": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "LEA Board Resolution Example FY27.docx"
+    },
+    "DU3RZX707B6F": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "5K IA Budget Resolution  051926.docx"
+    },
+    "DU3S2A7088C7": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "Transmittal Letter for FY27 Proposed Budget Documents.pdf"
+    },
+    "DU3S2C708B3D": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "FY27 Budget Book Combined File - External.pdf"
+    },
+    "DU3S2F708DDF": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "Budget Resolution FY27 - OS General Fund Budget - Support.docx"
+    },
+    "DU3S8B716AB0": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "5.J. Resolution Public Hearing 5 19 26.docx"
+    },
+    "DU3SPG73A0F2": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "09 March 2026 Treasurers Letter.pdf"
+    },
+    "DU3SPJ73A3EF": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "09 Mar 2026 - Check Register.pdf"
+    },
+    "DU3SPJ73A634": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "09 March 2026 - ACH Report.pdf"
+    },
+    "DU3SPK73A769": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "09 March 2026 - Financial Statements.pdf"
+    },
+    "DU3SPL73A56A": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "09 Mar 2026 - Wire Transfers.pdf"
+    },
+    "DU3SPV73B1B1": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "March 2026 P Card Report.pdf"
+    },
+    "DU7NT2616859": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "Final Collaborative Quote.pdf"
+    },
+    "DU7NT46169CF": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "A&L.pdf"
+    },
+    "DU7NT6616B61": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "Kiddom.pdf"
+    },
+    "DU7NT86166D6": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "Ltr of Rec - Teaching & Learning - K-8 Literacy Pilots.pdf"
+    },
+    "DU7NTL616CCB": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "EL PD.pdf"
+    },
+    "DU7PMQ654F7D": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "5 ConsentRes.doc"
+    },
+    "DU8SKB7306F4": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "10a Oakland Schools Bienniel Election 2026.docx"
+    },
+    "DU8SMN7356D9": {
+      "meeting_unid": "DSWSFC7243FE",
+      "name": "5I ISD Budget Resolution  051926.docx"
+    },
+    "DUGVME81663F": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.a. 2214499261 - Troy MBA Staff Refresh, v3.pdf"
+    },
+    "DUGVMF81649A": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.a. 5.20.2026 Device Refresh Proposal.docx"
+    },
+    "DUGVMG81680B": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.a. 2214499264 - Staff iPad refresh for Troy School District.pdf"
+    },
+    "DUGVMH8169BE": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.a. 2214499269 - Troy iPad Student refresh.pdf"
+    },
+    "DUGVN881840E": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.b. New bus purchasing information.pdf"
+    },
+    "DUGVNA818699": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.b. Price Comparison Report.pdf"
+    },
+    "DUGVNM819314": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.d. Contract Renewal Document.pdf"
+    },
+    "DUGVRN8205A4": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2026 Spring - Proposed amendments to the Bylaws for Member Consideration - May 2026.pdf"
+    },
+    "DUGVRQ820803": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2026 Spring - Bylaws - Full Document Showing The Proposed Amendments - May 2026.pdf"
+    },
+    "DUGVRT820B43": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2026 Spring Ballot - Proposed BYLAWS Changes - May 2026.pdf"
+    },
+    "DUGVRX821033": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2026 Spring - Proposed New Resolution for Member Consideration - May 2026.pdf"
+    },
+    "DUGVS2821218": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2026 Spring Ballot - Proposed RESOLUTION Adoption.pdf"
+    },
+    "DUHJYV4F849C": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.c. Printer Purchase.pdf"
+    },
+    "DUHUWL7E0E45": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.d. Chartwell TSD Board Workshop 6.1.2026.pdf"
+    },
+    "DUHUWR7E1461": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.e. TSD Budget Amendment 3 for 6-1-26.pdf"
+    },
+    "DUHUWW7E1A90": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "2.f. Resolution Establishing Common Debt Retirement Fund -  Troy Public Schools(50315600.1).docx"
+    },
+    "DUUJ5E4B7E2B": {
+      "meeting_unid": "DSWSCD7204AE",
+      "name": "MS Math Update BOE 4.28.26.pdf"
+    },
+    "DUUPG764828F": {
+      "meeting_unid": "DTCSXG74D10A",
+      "name": "Board_Budget_Reduction_Communication 6-1-26.pdf"
+    },
+    "DUWRLK6E863B": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "M051926BdMtg.docx"
+    },
+    "DUWSBX71F2FC": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6d MHSAA Resolution26-27.pdf"
+    },
+    "DUWSDW723C8D": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6h 2026 Spring Ballot - Proposed BYLAWS Changes - May 2026.pdf"
+    },
+    "DUWSDY723EF3": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "2026 Spring - Bylaws - Full Document Showing The Proposed Amendments - May 2026.pdf"
+    },
+    "DUWSEA7249DB": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6I 2026 Spring Ballot - Proposed RESOLUTION Adoption.pdf"
+    },
+    "DUWSEB724B66": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6I 2026 Spring - Proposed New Resolution for Member Consideration - May 2026.pdf"
+    },
+    "DUWSEN7258C7": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6J Ltr of Rec - Teaching & Learning - AP Precalc.docx"
+    },
+    "DUWSEP725A87": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "Athens AP Precalc.pdf"
+    },
+    "DUWSER725C26": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "Troy High AP Precalc.pdf"
+    },
+    "DUWSEV72616F": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "2026 AP Precalculus Textbook Adoption.docx"
+    },
+    "DUWSFJ727946": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "2026 Spring - Proposed amendments to the Bylaws for Member Consideration - May 2026.pdf"
+    },
+    "DUXKJ9520FE1": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "10 April 2026 Treasurers Letter.pdf"
+    },
+    "DUXKJA521159": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "10 April 2026 Wires Transfers.pdf"
+    },
+    "DUXKJJ521A44": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "10 April 2026 ACH Report.pdf"
+    },
+    "DUXKJK521BE4": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "10 April 2026 P Card Report.pdf"
+    },
+    "DUXKJL521C75": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "10 April 2026 Financial Statements.pdf"
+    },
+    "DUXKJM521D85": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "10 April 2026 - Check Register.pdf"
+    },
+    "DUY52Y0E3280": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "2.A. TSD Budget Amendment 3 & Proposed for 6-16-26.pdf"
+    },
+    "DUY5390E3D37": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6.C. Resolution food svcs contract renewal.docx"
+    },
+    "DUY53C0E4048": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6.C. Contract Renewal Document.pdf"
+    },
+    "DUY53F0E43BD": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6.C. Chartwell TSD Board Workshop 6.1.2026.pdf"
+    },
+    "DUY53N0E4C13": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6.E. 25-26 Budget Amendment 3 Resolutions.pdf"
+    },
+    "DUY53W0E5567": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6.F. 26-27 Budget Adoption Resolutions.pdf"
+    },
+    "DUY54D0E6773": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6.G  Resolution Establishing Common Debt Retirement Fund -  Troy Public Schools(50315600.1).docx"
+    },
+    "DUY54Y0E7DC0": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.A. Resolution Apple Purchase.docx"
+    },
+    "DUY56W0EC621": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.A. 5.20.2026 Device Refresh Proposal.docx"
+    },
+    "DUY56Y0EC8F5": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.A. 2214499261 - Troy MBA Staff Refresh, v3.pdf"
+    },
+    "DUY5720ECB5A": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.A. 2214499264 - Staff iPad refresh for Troy School District.pdf"
+    },
+    "DUY5750ECDF0": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.A. 2214499269 - Troy iPad Student refresh.pdf"
+    },
+    "DUY57S0EE730": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.B. Resolution Bus Purchase.docx"
+    },
+    "DUY57V0EEAF3": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.B.  New bus purchasing information.pdf"
+    },
+    "DUY57X0EEC5D": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.B.  Price Comparison Report.pdf"
+    },
+    "DUY58H0F0272": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.C. Resolution New Smith Printers.docx"
+    },
+    "DUY58N0F0790": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "9.C. Printer Purchase.pdf"
+    },
+    "DV4LXK58B24B": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "3B Resolution to Pass 2026-27 School Aid Budget by July 1.docx"
+    },
+    "DV4QVM6B2A43": {
+      "meeting_unid": "DUVKDY517096",
+      "name": "6 ConsentRes.doc"
+    }
+  },
+  "meetings": {
+    "BS8HCG47B814": {
+      "date": "2020-09-01",
+      "name": "Special Meeting of the Board of Education 7:00 PM or Immediately Following Workshop"
+    },
+    "BS8J2E4B0B60": {
+      "date": "2020-07-21",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BSAM8859F82B": {
+      "date": "2020-08-05",
+      "name": "Board of Education Workshop 4:30 PM"
+    },
+    "BSAMX95D5801": {
+      "date": "2020-08-12",
+      "name": "Special Meeting of the Board of Education 4:00 PM"
+    },
+    "BSFNJT5FC991": {
+      "date": "2020-08-18",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BSWJQ84E4126": {
+      "date": "2020-09-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BT4J5D4B7DF9": {
+      "date": "2020-10-06",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BT4JBS4C6DA5": {
+      "date": "2020-09-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BT9RCW6CEC23": {
+      "date": "2020-06-16",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BT9RN26DC01F": {
+      "date": "2020-06-16",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BT9RP86E0517": {
+      "date": "2020-04-21",
+      "name": "Board of Education Workshop"
+    },
+    "BT9RPW6E26A8": {
+      "date": "2020-02-18",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BT9RQR6E4871": {
+      "date": "2020-02-25",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BT9RRA6E7DD3": {
+      "date": "2020-03-17",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BT9RRS6E9B98": {
+      "date": "2020-03-23",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BT9RS36EB20D": {
+      "date": "2020-04-14",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BT9RSH6EDBB2": {
+      "date": "2020-04-21",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BT9RTL6F09D4": {
+      "date": "2020-05-19",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BT9RV36F3D17": {
+      "date": "2020-01-21",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BT9RVK6F56AB": {
+      "date": "2020-02-11",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BT9RW66F72BF": {
+      "date": "2020-01-07",
+      "name": "Board of Education Workshop"
+    },
+    "BT9S58708B72": {
+      "date": "2020-02-11",
+      "name": "Board of Education Workshop"
+    },
+    "BT9S6C70B831": {
+      "date": "2020-03-03",
+      "name": "Board of Education Workshop"
+    },
+    "BT9S6X70D8CC": {
+      "date": "2020-04-14",
+      "name": "Board of Education Workshop"
+    },
+    "BT9S7M7105F0": {
+      "date": "2020-05-05",
+      "name": "Board of Education Workshop"
+    },
+    "BTAU647A7947": {
+      "date": "2013-02-05",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAU9R7B025F": {
+      "date": "2013-04-09",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAUBP7B4AD6": {
+      "date": "2013-01-15",
+      "name": "Organizational Regular Meeting of the Board of Education"
+    },
+    "BTAUEY7B96C1": {
+      "date": "2013-01-31",
+      "name": "Special (Retreat) Meeting of the Board of Education"
+    },
+    "BTAUFG7BD911": {
+      "date": "2013-03-19",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAUGX7C0F0A": {
+      "date": "2013-04-23",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAUJ27C3833": {
+      "date": "2013-05-07",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAUN57CD266": {
+      "date": "2013-05-28",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAUR67D4446": {
+      "date": "2013-06-04",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAUS47D66F9": {
+      "date": "2013-07-09",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAUTK7D9D94": {
+      "date": "2013-08-06",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAUVB7DE011": {
+      "date": "2013-08-21",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAUWD7E076E": {
+      "date": "2013-09-03",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAV5T7E1EA2": {
+      "date": "2013-09-17",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAV687E4190": {
+      "date": "2013-10-01",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAV6R7E6B68": {
+      "date": "2013-10-15",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAV727E9B0B": {
+      "date": "2013-11-12",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAV7A7EABBD": {
+      "date": "2013-12-03",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTAV7H7EC9C7": {
+      "date": "2013-01-15",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTAV947F284A": {
+      "date": "2013-08-06",
+      "name": "Board of Education (Special) Workshop"
+    },
+    "BTAV9U7F881B": {
+      "date": "2013-01-22",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVA77FB04F": {
+      "date": "2013-02-12",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVDK7FE334": {
+      "date": "2013-03-19",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVDX80023D": {
+      "date": "2013-04-23",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVEW802626": {
+      "date": "2013-05-21",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVFA804131": {
+      "date": "2013-06-11",
+      "name": "Board of Education Workshop (Rescheduled)"
+    },
+    "BTAVFL807B4D": {
+      "date": "2013-06-18",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVFT809527": {
+      "date": "2013-09-17",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVGW80BDD1": {
+      "date": "2013-10-15",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVHR80DC34": {
+      "date": "2013-11-19",
+      "name": "Board of Education Workshop"
+    },
+    "BTAVJG80F916": {
+      "date": "2013-12-17",
+      "name": "Board of Education Workshop"
+    },
+    "BTFPL6643640": {
+      "date": "2014-01-14",
+      "name": "Organizational Regular Meeting of the Board of Education"
+    },
+    "BTFPP5646FF2": {
+      "date": "2014-02-04",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFPR664ACD7": {
+      "date": "2014-03-04",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFPSZ64EA0F": {
+      "date": "2014-04-01",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFPTW650639": {
+      "date": "2014-05-06",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFPWX654A7B": {
+      "date": "2014-05-15",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTFPYB6578D4": {
+      "date": "2014-05-20",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTFQ6N6590FD": {
+      "date": "2014-06-03",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQ8365CFFD": {
+      "date": "2014-06-10",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTFQBU65FC78": {
+      "date": "2014-06-17",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQCC66117D": {
+      "date": "2014-07-08",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQD5663B7A": {
+      "date": "2014-08-05",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQE26654CC": {
+      "date": "2014-09-02",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQEQ6676C3": {
+      "date": "2014-10-07",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQG566950F": {
+      "date": "2014-11-11",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFQGS66B70E": {
+      "date": "2014-12-02",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTFSRJ71156C": {
+      "date": "2020-10-20",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BTFSUY747241": {
+      "date": "2014-03-18",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTFSXY74E321": {
+      "date": "2014-01-07",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFSZN751E24": {
+      "date": "2014-01-20",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFT3P756EE8": {
+      "date": "2014-02-18",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFT4S7597CB": {
+      "date": "2014-03-25",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFT6G75D6BE": {
+      "date": "2014-04-21",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFT7H75FB76": {
+      "date": "2014-04-23",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFUZ67E6F32": {
+      "date": "2014-04-29",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTFV3Y7ED9A2": {
+      "date": "2014-01-21",
+      "name": "Board of Education Workshop"
+    },
+    "BTFV5F7F102D": {
+      "date": "2014-02-11",
+      "name": "Board of Education Workshop"
+    },
+    "BTFV6F7F353E": {
+      "date": "2014-03-18",
+      "name": "Board of Education Workshop"
+    },
+    "BTFV7J7F5F2E": {
+      "date": "2014-04-22",
+      "name": "Board of Education Workshop"
+    },
+    "BTFV8J7F83FA": {
+      "date": "2014-05-20",
+      "name": "Board of Education Workshop"
+    },
+    "BTFV9E7FA4A3": {
+      "date": "2014-06-10",
+      "name": "Board of Education Workshop"
+    },
+    "BTFV9W7FB81C": {
+      "date": "2014-09-16",
+      "name": "Board of Education Workshop"
+    },
+    "BTFVAJ7FCF92": {
+      "date": "2014-10-21",
+      "name": "Board of Education Workshop"
+    },
+    "BTFVB67FE736": {
+      "date": "2014-11-18",
+      "name": "Board of Education Workshop"
+    },
+    "BTFVD480015E": {
+      "date": "2014-12-16",
+      "name": "Board of Education Workshop"
+    },
+    "BTH3XK0903E2": {
+      "date": "2015-01-13",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH3XY091314": {
+      "date": "2015-02-10",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH3YV0935C8": {
+      "date": "2015-02-24",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH3ZH094D29": {
+      "date": "2015-03-03",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH43L099AAC": {
+      "date": "2015-04-14",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH44509AF8A": {
+      "date": "2015-05-05",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH45C09DCF8": {
+      "date": "2015-06-02",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH46C0A0257": {
+      "date": "2015-06-16",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTH47F0A2B20": {
+      "date": "2015-06-23",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH4850A459D": {
+      "date": "2015-07-07",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH48T0A5E6A": {
+      "date": "2015-08-04",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH4AC0A973D": {
+      "date": "2015-09-15",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH4AR0AA7E0": {
+      "date": "2015-10-20",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH4BF0AC135": {
+      "date": "2015-11-17",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTH4C20AD826": {
+      "date": "2015-12-15",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTHSMW65F967": {
+      "date": "2015-01-20",
+      "name": "Board of Education Workshop"
+    },
+    "BTJLP25752BB": {
+      "date": "2015-01-24",
+      "name": "Board of Education Workshop"
+    },
+    "BTJLQB578358": {
+      "date": "2015-02-10",
+      "name": "Board of Education Workshop"
+    },
+    "BTJLQN57990A": {
+      "date": "2015-03-17",
+      "name": "Board of Education Workshop"
+    },
+    "BTJLSG57F40D": {
+      "date": "2015-07-07",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTJMWN5D3DD0": {
+      "date": "2015-08-04",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTJMX95D57B9": {
+      "date": "2015-11-17",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTJMYP5D87CF": {
+      "date": "2015-04-21",
+      "name": "Board of Education Workshop"
+    },
+    "BTJMZD5DA854": {
+      "date": "2015-05-19",
+      "name": "Board of Education Workshop"
+    },
+    "BTJN3F5DB6F1": {
+      "date": "2015-06-09",
+      "name": "Board of Education Workshop"
+    },
+    "BTJN6P5DF72D": {
+      "date": "2015-06-16",
+      "name": "Board of Education Workshop"
+    },
+    "BTJNEH5F93A0": {
+      "date": "2015-09-01",
+      "name": "Board of Education Workshop"
+    },
+    "BTJNFM5FBBC8": {
+      "date": "2015-10-06",
+      "name": "Board of Education Workshop"
+    },
+    "BTJNG45FCF8B": {
+      "date": "2015-11-10",
+      "name": "Board of Education Workshop"
+    },
+    "BTJNHM5FEDA4": {
+      "date": "2015-12-01",
+      "name": "Board of Education Workshop"
+    },
+    "BTJP6Z632B01": {
+      "date": "2016-01-19",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJP826350CC": {
+      "date": "2016-02-02",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTJP9F637DF4": {
+      "date": "2016-02-16",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJPN76563E7": {
+      "date": "2016-03-15",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJPP6658129": {
+      "date": "2016-04-19",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJQCN6599D3": {
+      "date": "2016-05-17",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJQD365ACC1": {
+      "date": "2016-06-07",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJQDS65CAF0": {
+      "date": "2016-06-21",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJQE765E43D": {
+      "date": "2016-06-21",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTJQEN6603C0": {
+      "date": "2016-07-19",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJRLQ6CB0DD": {
+      "date": "2016-08-16",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJTBH769330": {
+      "date": "2016-09-20",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJTCN76BF67": {
+      "date": "2016-10-18",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJTD576D004": {
+      "date": "2016-11-15",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJTDT76E9CF": {
+      "date": "2016-12-20",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTJTEE7700F8": {
+      "date": "2016-03-17",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTJTFB77225C": {
+      "date": "2016-07-19",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTJTGJ774FC2": {
+      "date": "2016-10-18",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTJTH9776B66": {
+      "date": "2016-01-12",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTHT778077": {
+      "date": "2016-02-02",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTJP77A020": {
+      "date": "2016-03-01",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTLL77E877": {
+      "date": "2016-03-17",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTMB7803FA": {
+      "date": "2016-04-12",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTMU781770": {
+      "date": "2016-05-03",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTND782AE9": {
+      "date": "2016-06-14",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTNV783C8D": {
+      "date": "2016-09-06",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTPF78530D": {
+      "date": "2016-10-04",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTPZ786791": {
+      "date": "2016-11-01",
+      "name": "Board of Education Workshop"
+    },
+    "BTJTQJ787BCA": {
+      "date": "2016-12-06",
+      "name": "Board of Education Workshop"
+    },
+    "BTKLBT55CFBA": {
+      "date": "2017-01-17",
+      "name": "Organizational Regular Meeting of the Board of Education"
+    },
+    "BTKLFR5613D4": {
+      "date": "2017-01-17",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTKM23589480": {
+      "date": "2017-02-07",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTKMC558AFFA": {
+      "date": "2017-02-28",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMCP58CBEC": {
+      "date": "2017-03-21",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMDG58E84C": {
+      "date": "2017-04-18",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMDZ590982": {
+      "date": "2017-05-16",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMF9592E99": {
+      "date": "2017-05-23",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMFS595211": {
+      "date": "2017-06-06",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMGA59754A": {
+      "date": "2017-06-20",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMGT59950B": {
+      "date": "2017-06-20",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTKMJX59B36E": {
+      "date": "2017-07-18",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTKMKL59CC08": {
+      "date": "2017-08-15",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTNKNR5226CF": {
+      "date": "2017-09-05",
+      "name": "Special Meeting of the Board of Education"
+    },
+    "BTNKTM525A55": {
+      "date": "2017-09-19",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTNKXA531D19": {
+      "date": "2017-11-21",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTNKYN539202": {
+      "date": "2017-12-19",
+      "name": "Regular Meeting of the Board of Education"
+    },
+    "BTNKZ553B01F": {
+      "date": "2017-01-10",
+      "name": "Board of Education Workshop"
+    },
+    "BTNKZP53D1E3": {
+      "date": "2017-02-07",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNBR5F2C9B": {
+      "date": "2017-03-07",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNGW5FEEE9": {
+      "date": "2017-04-11",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNHW601158": {
+      "date": "2017-05-02",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNJQ602CAC": {
+      "date": "2017-06-13",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNK96045EA": {
+      "date": "2017-09-05",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNQE60B6B0": {
+      "date": "2017-07-18",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTNNQT60DEDB": {
+      "date": "2017-08-15",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTNNRP610967": {
+      "date": "2017-10-03",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNSA61261C": {
+      "date": "2017-11-14",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNSS614C99": {
+      "date": "2017-12-05",
+      "name": "Board of Education Workshop"
+    },
+    "BTNNUJ61A1E3": {
+      "date": "2017-10-17",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTNNVD61C122": {
+      "date": "2017-11-28",
+      "name": "Special Board of Education Workshop"
+    },
+    "BTUVUZ82839D": {
+      "date": "2020-09-29",
+      "name": "Special Meeting of the Board of Education 4:00 PM"
+    },
+    "BTYNKA5FA544": {
+      "date": "2020-11-10",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BUKPGC5BF1CD": {
+      "date": "2010-12-31",
+      "name": "2010 Board Packets and Minutes"
+    },
+    "BUKRJX620487": {
+      "date": "2011-12-31",
+      "name": "2011 Board Packets and Minutes"
+    },
+    "BUKSB365D929": {
+      "date": "2012-12-31",
+      "name": "2012 Board Packets and Minutes"
+    },
+    "BUKT3368A136": {
+      "date": "2018-01-01",
+      "name": "2018 Board Packets and Minutes"
+    },
+    "BUKVSW7C9BD9": {
+      "date": "2019-01-01",
+      "name": "2019 Board Packets and Minutes"
+    },
+    "BUZQG968ADF4": {
+      "date": "2020-11-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BUZQPQ6A39A8": {
+      "date": "2020-12-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BW3SAF664056": {
+      "date": "2020-12-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BWE23D00326F": {
+      "date": "2020-12-18",
+      "name": "Special Meeting of the Board of Education 12:00 PM"
+    },
+    "BWQW29834901": {
+      "date": "2021-01-05",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BWZKSP51D65E": {
+      "date": "2021-01-12",
+      "name": "Special Workshop of the Board of Education 6:00 PM"
+    },
+    "BX2KND525D1C": {
+      "date": "2021-01-19",
+      "name": "Organizational and Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BX7RZW631E2D": {
+      "date": "2021-01-19",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "BXPRC76D4B41": {
+      "date": "2021-02-02",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BXWLW5586E4F": {
+      "date": "2021-02-23",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BY4RBE6ADE33": {
+      "date": "2021-02-19",
+      "name": "Special Board of Education Workshop 4:00 PM"
+    },
+    "BYJQV76A091A": {
+      "date": "2021-03-02",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BYPSGB6C3F00": {
+      "date": "2021-03-13",
+      "name": "Board of Education Winter Retreat 8:00 AM - 11:00 AM"
+    },
+    "BYXQGR64C8C6": {
+      "date": "2021-03-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "BYXQL364D829": {
+      "date": "2021-03-16",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "BZ5LNE566ED2": {
+      "date": "2021-04-06",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "BZLN4W5E2C26": {
+      "date": "2021-04-20",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C25JKW4D2387": {
+      "date": "2021-04-20",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "C2GJG34D0DA0": {
+      "date": "2021-05-04",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "C2VKF95199B1": {
+      "date": "2021-05-18",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C3DGYJ461824": {
+      "date": "2021-06-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "C3TQWG65499F": {
+      "date": "2021-06-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C3TR3G65C6E5": {
+      "date": "2021-06-15",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "C49RAV69F4A8": {
+      "date": "2021-06-23",
+      "name": "International Academy Government Council Meeting 6:00 PM"
+    },
+    "C4WG594219CB": {
+      "date": "2021-07-20",
+      "name": "Regular Meeting of the Board of Education 9:30 AM"
+    },
+    "C5SMJE4F0FA8": {
+      "date": "2021-08-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C6ESYY72838C": {
+      "date": "2021-09-07",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "C6UNYF5FEDA7": {
+      "date": "2021-09-21",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C7DLR957BF29": {
+      "date": "2021-10-05",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "C7RL4H549F8D": {
+      "date": "2021-10-19",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C8FKBB50C07B": {
+      "date": "2021-11-09",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "C8NQA266FB38": {
+      "date": "2021-11-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C9AS6B66BF2E": {
+      "date": "2021-12-07",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "C9FLSX57B723": {
+      "date": "2021-12-14",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "C9PUUJ7D62AB": {
+      "date": "2022-01-04",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CACSW773726A": {
+      "date": "2022-01-18",
+      "name": "Organizational and Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CB2JM94DD197": {
+      "date": "2022-02-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CBHL5Q54E337": {
+      "date": "2022-02-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CBWJPK4DBB37": {
+      "date": "2022-03-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CCBTMC74D5E3": {
+      "date": "2022-03-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CD2HCH47D24A": {
+      "date": "2022-04-05",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CDDKS9533C86": {
+      "date": "2022-04-19",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CDWTTF78E95F": {
+      "date": "2022-05-03",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CECQK2699E26": {
+      "date": "2022-05-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CF7GV7459B69": {
+      "date": "2022-06-14",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CFDR596C497A": {
+      "date": "2022-06-21",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CFFKL4512A93": {
+      "date": "2022-06-21",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "CGGKPM52DA61": {
+      "date": "2022-07-26",
+      "name": "Regular Meeting of the Board of Education 9:00 AM"
+    },
+    "CGR2330027BA": {
+      "date": "2022-07-29",
+      "name": "Special Meeting of the Board of Education 9:15 AM"
+    },
+    "CH7SEH72526C": {
+      "date": "2022-08-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CHMQUU69F0C1": {
+      "date": "2022-09-20",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CHTNJ45B804B": {
+      "date": "2022-09-06",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CJQPHW6495D8": {
+      "date": "2022-10-04",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CK3RLU6E903C": {
+      "date": "2022-10-18",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CKMJRA4E68A0": {
+      "date": "2022-11-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CL2PC263A2B7": {
+      "date": "2022-11-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CLNLD455FEE3": {
+      "date": "2022-12-06",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CLW5CP662455": {
+      "date": "2022-12-13",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CM3TZX79DCBD": {
+      "date": "2023-01-17",
+      "name": "Organizational and Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CMTJCC4C6101": {
+      "date": "2023-01-10",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CN8RU86F636C": {
+      "date": "2023-01-20",
+      "name": "Special Meeting of the Board of Education 1:00 PM"
+    },
+    "CNPMWJ58D601": {
+      "date": "2023-02-07",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CNTMG85B242D": {
+      "date": "2023-02-14",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CPHSC971FF70": {
+      "date": "2023-03-07",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CPHSLJ72FF06": {
+      "date": "2023-03-21",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CPHT6674FAFC": {
+      "date": "2023-03-11",
+      "name": "Board of Education Winter Retreat 9:00 AM"
+    },
+    "CQ8N3B5796F8": {
+      "date": "2023-04-04",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CQULFU55E40F": {
+      "date": "2023-04-18",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CRBNB759DD75": {
+      "date": "2023-05-02",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CRBP6E62ECA7": {
+      "date": "2023-05-02",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "CRNJAM4C4280": {
+      "date": "2023-05-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CSBPKV635E54": {
+      "date": "2023-06-06",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "CSBQ2T64582D": {
+      "date": "2023-06-06",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CSJRSR6B3383": {
+      "date": "2023-06-13",
+      "name": "Regular Meeting of the Board of Education 7:30 PM"
+    },
+    "CT6JQA4E4383": {
+      "date": "2023-06-28",
+      "name": "Special Meeting of the Board of Education 8:30 AM"
+    },
+    "CTMSBN6D701C": {
+      "date": "2023-07-18",
+      "name": "Regular Meeting of the Board of Education 9:30 AM"
+    },
+    "CUKN295D4265": {
+      "date": "2023-08-15",
+      "name": "Regular Meeting of the Board of Education 6:00 PM"
+    },
+    "CV8PPM61B8DC": {
+      "date": "2023-09-05",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CVDRP26E81BB": {
+      "date": "2023-09-05",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "CVDRRJ6F0A08": {
+      "date": "2023-09-19",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CW5KVR532B68": {
+      "date": "2023-10-03",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "CWGQKJ6624F4": {
+      "date": "2023-10-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CXDQYR6BA05B": {
+      "date": "2023-11-14",
+      "name": "Board of Education Workshop 7:00 P.M. (FOLLOWING SPECIAL MEETING)"
+    },
+    "CXDRAK6C0918": {
+      "date": "2023-11-14",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "CY2QAD678859": {
+      "date": "2023-12-05",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "CY2QAS6790B7": {
+      "date": "2023-12-05",
+      "name": "Board of Education Workshop 7:00 P.M. (FOLLOWING SPECIAL MEETING)"
+    },
+    "CYAJ2S4AEC43": {
+      "date": "2023-12-12",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CYPL3V54A634": {
+      "date": "2024-01-16",
+      "name": "Organizational and Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "CZ7JAX4C4E91": {
+      "date": "2024-01-09",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "D233KJ074128": {
+      "date": "2024-02-06",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "D2EQDD68C97D": {
+      "date": "2024-02-27",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D2VQGT689BE0": {
+      "date": "2024-03-05",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "D2VQH968A71C": {
+      "date": "2024-03-05",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "D35LBN553E71": {
+      "date": "2024-03-19",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D3WR5V6C4E63": {
+      "date": "2024-04-02",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "D46LSN572032": {
+      "date": "2024-04-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D4NKZE54493B": {
+      "date": "2024-05-21",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D4NL2L54567D": {
+      "date": "2024-05-07",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "D4NL2Z547270": {
+      "date": "2024-05-07",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "D5RJ554B74AD": {
+      "date": "2024-06-06",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "D5RJ5H4B7E30": {
+      "date": "2024-06-06",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "D65NST614C9F": {
+      "date": "2024-06-12",
+      "name": "Special Meeting of the Board of Education 8:00 AM"
+    },
+    "D68LKV56FC14": {
+      "date": "2024-06-20",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D6YNG25F8F2A": {
+      "date": "2024-07-16",
+      "name": "Regular Meeting of the Board of Education 9:30 AM"
+    },
+    "D77JF94CEFDB": {
+      "date": "2024-08-20",
+      "name": "Regular Meeting of the Board of Education 6:00 PM"
+    },
+    "D86P6563083F": {
+      "date": "2024-08-20",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "D8MLUV584EBB": {
+      "date": "2024-09-03",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "D8ZJ6849A156": {
+      "date": "2024-09-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D96RN96EC3DC": {
+      "date": "2024-10-15",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "D9GQ5L67A448": {
+      "date": "2024-10-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DAQK9F50C69C": {
+      "date": "2024-11-12",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DAQQBB687CE3": {
+      "date": "2024-11-19",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DBDPK364EF28": {
+      "date": "2024-12-03",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DBTMEY5AF5B3": {
+      "date": "2024-12-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DCRLWR58904A": {
+      "date": "2025-01-14",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DCRMZX5DBC57": {
+      "date": "2025-01-21",
+      "name": "Organizational and Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DDBPRZ65F158": {
+      "date": "2025-02-11",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DDSUUF7DBF46": {
+      "date": "2025-02-25",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DE8SWM74AFF0": {
+      "date": "2025-03-04",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DE8SXA74C8F9": {
+      "date": "2025-03-08",
+      "name": "Board of Education Winter Retreat 8:30 AM"
+    },
+    "DEQPJ46473D7": {
+      "date": "2025-03-18",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DF7TFZ773C76": {
+      "date": "2025-04-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DFKQ8C680D38": {
+      "date": "2025-04-22",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DFXJVD4F026C": {
+      "date": "2025-04-22",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "DG7NRV613F09": {
+      "date": "2025-05-06",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DG7PJD64BFBB": {
+      "date": "2025-05-20",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DH3PZC670712": {
+      "date": "2025-06-03",
+      "name": "Special Meeting of the Board of Education 5:00 PM"
+    },
+    "DH3Q7G6770D4": {
+      "date": "2025-06-03",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "DH4M3E59442C": {
+      "date": "2025-06-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DJER2D6BDDE8": {
+      "date": "2025-07-15",
+      "name": "Regular Meeting of the Board of Education 9:30 AM"
+    },
+    "DKJQLE69D189": {
+      "date": "2025-08-19",
+      "name": "Regular Meeting of the Board of Education 6:00 PM"
+    },
+    "DKYKGZ51E177": {
+      "date": "2025-09-02",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "DLDK8R50AA7F": {
+      "date": "2025-09-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DM2JSY4EA7F1": {
+      "date": "2025-10-07",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "DM2JVT4F11F3": {
+      "date": "2025-10-14",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DN6KUL539426": {
+      "date": "2025-11-11",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "DN6KWP53E3C6": {
+      "date": "2025-11-18",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DN6L2T547C02": {
+      "date": "2025-12-09",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "DN6L4B54B680": {
+      "date": "2026-01-13",
+      "name": "Board of Education Workshop 6:00 P.M."
+    },
+    "DN6L8N54D873": {
+      "date": "2025-12-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DQ4N6W5E576E": {
+      "date": "2026-01-13",
+      "name": "Special Meeting of the Board of Education 5:30 PM"
+    },
+    "DQ4NP660D8C6": {
+      "date": "2026-01-20",
+      "name": "Organizational and Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DQJK9C50A05E": {
+      "date": "2026-02-03",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DQJK9Z50A633": {
+      "date": "2026-02-24",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DRLT5D74D946": {
+      "date": "2026-03-03",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DRLTFB7722E5": {
+      "date": "2026-03-07",
+      "name": "Winter Board of Education Retreat 8:30 AM"
+    },
+    "DRLTJU77A713": {
+      "date": "2026-03-17",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DRUQY86B5A15": {
+      "date": "2026-03-17",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "DS9LBG55BDB5": {
+      "date": "2026-04-07",
+      "name": "Board of Education Workshop 6:15 PM"
+    },
+    "DS9LBW55C2FB": {
+      "date": "2026-04-14",
+      "name": "Special Meeting of the Board of Education 9:30 AM"
+    },
+    "DSHMVU5D2395": {
+      "date": "2026-04-07",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "DSWQXY6B83BF": {
+      "date": "2026-04-21",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DSWSCD7204AE": {
+      "date": "2026-04-28",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DSWSFC7243FE": {
+      "date": "2026-05-19",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DTCSKW731F25": {
+      "date": "2026-04-28",
+      "name": "Special Meeting of the Board of Education 5:30 PM"
+    },
+    "DTCSXG74D10A": {
+      "date": "2026-06-01",
+      "name": "Board of Education Workshop 6:00 PM"
+    },
+    "DUVKDY517096": {
+      "date": "2026-06-16",
+      "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DUXKH251DB3D": {
+      "date": "2026-06-16",
+      "name": "Special Meeting of the Board of Education 6:00 PM"
+    }
+  }
 }
