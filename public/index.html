@@ -92,6 +92,7 @@
       <button type="button" data-type="" class="on">All</button>
       <button type="button" data-type="Regular">Regular</button>
       <button type="button" data-type="Workshop">Workshop</button>
+      <button type="button" data-type="Special">Special</button>
     </div>
     <div class="dd" id="year-dd">
       <button type="button" class="dd-btn" id="year-btn" aria-expanded="false" aria-haspopup="true">All years ▾</button>
@@ -146,7 +147,8 @@ function esc(s){const d=document.createElement("div");d.textContent=s==null?"":S
 async function runSearch(query,k=8,filt){
   const type=filt?(filt.type||""):curType, years=filt?(filt.years||[]):curYears;
   const p=new URLSearchParams({q:query,k:String(k)});
-  if(type)p.set("types",type);
+  if(type==="Special")p.set("exclude","Regular,Workshop");
+  else if(type)p.set("types",type);
   if(years.length)p.set("years",years.join(","));
   const r=await fetch(`${SEARCH_EP}?${p}`,{headers:{accept:"application/json"}});
   if(!r.ok) throw new Error(`search ${r.status}`);

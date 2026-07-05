@@ -27,6 +27,8 @@ async function searchCore(env, query, k = 8, opts = {}) {
   if (types.length) { conds.push(`meeting_type IN (${types.map(() => "?").join(",")})`); binds.push(...types); }
   const years = (opts.years || []).filter(Boolean);
   if (years.length) { conds.push(`substr(meeting_date,1,4) IN (${years.map(() => "?").join(",")})`); binds.push(...years); }
+  const exclude = (opts.exclude || []).filter(Boolean);
+  if (exclude.length) { conds.push(`meeting_type NOT IN (${exclude.map(() => "?").join(",")})`); binds.push(...exclude); }
   const sql =
     "SELECT id,url,title,meeting_date,meeting_name,meeting_type,agenda_item,file," +
     "snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score " +
@@ -73,7 +75,7 @@ const TOOLS = [
       properties: {
         query: { type: "string" },
         k: { type: "number", description: "results (default 8, max 25)" },
-        meeting_type: { type: "string", description: "optional filter: Regular or Workshop (omit for all types)" },
+        meeting_type: { type: "string", description: "optional filter: Regular, Workshop, or Special (Special = all other meeting types); omit for all" },
         years: { type: "string", description: "optional filter: comma-separated years, e.g. 2025,2026 (omit for all years)" },
       },
       required: ["query"],
@@ -88,9 +90,11 @@ const TOOLS = [
 
 async function callTool(env, name, args) {
   if (name === "search") {
-    const types = args.meeting_type ? [String(args.meeting_type)] : [];
+    const mt = args.meeting_type ? String(args.meeting_type) : "";
+    const types = mt && mt !== "Special" ? [mt] : [];
+    const exclude = mt === "Special" ? ["Regular", "Workshop"] : [];
     const years = args.years ? String(args.years).split(",").map((s) => s.trim()).filter(Boolean) : [];
-    const rows = await searchCore(env, String(args.query || ""), Number(args.k) || 8, { types, years });
+    const rows = await searchCore(env, String(args.query || ""), Number(args.k) || 8, { types, years, exclude });
     const text = rows.length
       ? rows.map((r, i) => `[${i + 1}] id=${r.id}\n${r.title} — ${r.meeting_type || ""} ${r.meeting_date || ""}${r.agenda_item ? ` Item ${r.agenda_item}` : ""}\n${r.url}\n${r.snippet}`).join("\n\n")
       : `No results for "${args.query}".`;
@@ -143,7 +147,8 @@ export default {
         if (!q) return json({ error: "q required" }, 400);
         const types = (url.searchParams.get("types") || "").split(",").map((s) => s.trim()).filter(Boolean);
         const years = (url.searchParams.get("years") || "").split(",").map((s) => s.trim()).filter(Boolean);
-        return json({ query: q, results: await searchCore(env, q, k, { types, years }) });
+        const exclude = (url.searchParams.get("exclude") || "").split(",").map((s) => s.trim()).filter(Boolean);
+        return json({ query: q, results: await searchCore(env, q, k, { types, years, exclude }) });
       }
       if (p === "/api/fetch") {
         const fid = url.searchParams.get("id");
