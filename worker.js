@@ -26,7 +26,16 @@ async function searchCore(env, query, k = 8) {
     "snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score " +
     "FROM chunks WHERE chunks MATCH ?1 ORDER BY rank LIMIT ?2";
   const { results } = await env.DB.prepare(sql).bind(match, topK).all();
-  return (results || []).map((r) => ({ ...r, snippet: String(r.snippet || "") }));
+  const rows = (results || []).map((r) => ({ ...r, snippet: String(r.snippet || "") }));
+  // attach each doc's paragraph summary (if generated) for the result card
+  const urls = [...new Set(rows.map((r) => r.url))];
+  if (urls.length) {
+    const ph = urls.map(() => "?").join(",");
+    const { results: sums } = await env.DB.prepare(`SELECT url,paragraph FROM summaries WHERE url IN (${ph})`).bind(...urls).all();
+    const map = Object.fromEntries((sums || []).map((s) => [s.url, s.paragraph]));
+    rows.forEach((r) => { if (map[r.url]) r.summary = map[r.url]; });
+  }
+  return rows;
 }
 
 async function fetchCore(env, id) {
@@ -117,6 +126,12 @@ export default {
         if (!fid) return json({ error: "id required" }, 400);
         const doc = await fetchCore(env, fid);
         return doc ? json(doc) : json({ error: "not found" }, 404);
+      }
+      if (p === "/api/summary") {
+        const u = url.searchParams.get("url");
+        if (!u) return json({ error: "url required" }, 400);
+        const s = await env.DB.prepare("SELECT url,paragraph,page,verbose FROM summaries WHERE url=?1").bind(u).first();
+        return json(s || {});
       }
       if (p === "/doc") {
         // Serve an R2 object same-origin (avoids cross-origin iframe issues).

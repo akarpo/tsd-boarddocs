@@ -112,8 +112,7 @@
 
 <script>
 const SEARCH_EP="/api/search", FETCH_EP="/api/fetch";
-let lastQuery="", lastResults=[], SUMMARIES={}, curSum=null;
-fetch("/summaries.json").then(r=>r.ok?r.json():{}).then(s=>{SUMMARIES=s;showSamples();}).catch(()=>{});
+let lastQuery="", lastResults=[], curSum=null;
 const $=id=>document.getElementById(id);
 
 const BADGE={Workshop:"--b-workshop",Regular:"--b-regular",Special:"--b-special",Organizational:"--b-organizational",Retreat:"--b-retreat",Committee:"--b-meeting",Meeting:"--b-meeting"};
@@ -142,18 +141,10 @@ function render(results){
         (r.score!=null?`<span>· ${r.score.toFixed(2)}</span>`:"")+
       `</div>`+
       `<div class="title">${esc(r.title||r.file||r.id)}</div>`+
-      `<div class="snippet">${esc((SUMMARIES[r.url]&&SUMMARIES[r.url].paragraph)||r.snippet||"")}</div>`;
+      `<div class="snippet">${esc(r.summary||r.snippet||"")}</div>`;
     el.addEventListener("click",()=>openViewer(r));
     box.appendChild(el);
   });
-}
-
-function showSamples(){
-  const rs=Object.entries(SUMMARIES).map(([url,s])=>({url,...s,snippet:s.paragraph}));
-  if(!rs.length)return;
-  lastResults=rs; render(rs);
-  $("results").insertAdjacentHTML("afterbegin",'<p class="status">Sample summarized documents — click a card for the paragraph → single-page → verbose toggle + embedded PDF.</p>');
-  $("copy").hidden=false;
 }
 
 function setTier(t){
@@ -169,23 +160,24 @@ function openViewer(r){
     (r.agenda_item?`<span class="agenda">Item ${esc(r.agenda_item)}</span>`:"")+
     (r.meeting_name?`<span>${esc(r.meeting_name)}</span>`:"");
   $("v-title").textContent=r.title||r.file||r.id;
-  $("v-open").href=r.url||"#";
-  const S=SUMMARIES[r.url]; curSum=S||null;
-  const pills=$("v-pills");
-  if(S){
-    pills.innerHTML=[["paragraph","Paragraph"],["page","Single-page"],["verbose","Verbose"]]
-      .filter(([k])=>S[k]).map(([k,l])=>`<button class="pill" data-t="${k}">${l}</button>`).join("");
-    [...pills.children].forEach(b=>b.addEventListener("click",()=>setTier(b.dataset.t)));
-    setTier("paragraph");
-  }else{
-    pills.innerHTML=""; $("v-sumtext").textContent="AI summary not yet generated for this document.";
-  }
-  const pdf=(S&&S.pdf)||(/\.pdf($|\?)/i.test(r.url||"")?r.url:null);
-  const src=pdf?"/doc?key="+encodeURIComponent(decodeURIComponent(new URL(pdf).pathname).slice(1)):null;
-  if(src)$("v-open").href=src;
+  // summary tiers — fetched per document from D1
+  curSum=null; $("v-pills").innerHTML=""; $("v-sumtext").textContent="Loading summary…";
+  fetch("/api/summary?url="+encodeURIComponent(r.url||"")).then(x=>x.ok?x.json():{}).then(S=>{
+    if(S&&(S.paragraph||S.page||S.verbose)){
+      curSum=S;
+      $("v-pills").innerHTML=[["paragraph","Paragraph"],["page","Single-page"],["verbose","Verbose"]]
+        .filter(([k])=>S[k]).map(([k,l])=>`<button class="pill" data-t="${k}">${l}</button>`).join("");
+      [...$("v-pills").children].forEach(b=>b.addEventListener("click",()=>setTier(b.dataset.t)));
+      setTier("paragraph");
+    } else { $("v-sumtext").textContent="AI summary not yet generated for this document."; }
+  }).catch(()=>{$("v-sumtext").textContent="";});
+  // document via same-origin /doc; non-PDFs fall back to their converted .pdf
+  const pdfUrl=/\.pdf($|\?)/i.test(r.url||"")?r.url:(r.url?r.url+".pdf":null);
+  const src=pdfUrl?"/doc?key="+encodeURIComponent(decodeURIComponent(new URL(pdfUrl).pathname).slice(1)):null;
+  $("v-open").href=src||r.url||"#";
   $("v-body").innerHTML = src
     ? `<iframe src="${src}#toolbar=1" title="document"></iframe>`
-    : `<div class="fallback">Inline preview for this file type is coming with the PDF-conversion pass.<br>Use “Open original ↗” below for now.</div>`;
+    : `<div class="fallback">No inline preview available.</div>`;
   $("viewer").classList.add("open");
 }
 function closeViewer(){$("viewer").classList.remove("open");$("v-body").innerHTML=""}
