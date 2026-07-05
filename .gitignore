@@ -3,6 +3,7 @@
 
 # Track scripts and project metadata
 !/*.py
+!/scripts/
 !/.gitignore
 !/README.md
 !/LICENSE
