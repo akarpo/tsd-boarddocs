@@ -183,6 +183,8 @@ const YEARS=(()=>{const m=new Date().getFullYear(),a=[];for(let y=Math.max(m,202
 const BADGE={Workshop:"--b-workshop",Regular:"--b-regular",Special:"--b-special",Organizational:"--b-organizational",Retreat:"--b-retreat",Committee:"--b-meeting",Meeting:"--b-meeting"};
 const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function fmtDate(s){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||"");return m?`${MONTHS[+m[2]-1]} ${+m[3]}, ${m[1]}`:(s||"")}
+// Meeting names store the time as "7 00 PM"; show "7PM" on the hour, "6:30 PM" otherwise.
+function fmtTime(s){return String(s||"").replace(/\b(\d{1,2})[:\s](\d{2})\s*(am|pm)\b/gi,(_,h,mm,ap)=>mm==="00"?`${h}${ap.toUpperCase()}`:`${h}:${mm} ${ap.toUpperCase()}`)}
 function esc(s){const d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML}
 
 async function runSearch(query,k=8,filt){
@@ -234,7 +236,7 @@ function renderGrouped(results,box){
     head.innerHTML=
       `<span class="badge" style="background:var(${BADGE[g.type]||'--b-meeting'})">${esc(g.type||"Meeting")}</span>`+
       `<span class="date">${esc(fmtDate(g.date))}</span>`+
-      `<span class="mname">${esc(g.name||"")}</span>`+
+      `<span class="mname">${esc(fmtTime(g.name||""))}</span>`+
       `<span class="mcount">${g.items.length} doc${g.items.length>1?"s":""}</span>`;
     sec.appendChild(head);
     const list=document.createElement("div"); list.className="mitems";
@@ -270,7 +272,7 @@ function renderMeetingList(){
       row.innerHTML=
         `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
         `<span class="mdate">${esc(fmtDate(m.date))}</span>`+
-        `<span class="mnm">${esc(m.name||"")}</span>`+
+        `<span class="mnm">${esc(fmtTime(m.name||""))}</span>`+
         `<span class="mdocs">${m.docs} doc${m.docs>1?"s":""}</span>`;
       row.addEventListener("click",()=>openMeeting(m));
       rows.appendChild(row);
@@ -294,7 +296,7 @@ async function openMeeting(m){
     hd.innerHTML=
       `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
       `<span class="date">${esc(fmtDate(m.date))}</span>`+
-      `<span class="mname">${esc(m.name||"")}</span>`+
+      `<span class="mname">${esc(fmtTime(m.name||""))}</span>`+
       (m.boarddocs_url?`<a class="mcount" href="${esc(m.boarddocs_url)}" target="_blank" rel="noopener">BoardDocs ↗</a>`:`<span class="mcount">${(data.docs||[]).length} docs</span>`);
     grp.appendChild(hd);
     const list=document.createElement("div"); list.className="mitems";
@@ -315,7 +317,7 @@ function openViewer(r){
     (r.doc_type&&r.doc_type!=="Other"?`<span class="dtype">${esc(r.doc_type)}</span>`:"")+
     `<span class="date">${esc(fmtDate(r.meeting_date))}</span>`+
     (r.agenda_item?`<span class="agenda">Item ${esc(r.agenda_item)}</span>`:"")+
-    (r.meeting_name?`<span>${esc(r.meeting_name)}</span>`:"");
+    (r.meeting_name?`<span>${esc(fmtTime(r.meeting_name))}</span>`:"");
   $("v-title").textContent=r.title||r.file||r.id;
   // summary tiers — fetched per document from D1
   curSum=null; $("v-pills").innerHTML=""; $("v-sumtext").textContent="Loading summary…";
