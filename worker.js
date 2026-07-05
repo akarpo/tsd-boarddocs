@@ -13,10 +13,34 @@ const CORS = {
 const json = (obj, status = 200) =>
   new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json; charset=utf-8", ...CORS } });
 
+// Board/education acronym <-> expansion synonyms, expanded bidirectionally at query time.
+const ACRONYMS = {
+  rif: ["reduction in force"],
+  fte: ["full time equivalent"],
+  iep: ["individualized education program"],
+  isd: ["intermediate school district"],
+  gsrp: ["great start readiness program"],
+  mtss: ["multi tiered system of supports"],
+  boe: ["board of education"],
+  rfp: ["request for proposal", "request for proposals"],
+  mou: ["memorandum of understanding"],
+  cte: ["career and technical education"],
+  sped: ["special education"],
+  sel: ["social emotional learning"],
+  ell: ["english language learner", "english language learners"],
+  pd: ["professional development"],
+};
+
 // Build a safe FTS5 MATCH string: quote each word token, OR-join (BM25 ranks the rest).
+// A quoted multi-word expansion (e.g. "reduction in force") becomes an FTS phrase match.
 function ftsQuery(q) {
-  const toks = (String(q || "").match(/[\p{L}\p{N}]+/gu) || []).filter((t) => t.length > 1);
-  return toks.map((t) => `"${t.replace(/"/g, "")}"`).join(" OR ");
+  const raw = String(q || "").toLowerCase();
+  const toks = (raw.match(/[\p{L}\p{N}]+/gu) || []).filter((t) => t.length > 1);
+  if (!toks.length) return "";
+  const terms = new Set(toks.map((t) => `"${t.replace(/"/g, "")}"`));
+  toks.forEach((t) => { if (ACRONYMS[t]) ACRONYMS[t].forEach((e) => terms.add(`"${e}"`)); });
+  for (const [acr, exps] of Object.entries(ACRONYMS)) if (exps.some((e) => raw.includes(e))) terms.add(`"${acr}"`);
+  return [...terms].join(" OR ");
 }
 
 // Document-type taxonomy from the title (first match wins; "Other" = none matched).
@@ -218,6 +242,35 @@ export default {
         if (!u) return json({ error: "url required" }, 400);
         const s = await env.DB.prepare("SELECT url,paragraph,page,verbose FROM summaries WHERE url=?1").bind(u).first();
         return json(s || {});
+      }
+      if (p === "/api/meetings") {
+        // Timeline: one row per meeting (newest first) with a document count.
+        const { results } = await env.DB.prepare(
+          "SELECT meeting_date, meeting_name, meeting_type, count(DISTINCT file) AS docs, min(file) AS samplefile " +
+          "FROM chunks WHERE source!='summary' AND meeting_date!='' GROUP BY meeting_date, meeting_name ORDER BY meeting_date DESC, meeting_name"
+        ).all();
+        const meetings = (results || []).map((m) => ({
+          date: m.meeting_date, name: m.meeting_name, type: m.meeting_type, docs: m.docs,
+          boarddocs_url: bdLink({ meeting_date: m.meeting_date, file: m.samplefile }),
+        }));
+        return json({ meetings });
+      }
+      if (p === "/api/meeting") {
+        const date = url.searchParams.get("date") || "", name = url.searchParams.get("name") || "";
+        if (!date) return json({ error: "date required" }, 400);
+        const { results } = await env.DB.prepare(
+          "SELECT DISTINCT url,title,file,agenda_item,meeting_date,meeting_name,meeting_type FROM chunks " +
+          "WHERE source!='summary' AND meeting_date=?1 AND meeting_name=?2 ORDER BY agenda_item, title"
+        ).bind(date, name).all();
+        const docs = (results || []).map((r) => ({ ...r, doc_type: classifyDocType(r.title), boarddocs_url: bdLink(r) }));
+        const urls = docs.map((d) => d.url);
+        if (urls.length) {
+          const ph = urls.map(() => "?").join(",");
+          const { results: sums } = await env.DB.prepare(`SELECT url,paragraph FROM summaries WHERE url IN (${ph})`).bind(...urls).all();
+          const map = Object.fromEntries((sums || []).map((s) => [s.url, s.paragraph]));
+          docs.forEach((d) => { if (map[d.url]) d.summary = map[d.url]; });
+        }
+        return json({ date, name, docs });
       }
       if (p === "/doc") {
         // Serve an R2 object same-origin (avoids cross-origin iframe issues).

@@ -54,6 +54,16 @@
   .mitems .card{border:0;border-radius:0;background:var(--bg)}
   .mitems .card:hover{background:var(--card)}
   .bar .links{display:flex;gap:16px;align-items:center}
+  .ylist{display:flex;flex-direction:column;gap:8px}
+  .yhead{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:10px;cursor:pointer;font-weight:700}
+  .yhead .ycount{font-size:.8rem;color:var(--muted);font-weight:600}
+  .mrows .mrow{display:flex;align-items:center;gap:10px;padding:9px 14px;border:1px solid var(--line);border-top:0;cursor:pointer;font-size:.9rem}
+  .mrows .mrow:first-child{border-top:1px solid var(--line);margin-top:-2px}
+  .mrow:hover{background:var(--card)}
+  .mrow .mdate{font-weight:600;white-space:nowrap}
+  .mrow .mnm{flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .mrow .mdocs{font-size:.78rem;color:var(--muted);white-space:nowrap}
+  .backlink{display:inline-block;margin-bottom:12px;color:var(--accent);cursor:pointer;font-weight:600;font-size:.9rem;background:none;border:0;padding:0}
   #results{display:flex;flex-direction:column;gap:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;transition:border-color .12s}
   .card:hover{border-color:var(--accent)}
@@ -127,6 +137,7 @@
     <label class="chk"><input type="checkbox" id="group-meeting"> Group by meeting</label>
   </div>
   <div class="toolbar">
+    <button type="button" id="browse-btn" class="secondary">📅 Browse meetings</button>
     <button type="button" id="copy" class="secondary" hidden>Copy context for your AI</button>
     <span class="status" id="mcp-status"></span>
   </div>
@@ -230,6 +241,66 @@ function renderGrouped(results,box){
     g.items.forEach(r=>list.appendChild(card(r)));
     sec.appendChild(list); box.appendChild(sec);
   });
+}
+
+// ---- browse meetings (timeline) ----
+let allMeetings=null;
+async function browseMeetings(){
+  $("results").innerHTML=`<p class="status">Loading meetings…</p>`; $("copy").hidden=true;
+  try{
+    if(!allMeetings){ const r=await fetch("/api/meetings"); allMeetings=(await r.json()).meetings||[]; }
+    renderMeetingList();
+  }catch(e){ $("results").innerHTML=`<p class="status">Could not load meetings.</p>`; }
+}
+function renderMeetingList(){
+  const box=$("results"); box.innerHTML="";
+  const byYear={};
+  allMeetings.forEach(m=>{ const y=(m.date||"").slice(0,4); (byYear[y]=byYear[y]||[]).push(m); });
+  const nowY=String(new Date().getFullYear());
+  const wrap=document.createElement("div"); wrap.className="ylist";
+  Object.keys(byYear).sort().reverse().forEach(y=>{
+    const sec=document.createElement("div");
+    const head=document.createElement("div"); head.className="yhead";
+    head.innerHTML=`<span>${esc(y)}</span><span class="ycount">${byYear[y].length} meetings</span>`;
+    const rows=document.createElement("div"); rows.className="mrows";
+    rows.style.display=(y===nowY)?"block":"none";
+    byYear[y].forEach(m=>{
+      const type=m.type||"Meeting";
+      const row=document.createElement("div"); row.className="mrow";
+      row.innerHTML=
+        `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
+        `<span class="mdate">${esc(fmtDate(m.date))}</span>`+
+        `<span class="mnm">${esc(m.name||"")}</span>`+
+        `<span class="mdocs">${m.docs} doc${m.docs>1?"s":""}</span>`;
+      row.addEventListener("click",()=>openMeeting(m));
+      rows.appendChild(row);
+    });
+    head.addEventListener("click",()=>{rows.style.display=rows.style.display==="none"?"block":"none"});
+    sec.appendChild(head); sec.appendChild(rows); wrap.appendChild(sec);
+  });
+  box.appendChild(wrap);
+}
+async function openMeeting(m){
+  $("results").innerHTML=`<p class="status">Loading meeting…</p>`;
+  try{
+    const r=await fetch(`/api/meeting?date=${encodeURIComponent(m.date)}&name=${encodeURIComponent(m.name||"")}`);
+    const data=await r.json();
+    const box=$("results"); box.innerHTML="";
+    const back=document.createElement("button"); back.className="backlink"; back.textContent="← All meetings";
+    back.addEventListener("click",browseMeetings); box.appendChild(back);
+    const type=m.type||"Meeting";
+    const grp=document.createElement("div"); grp.className="mgroup";
+    const hd=document.createElement("div"); hd.className="mhead";
+    hd.innerHTML=
+      `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
+      `<span class="date">${esc(fmtDate(m.date))}</span>`+
+      `<span class="mname">${esc(m.name||"")}</span>`+
+      (m.boarddocs_url?`<a class="mcount" href="${esc(m.boarddocs_url)}" target="_blank" rel="noopener">BoardDocs ↗</a>`:`<span class="mcount">${(data.docs||[]).length} docs</span>`);
+    grp.appendChild(hd);
+    const list=document.createElement("div"); list.className="mitems";
+    (data.docs||[]).forEach(d=>list.appendChild(card(d)));
+    grp.appendChild(list); box.appendChild(grp);
+  }catch(e){ $("results").innerHTML=`<p class="status">Could not load meeting.</p>`; }
 }
 
 function setTier(t){
@@ -340,6 +411,7 @@ function restoreFromUrl(){
 // ---- events ----
 $("search-form").addEventListener("submit",e=>{e.preventDefault();doSearch($("q").value)});
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(contextBlob());$("copy").textContent="Copied ✓";setTimeout(()=>$("copy").textContent="Copy context for your AI",1500)}catch{}});
+$("browse-btn").addEventListener("click",browseMeetings);
 $("v-close").addEventListener("click",()=>closeViewer());
 $("viewer").addEventListener("click",e=>{if(e.target===$("viewer"))closeViewer()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){const yp=$("year-panel");if(yp&&!yp.hidden){yp.hidden=true;}else{closeViewer();}}});
