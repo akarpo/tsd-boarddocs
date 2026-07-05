@@ -18,9 +18,9 @@
 !/CHANGELOG.md
 !/docs/
 
-# Claude Code prompt-capture hook (travels with the repo; not settings.local.json)
-!/.claude/settings.json
-!/.claude/hooks/
+# Claude Code prompt-capture hook (travels with the repo; not local settings)
+!/.claude/
+/.claude/settings.local.json
 
 # Transient verifier output — written only when drift is detected, consumed
 # by the workflow's issue step, never committed.
