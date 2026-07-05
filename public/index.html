@@ -49,7 +49,11 @@
   .modal .head{padding:16px 18px;border-bottom:1px solid var(--line)}
   .modal .head .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:.82rem;color:var(--muted);margin-bottom:6px}
   .modal .head h2{margin:0;font-size:1.05rem}
-  .modal .summary{font-size:.9rem;color:var(--muted);margin-top:8px;padding:8px 10px;background:var(--card);border-radius:8px}
+  .modal .summary{margin-top:10px}
+  .pills{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+  .pill{font-size:.78rem;font-weight:600;padding:4px 12px;border-radius:999px;background:transparent;color:var(--fg);border:1px solid var(--line);cursor:pointer}
+  .pill.on{background:var(--accent);color:var(--accent-fg);border-color:transparent}
+  .sumtext{font-size:.9rem;line-height:1.5;color:var(--fg);white-space:pre-wrap;max-height:26vh;overflow-y:auto;padding:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:8px}
   .modal .body{flex:1;min-height:0;background:var(--card)}
   .modal iframe{width:100%;height:66vh;border:0;display:block}
   .modal .fallback{padding:40px 20px;text-align:center;color:var(--muted)}
@@ -93,7 +97,10 @@
     <div class="head">
       <div class="meta" id="v-meta"></div>
       <h2 id="v-title"></h2>
-      <div class="summary" id="v-summary"></div>
+      <div class="summary" id="v-summary">
+        <div class="pills" id="v-pills"></div>
+        <div class="sumtext" id="v-sumtext"></div>
+      </div>
     </div>
     <div class="body" id="v-body"></div>
     <div class="bar">
@@ -105,7 +112,8 @@
 
 <script>
 const SEARCH_EP="/api/search", FETCH_EP="/api/fetch";
-let lastQuery="", lastResults=[];
+let lastQuery="", lastResults=[], SUMMARIES={}, curSum=null;
+fetch("/summaries.json").then(r=>r.ok?r.json():{}).then(s=>{SUMMARIES=s;showSamples();}).catch(()=>{});
 const $=id=>document.getElementById(id);
 
 const BADGE={Workshop:"--b-workshop",Regular:"--b-regular",Special:"--b-special",Organizational:"--b-organizational",Retreat:"--b-retreat",Committee:"--b-meeting",Meeting:"--b-meeting"};
@@ -134,12 +142,25 @@ function render(results){
         (r.score!=null?`<span>· ${r.score.toFixed(2)}</span>`:"")+
       `</div>`+
       `<div class="title">${esc(r.title||r.file||r.id)}</div>`+
-      `<div class="snippet">${esc(r.snippet||"")}</div>`;
+      `<div class="snippet">${esc((SUMMARIES[r.url]&&SUMMARIES[r.url].paragraph)||r.snippet||"")}</div>`;
     el.addEventListener("click",()=>openViewer(r));
     box.appendChild(el);
   });
 }
 
+function showSamples(){
+  const rs=Object.entries(SUMMARIES).map(([url,s])=>({url,...s,snippet:s.paragraph}));
+  if(!rs.length)return;
+  lastResults=rs; render(rs);
+  $("results").insertAdjacentHTML("afterbegin",'<p class="status">Sample summarized documents — click a card for the paragraph → single-page → verbose toggle + embedded PDF.</p>');
+  $("copy").hidden=false;
+}
+
+function setTier(t){
+  if(!curSum)return;
+  $("v-sumtext").textContent=curSum[t]||"";
+  [...$("v-pills").children].forEach(b=>b.classList.toggle("on",b.dataset.t===t));
+}
 function openViewer(r){
   const type=r.meeting_type||"Meeting";
   $("v-meta").innerHTML=
@@ -148,11 +169,22 @@ function openViewer(r){
     (r.agenda_item?`<span class="agenda">Item ${esc(r.agenda_item)}</span>`:"")+
     (r.meeting_name?`<span>${esc(r.meeting_name)}</span>`:"");
   $("v-title").textContent=r.title||r.file||r.id;
-  $("v-summary").textContent="AI summary not yet generated for this document.";
   $("v-open").href=r.url||"#";
-  const body=$("v-body"), isPdf=/\.pdf($|\?)/i.test(r.url||"");
-  body.innerHTML = isPdf && r.url
-    ? `<iframe src="${encodeURI(r.url)}#toolbar=1" title="document"></iframe>`
+  const S=SUMMARIES[r.url]; curSum=S||null;
+  const pills=$("v-pills");
+  if(S){
+    pills.innerHTML=[["paragraph","Paragraph"],["page","Single-page"],["verbose","Verbose"]]
+      .filter(([k])=>S[k]).map(([k,l])=>`<button class="pill" data-t="${k}">${l}</button>`).join("");
+    [...pills.children].forEach(b=>b.addEventListener("click",()=>setTier(b.dataset.t)));
+    setTier("paragraph");
+  }else{
+    pills.innerHTML=""; $("v-sumtext").textContent="AI summary not yet generated for this document.";
+  }
+  const pdf=(S&&S.pdf)||(/\.pdf($|\?)/i.test(r.url||"")?r.url:null);
+  const src=pdf?"/doc?key="+encodeURIComponent(decodeURIComponent(new URL(pdf).pathname).slice(1)):null;
+  if(src)$("v-open").href=src;
+  $("v-body").innerHTML = src
+    ? `<iframe src="${src}#toolbar=1" title="document"></iframe>`
     : `<div class="fallback">Inline preview for this file type is coming with the PDF-conversion pass.<br>Use “Open original ↗” below for now.</div>`;
   $("viewer").classList.add("open");
 }

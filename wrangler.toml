@@ -12,11 +12,13 @@ compatibility_date = "2026-06-01"
 directory = "./public"
 binding = "ASSETS"
 
-# Workers AI — @cf/baai/bge-base-en-v1.5 (768-dim), same model that embedded the corpus.
-[ai]
-binding = "AI"
+# D1 — full-text (FTS5) keyword/BM25 search index. Replaces Workers AI + Vectorize.
+[[d1_databases]]
+binding = "DB"
+database_name = "tsd-boarddocs"
+database_id = "3e09875f-4993-45f6-8e77-bcfb809bcad4"
 
-# Vectorize index holding the chunk vectors + citation metadata.
-[[vectorize]]
-binding = "VECTORIZE"
-index_name = "tsd-boarddocs"
+# R2 — source documents, served same-origin through the Worker's /doc route.
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "media"
