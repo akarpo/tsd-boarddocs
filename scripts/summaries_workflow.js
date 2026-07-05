@@ -1,7 +1,7 @@
 export const meta = {
-  name: 'tsd-summaries-50',
-  description: 'Generate 3-tier Opus summaries for 50 Troy SD BoardDocs documents, one agent per 5-doc batch',
-  phases: [{ title: 'Summarize', detail: '10 Opus agents, 5 docs each, writing tiers to files' }],
+  name: 'tsd-summaries',
+  description: 'Generate 3-tier Opus summaries for a prepped set of Troy SD BoardDocs batch files (args.batches = file count)',
+  phases: [{ title: 'Summarize', detail: 'one Opus agent per batch file, writing tiers to /tmp/tsd_out' }],
 }
 
 const N = (args && args.batches) || 10
