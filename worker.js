@@ -32,6 +32,10 @@ async function searchCore(env, query, k = 8) {
       score: m.score,
       title: md.title || md.file || m.id,
       meeting_date: md.meeting_date || "",
+      meeting_name: md.meeting_name || "",
+      meeting_type: md.meeting_type || "",
+      agenda_item: md.agenda_item || "",
+      file: md.file || "",
       url: md.url || "",
       snippet: String(md.text || "").slice(0, 400),
     };
@@ -43,7 +47,7 @@ async function fetchCore(env, id) {
   const v = got && got[0];
   if (!v) return null;
   const md = v.metadata || {};
-  return { id, title: md.title || md.file || id, meeting_date: md.meeting_date || "", url: md.url || "", text: md.text || "" };
+  return { id, title: md.title || md.file || id, meeting_date: md.meeting_date || "", meeting_name: md.meeting_name || "", meeting_type: md.meeting_type || "", agenda_item: md.agenda_item || "", file: md.file || "", url: md.url || "", text: md.text || "" };
 }
 
 // ---------- remote MCP (Streamable HTTP, stateless JSON-RPC 2.0) ----------

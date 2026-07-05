@@ -37,6 +37,23 @@ CHUNK_OVERLAP = 100
 
 ENC = tiktoken.get_encoding("cl100k_base")
 DATE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)$")
+# Leading agenda token in a filename, e.g. "8.C.", "4.a.", "5.D.1".
+AGENDA_RE = re.compile(r"^\s*(\d{1,2}(?:\.[A-Za-z0-9]{1,3})+)\.?\s")
+
+
+def meeting_type(name: str) -> str:
+    n = name.lower()
+    for kw, label in (("workshop", "Workshop"), ("special", "Special"),
+                      ("organizational", "Organizational"), ("retreat", "Retreat"),
+                      ("committee", "Committee"), ("regular", "Regular")):
+        if kw in n:
+            return label
+    return "Meeting"
+
+
+def agenda_item(filename: str) -> str:
+    m = AGENDA_RE.match(filename)
+    return m.group(1) if m else ""
 
 
 def chunk_text(text: str):
@@ -96,7 +113,9 @@ def main():
                     "source": str(orig).replace("\\", "/"),
                     "meeting_date": meeting_date,
                     "meeting_name": meeting_name,
+                    "meeting_type": meeting_type(meeting_name),
                     "file": orig.name,
+                    "agenda_item": agenda_item(orig.name),
                     "chunk_idx": idx,
                     "char_start": cs,
                     "char_end": ce,
