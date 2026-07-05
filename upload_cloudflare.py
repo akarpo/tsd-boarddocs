@@ -1,11 +1,11 @@
-"""Embed chunks via Workers AI and load them into Vectorize; upload source docs to R2.
+"""Upload source docs to R2 (exact-key PUT via the tsd-ingest Worker).
 
-Reads <root>/_index/chunks.jsonl (from build_index.py). Embedding runs through the
-deployed /api/embed Pages Function (Workers AI @cf/baai/bge-base-en-v1.5) — so no
-local torch, and byte-for-byte parity with query-time embedding.
+Search moved to D1 full-text in v0.4, so the `--vectors` path (embed via Workers AI
+-> Vectorize) is DEPRECATED — load chunks with upload_d1.py instead. The `--r2`
+half (pushing source PDFs to R2) is still the live document-upload step.
 
 Usage:
-  python upload_cloudflare.py            # embed+insert to Vectorize, then push docs to R2
+  python upload_cloudflare.py --r2       # push source docs to R2 (parallel, exact-key)
   python upload_cloudflare.py --vectors  # only embed + insert into Vectorize
   python upload_cloudflare.py --r2       # only upload source docs to R2
 

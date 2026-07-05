@@ -1,8 +1,8 @@
 # tsd-boarddocs
 
 A searchable, AI-queryable archive of every public Troy School District (Michigan)
-Board of Education document. It ingests BoardDocs, builds a semantic index, and
-serves it three ways from one Cloudflare Worker:
+Board of Education document. It ingests BoardDocs, builds a full-text index, adds
+AI summaries, and serves it three ways from one Cloudflare Worker:
 
 1. **A search website** — [tsd-boarddocs.karpowitsch.org](https://tsd-boarddocs.karpowitsch.org)
 2. **A remote MCP connector** (`/mcp`) — add it to Claude, ChatGPT, etc.; their
@@ -10,75 +10,108 @@ serves it three ways from one Cloudflare Worker:
 3. **WebMCP** — Chrome 149+ browser agents auto-discover the same `search`/`fetch`
    tools while on the page (via `document.modelContext`, origin-trial).
 
-The retrieval runs on your infrastructure; **the visitor's own AI does the
-generation**, so there's no per-answer LLM cost and nothing to bill.
+Retrieval runs on your infrastructure; **the visitor's own AI does the
+generation**, so there's no per-answer LLM cost. The whole system runs on
+Cloudflare's **free tier** (D1 + R2 + Workers).
+
+## What you can do
+
+- **Full-text search** (D1 FTS5 / BM25) over ~2,773 documents (2010–2026) with
+  filters: meeting type (Regular / Workshop / Special), document type
+  (Resolution / Financial / Budget / Policy / Presentation / Contract / Other),
+  year (multi-select), and sort (relevance / newest / oldest). Board acronyms
+  (RIF, IEP, ISD, CTE, …) expand automatically to their full phrases and back.
+- **AI summaries** — three tiers per document (paragraph / single-page / verbose),
+  generated locally with **Opus 4.8**. The verbose summary is indexed as a
+  per-document search row, so a doc can surface on its clean summary text; a pill
+  toggle in the viewer switches tiers.
+- **Group by meeting** and a **📅 meeting-browse timeline** (year → meeting → its
+  full document set, in agenda order).
+- **Inline document viewer** (same-origin PDF) with a **"View on BoardDocs"**
+  deep-link to the source meeting agenda.
 
 ## Architecture
 
 ```
 INGEST (Python, local or GitHub Action)
-  download_troysd.py   BoardDocs -> <root>/<meeting>/<file>
-  extract_all.py       PDF/DOCX/PPTX/XLSX/RTF -> <root>/_text/<meeting>/<file>.txt
-  build_index.py       chunk (~800 tok) -> <root>/_index/chunks.jsonl   (torch-free)
-  upload_cloudflare.py  embed via /api/embed -> Vectorize;  push docs -> R2
+  download_troysd.py           BoardDocs -> $TSD_BOE_ROOT/<meeting>/<file>
+  extract_all.py               PDF/DOCX/PPTX/XLSX/RTF -> _text/<meeting>/<file>.txt
+  build_index.py               chunk (~800 tok) -> _index/chunks.jsonl   (torch-free)
+  upload_d1.py                 chunks -> D1 (FTS5) via the ingest worker
+  upload_cloudflare.py --r2    source docs -> R2 (exact-key PUT)
+  summarize.py + scripts/summaries_workflow.js   Opus 3-tier summaries -> D1
 
 SERVE (Cloudflare Worker — worker.js)
-  /api/search  q -> Workers AI bge-base embed -> Vectorize ANN -> ranked chunks
-  /api/fetch   id -> full passage text
-  /api/embed   texts -> embeddings (used by the ingest step; no torch in CI)
-  /mcp         remote MCP (search/fetch tools)
-  else         static site from public/
+  /api/search              q (+ filters, sort) -> D1 FTS5/BM25 -> ranked, de-duped docs
+  /api/fetch               id -> full passage text
+  /api/summary             url -> the three summary tiers
+  /api/meetings /api/meeting   the browse timeline
+  /doc                     key -> R2 object, served same-origin (PDF viewer)
+  /mcp                     remote MCP (search/fetch tools)
+  else                     static site from public/
 
 DATA
-  Vectorize index "tsd-boarddocs"  (768-d, cosine)  — chunk vectors + citations
-  R2 media/troysd-boarddocs/       — source PDFs, public at media.karpowitsch.org
+  D1 database "tsd-boarddocs"  — chunks (FTS5) + summaries; free tier
+  R2 media/troysd-boarddocs/   — source PDFs, public at media.karpowitsch.org
 ```
 
-Embedding uses **`@cf/baai/bge-base-en-v1.5`** (Workers AI) on both sides, so the
-corpus vectors and query vectors share one space. Ingest calls the Worker's
-`/api/embed`, which keeps Python (and CI) free of `torch`/`sentence-transformers`.
+Search is **keyword/BM25 over D1**, not embeddings — the corpus is dense with IDs,
+proper nouns, and dollar amounts, and we generate our own summaries, so full-text
+search fits better and stays on the free tier (no Workers AI neuron cap). Workers
+AI + Vectorize were dropped in v0.4.
 
-## Scripts
+## Scripts / tooling
+
+Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pipeline:
 
 | Script | What it does |
 | --- | --- |
-| `download_troysd.py` | Crawls the TroySD BoardDocs endpoints; saves every public file under `<YYYY-MM-DD>_<meeting>/`. Incremental (skips meetings already local). Flags: `--all` / `--start` / `--end` / `--meetings` / `-y`. |
+| `download_troysd.py` | Crawls TroySD BoardDocs; saves every public file under `<YYYY-MM-DD>_<meeting>/`. Incremental. |
 | `extract_all.py` | PDF/DOCX/PPTX/XLSX/RTF → `.txt` mirrors in `_text/`. |
-| `build_index.py` | Token-windowed chunking → `_index/chunks.jsonl` (sha1 ids, R2 citation urls, page/meeting metadata). No embedding here — that happens on Cloudflare. |
-| `upload_cloudflare.py` | Embeds chunks via `/api/embed`, upserts to Vectorize, and (parallel) uploads source docs to R2. `--vectors` / `--r2` to run one phase. |
-| `verify_unids.py` | Daily drift check on the BoardDocs identifiers; opens an issue if they change. |
+| `build_index.py` | Token-windowed chunking → `_index/chunks.jsonl` (sha1 ids, R2 urls, meeting/agenda metadata; recovers packet-era dates from filenames). |
+| `upload_d1.py` | Loads `chunks.jsonl` into D1 via the ingest worker's `/d1insert` (parameterized batches). |
+| `upload_cloudflare.py --r2` | Uploads source docs to R2 (exact-key PUT, parallel). `--vectors` is deprecated (Vectorize gone). |
+| `summarize.py` | Opus summary harness: `--stats`, `--prep-batches N`, `--store-dir`. Resumable via a D1 "pending" flag. |
+| `scripts/summaries_workflow.js` | Multi-agent Opus fan-out (one agent per prepped batch file). |
+| `bd_links.js` | Generated map (from `boarddocs_unids.json`) of doc → BoardDocs meeting UNID for deep-links; bundled into the worker. |
+| `verify_unids.py` | Daily drift check on the BoardDocs identifiers. |
 
 ## Data layout
 
 Corpus root = `$TSD_BOE_ROOT` (default `~/tsd-boe-data`). The corpus, extracted
-text, and chunk file are **not** committed (several GB) — rebuild with the ingest
-scripts. Source PDFs live in R2; vectors live in Vectorize.
+text, and `chunks.jsonl` are **not** committed (several GB) — rebuild with the
+ingest scripts. Source PDFs live in R2; searchable data + summaries live in D1.
 
 ## Deploy
 
-The repo is a **Cloudflare Worker with static assets**, deployed by connecting it
-to the Cloudflare dashboard (push to `main` → build). `wrangler.toml` supplies the
-entry point (`worker.js`), the assets dir (`public/`), and the `AI` + `VECTORIZE`
-bindings, so no manual dashboard binding is needed. (Note: Cloudflare's Git flow
-creates a *Worker*, not a Pages project — a Pages-style `wrangler.toml` fails with
-"Missing entry-point".)
+A **Cloudflare Worker with static assets**, deployed by connecting the repo in the
+Cloudflare dashboard (push to `main` → build). `wrangler.toml` supplies the entry
+point (`worker.js`), the assets dir (`public/`), and the `DB` (D1) + `MEDIA` (R2)
+bindings — no manual dashboard binding needed. (Cloudflare's Git flow creates a
+*Worker*, not Pages; a Pages-style `wrangler.toml` fails with "Missing entry-point".)
+
+```bash
+git push                    # triggers the Worker build
+wrangler deploy --dry-run   # local validation without deploying
+```
 
 ## Requirements (ingest)
 
-Python 3.10+ and: `requests`, `pypdf`, `pdfplumber`, `python-docx`, `python-pptx`,
-`openpyxl`, `striprtf`, `tiktoken`. Plus `wrangler` (npm) for Vectorize/R2 loads.
-No ML libraries — embedding is done by Workers AI.
+Python 3.10+ with `requests pypdf pdfplumber python-docx python-pptx openpyxl
+striprtf tiktoken`, plus `wrangler` (npm). LibreOffice (`soffice` on PATH) only for
+the DOCX/PPTX→PDF viewer conversion. No ML libraries.
 
 ## Source data
 
 All documents are public, from <https://go.boarddocs.com/mi/troysd/Board.nsf>.
-This repo only fetches, indexes, and serves them. Independent project — not
-affiliated with Troy School District.
+This repo only fetches, indexes, summarizes, and serves them. Independent
+project — not affiliated with Troy School District.
 
 ## Documentation
 
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — system design, data flow, decisions
-- [docs/OPERATIONS.md](docs/OPERATIONS.md) — runbook: ingest, deploy, the ingest worker, gotchas
+- [docs/OPERATIONS.md](docs/OPERATIONS.md) — runbook: ingest, summaries, deploy, gotchas
+- [docs/TOOLING.md](docs/TOOLING.md) — every script + its status
 - [docs/PROMPT_HISTORY.md](docs/PROMPT_HISTORY.md) — the prompts that shaped the project
 - [CHANGELOG.md](CHANGELOG.md) — version history
 

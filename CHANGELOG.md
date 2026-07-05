@@ -4,9 +4,27 @@ All notable changes to `tsd-boarddocs` and its tooling. Dates are UTC.
 Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
-- Full 2010–2026 corpus loaded into D1; DOCX/PPTX→PDF for all docs.
-- Local Opus-generated summaries at scale (resumable, pending-flag), stored per doc.
-- Daily GitHub Action to keep D1 + R2 fresh.
+- Finish the 2025 summary backfill (2026 complete), then older years.
+- Daily GitHub Action to keep D1 + R2 fresh (new docs land `pending`).
+
+## [0.7.0] — 2026-07-05
+Meeting browse + acronym search (Tier-2), and time formatting.
+- `worker.js`: bidirectional **acronym/synonym expansion** in `ftsQuery` (RIF, IEP, ISD, CTE, MTSS, GSRP, RFP, MOU, SPED, SEL, ELL, PD → FTS phrases); new `/api/meetings` + `/api/meeting` endpoints.
+- `public/index.html`: **📅 Browse meetings** timeline (year-collapsible → meeting → its full document set); meeting times shown as `7PM` / `6:30 PM`.
+- Decision/outcome badges evaluated and **not built** — vote data is motion-level in ~130 sparse minutes docs; item docs carry blank vote templates (no reliable per-doc signal).
+
+## [0.6.0] — 2026-07-05
+Search filters, BoardDocs deep-links, and a corpus date fix (Tier-1).
+- **Document-type filter** (Resolution / Financial / Budget / Policy / Presentation / Contract / Other), **sort** (relevance / newest / oldest), **group-by-meeting** — all URL-synced and on the MCP `search` tool.
+- **Meeting-type** toggle (All / Regular / Workshop / **Special** = the other types) + **year** multi-select; viewer **Back** returns to the prior results (history state + URL sync).
+- **BoardDocs deep-links**: `bd_links.js` generated from `boarddocs_unids.json` (100% doc coverage), bundled into the worker; each result gets a "View on BoardDocs" link.
+- **Meeting-date fix**: 130 packet-era docs (2010–12 / 2018–19) had placeholder folder dates; `build_index.py` now recovers the real date+type from the filename (`022718RegMtg`), and D1 was backfilled.
+
+## [0.5.0] — 2026-07-05
+Summaries at scale + summary-driven search.
+- **Three-tier summaries** (paragraph / single-page / verbose) generated locally with **Opus 4.8**, stored in a D1 `summaries` table; viewer pill-toggle + `/api/summary`. `public/summaries.json` retired.
+- **Search leverages the verbose summary**: `/summaryput` writes a `sum:<url>` FTS row so a doc surfaces on its clean summary text; results de-duplicated per document.
+- Tooling: `summarize.py` (`--prep-batches` / `--store-dir`, resumable pending-flag) + `scripts/summaries_workflow.js` (Opus fan-out, one agent per batch); ingest worker `/summaryput`.
 
 ## [0.4.0] — 2026-07-05
 Dropped Workers AI + Vectorize; **search is now D1 full-text (FTS5 / BM25)** — free tier, no neuron cap.

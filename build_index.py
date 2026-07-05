@@ -1,9 +1,9 @@
-"""Chunk extracted text into records ready for embedding + Vectorize upload.
+"""Chunk extracted text into records for the D1 full-text (FTS5) index.
 
 Corpus root via TSD_BOE_ROOT env var (default ~/tsd-boe-data):
   Input:  <root>/_text/<meeting>/<file>.txt
   Output: <root>/_index/chunks.jsonl   one JSON record per chunk:
-            id           sha1 of "<meeting>|<file>|<idx>" (stable, <64B for Vectorize)
+            id           sha1 of "<meeting>|<file>|<idx>" (stable, short)
             text         the chunk text (also stored as Vectorize metadata)
             title        source filename without extension
             url          public R2 URL of the source document (citation target)

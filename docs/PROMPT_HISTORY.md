@@ -1,9 +1,9 @@
 # Prompt History
 
 A running record of the prompts that shaped this project, with the outcome of
-each. The initial entries were reconstructed from the build session on
-**2026-07-04**; new prompts are appended automatically by a `UserPromptSubmit`
-hook (see `docs/OPERATIONS.md` / `.claude/`).
+each. New prompts are appended automatically by a `UserPromptSubmit` hook when
+running under the Claude Code CLI in this repo (see `.claude/`); sessions driven
+another way are reconstructed by hand — as Session 1 and Session 2 below were.
 
 > This is a paraphrased-but-faithful log of user requests + results, not a full
 > transcript. It exists so the project's *intent and history* travel with the code.
@@ -29,3 +29,19 @@ hook (see `docs/OPERATIONS.md` / `.claude/`).
 16. **"Use Opus 4.8 for summaries, over multiple days; monitor tokens (at ~50%)."** → Set summaries as a resumable, budget-controlled multi-day Opus task.
 17. **"Build part of the UI now."** → Shipped the card redesign + inline PDF viewer + metadata passthrough (v0.3.0).
 18. **"Fully document this project — multiple .md files, prompt history (captured going forward), tooling with version tracking, all on GitHub."** → This documentation set + `CHANGELOG.md` + prompt-capture hook.
+
+## Session 2 — 2026-07-05 (D1 migration, summaries, filters, browse)
+
+19. **"If we're doing our own summaries, why do we need Workers AI at all?"** → Dropped Workers AI + Vectorize; moved search to **D1 FTS5 / BM25** (v0.4), free tier, no neuron cap.
+20. **"Proceed with the refactor for the live site."** → Shipped the D1-backed site: search join, `/api/summary`, and `/doc` serving R2 **same-origin** (fixed the cross-origin PDF embed).
+21. **"What about the Opus summaries?" / "The three summaries made 10MB? No — find a technical way; it's all text."** → Corrected the framing (summaries are tiny text in D1, not a storage problem); built the `summaries` table + resumable harness; **search leverages the verbose summary** via a per-doc `sum:` row.
+22. **"Do summaries for 2025–2026." / "Start with 50." / "another 100." / "another 150."** → Built batch-prep + an Opus fan-out **workflow**; generated in waves. Found + fixed a bug where `args` arrived as a JSON string (batch counts silently capped at 10).
+23. **"Stop; we'll do the last 50 later." / "Complete the last batch — were all uploaded?"** → Stopped cleanly, verified every summary was stored + indexed (308; 2026 complete), finished the dropped batches.
+24. **"Add a meeting-type toggle; Back should return to results; year multi-select dropdown."** → Meeting-type segmented filter + year multi-select; viewer **Back** returns to the prior results via history state + URL sync.
+25. **"Put the other ~370 into a 'Special' tag, included in 'All'."** → Added the **Special** segment (`meeting_type NOT IN (Regular,Workshop)`).
+26. **"What other search UX would you suggest?" / "Meeting dates should match BoardDocs + linked docs."** → Proposed the Tier-1/Tier-2 roadmap; diagnosed + fixed **130 mis-dated packet-era docs** (date+type recovered from filenames; `build_index.py` root-fixed).
+27. **"Build the Tier-1 three + wire the BoardDocs deep-link."** → Document-type filter, sort (relevance/newest/oldest), group-by-meeting, and per-result **BoardDocs deep-links** (`bd_links.js`, 100% coverage).
+28. **"Go tackle the Tier-2 stuff."** → Acronym/synonym expansion + the **meeting-browse timeline**; decision/outcome badges evaluated and **deferred** (vote data is motion-level in sparse minutes, not per-doc).
+29. **"Summarize 30 more."** → Ran another Opus summary wave (2025).
+30. **"Fix the meeting time — colon for half/quarter hours, truncate to '7PM' on the hour."** → Added `fmtTime()` across the UI.
+31. **"Make sure all documentation, tooling, and .md files are updated and on GitHub."** → This refresh: README, ARCHITECTURE, OPERATIONS, **TOOLING** (new), CHANGELOG (v0.5–0.7), and this Session-2 history; stale Vectorize docstrings corrected.
