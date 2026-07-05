@@ -17,15 +17,22 @@ function ftsQuery(q) {
   return toks.map((t) => `"${t.replace(/"/g, "")}"`).join(" OR ");
 }
 
-async function searchCore(env, query, k = 8) {
+async function searchCore(env, query, k = 8, opts = {}) {
   const match = ftsQuery(query);
   if (!match) return [];
   const topK = Math.max(1, Math.min(k || 8, 25));
+  const conds = ["chunks MATCH ?"];
+  const binds = [match];
+  const types = (opts.types || []).filter(Boolean);
+  if (types.length) { conds.push(`meeting_type IN (${types.map(() => "?").join(",")})`); binds.push(...types); }
+  const years = (opts.years || []).filter(Boolean);
+  if (years.length) { conds.push(`substr(meeting_date,1,4) IN (${years.map(() => "?").join(",")})`); binds.push(...years); }
   const sql =
     "SELECT id,url,title,meeting_date,meeting_name,meeting_type,agenda_item,file," +
     "snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score " +
-    "FROM chunks WHERE chunks MATCH ?1 ORDER BY rank LIMIT ?2";
-  const { results } = await env.DB.prepare(sql).bind(match, topK * 5).all();
+    "FROM chunks WHERE " + conds.join(" AND ") + " ORDER BY rank LIMIT ?";
+  binds.push(topK * 5);
+  const { results } = await env.DB.prepare(sql).bind(...binds).all();
   // one row per document (best-ranked; a 'sum:' summary row wins when it matches best)
   const rows = [];
   const seen = new Set();
@@ -63,7 +70,12 @@ const TOOLS = [
       "Call fetch(id) for the full text of any result.",
     inputSchema: {
       type: "object",
-      properties: { query: { type: "string" }, k: { type: "number", description: "results (default 8, max 25)" } },
+      properties: {
+        query: { type: "string" },
+        k: { type: "number", description: "results (default 8, max 25)" },
+        meeting_type: { type: "string", description: "optional filter: Regular or Workshop (omit for all types)" },
+        years: { type: "string", description: "optional filter: comma-separated years, e.g. 2025,2026 (omit for all years)" },
+      },
       required: ["query"],
     },
   },
@@ -76,7 +88,9 @@ const TOOLS = [
 
 async function callTool(env, name, args) {
   if (name === "search") {
-    const rows = await searchCore(env, String(args.query || ""), Number(args.k) || 8);
+    const types = args.meeting_type ? [String(args.meeting_type)] : [];
+    const years = args.years ? String(args.years).split(",").map((s) => s.trim()).filter(Boolean) : [];
+    const rows = await searchCore(env, String(args.query || ""), Number(args.k) || 8, { types, years });
     const text = rows.length
       ? rows.map((r, i) => `[${i + 1}] id=${r.id}\n${r.title} — ${r.meeting_type || ""} ${r.meeting_date || ""}${r.agenda_item ? ` Item ${r.agenda_item}` : ""}\n${r.url}\n${r.snippet}`).join("\n\n")
       : `No results for "${args.query}".`;
@@ -127,7 +141,9 @@ export default {
         const q = (url.searchParams.get("q") || "").trim();
         const k = parseInt(url.searchParams.get("k") || "8", 10) || 8;
         if (!q) return json({ error: "q required" }, 400);
-        return json({ query: q, results: await searchCore(env, q, k) });
+        const types = (url.searchParams.get("types") || "").split(",").map((s) => s.trim()).filter(Boolean);
+        const years = (url.searchParams.get("years") || "").split(",").map((s) => s.trim()).filter(Boolean);
+        return json({ query: q, results: await searchCore(env, q, k, { types, years }) });
       }
       if (p === "/api/fetch") {
         const fid = url.searchParams.get("id");

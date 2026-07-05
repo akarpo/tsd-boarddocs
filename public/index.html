@@ -32,6 +32,17 @@
   button:disabled{opacity:.5;cursor:default}
   .toolbar{display:flex;align-items:center;gap:12px;min-height:28px;margin:6px 0 20px}
   .status{font-size:.86rem;color:var(--muted)} .status.on{color:var(--ok)}
+  .filters{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:2px 0 18px}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+  .seg button{font-size:.85rem;font-weight:600;padding:7px 14px;background:transparent;color:var(--fg);border:0;border-right:1px solid var(--line);border-radius:0}
+  .seg button:last-child{border-right:0}
+  .seg button.on{background:var(--accent);color:var(--accent-fg)}
+  .dd{position:relative}
+  .dd-btn{font-size:.85rem;font-weight:600;padding:7px 14px;background:transparent;color:var(--fg);border:1px solid var(--line);border-radius:9px}
+  .dd-panel{position:absolute;top:calc(100% + 5px);left:0;z-index:20;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px;min-width:190px;max-height:300px;overflow-y:auto;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+  .dd-panel label{display:flex;align-items:center;gap:8px;padding:5px 8px;font-size:.88rem;border-radius:6px;cursor:pointer;color:var(--fg)}
+  .dd-panel label:hover{background:var(--card)}
+  .dd-panel .div{height:1px;background:var(--line);margin:6px 4px}
   #results{display:flex;flex-direction:column;gap:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;transition:border-color .12s}
   .card:hover{border-color:var(--accent)}
@@ -69,13 +80,24 @@
 <div class="wrap">
   <header>
     <h1>Troy SD BoardDocs — Search</h1>
-    <p class="sub">Semantic search over every public Troy School District Board of Education document. Ask your own AI, or search here.</p>
+    <p class="sub">Full-text search over every public Troy School District Board of Education document. Ask your own AI, or search here.</p>
   </header>
 
   <form id="search-form">
     <input type="search" id="q" name="q" placeholder="e.g. bond proposal facilities assessment" autocomplete="off" autofocus>
     <button type="submit" id="go">Search</button>
   </form>
+  <div class="filters">
+    <div class="seg" id="type-seg" role="group" aria-label="Meeting type">
+      <button type="button" data-type="" class="on">All</button>
+      <button type="button" data-type="Regular">Regular</button>
+      <button type="button" data-type="Workshop">Workshop</button>
+    </div>
+    <div class="dd" id="year-dd">
+      <button type="button" class="dd-btn" id="year-btn" aria-expanded="false" aria-haspopup="true">All years ▾</button>
+      <div class="dd-panel" id="year-panel" hidden></div>
+    </div>
+  </div>
   <div class="toolbar">
     <button type="button" id="copy" class="secondary" hidden>Copy context for your AI</button>
     <span class="status" id="mcp-status"></span>
@@ -112,16 +134,21 @@
 
 <script>
 const SEARCH_EP="/api/search", FETCH_EP="/api/fetch";
-let lastQuery="", lastResults=[], curSum=null;
+let lastQuery="", lastResults=[], curSum=null, curType="", curYears=[];
 const $=id=>document.getElementById(id);
+const YEARS=(()=>{const m=new Date().getFullYear(),a=[];for(let y=Math.max(m,2026);y>=2010;y--)a.push(String(y));return a})();
 
 const BADGE={Workshop:"--b-workshop",Regular:"--b-regular",Special:"--b-special",Organizational:"--b-organizational",Retreat:"--b-retreat",Committee:"--b-meeting",Meeting:"--b-meeting"};
 const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function fmtDate(s){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||"");return m?`${MONTHS[+m[2]-1]} ${+m[3]}, ${m[1]}`:(s||"")}
 function esc(s){const d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML}
 
-async function runSearch(query,k=8){
-  const r=await fetch(`${SEARCH_EP}?q=${encodeURIComponent(query)}&k=${k}`,{headers:{accept:"application/json"}});
+async function runSearch(query,k=8,filt){
+  const type=filt?(filt.type||""):curType, years=filt?(filt.years||[]):curYears;
+  const p=new URLSearchParams({q:query,k:String(k)});
+  if(type)p.set("types",type);
+  if(years.length)p.set("years",years.join(","));
+  const r=await fetch(`${SEARCH_EP}?${p}`,{headers:{accept:"application/json"}});
   if(!r.ok) throw new Error(`search ${r.status}`);
   return r.json();
 }
@@ -179,8 +206,13 @@ function openViewer(r){
     ? `<iframe src="${src}#toolbar=1" title="document"></iframe>`
     : `<div class="fallback">No inline preview available.</div>`;
   $("viewer").classList.add("open");
+  if(!(history.state&&history.state.viewer)) history.pushState({viewer:true},"");
 }
-function closeViewer(){$("viewer").classList.remove("open");$("v-body").innerHTML=""}
+function closeViewer(fromPop){
+  const wasOpen=$("viewer").classList.contains("open");
+  $("viewer").classList.remove("open"); $("v-body").innerHTML="";
+  if(!fromPop && wasOpen && history.state && history.state.viewer) history.back();
+}
 
 function contextBlob(){
   const l=[`Context from Troy SD BoardDocs — query: "${lastQuery}"`,`${lastResults.length} passages. Cite by [#].`,``];
@@ -190,18 +222,63 @@ function contextBlob(){
 
 async function doSearch(query){
   if(!query.trim())return;
-  lastQuery=query; $("go").disabled=true; $("results").innerHTML=`<p class="status">Searching…</p>`; $("copy").hidden=true;
+  lastQuery=query; syncUrl(); $("go").disabled=true; $("results").innerHTML=`<p class="status">Searching…</p>`; $("copy").hidden=true;
   try{
     const data=await runSearch(query); lastResults=data.results||[]; render(lastResults); $("copy").hidden=lastResults.length===0;
   }catch(e){ $("results").innerHTML=`<p class="status">Search error (${esc(e.message)}).</p>`; }
   finally{ $("go").disabled=false; }
 }
 
+// ---- filters (meeting type + years) ----
+function setTypeUI(type){
+  curType=type||"";
+  [...$("type-seg").children].forEach(b=>b.classList.toggle("on",(b.dataset.type||"")===curType));
+}
+function setYearsUI(years){
+  curYears=(years||[]).slice();
+  const pan=$("year-panel");
+  pan.querySelectorAll(".yr").forEach(c=>c.checked=curYears.includes(c.value));
+  const all=$("year-all"); if(all) all.checked=curYears.length===0;
+  $("year-btn").textContent=(curYears.length?(curYears.length===1?curYears[0]:curYears.length+" years"):"All years")+" ▾";
+}
+function buildYearPanel(){
+  const pan=$("year-panel");
+  pan.innerHTML=`<label><input type="checkbox" id="year-all" checked> <strong>All years</strong></label><div class="div"></div>`+
+    YEARS.map(y=>`<label><input type="checkbox" class="yr" value="${y}"> ${y}</label>`).join("");
+  $("year-all").addEventListener("change",()=>{pan.querySelectorAll(".yr").forEach(c=>c.checked=false);readYears()});
+  pan.querySelectorAll(".yr").forEach(c=>c.addEventListener("change",readYears));
+}
+function readYears(){
+  const sel=[...$("year-panel").querySelectorAll(".yr")].filter(c=>c.checked).map(c=>c.value);
+  setYearsUI(sel); onFilterChange();
+}
+function onFilterChange(){ syncUrl(); if(lastQuery.trim()) doSearch(lastQuery); }
+function syncUrl(){
+  const p=new URLSearchParams();
+  if(lastQuery)p.set("q",lastQuery);
+  if(curType)p.set("type",curType);
+  if(curYears.length)p.set("years",curYears.join(","));
+  const qs=p.toString();
+  history.replaceState(history.state,"",qs?("?"+qs):location.pathname);
+}
+function restoreFromUrl(){
+  const p=new URLSearchParams(location.search);
+  const q=p.get("q")||"", type=p.get("type")||"", years=(p.get("years")||"").split(",").map(s=>s.trim()).filter(Boolean);
+  if(q===lastQuery && type===curType && years.join(",")===curYears.join(",")) return;
+  setTypeUI(type); setYearsUI(years); $("q").value=q;
+  if(q) doSearch(q); else { lastQuery=""; lastResults=[]; $("results").innerHTML=""; $("copy").hidden=true; }
+}
+
+// ---- events ----
 $("search-form").addEventListener("submit",e=>{e.preventDefault();doSearch($("q").value)});
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(contextBlob());$("copy").textContent="Copied ✓";setTimeout(()=>$("copy").textContent="Copy context for your AI",1500)}catch{}});
-$("v-close").addEventListener("click",closeViewer);
+$("v-close").addEventListener("click",()=>closeViewer());
 $("viewer").addEventListener("click",e=>{if(e.target===$("viewer"))closeViewer()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeViewer()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){const yp=$("year-panel");if(yp&&!yp.hidden){yp.hidden=true;}else{closeViewer();}}});
+$("type-seg").addEventListener("click",e=>{const b=e.target.closest("button[data-type]");if(!b)return;setTypeUI(b.dataset.type||"");onFilterChange()});
+$("year-btn").addEventListener("click",e=>{e.stopPropagation();const pan=$("year-panel");const willOpen=pan.hidden;pan.hidden=!willOpen;$("year-btn").setAttribute("aria-expanded",String(willOpen))});
+document.addEventListener("click",e=>{if(!$("year-dd").contains(e.target))$("year-panel").hidden=true});
+window.addEventListener("popstate",()=>{if($("viewer").classList.contains("open")){closeViewer(true);return}restoreFromUrl()});
 
 // WebMCP: expose search + fetch to an in-browser agent (Chrome 149+). No-op elsewhere.
 async function registerWebMCP(){
@@ -209,12 +286,14 @@ async function registerWebMCP(){
   if(!mc||typeof mc.registerTool!=="function")return;
   await mc.registerTool({name:"search",description:"Search Troy School District Board of Education documents (BoardDocs). Returns ranked passages with id, title, meeting date/type, agenda item, source url, snippet. Call fetch(id) for full text.",
     inputSchema:{type:"object",properties:{query:{type:"string"},k:{type:"number"}},required:["query"]},annotations:{readOnlyHint:true},
-    execute:async({query,k})=>{const d=await runSearch(query,k||8);const rs=d.results||[];return rs.length?rs.map((r,i)=>`[${i+1}] id=${r.id}\n${r.title} — ${r.meeting_type||""} ${r.meeting_date||""}${r.agenda_item?` Item ${r.agenda_item}`:""}\n${r.url}\n${r.snippet}`).join("\n\n"):`No results for "${query}".`}});
+    execute:async({query,k})=>{const d=await runSearch(query,k||8,{});const rs=d.results||[];return rs.length?rs.map((r,i)=>`[${i+1}] id=${r.id}\n${r.title} — ${r.meeting_type||""} ${r.meeting_date||""}${r.agenda_item?` Item ${r.agenda_item}`:""}\n${r.url}\n${r.snippet}`).join("\n\n"):`No results for "${query}".`}});
   await mc.registerTool({name:"fetch",description:"Fetch full text of a Troy SD BoardDocs passage by id from search.",
     inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},annotations:{readOnlyHint:true},
     execute:async({id})=>{const r=await fetch(`${FETCH_EP}?id=${encodeURIComponent(id)}`);if(!r.ok)return`No document ${id}.`;const d=await r.json();return `${d.title} — ${d.meeting_date}\n${d.url}\n\n${d.text}`}});
   const s=$("mcp-status");s.textContent="✓ AI tools (search, fetch) available to your browser agent";s.className="status on";
 }
+buildYearPanel();
+restoreFromUrl();
 registerWebMCP().catch(()=>{});
 </script>
 </body>
