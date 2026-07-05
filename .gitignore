@@ -14,6 +14,10 @@
 !/wrangler.toml
 !/public/
 
+# Docs + changelog (this project is meant to be downloaded and carried forward)
+!/CHANGELOG.md
+!/docs/
+
 # Transient verifier output — written only when drift is detected, consumed
 # by the workflow's issue step, never committed.
 verify-report.txt

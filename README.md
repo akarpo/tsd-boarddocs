@@ -75,6 +75,13 @@ All documents are public, from <https://go.boarddocs.com/mi/troysd/Board.nsf>.
 This repo only fetches, indexes, and serves them. Independent project — not
 affiliated with Troy School District.
 
+## Documentation
+
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — system design, data flow, decisions
+- [docs/OPERATIONS.md](docs/OPERATIONS.md) — runbook: ingest, deploy, the ingest worker, gotchas
+- [docs/PROMPT_HISTORY.md](docs/PROMPT_HISTORY.md) — the prompts that shaped the project
+- [CHANGELOG.md](CHANGELOG.md) — version history
+
 ## License
 
 [MIT](LICENSE)
