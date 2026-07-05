@@ -40,6 +40,10 @@ DATE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)$")
 # Leading agenda token in a filename, e.g. "8.C.", "4.a.", "5.D.1".
 AGENDA_RE = re.compile(r"^\s*(\d{1,2}(?:\.[A-Za-z0-9]{1,3})+)\.?\s")
 
+# Older "YYYY Board Packets and Minutes" folders carry a placeholder folder date
+# (YYYY-01-01 / YYYY-12-31); the real date+type live in the filename, e.g. 022718RegMtg.
+FNAME_DATE_RE = re.compile(r"^W?(\d{2})(\d{2})(\d{2})")
+
 
 def meeting_type(name: str) -> str:
     n = name.lower()
@@ -49,6 +53,22 @@ def meeting_type(name: str) -> str:
         if kw in n:
             return label
     return "Meeting"
+
+
+def filename_meeting(stem: str):
+    """Recover (date, type) from an older packet filename like '022718RegMtg'."""
+    m = FNAME_DATE_RE.match(stem or "")
+    if not m:
+        return None
+    mm, dd, yy = m.groups()
+    if not (1 <= int(mm) <= 12 and 1 <= int(dd) <= 31):
+        return None
+    s = stem[m.end():].lower()
+    for kw, label in (("retreat", "Retreat"), ("org", "Organizational"), ("reg", "Regular"),
+                      ("wksh", "Workshop"), ("wksp", "Workshop"), ("sp", "Special")):
+        if kw in s:
+            return f"20{yy}-{mm}-{dd}", label
+    return f"20{yy}-{mm}-{dd}", "Meeting"
 
 
 def agenda_item(filename: str) -> str:
@@ -99,6 +119,12 @@ def main():
             m = DATE_RE.match(meeting_folder)
             meeting_date = m.group(1) if m else ""
             meeting_name = m.group(2).replace("_", " ") if m else meeting_folder
+            m_type = meeting_type(meeting_name)
+            # Placeholder folder date => recover the real date+type from the filename.
+            if meeting_date[5:] in ("01-01", "12-31"):
+                fm = filename_meeting(orig.stem)
+                if fm:
+                    meeting_date, m_type = fm
             try:
                 text = tp.read_text(encoding="utf-8")
             except Exception:
@@ -113,7 +139,7 @@ def main():
                     "source": str(orig).replace("\\", "/"),
                     "meeting_date": meeting_date,
                     "meeting_name": meeting_name,
-                    "meeting_type": meeting_type(meeting_name),
+                    "meeting_type": m_type,
                     "file": orig.name,
                     "agenda_item": agenda_item(orig.name),
                     "chunk_idx": idx,
