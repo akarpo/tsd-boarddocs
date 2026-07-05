@@ -32,6 +32,14 @@ STORE_BATCH = 20
 TEXT_CAP = 6000
 
 
+def _clean_json(s):
+    """Tolerate a leading ```json fence if a subagent wrapped its output file."""
+    s = s.strip()
+    if s.startswith("```"):
+        s = (s.split("\n", 1)[1] if "\n" in s else s).rsplit("```", 1)[0]
+    return s.strip()
+
+
 def docs():
     d = {}
     for line in CHUNKS.open(encoding="utf-8"):
@@ -63,6 +71,10 @@ def main():
     ap.add_argument("--stats", action="store_true")
     ap.add_argument("--next", type=int)
     ap.add_argument("--store")
+    ap.add_argument("--store-dir", help="store every batch_*.json summary file in DIR to D1")
+    ap.add_argument("--prep-batches", type=int, metavar="N", help="write next N pending docs into batch files for the workflow")
+    ap.add_argument("--size", type=int, default=10, help="docs per batch file (default 10)")
+    ap.add_argument("--batch-dir", default="/tmp/tsd_batches")
     a = ap.parse_args()
 
     if a.store:
@@ -78,10 +90,47 @@ def main():
         print(f"stored {len(rows)} summaries to D1")
         return 0
 
+    if a.store_dir:
+        sdir = Path(a.store_dir)
+        rows = []
+        for f in sorted(sdir.glob("batch_*.json")):
+            try:
+                data = json.loads(_clean_json(f.read_text(encoding="utf-8")))
+            except Exception as e:
+                print(f"  ! skip {f.name}: {e}")
+                continue
+            items = data.items() if isinstance(data, dict) else ((v.get("url"), v) for v in data)
+            for u, v in items:
+                if u:
+                    rows.append({"url": u, "paragraph": v.get("paragraph", ""),
+                                 "page": v.get("page", ""), "verbose": v.get("verbose", "")})
+        for i in range(0, len(rows), STORE_BATCH):
+            body = json.dumps({"rows": rows[i:i + STORE_BATCH]}).encode()
+            req = urllib.request.Request(SUMPUT + "?secret=" + urllib.parse.quote(SECRET), data=body,
+                                         method="POST", headers={"content-type": "application/json",
+                                                                 "user-agent": "Mozilla/5.0"})
+            urllib.request.urlopen(req, timeout=120).read()
+        print(f"stored {len(rows)} summaries from {sdir} to D1")
+        return 0
+
     d = docs()
     done = done_urls()
     pending = [e for u, e in d.items() if u not in done]
     pending.sort(key=lambda e: e.get("meeting_date") or "", reverse=True)  # recent first
+
+    if a.prep_batches:
+        bdir = Path(a.batch_dir)
+        bdir.mkdir(parents=True, exist_ok=True)
+        for f in bdir.glob("batch_*.json"):
+            f.unlink()
+        sel = pending[:a.prep_batches]
+        nb = 0
+        for i in range(0, len(sel), a.size):
+            (bdir / f"batch_{nb:03d}.json").write_text(
+                json.dumps(sel[i:i + a.size], ensure_ascii=False, indent=1))
+            nb += 1
+        print(f"prepped {len(sel)} docs -> {nb} batch files in {bdir}  ({len(pending):,} pending total)")
+        return 0
 
     if a.stats:
         print(f"docs: {len(d):,}  summarized: {len(done):,}  pending: {len(pending):,}")
