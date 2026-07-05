@@ -28,7 +28,7 @@ DB = os.environ.get("D1_DB", "tsd-boarddocs")
 SUMPUT = os.environ.get("SUMMARYPUT_URL", "https://tsd-ingest.akarpo.workers.dev/summaryput")
 SECRET = os.environ.get("R2PUT_SECRET", "")
 BATCH_JSON = Path("/tmp/tsd_batch.json")
-STORE_BATCH = 40
+STORE_BATCH = 20
 TEXT_CAP = 6000
 
 

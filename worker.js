@@ -25,8 +25,16 @@ async function searchCore(env, query, k = 8) {
     "SELECT id,url,title,meeting_date,meeting_name,meeting_type,agenda_item,file," +
     "snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score " +
     "FROM chunks WHERE chunks MATCH ?1 ORDER BY rank LIMIT ?2";
-  const { results } = await env.DB.prepare(sql).bind(match, topK).all();
-  const rows = (results || []).map((r) => ({ ...r, snippet: String(r.snippet || "") }));
+  const { results } = await env.DB.prepare(sql).bind(match, topK * 5).all();
+  // one row per document (best-ranked; a 'sum:' summary row wins when it matches best)
+  const rows = [];
+  const seen = new Set();
+  for (const r of (results || [])) {
+    if (seen.has(r.url)) continue;
+    seen.add(r.url);
+    rows.push({ ...r, snippet: String(r.snippet || "") });
+    if (rows.length >= topK) break;
+  }
   // attach each doc's paragraph summary (if generated) for the result card
   const urls = [...new Set(rows.map((r) => r.url))];
   if (urls.length) {
