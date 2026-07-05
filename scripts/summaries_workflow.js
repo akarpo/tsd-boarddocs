@@ -4,9 +4,10 @@ export const meta = {
   phases: [{ title: 'Summarize', detail: 'one Opus agent per batch file, writing tiers to /tmp/tsd_out' }],
 }
 
-const N = (args && args.batches) || 10
-const inDir = (args && args.inDir) || '/tmp/tsd_batches'
-const outDir = (args && args.outDir) || '/tmp/tsd_out'
+const A = typeof args === 'string' ? JSON.parse(args || '{}') : (args || {})
+const N = A.batches || 10
+const inDir = A.inDir || '/tmp/tsd_batches'
+const outDir = A.outDir || '/tmp/tsd_out'
 const pad = (i) => String(i).padStart(3, '0')
 
 const prompt = (i) => `You are writing archival summaries of Troy School District (Michigan) Board of Education documents for a public search-and-AI site. Accuracy and specificity matter — these are the primary searchable artifact for each document.
