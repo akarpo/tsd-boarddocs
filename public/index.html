@@ -43,6 +43,17 @@
   .dd-panel label{display:flex;align-items:center;gap:8px;padding:5px 8px;font-size:.88rem;border-radius:6px;cursor:pointer;color:var(--fg)}
   .dd-panel label:hover{background:var(--card)}
   .dd-panel .div{height:1px;background:var(--line);margin:6px 4px}
+  .ctl{font:inherit;font-size:.85rem;font-weight:600;padding:7px 10px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:9px;cursor:pointer}
+  .chk{display:inline-flex;align-items:center;gap:6px;font-size:.85rem;font-weight:600;color:var(--fg);cursor:pointer;user-select:none}
+  .dtype{font-size:.72rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);padding:1px 7px;border-radius:999px}
+  .mgroup{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .mhead{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 14px;background:var(--card);border-bottom:1px solid var(--line);font-size:.82rem;color:var(--muted)}
+  .mhead .mname{flex:1;min-width:120px;color:var(--fg);font-weight:600}
+  .mhead .mcount{font-size:.76rem}
+  .mitems{display:flex;flex-direction:column;gap:1px;background:var(--line)}
+  .mitems .card{border:0;border-radius:0;background:var(--bg)}
+  .mitems .card:hover{background:var(--card)}
+  .bar .links{display:flex;gap:16px;align-items:center}
   #results{display:flex;flex-direction:column;gap:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;transition:border-color .12s}
   .card:hover{border-color:var(--accent)}
@@ -94,10 +105,26 @@
       <button type="button" data-type="Workshop">Workshop</button>
       <button type="button" data-type="Special">Special</button>
     </div>
+    <select id="doctype" class="ctl" aria-label="Document type">
+      <option value="">Any type</option>
+      <option value="Resolution">Resolution</option>
+      <option value="Financial">Financial</option>
+      <option value="Budget">Budget</option>
+      <option value="Policy">Policy</option>
+      <option value="Presentation">Presentation</option>
+      <option value="Contract">Contract</option>
+      <option value="Other">Other</option>
+    </select>
     <div class="dd" id="year-dd">
       <button type="button" class="dd-btn" id="year-btn" aria-expanded="false" aria-haspopup="true">All years ▾</button>
       <div class="dd-panel" id="year-panel" hidden></div>
     </div>
+    <select id="sort" class="ctl" aria-label="Sort order">
+      <option value="relevance">Sort: Relevance</option>
+      <option value="newest">Sort: Newest</option>
+      <option value="oldest">Sort: Oldest</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="group-meeting"> Group by meeting</label>
   </div>
   <div class="toolbar">
     <button type="button" id="copy" class="secondary" hidden>Copy context for your AI</button>
@@ -127,7 +154,10 @@
     </div>
     <div class="body" id="v-body"></div>
     <div class="bar">
-      <a id="v-open" href="#" target="_blank" rel="noopener">Open original ↗</a>
+      <span class="links">
+        <a id="v-bd" target="_blank" rel="noopener">View on BoardDocs ↗</a>
+        <a id="v-open" href="#" target="_blank" rel="noopener">PDF ↗</a>
+      </span>
       <button class="x" id="v-close">Close</button>
     </div>
   </div>
@@ -135,7 +165,7 @@
 
 <script>
 const SEARCH_EP="/api/search", FETCH_EP="/api/fetch";
-let lastQuery="", lastResults=[], curSum=null, curType="", curYears=[];
+let lastQuery="", lastResults=[], curSum=null, curType="", curYears=[], curDoctype="", curSort="relevance", groupMeeting=false;
 const $=id=>document.getElementById(id);
 const YEARS=(()=>{const m=new Date().getFullYear(),a=[];for(let y=Math.max(m,2026);y>=2010;y--)a.push(String(y));return a})();
 
@@ -146,33 +176,59 @@ function esc(s){const d=document.createElement("div");d.textContent=s==null?"":S
 
 async function runSearch(query,k=8,filt){
   const type=filt?(filt.type||""):curType, years=filt?(filt.years||[]):curYears;
+  const doctype=filt?(filt.doctype||""):curDoctype, sort=filt?(filt.sort||"relevance"):curSort;
   const p=new URLSearchParams({q:query,k:String(k)});
   if(type==="Special")p.set("exclude","Regular,Workshop");
   else if(type)p.set("types",type);
+  if(doctype)p.set("doctype",doctype);
   if(years.length)p.set("years",years.join(","));
+  if(sort&&sort!=="relevance")p.set("sort",sort);
   const r=await fetch(`${SEARCH_EP}?${p}`,{headers:{accept:"application/json"}});
   if(!r.ok) throw new Error(`search ${r.status}`);
   return r.json();
 }
 
+function card(r){
+  const type=r.meeting_type||"Meeting";
+  const el=document.createElement("div");
+  el.className="card";
+  el.innerHTML=
+    `<div class="meta">`+
+      `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
+      (r.doc_type&&r.doc_type!=="Other"?`<span class="dtype">${esc(r.doc_type)}</span>`:"")+
+      `<span class="date">${esc(fmtDate(r.meeting_date))}</span>`+
+      (r.agenda_item?`<span class="agenda">Item ${esc(r.agenda_item)}</span>`:"")+
+    `</div>`+
+    `<div class="title">${esc(r.title||r.file||r.id)}</div>`+
+    `<div class="snippet">${esc(r.summary||r.snippet||"")}</div>`;
+  el.addEventListener("click",()=>openViewer(r));
+  return el;
+}
 function render(results){
   const box=$("results"); box.innerHTML="";
-  if(!results.length){box.innerHTML=`<p class="status">No matches.</p>`;return}
-  results.forEach((r,i)=>{
-    const type=r.meeting_type||"Meeting";
-    const el=document.createElement("div");
-    el.className="card"; el.dataset.i=i;
-    el.innerHTML=
-      `<div class="meta">`+
-        `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
-        `<span class="date">${esc(fmtDate(r.meeting_date))}</span>`+
-        (r.agenda_item?`<span class="agenda">Item ${esc(r.agenda_item)}</span>`:"")+
-        (r.score!=null?`<span>· ${r.score.toFixed(2)}</span>`:"")+
-      `</div>`+
-      `<div class="title">${esc(r.title||r.file||r.id)}</div>`+
-      `<div class="snippet">${esc(r.summary||r.snippet||"")}</div>`;
-    el.addEventListener("click",()=>openViewer(r));
-    box.appendChild(el);
+  if(!results.length){box.innerHTML=`<p class="status">No matches${(curType||curDoctype||curYears.length)?" for the current filters":""}.</p>`;return}
+  if(groupMeeting){renderGrouped(results,box);return}
+  results.forEach(r=>box.appendChild(card(r)));
+}
+function renderGrouped(results,box){
+  const groups=[], idx={};
+  for(const r of results){
+    const key=(r.meeting_date||"")+"|"+(r.meeting_name||"");
+    if(!(key in idx)){idx[key]=groups.length;groups.push({date:r.meeting_date,type:r.meeting_type,name:r.meeting_name,items:[]})}
+    groups[idx[key]].items.push(r);
+  }
+  groups.forEach(g=>{
+    const sec=document.createElement("div"); sec.className="mgroup";
+    const head=document.createElement("div"); head.className="mhead";
+    head.innerHTML=
+      `<span class="badge" style="background:var(${BADGE[g.type]||'--b-meeting'})">${esc(g.type||"Meeting")}</span>`+
+      `<span class="date">${esc(fmtDate(g.date))}</span>`+
+      `<span class="mname">${esc(g.name||"")}</span>`+
+      `<span class="mcount">${g.items.length} doc${g.items.length>1?"s":""}</span>`;
+    sec.appendChild(head);
+    const list=document.createElement("div"); list.className="mitems";
+    g.items.forEach(r=>list.appendChild(card(r)));
+    sec.appendChild(list); box.appendChild(sec);
   });
 }
 
@@ -185,6 +241,7 @@ function openViewer(r){
   const type=r.meeting_type||"Meeting";
   $("v-meta").innerHTML=
     `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
+    (r.doc_type&&r.doc_type!=="Other"?`<span class="dtype">${esc(r.doc_type)}</span>`:"")+
     `<span class="date">${esc(fmtDate(r.meeting_date))}</span>`+
     (r.agenda_item?`<span class="agenda">Item ${esc(r.agenda_item)}</span>`:"")+
     (r.meeting_name?`<span>${esc(r.meeting_name)}</span>`:"");
@@ -204,6 +261,8 @@ function openViewer(r){
   const pdfUrl=/\.pdf($|\?)/i.test(r.url||"")?r.url:(r.url?r.url+".pdf":null);
   const src=pdfUrl?"/doc?key="+encodeURIComponent(decodeURIComponent(new URL(pdfUrl).pathname).slice(1)):null;
   $("v-open").href=src||r.url||"#";
+  const bd=$("v-bd");
+  if(r.boarddocs_url){bd.href=r.boarddocs_url;bd.style.display="";}else{bd.style.display="none";}
   $("v-body").innerHTML = src
     ? `<iframe src="${src}#toolbar=1" title="document"></iframe>`
     : `<div class="fallback">No inline preview available.</div>`;
@@ -226,7 +285,7 @@ async function doSearch(query){
   if(!query.trim())return;
   lastQuery=query; syncUrl(); $("go").disabled=true; $("results").innerHTML=`<p class="status">Searching…</p>`; $("copy").hidden=true;
   try{
-    const data=await runSearch(query); lastResults=data.results||[]; render(lastResults); $("copy").hidden=lastResults.length===0;
+    const data=await runSearch(query, groupMeeting?40:8); lastResults=data.results||[]; render(lastResults); $("copy").hidden=lastResults.length===0;
   }catch(e){ $("results").innerHTML=`<p class="status">Search error (${esc(e.message)}).</p>`; }
   finally{ $("go").disabled=false; }
 }
@@ -259,15 +318,22 @@ function syncUrl(){
   const p=new URLSearchParams();
   if(lastQuery)p.set("q",lastQuery);
   if(curType)p.set("type",curType);
+  if(curDoctype)p.set("doctype",curDoctype);
   if(curYears.length)p.set("years",curYears.join(","));
+  if(curSort&&curSort!=="relevance")p.set("sort",curSort);
+  if(groupMeeting)p.set("group","1");
   const qs=p.toString();
   history.replaceState(history.state,"",qs?("?"+qs):location.pathname);
 }
 function restoreFromUrl(){
   const p=new URLSearchParams(location.search);
   const q=p.get("q")||"", type=p.get("type")||"", years=(p.get("years")||"").split(",").map(s=>s.trim()).filter(Boolean);
-  if(q===lastQuery && type===curType && years.join(",")===curYears.join(",")) return;
+  const doctype=p.get("doctype")||"", sort=p.get("sort")||"relevance", group=p.get("group")==="1";
+  if(q===lastQuery && type===curType && years.join(",")===curYears.join(",") && doctype===curDoctype && sort===curSort && group===groupMeeting) return;
   setTypeUI(type); setYearsUI(years); $("q").value=q;
+  curDoctype=doctype; $("doctype").value=doctype;
+  curSort=sort; $("sort").value=sort;
+  groupMeeting=group; $("group-meeting").checked=group;
   if(q) doSearch(q); else { lastQuery=""; lastResults=[]; $("results").innerHTML=""; $("copy").hidden=true; }
 }
 
@@ -278,6 +344,9 @@ $("v-close").addEventListener("click",()=>closeViewer());
 $("viewer").addEventListener("click",e=>{if(e.target===$("viewer"))closeViewer()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){const yp=$("year-panel");if(yp&&!yp.hidden){yp.hidden=true;}else{closeViewer();}}});
 $("type-seg").addEventListener("click",e=>{const b=e.target.closest("button[data-type]");if(!b)return;setTypeUI(b.dataset.type||"");onFilterChange()});
+$("doctype").addEventListener("change",e=>{curDoctype=e.target.value;onFilterChange()});
+$("sort").addEventListener("change",e=>{curSort=e.target.value;onFilterChange()});
+$("group-meeting").addEventListener("change",e=>{groupMeeting=e.target.checked;onFilterChange()});
 $("year-btn").addEventListener("click",e=>{e.stopPropagation();const pan=$("year-panel");const willOpen=pan.hidden;pan.hidden=!willOpen;$("year-btn").setAttribute("aria-expanded",String(willOpen))});
 document.addEventListener("click",e=>{if(!$("year-dd").contains(e.target))$("year-panel").hidden=true});
 window.addEventListener("popstate",()=>{if($("viewer").classList.contains("open")){closeViewer(true);return}restoreFromUrl()});

@@ -3,6 +3,8 @@
 // Bindings (wrangler.toml): DB (D1 FTS5 index), MEDIA (R2 bucket), ASSETS.
 // Keyword/BM25 search over document text + titles — free tier, no neuron cap.
 
+import { BD_BASE, BD_BY_DATENAME, BD_BY_NAME } from "./bd_links.js";
+
 const CORS = {
   "access-control-allow-origin": "*",
   "access-control-allow-methods": "GET,POST,OPTIONS",
@@ -17,10 +19,37 @@ function ftsQuery(q) {
   return toks.map((t) => `"${t.replace(/"/g, "")}"`).join(" OR ");
 }
 
-async function searchCore(env, query, k = 8, opts = {}) {
-  const match = ftsQuery(query);
-  if (!match) return [];
-  const topK = Math.max(1, Math.min(k || 8, 25));
+// Document-type taxonomy from the title (first match wins; "Other" = none matched).
+const DOC_TYPES = {
+  Resolution:   ["Resolution"],
+  Financial:    ["Check Register", "ACH Report", "Treasurer", "P Card", "P-Card", "Financial Statement", "Wire Transfer", "Wires Transfer", "Disburse", "Warrant"],
+  Budget:       ["Budget"],
+  Policy:       ["Policy", "Policies", "Bylaw"],
+  Contract:     ["Contract", "Agreement"],
+  Presentation: ["Presentation"],
+};
+const DOC_TYPE_KEYS = Object.keys(DOC_TYPES);
+const DOC_TYPE_ALL = Object.values(DOC_TYPES).flat();
+function classifyDocType(title) {
+  const t = String(title || "").toLowerCase();
+  for (const type of DOC_TYPE_KEYS) if (DOC_TYPES[type].some((k) => t.includes(k.toLowerCase()))) return type;
+  return "Other";
+}
+function docTypeCond(doctype) {
+  if (!doctype) return null;
+  if (doctype === "Other")
+    return { sql: "NOT (" + DOC_TYPE_ALL.map(() => "title LIKE ?").join(" OR ") + ")", binds: DOC_TYPE_ALL.map((k) => `%${k}%`) };
+  const kw = DOC_TYPES[doctype];
+  return kw ? { sql: "(" + kw.map(() => "title LIKE ?").join(" OR ") + ")", binds: kw.map((k) => `%${k}%`) } : null;
+}
+// Deep-link a result to its BoardDocs meeting (date+file, name fallback).
+function bdLink(r) {
+  const mu = BD_BY_DATENAME[`${r.meeting_date}|${r.file}`] || BD_BY_NAME[r.file];
+  return mu ? BD_BASE + mu : null;
+}
+
+const COLS = "id,url,title,meeting_date,meeting_name,meeting_type,agenda_item,file";
+function buildConds(match, opts) {
   const conds = ["chunks MATCH ?"];
   const binds = [match];
   const types = (opts.types || []).filter(Boolean);
@@ -29,21 +58,43 @@ async function searchCore(env, query, k = 8, opts = {}) {
   if (years.length) { conds.push(`substr(meeting_date,1,4) IN (${years.map(() => "?").join(",")})`); binds.push(...years); }
   const exclude = (opts.exclude || []).filter(Boolean);
   if (exclude.length) { conds.push(`meeting_type NOT IN (${exclude.map(() => "?").join(",")})`); binds.push(...exclude); }
-  const sql =
-    "SELECT id,url,title,meeting_date,meeting_name,meeting_type,agenda_item,file," +
-    "snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score " +
-    "FROM chunks WHERE " + conds.join(" AND ") + " ORDER BY rank LIMIT ?";
-  binds.push(topK * 5);
-  const { results } = await env.DB.prepare(sql).bind(...binds).all();
-  // one row per document (best-ranked; a 'sum:' summary row wins when it matches best)
-  const rows = [];
-  const seen = new Set();
-  for (const r of (results || [])) {
-    if (seen.has(r.url)) continue;
-    seen.add(r.url);
-    rows.push({ ...r, snippet: String(r.snippet || "") });
-    if (rows.length >= topK) break;
+  const dt = docTypeCond(opts.doctype);
+  if (dt) { conds.push(dt.sql); binds.push(...dt.binds); }
+  return { where: conds.join(" AND "), binds };
+}
+
+async function searchCore(env, query, k = 8, opts = {}) {
+  const match = ftsQuery(query);
+  if (!match) return [];
+  const topK = Math.max(1, Math.min(k || 8, 40));
+  const { where, binds } = buildConds(match, opts);
+  const sort = opts.sort === "newest" ? "newest" : opts.sort === "oldest" ? "oldest" : "relevance";
+  let rows = [];
+  if (sort === "relevance") {
+    const sql = `SELECT ${COLS}, snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score FROM chunks WHERE ${where} ORDER BY rank LIMIT ?`;
+    const { results } = await env.DB.prepare(sql).bind(...binds, topK * 5).all();
+    const seen = new Set();
+    for (const r of (results || [])) {
+      if (seen.has(r.url)) continue;
+      seen.add(r.url); rows.push({ ...r, snippet: String(r.snippet || "") });
+      if (rows.length >= topK) break;
+    }
+  } else {
+    // Date sort: snippet() can't be used with GROUP BY, so pick the k docs by date first, then fetch snippets.
+    const dir = sort === "newest" ? "DESC" : "ASC";
+    const q1 = `SELECT url, max(meeting_date) AS md FROM chunks WHERE ${where} GROUP BY url ORDER BY md ${dir} LIMIT ?`;
+    const { results: u } = await env.DB.prepare(q1).bind(...binds, topK).all();
+    const urls = (u || []).map((r) => r.url);
+    if (urls.length) {
+      const ph = urls.map(() => "?").join(",");
+      const q2 = `SELECT ${COLS}, snippet(chunks,3,'','','…',18) AS snippet, bm25(chunks) AS score FROM chunks WHERE ${where} AND url IN (${ph}) ORDER BY rank`;
+      const { results: d } = await env.DB.prepare(q2).bind(...binds, ...urls).all();
+      const byUrl = {};
+      for (const r of (d || [])) if (!byUrl[r.url]) byUrl[r.url] = { ...r, snippet: String(r.snippet || "") };
+      rows = urls.map((x) => byUrl[x]).filter(Boolean);
+    }
   }
+  rows.forEach((r) => { r.doc_type = classifyDocType(r.title); r.boarddocs_url = bdLink(r); });
   // attach each doc's paragraph summary (if generated) for the result card
   const urls = [...new Set(rows.map((r) => r.url))];
   if (urls.length) {
@@ -74,9 +125,11 @@ const TOOLS = [
       type: "object",
       properties: {
         query: { type: "string" },
-        k: { type: "number", description: "results (default 8, max 25)" },
+        k: { type: "number", description: "results (default 8, max 40)" },
         meeting_type: { type: "string", description: "optional filter: Regular, Workshop, or Special (Special = all other meeting types); omit for all" },
         years: { type: "string", description: "optional filter: comma-separated years, e.g. 2025,2026 (omit for all years)" },
+        doc_type: { type: "string", description: "optional filter: Resolution, Financial, Budget, Policy, Contract, Presentation, or Other" },
+        sort: { type: "string", description: "optional: relevance (default), newest, or oldest" },
       },
       required: ["query"],
     },
@@ -94,7 +147,9 @@ async function callTool(env, name, args) {
     const types = mt && mt !== "Special" ? [mt] : [];
     const exclude = mt === "Special" ? ["Regular", "Workshop"] : [];
     const years = args.years ? String(args.years).split(",").map((s) => s.trim()).filter(Boolean) : [];
-    const rows = await searchCore(env, String(args.query || ""), Number(args.k) || 8, { types, years, exclude });
+    const doctype = args.doc_type ? String(args.doc_type) : "";
+    const sort = args.sort ? String(args.sort) : "";
+    const rows = await searchCore(env, String(args.query || ""), Number(args.k) || 8, { types, years, exclude, doctype, sort });
     const text = rows.length
       ? rows.map((r, i) => `[${i + 1}] id=${r.id}\n${r.title} — ${r.meeting_type || ""} ${r.meeting_date || ""}${r.agenda_item ? ` Item ${r.agenda_item}` : ""}\n${r.url}\n${r.snippet}`).join("\n\n")
       : `No results for "${args.query}".`;
@@ -148,7 +203,9 @@ export default {
         const types = (url.searchParams.get("types") || "").split(",").map((s) => s.trim()).filter(Boolean);
         const years = (url.searchParams.get("years") || "").split(",").map((s) => s.trim()).filter(Boolean);
         const exclude = (url.searchParams.get("exclude") || "").split(",").map((s) => s.trim()).filter(Boolean);
-        return json({ query: q, results: await searchCore(env, q, k, { types, years, exclude }) });
+        const doctype = (url.searchParams.get("doctype") || "").trim();
+        const sort = (url.searchParams.get("sort") || "").trim();
+        return json({ query: q, results: await searchCore(env, q, k, { types, years, exclude, doctype, sort }) });
       }
       if (p === "/api/fetch") {
         const fid = url.searchParams.get("id");

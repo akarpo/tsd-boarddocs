@@ -8,6 +8,7 @@
 !/README.md
 !/LICENSE
 !/boarddocs_unids.json
+!/bd_links.js
 !/.github/
 
 # Website (Cloudflare Worker): entry point, config, and static assets
