@@ -451,8 +451,8 @@ window.addEventListener("popstate",()=>{
   if($("viewer").classList.contains("open")){closeViewer(true);return}
   const p=new URLSearchParams(location.search);
   if(p.has("meeting")) openMeetingByKey(p.get("meeting"),false);
-  else if(p.has("browse")) browseMeetings(false);
-  else restoreFromUrl();
+  else if(p.get("q")) restoreFromUrl();
+  else browseMeetings(false);
 });
 
 // WebMCP: expose search + fetch to an in-browser agent (Chrome 149+). No-op elsewhere.
@@ -475,8 +475,8 @@ buildYearPanel();
     history.replaceState({v:"browse"},"","?browse=1");            // seed a list entry so Back returns to it
     history.pushState({v:"meeting"},"","?meeting="+encodeURIComponent(key));
     openMeetingByKey(key,false);
-  } else if(p.has("browse")){ browseMeetings(false); }
-  else { restoreFromUrl(); }
+  } else if(p.get("q")){ restoreFromUrl(); }                     // a shared search URL
+  else { browseMeetings(false); }                                // default landing: Browse Meetings (current year open)
 })();
 registerWebMCP().catch(()=>{});
 </script>
