@@ -276,6 +276,10 @@ export default {
         // Serve an R2 object same-origin (avoids cross-origin iframe issues).
         const key = url.searchParams.get("key");
         if (!key) return new Response("key required", { status: 400, headers: CORS });
+        if (request.method === "HEAD") {
+          const head = await env.MEDIA.head(key);
+          return new Response(null, { status: head ? 200 : 404, headers: CORS });
+        }
         const obj = await env.MEDIA.get(key);
         if (!obj) return new Response("Not found", { status: 404, headers: CORS });
         const h = new Headers();
