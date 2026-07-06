@@ -60,6 +60,7 @@
   .mrows .mrow{display:flex;align-items:center;gap:10px;padding:9px 14px;border:1px solid var(--line);border-top:0;cursor:pointer;font-size:.9rem}
   .mrows .mrow:first-child{border-top:1px solid var(--line);margin-top:-2px}
   .mrow:hover{background:var(--card)}
+  .mrow-active{background:var(--card);box-shadow:inset 3px 0 0 var(--accent)}
   .mrow .mdate{font-weight:600;white-space:nowrap}
   .mrow .mnm{flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .mrow .mdocs{font-size:.78rem;color:var(--muted);white-space:nowrap}
@@ -246,7 +247,7 @@ function renderGrouped(results,box){
 }
 
 // ---- browse meetings (timeline) ----
-let allMeetings=null;
+let allMeetings=null, expandedYears=null, lastBrowsedMeeting=null;
 async function browseMeetings(){
   $("results").innerHTML=`<p class="status">Loading meetings…</p>`; $("copy").hidden=true;
   try{
@@ -258,17 +259,17 @@ function renderMeetingList(){
   const box=$("results"); box.innerHTML="";
   const byYear={};
   allMeetings.forEach(m=>{ const y=(m.date||"").slice(0,4); (byYear[y]=byYear[y]||[]).push(m); });
-  const nowY=String(new Date().getFullYear());
+  if(!expandedYears) expandedYears=new Set([String(new Date().getFullYear())]);
   const wrap=document.createElement("div"); wrap.className="ylist";
   Object.keys(byYear).sort().reverse().forEach(y=>{
     const sec=document.createElement("div");
     const head=document.createElement("div"); head.className="yhead";
     head.innerHTML=`<span>${esc(y)}</span><span class="ycount">${byYear[y].length} meetings</span>`;
     const rows=document.createElement("div"); rows.className="mrows";
-    rows.style.display=(y===nowY)?"block":"none";
+    rows.style.display=expandedYears.has(y)?"block":"none";
     byYear[y].forEach(m=>{
       const type=m.type||"Meeting";
-      const row=document.createElement("div"); row.className="mrow";
+      const row=document.createElement("div"); row.className="mrow"; row.dataset.key=(m.date||"")+"|"+(m.name||"");
       row.innerHTML=
         `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
         `<span class="mdate">${esc(fmtDate(m.date))}</span>`+
@@ -277,12 +278,24 @@ function renderMeetingList(){
       row.addEventListener("click",()=>openMeeting(m));
       rows.appendChild(row);
     });
-    head.addEventListener("click",()=>{rows.style.display=rows.style.display==="none"?"block":"none"});
+    head.addEventListener("click",()=>{
+      if(expandedYears.has(y)) expandedYears.delete(y); else expandedYears.add(y);
+      rows.style.display=expandedYears.has(y)?"block":"none";
+    });
     sec.appendChild(head); sec.appendChild(rows); wrap.appendChild(sec);
   });
   box.appendChild(wrap);
+  if(lastBrowsedMeeting){                         // returning from a meeting: reveal + scroll to it
+    const el=[...wrap.querySelectorAll(".mrow")].find(r=>r.dataset.key===lastBrowsedMeeting);
+    if(el){ el.scrollIntoView({block:"center"}); el.classList.add("mrow-active"); }
+    lastBrowsedMeeting=null;
+  }
 }
 async function openMeeting(m){
+  const y=(m.date||"").slice(0,4);
+  if(!expandedYears) expandedYears=new Set();
+  expandedYears.add(y);                           // keep this year open when we go back
+  lastBrowsedMeeting=(m.date||"")+"|"+(m.name||"");
   $("results").innerHTML=`<p class="status">Loading meeting…</p>`;
   try{
     const r=await fetch(`/api/meeting?date=${encodeURIComponent(m.date)}&name=${encodeURIComponent(m.name||"")}`);
