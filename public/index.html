@@ -64,7 +64,8 @@
   .mrow .mdate{font-weight:600;white-space:nowrap}
   .mrow .mnm{flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .mrow .mdocs{font-size:.78rem;color:var(--muted);white-space:nowrap}
-  .backlink{display:inline-block;margin-bottom:12px;color:var(--accent);cursor:pointer;font-weight:600;font-size:.9rem;background:none;border:0;padding:0}
+  .backlink{position:sticky;top:8px;z-index:5;display:flex;align-items:center;gap:6px;margin:0 0 12px;padding:10px 14px;color:var(--accent);cursor:pointer;font-weight:600;font-size:.9rem;background:var(--bg);border:1px solid var(--line);border-radius:10px;width:100%;text-align:left;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+  .backlink:hover{background:var(--card)}
   #results{display:flex;flex-direction:column;gap:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;transition:border-color .12s}
   .card:hover{border-color:var(--accent)}
@@ -247,9 +248,11 @@ function renderGrouped(results,box){
 }
 
 // ---- browse meetings (timeline) ----
-let allMeetings=null, expandedYears=null, lastBrowsedMeeting=null;
-async function browseMeetings(){
+let allMeetings=null, expandedYears=null, lastBrowsedMeeting=null, currentView="search";
+async function browseMeetings(push){
   $("results").innerHTML=`<p class="status">Loading meetings…</p>`; $("copy").hidden=true;
+  if(push!==false && !(history.state&&history.state.v==="browse")) history.pushState({v:"browse"},"","?browse=1");
+  currentView="browse";
   try{
     if(!allMeetings){ const r=await fetch("/api/meetings"); allMeetings=(await r.json()).meetings||[]; }
     renderMeetingList();
@@ -291,18 +294,20 @@ function renderMeetingList(){
     lastBrowsedMeeting=null;
   }
 }
-async function openMeeting(m){
+async function openMeeting(m, push){
   const y=(m.date||"").slice(0,4);
   if(!expandedYears) expandedYears=new Set();
   expandedYears.add(y);                           // keep this year open when we go back
   lastBrowsedMeeting=(m.date||"")+"|"+(m.name||"");
+  if(push!==false) history.pushState({v:"meeting"},"","?meeting="+encodeURIComponent(lastBrowsedMeeting));
+  currentView="meeting";
   $("results").innerHTML=`<p class="status">Loading meeting…</p>`;
   try{
     const r=await fetch(`/api/meeting?date=${encodeURIComponent(m.date)}&name=${encodeURIComponent(m.name||"")}`);
     const data=await r.json();
     const box=$("results"); box.innerHTML="";
     const back=document.createElement("button"); back.className="backlink"; back.textContent="← All meetings";
-    back.addEventListener("click",browseMeetings); box.appendChild(back);
+    back.addEventListener("click",()=>history.back()); box.appendChild(back);
     const type=m.type||"Meeting";
     const grp=document.createElement("div"); grp.className="mgroup";
     const hd=document.createElement("div"); hd.className="mhead";
@@ -316,6 +321,11 @@ async function openMeeting(m){
     (data.docs||[]).forEach(d=>list.appendChild(card(d)));
     grp.appendChild(list); box.appendChild(grp);
   }catch(e){ $("results").innerHTML=`<p class="status">Could not load meeting.</p>`; }
+}
+async function openMeetingByKey(key, push){
+  if(!allMeetings){ try{ const r=await fetch("/api/meetings"); allMeetings=(await r.json()).meetings||[]; }catch(e){} }
+  const m=(allMeetings||[]).find(x=>((x.date||"")+"|"+(x.name||""))===key);
+  if(m) openMeeting(m, push); else browseMeetings(false);
 }
 
 function setTier(t){
@@ -369,7 +379,7 @@ function contextBlob(){
 
 async function doSearch(query){
   if(!query.trim())return;
-  lastQuery=query; syncUrl(); $("go").disabled=true; $("results").innerHTML=`<p class="status">Searching…</p>`; $("copy").hidden=true;
+  lastQuery=query; currentView="search"; syncUrl(); $("go").disabled=true; $("results").innerHTML=`<p class="status">Searching…</p>`; $("copy").hidden=true;
   try{
     const data=await runSearch(query, groupMeeting?40:8); lastResults=data.results||[]; render(lastResults); $("copy").hidden=lastResults.length===0;
   }catch(e){ $("results").innerHTML=`<p class="status">Search error (${esc(e.message)}).</p>`; }
@@ -415,7 +425,8 @@ function restoreFromUrl(){
   const p=new URLSearchParams(location.search);
   const q=p.get("q")||"", type=p.get("type")||"", years=(p.get("years")||"").split(",").map(s=>s.trim()).filter(Boolean);
   const doctype=p.get("doctype")||"", sort=p.get("sort")||"relevance", group=p.get("group")==="1";
-  if(q===lastQuery && type===curType && years.join(",")===curYears.join(",") && doctype===curDoctype && sort===curSort && group===groupMeeting) return;
+  if(currentView==="search" && q===lastQuery && type===curType && years.join(",")===curYears.join(",") && doctype===curDoctype && sort===curSort && group===groupMeeting) return;
+  currentView="search";
   setTypeUI(type); setYearsUI(years); $("q").value=q;
   curDoctype=doctype; $("doctype").value=doctype;
   curSort=sort; $("sort").value=sort;
@@ -426,7 +437,7 @@ function restoreFromUrl(){
 // ---- events ----
 $("search-form").addEventListener("submit",e=>{e.preventDefault();doSearch($("q").value)});
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(contextBlob());$("copy").textContent="Copied ✓";setTimeout(()=>$("copy").textContent="Copy context for your AI",1500)}catch{}});
-$("browse-btn").addEventListener("click",browseMeetings);
+$("browse-btn").addEventListener("click",()=>browseMeetings(true));
 $("v-close").addEventListener("click",()=>closeViewer());
 $("viewer").addEventListener("click",e=>{if(e.target===$("viewer"))closeViewer()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){const yp=$("year-panel");if(yp&&!yp.hidden){yp.hidden=true;}else{closeViewer();}}});
@@ -436,7 +447,13 @@ $("sort").addEventListener("change",e=>{curSort=e.target.value;onFilterChange()}
 $("group-meeting").addEventListener("change",e=>{groupMeeting=e.target.checked;onFilterChange()});
 $("year-btn").addEventListener("click",e=>{e.stopPropagation();const pan=$("year-panel");const willOpen=pan.hidden;pan.hidden=!willOpen;$("year-btn").setAttribute("aria-expanded",String(willOpen))});
 document.addEventListener("click",e=>{if(!$("year-dd").contains(e.target))$("year-panel").hidden=true});
-window.addEventListener("popstate",()=>{if($("viewer").classList.contains("open")){closeViewer(true);return}restoreFromUrl()});
+window.addEventListener("popstate",()=>{
+  if($("viewer").classList.contains("open")){closeViewer(true);return}
+  const p=new URLSearchParams(location.search);
+  if(p.has("meeting")) openMeetingByKey(p.get("meeting"),false);
+  else if(p.has("browse")) browseMeetings(false);
+  else restoreFromUrl();
+});
 
 // WebMCP: expose search + fetch to an in-browser agent (Chrome 149+). No-op elsewhere.
 async function registerWebMCP(){
@@ -451,7 +468,16 @@ async function registerWebMCP(){
   const s=$("mcp-status");s.textContent="✓ AI tools (search, fetch) available to your browser agent";s.className="status on";
 }
 buildYearPanel();
-restoreFromUrl();
+(function(){
+  const p=new URLSearchParams(location.search);
+  if(p.has("meeting")){
+    const key=p.get("meeting");
+    history.replaceState({v:"browse"},"","?browse=1");            // seed a list entry so Back returns to it
+    history.pushState({v:"meeting"},"","?meeting="+encodeURIComponent(key));
+    openMeetingByKey(key,false);
+  } else if(p.has("browse")){ browseMeetings(false); }
+  else { restoreFromUrl(); }
+})();
 registerWebMCP().catch(()=>{});
 </script>
 </body>
