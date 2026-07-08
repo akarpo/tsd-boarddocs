@@ -28,3 +28,10 @@
 # by the workflow's issue step, never committed.
 verify-report.txt
 issue_body.txt
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
