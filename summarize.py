@@ -18,6 +18,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -28,8 +29,28 @@ DB = os.environ.get("D1_DB", "tsd-boarddocs")
 SUMPUT = os.environ.get("SUMMARYPUT_URL", "https://tsd-ingest.akarpo.workers.dev/summaryput")
 SECRET = os.environ.get("R2PUT_SECRET", "")
 BATCH_JSON = Path("/tmp/tsd_batch.json")
-STORE_BATCH = 20
+STORE_BATCH = 10
 TEXT_CAP = 6000
+
+
+def _post(rows):
+    """POST a batch to /summaryput, retrying on timeout / transient errors.
+
+    The FTS `sum:` writes get slow as the index grows, so a single POST can
+    exceed the socket timeout; retry with backoff instead of losing the run.
+    """
+    body = json.dumps({"rows": rows}).encode()
+    for attempt in range(4):
+        try:
+            req = urllib.request.Request(SUMPUT + "?secret=" + urllib.parse.quote(SECRET), data=body,
+                                         method="POST", headers={"content-type": "application/json",
+                                                                 "user-agent": "Mozilla/5.0"})
+            urllib.request.urlopen(req, timeout=240).read()
+            return
+        except Exception:
+            if attempt == 3:
+                raise
+            time.sleep(3 * (attempt + 1))
 
 
 def _clean_json(s):
@@ -82,11 +103,7 @@ def main():
         rows = [{"url": u, "paragraph": v.get("paragraph", ""), "page": v.get("page", ""),
                  "verbose": v.get("verbose", "")} for u, v in sums.items()]
         for i in range(0, len(rows), STORE_BATCH):
-            body = json.dumps({"rows": rows[i:i + STORE_BATCH]}).encode()
-            req = urllib.request.Request(SUMPUT + "?secret=" + urllib.parse.quote(SECRET), data=body,
-                                         method="POST", headers={"content-type": "application/json",
-                                                                 "user-agent": "Mozilla/5.0"})
-            urllib.request.urlopen(req, timeout=120).read()
+            _post(rows[i:i + STORE_BATCH])
         print(f"stored {len(rows)} summaries to D1")
         return 0
 
@@ -105,11 +122,7 @@ def main():
                     rows.append({"url": u, "paragraph": v.get("paragraph", ""),
                                  "page": v.get("page", ""), "verbose": v.get("verbose", "")})
         for i in range(0, len(rows), STORE_BATCH):
-            body = json.dumps({"rows": rows[i:i + STORE_BATCH]}).encode()
-            req = urllib.request.Request(SUMPUT + "?secret=" + urllib.parse.quote(SECRET), data=body,
-                                         method="POST", headers={"content-type": "application/json",
-                                                                 "user-agent": "Mozilla/5.0"})
-            urllib.request.urlopen(req, timeout=120).read()
+            _post(rows[i:i + STORE_BATCH])
         print(f"stored {len(rows)} summaries from {sdir} to D1")
         return 0
 
