@@ -79,12 +79,23 @@ def docs():
 
 
 def done_urls():
-    r = subprocess.run(["wrangler", "d1", "execute", DB, "--remote", "--yes", "--json",
-                        "--command", "SELECT url FROM summaries;"], capture_output=True, text=True)
-    try:
-        return {row["url"] for row in json.loads(r.stdout)[0]["results"]}
-    except Exception:
-        return set()
+    """Return the set of already-summarized urls, retrying on transient D1 errors.
+
+    A flaky wrangler call can return empty; treating that as "nothing done" would
+    re-queue the whole corpus. Retry a few times before giving up.
+    """
+    for attempt in range(4):
+        r = subprocess.run(["wrangler", "d1", "execute", DB, "--remote", "--yes", "--json",
+                            "--command", "SELECT url FROM summaries;"], capture_output=True, text=True)
+        try:
+            res = {row["url"] for row in json.loads(r.stdout)[0]["results"]}
+            if res:
+                return res
+        except Exception:
+            pass
+        if attempt < 3:
+            time.sleep(2 * (attempt + 1))
+    return set()
 
 
 def main():
@@ -128,6 +139,10 @@ def main():
 
     d = docs()
     done = done_urls()
+    if not done and (a.prep_batches or a.next is not None):
+        print("ABORT: D1 returned 0 summarized urls (transient error?) — refusing to re-queue "
+              "the whole corpus. Wait a moment and retry.", file=sys.stderr)
+        return 1
     pending = [e for u, e in d.items() if u not in done]
     pending.sort(key=lambda e: e.get("meeting_date") or "", reverse=True)  # recent first
 
