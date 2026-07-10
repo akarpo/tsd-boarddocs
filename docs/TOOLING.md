@@ -22,6 +22,12 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 | `summarize.py` | Opus summary harness. `--stats` (done/pending), `--prep-batches N --size S` (write batch files), `--store-dir DIR` (post `batch_*.json` to `/summaryput`). Resumable via the D1 pending flag. |
 | `scripts/summaries_workflow.js` | Multi-agent Opus fan-out — one agent per prepped batch file; each reads its docs and writes the three tiers. `args {batches: N}`. |
 
+## Proper-noun sheet (custom-vocabulary export)
+
+| Script | Role |
+|---|---|
+| `scripts/proper_nouns.py` | Generates the categorized proper-noun `.docx` (people, schools, programs, vendors, associations, governmental, streets, acronyms) for speech-to-text custom vocabulary — plus a flat paste-ready appendix. Pulls the clean `summaries` from D1, auto-extracts vendor firms, and merges QA-validated curated lists (financial ledgers excluded). `--qa` prints validation digests — board roll-call timeline, external-name flags, new school/acronym candidates — to extend the curated lists as older years get summarized. `--refresh` re-pulls from D1; default output is `~/Desktop`. |
+
 ## Serve (active)
 
 | File | Role |
