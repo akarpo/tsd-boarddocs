@@ -101,6 +101,11 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
 - **Cloudflare bot-blocks `python-urllib`** → send a browser `User-Agent`, or you
   get 403 on R2, the Worker, and BoardDocs. (`curl` default UA is fine; BoardDocs
   itself 403s any non-browser, so verify its deep-links in a real browser.)
+- **BoardDocs rate-limits datacenter / CI IPs** → it intermittently `403`s the
+  `list-files` call from GitHub-hosted runners. `download_troysd.py` retries with
+  exponential backoff (`_send()`), tunable via `BD_RETRIES` / `BD_BACKOFF` /
+  `BD_DELAY`; the daily Action paces the crawl with `BD_DELAY=0.6`. A rare missed
+  item self-heals on the next day's trailing-window run.
 - **`wrangler r2 object put` needs `--remote`** or it silently uploads nothing.
 - **`wrangler` truncates R2 keys at `#`** → upload via `/r2put`.
 - **FTS5 `snippet()` can't be used with `GROUP BY`** → date sort uses a two-query

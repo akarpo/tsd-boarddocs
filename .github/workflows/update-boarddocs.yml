@@ -58,10 +58,17 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends libreoffice-writer libreoffice-impress
 
       - name: Crawl recent meetings (incremental)
+        env:
+          # BoardDocs rate-limits datacenter/CI IPs; throttle + retry with backoff.
+          # download_troysd.py honors these (see _send()): BD_DELAY paces requests,
+          # BD_RETRIES/BD_BACKOFF retry the intermittent 403/429/5xx.
+          BD_DELAY: '0.6'
+          BD_RETRIES: '5'
+          BD_BACKOFF: '2.0'
         run: |
           DAYS="${{ github.event.inputs.window_days || '45' }}"
           START="$(date -u -d "${DAYS} days ago" +%Y-%m-%d)"
-          echo "Crawling meetings from $START onward"
+          echo "Crawling meetings from $START onward (BD_DELAY=$BD_DELAY, BD_RETRIES=$BD_RETRIES)"
           python3 download_troysd.py --start "$START" --yes
 
       - name: Extract text

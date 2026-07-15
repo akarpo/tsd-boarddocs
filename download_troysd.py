@@ -48,6 +48,7 @@ import argparse
 import csv
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -64,6 +65,16 @@ OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
 BASELINE_PATH = Path(__file__).parent / "boarddocs_unids.json"
 
+# BoardDocs intermittently 403s automated clients — especially from datacenter /
+# CI IPs (seen on the GitHub-hosted daily Action). A short backoff almost always
+# clears it. Retries are bounded and env-tunable; an optional per-request delay
+# (BD_DELAY, e.g. 0.5 in CI) throttles the crawl to avoid tripping the limiter.
+BD_RETRIES = int(os.environ.get("BD_RETRIES", "4"))       # extra attempts after the first
+BD_BACKOFF = float(os.environ.get("BD_BACKOFF", "2.0"))   # base seconds, exponential + jitter
+BD_BACKOFF_CAP = float(os.environ.get("BD_BACKOFF_CAP", "30.0"))
+BD_DELAY = float(os.environ.get("BD_DELAY", "0.0"))       # polite pause before each request
+RETRY_CODES = {403, 429, 500, 502, 503, 504}
+
 ITEM_RE = re.compile(r'<li\b[^>]*\bunique="(?P<unique>[A-Z0-9]+)"', re.I)
 FILE_RE = re.compile(
     r'<a\b[^>]*class="public-file"[^>]*href="(?P<href>[^"]+)"[^>]*>'
@@ -79,6 +90,33 @@ DATE_TERM_RE = re.compile(r'\d{4}(-\d{2}(-\d{2})?)?$')
 # --------------------------------------------------------------------------
 # BoardDocs HTTP
 # --------------------------------------------------------------------------
+def _send(req: Request, timeout: int) -> bytes:
+    """urlopen with bounded retry + exponential backoff (jittered).
+
+    Retries on the intermittent 403/429/5xx BoardDocs throws at automated clients
+    and on transient network errors; re-raises anything else, or the last error
+    once retries are exhausted. The same Request object is safe to resend.
+    """
+    last = None
+    for attempt in range(BD_RETRIES + 1):
+        if BD_DELAY:
+            time.sleep(BD_DELAY)
+        try:
+            with urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except HTTPError as e:
+            last = e
+            if e.code not in RETRY_CODES or attempt == BD_RETRIES:
+                raise
+        except URLError as e:
+            last = e
+            if attempt == BD_RETRIES:
+                raise
+        wait = min(BD_BACKOFF * (2 ** attempt), BD_BACKOFF_CAP) + random.uniform(0, BD_BACKOFF)
+        time.sleep(wait)
+    raise last  # pragma: no cover — loop always returns or raises above
+
+
 def _post(path: str, data: dict) -> str:
     body = "&".join(f"{k}={quote(str(v))}" for k, v in data.items()).encode()
     req = Request(
@@ -92,8 +130,7 @@ def _post(path: str, data: dict) -> str:
         },
         method="POST",
     )
-    with urlopen(req, timeout=60) as r:
-        return r.read().decode("utf-8", errors="replace")
+    return _send(req, timeout=60).decode("utf-8", errors="replace")
 
 
 def _get(path: str) -> bytes:
@@ -101,8 +138,7 @@ def _get(path: str) -> bytes:
     if path.startswith("/mi/"):
         url = "https://go.boarddocs.com" + path
     req = Request(url, headers={"User-Agent": UA})
-    with urlopen(req, timeout=180) as r:
-        return r.read()
+    return _send(req, timeout=180)
 
 
 def list_meetings():

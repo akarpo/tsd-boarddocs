@@ -6,6 +6,16 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.1] — 2026-07-15
+Harden the crawler against BoardDocs rate-limiting.
+- `download_troysd.py`: all BoardDocs HTTP now goes through a `_send()` wrapper with
+  **bounded retry + exponential backoff (jittered)** on the intermittent
+  `403/429/5xx` BoardDocs throws at automated clients (seen on the CI runner IP for
+  `list-files`), plus an optional per-request delay. Env-tunable: `BD_RETRIES` (4),
+  `BD_BACKOFF` (2.0s), `BD_BACKOFF_CAP` (30s), `BD_DELAY` (0s).
+- `update-boarddocs` Action crawls with `BD_DELAY=0.6`, `BD_RETRIES=5` to pace the
+  datacenter-IP crawl under the limiter.
+
 ## [0.8.0] — 2026-07-15
 Corpus fully summarized, and a daily incremental ingest Action.
 - **All 2,773 documents summarized** (2010–2026): the three-tier Opus backfill is
