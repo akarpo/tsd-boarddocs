@@ -22,6 +22,7 @@ ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 CHUNKS = ROOT / "_index" / "chunks.jsonl"
 DB = os.environ.get("D1_DB", "tsd-boarddocs")
 D1INSERT = os.environ.get("D1INSERT_URL", "https://tsd-ingest.akarpo.workers.dev/d1insert")
+URLS_URL = os.environ.get("URLS_URL", "https://tsd-ingest.akarpo.workers.dev/urls")
 SECRET = os.environ.get("R2PUT_SECRET", "")  # set via env; guards the ingest worker
 COLS = ["id", "url", "title", "text", "meeting_date", "meeting_name",
         "meeting_type", "agenda_item", "file", "source"]
@@ -37,17 +38,39 @@ def post(rows):
         return json.load(r)
 
 
+def existing_urls():
+    """Set of source-doc urls already loaded in D1 (via the ingest worker's /urls).
+
+    `chunks` is an FTS5 table with no unique constraint, so re-inserting a doc
+    duplicates rows. --new-only uses this to upload only urls not already present.
+    """
+    u = URLS_URL + "?secret=" + urllib.parse.quote(SECRET)
+    req = urllib.request.Request(u, headers={"user-agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return set(json.load(r).get("urls") or [])
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--year")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--truncate", action="store_true")
+    ap.add_argument("--new-only", action="store_true",
+                    help="upload only chunks whose url isn't already in D1 (for the daily incremental Action)")
     a = ap.parse_args()
 
     chunks = [json.loads(line) for line in CHUNKS.open(encoding="utf-8")]
     if a.year:
         chunks = [c for c in chunks if c.get("meeting_date", "").startswith(a.year)]
     chunks = [c for c in chunks if (c.get("text") or "").strip()]
+    if a.new_only:
+        have = existing_urls()
+        before = len(chunks)
+        chunks = [c for c in chunks if c.get("url") not in have]
+        print(f"--new-only: {before:,} chunks -> {len(chunks):,} new ({len(have):,} urls already in D1)", flush=True)
+        if not chunks:
+            print("nothing new to load")
+            return 0
     print(f"loading {len(chunks):,} rows into D1 '{DB}' via {D1INSERT}", flush=True)
 
     if a.truncate:

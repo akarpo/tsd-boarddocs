@@ -4,15 +4,15 @@ Corpus root via TSD_BOE_ROOT env var (default ~/tsd-boe-data):
   Input:  <root>/_text/<meeting>/<file>.txt
   Output: <root>/_index/chunks.jsonl   one JSON record per chunk:
             id           sha1 of "<meeting>|<file>|<idx>" (stable, short)
-            text         the chunk text (also stored as Vectorize metadata)
+            text         the chunk text (indexed by D1 FTS5 for keyword/BM25 search)
             title        source filename without extension
             url          public R2 URL of the source document (citation target)
             source, meeting_date, meeting_name, file, chunk_idx, char_start, char_end
 
 Chunking: ~800 tokens per chunk with 100-token overlap (cl100k tokenizer).
-Embedding is deliberately NOT done here — it happens in upload_cloudflare.py via
-Workers AI @cf/baai/bge-base-en-v1.5, so this step is torch-free and runs anywhere
-(including the daily GitHub Action).
+Search is D1 full-text (FTS5 / BM25) — no embeddings (Workers AI + Vectorize were
+dropped in v0.4). This step stays torch-free and runs anywhere, including the daily
+GitHub Action; upload_d1.py loads the chunks into D1 via the ingest worker.
 """
 from __future__ import annotations
 

@@ -1,0 +1,151 @@
+name: Update BoardDocs corpus
+
+# Daily incremental ingest: crawl a trailing window of recent BoardDocs meetings,
+# extract -> chunk -> upload ONLY new documents to D1 (FTS5) + R2, and convert new
+# Office files to preview PDFs. New docs land WITHOUT a summary, i.e. "pending" —
+# summaries are written separately by the local Opus drip (summarize.py workflow),
+# not in CI. Idempotent: `--new-only` skips any url already in D1 (chunks is an
+# FTS5 table with no unique constraint, so a blind re-insert would duplicate rows).
+#
+# Requires one repo secret: R2PUT_SECRET (the tsd-ingest worker's write/read guard).
+# No Cloudflare API token / wrangler login needed — all writes/reads go through the
+# ingest worker's guarded endpoints.
+
+on:
+  schedule:
+    - cron: '41 11 * * *'   # daily 11:41 UTC; offset from verify-boarddocs (11:23)
+  workflow_dispatch:
+    inputs:
+      window_days:
+        description: 'How many days back to crawl (new meetings are always recent)'
+        required: false
+        default: '45'
+
+permissions:
+  contents: read
+  issues: write   # to open/update the "new docs pending summaries" reminder
+
+concurrency:
+  group: update-boarddocs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      TSD_BOE_ROOT: ${{ github.workspace }}/tsd-boe-data
+      R2PUT_SECRET: ${{ secrets.R2PUT_SECRET }}
+      SOFFICE: soffice
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Require R2PUT_SECRET
+        run: |
+          if [ -z "$R2PUT_SECRET" ]; then
+            echo "::error::R2PUT_SECRET repo secret is not set — add it in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python deps
+        run: pip install --quiet requests pypdf pdfplumber python-docx python-pptx openpyxl striprtf tiktoken
+
+      - name: Install LibreOffice (Office → PDF preview)
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends libreoffice-writer libreoffice-impress
+
+      - name: Crawl recent meetings (incremental)
+        run: |
+          DAYS="${{ github.event.inputs.window_days || '45' }}"
+          START="$(date -u -d "${DAYS} days ago" +%Y-%m-%d)"
+          echo "Crawling meetings from $START onward"
+          python3 download_troysd.py --start "$START" --yes
+
+      - name: Extract text
+        run: python3 extract_all.py
+
+      - name: Build chunk index
+        run: python3 build_index.py
+
+      - name: Detect new documents
+        id: detect
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, urllib.request, urllib.parse
+          root = os.environ["TSD_BOE_ROOT"]
+          secret = os.environ["R2PUT_SECRET"]
+          idx = os.path.join(root, "_index", "chunks.jsonl")
+          urls = set()
+          if os.path.exists(idx):
+              with open(idx, encoding="utf-8") as f:
+                  for line in f:
+                      u = json.loads(line).get("url")
+                      if u:
+                          urls.add(u)
+          endpoint = "https://tsd-ingest.akarpo.workers.dev/urls?secret=" + urllib.parse.quote(secret)
+          req = urllib.request.Request(endpoint, headers={"user-agent": "Mozilla/5.0"})
+          with urllib.request.urlopen(req, timeout=120) as r:
+              have = set(json.load(r).get("urls") or [])
+          new = urls - have
+          print(f"new_docs={len(new)}")
+          PY
+          echo "Detected new docs: ${{ steps.detect.outputs.new_docs }}"
+
+      - name: Upload new chunks to D1
+        if: steps.detect.outputs.new_docs != '0'
+        run: python3 upload_d1.py --all --new-only
+
+      - name: Upload new source docs to R2
+        if: steps.detect.outputs.new_docs != '0'
+        run: python3 upload_cloudflare.py --r2 --new-only
+
+      - name: Convert new Office docs to preview PDFs
+        if: steps.detect.outputs.new_docs != '0'
+        run: python3 scripts/convert_office.py
+
+      - name: Run summary
+        if: always()
+        run: |
+          N="${{ steps.detect.outputs.new_docs }}"
+          {
+            echo "### BoardDocs ingest"
+            echo ""
+            echo "- New documents ingested: **${N:-0}**"
+            if [ "${N:-0}" != "0" ]; then
+              echo "- These are now searchable but **pending summaries** — run the local Opus drip:"
+              echo '  `python3 summarize.py --prep-batches 150 --size 10` → summaries workflow → `--store-dir`'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open/update "new docs pending summaries" issue
+        if: steps.detect.outputs.new_docs != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ steps.detect.outputs.new_docs }}
+          TITLE_PREFIX: 'New BoardDocs documents pending summaries'
+        run: |
+          {
+            echo "The daily ingest added **$N** new document(s) to D1 + R2."
+            echo ""
+            echo "They are searchable now but have **no AI summary yet** (they show as \`pending\`)."
+            echo "Run the local Opus summary drip to fill them in:"
+            echo ""
+            echo '```bash'
+            echo 'python3 summarize.py --stats'
+            echo 'python3 summarize.py --prep-batches 150 --size 10'
+            echo '#   run scripts/summaries_workflow.js (args {batches: 15})'
+            echo 'R2PUT_SECRET=<secret> python3 summarize.py --store-dir /tmp/tsd_out'
+            echo '```'
+            echo ""
+            echo "Ingest run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > issue_body.txt
+          existing=$(gh issue list --state open --search "in:title \"$TITLE_PREFIX\"" \
+                       --json number --jq '.[0].number' || echo "")
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file issue_body.txt
+          else
+            gh issue create --title "$TITLE_PREFIX ($(date -u +%Y-%m-%d))" --body-file issue_body.txt
+          fi

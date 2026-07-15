@@ -4,8 +4,27 @@ All notable changes to `tsd-boarddocs` and its tooling. Dates are UTC.
 Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
-- Finish the 2025 summary backfill (2026 complete), then older years.
-- Daily GitHub Action to keep D1 + R2 fresh (new docs land `pending`).
+- (nothing yet)
+
+## [0.8.0] — 2026-07-15
+Corpus fully summarized, and a daily incremental ingest Action.
+- **All 2,773 documents summarized** (2010–2026): the three-tier Opus backfill is
+  complete — **0 pending**. Ran as budget-paced 150-doc drips, oldest years last.
+- **Office → PDF conversion complete**: all **1,432** DOCX/PPTX source docs have
+  preview PDFs in R2 (`scripts/convert_office.py`, resumable done-list).
+- **Daily ingest Action** — `.github/workflows/update-boarddocs.yml`: crawls a
+  trailing window of recent meetings → extract → chunk → uploads **only new** docs
+  to D1 + R2 → converts new Office docs to PDF. New docs land **without a summary**
+  (`pending`); it opens/updates a GitHub issue reminding to run the local Opus drip.
+  **Ingest-only** — summaries are not generated in CI (that needs Opus). Requires a
+  single repo secret, `R2PUT_SECRET`; no Cloudflare API token / wrangler login.
+- **Idempotent `--new-only` uploads**: `upload_d1.py --new-only` and
+  `upload_cloudflare.py --r2 --new-only` upload only urls not already in D1
+  (`chunks` is an FTS5 table with no unique constraint, so a blind re-insert
+  duplicates rows). Backed by a new guarded **`GET /urls`** endpoint on the
+  `tsd-ingest` worker.
+- Docstrings/docs refreshed: `build_index.py` no longer claims Workers AI / Vectorize
+  embedding (search has been D1 FTS5 since v0.4).
 
 ## [0.7.0] — 2026-07-05
 Meeting browse + acronym search (Tier-2), and time formatting.

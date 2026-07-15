@@ -94,12 +94,25 @@ extract_all.py       PDF/DOCX/… ───►  $TSD_BOE_ROOT/_text/<meeting>/<f
 build_index.py       token-window chunk ─► $TSD_BOE_ROOT/_index/chunks.jsonl
 upload_d1.py         chunks ──────────► D1 chunks (FTS5), via /d1insert
 upload_cloudflare.py --r2   source docs ► R2 (exact-key PUT)
+convert_office.py    DOCX/PPTX  ───────► R2 <key>.pdf (LibreOffice preview)
 summarize.py + workflow     Opus 3-tier ► D1 summaries (+ sum: FTS rows)
 ```
 
 The corpus, extracted text, and chunk file are **not** committed (multiple GB) —
 they live under `$TSD_BOE_ROOT` (default `~/tsd-boe-data`). Only the tooling + site
 are in git; the *data* lives in D1 and R2.
+
+### Incremental updates (daily Action)
+
+The full pipeline above is the first build / full rebuild. Day-to-day, the
+`update-boarddocs` GitHub Action keeps things fresh **without** re-processing the
+corpus: it crawls only a trailing window of recent meetings, then runs the same
+extract → chunk steps and uploads with `--new-only`. Because `chunks` is an FTS5
+table with **no unique constraint**, re-inserting a doc would duplicate rows — so
+`--new-only` first fetches the set of urls already in D1 (the ingest worker's
+`GET /urls`) and uploads only the difference. New docs arrive **without a summary**
+(`pending`); the local Opus drip fills them in later (CI can't run Opus). See
+[OPERATIONS](OPERATIONS.md#daily-update-action-incremental-ingest).
 
 ## Chunk / metadata schema (`chunks.jsonl` → D1 `chunks`)
 
@@ -127,4 +140,7 @@ are in git; the *data* lives in D1 and R2.
 - **Worker + Static Assets, not Pages** — Git-connect makes a Worker; `wrangler.toml`
   carries `main` + `[assets]` + bindings.
 - **Summaries decoupled + resumable** — Opus, local, pending-flag, backfills over days.
+- **Idempotent incremental ingest** — the daily Action re-crawls a recent window and
+  uploads `--new-only`; since FTS5 has no unique key, dedup is done client-side
+  against `GET /urls`, so re-runs never duplicate rows.
 - **`search` + `fetch` tool names** for cross-ecosystem MCP compatibility.

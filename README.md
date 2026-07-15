@@ -33,13 +33,14 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
 ## Architecture
 
 ```
-INGEST (Python, local or GitHub Action)
+INGEST (Python — full build locally; daily incremental via GitHub Action)
   download_troysd.py           BoardDocs -> $TSD_BOE_ROOT/<meeting>/<file>
   extract_all.py               PDF/DOCX/PPTX/XLSX/RTF -> _text/<meeting>/<file>.txt
   build_index.py               chunk (~800 tok) -> _index/chunks.jsonl   (torch-free)
-  upload_d1.py                 chunks -> D1 (FTS5) via the ingest worker
-  upload_cloudflare.py --r2    source docs -> R2 (exact-key PUT)
-  summarize.py + scripts/summaries_workflow.js   Opus 3-tier summaries -> D1
+  upload_d1.py [--new-only]    chunks -> D1 (FTS5) via the ingest worker
+  upload_cloudflare.py --r2 [--new-only]   source docs -> R2 (exact-key PUT)
+  scripts/convert_office.py    DOCX/PPTX -> preview PDF in R2 (LibreOffice)
+  summarize.py + scripts/summaries_workflow.js   Opus 3-tier summaries -> D1 (local only)
 
 SERVE (Cloudflare Worker — worker.js)
   /api/search              q (+ filters, sort) -> D1 FTS5/BM25 -> ranked, de-duped docs
@@ -69,11 +70,13 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 | `download_troysd.py` | Crawls TroySD BoardDocs; saves every public file under `<YYYY-MM-DD>_<meeting>/`. Incremental. |
 | `extract_all.py` | PDF/DOCX/PPTX/XLSX/RTF → `.txt` mirrors in `_text/`. |
 | `build_index.py` | Token-windowed chunking → `_index/chunks.jsonl` (sha1 ids, R2 urls, meeting/agenda metadata; recovers packet-era dates from filenames). |
-| `upload_d1.py` | Loads `chunks.jsonl` into D1 via the ingest worker's `/d1insert` (parameterized batches). |
-| `upload_cloudflare.py --r2` | Uploads source docs to R2 (exact-key PUT, parallel). `--vectors` is deprecated (Vectorize gone). |
+| `upload_d1.py` | Loads `chunks.jsonl` into D1 via the ingest worker's `/d1insert` (parameterized batches). `--new-only` uploads just the docs not already in D1. |
+| `upload_cloudflare.py --r2` | Uploads source docs to R2 (exact-key PUT, parallel); `--new-only` for just-new docs. `--vectors` is deprecated (Vectorize gone). |
+| `scripts/convert_office.py` | DOCX/PPTX → preview PDF in R2 via LibreOffice (resumable). |
 | `summarize.py` | Opus summary harness: `--stats`, `--prep-batches N`, `--store-dir`. Resumable via a D1 "pending" flag. |
 | `scripts/summaries_workflow.js` | Multi-agent Opus fan-out (one agent per prepped batch file). |
 | `bd_links.js` | Generated map (from `boarddocs_unids.json`) of doc → BoardDocs meeting UNID for deep-links; bundled into the worker. |
+| `.github/workflows/update-boarddocs.yml` | **Daily incremental ingest** — new docs land as `pending` (summaries run locally). Needs the `R2PUT_SECRET` repo secret. |
 | `verify_unids.py` | Daily drift check on the BoardDocs identifiers. |
 
 ## Data layout

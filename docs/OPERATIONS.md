@@ -113,8 +113,35 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
 - **Packet-era dates**: 2010–12 / 2018–19 folders carry placeholder dates; the real
   date+type live in the filename (`022718RegMtg`) — `build_index.py` recovers them.
 
+## Daily update Action (incremental ingest)
+
+`.github/workflows/update-boarddocs.yml` runs daily (11:41 UTC) and on demand
+(`workflow_dispatch`, with a `window_days` input). It keeps D1 + R2 fresh without
+re-processing the whole corpus:
+
+1. Crawl only a **trailing window** of recent meetings (`download_troysd.py --start
+   $(today − window_days)`), since new meetings are always recent — no multi-GB
+   corpus cache to maintain.
+2. `extract_all.py` → `build_index.py` on that small slice.
+3. Upload **only new** docs: `upload_d1.py --all --new-only` and
+   `upload_cloudflare.py --r2 --new-only` skip any url already in D1 (via the ingest
+   worker's `GET /urls`). This matters because `chunks` is an FTS5 table with **no
+   unique constraint** — a blind re-insert would duplicate rows.
+4. `scripts/convert_office.py` converts any new DOCX/PPTX to preview PDFs.
+5. New docs have no summary yet, so they surface as **`pending`**; the Action opens/
+   updates a GitHub issue reminding you to run the local Opus summary drip.
+
+**Summaries are NOT generated in CI** (that needs Opus). The Action is ingest-only;
+run the summary drip locally afterward.
+
+**Setup:** add one repo secret — `R2PUT_SECRET` (the `tsd-ingest` worker guard) —
+under *Settings → Secrets and variables → Actions*. No Cloudflare API token or
+`wrangler login` is needed; all writes/reads go through the ingest worker's guarded
+endpoints. Trigger a supervised first run from the Actions tab before relying on the
+daily cron.
+
 ## Backlog
 
-- Wire the **daily GitHub Action** (crawl → extract → chunk → D1/R2 → new docs
-  land as `pending`), mirroring the `verify_unids.py` drift-check Action.
-- Finish the 2025 summary backfill, then older years.
+- Convert the two remaining source formats the viewer links out (XLSX) if inline
+  preview is ever wanted.
+- Prune the legacy `--vectors` / `retrieve.py` code paths (superseded since v0.4).

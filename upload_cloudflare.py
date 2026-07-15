@@ -5,11 +5,11 @@ Search moved to D1 full-text in v0.4, so the `--vectors` path (embed via Workers
 half (pushing source PDFs to R2) is still the live document-upload step.
 
 Usage:
-  python upload_cloudflare.py --r2       # push source docs to R2 (parallel, exact-key)
-  python upload_cloudflare.py --vectors  # only embed + insert into Vectorize
-  python upload_cloudflare.py --r2       # only upload source docs to R2
+  python upload_cloudflare.py --r2             # push all source docs to R2 (parallel, exact-key)
+  python upload_cloudflare.py --r2 --new-only  # push only docs not already in D1 (daily Action)
+  python upload_cloudflare.py --vectors        # DEPRECATED: embed + insert into Vectorize (gone in v0.4)
 
-Env overrides: TSD_BOE_ROOT, EMBED_URL, VECTORIZE_INDEX, R2_BUCKET, R2_PREFIX
+Env overrides: TSD_BOE_ROOT, R2PUT_URL, URLS_URL, R2PUT_SECRET, R2_BUCKET, R2_PREFIX
 """
 from __future__ import annotations
 
@@ -30,6 +30,7 @@ EMBED_URL = os.environ.get("EMBED_URL", "https://tsd-boarddocs.karpowitsch.org/a
 # R2 uploads go through an ingest Worker's R2 binding (writes the EXACT key —
 # the wrangler CLI truncates keys at '#'). Override for the daily Action.
 R2PUT_URL = os.environ.get("R2PUT_URL", "https://tsd-ingest.akarpo.workers.dev/r2put")
+URLS_URL = os.environ.get("URLS_URL", "https://tsd-ingest.akarpo.workers.dev/urls")
 R2PUT_SECRET = os.environ.get("R2PUT_SECRET", "")  # set via env; guards the ingest worker
 INDEX = os.environ.get("VECTORIZE_INDEX", "tsd-boarddocs")
 R2_BUCKET = os.environ.get("R2_BUCKET", "media")
@@ -133,14 +134,31 @@ def _put_one(src):
         return ("fail", src, repr(e)[-160:])
 
 
-def do_r2(workers=10):
+def existing_urls():
+    """Set of source-doc urls already loaded in D1 (via the ingest worker's /urls)."""
+    u = URLS_URL + "?secret=" + urllib.parse.quote(R2PUT_SECRET)
+    req = urllib.request.Request(u, headers={"user-agent": UA})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return set(json.load(r).get("urls") or [])
+
+
+def do_r2(workers=10, new_only=False):
     from concurrent.futures import ThreadPoolExecutor, as_completed
     chunks = load_chunks()
+    have = existing_urls() if new_only else set()
     seen, files = set(), []
     for c in chunks:
-        if c["source"] not in seen:
-            seen.add(c["source"])
-            files.append(c["source"])
+        if c["source"] in seen:
+            continue
+        if new_only and c.get("url") in have:
+            continue          # source already in D1 -> already pushed to R2
+        seen.add(c["source"])
+        files.append(c["source"])
+    if new_only:
+        print(f"--new-only: {len(files):,} new source docs ({len(have):,} urls already in D1)", flush=True)
+        if not files:
+            print("nothing new to upload to R2")
+            return 0
     print(f"uploading {len(files):,} source docs to r2://{R2_BUCKET}/{R2_PREFIX}/ ({workers}-way parallel)", flush=True)
     ok = miss = fail = 0
     with ThreadPoolExecutor(max_workers=workers) as ex:
@@ -164,11 +182,13 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--vectors", action="store_true")
     ap.add_argument("--r2", action="store_true")
+    ap.add_argument("--new-only", action="store_true",
+                    help="with --r2, upload only source docs whose url isn't already in D1")
     a = ap.parse_args()
     both = not (a.vectors or a.r2)
     rc = 0
     if a.vectors or both:
         rc = do_vectors() or rc
     if a.r2 or both:
-        rc = do_r2() or rc
+        rc = do_r2(new_only=a.new_only) or rc
     sys.exit(rc)
