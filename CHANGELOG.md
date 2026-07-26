@@ -6,6 +6,34 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.2] — 2026-07-26
+Make the CI **crawl** incremental, not just the upload — the daily Action had
+never ingested a document.
+
+- **Bug**: every `update-boarddocs` run since v0.8.0 reported success with
+  `new_docs=0` and skipped the upload steps. The crawler decides what to skip from
+  **local meeting folders**, and the runner's workspace is empty every run
+  (`0 meeting folder(s) already saved locally`), so it re-downloaded the entire
+  45-day window daily. BoardDocs 403s the runner IP partway through — the 2026-07-24
+  log shows 16 files fetched, then `403 Forbidden` on everything after, including
+  both the 2026-06-16 Special and the new **2026-07-22 Regular** meeting
+  (`DONE downloaded=16 skipped=0 failed=12`). The v0.8.1 retry/backoff was active and
+  still lost; the fix is to stop making the requests at all.
+- `download_troysd.py`: new **`--skip-ingested`** — seeds the skip set from the live
+  site's public, read-only `/api/meetings` (env `TSD_MEETINGS_URL`) in addition to
+  local folders, so a throwaway workspace skips meetings already in D1. New
+  `meeting_key()` normalizes the folder-name round-trip (`7:00 PM` on BoardDocs vs
+  `7 00 PM` in D1) so the two spellings compare equal. Falls back to local-only
+  skipping with a warning if the endpoint is unreachable; `--recheck` still forces a
+  full re-walk.
+- `update-boarddocs` Action crawls with `--skip-ingested`, cutting a typical run from
+  ~40 documents to just the new meeting; `BD_DELAY` raised `0.6` → `1.0` now that the
+  request count is small.
+- Fixed the always-blank `Detected new docs:` log line — it read
+  `steps.detect.outputs.new_docs` from inside the step that sets it.
+- Backfilled the missed meetings locally (home IP is not blocked): **2026-07-22
+  Regular Meeting, 28 documents**. 2026-06-16 Special has no public files.
+
 ## [0.8.1] — 2026-07-15
 Harden the crawler against BoardDocs rate-limiting.
 - `download_troysd.py`: all BoardDocs HTTP now goes through a `_send()` wrapper with

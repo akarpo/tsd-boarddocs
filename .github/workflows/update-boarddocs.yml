@@ -7,6 +7,13 @@ name: Update BoardDocs corpus
 # not in CI. Idempotent: `--new-only` skips any url already in D1 (chunks is an
 # FTS5 table with no unique constraint, so a blind re-insert would duplicate rows).
 #
+# The crawl must be incremental too, not just the upload. The runner's workspace
+# is empty every run, so the crawler's local-folder skip test sees nothing and
+# would re-download the entire window daily; BoardDocs then 403s the runner IP
+# partway through, before it reaches the actually-new meeting. `--skip-ingested`
+# seeds the skip set from the live site's public /api/meetings instead, cutting a
+# typical run from ~40 documents to the one new meeting.
+#
 # Requires one repo secret: R2PUT_SECRET (the tsd-ingest worker's write/read guard).
 # No Cloudflare API token / wrangler login needed — all writes/reads go through the
 # ingest worker's guarded endpoints.
@@ -62,14 +69,16 @@ jobs:
           # BoardDocs rate-limits datacenter/CI IPs; throttle + retry with backoff.
           # download_troysd.py honors these (see _send()): BD_DELAY paces requests,
           # BD_RETRIES/BD_BACKOFF retry the intermittent 403/429/5xx.
-          BD_DELAY: '0.6'
+          # With --skip-ingested the run is only a handful of requests, so we can
+          # afford to be slower and less likely to trip the limiter.
+          BD_DELAY: '1.0'
           BD_RETRIES: '5'
           BD_BACKOFF: '2.0'
         run: |
           DAYS="${{ github.event.inputs.window_days || '45' }}"
           START="$(date -u -d "${DAYS} days ago" +%Y-%m-%d)"
           echo "Crawling meetings from $START onward (BD_DELAY=$BD_DELAY, BD_RETRIES=$BD_RETRIES)"
-          python3 download_troysd.py --start "$START" --yes
+          python3 download_troysd.py --start "$START" --yes --skip-ingested
 
       - name: Extract text
         run: python3 extract_all.py
@@ -99,7 +108,9 @@ jobs:
           new = urls - have
           print(f"new_docs={len(new)}")
           PY
-          echo "Detected new docs: ${{ steps.detect.outputs.new_docs }}"
+          # Echo from the file we just wrote — `steps.detect.outputs` is not
+          # readable inside the step that sets it (expressions evaluate first).
+          grep '^new_docs=' "$GITHUB_OUTPUT" | tail -1
 
       - name: Upload new chunks to D1
         if: steps.detect.outputs.new_docs != '0'

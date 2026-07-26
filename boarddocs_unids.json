@@ -13180,6 +13180,118 @@
     "DV4QVM6B2A43": {
       "meeting_unid": "DUVKDY517096",
       "name": "6 ConsentRes.doc"
+    },
+    "DW2HKA48D5BD": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "M061626SpBdMtg.docx"
+    },
+    "DW2HKT48EA09": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "12 May 2026 Treasurers Letter-Signed.pdf"
+    },
+    "DW2HL248F270": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "11 May 2026 P Card Report.pdf"
+    },
+    "DW2HL348F39D": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "11 May 2026 Financial Statements.pdf"
+    },
+    "DW2HL448DF7B": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "M061626BdMtg.docx"
+    },
+    "DW2HL448F47D": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "11 May 2026 Check Register.pdf"
+    },
+    "DW2HLC48F54C": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "11 May 2026 ACH Report.pdf"
+    },
+    "DW2HLJ48DAEC": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "M061626ClosedSession.docx"
+    },
+    "DW2HLQ48EF8B": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "11 May 2026 Wire Transfers.pdf"
+    },
+    "DW2J2B4B097C": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "Coop Letter MHSAA Executive Board - Boys Lacrosse - 6-15-26.pdf"
+    },
+    "DW2J2D4B0A3F": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "Coop Dissolution - Athens & Avondale Boys Lacrosse 2026.pdf"
+    },
+    "DW2J434B4B5D": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "5 ConsentRes.doc"
+    },
+    "DW2J4D4B56FF": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "6A ADMIN CONTRACTS EXTENSION.docx"
+    },
+    "DW2J4K4B5E2F": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "6B ASST SUPT CONTRACT EXT.docx"
+    },
+    "DW2K3G4FE5DF": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.A. Resolution BPMS Security and Paging.docx"
+    },
+    "DW2K3M4FEB31": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.A. TSD BP T3 Boulan Park Security.pdf"
+    },
+    "DW2K3P4FEC1C": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.A. Addition to BPT3 BPMS Security and Paging.docx"
+    },
+    "DW2K3W4FF547": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.B. Resolution BPMS AV Systems.docx"
+    },
+    "DW2K3X4FF76C": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.B. TSD BP T4 AV Presentation Letter.pdf"
+    },
+    "DW2K3Y4FF893": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.B. BP T4 Classroom and Specialty AV Systems for the BPMS Renovation.docx"
+    },
+    "DW2K4X501CAF": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.C. Summary Resolution Lease of Real Property Robotics Foundation.docx"
+    },
+    "DW2K4Z501EEB": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "8.C. Full Resolution Re_  Lease of Real Property for Robotics Foundation.docx"
+    },
+    "DW3KTY537C07": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "6D ADMIN APPT Finance Director - Anderson.doc"
+    },
+    "DW6LS457E617": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "M060126BdWkshp.docx"
+    },
+    "DW8JR44E600C": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "6C Supt Contract Extension.docx"
+    },
+    "DW8K3C4FE01A": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "MHSAA Cooperative Agreement Request - Troy  Athens - Boys Lacrosse - 26-27 copy.pdf"
+    },
+    "DW8L39548CDE": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "General Fund Scenarios 4-year.pdf"
+    },
+    "DW8L3A548DE5": {
+      "meeting_unid": "DW2H6H46F866",
+      "name": "SpecialEducation_Board_Narrative_Summary.pdf"
     }
   },
   "meetings": {
@@ -14566,6 +14678,10 @@
     "DUXKH251DB3D": {
       "date": "2026-06-16",
       "name": "Special Meeting of the Board of Education 6:00 PM"
+    },
+    "DW2H6H46F866": {
+      "date": "2026-07-22",
+      "name": "Regular Meeting of the Board of Education 1:00 PM"
     }
   }
 }

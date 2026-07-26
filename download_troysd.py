@@ -36,10 +36,18 @@ Usage:
   python download_troysd.py --meetings-file picks.txt     # same, one per line
   python download_troysd.py --all --recheck       # also re-verify meetings already on disk
   python download_troysd.py --all --dry-run       # show what would download, fetch nothing
+  python download_troysd.py --start 2026-06-01 --skip-ingested   # skip what D1 already has
 
 A meeting counts as "already downloaded" once its <YYYY-MM-DD>_<name> folder
 exists locally and is non-empty. Within a meeting, individual files are still
 skipped if already present and non-empty, so --recheck is safe and resumable.
+
+--skip-ingested widens that test: meetings already in D1 are skipped too, even
+with no local folder. This is what makes the daily CI crawl incremental — the
+runner's workspace is empty every run, so without it the crawl re-downloads the
+entire window and BoardDocs rate-limits the runner IP (HTTP 403) before it
+reaches the one genuinely new meeting. A partially-ingested meeting is skipped
+by this test as well; use --recheck to force a re-walk.
 """
 
 from __future__ import annotations
@@ -74,6 +82,11 @@ BD_BACKOFF = float(os.environ.get("BD_BACKOFF", "2.0"))   # base seconds, expone
 BD_BACKOFF_CAP = float(os.environ.get("BD_BACKOFF_CAP", "30.0"))
 BD_DELAY = float(os.environ.get("BD_DELAY", "0.0"))       # polite pause before each request
 RETRY_CODES = {403, 429, 500, 502, 503, 504}
+
+# Public read-only endpoint listing every meeting already ingested into D1.
+# Used by --skip-ingested so a fresh workspace doesn't re-crawl the corpus.
+MEETINGS_URL = os.environ.get(
+    "TSD_MEETINGS_URL", "https://tsd-boarddocs.karpowitsch.org/api/meetings")
 
 ITEM_RE = re.compile(r'<li\b[^>]*\bunique="(?P<unique>[A-Z0-9]+)"', re.I)
 FILE_RE = re.compile(
@@ -246,6 +259,41 @@ def scan_local_meetings(out: Path) -> set[str]:
     return found
 
 
+def meeting_key(d: date | str, meeting_name: str) -> str:
+    """Normalized (date, name) identity for a meeting.
+
+    The corpus round-trips a meeting name through a folder name — safe_name()
+    rewrites ':' and friends to '_', and build_index.py turns those back into
+    spaces — so "Regular Meeting ... 7:00 PM" reaches D1 as "... 7 00 PM".
+    Collapsing every non-alphanumeric run to a single space makes the live
+    BoardDocs spelling and the stored spelling compare equal.
+    """
+    iso = d.isoformat() if isinstance(d, date) else str(d)
+    name = re.sub(r"[^a-z0-9]+", " ", (meeting_name or "").lower()).strip()
+    return f"{iso}|{name}"
+
+
+def fetch_ingested_meetings(endpoint: str) -> set[str]:
+    """meeting_key()s for meetings already ingested into D1, via /api/meetings.
+
+    Lets a throwaway workspace (CI) skip meetings it has no local folder for
+    but that are already in the corpus. Without this the crawl re-downloads
+    the whole window every run and BoardDocs rate-limits the runner IP long
+    before it reaches the genuinely new meeting.
+
+    Read-only and unauthenticated — /api/meetings is public. Returns an empty
+    set on any failure; the caller warns and falls back to local-only skipping.
+    """
+    req = Request(endpoint, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urlopen(req, timeout=60) as r:
+        payload = json.load(r)
+    return {
+        meeting_key(m.get("date", ""), m.get("name", ""))
+        for m in (payload.get("meetings") or [])
+        if m.get("date")
+    }
+
+
 # --------------------------------------------------------------------------
 # Meeting selection
 # --------------------------------------------------------------------------
@@ -394,6 +442,10 @@ def main(argv=None):
                      help="re-walk selected meetings already on disk and "
                           "verify each file (picks up files added to old "
                           "meetings; finishes an interrupted run)")
+    mod.add_argument("--skip-ingested", action="store_true",
+                     help="also skip meetings already ingested into D1 "
+                          "(queried from the live site), not just those with "
+                          "a local folder — for throwaway workspaces like CI")
     mod.add_argument("--dry-run", action="store_true",
                      help="list what would be downloaded, then exit "
                           "(no files or folders are written)")
@@ -432,6 +484,17 @@ def main(argv=None):
     say(f"{len(dated)} meetings online ({dated[0][0]} .. {dated[-1][0]}) "
         f"| {len(local)} meeting folder(s) already saved locally")
 
+    ingested: set[str] = set()
+    if args.skip_ingested:
+        try:
+            ingested = fetch_ingested_meetings(MEETINGS_URL)
+            say(f"{len(ingested)} meeting(s) already ingested into D1 "
+                f"(via {MEETINGS_URL})")
+        except Exception as e:
+            say(f"! could not read ingested meetings from {MEETINGS_URL}: {e}")
+            say("! falling back to local-folder skipping only — on a fresh "
+                "workspace this re-crawls the whole window")
+
     # Baseline accumulators (written at end of run via try/finally).
     # Meeting UNIDs come from the live list and can be captured before any
     # download; file UNIDs are only known after list_files() runs per meeting.
@@ -458,15 +521,21 @@ def main(argv=None):
         # --- review against what's already downloaded --------------------------
         todo = []
         already = 0
+        already_ingested = 0
         for d, m in selected:
-            if not args.recheck and meeting_dirname(d, m.get("name", "")) in local:
+            name = m.get("name", "")
+            if args.recheck:
+                todo.append((d, m))
+            elif meeting_dirname(d, name) in local:
                 already += 1
+            elif meeting_key(d, name) in ingested:
+                already_ingested += 1
             else:
                 todo.append((d, m))
 
         verb = "re-check" if args.recheck else "download"
         say(f"selected {len(selected)} meeting(s) | {already} already downloaded "
-            f"locally | {len(todo)} to {verb}")
+            f"locally | {already_ingested} already in D1 | {len(todo)} to {verb}")
 
         if args.dry_run:
             for d, m in todo:
