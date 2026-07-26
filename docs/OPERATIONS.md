@@ -126,15 +126,27 @@ Run locally, from a checkout with the corpus at `$TSD_BOE_ROOT`:
 python3 download_troysd.py --start <YYYY-MM-DD> --yes   # only meetings you don't have
 python3 extract_all.py                                  # skips already-extracted files
 python3 build_index.py                                  # full rebuild of chunks.jsonl
-R2PUT_SECRET=<secret> python3 upload_d1.py --all --new-only
-R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2 --new-only
+R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2 --new-only   # R2 FIRST
+R2PUT_SECRET=<secret> python3 upload_d1.py --all --new-only          # then D1
 python3 scripts/convert_office.py                       # new DOCX/PPTX -> preview PDF
 ```
+
+**Upload R2 before D1.** Both steps define "new" as *not already in D1*, but
+`upload_cloudflare.py` uses that as a proxy for "already pushed to R2"
+(`# source already in D1 -> already pushed to R2`). Load D1 first and the R2 step
+sees every new url as already present and uploads **nothing** — the docs would be
+searchable but the viewer would 404. The old daily Action had them in the wrong
+order; it never ingested anything, so the bug never surfaced.
 
 `--new-only` skips any url already in D1 (via the ingest worker's `GET /urls`). That
 matters because `chunks` is an FTS5 table with **no unique constraint** — a blind
 re-insert duplicates rows. New docs land searchable but with no summary (they show as
 `pending`); run the Opus summary drip above to fill them in.
+
+Only documents that produced extractable text reach R2 — the upload iterates
+`chunks.jsonl`. Legacy `.doc`/`.ppt` (no extractor) and scanned PDFs (empty
+extraction) are therefore neither searchable nor viewable; they remain reachable
+through the per-document BoardDocs deep-link.
 
 The site is API-driven (`/api/meetings`, `/api/meeting`), so a D1 insert is enough to
 make a meeting appear — there is no redeploy step.
