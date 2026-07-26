@@ -12,7 +12,7 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 | `extract_legacy.py` | Legacy `.doc` / `.ppt` via MS Office COM (Windows only). |
 | `build_index.py` | Token-window chunk `_text/` → `_index/chunks.jsonl` (sha1 ids, R2 urls, `meeting_type`, `agenda_item`; recovers packet-era dates from filenames). |
 | `filter_index.py` | Drop low-quality chunks (single-char garbage from CAD/spec PDFs). |
-| `upload_d1.py` | Load `chunks.jsonl` into D1 `chunks` (FTS5) via the ingest worker's `/d1insert` (parameterized batches). `--new-only` uploads only urls not already in D1 (for the daily Action; FTS5 has no unique constraint). |
+| `upload_d1.py` | Load `chunks.jsonl` into D1 `chunks` (FTS5) via the ingest worker's `/d1insert` (parameterized batches). `--new-only` uploads only urls not already in D1 (FTS5 has no unique constraint). |
 | `upload_cloudflare.py` | `--r2`: upload source docs to R2 (exact-key PUT, parallel). `--r2 --new-only` uploads only docs not already in D1. |
 | `scripts/convert_office.py` | Convert DOCX/PPTX (and legacy `.doc`/`.ppt`) to preview PDFs via LibreOffice (`soffice`), upload to R2 as `<key>.pdf`. Resumable (`_index/converted_pdf.done`). Full corpus (1,432 files) done. |
 
@@ -39,18 +39,19 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 | `wrangler.toml` | Worker config: `main`, `[assets]`, `DB` (D1), `MEDIA` (R2) bindings. |
 | `_tsd_ingest/worker.js` | **Outside this repo.** Ingest worker: `/r2put` (exact-key R2), `/d1insert` (batch chunks), `/summaryput` (summaries + `sum:` rows), `/urls` (distinct source-doc urls in D1, for `--new-only`). |
 
-## Automation (GitHub Actions)
+## Automation
 
-| Workflow | Role |
-|---|---|
-| `.github/workflows/update-boarddocs.yml` | **Daily incremental ingest.** Crawls a trailing window of recent meetings → extract → chunk → upload only-new to D1 + R2 → convert new Office docs → open a "pending summaries" issue. Ingest-only (no summaries in CI). Needs the `R2PUT_SECRET` repo secret. |
-| `.github/workflows/verify-boarddocs.yml` | Daily drift check on BoardDocs identifiers (`verify_unids.py`); opens/updates an issue on change. |
+None. Ingest and summaries are both run by hand from a local checkout — see
+[OPERATIONS.md](OPERATIONS.md). There were two daily GitHub Actions
+(`update-boarddocs`, `verify-boarddocs`); they were removed in v0.8.3 because
+BoardDocs 403s the GitHub runner IP, so the ingest Action never actually
+ingested anything.
 
 ## Maintenance
 
 | Script | Role |
 |---|---|
-| `verify_unids.py` | Daily drift check that BoardDocs identifiers still resolve; opens a GitHub issue on change. |
+| `verify_unids.py` | Drift check that BoardDocs identifiers still resolve. Run on demand. |
 | `count_tokens.py` | Estimate token count for the corpus (planning utility). |
 
 ## Deprecated (kept for history)

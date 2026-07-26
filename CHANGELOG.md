@@ -6,6 +6,25 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.3] — 2026-07-26
+Remove the GitHub Actions. BoardDocs blocks the runner IP, so CI ingest can't work.
+
+- **Removed** `.github/workflows/update-boarddocs.yml` and
+  `.github/workflows/verify-boarddocs.yml`. Ingest and the drift check are now run
+  locally, on demand — see [docs/OPERATIONS.md](docs/OPERATIONS.md).
+- **Why**: v0.8.2 correctly diagnosed the wasted re-crawl and fixed it, but the fix
+  proved the remaining problem is not volume. With `--skip-ingested` the runner
+  loaded the 418-meeting skip set, skipped the 33-document 2026-06-16 meeting, and
+  reached the new 2026-07-22 meeting **5 seconds** into the crawl — then still took
+  `403 Forbidden` on `list-files` for nearly every agenda item. The identical crawl
+  from a home IP completes with **zero** 403s. BoardDocs is blocking the datacenter
+  IP itself, so no amount of pacing or retry makes CI ingest viable.
+- `download_troysd.py` keeps `--skip-ingested` — it's still useful for crawling from
+  a machine that doesn't hold the corpus. Docstrings reworded away from CI framing.
+- Docs updated: `README`, `docs/TOOLING.md`, `docs/ARCHITECTURE.md`, and
+  `docs/OPERATIONS.md` (the "Daily update Action" runbook is replaced by an
+  "Adding a new meeting" one, plus a note on why it isn't automated).
+
 ## [0.8.2] — 2026-07-26
 Make the CI **crawl** incremental, not just the upload — the daily Action had
 never ingested a document.

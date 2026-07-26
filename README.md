@@ -33,7 +33,7 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
 ## Architecture
 
 ```
-INGEST (Python — full build locally; daily incremental via GitHub Action)
+INGEST (Python — run locally; incremental on re-run)
   download_troysd.py           BoardDocs -> $TSD_BOE_ROOT/<meeting>/<file>
   extract_all.py               PDF/DOCX/PPTX/XLSX/RTF -> _text/<meeting>/<file>.txt
   build_index.py               chunk (~800 tok) -> _index/chunks.jsonl   (torch-free)
@@ -67,7 +67,7 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 
 | Script | What it does |
 | --- | --- |
-| `download_troysd.py` | Crawls TroySD BoardDocs; saves every public file under `<YYYY-MM-DD>_<meeting>/`. Incremental — skips meetings already on disk, plus (with `--skip-ingested`) any already in D1, which is what keeps the CI crawl small enough to stay under BoardDocs' rate limiter. |
+| `download_troysd.py` | Crawls TroySD BoardDocs; saves every public file under `<YYYY-MM-DD>_<meeting>/`. Incremental — skips meetings already on disk, plus (with `--skip-ingested`) any already in D1. BoardDocs rate-limits bulk crawling, so keep re-crawls small. |
 | `extract_all.py` | PDF/DOCX/PPTX/XLSX/RTF → `.txt` mirrors in `_text/`. |
 | `build_index.py` | Token-windowed chunking → `_index/chunks.jsonl` (sha1 ids, R2 urls, meeting/agenda metadata; recovers packet-era dates from filenames). |
 | `upload_d1.py` | Loads `chunks.jsonl` into D1 via the ingest worker's `/d1insert` (parameterized batches). `--new-only` uploads just the docs not already in D1. |
@@ -76,8 +76,7 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 | `summarize.py` | Opus summary harness: `--stats`, `--prep-batches N`, `--store-dir`. Resumable via a D1 "pending" flag. |
 | `scripts/summaries_workflow.js` | Multi-agent Opus fan-out (one agent per prepped batch file). |
 | `bd_links.js` | Generated map (from `boarddocs_unids.json`) of doc → BoardDocs meeting UNID for deep-links; bundled into the worker. |
-| `.github/workflows/update-boarddocs.yml` | **Daily incremental ingest** — new docs land as `pending` (summaries run locally). Needs the `R2PUT_SECRET` repo secret. |
-| `verify_unids.py` | Daily drift check on the BoardDocs identifiers. |
+| `verify_unids.py` | Drift check that the BoardDocs identifiers still resolve. Run on demand. |
 
 ## Data layout
 

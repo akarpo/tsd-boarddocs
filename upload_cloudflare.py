@@ -6,7 +6,7 @@ half (pushing source PDFs to R2) is still the live document-upload step.
 
 Usage:
   python upload_cloudflare.py --r2             # push all source docs to R2 (parallel, exact-key)
-  python upload_cloudflare.py --r2 --new-only  # push only docs not already in D1 (daily Action)
+  python upload_cloudflare.py --r2 --new-only  # push only docs not already in D1
   python upload_cloudflare.py --vectors        # DEPRECATED: embed + insert into Vectorize (gone in v0.4)
 
 Env overrides: TSD_BOE_ROOT, R2PUT_URL, URLS_URL, R2PUT_SECRET, R2_BUCKET, R2_PREFIX
@@ -28,7 +28,7 @@ ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 CHUNKS = ROOT / "_index" / "chunks.jsonl"
 EMBED_URL = os.environ.get("EMBED_URL", "https://tsd-boarddocs.karpowitsch.org/api/embed")
 # R2 uploads go through an ingest Worker's R2 binding (writes the EXACT key —
-# the wrangler CLI truncates keys at '#'). Override for the daily Action.
+# the wrangler CLI truncates keys at '#'). Env-overridable.
 R2PUT_URL = os.environ.get("R2PUT_URL", "https://tsd-ingest.akarpo.workers.dev/r2put")
 URLS_URL = os.environ.get("URLS_URL", "https://tsd-ingest.akarpo.workers.dev/urls")
 R2PUT_SECRET = os.environ.get("R2PUT_SECRET", "")  # set via env; guards the ingest worker

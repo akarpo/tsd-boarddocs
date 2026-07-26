@@ -43,11 +43,14 @@ exists locally and is non-empty. Within a meeting, individual files are still
 skipped if already present and non-empty, so --recheck is safe and resumable.
 
 --skip-ingested widens that test: meetings already in D1 are skipped too, even
-with no local folder. This is what makes the daily CI crawl incremental — the
-runner's workspace is empty every run, so without it the crawl re-downloads the
-entire window and BoardDocs rate-limits the runner IP (HTTP 403) before it
-reaches the one genuinely new meeting. A partially-ingested meeting is skipped
-by this test as well; use --recheck to force a re-walk.
+with no local folder. Use it when crawling from a machine that doesn't hold the
+corpus, so you re-download only what the site is actually missing. Note that a
+partially-ingested meeting is skipped by this test as well; use --recheck to
+force a re-walk.
+
+Run this from a residential connection. BoardDocs serves a home IP fine but
+403s datacenter/CI IPs — a GitHub-hosted runner gets `403 Forbidden` on
+list-files for nearly every agenda item, which is why ingest is not automated.
 """
 
 from __future__ import annotations
@@ -73,10 +76,10 @@ OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
 BASELINE_PATH = Path(__file__).parent / "boarddocs_unids.json"
 
-# BoardDocs intermittently 403s automated clients — especially from datacenter /
-# CI IPs (seen on the GitHub-hosted daily Action). A short backoff almost always
-# clears it. Retries are bounded and env-tunable; an optional per-request delay
-# (BD_DELAY, e.g. 0.5 in CI) throttles the crawl to avoid tripping the limiter.
+# BoardDocs intermittently 403s automated clients. From a home IP a short backoff
+# almost always clears it; from a datacenter/CI IP it does not — the GitHub-hosted
+# Action never got past it and was removed in v0.8.3. Retries are bounded and
+# env-tunable; BD_DELAY adds an optional per-request pause.
 BD_RETRIES = int(os.environ.get("BD_RETRIES", "4"))       # extra attempts after the first
 BD_BACKOFF = float(os.environ.get("BD_BACKOFF", "2.0"))   # base seconds, exponential + jitter
 BD_BACKOFF_CAP = float(os.environ.get("BD_BACKOFF_CAP", "30.0"))
@@ -84,7 +87,7 @@ BD_DELAY = float(os.environ.get("BD_DELAY", "0.0"))       # polite pause before 
 RETRY_CODES = {403, 429, 500, 502, 503, 504}
 
 # Public read-only endpoint listing every meeting already ingested into D1.
-# Used by --skip-ingested so a fresh workspace doesn't re-crawl the corpus.
+# Used by --skip-ingested so a corpus-less workspace doesn't re-crawl everything.
 MEETINGS_URL = os.environ.get(
     "TSD_MEETINGS_URL", "https://tsd-boarddocs.karpowitsch.org/api/meetings")
 
@@ -276,10 +279,9 @@ def meeting_key(d: date | str, meeting_name: str) -> str:
 def fetch_ingested_meetings(endpoint: str) -> set[str]:
     """meeting_key()s for meetings already ingested into D1, via /api/meetings.
 
-    Lets a throwaway workspace (CI) skip meetings it has no local folder for
-    but that are already in the corpus. Without this the crawl re-downloads
-    the whole window every run and BoardDocs rate-limits the runner IP long
-    before it reaches the genuinely new meeting.
+    Lets a workspace without the corpus skip meetings it has no local folder
+    for but that the site already has, so a re-crawl fetches only what's
+    genuinely missing rather than the whole window.
 
     Read-only and unauthenticated — /api/meetings is public. Returns an empty
     set on any failure; the caller warns and falls back to local-only skipping.
@@ -445,7 +447,7 @@ def main(argv=None):
     mod.add_argument("--skip-ingested", action="store_true",
                      help="also skip meetings already ingested into D1 "
                           "(queried from the live site), not just those with "
-                          "a local folder — for throwaway workspaces like CI")
+                          "a local folder — for workspaces without the corpus")
     mod.add_argument("--dry-run", action="store_true",
                      help="list what would be downloaded, then exit "
                           "(no files or folders are written)")

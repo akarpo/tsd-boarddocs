@@ -102,17 +102,18 @@ The corpus, extracted text, and chunk file are **not** committed (multiple GB) �
 they live under `$TSD_BOE_ROOT` (default `~/tsd-boe-data`). Only the tooling + site
 are in git; the *data* lives in D1 and R2.
 
-### Incremental updates (daily Action)
+### Incremental updates
 
-The full pipeline above is the first build / full rebuild. Day-to-day, the
-`update-boarddocs` GitHub Action keeps things fresh **without** re-processing the
-corpus: it crawls only a trailing window of recent meetings, then runs the same
-extract → chunk steps and uploads with `--new-only`. Because `chunks` is an FTS5
-table with **no unique constraint**, re-inserting a doc would duplicate rows — so
-`--new-only` first fetches the set of urls already in D1 (the ingest worker's
-`GET /urls`) and uploads only the difference. New docs arrive **without a summary**
-(`pending`); the local Opus drip fills them in later (CI can't run Opus). See
-[OPERATIONS](OPERATIONS.md#daily-update-action-incremental-ingest).
+The full pipeline above is the first build / full rebuild. Day-to-day, adding a new
+meeting re-runs the same steps over a trailing window and uploads with `--new-only`.
+Because `chunks` is an FTS5 table with **no unique constraint**, re-inserting a doc
+would duplicate rows — so `--new-only` first fetches the set of urls already in D1
+(the ingest worker's `GET /urls`) and uploads only the difference. New docs arrive
+**without a summary** (`pending`); the Opus drip fills them in afterward.
+
+This runs **locally, by hand** — BoardDocs 403s datacenter IPs, so it cannot be
+automated from GitHub Actions. See
+[OPERATIONS](OPERATIONS.md#adding-a-new-meeting-incremental-ingest).
 
 ## Chunk / metadata schema (`chunks.jsonl` → D1 `chunks`)
 
@@ -140,7 +141,7 @@ table with **no unique constraint**, re-inserting a doc would duplicate rows —
 - **Worker + Static Assets, not Pages** — Git-connect makes a Worker; `wrangler.toml`
   carries `main` + `[assets]` + bindings.
 - **Summaries decoupled + resumable** — Opus, local, pending-flag, backfills over days.
-- **Idempotent incremental ingest** — the daily Action re-crawls a recent window and
-  uploads `--new-only`; since FTS5 has no unique key, dedup is done client-side
-  against `GET /urls`, so re-runs never duplicate rows.
+- **Idempotent incremental ingest** — re-crawl a recent window and upload
+  `--new-only`; since FTS5 has no unique key, dedup is done client-side against
+  `GET /urls`, so re-runs never duplicate rows.
 - **`search` + `fetch` tool names** for cross-ecosystem MCP compatibility.

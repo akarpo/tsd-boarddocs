@@ -11,8 +11,8 @@ Corpus root via TSD_BOE_ROOT env var (default ~/tsd-boe-data):
 
 Chunking: ~800 tokens per chunk with 100-token overlap (cl100k tokenizer).
 Search is D1 full-text (FTS5 / BM25) — no embeddings (Workers AI + Vectorize were
-dropped in v0.4). This step stays torch-free and runs anywhere, including the daily
-GitHub Action; upload_d1.py loads the chunks into D1 via the ingest worker.
+dropped in v0.4). This step stays torch-free and runs anywhere; upload_d1.py loads
+the chunks into D1 via the ingest worker.
 """
 from __future__ import annotations
 

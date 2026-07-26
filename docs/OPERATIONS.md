@@ -102,10 +102,10 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
   get 403 on R2, the Worker, and BoardDocs. (`curl` default UA is fine; BoardDocs
   itself 403s any non-browser, so verify its deep-links in a real browser.)
 - **BoardDocs rate-limits datacenter / CI IPs** → it intermittently `403`s the
-  `list-files` call from GitHub-hosted runners. `download_troysd.py` retries with
-  exponential backoff (`_send()`), tunable via `BD_RETRIES` / `BD_BACKOFF` /
-  `BD_DELAY`; the daily Action paces the crawl with `BD_DELAY=0.6`. A rare missed
-  item self-heals on the next day's trailing-window run.
+  `list-files` call from GitHub-hosted runners — which is why ingest is not
+  automated (see below). `download_troysd.py` retries with exponential backoff
+  (`_send()`), tunable via `BD_RETRIES` / `BD_BACKOFF` / `BD_DELAY`. From a home IP
+  a rare missed item self-heals on the next crawl; `--recheck` forces a re-walk.
 - **`wrangler r2 object put` needs `--remote`** or it silently uploads nothing.
 - **`wrangler` truncates R2 keys at `#`** → upload via `/r2put`.
 - **FTS5 `snippet()` can't be used with `GROUP BY`** → date sort uses a two-query
@@ -118,32 +118,36 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
 - **Packet-era dates**: 2010–12 / 2018–19 folders carry placeholder dates; the real
   date+type live in the filename (`022718RegMtg`) — `build_index.py` recovers them.
 
-## Daily update Action (incremental ingest)
+## Adding a new meeting (incremental ingest)
 
-`.github/workflows/update-boarddocs.yml` runs daily (11:41 UTC) and on demand
-(`workflow_dispatch`, with a `window_days` input). It keeps D1 + R2 fresh without
-re-processing the whole corpus:
+Run locally, from a checkout with the corpus at `$TSD_BOE_ROOT`:
 
-1. Crawl only a **trailing window** of recent meetings (`download_troysd.py --start
-   $(today − window_days)`), since new meetings are always recent — no multi-GB
-   corpus cache to maintain.
-2. `extract_all.py` → `build_index.py` on that small slice.
-3. Upload **only new** docs: `upload_d1.py --all --new-only` and
-   `upload_cloudflare.py --r2 --new-only` skip any url already in D1 (via the ingest
-   worker's `GET /urls`). This matters because `chunks` is an FTS5 table with **no
-   unique constraint** — a blind re-insert would duplicate rows.
-4. `scripts/convert_office.py` converts any new DOCX/PPTX to preview PDFs.
-5. New docs have no summary yet, so they surface as **`pending`**; the Action opens/
-   updates a GitHub issue reminding you to run the local Opus summary drip.
+```bash
+python3 download_troysd.py --start <YYYY-MM-DD> --yes   # only meetings you don't have
+python3 extract_all.py                                  # skips already-extracted files
+python3 build_index.py                                  # full rebuild of chunks.jsonl
+R2PUT_SECRET=<secret> python3 upload_d1.py --all --new-only
+R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2 --new-only
+python3 scripts/convert_office.py                       # new DOCX/PPTX -> preview PDF
+```
 
-**Summaries are NOT generated in CI** (that needs Opus). The Action is ingest-only;
-run the summary drip locally afterward.
+`--new-only` skips any url already in D1 (via the ingest worker's `GET /urls`). That
+matters because `chunks` is an FTS5 table with **no unique constraint** — a blind
+re-insert duplicates rows. New docs land searchable but with no summary (they show as
+`pending`); run the Opus summary drip above to fill them in.
 
-**Setup:** add one repo secret — `R2PUT_SECRET` (the `tsd-ingest` worker guard) —
-under *Settings → Secrets and variables → Actions*. No Cloudflare API token or
-`wrangler login` is needed; all writes/reads go through the ingest worker's guarded
-endpoints. Trigger a supervised first run from the Actions tab before relying on the
-daily cron.
+The site is API-driven (`/api/meetings`, `/api/meeting`), so a D1 insert is enough to
+make a meeting appear — there is no redeploy step.
+
+### Why this isn't automated
+
+There were two daily GitHub Actions (`update-boarddocs`, `verify-boarddocs`), removed
+in v0.8.3. **BoardDocs 403s the GitHub-hosted runner IP**, so the ingest Action never
+successfully ingested a single document: every run reported success with `new_docs=0`
+and skipped its upload steps. It is not a rate/volume problem — a run that skipped
+straight to the one new meeting (via `--skip-ingested`) still got
+`403 Forbidden` on `list-files` for nearly every agenda item. The same crawl from a
+home IP succeeds with zero 403s, so ingest has to run from a residential connection.
 
 ## Backlog
 
