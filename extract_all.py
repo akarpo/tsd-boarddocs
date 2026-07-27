@@ -27,8 +27,9 @@ ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-b
 TEXT_ROOT = ROOT / "_text"
 
 
-# A digit split off from its own thousands group, e.g. "1 23,879,792".
-SPLIT_NUM = re.compile(r"\d \d{2,3},")
+# A leading digit split off from its own thousands group, e.g. "1 23,879,792".
+# The lookbehind keeps genuinely separate columns ("31,855,092 34,278,115") out.
+SPLIT_NUM = re.compile(r"(?<![\d,])\d{1,2} \d{2,3},")
 
 
 def _pypdf_pages(p: Path) -> list[str]:
@@ -59,31 +60,54 @@ def _plumber_pages(p: Path) -> list[str]:
         return []
 
 
-def _reorder(pypdf_txt: str, plumber_txt: str) -> str:
-    """Rotate pypdf's page text so it starts where pdfplumber says the page does.
+def _key(line: str) -> str:
+    """Whitespace-insensitive key for matching a line across the two extractors.
 
-    pypdf emits runs in content-stream order; on these documents that puts a
-    page's heading block *after* its table, so a sequential reader attributes
-    each table to the wrong heading. pdfplumber reads in visual order but
-    corrupts figures (it splits "123,879,792" into "1 23,879,792"), so it can't
-    be trusted for the characters — only for where the page actually begins.
-
-    Take pdfplumber's first line, find that same line in pypdf's text, and
-    rotate. Returns pypdf's text unchanged if the anchor isn't found.
+    pdfplumber splits digits off their thousands groups ("1 23,879,792") and
+    spaces columns differently from pypdf, but the non-space characters agree.
     """
-    plines = [l.strip() for l in plumber_txt.split("\n") if l.strip()]
-    ylines = pypdf_txt.split("\n")
+    return "".join(line.split())
+
+
+def _reorder(pypdf_txt: str, plumber_txt: str) -> str:
+    """Re-emit pypdf's lines in the reading order pdfplumber observed.
+
+    pypdf emits runs in content-stream order; on these documents that scatters
+    a page's heading block after its own table, so a sequential reader
+    attributes each table to the wrong heading. pdfplumber reads in visual
+    order but corrupts figures, so it can supply the order and nothing else.
+
+    Match each pdfplumber line to a pypdf line on non-space characters, emit
+    the pypdf originals in pdfplumber's sequence, then append any pypdf lines
+    pdfplumber never produced so no text is dropped. Returns pypdf's text
+    unchanged when the two sides agree too poorly to trust the alignment.
+    """
+    ylines = [l for l in pypdf_txt.split("\n")]
+    plines = [l for l in plumber_txt.split("\n") if l.strip()]
     if not plines or not ylines:
         return pypdf_txt
-    anchor = plines[0]
-    if len(anchor) < 6:                      # too generic to match on
-        return pypdf_txt
+
+    buckets: dict[str, list[int]] = {}
     for i, l in enumerate(ylines):
-        if l.strip() == anchor:
-            if i == 0:
-                return pypdf_txt             # already in reading order
-            return "\n".join(ylines[i:] + ylines[:i])
-    return pypdf_txt
+        if l.strip():
+            buckets.setdefault(_key(l), []).append(i)
+
+    order, used = [], set()
+    for pl in plines:
+        idxs = buckets.get(_key(pl))
+        if idxs:
+            for i in idxs:
+                if i not in used:
+                    order.append(i)
+                    used.add(i)
+                    break
+
+    # Too few matches means the alignment is guesswork — keep pypdf as-is.
+    if len(order) < max(3, int(0.6 * len(plines))):
+        return pypdf_txt
+
+    order += [i for i in range(len(ylines)) if i not in used and ylines[i].strip()]
+    return "\n".join(ylines[i] for i in order)
 
 
 def text_pdf(p: Path) -> str:
