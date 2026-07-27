@@ -119,22 +119,49 @@ def main():
         return 0
 
     if a.store_dir:
+        # Storing nothing is always a mistake here — a typo'd path, an empty
+        # directory, or unparseable files. Reporting "stored 0" and exiting 0
+        # makes every one of those look like success, which is how a broken
+        # pipeline stays broken. Each is a hard error instead.
         sdir = Path(a.store_dir)
-        rows = []
-        for f in sorted(sdir.glob("batch_*.json")):
+        if not sdir.is_dir():
+            print(f"ERROR: {sdir} is not a directory — nothing stored.", file=sys.stderr)
+            return 2
+        files = sorted(sdir.glob("batch_*.json"))
+        if not files:
+            print(f"ERROR: no batch_*.json in {sdir} — nothing stored.\n"
+                  f"       Expected files named batch_000.json, batch_001.json, ...",
+                  file=sys.stderr)
+            return 2
+
+        rows, skipped = [], []
+        for f in files:
             try:
                 data = json.loads(_clean_json(f.read_text(encoding="utf-8")))
             except Exception as e:
-                print(f"  ! skip {f.name}: {e}")
+                print(f"  ! skip {f.name}: {e}", file=sys.stderr)
+                skipped.append(f.name)
                 continue
             items = data.items() if isinstance(data, dict) else ((v.get("url"), v) for v in data)
             for u, v in items:
                 if u:
                     rows.append({"url": u, "paragraph": v.get("paragraph", ""),
                                  "page": v.get("page", ""), "verbose": v.get("verbose", "")})
+
+        if not rows:
+            print(f"ERROR: read {len(files)} file(s) in {sdir} but found no summaries "
+                  f"({len(skipped)} unparseable) — nothing stored.", file=sys.stderr)
+            return 2
+
         for i in range(0, len(rows), STORE_BATCH):
             _post(rows[i:i + STORE_BATCH])
-        print(f"stored {len(rows)} summaries from {sdir} to D1")
+        print(f"stored {len(rows)} summaries from {len(files) - len(skipped)}"
+              f"/{len(files)} file(s) in {sdir} to D1")
+        if skipped:
+            print(f"WARNING: {len(skipped)} file(s) skipped as unparseable: "
+                  f"{', '.join(skipped[:5])}{' ...' if len(skipped) > 5 else ''}",
+                  file=sys.stderr)
+            return 1
         return 0
 
     d = docs()
