@@ -151,6 +151,22 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
 
 ## Adding a new meeting (incremental ingest)
 
+**Use the wrapper** — it enforces the two things below that silently ruin a run:
+
+```bash
+R2PUT_SECRET=<secret> scripts/ingest_meeting.sh              # 45-day trailing window
+R2PUT_SECRET=<secret> scripts/ingest_meeting.sh 2026-08-01   # explicit start date
+scripts/ingest_meeting.sh --dry-run                          # crawl plan only, no secret needed
+```
+
+It crawls with `--skip-ingested`, runs extract → index → **R2 → D1** → Office-to-PDF
+in that order, stops on the first failure, exits early when nothing new was
+downloaded, and finishes by prepping summary batches for exactly the pending count.
+Summary generation itself is not automated (it needs Opus); the script prints the
+two remaining commands. `--no-prep` stops after ingest.
+
+The manual sequence follows, for when you need to run a step on its own.
+
 Run locally, from a checkout with the corpus at `$TSD_BOE_ROOT`:
 
 ```bash

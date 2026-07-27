@@ -76,6 +76,7 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 | `summarize.py` | Opus summary harness: `--stats`, `--prep-batches N`, `--store-dir`. Resumable via a D1 "pending" flag. |
 | `scripts/summaries_workflow.js` | Multi-agent Opus fan-out (one agent per prepped batch file). |
 | `bd_links.js` | Generated map (from `boarddocs_unids.json`) of doc → BoardDocs meeting UNID for deep-links; bundled into the worker. |
+| `scripts/ingest_meeting.sh` | **Adding a new meeting** — wraps the whole incremental ingest in the right order and preps summary batches. `scripts/ingest_meeting.sh --dry-run` to preview. |
 | `verify_unids.py` | Drift check that the BoardDocs identifiers still resolve. Run on demand. |
 
 ## Data layout

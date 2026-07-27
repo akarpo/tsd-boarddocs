@@ -6,6 +6,29 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.6] — 2026-07-27
+Add `scripts/ingest_meeting.sh` — one command to add a new meeting.
+
+- Wraps the six-step incremental ingest (crawl → extract → index → **R2 → D1** →
+  Office-to-PDF) plus summary-batch prep, so the two failure modes that produce a
+  *silently wrong* result can't be forgotten:
+  - always crawls with **`--skip-ingested`**. The crawler's default skip test is
+    "is the meeting folder on disk", which is useless on a fresh corpus — it would
+    re-download the whole window and get rate-limited before reaching the new
+    meeting. This is exactly what killed the daily Action.
+  - always uploads **R2 before D1**, because `upload_cloudflare.py --new-only`
+    treats "already in D1" as "already in R2" (see v0.8.4).
+- `set -euo pipefail`, so it stops at the first failure rather than carrying on with
+  a half-ingested meeting. Parses the crawler's `DONE downloaded=N … failed=K` line
+  to exit early when nothing new arrived and to warn on partial 403 failures.
+- Preps summary batches sized to the actual pending count (read from
+  `summarize.py --stats`), then prints the two remaining steps. Generation stays
+  manual — it needs Opus. `--no-prep` stops after ingest.
+- Options: optional `START_DATE` (defaults to a 45-day trailing window, validated),
+  `--dry-run` (crawl plan only, no secret required), `--no-prep`, `--help`.
+  Honors `TSD_BOE_ROOT`, `TSD_BATCH_DIR`, `TSD_OUT_DIR`. Requires `R2PUT_SECRET`
+  and fails fast, before any network call, if it is unset.
+
 ## [0.8.5] — 2026-07-27
 Default the corpus root to `~/Downloads/tsd-boe-data`.
 

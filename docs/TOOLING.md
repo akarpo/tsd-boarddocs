@@ -15,6 +15,7 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 | `upload_d1.py` | Load `chunks.jsonl` into D1 `chunks` (FTS5) via the ingest worker's `/d1insert` (parameterized batches). `--new-only` uploads only urls not already in D1 (FTS5 has no unique constraint). |
 | `upload_cloudflare.py` | `--r2`: upload source docs to R2 (exact-key PUT, parallel). `--r2 --new-only` uploads only docs not already in D1 — **run before `upload_d1.py`**, see OPERATIONS. `--meetings 2026-07-22` re-pushes one meeting regardless of D1 state. |
 | `scripts/convert_office.py` | Convert DOCX/PPTX (and legacy `.doc`/`.ppt`) to preview PDFs via LibreOffice (`soffice`), upload to R2 as `<key>.pdf`. Resumable (`_index/converted_pdf.done`). Full corpus (1,447 files) done. |
+| `scripts/ingest_meeting.sh` | **The normal way to add a new meeting.** Wraps crawl → extract → index → R2 → D1 → Office-to-PDF → summary-batch prep, forcing `--skip-ingested` and the R2-before-D1 order. `--dry-run`, `--no-prep`, optional `START_DATE` (default 45 days back). |
 
 ## Summaries (active)
 
