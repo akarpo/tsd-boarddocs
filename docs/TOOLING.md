@@ -13,8 +13,8 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 | `build_index.py` | Token-window chunk `_text/` → `_index/chunks.jsonl` (sha1 ids, R2 urls, `meeting_type`, `agenda_item`; recovers packet-era dates from filenames). |
 | `filter_index.py` | Drop low-quality chunks (single-char garbage from CAD/spec PDFs). |
 | `upload_d1.py` | Load `chunks.jsonl` into D1 `chunks` (FTS5) via the ingest worker's `/d1insert` (parameterized batches). `--new-only` uploads only urls not already in D1 (FTS5 has no unique constraint). |
-| `upload_cloudflare.py` | `--r2`: upload source docs to R2 (exact-key PUT, parallel). `--r2 --new-only` uploads only docs not already in D1. |
-| `scripts/convert_office.py` | Convert DOCX/PPTX (and legacy `.doc`/`.ppt`) to preview PDFs via LibreOffice (`soffice`), upload to R2 as `<key>.pdf`. Resumable (`_index/converted_pdf.done`). Full corpus (1,432 files) done. |
+| `upload_cloudflare.py` | `--r2`: upload source docs to R2 (exact-key PUT, parallel). `--r2 --new-only` uploads only docs not already in D1 — **run before `upload_d1.py`**, see OPERATIONS. `--meetings 2026-07-22` re-pushes one meeting regardless of D1 state. |
+| `scripts/convert_office.py` | Convert DOCX/PPTX (and legacy `.doc`/`.ppt`) to preview PDFs via LibreOffice (`soffice`), upload to R2 as `<key>.pdf`. Resumable (`_index/converted_pdf.done`). Full corpus (1,447 files) done. |
 
 ## Summaries (active)
 

@@ -6,6 +6,34 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.4] — 2026-07-27
+Finish the 2026-07-22 ingest, and guard the R2/D1 upload-order trap in code.
+
+- **2026-07-22 Regular Meeting is fully live**: 25 documents to R2, 170 chunks to
+  D1, 15 Office→PDF previews (corpus total 1,432 → **1,447**), and all 25 three-tier
+  summaries stored. Corpus is back to **2,798 docs / 2,798 summarized / 0 pending**,
+  across **419 meetings**. Three of the 28 crawled files carry no extractable text
+  (2 legacy `.doc`, 1 scanned PDF); since the R2 upload iterates `chunks.jsonl`,
+  those are neither searchable nor in R2 and remain reachable via BoardDocs only.
+- **Upload-order bug, now guarded.** `upload_cloudflare.py --r2 --new-only` decides
+  what to push by asking D1 and treats "already in D1" as "already in R2". Running
+  `upload_d1.py` first therefore makes every new doc look uploaded, silently pushing
+  nothing to R2 and leaving the viewer to 404. Documented in v0.8.3's runbook; now
+  enforced at both ends:
+  - `upload_d1.py --new-only` prints an ordering reminder when it has new rows
+  - `upload_cloudflare.py --r2 --new-only` flags the ambiguity when it finds nothing
+    new, instead of reporting success
+- **New `upload_cloudflare.py --meetings LIST`** — recovery path that filters by
+  comma-separated, case-insensitive substrings of `"<meeting_date> <source path>"`
+  and ignores D1 entirely, so a meeting can be re-pushed to R2 after the trap is
+  sprung: `--r2 --meetings 2026-07-22`.
+- Docs: corrected corpus counts (`README` ~2,800 docs, `TOOLING` 1,447 converted);
+  de-pinned the summary model to "Claude Opus"; documented that `--store-dir` must
+  run *after* chunks reach D1 (`/summaryput` reads chunk metadata to build `sum:`
+  rows); added an OPERATIONS section on writing small summary batches inline rather
+  than through the subagent fan-out, and one on rebuilding the local corpus — which
+  is disposable, unlike D1 and R2.
+
 ## [0.8.3] — 2026-07-26
 Remove the GitHub Actions. BoardDocs blocks the runner IP, so CI ingest can't work.
 
@@ -50,8 +78,10 @@ never ingested a document.
   request count is small.
 - Fixed the always-blank `Detected new docs:` log line — it read
   `steps.detect.outputs.new_docs` from inside the step that sets it.
-- Backfilled the missed meetings locally (home IP is not blocked): **2026-07-22
-  Regular Meeting, 28 documents**. 2026-06-16 Special has no public files.
+- Crawled the missed meetings locally (home IP is not blocked): **2026-07-22
+  Regular Meeting, 28 files downloaded**. 2026-06-16 Special has no public files.
+  (Ingest of that crawl completed in v0.8.4 — 25 of the 28 files carry extractable
+  text and reached D1/R2.)
 
 ## [0.8.1] — 2026-07-15
 Harden the crawler against BoardDocs rate-limiting.

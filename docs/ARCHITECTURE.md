@@ -60,7 +60,7 @@ this repo) whose bindings write D1 + R2 with exact keys — see [OPERATIONS](OPE
 ## Summaries (three tiers, in D1)
 
 Each document gets **paragraph / single-page / verbose** summaries, generated
-locally with **Opus 4.8** and stored in the D1 `summaries` table keyed by `url`.
+locally with **Claude Opus** and stored in the D1 `summaries` table keyed by `url`.
 
 - The paragraph shows on the result card; the viewer's pill toggle fetches the
   page + verbose tiers from `/api/summary`.

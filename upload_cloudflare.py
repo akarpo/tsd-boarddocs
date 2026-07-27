@@ -142,9 +142,22 @@ def existing_urls():
         return set(json.load(r).get("urls") or [])
 
 
-def do_r2(workers=10, new_only=False):
+def matches_meetings(c, terms) -> bool:
+    """True if a chunk's meeting date or source folder matches any term.
+
+    Terms are case-insensitive substrings tested against "<meeting_date> <source>",
+    so "2026-07-22", "2026-07", or "Boulan" all work.
+    """
+    hay = f"{c.get('meeting_date', '')} {c.get('source', '')}".lower()
+    return any(t.lower() in hay for t in terms)
+
+
+def do_r2(workers=10, new_only=False, meetings=None):
     from concurrent.futures import ThreadPoolExecutor, as_completed
     chunks = load_chunks()
+    if meetings:
+        chunks = [c for c in chunks if matches_meetings(c, meetings)]
+        print(f"--meetings {','.join(meetings)}: {len(chunks):,} chunks match", flush=True)
     have = existing_urls() if new_only else set()
     seen, files = set(), []
     for c in chunks:
@@ -157,7 +170,14 @@ def do_r2(workers=10, new_only=False):
     if new_only:
         print(f"--new-only: {len(files):,} new source docs ({len(have):,} urls already in D1)", flush=True)
         if not files:
+            # `--new-only` treats "already in D1" as "already in R2". That proxy
+            # breaks if upload_d1.py ran first: the urls are in D1, so every doc
+            # looks uploaded and we silently push nothing, leaving the viewer 404ing.
             print("nothing new to upload to R2")
+            print("  NOTE: if you just ran upload_d1.py for these docs, this is the "
+                  "wrong order and R2 was skipped.\n"
+                  "        Re-push that meeting explicitly, e.g. "
+                  "--r2 --meetings 2026-07-22", flush=True)
             return 0
     print(f"uploading {len(files):,} source docs to r2://{R2_BUCKET}/{R2_PREFIX}/ ({workers}-way parallel)", flush=True)
     ok = miss = fail = 0
@@ -184,11 +204,17 @@ if __name__ == "__main__":
     ap.add_argument("--r2", action="store_true")
     ap.add_argument("--new-only", action="store_true",
                     help="with --r2, upload only source docs whose url isn't already in D1")
+    ap.add_argument("--meetings", metavar="LIST",
+                    help="with --r2, only docs whose meeting date or folder matches "
+                         "one of these comma-separated substrings (e.g. 2026-07-22). "
+                         "Use this to re-push a meeting when --new-only already "
+                         "considers it done")
     a = ap.parse_args()
     both = not (a.vectors or a.r2)
+    terms = [t.strip() for t in (a.meetings or "").split(",") if t.strip()]
     rc = 0
     if a.vectors or both:
         rc = do_vectors() or rc
     if a.r2 or both:
-        rc = do_r2(new_only=a.new_only) or rc
+        rc = do_r2(new_only=a.new_only, meetings=terms) or rc
     sys.exit(rc)

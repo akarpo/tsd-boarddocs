@@ -23,11 +23,27 @@ R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2   # source docs -> R2 (e
 `download_troysd.py` is incremental (skips meetings already local). `upload_d1.py`
 uses parameterized batch inserts (no `SQLITE_TOOBIG`).
 
+### The corpus is disposable; D1 and R2 are not
+
+`$TSD_BOE_ROOT` is a working directory — source files, `_text/` extractions, and
+`_index/chunks.jsonl`. Losing it costs a re-crawl, nothing more: the durable copies
+live in D1 (chunks + summaries) and R2 (source docs and preview PDFs), and
+`boarddocs_unids.json` is in git. To rebuild from empty, run the block above with
+plain `--all`; **do not** add `--skip-ingested`, which would skip every meeting
+already in D1 and leave you with an empty corpus.
+
+Rebuilding does not disturb the site. Re-running `upload_d1.py --all --new-only`
+and `upload_cloudflare.py --r2 --new-only` afterward is a no-op for anything already
+loaded, and summaries are keyed by url in D1, so they survive independently of the
+local files. Only `summarize.py` needs the corpus back — it computes pending by
+diffing `chunks.jsonl` against the `summaries` table.
+
 ## Summaries (Opus, local, resumable)
 
-Three-tier summaries are generated locally with **Opus 4.8** and stored in D1.
+Three-tier summaries are generated locally with **Claude Opus** and stored in D1.
 "Pending" = a doc whose `url` isn't in the `summaries` table, so this resumes
-across days. Batches are fanned across Opus subagents by the workflow.
+across days. Large drips are fanned across Opus subagents by the workflow; small
+ones are cheaper written inline (see "Small batches" below).
 
 ```bash
 export TSD_BOE_ROOT=~/tsd-boe-data
@@ -48,6 +64,19 @@ R2PUT_SECRET=<secret> python3 summarize.py --store-dir /tmp/tsd_out   # -> D1 (+
 - `--store-dir` posts every `batch_*.json` to the ingest worker's `/summaryput`,
   which upserts `summaries` **and** writes/refreshes each doc's `sum:` FTS row.
 - Roughly ~8–10K tokens/doc on Opus; 10 docs/agent is ~20% cheaper than 5.
+
+**Chunks must be in D1 before `--store-dir`.** `/summaryput` reads each doc's chunk
+metadata to build its `sum:` FTS row, so run the ingest steps first and summarize
+last.
+
+### Small batches
+
+The subagent fan-out earns its overhead on a 150-doc drip. For a single new meeting
+(~25 docs) it's cheaper to write the tiers inline: prep the batches, read each
+`batch_NNN.json`, write `<outdir>/batch_NNN.json` in the same
+`{"<url>": {paragraph, page, verbose}}` shape, then `--store-dir`. No workflow, no
+subagents. Validate before storing — every input url present, no extras, all three
+tiers non-empty — because `--store-dir` silently skips a file it can't parse.
 
 ## BoardDocs deep-link map
 
@@ -137,6 +166,19 @@ python3 scripts/convert_office.py                       # new DOCX/PPTX -> previ
 sees every new url as already present and uploads **nothing** — the docs would be
 searchable but the viewer would 404. The old daily Action had them in the wrong
 order; it never ingested anything, so the bug never surfaced.
+
+Both scripts now warn about this: `upload_d1.py --new-only` prints a reminder when
+it has new rows to load, and `upload_cloudflare.py --r2 --new-only` flags the
+ambiguity when it finds nothing new. If you do hit it, recover with the explicit
+filter, which ignores D1 entirely:
+
+```bash
+R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2 --meetings 2026-07-22
+```
+
+`--meetings` takes comma-separated case-insensitive substrings matched against
+`"<meeting_date> <source path>"`, so `2026-07-22`, `2026-07`, or a filename
+fragment all work.
 
 `--new-only` skips any url already in D1 (via the ingest worker's `GET /urls`). That
 matters because `chunks` is an FTS5 table with **no unique constraint** — a blind

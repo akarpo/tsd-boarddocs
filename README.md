@@ -16,13 +16,13 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
 
 ## What you can do
 
-- **Full-text search** (D1 FTS5 / BM25) over ~2,773 documents (2010–2026) with
+- **Full-text search** (D1 FTS5 / BM25) over ~2,800 documents (2010–2026) with
   filters: meeting type (Regular / Workshop / Special), document type
   (Resolution / Financial / Budget / Policy / Presentation / Contract / Other),
   year (multi-select), and sort (relevance / newest / oldest). Board acronyms
   (RIF, IEP, ISD, CTE, …) expand automatically to their full phrases and back.
 - **AI summaries** — three tiers per document (paragraph / single-page / verbose),
-  generated locally with **Opus 4.8**. The verbose summary is indexed as a
+  generated locally with **Claude Opus**. The verbose summary is indexed as a
   per-document search row, so a doc can surface on its clean summary text; a pill
   toggle in the viewer switches tiers.
 - **Group by meeting** and a **📅 meeting-browse timeline** (year → meeting → its

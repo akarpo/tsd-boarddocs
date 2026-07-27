@@ -71,6 +71,11 @@ def main():
         if not chunks:
             print("nothing new to load")
             return 0
+        # upload_cloudflare.py --r2 --new-only decides what to push by asking D1
+        # ("already in D1" => "already in R2"). Once these rows land, that check
+        # sees the docs as done and uploads nothing, so R2 must go first.
+        print("  NOTE: push these docs to R2 *before* loading D1 — "
+              "upload_cloudflare.py --r2 --new-only skips anything already in D1.", flush=True)
     print(f"loading {len(chunks):,} rows into D1 '{DB}' via {D1INSERT}", flush=True)
 
     if a.truncate:
