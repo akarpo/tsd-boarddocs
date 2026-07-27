@@ -33,8 +33,12 @@ SPLIT_NUM = re.compile(r"(?<![\d,])\d{1,2} \d{2,3},")
 
 # Meeting-folder date, e.g. "2019-06-17_Regular Meeting ...".
 MEETING_DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})_")
-# Meetings before this get pypdf only — see _worth_reordering().
+# Full-meeting packet filenames: "061620Mtg", "111114RegMtg", "020717SpMtg".
+PACKET_NAME_RE = re.compile(r"^W?\d{6}\s*(reg|sp|org|wksh|wksp|closed)?\s*"
+                            r"(mtg|bdmtg|meeting)", re.I)
+# Exclusions from the pdfplumber pass — see _worth_reordering().
 REORDER_AFTER = os.environ.get("TSD_REORDER_AFTER", "2020-01-01")
+MAX_REORDER_BYTES = int(float(os.environ.get("TSD_MAX_REORDER_MB", "15")) * 1e6)
 
 
 def _pypdf_pages(p: Path) -> list[str]:
@@ -68,17 +72,33 @@ def _plumber_pages(p: Path) -> list[str]:
 def _worth_reordering(p: Path) -> bool:
     """Whether a pdfplumber pass is worth its cost for this file.
 
-    The reorder exists to fix one specific artifact: pypdf emitting a fund
-    heading after its own table in the district's structured financial
-    statements. Meetings before REORDER_AFTER are the 2010-2019 era, whose
-    documents are single scanned full-meeting packets — image-backed, so
-    pdfplumber must walk every character object across hundreds of pages, and
-    they carry none of the header/table structure the reorder repairs. On this
-    corpus that is 9% of the files at 4x the average size, and skipping them
-    removes the bulk of extraction time at no cost to fidelity.
+    The reorder fixes one artifact: pypdf emitting a heading after the table it
+    labels, in documents built from headed tables — financial statements, budget
+    books, ACFRs. pdfplumber's cost scales with page count, so it is ruinous on
+    the few very long documents that have no such structure. Three exclusions,
+    each measured against this corpus:
 
-    Set TSD_REORDER_AFTER=0000-00-00 to reorder everything.
+    * Full-meeting packets, by filename (``061620Mtg.pdf``, ``111114Mtg.pdf``).
+      202 PDFs. These are whole meetings bound into one file — hundreds of pages
+      of mixed content, no consistent heading/table pairing to repair. Matching
+      on name rather than date matters: 2020 is a transition year that still
+      contains packets, and one of them held extraction at 100% CPU for four
+      minutes on a single file.
+    * Anything over MAX_REORDER_BYTES. Catches the image-heavy presentations
+      (69 MB, 44 MB, 31 MB) whose slides have no tables worth reordering. Chosen
+      so every document that does need it survives: the largest budget book is
+      4.8 MB and the largest ACFR 12.8 MB.
+    * Meetings before REORDER_AFTER, the era deferred from re-summarization.
+
+    Set TSD_REORDER_AFTER=0000-00-00 and TSD_MAX_REORDER_MB=0 to reorder all.
     """
+    if PACKET_NAME_RE.match(p.stem):
+        return False
+    try:
+        if MAX_REORDER_BYTES and p.stat().st_size > MAX_REORDER_BYTES:
+            return False
+    except OSError:
+        pass
     m = MEETING_DATE_RE.match(p.parent.name)
     return not (m and m.group(1) < REORDER_AFTER)
 
