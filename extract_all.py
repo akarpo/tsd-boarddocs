@@ -31,6 +31,11 @@ TEXT_ROOT = ROOT / "_text"
 # The lookbehind keeps genuinely separate columns ("31,855,092 34,278,115") out.
 SPLIT_NUM = re.compile(r"(?<![\d,])\d{1,2} \d{2,3},")
 
+# Meeting-folder date, e.g. "2019-06-17_Regular Meeting ...".
+MEETING_DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})_")
+# Meetings before this get pypdf only — see _worth_reordering().
+REORDER_AFTER = os.environ.get("TSD_REORDER_AFTER", "2020-01-01")
+
 
 def _pypdf_pages(p: Path) -> list[str]:
     try:
@@ -58,6 +63,24 @@ def _plumber_pages(p: Path) -> list[str]:
             return out
     except Exception:
         return []
+
+
+def _worth_reordering(p: Path) -> bool:
+    """Whether a pdfplumber pass is worth its cost for this file.
+
+    The reorder exists to fix one specific artifact: pypdf emitting a fund
+    heading after its own table in the district's structured financial
+    statements. Meetings before REORDER_AFTER are the 2010-2019 era, whose
+    documents are single scanned full-meeting packets — image-backed, so
+    pdfplumber must walk every character object across hundreds of pages, and
+    they carry none of the header/table structure the reorder repairs. On this
+    corpus that is 9% of the files at 4x the average size, and skipping them
+    removes the bulk of extraction time at no cost to fidelity.
+
+    Set TSD_REORDER_AFTER=0000-00-00 to reorder everything.
+    """
+    m = MEETING_DATE_RE.match(p.parent.name)
+    return not (m and m.group(1) < REORDER_AFTER)
 
 
 def _key(line: str) -> str:
@@ -128,6 +151,9 @@ def text_pdf(p: Path) -> str:
     if not ytxt:
         # pypdf found nothing — take pdfplumber's text even with its defects
         return "\n".join(_plumber_pages(p)).strip()
+
+    if not _worth_reordering(p):
+        return ytxt
 
     ppages = _plumber_pages(p)
     if len(ppages) != len(ypages):
