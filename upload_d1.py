@@ -18,7 +18,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
 CHUNKS = ROOT / "_index" / "chunks.jsonl"
 DB = os.environ.get("D1_DB", "tsd-boarddocs")
 D1INSERT = os.environ.get("D1INSERT_URL", "https://tsd-ingest.akarpo.workers.dev/d1insert")

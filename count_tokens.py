@@ -5,7 +5,7 @@ tiktoken cl100k_base (GPT-4 tokenizer) — a reasonable proxy for Claude's
 tokenizer (Claude tokens for English text are typically within ~5-10%).
 
 Output: per-type and grand totals to stdout, plus _tokens_per_file.csv
-under the corpus root (TSD_BOE_ROOT env var, default ~/tsd-boe-data).
+under the corpus root (TSD_BOE_ROOT env var, default ~/Downloads/tsd-boe-data).
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ from pptx import Presentation
 import openpyxl
 from striprtf.striprtf import rtf_to_text
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
 ENC = tiktoken.get_encoding("cl100k_base")
 
 

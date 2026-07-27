@@ -80,7 +80,7 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 
 ## Data layout
 
-Corpus root = `$TSD_BOE_ROOT` (default `~/tsd-boe-data`). The corpus, extracted
+Corpus root = `$TSD_BOE_ROOT` (default `~/Downloads/tsd-boe-data`). The corpus, extracted
 text, and `chunks.jsonl` are **not** committed (several GB) — rebuild with the
 ingest scripts. Source PDFs live in R2; searchable data + summaries live in D1.
 

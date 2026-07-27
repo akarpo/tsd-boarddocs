@@ -24,7 +24,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
 CHUNKS = ROOT / "_index" / "chunks.jsonl"
 EMBED_URL = os.environ.get("EMBED_URL", "https://tsd-boarddocs.karpowitsch.org/api/embed")
 # R2 uploads go through an ingest Worker's R2 binding (writes the EXACT key —

@@ -99,7 +99,7 @@ summarize.py + workflow     Opus 3-tier ► D1 summaries (+ sum: FTS rows)
 ```
 
 The corpus, extracted text, and chunk file are **not** committed (multiple GB) —
-they live under `$TSD_BOE_ROOT` (default `~/tsd-boe-data`). Only the tooling + site
+they live under `$TSD_BOE_ROOT` (default `~/Downloads/tsd-boe-data`). Only the tooling + site
 are in git; the *data* lives in D1 and R2.
 
 ### Incremental updates

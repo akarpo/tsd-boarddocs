@@ -22,7 +22,7 @@ Endpoints discovered on https://go.boarddocs.com/mi/troysd/Board.nsf:
   GET  files/<unid>/$file/<name>                                -> binary
 
 Output (under the corpus root, configurable via TSD_BOE_ROOT env var;
-defaults to ~/tsd-boe-data):
+defaults to ~/Downloads/tsd-boe-data):
   <root>/<YYYY-MM-DD>_<meeting_name>/<filename>
   <root>/_download.log
   <root>/_index.csv     (one row per newly downloaded file)
@@ -72,7 +72,7 @@ from urllib.request import Request, urlopen
 
 SITE_URL = "https://go.boarddocs.com/mi/troysd/Board.nsf"
 COMMITTEE_ID = "A4EP6J588C05"  # Board of Education
-OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "tsd-boe-data")
+OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
 BASELINE_PATH = Path(__file__).parent / "boarddocs_unids.json"
 

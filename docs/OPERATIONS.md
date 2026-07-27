@@ -5,13 +5,15 @@
 - Python 3.10+ with: `requests pypdf pdfplumber python-docx python-pptx openpyxl striprtf tiktoken` (no ML libs)
 - `wrangler` (npm) authenticated to the Cloudflare account (`wrangler login`)
 - LibreOffice (`soffice` on PATH) — only for the DOCX/PPTX→PDF viewer conversion
-- `$TSD_BOE_ROOT` corpus root (default `~/tsd-boe-data`)
+- `$TSD_BOE_ROOT` corpus root (default `~/Downloads/tsd-boe-data`; it lived at
+  `~/tsd-boe-data` before v0.8.5 — point `TSD_BOE_ROOT` at an older corpus, or just
+  move the directory, rather than re-crawling)
 - The ingest worker's secret in `R2PUT_SECRET` (used for D1 / R2 / summary writes)
 
 ## Full ingest (first build or full rebuild)
 
 ```bash
-export TSD_BOE_ROOT=~/tsd-boe-data
+export TSD_BOE_ROOT=~/Downloads/tsd-boe-data
 
 python3 download_troysd.py --all --yes     # BoardDocs -> $TSD_BOE_ROOT (incremental)
 python3 extract_all.py                      # -> _text/
@@ -46,7 +48,7 @@ across days. Large drips are fanned across Opus subagents by the workflow; small
 ones are cheaper written inline (see "Small batches" below).
 
 ```bash
-export TSD_BOE_ROOT=~/tsd-boe-data
+export TSD_BOE_ROOT=~/Downloads/tsd-boe-data
 
 python3 summarize.py --stats                        # done / pending counts
 rm -rf /tmp/tsd_out && mkdir -p /tmp/tsd_out

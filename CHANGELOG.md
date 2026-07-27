@@ -6,6 +6,21 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.5] — 2026-07-27
+Default the corpus root to `~/Downloads/tsd-boe-data`.
+
+- The corpus previously defaulted to `Path.home() / "tsd-boe-data"`, dropping several
+  GB of scraped documents directly into the home folder. It now defaults to
+  `~/Downloads/tsd-boe-data`, alongside the other working directories.
+- Changed in all **12** modules that resolve the root — `download_troysd.py`,
+  `extract_all.py`, `build_index.py`, `filter_index.py`, `upload_d1.py`,
+  `upload_cloudflare.py`, `summarize.py`, `count_tokens.py`, `extract_legacy.py`,
+  `retrieve.py`, `scripts/convert_office.py`, `scripts/proper_nouns.py` — so the
+  pipeline can't half-move.
+- `TSD_BOE_ROOT` still overrides, and takes precedence exactly as before. An existing
+  corpus at `~/tsd-boe-data` needs no re-crawl: move the directory, or point
+  `TSD_BOE_ROOT` at it.
+
 ## [0.8.4] — 2026-07-27
 Finish the 2026-07-22 ingest, and guard the R2/D1 upload-order trap in code.
 
