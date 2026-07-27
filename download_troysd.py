@@ -93,7 +93,11 @@ SITE_URL = "https://go.boarddocs.com/mi/troysd/Board.nsf"
 COMMITTEE_ID = "A4EP6J588C05"  # Board of Education
 OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
-BASELINE_PATH = Path(__file__).parent / "boarddocs_unids.json"
+# Env-overridable so parallel shards can each write their own baseline and be
+# merged afterward; a shared path would let the last writer clobber the rest
+# (write_baseline does a read-modify-write at the end of every run).
+BASELINE_PATH = Path(os.environ.get("TSD_BASELINE")
+                     or Path(__file__).parent / "boarddocs_unids.json")
 
 # BoardDocs intermittently 403s automated clients. From a home IP a short backoff
 # almost always clears it; from a datacenter/CI IP it does not — the GitHub-hosted
