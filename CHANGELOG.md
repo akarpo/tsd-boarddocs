@@ -6,6 +6,31 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.8] — 2026-07-27
+Fix the v0.8.7 fallback: it was returning a 1-byte body, silently.
+
+- **v0.8.7 shipped a broken transport.** It replayed requests as an in-page
+  `fetch()` on the BoardDocs origin. BoardDocs answers those with `HTTP 200` and a
+  **one-byte body** (`' '`) — so the fallback "succeeded" while returning nothing,
+  and the 200 status meant it never raised. Measured against a *healthy* tenant
+  (`vsba/loudoun`), so this is a standing anti-scraping response, not an artifact of
+  the outage that was happening at the time.
+- **Now uses Playwright's `APIRequestContext`** (`context.request.fetch`), which
+  issues through the browser's own network stack and cookie jar. On the identical
+  URL: **36,645 bytes vs 1 byte**. Verified against live BoardDocs — byte-identical
+  to `urlopen` except a single character in the `info-server` field
+  (`Diligent-Secaucus3` vs `…2`, i.e. a different backend in their pool) — and all
+  three `--browser` modes re-verified under a simulated 403.
+  - Drops the JS + chunked-base64 marshalling entirely; `res.body()` returns bytes.
+- **Corrects a wrong conclusion recorded in v0.8.7.** That entry blamed the 1-byte
+  body on a degraded BoardDocs. It is unrelated to health — it is how BoardDocs
+  answers page-context fetches.
+- **Outage scope, measured.** The 2026-07-27 failure was tenant-scoped: every
+  `go.boarddocs.com/mi/…` path timed out at 30s with `504`, *including a
+  nonexistent Michigan district*, while `vsba/loudoun` served in 0.5s and
+  `ca/scusd` returned a fast 404. Documented in OPERATIONS as the way to tell a
+  dead shard from a block: fast response of any status = healthy tenant.
+
 ## [0.8.7] — 2026-07-27
 Headless-Chrome fallback transport, and stop reporting outages as tracebacks.
 

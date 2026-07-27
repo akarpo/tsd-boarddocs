@@ -137,15 +137,21 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
   automated (see below). `download_troysd.py` retries with exponential backoff
   (`_send()`), tunable via `BD_RETRIES` / `BD_BACKOFF` / `BD_DELAY`. From a home IP
   a rare missed item self-heals on the next crawl; `--recheck` forces a re-walk.
-  If the block persists, `--browser always` replays every request as a
-  credentialed `fetch()` inside a headless Chrome page on the BoardDocs origin
+  If the block persists, `--browser always` reissues every request through a
+  headless Chrome network stack and cookie jar
   (`pip install playwright && playwright install chromium`); `--browser auto`, the
   default, does this only after the normal retries exhaust on a 401/403/429.
-- **A degraded BoardDocs does not fail loudly.** During a 2026-07-27 outage it
-  returned `504` to plain HTTP clients but `200 text/plain` with a **single-space
-  body** to the headless browser. `list_meetings()` now raises a clear error rather
-  than an opaque `JSONDecodeError`. If you see either symptom, the service is down
-  — not blocking you — so waiting is the fix, and the crawl resumes cleanly.
+- **Never fetch BoardDocs from inside a page.** BoardDocs answers in-page
+  `fetch()` with `HTTP 200` and a **one-byte body** — measured against a healthy
+  tenant, so it is a standing anti-scraping response, not an outage symptom. The
+  200 status makes it fail silently. Playwright's `context.request` returns the
+  real content (36,645 B vs 1 B on the same URL), which is why the fallback uses it.
+- **Outages are tenant-scoped.** On 2026-07-27 every `go.boarddocs.com/mi/…` path
+  timed out at 30s with `504`, including a *nonexistent* Michigan district, while
+  `vsba/loudoun` served in 0.5s and `ca/scusd` returned a fast 404. A fast response
+  of any status means the tenant is healthy; a 30s 504 means that shard is down.
+  Waiting is the fix — the crawl resumes cleanly. `list_meetings()` raises a clear
+  error in that case rather than an opaque `JSONDecodeError`.
 - **`wrangler r2 object put` needs `--remote`** or it silently uploads nothing.
 - **`wrangler` truncates R2 keys at `#`** → upload via `/r2put`.
 - **FTS5 `snippet()` can't be used with `GROUP BY`** → date sort uses a two-query

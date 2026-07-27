@@ -53,10 +53,15 @@ Run this from a residential connection. BoardDocs serves a home IP fine but
 list-files for nearly every agenda item, which is why ingest is not automated.
 
 If BoardDocs does block the plain HTTP client, there is a headless-Chrome
-fallback: the same request is replayed as a credentialed `fetch()` inside a live
-page on the BoardDocs origin, which carries the cookies, headers and TLS
-fingerprint the CDN expects. It engages automatically on 401/403/429 once the
-normal retries are exhausted, and stays engaged for the rest of the run.
+fallback: the request is reissued through the browser's own network stack and
+cookie jar (Playwright's APIRequestContext), which carries what the CDN expects.
+It engages automatically on 401/403/429 once the normal retries are exhausted,
+and stays engaged for the rest of the run.
+
+Note it is deliberately NOT an in-page `fetch()`. BoardDocs answers those with
+`HTTP 200` and a **one-byte body** — verified against a healthy tenant, so it is
+a standing anti-scraping response rather than an outage symptom, and the 200
+status makes it fail silently.
 
   --browser auto     fall back only when blocked (default)
   --browser always    use the browser for every request
@@ -70,7 +75,6 @@ from __future__ import annotations
 
 import argparse
 import atexit
-import base64
 import csv
 import json
 import os
@@ -132,33 +136,23 @@ DATE_TERM_RE = re.compile(r'\d{4}(-\d{2}(-\d{2})?)?$')
 # cookies, headers and TLS fingerprint the CDN expects, so replaying the same
 # request from inside a live page often succeeds where urlopen cannot.
 #
-# The transport is a `fetch()` executed in page context on the BoardDocs origin,
-# so it is same-origin and credentialed. One browser is started lazily and
-# reused; once the fallback engages it stays engaged for the rest of the run
-# (if the origin is blocking us, it will keep blocking us).
+# The transport is Playwright's APIRequestContext, which issues the request
+# through the browser's own network stack and cookie jar. It is deliberately NOT
+# an in-page `fetch()`: BoardDocs answers fetch()-shaped requests with a 1-byte
+# body and HTTP 200 — measured against a *healthy* tenant, so it is a standing
+# anti-scraping response, not a symptom of an outage. Because the status is 200
+# that failure is silent, which is exactly the shape of bug worth avoiding.
+#
+# One browser is started lazily and reused; a first navigation to the public page
+# seeds the cookie jar. Once the fallback engages it stays engaged for the rest
+# of the run (if the origin is blocking us, it will keep blocking us).
 #
 # BD_BROWSER=auto (default) engage only after normal retries exhaust on a
 #                  block-shaped status; always = use the browser for everything;
 #                  never = original behaviour, no browser.
 # --------------------------------------------------------------------------
 BLOCK_CODES = {401, 403, 429}
-_BR = {"pw": None, "browser": None, "page": None, "unavailable": False, "engaged": False}
-
-# Executed in page context. Chunked base64 so multi-MB PDFs don't blow the stack.
-_FETCH_JS = """
-async ([url, method, body, headers]) => {
-  const r = await fetch(url, {
-    method, headers, credentials: 'include',
-    body: (method === 'GET' || method === 'HEAD') ? undefined : (body || undefined),
-  });
-  const bytes = new Uint8Array(await r.arrayBuffer());
-  let s = '', CH = 0x8000;
-  for (let i = 0; i < bytes.length; i += CH) {
-    s += String.fromCharCode.apply(null, bytes.subarray(i, i + CH));
-  }
-  return { status: r.status, b64: btoa(s) };
-}
-"""
+_BR = {"pw": None, "browser": None, "ctx": None, "unavailable": False, "engaged": False}
 
 
 def _browser_close():
@@ -170,18 +164,18 @@ def _browser_close():
             obj.close() if key == "browser" else obj.stop()
         except Exception:
             pass
-    _BR.update(pw=None, browser=None, page=None)
+    _BR.update(pw=None, browser=None, ctx=None)
 
 
 def browser_available() -> bool:
-    """True if a headless page can be started (Playwright + a Chromium build)."""
-    return _browser_page() is not None
+    """True if the headless transport can start (Playwright + a Chromium build)."""
+    return _browser_context() is not None
 
 
-def _browser_page():
-    """Lazily start headless Chromium and land it on the BoardDocs origin."""
-    if _BR["page"] is not None:
-        return _BR["page"]
+def _browser_context():
+    """Lazily start headless Chromium and seed its cookie jar on the origin."""
+    if _BR["ctx"] is not None:
+        return _BR["ctx"]
     if _BR["unavailable"]:
         return None
     try:
@@ -195,13 +189,18 @@ def _browser_page():
         pw = sync_playwright().start()
         browser = pw.chromium.launch(headless=True)
         ctx = browser.new_context(user_agent=BROWSER_UA)
+        # Visit the public page once so the CDN's cookies land in the jar that
+        # ctx.request shares. Best-effort: a down origin must not kill startup.
         page = ctx.new_page()
-        # Land on the public page first so the CDN sets its cookies; fetch()
-        # from here is same-origin and carries them.
-        page.goto(f"{SITE_URL}/Public", wait_until="domcontentloaded", timeout=60_000)
-        _BR.update(pw=pw, browser=browser, page=page)
+        try:
+            page.goto(f"{SITE_URL}/Public", wait_until="domcontentloaded", timeout=45_000)
+        except Exception:
+            pass
+        finally:
+            page.close()
+        _BR.update(pw=pw, browser=browser, ctx=ctx)
         atexit.register(_browser_close)
-        return page
+        return ctx
     except Exception as e:
         _BR["unavailable"] = True
         _browser_close()
@@ -210,18 +209,22 @@ def _browser_page():
 
 
 def _send_via_browser(req: Request, timeout: int) -> bytes:
-    """Replay a Request as a credentialed fetch() inside the BoardDocs page."""
-    page = _browser_page()
-    if page is None:
+    """Replay a Request through the browser's network stack and cookie jar."""
+    ctx = _browser_context()
+    if ctx is None:
         raise URLError("headless browser unavailable")
     headers = {k: v for k, v in req.header_items()
                if k.lower() not in ("host", "content-length")}
-    body = req.data.decode("utf-8") if req.data else None
-    page.set_default_timeout(max(timeout, 30) * 1000)
-    res = page.evaluate(_FETCH_JS, [req.full_url, req.get_method(), body, headers])
-    if res["status"] >= 400:
-        raise HTTPError(req.full_url, res["status"], "browser fetch failed", None, None)
-    return base64.b64decode(res["b64"])
+    res = ctx.request.fetch(
+        req.full_url,
+        method=req.get_method(),
+        headers=headers,
+        data=req.data if req.data else None,
+        timeout=max(timeout, 30) * 1000,
+    )
+    if res.status >= 400:
+        raise HTTPError(req.full_url, res.status, "browser fetch failed", None, None)
+    return res.body()
 
 
 # --------------------------------------------------------------------------
@@ -259,7 +262,7 @@ def _send(req: Request, timeout: int) -> bytes:
         time.sleep(wait)
 
     code = getattr(last, "code", None)
-    if BD_BROWSER == "auto" and code in BLOCK_CODES and _browser_page() is not None:
+    if BD_BROWSER == "auto" and code in BLOCK_CODES and _browser_context() is not None:
         print(f"   ~ HTTP {code} from the plain client — switching to the headless "
               f"browser for the rest of this run", flush=True)
         _BR["engaged"] = True
@@ -294,10 +297,9 @@ def _get(path: str) -> bytes:
 def list_meetings():
     """The full meeting list, or a clear error when BoardDocs is degraded.
 
-    A failing BoardDocs does not always fail loudly: it has been observed
-    returning `200 text/plain` with a single-space body to browser-shaped
-    clients while returning 504 to plain ones. Without this guard that lands as
-    an opaque JSONDecodeError several frames deep.
+    BoardDocs does not always fail loudly — a degraded shard returns 5xx, and an
+    in-page fetch() gets `200` with a one-byte body. Without this guard either
+    lands as an opaque JSONDecodeError several frames deep.
     """
     raw = _post("BD-GetMeetingsList", {"current_committee_id": COMMITTEE_ID})
     try:
