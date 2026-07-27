@@ -7,7 +7,7 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 
 | Script | Role |
 |---|---|
-| `download_troysd.py` | Crawl public TroySD BoardDocs; save each file under `<YYYY-MM-DD>_<meeting>/`. Incremental (`--all` / `--start` / `--end` / `--meetings` / `-y`). Also captures `boarddocs_unids.json`. |
+| `download_troysd.py` | Crawl public TroySD BoardDocs; save each file under `<YYYY-MM-DD>_<meeting>/`. Incremental (`--all` / `--start` / `--end` / `--meetings` / `-y`), `--skip-ingested` to skip what D1 already has. Falls back to a headless-Chrome transport when BoardDocs blocks the plain client (`--browser auto\|always\|never`). Also captures `boarddocs_unids.json`. |
 | `extract_all.py` | PDF/DOCX/PPTX/XLSX/RTF → `.txt` mirrors in `_text/`. |
 | `extract_legacy.py` | Legacy `.doc` / `.ppt` via MS Office COM (Windows only). |
 | `build_index.py` | Token-window chunk `_text/` → `_index/chunks.jsonl` (sha1 ids, R2 urls, `meeting_type`, `agenda_item`; recovers packet-era dates from filenames). |

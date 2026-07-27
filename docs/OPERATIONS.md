@@ -137,6 +137,15 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
   automated (see below). `download_troysd.py` retries with exponential backoff
   (`_send()`), tunable via `BD_RETRIES` / `BD_BACKOFF` / `BD_DELAY`. From a home IP
   a rare missed item self-heals on the next crawl; `--recheck` forces a re-walk.
+  If the block persists, `--browser always` replays every request as a
+  credentialed `fetch()` inside a headless Chrome page on the BoardDocs origin
+  (`pip install playwright && playwright install chromium`); `--browser auto`, the
+  default, does this only after the normal retries exhaust on a 401/403/429.
+- **A degraded BoardDocs does not fail loudly.** During a 2026-07-27 outage it
+  returned `504` to plain HTTP clients but `200 text/plain` with a **single-space
+  body** to the headless browser. `list_meetings()` now raises a clear error rather
+  than an opaque `JSONDecodeError`. If you see either symptom, the service is down
+  — not blocking you — so waiting is the fix, and the crawl resumes cleanly.
 - **`wrangler r2 object put` needs `--remote`** or it silently uploads nothing.
 - **`wrangler` truncates R2 keys at `#`** → upload via `/r2put`.
 - **FTS5 `snippet()` can't be used with `GROUP BY`** → date sort uses a two-query

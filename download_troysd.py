@@ -51,11 +51,26 @@ force a re-walk.
 Run this from a residential connection. BoardDocs serves a home IP fine but
 403s datacenter/CI IPs — a GitHub-hosted runner gets `403 Forbidden` on
 list-files for nearly every agenda item, which is why ingest is not automated.
+
+If BoardDocs does block the plain HTTP client, there is a headless-Chrome
+fallback: the same request is replayed as a credentialed `fetch()` inside a live
+page on the BoardDocs origin, which carries the cookies, headers and TLS
+fingerprint the CDN expects. It engages automatically on 401/403/429 once the
+normal retries are exhausted, and stays engaged for the rest of the run.
+
+  --browser auto     fall back only when blocked (default)
+  --browser always    use the browser for every request
+  --browser never     plain HTTP only
+
+Also settable as $BD_BROWSER. Needs `pip install playwright && playwright
+install chromium`; without it the fallback is skipped with a note.
 """
 
 from __future__ import annotations
 
 import argparse
+import atexit
+import base64
 import csv
 import json
 import os
@@ -86,6 +101,12 @@ BD_BACKOFF_CAP = float(os.environ.get("BD_BACKOFF_CAP", "30.0"))
 BD_DELAY = float(os.environ.get("BD_DELAY", "0.0"))       # polite pause before each request
 RETRY_CODES = {403, 429, 500, 502, 503, 504}
 
+# Headless-browser fallback: auto (on block) | always | never. See _send().
+BD_BROWSER = os.environ.get("BD_BROWSER", "auto").lower()
+# A real Chrome UA for the browser transport; UA above is the honest bot string.
+BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+
 # Public read-only endpoint listing every meeting already ingested into D1.
 # Used by --skip-ingested so a corpus-less workspace doesn't re-crawl everything.
 MEETINGS_URL = os.environ.get(
@@ -104,6 +125,106 @@ DATE_TERM_RE = re.compile(r'\d{4}(-\d{2}(-\d{2})?)?$')
 
 
 # --------------------------------------------------------------------------
+# Headless-browser fallback
+#
+# BoardDocs blocks plain HTTP clients it dislikes — hard 403s on `list-files`
+# from datacenter IPs, occasional ones elsewhere. A real browser carries the
+# cookies, headers and TLS fingerprint the CDN expects, so replaying the same
+# request from inside a live page often succeeds where urlopen cannot.
+#
+# The transport is a `fetch()` executed in page context on the BoardDocs origin,
+# so it is same-origin and credentialed. One browser is started lazily and
+# reused; once the fallback engages it stays engaged for the rest of the run
+# (if the origin is blocking us, it will keep blocking us).
+#
+# BD_BROWSER=auto (default) engage only after normal retries exhaust on a
+#                  block-shaped status; always = use the browser for everything;
+#                  never = original behaviour, no browser.
+# --------------------------------------------------------------------------
+BLOCK_CODES = {401, 403, 429}
+_BR = {"pw": None, "browser": None, "page": None, "unavailable": False, "engaged": False}
+
+# Executed in page context. Chunked base64 so multi-MB PDFs don't blow the stack.
+_FETCH_JS = """
+async ([url, method, body, headers]) => {
+  const r = await fetch(url, {
+    method, headers, credentials: 'include',
+    body: (method === 'GET' || method === 'HEAD') ? undefined : (body || undefined),
+  });
+  const bytes = new Uint8Array(await r.arrayBuffer());
+  let s = '', CH = 0x8000;
+  for (let i = 0; i < bytes.length; i += CH) {
+    s += String.fromCharCode.apply(null, bytes.subarray(i, i + CH));
+  }
+  return { status: r.status, b64: btoa(s) };
+}
+"""
+
+
+def _browser_close():
+    for key in ("browser", "pw"):
+        obj = _BR.get(key)
+        if obj is None:
+            continue
+        try:
+            obj.close() if key == "browser" else obj.stop()
+        except Exception:
+            pass
+    _BR.update(pw=None, browser=None, page=None)
+
+
+def browser_available() -> bool:
+    """True if a headless page can be started (Playwright + a Chromium build)."""
+    return _browser_page() is not None
+
+
+def _browser_page():
+    """Lazily start headless Chromium and land it on the BoardDocs origin."""
+    if _BR["page"] is not None:
+        return _BR["page"]
+    if _BR["unavailable"]:
+        return None
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        _BR["unavailable"] = True
+        print("   ! headless fallback unavailable: pip install playwright "
+              "&& playwright install chromium", flush=True)
+        return None
+    try:
+        pw = sync_playwright().start()
+        browser = pw.chromium.launch(headless=True)
+        ctx = browser.new_context(user_agent=BROWSER_UA)
+        page = ctx.new_page()
+        # Land on the public page first so the CDN sets its cookies; fetch()
+        # from here is same-origin and carries them.
+        page.goto(f"{SITE_URL}/Public", wait_until="domcontentloaded", timeout=60_000)
+        _BR.update(pw=pw, browser=browser, page=page)
+        atexit.register(_browser_close)
+        return page
+    except Exception as e:
+        _BR["unavailable"] = True
+        _browser_close()
+        print(f"   ! headless fallback could not start: {e}", flush=True)
+        return None
+
+
+def _send_via_browser(req: Request, timeout: int) -> bytes:
+    """Replay a Request as a credentialed fetch() inside the BoardDocs page."""
+    page = _browser_page()
+    if page is None:
+        raise URLError("headless browser unavailable")
+    headers = {k: v for k, v in req.header_items()
+               if k.lower() not in ("host", "content-length")}
+    body = req.data.decode("utf-8") if req.data else None
+    page.set_default_timeout(max(timeout, 30) * 1000)
+    res = page.evaluate(_FETCH_JS, [req.full_url, req.get_method(), body, headers])
+    if res["status"] >= 400:
+        raise HTTPError(req.full_url, res["status"], "browser fetch failed", None, None)
+    return base64.b64decode(res["b64"])
+
+
+# --------------------------------------------------------------------------
 # BoardDocs HTTP
 # --------------------------------------------------------------------------
 def _send(req: Request, timeout: int) -> bytes:
@@ -112,7 +233,13 @@ def _send(req: Request, timeout: int) -> bytes:
     Retries on the intermittent 403/429/5xx BoardDocs throws at automated clients
     and on transient network errors; re-raises anything else, or the last error
     once retries are exhausted. The same Request object is safe to resend.
+
+    On a block-shaped failure (401/403/429) it falls back to the headless browser
+    once, and stays on it for the rest of the run. See BD_BROWSER.
     """
+    if BD_BROWSER == "always" or _BR["engaged"]:
+        return _send_via_browser(req, timeout)
+
     last = None
     for attempt in range(BD_RETRIES + 1):
         if BD_DELAY:
@@ -123,14 +250,21 @@ def _send(req: Request, timeout: int) -> bytes:
         except HTTPError as e:
             last = e
             if e.code not in RETRY_CODES or attempt == BD_RETRIES:
-                raise
+                break
         except URLError as e:
             last = e
             if attempt == BD_RETRIES:
-                raise
+                break
         wait = min(BD_BACKOFF * (2 ** attempt), BD_BACKOFF_CAP) + random.uniform(0, BD_BACKOFF)
         time.sleep(wait)
-    raise last  # pragma: no cover — loop always returns or raises above
+
+    code = getattr(last, "code", None)
+    if BD_BROWSER == "auto" and code in BLOCK_CODES and _browser_page() is not None:
+        print(f"   ~ HTTP {code} from the plain client — switching to the headless "
+              f"browser for the rest of this run", flush=True)
+        _BR["engaged"] = True
+        return _send_via_browser(req, timeout)
+    raise last
 
 
 def _post(path: str, data: dict) -> str:
@@ -158,7 +292,22 @@ def _get(path: str) -> bytes:
 
 
 def list_meetings():
-    return json.loads(_post("BD-GetMeetingsList", {"current_committee_id": COMMITTEE_ID}))
+    """The full meeting list, or a clear error when BoardDocs is degraded.
+
+    A failing BoardDocs does not always fail loudly: it has been observed
+    returning `200 text/plain` with a single-space body to browser-shaped
+    clients while returning 504 to plain ones. Without this guard that lands as
+    an opaque JSONDecodeError several frames deep.
+    """
+    raw = _post("BD-GetMeetingsList", {"current_committee_id": COMMITTEE_ID})
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        raise URLError(
+            f"BoardDocs returned {len(raw)} byte(s) of non-JSON for the meeting "
+            f"list ({raw.strip()[:60]!r}) — the service is degraded, not blocking "
+            "us. Wait a few minutes and re-run."
+        ) from None
 
 
 def list_item_uniques(meeting_unique: str):
@@ -417,6 +566,7 @@ def prompt_selection(dated, local: set[str], ask=input, out=print):
 # Main
 # --------------------------------------------------------------------------
 def main(argv=None):
+    global BD_BROWSER
     ap = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -444,6 +594,11 @@ def main(argv=None):
                      help="re-walk selected meetings already on disk and "
                           "verify each file (picks up files added to old "
                           "meetings; finishes an interrupted run)")
+    mod.add_argument("--browser", choices=("auto", "always", "never"),
+                     help="headless-Chrome transport: 'auto' (default) falls back "
+                          "to it when BoardDocs blocks the plain client, 'always' "
+                          "uses it for every request, 'never' disables it. "
+                          "Overrides $BD_BROWSER; needs playwright + chromium")
     mod.add_argument("--skip-ingested", action="store_true",
                      help="also skip meetings already ingested into D1 "
                           "(queried from the live site), not just those with "
@@ -457,6 +612,8 @@ def main(argv=None):
                      help="force the interactive menu even when stdin is "
                           "not a terminal")
     args = ap.parse_args(argv)
+    if args.browser:
+        BD_BROWSER = args.browser        # --browser overrides $BD_BROWSER
 
     has_flag_selection = bool(args.all or args.start or args.end
                               or args.meetings or args.meetings_file)
@@ -655,5 +812,31 @@ def main(argv=None):
             write_baseline(observed_meetings, observed_files)
 
 
+def _explain(err) -> str:
+    """Actionable one-liner for a fatal BoardDocs network error."""
+    code = getattr(err, "code", None)
+    if code in (502, 503, 504):
+        return ("go.boarddocs.com is not responding — this is server-side and usually\n"
+                "       transient. Wait a few minutes and re-run; the crawl is resumable.")
+    if code in BLOCK_CODES:
+        engaged = "and the headless fallback also failed" if _BR["engaged"] else (
+            "try --browser always" if not _BR["unavailable"]
+            else "install the headless fallback: pip install playwright && "
+                 "playwright install chromium")
+        return (f"BoardDocs refused the request ({code}) {engaged}.\n"
+                "       Datacenter/CI IPs are blocked outright; from a home IP, wait and\n"
+                "       re-run with a higher BD_DELAY.")
+    if code:
+        return f"BoardDocs returned HTTP {code}."
+    return f"could not reach BoardDocs: {getattr(err, 'reason', err)}"
+
+
 if __name__ == "__main__":
-    sys.exit(main() or 0)
+    try:
+        sys.exit(main() or 0)
+    except (HTTPError, URLError) as e:
+        print(f"\nERROR: {_explain(e)}", file=sys.stderr)
+        sys.exit(2)
+    except KeyboardInterrupt:
+        print("\ninterrupted — re-run to resume", file=sys.stderr)
+        sys.exit(130)

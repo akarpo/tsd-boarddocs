@@ -6,6 +6,29 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.8.7] — 2026-07-27
+Headless-Chrome fallback transport, and stop reporting outages as tracebacks.
+
+- **`download_troysd.py --browser {auto,always,never}`** (also `$BD_BROWSER`).
+  When BoardDocs blocks the plain HTTP client, the same request is replayed as a
+  credentialed `fetch()` executed inside a live headless-Chrome page on the
+  BoardDocs origin, so it carries the cookies, headers and TLS fingerprint the CDN
+  expects. `auto` (default) engages only after the normal retries exhaust on a
+  **401/403/429**, then stays engaged for the rest of the run; `always` uses the
+  browser for everything; `never` is the old behaviour. Requires
+  `pip install playwright && playwright install chromium` — without it the fallback
+  is skipped with a note rather than failing.
+  - One browser is started lazily and reused, closed via `atexit`.
+  - Verified byte-identical to `urlopen` on both JSON (77,628 B) and a real PDF
+    (96,466 B, chunked base64 path), and 4xx maps back to `HTTPError`.
+- **Clear failures instead of tracebacks.** A fatal network error now prints one
+  actionable line and exits 2, distinguishing a server-side 5xx ("wait, the crawl is
+  resumable") from a block ("try `--browser always`"); `KeyboardInterrupt` exits 130.
+- **Guard the silent-degradation case.** During a 2026-07-27 BoardDocs outage the
+  service returned `504` to plain clients but `200 text/plain` with a **one-byte
+  body** to the browser. `list_meetings()` now raises a clear error naming the
+  symptom instead of an opaque `JSONDecodeError` several frames deep.
+
 ## [0.8.6] — 2026-07-27
 Add `scripts/ingest_meeting.sh` — one command to add a new meeting.
 

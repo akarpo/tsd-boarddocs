@@ -27,6 +27,8 @@
 #
 # Env: TSD_BOE_ROOT (corpus root, default ~/Downloads/tsd-boe-data)
 #      TSD_BATCH_DIR (default /tmp/tsd_batches), TSD_OUT_DIR (default /tmp/tsd_out)
+#      BD_BROWSER (auto|always|never) — headless-Chrome fallback when BoardDocs
+#        blocks the plain HTTP client; passed through to download_troysd.py
 #
 set -euo pipefail
 
