@@ -241,3 +241,66 @@ home IP succeeds with zero 403s, so ingest has to run from a residential connect
 - Convert the two remaining source formats the viewer links out (XLSX) if inline
   preview is ever wanted.
 - Prune the legacy `--vectors` / `retrieve.py` code paths (superseded since v0.4).
+
+## Pre-2020 extraction and the reorder pass
+
+`extract_all.py` combines pypdf's characters with pdfplumber's reading order (see
+docs/ARCHITECTURE.md). Three exclusions keep the cost sane, all env-overridable:
+
+    TSD_REORDER_AFTER=0000-00-00   # include meetings before 2020-01-01
+    TSD_REORDER_PACKETS=1          # include full-meeting packets
+    TSD_MAX_REORDER_MB=0           # ignore the 15 MB size cap
+
+The packet exclusion was originally written as a correctness judgement ("no
+consistent heading/table pairing to repair"). **That was wrong** — measured on the
+pre-2020 era the reorder moves 54-73% of a packet's lines and fixes real damage:
+pypdf emits the agenda footer *before* the agenda. It is a speed trade-off, so it
+is now a flag rather than hardcoded.
+
+Re-extracting an era requires deleting its `_text/` output first — `extract_all.py`
+skips any file that already exists non-empty, and will otherwise report a clean run
+having done nothing.
+
+    # back up, delete, re-extract (285 pre-2020 files, ~20 min)
+    tar -czf ~/Downloads/tsd_text_pre2020_backup.tar.gz -C "$ROOT/_text" -T <(list)
+    tr '\n' '\0' < list | xargs -0 rm -f      # NOT bare xargs -- folder names
+                                               # contain spaces and it silently
+                                               # deletes nothing
+    TSD_REORDER_AFTER=0000-00-00 TSD_REORDER_PACKETS=1 python3 extract_all.py
+
+## Reloading part of the corpus into D1
+
+After re-extraction the text on disk is fixed but D1 still holds the old chunks.
+`build_index.py` rewrites `_index/chunks.jsonl` wholesale, then the affected rows
+must be replaced. Three traps, all hit at least once:
+
+**1. `--truncate` deletes the whole table.** There is no targeted-delete flag and
+no delete endpoint on tsd-ingest. Use `wrangler d1 execute` directly.
+
+**2. D1 rejects long LIKE patterns.** `url LIKE 'https://media.karpowitsch.org/
+troysd-boarddocs/201%'` fails with `SQLITE_ERROR 7500: LIKE or GLOB pattern too
+complex`. Use `substr()` instead — the URL prefix is 47 characters, so the folder
+year is `substr(url,48,4)`.
+
+**3. Summary rows are marked on `id`, not `url`.** `/summaryput` writes one
+`sum:<url>` row per document into `chunks`, carrying the document's **plain** url.
+A delete keyed only on url takes the summaries with it and silently removes that
+era from summary-backed search. Always exclude them:
+
+    -- verify the predicate BEFORE converting it to a DELETE
+    SELECT COUNT(*) FROM chunks WHERE substr(url,48,3)='201' AND id NOT LIKE 'sum:%';
+    SELECT COUNT(*) FROM chunks WHERE substr(url,48,3)='201' AND id LIKE 'sum:%';
+
+    DELETE FROM chunks WHERE substr(url,48,3)='201' AND id NOT LIKE 'sum:%';
+    for y in 2010..2019; do R2PUT_SECRET=... python3 upload_d1.py --year $y; done
+
+`upload_d1.py` needs `R2PUT_SECRET` or every insert returns HTTP 403.
+
+**Verify afterwards.** `chunks` is FTS5 with no unique key, so a partial delete
+plus a full reload silently doubles rows:
+
+    SELECT COUNT(*) rows, COUNT(DISTINCT id) uniq FROM chunks;   -- must be equal
+
+Note `upload_d1.py --year` filters on `meeting_date` while a url predicate keys on
+the **folder** date, and 176 chunks disagree (a 2017 meeting filed in a 2018
+folder). Confirm the two sets are identical before mixing the two.

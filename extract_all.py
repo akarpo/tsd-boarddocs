@@ -39,6 +39,7 @@ PACKET_NAME_RE = re.compile(r"^W?\d{6}\s*(reg|sp|org|wksh|wksp|closed)?\s*"
 # Exclusions from the pdfplumber pass — see _worth_reordering().
 REORDER_AFTER = os.environ.get("TSD_REORDER_AFTER", "2020-01-01")
 MAX_REORDER_BYTES = int(float(os.environ.get("TSD_MAX_REORDER_MB", "15")) * 1e6)
+REORDER_PACKETS = os.environ.get("TSD_REORDER_PACKETS", "") not in ("", "0")
 
 
 def _pypdf_pages(p: Path) -> list[str]:
@@ -91,8 +92,12 @@ def _worth_reordering(p: Path) -> bool:
     * Meetings before REORDER_AFTER, the era deferred from re-summarization.
 
     Set TSD_REORDER_AFTER=0000-00-00 and TSD_MAX_REORDER_MB=0 to reorder all.
+    Set TSD_REORDER_PACKETS=1 to include full-meeting packets despite the cost;
+    measured on the pre-2020 era, the reorder moves 54-73% of a packet's lines
+    and fixes real damage (agenda footers emitted ahead of the agenda itself),
+    so the exclusion is a speed trade-off rather than a correctness one.
     """
-    if PACKET_NAME_RE.match(p.stem):
+    if PACKET_NAME_RE.match(p.stem) and not REORDER_PACKETS:
         return False
     try:
         if MAX_REORDER_BYTES and p.stat().st_size > MAX_REORDER_BYTES:

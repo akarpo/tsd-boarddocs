@@ -29,3 +29,5 @@
 # by the workflow's issue step, never committed.
 verify-report.txt
 issue_body.txt
+!/resummarize/
+!/resummarize/*.json

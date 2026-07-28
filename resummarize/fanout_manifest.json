@@ -1,0 +1,531 @@
+{
+ "batches": {
+  "batch_000": [
+   "2024_06_fy25_complete_proposed_budget_external"
+  ],
+  "batch_001": [
+   "2024_19_2_a_24680_troy_school_district_acfr_0624_fs_fi"
+  ],
+  "batch_002": [
+   "2023_10_fy24_proposed_budget_complete_document_3_14_23"
+  ],
+  "batch_003": [
+   "2023_00_nov_2022_financial_statement",
+   "2023_01_2023_ocsba_bylaw_amendments",
+   "2023_02_2023_ocsba_bylaw_amendments",
+   "2023_03_2023_ocsba_proposed_new_and_amended_resolution",
+   "2023_04_2023_ocsba_resolutions",
+   "2023_05_2023_ocsba_resolutions",
+   "2023_06_dec_2022_financial_statement",
+   "2023_07_jan_2023_financial_statement",
+   "2023_08_feb_2023_financial_statement",
+   "2023_11_mar_2023_financial_statement",
+   "2023_12_transmittal_letter_for_fy24_proposed_budget_do"
+  ],
+  "batch_004": [
+   "2023_13_3_d_and_3_e_060623_budget_presentation_board_w",
+   "2023_14_2_a_061323_budget_presentation_board_workshop",
+   "2023_15_23_24_resolution_budget_adoption_6_13_23",
+   "2023_16_apr_2023_financial_statement",
+   "2023_17_may_2023_financial_statement",
+   "2023_18_jun_2023_financial_statement",
+   "2023_19_jul_2023_financial_statement"
+  ],
+  "batch_005": [
+   "2023_21_troy_school_district_0623_draft_acfr_1"
+  ],
+  "batch_006": [
+   "2023_23_8_b_24680_troy_school_district_acfr_0623_fs_fi"
+  ],
+  "batch_007": [
+   "2023_20_2023_troy_school_district_draft_end_of_audit_l",
+   "2023_22_troy_school_district_0623_single_audit_draft"
+  ],
+  "batch_008": [
+   "2023_24_8_b_24680_troy_school_district_acfr_0623_manag",
+   "2023_25_aug_2023_financial_statement",
+   "2023_26_11072023_policy_update_recommendation",
+   "2023_28_oct_2023_financial_statement",
+   "2023_29_sep_2023_financial_statement"
+  ],
+  "batch_009": [
+   "2022_07_5_d_fy23_proposed_budget_complete_doc"
+  ],
+  "batch_010": [
+   "2022_00_nov_2021_financial_statement",
+   "2022_01_dec_2021_financial_statement",
+   "2022_02_03022022_policy_update_recommendation",
+   "2022_03_jan_2022_financial_statement",
+   "2022_05_5_e_21_22_resolution_budget_amendment_4_17_21",
+   "2022_06_feb_2022_financial_statement",
+   "2022_08_5_d_ocsbo_fy23_budget_presentation_april_2022"
+  ],
+  "batch_011": [
+   "2022_09_5_d_transmittal_letter_for_fy23_proposed_budge",
+   "2022_10_mar_2022_financial_statement",
+   "2022_11_061422_budget_presentation_board_workshop",
+   "2022_12_062122_budget_presentation_board_meeting_updat",
+   "2022_13_6_d_21_22_resolution_budget_amendment_6_21_22"
+  ],
+  "batch_012": [
+   "2022_15_9_f_troy_2022_bond_app_6_16_22"
+  ],
+  "batch_013": [
+   "2022_24_2_a_troy_school_district_acfr_draft_2022"
+  ],
+  "batch_014": [
+   "2022_14_6_e_22_23_resolution_budget_adoption_6_21_22",
+   "2022_16_apr_2022_financial_statement",
+   "2022_19_may_2022_financial_statement",
+   "2022_20_3_a_purchase_agreement_4315_john_r_v_1",
+   "2022_21_jun_2022_financial_statement_updated",
+   "2022_22_09202022_policy_update_recommendation",
+   "2022_23_jul_2022_financial_statement"
+  ],
+  "batch_015": [
+   "2022_27_8_b_24680_troy_school_district_acfr_0622_fs_fi"
+  ],
+  "batch_016": [
+   "2022_25_2_a_troy_school_district_0622_sa_single_audit_",
+   "2022_26_8_b_24680_troy_school_district_acfr_0622_au_26",
+   "2022_28_aug_2022_financial_statement"
+  ],
+  "batch_017": [
+   "2022_29_policy_changes_recommendation_other_100422wksh",
+   "2022_30_sep_2022_financial_statement",
+   "2022_31_2_d_bond_resolution_sbqlp_troy_2023_schl_bldg_",
+   "2022_33_oct_2022_financial_statement"
+  ],
+  "batch_018": [
+   "2021_07_fy22_proposed_budget_complete_document"
+  ],
+  "batch_019": [
+   "2021_00_nov_2020_financial_statement",
+   "2021_01_dec_2020_financial_statement",
+   "2021_02_memo_re_bloomfield_proposed_agreement_amendmen",
+   "2021_04_8_a_bondspecs_ref_2014_2012_troy_2021_utgo",
+   "2021_05_jan_2021_financial_statement",
+   "2021_06_5_g_20_21_resolution_budget_amendment_4_20_21"
+  ],
+  "batch_020": [
+   "2021_08_transmittal_letter_for_fy22_proposed_budget_do",
+   "2021_09_6_d_20_21_resolution_budget_amendment_6_15_21",
+   "2021_10_6_e_21_22_resolution_budget_adoption_6_15_21",
+   "2021_11_apr_2021_financial_statement",
+   "2021_12_mhsaa_2021_22handbooksupplement",
+   "2021_13_mhsaa_resolution_2021",
+   "2021_14_8_17_21_boe_strategic_planning_recommendations"
+  ],
+  "batch_021": [
+   "2021_20_2_a_troy_school_district_0621_aud_acfr_draft_t"
+  ],
+  "batch_022": [
+   "2021_15_bylaws_of_the_oakland_county_school_boards_ass",
+   "2021_16_june_2021_financial_statement",
+   "2021_17_resolutions_proposed_2021",
+   "2021_18_summary_of_2021_proposed_bylaws_revisions",
+   "2021_19_jul_2021_financial_statement"
+  ],
+  "batch_023": [
+   "2021_21_2_a_troy_school_district_0621_single_audit_dra",
+   "2021_22_2b_2022_natl_merit_resolution",
+   "2021_23_aug_2021_financial_statement",
+   "2021_24_5_d_11042021_policy_recommendation",
+   "2021_25_sep_2021_financial_statement",
+   "2021_26_oct_2021_financial_statement"
+  ],
+  "batch_024": [
+   "2020_00_bylaws_ocsba_proposed_amendments_july_2020",
+   "2020_01_june_2020_financial_statements",
+   "2020_02_jul_2020_financial_statement",
+   "2020_03_5_g_cares_act_oakland_county_interlocal_govern",
+   "2020_04_aug_2020_financial_statement"
+  ],
+  "batch_025": [
+   "2020_05_sep_2020_financial_statement",
+   "2020_06_oct_2020_financial_statement"
+  ]
+ },
+ "urlmap": {
+  "2024_00_nov_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-01-16_Organizational%20and%20Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Nov%202023%20Financial%20statement.pdf"
+  ],
+  "2024_01_dec_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-02-27_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Dec%202023%20Financial%20statement.pdf"
+  ],
+  "2024_02_8_a_troy_sd_2024_operating_millage_analysis_20": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-03-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.A.%20Troy%20SD%202024%20Operating%20Millage%20Analysis%2020Feb2024.pdf"
+  ],
+  "2024_03_jan_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-03-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jan%202024%20Financial%20statement.pdf"
+  ],
+  "2024_04_5_e_23_24_resolution_budget_amendment_4_16_24_": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-04-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.E.%2023-24%20RESOLUTION%20BUDGET%20AMENDMENT%204.16.24.1%20%28002%29.pdf"
+  ],
+  "2024_05_feb_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-04-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Feb%202024%20Financial%20statement.pdf"
+  ],
+  "2024_06_fy25_complete_proposed_budget_external": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-05-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/FY25%20Complete%20Proposed%20Budget%20-%20External.pdf"
+  ],
+  "2024_07_mar_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-05-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Mar%202024%20Financial%20statement.pdf"
+  ],
+  "2024_08_060624_budget_presentation_board_workshop_meet": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-06_Board%20of%20Education%20Workshop%206_00%20P.M/060624%20Budget%20Presentation%20-%20Board%20Workshop-Meeting.pdf"
+  ],
+  "2024_09_resolution_certifying_ballot_language_operatin": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-06_Special%20Meeting%20of%20the%20Board%20of%20Education%205_00%20PM/Resolution%20Certifying%20Ballot%20Language%20-%20Operating%20Millage%20Election-Troy%2841776143.3%29.docx"
+  ],
+  "2024_10_24_25mhsaaresolution": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/24-25MHSAAResolution.pdf"
+  ],
+  "2024_11_6_g_23_24_resolution_budget_final_amendment3_j": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/6.G.%20%2023-24%20RESOLUTION%20BUDGET%20FINAL%20AMENDMENT3%20June24.pdf"
+  ],
+  "2024_12_6_h_24_25_resolution_budget_adoption_6_20_24": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/6.H.%2024-25%20RESOLUTION%20BUDGET%20ADOPTION%206.20.24.pdf"
+  ],
+  "2024_13_apr_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Apr%202024%20Financial%20statement.pdf"
+  ],
+  "2024_14_budget_presentation_amendment_proposed_budget": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-06-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Budget%20Presentation_Amendment_Proposed%20Budget.pdf"
+  ],
+  "2024_15_may_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-07-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%209_30%20AM/May%202024%20Financial%20statement.pdf"
+  ],
+  "2024_16_jun_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-08-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%206_00%20PM/Jun%202024%20Financial%20statement.pdf"
+  ],
+  "2024_17_jul_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-09-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jul%202024%20Financial%20statement.pdf"
+  ],
+  "2024_18_aug_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-10-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Aug%202024%20Financial%20statement.pdf"
+  ],
+  "2024_19_2_a_24680_troy_school_district_acfr_0624_fs_fi": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-12_Board%20of%20Education%20Workshop%206_00%20PM/2.a.%2024680%20Troy%20School%20District%20ACFR%200624%20FS%20Final.pdf",
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.B.%2024680%20Troy%20School%20District%20ACFR%200624%20FS%20Final.pdf"
+  ],
+  "2024_20_2_a_24680_troy_school_district_acfr_0624_manag": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-12_Board%20of%20Education%20Workshop%206_00%20PM/2.a.%2024680%20Troy%20School%20District%20ACFR%200624%20Management%20Letter%20Final.pdf",
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.B.%2024680%20Troy%20School%20District%20ACFR%200624%20Management%20Letter%20Final.pdf"
+  ],
+  "2024_21_tsd_2425_02_roof_program_2025_contractor_recom": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-12_Board%20of%20Education%20Workshop%206_00%20PM/TSD%202425-02%20Roof%20Program%20%202025%20Contractor%20Recommendation.pdf",
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.E.%20TSD%202425-02%20Roof%20Program%20%202025%20Contractor%20Recommendation.pdf"
+  ],
+  "2024_25_sep_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-11-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Sep%202024%20Financial%20statement.pdf"
+  ],
+  "2024_26_oct_2024_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2024-12-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Oct%202024%20Financial%20statement.pdf"
+  ],
+  "2023_00_nov_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-01-17_Organizational%20and%20Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Nov%202022%20Financial%20statement.pdf"
+  ],
+  "2023_01_2023_ocsba_bylaw_amendments": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-02-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/2023%20OCSBA%20BYLAW%20AMENDMENTS.pdf"
+  ],
+  "2023_02_2023_ocsba_bylaw_amendments": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-02-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/2023%20OCSBA%20BYLAW%20AMENDMENTS.docx"
+  ],
+  "2023_03_2023_ocsba_proposed_new_and_amended_resolution": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-02-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/2023%20OCSBA%20Proposed%20New%20and%20Amended%20Resolutions%20.pdf"
+  ],
+  "2023_04_2023_ocsba_resolutions": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-02-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/2023%20OCSBA%20Resolutions%20.pdf"
+  ],
+  "2023_05_2023_ocsba_resolutions": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-02-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/2023%20OCSBA%20Resolutions_.docx"
+  ],
+  "2023_06_dec_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-02-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Dec%202022%20Financial%20statement.pdf"
+  ],
+  "2023_07_jan_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-03-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jan%202023%20Financial%20statement.pdf"
+  ],
+  "2023_08_feb_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-04-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Feb%202023%20Financial%20statement.pdf"
+  ],
+  "2023_10_fy24_proposed_budget_complete_document_3_14_23": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-05-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/FY24%20Proposed%20Budget%20Complete%20Document%203.14.23.pdf"
+  ],
+  "2023_11_mar_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-05-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Mar%202023%20Financial%20statement.pdf"
+  ],
+  "2023_12_transmittal_letter_for_fy24_proposed_budget_do": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-05-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Transmittal%20Letter%20for%20FY24%20Proposed%20Budget%20Documents.pdf"
+  ],
+  "2023_13_3_d_and_3_e_060623_budget_presentation_board_w": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-06-06_Board%20of%20Education%20Workshop%206_00%20PM/3.d%20and%203.e.%20060623%20Budget%20Presentation%20-%20Board%20Workshop.pdf"
+  ],
+  "2023_14_2_a_061323_budget_presentation_board_workshop": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-06-13_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_30%20PM/2.A.%20061323%20Budget%20Presentation%20-%20Board%20Workshop.pdf"
+  ],
+  "2023_15_23_24_resolution_budget_adoption_6_13_23": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-06-13_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_30%20PM/23-24%20RESOLUTION%20BUDGET%20ADOPTION%206.13.23.xlsx"
+  ],
+  "2023_16_apr_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-06-13_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_30%20PM/Apr%202023%20Financial%20statement.pdf"
+  ],
+  "2023_17_may_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-07-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%209_30%20AM/May%202023%20Financial%20statement.pdf"
+  ],
+  "2023_18_jun_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-08-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%206_00%20PM/Jun%202023%20Financial%20statement.pdf"
+  ],
+  "2023_19_jul_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-09-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jul%202023%20Financial%20statement.pdf"
+  ],
+  "2023_20_2023_troy_school_district_draft_end_of_audit_l": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-10-03_Board%20of%20Education%20Workshop%206_00%20PM/2023%20Troy%20School%20District%20DRAFT%20end%20of%20audit%20letter%20to%20the%20Board.pdf"
+  ],
+  "2023_21_troy_school_district_0623_draft_acfr_1": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-10-03_Board%20of%20Education%20Workshop%206_00%20PM/Troy%20School%20District-0623-DRAFT%20ACFR-1.pdf"
+  ],
+  "2023_22_troy_school_district_0623_single_audit_draft": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-10-03_Board%20of%20Education%20Workshop%206_00%20PM/Troy%20School%20District-0623-Single%20Audit%20DRAFT.pdf"
+  ],
+  "2023_23_8_b_24680_troy_school_district_acfr_0623_fs_fi": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-10-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.B.%2024680%20Troy%20School%20District%20ACFR%200623%20FS%20Final.pdf"
+  ],
+  "2023_24_8_b_24680_troy_school_district_acfr_0623_manag": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-10-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.B.%2024680%20Troy%20School%20District%20ACFR%200623%20Management%20Letter%20Final.pdf"
+  ],
+  "2023_25_aug_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-10-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Aug%202023%20Financial%20statement.pdf"
+  ],
+  "2023_26_11072023_policy_update_recommendation": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-11-14_Special%20Meeting%20of%20the%20Board%20of%20Education%206_00%20PM/11072023%20Policy%20Update%20Recommendation.docx"
+  ],
+  "2023_28_oct_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-12-12_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Oct%202023%20Financial%20statement.pdf"
+  ],
+  "2023_29_sep_2023_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2023-12-12_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Sep%202023%20Financial%20statement.pdf"
+  ],
+  "2022_00_nov_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-01-18_Organizational%20and%20Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Nov%202021%20Financial%20statement.pdf"
+  ],
+  "2022_01_dec_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-02-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Dec%202021%20Financial%20statement.pdf"
+  ],
+  "2022_02_03022022_policy_update_recommendation": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-03-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/03022022%20Policy%20Update%20Recommendation.docx",
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-04-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/03022022%20Policy%20Update%20Recommendation.docx"
+  ],
+  "2022_03_jan_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-03-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jan%202022%20Financial%20statement.pdf"
+  ],
+  "2022_05_5_e_21_22_resolution_budget_amendment_4_17_21": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-04-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.E.%2021-22%20RESOLUTION%20BUDGET%20AMENDMENT%204.17.21.pdf"
+  ],
+  "2022_06_feb_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-04-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Feb%202022%20Financial%20statement.pdf"
+  ],
+  "2022_07_5_d_fy23_proposed_budget_complete_doc": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-05-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.D.%20FY23%20Proposed%20Budget%20Complete%20Doc.pdf"
+  ],
+  "2022_08_5_d_ocsbo_fy23_budget_presentation_april_2022": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-05-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.D.%20OCSBO%20FY23%20budget%20presentation%20%28April%202022%29.pdf"
+  ],
+  "2022_09_5_d_transmittal_letter_for_fy23_proposed_budge": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-05-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.D.%20Transmittal%20Letter%20for%20FY23%20Proposed%20Budget%20Documents.pdf"
+  ],
+  "2022_10_mar_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-05-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Mar%202022%20Financial%20statement.pdf"
+  ],
+  "2022_11_061422_budget_presentation_board_workshop": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-06-14_Board%20of%20Education%20Workshop%206_00%20PM/061422%20Budget%20Presentation%20-%20Board%20Workshop.pdf"
+  ],
+  "2022_12_062122_budget_presentation_board_meeting_updat": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-06-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/062122%20Budget%20Presentation%20-%20Board%20Meeting%20updated%206.15.22.pdf"
+  ],
+  "2022_13_6_d_21_22_resolution_budget_amendment_6_21_22": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-06-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/6.D.%2021-22%20RESOLUTION%20BUDGET%20AMENDMENT%206.21.22.pdf"
+  ],
+  "2022_14_6_e_22_23_resolution_budget_adoption_6_21_22": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-06-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/6.E.%2022-23%20RESOLUTION%20BUDGET%20ADOPTION%206.21.22.pdf"
+  ],
+  "2022_15_9_f_troy_2022_bond_app_6_16_22": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-06-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/9.F.%20Troy%202022%20Bond%20App%206-16-22.pdf"
+  ],
+  "2022_16_apr_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-06-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Apr%202022%20Financial%20statement.pdf"
+  ],
+  "2022_19_may_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-07-26_Regular%20Meeting%20of%20the%20Board%20of%20Education%209_00%20AM/May%202022%20Financial%20statement.pdf"
+  ],
+  "2022_20_3_a_purchase_agreement_4315_john_r_v_1": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-07-29_Special%20Meeting%20of%20the%20Board%20of%20Education%209_15%20AM/3.A.%20Purchase%20Agreement%204315%20John%20R%20v.1..pdf"
+  ],
+  "2022_21_jun_2022_financial_statement_updated": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-08-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jun%202022%20Financial%20statement%20updated.pdf"
+  ],
+  "2022_22_09202022_policy_update_recommendation": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-09-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/09202022%20Policy%20Update%20Recommendation.pdf"
+  ],
+  "2022_23_jul_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-09-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jul%202022%20Financial%20statement.pdf"
+  ],
+  "2022_24_2_a_troy_school_district_acfr_draft_2022": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-10-04_Board%20of%20Education%20Workshop%206_00%20PM/2.a.%20Troy%20School%20District%20ACFR%20Draft%202022.pdf"
+  ],
+  "2022_25_2_a_troy_school_district_0622_sa_single_audit_": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-10-04_Board%20of%20Education%20Workshop%206_00%20PM/2.a.%20Troy%20School%20District-0622-SA%20-%20SINGLE%20AUDIT%20Draft.pdf"
+  ],
+  "2022_26_8_b_24680_troy_school_district_acfr_0622_au_26": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-10-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.B.%2024680%20Troy%20School%20District%20ACFR%200622%20AU%20260%20Final.pdf"
+  ],
+  "2022_27_8_b_24680_troy_school_district_acfr_0622_fs_fi": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-10-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.B.%2024680%20Troy%20School%20District%20ACFR%200622%20FS%20Final.pdf"
+  ],
+  "2022_28_aug_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-10-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Aug%202022%20Financial%20statement.pdf"
+  ],
+  "2022_29_policy_changes_recommendation_other_100422wksh": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-10-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Policy%20Changes%20Recommendation%20OTHER%20100422wkshp.pdf"
+  ],
+  "2022_30_sep_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-11-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Sep%202022%20Financial%20statement.pdf"
+  ],
+  "2022_31_2_d_bond_resolution_sbqlp_troy_2023_schl_bldg_": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-12-06_Board%20of%20Education%20Workshop%206_00%20PM/2.d.%20Bond%20Resolution%20%28SBQLP%29%20-%20Troy%202023%20Schl%20Bldg%20_%20Site%20Bonds%2839939819.1%29.docx",
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-12-13_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.C.%20%20Bond%20Resolution%20%28SBQLP%29%20-%20Troy%202023%20Schl%20Bldg%20_%20Site%20Bonds%2839939819.1%29.docx"
+  ],
+  "2022_33_oct_2022_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2022-12-13_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Oct%202022%20Financial%20statement.pdf"
+  ],
+  "2021_00_nov_2020_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-01-19_Organizational%20and%20Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Nov%202020%20Financial%20statement.pdf"
+  ],
+  "2021_01_dec_2020_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-02-23_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Dec%202020%20Financial%20statement.pdf"
+  ],
+  "2021_02_memo_re_bloomfield_proposed_agreement_amendmen": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-02-23_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Memo%20re%20Bloomfield%20Proposed%20Agreement%20Amendments%2001%2026%2021.pdf"
+  ],
+  "2021_04_8_a_bondspecs_ref_2014_2012_troy_2021_utgo": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-03-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8.A.%20Bondspecs%20Ref%202014%20%26%202012%20Troy%202021%20UTGO.pdf"
+  ],
+  "2021_05_jan_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-03-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jan%202021%20Financial%20statement.pdf"
+  ],
+  "2021_06_5_g_20_21_resolution_budget_amendment_4_20_21": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-04-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.G.%2020-21%20RESOLUTION%20BUDGET%20AMENDMENT%204.20.21.pdf"
+  ],
+  "2021_07_fy22_proposed_budget_complete_document": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-05-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/FY22%20Proposed%20Budget%20Complete%20Document.pdf"
+  ],
+  "2021_08_transmittal_letter_for_fy22_proposed_budget_do": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-05-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Transmittal%20Letter%20for%20FY22%20Proposed%20Budget%20Documents.pdf"
+  ],
+  "2021_09_6_d_20_21_resolution_budget_amendment_6_15_21": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-06-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/6.D.%2020-21%20RESOLUTION%20BUDGET%20AMENDMENT%206.15.21.pdf"
+  ],
+  "2021_10_6_e_21_22_resolution_budget_adoption_6_15_21": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-06-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/6.E.%2021-22%20RESOLUTION%20BUDGET%20ADOPTION%206.15.21.pdf"
+  ],
+  "2021_11_apr_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-06-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Apr%202021%20Financial%20statement.pdf"
+  ],
+  "2021_12_mhsaa_2021_22handbooksupplement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-07-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%209_30%20AM/MHSAA%202021-22HandbookSupplement.pdf"
+  ],
+  "2021_13_mhsaa_resolution_2021": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-07-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%209_30%20AM/MHSAA%20resolution%202021.pdf"
+  ],
+  "2021_14_8_17_21_boe_strategic_planning_recommendations": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-08-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/8-17-21%20BOE%20Strategic%20Planning%20Recommendations%202026%20Autosaved.pptx"
+  ],
+  "2021_15_bylaws_of_the_oakland_county_school_boards_ass": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-08-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/BYLAWS%20OF%20THE%20OAKLAND%20COUNTY%20SCHOOL%20BOARDS%20ASSOCIATION%20WITH%20PROPOSED%202021%20AMENDMENTS.pdf"
+  ],
+  "2021_16_june_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-08-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/June%202021%20Financial%20statement.pdf"
+  ],
+  "2021_17_resolutions_proposed_2021": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-08-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Resolutions%20-%20Proposed%202021.pdf"
+  ],
+  "2021_18_summary_of_2021_proposed_bylaws_revisions": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-08-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Summary%20of%202021%20Proposed%20Bylaws%20Revisions.pdf"
+  ],
+  "2021_19_jul_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-09-21_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jul%202021%20Financial%20statement.pdf"
+  ],
+  "2021_20_2_a_troy_school_district_0621_aud_acfr_draft_t": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-10-05_Board%20of%20Education%20Workshop%206_00%20PM/2.A.%20Troy%20School%20District-0621-AUD%20-%20ACFR%20Draft%20to%20Board.pdf"
+  ],
+  "2021_21_2_a_troy_school_district_0621_single_audit_dra": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-10-05_Board%20of%20Education%20Workshop%206_00%20PM/2.A.%20Troy%20School%20District-0621-Single%20Audit%20Draft%20to%20Board.pdf"
+  ],
+  "2021_22_2b_2022_natl_merit_resolution": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-10-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/2B%202022%20Natl%20Merit%20Resolution.docx"
+  ],
+  "2021_23_aug_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-10-19_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Aug%202021%20Financial%20statement.pdf"
+  ],
+  "2021_24_5_d_11042021_policy_recommendation": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-11-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.D.%2011042021%20Policy%20Recommendation.docx"
+  ],
+  "2021_25_sep_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-11-16_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Sep%202021%20Financial%20statement.pdf"
+  ],
+  "2021_26_oct_2021_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2021-12-14_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Oct%202021%20Financial%20statement.pdf"
+  ],
+  "2020_00_bylaws_ocsba_proposed_amendments_july_2020": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-08-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Bylaws%20-%20OCSBA%20-%20PROPOSED%20AMENDMENTS%20-%20JULY%202020.pdf"
+  ],
+  "2020_01_june_2020_financial_statements": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-08-18_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/June%202020%20financial%20statements.pdf"
+  ],
+  "2020_02_jul_2020_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-09-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Jul%202020%20Financial%20statement.pdf"
+  ],
+  "2020_03_5_g_cares_act_oakland_county_interlocal_govern": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-10-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/5.G.%20CARES%20Act%20-%20Oakland%20County%20Interlocal%20Governmental%20Agreement.docx"
+  ],
+  "2020_04_aug_2020_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-10-20_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Aug%202020%20Financial%20statement.pdf"
+  ],
+  "2020_05_sep_2020_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-11-17_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Sep%202020%20Financial%20statement.pdf"
+  ],
+  "2020_06_oct_2020_financial_statement": [
+   "https://media.karpowitsch.org/troysd-boarddocs/2020-12-15_Regular%20Meeting%20of%20the%20Board%20of%20Education%207_00%20PM/Oct%202020%20Financial%20statement.pdf"
+  ]
+ },
+ "dupes": {
+  "2024_22_8_b_24680_troy_school_district_acfr_0624_fs_fi": "2024_19_2_a_24680_troy_school_district_acfr_0624_fs_fi",
+  "2024_23_8_b_24680_troy_school_district_acfr_0624_manag": "2024_20_2_a_24680_troy_school_district_acfr_0624_manag",
+  "2024_24_8_e_tsd_2425_02_roof_program_2025_contractor_r": "2024_21_tsd_2425_02_roof_program_2025_contractor_recom",
+  "2022_04_03022022_policy_update_recommendation": "2022_02_03022022_policy_update_recommendation",
+  "2022_32_8_c_bond_resolution_sbqlp_troy_2023_schl_bldg_": "2022_31_2_d_bond_resolution_sbqlp_troy_2023_schl_bldg_"
+ },
+ "split": {
+  "batch_009": {
+   "key": "2022_07_5_d_fy23_proposed_budget_complete_doc",
+   "parts": [
+    "batch_009_part0",
+    "batch_009_part1",
+    "batch_009_part2",
+    "batch_009_part3"
+   ],
+   "lines": 11553
+  },
+  "batch_018": {
+   "key": "2021_07_fy22_proposed_budget_complete_document",
+   "parts": [
+    "batch_018_part0",
+    "batch_018_part1",
+    "batch_018_part2",
+    "batch_018_part3",
+    "batch_018_part4"
+   ],
+   "lines": 13210
+  }
+ }
+}

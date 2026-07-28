@@ -61,3 +61,18 @@ ingested anything.
 |---|---|
 | `retrieve.py` | Local CLI retriever over the pre-cloud vector index. Superseded by the hosted `/api/search`. |
 | `upload_cloudflare.py --vectors` | Embedded chunks into Vectorize. Vectorize + Workers AI were dropped in v0.4 (now D1 FTS). The `--r2` half is still used. |
+
+## Re-summarization fan-out
+
+| script | what it does |
+|---|---|
+| `scripts/resummarize_workflow.js` | Workflow script — one agent per batch; oversized budget books split into sections then synthesized |
+| `scripts/validate_fanout.py` | re-reads each batch's source, classifies every figure the agent asserted, stages only clean batches |
+| `scripts/resummarize_queue.py` | derives done/failed/pending from disk; emits the next wave sized against live usage |
+| `~/.claude/bin/usage5h.py` | reads the authoritative 5h/7d percentages and converts headroom into work units |
+
+Full description in `docs/RESUMMARIZE.md`.
+
+**Usage measurement:** the live rate-limit percentages are already written to
+`~/.claude/usage_snapshot.json` every turn by the statusline hook — read that file
+rather than trying to derive a ceiling from transcripts.
