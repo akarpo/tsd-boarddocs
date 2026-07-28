@@ -11,8 +11,13 @@ export const meta = {
 // Durable staging root -- deliberately NOT the session scratchpad, which is
 // wiped between sessions and has a different path each time. Override with
 // args.dir if the batches live somewhere else.
+//
+// The default is a LITERAL path: workflow scripts have no Node API, so the
+// previous `process.env.HOME` fallback threw "process is not defined" and killed
+// the run before any agent started. It survived unnoticed because every earlier
+// launch passed args.dir, which short-circuits the `||` before evaluating it.
 const A0R = typeof args === 'string' ? JSON.parse(args || '{}') : (args || {})
-const DIR = A0R.dir || `${process.env.HOME}/Downloads/tsd_resummarize_staging`
+const DIR = A0R.dir || '/Users/Alex/Downloads/tsd_resummarize_staging'
 const IN  = `${DIR}/${A0R.inDir  || 'fanout'}`
 const OUT = `${DIR}/${A0R.outDir || 'fanout_out'}`
 

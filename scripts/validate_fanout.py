@@ -88,7 +88,13 @@ def check(batch, expected):
             if not str(v.get(t, "")).strip():
                 problems.append(f"{k}: empty {t}")
 
-    cls = classify(source_for(batch))
+    # A missing batch-text file used to raise straight out of main(), killing the
+    # run and returning zero OK lines -- which the queue reads as "every batch
+    # failed" and requeues known-good work. Report it as this batch's status.
+    try:
+        cls = classify(source_for(batch))
+    except FileNotFoundError as e:
+        return {"batch": batch, "status": "NO_SOURCE", "detail": str(e)[:120]}
     tally = {"exact": 0, "spaced": 0, "derived": 0, "unknown": 0}
     flagged = []
     for k, v in data.items():
@@ -127,7 +133,7 @@ def main():
     ok = [r for r in rows if r["status"] == "OK"]
 
     for r in rows:
-        if r["status"] in ("MISSING", "BAD_JSON"):
+        if r["status"] in ("MISSING", "BAD_JSON", "NO_SOURCE"):
             print(f"  {r['batch']:12s} {r['status']:11s}  -- {r['detail']}")
             continue
         t = r["tally"]

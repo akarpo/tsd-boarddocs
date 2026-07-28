@@ -26,8 +26,19 @@ from pathlib import Path
 SCRIPTS = Path(__file__).parent                      # where the sibling tools live
 DIR = Path(os.environ.get("TSD_FAN_DIR") or          # where the batches/outputs live
            Path.home() / "Downloads" / "tsd_resummarize_staging")
-MAN = json.loads((DIR / os.environ.get("TSD_FAN_MANIFEST", "fanout_manifest.json")).read_text())
-OUT = DIR / os.environ.get("TSD_FAN_OUT", "fanout_out")
+
+# The three paths must move together. validate_fanout.py resolves the batch-text
+# dir from its OWN env var (TSD_FAN_IN), which this script never set -- so running
+# a second campaign with TSD_FAN_MANIFEST/TSD_FAN_OUT left the validator reading
+# the FIRST campaign's input dir, where none of the batch files exist. It died on
+# FileNotFoundError, stdout came back empty, and every written batch looked failed.
+# Default all three off the manifest stem so they cannot drift apart again.
+MAN_NAME = os.environ.get("TSD_FAN_MANIFEST", "fanout_manifest.json")
+STEM = MAN_NAME[:-len("_manifest.json")] if MAN_NAME.endswith("_manifest.json") else "fanout"
+IN_NAME = os.environ.get("TSD_FAN_IN", STEM)
+OUT_NAME = os.environ.get("TSD_FAN_OUT", f"{STEM}_out")
+MAN = json.loads((DIR / MAN_NAME).read_text())
+OUT = DIR / OUT_NAME
 
 # Measured on wave 1 (2026-07-27): 8 agents, all completed, took the 5-hour window
 # 0% -> 39%. The earlier 3.1 came from agents still in flight and was 57% low.
@@ -84,7 +95,15 @@ def validated():
     if not have:
         return set()
     r = subprocess.run([sys.executable, str(SCRIPTS / "validate_fanout.py"), *have],
-                       capture_output=True, text=True, env={**os.environ})
+                       capture_output=True, text=True,
+                       env={**os.environ, "TSD_FAN_IN": IN_NAME,
+                            "TSD_FAN_OUT": OUT_NAME, "TSD_FAN_MANIFEST": MAN_NAME})
+    if r.returncode != 0:
+        # A crashed validator returns no OK lines, which is indistinguishable from
+        # "everything failed" -- the exact bug above. Say so instead of silently
+        # requeuing clean work.
+        print(f"validate_fanout.py exited {r.returncode}:\n{r.stderr.strip()[-400:]}",
+              file=sys.stderr)
     clean = set()
     for line in r.stdout.splitlines():
         parts = line.split()
@@ -108,12 +127,18 @@ def state():
 
 
 def as_args(batches):
-    """Split a batch list into the workflow's normal/giants argument shape."""
+    """Split a batch list into the workflow's normal/giants argument shape.
+
+    inDir/outDir are emitted explicitly. The workflow defaults them to the FIRST
+    campaign ('fanout'/'fanout_out'), so a wave launched from a second campaign's
+    `next` without them sends every agent to read a directory that does not hold
+    its batches -- the same drift this script's path defaults now prevent.
+    """
     split = MAN.get("split", {})
     normal = [b for b in batches if b not in split]
     giants = [{"batch": b, "key": split[b]["key"], "parts": split[b]["parts"]}
               for b in batches if b in split]
-    return {"normal": normal, "giants": giants}
+    return {"inDir": IN_NAME, "outDir": OUT_NAME, "normal": normal, "giants": giants}
 
 
 def agent_count(batches):
