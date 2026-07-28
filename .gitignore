@@ -49,3 +49,8 @@ issue_body.txt
 /resummarize/fanout/
 /resummarize/wave2/
 /data/
+
+# Generated dataset artifacts (scripts/build_dataset.py). Rebuildable from D1 +
+# chunks.jsonl in about a minute, 82 MB raw, and served gzipped from R2 -- so
+# the repo carries the builder, not its output.
+/dataset/

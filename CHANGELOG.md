@@ -5,6 +5,26 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- **New `scripts/build_dataset.py` + four downloadable artifacts** (docs/DATASET.md).
+  The summaries answered "which document mentions X" well and budget questions
+  badly, because prose cannot be summed or trended. Now:
+  - `corpus-map.jsonl` (2,798 docs, 0.5 MB gz) — every paragraph summary in one
+    file, **~370K tokens**, so a model holds the district's entire board history
+    in context and reasons across all of it at once rather than retrieving a few.
+  - `summaries-full.jsonl` (3.5 MB gz) — all three tiers; the archive.
+  - `figures.csv` (334,163 rows, 8.0 MB gz) + `documents.csv` — every currency
+    figure in the source text with its preceding label, ±80 chars of context and
+    its chunk id. **Nothing is computed**: `--verify` re-reads each source chunk
+    and confirmed all 334,163 amounts appear verbatim (0 unverifiable). Consumers
+    do their own arithmetic on rows they can trace, because a derived number in a
+    CSV looks authoritative and gets charted.
+  - Normalising url/title out of `figures.csv` into `documents.csv` took it from
+    132.8 MB to 65.0 MB — the difference between fitting in git and not.
+  - Documented the **packet-era gap**: pre-2020 meetings are single bundled PDFs,
+    so 2018 and 2019 have 0 budget-*titled* documents despite ~2,400 chunks each.
+    The figures are indexed; the titles are not. Filter those years by label, not
+    title.
+
 - **`resummarize_queue.py next` now fails closed.** `usage()` returned
   `(None, None)` on any exception and `next` skipped its **entire** headroom check
   when the value was `None` — so an unreadable or malformed usage snapshot

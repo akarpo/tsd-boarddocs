@@ -36,6 +36,12 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 |---|---|
 | `tsd_secrets.py` | Resolves pipeline secrets: exported env var -> `$TSD_SECRETS_FILE` -> `~/Downloads/tsd-boarddocs-keysandsupportingfiles/tsd-secrets.env`. Used by `summarize.py`, `upload_d1.py`, `upload_cloudflare.py`, so none of them need `R2PUT_SECRET=` on the command line. `require()` fails with an actionable message rather than letting the call 403. |
 
+## Dataset artifacts
+
+| Script | Role |
+|---|---|
+| `scripts/build_dataset.py` | Builds `corpus-map.jsonl`, `summaries-full.jsonl`, `figures.csv` and `documents.csv` from D1 + the chunk index. `--verify` re-reads every source chunk to prove each of the 334K figures appears verbatim. Output is gitignored and served gzipped from R2. See [DATASET.md](DATASET.md). |
+
 ## Serve (active)
 
 | File | Role |

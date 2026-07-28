@@ -130,6 +130,7 @@ project — not affiliated with Troy School District.
 
 ## Documentation
 
+- [docs/DATASET.md](docs/DATASET.md) — the four downloadable artifacts (corpus map, summaries, figures)
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — system design, data flow, decisions
 - [docs/OPERATIONS.md](docs/OPERATIONS.md) — runbook: ingest, summaries, deploy, gotchas
 - [docs/TOOLING.md](docs/TOOLING.md) — every script + its status
