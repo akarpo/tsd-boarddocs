@@ -37,7 +37,7 @@ Anthropic remote connectors, so one implementation works in both ecosystems.
 | Custom domain | `tsd-boarddocs.karpowitsch.org` | production |
 
 Ingest also uses a **throwaway Worker `tsd-ingest`** whose bindings write D1 + R2
-with exact keys. It lives in `~/Downloads/tsd-boardocs-keysandsupportingfiles/`,
+with exact keys. It lives in `~/Downloads/tsd-boarddocs-keysandsupportingfiles/`,
 outside the repo, because it string-compares an inline secret — see
 [OPERATIONS](OPERATIONS.md#the-support-folder-keys--ingest-worker).
 

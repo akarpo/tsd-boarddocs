@@ -22,12 +22,12 @@ Bring the working set under the repo; keep the secrets out of it.
   cannot be rebuilt without paying for Opus again, and the queue derives its
   done/pending state from it, so a fresh clone resumes a campaign correctly.
 - **New `tsd_secrets.py`.** Resolves exported env var → `$TSD_SECRETS_FILE` →
-  `~/Downloads/tsd-boardocs-keysandsupportingfiles/tsd-secrets.env`. `summarize.py`,
+  `~/Downloads/tsd-boarddocs-keysandsupportingfiles/tsd-secrets.env`. `summarize.py`,
   `upload_d1.py` and `upload_cloudflare.py` use it, so no pipeline command carries
   `R2PUT_SECRET=<secret>` any more, and a missing secret fails with an actionable
   message instead of an opaque HTTP 403.
 - **Secrets and the ingest Worker moved to
-  `~/Downloads/tsd-boardocs-keysandsupportingfiles/`.** `_tsd_ingest/worker.js`
+  `~/Downloads/tsd-boarddocs-keysandsupportingfiles/`.** `_tsd_ingest/worker.js`
   string-compares an inline `SECRET` constant; with the corpus now *inside* the
   repo, "outside the repo folder" stopped being incidental and became the actual
   boundary keeping that constant off GitHub.

@@ -10,7 +10,7 @@ Resolution order, first hit wins:
 
   1. the environment (`R2PUT_SECRET=... python3 upload_d1.py` still works)
   2. `$TSD_SECRETS_FILE`
-  3. `~/Downloads/tsd-boardocs-keysandsupportingfiles/tsd-secrets.env`
+  3. `~/Downloads/tsd-boarddocs-keysandsupportingfiles/tsd-secrets.env`
 
 That folder also holds `_tsd_ingest/` (the ingest Worker). Both live outside the
 repository for the same reason: the Worker string-compares an inline secret, so
@@ -23,7 +23,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-SUPPORT_DIR = Path.home() / "Downloads" / "tsd-boardocs-keysandsupportingfiles"
+SUPPORT_DIR = Path.home() / "Downloads" / "tsd-boarddocs-keysandsupportingfiles"
 SECRETS_FILE = Path(os.environ.get("TSD_SECRETS_FILE") or
                     SUPPORT_DIR / "tsd-secrets.env")
 

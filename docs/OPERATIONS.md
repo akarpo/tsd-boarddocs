@@ -11,7 +11,7 @@
   move the directory, rather than re-crawling)
 - The ingest worker's secret. **You no longer pass this on the command line.**
   `tsd_secrets.py` reads it from
-  `~/Downloads/tsd-boardocs-keysandsupportingfiles/tsd-secrets.env`
+  `~/Downloads/tsd-boarddocs-keysandsupportingfiles/tsd-secrets.env`
   (override with `$TSD_SECRETS_FILE`); an exported `R2PUT_SECRET` still wins if set.
   See [The support folder](#the-support-folder-keys--ingest-worker).
 
@@ -121,7 +121,7 @@ wrangler deploy --dry-run --outdir /tmp/wdry   # bundle + validate locally (catc
 ## The support folder (keys + ingest worker)
 
 Two things stay **outside** the repository, in
-`~/Downloads/tsd-boardocs-keysandsupportingfiles/`:
+`~/Downloads/tsd-boarddocs-keysandsupportingfiles/`:
 
 | | what |
 |---|---|
@@ -150,7 +150,7 @@ D1 / R2 / summary writes go through a small worker's bindings. It exposes
 - `GET  /urls` → distinct source-doc urls already in D1 (powers `--new-only`)
 
 ```bash
-wrangler deploy --cwd ~/Downloads/tsd-boardocs-keysandsupportingfiles/_tsd_ingest
+wrangler deploy --cwd ~/Downloads/tsd-boarddocs-keysandsupportingfiles/_tsd_ingest
 ```
 
 It also still carries an `[ai]` binding and an `/embed` route left from the

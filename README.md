@@ -100,7 +100,7 @@ Source PDFs live in R2; searchable data + summaries live in D1. The corpus is
 disposable — losing it costs a re-crawl, nothing more.
 
 Secrets and the ingest Worker stay **outside** the repo in
-`~/Downloads/tsd-boardocs-keysandsupportingfiles/`, because that Worker holds an
+`~/Downloads/tsd-boarddocs-keysandsupportingfiles/`, because that Worker holds an
 inline secret; see [docs/OPERATIONS.md](docs/OPERATIONS.md#the-support-folder-keys--ingest-worker).
 
 ## Deploy
