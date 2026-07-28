@@ -8,10 +8,13 @@ export const meta = {
   ],
 }
 
-const DIR = '/private/tmp/claude-503/-Users-Alex/baa35be5-50d8-4591-9f9d-77e4125f77ea/scratchpad'
-const A0  = typeof args === 'string' ? JSON.parse(args || '{}') : (args || {})
-const IN  = `${DIR}/${A0.inDir  || 'fanout'}`
-const OUT = `${DIR}/${A0.outDir || 'fanout_out'}`
+// Durable staging root -- deliberately NOT the session scratchpad, which is
+// wiped between sessions and has a different path each time. Override with
+// args.dir if the batches live somewhere else.
+const A0R = typeof args === 'string' ? JSON.parse(args || '{}') : (args || {})
+const DIR = A0R.dir || `${process.env.HOME}/Downloads/tsd_resummarize_staging`
+const IN  = `${DIR}/${A0R.inDir  || 'fanout'}`
+const OUT = `${DIR}/${A0R.outDir || 'fanout_out'}`
 
 const A       = typeof args === 'string' ? JSON.parse(args || '{}') : (args || {})
 const normal  = A.normal || []     // ["batch_003", ...]

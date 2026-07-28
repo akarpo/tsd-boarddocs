@@ -26,7 +26,8 @@ import re
 import sys
 from pathlib import Path
 
-DIR = Path(__file__).parent
+DIR = Path(os.environ.get("TSD_FAN_DIR") or
+           Path.home() / "Downloads" / "tsd_resummarize_staging")
 IN  = DIR / os.environ.get("TSD_FAN_IN",  "fanout")
 OUT = DIR / os.environ.get("TSD_FAN_OUT", "fanout_out")
 MAN = json.loads((DIR / os.environ.get("TSD_FAN_MANIFEST", "fanout_manifest.json")).read_text())
@@ -118,7 +119,11 @@ def check(batch, expected):
 def main():
     batches = MAN["batches"]
     only = [a for a in sys.argv[1:] if not a.startswith("-")] or sorted(batches)
-    rows = [check(b, batches[b]) for b in only]
+    # An output can exist for a batch no longer in the manifest -- e.g. a batch
+    # summarized before a filter removed it. Skip those rather than KeyError,
+    # which would abort the whole run and make every batch look failed.
+    unknown = [b for b in only if b not in batches]
+    rows = [check(b, batches[b]) for b in only if b in batches]
     ok = [r for r in rows if r["status"] == "OK"]
 
     for r in rows:
@@ -134,6 +139,8 @@ def main():
         for c, k, m in r["flagged"]:
             print(f"       {'~' if c=='derived' else 'X'} {c:8s} {k[:42]}: {m}")
 
+    if unknown:
+        print(f"  (skipped {len(unknown)} output(s) not in manifest: {' '.join(sorted(unknown)[:4])})")
     print(f"\n{len(ok)}/{len(rows)} batches clean")
     agg = {k: sum(r.get("tally", {}).get(k, 0) for r in rows)
            for k in ("exact", "spaced", "derived", "unknown")}

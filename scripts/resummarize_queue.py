@@ -23,9 +23,11 @@ import subprocess
 import sys
 from pathlib import Path
 
-DIR = Path(__file__).parent
-MAN = json.loads((DIR / "fanout_manifest.json").read_text())
-OUT = DIR / "fanout_out"
+SCRIPTS = Path(__file__).parent                      # where the sibling tools live
+DIR = Path(os.environ.get("TSD_FAN_DIR") or          # where the batches/outputs live
+           Path.home() / "Downloads" / "tsd_resummarize_staging")
+MAN = json.loads((DIR / os.environ.get("TSD_FAN_MANIFEST", "fanout_manifest.json")).read_text())
+OUT = DIR / os.environ.get("TSD_FAN_OUT", "fanout_out")
 
 # Measured on wave 1 (2026-07-27): 8 agents, all completed, took the 5-hour window
 # 0% -> 39%. The earlier 3.1 came from agents still in flight and was 57% low.
@@ -81,12 +83,15 @@ def validated():
     have = [p.stem for p in OUT.glob("*.json")]
     if not have:
         return set()
-    r = subprocess.run([sys.executable, str(DIR / "validate_fanout.py"), *have],
-                       capture_output=True, text=True)
+    r = subprocess.run([sys.executable, str(SCRIPTS / "validate_fanout.py"), *have],
+                       capture_output=True, text=True, env={**os.environ})
     clean = set()
     for line in r.stdout.splitlines():
         parts = line.split()
-        if len(parts) >= 2 and parts[0].startswith("batch_") and parts[1] == "OK":
+        # Batch ids vary by campaign ("batch_003", "w2_017"); match on the
+        # OK column rather than a name prefix, which silently matched nothing
+        # when the wave2 ids were introduced and made every batch look failed.
+        if len(parts) >= 2 and parts[1] == "OK" and parts[0] in MAN["batches"]:
             clean.add(parts[0])
     return clean
 
@@ -95,7 +100,9 @@ def state():
     all_b = sorted(MAN["batches"])
     done = validated()
     written = {p.stem for p in OUT.glob("*.json")} if OUT.exists() else set()
-    failed = sorted(written - done)
+    # An output whose batch is no longer in the manifest is EXCLUDED, not failed
+    # (e.g. summarized before a filter dropped it). Requeuing it would KeyError.
+    failed = sorted((written - done) & set(all_b))
     pending = [b for b in all_b if b not in done and b not in failed]
     return all_b, sorted(done), failed, pending
 
