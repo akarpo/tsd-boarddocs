@@ -71,6 +71,29 @@ count (a split budget book is 5-6 agents behind one batch id). `next` refuses to
 emit a wave once the 5-hour window passes **75%**, leaving headroom so the limit
 can never land mid-write.
 
+### The guardrail fails closed
+
+`next` refuses whenever it cannot *trust* the usage reading, not just when the
+reading says "full". It previously skipped the headroom check entirely if the
+snapshot could not be read, so a corrupt or missing file released a full wave.
+
+Refused (exit 2), each with the reason on stderr:
+
+| condition | why the number lies |
+|---|---|
+| snapshot unreadable / malformed | no reading at all |
+| `resets_at` in the past | the hook has not rewritten the file for the new window, so the percentage still describes the **expired** one — reads *high* |
+| snapshot older than 10 min | usage continued after it was written — reads *low*, the dangerous direction |
+| 5h at or past 75% | genuinely out of headroom |
+
+`--force` (or `TSD_QUEUE_FORCE=1`) overrides. Forced past an *untrustworthy*
+reading the wave is emitted **untrimmed**, with a warning — sizing a wave against
+a number just declared unreliable would dress a guess up as a measurement.
+
+A fresh file mtime does **not** mean the numbers are current: the hook can rewrite
+the snapshot while `used_percentage` still describes the window that just rolled.
+`resets_at` is the field that tells you, not the mtime.
+
 Measured cost: **~4.4 points of a 5-hour window per agent**. An earlier estimate
 of 3.1 came from agents still in flight and was 57% low — estimate from completed
 work only.

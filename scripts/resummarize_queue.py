@@ -21,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 SCRIPTS = Path(__file__).parent                      # where the sibling tools live
@@ -78,13 +79,49 @@ def pack(batches):
     return [w for w in waves if w]
 
 
+SNAPSHOT = Path.home() / ".claude" / "usage_snapshot.json"
+MAX_AGE_S = 600           # a statusline hook rewrites the snapshot every turn
+
+
 def usage():
+    """Return (five_hour_pct, seven_day_pct, problem).
+
+    `problem` is None when the reading can be trusted, else a short string
+    naming why it cannot. Callers that gate work on headroom MUST treat an
+    untrustworthy reading as "no headroom" rather than "no limit" -- this used
+    to return (None, None) on any exception, and `next` skipped its entire
+    headroom check when the value was None, so an unreadable snapshot silently
+    released a full wave instead of blocking one.
+
+    Two ways the numbers lie, in opposite directions:
+
+    - `resets_at` in the past: the hook has not yet rewritten the file for the
+      new window, so `used_percentage` still describes the window that just
+      expired. Reads HIGH -- conservative, but it is not a real measurement.
+    - a stale file: usage has continued since it was written. Reads LOW, which
+      is the dangerous direction, because it invites releasing a wave into a
+      window that is nearly spent.
+    """
     try:
-        s = json.loads((Path.home() / ".claude" / "usage_snapshot.json").read_text())
+        s = json.loads(SNAPSHOT.read_text())
         rl = s["rate_limits"]
-        return rl["five_hour"]["used_percentage"], rl["seven_day"]["used_percentage"]
-    except Exception:
-        return None, None
+        five = rl["five_hour"]
+        p5, p7 = five["used_percentage"], rl["seven_day"]["used_percentage"]
+    except Exception as e:
+        return None, None, f"snapshot unreadable ({type(e).__name__})"
+
+    resets = five.get("resets_at")
+    if isinstance(resets, (int, float)) and resets < time.time():
+        return p5, p7, ("window already rolled (resets_at is in the past) -- "
+                        "the percentage still describes the expired window; "
+                        "re-run for a fresh reading")
+    try:
+        age = time.time() - SNAPSHOT.stat().st_mtime
+        if age > MAX_AGE_S:
+            return p5, p7, f"snapshot is {age/60:.0f} min old (usage may have continued since)"
+    except OSError as e:
+        return p5, p7, f"snapshot age unknown ({type(e).__name__})"
+    return p5, p7, None
 
 
 def validated():
@@ -148,9 +185,12 @@ def agent_count(batches):
 
 
 def main():
-    cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
+    argv = [a for a in sys.argv[1:]]
+    force = "--force" in argv or os.environ.get("TSD_QUEUE_FORCE") == "1"
+    argv = [a for a in argv if a != "--force"]
+    cmd = argv[0] if argv else "status"
     all_b, done, failed, pending = state()
-    p5, p7 = usage()
+    p5, p7, problem = usage()
 
     if cmd == "status":
         print(f"batches: {len(all_b)}  done {len(done)}  failed {len(failed)}  pending {len(pending)}")
@@ -166,6 +206,10 @@ def main():
             print(f"5h now {p5}%  headroom to {RESERVE_PCT:.0f}% = {room:.0f} points "
                   f"= {int(room / PTS_PER_AGENT)} agents")
             print(f"7d now {p7}%")
+        if problem:
+            print(f"\n!! usage reading NOT trustworthy: {problem}\n"
+                  f"   `next` will refuse to release a wave until this clears "
+                  f"(override with --force).")
         return 0
 
     if cmd == "plan":
@@ -186,15 +230,37 @@ def main():
             print("queue empty", file=sys.stderr)
             return 1
         wave = pack(q)[0]
-        if p5 is not None:
+        # FAIL CLOSED. An unusable reading is not permission to skip the check:
+        # without a trustworthy number there is no way to know a wave fits, and
+        # the failure mode of guessing wrong is a rate limit landing mid-write.
+        untrusted = problem or (p5 is None and "no usage reading available")
+        if untrusted and not force:
+            print(f"refusing to release a wave: {untrusted}", file=sys.stderr)
+            if p5 is not None:
+                print(f"  (last value read was 5h {p5}%, 7d {p7}%)", file=sys.stderr)
+            print("  re-run once the snapshot refreshes, or override with --force.",
+                  file=sys.stderr)
+            return 2
+        if untrusted:
+            # Forced past an untrustworthy reading: emit the wave UNTRIMMED, but
+            # say so. Trimming against a number we just declared unreliable would
+            # dress a guess up as a measurement.
+            print(f"WARNING: --force with an untrustworthy usage reading "
+                  f"({untrusted}); wave is not sized against headroom.",
+                  file=sys.stderr)
+        else:
             room = max(0.0, RESERVE_PCT - p5)
             fit = int(room / PTS_PER_AGENT)
             if fit <= 0:
-                print(f"5h at {p5}% -- at or past the {RESERVE_PCT:.0f}% release line; "
-                      f"wait for reset", file=sys.stderr)
-                return 2
-            while agent_count(wave) > fit and len(wave) > 1:
-                wave = wave[:-1]
+                if not force:
+                    print(f"5h at {p5}% -- at or past the {RESERVE_PCT:.0f}% release "
+                          f"line; wait for reset", file=sys.stderr)
+                    return 2
+                print(f"WARNING: --force past the {RESERVE_PCT:.0f}% release line "
+                      f"(5h at {p5}%).", file=sys.stderr)
+            else:
+                while agent_count(wave) > fit and len(wave) > 1:
+                    wave = wave[:-1]
         a = as_args(wave)
         print(json.dumps(a))
         print(f"\nwave: {len(wave)} batches, {agent_count(wave)} agents, "

@@ -4,7 +4,25 @@ All notable changes to `tsd-boarddocs` and its tooling. Dates are UTC.
 Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
-- (nothing yet)
+
+- **`resummarize_queue.py next` now fails closed.** `usage()` returned
+  `(None, None)` on any exception and `next` skipped its **entire** headroom check
+  when the value was `None` — so an unreadable or malformed usage snapshot
+  silently released a full 8-agent wave instead of blocking one. A guardrail that
+  disappears when its input is missing is worse than no guardrail, because the
+  output looks identical to a wave that was checked and approved.
+  - It now also rejects readings it cannot *trust*, in both directions:
+    `resets_at` in the past (the hook has not rewritten the file for the new
+    window, so the percentage describes the **expired** one — reads high), and a
+    snapshot older than 10 minutes (usage continued since — reads low, which is
+    the direction that releases work into a nearly-spent window).
+  - `--force` / `TSD_QUEUE_FORCE=1` overrides. Forced past an untrustworthy
+    reading, the wave is emitted **untrimmed** with a warning rather than sized
+    against a number already declared unreliable.
+  - Found after a fresh-mtime snapshot reported 88% while its `resets_at` was
+    158 minutes in the past; the window had in fact rolled and usage was 2%.
+    A fresh mtime does not mean fresh numbers — `resets_at` is the field that
+    tells you.
 
 ## [0.9.0] — 2026-07-28
 Bring the working set under the repo; keep the secrets out of it.
