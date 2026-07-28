@@ -77,17 +77,29 @@ work only.
 
 ## State
 
-Nothing needed to resume lives in the session scratchpad:
+Nothing needed to resume lives in the session scratchpad. Since v0.9.0 it all
+lives under the repo, split by whether it reaches GitHub:
 
-| what | where |
-|---|---|
-| manifests (batch -> keys, key -> urls) | `resummarize/*_manifest.json` (in repo) |
-| staged batch text + agent output | `~/Downloads/tsd_resummarize_staging/` |
-| stored summaries | `~/Downloads/tsd_store_*/batch_*.json` |
-| pre-campaign summaries (for comparison) | `~/Downloads/tsd_summaries_backup_*.jsonl` |
+| what | where | in git? |
+|---|---|---|
+| manifests (batch -> keys, key -> urls) | `resummarize/*_manifest.json` | yes |
+| agent output | `resummarize/<campaign>_out/*.json` | **yes** |
+| stored summaries (what was pushed to D1) | `resummarize/stores/<campaign>/batch_*.json` | yes |
+| staged batch text | `resummarize/<campaign>/*.txt` | no — regenerable |
+| corpus | `data/tsd-boe-data/` | no — 3.7 GB |
+| pre-campaign summaries, chunk + text backups | `data/backups/` | no — large |
 
-Batch text is regenerable from the manifest's urlmap plus the corpus, but keeping
-it avoids a slow re-stage.
+**Agent output is committed deliberately.** It is the one artifact that cannot be
+rebuilt without paying for Opus again, and `resummarize_queue.py` derives its
+done/pending state from it — so a fresh clone resumes the campaign at the right
+place instead of re-running finished batches. Batch text is excluded because a
+manifest's urlmap plus the corpus regenerates it; keeping it locally just avoids a
+slow re-stage.
+
+The three campaign paths (`<campaign>/`, `<campaign>_out/`, `<campaign>_manifest.json`)
+all default off the manifest stem, so `TSD_FAN_MANIFEST=wave2_manifest.json` alone
+selects a campaign. Setting them piecemeal is what silently broke wave2 — see the
+v0.8.9 changelog entry.
 
 ## Scope
 

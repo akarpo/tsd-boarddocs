@@ -6,6 +6,61 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [Unreleased]
 - (nothing yet)
 
+## [0.9.0] — 2026-07-28
+Bring the working set under the repo; keep the secrets out of it.
+
+- **The corpus, campaign artifacts and backups now live inside the checkout.**
+  `$TSD_BOE_ROOT` defaults to `<repo>/data/tsd-boe-data` (was
+  `~/Downloads/tsd-boe-data`), resolved from `__file__` rather than `$HOME`, so it
+  follows the checkout instead of assuming one machine's layout. Changed in the
+  same **12** modules v0.8.5 touched, so the pipeline cannot half-move.
+- **`.gitignore` now decides what reaches GitHub, not folder location.** Committed:
+  manifests, `resummarize/<campaign>_out/` (agent output) and
+  `resummarize/stores/` (~15 MB). Ignored: `data/` (3.7 GB corpus + 147 MB
+  backups) and `resummarize/<campaign>/` batch text (25 MB, regenerable from a
+  manifest's urlmap plus the corpus). Agent output is committed on purpose — it
+  cannot be rebuilt without paying for Opus again, and the queue derives its
+  done/pending state from it, so a fresh clone resumes a campaign correctly.
+- **New `tsd_secrets.py`.** Resolves exported env var → `$TSD_SECRETS_FILE` →
+  `~/Downloads/tsd-boardocs-keysandsupportingfiles/tsd-secrets.env`. `summarize.py`,
+  `upload_d1.py` and `upload_cloudflare.py` use it, so no pipeline command carries
+  `R2PUT_SECRET=<secret>` any more, and a missing secret fails with an actionable
+  message instead of an opaque HTTP 403.
+- **Secrets and the ingest Worker moved to
+  `~/Downloads/tsd-boardocs-keysandsupportingfiles/`.** `_tsd_ingest/worker.js`
+  string-compares an inline `SECRET` constant; with the corpus now *inside* the
+  repo, "outside the repo folder" stopped being incidental and became the actual
+  boundary keeping that constant off GitHub.
+- Docs: README data-layout tree, ARCHITECTURE, OPERATIONS (new "support folder"
+  section, secret-free command blocks), TOOLING (new Secrets section), RESUMMARIZE
+  (state table now records what is and isn't committed).
+
+## [0.8.9] — 2026-07-28
+Fix three path bugs that made a second re-summarization campaign unrunnable.
+
+- **The campaign's three directories were resolved independently and drifted.**
+  `validate_fanout.py` takes its batch-text dir from its own `TSD_FAN_IN`, which
+  `resummarize_queue.py` never set — so running wave2 with
+  `TSD_FAN_MANIFEST`/`TSD_FAN_OUT` left the validator reading the *first*
+  campaign's input dir, where none of its batch files exist. It died on
+  `FileNotFoundError`, returned no output, and `validated()` read that empty
+  result as "no batch is clean".
+  - wave2 reported **0 done / 14 failed** when all 14 were in fact **100% clean**
+    (2,321 figures, 0 derived, 0 unknown). Because `next` retries failures first,
+    the next wave would have re-run 8 known-good batches at ~39 points of a 5-hour
+    window while leaving the 107 genuinely-missing ones untouched.
+  - All three paths now default off the manifest stem; the queue passes them to
+    the validator explicitly; a non-zero validator exit is reported instead of
+    being indistinguishable from total failure.
+- **`validate_fanout.py` no longer aborts on a missing batch-text file** — it
+  returns `NO_SOURCE` for that batch and continues, the same defence the existing
+  `KeyError` guard provides.
+- **`resummarize_workflow.js` used `process.env.HOME`**, but workflow scripts have
+  no Node API: it threw `process is not defined` and killed the run before any
+  agent started. Every earlier launch passed `args.dir`, which short-circuits the
+  `||` and hid it. Now a literal path, and `next` emits `dir`/`inDir`/`outDir`, so
+  a wave launched straight from the queue can't be pointed at the wrong campaign.
+
 ## [0.8.8] — 2026-07-27
 Fix the v0.8.7 fallback: it was returning a 1-byte body, silently.
 

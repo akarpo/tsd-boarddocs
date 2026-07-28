@@ -22,7 +22,7 @@ Endpoints discovered on https://go.boarddocs.com/mi/troysd/Board.nsf:
   GET  files/<unid>/$file/<name>                                -> binary
 
 Output (under the corpus root, configurable via TSD_BOE_ROOT env var;
-defaults to ~/Downloads/tsd-boe-data):
+defaults to <repo>/data/tsd-boe-data):
   <root>/<YYYY-MM-DD>_<meeting_name>/<filename>
   <root>/_download.log
   <root>/_index.csv     (one row per newly downloaded file)
@@ -91,7 +91,8 @@ from urllib.request import Request, urlopen
 
 SITE_URL = "https://go.boarddocs.com/mi/troysd/Board.nsf"
 COMMITTEE_ID = "A4EP6J588C05"  # Board of Education
-OUT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+OUT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent / "data" / "tsd-boe-data")
 UA = "Mozilla/5.0 TroySD-BoardDocs-Downloader/1.0"
 # Env-overridable so parallel shards can each write their own baseline and be
 # merged afterward; a shared path would let the last writer clobber the rest

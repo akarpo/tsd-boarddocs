@@ -24,7 +24,8 @@ except Exception:
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent / "data" / "tsd-boe-data")
 INDEX_DIR = ROOT / "_index"
 
 

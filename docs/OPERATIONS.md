@@ -5,21 +5,26 @@
 - Python 3.10+ with: `requests pypdf pdfplumber python-docx python-pptx openpyxl striprtf tiktoken` (no ML libs)
 - `wrangler` (npm) authenticated to the Cloudflare account (`wrangler login`)
 - LibreOffice (`soffice` on PATH) — only for the DOCX/PPTX→PDF viewer conversion
-- `$TSD_BOE_ROOT` corpus root (default `~/Downloads/tsd-boe-data`; it lived at
+- `$TSD_BOE_ROOT` corpus root (default `<repo>/data/tsd-boe-data`, i.e. inside the
+  checkout and gitignored; it was `~/Downloads/tsd-boe-data` before v0.9.0 and
   `~/tsd-boe-data` before v0.8.5 — point `TSD_BOE_ROOT` at an older corpus, or just
   move the directory, rather than re-crawling)
-- The ingest worker's secret in `R2PUT_SECRET` (used for D1 / R2 / summary writes)
+- The ingest worker's secret. **You no longer pass this on the command line.**
+  `tsd_secrets.py` reads it from
+  `~/Downloads/tsd-boardocs-keysandsupportingfiles/tsd-secrets.env`
+  (override with `$TSD_SECRETS_FILE`); an exported `R2PUT_SECRET` still wins if set.
+  See [The support folder](#the-support-folder-keys--ingest-worker).
 
 ## Full ingest (first build or full rebuild)
 
 ```bash
-export TSD_BOE_ROOT=~/Downloads/tsd-boe-data
+export TSD_BOE_ROOT=<repo>/data/tsd-boe-data
 
 python3 download_troysd.py --all --yes     # BoardDocs -> $TSD_BOE_ROOT (incremental)
 python3 extract_all.py                      # -> _text/
 python3 build_index.py                      # -> _index/chunks.jsonl (meeting_type, agenda_item, R2 urls)
-R2PUT_SECRET=<secret> python3 upload_d1.py             # chunks -> D1 (FTS5) via /d1insert (batched)
-R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2   # source docs -> R2 (exact-key PUT, parallel)
+python3 upload_d1.py             # chunks -> D1 (FTS5) via /d1insert (batched)
+python3 upload_cloudflare.py --r2   # source docs -> R2 (exact-key PUT, parallel)
 ```
 
 `download_troysd.py` is incremental (skips meetings already local). `upload_d1.py`
@@ -48,7 +53,7 @@ across days. Large drips are fanned across Opus subagents by the workflow; small
 ones are cheaper written inline (see "Small batches" below).
 
 ```bash
-export TSD_BOE_ROOT=~/Downloads/tsd-boe-data
+export TSD_BOE_ROOT=<repo>/data/tsd-boe-data
 
 python3 summarize.py --stats                        # done / pending counts
 rm -rf /tmp/tsd_out && mkdir -p /tmp/tsd_out
@@ -56,7 +61,7 @@ python3 summarize.py --prep-batches 150 --size 10   # -> /tmp/tsd_batches/batch_
 #   run the multi-agent workflow — one Opus agent per batch file; each writes
 #   /tmp/tsd_out/batch_NNN.json = { "<url>": {paragraph,page,verbose}, ... }
 #   (scripts/summaries_workflow.js, args {batches: 15})
-R2PUT_SECRET=<secret> python3 summarize.py --store-dir /tmp/tsd_out   # -> D1 (+ sum: FTS rows)
+python3 summarize.py --store-dir /tmp/tsd_out   # -> D1 (+ sum: FTS rows)
 ```
 
 - `--prep-batches N --size S` writes the next N pending docs (newest-first) into
@@ -113,19 +118,47 @@ git push                                       # triggers the Worker build
 wrangler deploy --dry-run --outdir /tmp/wdry   # bundle + validate locally (catches import/size issues)
 ```
 
-## The ingest Worker (`tsd-ingest`)
+## The support folder (keys + ingest worker)
+
+Two things stay **outside** the repository, in
+`~/Downloads/tsd-boardocs-keysandsupportingfiles/`:
+
+| | what |
+|---|---|
+| `tsd-secrets.env` | `KEY=value` lines; currently just `R2PUT_SECRET`. Mode `600`. |
+| `_tsd_ingest/` | the ingest Worker (below) |
+
+They are outside the tree for one reason: `_tsd_ingest/worker.js` string-compares
+an **inline** secret constant, so anywhere under `tsd-boarddocs/` it would be one
+`git add -A` from GitHub. Since v0.9.0 the corpus and campaign artifacts *are*
+inside the repo, so "not in the repo folder" is no longer an accident of layout —
+it is the whole security boundary, and this folder is what enforces it.
+
+`tsd_secrets.py` resolves in this order: exported env var → `$TSD_SECRETS_FILE` →
+the path above. So the pipeline commands no longer carry `R2PUT_SECRET=<secret>`,
+and a missing secret fails with an actionable message instead of an opaque 403.
+
+### The ingest Worker (`tsd-ingest`)
 
 `wrangler` truncates R2 keys at `#` and can't easily write giant D1 batches, so
-D1 / R2 / summary writes go through a small worker's bindings. It lives in
-`_tsd_ingest/` (outside this repo) and exposes (guarded by `?secret=`):
+D1 / R2 / summary writes go through a small worker's bindings. It exposes
+(guarded by `?secret=`):
 
 - `PUT  /r2put?key=<exact key>` → writes R2 verbatim (with content-type)
 - `POST /d1insert` `{rows}` → parameterized batch INSERT into `chunks`
 - `POST /summaryput` `{rows}` → upsert `summaries` + write each doc's `sum:` FTS row
+- `GET  /urls` → distinct source-doc urls already in D1 (powers `--new-only`)
 
 ```bash
-wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
+wrangler deploy --cwd ~/Downloads/tsd-boardocs-keysandsupportingfiles/_tsd_ingest
 ```
+
+It also still carries an `[ai]` binding and an `/embed` route left from the
+Vectorize era that v0.4 dropped; both are dead code.
+
+**If the secret ever needs rotating**, change the `SECRET` constant in its
+`worker.js`, redeploy with the command above, and update `tsd-secrets.env` to
+match — the two must agree or every write returns 403.
 
 ## Gotchas (learned the hard way)
 
@@ -169,8 +202,8 @@ wrangler deploy --cwd _tsd_ingest    # deploy/refresh it
 **Use the wrapper** — it enforces the two things below that silently ruin a run:
 
 ```bash
-R2PUT_SECRET=<secret> scripts/ingest_meeting.sh              # 45-day trailing window
-R2PUT_SECRET=<secret> scripts/ingest_meeting.sh 2026-08-01   # explicit start date
+scripts/ingest_meeting.sh              # 45-day trailing window
+scripts/ingest_meeting.sh 2026-08-01   # explicit start date
 scripts/ingest_meeting.sh --dry-run                          # crawl plan only, no secret needed
 ```
 
@@ -188,8 +221,8 @@ Run locally, from a checkout with the corpus at `$TSD_BOE_ROOT`:
 python3 download_troysd.py --start <YYYY-MM-DD> --yes   # only meetings you don't have
 python3 extract_all.py                                  # skips already-extracted files
 python3 build_index.py                                  # full rebuild of chunks.jsonl
-R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2 --new-only   # R2 FIRST
-R2PUT_SECRET=<secret> python3 upload_d1.py --all --new-only          # then D1
+python3 upload_cloudflare.py --r2 --new-only   # R2 FIRST
+python3 upload_d1.py --all --new-only          # then D1
 python3 scripts/convert_office.py                       # new DOCX/PPTX -> preview PDF
 ```
 
@@ -206,7 +239,7 @@ ambiguity when it finds nothing new. If you do hit it, recover with the explicit
 filter, which ignores D1 entirely:
 
 ```bash
-R2PUT_SECRET=<secret> python3 upload_cloudflare.py --r2 --meetings 2026-07-22
+python3 upload_cloudflare.py --r2 --meetings 2026-07-22
 ```
 
 `--meetings` takes comma-separated case-insensitive substrings matched against
@@ -292,7 +325,7 @@ era from summary-backed search. Always exclude them:
     SELECT COUNT(*) FROM chunks WHERE substr(url,48,3)='201' AND id LIKE 'sum:%';
 
     DELETE FROM chunks WHERE substr(url,48,3)='201' AND id NOT LIKE 'sum:%';
-    for y in 2010..2019; do R2PUT_SECRET=... python3 upload_d1.py --year $y; done
+    for y in 2010..2019; do python3 upload_d1.py --year $y; done
 
 `upload_d1.py` needs `R2PUT_SECRET` or every insert returns HTTP 403.
 

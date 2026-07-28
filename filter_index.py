@@ -13,7 +13,8 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent / "data" / "tsd-boe-data")
 INDEX_DIR = ROOT / "_index"
 
 MIN_WORDS = 30

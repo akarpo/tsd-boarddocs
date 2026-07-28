@@ -2,12 +2,13 @@
 the site can preview them inline. Excel is intentionally skipped (the viewer links
 those out). Resumable via a done-list; re-run to pick up new files.
 
-  R2PUT_SECRET=... TSD_BOE_ROOT=~/Downloads/tsd-boe-data python scripts/convert_office.py
+  R2PUT_SECRET=... TSD_BOE_ROOT=<repo>/data/tsd-boe-data python scripts/convert_office.py
 """
 import os, sys, shutil, tempfile, subprocess, urllib.request, urllib.parse
 from pathlib import Path
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent.parent / "data" / "tsd-boe-data")
 SOFFICE = os.environ.get("SOFFICE", "/opt/homebrew/bin/soffice")
 R2PUT = "https://tsd-ingest.akarpo.workers.dev/r2put"
 SECRET = os.environ.get("R2PUT_SECRET", "")

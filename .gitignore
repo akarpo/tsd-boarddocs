@@ -31,3 +31,21 @@ verify-report.txt
 issue_body.txt
 !/resummarize/
 !/resummarize/*.json
+
+# Campaign artifacts. The corpus and its backups now live under the repo too, so
+# what does and does not reach GitHub is decided here rather than by which folder
+# something happens to sit in.
+#
+#   COMMITTED  manifests, agent output (*_out/), and the D1 payloads (stores/).
+#              The agent output is the irreplaceable part -- regenerating it means
+#              paying for Opus again -- and resummarize_queue.py derives its
+#              done/pending state from it, so a fresh checkout resumes correctly.
+#   IGNORED    batch text (regenerable from a manifest's urlmap + the corpus),
+#              the corpus itself, and the large local backups.
+!/resummarize/*_out/
+!/resummarize/*_out/*.json
+!/resummarize/stores/
+!/resummarize/stores/**/*.json
+/resummarize/fanout/
+/resummarize/wave2/
+/data/

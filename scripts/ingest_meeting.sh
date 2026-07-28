@@ -18,7 +18,10 @@
 # files and prints the remaining two steps.
 #
 # Usage:
-#   R2PUT_SECRET=<secret> scripts/ingest_meeting.sh [START_DATE] [options]
+#   scripts/ingest_meeting.sh [START_DATE] [options]
+#
+#   The ingest-worker secret is read by tsd_secrets.py (env var, else the
+#   secrets file outside the repo) — no longer passed on the command line.
 #
 #   START_DATE     YYYY-MM-DD; only meetings on or after it. Default: 45 days ago.
 #   --dry-run      List what would be downloaded, then stop. No secret needed.
@@ -79,7 +82,11 @@ if [ "$DRY_RUN" = "1" ]; then
   exec python3 download_troysd.py --start "$START" --skip-ingested --dry-run
 fi
 
-[ -n "${R2PUT_SECRET:-}" ] || die "R2PUT_SECRET is not set (guards the tsd-ingest worker)"
+# The secret may come from the environment OR from the secrets file outside the
+# repo (see tsd_secrets.py). Ask the resolver rather than testing the env var,
+# which would refuse to run a perfectly configured pipeline.
+python3 -c 'import sys, tsd_secrets; sys.exit(0 if tsd_secrets.get("R2PUT_SECRET") else 1)' \
+  || die "R2PUT_SECRET not set and not in the secrets file (guards the tsd-ingest worker)"
 command -v soffice >/dev/null || echo "WARNING: soffice not on PATH — Office->PDF previews will be skipped"
 
 step "1/6 Crawl BoardDocs (skipping anything already on disk or in D1)"
@@ -161,6 +168,6 @@ Write tiers to: $OUT_DIR/batch_NNN.json
 
 Then store them (chunks are already in D1, so /summaryput can build the sum: rows):
 
-  R2PUT_SECRET=<secret> python3 summarize.py --store-dir $OUT_DIR
+  python3 summarize.py --store-dir $OUT_DIR
 
 EOF

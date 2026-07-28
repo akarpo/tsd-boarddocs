@@ -1,6 +1,6 @@
 """Chunk extracted text into records for the D1 full-text (FTS5) index.
 
-Corpus root via TSD_BOE_ROOT env var (default ~/Downloads/tsd-boe-data):
+Corpus root via TSD_BOE_ROOT env var (default <repo>/data/tsd-boe-data):
   Input:  <root>/_text/<meeting>/<file>.txt
   Output: <root>/_index/chunks.jsonl   one JSON record per chunk:
             id           sha1 of "<meeting>|<file>|<idx>" (stable, short)
@@ -26,7 +26,8 @@ from pathlib import Path
 
 import tiktoken
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent / "data" / "tsd-boe-data")
 TEXT_ROOT = ROOT / "_text"
 INDEX_DIR = ROOT / "_index"
 # Public R2 custom domain + project prefix. Citations point here; upload_cloudflare.py

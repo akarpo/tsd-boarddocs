@@ -81,9 +81,27 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 
 ## Data layout
 
-Corpus root = `$TSD_BOE_ROOT` (default `~/Downloads/tsd-boe-data`). The corpus, extracted
-text, and `chunks.jsonl` are **not** committed (several GB) — rebuild with the
-ingest scripts. Source PDFs live in R2; searchable data + summaries live in D1.
+Everything the pipeline produces lives under the checkout; `.gitignore` decides
+what reaches GitHub, rather than the folder it happens to sit in.
+
+```
+tsd-boarddocs/
+  data/                      gitignored — bulk, local, rebuildable
+    tsd-boe-data/            $TSD_BOE_ROOT: corpus + _text/ + _index/chunks.jsonl (~3.7 GB)
+    backups/                 chunk / summary / pre-2020 text snapshots
+  resummarize/               re-summarization campaigns
+    *_manifest.json          committed
+    <campaign>_out/          committed — agent output; the queue's resume state
+    stores/<campaign>/       committed — the payloads pushed to D1
+    <campaign>/              gitignored — batch text, regenerable from manifest + corpus
+```
+
+Source PDFs live in R2; searchable data + summaries live in D1. The corpus is
+disposable — losing it costs a re-crawl, nothing more.
+
+Secrets and the ingest Worker stay **outside** the repo in
+`~/Downloads/tsd-boardocs-keysandsupportingfiles/`, because that Worker holds an
+inline secret; see [docs/OPERATIONS.md](docs/OPERATIONS.md#the-support-folder-keys--ingest-worker).
 
 ## Deploy
 

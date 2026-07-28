@@ -25,7 +25,7 @@ from pathlib import Path
 
 SCRIPTS = Path(__file__).parent                      # where the sibling tools live
 DIR = Path(os.environ.get("TSD_FAN_DIR") or          # where the batches/outputs live
-           Path.home() / "Downloads" / "tsd_resummarize_staging")
+           Path(__file__).resolve().parent.parent / "resummarize")
 
 # The three paths must move together. validate_fanout.py resolves the batch-text
 # dir from its OWN env var (TSD_FAN_IN), which this script never set -- so running
@@ -138,7 +138,8 @@ def as_args(batches):
     normal = [b for b in batches if b not in split]
     giants = [{"batch": b, "key": split[b]["key"], "parts": split[b]["parts"]}
               for b in batches if b in split]
-    return {"inDir": IN_NAME, "outDir": OUT_NAME, "normal": normal, "giants": giants}
+    return {"dir": str(DIR), "inDir": IN_NAME, "outDir": OUT_NAME,
+            "normal": normal, "giants": giants}
 
 
 def agent_count(batches):

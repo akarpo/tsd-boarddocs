@@ -36,8 +36,10 @@ Anthropic remote connectors, so one implementation works in both ecosystems.
 | R2 | bucket `media`, prefix `troysd-boarddocs/` (`MEDIA`) | source PDFs, public at `media.karpowitsch.org/troysd-boarddocs/` |
 | Custom domain | `tsd-boarddocs.karpowitsch.org` | production |
 
-Ingest also uses a **throwaway Worker `tsd-ingest`** (in `_tsd_ingest/`, outside
-this repo) whose bindings write D1 + R2 with exact keys — see [OPERATIONS](OPERATIONS.md).
+Ingest also uses a **throwaway Worker `tsd-ingest`** whose bindings write D1 + R2
+with exact keys. It lives in `~/Downloads/tsd-boardocs-keysandsupportingfiles/`,
+outside the repo, because it string-compares an inline secret — see
+[OPERATIONS](OPERATIONS.md#the-support-folder-keys--ingest-worker).
 
 ## Search (D1 FTS5)
 
@@ -98,9 +100,14 @@ convert_office.py    DOCX/PPTX  ───────► R2 <key>.pdf (LibreOffi
 summarize.py + workflow     Opus 3-tier ► D1 summaries (+ sum: FTS rows)
 ```
 
-The corpus, extracted text, and chunk file are **not** committed (multiple GB) —
-they live under `$TSD_BOE_ROOT` (default `~/Downloads/tsd-boe-data`). Only the tooling + site
-are in git; the *data* lives in D1 and R2.
+The corpus, extracted text, and chunk file are **not** committed (multiple GB).
+Since v0.9.0 they live *inside* the checkout at `$TSD_BOE_ROOT`
+(default `<repo>/data/tsd-boe-data`) and are excluded by `.gitignore` — so the
+working set is one directory, while what reaches GitHub is an explicit decision
+rather than a consequence of where a folder happens to sit. The durable, small
+campaign artifacts (manifests, agent output, D1 payloads) *are* committed; see
+[RESUMMARIZE](RESUMMARIZE.md#state). Only tooling + site + those artifacts are in
+git; the bulk *data* lives in D1 and R2.
 
 ### Incremental updates
 

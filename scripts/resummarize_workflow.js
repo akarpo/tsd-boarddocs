@@ -12,12 +12,15 @@ export const meta = {
 // wiped between sessions and has a different path each time. Override with
 // args.dir if the batches live somewhere else.
 //
-// The default is a LITERAL path: workflow scripts have no Node API, so the
-// previous `process.env.HOME` fallback threw "process is not defined" and killed
-// the run before any agent started. It survived unnoticed because every earlier
-// launch passed args.dir, which short-circuits the `||` before evaluating it.
+// The default is a LITERAL path: workflow scripts have no Node API (no __dirname,
+// no process.env), so it cannot be derived from the checkout location the way the
+// Python tools do. The previous `process.env.HOME` fallback threw "process is not
+// defined" and killed the run before any agent started; it survived unnoticed
+// because every launch passed args.dir, which short-circuits the `||`.
+// `resummarize_queue.py next` now emits `dir` explicitly, so this literal is only
+// reached on a hand-written launch.
 const A0R = typeof args === 'string' ? JSON.parse(args || '{}') : (args || {})
-const DIR = A0R.dir || '/Users/Alex/Downloads/tsd_resummarize_staging'
+const DIR = A0R.dir || '/Users/Alex/Downloads/tsd-boarddocs/resummarize'
 const IN  = `${DIR}/${A0R.inDir  || 'fanout'}`
 const OUT = `${DIR}/${A0R.outDir || 'fanout_out'}`
 

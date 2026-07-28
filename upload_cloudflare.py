@@ -24,14 +24,17 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+import tsd_secrets
+
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent / "data" / "tsd-boe-data")
 CHUNKS = ROOT / "_index" / "chunks.jsonl"
 EMBED_URL = os.environ.get("EMBED_URL", "https://tsd-boarddocs.karpowitsch.org/api/embed")
 # R2 uploads go through an ingest Worker's R2 binding (writes the EXACT key —
 # the wrangler CLI truncates keys at '#'). Env-overridable.
 R2PUT_URL = os.environ.get("R2PUT_URL", "https://tsd-ingest.akarpo.workers.dev/r2put")
 URLS_URL = os.environ.get("URLS_URL", "https://tsd-ingest.akarpo.workers.dev/urls")
-R2PUT_SECRET = os.environ.get("R2PUT_SECRET", "")  # set via env; guards the ingest worker
+R2PUT_SECRET = tsd_secrets.get("R2PUT_SECRET")  # env, else the secrets file; guards the ingest worker
 INDEX = os.environ.get("VECTORIZE_INDEX", "tsd-boarddocs")
 R2_BUCKET = os.environ.get("R2_BUCKET", "media")
 R2_PREFIX = os.environ.get("R2_PREFIX", "troysd-boarddocs")

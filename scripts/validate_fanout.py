@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 DIR = Path(os.environ.get("TSD_FAN_DIR") or
-           Path.home() / "Downloads" / "tsd_resummarize_staging")
+           Path(__file__).resolve().parent.parent / "resummarize")
 IN  = DIR / os.environ.get("TSD_FAN_IN",  "fanout")
 OUT = DIR / os.environ.get("TSD_FAN_OUT", "fanout_out")
 MAN = json.loads((DIR / os.environ.get("TSD_FAN_MANIFEST", "fanout_manifest.json")).read_text())
@@ -169,7 +169,8 @@ def main():
                     for u in urlmap.get(dk, []):
                         rows_out[u] = v
     if rows_out:
-        d = Path(os.path.expanduser(os.environ.get("TSD_STORE_DIR", "~/Downloads/tsd_store_fanout")))
+        d = Path(os.path.expanduser(os.environ.get("TSD_STORE_DIR") or
+                                    str(DIR / "stores" / OUT.name.replace("_out", ""))))
         d.mkdir(parents=True, exist_ok=True)
         (d / "batch_000.json").write_text(
             json.dumps(rows_out, ensure_ascii=False, indent=1), encoding="utf-8")

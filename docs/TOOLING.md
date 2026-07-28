@@ -30,6 +30,12 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 |---|---|
 | `scripts/proper_nouns.py` | Generates the categorized proper-noun `.docx` (people, schools, programs, vendors, associations, governmental, streets, acronyms) for speech-to-text custom vocabulary — plus a flat paste-ready appendix. Pulls the clean `summaries` from D1, auto-extracts vendor firms, and merges QA-validated curated lists (financial ledgers excluded). `--qa` prints validation digests — board roll-call timeline, external-name flags, new school/acronym candidates — to extend the curated lists as older years get summarized. `--refresh` re-pulls from D1; default output is `~/Desktop`. |
 
+## Secrets
+
+| Script | Role |
+|---|---|
+| `tsd_secrets.py` | Resolves pipeline secrets: exported env var -> `$TSD_SECRETS_FILE` -> `~/Downloads/tsd-boardocs-keysandsupportingfiles/tsd-secrets.env`. Used by `summarize.py`, `upload_d1.py`, `upload_cloudflare.py`, so none of them need `R2PUT_SECRET=` on the command line. `require()` fails with an actionable message rather than letting the call 403. |
+
 ## Serve (active)
 
 | File | Role |
@@ -38,7 +44,7 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 | `public/index.html` | Single-page site: search + filters + sort + group-by-meeting + browse timeline + document viewer (PDF + summary tiers) + WebMCP. |
 | `bd_links.js` | **Generated** from `boarddocs_unids.json`: doc → BoardDocs meeting UNID map, bundled into the worker for deep-links. Regenerate after a crawl (see OPERATIONS). |
 | `wrangler.toml` | Worker config: `main`, `[assets]`, `DB` (D1), `MEDIA` (R2) bindings. |
-| `_tsd_ingest/worker.js` | **Outside this repo.** Ingest worker: `/r2put` (exact-key R2), `/d1insert` (batch chunks), `/summaryput` (summaries + `sum:` rows), `/urls` (distinct source-doc urls in D1, for `--new-only`). |
+| `_tsd_ingest/worker.js` | **Outside this repo**, in `~/Downloads/tsd-boardocs-keysandsupportingfiles/` (it holds an inline secret). Ingest worker: `/r2put` (exact-key R2), `/d1insert` (batch chunks), `/summaryput` (summaries + `sum:` rows), `/urls` (distinct source-doc urls in D1, for `--new-only`). |
 
 ## Automation
 

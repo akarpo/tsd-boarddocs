@@ -27,7 +27,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 DB = os.environ.get("D1_DB", "tsd-boarddocs")
-ROOT = Path(os.environ.get("TSD_BOE_ROOT") or Path.home() / "Downloads" / "tsd-boe-data")
+ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
+        Path(__file__).resolve().parent.parent / "data" / "tsd-boe-data")
 CACHE = os.environ.get("SUMS_CACHE", "/tmp/sums_raw.json")
 DEFAULT_OUT = str(Path.home() / "Desktop" / "Troy School District Proper Nouns.docx")
 
