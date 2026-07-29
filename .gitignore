@@ -31,6 +31,8 @@ verify-report.txt
 issue_body.txt
 !/resummarize/
 !/resummarize/*.json
+# Leases are live process state, not campaign state -- never committed.
+/resummarize/*_inflight.json
 
 # Campaign artifacts. The corpus and its backups now live under the repo too, so
 # what does and does not reach GitHub is decided here rather than by which folder

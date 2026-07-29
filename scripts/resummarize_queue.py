@@ -41,6 +41,19 @@ OUT_NAME = os.environ.get("TSD_FAN_OUT", f"{STEM}_out")
 MAN = json.loads((DIR / MAN_NAME).read_text())
 OUT = DIR / OUT_NAME
 
+# State is derived from disk, which cannot see work that is running but has not
+# written yet: an agent spends most of its life reading, so a batch handed out
+# 60 seconds ago still looks pending. Sequential waves hid this -- the previous
+# wave had always finished. Run two concurrently and `next` re-emits batches it
+# already handed out (observed 2026-07-29: w3_029 and w3_031 came back while
+# their agents were mid-flight), putting two agents on one batch, racing the same
+# output file and burning the duplicate.
+#
+# A lease is a timestamp per handed-out batch. It expires, so a dead agent
+# releases its batch on its own rather than wedging the queue forever.
+LEASE = DIR / f"{STEM}_inflight.json"
+LEASE_TTL = float(os.environ.get("TSD_LEASE_TTL", 2700))   # 45 min > longest observed wave
+
 # Measured on wave 1 (2026-07-27): 8 agents, all completed, took the 5-hour window
 # 0% -> 39%. The earlier 3.1 came from agents still in flight and was 57% low.
 PTS_PER_AGENT = 4.9
@@ -159,6 +172,32 @@ def validated():
     return clean
 
 
+def leases():
+    """batch -> epoch handed out, pruned to the TTL. Expired leases are gone."""
+    try:
+        raw = json.loads(LEASE.read_text())
+    except Exception:
+        return {}
+    now = time.time()
+    return {b: t for b, t in raw.items()
+            if isinstance(t, (int, float)) and now - t < LEASE_TTL}
+
+
+def take_lease(batches):
+    cur = leases()
+    now = time.time()
+    for b in batches:
+        cur[b] = now
+    LEASE.write_text(json.dumps(cur))
+
+
+def drop_lease(batches):
+    cur = leases()
+    for b in batches:
+        cur.pop(b, None)
+    LEASE.write_text(json.dumps(cur))
+
+
 def state():
     all_b = sorted(MAN["batches"])
     done = validated()
@@ -194,7 +233,8 @@ def agent_count(batches):
 def main():
     argv = [a for a in sys.argv[1:]]
     force = "--force" in argv or os.environ.get("TSD_QUEUE_FORCE") == "1"
-    argv = [a for a in argv if a != "--force"]
+    dry = "--dry-run" in argv          # inspect `next` without claiming a lease
+    argv = [a for a in argv if a not in ("--force", "--dry-run")]
     cmd = argv[0] if argv else "status"
     all_b, done, failed, pending = state()
     p5, p7, problem = usage()
@@ -213,6 +253,9 @@ def main():
             print(f"5h now {p5}%  headroom to {RESERVE_PCT:.0f}% = {room:.0f} points "
                   f"= {int(room / PTS_PER_AGENT)} agents")
             print(f"7d now {p7}%")
+        held = leases()
+        if held:
+            print(f"\nin flight ({len(held)}): {' '.join(sorted(held))}")
         if problem:
             print(f"\n!! usage reading NOT trustworthy: {problem}\n"
                   f"   `next` will refuse to release a wave until this clears "
@@ -246,13 +289,34 @@ def main():
             if p.exists():
                 p.unlink()
                 print(f"  removed stale output {p.name}")
+        drop_lease(failed)
         print(f"{len(failed)} batch(es) returned to pending")
+        return 0
+
+    if cmd == "release":
+        # Escape hatch: a killed run leaves leases that would otherwise block
+        # those batches until the TTL expires.
+        held = leases()
+        if not held:
+            print("no leases held")
+            return 0
+        LEASE.write_text("{}")
+        print(f"released {len(held)}: {' '.join(sorted(held))}")
         return 0
 
     if cmd == "next":
         q = failed + pending           # retry failures first -- they are known-sized
         if not q:
             print("queue empty", file=sys.stderr)
+            return 1
+        held = leases()
+        if held:
+            q = [b for b in q if b not in held]
+            print(f"{len(held)} batch(es) in flight, excluded: {' '.join(sorted(held))}",
+                  file=sys.stderr)
+        if not q:
+            print("nothing available -- every pending batch is in flight "
+                  "(clear with `release` if a run died)", file=sys.stderr)
             return 1
         wave = pack(q)[0]
         # FAIL CLOSED. An unusable reading is not permission to skip the check:
@@ -287,6 +351,8 @@ def main():
                 while agent_count(wave) > fit and len(wave) > 1:
                     wave = wave[:-1]
         a = as_args(wave)
+        if not dry:
+            take_lease(wave)      # claim before the caller launches
         print(json.dumps(a))
         print(f"\nwave: {len(wave)} batches, {agent_count(wave)} agents, "
               f"~{agent_count(wave)*PTS_PER_AGENT:.0f} points   ({' '.join(wave)})",

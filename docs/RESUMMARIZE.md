@@ -73,6 +73,27 @@ until 2026-07-28; the higher line buys ~3 more agents per window but spends most
 of the slack that absorbed a bad cost estimate, and `PTS_PER_AGENT` is a mean
 with real variance.
 
+### In-flight leases
+
+`next` writes a lease per batch it hands out (`resummarize/<campaign>_inflight.json`)
+and excludes leased batches from the next wave.
+
+State is otherwise derived from disk, which cannot see work that is *running but
+has not written yet* — an agent spends most of its life reading, so a batch handed
+out a minute ago still looks pending. Sequential waves hid this completely, because
+the previous wave had always finished. Running two concurrently on 2026-07-29,
+`next` re-emitted `w3_029` and `w3_031` while their agents were mid-flight; launching
+that verbatim would have put two agents on one batch, racing the same output file.
+
+- Leases expire (`TSD_LEASE_TTL`, default 45 min), so a dead agent frees its batch
+  instead of wedging the queue.
+- `next --dry-run` inspects without claiming.
+- `release` clears all leases — the escape hatch after a killed run.
+- `requeue` drops a failed batch's lease along with its stale output.
+
+Leases are live process state, not campaign state, so they are gitignored: a fresh
+clone should never inherit a claim from another machine.
+
 ### The guardrail fails closed
 
 `next` refuses whenever it cannot *trust* the usage reading, not just when the
