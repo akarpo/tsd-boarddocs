@@ -231,6 +231,24 @@ def main():
               f"~= {total*PTS_PER_AGENT/ (RESERVE_PCT):.1f} windows at {RESERVE_PCT:.0f}%")
         return 0
 
+    if cmd == "requeue":
+        # Delete failed batches' stale output so a re-run cannot be a no-op.
+        # w2_066 failed validation, was requeued, ran again -- and came back with
+        # byte-identical stats because the agent never rewrote the file. The
+        # workflow counts an agent that returns text as "completed", so nothing
+        # noticed. With the file gone, a silent write failure shows up as MISSING
+        # instead of resurrecting the previous bad output.
+        if not failed:
+            print("no failed batches")
+            return 0
+        for b in failed:
+            p = OUT / f"{b}.json"
+            if p.exists():
+                p.unlink()
+                print(f"  removed stale output {p.name}")
+        print(f"{len(failed)} batch(es) returned to pending")
+        return 0
+
     if cmd == "next":
         q = failed + pending           # retry failures first -- they are known-sized
         if not q:

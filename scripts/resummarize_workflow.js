@@ -54,7 +54,9 @@ TITLE: ... / MEETING DATE: ... / TYPE: ... / PREVIOUSLY SUMMARIZED FROM: ...%
 
 ${TIERS}
 
-Then use the Write tool to save ${OUT}/${b}.json as a single JSON object keyed by the EXACT "### DOCUMENT KEY:" value (not the title, not the url):
+Then use the Write tool to save ${OUT}/${b}.json as a single JSON object keyed by the EXACT "### DOCUMENT KEY:" value (not the title, not the url).
+
+If that file ALREADY EXISTS, you are re-running a batch whose previous output failed verification — overwrite it. Do not read it, do not treat its presence as "already done", and do not skip the write. A batch that is re-run without its file being rewritten fails identically forever and burns one agent per wave.
 {"<document key>": {"paragraph": "...", "page": "...", "verbose": "..."}, ...}
 
 Include every document in the file. Valid JSON only — properly escaped strings, no trailing commas, no markdown fences.
