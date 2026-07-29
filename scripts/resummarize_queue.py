@@ -44,7 +44,14 @@ OUT = DIR / OUT_NAME
 # Measured on wave 1 (2026-07-27): 8 agents, all completed, took the 5-hour window
 # 0% -> 39%. The earlier 3.1 came from agents still in flight and was 57% low.
 PTS_PER_AGENT = 4.9
-RESERVE_PCT = 75.0        # stop releasing waves once the window passes this
+# Stop releasing waves once the window passes this. Raised 75 -> 90 deliberately:
+# it buys roughly three more agents per window, at the cost of most of the slack
+# that absorbed a bad cost estimate. PTS_PER_AGENT is a MEAN and the variance is
+# real -- a figure-dense 3-agent wave on 2026-07-28 cost 26 points, not the 15
+# predicted (8.7/agent, a 73% overrun). At 75% that overrun was absorbed; at 90%
+# a wave like it lands past the limit mid-write. Recoverable -- a truncated
+# output fails validation and returns to pending -- but it wastes the agent.
+RESERVE_PCT = 90.0
 WAVE = 8                  # AGENTS per wave, not batches -- a split budget book is 5-6
 
 
