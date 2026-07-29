@@ -126,6 +126,26 @@ v0.8.9 changelog entry.
 
 ## Scope
 
+Measured from the corpus (`stage_campaign.py --dry-run` reproduces it):
+
+| | docs |
+|---|---|
+| exceeded the 6,000-char cap | **786** |
+| covered by `fanout` + `wave2` | 391 |
+| staged as `remainder` (2026-07-28) | 367 |
+| check registers, out of scope | 28 |
+
+The first two passes were staged by hand and between them missed **395**
+documents — the queue reported "empty" with half the campaign untouched. The
+`remainder` campaign closes that gap, and because its selection is derived from
+the corpus rather than remembered, the same command re-run later will surface
+anything new that qualifies.
+
+`remainder` is the expensive half: **17.0M tokens of source, 280 agents (~35
+waves)**, median document 45,541 chars against 3,885 for what came before. 144
+of its documents are packet-era (2010-2019) bundles.
+
+
 788 documents exceeded the cap. 203 are done: the post-2018 budget-and-policy set,
 plus part of a newest-first pass over 2026-2023.
 

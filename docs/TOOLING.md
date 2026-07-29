@@ -80,6 +80,7 @@ ingested anything.
 |---|---|
 | `scripts/resummarize_workflow.js` | Workflow script — one agent per batch; oversized budget books split into sections then synthesized |
 | `scripts/validate_fanout.py` | re-reads each batch's source, classifies every figure the agent asserted, stages only clean batches |
+| `scripts/stage_campaign.py` | Stages every capped document no manifest covers into a new campaign (manifest + batch text), deriving the boundary from the corpus instead of by hand. `--dry-run` reports the plan. `--prefix` guards batch-id collisions — `wave2_manifest.json` already owns `w2_*` **and** `w3_*`. |
 | `scripts/resummarize_queue.py` | derives done/failed/pending from disk; emits the next wave sized against live usage |
 | `~/.claude/bin/usage5h.py` | reads the authoritative 5h/7d percentages and converts headroom into work units |
 

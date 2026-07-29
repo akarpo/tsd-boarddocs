@@ -48,6 +48,7 @@ issue_body.txt
 !/resummarize/stores/**/*.json
 /resummarize/fanout/
 /resummarize/wave2/
+/resummarize/remainder/
 /data/
 
 # Generated dataset artifacts (scripts/build_dataset.py). Rebuildable from D1 +
