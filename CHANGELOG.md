@@ -5,6 +5,23 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- **Corrects a wrong conclusion recorded in the previous commit.** `w2_066` was
+  reported as a genuine fabrication — an agent summing bid line items to invent a
+  "Bid Total" of 3,488,377.00. That was wrong. The figure **is** in the source,
+  printed as `$3,488.377.00` with a period where the thousands comma belongs, and
+  the agent not only transcribed it correctly but disclosed the anomaly in its own
+  text. The fabrication finding came from probing the source for `3488377`,
+  `3,488,377` and `3488377.00` and never for the period-separator form.
+- **`validate_fanout.py` now normalises malformed thousands separators.**
+  `classify()` stripped `[,\s]` but not a period acting as a separator, so a
+  correct transcription of a malformed source figure was classified `derived` and
+  requeued **forever** — the batch could never pass, and `next` retries failures
+  ahead of real work, so it would have burned one agent per wave indefinitely.
+  Only tokens carrying more than one period are touched; a single period is a
+  decimal point and stripping it would invent figures 100x too large.
+  - With the fix `w2_066` validates clean (25 exact, 1 spaced, 0 derived) and the
+    campaign returns to **0 derived, 0 unknown across 7,130 figures**.
+
 - **New `scripts/build_dataset.py` + four downloadable artifacts** (docs/DATASET.md).
   The summaries answered "which document mentions X" well and budget questions
   badly, because prose cannot be summed or trended. Now:

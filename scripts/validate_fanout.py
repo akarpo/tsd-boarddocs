@@ -43,8 +43,29 @@ def source_for(batch):
     return (IN / f"{batch}.txt").read_text(encoding="utf-8", errors="replace")
 
 
+def _fix_seps(m):
+    """Normalise a malformed thousands separator inside one numeric token.
+
+    Source documents (or the extractor) sometimes emit a period where a comma
+    belongs: the 2025-12-17 minutes print a bid total as "$3,488.377.00". An
+    agent that transcribes that as 3,488,377.00 -- which the prompt explicitly
+    asks for, and which one agent even flagged in its own text -- was being
+    classified as `derived` and requeued forever, because the digits never
+    appear contiguously in the source.
+
+    Only tokens carrying MORE THAN ONE period are touched. A single period is a
+    legitimate decimal point and stripping it would invent figures 100x too big.
+    """
+    tok = m.group(0)
+    if tok.count(".") > 1:
+        head, _, tail = tok.rpartition(".")
+        return head.replace(".", "") + "." + tail
+    return tok
+
+
 def classify(src):
     """Return a function mapping a bare digit string to exact|spaced|derived|unknown."""
+    src = re.sub(r"\d[\d,.]*\d", _fix_seps, src)
     exact = set(re.findall(r"\d{4,}", src.replace(",", "")))
     flat = re.sub(r"[,\s]", "", src)            # substring space, boundary-free
     nums = sorted({int(x) for x in exact if x.isdigit() and len(x) <= 15})
