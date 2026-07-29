@@ -31,8 +31,8 @@ over 170K tokens are split into sections, summarized separately, then synthesize
     Workflow({scriptPath: 'scripts/resummarize_workflow.js',
               args: {inDir, outDir, normal: [...], giants: [...]}})
 
-`inDir`/`outDir` are relative to the scratchpad; batch text and agent output live
-outside the repo (see "State" below).
+`dir`/`inDir`/`outDir` are emitted by `resummarize_queue.py next`; everything
+lives under `resummarize/` in the repo (see "State" below).
 
 ## The two rules that make it safe
 
@@ -68,8 +68,10 @@ output exists and validates clean, so failures return to pending automatically.
 
 Work is released in **waves of ~8 agents**, sized by agent count rather than batch
 count (a split budget book is 5-6 agents behind one batch id). `next` refuses to
-emit a wave once the 5-hour window passes **75%**, leaving headroom so the limit
-can never land mid-write.
+emit a wave once the 5-hour window passes **90%** (`RESERVE_PCT`). It was 75%
+until 2026-07-28; the higher line buys ~3 more agents per window but spends most
+of the slack that absorbed a bad cost estimate, and `PTS_PER_AGENT` is a mean
+with real variance.
 
 ### The guardrail fails closed
 
@@ -84,7 +86,7 @@ Refused (exit 2), each with the reason on stderr:
 | snapshot unreadable / malformed | no reading at all |
 | `resets_at` in the past | the hook has not rewritten the file for the new window, so the percentage still describes the **expired** one — reads *high* |
 | snapshot older than 10 min | usage continued after it was written — reads *low*, the dangerous direction |
-| 5h at or past 75% | genuinely out of headroom |
+| 5h at or past `RESERVE_PCT` (90%) | genuinely out of headroom |
 
 `--force` (or `TSD_QUEUE_FORCE=1`) overrides. Forced past an *untrustworthy*
 reading the wave is emitted **untrimmed**, with a warning — sizing a wave against
@@ -144,10 +146,6 @@ anything new that qualifies.
 `remainder` is the expensive half: **17.0M tokens of source, 280 agents (~35
 waves)**, median document 45,541 chars against 3,885 for what came before. 144
 of its documents are packet-era (2010-2019) bundles.
-
-
-788 documents exceeded the cap. 203 are done: the post-2018 budget-and-policy set,
-plus part of a newest-first pass over 2026-2023.
 
 **Check registers are deliberately excluded.** They are 17% of the remaining
 documents but 42% of the tokens (median 45,709 vs 3,885 for everything else), and
