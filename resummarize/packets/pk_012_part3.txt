@@ -1,0 +1,1439 @@
+nd transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288972   09/28/10 11860    Q M I GROUP INC     101070241007000  5990     TROYHIGH JOB#106688        0.00            66.61
+A1003      288973   09/28/10 19032    R K A PETROLEUM COM 101090271395000  5710     9/1310 FUEL DELIVER        0.00        12,706.68
+A1003      288973   09/28/10 19032    R K A PETROLEUM COM 101090271395000  5710     9/13 FUEL DELIVERY         0.00        16,614.58
+TOTAL CHECK                                                                                                    0.00        29,321.26
+A1003      288974   09/28/10 15417    RAJANI GURRAM       101301000100000  R1810    KINDER+ REFUND             0.00           516.92
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101008111100100  5110     158289KS  VOLCANOES        0.00             7.99
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101008111100100  5110     155918KS  WELCOME K        0.00             8.79
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101008111100100  5110     139162JP  BIRTHDAY         0.00             7.98
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101008111100100  5110     145555KS  ACTIVITY         0.00             5.29
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101008111100100  5110     157716KS  GUESS WHO        0.00             7.99
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101008111100100  5110     SHIPPING & HANDLING        0.00             8.95
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101009111100100  5110     301703JS 10X12" BOO        0.00            35.97
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101009111100100  5110     304136JS 10X12" BOO        0.00            35.97
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101009111100100  5110     157553JR GEO SHAPES        0.00            19.98
+A1003      288975   09/28/10 16972    REALLY GOOD STUFF I 101009111100100  5110     ESTIMATED SHIPPING/        0.00            11.03
+TOTAL CHECK                                                                                                    0.00           149.94
+A1003      288976   09/28/10 14304    RENAISSANCE LEARNIN 101053112072800  5110     SHIPPING & HANDLING        0.00            10.37
+A1003      288976   09/28/10 14304    RENAISSANCE LEARNIN 101053112072800  5110     READING PRACTICE QU        0.00           242.19
+TOTAL CHECK                                                                                                    0.00           252.56
+A1003      288977   09/28/10 14170    ASPEN PUBLISHERS IN 101053112005300  5110     RENEWAL                    0.00           162.33
+A1003      288977   09/28/10 14170    ASPEN PUBLISHERS IN 101052112005200  5110     RENEWAL                    0.00           162.33
+A1003      288977   09/28/10 14170    ASPEN PUBLISHERS IN 101050112005000  5110     RENEWAL                    0.00           162.34
+TOTAL CHECK                                                                                                    0.00           487.00
+A1003      288982   09/28/10 11842    SEHI COMPUTER PRODU 101071113072400  5110     SHIPPING                   0.00             6.00
+A1003      288982   09/28/10 11842    SEHI COMPUTER PRODU 101071113072400  5110     HP80 BLACK C4820A P        0.00           119.93
+A1003      288982   09/28/10 11842    SEHI COMPUTER PRODU 101071113072400  5110     HP80 MAGENTA C4822A        0.00           119.93
+A1003      288982   09/28/10 11842    SEHI COMPUTER PRODU 101071113072400  5110     HP80 CYAN C4821A PR        0.00           119.93
+A1003      288982   09/28/10 11842    SEHI COMPUTER PRODU 101071113072400  5110     HP80 YELLOW C4823A         0.00           119.93
+TOTAL CHECK                                                                                                    0.00           485.72
+A1003      288983   09/28/10 19064    SHERMAN KENDALL     101970293990500  3190     THSBJV FTBL 090910         0.00            79.00
+A1003      288984   09/28/10 12060    CODY CORPORATION    101070113007000  5110     THS BUSINESS CARDS         0.00           140.00
+A1003      288985   09/28/10 15871    SKAUGE BRAD         101970293990500  3190     AHSGJV VLYBL 091410        0.00            72.00
+A1003      288986   09/28/10 16000    SOUND ENGINEERING   101790225717100  5990     GE TRANSFORMERS            0.00           558.00
+A1003      288988   09/28/10 19021    STANTONS SHEET MUSI 101053112351200  5110     BOULAN MUSIC               0.00            79.83
+A1003      288989   09/28/10 10177    STAPLES ADVANTAGE   101014111100100  5110     WASS OPEN PO               0.00            57.03
+A1003      288989   09/28/10 10177    STAPLES ADVANTAGE   101010111100100  5110     HILL OPEN PO               0.00           142.08
+A1003      288989   09/28/10 10177    STAPLES ADVANTAGE   101014111100100  5110     WASS OPEN PO               0.00           319.95
+A1003      288989   09/28/10 10177    STAPLES ADVANTAGE   101014111100100  5110     OPEN PURCHASE ORDER        0.00            69.00
+TOTAL CHECK                                                                                                    0.00           588.06
+57
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288990   09/28/10 18926    STEPS TO LITERACY L 101008111320600  5110     BMT975  CLEAR FRONT        0.00            18.00
+A1003      288990   09/28/10 18926    STEPS TO LITERACY L 101008111320600  5110     COMP 476  COMPREHEN        0.00            18.99
+A1003      288990   09/28/10 18926    STEPS TO LITERACY L 101008111320600  5110     COMP 477 COMPREHENS        0.00            18.99
+A1003      288990   09/28/10 18926    STEPS TO LITERACY L 101008111320600  5110     STL199  HIGHLIGHT H        0.00             4.50
+A1003      288990   09/28/10 18926    STEPS TO LITERACY L 101008111320600  5110     SHIPPING & HANDLING        0.00             9.35
+A1003      288990   09/28/10 18926    STEPS TO LITERACY L 101008111320600  5110     PHO155  GRAPHIC ORG        0.00            32.99
+TOTAL CHECK                                                                                                    0.00           102.82
+A1003      288991   09/28/10 12161    STONE JAMES J       101970293990500  3190     AHSGJV VLYBL 091410        0.00            72.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101012111389500  5210     284−4 INTERACTIVE N        0.00           200.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101012111389500  5210     334−4 − INTERACTIVE        0.00           300.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101012111389500  5210     040X − INTERACTIVE         0.00           264.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101012111389500  5210     SHIPPING AND HANDLI        0.00            87.84
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101016111389500  5210     040X − INTERACTIVE         0.00           528.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101016111389500  5210     260−7 − INTERACTIVE        0.00           332.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101016111389500  5210     284−4 INTERACTIVE N        0.00           364.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101016111389500  5210     334−4 − INTERACTIVE        0.00           546.00
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101016111389500  5210     SHIPPING AND HANDLI        0.00           159.30
+A1003      288992   09/28/10 18778    TEACHERS CURRICULUM 101012111389500  5210     260−7 − INTERACTIVE        0.00           212.00
+TOTAL CHECK                                                                                                    0.00         2,993.14
+A1003      288993   09/28/10 14391    TIM KAISER STUDIOS  101970293000000  5990     STUDENT ATHL PASSES        0.00            20.00
+A1003      288994   09/28/10 12238    TRI COUNTY CUSTOM S 101970293902000  4120     ATHENS FOOTBALL            0.00            60.00
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−07−MI GRADE 4 E        0.00           364.27
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−08−MI GRADE 5 E        0.00           374.25
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−12−MI GRADE 3 M        0.00           354.29
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     ESTIMATED SHIPPING/        0.00           241.56
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−42−MI  GRADE 2         0.00           599.25
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−06−MI GRADE 3 E        0.00           354.29
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−14−MI GRADE 5 M        0.00           369.26
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     TLO−13−MI GRADE 4 M        0.00           374.25
+A1003      288995   09/28/10 13402    TRIUMPH LEARNING    101017111100100  5110     ESTIMATED SHIPPING/        0.00            37.43
+TOTAL CHECK                                                                                                    0.00         3,068.85
+A1003      288996   09/28/10 22806    TWIN LAKES GOLF AND 101970293000000  7910     THSGV GLF 100710           0.00           150.00
+A1003      288998   09/28/10 12284    UNDERWOOD DISTRIBUT 101052112005200  5110     LARSON CALCULATORS         0.00           480.00
+A1003      288999   09/28/10 22273    UNITED RENTALS INC  101570221057000  5990     REPAIRS TO THS LIFT        0.00           342.48
+A1003      288999   09/28/10 22273    UNITED RENTALS INC  101570221057000  5990     REPAIRS TO AHS LIFT        0.00           356.54
+TOTAL CHECK                                                                                                    0.00           699.02
+A1003      289002   09/28/10 24342    VISUAL IDENTITY SOL 101790225031000  5910     OPEN PO FOR THE 201        0.00            77.00
+A1003      289004   09/28/10 24895    WALTERS LARRY       101970293990500  3190     THSBJV FTBL 091610         0.00            97.00
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 101070113340000  5110     14W0525  DISSECTING        0.00            19.56
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 101070113340100  5110     #16−0596 DC AMMETER        0.00            25.50
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 101070113340000  5110     69W5415  PLAIN PRES        0.00           251.84
+58
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 101070113340000  5110     15W2572  PH1−14 TES        0.00            12.52
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 101070113340000  5110     91W7040  ONION MITO        0.00            30.54
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 101071113340100  5110     #16−0596 DC AMMETER        0.00            25.50
+TOTAL CHECK                                                                                                    0.00           365.46
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+A1003      289006   09/28/10 12644    W M U−R R C M       101300283033300  3220     NOV 18&19 CONF FEE         0.00           235.00
+TOTAL CHECK                                                                                                    0.00         2,820.00
+A1003      289009   09/28/10 12434    WORDMASTERS         101051112005100  5110     ENROLLMENT FEES            0.00           190.08
+A1003      289010   09/28/10 12434    WORDMASTERS         101053112320100  5110     BOULAN ENTRANCE FEE        0.00           283.88
+TOTAL CASH ACCOUNT                                                                                             0.00     2,942,576.80
+TOTAL FUND                                                                                                     0.00     2,942,576.80
+59
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 120 − GRANT FUND               
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288538   09/08/10 16749    HAMPTON BROWN CO    120878122230300  5110     97807362 34528 EDGE        0.00           363.85
+A1003      288538   09/08/10 16749    HAMPTON BROWN CO    120878122230300  5110     ESTIMATED SHIPPING/        0.00            43.66
+TOTAL CHECK                                                                                                    0.00           407.51
+A1003      288539   09/08/10 10927    HANNON LINDA        120878122231200  5110     REIMB SP ED P CASH         0.00            16.26
+A1003      288567   09/08/10 25681    NATL TRAINING NETWO 120878122230300  5110     ALGEBRAIC THINKING         0.00           200.47
+A1003      288567   09/08/10 25681    NATL TRAINING NETWO 120878122230300  5110     ALGEBRAIC THINKING         0.00           185.63
+A1003      288567   09/08/10 25681    NATL TRAINING NETWO 120878122230300  5110     ALGEBRAIC THINKING         0.00           193.05
+A1003      288567   09/08/10 25681    NATL TRAINING NETWO 120878122230300  5110     ALGEBRAIC THINKING         0.00           133.65
+A1003      288567   09/08/10 25681    NATL TRAINING NETWO 120878122230300  5110     ALGEBRAIC THINKING         0.00           126.22
+TOTAL CHECK                                                                                                    0.00           839.02
+A1003      288579   09/08/10 11891    RECORDING FOR THE B 120878122230000  5110     LEVEL 3 MEMBERSHIP         0.00           950.00
+A1003      288598   09/08/10 10216    UNATIN JULIE K      120878122230000  3190     C MAPES SVCS               0.00           412.50
+A1003      288763   09/21/10 24217    COMO PEDIATRIC COMM 120878122231200  3190     L RODRIQUEZ                0.00           390.00
+A1003      288769   09/21/10 10531    CURRICULUM ASSOCIAT 120014125601000  5110     FH132 − QUICK WORD         0.00           127.20
+A1003      288769   09/21/10 10531    CURRICULUM ASSOCIAT 120014125601000  5110     SHIPPING & HANDLING        0.00            12.72
+TOTAL CHECK                                                                                                    0.00           139.92
+A1003      288868   09/21/10 19962    SRINIVASAN RENGANAT 120878122231200  3190     8/30−9/3 ESY SERVIC        0.00           200.00
+A1003      288942   09/28/10 10133    J RANDALL & ASSOCIA 120320221601000  3190     PRESENTER FEE              0.00           300.00
+A1003      288965   09/28/10 25681    NATL TRAINING NETWO 120878122230300  5110     ALGEBRAIC THINKING         0.00             7.42
+A1003      288978   09/28/10 24690    COMMUNITY PRODUCTS  120878122230000  5110     R840 MEDIUM ACTIVIT        0.00           747.50
+A1003      289000   09/28/10 10249    UNIVERSITY PEDIATRI 120878221230000  3220     SPEAKER FEES FOR SE        0.00           900.00
+A1003      289000   09/28/10 10249    UNIVERSITY PEDIATRI 120878221230000  3220     MILEAGE FEES FOR SP        0.00            30.00
+TOTAL CHECK                                                                                                    0.00           930.00
+TOTAL CASH ACCOUNT                                                                                             0.00         5,340.13
+TOTAL FUND                                                                                                     0.00         5,340.13
+60
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288499   09/08/10 13227    A T & T             122207261020700  3410     24882896977105/NILE        0.00            39.58
+A1003      288528   09/08/10 25978    ENVIRO CLEAN SERVIC 122207261800100  3193     CLEANING/AUG 10            0.00           915.54
+A1003      288529   09/08/10 26082    FIRST GROUP AMERICA 122090271009000  3311     SP ED                      0.00        51,150.00
+A1003      288529   09/08/10 26082    FIRST GROUP AMERICA 122090271009000  3312     MONITORS                   0.00        14,955.60
+TOTAL CHECK                                                                                                    0.00        66,105.60
+A1003      288544   09/08/10 25120    JUDSON CENTER       122947122319000  8210     2010 SUMMER TUITION        0.00         2,000.00
+A1003      288570   09/08/10 24685    MAYFAIR INSURANCE A 122885213313060  2840     CUSTODIANS/GROUNDS         0.00           231.16
+A1003      288623   09/14/10 10577    D T E ENERGY        122207261020700  5520     NILES 07/27−08/25          0.00           714.93
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 122883261030000  3410     830118533 SP ED            0.00             5.50
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 122885261280000  3410     830118533 NILES            0.00            11.00
+TOTAL CHECK                                                                                                    0.00            16.50
+A1003      288791   09/21/10 26082    FIRST GROUP AMERICA 122090271009000  3311     SP ED                      0.00        43,942.50
+A1003      288791   09/21/10 26082    FIRST GROUP AMERICA 122090271009000  3312     MONITORS                   0.00        14,463.43
+A1003      288791   09/21/10 26082    FIRST GROUP AMERICA 122090271009000  3311     SP ED                      0.00        85,192.65
+A1003      288791   09/21/10 26082    FIRST GROUP AMERICA 122090271009000  3312     MONITORS                   0.00         9,245.28
+TOTAL CHECK                                                                                                    0.00       152,843.86
+A1003      288946   09/28/10 11181    KROGER CO           122017122120000  5110     OPEN PURCHASE ORDER        0.00           137.32
+A1003      288948   09/28/10 11191    LAKESHORE EQUIPMENT 122017122120000  5110     OPEN PURCHASE ORDER        0.00           300.00
+A1003      288987   09/28/10 19962    SRINIVASAN RENGANAT 122885122231200  3190     VISHAL ESY REIMB           0.00           198.00
+TOTAL CASH ACCOUNT                                                                                             0.00       223,502.49
+TOTAL FUND                                                                                                     0.00       223,502.49
+61
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 129 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288514   09/08/10 23468    COLLEGE FOR CREATIV 129202135660700  3710     BOOKS/SUPPLIES             0.00            53.60
+A1003      288559   09/08/10 26210    MEDIA GENESIS INC   129202229660000  3190     SET UP FEE FOR MAIL        0.00           265.00
+A1003      288559   09/08/10 26210    MEDIA GENESIS INC   129202229660000  3190     MONTHLY WEB HOSTING        0.00           750.00
+A1003      288559   09/08/10 26210    MEDIA GENESIS INC   129202229660000  3190     WEBSITE CHANGES            0.00           225.00
+TOTAL CHECK                                                                                                    0.00         1,240.00
+A1003      288676   09/14/10 11665    OAKLAND PRESS       129202282660000  3510     OPEN PO FOR PLACEME        0.00         1,811.25
+A1003      288722   09/21/10 13227    A T & T             129202229660000  3410     248R1007581075/TCC         0.00           220.00
+A1003      288731   09/21/10 13227    A T & T             129202229660000  3410     248R1006911067/MIWR        0.00           220.00
+A1003      288736   09/21/10 13227    A T & T             129202229660000  3410     24873316958203 MI W        0.00           165.50
+A1003      288856   09/21/10 19853    ROBBINS INVESTMENTS 129202261660000  3890     ACCT#RE6−0400              0.00           211.54
+A1003      288856   09/21/10 19853    ROBBINS INVESTMENTS 129202261660000  3890     ACCT# RE6−0400−1           0.00           114.80
+TOTAL CHECK                                                                                                    0.00           326.34
+A1003      288883   09/21/10 14166    U S TRUCK DRIVER TR 129202135660700  3710     ROBERT MCGILL − TUI        0.00         4,000.00
+A1003      288890   09/21/10 12370    WAYNE STATE UNIVERS 129202135660700  3710     JEAN SNYDER − TUITI        0.00         2,500.00
+A1003      288895   09/28/10 13227    A T & T             129202229660000  3410     24873316921565/TCC         0.00           279.06
+A1003      288895   09/28/10 13227    A T & T             129202229660000  3410     TAX EXEMPT 38−60030        0.00           −17.04
+TOTAL CHECK                                                                                                    0.00           262.02
+A1003      288904   09/28/10 10082    AMER RED CROSS      129202135662000  3210     LAKEIBA HATTEN − TU        0.00         1,050.00
+A1003      288904   09/28/10 10082    AMER RED CROSS      129202135662000  3210     TESTING FEE                0.00           227.00
+TOTAL CHECK                                                                                                    0.00         1,277.00
+A1003      288919   09/28/10 10477    CONSULTING PSYCHOLO 129202135660000  5110     SKILLSONE SITE RENE        0.00           195.00
+A1003      288953   09/28/10 26210    MEDIA GENESIS INC   129202229660000  3190     MONTHLY FEE FOR MAI        0.00            20.00
+A1003      288979   09/28/10 19853    ROBBINS INVESTMENTS 129202261660000  4210     RENT − SUITE 410           0.00         2,461.67
+A1003      288979   09/28/10 19853    ROBBINS INVESTMENTS 129202261660000  4210     RENT − SUITE 308           0.00         3,175.00
+A1003      288979   09/28/10 19853    ROBBINS INVESTMENTS 129202261660000  4210     RENT − SUITE 400           0.00        12,393.25
+TOTAL CHECK                                                                                                    0.00        18,029.92
+TOTAL CASH ACCOUNT                                                                                             0.00        30,320.63
+TOTAL FUND                                                                                                     0.00        30,320.63
+62
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288530   09/08/10 13819    FORESITE DESIGN INC 404070456405100  3190     THS TENNIS COURTS          0.00         2,921.50
+A1003      288541   09/08/10 22294    INTERLAKE LANDSCAPI 404050452414000  6305     SITE IMPROVEMENTS T        0.00         4,850.00
+A1003      288545   09/08/10 21400    KERN ENTERPRISES    404071456324000  6220     CHANGE ORDER #1 − A        0.00         3,480.00
+A1003      288564   09/08/10 21487    MID THUMB AUCTIONEE 404053459641000  6410     DEMO OF OLD MUSIC C        0.00           650.00
+A1003      288566   09/08/10 15209    NAGLE PAVING COMPAN 404016452415000  6310     PAVING PER BID SPEC        0.00       102,500.00
+A1003      288566   09/08/10 15209    NAGLE PAVING COMPAN 404200452415000  6310     CHANGE ORDER #1 − H        0.00           507.58
+A1003      288566   09/08/10 15209    NAGLE PAVING COMPAN 404200452415000  6310     PAVING PER BID SPEC        0.00       162,877.64
+A1003      288566   09/08/10 15209    NAGLE PAVING COMPAN 404200452415000  6310     CHANGE ORDER #1 − A        0.00        13,104.78
+TOTAL CHECK                                                                                                    0.00       278,990.00
+A1003      288611   09/14/10 10101    ASPHALT SPECIALISTS 404051452415000  6310     TO COVER COST OF RE        0.00         1,900.00
+A1003      288619   09/14/10 22500    CONVENTIONAL CARPET 404071456635300  6220     FLOORING DEMOLITION        0.00        72,207.82
+A1003      288656   09/14/10 12865    MECHANICAL CONTROLS 404071456801600  6220     FURNISH AND INSTALL        0.00         3,358.06
+A1003      288656 V 09/14/10 12865    MECHANICAL CONTROLS 404071456801600  6220     FURNISH AND INSTALL        0.00        −3,358.06
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003      288682   09/14/10 25619    ROLAR PROPERTY SERV 404014452881600  6310     PLAYGROUND SURFACIN        0.00         7,800.00
+A1003      288684   09/14/10 10379    V W R INTERNATIONAL 404070459647000  6410     #WLS−1759−94 LIEBIG        0.00           198.80
+A1003      288684   09/14/10 10379    V W R INTERNATIONAL 404070459647000  6410     #WLS−10608−C  50ML         0.00           140.36
+A1003      288684   09/14/10 10379    V W R INTERNATIONAL 404070459647000  6410     #WLS−2647−10B ELECT        0.00           300.96
+A1003      288684   09/14/10 10379    V W R INTERNATIONAL 404070459647000  6410     SHIPPING                   0.00            76.81
+TOTAL CHECK                                                                                                    0.00           716.93
+A1003      288695   09/14/10 10177    STAPLES ADVANTAGE   404902459641000  6410     TENNSCO 78H X 36W X        0.00           268.00
+A1003      288695   09/14/10 10177    STAPLES ADVANTAGE   404160459641000  6410     TENNSCO 78H X 36W X        0.00           268.00
+A1003      288695   09/14/10 10177    STAPLES ADVANTAGE   404902459641000  6410     TENNSCO MDL# CK24−L        0.00            65.00
+A1003      288695   09/14/10 10177    STAPLES ADVANTAGE   404160459641000  6410     FREIGHT CHARGES            0.00           100.00
+A1003      288695   09/14/10 10177    STAPLES ADVANTAGE   404160459641000  6410     TENNSCO MDL# CK24−L        0.00            65.00
+A1003      288695   09/14/10 10177    STAPLES ADVANTAGE   404902459641000  6410     FREIGHT CHARGES            0.00            99.99
+TOTAL CHECK                                                                                                    0.00           865.99
+A1003      288764   09/21/10 22500    CONVENTIONAL CARPET 404054456635300  6220     CHANGE ORDER #1 − R        0.00         3,211.40
+A1003      288810   09/21/10 24691    J B ELECTRICAL CO   404052456420000  6220     LIGHTING REPLACEMEN        0.00        10,708.20
+A1003      288810   09/21/10 24691    J B ELECTRICAL CO   404053456420000  6220     LIGHTING REPLACEMEN        0.00         6,792.30
+A1003      288810   09/21/10 24691    J B ELECTRICAL CO   404071456324000  6220     LIGHTING REPLACEMEN        0.00        20,139.30
+A1003      288810   09/21/10 24691    J B ELECTRICAL CO   404071456324000  6220     FLOOR BOX WITH INST        0.00           802.35
+TOTAL CHECK                                                                                                    0.00        38,442.15
+A1003      288834   09/21/10 21487    MID THUMB AUCTIONEE 404071456324000  6220     RETURN MEDIA BOOKS         0.00         2,475.00
+A1003      288859   09/21/10 25619    ROLAR PROPERTY SERV 404011452881600  6310     PLAYGROUND SURFACIN        0.00         6,260.00
+A1003      288859   09/21/10 25619    ROLAR PROPERTY SERV 404013452881600  6310     PLAYGROUND SURFACIN        0.00         7,140.00
+A1003      288859   09/21/10 25619    ROLAR PROPERTY SERV 404017452881600  6310     PLAYGROUND SURFACIN        0.00         6,550.00
+A1003      288859   09/21/10 25619    ROLAR PROPERTY SERV 404015452881600  6310     PLAYGROUND SURFACIN        0.00         6,110.00
+63
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00        26,060.00
+A1003      288908   09/28/10 19186    AVENTRIC TECHNOLOGI 404052459641000  6410     LIFEPAK CR PLUA AED        0.00         1,230.00
+A1003      288908   09/28/10 19186    AVENTRIC TECHNOLOGI 404053459641000  6410     LIFEPAK CR PLUA AED        0.00         1,230.00
+A1003      288908   09/28/10 19186    AVENTRIC TECHNOLOGI 404070459641000  6410     LIFEPAK CR PLUA AED        0.00         1,230.00
+A1003      288908   09/28/10 19186    AVENTRIC TECHNOLOGI 404050459641000  6410     LIFEPAK CR PLUA AED        0.00         1,230.00
+A1003      288908   09/28/10 19186    AVENTRIC TECHNOLOGI 404051459641000  6410     LIFEPAK CR PLUA AED        0.00         1,230.00
+A1003      288908   09/28/10 19186    AVENTRIC TECHNOLOGI 404071459641000  6410     LIFEPAK CR PLUA AED        0.00         1,230.00
+TOTAL CHECK                                                                                                    0.00         7,380.00
+A1003      288980   09/28/10 10379    V W R INTERNATIONAL 404070459647000  6410     SHIPPING                   0.00            37.96
+A1003      288980   09/28/10 10379    V W R INTERNATIONAL 404070459647000  6410     SHIPPING                   0.00            49.51
+A1003      288980   09/28/10 10379    V W R INTERNATIONAL 404070459647000  6410     #WL6682PH PASCO PH         0.00           316.36
+A1003      288980   09/28/10 10379    V W R INTERNATIONAL 404070459647000  6410     #WLS−41059−06A HOT         0.00           412.59
+TOTAL CHECK                                                                                                    0.00           816.42
+A1003      289001   09/28/10 25188    VERNIER SOFTWARE &  404054459340000  6410     #BLK BUMPER AND LAU        0.00           863.30
+A1003      289001   09/28/10 25188    VERNIER SOFTWARE &  404054459340000  6410     #CBT EXERCISE HEART        0.00            96.00
+A1003      289001   09/28/10 25188    VERNIER SOFTWARE &  404054459340000  6410     #LABQ LABQUEST             0.00         3,289.00
+A1003      289001   09/28/10 25188    VERNIER SOFTWARE &  404054459340000  6410     #PAMP POWER AMPLIFI        0.00         1,930.30
+TOTAL CHECK                                                                                                    0.00         6,178.60
+A1003      289005   09/28/10 12360    WARDS NATURAL SCIEN 404054459340000  6410     #16−9986 RADIATION         0.00           462.00
+TOTAL CASH ACCOUNT                                                                                             0.00       459,407.81
+TOTAL FUND                                                                                                     0.00       459,407.81
+64
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00           210.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00           140.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00           140.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00           140.00
+A1003      288532   09/08/10 21460    GALLAGHER FIRE EQUI 520902257813000  4120     COVER COST OF PERFO        0.00            70.00
+TOTAL CHECK                                                                                                    0.00         1,540.00
+A1003      288546   09/08/10 12879    LESNAU PRINTING CO  520950297097100  5990     DISTRICT FD SVC            0.00           275.00
+A1003      288546   09/08/10 12879    LESNAU PRINTING CO  520950297097100  5990     DISTRICT FD SVC            0.00         1,748.00
+TOTAL CHECK                                                                                                    0.00         2,023.00
+A1003      288603   09/08/10 20401    YIJUN TU            520013256091800  5992     LUNCH ACCT REFUND          0.00           375.00
+A1003      288604   09/08/10 12461    YOUNG SUPPLY COMPAN 520902257859100  5990     SUPPLY PARTS AS NEE        0.00           164.91
+A1003      288604   09/08/10 12461    YOUNG SUPPLY COMPAN 520902257859100  5990     SUPPLY PARTS AS NEE        0.00           149.70
+TOTAL CHECK                                                                                                    0.00           314.61
+A1003      288617   09/14/10 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE VENDING RENT        0.00            45.00
+A1003      288617   09/14/10 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE VENDING RENT        0.00            45.00
+TOTAL CHECK                                                                                                    0.00            90.00
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FD SVC           0.00            23.50
+A1003      288743   09/21/10 20401    ANN MARIE GARVIN    520009256091800  5992     LUNCH ACCT REFUND          0.00            31.75
+A1003      288837   09/21/10 20401    NANCY BERNHARDT     520052256091800  5992     LUNCH ACCT REF             0.00            30.00
+A1003      288864   09/21/10 20401    SEEMA RAUT          520016256091800  5992     LUNCH ACCT REFUND          0.00           186.50
+A1003      288878   09/21/10 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED SERVICE 8/1        0.00            39.00
+A1003      288894   09/21/10 12461    YOUNG SUPPLY COMPAN 520902257859100  5990     SUPPLY PARTS AS NEE        0.00           113.50
+A1003      288894   09/21/10 12461    YOUNG SUPPLY COMPAN 520902257859100  5990     SUPPLY PARTS AS NEE        0.00            43.60
+TOTAL CHECK                                                                                                    0.00           157.10
+TOTAL CASH ACCOUNT                                                                                             0.00         4,810.46
+TOTAL FUND                                                                                                     0.00         4,810.46
+65
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288499   09/08/10 13227    A T & T             530213351030000  3410     24882896977105/NILE        0.00             7.69
+A1003      288499   09/08/10 13227    A T & T             530211351030000  3410     24882896977105/NILE        0.00             7.69
+A1003      288499   09/08/10 13227    A T & T             530201311030000  3410     24882896977105/NILE        0.00            10.99
+TOTAL CHECK                                                                                                    0.00            26.37
+A1003      288528   09/08/10 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     CLEANING/AUG 10            0.00           178.02
+A1003      288528   09/08/10 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     CLEANING/AUG 10            0.00           254.32
+A1003      288528   09/08/10 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     CLEANING/AUG 10            0.00           178.02
+TOTAL CHECK                                                                                                    0.00           610.36
+A1003      288535   09/08/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            27.59
+A1003      288535   09/08/10 10852    GORDON FOOD SERVICE 530213351021300  5990     PLEASE OPEN A PURCH        0.00            16.55
+A1003      288535   09/08/10 10852    GORDON FOOD SERVICE 530211351021100  5990     PLEASE OPEN A PURCH        0.00             5.52
+TOTAL CHECK                                                                                                    0.00            49.66
+A1003      288540   09/08/10 24050    HURON CLINTON METRO 530212351021200  3190     CARE FIELD TRIP            0.00           124.50
+A1003      288570   09/08/10 24685    MAYFAIR INSURANCE A 530212351094660  2840     CUSTODIANS/GROUNDS         0.00           812.25
+A1003      288623   09/14/10 10577    D T E ENERGY        530201311030000  5520     NILES 07/27−08/25          0.00           198.59
+A1003      288623   09/14/10 10577    D T E ENERGY        530213351030000  5520     NILES 07/27−08/25          0.00           139.01
+A1003      288623   09/14/10 10577    D T E ENERGY        530211351030000  5520     NILES 07/27−08/25          0.00           139.01
+TOTAL CHECK                                                                                                    0.00           476.61
+A1003      288645   09/14/10 21400    KERN ENTERPRISES    530211351021100  3190     TO PAINT CLASSROOM         0.00         2,362.00
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             1.98
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.88
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 530212351030000  3410     830118533 NILES            0.00             2.19
+A1003      288738   09/21/10 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 NILES            0.00             0.55
+TOTAL CHECK                                                                                                    0.00             6.60
+A1003      288751   09/21/10 10340    C & G PUBLISHING IN 530201311020400  3610     OPEN PURCHASE ORDER        0.00         6,238.21
+A1003      288753   09/21/10 24848    C P R PLUS          530212351021200  3139     PLEASE OPEN A PURCH        0.00            70.69
+A1003      288753   09/21/10 24848    C P R PLUS          530211351021100  3139     PLEASE OPEN A PURCH        0.00            11.85
+A1003      288753   09/21/10 24848    C P R PLUS          530213351021300  3139     PLEASE OPEN A PURCH        0.00            17.46
+TOTAL CHECK                                                                                                    0.00           100.00
+A1003      288754   09/21/10 10042    CAIUS SIRBU         530212000100000  R1810    CARE CO REFUND             0.00            17.80
+A1003      288780   09/21/10 10042    DIANE WISNIEWSKI    530201000100000  R1810    ADULT ED CLASS REFU        0.00           112.00
+A1003      288785   09/21/10 20600    EDUCATION TO GO     530201311020000  3190     CONTRACTED SERVICES        0.00           311.25
+A1003      288798   09/21/10 10852    GORDON FOOD SERVICE 530211351021100  5990     PLEASE OPEN A PURCH        0.00             6.40
+A1003      288798   09/21/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            56.74
+A1003      288798   09/21/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            31.99
+A1003      288798   09/21/10 10852    GORDON FOOD SERVICE 530213351021300  5990     PLEASE OPEN A PURCH        0.00            19.20
+A1003      288798   09/21/10 10852    GORDON FOOD SERVICE 530213351021300  5990     PLEASE OPEN A PURCH        0.00            34.05
+A1003      288798   09/21/10 10852    GORDON FOOD SERVICE 530211351021100  5990     PLEASE OPEN A PURCH        0.00            11.35
+TOTAL CHECK                                                                                                    0.00           159.73
+66
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288814   09/21/10 22851    JANSSEN ANDREA      530201311020000  3190     CONTRACTED SERVICES        0.00            33.00
+A1003      288834   09/21/10 21487    MID THUMB AUCTIONEE 530212351800100  3193     MOVE CARE CO SUMMER        0.00           750.00
+A1003      288866   09/21/10 10042    SHERRYANN NGUYEN    530212000100000  R1810    CARE CO REFUND             0.00           135.28
+A1003      288878   09/21/10 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00            91.00
+A1003      288886   09/21/10 10042    USHA KRISHNAKUMAR   530212000100000  R1810    CARE REFUND                0.00            58.80
+A1003      288914   09/28/10 24848    C P R PLUS          530211351021100  3139     PLEASE OPEN A PURCH        0.00            50.00
+A1003      288914   09/28/10 24848    C P R PLUS          530213351021300  3139     PLEASE OPEN A PURCH        0.00            35.00
+TOTAL CHECK                                                                                                    0.00            85.00
+A1003      288923   09/28/10 10042    DIANE WISNIEWSKI    530201000100000  R1810    NILES CLASS REFUND         0.00            99.00
+A1003      288929   09/28/10 10042    FARHANA NILA        530201000100000  R1810    NILES CLASS REFUND         0.00            99.00
+A1003      288935   09/28/10 10852    GORDON FOOD SERVICE 530213351021300  5990     PLEASE OPEN A PURCH        0.00            37.61
+A1003      288935   09/28/10 10852    GORDON FOOD SERVICE 530211351021100  5990     PLEASE OPEN A PURCH        0.00            12.54
+A1003      288935   09/28/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            62.69
+TOTAL CHECK                                                                                                    0.00           112.84
+TOTAL CASH ACCOUNT                                                                                             0.00        12,871.26
+TOTAL FUND                                                                                                     0.00        12,871.26
+67
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288503   09/08/10 12557    AMER MATHEMATICS CO 700052299700000  5000     LARSON 11−16 REGIS         0.00            66.00
+A1003      288516   09/08/10 15586    CONTINENTAL MATH LE 700052299700000  5000     MSHIP RENEWAL LARSO        0.00           225.00
+A1003      288531   09/08/10 10792    G T JERSEYS         700071399909700  5000     BASEBALL BAGS              0.00           141.00
+A1003      288534   09/08/10 10086    GEORGE & JESSY JOSE 700074399681000  5000     REF BOOK FEES              0.00           300.00
+A1003      288543   09/08/10 18638    JONES JAMES E       700052299700000  5000     LARSON ASSEMBLY            0.00           500.00
+A1003      288549   09/08/10 10086    LUTFUL & RUBINA CHO 700074399681000  5000     REF BOOK FEES              0.00           150.00
+A1003      288557   09/08/10 20442    MATH OLYMPIAD FOR E 700052299700000  5000     LARSON MATH OLYMP          0.00           178.00
+A1003      288568   09/08/10 11617    NEFF MOTIVATION INC 700051299990000  5000     SMITH AWARDS               0.00           164.40
+A1003      288583   09/08/10 21190    SAMI’S ENGRAVING &  700070399905000  5000     BOYS TENNIS                0.00           299.00
+A1003      288584   09/08/10 14922    MORRIS PRINTING GRO 700051299700000  5000     SHIPPING                   0.00           280.00
+A1003      288584   09/08/10 14922    MORRIS PRINTING GRO 700051299700000  5000     STUDENT HANDBOOK (8        0.00           192.00
+A1003      288584   09/08/10 14922    MORRIS PRINTING GRO 700051299700000  5000     STUDENT AGENDAS, PE        0.00         2,160.00
+TOTAL CHECK                                                                                                    0.00         2,632.00
+A1003      288591   09/08/10 24735    T SHIRT LADY (THE)  700070399700000  5000     9TH GRADE T−SHIRTS         0.00           525.00
+A1003      288599   09/08/10 26118    VALLEY NATIONAL GAS 700071399524000  5000     OPEN PO FOR ATHENS         0.00             9.90
+A1003      288625   09/14/10 10238    DOSPIL CAROL        700017199393000  5000     COOKS DAIRY ADVANCE        0.00           365.00
+A1003      288628   09/14/10 10643    E M C /PARADIGM PUB 700070399703800  5000     978−8−85361−015−7          0.00            10.95
+A1003      288628   09/14/10 10643    E M C /PARADIGM PUB 700070399703800  5000     978−8−85360−951−9          0.00            19.95
+A1003      288628   09/14/10 10643    E M C /PARADIGM PUB 700070399703800  5000     978−8−85360−137−7          0.00            37.95
+A1003      288628   09/14/10 10643    E M C /PARADIGM PUB 700070399703800  5000     S&H                        0.00            10.68
+A1003      288628   09/14/10 10643    E M C /PARADIGM PUB 700070399703800  5000     978−8−85360−014−1          0.00            37.95
+TOTAL CHECK                                                                                                    0.00           117.48
+A1003      288629   09/14/10 10086    EDUARDO & TANIA PIN 700074399681000  5000     IAE BOOK FEE REFUND        0.00           150.00
+A1003      288660   09/14/10 12547    MARSHALL MUSIC CO   700590699732500  5000     FINE ARTS SCHOLARSH        0.00           200.00
+A1003      288663   09/14/10 23537    METROPOLITAN PUBLIS 700071399902000  5000     OPEN P.O. FOR PROGR        0.00         1,000.00
+A1003      288665   09/14/10 11444    MI INTERSCHOLASTIC  700070399323500  5000     10/11 MBRSHP DUES          0.00            87.50
+A1003      288666   09/14/10 19797    MI MATHEMATICS PRIZ 700074399330100  5000     REGISTRATION FEE           0.00           188.00
+A1003      288668   09/14/10 11468    MI SCIENCE OLYMPIAD 700071399340000  5000     REGIS FEE ATHENS           0.00           275.00
+A1003      288673   09/14/10 14652    NATL SATELLITE CORP 700070399990000  5000     TROYHIGH SERVICE           0.00           430.00
+A1003      288683   09/14/10 11946    RYDER TRANSPORTATIO 700070399351300  5000     CAMP/RYDER TRUCK RE        0.00           478.87
+68
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288689   09/14/10 20715    SIGNATURE SPORTS &  700071399992000  5000     ATHENS ATHL WEAR           0.00           353.00
+A1003      288693   09/14/10 23167    STACY’S GOLF CENTER 700070399990000  5000     TROY HIGH GOLF BALL        0.00           228.00
+A1003      288698   09/14/10 12568    SUCCESS BY DESIGN I 700071399736500  5000     CUSTOM/OPTIONS COST        0.00           320.00
+A1003      288698   09/14/10 12568    SUCCESS BY DESIGN I 700071399736500  5000     5080A − CUSTOM TEXT        0.00         6,144.00
+TOTAL CHECK                                                                                                    0.00         6,464.00
+A1003      288701   09/14/10 17712    TEXTBOOK WAREHOUSE  700070399703800  5000     978−0−8120−3573−5          0.00           204.30
+A1003      288701   09/14/10 17712    TEXTBOOK WAREHOUSE  700070399703800  5000     978−0−8120−3572−5          0.00           204.30
+TOTAL CHECK                                                                                                    0.00           408.60
+A1003      288702   09/14/10 10236    TINCKNELL RACHEL    700071399902000  5000     PRIDE CAMP                 0.00           537.50
+A1003      288703   09/14/10 15979    TOTAL T’S           700071399900000  5000     PRACTICE T−SHIRTS          0.00         1,161.50
+A1003      288703   09/14/10 15979    TOTAL T’S           700071399900000  5000     PROGRAM LONG SLEEVE        0.00           463.75
+TOTAL CHECK                                                                                                    0.00         1,625.25
+A1003      288706   09/14/10 10224    TROUP ELECTRONICS I 700071399902000  5000     LIGHTWEIGHT HEADSET        0.00           130.00
+A1003      288706   09/14/10 10224    TROUP ELECTRONICS I 700071399902000  5000     4 NFL HEAVY DUTY HE        0.00           840.00
+A1003      288706   09/14/10 10224    TROUP ELECTRONICS I 700071399902000  5000     HT750 RADIOS               0.00         3,500.00
+A1003      288706   09/14/10 10224    TROUP ELECTRONICS I 700071399902000  5000     SHIPPING                   0.00            42.00
+A1003      288706   09/14/10 10224    TROUP ELECTRONICS I 700071399902000  5000     SPEAKER MIKES              0.00           120.00
+TOTAL CHECK                                                                                                    0.00         4,632.00
+A1003      288707   09/14/10 10413    TROY CITY OF        700071399718000  5000     PARADE PERMIT−ATHEN        0.00            50.00
+A1003      288708   09/14/10 26049    TROY CITY OF/GOLF D 700070399903800  5000     TROY HIGH GIRLS GOL        0.00           264.00
+A1003      288709   09/14/10 13090    TROY RACQUET CLUB   700071399905800  5000     TENNIS COURT BILL−         0.00            70.00
+A1003      288709   09/14/10 13090    TROY RACQUET CLUB   700070399905800  5000     TENNIS COURT BILL−T        0.00           190.00
+TOTAL CHECK                                                                                                    0.00           260.00
+A1003      288746   09/21/10 10151    BAINES BRIAN K      700071399992000  5000     TR RM SUPPLIES REIM        0.00           120.31
+A1003      288749   09/21/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     380190 COACHES CAP         0.00            18.42
+A1003      288749   09/21/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     380181 PLAYERS TRAI        0.00           257.81
+A1003      288749   09/21/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     380180 PLAY ACTION         0.00           662.94
+A1003      288749   09/21/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     381957 WOMEN’S KICK        0.00           658.34
+A1003      288749   09/21/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     380197 WOMEN’S POWE        0.00           598.49
+TOTAL CHECK                                                                                                    0.00         2,196.00
+A1003      288750   09/21/10 24061    BLOOMFIELD TENNIS   700070399905000  5000     BOYS TENNIS                0.00           198.75
+A1003      288750   09/21/10 24061    BLOOMFIELD TENNIS   700070399905000  5000     BOYS TENNIS                0.00           180.00
+TOTAL CHECK                                                                                                    0.00           378.75
+A1003      288752   09/21/10 10344    COMPETITIVE CHEER C 700070399900000  5000     THS CHEER                  0.00           225.00
+A1003      288760   09/21/10 10422    CLASSIC TROPHIES    700070399905000  5000     TROPHIES                   0.00           798.66
+A1003      288762   09/21/10 13775    COLLEGE BOARD MRO   700070399703800  5000     11−9−10 AP WKSHP           0.00           200.00
+A1003      288762   09/21/10 13775    COLLEGE BOARD MRO   700070399703800  5000     11−9−10 HISTORY            0.00           200.00
+69
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288762   09/21/10 13775    COLLEGE BOARD MRO   700070399703800  5000     11−10−10 AP FRENCH         0.00           200.00
+A1003      288762   09/21/10 13775    COLLEGE BOARD MRO   700070399703800  5000     11−10−10 AP PSYCH          0.00           200.00
+A1003      288762   09/21/10 13775    COLLEGE BOARD MRO   700070399703800  5000     11−10−10 AP SPANISH        0.00           200.00
+A1003      288762   09/21/10 13775    COLLEGE BOARD MRO   700070399703800  5000     11−9−10 AP HISTORY         0.00           200.00
+TOTAL CHECK                                                                                                    0.00         1,200.00
+A1003      288795   09/21/10 10792    G T JERSEYS         700070399900000  5000     CHEER                      0.00            80.00
+A1003      288800   09/21/10 25948    GREEN PASTURE ENTER 700070399703900  5000     THS GARDENS                0.00           285.00
+A1003      288806   09/21/10 11039    IMPRESSION CENTER   700070399990000  5000     CHEER                      0.00           316.00
+A1003      288812   09/21/10 19994    DEBORAH’S STAGE DOO 700070399900000  5000     CHEER APPAREL              0.00           601.29
+A1003      288828   09/21/10 12547    MARSHALL MUSIC CO   700596699351300  5000     SUMMER BAND                0.00            14.32
+A1003      288828   09/21/10 12547    MARSHALL MUSIC CO   700596699351300  5000     SUMMER BAND                0.00            93.08
+A1003      288828   09/21/10 12547    MARSHALL MUSIC CO   700596699351300  5000                                0.00            28.64
+A1003      288828   09/21/10 12547    MARSHALL MUSIC CO   700596699351300  5000     SUMMER BAND                0.00           432.36
+TOTAL CHECK                                                                                                    0.00           568.40
+A1003      288840   09/21/10 10132    NITA BHATNAGAR      700071399372000  5000     AP TEST REFUND             0.00            73.00
+A1003      288843   09/21/10 13635    OAKLAND ACTIVITIES  700071399700000  5000     OAA DUES FOR 2010−1        0.00           640.00
+A1003      288848   09/21/10 10197    PARK EUN            700590699732500  5000     S LIN SCHOLARSHIP          0.00           200.00
+A1003      288849   09/21/10 10132    PATTI AURUND        700071399902000  5000     V FOOTBALL REIMB           0.00           226.75
+A1003      288851   09/21/10 11768    HERTZBERG NEW METHO 700015199708000  5000     BEMIS BOOKS                0.00            27.24
+A1003      288851   09/21/10 11768    HERTZBERG NEW METHO 700015199708000  5000     BEMIS BOOKS                0.00            62.43
+TOTAL CHECK                                                                                                    0.00            89.67
+A1003      288855   09/21/10 21630    ALL AMERICAN SPORTS 700071399992000  5000     ATHENS ATHLETICS           0.00         1,639.06
+A1003      288872   09/21/10 24735    T SHIRT LADY (THE)  700050299700000  5000     GREEN STRING BAGS          0.00           153.48
+A1003      288872   09/21/10 24735    T SHIRT LADY (THE)  700050299700000  5000     BLACK STRING BAGS          0.00           153.47
+A1003      288872   09/21/10 24735    T SHIRT LADY (THE)  700050299700000  5000     DEPOSIT                    0.00           193.05
+TOTAL CHECK                                                                                                    0.00           500.00
+A1003      288882   09/21/10 12265    TROY YOUTH ASSISTAN 700070399700000  5000     RONCONE− B’FAST MTG        0.00             8.00
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     VSF 2 COLOR BLOCK          0.00           325.50
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     CUSTOM POMS                0.00           826.20
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     36" MEGAPHONE              0.00           247.60
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     BLACK SKORTS               0.00           341.10
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     SCREENPRINTING             0.00            56.00
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     SHIPPING/HANDLING          0.00           136.00
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     LARGE TOTE BAGS            0.00           517.30
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     SHIPPING/HANDLING          0.00           246.40
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     A−LINE MESH DRESS          0.00         1,321.95
+A1003      288885   09/21/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     SKORT & SHIPPING           0.00            25.45
+TOTAL CHECK                                                                                                    0.00         4,043.50
+70
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288892   09/21/10 19723    WILMAC TOURS INC    700052299700000  5000     5 BUSES LARSON             0.00         2,500.00
+A1003      288893   09/21/10 21063    Y M C A  OF GREATER 700008199719400  5000     LEONARD DEPOSIT            0.00         4,711.00
+A1003      288903   09/28/10 10083    AMER RED CROSS/SE M 700970699990000  5000     LIFEGUARD TRAINING         0.00            63.00
+A1003      288905   09/28/10 19456    AQUARIUM SHINE      700005199700000  5000     T UNION/MAINT              0.00            90.00
+A1003      288916   09/28/10 10422    CLASSIC TROPHIES    700070399910800  5000     TROYHIGH TROPHIES          0.00           108.25
+A1003      288916   09/28/10 10422    CLASSIC TROPHIES    700070399990000  5000     TROY HIGH ATHLETICS        0.00           135.50
+TOTAL CHECK                                                                                                    0.00           243.75
+A1003      288920   09/28/10 19705    CUSTOM COFFEE SERVI 700010199700000  5000     HILL H20 COOLER            0.00            35.00
+A1003      288922   09/28/10 19466    DETROIT METRO SKATI 700070399921000  5000     TROY HIGH ENTRYFEES        0.00           100.00
+A1003      288932   09/28/10 14721    FRIENDS OF THE ROUG 700051299805300  5000     FAIR SHARE CONTRIBU        0.00            50.00
+A1003      288933   09/28/10 10792    G T JERSEYS         700070399900000  5000     THS CHEER TEAM GLOV        0.00           205.00
+A1003      288941   09/28/10 11039    IMPRESSION CENTER   700070399718000  5000     OPEN P.O. FOR CAMP         0.00           288.75
+A1003      288944   09/28/10 21590    JAM FEST            700052299700000  5000     JAM FEST ATTENDANCE        0.00           130.00
+A1003      288945   09/28/10 21590    JAM FEST            700053299700000  5000     JAM FEST ATTENDANCE        0.00            95.00
+A1003      288949   09/28/10 11242    LIBRARY VIDEO COMPA 700012199708000  5000     COSTELLO DVDS              0.00            96.80
+A1003      288957   09/28/10 11468    MI SCIENCE OLYMPIAD 700052299700000  5000     LARSON REGIS               0.00           215.00
+A1003      288958   09/28/10 10167    MICHAEL A FAIR      700590699732500  5000     FINE ARTS SCHOLARSH        0.00           175.00
+A1003      288959   09/28/10 25163    MODER CHERYL        700052299700000  5000     PETTY CASH REIMB           0.00            76.03
+A1003      288963   09/28/10 14204    NATL LANGUAGE ARTS  700050299700000  5000     BAKER APP RENEWAL          0.00            95.00
+A1003      288971   09/28/10 10089    FUN FITNESS LLC     700070399900000  5000     ZUMBA FITNESS              0.00           787.50
+A1003      288981   09/28/10 25254    SCRIPPS NATL SPELLI 700050299700000  5000     BAKER #129741−0142         0.00           106.50
+A1003      288997   09/28/10 20687    U S FIGURE SKATING  700070399921000  5000     TROY HIGH MEMBERSHP        0.00            30.00
+A1003      289003   09/28/10 23470    WALSWORTH PUBLISHIN 700074399323500  5000     INTL ACADEMY EAST          0.00         2,597.20
+A1003      289007   09/28/10 19723    WILMAC TOURS INC    700053299700000  5000     MOTOR COACH TRAVEL         0.00         2,250.00
+A1003      289008   09/28/10 12434    WORDMASTERS         700050299700000  5000     REGISTRATION FEES          0.00           281.88
+TOTAL CASH ACCOUNT                                                                                             0.00        52,716.30
+TOTAL FUND                                                                                                     0.00        52,716.30
+71
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+72
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   48
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288513   09/08/10 10433    COCA−COLA ENTERPRIS 701052299697100  5000     LARSON POP                 0.00            60.90
+A1003      288539   09/08/10 10927    HANNON LINDA        701885699697100  5000     REIMB SP ED P CASH         0.00            10.35
+A1003      288539   09/08/10 10927    HANNON LINDA        701885699697100  5000     REIMB SP ED P CASH         0.00            73.73
+TOTAL CHECK                                                                                                    0.00            84.08
+A1003      288617   09/14/10 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR TROY         0.00            56.50
+A1003      288917   09/28/10 10433    COCA−COLA ENTERPRIS 701053299697100  5000     BOULAN− PURCHASE           0.00           334.20
+A1003      288959   09/28/10 25163    MODER CHERYL        701052299697100  5000     PETTY CASH REIMB           0.00            38.37
+TOTAL CASH ACCOUNT                                                                                             0.00           574.05
+TOTAL FUND                                                                                                     0.00           574.05
+73
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   49
+DATE: 10/06/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 07:16:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.check_no>’2*’ and transact.ck_date between ’09/01/2010’ and ’09/30/2010’
+ACCOUNTING PERIOD:  4/11
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      288572   09/08/10 11668    OAKLAND SCHOOLS     750668599740100  5000     SUMMER COSEMETOLOGY        0.00           200.00
+A1003      288651   09/14/10 10168    FIREBRICK GALLERY & 750590599743800  5000     F/A SCHOLARSHIP            0.00           100.00
+A1003      288767   09/21/10 10234    CREATIVE ARTS STUDI 750590599741400  5000     E RHODES SCHOLARSHI        0.00           150.00
+A1003      288819   09/21/10 10160    LADIO DIANA         750071599743100  5000     S WATSON SCHOLARSHI        0.00           400.00
+TOTAL CASH ACCOUNT                                                                                             0.00           850.00
+TOTAL FUND                                                                                                     0.00           850.00
+TOTAL REPORT                                                                                                   0.00     3,732,969.93
+74
+Troy School District, ACH Debits, September 2010
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ACE09301101200261030000 5510 $5.49 CONSUMERS SEPT 10
+ACE09301101203261030000 5510 $9.35 CONSUMERS SEPT 10
+ACE09301101206261030000 5510 $32.38 CONSUMERS SEPT 10
+ACE09301101214261030000 5510 $5.49 CONSUMERS SEPT 10
+ACE09301101941261000300 5510 $12.80 CONSUMERS SEPT 10
+ACE09301101941261000300 5510 $36.04 CONSUMERS SEPT 10
+ACE09301101941261000500 5510 $95.04 CONSUMERS SEPT 10
+ACE09301101941261000700 5510 $48.01 CONSUMERS SEPT 10
+ACE09301101941261000800 5510 $31.01 CONSUMERS SEPT 10
+ACE09301101941261001000 5510 $109.95 CONSUMERS SEPT 10
+ACE09301101941261001100 5510 $22.82 CONSUMERS SEPT 10
+ACE09301101941261001200 5510 $45.70 CONSUMERS SEPT 10
+ACE09301101941261001300 5510 $39.62 CONSUMERS SEPT 10
+ACE09301101941261001400 5510 $18.20 CONSUMERS SEPT 10
+ACE09301101941261001600 5510 $22.40 CONSUMERS SEPT 10
+ACE09301101941261005000 5510 $160.05 CONSUMERS SEPT 10
+ACE09301101941261005200 5510 $736.63 CONSUMERS SEPT 10
+ACE09301101941261005300 5510 $624.16 CONSUMERS SEPT 10
+ACE09301101941261007000 5510 $640.67 CONSUMERS SEPT 10
+ACE09301101941261007100 5510 $2,692.18 CONSUMERS SEPT 10
+ACE09301101941261007400 5510 $36.41 CONSUMERS SEPT 10
+ACE09301101941261009000 5510 $18.20 CONSUMERS SEPT 10
+ACE09301101941261009000 5510 $22.40 CONSUMERS SEPT 10
+ACE09301101941261015000 5510 $26.81 CONSUMERS SEPT 10
+ACE09301101941261016000 5510 $174.40 CONSUMERS SEPT 10
+ACE09301122207261020700 5510 $13.56 CONSUMERS SEPT 10
+ACE09301122883261030000 5510 $2.95 CONSUMERS SEPT 10
+ACE09301530201311030000 5510 $3.77 CONSUMERS SEPT 10
+ACE09301530211351030000 5510 $2.64 CONSUMERS SEPT 10
+ACE09301530213351030000 5510 $2.64 CONSUMERS SEPT 10
+ADT09301101942261000300 5520 $247.51 DTE CHARGES SEPT 10
+ADT09301101942261000500 5520 $949.31 DTE CHARGES SEPT 10
+ADT09301101942261000700 5520 $962.37 DTE CHARGES SEPT 10
+ADT09301101942261000800 5520 $498.67 DTE CHARGES SEPT 10
+ADT09301101942261001000 5520 $756.29 DTE CHARGES SEPT 10
+ADT09301101942261001100 5520 $827.12 DTE CHARGES SEPT 10
+ADT09301101942261001200 5520 $681.13 DTE CHARGES SEPT 10
+ADT09301101942261001300 5520 $878.63 DTE CHARGES SEPT 10
+ADT09301101942261001700 5520 $814.23 DTE CHARGES SEPT 10
+Page 1
+75
+Troy School District, ACH Debits, September 2010
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ADT09301101942261007100 5520 $14.34 DTE CHARGES SEPT 10
+ADT09301101942261007100 5520 $14.96 DTE CHARGES SEPT 10
+ADT09301101942261007400 5520 $863.39 DTE CHARGES SEPT 10
+ADT09301101942261009000 5520 $83.89 DTE CHARGES SEPT 10
+ADT09301101942261009000 5520 $344.56 DTE CHARGES SEPT 10
+ADT09301101942261015000 5520 $511.56 DTE CHARGES SEPT 10
+ADT09301101942261016000 5520 $1,960.60 DTE CHARGES SEPT 10
+ADT09301101942261090000 5520 $156.08 DTE CHARGES SEPT 10
+ADT09301101942261090000 5520 $260.38 DTE CHARGES SEPT 10
+ADT09301122883261030000 5520 $70.00 DTE CHARGES SEPT 10
+$16,586.79 
+16,586.79 
+Page 2
+76
+Troy School District, Wire Transfers, September 2010
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0903101 101 A1003 -$139,442.01 W-PR TRANSFERS 9/3/10
+W0903102 101 A1003 -$1,734,157.26 W-PR TRNSF 9/3/10 PAY DAT
+W0903102 101 A1005 $8,717.80 W-PR TRNSF 9/3/10 PAY DAT
+W0903102 101 A1005 $1,725,439.46 W-PR TRNSF 9/3/10 PAY DAT
+W0903103 101 A1006 -$1,470.51 W-BANK TRNSF GF TO DEBT
+W0903103 304 A1016 $1,017.06 W-BANK TRNSF GF TO DEBT
+W0903103 306 A1016 $356.73 W-BANK TRNSF GF TO DEBT
+W0903103 307 A1016 $96.72 W-BANK TRNSF GF TO DEBT
+W0903104 101 A1006 -$1,556,881.16 W-BANK TRNSF GF TO DEBT
+W0903104 304 A1016 $1,076,566.76 W-BANK TRNSF GF TO DEBT
+W0903104 306 A1016 $377,626.49 W-BANK TRNSF GF TO DEBT
+W0903104 307 A1016 $102,687.91 W-BANK TRNSF GF TO DEBT
+W0907101 101 A1003 -$818,759.95 W-PR TAXES FOR 9/3/10 PAY
+W0907102 101 A1003 -$23,660.22 W-AMERAPLAN TRNS 9-2-10
+W0907102 101 A1098 $23,660.22 W-AMERAPLAN TRNS 9-2-10
+W0909101 101 A1003 -$150.00 W-PR DED R WEBB MESP
+W0909102 101 A1003 -$2,405.00 W-PR DED MESP 9/3/10
+W0909103 101 A1003 -$17,469.92 W-4D PHAR INV 8/31/10
+W0909103 101 A1098 $17,469.92 W-4D PHAR INV 8/31/10
+W0909104 520 A1011 -$39,283.01 W-SODEXO -AUGUST 2010
+W0909104 520 A1098 $39,283.01 W-SODEXO -AUGUST 2010
+W0910101 101 A1006 $290,891.50 W-BNK TRNS AP BND PR -GF
+W0910101 404 A1800 -$290,891.50 W-BNK TRNS AP BND PR -GF
+W0910102 101 A1006 $11,419.78 W-BNK TRN CLR INTERFND
+W0910102 520 A1011 -$4,252.61 W-BNK TRN CLR INTERFND
+W0910102 530 A1014 -$1,631.89 W-BNK TRN CLR INTERFND
+W0910102 700 A1007 -$5,190.30 W-BNK TRN CLR INTERFND
+W0910102 701 A1007 -$144.98 W-BNK TRN CLR INTERFND
+W0910102 750 A1007 -$200.00 W-BNK TRN CLR INTERFND
+W0910103 101 A1003 -$9,058.16 W-AMERAPLAN TRNSF
+W0910103 101 A1098 $9,058.16 W-AMERAPLAN TRNSF
+W0910104 101 A1006 -$2,826,207.42 W-BNK TRNS GF TO DEBT
+W0910104 304 A1016 $1,954,292.36 W-BNK TRNS GF TO DEBT
+W0910104 306 A1016 $685,505.63 W-BNK TRNS GF TO DEBT
+W0910104 307 A1016 $186,409.43 W-BNK TRNS GF TO DEBT
+W0910105 101 A1003 -$12,000,000.00 W-BNK TRNF BOA TO MILAF
+W0910105 101 A1006 $12,000,000.00 W-BNK TRNF BOA TO MILAF
+W0913101 101 A1003 -$15,661.40 W-PAYSCHOOLS ADM FEES
+W0913101 101 A1098 $15,661.40 W-PAYSCHOOLS ADM FEES
+W0914101 101 A1006 $86,848.80 W-AP BOND PROCEEDS TO GF
+W0914101 404 A1800 -$86,848.80 W-AP BOND PROCEEDS TO GF
+Page 1
+77
+Troy School District, Wire Transfers, September 2010
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0914102 101 A1003 -$13,456.28 W-AMERAPLAN TRNSF
+W0914102 101 A1098 $13,456.28 W-AMERAPLAN TRNSF
+W0914103 101 A1003 -$17,449.63 W-AMERAPLAN TRNSF
+W0914103 101 A1098 $17,449.63 W-AMERAPLAN TRNSF
+W0916101 101 A1003 $2,000,000.00 W-BNK TRNS BOA TO MILAF
+W0916101 101 A1006 -$2,000,000.00 W-BNK TRNS BOA TO MILAF
+W0917101 101 A1006 -$279,962.57 W-BANK TRNS GF TO DEBT
+W0917101 304 A1016 $193,591.14 W-BANK TRNS GF TO DEBT
+W0917101 306 A1016 $67,905.81 W-BANK TRNS GF TO DEBT
+W0917101 307 A1016 $18,465.62 W-BANK TRNS GF TO DEBT
+W0917102 101 A1003 -$2,305.00 W-PR DED FOR MESP
+W0917103 101 A1003 -$36,513.20 W-PR-UNION DUES 9/17/10
+W0917104 101 A1003 -$1,776,546.95 W-PR TRNS 9/17/10 PAY
+W0917104 101 A1005 $13,044.19 W-PR TRNS 9/17/10 PAY
+W0917104 101 A1005 $1,763,502.76 W-PR TRNS 9/17/10 PAY
+W0917105 101 A1003 -$161,010.58 W-PR TRNS FOR 9/17/10 PAY
+W0917106 101 A1003 -$37,659.36 W-PNC EQUIPMENT FINANCE
+W0917106 520 A1098 $37,659.36 W-PNC EQUIPMENT FINANCE
+W0920101 101 A1003 -$875,309.57 W-PR TAXES, 9/17/10 PAY
+W0920102 101 A1003 $750,000.00 W-BANK TRNS MILAF TO BOA
+W0920102 101 A1006 -$750,000.00 W-BANK TRNS MILAF TO BOA
+W0921101 101 A1003 -$2,883.25 W-AMERAPLAN ADM FEES OCT
+W0921101 101 A1098 $2,883.25 W-AMERAPLAN ADM FEES OCT
+W0921102 101 A1003 $600,000.00 W-BANK TRNS MILAF TO BOA
+W0921102 101 A1006 -$600,000.00 W-BANK TRNS MILAF TO BOA
+W0922101 101 A1003 -$14,181.31 W-4D PHARM 9-15-10
+W0922101 101 A1098 $14,181.31 W-4D PHARM 9-15-10
+W0922102 101 A1003 -$2,602.95 W-TCC WIA TRANSFER
+W0922102 129 A1008 $2,602.95 W-TCC WIA TRANSFER
+W0922103 101 A1006 -$269,690.17 W-BANK TRNS CL INTERFD AC
+W0922103 520 A1011 $15,692.98 W-BANK TRNS CL INTERFD AC
+W0922103 530 A1014 $303,834.23 W-BANK TRNS CL INTERFD AC
+W0922103 700 A1007 -$44,857.34 W-BANK TRNS CL INTERFD AC
+W0922103 701 A1007 -$3,272.70 W-BANK TRNS CL INTERFD AC
+W0922103 750 A1007 -$1,707.00 W-BANK TRNS CL INTERFD AC
+W0922104 101 A1006 $70,188.55 W-BNK TRNS AP BOND PR-GF
+W0922104 404 A1800 -$70,188.55 W-BNK TRNS AP BOND PR-GF
+W0922105 101 A1003 -$13,456.72 W-AMERAPLAN TRANSFER
+W0922105 101 A1098 $13,456.72 W-AMERAPLAN TRANSFER
+W0924101 101 A1003 -$201.74 W-TSS REIMBURSEMENTS
+W0924102 101 A1003 -$82,135.11 W-TSS SUB& HR 8-30-10
+Page 2
+78
+Troy School District, Wire Transfers, September 2010
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0924102 101 A1098 $82,135.11 W-TSS SUB& HR 8-30-10
+W0924103 101 A1003 -$61,585.69 W-TSS ADM 8-31-10
+W0924103 101 A1098 $61,585.69 W-TSS ADM 8-31-10
+W0924104 101 A1003 -$14,920.79 W-TSS-TCC 8-31-10
+W0924104 101 A1098 $14,920.79 W-TSS-TCC 8-31-10
+W0927101 101 A1003 $1,500,000.00 W-BNK TRNS MILAF 2 BOA
+W0927101 101 A1006 -$1,500,000.00 W-BNK TRNS MILAF 2 BOA
+W0929101 101 A1006 $14,837.02 W-BNK TRNS AP BOND2GF
+W0929101 404 A1800 -$14,837.02 W-BNK TRNS AP BOND2GF
+W0929102 101 A1003 -$17,657.72 W-AMERAPLAN TRANSFER
+W0929102 101 A1098 $17,657.72 W-AMERAPLAN TRANSFER
+W0930101 530 A1002 -$262,522.00 W-BNK TRNS BOA 2 MILAF
+W0930101 530 A1014 $262,522.00 W-BNK TRNS BOA 2 MILAF
+W0930102 101 A1006 -$8,822.98 W-BNK TRNS GF TO DEBT
+W0930102 304 A1016 $6,101.00 W-BNK TRNS GF TO DEBT
+W0930102 306 A1016 $2,140.04 W-BNK TRNS GF TO DEBT
+W0930102 307 A1016 $581.94 W-BNK TRNS GF TO DEBT
+W0930103 101 A1003 -$85,437.60 W-SEVERANCE VRIP PMT
+-$2,121,534.65 
+Page 3
+79
+ DATE: October 14, 2010 
+ TO: Mark S. Rajter 
+  Assistant Superintendent 
+Purchasing 
+  Business Services 
+Department 
+ FROM: Frank E. Lams 
+1140 Rankin 
+  Supervisor, Purchasing and Budget 
+Troy, MI 48083 
+248-823-4052,  
+                      Copy Paper                      
+On October 14, 2010 bids were opened for copy paper for district wide usage.   Bids 
+were sent to 16 potential bidders with 16 responding (two of which were “No Bid”).   
+I have reviewed this bid and accordingly, I recommend award of this bid as follows: 
+   Midland Paper  $ 64,950.48 
+Please include this as an action item on the October 19, 2010 Board agenda as an 
+expenditure of the 2010/11 General Fund. 
+80
+          RE:      Bid Award #9694 
+Fax – 248-823-4077 
+Memorandum 5. D.   10.19.10 
+ 
+5. D.   10.19.10 
+81
+      6. A.   10.19.10 
+6. PERSONNEL 
+A. CONSIDERATION:  ELEMENTARY AND SECONDARY 
+New Hire  
+It is recommended that the Board of Education approves the 
+issuance of a probationary contract to the following teacher 
+for the 2010-2011 school year. 
+Jennifer Messacar - .8 FTE Language Arts  Teacher, Larson 
+Middle School 
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ Moved by          
+ Seconded by         
+BE IT THEREFORE RESOLVED  that the Board of Education takes 
+action to approve the aforementioned personnel recommendation as 
+stated above. 
+ Ayes       
+ Nays       
+82
+BIOGRAPHICAL SKETCH – NEW TEACHER 
+October 19, 2010 
+Jennifer Messacar .8 FTE Language Arts Teacher, Larson Middle School 
+Educational Background: B.A., Oakland University, Rochester, MI, December, 2004 
+      Major: Elementary Education Minor: Language Arts/Math 
+ Michigan Professional Certificate, September 2010 
+Teaching/Work Experience: Guest Teacher, Temporary Schools Staff, Dearborn, MI 
+  July 2009 to October 2010 
+ 3rd Grade Teacher, Oakland Christian Schools, Auburn Hills, MI  
+  August 2007 – June 2009 
+ Kindergarten Teacher, Oakland Christian Schools, Auburn Hills, MI 
+  March 2007 – June 2007 
+Resident Community: Troy, Michigan 
+83
+7. A. 10.19.10 
+7. A. CURRICULUM 
+REPORT: APT to Succeed 
+Jennifer Taylor, teacher at Boulan Park Middle School , will 
+present an overview of the APT to Succeed program that 
+has offered Troy School’s 8 th graders an opportunity to 
+showcase examples of their best work for area 
+educational, business, professional and civic leaders. 
+Joining Mrs. Taylor is Troy High senior Lynsey Mukomel 
+to share her experience with the program.  
+RECOMMENDED ACTION:  This is a report. 
+Dr. Rich Machesky, Assistant Superintendent of Secondary 
+Education for the Troy School District, will introduce this 
+evening's report. 
+84
+APT to Succeed
+Academic Achievement Skills
+Personal Management Skills
+Teamwork Skills
+85
+activity for middle school students in the Troy 
+School District where students showcase their 
+strengths in:
+Achievement Skills
+Teamwork Skills
+Personal Management Skills
+86
+ APT to Succeed is the culminating portfolio 
+work from 6th – 8th grade in portfolio form 
+with the guidance of their teachers.
+87
+ All middle school students gather their best 
+other Community Professionals conduct 
+Showcase Portfolio Interviews with 8th graders 
+in the spring.
+88
+ Troy Chamber of Commerce Volunteers and 
+with younger students to help get them 
+prepared for their APT to Succeed Interview.
+89
+ 8th graders share their portfolio experience 
+ Provides opportunity for students to reflect upon 
+and evaluate their own work
+ Encourages Organized Presentation of Portfolio
+ Shows student growth over the middle school 
+years
+ Exposes students to resume building
+ Allows for Community/Professional Interaction
+ Teaches Interview Skills
+ Prepares Students for the Interview Process
+ Sharing of experience with younger students
+90
+a way to manage portfolios that fits the 
+dynamics of their building.
+from their middle school years and assemble 
+it in an organized fashion.
+91
+ Each of the Troy Middle Schools has designed 
+ Basically, students gather their best work 
+ Students
+ All Teachers
+ 8th Grade English Teachers
+ Building Portfolio Committee
+ Office Staff
+ Troy Chamber of Commerce
+ Community Volunteers
+ Parents
+92
+ Guide students through the process of 
+writing a resume for their APT interview.
+ Ensure portfolios have a distribution of 
+content areas and APT entries.
+ Encourage students to organize their 
+portfolios in binders for their interview.
+ Teach and practice interviewing skills.
+93
+ Secure dates for APT Interviews.
+ Send out information to the Troy Chamber 
+Members to assist in recruiting volunteers for 
+APT Interviews.
+ Follow up with Portfolio Committee annually.
+94
+ Provide a 3 ring binder and other needed 
+materials for students to organize portfolios 
+for the spring of their 8th grade year.
+ Support students in the organization process.
+ Conduct a practice interview, asking students 
+to showcase their best work in each of the 
+portfolio areas.
+ Volunteer to be an APT Interviewer, preferably 
+at a middle school other than the one their 
+child attends.
+95
+96
+to the ongoing process of the APT to Succeed 
+Portfolio Program!
+97
+ Thank you for your interest and commitment 
+        8. A. 10.19.10 
+8. BUSINESS 
+ A. REPORT: 2009-2010 AUDIT REPORT 
+Teresa Pollock, district auditor from Plante &  
+Moran, will make a presentation to the Board of 
+Education.  A draft copy of the District’s Audit 
+Report was presented to the Board at the October 
+12, 2010, workshop. 
+RECOMMENDED ACTION:  This is a report. 
+98
+        8. B. 10.19.10 
+8. BUSINESS 
+  B.     CONSIDERATION: 2009-2010 AUDIT REPORT 
+Administration recommends that the Board of 
+Education accept the financial statements as 
+presented by Teresa Pollock, the district’s auditor 
+from Plante & Moran. 
+RECOMMENDED ACTION:  Acceptance of the resolution 
+below. 
+SUGGESTED RESOLUTION 
+Moved By:       
+Supported By:          
+Be it therefore resolved that the Board of Education 
+accept and approve the Troy Scho ol District’s audited 
+2010, financial statements as presented by Plante & 
+Moran. 
+Ayes:      
+Nays:      
+99
+  10. A.    10.19.10 
+10. OTHER 
+A. CONSIDERATION:  APPROVAL TO ADOPT TYA BY-LAWS CHANGES 
+Troy Youth Assistance (TYA) is a Troy nonprofit organization 
+dedicated to  strengthening youth and families and reducing the 
+incidence of delinquency, abuse, and negle ct through community 
+involvement. TYA is sponsored by the City of Troy, the Troy School 
+District and the Oakland County Circuit Court -Family Division. TYA’s 
+by-laws mandate that each of its sponsors must approve all TYA by-
+laws changes. TYA has requested t hat the Troy Board of Education  
+consider the attached proposed by -laws changes. These changes are 
+needed to comply with the State of Michigan ’s qualification  
+requirements for a charitable Raffle License . Please see attached 
+document with proposed changes.   
+RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+  Moved by  
+  Seconded by 
+Be It Therefore Resolved  that the Troy Board of Education  approves the 
+adoption of the proposed TYA by-laws changes as set forth in the attached  
+document.    
+Ayes:  
+Nays:  
+I certify that the above resolution was adopted at the Troy Board of 
+Education meeting on Tuesday, October 19, 2010. 
+      Nancy L. Philippart, Secretary 
+      Troy Board of Education 
+100
+TROY YOUTH ASSISTANCE BYLAWS 
+ 1 
+101
+TROY YOUTH ASSISTANCE BY LAWS 
+ ARTICLE I:  NAME 
+The name of this organization shall be “Troy Youth Assistance” 
+ARTICLE II:  SPONSORSHIP AND CREATION 
+ Section A Troy Youth Assistance is sponsored by: The City of Troy, 
+the Troy School District and the Oakland County Circuit 
+Court-Family Division. 
+ Section B Troy Youth Assistance was created by the following groups 
+passing resolutions and/or ordinances: The City of Troy 
+Resolution #58-183, the Troy School District on the 18th 
+day of March, 1958, and the Oakland County Probate Court 
+on the 2nd day of April 1958.  On January 1, 1998 due to 
+the restructuring of the court system by the State of 
+Michigan, the court sponsor of Troy Youth Assistance 
+became Oakland County Circuit Court-Family Division. 
+     Section C Troy Youth Assistance and its related committees are  
+  non-political and non-profit. 
+ARTICLE III:  PURPOSE AND OBJECTIVES  
+To coordinate services and resources through the involvement of local citizens for the 
+prevention and reduction of delinquency and neglect, including the administration, 
+coordination, implementation, and policy making functions of Troy Youth Assistance. 
+The Troy Youth Assistance is organized solely for charitable purposes that 
+are permissible for a 501 ( c ) (3) organization as specified by the Internal 
+Revenue Code or any corresponding provision of a future amendment of 
+the Internal Revenue Code.  The Troy Youth Assistance will remain 
+nonprofit forever. 
+ARTICLE IV: POLICY 
+ Section A Troy Youth Assistance shall operate within the policy 
+framework of:  The resolutions and/or ordinances passed 
+ 2 
+102
+by: the Troy School District on the 18th day of March, 
+1958, and the City of Troy Resolution #58-183. 
+ Section B The mission, purpose and philosophy of Oakland County 
+Youth Assistance Unit. 
+Section C The Statutes of the State of Michigan and the Oakland 
+County Circuit Court-Family Division Policies.  
+Section D Additional policy statements will be attached to but not a 
+part of the By-Laws. The current Executive Board is 
+responsible for maintaining the policy statements. 
+ARTICLE V: MEMBERSHIP 
+ Section A  Members of Troy Youth Assistance serve on a volunteer 
+basis and no dues are charged. 
+ Section B Membership shall be by appointment, open to civic leaders, 
+organizational, school and governmental persons, and 
+individuals who live and/or work in the City of Troy, the 
+Troy School District, and who are interested in serving 
+youth and their families. 
+ Section C A two-thirds (2/3) majority vote of members present at any 
+official meeting shall be sufficient to remove any member 
+for conduct unbecoming in light of the purpose, philosophy 
+and policies of Troy Youth Assistance.  
+ARTICLE VI: BOARD OF DIRECTORS’ MEMBERSHIP 
+ Section A The Board of Directors roster shall be limited to thirty (30). 
+ Section B Membership is for a period of three (3) years.  A member 
+may serve two (2) consecutive three (3) year terms.  Then 
+the individual must retire from the Board of Directors for 
+one (1) year, before being eligible for another appointment.  
+During the one (1) year of non-eligibility, the individual 
+may serve as a task or subcommittee volunteer.  
+ Section C Annually the Board of Directors roster will be submitted to 
+the sponsors for consideration. 
+ Section D The Board of Directors shall consist of the officers, 
+Chairpersons of Troy Youth Assistance committees, and 
+programs, and chairperson appointed community liaisons. 
+ 3 
+103
+ Section E Vacancies of officers on the Board of Directors shall be 
+filled in a manner left to the discretion of the Board of 
+Directors. 
+ARTICLE VII: OFFICERS 
+ Section A The officers of Troy Youth Assistance shall consist of a 
+Chairperson, Vice-Chairperson, Secretary, Treasurer and an 
+Advisor. (Such As Past Chairperson). 
+ Section B Officers shall be elected in a biannual rotation at the regular 
+meeting in May, to serve for a period of two (2) years.  The 
+Chairperson and Vice-Chairperson shall be elected in odd 
+numbered years, thereby also determining the Advisor.  
+The Secretary and Treasurer shall be elected in even 
+numbered years. 
+ Section C The officers, however, are expected to serve until their 
+successors are elected. An officer may serve more than two 
+(2) consecutive terms in the same office. 
+ Section D The Nominating Committee shall be appointed in March by 
+the Chairperson and a slate of officers shall be presented to 
+the board of Directors in April.  Additional nominations 
+may be made from the floor at the April meeting.   
+ Section E The election of officers shall be conducted by the 
+Nominating Committee. Election requires a simple 
+majority vote of the members present.  Ballots will be used 
+for elections to assure privacy. 
+      Section F In order to be eligible to hold office, a person must be a 
+member in good standing. 
+ARTICLE VIII: DUTIES OF OFFICERS 
+ Section A Chairperson: 
+1. Represents Board of Directors on Oakland County 
+Youth Assistance Coordinating Council or appoints 
+a designee. 
+2. Arranges for and presides at all meetings of the 
+Board of Directors. 
+ 4 
+104
+3. Appoints chair of all committees for his (or her) 
+term of office with consultation of elected officers. 
+4. Expedites the business of Troy Youth Assistance. 
+5. Represents the Board of Directors and promotes 
+Troy Youth Assistance and its programs to various 
+segments of the local community. 
+6. Works closely with Troy Youth Assistance staff and 
+the sponsors.  
+7. Acts as signatory on financial items related to the 
+operation of Troy Youth Assistance. 
+ Section B Vice Chairperson: 
+1. Serves in the absence of the Chairperson. 
+2. Assumes additional responsibilities delegated by the 
+Chairperson. 
+3. Acts as signatory on financial items related to the 
+operation of Troy Youth Assistance in the absence 
+of the Chairperson. 
+4. Serves as liaison between Troy Youth Assistance 
+and other local community organizations. 
+ Section C Secretary: 
+1. Notifies members of the Board of Directors 
+meetings. 
+2. Keeps minutes of records of all Board of Directors 
+meetings and certifies that a quorum has been 
+obtained 
+3. Prepares and sends out necessary correspondence at 
+the direction of the Board of Directors. 
+4. Keeps an up-to-date roster of the Board of Directors 
+membership attendance and refer membership 
+attendance and membership attendance matters to 
+the Membership Committee. 
+5. Records minutes of meetings and official 
+correspondence which shall be housed in the Troy 
+Youth Assistance office. 
+Section D: Treasurer: 
+1. Keeps an accurate and up-to-date account of 
+disbursements and receipts. 
+2. Makes monthly written reports on Troy Youth 
+Assistance’s financial situation to the Board of 
+Directors. 
+  3. Acts as primary signatory on all financial items 
+related to Troy Youth Assistance. 
+ 5 
+105
+  4. Assists in the preparation of a yearly budget and 
+presentation to the sponsors. 
+  5. Manages all bank transactions and arrangements for 
+co-signers. 
+  6. Disburses monies at the discretion of the Board of 
+Directors. 
+  7. Assists with audits and financial reviews 
+  8. Records of treasurer’s reports and past fiscal checks 
+(bills, disbursements) are housed in the Troy Youth 
+Assistance office. 
+  9. Serves as a member of the Finance Committee. 
+ Section E Advisor: 
+  1. The Advisor shall act in an advisory capacity to the 
+elected officers and members of Troy Youth 
+Assistance. 
+  2. In the event of the absence of the immediate past 
+Chairperson, the officers may select a long term 
+member of Troy Youth Assistance to serve as 
+Advisor, subject to approval by the Board of 
+Directors. 
+ARTICLE IX: DUTIES OF THE BOARD OF DIRECTORS 
+ Section A Oversees and approves the actions of the committees. 
+ Section B Advocates for the needs of the caseworker, (e.g. office, 
+  staff, supplies, equipment, furniture and space). 
+ Section C Maintains records related to Board of Directors business. 
+ Section D Conducts all the business of Troy Youth Assistance. 
+ Section E Meets on a monthly basis. 
+ Section F Conducts an annual meeting and provides an annual report 
+to its members, sponsors, and the public.  
+ARTICLE X:       DUTIES OF THE EXECUTIVE COMMITTEE 
+ Section A Executive Committee consists of Chairperson, Vice-
+Chairperson, Treasurer, Secretary, and Advisor. 
+ 6 
+106
+ Section B Meets on a monthly basis to discuss topics regarding the 
+direction of Troy Youth Assistance programming and 
+office operations. 
+ Section C Prepares agendas for the Board of Directors’ meetings. 
+ Section D Advises Chairperson regarding the selection of committee 
+chairs. 
+ Section E Discusses and evaluates program plans, goals, and other 
+administrative and program matters. 
+ Section F Acts, in conjunction with Chairperson and caseworker 
+staff, as a catalyst to stimulate community awareness and 
+involvement, while also exploring new directions 
+congruent with the prevention objectives of Troy Youth 
+Assistance. 
+                  Section G Oversees annual budget.  
+ARTICLE XI: FINANCE 
+ Section A Under the co-sponsorship of Troy Youth Assistance, there 
+shall be a dual financial responsibility as: 
+  1. The local community shall obtain office space, 
+telephone, secretarial services and miscellaneous 
+office supplies and equipment related to the 
+operation of an office, as well as monies to provide 
+Troy Youth Assistance programs. 
+  2. The Oakland County Circuit Court-Family Division 
+shall furnish the salary and fringe benefits for the 
+casework staff and costs associated with supervision 
+and administration. 
+ Section B In the event the local community develops its own youth 
+services and programs, or additional casework services are 
+provided a review of financial responsibility shall be made 
+by the Board of Directors. 
+ARTICLE XII: MEETING AND QUORUM 
+ Section A The regular meeting of the Board of Directors shall take 
+place once a month unless otherwise determined by the 
+ 7 
+107
+Board.  The meeting date shall be a designated day of each 
+month to be determined by the Board of Directors. 
+ Section B Special meetings may be called by the Chairperson or shall 
+be called upon written request of four members of the 
+Board of Directors. 
+ Section C Members of the Board of Directors shall be notified of 
+meetings at least one week in advance. 
+ Section D The number of Board of Directors present shall constitute a 
+quorum. 
+ Section E The Board of Directors shall establish its own procedure 
+for conducting its meetings.  Otherwise, the rules contained 
+in the then current Robert’s Rules of Order, revised, shall 
+govern all meetings of the Board of Directors. 
+ARTICLE XIII: COMMITTEES-STANDING AND PROJECT 
+ Section A Chairpersons of all Standing and Project Committees shall 
+be appointed by the Chairperson of the Board of Directors 
+with consultation of the elected officers. 
+ Section B The Chairperson of the Board of Directors shall provide for 
+the Chairperson of each Standing and Project Committee 
+appointed, a written statement of the duties and 
+responsibilities of said committee. 
+ Section C Members of the Standing and/or Project Committees do not 
+have to be previous members of the Board of Directors. 
+ Section D Standing Committees of Troy Youth Assistance are: 
+  1. Camp/Skill Building Committee 
+  2. Executive Committee 
+  3. Family Education Committee 
+  4. Finance Committee 
+  5. Fund Raising Committee 
+  6. Membership Committee 
+  7. Mentors Plus Committee 
+  8. Publicity Committee 
+  9. Youth Involvement Committee   
+  10. Youth Recognition Committee 
+                                                11. Other committees as deemed necessary by the 
+Board of Directors.  
+ 8 
+108
+ARTICLE XIV:     DUTIES OF THE CAMP/SKILLBUILDING COMMITTEE 
+ Section A Purpose: 
+  The purpose of this committee is to evaluate the programs 
+of recreational, skill building and camping activities with 
+regard to preventing delinquency, neglect and abuse. 
+ Section B Objective: 
+  1. To promote the availability of camp, recreational 
+and skill building experiences for the youth of Troy 
+who have special needs of a financial or other 
+nature. 
+  2. To be informed regarding the availability of camp, 
+recreational and skill building programs in the 
+greater Troy community. 
+ARTICLE XV: DUTIES OF THE FUND RAISING COMMITTEE 
+ Section A Purpose: 
+  The purpose of this committee is to assist the Board of 
+Directors in fiscal planning and development and to 
+coordinate activities to raise funds for Troy Youth 
+Assistance programs in relation to the prevention of 
+delinquency, neglect and abuse. 
+Section B Objectives: 
+  1. Determine fund raising needs. 
+  2. Set annual goals, mobilize resources and implement 
+fund raising activities. 
+  3. Recognize contributions. 
+ 9 
+109
+  4. Evaluate fund raising methods. 
+ARTICLE XVI: DUTIES OF THE MENTORS PLUS COMMITTEE  
+ Section A Definition: 
+   P.L.U.S. historically is an acronym in Youth 
+Assistance for People, Listening, Understanding, 
+Sharing.  The Mentors Plus Program matches adult 
+volunteers one to one with youths in need of a 
+supportive adult role model.  The Mentors Plus 
+Program operates under the guidelines of Oakland 
+County Youth Assistance Volunteer Programs. 
+ Section B Purpose: 
+   The purpose of this committee is to assist in finding 
+adult volunteers to “match” with a referred youth. 
+   To provide screening training and support of the 
+adult volunteer. 
+ Section C Objectives: 
+  1. To collaborate with Oakland County Youth 
+Assistance program in screening new volunteers 
+and Mentors Plus programming. 
+  2. To monitor Mentors Plus matches. 
+  3. To assist the caseworker in interviewing families 
+and prospective Mentors Plus children to be 
+matched. 
+  4. To facilitate the matching of adult volunteers with 
+youth. 
+ 10 
+110
+  5. To maintain appropriate Mentors Plus records 
+which shall be housed in the Troy Youth Assistance 
+office. 
+ ARTICLE XVII:  DUTIES OF THE MEMBERSHIP COMMITTEE 
+ Section A Purpose: 
+  The purpose of this committee is to identify and to recruit 
+potential members to Troy Youth Assistance and keep the 
+roster of Troy Youth Assistance filled according to the 
+bylaws.  
+ Section B Objectives: 
+  1. To recruit new Troy Youth Assistance volunteers. 
+  2. Provide orientation program of Troy Youth    
+                                                            Assistance. 
+  3. To recommend prospective members to Troy Youth 
+Assistance Board of Directors. 
+  4. To submit the names of persons accepted by the 
+Troy Youth Assistance Board of Directors to the 
+local City Officials and School Board for 
+consideration and those accepted by these bodies to 
+the Judges of the Oakland County Circuit Court-
+Family Division for appointment. 
+ARTICLE XVIII: DUTIES OF THE PUBLICITY COMMITTEE 
+ Section A Purpose: 
+  The purpose of this committee is to promote public 
+relations and to circulate information about Troy Youth 
+Assistance in the greater Troy community. 
+ Section B Objectives: 
+  1. To assist in the development of media releases, 
+material and brochures to promote community 
+ 11 
+111
+awareness of Troy Youth Assistance programs and 
+events.  
+  2. To distribute literature about Troy Youth Assistance 
+to the greater Troy community. 
+ARTICLE XIX:     DUTIES OF THE YOUTH INVOLVEMENT COMMITTEE: 
+ Section A Purpose:  
+  To provide positive youth development programs, with 
+adult guidance, for the prevention of juvenile delinquency, 
+neglect and abuse. 
+ Section B Objectives: 
+  1. To educate and inform the youth of Troy regarding 
+how to interact with other youth in a positive 
+manner. 
+  2. To encourage the youth to develop a positive image 
+through various youth oriented programs. 
+  3. To provide preventative educational programs for 
+youth. 
+ARTICLE XX: DUTIES OF THE FAMILY EDUCATION COMMITTEE 
+ Section A Purpose: 
+  The purpose of this committee is to provide educational 
+opportunities which focus on improving parent/child 
+relationships, enhancing growth and development of 
+children, and preventing delinquency, neglect, and abuse. 
+ Section B Objectives: 
+  1. To develop parent education or family life projects. 
+  2. To collaborate with other community agencies and 
+Youth Assistance programs to promote parental and 
+youth awareness on topics and issues related to the 
+prevention of delinquency, neglect and abuse. 
+ARTICLE XXI: DUTIES OF THE YOUTH RECOGNITION COMMITTEE 
+ 12 
+112
+ Section A Purpose: 
+  To provide programs to honor youth for volunteerism as a 
+means of preventing juvenile delinquency.    
+ Section B Objectives:      
+ 1. To educate and inform the youth of Troy how better 
+to serve their community. 
+ 2.  To encourage the youth to be positive, action-
+oriented citizens in the community. 
+ 3. To recognize the outstanding youth of Troy for their 
+volunteerism.   
+ARTICLE XXII: DUTIES OF THE FINANCE COMMITTEE 
+ Section A Purpose: 
+  The purpose of this committee is to provide Troy 
+Youth Assistance with an annual budget and ways and  
+means of acquiring financial support where and when 
+necessary for Troy Youth Assistance office operations and 
+programs in relation to the prevention of delinquency, 
+neglect, and abuse. 
+ Section B Objectives:  
+  1. Preparation of an annual budget including 
+presentation and proposals to sponsors. 
+  2. Responsible for raising funds and resources to meet 
+the budget. 
+         a. To assist the Fund Raising Committee in                                                                                    
+coordinating fund raising activities. 
+         b. To actively pursue funding partnership within the 
+Troy community (e.g., businesses, organizations, 
+service providers, community foundations/grant 
+writers). 
+         c. To assist the Troy Youth Assistance committees 
+with fund raising, when necessary. 
+         d. To assist the Treasurer with accounting and 
+reporting, especially in seeking regular internal and 
+external financial reviews of treasurer records. 
+ 13 
+113
+        e. To develop short and long term financial plans to 
+present to Troy Youth Assistance committees and 
+casework staff. 
+  3.        The Treasurer shall serve as a member of this 
+committee. 
+ARTICLE XXIII: AMENDMENTS 
+  These by-laws may be amended by a two-thirds (2/3) vote 
+of the members present at any regular meeting; provided 
+due notice of the proposed changes has been given at least 
+one (1) regular meeting in advance or in writing at least ten 
+(10) days in advance of the vote. The City of Troy, Troy 
+Board of Education and the Family Division must approve 
+all by-law changes.  
+ARTICLE XXIV: DISSOLUTION 
+ Section A In the event of dissolution, Troy Youth Assistance shall 
+reimburse its sponsors for all prepayments of real assets 
+based on the date of termination. 
+ Section B In the event of dissolution, all other assets, real and 
+personal, of Troy Youth Assistance shall be distributed at 
+to another 501( c)(3) non-profit organization selected by 
+the Board of Directors subject to the approval of its 
+sponsors. 
+Policy Statements: 
+Finance: Line item can be spent without Executive Committee approval up to $100.00 on agreement with 
+Caseworker and Chairperson.  December 10, 2003 
+External financial reviews should be conducted every three to five years.  September 20, 2007 
+Revised: October 14, 2010 
+ 14 
+114

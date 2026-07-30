@@ -1,0 +1,1920 @@
+                  0.00         2,053.50
+A1003    14003886   02/18/14 24648    PEDIATRIC HEALTH CO 122885213313000  3138     CALDWELL                   0.00         5,589.87
+A1003    14003886   02/18/14 24648    PEDIATRIC HEALTH CO 122885213313000  3138     OPEN PO FOR 13−14 O        0.00         6,522.31
+TOTAL CHECK                                                                                                    0.00        12,112.18
+A1003    14003888   02/18/14 24649    PEDIATRIC HEALTH CO 122885213313000  3138     OPEN PO FOR 13−14 O        0.00         5,867.35
+A1003    14003888   02/18/14 24649    PEDIATRIC HEALTH CO 122885213313000  3138     CASEY                      0.00         4,758.21
+TOTAL CHECK                                                                                                    0.00        10,625.56
+75
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   31
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003899   02/18/14 21113    DEAF COMMUNITY ADVO 122885215230000  3130     INTREP FEE GOULART         0.00            95.91
+A1003    14003901   02/18/14 10577    D T E ENERGY        122207261020700  5520     NILES #8 12/23−01/2        0.00           851.88
+A1003    14003928   02/18/14 12932    JAGELS KATHY        122885226326000  3430     REIMB SP ED PETTY C        0.00           120.65
+A1003    14003928   02/18/14 12932    JAGELS KATHY        122017122120000  5110     REIMB SP ED PETTY C        0.00            29.99
+TOTAL CHECK                                                                                                    0.00           150.64
+A1003    14003939   02/18/14 18272    KONICA MINOLTA BUSI 122883122031300  4120     GROW                       0.00            10.84
+A1003    14003940   02/18/14 11181    KROGER CO           122883122231000  5110     OPEN PO FOR THE 13−        0.00            51.94
+A1003    14003940   02/18/14 11181    KROGER CO           122883122231000  5110     OPEN PO FOR THE 13−        0.00            45.48
+A1003    14003940   02/18/14 11181    KROGER CO           122883122231000  5110     OPEN PO FOR THE 13−        0.00            17.25
+TOTAL CHECK                                                                                                    0.00           114.67
+A1003    14003942   02/18/14 24650    PEDIATRIC HEALTH CO 122885213313000  3137     LATAREWICZ                 0.00         4,750.63
+A1003    14003942   02/18/14 24650    PEDIATRIC HEALTH CO 122885213313000  3137     OPEN PO FOR 13−14 P        0.00         5,433.75
+TOTAL CHECK                                                                                                    0.00        10,184.38
+A1003    14003948   02/18/14 11577    PEDIATRIC HEALTH CO 122885213313000  3138     MACE                       0.00         3,149.41
+A1003    14003948   02/18/14 11577    PEDIATRIC HEALTH CO 122885213313000  3138     OPEN PO FOR 13−14 O        0.00         2,810.87
+TOTAL CHECK                                                                                                    0.00         5,960.28
+A1003    14003962   02/18/14 26349    NOVA HEALTH EDUCATI 122885226326000  3190     HEALTH TRAINING INS        0.00           135.00
+A1003    14003964   02/18/14 11668    OAKLAND SCHOOLS     122885221326000  3220     NCI TRAINING MATLS         0.00           438.91
+A1003    14003970   02/18/14 25236    PEDIATRIC HEALTH CO 122885213313000  3137     PIECIAK                    0.00         4,128.52
+A1003    14003971   02/18/14 25654    PEDIATRIC HEALTH CO 122885213313000  3138     OPEN PO FOR 13−14 O        0.00         1,792.04
+A1003    14003971   02/18/14 25654    PEDIATRIC HEALTH CO 122885213313000  3138     PORTA                      0.00         2,172.32
+TOTAL CHECK                                                                                                    0.00         3,964.36
+A1003    14003975   02/18/14 10752    PEDIATRIC HEALTH CO 122885213313000  3138     RESUTEK                    0.00         2,563.16
+A1003    14003975   02/18/14 10752    PEDIATRIC HEALTH CO 122885213313000  3138     OPEN PO FOR 13−14 O        0.00         3,111.06
+TOTAL CHECK                                                                                                    0.00         5,674.22
+A1003    14003983   02/18/14 25404    S Z 3 CONSULTING    122885226326000  3190     CONSULTATION SERV          0.00           300.00
+A1003    14003983   02/18/14 25404    S Z 3 CONSULTING    122885226326000  3190     PRESENTATION − ASPE        0.00         1,500.00
+A1003    14003983   02/18/14 25404    S Z 3 CONSULTING    122885226326000  3190     STUDENT CONSULTATIO        0.00           450.00
+TOTAL CHECK                                                                                                    0.00         2,250.00
+A1003    14003994   02/18/14 25237    PEDIATRIC HEALTH CO 122885213313000  3137     SUTTER                     0.00           422.14
+A1003    14003994   02/18/14 25237    PEDIATRIC HEALTH CO 122885213313000  3137     OPEN PO FOR 13−14 P        0.00           633.74
+TOTAL CHECK                                                                                                    0.00         1,055.88
+A1003    14003998   02/18/14 24652    PEDIATRIC HEALTH CO 122885213313000  3138     THOMPSON                   0.00         6,162.49
+A1003    14003998   02/18/14 24652    PEDIATRIC HEALTH CO 122885213313000  3138     OPEN PO 13−14 FOR O        0.00         7,477.47
+TOTAL CHECK                                                                                                    0.00        13,639.96
+A1003    14004067   02/25/14 25880    DIRECT ENERGY MARKE 122883261030000  5520     GROW #8 1/9−2/10           0.00           215.26
+76
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   32
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 122090271009000  3312     MONITORS                   0.00         8,606.40
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 122090271009000  3311     SPECIAL ED                 0.00        56,465.00
+TOTAL CHECK                                                                                                    0.00        65,071.40
+A1003    14004144   02/25/14 11896    SAMPSON BRANDEE L   122885122326000  3190     SPEECH THERAPY             0.00           480.00
+TOTAL CASH ACCOUNT                                                                                             0.00       147,758.10
+TOTAL FUND                                                                                                     0.00       147,758.10
+77
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 140 − DURANT FUNDS             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003728   02/11/14 19186    AVENTRIC TECHNOLOGI 140665213641100  5990     OPEN PO 2013 − 2014        0.00         4,190.00
+TOTAL CASH ACCOUNT                                                                                             0.00         4,190.00
+TOTAL FUND                                                                                                     0.00         4,190.00
+78
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 414 − 2014 CAP PROJ − SERIES 1 
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003740   02/11/14 14536    CLARK HILL PLC      414668459409100  3190     BOND COUNSEL FEE           0.00        72,000.00
+A1003    14003778   02/11/14 24231    IMAGEMASTER INC     414668459409100  3190     2014 B & S BONDS           0.00         3,500.00
+A1003    14003837   02/11/14 12116    MCGRAW HILL/STANDAR 414668459409100  3190     ANALYTICAL SVCS            0.00        22,000.00
+A1003    14003839   02/11/14 12140    STATE OF MICHIGAN   414668459409100  3190     BOND CLOSING FEE           0.00         1,000.00
+A1003    14003840   02/11/14 26426    STAUDER BARCH & ASS 414668459409100  3190     PROF SVCS 2014 BOND        0.00        63,737.38
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414011453000000  3190     SCHROEDER INV 37887        0.00         3,137.99
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414012453000000  3190     COSTELLO INV 37881         0.00         6,447.99
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414005453000000  3190     TROY UNION INV 3788        0.00         6,817.43
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414015453000000  3190     BEMIS INV 37880            0.00         3,907.91
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414017453000000  3190     HAMILTON INV 37882         0.00         7,971.75
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414014453000000  3190     WASS INV 37889             0.00         5,520.63
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414010453000000  3190     HILL INV 37883             0.00         5,456.07
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414009453000000  3190     WATTLES INV 37890          0.00         7,019.51
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414050453000000  3190     BAKER INV 37891            0.00         1,011.51
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414053453000000  3190     BOULAN INV 37892           0.00        19,982.64
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414052453000000  3190     LARSON INV 37893           0.00        19,625.59
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414051453000000  3190     SMITH INV 37894            0.00         6,683.12
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414071453000000  3190     ATHENS INV 37895           0.00        30,642.60
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414070453000000  3190     TROY HIGH INV 37896        0.00        28,976.21
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414074453000000  3190     I A E INV 37897            0.00        14,438.64
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414008453000000  3190     LEONARD INV 37884          0.00         7,188.31
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414013453000000  3190     MARTELL INV 37885          0.00         7,027.35
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414007453000000  3190     MORSE INV 37886            0.00         7,561.03
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414206453000000  3190     NILES INV 37898            0.00         3,015.42
+A1003    14003861   02/12/14 11561    T M P ARCHITECTURE  414016453000000  3190     BARNARD INV 37879          0.00         4,880.13
+TOTAL CHECK                                                                                                    0.00       197,311.83
+TOTAL CASH ACCOUNT                                                                                             0.00       359,549.21
+TOTAL FUND                                                                                                     0.00       359,549.21
+79
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003644   02/04/14 12879    LESNAU PRINTING CO  520950256091800  3610     MENUS                      0.00           320.00
+A1003    14003729   02/11/14 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PO 2013 − 2014        0.00           284.00
+A1003    14003742   02/11/14 10433    COCA−COLA REFRESHME 520950256091800  5610     COCACOLA INVOICES          0.00         6,457.25
+A1003    14003789   02/11/14 12879    LESNAU PRINTING CO  520950256091800  3610     FEB LUNCH MENUS MOR        0.00           320.00
+A1003    14003860   02/11/14 20401    YUAN LIN            520013256091800  5992     KATHRYNLOU LUNCHREI        0.00            92.50
+A1003    14003879   02/18/14 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PO 2013 − 2014        0.00           784.09
+A1003    14003879   02/18/14 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PO 2013 − 2014        0.00           189.15
+A1003    14003879   02/18/14 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PO 2013 − 2014        0.00            99.50
+TOTAL CHECK                                                                                                    0.00         1,072.74
+A1003    14004000   02/18/14 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00         1,555.22
+TOTAL CASH ACCOUNT                                                                                             0.00        10,101.71
+TOTAL FUND                                                                                                     0.00        10,101.71
+80
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 529 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003670   02/04/14 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00            97.94
+A1003    14003670   02/04/14 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00           420.97
+A1003    14003670   02/04/14 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00           146.49
+A1003    14003670   02/04/14 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00            58.12
+TOTAL CHECK                                                                                                    0.00           723.52
+A1003    14003715   02/11/14 23057    A C T INC           529202391660000  5110     OPEN PO FOR ACT WOR        0.00            36.00
+A1003    14003746   02/11/14 24501    COMCAST             529202229660000  3190     ACCOUNT #09558 5069        0.00           175.81
+A1003    14003762   02/11/14 15988    DYNAMIC NETWORK SYS 529202391660000  3110     OPEN PO FOR COMPUTE        0.00           480.00
+A1003    14003762   02/11/14 15988    DYNAMIC NETWORK SYS 529202391660000  3110     OPEN PO FOR COMPUTE        0.00           420.00
+TOTAL CHECK                                                                                                    0.00           900.00
+A1003    14003863   02/18/14 23057    A C T INC           529202391660000  5110     OPEN PO FOR ACT WOR        0.00            31.25
+A1003    14003863   02/18/14 23057    A C T INC           529202391660000  5110     OPEN PO FOR ACT WOR        0.00            12.50
+TOTAL CHECK                                                                                                    0.00            43.75
+A1003    14004016   02/25/14 13227    A T & T             529202229660000  3410     OPEN PO FOR TELEPHO        0.00           122.30
+A1003    14004027   02/25/14 13227    A T & T             529202229660000  3410     OPEN PO FOR T1 LINE        0.00           224.72
+A1003    14004028   02/25/14 13227    A T & T             529202229660000  3410     OPEN PO FOR T1 LINE        0.00           230.48
+A1003    14004083   02/25/14 15508    HARBOR HOUSE PUBLIS 529202282660000  3510     1/4 PAGE ADVERTISEM        0.00           546.25
+A1003    14004129   02/25/14 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT − SUITE 400 @         0.00         9,583.00
+A1003    14004129   02/25/14 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT FOR SUITE 300         0.00         3,175.00
+A1003    14004129   02/25/14 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT − SUITE 410 @         0.00         1,906.67
+TOTAL CHECK                                                                                                    0.00        14,664.67
+TOTAL CASH ACCOUNT                                                                                             0.00        17,667.50
+TOTAL FUND                                                                                                     0.00        17,667.50
+81
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003565   02/04/14 13227    A T & T             530211351030000  3410     24887975416862NILES        0.00             1.42
+A1003    14003565   02/04/14 13227    A T & T             530213351030000  3410     24887975416862NILES        0.00             1.42
+A1003    14003565   02/04/14 13227    A T & T             530201311030000  3410     24887975416862NILES        0.00             2.04
+TOTAL CHECK                                                                                                    0.00             4.88
+A1003    14003572   02/04/14 13227    A T & T             530211351030000  3410     24882896977105NILES        0.00             4.43
+A1003    14003572   02/04/14 13227    A T & T             530213351030000  3410     24882896977105NILES        0.00             4.43
+A1003    14003572   02/04/14 13227    A T & T             530201311030000  3410     24882896977105NILES        0.00             6.33
+TOTAL CHECK                                                                                                    0.00            15.19
+A1003    14003603   02/04/14 22667    CRANBROOK  EDUCATIO 530201311373000  5110     LACROSSE TOURNAMENT        0.00           300.00
+A1003    14003625   02/04/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            51.77
+A1003    14003625   02/04/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            75.72
+TOTAL CHECK                                                                                                    0.00           127.49
+A1003    14003684   02/04/14 26409    STRETCH−N−GROW OF S 530212351021200  3190     040414 LEONARD             0.00           200.00
+A1003    14003700   02/04/14 10414    TROY CITY OF WATER  530213351030000  3830     2930015 NILES              0.00            69.49
+A1003    14003700   02/04/14 10414    TROY CITY OF WATER  530211351030000  3830     2930015 NILES              0.00            69.49
+A1003    14003700   02/04/14 10414    TROY CITY OF WATER  530201311030000  3830     2930015 NILES              0.00            99.27
+TOTAL CHECK                                                                                                    0.00           238.25
+A1003    14003735   02/11/14 24848    C P R PLUS          530213351021300  3139     OPEN P.O. FOR 2013−        0.00            60.00
+A1003    14003735   02/11/14 24848    C P R PLUS          530212351021200  3139     OPEN P.O. FOR 2013−        0.00           120.00
+A1003    14003735   02/11/14 24848    C P R PLUS          530213351021300  3139     OPEN P.O. FOR 2013−        0.00            60.00
+A1003    14003735   02/11/14 24848    C P R PLUS          530211351021100  3139     OPEN P.O. FOR 2013−        0.00            60.00
+A1003    14003735   02/11/14 24848    C P R PLUS          530212351021200  3139     OPEN P.O. FOR 2013−        0.00           165.00
+A1003    14003735   02/11/14 24848    C P R PLUS          530212351021200  3139     OPEN P.O. FOR 2013−        0.00            60.00
+TOTAL CHECK                                                                                                    0.00           525.00
+A1003    14003767   02/11/14 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     JAN 14 NILES POSITI        0.00           122.03
+A1003    14003767   02/11/14 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     JAN 14 NILES POSITI        0.00           122.03
+A1003    14003767   02/11/14 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     JAN 14 NILES POSITI        0.00           174.33
+TOTAL CHECK                                                                                                    0.00           418.39
+A1003    14003774   02/11/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            65.01
+A1003    14003784   02/11/14 11181    KROGER CO           530212351021200  5990     MISC CARE                  0.00            46.29
+A1003    14003784   02/11/14 11181    KROGER CO           530211351021100  5990     PAL MISC                   0.00            29.94
+A1003    14003784   02/11/14 11181    KROGER CO           530212351021200  5990     HILL CARE                  0.00            16.41
+A1003    14003784   02/11/14 11181    KROGER CO           530212351021200  5990     HAMILTON CARE              0.00            27.91
+TOTAL CHECK                                                                                                    0.00           120.55
+A1003    14003801   02/11/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     LICENSE RENEW/BARNA        0.00           125.00
+A1003    14003802   02/11/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     COSTELLO LICENSE RE        0.00            41.67
+A1003    14003802   02/11/14 23556    MI STATE OF−DEPT OF 530211351021100  7410     COSTELLO LICENSE RE        0.00            41.67
+TOTAL CHECK                                                                                                    0.00            83.34
+A1003    14003803   02/11/14 23556    MI STATE OF−DEPT OF 530211351021100  7410     HILL LICENSE RENEWA        0.00            41.67
+A1003    14003803   02/11/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     HILL LICENSE RENEWA        0.00            41.67
+82
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00            83.34
+A1003    14003804   02/11/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     TRUNION LICENSE REN        0.00            62.50
+A1003    14003804   02/11/14 23556    MI STATE OF−DEPT OF 530211351021100  7410     TRUNION LICENSE REN        0.00            62.50
+TOTAL CHECK                                                                                                    0.00           125.00
+A1003    14003820   02/11/14 20864    PRINT STOP INC      530201311020400  3610     OPEN P.O. FOR FLYER        0.00           321.85
+A1003    14003901   02/18/14 10577    D T E ENERGY        530211351030000  5520     NILES #8 12/23−01/2        0.00           165.64
+A1003    14003901   02/18/14 10577    D T E ENERGY        530201311030000  5520     NILES #8 12/23−01/2        0.00           236.63
+A1003    14003901   02/18/14 10577    D T E ENERGY        530213351030000  5520     NILES #8 12/23−01/2        0.00           165.64
+TOTAL CHECK                                                                                                    0.00           567.91
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN P.O. FOR 2013−        0.00            59.32
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            22.28
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            13.48
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            90.94
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00           117.33
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00             6.98
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            40.23
+A1003    14003917   02/18/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00            31.96
+TOTAL CHECK                                                                                                    0.00           382.52
+A1003    14003933   02/18/14 10042    JUN HE              530201000100000  R1810    6051 CHESSCLASSREFU        0.00           136.00
+A1003    14003940   02/18/14 11181    KROGER CO           530212351021200  5990     CARE                       0.00            38.41
+A1003    14003940   02/18/14 11181    KROGER CO           530212351021200  5990     CARE                       0.00            37.10
+TOTAL CHECK                                                                                                    0.00            75.51
+A1003    14003952   02/18/14 10042    MARTIN ZHU          530212000100000  R1810    6502BE−AM−13 REFUND        0.00           107.10
+A1003    14004000   02/18/14 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00            90.42
+A1003    14004031   02/25/14 10465    ADDED VALUE REALTY  530201311020000  3190     ENRICHMENT                 0.00            90.90
+A1003    14004032   02/25/14 24958    AGAZZI IOLANDA      530201311020000  3190     CONT SVC ENRICHMENT        0.00           319.39
+A1003    14004034   02/25/14 14226    ANGEVINE CARL       530201311020000  3190     CONT SVC ENRICHMENT        0.00           440.78
+A1003    14004038   02/25/14 26275    BEITER JOHN W       530201311020000  3190     CONT SVC ENRICHMENT        0.00           303.81
+A1003    14004039   02/25/14 10782    BERG JAMES F        530201311020000  3190     CONT SVC ENRICHMENT        0.00         1,136.40
+A1003    14004041   02/25/14 10510    BRAUNSTEINER JOAN L 530201311020000  3190     CONT SVC ENRICHMENT        0.00           743.40
+A1003    14004043   02/25/14 11688    BROWN LOUIS         530201311020000  3190     CONT SVC ENRICHMENT        0.00           234.00
+A1003    14004044   02/25/14 13646    BULLIS DONALD       530201311020000  3190     CONT SVC ENRICHMENT        0.00           142.71
+A1003    14004046   02/25/14 24848    C P R PLUS          530213351021300  3139     OPEN P.O. FOR 2013−        0.00            60.00
+A1003    14004046   02/25/14 24848    C P R PLUS          530212351021200  3139     OPEN P.O. FOR 2013−        0.00           165.00
+TOTAL CHECK                                                                                                    0.00           225.00
+83
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14004048   02/25/14 26285    CHESS WIZARDS       530201311020000  3190     CONT SVC ENRICHMENT        0.00        10,097.07
+A1003    14004050   02/25/14 11554    GENEVIEVE N CAFFELL 530201311020000  3190     CONT SVC ENRICHMENT        0.00         3,391.46
+A1003    14004052   02/25/14 20048    OCCUPATIONAL HEALTH 530212351021200  3139     OPEN P.O. FOR 2013−        0.00            26.00
+A1003    14004065   02/25/14 10363    DETROIT SCIENCE FOR 530201311020000  3190     CONT SVC ENRICHMENT        0.00         5,602.09
+A1003    14004071   02/25/14 26333    DANBEN ENTERPRISES  530201311020000  3190     CONT SVC ENRICHMENT        0.00           563.53
+A1003    14004073   02/25/14 10784    FIGUEROA THOMAS G   530201311020000  3190     CONT SVC ENRICHMENT        0.00         2,205.20
+A1003    14004074   02/25/14 11372    FINESSE SERVICES IN 530201311020000  3190     CONT SVC ENRICHMENT        0.00         1,625.00
+A1003    14004098   02/25/14 11140    K9 POLICE DOG FUND  530201311020000  3190     CONT SVC ENRICHMENT        0.00           300.00
+A1003    14004102   02/25/14 11181    KROGER CO           530212351021200  5990     SHROEDER CARE              0.00            77.77
+A1003    14004102   02/25/14 11181    KROGER CO           530213351021300  5990     TOTS                       0.00            27.71
+A1003    14004102   02/25/14 11181    KROGER CO           530212351021200  5990     CARE                       0.00            68.21
+A1003    14004102   02/25/14 11181    KROGER CO           530212351021200  5990     RETURN                     0.00           −11.06
+A1003    14004102   02/25/14 11181    KROGER CO           530212351021200  5990     WASS CARE                  0.00            48.69
+TOTAL CHECK                                                                                                    0.00           211.32
+A1003    14004116   02/25/14 11660    O’DONNELL WILLIAM J 530201311020000  3190     CONT SVC ENRICHMENT        0.00           402.60
+A1003    14004118   02/25/14 26406    CAVTAIO MARK        530201311020000  3190     CONT SVC ENRICHMENT        0.00         2,371.80
+A1003    14004130   02/25/14 14229    ROESCH JOSEPH       530201311020000  3190     CONT SVC ENRICHMENT        0.00           219.25
+A1003    14004139   02/25/14 12097    SOUTHERN MI OBEDIEN 530201311020000  3190     CONT SVC ENRICHMENT        0.00           840.00
+A1003    14004140   02/25/14 25842    SOUTHERN MICHIGAN C 530201311020000  3190     CONT SVC ENRICHMENT        0.00         2,143.60
+A1003    14004141   02/25/14 11126    STAMEY LINDA        530201311020000  3190     CONT SVC ENRICHMENT        0.00           267.82
+A1003    14004149   02/25/14 25820    CADDY FOR LIFE LLC  530201311020000  3190     CONT SVC ENRICHMENT        0.00         2,334.96
+A1003    14004152   02/25/14 26314    TOGGWEILER TIMOTHY  530201311020000  3190     CONT SVC ENRICHMENT        0.00         2,371.91
+A1003    14004159   02/25/14 11125    ART FACTOR INC      530201311020000  3190     CONT SVC ENRICHMENT        0.00         4,519.13
+TOTAL CASH ACCOUNT                                                                                             0.00        47,241.88
+TOTAL FUND                                                                                                     0.00        47,241.88
+84
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003560   02/04/14 12922    A A T F             700070399325400  5000     THS NATL FR CONTEST        0.00           568.75
+A1003    14003579   02/04/14 12612    APPLE COMPUTER INC  700071399340000  5000     APPLE TV, MD199LL/A        0.00            99.00
+A1003    14003581   02/04/14 11684    ATLAS WHOLESALE FOO 700070399524000  5000     OPEN PO FOR TROY HI        0.00           375.20
+A1003    14003583   02/04/14 11739    BALDWIN MARY        700052299352000  5000     LARSON RECITAL             0.00            75.00
+A1003    14003598   02/04/14 10140    C V D S INC         700070399524000  5000     OPEN PO FOR TROY HI        0.00           416.80
+A1003    14003605   02/04/14 12254    DENISE HOWARD       700070399902800  5000     HOCKEY REIMB THS           0.00            21.36
+A1003    14003613   02/04/14 24640    ETHNIC ARTWORK INC  700070399900000  5000     FOR TROY HIGH CHEER        0.00           452.00
+A1003    14003617   02/04/14 23064    FIVE STAR LANES INC 700070399743600  5000     THS BOWLING TOURNMT        0.00           256.50
+A1003    14003622   02/04/14 14297    MOORE JEFFERY ALAN  700400699337700  5000     THS DIVERSITY PROJ         0.00           250.00
+A1003    14003623   02/04/14 10086    GEORGE & NESRIN TWA 700074399681000  5000     IAE BOOK REFUND            0.00            59.50
+A1003    14003625   02/04/14 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHEN T        0.00            41.88
+A1003    14003627   02/04/14 10869    GRAND TRAVERSE RESO 700070399718000  5000     032214−032414/TROY         0.00         2,153.40
+A1003    14003630   02/04/14 10086    HARSHIT & MEENA TRI 700074399681000  5000     IAE BOOK REFUND            0.00           150.00
+A1003    14003634   02/04/14 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR TROY HI        0.00           749.13
+A1003    14003634   02/04/14 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR TROY HI        0.00           521.17
+A1003    14003634   02/04/14 13240    INTRASTATE DISTRIBU 700071399524000  5000     OPEN PO FOR ATHENS         0.00           347.27
+TOTAL CHECK                                                                                                    0.00         1,617.57
+A1003    14003635   02/04/14 11071    JACKSON GILBERT     700050299352000  5000     BAKER RECITAL              0.00            75.00
+A1003    14003636   02/04/14 11425    JOHNNY MACS SPORTIN 700071399524000  5000     OPEN PO FOR ATHENS         0.00            40.00
+A1003    14003639   02/04/14 15444    KENNEDY JOHN        700052299352000  5000     LARSON RECITAL             0.00            75.00
+A1003    14003643   02/04/14 11190    LAKE ORION HIGH SCH 700071399701800  5000     AHS BOWLING                0.00           100.00
+A1003    14003646   02/04/14 11429    MI ASSOC / SECONDAR 700070399718000  5000     R WERENKA CONF             0.00           900.00
+A1003    14003649   02/04/14 12254    MARLO MOELLER       700070399912000  5000     THS VOLLEYBALL REIM        0.00           336.39
+A1003    14003650   02/04/14 12254    MARY BESTER         700070399902800  5000     THS HOCKEY REIMB           0.00            47.68
+A1003    14003651   02/04/14 24823    MI ACADEMIC COMPETI 700070399711000  5000     THS QUIZ BOWL FEE          0.00           110.00
+A1003    14003652   02/04/14 11440    MI FUTURE PROBLEM S 700052299700000  5000     SCENARIO WRITING           0.00           200.00
+A1003    14003657   02/04/14 11570    NATL ASSOC FOR COLL 700070399700000  5000     THS                        0.00           160.00
+A1003    14003666   02/04/14 12254    PATTY ZOLTOWSKI     700070399902800  5000     THS HOCKEY REIMB           0.00            40.20
+85
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003669   02/04/14 21450    RIC HANSEN ENTERTAI 700070399731500  5000     THS SNOWCOMING DANC        0.00           595.00
+A1003    14003671   02/04/14 26419    ROMANCHECK TONIA    700017199860900  5000     HAMILTON FLD TRIP A        0.00           384.00
+A1003    14003673   02/04/14 14208    SCAFURI KATHLEEN C  700052299352000  5000     LARSON RECITAL             0.00            75.00
+A1003    14003674   02/04/14 10086    SHAHID & DURDANA AH 700074399681000  5000     IAE BOOK REFUND            0.00           150.00
+A1003    14003675   02/04/14 24254    SHOGREN NICOLE E    700052299352000  5000     LARSON RECITAL             0.00            75.00
+A1003    14003676   02/04/14 11722    SMITH SUSAN M       700052299900000  5000     LARSON CHEER BOWS          0.00           110.00
+A1003    14003682   02/04/14 12254    STEPHANIE SACCO     700070399900000  5000     THS CHEER REFUND           0.00            55.00
+A1003    14003691   02/04/14 10086    TRACEY L JONES      700074399681000  5000     IAE BOOK REFUND            0.00            50.00
+A1003    14003693   02/04/14 20436    TREPCO SALES & DIST 700070399524000  5000     OPEN PO FOR TROY HI        0.00           734.64
+A1003    14003695   02/04/14 25975    TRIPLE THREAD CUSTO 700070399718000  5000     FOR TROY HIGH STUDE        0.00           528.00
+A1003    14003708   02/04/14 10221    VENTE JENNIFER      700051299700000  5000     REIMB SMITH P CASH         0.00           101.00
+A1003    14003708   02/04/14 10221    VENTE JENNIFER      700051299371500  5000     REIMB SMITH P CASH         0.00            10.00
+A1003    14003708   02/04/14 10221    VENTE JENNIFER      700051299717600  5000     REIMB SMITH P CASH         0.00            45.00
+A1003    14003708   02/04/14 10221    VENTE JENNIFER      700051299805300  5000     REIMB SMITH P CASH         0.00             8.70
+TOTAL CHECK                                                                                                    0.00           164.70
+A1003    14003709   02/04/14 24996    WALKER ALLEN        700070399907700  5000     THS BBALL REIMB            0.00            97.29
+A1003    14003712   02/04/14 13729    WILSON PAT S        700050299352000  5000     BAKER RECITAL              0.00            75.00
+A1003    14003723   02/11/14 16998    ALL STAR PUBLISHING 700070399990000  5000     TOURNAMENT CHARTS          0.00           143.00
+A1003    14003731   02/11/14 25162    BLOOMFIELD SPORTS S 700071399992000  5000     CUSTOM ROME NXT GLO        0.00         2,880.00
+A1003    14003731   02/11/14 25162    BLOOMFIELD SPORTS S 700071399992000  5000     NIKE BASKETBALL WAR        0.00           540.00
+A1003    14003731   02/11/14 25162    BLOOMFIELD SPORTS S 700071399992000  5000     NIKE BASKETBALL WAR        0.00           600.00
+TOTAL CHECK                                                                                                    0.00         4,020.00
+A1003    14003738   02/11/14 10381    CHAMPION CHEERLEADI 700070399900000  5000     TROY HIGH CHEER INV        0.00           600.00
+A1003    14003739   02/11/14 26417    SCHAMBAE CAMERON    700070399900000  5000     THS STUNT CLINIC           0.00           130.00
+A1003    14003752   02/11/14 26416    DELTAPLEX ARENA & C 700070399900000  5000     RENT FOR CHEER EVEN        0.00           250.00
+A1003    14003756   02/11/14 25422    DILDINE DIANA       700071399992000  5000     AHS CHR DSTR021514         0.00           107.00
+A1003    14003768   02/11/14 23064    FIVE STAR LANES INC 700071399701800  5000     AHS BOWLING FEES           0.00           265.50
+A1003    14003768   02/11/14 23064    FIVE STAR LANES INC 700070399743600  5000     JAN2014 THS BOWLING        0.00         2,511.00
+TOTAL CHECK                                                                                                    0.00         2,776.50
+A1003    14003785   02/11/14 16876    KWASNY LINDA JO     700053299700000  5000     PANERA PRINCIPAL ME        0.00            22.82
+A1003    14003785   02/11/14 16876    KWASNY LINDA JO     700053299700000  5000     TANEJA WKSHOP LUNCH        0.00            10.00
+86
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003785   02/11/14 16876    KWASNY LINDA JO     700053299700000  5000     MILLER 6TH GR LUNCH        0.00            13.00
+A1003    14003785   02/11/14 16876    KWASNY LINDA JO     700053299700000  5000     KURAPATI WKSHOP LUN        0.00            10.00
+A1003    14003785   02/11/14 16876    KWASNY LINDA JO     700053299700000  5000     POP REWARDS                0.00            12.60
+TOTAL CHECK                                                                                                    0.00            68.42
+A1003    14003786   02/11/14 26197    LAIRD BARBARA J     700071399992000  5000     AHSGV CHR 021514           0.00           107.00
+A1003    14003791   02/11/14 11429    MI ASSOC / SECONDAR 700070399718000  5000     LEADERSHIP AVALANCH        0.00         4,060.00
+A1003    14003793   02/11/14 13603    MI SCHOOL BAND & OR 700074399705200  5000     IAE ALLSTATE REG FE        0.00           297.00
+A1003    14003800   02/11/14 13838    MI DECA             700074399718600  5000     IAE  DECA CONF REGI        0.00         5,570.00
+A1003    14003806   02/11/14 11412    MILLER JEANNE       700071399700000  5000     REIMB AHS PETTY CAS        0.00            50.00
+A1003    14003806   02/11/14 11412    MILLER JEANNE       700071399325200  5000     REIMB AHS PETTY CAS        0.00            49.50
+A1003    14003806   02/11/14 11412    MILLER JEANNE       700071399992000  5000     REIMB AHS PETTY CAS        0.00            41.00
+TOTAL CHECK                                                                                                    0.00           140.50
+A1003    14003808   02/11/14 19962    MUKESH & BHARTI PAT 700074399718100  5000     MODEL UN REIMB             0.00           150.00
+A1003    14003809   02/11/14 11541    M T I ENTERPRISES I 700053299700000  5000     ROYALTY FEE                0.00           110.00
+A1003    14003809   02/11/14 11541    M T I ENTERPRISES I 700053299700000  5000     SHIPPING                   0.00            40.00
+A1003    14003809   02/11/14 11541    M T I ENTERPRISES I 700053299700000  5000     MUSIC MAN, JR, SHOW        0.00           440.00
+TOTAL CHECK                                                                                                    0.00           590.00
+A1003    14003810   02/11/14 10286    NAGA BATHALA        700053299700000  5000     VEX ROBOTICS REIMBU        0.00            50.75
+A1003    14003817   02/11/14 12254    PATTY DURELL        700070399731500  5000     WHITE CARDS STOCK          0.00            12.48
+A1003    14003825   02/11/14 11100    ROESCHKE DENISE     700071399992000  5000     AHSG CHR DIST 02151        0.00           107.00
+A1003    14003827   02/11/14 12254    RUPKEY CAROL        700070399990000  5000     ATHLETIC REIMB RUPK        0.00            42.00
+A1003    14003828   02/11/14 11511    WAPPINGERS FALLS SH 700070399323700  5000     OPEN P.O. FOR TROY         0.00           347.00
+A1003    14003828   02/11/14 11511    WAPPINGERS FALLS SH 700070399323700  5000     OPEN P.O. FOR TROY         0.00           592.00
+TOTAL CHECK                                                                                                    0.00           939.00
+A1003    14003833   02/11/14 25374    SMITH DENISE A      700071399992000  5000     AHS CHR DSTR 021514        0.00           112.80
+A1003    14003835   02/11/14 19962    SRIKANTH & LAKSHMI  700074399718100  5000     MODEL UN REIMB             0.00           150.00
+A1003    14003845   02/11/14 25866    TOEPEL−HARTZELL JAC 700074399347000  5000     IAE REIMB                  0.00           680.09
+A1003    14003845   02/11/14 25866    TOEPEL−HARTZELL JAC 700074399696300  5000     IAE REIMB                  0.00           209.23
+TOTAL CHECK                                                                                                    0.00           889.32
+A1003    14003850   02/11/14 13329    TROY COMMUNITY COAL 700437699667100  5000     CHOOSEWISLY TFEEGRA        0.00           500.00
+A1003    14003851   02/11/14 10286    TU JIAN             700053299700000  5000     WARD WHEELED  CAR          0.00            76.60
+A1003    14003851   02/11/14 10286    TU JIAN             700053299700000  5000     SCIENCE OLYMPIAD CA        0.00            12.62
+TOTAL CHECK                                                                                                    0.00            89.22
+A1003    14003852   02/11/14 11733    TYZO CYNTHIA R      700071399992000  5000     AHS CHR DST 021514         0.00           107.00
+87
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003858   02/11/14 13729    WILSON PAT S        700050299352000  5000     TUNING INSTRUMENTS         0.00            37.50
+A1003    14003866   02/18/14 10132    AMY GOMBOS          700071399906700  5000     BOYS SWIM DINNER           0.00            78.71
+A1003    14003866   02/18/14 10132    AMY GOMBOS          700071399906700  5000     BOYS SWIM DINNER           0.00            38.33
+A1003    14003866   02/18/14 10132    AMY GOMBOS          700071399906700  5000     BOYS SWIM DINNER           0.00            52.58
+A1003    14003866   02/18/14 10132    AMY GOMBOS          700071399906700  5000     BOYS SWIM DINNER           0.00            16.42
+A1003    14003866   02/18/14 10132    AMY GOMBOS          700071399906700  5000     BOYS SWIM DINNER           0.00            22.97
+A1003    14003866   02/18/14 10132    AMY GOMBOS          700071399906700  5000     BOYS SWIM DINNER           0.00            26.96
+TOTAL CHECK                                                                                                    0.00           235.97
+A1003    14003872   02/18/14 11684    ATLAS WHOLESALE FOO 700071399524000  5000     OPEN PO FOR ATHENS         0.00           344.50
+A1003    14003872   02/18/14 11684    ATLAS WHOLESALE FOO 700070399524000  5000     OPEN PO FOR TROY HI        0.00           378.60
+A1003    14003872   02/18/14 11684    ATLAS WHOLESALE FOO 700070399524000  5000     OPEN PO FOR TROY HI        0.00           313.50
+TOTAL CHECK                                                                                                    0.00         1,036.60
+A1003    14003881   02/18/14 10288    BOUND TO STAY BOUND 700008199701300  5000     PLEASE PROVIDE BOOK        0.00           179.47
+A1003    14003881   02/18/14 10288    BOUND TO STAY BOUND 700008199701300  5000     PLEASE PROVIDE PROC        0.00             3.82
+TOTAL CHECK                                                                                                    0.00           183.29
+A1003    14003887   02/18/14 10132    CANDACE ROEN        700071399743600  5000     BOWLING FOOD               0.00            18.76
+A1003    14003887   02/18/14 10132    CANDACE ROEN        700071399743600  5000     BOWLING FOOD               0.00             6.30
+A1003    14003887   02/18/14 10132    CANDACE ROEN        700071399743600  5000     BOWLING FOOD               0.00            34.96
+TOTAL CHECK                                                                                                    0.00            60.02
+A1003    14003893   02/18/14 25464    COLE NOELLE         700071399992000  5000     AHS G CHR REG022214        0.00           100.60
+A1003    14003894   02/18/14 11317    COLUMBO PAUL THOMAS 700071399900000  5000     10 WEEKS OF JV TUMB        0.00           115.00
+A1003    14003902   02/18/14 10242    DICK BLICK          700074399682000  5000     OPEN PURCHASE ORDER        0.00            14.02
+A1003    14003903   02/18/14 25782    DICRISTOFARO RENEE  700071399992000  5000     AHSG CHR REG 022214        0.00            95.00
+A1003    14003904   02/18/14 25422    DILDINE DIANA       700071399992000  5000     AHSG CHR REG 022214        0.00            95.00
+A1003    14003931   02/18/14 11425    JOHNNY MACS SPORTIN 700070399907800  5000     GIRLS B−BALL               0.00           143.00
+A1003    14003934   02/18/14 10132    KAREN GUILBERT      700071399906700  5000     BOYS SWIM TEAM FOOD        0.00            19.44
+A1003    14003934   02/18/14 10132    KAREN GUILBERT      700071399906700  5000     BOYS SWIM TEAM FOOD        0.00            26.94
+TOTAL CHECK                                                                                                    0.00            46.38
+A1003    14003938   02/18/14 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            54.94
+A1003    14003941   02/18/14 26197    LAIRD BARBARA J     700071399992000  5000     AHSG CHR REG 022214        0.00            95.00
+A1003    14003945   02/18/14 10132    LISA JONES          700071399906700  5000     BOYS SWIM TEAM FOOD        0.00            78.98
+A1003    14003954   02/18/14 23537    METROPOLITAN PUBLIS 700013199700000  5000     OPEN PO − "MIGHTY M        0.00           450.00
+A1003    14003974   02/18/14 12254    REGINA URE          700070399702700  5000     ROBOTICS REIMB             0.00            99.70
+A1003    14003987   02/18/14 25374    SMITH DENISE A      700071399992000  5000     AHSG CHR REG 022214        0.00           100.80
+88
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003987 V 02/18/14 25374    SMITH DENISE A      700071399992000  5000     AHSG CHR REG 022214        0.00          −100.80
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003    14003997   02/18/14 26431    THE ROOSTERTAIL INC 700074399731400  5000     DEPOSIT FOR IAE PRO        0.00         1,000.00
+A1003    14004001   02/18/14 20436    TREPCO SALES & DIST 700071399524000  5000     OPEN PO FOR ATHENS         0.00           637.30
+A1003    14004002   02/18/14 25975    TRIPLE THREAD CUSTO 700052299700000  5000     TSHIRTS                    0.00            72.00
+A1003    14004003   02/18/14 11733    TYZO CYNTHIA R      700071399992000  5000     AHSGV CHR 022214           0.00            95.00
+A1003    14004037   02/25/14 13176    BARNES & NOBLE      700017199667300  5000     THE DOT BY PETER RE        0.00           424.00
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399700000  5000     REIMB THS PETTY CAS        0.00            56.97
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399718600  5000     REIMB THS PETTY CAS        0.00            22.02
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399710000  5000     REIMB THS PETTY CAS        0.00            11.99
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399990000  5000     REIMB THS PETTY CAS        0.00            19.91
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399323700  5000     REIMB THS PETTY CAS        0.00             7.19
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399700200  5000     REIMB THS PETTY CAS        0.00             8.32
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399737700  5000     REIMB THS PETTY CAS        0.00             2.00
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399718800  5000     REIMB THS PETTY CAS        0.00            59.31
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     700070399731600  5000     REIMB THS PETTY CAS        0.00             7.98
+TOTAL CHECK                                                                                                    0.00           195.69
+A1003    14004070   02/25/14 10731    EDWARDS WILLIAM J   700013199700000  5000     INSTALLATION OF SMA        0.00           368.00
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700051299700000  5000     SMITH DANCE                0.00            61.18
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700071399718100  5000     ATHENS FIELD TRIP          0.00           199.68
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700074399745000  5000     IAE FIELD TRIP             0.00           805.55
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700074399745000  5000     IAE FIELD TRIP             0.00           775.21
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700070399718600  5000     THS FIELD TRIP             0.00           473.25
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700010199393000  5000     HILL FIELD TRIP            0.00           305.88
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700011199393000  5000     SCHROEDER FIELD TRI        0.00           242.74
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700071399708800  5000     AHS FIELD TRIP             0.00           211.91
+A1003    14004076   02/25/14 26082    FIRST GROUP AMERICA 700014199393000  5000     WASS FIELD TRIP            0.00            97.88
+TOTAL CHECK                                                                                                    0.00         3,173.28
+A1003    14004079   02/25/14 14721    FRIENDS OF THE ROUG 700051299805300  5000     SMITH ROUGE ED PROJ        0.00            98.38
+A1003    14004082   02/25/14 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHEN T        0.00            51.12
+A1003    14004082   02/25/14 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHEN T        0.00            33.13
+A1003    14004082   02/25/14 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHEN T        0.00           621.66
+A1003    14004082   02/25/14 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHEN T        0.00         1,367.27
+A1003    14004082   02/25/14 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHEN T        0.00           −29.96
+TOTAL CHECK                                                                                                    0.00         2,043.22
+A1003    14004089   02/25/14 26391    HOSA INC            700074399711100  5000     IAE AFFILIATION FEE        0.00         2,100.00
+A1003    14004092   02/25/14 13240    INTRASTATE DISTRIBU 700071399524000  5000     OPEN PO FOR ATHENS         0.00           452.20
+A1003    14004096   02/25/14 11425    JOHNNY MACS SPORTIN 700071399524000  5000     OPEN PO FOR ATHENS         0.00            40.00
+89
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14004100   02/25/14 26439    KAVULICH JANICE     700071399992000  5000     AHSG CHR REG 022214        0.00           101.00
+A1003    14004101   02/25/14 11102    KOBE LAUREL M       700071399992000  5000     AHS G CHR REG 02221        0.00            97.80
+A1003    14004126   02/25/14 24786    PROFORMA PLATINUM P 700052299352000  5000     LARSON ORCHESTRA           0.00            26.00
+A1003    14004126   02/25/14 24786    PROFORMA PLATINUM P 700052299352000  5000     LARSON ORCHESTRA           0.00            39.00
+TOTAL CHECK                                                                                                    0.00            65.00
+A1003    14004135   02/25/14 26276    SCHOOL DATEBOOKS IN 700071399736500  5000     1000 5..5X8.5 STEAM        0.00         1,310.85
+A1003    14004136   02/25/14 10717    SCHOON JULIANA M    700052299352000  5000     CLINICIAN/LARSON           0.00            90.00
+A1003    14004137   02/25/14 24254    SHOGREN NICOLE E    700052299352000  5000     LARSON CLINICIAN           0.00            90.00
+A1003    14004153   02/25/14 15979    TOTAL T’S           700071399718000  5000     CHARITY WEEK PROMOT        0.00           600.00
+A1003    14004153   02/25/14 15979    TOTAL T’S           700071399718000  5000     CHARITY WEEK TSHIRT        0.00         4,280.00
+A1003    14004153   02/25/14 15979    TOTAL T’S           700071399900000  5000     OAA COMPETITIVE T’S        0.00         1,800.00
+TOTAL CHECK                                                                                                    0.00         6,680.00
+A1003    14004154   02/25/14 26438    TROY AFRICAN−AMER P 700400699667300  5000     TFEE GRANT CALCS           0.00           477.00
+TOTAL CASH ACCOUNT                                                                                             0.00        56,275.57
+TOTAL FUND                                                                                                     0.00        56,275.57
+90
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 03/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:01:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2014’ and ’02/28/2014’
+ACCOUNTING PERIOD:  9/14
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14003708   02/04/14 10221    VENTE JENNIFER      701051299697100  5000     REIMB SMITH P CASH         0.00            21.75
+A1003    14003806   02/11/14 11412    MILLER JEANNE       701071399697100  5000     REIMB AHS PETTY CAS        0.00           121.71
+A1003    14003812   02/11/14 13810    OFFICE DEPOT INC    701150699999900  5000     BLANKET P.O. FOR MI        0.00           234.77
+A1003    14003891   02/18/14 10433    COCA−COLA REFRESHME 701053299697100  5000     POP FOR STAFF LOUNG        0.00           134.52
+A1003    14004053   02/25/14 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR 2013−        0.00            91.00
+A1003    14004059   02/25/14 14673    DAVIES JANICE M     701070399697100  5000     REIMB THS PETTY CAS        0.00           200.05
+TOTAL CASH ACCOUNT                                                                                             0.00           803.80
+TOTAL FUND                                                                                                     0.00           803.80
+TOTAL REPORT                                                                                                   0.00     1,972,812.81
+91
+               6. A.   04.01.14 
+6. A.  PERSONNEL 
+ CONSIDERATION:  TEA CONTRACT RATIFICATION  
+A tentative agreement between representatives of the Troy Board of Education 
+and the Troy Education Association/MEA/NEA (TEA) was reached on March 22, 
+2014.  The TEA membership voted to ratify the agreement on March 26, 2014.   
+The tentative agreement is a contract for the period of April 1, 2014, through 
+June 30, 2015.   The tentative agreement provides all TSD teachers and ancillary 
+staff with an off -schedule payment for the 2013/2014 school year in the amount 
+of $3,250.  As of July 1, 2014, TSD teachers and ancillary staff employed in such 
+positions before the 2013/2014 school year who are eligible for step advancement 
+will advance two steps from the 2013/2014 sal ary schedule for placement on a 
+new 14-step salary schedule (unless additional step advancement is required to 
+ensure that a TSD teacher’s or ancillary staff member’s base salary is not the 
+same or lower than it was during the 2012/2013 school year.)   Longevity 
+payments for TSD teachers and ancillary staff will remain unchanged and lane 
+changes for eligible teachers and ancillary staff will only be made for the 
+2014/2015 school year.   All TSD teachers and ancillary staff will also receive a 
+Board-paid Tax-Sheltered Annuity contribution during the 2014/2015 school year.  
+During the 2014/2015 school year, the number of student instructional days will 
+be increased from 179 days to 181 days and the number of teacher work days 
+will be increased from 184 days to 1 87 days.   Finally, the tentative agreement 
+includes a fund balance provision which will help to maintain the District’s General 
+Fund Equity Balance at a minimum of 12% after conclusion of the financial audit 
+for the 2014/2015 budget year and which would sh are any additional General 
+Fund Equity Balance in excess of 17% after conclusion of the financial audit for 
+the 2014/2015 budget year with TSD teachers and ancillary staff. 
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by: 
+ Supported by: 
+92
+ BE IT THEREFORE RESOLVED  that the Board of Education hereby ratifies and 
+adopts the tentative agreement reached on March 2 2, 2014  between 
+representatives of the Troy Board of Education and the Troy Education 
+Association/MEA/NEA for the period of April 1, 2014 through June 30, 2015. 
+ Yes: 
+ No: 
+93
+      6. B.   04.01.14 
+6. B. PERSONNEL 
+ CONSIDERATION:  ELEMENTARY AND SECONDARY 
+New Hire 
+It is recommended that the Board of Edu cation approves the issuance of  a 
+probationary contract to the following teacher  for the remainder of the 2013-
+2014 school year. 
+Francine Newman – .5 FTE Speech Pathologist, Services Building 
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ Moved by          
+ Supported by         
+BE IT THEREFORE RESOLVED  that the Board of Education takes action to approve 
+the aforementioned personnel recommendation as stated above. 
+ Yes       
+ No       
+94
+BIOGRAPHICAL SKETCH – NEW TEACHER 
+April 1, 2014 
+Francine Newman .5 FTE Speech Pathologist, Services Building 
+Educational Background: B.A., Michigan State University, Lansing, May 1991 
+  Major: Communication Disorders 
+ M.A., Wayne State University, Detroit, May 1993 
+  Major: Communication Disorders and Sciences  
+ Michigan Speech-Language Pathologist License renewal, 
+      June 2013 
+Teaching Experience: Speech Pathologist, Beaumont Hospital, Royal Oak, MI  
+   October 2004 – March 2014 
+ Speech Pathologist, Children’s Hospital of Michigan, Detroit, MI 
+   May 1996 – October 2004 
+Resident Community: Huntington Woods, Michigan 
+95
+Secondary Mathematics 
+Recommendations (Grades 8-12)
+April 1, 2014
+96
+Troy Mathematics 
+in the Common Core Era
+Teachers have been actively transitioning to the 
+demands of the Common Core State 
+Standards for Mathematics since 2009-2010.
+Instructional shifts to reflect the 
+Standards for Mathematical 
+Practice
+Changes to the secondary course 
+sequence to reflect Common Core 
+recommendations
+Textbook adoption
+97
+Four Domains for Review
+§ Common Core Alignment & Design
+§ Assessment & Questioning
+§ Equity & Differentiation
+§ Technology & Resources
+AGA Textbook Committee Members
+Jessica Blake Andrew LaTorre Eric Prowse
+Tom Cook Carol Machak Kristie Romaya
+Tim Fulcher Tim Marley Jennifer Taylor
+Krysta Gentillini Paula Mather Hadeel Yousif
+Marianne Krzeminski Jamie Mills Brian Zawislak
+98
+Algebra-Geometry-Algebra 2 
+Recommendation
+99
+Student and Teacher Tech Tools
+100
+Dynamic Assessment and
+Progress Monitoring Tool
+§ Adaptive Testing
+§ Progress Monitoring
+§ Direct Ties to Remediation
+§ Auto-Graded Tests and
+Homework
+101
+Precalculus Honors Recommendation
+§ Same author as 6 - Algebra 2
+§ College-level book 
+§ Technology & Resources
+Teacher Reviewers
+Tim Marley Allison Stefanski
+Joan Stratman
+102
+Thank you!  
+What questions do you have?103
+High School Health 
+Recommendation
+104
+The need for a new text…
+• The current version of the text is out-of-date.
+• These are just some of the health-related 
+issues and information that have changed 
+over the past decade…
+• Bullying and harassment
+• Reproductive health
+• Nutrition
+• Mental Health
+• HIV/STDs
+105
+Instructional materials were evaluated 
+based on the following criteria:
+•Alignment to Michigan High 
+School Health Standards
+•Assessment
+•Equity & Differentiation
+•Technology & Resources
+Teachers researched and evaluated 
+several texts.  The options were narrowed 
+down to two texts.  A rubric based on the 
+above criteria was used to help make the 
+consideration.  
+106
+High School Health Recommendation
+This recommendation 
+was brought before 
+the Troy School 
+District Sex Education  
+Advisory Board on 
+March 4, 2014.  
+It was discussed and 
+2013 edition
+approved.
+107
+Thanks to the individuals who 
+put so much time and effort 
+into the process…
+• Mary McDermott
+• Karyn Schachinger
+• Karie Dunneback
+• Lindsay Noble
+• Lisa Danhoff
+What questions do you have?
+108
+2013-2014 MEAP Results
+109
+What percent of our 3rd – 8th grade students Met Standards on their MEAP tests?
+Reading 3-8
+110
+What percent of our 3rd – 8th grade students Met Standards on their MEAP tests?
+Math 3-8
+111
+What percent of our students Met Standards on their MEAP tests?
+Science 5 & 8 
+112
+What percent of our students Met Standards on their MEAP tests?
+Social Studies 6 & 9113
+What percent of our students Met Standards on their MEAP tests?
+Writing 4 & 7114
+Accelerating Learning 
+For the Bottom 30% (Focus Schools) and 
+AllLiteracy
+•Enhanced Reading 
+Recovery 
+opportunities
+•Teacher labs
+•Teaching and 
+Learning Leaders
+•AARI – Adolescent 
+Accelerated 
+Reading Initiative
+Mathematics
+•All students taught 
+at grade level
+•Mathematics 
+support classes at 
+secondary
+•Standards for 
+Mathematical 
+Practice
+•Teaching and 
+Learning Leaders
+Science
+•HI CLASS- Literacy 
+Strategies for 
+Content Teachers
+•Engaging in 
+argument from 
+evidence (CER)
+•Developing and 
+using models
+•Analyzing and 
+interpreting 
+scientific data
+Social Studies
+•Troy CLASS- 
+Literacy Strategies 
+for Content 
+Teachers
+•Considering the 
+use of technology 
+to support student 
+learning
+•Refining 
+assessment 
+practices
+115
+Accelerating Learning 
+For the Bottom 30% (Focus Schools) and All
+Student Centered 
+Classrooms
+Technology as a 
+Professional 
+Assessment
+Development in 
+Effective 
+Instruction
+Formative 
+Teaching to 
+Assessment
+Learner Differences
+116
+Teaching for 
+Understanding
+Tool to Enhance 
+Instruction and 
+The future of testing……
+117
+8.A.      4.1.14
+8.        BUSINESS
+           A.    CONSIDERATION:       2013 - 14 Budget Amendment Resolution
+Attached is the Budget Amendment Resolution for the 2013 - 14 fiscal year.  It 
+includes the General Fund, Special Revenue Funds, Debt Service Funds, Capital 
+Projects Funds and the Internal Service Fund.  Approval of the attached 
+resolution is recommended.
+We do not have to read the Budget Amendment Resolution in its entirety.  
+However, it must be made a part of the official minutes.
+RECOMMENDED ACTION:       Adopt the following resolution.
+SUGGESTED RESOLUTION
+Moved By:  ____________________
+Supported By:  ____________________
+BE IT THEREFORE RESOLVED, that the general appropriations and
+budget of the Troy School District for the fiscal year 2013 - 14 for the
+following funds be amended and approved as attached hereto and
+made a part of the official minutes of the April 1, 2014 regular
+meeting.
+Yes:  ___________
+No:    ___________
+118
+General Fund 133,770,738$    
+Special Revenue Funds 8,325,771$        
+Debt Service Funds 12,287,912$      
+Capital Projects Funds - $                   
+Internal Service Fund 25,000$             
+8.A.      4.1.14
+BE IT RESOLVED, that the total revenues and unappropriated fund balance estimated to
+be available for appropriations in the General Fund of the Troy School District for the
+fiscal year 2013 - 14 are amended as follows:
+APPROVED AMENDED
+Revenues: BUDGET BUDGET CHANGE
+Local 36,487,546 $     36,487,546 $        - $                   
+State 84,734,723        86,197,867           1,463,144           
+Federal 3,502,825          3,346,213             (156,612)             
+Incoming Transfers/Other 7,623,271          7,623,271             -                          
+Total Revenues/Incoming 132,348,365 $  133,654,897 $     1,306,532 $       
+Transfers/Other
+Fund Balance, July 1 20,989,250 $    22,070,236 $       1,080,986 $       
+ 
+Fund Balance 20,989,250 $    22,070,236 $       1,080,986 $       
+Available to Appropriate
+Total Available to Appropriate 153,337,615$  155,725,133 $     2,387,518 $       
+BE IT FURTHER RESOLVED, that $133,770,738 of the total available to appropriate in the
+General Fund  is hereby appropriated in the amounts and for the purposes set forth below:
+Expenditures:
+Instruction:
+Basic Programs 71,368,085 $     72,342,540 $        974,455 $           
+Added Needs 15,340,230        16,326,280 $        986,050              
+Adult/Continuing Education 683,802             713,880 $             30,078                
+Total Instruction 87,392,117 $    89,382,700 $       1,990,583 $       
+Support Services:
+Pupil 9,414,799 $       9,700,016 $          285,217 $           
+Instructional Staff 6,711,908          6,986,977 $          275,069              
+General Administration 1,971,286          2,020,434 $          49,148                
+School Administration 7,259,330          7,752,765 $          493,435              
+Business Services 2,447,951          2,402,252 $          (45,699)               
+Operations/Maintenance 8,485,556          8,490,147 $          4,591                  
+Pupil Transportation 3,450,286          3,421,659 $          (28,627)               
+Central Services 1,808,725          1,765,436 $          (43,289)               
+Support Services (Athletics and Other) 1,682,903         1,709,562 $          26,659                
+Total Support Services 43,232,74 4$    44,249,248 $       1,016,50 4$       
+119
+8.A.      4.1.14
+APPROVED AMENDED
+BUDGET BUDGET CHANGE
+Community Services 69,670 $            102,649 $          32,979 $              
+Outgoing Transfers/Other 36,141               36,141               -                        
+Total Expenditures/ 130,730,672$  133,770,738 $  3,040,066 $        
+Outgoing Transfers/Other  
+EXCESS REVENUES/ 1,617,693 $      (115,841) $        (1,733,534)$       
+(EXPENDITURES)
+BEGINNING FUND
+BALANCE JULY 1 20,989,250 $    22,070,236 $    1,080,986 $        
+ENDING FUND
+BALANCE JUNE 30 22,606,943$    21,954,395 $    (652,548) $          
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Special Revenue Funds  of the Troy School District for 
+the fiscal year 2013 - 14 be amended as follows:
+Revenues:
+Local 4,893,006 $       4,893,006 $       - $                    
+State 135,484             135,484 $          -                       
+Federal 3,786,411          3,786,411 $       -                       
+Incoming Transfers -                     -                       
+Total Revenues 8,814,901 $      8,814,901 $      - $                   
+Fund Balance, July 1 2,174,233 $      2,616,957 $      442,724 $           
+Fund Balance Available 2,174,233 $      2,616,957 $      442,724 $           
+to Appropriate
+Total Available to Appropriate 10,989,134$    11,431,858 $    442,724 $           
+BE IT FURTHER RESOLVED, that $8,833,083 of the total available to appropriate in the 
+Special Revenue Funds is hereby appropriated in the amounts and for the purposes set
+forth below:
+Expenditures:
+Salaries 1,465,825 $       1,465,825 $       - $                    
+Employee Benefits 802,637             802,637 $          -                       
+Purchased Services 4,115,662          4,115,662 $       -                       
+Supplies/Materials 1,718,546          1,718,546 $       -                       
+Capital Outlay 10,000               10,000 $            -                       
+Other Expenditures 97,925               97,925 $            -                       
+Outgoing Transfers 122,488             115,176 $          (7,313)                  
+Total Expenditures 8,333,083 $      8,325,771 $      (7,313) $              
+120
+8.A.      4.1.14
+ORIGINAL AMENDED
+BUDGET BUDGET CHANGE
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Debt Service Funds of the Troy School District for the  
+fiscal year 2013 - 14 be amended as follows:
+Revenues:
+Earnings on Investments 3,800              3,800                -                       
+Other -                  -                   -                       
+Incoming Transfers -                  -                   -                       
+to Appropriate
+BE IT FURTHER RESOLVED, that $12,287,912 of the total available to appropriate
+in the Debt Service Funds  is hereby appropriated in the amounts and for the purposes set
+forth below:
+Expenditures:
+Outgoing Transfers -                  -                   -                       
+(EXPENDITURES)
+BALANCE JULY 1
+BALANCE JUNE 30
+121
+EXCESS REVENUES/ 481,818$       489,131 $        7,313 $               
+BALANCE JULY 1 2,174,233 $    2,616,957 $     442,724 $           
+BALANCE JUNE 30 2,656,051$    3,106,088 $     450,037 $           
+Property Taxes 16,145,934 $   16,145,934 $    - $                    
+Total Revenues 16,149,73 4$  16,149,73 4$   - $                   
+Fund Balance, July 1 (2,618,181) $  (2,938,785) $    (320,604) $          
+Fund Balance Available (2,618,181) $  (2,938,785) $    (320,604) $          
+Total Available to Appropriate 13,531,553$  13,210,949 $   (320,604) $          
+Redemption of Principal 8,660,000 $     8,660,000 $      - $                    
+Interest on Debt 3,324,912        3,324,912 $      -                       
+Other Expenditures 303,000          303,000 $         -                       
+Total Expenditures 12,287,912 $  12,287,912 $   - $                   
+EXCESS REVENUES/ 3,861,822$    3,861,822 $     - $                   
+BEGINNING FUND (2,618,181) $  (2,938,785) $    (320,604) $          
+ENDING FUND 1,243,641 $    923,037 $        (320,604) $          
+8.A.      4.1.14
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Capital Projects/Capital Project Maintenance Funds of the 
+Troy School District for the fiscal year 2013 - 14 be amended as follows:
+APPROVED AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+Other -                   -                   -                       
+to Appropriate
+BE IT FURTHER RESOLVED, that $0 of the total available to appropriate in the Capital 
+Projects/Capital Projects Maintenance Funds  are hereby appropriated in the amounts and 
+for the purposes set forth below:
+Expenditures:
+Capital Outlay -                   -                   -                       
+Other Expenditures -                   -                   -                       
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+122
+Earnings on Investments - $                - $                -                       
+Total Revenues - $               - $                - $                   
+Fund Balance, July 1 804,992 $        893,583 $         88,591 $             
+Fund Balance Available 804,992 $        893,583 $         88,591 $             
+Total Available to Appropriate 804,992$        893,583 $         88,591 $             
+Purchased Services - $                - $                    
+Total Expenditures - $               - $                - $                   
+EXCESS REVENUES/ -$               - $                - $                   
+BALANCE JULY 1 804,992 $        893,583 $         88,591 $             
+BALANCE JUNE 30 804,992$        893,583 $         88,591 $             
+8.A.      4.1.14
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance
+estimated to be available for appropriations in the Internal Service Fund  of the Troy
+School District for the fiscal year 2013 - 14 is as follows:
+APPROVED AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+Other 23,500             23,500             -                       
+to Appropriate
+BE IT FURTHER RESOLVED that $25,000 of the total available to appropriate
+in the Internal Service Fund  is hereby appropriated in the amounts and for the
+purpose set forth below:
+Expenditures:
+Transfers Out -                  -                  -                       
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+This Appropriation Resolution shall take effect immediately.
+123
+Earnings on Investments 500 $               500 $               -                       
+Total Revenues 24,000 $         24,000 $         - $                   
+Fund Balance, July 1 25,000 $         25,000 $         - $                   
+Fund Balance Available 25,000 $         25,000 $         - $                   
+Total Available to Appropriate 49,000$         49,000 $         - $                   
+Benefits 25,000 $          25,000 $          - $                    
+Total Expenditures 25,000 $         25,000 $         - $                       
+EXCESS REVENUES/ (1,000) $         (1,000) $         - $                       
+BALANCE JULY 1 25,000 $         25,000 $         - $                   
+BALANCE JUNE 30 24,000$         24,000 $         - $                   
+ 8. B. 04.01.13 
+8. BUSINESS 
+B.  CONSIDERATION:  CONTRACT APPROVAL FOR 
+TRANSPORTATION SERVICES 
+Invitations to bid were sent to 7 potential bidders with 2 responding 
+(none of which were “No Bid”).  The responses were reviewed by Mr. 
+Dominick Asaro, Transportation Supervisor. Below is a resolution for 
+board consideration regarding transportation services.  
+. 
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved  that the Troy Board of Education authorize 
+administration to proceed with finalizing the contract with First Student to 
+provide transportation services for the 201 4/2015, 2015/2016  and 
+2016/2017 school years. 
+ Yes: 
+ No: 
+124
+Memorandum 
+ DATE: March 12, 2014 
+Mark Rajter 
+ TO:  Dr. Barbara A. Fowler, Superintendent 
+Assistant 
+Superintendent 
+ FROM: Mark S. Rajter, Business Services 
+Business 
+Services 
+ RE: Transportation Services bid award 
+4400 Livernois 
+Troy, MI 48098 
+248/823-4022,  
+Fax - 248/823-4013 
+The district sought request for proposals from transportation providers for Pupil 
+Transportation Services for the next five fiscal years. RFP 9769 closed on February 11, 
+2014 with two providers responding, our current provider, First Student, Inc. and the 
+second being Durham School Services. Both provided through comprehensive 
+responses. 
+Durham’s response was based on an hourly rate and a 4 hour run time. First Student 
+prices their service on a per run fee, which is up to 5.5 hours. Therefore, Dominick 
+Asaro created a spreadsheet to convert Durham’s pricing into a 5.5 hour run time, to 
+compare the two firm’s responses and our current run configurations. 
+Attached is the original RFP tabulation sheet and Dominick’s spreadsheet, which 
+converts Durham’s proposal into a like-kind per route fee. The annual cost difference is 
+$257,527.30, with First Student, Inc. being the lower of the two responses. 
+Dominick fully analyzed both proposals’ for price and services to be provided. Based on 
+the price differential of $257,000 along with the fact that First Student included the 
+impact of the Affordable Care Act onto their price response and their current and past 
+performance for the district has met our needs and expectations, Dominick 
+recommends Troy continue its relationship with First Student, Inc. for transportation 
+services.  
+Furthermore, based on my review of the RFP data with Dominick and yourself of each 
+of the firm’s proposal, I recommend to you that the Board of Education award to First 
+Student, Inc. transportation services for the Troy School District for the next five years 
+(initial three years, with up to two years renewal) contingent upon the Superintendent or 
+her designee to successfully execute a contract before July 1, 2014.   
+125
+126
+RATE COMPARISON  Adjusted  RATE COMPARISON First Student Adjusted  
+DURHAM Excess Hrly Rate Rate FIRST STUDENT Rate Excess Hrly Rate Rate Rates up to 6 hrs. 
+REG 204.69 25.3 37.95 242.64 31 179 $ 1,346,409.36 REG 210.44 $0 24 210.44 31 179 $ 1,167,731.56 $ (178,677.80)
+SPED 244.75 25.3 37.95 282.7 23 179 $ 1,163,875.90 SPED 251.64 0 24 251.64 23 179 $ 1,036,001.88 $ (127,874.02)
+MIDDAY 25.3 25.3 0 25.3 4 ROUTES @ 2HRS 5X WEEK 179 36229.6 MIDDAY 0 24 47.94 4 ROUTES @ 2HRS 5X WEEK 179 34325.04 $ (1,904.56)
+EXCESS HOURLY RATE OVER 4 HOURS 25.3 0 25.3 3 ROUTES @ 2HRS 3X WEEK 108 16394.4 EXCESS HOURLY RATE OVER 4 HOURS 0 24 47.94 3 ROUTES @ 2HRS 3X WEEK 108 15532.56 $ (861.84)
+6 Routes @1 hr 2xweek 72 10929.6 0 24 47.94 6 Routes @1 hr 2xweek 72 20710.08 $ 9,780.48
+1 route @1 Hr 1x week 36 910.8 0 24 47.94 1 route @1 Hr 1x week 36 1725.84 $ 815.04
+Total Home to School  $ 2,574,749.66 Total Home to School Total Home to School $ 2,276,026.96 $ (298,722.70)
+FULL YEAR Summer Routes  REG 244.76 25.3 0 244.76 9 20 $ 44,056.80 FULL YEAR Summer Routes  REG 210.44 0 210.44 9 20 $ 37,879.20 $ (6,177.60)
+FULL YEAR & SUMMER SPED w/ avg 4.63 244.76 25.3 18.98 263.74 10 27 $ 71,209.80 FULL YEAR & SUMMER SPED w/ avg 4.63 0 251.64 10 27 $ 67,942.80 $ (3,267.00)
+EXCESS HOURLY RATE OVER 4 HOURS 25.3 Reg Ed = 4.0 EXCESS HOURLY RATE OVER 4 HOURS  $ -  
+ Sp Avg hrs = 4.75
+TOTAL SUMMER REG & SP ED $ 115,266.60 TOTAL SUMMER REG & SP ED Total Summer Routes $ 105,822.00 $ (9,444.60)
+Monitor 25.3 25.3 0 0 2 179 $ 36,229.60 Monitor 26.73 2 179 $ 38,277.36 $ 2,047.76
+based on 4 hrs based on 4 hrs
+25.3 25.3 37.95 37.95 4 179 $ 99,631.40 26.73 4 179 $ 105,262.74 $ 5,631.34
+Based on 5.5hrs based on 5.5 hrs
+Total Monitor Expense  $ 135,861.00 Total Monitor Expense Total Monitor Expense $ 143,540.10 $ 7,679.10  
+VOC ED 25.3 0 VOC ED 47.94 0
+  Trips estimate 4000 hrs   
+   250 trips@2 hrs 18750  50.16 2 hrs trips@ 500 hrs 25080
+Trips  Trips 50.16 3500 hrs 175560
+hrly 37.5 3500 hrs @37.50 131250 hrly 0
+min 2 hrs 75 Total Trip Expense $ 150,000.00 min 2 hrs Total Trip Expense 200640 $ 50,640.00
+Total Bid Amount $ 2,975,877.26 Total Bid Amount $ 2,726,029.06  $ (257,527.30)
+MID-DAY CALCULATION 4 ROUTES X 2 HRS A DAY X $25.30 AN HOUR x 179 DAYS = 36,229.60
+127
+4 hours Actual 
+excess
+hrs@1.5 5.5 hrs #ROUTES # days Annual Expense up to 6.0 hrs Actual 
+excess
+hrs < 6 5.5 hrs #ROUTES # days Annual Expense Variance Total Variance
+    RULES AND REGULATIONS    C‐1400 
+C‐1402  SMOKINGTOBACCO‐FREE SCHOOLS 
+It is the policy of theThe Troy School District that prohibits the use 
+and/or  sale  of  any  any  type  of  tobacco  products  and  non‐tobacco 
+nicotine  products  (including  smokeless  tobacco  and  any  new 
+emerging  tobacco  products)  is  prohibited  in  vehicles,  buildings, 
+facilities, structures, or other real estate owned, leased or otherwise 
+controlled  by  the  Troy  School  District  and  at  all  school‐sponsored 
+events and functions on or off campus, by any person, at any time, 
+in  any  location,  and  at  any  event  in  vehicles,  buildings,  facilities, 
+structures,  or  other  real  estate  owned,  leased  or  otherwise 
+controlled by the Troy School District at all times (24 hours a day – 
+7 days a week.) 
+For  the  purpose  of  this  policy,  the  use  and/or  sale  of  a  tobacco  or 
+non‐tobacco nicotine product is defined as follows: 
+ “Tobacco  product”  means  a  preparation  of  tobacco  to  be 
+inhaled,  chewed,  or  placed  in  a  person’s  mouth.Tobacco 
+products  include,  but  are  not  limited  to,  cigarettes,  cigars,  spit 
+tobacco,  shisha  or  hookah  use,  snus,  tobacco  strips,  sticks,  and 
+dissolvable  tobacco  products.   Non‐tobacco  nicotine  products 
+include,  but  are  not  limited  to,  e‐cigarettes.   This  does  not 
+include  products  that  are  classified  as  “nicotine  replacement 
+therapy”  and  prescribed  by  a  physician  to  help  tobacco  users 
+quit. 
+ “Any  person”  includes  students,  employees,  visitors, 
+contractors,  delivery  drivers,  etc.,  all  groups  using  school 
+property, and any other persons.   
+128
+ “Any time” means 24 hours per day, seven days per week, and 
+365 days per year. 
+ “Any  location”  includes  the  school’s  property,  grounds, 
+buildings,  and  vehicles,  even  when  school  is  out  of  session  or 
+the event is sponsored by another organization. 
+ “Any  event”  includes  all  school‐sponsored  events,  whether  on 
+or off school property. 
+“Use  of  a  tobacco  or  non‐tobacco  nicotine  product”  means  any  of 
+the following: 
+ The  carrying  by  a  person  of  a  lighted  cigar,  cigarette,  pipe,  or 
+  other lighted smoking device. 
+ The inhaling or chewing of a tobacco product. 
+ The placing of a tobacco product within a person’s mouth. 
+Adopted:  February 2, 1999 
+Revised:  September, 2003 
+  April 20, 2010 
+  February 12, 2014 
+129
+GENERAL SECTION     G-1000 
+G-1005 NONDISCRIMINATION 
+ In compliance with Title VI of the Civil Rights Act of 1964, Title IX of 
+the Education Amendments of 1972, Section 504 of the Rehabilitation 
+Act of 1973, the Age Discrimination Act of 1975, and the Americans 
+with Disabilities Act of 1990, it is the policy of the Troy School 
+District that no person shall, on the basis of perceived religion, race, 
+color, national origin, age, sex, sexual orientation, disability, height, 
+weight, gender identity, marital status, socioeconomic status, or any 
+other distinguishing characteristic or association with another person 
+who has or is perceived to have any of these characteristics,of race, 
+color, religion, national origin or ancestry, gender, age, disability, 
+height, weight, or marital status be illegally excluded from 
+participation in, be denied the benefits of, or be subjected to 
+discrimination during any program, activity, or service or in 
+employment. 
+ In accordance with Federal regulations, Troy School District has 
+appointed the Assistant Superintendent, Human Resources, as the 
+Title VI, Title IX, Section 504/ADA, and Age Discrimination Act 
+Coordinator.  Any questions, suggestions, or complaints regarding a 
+possible or perceived violation of this policy of nondiscrimination 
+should be directed to this administrator, who is responsible for 
+administering the nondiscrimination grievance procedure: 
+Assistant Superintendent, Human Resources 
+Title VI, Title IX, Section 504/ADA and Age 
+Discrimination Act Coordinator 
+Troy School District 
+4400 Livernois Road 
+Troy, Michigan 48098-4799 
+Voice 248.823.4000 
+Adopted: July 10, 2007 
+Revised:     February 12, 2014 
+130
+RIGHTS AND RESPONSIBILITIES, CODE OF STUDENT CONDUCT    J‐2000 
+J‐2012  ANTI‐BULLYING POLICY 
+It is the policy of the District to provide a safe educational environment for all 
+students and employees.  Bullying of a student or employee at school, in any 
+building within the Troy School District boundaries or any TSD event is strictly 
+prohibited. This policy shall be interpreted and enforced to protect all students 
+and employees to equally prohibit bullying without regard to its subject matter 
+or motivating animus.   
+A. Prohibited Conduct.  
+1. Bullying.  Bullying of a student or employee at school is strictly prohibited.  
+For the purposes of this policy, ʺbullyingʺ shall be defined as: 
+Any written, verbal, or physical act, or any electronic communication, that is 
+intended or that a reasonable person would know is likely to harm one or more 
+students or employees either directly or indirectly by doing any of the 
+following:   
+a.  Substantially interfering with educational opportunities, benefits, or 
+programs of one or more students or employees;  
+b.  Adversely affecting a studentʹs or employee’s ability to participate in or 
+benefit from  
+the Districtʹs educational programs or activities by placing the student or 
+employee in reasonable fear of physical harm or by causing substantial 
+emotional distress;  
+c.  Having an actual and substantial detrimental effect on a student or 
+employeeʹs   
+  physical or mental health; or 
+d.  Causing substantial disruption in, or substantial interference with, the  
+  orderly operation of the school.   
+2.  Retaliation/False Accusation.  Retaliation or false accusation against a target of 
+bullying, anyone reporting bullying, a witness, or another person with reliable 
+information about an act of bullying is strictly prohibited.   
+131
+B.  Reporting an Incident.  If a student, staff member, or other individual believes 
+there has been an incident of bullying in violation of this policy, s/he shall promptly 
+report such incident to the appropriate principal or designee,  
+ C.  Investigation.   All reported allegations of a policy violation or related 
+complaint about bullying shall be promptly and thoroughly investigated by the 
+building principal or designee.  Each verified incident of bullying and resulting 
+consequences including discipline and referrals will be reported annually to the 
+school board. 
+D.  Notice to Parent/Guardian.  If the principal or designee determines that an 
+incident of bullying has occurred, s/he shall promptly provide notification of same to 
+the parent/guardian of the victim of the bullying and the parent/guardian of the 
+perpetrator of the bullying.   
+E.  Annual Reports.  At least annually, the building principal or designee, or the 
+Responsible School Official shall report all verified incidents of bullying and the 
+resulting consequences, including any disciplinary action or referrals, to the Board of 
+Education.   
+F.  Responsible School Official.   The superintendent shall be responsible for 
+ensuring the proper implementation of this policy throughout the District.  The 
+foregoing appointment shall not reduce or eliminate the duties and responsibilities of 
+a principal or designee as described in this policy. 
+G.  Posting/Publication of Policy.  Notice of this policy will be: (a) annually 
+circulated to all students and staff, (b) posted in conspicuous locations in all school 
+buildings and departments within the District, (c) annually discussed with students 
+and employees, and (d) incorporated into the teacher, student, and parent/guardian 
+handbooks. 
+H.  Definitions 
+1. ʺ At schoolʺ means in a classroom, elsewhere on school premises, on a school 
+bus or other school‐related vehicle, or at a school‐sponsored activity or event 
+whether or not it is held on school premises.  ʺAt schoolʺ also includes any 
+conduct using a telecommunications access device or telecommunications service 
+provider that occurs off school premises if the device or provider is owned by or 
+under the Districtʹs control. 
+2. ʺ Telecommunications Access Deviceʺ means that term as defined in Section 
+219a of the Michigan Penal Code, 1931 PA 328, MCL 750.219a, as may be 
+amended from time to time.   
+132
+3. ʺ Telecommunications Service Providerʺ means that term as defined in Section 
+219a of the Michigan Penal Code, supra, as may be amended from time to time.   
+ADOPTED:   JUNE 5, 2012 
+REVISED:   MARCH 6, 2014 
+133
+2013/2014 Superintendent’s Goals
+APRIL UPDATE
+Business Services
+Human Resources
+Bond Election
+Student Achievement
+Community/Business Development
+April 1, 2014
+134
+Student Achievement 
+‐ College & Career Readiness Trajectory to 85%
+‐ Reduce achievement gap:  Low performing 
+‐Reduce achievement gap: Majority to high  
+performing sub‐groups
+‐ Investigate NWEA testing model 
+Annual 
+Superintendent’s 
+Goals
+Bond Election
+Community/Business
+‐ Structure/Calendar: Bond work
+‐ Develop partnerships
+135
+sub‐groups to Majority
+‐ Expand implementation of teacher labs
+‐ Assess impact of TLL’s
+Business Services
+‐ Operational Goals (e.g. customer service 
+response, accuracy in operation)
+‐ Data Processing –E v a l u a t e department 
+restructuring
+‐ Operations & Maintenance –I m p l e m e n t 
+fully functional work order system with 
+data analysis capabilities 
+Human Resources
+‐ Operational Goals (e.g. customer service 
+response, accuracy in operation)
+‐ Validate impact of newly implemented hiring 
+process
+‐ Continue to expand initiatives to employ a 
+highly qualified diverse workforce
+Development
+‐ Successful bond election
+Business Services
+1. Finance:
+ Operational Goals (e.g. accuracy in operation, 
+customer service response)
+2. Data Processing:
+ Evaluate department restructuring and current 
+software program
+3. Operations & Maintenance:
+ Implement fully functional work order system with 
+data analysis capabilities
+3
+136
+1. Finance – Operational Goals
+ External Consultant review of team completed in spring 2013.
+o Improve business processes and productivity of team
+ Summer 2013
+o Continued process of improving department staff efficiencies and work product.
+o Contracted payroll position resulting from retirement of previous FTE
+ September 2013
+o Resignation of Director of Finance
+o District Accountant out on leave
+ October 2013
+o Posting for Director vacancy –n o potential candidates
+o Hired Accounting Coordinator
+ January 2014
+o Repost Director vacancy –n o potential candidates
+ February –March 2014
+o Post Payroll and Accounting Assistant positions –g o a l of FTE to be in place by 
+7‐1‐14
+4
+137
+1. Finance - Operational Goals
+Operational
+ Continually looking for business process 
+improvements/changes which result in more efficient 
+processes and accuracy, examples of areas addressed:
+o A/P –c o n f i g u r e business process to eliminate journal entries
+o P‐card activity –a u t o m a t e through interface with G/L versus 
+journal entries
+o P/R – continue to configure pay/deduction codes and 
+processes to maximize the software functionality
+o Streamline cash receipting process
+o Prepare detailed budget in G/L for Bond Program 
+expenditures
+5
+138
+2. Data Processing
+Evaluate Department Restructuring and 
+Current Software Program
+ Looked at County‐wide (ISD) software RFP initiative
+ 1st RFP ended in the ISD implementation being terminated 
+during summer 2013
+ 2nd RFP process began Sept. 2013, earliest implementation 
+estimated at July 2015
+ Decision made to upgrade current software to web based 
+platform, eFinancePlus ver . 5.0
+6
+139
+2. Data Processing
+Evaluate Department Restructuring and 
+Current Software Program
+ October 2013
+ TSD team attended SunGard user conference to begin educational process 
+for software upgrade
+ Jan –M a r 2014
+ Finance/HR continue to identify business processes & system configurations 
+which need updating/change
+ April 2014
+ Business Process Review (BPR) scheduled
+ Reports & report writing identified
+ May 2014
+ BPR findings –i d e n t i f y changes
+ June 2014
+ Parallel runs of ver. 5.0 to current 4.3 system
+ July 21, 2014 –G o Live in eFinancePlus 5.0
+7
+140
+3. Operations & Maintenance
+Implement New Work Order System
+HISTORY
+Work order system maintenance department was using was outdated and a non‐
+integrated system, replacement was sought:
+District moved to utilizing SchoolDude software in 2013
+ The software is used by more than 6,000 educational institutions across the U.S.
+ First ‐ Facility Usage solution implemented in 2013
+o Allows stakeholders to efficiently book facility space as needed
+o Facilitates inside/outside event request online
+ Second ‐ Maintenance solution implemented during FY 2013/14
+o Phase 1 – General tasks have been defined in the system
+◊ TSD maintenance staff and custodial building leads have received user training
+◊ Work orders will be solely placed into SchoolDude starting week of April 7‐11, 2014
+o Phase 2 –D e p l o y iPads to maintenance techs for in‐field utilization/reporting
+o Phase 3 –D e v e l o p reports to be utilized by management
+o Future goal –H a v e contracted staff utilize for general repairs, minor P. M . 
+services, etc. tentatively fall of 2014
+8
+141
+Human Resources
+Operational Goals
+1. Established regular Business/Human Resources Department
+meetings to review existing systems and processes and to
+immediately respond to concerns in a timely manner .
+2. Involvement, support, and assistance with the transition to an
+updated Finance/Human Resources management system.
+3. On ‐going development of links and resources for access by TSD
+employees on the TSD website and Intranet. (Ex. Explanation of
+“Common” Payroll Deduction Codes, TEAM Evaluation
+Resources, New Policies and Administrative Procedures, etc.)
+142
+Human Resources
+Validate impact of newly implemented 
+hiring process.
+1. On ‐going dialogue and work with Principals and Assistant
+Superintendent’s of Instruction to enhance our hiring process through
+the addition/modification of the performance‐based aspects of our hiring
+processes for teachers and administrators.
+2. On ‐going dialogue with Principals about the successes and challenges of
+our most recent hires and additional supports for our newest teachers.
+3. Future plans to analyze the 3 ‐year performance evaluation outcomes
+under the Troy Educator Appraisal Model (TEAM) for all TSD probationary
+teachers to validate the impact of the enhanced hiring process and to
+consider modifications.
+143
+Human Resources
+Continue to expand initiatives to employ a 
+highly qualified diverse workforce.
+1. Continue to emphasize the importance of a diverse workforce
+within the hiring process for all TSD positions.
+2. Exploring the utilization of proven structured interviews for special
+education teachers, ancillary staff, and para‐educator applicants.
+3. Considering teacher recruiting venues outside of Michigan’s public
+universities which would provide access to a more culturally ‐
+diverse teacher workforce.
+4. Meeting with community members participating on the TSD
+Diversity & Inclusion Council to consider broadening our network
+and job posting locations.
+144
+Bond Election
+• Bond proposal preparation, 
+communicaton and execution
+• Citizen committee formed, strategic 
+plan developed
+• Bond passed with 70% voter approval
+• Passed  overwhelmingly in EVERY 
+precinct
+• Absentee voter passage rate: 60%
+• Record turnout: 13,382 votes cast
+• Passed with 52% voter approval
+• 7,195 votes cast
+• Passed with 60% voter approval
+June 1997
+• 5691 votes cast
+145
+• 82% absentee voters rejected 
+June 2004 
+•Design Phase Complete by 3/21/14
+•Begin Construction 6/16/14
+•Complete by 9/30/14
+•Design Phase Complete by 2/21/14
+•Begin Construction 6/16/14
+•Complete by 8/29/14
+•Design Phase Complete by 3/21/14
+•Begin Construction 6/16/14
+•7 Complete by 8/29/14
+•Schroeder Complete 8/29/15
+•Design Phase Complete by 2/21/14
+•Begin Construction 4/23/14
+•Complete by  8/29/14
+•Design Phase Complete by 4/18/14
+•Begin Construction 6/18/14
+•Complete by 6/16/15
+•Design Phase Complete by 5/23/14
+•Begin Construction 8/6/14
+•Complete by 7/31/15
+Other  
+•Technology: Phone, network: Spring Break 2014
+•Track replacement/resurface: Summer 2014
+146
+•Bus Replacement Complete by 5/1/14
+•Lighting, Auditorium updates:  Summer 2014
+Spring/Summer 
+Projects
+2014 Bond Projects Timeline
+Student Achievement 
+‐ 85% College and Career Readiness
+‐ Achievement Gaps
+‐ World Class Instructional Program 
+147
+Business Services
+Human Resources
+‐ Operational Goals (e.g. customer   service 
+‐ Operational Goals (e.g. customer 
+response, accuracy in operation)
+service response, accuracy in operation)
+‐ Data Processing – Evaluate department 
+‐ Validate impact of newly 
+restructuring
+implemented hiring process
+‐ Operations & Maintenance – Implement fully 
+‐ Continue to expand initiatives to 
+functional work order system with data 
+employ a highly qualified diverse 
+analysis capabilities 
+workforce
+Student Achievement
+‐ College & Career Readiness Trajectory to 85%
+• Upcoming slides will show our progress towards reaching 85%
+‐ Reduce achievement gap:  Low performing sub‐groups to Majority
+• We will continue to monitor intervention and acceleration opportunities for students
+‐ Reduce achievement gap:  Majority to high performing sub‐groups
+• We will continue to monitor intervention and acceleration opportunities for students
+‐ Investigate NWEA testing model 
+• Committee comprised of 8 principals representing all 3 levels, Curriculum Coordinators, and 
+Dr. Machesky and Mrs. Keeling investigated both NWEA and ACT Aspire products
+• Met with representatives from NWEA and ACT to learn about their products
+• Committee visited or met with districts currently using either NWEA or ACT
+• Committee recommended that we continue to administer the ACT in 11th grade and that we  administer
+the ACT Aspire product that replaces the EXPLORE and PLAN in grades 8 and 10.  Without definitive   
+information from the state about its assessment plan for students in grades 3‐11, we do not feel it is 
+advisable at this time to initiate any additional testing.
+‐ Expand implementation of teacher labs
+• All 4th & 5th grade teachers participated in Teacher Labs focused on ELA
+• The TLLs piloted Teacher Lab with 12 teachers focused on Math
+• Ellen Cale piloted Teacher Lab with 12 teachers focused on Visible Thinking
+‐ Assess impact of TLL’s
+• This will be reported at the May Board Workshop
+Bond Election
+Community/Business
+Development
+‐ Successful bond election
+‐ Structure/Calendar: Bond work
+‐ Develop partnerships
+148
+All students will be on track to 
+be college/career 
+ready in literacy.
+Participation of 4th and 5th 
+grade teachers in lab classrooms
+•During the 2013‐2014 school year, 
+100% of 4th and 5th grade teachers 
+participated in teacher lab
+•For 2013‐2014, mentor texts  
+purchased to support elementary 
+ELA units
+•By the end of the 2014‐2015 school 
+year, 3rd, 4th, and 5th grade teachers 
+will participate in teacher lab
+•Teacher lab will be extended to 
+secondary teachers
+Integration of Technology
+K‐12
+•By the end of the 2014‐2015 
+school year, all staff will have 
+had content specific learning 
+about the use of technology 
+for formative assessment in 
+literacy
+All students will be on track to 
+be college/career 
+ready in mathematics.
+Training in standards of 
+mathematical practice
+•During the 2013‐2014 school 
+year, new materials were 
+successfully implemented in 
+grades K‐8.  Materials were 
+selected for high school 
+required course
+•During the 2014‐2015 school 
+year, new materials will be 
+implemented in high school 
+courses and K‐8 implementation 
+will continue to be supported
+Integration of Technology
+K‐12 
+•By the end of the 2014‐2015 
+school year, all staff will have had 
+content specific learning about 
+the use of technology for 
+formative assessment in 
+mathematics
+All students will be on track to 
+be college/career 
+ready in science.
+Standardization of writing (Claim‐
+Evidence‐Reasoning)
+•During the 2013‐2014 school 
+year, students deepened use of 
+Claim‐Evidence‐Reasoning with 
+science content and beyond
+•During the 2014‐2015 school 
+year, Claim Evidence Reasoning 
+student  writing samples will be 
+collected
+Modeling Instruction
+•During the 2014‐2015 school 
+year, science teachers in grades 
+6‐11 will  be provided instruction 
+in student strategies for the use 
+of modeling
+•Next Generation Science 
+Standards will be monitored
+Integration of Technology
+K‐12
+•By the end of the 2014‐2015 
+school year, all staff will have had 
+content specific learning about 
+the use of technology for 
+formative assessment in science
+All students will be on track 
+to be college/career 
+ready in social studies.
+Content Literacy
+•During the 2013‐2014 school 
+year, professional development 
+continued in MI CLASS literacy 
+practices
+•During the 2014‐2015 school 
+year, MI CLASS strategies will 
+be monitored and extended
+Integration of Technology K‐12
+•By the end of the 2014‐2015 
+school year, all staff will have 
+had content specific learning 
+about the use of technology for 
+formative assessment in social 
+studies
+A. B. C. D.
+Increase number of students who are college and career 
+ready in literacy, mathematics, science and social studies.
+149
+Continue interventions to raise the achievement 
+level of lowest performing subgroups.
+Math
+•Creation of math support class providing an additional 3 hours of instruction per week for middle
+school students who need it most;
+•Assured students with IEPs have opportunities to learn at the level of the Common Core State
+Standards;
+•Materials adoption review included expectations for equity and differentiation;
+•Continued support for high school Algebra 1 intervention programs.
+English Language Arts
+•Professional learning for teachers and paraprofessionals in literacy acquisition for English 
+language learners;
+•Aligned teaching and learning in basic high school courses at grade level with Common Core
+State Standards;
+•Coordinated professional development and support for reading teachers at the elementary and
+middle school level.
+Science and Social Studies
+•Professional learning in disciplinary literacy strategies for content area teachers transitioning 
+students into the critical thinking, reading, and writing required for academic work;
+•Improved  instruction for all students.
+150
+District Reading Proficiency
+62.82
+70.23
+72.08 73.93 75.78 77.63 79.48 81.33 83.18 85.00
+61.66
+52.25
+56.34
+60.43
+64.52
+68.61
+72.70 76.79
+80.88
+85.00
+50.14 49.37
+53.82
+58.27
+62.72 67.17
+71.62
+76.07
+80.52
+85.00
+91.19 92.66
+85.00 85.00 85.00 85.00 85.00 85.00 85.00 85.00
+61.19
+69.66
+71.58 73.50 75.42 77.34
+79.26
+81.18 83.10 85.00
+78.05 81.20
+81.68 82.16 82.64 83.12 83.60 84.08 84.56 85.0083.76
+85.88 85.00 85.00 85.00 85.00 85.00 85.00 85.00 85.00
+77.98
+84.57 85.00 85.00 85.00 85.00 85.00 85.00 85.00 85.00
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+11‐12 12 ‐13 13 ‐14 14 ‐15 15 ‐16 16 ‐17 17 ‐18 18 ‐19 19 ‐20 20 ‐21
+MEAP Reading Percent Proficient Trajectory
+ED (645)
+LEP (400)
+Spec Ed (318)
+Asian (1582)
+Black (267)
+Hispanic (133)
+White (3053)
+Multiracial (175)
+Goal:  Increase Reading (3‐8) proficiency by X% per year by subgroup to reach 85% by 2021
+ACTUAL:
+13-14
+Expected
+ED 69 72.08
+LEP 64 56.34
+Spec Ed 62 53.82
+Asian 92 85
+Black 68 71.58
+Hispanic 82 81.68
+White 86 85
+Multiracial 87 85
+151
+District Math Proficiency
+43.43
+49.63
+54.05
+58.47
+62.89
+67.31
+71.73
+76.15
+80.57
+85.00
+59.94
+49.68
+54.10
+58.52
+62.94
+67.36 71.78
+76.20 80.62
+85.00
+34.86 35.91
+42.05
+48.19
+54.33
+60.47
+66.61
+72.75
+78.89
+85.00
+90.62 90.85
+85.00 85.00 85.00 85.00 85.00 85.00 85.00 85.00
+40.00 41.85
+47.24
+52.63
+58.02
+63.41
+68.80
+74.19
+79.58
+85.00
+56.49
+60.14
+63.25
+66.36
+69.47
+72.58
+75.69
+78.80
+81.91
+85.00
+69.14
+72.97 74.47 75.97 77.47 78.97 80.47 81.97 83.47 85.00
+72.12
+75.86 77.00 78.14 79.28 80.42 81.56 82.70 83.84 85.00
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+11‐12 12 ‐13 13 ‐14 14 ‐15 15 ‐16 16 ‐17 17 ‐18 18 ‐19 19 ‐20 20 ‐21
+MEAP Math Percent Proficient Trajectory
+ED (669)
+LEP (465)
+Spec Ed (362)
+Asian (1618)
+Black (270)
+Hispanic (148)
+White (3104)
+Multiracial (174)
+Goal:  Increase Math (3‐8) proficiency by X% per year by subgroup to reach 85% by 2021. 
+ACTUAL: 
+13-14
+Expected
+ED 51 54.05
+LEP 54 54.10
+Spec Ed 43 42.05
+Asian 89 85
+Black 42 47.24
+Hispanic 58 63.25
+White 74 74.47
+Multiracial 78 77
+152
+District Science Proficiency
+14.16
+8.62
+18.17
+27.72
+37.27
+46.82
+56.37
+65.92
+75.47
+85.00
+11.86
+4.38
+14.46
+24.54
+34.62
+44.70
+54.78
+64.86
+74.94
+85.00
+7.95 7.14
+16.87
+26.60
+36.33
+46.06
+55.79
+65.52
+75.25
+85.00
+53.04
+42.50
+47.81
+53.12
+58.43
+63.74
+69.05
+74.36
+79.67
+85.00
+15.56
+6.98
+16.73
+26.48
+36.23
+45.98
+55.73
+65.48
+75.23
+85.00
+27.91
+6.98
+16.73
+26.48
+36.23
+45.98
+55.73
+65.48
+75.23
+85.00
+30.36
+21.87
+29.76
+37.65
+45.54
+53.43
+61.32
+69.21
+77.10
+85.00
+28.57 27.12
+34.36
+41.60
+48.84
+56.08
+63.32
+70.56
+77.80
+85.00
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+11‐12 12 ‐13 13 ‐14 14 ‐15 15 ‐16 16 ‐17 17 ‐
+18 18 ‐19 19 ‐20 20 ‐21
+Science 5 &
+8
+MEAP Science Percent Proficient Trajectory
+ED (232)
+LEP (137)
+Spec Ed (140)
+Asian (528)
+Black (86)
+Hispanic (43)
+White (1061)
+Multiracial (59)
+Goal:  Increase Science (3‐8) proficiency by X% per year by subgroup to reach 85% by 2021. 
+ACTUAL: 
+13-14
+Expected
+ED 16 18.17
+LEP 12 14.46
+Spec Ed 9 16.87
+Asian 49 47.81
+Black 13 16.73
+Hispanic 30 16.7
+White 36 29.76
+Multiracial 31 34.36
+153
+Community/Business Development
+Community/Business Engagement Framework:  Develop 
+greater community/business involvement in the schools to 
+enhance 21st Century learning opportunities for students.  
+– Women of Tomorrow 
+– Terrace Café with Sodexo
+154
+Community/Business Development
+This is an opportunity for continued enrichment as we look to 
+strengthen partnerships with our community and business partners. 
+New and ongoing partnerships include:
+• APT to Succeed –L o c a l businesses, community and civic leaders
+• Ecology Club/AP Environmental Science ‐ Smith MS and THS: Water Testing 
+on the Rouge River in conjunction with Friends of the Rouge and the Troy 
+Nature Center
+• Environmental Activists Club ‐ City of Troy Nature Center
+• Troy Middle Schools Civil War Days –T r o y Historical Museum 
+• Baker Middle School ‐ Consumer Insights 
+• General Motors –T S D Robotics Team #226 Hammerheads
+• Larson Middle School – A World in Motion (AWIM) in conjunction with 
+Society of Automotive Engineers
+• Troy Beaumont –T S D Special Services: Project Search
+• Troy Optimist Club – Morse: Bounty  in a Backpack  
+155
+Questions
+156

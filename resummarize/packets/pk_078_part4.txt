@@ -1,0 +1,3074 @@
+ 5000     ARIF BOOK REFUND           0.00            44.38
+A1003    16000552   09/03/15 18638    JONES JAMES E       700052299700000  5000     9/10/15 LARSON MS          0.00           595.00
+A1003    16000553   09/03/15 18638    JONES JAMES E       700051299371500  5000     9/10/15−SMITH MS           0.00           595.00
+99
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   52
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16000570   09/03/15 12791    MOBILE ED PRODUCTIO 700051299335000  5000     MON 1/11/16                0.00           412.50
+A1003    16000572   09/03/15 10086    NATHALIE LABRECHE   700074399681000  5000     AURIEL BOOK REFUND         0.00           150.00
+A1003    16000575   09/03/15 23956    NETECH CORP         700051299371500  5000     DELL OPTIPLEX 3020M        0.00           470.00
+A1003    16000577   09/03/15 13635    OAKLAND ACTIVITIES  700070399700000  5000     THS DUES/THS PORTIO        0.00           640.00
+A1003    16000582   09/03/15 10086    POTLURI SRI & BASAV 700074399681000  5000     SISIR BOOK REFUND          0.00           150.00
+A1003    16000583   09/03/15 12254    QIAO ZONGCHUN       700070399703800  5000     KATHERINE EXAM REFU        0.00           112.00
+A1003    16000590   09/03/15 13022    SCHOLASTIC BOOK FAI 700008199701300  5000     LEONARD BOOK FAIR          0.00         6,422.19
+A1003    16000600   09/03/15 10086    SINHA ALKA & RAJIV  700074399681000  5000     RISHABH BOOK REFUND        0.00           150.00
+A1003    16000601   09/03/15 11057    SOCCER CORNER WEST  700071399992000  5000     BYS SOCCER JERSEYS         0.00           240.00
+A1003    16000602   09/03/15 10086    SOLAIMALAI MEENAKSH 700074399681000  5000     JANANI BOOK REFUND         0.00           150.00
+A1003    16000604   09/03/15 23167    STACY’S GOLF CENTER 700070399990000  5000     TITLEIST PRO/VELOCI        0.00           334.50
+A1003    16000613   09/03/15 10132    TAYLOR KATHLEEN     700071399323500  5000     REF DBL YRBK PYMT 1        0.00            75.00
+A1003    16000617   09/03/15 25975    TRIPLE THREAD CUSTO 700070399718000  5000     BLACKOUT SHIRTS            0.00         4,050.00
+A1003    16000617   09/03/15 25975    TRIPLE THREAD CUSTO 700070399718000  5000     FRESHMAN ROUNDUP SH        0.00           675.00
+TOTAL CHECK                                                                                                    0.00         4,725.00
+A1003    16000622   09/03/15 10132    VERNON JENNEKER     700071399342500  5000     CEDAR PT REIM/REISS        0.00            45.00
+A1003    16000628   09/03/15 26030    ZESSES DEAN         700051299371500  5000     2015 SSA COMPLETE          0.00            60.00
+A1003    16000667   09/10/15 26841    GRAPHICS EAST INC   700071399902000  5000     2015 FOOTBALL PROGR        0.00         1,120.00
+A1003    16000670   09/10/15 26705    HILLER TIMOTHY DANI 700070399718000  5000     SPEAKER FOR FRESHMA        0.00           900.00
+A1003    16000704   09/10/15 11946    RYDER TRANSPORTATIO 700070399351300  5000     VERBAL CREDIT ADJ          0.00            −1.62
+A1003    16000704   09/10/15 11946    RYDER TRANSPORTATIO 700070399351300  5000     371504/02221239            0.00            79.46
+A1003    16000704   09/10/15 11946    RYDER TRANSPORTATIO 700070399351300  5000     CREDIT 00685−272700        0.00           −48.60
+A1003    16000704   09/10/15 11946    RYDER TRANSPORTATIO 700070399351300  5000     OPEN P.O. FOR TROY         0.00           657.75
+TOTAL CHECK                                                                                                    0.00           686.99
+A1003    16000720   09/10/15 15979    TOTAL T’S           700071399718000  5000     PROMOTIONAL TEES SI        0.00           520.00
+A1003    16000737   09/17/15 26615    BESPOKE GOODS LLC   700071399992000  5000     LAX GEAR                   0.00           535.00
+A1003    16000743   09/17/15 18783    CAMPBELL BETH       700070399900000  5000     CLEANING ROUNDS CAM        0.00           200.00
+A1003    16000745   09/17/15 26417    SCHAMBAE CAMERON    700070399900000  5000     TROY HIGH CHEER            0.00           180.00
+A1003    16000753   09/17/15 23625    DAVIS JEFFERY C     700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+100
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   53
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16000754   09/17/15 13002    DECKER INC          700052299700000  5000     100 MASTER LOCK COM        0.00         1,247.75
+A1003    16000756   09/17/15 27024    SOUP FOR YOU LLC    700071399735000  5000     ATHENS COFFEE SUPPL        0.00           236.00
+A1003    16000766   09/17/15 11488    FISCHER MICHAEL P   700071399992000  5000     8/18 SCRIMMAGE             0.00            75.00
+A1003    16000769   09/17/15 10763    FRALICK GARY SR     700070399907700  5000     BOYS BASKETBALL            0.00           275.00
+A1003    16000772   09/17/15 26592    GEERLINGS ARIC      700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+A1003    16000779   09/17/15 24789    HEABEART THOMAS M   700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+A1003    16000782   09/17/15 22649    HIGHEST HONOR INC   700071399909700  5000     BASEBALL SPORT STAR        0.00            12.00
+A1003    16000782   09/17/15 22649    HIGHEST HONOR INC   700071399909700  5000     ENGRAVED TROPHY PLA        0.00            30.00
+TOTAL CHECK                                                                                                    0.00            42.00
+A1003    16000783   09/17/15 25784    HOT MIX LLC         700071399718000  5000     DJ SERVICE FOR HOME        0.00         1,962.46
+A1003    16000785   09/17/15 10086    HU STEVE            700074399681000  5000     BRANDON BOOK REFUND        0.00           140.00
+A1003    16000786   09/17/15 10086    HUSSAIN MOHAMMED    700074399681000  5000     ARIF BOOK REFUND           0.00            95.87
+A1003    16000788   09/17/15 13644    INDIAN TRAILS INC   700070399342400  5000     CHARTER 46558 DEPOS        0.00           800.08
+A1003    16000796   09/17/15 11105    PREFERRED TEXTBOOKS 700070399703800  5000     BEDFORD INTRO TO LI        0.00           900.00
+A1003    16000797   09/17/15 24791    KELLOGG DANIEL M    700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+A1003    16000800   09/17/15 27039    KNOX BRANDON        700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+A1003    16000806   09/17/15 27041    LITTLE CHRISTIAN    700071399992000  5000     8/18 SCRIMMAGE             0.00            75.00
+A1003    16000807   09/17/15 27042    LITTLE JACOB        700071399992000  5000     8/18 SCRIMMAGE             0.00            75.00
+A1003    16000808   09/17/15 27040    LOVE MICO D         700071399902000  5000     AHSV FTBL SCRM 0820        0.00            75.00
+A1003    16000820   09/17/15 11492    MIDWEST EQUIPMENT D 700070399990000  5000     REPAIR ORDER FOR TR        0.00           803.88
+A1003    16000826   09/17/15 10795    NELSON STEPHEN      700071399992000  5000     8/18 SCRIMMAGE             0.00           150.00
+A1003    16000837   09/17/15 10086    RAHMAN SHAIDUR      700074399681000  5000     TANVIR BOOK REFUND         0.00           150.00
+A1003    16000841   09/17/15 11060    ROBINSON ALLEN      700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+A1003    16000857   09/17/15 26653    TATSAK JUSTIN M     700071399992000  5000     8/18 SCRIMMAGE             0.00            75.00
+A1003    16000859   09/17/15 24291    THEATREWORKS USA    700017199393000  5000     ACCT 0215431/DOSPIL        0.00           786.25
+A1003    16000861   09/17/15 21851    TOM FLYNN, OCADA TR 700070399743600  5000     TROY HIGH BOWLING (        0.00           150.00
+A1003    16000864   09/17/15 10071    TURCZYN THOMAS A    700071399902000  5000     8/20 SCRIMMAGE             0.00            75.00
+101
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   54
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16000865   09/17/15 22806    TWIN LAKES GOLF AND 700070399903800  5000     TROY HIGH GLS GOLF         0.00         2,040.00
+A1003    16000867   09/17/15 26910    VARZIDEHKARTEHRANI  700071399992000  5000     8/18 SCRIMMAGE             0.00           150.00
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     HUMANE MFG MAW2313,        0.00           438.00
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     ESTIMATED SHIPPING/        0.00            65.00
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     LEGEND #3130−S GLUT        0.00           697.14
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #TOZ−4        0.00           236.50
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #GOT−3        0.00           136.66
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #SD−R−        0.00           146.44
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #SD−R−        0.00           170.99
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #SD−R−        0.00           195.02
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #SD−R−        0.00           219.40
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #T−DR,        0.00           148.19
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     270 LBS. TROY BARBE        0.00           329.10
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     SPRI #SXBP55SL, 55         0.00            50.86
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     TROY BARBELL #GHBPR        0.00           148.19
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     BLACK−POLYDAC TRAIN        0.00           331.47
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     SET STROOPS ATHLETI        0.00           411.26
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     ROY BARBELL #GSMB−2        0.00            77.17
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     BOSU PRO BALANCE TR        0.00           226.24
+A1003    16000879   09/24/15 14438    ALL PRO EXERCISE IN 700970699990000  5000     ESTIMATED SHIPPING/        0.00           727.82
+TOTAL CHECK                                                                                                    0.00         4,755.45
+A1003    16000885   09/24/15 10086    ARAVAPALLY AMITHA   700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000886   09/24/15 10086    ARMSTRONG ROBERT    700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000888   09/24/15 10086    ARWASHAN NAJI       700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000893   09/24/15 10086    BARNES Z’EL         700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000894   09/24/15 10086    BENDI SRINIVASA     700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000897   09/24/15 25162    BLOOMFIELD SPORTS S 700071399915100  5000     AUGUSTA WHITE WICKI        0.00           665.00
+A1003    16000897   09/24/15 25162    BLOOMFIELD SPORTS S 700071399915100  5000     AUGUSTA WHITE WICKI        0.00            27.00
+A1003    16000897   09/24/15 25162    BLOOMFIELD SPORTS S 700071399915100  5000     AUGUSTA WHITE WICKI        0.00            22.00
+A1003    16000897   09/24/15 25162    BLOOMFIELD SPORTS S 700071399992000  5000     1/4 ZIPS TOURN ACCT        0.00           456.00
+TOTAL CHECK                                                                                                    0.00         1,170.00
+A1003    16000898   09/24/15 10086    BOLLAMPALLY VENKATA 700074399681000  5000     BOOK DEPOSIT REFUND        0.00           100.00
+A1003    16000899   09/24/15 10086    BOLLAVARAM SREEDEVI 700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000904   09/24/15 10086    CASCARDO ROBERT     700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000905   09/24/15 10086    CHO YONG            700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000906   09/24/15 10086    CHONG GIOK−HWA      700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000907   09/24/15 10086    CHOW LISA           700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+102
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   55
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16000908   09/24/15 10086    CHOWDHURY SOUMITRA  700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000913   09/24/15 11317    COLUMBO PAUL THOMAS 700071399900000  5000     JV CHEER TUMBLING S        0.00           756.00
+A1003    16000913   09/24/15 11317    COLUMBO PAUL THOMAS 700071399900000  5000     VARSITY TUMBLING SE        0.00           708.00
+TOTAL CHECK                                                                                                    0.00         1,464.00
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248766 GIL        0.00            55.67
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER #6248790 GILD        0.00           139.94
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER #6248790 GILD        0.00           141.67
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER #6248790 GILD        0.00           167.10
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER #6248790 GILD        0.00            66.48
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248803 GIL        0.00           118.65
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248803 GIL        0.00           120.12
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248803 GIL        0.00           141.67
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248803 GIL        0.00            56.36
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248805 GIL        0.00            55.67
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248805 GIL        0.00            56.36
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248805 GIL        0.00            66.48
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248805 GIL        0.00            26.45
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248766 GIL        0.00           117.20
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248766 GIL        0.00           118.65
+A1003    16000917   09/24/15 27025    CUSTOM INK LLC      700071399906800  5000     ORDER # 6248766 GIL        0.00           139.95
+TOTAL CHECK                                                                                                    0.00         1,588.42
+A1003    16000919   09/24/15 10086    DANTULURI VISWANADH 700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000928   09/24/15 27014    ELITE CHEER         700071399900000  5000     CHEER SKILLS CAMP          0.00         4,620.00
+A1003    16000938   09/24/15 14721    FRIENDS OF THE ROUG 700070399703700  5000     THS ENV SCIENC DONA        0.00            25.00
+A1003    16000939   09/24/15 10810    ACCO BRANDS USA LLC 700012199700000  5000     PRODUCT CODE #18800        0.00         1,697.40
+A1003    16000939   09/24/15 10810    ACCO BRANDS USA LLC 700012199700000  5000     PRODUCT CODE #25287        0.00           363.00
+TOTAL CHECK                                                                                                    0.00         2,060.40
+A1003    16000942   09/24/15 10086    GAO DE              700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000944   09/24/15 26268    GETZAN JOHN         700070399903800  5000     GLS GOLF REIMB             0.00           228.18
+A1003    16000945   09/24/15 10086    GOGINENI SRI TARUN  700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000946   09/24/15 10086    GOLECHHA RITIKA     700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000951   09/24/15 10086    HEALY JENNIFER      700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000958   09/24/15 25784    HOT MIX LLC         700070399718000  5000     HOMECOMING DJ              0.00         1,560.00
+A1003    16000960   09/24/15 10086    HUSSAIN SHAHID      700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000962   09/24/15 10086    JALUKAR LAXMIKANT   700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000963   09/24/15 10086    JAMIL STEVE         700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+103
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   56
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16000964   09/24/15 10086    JAYAGOPAL APPUKUTTY 700074399681000  5000     BOOK DEPOSIT REFUND        0.00           100.00
+A1003    16000966   09/24/15 10086    JERZOWSKI ELENITA   700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000967   09/24/15 10086    JIANG GEORGE        700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000969   09/24/15 19962    JOHN TU             700070399702700  5000     THS ROBOTICS REIMB         0.00         4,516.34
+A1003    16000973   09/24/15 26292    K T M LOGO GEAR LLC 700070399912000  5000     TROY HIGH GIRLS VOL        0.00         1,380.22
+A1003    16000973   09/24/15 26292    K T M LOGO GEAR LLC 700070399912000  5000     TROY HIGH VOLLEYBAL        0.00           503.52
+A1003    16000973   09/24/15 26292    K T M LOGO GEAR LLC 700070399912000  5000     TROY HIGH VOLLEYBAL        0.00           467.52
+A1003    16000973   09/24/15 26292    K T M LOGO GEAR LLC 700070399912000  5000     TROY HIGH VOLLEYBAL        0.00           459.70
+A1003    16000973   09/24/15 26292    K T M LOGO GEAR LLC 700070399912000  5000     TROY HIGH VOLLEYBAL        0.00           549.50
+TOTAL CHECK                                                                                                    0.00         3,360.46
+A1003    16000974   09/24/15 10132    KAREN GUILBERT      700071399906800  5000     GIRL SWIM SNACKS           0.00            87.00
+A1003    16000975   09/24/15 10086    KATYNSKI JULIE      700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000976   09/24/15 10086    KHALID FARKHANDA    700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000980   09/24/15 10086    KOMMIDI SRINIVAS    700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000981   09/24/15 10086    KRISHNAMOORTHY CHAN 700074399681000  5000     2015 BOOK DEP REFUN        0.00           150.00
+A1003    16000993   09/24/15 11613    MANCINI FRANCO      700071399992000  5000     CONCESSION FOOD PUR        0.00           161.29
+A1003    16000997   09/24/15 10086    MI JEONG OH         700074399681000  5000     BOOK DEPOSIT REFUND        0.00           140.25
+A1003    16001001   09/24/15 13374    MI STATE UNIV−MANAG 700070399906000  5000     THS GLS SWIM DEPOSI        0.00           100.00
+A1003    16001005   09/24/15 26558    MILLER DIANE        700053299700000  5000     053 PTY CSH REIMB          0.00            23.38
+A1003    16001005   09/24/15 26558    MILLER DIANE        700053299704500  5000     053 PTY CSH REIMB          0.00           214.48
+TOTAL CHECK                                                                                                    0.00           237.86
+A1003    16001007   09/24/15 11291    MOTOR CITY VOLLEYSH 700070399912000  5000     OPEN P.O. FOR TROY         0.00           890.00
+A1003    16001009   09/24/15 10086    MUKUNDAN GOPALAN    700074399681000  5000     BOOK DEPOSIT REFUND        0.00           100.00
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     IB1 MATH HIGH LEVEL        0.00           479.29
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     IB2 MATH STANDARD L        0.00         1,219.65
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     IB2 PHYSICS NOTES P        0.00           567.59
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     PHYSICS 10 NOTES PE        0.00         1,377.36
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     MATH 3 PACKETS PER         0.00           890.32
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     IB1 MATH STANDARD N        0.00         1,270.80
+A1003    16001016   09/24/15 11668    OAKLAND SCHOOLS     700074399682000  5000     IB MATH HIGHER LEVE        0.00           474.84
+TOTAL CHECK                                                                                                    0.00         6,279.85
+A1003    16001020   09/24/15 26070    PROMOTIONAL DESIGNS 700071399718000  5000     FRESHMAN TEES, SIZE        0.00           576.82
+A1003    16001020   09/24/15 26070    PROMOTIONAL DESIGNS 700071399718000  5000     SOPHOMORE TEES SIZE        0.00           659.22
+A1003    16001020   09/24/15 26070    PROMOTIONAL DESIGNS 700071399718000  5000     JUNIOR TEES SIZES A        0.00           741.63
+104
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   57
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16001020   09/24/15 26070    PROMOTIONAL DESIGNS 700071399718000  5000     SENIOR TEES SIZES A        0.00           824.03
+TOTAL CHECK                                                                                                    0.00         2,801.70
+A1003    16001023   09/24/15 10086    RAJAMANI KUMAR      700074399681000  5000     BOOK DEPOSIT REFUND        0.00           100.00
+A1003    16001030   09/24/15 27038    ROCK THE BOOTH LLC  700070399718000  5000     TROY HIGH HOMECOMIN        0.00           950.00
+A1003    16001044   09/24/15 25676    ST ELIZABETH ANN SE 700051299335000  5000     15/16 FAC USE DONAT        0.00           100.00
+A1003    16001054   09/24/15 15979    TOTAL T’S           700071399900000  5000     T SHIRTS SIZES AND         0.00           650.00
+A1003    16001054   09/24/15 15979    TOTAL T’S           700071399900000  5000     LONG SLEEVE TEES SI        0.00           418.00
+A1003    16001054   09/24/15 15979    TOTAL T’S           700071399900000  5000     7 ADDITIONAL TEES S        0.00            45.50
+TOTAL CHECK                                                                                                    0.00         1,113.50
+A1003    16001055   09/24/15 25975    TRIPLE THREAD CUSTO 700070399718000  5000     ADDITIONAL BLACKOUT        0.00           742.50
+A1003    16001061   09/24/15 10221    VENTE JENNIFER      700051299900000  5000     051 PTY CSH REIMB          0.00            20.97
+A1003    16001061   09/24/15 10221    VENTE JENNIFER      700051299371500  5000     051 PTY CSH REIMB          0.00           269.08
+A1003    16001061   09/24/15 10221    VENTE JENNIFER      700051299335000  5000     051 PTY CSH REIMB          0.00            42.40
+TOTAL CHECK                                                                                                    0.00           332.45
+A1003    16001067   09/24/15 10086    YEDULLA NIKHIL      700074399681000  5000     BOOK DEPOSIT REFUND        0.00            30.51
+A1003    16001071   09/24/15 10132    ZHOU HEATHER        700071399718000  5000     HOMECOMING SASHES          0.00           115.50
+TOTAL CASH ACCOUNT                                                                                             0.00        75,437.60
+TOTAL FUND                                                                                                     0.00        75,437.60
+105
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   58
+DATE: 11/09/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:32:00                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’16’ and transact.period=’3’
+ACCOUNTING PERIOD:  5/16
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    16000748   09/17/15 10433    COCA−COLA REFRESHME 701053299697100  5000     POP/STAFF LOUNGE           0.00           151.20
+A1003    16000782   09/17/15 22649    HIGHEST HONOR INC   701071399700500  5000     TEACHER PLACQUES           0.00           396.00
+A1003    16001005   09/24/15 26558    MILLER DIANE        701053299697100  5000     053 PTY CSH REIMB          0.00            35.76
+TOTAL CASH ACCOUNT                                                                                             0.00           582.96
+TOTAL FUND                                                                                                     0.00           582.96
+TOTAL REPORT                                                                                                   0.00     8,191,861.48
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+      6. A.   11.17.15 
+6. A. PERSONNEL 
+ CONSIDERATION:  ELEMENTARY AND SECONDARY 
+New Hire 
+It is recommended that the Board of Edu cation approves the issuance of a 
+probationary contract to the following teacher for the 2015-2016 school year. 
+         Jennifer A. Locke, 1st Grade Teacher, Martell Elementary 
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ Moved by          
+ Supported by         
+BE IT THEREFORE RESOLVED that the Board of Education takes action to approve the 
+aforementioned personnel recommendations as stated above. 
+ Yes     
+ No     
+119
+BIOGRAPHICAL SKETCH – NEW TEACHER 
+November 17, 2015 
+Jennifer Locke, 1.0 1st Grade Teacher, Martell Elementary 
+Educational Background:    M.A., Marygrove College, 2011 
+       Major:  Curriculum Instruction & Assessment 
+      B.S., Central Michigan University, 2005 
+       Major:  Science 
+       Minor:  History 
+Teaching Experience: 1st Gr. Teacher, Kingsbury Country Day School, Oxford 
+  January 2015 – October 2015 
+ Kindergarten Teacher, Huron Academy, Sterling Heights
+ August 2013-December 2014 
+ 2nd Gr. Long Term Substitute, Schroeder Elementary  
+  April, 2013-June 2013 
+ 1st/2nd Gr. Teacher, Michigan Technical Academy, Detroit 
+  August 2006-June 2012 
+ Student Teacher, Troy Union Elementary 
+Resident Community:    Lake Orion, MI 
+120
+  6. B.    11.17.15 
+6. BOARD NEGOTIATING TEAMS 
+B.  CONSIDERATION:  Appointment of Board Negotiating Teams for 
+TEA, TESA and TESPA Contract Negotiations 
+ The collective bargaining agreement between the Troy School District and 
+the TEA/MEA/NEA expires on June 30, 201 6.  This union represents the 
+teaching staff in the Troy School District.   
+ The collective bargaining agreement between the Troy School District and 
+the TESA/MEA/NEA expires on June 30, 20 16.  This union represents the 
+secretarial staff in the Troy School District.   
+ The collective bargaining agreement between the Troy School District and 
+the TESPA/MEA/NEA expires on June 30, 201 6.  This union represents the 
+para-educators and skilled-trades employees in the Troy School District.   
+RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+  Moved by          
+  Supported by        
+Be it therefore resolved  that the Troy Board of Education hereby appoints 
+Jordan Harris  as its chief spokesperson and Rick West , Mark Dziatczak, Kris 
+Griffor, and Dave Pass  as team members to represent the Board in upcoming 
+negotiations with the TEA/MEA/NEA, whose contract expires on June 30, 2016. 
+Be it further resolved that the Troy Board of Education hereby appoints Jordan 
+Harris as its chief spokesperson and Rick West, Mark Dziatczak, Kris Griffor, Dave 
+Pass, Stephanie Maynard,  and Carmen White as team members to represent the 
+121
+Board in upcoming negotiations with the TESA/MEA/NEA, whose contract expires 
+on June 30, 2016.   
+Be it further resolved that the Troy Board of Education hereby appoints Jordan 
+Harris as its chief spokesperson and Rick West, Mark Dziatczak, Kris Griffor, Dave 
+Pass, Stephanie Maynard, and Carmen White as team members to represent the 
+Board in upcoming negotiations with the TESPA/MEA/NEA, whose contract expires 
+on June 30, 2016.   
+Be it further resolved that the Board desires to reach a fair and equitable 
+agreement with each of the Associations. 
+ Yes        
+ No        
+122
+         8. A. 11.17.15 
+8. BUSINESS 
+ A. REPORT: MILLAGE UPDATE 
+The School District’s operating millages were set to expire at the 
+end of 2015.  The request for approval of operating millage 
+rates renewal successfully passed on November 3, 2015.  Rick 
+West will present an update on the election results. 
+RECOMMENDED ACTION:  This is a report. 
+123
+     8. B.        11.17.15 
+8. BUSINESS 
+ B.  CONSIDERATION:  SUMMER TAX COLLECTIONS 
+Approve the Summer Tax Collection Resolution. 
+RECOMMENDED ACTION: Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By: ______________________________ 
+Supported By: ______________________________ 
+BE IT THEREFORE RESOLVED that the Troy School District’s Board of 
+Education intends to continue summer tax collections for the 20 16-2017 fiscal 
+year and will notify the City of Troy of this action and that a copy of the attached 
+resolution be incorporated as part of the official minutes of the Board of 
+Education. 
+Yes: ____________ 
+No: ____________ 
+124
+     8. B.        11.17.15 
+TROY SCHOOL DISTRICT 
+TROY, MICHIGAN 48098 
+ANNUAL SUMMER TAX RESOLUTION 
+ WHEREAS, this Board of Ed ucation by resolution of November 17, 
+2015, determined to impose a summer property tax levy to collect one -half of 
+school property taxes, including debt services, upon property located within the 
+Troy School District, beginning with 20 16 and continuing from year to year until 
+specifically revoked by this Board of Education. 
+NOW, THEREFORE BE IT RESOLVED THAT: 
+ 1.  This Board of Education, pursuant to 1976 P .A. 451, as amended, 
+hereby invokes a summer tax levy of one -half of school property taxes, including 
+debt service, continuing with 20 16, and continuing from year to year until 
+specifically revoked by this Board of Education, and requests each city in which 
+this district is located and in which a local school district or city is concurrently 
+imposing a summer tax levy to collect those summer taxes. 
+ 2.  The Superintendent or his/her designee is authorized and directed 
+to forward to the governing body of each city in which this district is located and 
+in which a local school district or city is concurrently imposing a summer tax levy, 
+a copy of this Board’s resolution requesting that each such city agree to coll ect 
+the summer tax levy for 20 16 in the amount specified in this resolution.  Such 
+forwarding of the resolution and the request to collect the summer tax levy shall 
+be sent so that they are received by the appropriate governi ng bodies before 
+January 1, 2016. 
+ 3.  The Superintendent or his/her designee is authorized and directed 
+to negotiate on behalf of this District with the governing body of each city in 
+which the District is located for the reasonable expenses for collection of the 
+District’s summer tax levy that the city may bill und er MCLA 380.1612.  Any such 
+proposed agreement shall be brought before this Board for its approval or 
+disapproval. 
+125
+     8. B.        11.17.15 
+ 4.  All resolutions and parts of resolutions insofar as they conflict with 
+the provisions of this resolution be and the same are hereby rescinded. 
+ Yes:______ Members 
+ No: ______ Members 
+Resolution declared adopted.        
+    _____________________________ 
+  Secretary, Board of Education 
+ The undersigned, duly qualified and acting Secretary of the Board of 
+Education of Troy School District, Troy, Michigan, hereby certifies that the 
+foregoing constitutes a true and complete copy of a resolution adopted by said 
+Board of Education at a regular meeting held on November 17, 2015, the original 
+of which is part of the Board’s minutes.  The  undersigned further certifies that 
+notice of the meeting was given to the public pursuant to the provisions of the 
+“Open Meetings Act” (Act 267, P.A. 1976, as amended). 
+____________________________ 
+Secretary, Board of Education 
+126
+ 8. C.       11.17.15 
+8. BUSINESS  
+C. CONSIDERATION:  MUSIC INSTRUMENTS 
+ Invitations to bid were sent to 8 potential bidders with 4 responding.     
+The responses were reviewed by Ms. Carrie Peyok, Fine Arts 
+Coordinator, Brian Nutting, Band Director - Troy High School and Jeff 
+McCoy - Band Director, Athens High School . It is recommended the 
+bid be awarded as stated below. 
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved that the bid for music instruments be awarded 
+as follows  in the amount of $ 124,357.00 and that this amount  be 
+approved as an expenditure of the Capital Projects Fund. 
+Washington Music Center $   92,010.00 
+Sam Ash Corporation 747.00 
+Brook Mays Music 31,600.00 
+TOTAL 124,357.00 
+ Yes: 
+ No: 
+127
+Memorandum 
+          TO:     Rick West – Assistant Superintendent  
+                      Business Services   
+    FROM:     Todd Hensley – Purchasing Supervisor  
+Purchasing Department 
+Troy, Michigan  48093 
+                      Athens and Troy High Schools    
+Phone  248 823-4091 
+Bid Package 9814  Musical Instruments and Supplies – Athens and Troy High Schools  
+Invitations were sent to seven potential bidders to provide new musical instruments for both 
+High Schools four vendors responding. After analyzing the information provided in the four 
+proposals and reviewing th ese proposals with Carrie Peyok, Fine Arts Coordinator, Brian 
+Nutting, Band Director Troy High School  and Jeff McCoy, Band Director of Athens High 
+School, collaboratively we recommend the low bidders to specification, as detailed below.   
+Washington Music Center 
+Qty     Item        Unit Price     Extension 
+ 3     Saxophone - Tenor  $ 1,864.00   $    5,592.00 
+ 1     Saxophone - Baritone        3,954.00         3,954.00  
+ 2     Bassoon – Model 41     3,987.00         7,974.00  
+ 3     Bass Clarinet             1,229.00         3,687.00 
+ 1     Bassoon – Model 222D    4,957.00         4,957.00  
+ 4     Clarinets-Bass     1,651.00         6,604.00 
+ 4                 Bassoon – Model 222     4,815.00       19,260.00 
+ 1     Saxophone-Soprano     5,270.00         5,270.00 
+ 2     Saxophone-Tenor     2,282.00         4,564.00 
+ 2     Saxophone-Baritone     6,404.00       12,808.00 
+ 1     Chimes       4,395.00         4,395.00 
+ 1      Timpani    12,945.00       12,945.00 
+Washington Music Center Total Award                    $  92.010.00 
+      1 
+128
+1440 Rankin 
+Fax  248 823-4013 
+          RE:     BID 9814  Musical Instruments and Supplies 
+     DATE:     November 4, 2015 
+Sam Ash Corporation 
+Qty     Item        Unit Price     Extension 
+ 1     Cymbals - French  $     369.00   $    336.00 
+ 2     Cymbals - Classic            189.00         378.00 
+Sam Ash Corporation Total Award       $    747.00 
+Brook Mays Music 
+Qty     Item        Unit Price     Extension 
+ 4     Tubas       7,900.00   $ 31,600.00      
+Brook Mays Music Total Award                    $31,600.00 
+The funding for this purchase will be from the Capital Project Funds. 
+CC: Pat Orczykowski – Business Department 
+            Purchasing Department – File  
+129
+      2 
+130
+Musical  Instruments  and Supplies
+BID 9814  Tabulation
+Brook Mays Music Marshall Music Company Sam Ash Corporation Washington Music Center
+Items Qty Per Unit Total Per Unit Total Per Unit Total Per Unit Total
+Athens High School
+Digital Piano 1 No Bid No Bid No Bid No Bid
+Saxophone - Tenor 3 No Bid $ 2,017.00 $ 6,051.00 $ 1,909.00 $ 5,727.00 $ 1,864.00 $ 5,592.00
+Saxophone - Baritone 1 No Bid $ 4,278.00 $ 4,278.00 $ 4,023.00 $ 4,023.00 $ 3,954.00 $ 3,954.00
+Bassoon Model 41 2 $ 4,142.00 $ 8,284.00 $ 4,189.00 $ 8,378.00 $ 4,105.00 $ 8,210.00 $ 3,987.00 $ 7,974.00
+Bass Clarinet 3 No Bid $ 1,357.00 $ 4,071.00 $ 1,259.00 $ 3,777.00 $ 1,229.00 $ 3,687.00
+Bassoon 1 $ 5,160.00 $ 5,160.00 $ 5,195.00 $ 5,195.00 $ 5,095.00 $ 5,095.00 $ 4,957.00 $ 4,957.00
+Cymbals - French 1 No Bid $ 428.00 $ 428.00 $ 369.00 $ 369.00 $ 385.00 $ 385.00
+Cymbals - Classic 2 No Bid $ 219.00 $ 438.00 $ 189.00 $ 378.00 $ 205.00 $ 410.00
+Total Athens High School $ 13,444.00 $ 28,839.00 $ 27,579.00 $ 26,959.00
+Troy High School
+Tubas 4 $ 7,900.00 $ 31,600.00 $ 9,899.00 $ 39,596.00 No Bid $ 9,000.00 $ 36,000.00
+Clarinets-Bass 4 No Bid $ 1,786.00 $ 7,144.00 $ 1,685.00 $ 6,740.00 $ 1,651.00 $ 6,604.00
+Bassoons Model 222 4 $ 5,160.00 $ 20,640.00 $ 6,870.00 $ 27,480.00 $ - $ 4,815.00 $ 19,260.00
+English Horn 1 No Bid No Bid No Bid No Bid
+Saxophone-Soprano 1 $ 5,300.00 $ 5,300.00 $ 5,699.00 $ 5,699.00 $ 5,399.00 $ 5,399.00 $ 5,270.00 $ 5,270.00
+Saxophone-Tenor 2 No Bid $ 2,469.00 $ 4,938.00 $ 2,339.00 $ 4,678.00 $ 2,282.00 $ 4,564.00
+Saxophone-Baritone 2 No Bid $ 6,929.00 $ 13,858.00 $ 6,518.00 $ 13,036.00 $ 6,404.00 $ 12,808.00
+Chimes 1 $ 4,880.00 $ 4,880.00 $ 4,882.00 $ 4,882.00 $ 4,489.00 $ 4,489.00 $ 4,395.00 $ 4,395.00
+Timpani 1 $ 14,350.00 $ 14,350.00 $ 14,378.00 $ 14,378.00 $ 13,225.00 $ 13,225.00 $ 12,945.00 $ 12,945.00
+Total Troy High School $ 76,770.00 $ 117,975.00 $ 47,567.00 $ 101,846.00
+Grand Total $ 90,214.00 $ 146,814.00 $ 75,146.00 $ 128,805.00
+11/12/2015
+131
+ 8. D. 11.17.15 
+8. BUSINESS 
+D.  CONSIDERATION:  Mechanical/Electrical/Plumbing – Athens 
+and Troy High Schools 
+An RFP was issued to obtain competitive bids for mechanical and 
+electrical upgrades at Athens and Troy High Schools.  Bid responses 
+were reviewed by  Mr. Rob Carson, Director of Maintenance and 
+Operations, TMP Associates, Peter Basso & Associates and Barton 
+Malow, and it is recommended the bid be awarded as stated below.  
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved  that the bid for mechanical and electrical 
+upgrades at Athens and Troy High Schools Schools be awarded as follows, 
+and that these amounts be approved as an expenditure of the 2014 
+Capital Projects Fund. 
+Athens High School:   
+General Trades Titan Ind. $   377,489.00 
+Mechanical Ecker Mechanical $4,301,000.00 
+Electrical Metro Electric $1,308,300.00 
+Total Athens High School  $5,986,790.00 
+Troy High School   
+General Trades Titan Ind. $   239,610.49 
+Mechanical Contrast Mechanical $2,240,000.00 
+Electrical J & J Electric $   311,500.00 
+Total Troy High School  $2,791,110.49 
+ Yes: 
+ No: 
+132
+Memorandum 
+Department 
+FROM:  Rob Carson – Director of Maintenance & Operations   
+1140 Rankin 
+Troy, MI 48083 
+RE:       Athens High/Troy High MEP Upgrades   
+Ph: 248.823.4050 
+Fax: 248.823.4077 
+DATE:   November 4, 2015  
+An RFP (Bid 9813 ) was issued on September 22nd , 2015  to obtain competitive bids  for 
+Mechanical/Electrical Upgrades & Athens & Troy High  Schools.  The scope of work for this 
+RFP is to perform HVAC/Electrical Upgrades at both sites starting this fall/winter of 2015. 
+The RFP specified 3 bid categories for each school as detailed in the tally sheet attached.  I 
+am recommending the following vendors for each bid category. 
+AHS - Bid Cat. #061000(General Trades) – Titan Ind. (low bidder) - $377,489.00 
+AHS - Bid Cat. #230000(Mechanical) – Ecker Mechanical (low bidder) - $4,301,000.00 
+AHS - Bid Cat. #260000(Electrical) – Metro Electric (low bidder) - $1,308,300.00 
+THS - Bid Cat. #061000(General Trades) – Titan Ind. (low bidder) - $239,610.49 
+THS - Bid Cat. #230000(Mechanical) – Contrast Mechanical (low bidder) - $2,240,000.00 
+THS - Bid Cat. #260000(Electrical) – J&J Electric (low bidder) - $311,500.00 
+We had excellent participation in the RFP and received multiple proposals for all bid 
+categories. 
+All proposals were reviewed and qualified by the Bond Team of TMP Associates, Peter Basso 
+& Associates and Barton Malow.  The attached Contract Award Document details specific 
+alternates that were selected through the Post-Bid Analysis.  
+A separate Purchase Order will be issued for each Bid Category.  The funding for these  
+purchases will be from the 2014 Capitol Projects Fund. 
+If you have any questions, please let me know.  
+Cc:  Purchasing Department – File  
+Atts:  Bid Tally, Bid Analysis, Contract Award Recommendation  
+133
+TO:       Rick West - Asst. Superintendent - Business Services  
+Operations 
+               Barton Malow Company 
+                                                                                          26500 American Drive – Southfield, Michigan  48034 – p 248.4365000 – f 248.436.5001  
+November 4, 2015 
+Mr. Rick West, Assistant of Business Services 
+Troy School District 
+1140 Rankin 
+Troy, MI  48083 
+Re: 2013 Bond Program, Series 1 
+ Bid Package 8:  Troy High School and Athens High School MEP upgrades 
+ Contract Award Recommendations 
+Dear Mr. West: 
+Proposals were received on October 29, 2015 for Bid Package 8:  Troy High School and Athens High 
+School Mechanical and Electrical upgrades.  The work at Troy High School includes pool 
+dehumidification work, chillers and exterior lighting.  The work at Athens High School includes 
+mechanical room upgrades, kitchen unit replacement, and toilet room upgrades.  Please note that there 
+were no bids received for roofing on October 29, 2015, roofing work for Athens auditorium will be 
+completed by the district. 
+We reviewed the proposal and qualifications of apparent low bidders, and recommend contracts be 
+awarded as follows: 
+Category   Contractor         Amount 
+ 061000 General Trades  Titan Indus – Athens total with alts 1,2 , 9 & 11 $   377,489.51 
+ 230000 Mechanical   Ecker Mech-Athens total with alts 1, 3,7,9  $4,301,000.00 
+ 260000 Electrical  Metro Electric-Athens total with alts 1,4,9 $1,308,300.00 
+061000 General Trades  Titan- Troy HS total with alt 11  $   239,610.49   
+ 230000 Mechanical  Contrast Mechanical –Troy HS total  $2,240,000.00 
+ 260000 Electrical  J&J Electric-Troy HS total with Alt 13  $   311,500.00 
+     TOTAL AWARDS    $8,777,899.90 
+The budget for Troy High School and Athens High School combined is 9,833,131.00, resulting in a bid 
+savings of $1,055,231.10.   
+Included with this recommendation is a tabulation of all bids received and a bid analysis spreadsheet. 
+Please contact me should you have any questions. 
+Sincerely, 
+Christa Amalio 
+BMC Project Manager 
+Attachments:  Bid Tabulation and Bid Analysis spreadsheet 
+cc:  Mr. Robert Carson – TSD 
+       Mrs. Michelle Kerns 
+134
+Troy School  District - 2013 Bond Program  - Series 1, Bid Package 8: Troy HS and Athens HS MEP Upgrades
+Base Bid COMBINED
+Base Bid TROY
+Base Bid ATHENS
+Addendum #1-7
+Bid Bond
+Fam. Dis. Form
+Iran Economic Sanctions Form
+Clarifications Included
+Voluntary Alts / Clarifications
+Bid Category 061000 General  Trades
+NACE $ 248,900.00 $ 392,900.00 Y Y Y
+Titan Industries $ 244,500.50 $ 335,499.50 Y Y Y
+J Perez $ 422,752.00 $ 477,390.00 Y Y Y
+Brencal $ 351,000.00 $ 456,000.00 Y Y Y
+CITY CONTRACTING $ 296,726.00 $ 522,498.00 Y Y Y
+Bid Category 075000 Roofing
+Bid Category 230000 Mechanical
+Contrast Mechanical $ 2,240,000.00 NA Y Y Y
+Clarifications:  1) No quantity for control valves. Excluding  any other control
+valve replacement other than the AHU/Acs and the boiler  room. MCMI quote
+did include  new valves.
+2) Included adding 20,000 gal of glycol  to CWS.
+3) Sawcut and excavation  or backfill  is  be others. Mechanical  to only install
+pipe.
+4) Excluded leed and duct cleaning  per Christa
+5) Chiller  work to happen over the winter months. 2015/16.
+Johnson & Wood $ 2,821,000.00 $ 4,470,000.00 Y Y Y
+Ecker Mechanical $ 2,430,000.00 $ 3,740,000.00 Y Y Y
+OAKLAND PLUMBING $ 2,733,100.00 $ 5,233,900.00 Y Y Y
+Bid Category 260000 Electrical
+Shoreview  Electric $ 329,000.00 NA Y Y Y
+J&J Electric $ 247,500.00 $ 1,477,500.00 Y Y Y
+Metro Electric $ 257,000.00 $ 1,262,000.00 Y Y Y
+Great Lakes Power $ 258,000.00 $ 1,426,000.00 Y Y Y
+135
+Architect - TMP Architecture
+Alt 2 - Remove  ceilings
+Gen Trades Titan Industries 335,499.50 244,500.50 580,000.00 12,900.00 32,300.00
+NACE 392,900.00 248,900.00 641,800.00 10,700.00 38,300.00
+City Contracting 522,498.00 296,726.00 819,224.00 15,443.00 32,810.00
+Brencal 456,000.00 351,000.00 807,000.00 13,000.00 5,700.00
+J. Perez 477,390.00 422,752.00 900,142.00 18,350.00 53,968.00
+Alt 2 - Remove  ceilings
+Electrical Metro Electric 1,262,000.00 257,000.00 1,519,000.00 8,000.00
+J&J 1,477,500.00 247,500.00 1,725,000.00 15,000.00
+Great Lakes Power  and Light 1,426,000.00 258,000.00 1,684,000.00 11,000.00
+Shoreview N/A 329,000.00
+Alt 2 - Remove  ceilings
+Mechancial Contrast N/A 2,240,000.00
+Ecker Mechanical 3,740,000.00 2,430,000.00 6,060,000.00 130,000.00
+Johnson and Wood 4,470,000.00 2,821,000.00 7,291,000.00 141,941.00
+Oakland Plumbing 5,233,900.00 2,733,100.00 7,967,000.00 250,000.00
+136
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Category Contractor
+Base  Bid Athens
+HS
+Base  Bid Troy  High
+School
+Combined  Bid
+Amount
+Alt 1 - Kitchen
+Exhaust  Hood
+in Zone  E, F, G 
+Category Contractor
+Base  Bid Athens
+HS
+Base  Bid Troy  High
+School
+Combined  Bid
+Amount
+Alt 1 - Kitchen
+Exhaust  Hood
+in Zone  E, F, G 
+Category Contractor
+Base  Bid Athens
+HS
+Base  Bid Troy  High
+School
+Combined  Bid
+Amount
+Alt 1 - Kitchen
+Exhaust  Hood
+in Zone  E, F, G 
+Architect - TMP Architecture
+0 0 0 0 0 0
+32,300.00 0
+19,000.00 0
+18,000.00 -50,000.00
+0
+133,000.00 18,000.00 280,000.00
+281,404.00 0 0
+258,567, shift premium
+deduct $15,000
+137
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as
+Base  bid
+Alt 6 - Provide  work  on
+second  shift  elec
+Alt 7-2nd  shift
+work  mech
+Alt 8 - Chiller  alt ext
+rated  insulation
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as
+Base  bid
+Alt 6 - Provide  work  on
+second  shift  elec
+Alt 7-2nd  shift
+work  mech
+Alt 8 - Chiller  alt ext
+rated  insulation
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as
+Base  bid
+Alt 6 - Provide  work  on
+second  shift  elec
+Alt 7-2nd  shift
+work  mech
+Alt 8 - Chiller  alt ext
+rated  insulation
+Architect - TMP Architecture
+Alt 10 - Add Alternate  for
+3,500.00 -75,000.00
+3,780.00 -10,900.00
+8,700.00 -94,150.00
+10,000.00 -66,000.00
+0 0 0 0
+Alt 10 - Add Alternate  for
+6,000.00 145,000.00 -21,000.00 55,000.00
+10,000.00 150,000.00 22,000.00 64,000.00
+9,000.00 117,000.00 -10,000.00 -19,000.00 68,000.00
+57,000.00 0 63,000.00
+Alt 10 - Add Alternate  for
+284,636.00 -31,500.00
+-2%
+138
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Alt 9 - Add Alternate  for
+Pool Unit at Athens
+lighting  in THS and Athens
+Gym
+Alt-11 Deduct  for
+payment  in 30 days
+Alt 12 - Deduct  for
+Toilet  Rooms
+Alt 13 - Add for  Exterior  Lighting  Troy
+High School
+Alt 9 - Add Alternate  for
+Pool Unit at Athens
+lighting  in THS and Athens
+Gym
+Alt-11 Deduct  for
+payment  in 30 days
+Alt 12 - Deduct  for
+Toilet  Rooms
+Alt 13 - Add for  Exterior  Lighting  Troy
+High School
+Alt 9 - Add Alternate  for
+Pool Unit at Athens
+lighting  in THS and Athens
+Gym
+Alt-11 Deduct  for
+payment  in 30 days
+Alt 12 - Deduct  for
+Toilet  Rooms
+Alt 13 - Add for  Exterior  Lighting  Troy
+High School
+Architect - TMP Architecture
+Voluntary  Alt: Mezzanines Voluntary  Alternates
+No attached sheet of alternates
+THS Steel allowance5,000  - Athens  Steel allowance  10000
+Voluntary  Alt: Mezzanines Voluntary  Alternates
+Voluntary  Alt: Mezzanines Voluntary  Alternates
+Deduct Lighting Controllers -$100,000, and reuse existing (MCMI) controls
+See Clarifications on bid proposal form
+-26,000.00
+-11,500.00 reuse lighting controls  = -$191,000
+139
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Architect - TMP Architecture
+General  Trades
+Titan Industries NACE City Contracting Brencal J. Perez
+Base  Bid Troy  High School $ 244,500.50 $ 248,900.00 $ 296,726.00 $ 351,000.00 $ 422,752.00
+Alt 1 - Kitchen  Exhaust  Hood
+Alt 2 - Remove  ceilings  in
+Zone  E, F, G
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as Base  bid
+Alt 6 - Provide  work  on
+second  shift  elec
+Alt 7-2nd  shift  work  mech
+Alt 8 - Chiller  alt ext  rated
+insulation
+Alt 9 - Add Alternate  for  Pool
+Unit at Athens
+Alt 10 - Add Alternate  for
+lighting  in THS and Athens
+Gym
+Alt-11 Deduct  for  payment  in
+30 days $ (4,890.01)
+Alt 12 - Deduct  for  Toilet
+Rooms
+Alt 13 - Add for  Exterior
+Lighting  Troy  High School
+Voluntary  Alt: Mezzanines
+THS Steel allowance
+140
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Voluntary  Alternates
+$5,000
+Contract  Amount $ 239,610.49
+Architect - TMP Architecture
+Electrical
+J&J Metro Electric Great Lakes Power  and Light Shoreview
+Base  Bid Troy  High School $ 247,500.00 $ 257,000.00 $ 258,000.00 $ 329,000.00
+Alt 1 - Kitchen  Exhaust  Hood
+Alt 2 - Remove  ceilings  in Zone  E,
+F, G
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as Base  bid
+Alt 6 - Provide  work  on second
+shift  elec
+Alt 7-2nd  shift  work  mech
+Alt 8 - Chiller  alt ext  rated
+insulation
+Alt 9 - Add Alternate  for  Pool Unit
+at Athens
+Alt 10 - Add Alternate  for  lighting
+in THS and Athens  Gym $ 70,000.00 $ 39,000.00 $ 45,000.00 $ 57,000.00
+Alt-11 Deduct  for  payment  in 30
+days $ (10,000.00)
+Alt 12 - Deduct  for  Toilet  Rooms
+Alt 13 - Add for  Exterior  Lighting
+Troy  High School $ 64,000.00 $ 55,000.00 $ 68,000.00 $ 63,000.00
+Voluntary  Alt: Mezzanines
+Voluntary  Alternates
+141
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Contract  Amount $311,500.00
+Architect - TMP Architecture
+Mechanical
+Base  Bid Troy  High School $ 2,240,000.00 $ 2,430,000.00 $ 2,821,000.00 $ 2,733,100.00
+Alt 1 - Kitchen  Exhaust  Hood
+Alt 2 - Remove  ceilings  in
+Zone  E, F, G
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as Base  bid
+Alt 6 - Provide  work  on
+second  shift  elec
+Alt 7-2nd  shift  work  mech
+Alt 8 - Chiller  alt ext  rated
+insulation
+Alt 9 - Add Alternate  for  Pool
+Unit at Athens
+Alt 10 - Add Alternate  for
+lighting  in THS and Athens
+Gym $ (54,662.00)
+Alt-11 Deduct  for  payment  in
+30 days
+Alt 12 - Deduct  for  Toilet
+Rooms
+Alt 13 - Add for  Exterior
+Lighting  Troy  High School
+Voluntary  Alt: Mezzanines
+Deduct Lighting Controllers -
+$100,000, and reuse existing
+142
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Contrast
+Ecker
+Mechanical Johnson and Wood
+Oakland
+Plumbing
+Voluntary  Alternates
+(MCMI) controls.  See Clarifications
+on bid proposal form
+reuse lighting controls
+= -$191,000
+Contract  Amount $ 2,240,000.00
+Architect - TMP Architecture
+General  Trades
+Titan Industries NACE Brencal J. Perez City Contracting
+Base  Bid Athens  High School $ 335,499.50 $ 392,900.00 $ 456,000.00 $ 477,390.00 $ 522,498.00
+Alt 1 - Kitchen  Exhaust  Hood $ 12,900.00 $ 10,700.00 $ 15,443.00 $ 13,000.00 $ 18,350.00
+Alt 2 - Remove  ceilings  in Zone  E, F, G $ 32,300.00 $ 38,300.00 $ 32,810.00 $ 5,700.00 $ 53,968.00
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as Base  bid
+Alt 6 - Provide  work  on second  shift
+elec
+Alt 7-2nd  shift  work  mech
+Alt 8 - Chiller  alt ext  rated  insulation
+Alt 9 - Add Alternate  for  Pool Unit at
+Athens $ 3,500.00 $ 3,780.00 $ 8,700.00 $ 10,000.00
+Alt 10 - Add Alternate  for  lighting  in
+THS and Athens  Gym
+Alt-11 Deduct  for  payment  in 30 days $ (6,709.99)
+Alt 12 - Deduct  for  Toilet  Rooms $ (75,000.00) $ (10,900.00) $ (94,150.00) $ (66,000.00)
+Alt 13 - Add for  Exterior  Lighting  Troy
+High School
+Voluntary  Alt: Mezzanines
+Athens  Steel
+allowance
+143
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Voluntary  Alternates
+$10,000
+Contract  Value $ 377,489.51
+Architect - TMP Architecture
+Electrical
+Great Lakes Power  and
+Base  Bid Athens  High School $ 1,262,000.00 $ 1,477,500.00 $ 1,426,000.00 N/A
+Alt 1 - Kitchen  Exhaust  Hood $ 8,000.00 $ 15,000.00 $ 11,000.00
+Alt 2 - Remove  ceilings  in Zone  E,
+F, G
+Alt 3 - Remove  gal pipe   
+in rms  indicated
+Alt 4 - Remove   
+lighting  in Zone  E F G $ 32,300.00 $ 19,000.00 $ 18,000.00
+Alt 5-Firestone  as Base  bid
+Alt 6 - Provide  work  on second
+shift  elec $ (50,000.00)
+Alt 7-2nd  shift  work  mech
+Alt 8 - Chiller  alt ext  rated
+insulation
+Alt 9 - Add Alternate  for  Pool Unit
+at Athens $ 6,000.00 $ 10,000.00 $ 9,000.00
+Alt 10 - Add Alternate  for  lighting
+in THS and Athens  Gym $ 106,000.00 $ 80,000.00 $ 72,000.00
+Alt-11 Deduct  for  payment  in 30
+days $ (10,000.00)
+Alt 12 - Deduct  for  Toilet  Rooms
+(Not Accepting) $ (21,000.00) $ 22,000.00 $ (19,000.00)
+Alt 13 - Add for  Exterior  Lighting
+Troy  High School
+Voluntary  Alt: Mezzanines
+Voluntary  Alternates
+144
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Metro Electric J&J
+Light Shoreview
+Contract  Value $ 1,308,300.00
+Architect - TMP Architecture
+Mechanical
+Johnson and
+Base  Bid Athens  High School $ 3,740,000.00 $ 4,470,000.00 $ 5,233,900.00 N/A
+Alt 1 - Kitchen  Exhaust  Hood $ 130,000.00 $ 141,941.00 $ 250,000.00
+Alt 2 - Remove  ceilings  in Zone  E,
+F, G
+258,567, shift
+Alt 4 - Remove   
+lighting  in Zone  E F G
+Alt 5-Firestone  as Base  bid
+Alt 6 - Provide  work  on second
+shift  elec
+Alt 7-2nd  shift  work  mech $ 18,000.00
+Alt 8 - Chiller  alt ext  rated
+insulation
+Alt 9 - Add Alternate  for  Pool Unit
+at Athens $ 280,000.00 $ 284,636.00
+Alt 10 - Add Alternate  for  lighting
+in THS and Athens  Gym $ (104,678.00)
+Alt-11 Deduct  for  payment  in 30
+days $ (31,500.00)
+Alt 12 - Deduct  for  Toilet  Rooms
+Alt 13 - Add for  Exterior  Lighting
+Troy  High School
+Voluntary  Alt: Mezzanines $ (26,000.00) $ (11,500.00)
+Voluntary  Alternates
+145
+Construction Magager - Barton Malow 
+BP8 - Troy and Athens High MEP Upgrades Owner - Troy School District
+Ecker Mechanical
+Wood Oakland Plumbing Contrast
+Alt 3 - Remove  gal pipe   
+in rms  indicated $ 133,000.00 $ 281,404.00
+premium deduct
+$15,001
+Contract  Value $ 4,301,000.00
+ 10. A.       11.17.15 
+10. OTHER 
+ A.  FIRST READING:   Revisions to Board Policy E-1102 Use of  
+        School Buildings and Facilities 
+ Members of the Board Policy Committee have met to review Board Policy E-
+1102, Use of School Buildings and Facilitie s. The policy has been reviewed by 
+the Board of Education’s attorney to make sure it complies with State law, the 
+Open Meetings Act, and the Revised School Code. 
+The first reading of the revised Board Policy  is presented at this evening’s 
+meeting. 
+E-1102 Use of School Buildings and Facilities 
+RECOMMENDED ACTION:  Indicate that all Board members will be asked 
+to review this policy for a second time prior to the next Board meeting a nd 
+will vote on adoption of revisions under the consent agenda at the December 
+Board meeting.   
+146
+USE OF SCHOOL PROPERTY     E-1100 
+E-1102 USE OF SCHOOL BUILDINGS AND FACILITIES 
+ The superintendent may approve the use of school facilities according to 
+the schedule of fees approved by the Board.  The superintendent, or 
+designee, establishes such rules and regulations needed to implement 
+this policy as well as assure the preservation of school district property. 
+school community.  Therefore, it is the policy of the Board to encourage 
+the use of the facilities by established local groups and organizations 
+whose purpose and objectives contribute to the school program or to the 
+community. 
+The Board also recognizes that the primary purpose of the district’s 
+facilities is to implement the instructional program of the District.  The 
+Board further recognizes that there are costs involved in the non-school 
+use of the facilities and that charges should be made so that taxpayer 
+funds are not used in support of non-school activities. 
+The Superintendent/Designee shall develop a fee schedule and 
+regulations governing the use and rental of district facilities to protect 
+the regular instructional program, those who use the facilities, and the 
+taxpayers who have provided the facilities.  These regulations shall 
+define those groups permitted to use district facilities as well as the 
+specific limitations and prohibited activities in school facilities.  No 
+person or organization shall be granted permission to use the district 
+facilities who has not agreed in writing to be bound by the regulations of 
+the District. 
+In case of disaster or emergencies in the area of the School District or in 
+nearby areas, the Superintendent may open district facilities and sites to 
+assist civil authorities in the relief of human misery and the saving of 
+life. 
+Formatted: Indent: First line:  0"
+Please reference Policy K-1501 for Visitors To The Schools.   
+147
+The Board of Education recognizes that district facilities belong to the 
+Formatted: Indent: Left:  0.88"
+Adopted: February 16, 1976 
+Revised: January 16, 1979 
+ September 19, 1989 
+ April 21, 1998 
+ November 17, 2015 
+148
+ 10. B.       11.17.15 
+10. OTHER 
+ B.  FIRST READING:   Board Policy D-1401 Reimbursement of Board  
+             Member or Employee Expenses 
+ Members of the Board Policy Committee have met to review the new Board 
+Policy D-1401, Reimbursement of Board Member or Employee Expenses . The 
+policy has been reviewed by the Board of Education’s attorney to make sure it 
+complies with State law, the Open Meetings Act, and the Revised School 
+Code. 
+The first reading of th e new Board Policy  is presented at this evenin g’s 
+meeting. 
+D-1401 Reimbursement of Board Member or Employee Expenses 
+RECOMMENDED ACTION:  Indicate that all Board members will be asked 
+to review this policy for a second time prior to the next Board meeting a nd 
+will vote on adoption of revisions under the consent agenda at the December 
+Board meeting.   
+149
+REIMBURSEMENT OF EXPENSES   D-1400 
+D-1401 REIMBURSEMENT OF BOARD MEMBER OR EMPLOYEE EXPENSES 
+The Board of Education recognizes that there are reasonable expenses incurred 
+by the employees and board members on behalf of the District when carrying 
+out the business of the District.  Board members and employees shall be 
+reimbursed for actual and necessary expenses incurred in discharging their 
+official duties and in performing functions authorized by the Board. 
+A.  Schedule of Pre-Approved Reimbursable Expenses 
+The Board designates the following specific categories of duties and functions 
+which are pre-approved as reimbursable expenses:  
+(excluding out-of-state conference for Board of Education members – 
+reference policy B-2001 and section B below). 
+2. County and regional education-related associations of inter-governmental 
+meetings. 
+3. Education or civic programs including materials and supplies. 
+4. Education-related seminars, continuing education classes, workshops and 
+educational programs of other states and countries. 
+5. Expenses include registration fees, costs of travel, lodging and meals where 
+these expenses are directly related to attendance at the conference, seminar, 
+class, workshop or educational program of other states or countries. 
+6. The cost of travel includes air travel at coach rate, automobile mileage at 
+the Internal Revenue Service appropriate rate per mile, parking tolls, taxi 
+or rental car allowances at the current prevailing rates for travel outside the 
+District, when necessary, to attend a function. 
+7. Other expenses related to the professional development of the Board 
+member or employee. These expenses include, but are not limited to, 
+professional reading materials, books, audio tapes and visual materials 
+which enhance the professional development of the Board member or 
+employee.  
+8. Telephone calls, facsimile expenses and other applicable communication 
+expenses. 
+9. Other expenses related to carrying out the business of the District in which 
+the Board of Education, Superintendent or designee feel is reasonable and 
+within the parameters of the adopted budget. 
+150
+1. Local, state and national educational conferences and business meetings 
+Formatted: Font: Palatino Linotype, Not Bold
+B. Non-Scheduled Categories of Expenses. 
+If a Board member or employee incurs an expense for an official duty or 
+function not appearing on the schedule of pre-approved reimbursable 
+expenses, the Board shall not reimburse that expense unless a motion to 
+approve the non-scheduled expense is adopted before the expense is incurred.  
+This includes out-of-state meetings of Board members that must have prior 
+approval by resolution (reference policy B-2001).  
+C. Expense Vouchers 
+To receive reimbursement, a Board member or employee shall submit to the 
+District’s business office an expense voucher and supporting receipts or other 
+evidence to verify each expense incurred. 
+D. Spouses and Other Family Members 
+Expenses for spouses accompanying Board members or employees in 
+discharging their official duties or performing authorized functions are not 
+reimbursable. 
+E. Budget 
+Funds shall be budgeted on an annual basis for Board members and 
+employees to attend and participate in the meetings, workshops, associations, 
+conferences and other activities described in this bylaw. 
+F. Procedures 
+The Superintendent or designee is authorized to develop procedures for 
+reimbursement for expenses incurred by members of the Board of Education 
+or employee in accordance with this bylaw. 
+Legal Reference:  Revised School Code MCL 380.1254 
+Adopted:      
+151
+                              10. C. 01.14.14  
+10.  OTHER 
+C. CONSIDERATION:  2015 NAIS Conference Registration 
+As required by Board Policy B -2001, Workshops and Conferences, 
+“…expenditure of district funds for members for out -of-state meetings 
+must have prior approval by resolution.”  Board Vice President, Mr. 
+Schmidt, has indicated his desire to attend the 2015 National Association 
+of Independent Schools (NAIS) People of Color  Conference, which will be 
+held in Tampa, Florida, from December 3 - 5, 20 15. Therefore, we ask 
+you to consider the following resolution.   
+RECOMMENDED ACTION:  Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+   Moved by  
+   Supported by  
+Be it therefore resolved that the Board of Education takes action to approve Mr. 
+Schmidt’s attendance as representative of the Troy Board of Education at the 
+National Association of Independent Schools 2015 People of Color  Conference in 
+Tampa, Florida, from December 3 - 5, 2015. 
+YES:      
+NO:      
+152
+28TH NAIS PEOPLE OF COLOR CONFERENCE
+22ND STUDENT DIVERSITY LEADERSHIP CONFERENCE
+ART
+SCIENCE
+SOUL
+AND THE EQUITY
+IMPERATIVE
+2015 NAIS PoCC | SDLC
+DECEMBER 3 – 5 | TAMPA, FL
+LEARNING TO LISTEN
+AND LISTENING TO LEARN
+THE ART OF DIALOGUE AND 
+THE SCIENCE OF LIVING JUSTLY
+PREVIEW
+TAMPA CONVENTION CENTER AND 
+TAMPA MARRIOTT WATERSIDE HOTEL & MARINA
+PoCC.NAIS.ORG  #NAISPoCC | #NAISSDLC
+153
+2
+#NAISPoCC | #NAISSDLC
+1991
+From Thought to Action
+1990
+Unity in the Midst  
+of Diversity
+1989
+Common Ground
+1988
+The First National Conference for 
+Teachers and Administrators of 
+Color in Independent Schools
+Please join us at the 28th NAIS People 
+of Color Conference. This year’s 
+theme — Art, Science, Soul, and the Equity 
+Imperative — will guide us as we learn 
+together in Tampa. Creative expression, 
+the latest data, and cutting-edge research 
+will fuel us to build bridges across the  
+academic disciplines of art and science. 
+Soul will inspire us to share our stories  
+as meaningful takeaways, whether  
+in the form of a learning experience  
+or an inspirational win. The equity  
+imperative will unite us in shared focus  
+as independent school professionals  
+working toward greater equity and inclu-
+sion in our communities. The concepts 
+in our theme are woven and networked 
+together just as we are.
+PoCC provides a generative space to 
+explore these commonalities — and just as 
+importantly, our differences. Each year our 
+numbers and impact grow. Independent 
+school teachers, administrators, staff, and 
+heads of schools feel empowered to effect 
+change and implement new frameworks 
+to improve our communities. These efforts 
+affect students, families, faculty, and  
+staff. We encourage you to unlock new 
+leadership skills, share your strengths,  
+and contribute to improved teaching and 
+learning outcomes for all.
+There are many ways, both familiar and 
+new, to take full advantage of the PoCC 
+experience this year. We invite you to 
+participate in our expanded preconfer-
+ence activities, including four new Equity 
+Seminars. These engaging full-day ses-
+sions lay a foundation for you to dive 
+deep into your chosen track at the con-
+ference. Following a successful launch in 
+Indianapolis, we are offering a new Master 
+Class for diversity professionals. Moreover, 
+conference attendees will have increased 
+program choices this year as a result of a 
+new Saturday morning workshop block.
+Many of you know that NAIS holds equity 
+as one of its four core values. The People 
+of Color Conference is among the most 
+visible ways our team in Washington  
+puts that value, and the deep meaning  
+it holds for us, into practice. Our organiza-
+tion’s mission is to support independent 
+schools and the students they serve.  
+This starts with providing you — our top-
+notch teachers, administrators, trustees, 
+and supporters — with programming  
+that matters and speakers who inform, 
+energize, and engage.
+The continuing support and hard work of 
+the dedicated PoCC Local Committee and 
+the SDLC Leadership Team make this expe-
+rience possible. We are thrilled to share 
+with you the conference around which we 
+have collaborated for more than a year. 
+Together we look forward to continuing 
+our work to advance diversity, equity, and 
+inclusion in all of our schools.
+JOHN CHUBB
+NAIS President
+CAROLINE G. 
+BLACKWELL
+NAIS Vice President  
+for Equity and Justice
+CONFERENCE HISTORY
+Each year, the host city and 
+conference theme have given 
+PoCC and SDLC a unique char-
+acter and cultural perspective.
+WELCOME
+NAIS
+154
+3
+#NAISPoCC | #NAISSDLC
+1997
+Journey to Spirit: Solidarity 
+and Voice through Dialogue
+1996
+A Vision for Building  
+New Alliances
+1995
+Lighting the Way to the 
+Millennium: Our Selves, Our 
+Children, Our Schools
+1994
+Los Colores de la Educación —  
+Continuing to Build Environments  
+in Independent Schools that Address 
+the Needs and Issues of Children and 
+Adults of Color
+1993
+Seeing Beyond — Becoming 
+Advocates for Creating 
+Multicultural Educational 
+Institutions
+1992
+Vision 2020
+The Sunshine State has always exhibited 
+the qualities people equate with para-
+dise. As we gather for the 2015 NAIS 
+People of Color Conference, we took 
+some time to reflect on Florida’s rich his-
+tory of cultural diversity.
+In the 16th century, Florida provided 
+a model of diversity and inclusion. 
+Explorer Ponce de León traveled with 
+the first identified African to set foot in 
+North America — as an equal. Later, when 
+Indians and enslaved people fled south-
+ern states seeking refuge, Florida offered 
+sanctuary. During the late 20th century, 
+125,000 Cubans arrived at the shorelines 
+in the Mariel Boatlift seeking safety and 
+freedom. Now, more than 20 percent of 
+Florida’s population is foreign born.
+Our state embodies a rich mix of cul-
+tures, from black, Cuban, and Seminole, 
+Spanish, French, and many more. Visitors 
+from across the country also know they 
+will find sanctuary and acceptance 
+in Florida. Throngs of people flock to 
+Daytona over spring break; families 
+vacation in Orlando; and nearly everyone 
+enjoys a fun night out in Ybor City.
+Our true spirit or soul is entrenched in  
+what lies at the core of our state, geograph-
+ically and figuratively: Eatonville, the first 
+black incorporated city in the United States. 
+The hometown of author and folklorist  
+Zora Neale Hurston, Eatonville embodies 
+the equity imperative as it allowed even  
+the exiled to chart their own destinies.
+We think Tampa is the perfect place for  
+this year’s conference because our commu-
+nity is so expansive. People commonly  
+shop in Brandon, dine in St. Petersburg, 
+and catch a show in downtown Tampa, 
+while a family may spend the day on 
+beautiful Siesta Key and later attend the 
+Strawberry Festival in Plant City. Our sense 
+of community has expanded to include and 
+elevate the rich diversity of our environs.
+This year’s theme, Art, Science, Soul, and the 
+Equity Imperative, speaks to the creativity 
+and innovation of our great state of Florida, 
+where people from all walks of life are com-
+ing together with a critical need for justice.
+Welcome to Tampa, our community, and 
+our sanctuary!
+LOCAL COMMITTEE
+WELCOME
+CO-CHAIR
+L’TANYA EVANS
+Academic Dean,  
+The Out-of-Door  
+Academy (Florida)
+CHRISTINE 
+ORTEGA GAURKEE
+History and Religious 
+Studies Teacher, Berkeley 
+Preparatory School 
+(Florida)
+155
+4
+#NAISPoCC | #NAISSDLC
+2002
+Bridging Cultures,  
+Sharing Stories
+2003
+PoCC E Huaka’i Pū Kākou  
+(Let’s Voyage Together)
+SDLC X Marks the Spot
+2001
+Connecting Cultures, 
+Connecting Worlds
+2000
+The Children Are Our 
+Business
+1999
+Vision 2020
+1998
+Puerto Rico — The  
+Caribbean: Encounter 
+History, Culture, and Self
+THE DESTINATION
+PoCC programming will take place at 
+the Tampa Convention Center and SDLC 
+programming will take place primarily 
+at the Tampa Marriott Waterside Hotel 
+& Marina. We encourage conference 
+participants to enjoy Tampa’s attrac-
+tions, including the Riverwalk, dolphin 
+watching cruises, the Florida Aquarium, 
+Tampa’s Lowry Park Zoo, Museum of 
+Science and Industry, Tampa Theatre, 
+Sunshine Skyway Bridge, Segway tours, 
+Lettuce Lake Regional Park, Tampa 
+Electric Manatee Viewing, Henry B. 
+Plant Museum, and much more. Nearby 
+Clearwater and St. Petersburg offer many 
+more options, too.
+MAKE THE MOST OF THE NAIS 
+PEOPLE OF COLOR CONFERENCE
+For 28 years, PoCC has nurtured and  
+sustained people of color in independent  
+schools. Participant acceptance of  
+cherished community norms helps make 
+creation of this unique experience pos-
+sible. Speakers, affinity group work, and 
+workshop presenters not only inform 
+participants but also challenge them to 
+think in new and different ways. Further, 
+conference attendees have the oppor-
+tunity to network and build connections 
+with others who remain committed  
+to building and sustaining independent 
+school communities in which people  
+of color can thrive.
+In order to maximize the conference 
+experience, participants are challenged to 
+lean into discomfort and accept conflict 
+as a catalyst for change. Attendees are 
+asked to suspend judgment of themselves 
+and others to help support full presence 
+and listen and think before speaking from 
+personal perspectives. By committing to 
+honor confidentiality, participants cultivate 
+a respectful community. In all, conference 
+norms help ensure full participation and 
+allow attendees to depart PoCC renewed, 
+reenergized, and recommitted.
+OVERVIEW
+Convention Center,  
+East Hall Registration
+WEDNESDAY, DECEMBER 2
+7:00 AM – 8:00 PM
+THURSDAY, DECEMBER 3
+7:00 – 7:30 AM 
+9:15 AM – 6:00 PM
+FRIDAY, DECEMBER 4
+7:00 AM – 6:00 PM
+SATURDAY, DECEMBER 5
+7:00 – 11:00 AM
+PoCC |  SDLC
+REGISTRATION
+156
+5
+#NAISPoCC | #NAISSDLC
+2005
+PoCC At the Crossroads: 
+Deepening Perspectives of the 
+Cultural Kaleidoscope
+SDLC Collide-o-scope: Twisting 
+Lenses, Seeing Change
+2004
+PoCC Miami: Gateway  
+to Multiculturalism
+SDLC Connecting to Self,  
+Connecting to Others
+2009
+PoCC Moving Mountains:  
+Mining Within
+SDLC Mine, Yours & Ours: The 
+Responsibility to Navigate the 
+Rapids of Change
+2008
+PoCC Music for Life.  
+Food for Thought. 
+Friendships That Sustain.
+SDLC Preserving Self, 
+Building Community, and 
+Sustaining Change
+2007
+PoCC Learning from the Past, 
+Leading for the Future
+SDLC The Time is Now
+2006
+PoCC Nourishing Ourselves 
+for the Swim Upstream
+SDLC Upstream,  
+Uphill, Up to Us
+PoCC WORKSHOPS
+PoCC attendees select workshops 
+offered in four time blocks during the 
+conference, including a new condensed 
+block on Saturday morning. Workshops 
+get categorized in the following tracks:
+  Equity and Inclusion Exemplars: 
+Programs, Models, Best Practices
+  Intercultural Dialogue, Facilitation,  
+and Conversational Leadership
+  Leadership, Management, and 
+Organizational Change
+  Racial and Ethnic Identities: 
+Developmental Models, Frameworks, 
+Approaches
+  Self-Efficacy and Empowerment:  
+Mind, Body, and Spirit
+  Teaching to Transform:  
+Classroom-Based Innovations
+DIALOGUE
+In addition to three affinity group ses-
+sions during PoCC, students will lead 
+an Adult-Student Dialogue session on 
+Saturday. We encourage PoCC attendees 
+to join these state and regional meet-
+ings, during which SDLC attendees use 
+skills cultivated during their conference 
+to share insights and strategies they 
+intend to take back to their schools. This 
+session empowers students as allies and 
+advocates for diversity, multiculturalism, 
+equity, and justice. Adult attendance 
+proves vital to the success of this session, 
+as does willingness to let the student 
+delegates lead.
+FOLLOW PoCC 
+AND SDLC ON 
+TWITTER USING  
+#NAISPoCC  
+AND #NAISSDLC.
+157
+6
+#NAISPoCC | #NAISSDLC
+2015
+PoCC Art, Science, Soul,  
+and the Equity Imperative
+SDLC Learning to Listen and 
+Listening to Learn: The  
+Art of Dialogue and the  
+Science of Living Justly
+2013
+PoCC The Capital’s Mosaic:  
+Independent School  
+Leaders Building an 
+Interconnected World
+SDLC Foresight is 20|20: 
+Capitalizing on Our United State
+2014
+PoCC Pit Stops and Victory Laps: 
+Going the Distance, Driving 
+Change, Leading the Race  
+Toward Equity and Excellence
+SDLC Leadership at the 
+Wheel Riding at the Speed of 
+Acceptance
+2011
+PoCC We the People: Painting 
+Our New Mural of Community
+SDLC Updating Our Status: A 
+Declaration of Interdependence
+2010
+PoCC Catching the Tides of 
+Change, Riding the Waves 
+of Opportunity
+SDLC Coast 2 Coast,  
+Seek to See
+2012
+PoCC Energizing Our Future 
+Through Refining Our Shared 
+Sense of Community
+SDLC Timeless Resources,  
+Renewable Energy
+  Facilitating opportunities for affirming, 
+nurturing, and celebrating; and
+  Discussing issues related to racial/ethnic 
+identity development in a safe environ-
+ment where people who share a racial/
+ethnic identity can come together to 
+build community, fellowship, network, 
+and empowerment.
+Which Affinity Group Do I Attend?
+Affinity group conversations are 
+designed for the singular lens of indi-
+vidual racial/ethnic identity. Although we 
+may lay claim to multiple identities, PoCC 
+affinity group sessions call participants 
+into community based on their racial  
+and ethnic identity. You know you are 
+in the right affinity group if you can say 
+AFFINITY GROUP WORK AT PoCC
+Affinity group sessions are uniquely 
+designed to help conference partici-
+pants explore their own racial/ethnic 
+identity through the PoCC conference 
+theme. A qualitative difference exists 
+between PoCC affinity groups and other 
+aspects of the conference, where access 
+to programming is largely unrestricted. 
+Affinity groups are not open to all. These 
+special sessions provide an opportunity 
+for PoCC participants to share and con-
+nect their lives and experiences within 
+safe and supportive spaces defined by 
+membership in a specific racial/ethnic 
+identity group. Supported by a team of 
+trained facilitators, affinity groups offer 
+opportunities to celebrate successes, 
+share challenges, and engage freely. 
+The overarching vision for PoCC affinity 
+group work includes:
+in the circle, “I am              ,” and speak 
+to that group’s experience from the “I” 
+perspective. To preserve the safety and 
+integrity of affinity group space, partici-
+pants should attend only those sessions 
+that match the racial and ethnic identity 
+to which they belong.
+Dr. Anita L. Sanchez will serve as the lead 
+facilitator of our affinity group work. 
+She is an organization development 
+consultant, trainer, and speaker focused 
+on diversity and inclusion, large system 
+change, team building, and coaching.
+158
+9:15 AM – 4:30 PM
+FRIDAY, DECEMBER 4
+as the central meeting place for attendees. In the Hub, 
+you will have the opportunity to participate in a variety 
+about cutting-edge products and services in the educa-
+SPONSORED BY CARNEY, SANDOE & ASSOCIATES
+tion space. We are planning many new programs and 
+events for 2015, so visit the website often for up-to-date 
+information about what’s happening in the Hub!
+Education Zones
+Programming will take place in these  
+areas, including workshops and Stop + 
+Learn Presentations — quick presentations 
+by experts in the field that teach you tricks 
+of the trade and insider tips.
+NAIS Member Resource Center
+Visit the Member Resource Center to 
+learn about Data and Analysis for School 
+Leadership (DASL), Inspiration Lab, NAIS 
+Connect online communities, and the 
+NAIS Career Center. Get all your questions 
+answered and participate in hands-on 
+demonstrations.
+Bookstore
+Take advantage of this great opportunity  
+to pick up books by many of the out-
+standing conference speakers, as well as 
+publications covering various topics within 
+social justice and equity in education.
+NEED A 
+REBOOT?
+THE HUB IS THE PLACE  
+TO BE! THERE WILL  
+BE COFFEE BREAKS, 
+LOUNGES, AND CHARGING 
+STATIONS AVAILABLE  
+TO ATTENDEES!
+159
+7
+#NAISPoCC | #NAISSDLC
+The PoCC Hub, formerly the PoCC Expo Hall, will serve 
+of educational programming and networking activities. 
+You’ll also have the opportunity to visit with representa-
+tives from various companies who value diversity and 
+social justice, which will be a great opportunity to learn 
+PoCC HUB
+PoCC Celebration Luncheon
+Join us for a complimentary lunch to  
+celebrate you and how important you  
+are to the mission and vision of NAIS.
+THURSDAY, DECEMBER 3
+9:00 AM – 5:30 PM
+CLUB PoCC
+HIGHLIGHTS
+FRIDAY, DECEMBER 4
+9:00 PM – 12:00 AM
+Tampa Marriott
+Club PoCC allows conference par-
+ticipants to keep the conversations and 
+camaraderie flowing in a more relaxed 
+Following the opening ceremonies and 
+10:00 AM – 12:00 PM
+FRIDAY, DECEMBER 4
+Tampa Convention Center
+THIS EVENT IS DESIGNED FOR DIVERSITY  
+Take this dedicated time to meet with 
+PROFESSIONALS AND OTHER CHANGE  
+SPACE IS LIMITED ON A FIRST COME, FIRST-
+and more. At these self-organized and 
+SERVED BASIS.
+self-directed gatherings, we recommend 
+and bias can be heard in classrooms,  
+performance and flourishing?
+In this Master Class, participants will 
+examine more closely the nature of 
+implicit bias and how it operates in  
+individuals and organizations. Topics  
+that will be covered include understand-
+ing unconscious bias and stereotype 
+threat as well as techniques that  
+are known to protect against these  
+phenomena and ensure a truly  
+equitable learning environment.
+160
+8
+#NAISPoCC | #NAISSDLC
+PoCC NETWORKING COFFEE 
+BREAKS AND BOOK SIGNINGS
+Tampa Convention Center,  
+PoCC Hub (Ballroom BC, Level 1)
+general sessions, grab a cup of coffee 
+and network before heading off to the 
+next conference activity.
+STATE AND REGIONAL MEETINGS
+3:15 – 4:30 PM
+others from your state and regional 
+associations. Connect, plan, network, 
+that participants reach out to colleagues 
+in their states and regional associations 
+to hear how plans for the 2015 session 
+are taking shape.
+LESBIAN, GAY, BISEXUAL,  
+AND TRANSGENDER (LGBT) 
+SOCIAL HOUR
+6:15 – 7:15 PM
+Tampa Convention Center
+FRIDAY, DECEMBER 4
+setting. Network with colleagues or sim-
+ply kick-back and dance in a club-style 
+atmosphere featuring great music, light 
+refreshments, and fun.
+MASTER CLASS EVENT WITH  
+DR. MAHZARIN BANAJI, Ph.D.
+FRIDAY, DECEMBER 4
+Tampa Convention Center 
+ TICKET REQUIRED $95 with book 
+AGENTS. SIGN UP FOR THE MASTER CLASS 
+WHEN YOU REGISTER FOR THE CONFERENCE. 
+Implicit Bias in the Mind  
+and in the Classroom
+Everyone has biases, yet in 2015, con-
+ceptions that we are “post” prejudice 
+the media, and other discursive spaces. 
+But what happens when this misconcep-
+tion is exposed? How do we work with 
+the science of bias to help illuminate  
+our “blind spots” and dissemble  
+practices and policies that inhibit  
+9
+#NAISPoCC | #NAISSDLC
+COMMUNITY ENGAGEMENT 
+INITIATIVE
+The NAIS Equity and Justice Team has 
+created the Community Engagement 
+Initiative to establish a more permanent 
+relationship with the PoCC host city and 
+to advance each region’s specific needs 
+regarding educational equity, diversity, 
+and inclusion.
+This year, the PoCC Local Committee 
+will launch the “Tampa Bay Area 
+Independent School Diversity, Inclusion 
+Network for Equity” to help local schools 
+embrace diversity as a foundation for 
+healthy, prosperous, and inclusive com-
+munities. Objectives of this network 
+include collaboration on professional 
+development, advocacy for intentionality 
+in the work, and facilitation of peer sup-
+port. The hope is that this platform will 
+allow professionals within the community 
+to increase communication and connect 
+with a united vision.
+STAY TUNED FOR THE  
+2015 PoCC MOBILE APP
+Enhance your PoCC experience with the 
+free, easy-to-use 2015 PoCC mobile app.
+  Stay organized with up-to-the-minute 
+event and speaker information.
+  Find all event information in one place.
+  Receive real-time alerts from NAIS.
+  Follow and join conference chatter  
+on Twitter.
+Download the 2015 PoCC mobile app 
+from iTunes starting in mid-September.
+PoCC CHOIR
+The PoCC choir is directed by Charles 
+Owens and is comprised of attendees 
+who volunteer to raise their voices 
+in song. Rehearsal times are allotted 
+throughout the program. The choir will 
+present a diverse song selection during 
+the Closing Ceremonies, providing  
+a wonderful celebration and sendoff.
+SELMA: THE BRIDGE  
+TO THE BALLOT 
+Film Screening
+THURSDAY, DECEMBER 3
+11:30 AM – 12:45 PM
+Tampa Convention Center
+ TICKET REQUIRED  
+THIS EVENT REQUIRES A TICKET.  
+THERE IS NO COST, BUT YOU MUST  
+PREREGISTER TO ATTEND.
+This documentary film tells the story 
+of a courageous group of students and 
+teachers who along with other activ-
+ists fought a nonviolent battle to win 
+voting rights for African Americans in 
+the South. An important resource for 
+teaching about the long struggle to 
+secure the vote for all citizens, this film 
+intends to promote civic participation 
+among students as it explores a vitally 
+important era in our nation’s history. By 
+highlighting the little-known story of the 
+role young people played in the struggle 
+for African-American voting rights, 
+the documentarians hope to inspire all 
+students to see themselves as active 
+members of a community with the power 
+to effect change.
+DEFAMATION THE PLAY
+THURSDAY, DECEMBER 3
+8:00 – 9:30 PM
+Tampa Convention Center
+ TICKET REQUIRED  
+THIS EVENT REQUIRES A TICKET.  
+THERE IS NO COST, BUT YOU MUST  
+PREREGISTER TO ATTEND.
+SPONSORED BY CANAMAC PRODUCTIONS
+Nationally acclaimed, Defamation is  
+a riveting courtroom drama that explores 
+the highly charged issues of race,  
+religion, gender, class, and the law with  
+a twist: you, the audience, will be the 
+jury. More than a play, Defamation  
+is a unique opportunity for attendees  
+to engage in civil discourse about the 
+most pressing social issues of our day.
+161
+10
+#NAISPoCC | #NAISSDLC
+HOWARD C. STEVENSON, Ph.D.
+Psychologist, Author, and  
+Multicultural Scholar
+GENERAL SESSION SPEAKER
+THURSDAY, DECEMBER 3
+4:45 – 6:00 PM (PoCC)
+FRIDAY, DECEMBER 4
+8:30 – 9:30 AM (SDLC)
+If Elephants Could Talk: Racial 
+Literacy for Post-Racial Schooling
+Howard Stevenson is the Constance Clayton 
+Professor of Urban Education, professor of 
+Africana Studies in the Graduate School of 
+Education at the University of Pennsylvania. 
+Stevenson’s research publications and 
+clinical work involve developing culturally 
+relevant, in-the-moment, strengths-based 
+measures and therapeutic interventions 
+that teach emotional and racial literacy 
+skills to families and youth. His Success of 
+African-American Students (SAAS) project 
+identified the protective role of racial  
+identity and racial socialization processes 
+in the development of emotional coping 
+strategies for African-American students 
+and families in predominantly white 
+independent schools. Stevenson’s recently 
+published book, Promoting Racial Literacy  
+in Schools: Differences that Make a Differ­
+ence (Teachers College Press), focuses on 
+how educators, community leaders, and 
+parents can emotionally resolve face-to-
+face racially stressful encounters that  
+reflect racial profiling in public spaces,  
+fuel social conflicts in neighborhoods,  
+and undermine emotional well-being and 
+academic achievement in the classroom.
+ BOOK SIGNING EVENT
+ 
+SPONSORED BY EDUCATOR’S ALLY
+MAE JEMISON, Ph.D.
+Astronaut
+PoCC OPENING GENERAL SESSION SPEAKER
+THURSDAY, DECEMBER 3
+8:00 – 9:15 AM
+Exploring the Frontiers  
+of Human Potential
+Mae Jemison, the first woman of color 
+in the world to go into space, served 
+six years as a NASA astronaut. She flew 
+aboard the Space Shuttle Endeavour, 
+STS-47 Spacelab-J mission in September 
+1992, and served as NASA’s first science 
+mission specialist performing experi-
+ments in material science, life science, 
+and human adaptation to weightlessness. 
+As an environmental studies professor 
+at Dartmouth College, Jemison taught 
+sustainable development and technology 
+design and ran The Jemison Institute  
+for Advancing Technologies in 
+Developing Countries. In her memoir 
+Find Where the Wind Goes, she writes 
+for teenagers about growing up on the 
+South Side of Chicago, cultivating her 
+aspiration to be a scientist, experiences 
+as a medical student in Africa, and  
+her history-making journey into space. 
+She appeared on an episode of Star 
+Trek: The Next Generation, hosted the 
+Discovery Channel’s series World of 
+Wonder, and was chosen one of People 
+Magazine’s “World’s 50 Most Beautiful 
+People” in 1993.
+ BOOK SIGNING EVENT
+ 
+SPONSORED BY STRATÉGENIUS
+MAHZARIN BANAJI, P h.D.
+Public Intellectual and Best-Selling Author
+PoCC GENERAL SESSION SPEAKER
+FRIDAY, DECEMBER 4
+8:00 – 9:00 AM
+Blindspot: Hidden Biases  
+of Good People
+Mahzarin Banaji is an award-winning 
+Indian-American social psychologist 
+whose teaching credits include Yale and 
+Harvard universities. Well-known for 
+creating the Implicit Association Test 
+that measures unconscious bias, Banaji 
+studies unconscious thinking and feeling 
+as they unfold in a social context. She 
+has primarily studied social attitudes and 
+beliefs in adults and children, relying on 
+multiple methods including cognitive/
+affective behavioral measures and neuro-
+imaging. With these she explores the 
+implications of her work for questions of 
+individual responsibility and social jus-
+tice in democratic societies. For her work 
+and research in unconscious bias, Banaji 
+has garnered numerous awards, acco-
+lades, and fellowships. The American 
+Psychological Association recognized her 
+career contributions with a Presidential 
+Citation in 2007. She received the Carol 
+and Ed Diener Award for Outstanding 
+Contributions to Social Psychology in 
+2009. She is the coauthor of the book, 
+Blindspot: Hidden Biases of Good People, 
+with Anthony Greenwald, published by 
+Random House.
+ BOOK SIGNING EVENT
+ MASTER CLASS TICKETED EVENT: 
+$95 WITH BOOK
+SPEAKERS
+CONFERENCE
+162
+11
+#NAISPoCC | #NAISSDLC
+ROSA CLEMENTE
+Activist, Lecturer, Journalist
+PoCC FEATURED SPEAKER
+FRIDAY, DECEMBER 4
+9:45 – 11:15 AM
+Afro-Latinidad: The Construction 
+of Race and Power
+A trailblazer of the Hip Hop Generation, 
+Rosa Clemente has worked as a com-
+munity organizer, independent journalist, 
+and activist for more than 20 years. After 
+growing up in South Bronx, NY, Clemente 
+went upstate to study at University of 
+Albany and Cornell University, where 
+her academic work focused on research 
+of national liberation struggles within 
+the United States, with a specific focus 
+on the Young Lords Party and the Black 
+Liberation Army. In 1995, Clemente 
+developed Know Thy Self Productions, 
+which has since produced four major 
+community activism tours and consults 
+on such issues as Hip Hop activism, voter 
+engagement among youth of color, and 
+intercultural relations between African 
+Americans and Latinos. She is cur-
+rently a doctoral student in the W.E.B. 
+Du Bois department of University of 
+Massachusetts, Amherst, and a visiting 
+scholar at California State University, 
+Los Angeles. Clemente famously ran for 
+U.S. vice president in the 2008 election 
+on the Green Party ticket. Along with 
+running mate Rep. Cynthia McKinney 
+(D-GA), the pair became the first women 
+of color ticket in U.S. history.
+ BOOK SIGNING EVENT
+GYASI ROSS
+Father, Author, Speaker
+PoCC GENERAL SESSION SPEAKER
+FRIDAY, DECEMBER 4
+4:45 – 6:00 PM
+We’re in This Together:  
+Retaining Hope for Racial Justice 
+in Light of Rapid City, Ferguson 
+and other Evidence of Continued 
+Caveman Behavior
+Gyasi Ross is an essayist, poet, speaker, 
+activist, and lawyer who has written 
+for The Huffington Post, Indian Country 
+Today, Deadspin, and Gawker. Through 
+a life of service, listening, and living 
+within Native American communities, 
+Ross profoundly understands the needs 
+of his people and has dedicated his life 
+to forging change within his communi-
+ties. He has discussed the intersection 
+between Native American life and 
+politics, sports, and pop culture on 
+television. Additionally Ross has spoken 
+at dozens of campuses nationwide on 
+topics related to Native America, as well 
+as broader discussions on race, racism, 
+and white privilege. Whether taking 
+a more nuanced perspective on the 
+Redskins controversy, encouraging self-
+worth in the community or defending the 
+civil rights of those who can’t fight for 
+themselves, Ross keeps part of his mis-
+sion to raise the profile of the reservation 
+populace, as well as instill a sense of 
+pride among the people. Ross released 
+his second book, How to Say I Love You in 
+Indian, in early 2014.
+SARAH KAY
+Spoken-Word Poet
+PoCC CLOSING GENERAL SESSION SPEAKER
+SATURDAY, DECEMBER 5
+11:30 AM – 1:00 PM
+The Art of Storytelling (OR) 
+Considering Breakthrough
+Sarah Kay began performing her spoken-
+word poetry when she was only 14 years 
+old and quickly became a fixture at the 
+famous Bowery Poetry Club in New York 
+City. She has since gone on to perform 
+her poetry in venues all across the United 
+States, including Lincoln Center, the 
+TriBeCa Film Festival, and the United 
+Nations, where she was a featured per-
+former for the launch of the 2004 World 
+Youth Report. Kay served as a featured 
+speaker at the 2011 TED Conference  
+on “The Rediscovery of Wonder,” 
+watched by more than 2 million people 
+on YouTube. Kay also founded and  
+co-directs Project V.O.I.C.E., a charitable 
+organization that celebrates and inspires 
+self-expression in youth through spoken-
+word poetry. Through her involvement 
+with the organization, Kay teaches  
+spoken-word poetry to students of  
+all ages, in classrooms and workshops 
+around the globe.
+ BOOK SIGNING EVENT
+163
+12
+#NAISPoCC | #NAISSDLC
+Fostering Intercultural Competency 
+Through Design Thinking and  
+Project-Based Learning
+KAPONO CIOTTI Wai’alae Elementary 
+Public Charter School
+JENNIFER KLEIN World Leadership School
+As the 21st century presents an increas-
+ingly complex and interconnected world, 
+human progress demands increasingly 
+nuanced global knowledge and inter-
+cultural skills, particularly for our young 
+leaders and innovators. The educational 
+landscape has seen significant shifts  
+in pedagogical approaches and edu-
+cational philosophies, based on the 
+recognition that student-driven, skill-
+based education must be incorporated 
+alongside core content knowledge  
+to best prepare students for our ever-
+changing world — and for the intercultural 
+challenges students encounter inside 
+their communities as well. In particular, 
+the increased popularity of experiential 
+pedagogies like Design Thinking and 
+Project-Based Learning in independent 
+schools provides an opportunity not only 
+for more student-centered learning to 
+take place, but also for the intentional 
+development of intercultural skills among 
+students and adults in our schools.
+This full-day workshop will include  
+experimentation with both of these  
+highly complementary strategies; the 
+morning will include a quick look at  
+various frameworks for defining the  
+goals of intercultural competency, and 
+then we will dive into a Design Thinking 
+experience intended to develop ideas  
+for intercultural skill-building projects  
+to be implemented with students and/or  
+faculty/staff. In the afternoon, we’ll 
+explore the design strategies of Project-
+Based Learning, and participants will 
+have the opportunity to plan one project 
+based on the ideas that came out of the 
+morning session. By the end of this expe-
+rience, participants will have practiced 
+both methods and will have an actual 
+project ready for implementation with 
+students or adults in their communities.
+Seeking Cultural Competence in Hiring: 
+Practical Methods and Strategies for 
+Identifying the Administrators, Staff, 
+and Faculty Needed in 21st Century 
+Independent Schools
+CRIS CULLINAN Co-Chair, National 
+Advisory Council for the annual National 
+Conference on Race and Ethnicity in 
+Higher Education (NCORE); founder, 
+ALiVE: Actual Leadership in Vital Equity
+DANIELLE SOLOMON HR Director, NAIS
+Independent schools can no longer 
+afford to hire faculty, administrators, and 
+other staff who are not culturally compe-
+tent. Hiring without cultural competence 
+in mind leads directly to problems with 
+retention, since a lack of shared respon-
+sibility for inclusion and equity often 
+causes the overworked few to leave as 
+soon as other opportunities are avail-
+able. Lack of cultural competence on the 
+part of teachers, staff and administrators 
+directly impacts the environment for 
+students, leading to lower achievement 
+rates for underrepresented students, as 
+well as miseducation and poor role mod-
+eling for all students. As NAIS President 
+John Chubb said in the summer 2014 
+issue of Independent Schools: “Equity 
+and justice are among our community’s 
+core values, not just because they  
+are ‘the right thing to do’ but also 
+because they are mission critical.”
+EQUITY SEMINARS
+FULL DAY PRE-CONFERENCE
+WEDNESDAY, DECEMBER 2
+8:30 AM – 4:30 PM
+FULL DAY: $250  
+(INCLUDES LUNCH AND 
+MATERIALS)
+164
+13
+#NAISPoCC | #NAISSDLC
+Not in My School! How White 
+Supremacy, White Privilege,  
+and Other Forms of Oppression  
+Undermine Best Intentions
+EDDIE MOORE, JR. The Privilege Institute
+DEBBY IRVING Educator and Author
+How can events in Ferguson, Staten 
+Island, Norman, Baltimore, and McKinney 
+drive our school communities apart? 
+Consequently, how can they be used 
+as teachable, community-building 
+moments? As the recent surge in highly 
+visible racial incidents effects students 
+along racial lines, independent schools 
+have a unique opportunity to deepen the 
+dialogue, understanding, and campus 
+engagement. This interactive and chal-
+lenging session explores how these 
+headline stories relate to the effect that 
+power, privilege, and oppression has on 
+student and family engagement, teacher 
+preparation, curriculum development, 
+and everyday campus interactions. While 
+exploring history, white supremacy, and 
+the manifestation of oppression in recent 
+events, participants will develop skills 
+and insights for effective personal and 
+institutional transformation.
+This Institute is designed to provide 
+participants with effective tools they 
+can adapt for use at their own schools. 
+Participants will work together to identify 
+various dimensions of cultural com-
+petence and will focus on those which 
+represent the most critical needs for posi-
+tions in their particular schools. They will 
+learn practical methods and strategies, 
+including ways to design appropriate 
+advertisements, improve paper screening 
+procedures, and write effective interview 
+and reference questions.
+Adult Leadership Seminar
+Gain powerful strategies to help you 
+advance to the next level of leadership 
+in independent schools. This seminar, 
+tailored for people of color and women, 
+will employ the Everything DiSC Work 
+of Leaders Profile, a premier research-
+based skills inventory, to provide you a 
+deeper understanding of your individual 
+leadership strengths and style. This 
+unique seminar, facilitated by a team of 
+nationally recognized education lead-
+ers, offers participants state-of-the-art 
+leadership development strategies, 
+in-the-moment leadership coaching, 
+and peer exchange and feedback — all 
+in an encouraging and transformational 
+atmosphere designed to nurture and 
+propel a compelling vision for fulfilling 
+your career goals.
+SPONSORED BY  
+CALWEST EDUCATORS PLACEMENT
+165
+14
+#NAISPoCC | #NAISSDLC
+Asking the Right Questions —   
+Strategic Planning for Diversity,  
+Equity, and Inclusion
+TIA BROWN MCNAIR Associate Vice 
+President, Office of Diversity, Equity,  
+and Student Success, AAC&U
+Developing an effective and sustainable 
+strategic plan for diversity, equity, and 
+inclusion starts with asking the right 
+questions and engaging in “courageous 
+conversations” that foster learning  
+and student success. Participants in this 
+workshop will utilize an inquiry-based 
+process for designing a strategic frame-
+work for advancing and measuring  
+diversity, equity, and inclusion. Content 
+for this workshop will be based on 
+NAIS’ Assessment of Inclusivity and 
+Multiculturalism and the Association  
+of American Colleges and Universities’ 
+self-study and planning guide for 
+Committing to Equity and Inclusive 
+Excellence. By showing the alignment  
+of the two approaches from independent 
+schools and higher education, partici-
+pants will be able to create a strategic 
+plan that supports seamless pathways  
+for students and enhances preparation 
+for post-secondary and lifelong success.
+Where’s the Race in  
+Independent Schools?
+H. RICHARD MILNER IV Helen Faison 
+Professor of Urban Education, Professor 
+of Education, Professor of African 
+Studies, and Professor of Social Work, 
+University of Pittsburgh
+What role does race play in understand-
+ing students and family in mostly white 
+schools? How do educators facilitate 
+productive conversations and construct 
+rigorous and responsive instructional 
+practices related to race in classrooms 
+to promote social and academic success 
+among students?
+This Equity Seminar focuses on address-
+ing “tough” conversations around race 
+and poverty/socioeconomic status  
+with students, parents and communities  
+in independent schools. The session 
+addresses realities outside of school 
+regarding race that can shape students’ 
+experiences inside of school. Particular 
+attention will be placed on students’ 
+experiences, teachers’ instructional 
+practices, and leaders’ capacity to build 
+inviting and welcoming school cultures 
+that honor all students in independent 
+schools. Participants will leave with  
+specific action steps to move discourse 
+into powerful action.
+EQUITY SEMINARS
+HALF DAY PRE-CONFERENCE
+WEDNESDAY, DECEMBER 2
+8:30 AM – 12:30 PM
+HALF DAY: $150 
+(INCLUDES CONTINENTAL 
+BREAKFAST)
+166
+15
+#NAISPoCC | #NAISSDLC
+Berkeley Preparatory School, PreK–12
+Berkeley Preparatory School is commit-
+ted to being an inclusive and diverse 
+learning environment that encourages 
+values that recognize we are all unique 
+individuals who make positive contribu-
+tions to the world. Guided by its identity 
+as an independent Episcopal school  
+and its core cultural norms where 
+kindness and respect are placed in the 
+highest regard, Berkeley represents a 
+welcoming environment where people 
+from all backgrounds will not only fit 
+in, but thrive. Berkeley is dedicated to 
+attracting and retaining a culturally 
+diverse faculty of demonstrated profes-
+sional excellence with an unwavering 
+commitment to delivering an education 
+of unsurpassed quality and breadth. 
+An emphasis on academic excellence 
+combined with a spirit of social responsi-
+bility engenders in students a newfound 
+confidence and shared sense of purpose. 
+Students exchange ideas, study virtues 
+and explore ethics as they define their 
+attitudes and values. A diverse student  
+population brings many cultures 
+together, fostering the sharing of tradi-
+tions in a safe forum. Through formal 
+study of world religions, daily convoca-
+tions and the rich and open discussion 
+among peers, students learn to respect 
+their heritage along with the customs  
+of their neighbors.
+Tampa Preparatory School, 6–12, and 
+Academy Prep Center of Tampa, 6–8
+Tampa Preparatory School works closely 
+with Academy Prep Center of Tampa 
+both on a programmatic level and in the 
+education of Academy Prep graduates. 
+Academy Prep Center of Tampa is a rig-
+orous private middle school for students 
+qualifying for need-based scholarships. 
+Academy Prep students attend school 
+11 hours a day, 6 days a week, 11 months 
+a year. Academic classes are taught 
+separately by gender. Its mission is to 
+inspire and empower students qualifying 
+for need-based scholarships to become 
+future community leaders through a 
+rigorous middle school program coupled 
+with ongoing graduate support. Tampa 
+Preparatory School’s rich academic  
+tradition, along with a commitment to 
+arts, athletics and a focus on producing 
+well-rounded citizens, has made Tampa 
+Prep one of the best schools in Tampa 
+for 40 years. Tampa Prep’s educational 
+philosophy instills values of fairness, 
+decency, honor, diligence and academic 
+curiosity. The school stresses the devel-
+opment of self-confidence, a sense of 
+worth and the importance of having fun 
+in the pursuit of one’s goals.
+St. Paul’s School, K–8
+Saint Paul’s Clearwater’s Independent 
+School is committed to preparing 
+students academically, emotionally and 
+socially for the 21st century. Its academic 
+program challenges students to go 
+beyond mastering basic facts and skills, 
+to think creatively, to reflect critically, 
+to design collaboratively and to lead 
+confidently. For 45 years, their Episcopal 
+roots have helped them develop a  
+cohesive, inclusive sense of community 
+and sensitivity and an awareness of the 
+rich diversity in the world around us.
+ACTIVITIES
+PRE-CONFERENCE
+SCHOOL VISITS
+8:30 AM – 1:00 PM
+$50  
+(DEPARTURES WILL TAKE 
+PLACE FROM THE TAMPA 
+CONVENTION CENTER,  
+FRONT DRIVE)
+School Visits allow 
+independent and special 
+focus schools to host 
+conference attendees, 
+share each school’s unique 
+culture and mission, and 
+exchange ways to make 
+schools more inclusive.
+167
+16
+#NAISPoCC | #NAISSDLC
+       2015 PoCC
+      SCHEDULE AT A GLANCE
+WEDNESDAY, DECEMBER 2
+8:30 AM – 1:00 PM School Visits
+8:30 AM  –  4:30 PM Preconference Equity Seminars
+8:30 AM – 4:30 PM PoCC Affinity Group Training
+7:00 – 8:00 PM PoCC Newcomer Orientation
+THURSDAY, DECEMBER 3
+8:00 – 9:15 AM PoCC/SDLC Opening Ceremonies  
+with Mae Jemison
+9:15 AM – 4:30 PM PoCC Hub
+9:30 – 10:00 AM Book Signing with Mae Jemison  
+and Networking Coffee Break
+10:00 – 11:30 AM Workshop Session A
+11:30 AM – 12:45 PM Film Screening
+11:30 AM – 12:45 PM Choir Rehearsal
+11:30 AM – 1:00 PM Heads of Color Reception
+1:00 – 3:00 PM Affinity Group Session 1
+3:15 – 4:30 PM Workshop Session B
+4:45 – 6:00 PM PoCC General Session with  
+Howard Stevenson
+6:15 – 6:45 PM Book Signing with Howard Stevenson
+8:00 – 9:30 PM Defamation the Play
+FRIDAY, DECEMBER 4
+8:00 – 9:00 AM PoCC General Session with  
+Mahzarin Banaji
+9:00 AM – 4:30 PM PoCC Hub
+9:15 – 9:45 AM Book Signing with Mahzarin Banaji  
+and Networking Coffee Break
+9:45 – 11:15 AM Workshop Session C and Featured  
+Speaker Rosa Clemente
+10:00 AM – 12:00 PM Master Class with Mahzarin Banaji
+11:30 AM – 12:45 PM PoCC Celebration Luncheon
+12:15 – 1:00 PM Choir Rehearsal
+1:00 – 3:00 PM Affinity Group Session 2
+3:15 – 4:30 PM State/Regional Meeting
+4:45 – 6:00 PM PoCC General Session with Gyasi Ross
+6:15 – 7:15 PM LGBT Social Hour
+9:00 PM – 12:00 AM Club PoCC
+SATURDAY, DECEMBER 5
+7:00 – 8:00 AM Choir Rehearsal
+8:00 – 8:30 AM Book Signing with Sarah Kay
+8:30 – 9:45 AM Affinity Group Session 3
+8:30 – 10:00 AM Workshop Session D
+10:00 – 11:15 AM Student-Led Adult-Student Dialogues  
+(by State/Region)
+11:30 AM – 1:00 PM PoCC/SDLC Closing Ceremonies  
+with Sarah Kay
+       2015 SDLC
+      SCHEDULE AT A GLANCE
+WEDNESDAY, DECEMBER 2
+6:00 – 10:00 PM Peer Facilitator Training (Dinner 
+provided)
+6:00 – 6:45 PM SDLC Chaperone Orientation I  
+(Choose one)
+9:15 – 10:00 PM SDLC Chaperone Orientation II 
+(Choose one)
+THURSDAY, DECEMBER 3
+7:00 – 7:45 AM Peer Facilitator Training for 
+Wednesday Night Late Arrivals
+7:00 – 7:45 AM SDLC Chaperone Orientation III
+8:00 – 9:15 AM PoCC/SDLC Opening Ceremonies  
+with Mae Jemison
+9:30 AM – 12:00 PM SDLC Opening Ceremonies  
+and Family Groups
+12:15 – 1:15 PM Student Luncheon
+1:30 – 3:45 PM Family/Home Groups
+3:45 – 4:00 PM Snack Break
+4:00 – 5:45 PM Family/Affinity Groups
+6:00 – 7:00 PM Student Dinner
+7:00 – 10:15 PM SDLC Family/Home Groups by Region
+10:00 PM Students Dismissed to Chaperones
+11:00 PM Hotel Curfew
+FRIDAY, DECEMBER 4
+7:00 – 7:45 AM Breakfast with Chaperones
+8:00 – 8:15 AM Morning Clearing
+8:30 – 9: 30 AM SDLC Keynote Presentation with  
+Howard Stevenson
+9:45 – 11:45 AM Family/Affinity Groups
+12:00 – 1:45 PM Student Luncheon and Talent Show
+2:00 – 3:45 PM Family/Home Groups
+3:45 – 4:00 PM Snack Break
+4:00 – 6:00 PM Family/Home Groups
+6:00 – 10:00 PM Student Dinner, Family Groups, and  
+SDLC Closing Ceremonies
+10:00 – 11:30 PM Student Dance (Movie option provided)
+11:30 PM Students Released to Chaperones
+12:00 AM Hotel Curfew
+SATURDAY, DECEMBER 5
+7:00 – 8:15 AM Breakfast with Chaperones
+8:30 – 9:45 AM Affinity Group Session 3
+10:00 – 11:15 AM Student-Led Adult-Student Dialogues  
+(by state/region)
+11:30 AM – 1:00 PM PoCC/SDLC Closing Ceremonies  
+with Sarah Kay
+SUBJECT  
+TO  
+CHANGE
+168
+17
+#NAISPoCC | #NAISSDLC
+In 1993, who could have imagined that a 
+student gathering from humble begin-
+nings and great intentions would grow 
+to become what we now lovingly call 
+SDLC, one of the largest, most diverse, 
+and most impactful gatherings of private 
+school students nationwide! Who could 
+have known the individual and institu-
+tional change that would come from the 
+work of well over 15,000 students who 
+have been served by its program? SDLC 
+began with a small group of students 
+coming together to talk about changing 
+their schools to better meet the needs of 
+every student. Through that conversation 
+22 years ago, SDLC continues to practice 
+its purpose of using dialogue and experi-
+ence within community as transformative 
+tools. This year’s theme, Learning to 
+Listen and Listening to Learn: The Art of 
+Dialogue and The Science of Living Justly, 
+honors our intentional roots.
+Participants will be guided by a talented 
+team of independent school educators, 
+college students who are SDLC alumni, 
+and educational consultants. Students 
+will deepen their “I” perspective by 
+engaging in a curriculum centered on 
+cultural identifiers, working in affinity 
+groups, and connecting with participants 
+from their region to create a strong 
+network for their continued leadership at 
+their schools. Our returning participants 
+may seek the opportunity to serve as 
+peer facilitators, taking a critical role in 
+moving and shaping the dialogue that 
+happens on site, or they may engage in 
+an advanced group called Diversity 201. 
+Our past participants have taken the 
+learning back to their schools to open 
+conversation, jumpstart regional efforts, 
+and educate their peers. In joining us, 
+you will find yourself in a network of 
+some of the most committed student 
+leaders in the country.
+In education, one of the hallmarks of the 
+early years of academic development is 
+the transition from learning to read, to 
+reading to learn. In social justice educa-
+tion, a hallmark of becoming an effective 
+ally is the transition from learning to 
+listen, to listening to learn. We look 
+forward to opening up our ears to the 
+experiences of others as we push our 
+minds open in the spirit of equity and 
+inclusion.
+See you in December!
+SDLC
+WELCOME
+LEADERSHIP TEAM
+RODNEY GLASGOW
+Head of Middle School  
+& Chief Diversity Officer,  
+St. Andrew’s Episcopal 
+School (Maryland)
+SDLC CHAIR AND LEAD 
+CURRICULUM FACILITATOR
+OSCAR GONZALEZ
+Director, Teacher and 
+Program Development, 
+Generation Teach (Colorado)
+SDLC LEAD LOGISTICS 
+FACILITATOR
+COLLINUS 
+NEWSOME
+Policy Advisor, Office of 
+the Superintendent, Aurora 
+Public Schools (Colorado)
+SDLC LEAD FACULTY 
+FACILITATOR
+169
+18
+#NAISPoCC | #NAISSDLC
+morning with PoCC attendees for  
+student-facilitated dialogue sessions 
+designed to explore concepts and  
+themes of equity and justice in our  
+schools. Highly rated in conference  
+evaluations, everyone is encouraged to 
+attend and support these opportunities  
+for cross-generational work.
+SDLC REGISTRATION
+SDLC is limited to 1,600 participants ONLY,  
+who are registered on a first-come, first-
+served basis. This year, there is a maximum 
+limit of six (6) student registrations  
+per school. It is important that schools 
+complete the registration form for each 
+student fully and accurately to ensure 
+proper communication and placement  
+in family groups. SDLC does not accept 
+individual students who are not part  
+of a school delegation.
+SDLC DELEGATES
+Schools use a variety of methods to  
+select their participants. Considering that 
+the conference is multiracial and multi-
+cultural in its makeup, NAIS encourages 
+schools to create student delegations of 
+up to six (6) student leaders that includes 
+under-represented racial/ethnic and  
+cultural groups, are gender-balanced,  
+and have at least one student delegate 
+who has previously attended the confer-
+ence and is interested in serving as a  
+peer facilitator. In order to fully benefit 
+from the SDLC experience, NAIS strongly 
+suggests that selected delegates attend 
+the conference in its entirety.
+The Student Diversity Leadership 
+Conference (SDLC) is an inclusive, 
+multiracial, and multicultural gather-
+ing of upper school student leaders 
+(grades 9–12) from around the country 
+that focuses on self-reflection, ally-
+ship, and community building. Led by a 
+diverse team of trained adult and peer 
+facilitators, participants will develop an 
+appreciation of their own identities, build 
+effective cross-cultural communication 
+skills, better understand the nature and 
+development of effective strategies for 
+social justice, and practice expression 
+through the arts, all while networking 
+with their peers.
+In addition to large group sessions, SDLC 
+creates a safe, supportive environment 
+by organizing participants into cross-sec-
+tional teams known as “family groups,” 
+each of which is led by a team of adult 
+facilitators. Each family group is further 
+divided into small “home groups,” where 
+intense dialogue and sharing take place, 
+guided by trained peer facilitators, who 
+take a critical role in moving and shaping 
+the experience of all students.
+SDLC participants will join the NAIS 
+People of Color Conference (PoCC) 
+participants for the Thursday open-
+ing ceremonies and Saturday closing 
+ceremonies. Culminating experiences 
+will include joining together on Saturday 
+LEARNING TO LISTEN
+AND LISTENING TO LEARN
+THE ART OF DIALOGUE AND  
+THE SCIENCE OF LIVING JUSTLY
+2015 STUDENT DIVERSITY LEADERSHIP CONFERENCE
+170
+19
+#NAISPoCC | #NAISSDLC
+DIVERSITY 201
+Returning students not serving as peer 
+facilitators may join an advanced family 
+group called Diversity 201. Diversity 201 
+is a specialized experience designed  
+to allow returning participants an  
+opportunity to dig deeper into issues  
+of identity, power, privilege and allyship. 
+Diversity 201 is limited to 100 partici-
+pants with no more than 2 participants 
+from the same school.
+SDLC CHAPERONES
+Schools are required to send a 
+chaperone(s) with their student delega-
+tion. Chaperones are expected to:
+  Attend one of the chaperone  
+orientation sessions on Wednesday, 
+December 2, 6:00 – 6:45 PM or 
+9:15 – 10:00 PM at the Tampa Marriott 
+Waterside Hotel and Marina, or  
+Thursday, December 3, 7:00 – 7:45 AM  
+at the Tampa Convention Center.
+  Ensure students attend all  
+SDLC activities.
+  Arrange for students’ meals not  
+included in the SDLC registration.
+  Be responsible for their students  
+during designated free times.
+  Meet students at designated points  
+and times.
+  Support and enforce the Student 
+Conduct Agreement, including  
+participation requirements and  
+adherence to curfew.
+  Be on call at ALL TIMES during  
+the conference.
+SDLC MEALS
+Student delegates will receive lunch and 
+dinner on both Thursday, December 3, 
+and Friday, December 4. Please indi-
+cate specific dietary restrictions on 
+each registration form. Please note that 
+Thursday through Saturday, breakfast is 
+NOT included with student registration. 
+Chaperones are expected to have break-
+fast with SDLC delegates.
+SDLC FORMS
+SDLC student agreements and medical 
+release forms are available at the  
+end of the conference preview and 
+through the NAIS website. These forms 
+must be uploaded at the time of regis-
+tration for EACH participating student’s 
+registration to be complete. All forms 
+must be uploaded and completed by 
+Friday, November 6. Chaperones, please 
+also carry copies of ALL forms for EACH  
+student with you at all times.
+All SDLC participants, whether local  
+or traveling, must abide by the same 
+rules and expectations.
+SDLC participants are expected to:
+  Attend all conference sessions,  
+activities, and meals.
+  Sign and abide by the Student  
+Conduct Agreement governing  
+behavior throughout the conference.
+  Cooperate with adult chaperones  
+and with conference staff.
+PEER FACILITATORS: SIGN UP  
+ON THE REGISTRATION FORM!
+Peer facilitators are trained to serve a 
+vital role in our conference by leading 
+their peers in small group dialogues.  
+Peer facilitators receive on-site training  
+for this role, learning and practicing  
+skills that will aid them in their leadership 
+at their schools. Students who would 
+like to serve in this key role and/or have 
+attended SDLC before are eligible to 
+serve as peer facilitators. Please indicate 
+your interest on the SDLC registration 
+form. Peer facilitators will be trained 
+on-site on Wednesday, December 2, 
+6:00 – 10:00 PM. Dinner is included. 
+Students who sign up to be peer  
+facilitators are not eligible to partici­
+pate in the Diversity 201 family group. 
+An additional training is scheduled on 
+Thursday, December 3, 7:00 – 7:45 AM  
+for late arrivals.
+171
+20
+#NAISPoCC | #NAISSDLC
+HILTON TAMPA DOWNTOWN 
+(Featured hotel for SDLC Delegations)
+211 North Tampa Street
+Tampa, FL 33602
+NAIS HAS NEGOTIATED THE FOLLOWING  
+SPECIAL RATES FOR SDLC.
+$144 per night single occupancy
+$144 per night double occupancy
+$164 per night triple occupancy
+$184 per night quadruple occupancy
+Parking at the Hilton Tampa Downtown
+Self-parking fee: $16 daily
+Valet parking fee: $20 daily
+WESTIN TAMPA  
+HARBOUR ISLAND
+725 South Harbour Island Boulevard
+Tampa, FL 33602
+NAIS HAS NEGOTIATED THE FOLLOWING  
+SPECIAL RATES FOR PoCC AND SDLC.
+$165 per night single occupancy
+$165 per night double occupancy
+$185 per night triple occupancy
+$205 per night quadruple occupancy
+Parking at the Westin Tampa  
+Harbour Island
+Self-parking fee: $18 daily
+Valet parking fee: $22 daily
+TAMPA MARRIOTT WATERSIDE 
+HOTEL & MARINA
+700 South Florida Avenue
+Tampa, FL 33602
+NAIS HAS NEGOTIATED THE FOLLOWING  
+SPECIAL RATES FOR PoCC AND SDLC.
+$170 per night single occupancy
+$170 per night double occupancy
+$190 per night triple occupancy
+$210 per night quadruple occupancy
+Parking at the Tampa Marriott  
+Waterside Hotel & Marina
+Self-parking is not available.
+Short-term valet parking fee: $13 daily 
+(day time only)
+Valet parking fee: $24 daily
+EMBASSY SUITES TAMPA 
+DOWNTOWN
+513 South Florida Avenue
+Tampa, FL 33602
+NAIS HAS NEGOTIATED THE FOLLOWING  
+SPECIAL RATES FOR PoCC AND SDLC.
+$164 per night single occupancy
+$184 per night double occupancy
+$204 per night triple occupancy
+$224 per night quadruple occupancy
+Parking at the Embassy  
+Suites Tampa Downtown
+Self-parking is not available.
+Valet parking fee: $24 daily
+GETTING TO TAMPA
+Getting to and traveling around Tampa 
+Bay is easy, convenient and affordable.
+TAMPA INTERNATIONAL AIRPORT
+Tampa International Airport was recently 
+named in the Top 3 Airports in North 
+America and Top 6 Airports in the  
+World for Customer Satisfaction by 
+Airports Council International. For more 
+information about the airport, visit  
+www.tampaairport.com. 
+The Convention Center and conference 
+hotels are approximately 9 miles from 
+the Tampa International Airport.
+RENTAL CAR INFORMATION
+Eight rental car counters are located 
+across the walkway in the Red and 
+Blue baggage claim areas at the Tampa 
+Airport. Available rental car companies 
+include: Alamo, Avis, Budget, Dollar Car 
+Rental, Enterprise, Hertz, National and 
+Thrifty Car Rental.
+SHUTTLE & BUS SERVICE  
+TO DOWNTOWN TAMPA
+Super Shuttle is the option to get from the 
+airport to the Convention Center and con-
+ference hotels. The approximate cost is 
+$12 – 34 for one-way or roundtrip tickets.
+The Hillsborough Area Regional Transit 
+(HART) bus stop is located at the west 
+end of the Red Baggage Claim, curbside  
+by Belt #15. HART Route 30 serves 
+the Downtown area and runs every 30 
+minutes from 4:30 – 12:00 AM (weekdays) 
+and 7:00 AM – 10:00 PM (weekends) for 
+$2 – 3 one way.
+INFORMATION
+HOTEL AND TRAVEL
+ALL RATES  
+ARE SUBJECT TO 
+APPLICABLE  
+CITY AND STATE 
+TAXES, CURRENTLY 
+12 PERCENT.
+172
+CONFERENCE
+SPONSORS
+TAXI SERVICE
+Taxis are readily available at the airport, 
+Tampa Convention Center, and all major 
+PLATINUM SPONSOR
+TRAIN SERVICE
+FL, approximately 1.2 miles from the 
+hotels. Please visit www.amtrak.com  
+StratéGenius
+for train schedules and fares.
+SPONSOR OF THE OPENING GENERAL 
+SESSION WITH MAE JEMISON
+GETTING AROUND TOWN
+streetcar and recapture the charm of 
+CalWest Educators Placement
+the past. The TECO Line Streetcar will 
+SPONSOR OF THE ADULT LEARNING  
+take you between downtown Tampa, 
+PRE-CONFERENCE SEMINAR
+Channelside, and historic Ybor City, 
+Educator’s Ally
+SPONSOR OF THE THURSDAY  
+AFTERNOON GENERAL SESSION  
+WITH DR. HOWARD STEVENSON
+BRONZE SPONSOR
+The Center for Transformative  
+Teaching & Learning
+EXHIBITORS
+Quiet Elegance          SpeakOut          Teaching Tolerance
+173
+21
+#NAISPoCC | #NAISSDLC
+hotels. A typical fare from the airport to 
+downtown is a flat rate of $25.
+Amtrak service is available into Tampa 
+with a stop located at Union Station,  
+600 N Nebraska Avenue, Tampa, 
+Convention Center and conference 
+Hop aboard Tampa’s unique, vintage 
+where you’ll find shopping, restaurants, 
+and night life.
+We are thankful for the support from our  
+generous 2015 PoCC Sponsors and Exhibitors!
+Carney, Sandoe & Associates
+SPONSOR OF THE POCC  
+CELEBRATION LUNCHEON
+GOLD SPONSOR
+SILVER SPONSORS
+Canamac Productions
+SPONSOR OF DEFAMATION THE PLAY
+REGISTRATION
+SPECIAL EVENTS
+INFORMATION
+Full Day Pre-Conference  
+Equity Seminars $250
+WEDNESDAY, DECEMBER 2
+8:30 AM — 4:30 PM
+  Fostering Intercultural Competency 
+Through Design Thinking and  
+PoCC REGISTRATION RATES
+Project-Based Learning
+MEMBER INDIVIDUAL
+FOR NAIS, ISACS, AND IAIS MEMBERS
+  Seeking Cultural Competence in Hiring: 
+Practical Methods and Strategies for 
+$640 Early Bird by October 9
+Identifying the Administrators, Staff,  
+and Faculty Needed in 21st Century 
+REGISTRATION 
+Independent Schools
+REGISTRATIONS ENTERED AT SAME TIME)
+  Not in my school! How White  
+$620 Early Bird by October 9
+Supremacy, White Privilege,  
+$680 Standard by November 6
+And Other Forms Of Oppression 
+OCTOBER 9
+Undermine Best Intentions
+NOVEMBER 6
+WEDNESDAY, DECEMBER 2
+  Asking the Right Question —  
+Strategic Planning for Diversity,  
+Equity, and Inclusion
+AFFINITY GROUP FACILITATORS
+CANCELLATION  
+  Berkeley Preparatory School
+NAIS@experient­inc.com  
+the online registration process  
+us at 888-284-5018 or  
+NAIS@experient­inc.com.
+174
+22
+#NAISPoCC | #NAISSDLC
+$720 Standard by November 6
+MEMBER GROUP
+(4 OR MORE ADULTS FROM SAME SCHOOL,  
+NONMEMBER INDIVIDUAL
+$920 Early Bird by October 9
+$980 Standard by November 6
+WORKSHOP PRESENTERS
+$480 Early Bird by October 9
+$560 Standard by November 6
+$330 Early Bird by October 9
+$460 Standard by November 6
+SDLC REGISTRATION RATES
+$680 Early Bird by October 9
+$730 Standard by November 6
+SDLC is limited to 1,600 participants 
+who are registered on a first come, first 
+served basis. There is a maximum of  
+six (6) student registrations per school.
+SDLC Required Forms
+The two required student forms, 
+the Parents’ Authorization and 
+Indemnification Agreement and the 
+Student Conduct Agreement, must  
+be completed and uploaded during  
+for the registration to be confirmed.  
+You can download these forms from  
+the PoCC website.
+  Adult Leadership Seminar
+Half Day Pre-Conference  
+Equity Seminars $150
+8:30 AM — 12:30 PM
+  Where’s the Race in Independent 
+Schools? 
+School Visits $50
+WEDNESDAY, DECEMBER 2
+8:30 AM — 1:00 PM
+  Tampa Preparatory School &  
+Academy Prep Center of Tampa
+  St. Paul’s School
+Master Class Event with  
+Dr. Mahzarin Banaji, Ph.D. $95
+FRIDAY, DECEMBER 4
+10:00 AM — 12:00 PM
+PRICE INCLUDES A BOOK 
+POLICY
+Send registration 
+cancellations in writing  
+by November 6, 2015, to 
+to receive a full refund  
+less a $100 cancellation  
+fee. No refunds are 
+given after November 6. 
+Cancellations cannot be 
+made over the phone.
+QUESTIONS?
+For questions about 
+registration, contact  
+Final day to save with early  
+bird registration discounts.
+Final day to register and  
+to send cancellations. (Read  
+the cancellation policy below.)
+IMPORTANT 
+DEADLINES
+        10. D.    11.17.15 
+10.  OTHER            
+D.  Bond Projects Update 
+Rick West, Assistant Superintendent of Business Services,  will 
+provide a brief update on the status of bond projects throughout 
+the District.   
+______________________________________________________________ 
+Recommended Action:  This is a report – no action is necessary. 
+175
+Troy School District 
+2013 Bond Program – Series 1
+Construction Update 11.17.15
+Barton Malow | TMP
+176
+Troy High School – Classroom Addition
+toward the existing building
+177
+New Corridor with ceiling looking 
+New Classroom with completed ceiling
+Troy High School – Classroom Addition
+New Storage Room with Ceiling Exterior Elevation Ready for Siding
+178
+Boulan Park Middle School-
+Office Addition
+ Canopy with New Composite Panels Principals Office
+179
+Boulan Park Middle School-
+Office Addition
+New Small Conference Room New Large Conference Room
+180
+Larson Middle School – Office Addition
+Corridor 
+181
+New Security Entrance New Entry Doors into Office From 
+2015/2016 Projects
+2015
+BP#5 – Troy High School Additions
+• Area J classroom addition 
+BP#6 – Boulan Park and Larson Office additions 
+BP #8 Athens High School 
+• Mechanical & Electrical Upgrades
+• Bids Received and Awarded November 17, 2015
+2016
+BP #16 – International Academy and Hamilton 
+Elementary School 
+• In design phase, bidding in January.
+Partial Roof Replacement
+• In design phase for 6 schools – bidding in January
+Site Improvements and Paving 
+• In design phase, for Barnard, Schroeder, Smith MS,  
+Athens, and Troy High School  - bidding in January.
+182

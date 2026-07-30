@@ -147,6 +147,40 @@ all default off the manifest stem, so `TSD_FAN_MANIFEST=wave2_manifest.json` alo
 selects a campaign. Setting them piecemeal is what silently broke wave2 — see the
 v0.8.9 changelog entry.
 
+## Campaigns
+
+| campaign | scope | batches | agents |
+|---|---|---|---|
+| `fanout` | first hand-staged pass | 26 | done |
+| `wave2` | second hand-staged pass | 121 | done |
+| `remainder` | 2021-2026 | 76 | 68 outstanding |
+| `orphans` | 2024 documents dropped during `fanout` staging | 4 | 4 |
+| `packets` | 2010-2020 packet era | 151 | **552** |
+
+**`packets` is chunked far more finely than the others**: `--split-over 80000
+--section 40000`, so 96 of its 151 batches fan into sections rather than handing
+one agent a 150K-token read. The packet era is 83% of the campaign's tokens at a
+median 96K tokens per document; under the default 170K threshold, 79 documents
+would each have had a single agent compress 40-170K tokens into ~1,600 words --
+re-enacting, at a larger scale, the lossiness this campaign exists to undo.
+Capping reads at 59K costs 552 agents instead of 220. Going finer buys nothing:
+below an 80K threshold the binding constraint becomes the unsplit 40-59K
+documents, so the max read stays 59K.
+
+### The orphan gap
+
+`covered_urls()` counted anything listed in a manifest's `urlmap` as covered.
+Staging can catalogue a document and then drop it, and `fanout` did exactly that
+to **24** documents -- every 2024 monthly financial statement, the 23-24 budget
+amendment resolution, the ACFR management letter, the 2024 operating millage
+analysis. `fanout` still reports 26/26 done, truthfully: its batches *are*
+finished; those documents simply were not in any of them, and nothing in the
+tooling counted what it was *supposed* to process.
+
+Coverage is now computed from batch membership, so a dropped document reads as
+uncovered and the next staging run recovers it. Verified: 0 affected documents
+are unreachable by a batch.
+
 ## Scope
 
 Measured from the corpus (`stage_campaign.py --dry-run` reproduces it):

@@ -27,6 +27,7 @@ import json
 import os
 import re
 import collections
+import math
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -37,6 +38,10 @@ SEP = "=" * 70
 CHARS_PER_TOKEN = 4            # rough, and only used for packing
 BATCH_TOKENS = 24_000          # target per batch (one agent)
 BIG_TOKENS = 40_000            # above this a document gets its own agent
+# Defaults for the 2023-2026 material. The packet era needs far more aggressive
+# splitting -- see --split-over / --section. A single agent compressing 150K
+# tokens into ~1,600 words is re-enacting, at a larger scale, the very lossiness
+# this campaign exists to undo.
 GIANT_TOKENS = 170_000         # above this it is split into sections
 CHECK_RE = re.compile(r'check\s*register|checkregister', re.I)
 
@@ -67,14 +72,28 @@ def load_index():
 
 
 def covered_urls():
+    """Documents actually reachable by a batch -- NOT merely listed in urlmap.
+
+    This read `urlmap` directly, which counts a document as covered the moment it
+    is catalogued, even if staging then dropped it. `fanout` has 24 such entries
+    (every 2024 monthly financial statement, the 23-24 budget amendment, the ACFR
+    management letter): listed, assigned to no batch, so nothing would ever
+    process them -- and `fanout` still reports 26/26 done, truthfully, because
+    its batches are all finished. The documents simply were not in any of them.
+
+    Counting only batch-reachable documents makes a dropped document look
+    uncovered, so the next staging run picks it up instead of skipping it forever.
+    """
     out = set()
     for man in STAGE.glob("*_manifest.json"):
         try:
             m = json.loads(man.read_text())
         except Exception:
             continue
-        for v in m.get("urlmap", {}).values():
-            out.update(v)
+        urlmap = m.get("urlmap", {})
+        for keys in m.get("batches", {}).values():
+            for k in keys:
+                out.update(urlmap.get(k, []))
     return out
 
 
@@ -100,12 +119,33 @@ def main():
                     "existing manifest (wave2_manifest.json already owns w2_* AND w3_*)")
     ap.add_argument("--dry-run", action="store_true", help="report the plan, write nothing")
     ap.add_argument("--include-check-registers", action="store_true")
+    ap.add_argument("--years", help="only stage these meeting years, e.g. 2010-2020 or 2021,2022")
+    ap.add_argument("--split-over", type=int, default=GIANT_TOKENS,
+                    help="split any document above this many tokens into sections")
+    ap.add_argument("--section", type=int, default=None,
+                    help="target tokens per section (default: half of --split-over)")
     a = ap.parse_args()
+
+    section = a.section or a.split_over // 2
+
+    def in_years(m):
+        if not a.years:
+            return True
+        y = (m["date"] or "")[:4]
+        for part in a.years.split(","):
+            part = part.strip()
+            if "-" in part:
+                lo, hi = part.split("-", 1)
+                if lo <= y <= hi:
+                    return True
+            elif y == part:
+                return True
+        return False
 
     meta = load_index()
     done = covered_urls()
     sel = {u: m for u, m in meta.items()
-           if m["len"] > CAP and u not in done
+           if m["len"] > CAP and u not in done and in_years(m)
            and (a.include_check_registers or not CHECK_RE.search(m["title"]))}
     skipped_cr = sum(1 for u, m in meta.items()
                      if m["len"] > CAP and u not in done and CHECK_RE.search(m["title"]))
@@ -132,12 +172,12 @@ def main():
     for u in order:
         m, k = sel[u], keys[u]
         tok = m["len"] / CHARS_PER_TOKEN
-        if tok > BIG_TOKENS:
+        if tok > BIG_TOKENS or tok > a.split_over:
             flush()
             bid = f"{a.prefix}_{n:03d}"; n += 1
             batches[bid] = [k]
-            if tok > GIANT_TOKENS:
-                parts = max(2, int(tok // (GIANT_TOKENS / 2)))
+            if tok > a.split_over:
+                parts = max(2, math.ceil(tok / section))
                 split[bid] = {"key": k, "parts": [f"{bid}_part{p+1}" for p in range(parts)]}
             continue
         if cur_tok + tok > BATCH_TOKENS and cur:

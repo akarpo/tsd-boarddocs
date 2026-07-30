@@ -1,0 +1,955 @@
+                             PAGE NUMBER:   12
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           175.79
+A1003     2001841   11/14/19 13017    LUKE DIGIOVANNI     101970293990400  3190     BMS GMWRK FALL19           0.00            20.00
+A1003     2001842   11/14/19 10945    M B KRACH           101590113350600  3190     OCT HS ACCOMPANIST         0.00         1,300.00
+A1003     2001843   11/14/19 12865    MECHANICAL CONTROLS 101902261862300  4120     OPEN PO 2019 - 2020        0.00           944.64
+A1003     2001843   11/14/19 12865    MECHANICAL CONTROLS 101902261862300  4120     OPEN PO 2019 - 2020        0.00         4,334.28
+TOTAL CHECK                                                                                                    0.00         5,278.92
+A1003     2001845   11/14/19 28071    MAYERNIK JOHN W     101970293990400  3190     GAMEWORK                   0.00           276.21
+A1003     2001848   11/14/19 19587    MI STATE OF DISBURS 101              L4519    DED:C105 FRIEND/CT         0.00         1,085.28
+A1003     2001849   11/14/19 12131    MI STATE OF - ENVIR 101905261809000  3190     TROY HS 63-8605-01         0.00           210.00
+A1003     2001849   11/14/19 12131    MI STATE OF - ENVIR 101905261809000  3190     ATHENS 63-8020-01          0.00           210.00
+TOTAL CHECK                                                                                                    0.00           420.00
+A1003     2001851   11/14/19 10306    SAVATREE LLC        101902261871000  4110     OPEN PO 2019 - 2020        0.00           300.00
+A1003     2001851   11/14/19 10306    SAVATREE LLC        101902261871000  4110     OPEN PO 2019 - 2020        0.00           457.00
+TOTAL CHECK                                                                                                    0.00           757.00
+A1003     2001852   11/14/19 11412    MILLER JEANNE       101071113340000  5110     ATHENS PETTY CASH          0.00           144.88
+A1003     2001852   11/14/19 11412    MILLER JEANNE       101071241020500  3430     ATHENS PETTY CASH          0.00             1.15
+TOTAL CHECK                                                                                                    0.00           146.03
+A1003     2001853   11/14/19 13017    MITCHELL LAUDENSLAG 101970293990400  3190     BMS GMWRK FALL19           0.00            30.00
+A1003     2001854   11/14/19 27092    MOORE JARR'ANJE     101970293990400  3190     GAMEWORK                   0.00           383.64
+A1003     2001855   11/14/19 13017    MORGAN KELLY        101970293990400  3190     LMS GMWRK FALL19           0.00            30.00
+A1003     2001856   11/14/19 27851    MOTLOCH KAITLYN     101970293990400  3190     GAMEWORK                   0.00           368.31
+A1003     2001858   11/14/19 28344    NELSON JUSTIN       101970293990400  3190     GAMEWORK                   0.00           109.60
+A1003     2001859   11/14/19 22866    OAK PARK HIGH SCHOO 101970293000000  7910     THS CMP CHR 011820         0.00           125.00
+A1003     2001860   11/14/19 16961    OXFORD HIGH SCHOOL  101970293000000  7910     AHS BG CC 101119           0.00           200.00
+A1003     2001862   11/14/19 11144    PERKINS DIANE       101970293990400  3190     GAMEWORK                   0.00           276.24
+A1003     2001863   11/14/19 28325    PILUT STACEY        101970293990400  3190     GAMEWORK                   0.00           368.34
+A1003     2001865   11/14/19 11883    REEM MADELAINE      101970293990400  3190     GAMEWORK                   0.00           287.70
+A1003     2001869   11/14/19 13877    ROYAL OAK SCHOOL DI 101970293000000  7910     THS CMP CHR 021520         0.00           125.00
+A1003     2001875   11/14/19 12313    SCHOOL SPECIALTY IN 101051112005100  5110     SCIENCE TABLES             0.00           500.36
+A1003     2001875   11/14/19 12313    SCHOOL SPECIALTY IN 101689252068900  6410     SCIENCE TABLES             0.00           500.36
+TOTAL CHECK                                                                                                    0.00         1,000.72
+56
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   13
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001876   11/14/19 13017    SCOTT SHEPHARD      101970293990400  3190     SMS GMWRK FALL19           0.00            20.00
+A1003     2001878   11/14/19 11155    SMITH PATRICK L     101970293990400  3190     GAMEWORK                   0.00           306.93
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101              A1700    50 CASES - ITEM #81        0.00         1,101.50
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     HAMILTON                   0.00            49.22
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     MORSE                      0.00            49.22
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     WATTLES                    0.00            49.22
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     BAKER                      0.00            49.25
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     BEMIS                      0.00            98.44
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     IAE                        0.00            98.86
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     TROY UNION                 0.00            98.99
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     WASS                       0.00           148.08
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     LEONARD                    0.00           148.63
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     MARTELL                    0.00           148.63
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     BARNARD                    0.00           197.30
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     BOULAN PARK                0.00           197.85
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     COSTELLO                   0.00           197.85
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     LARSON                     0.00           197.85
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     HILL                       0.00           197.85
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     WASS                       0.00           197.85
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     ATHENS                     0.00           247.20
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     SMITH                      0.00           296.16
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2019 - 2020        0.00           197.85
+A1003     2001879   11/14/19 10177    STAPLES ADVANTAGE   101905261802000  4910     TROY HIGH                  0.00           467.09
+TOTAL CHECK                                                                                                    0.00         4,434.89
+A1003     2001880   11/14/19 25303    UTICA COMMUNITY SCH 101970293000000  7910     THS CMP CHR 020120         0.00           125.00
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00           -14.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             1.66
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             2.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             3.72
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             4.78
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             4.90
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             4.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             5.90
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             6.59
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             6.60
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             6.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             7.30
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             7.50
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             7.96
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00             7.98
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            11.08
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            11.68
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            12.59
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            13.57
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            14.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            15.98
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            16.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            16.99
+57
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   14
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            18.14
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            19.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            21.37
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            21.57
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            23.99
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            25.97
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            27.57
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            40.96
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101902261849900  5990                                0.00            50.82
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101904261870000  5990                                0.00            13.18
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101904261870000  5990                                0.00            19.77
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101904261870000  5990                                0.00            45.17
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101905261860100  5990                                0.00             6.59
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101905261860100  5990                                0.00            13.18
+A1003     2001886   11/14/19 12234    TREVARROW HARDWARE  101905261860100  5990                                0.00            20.97
+TOTAL CHECK                                                                                                    0.00           547.98
+A1003     2001888   11/14/19 28220    U.S. DEPT OF EDUCAT 101              L4505    DED:C114 DEPT OF ED        0.00           227.33
+A1003     2001890   11/14/19 24520    PREETI VENKATARAMAN 101400214314000  3135     STUDENT EVAL               0.00           800.00
+A1003     2001892   11/14/19 21913    VISUAL SPORTS NETWO 101970293000000  4910     THS SYNCH SWM AWARD        0.00         1,040.00
+A1003     2001894   11/14/19 26044    WILLIAMS LARUE C    101970293990400  3190     GAMEWORK                   0.00           245.55
+A1003     2001895   11/14/19 12461    YOUNG SUPPLY COMPAN 101902261863000  5990     OPEN PO 2019 - 2020        0.00             9.80
+A1003     2001897   11/20/19 28355    SCHUMAN ERIC        101970293000000  7910     THS MHSAA G SWM FIN        0.00           324.00
+A1003     2001899   11/22/19 13227    A T & T             101944261000300  3410     24858372820189 GROU        0.00            44.54
+A1003     2001899   11/22/19 13227    A T & T             101944261090000  3410     24852835347028 HAUF        0.00            48.26
+A1003     2001899   11/22/19 13227    A T & T             101944261000800  3410     24868910117685 LEON        0.00            55.81
+A1003     2001899   11/22/19 13227    A T & T             101944261007400  3410     24868919731775 IAE         0.00            56.81
+A1003     2001899   11/22/19 13227    A T & T             101944261001200  3410     24868950118429 COST        0.00            58.12
+A1003     2001899   11/22/19 13227    A T & T             101944261001600  3410     24868975091676 BARN        0.00            62.81
+A1003     2001899   11/22/19 13227    A T & T             101944261015000  3410     24868906043242 SERV        0.00            79.88
+A1003     2001899   11/22/19 13227    A T & T             101944261001700  3410     24864171012123 HAMI        0.00            96.53
+TOTAL CHECK                                                                                                    0.00           502.76
+A1003     2001902   11/22/19 25724    ADVANCED LANDSCAPE  101904261870000  5990     OPEN PO 2019 - 2020        0.00            33.75
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00             2.62
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00            15.30
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00            46.45
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00            54.30
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00            54.30
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00            55.77
+A1003     2001903   11/22/19 23447    AIRGAS GREAT LAKES  101071127544100  5990     OPEN PO FOR ATHENS         0.00            55.77
+TOTAL CHECK                                                                                                    0.00           284.51
+A1003     2001904   11/22/19 11621    ANGELINA GOJKA      101310125387000  3190     TRANS 10/17-23-24          0.00           190.00
+58
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   15
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001908   11/22/19 22920    B & R SPORTING GOOD 101970293902800  5990     ATHLETIC KNIT CUSTO        0.00         2,784.00
+A1003     2001908   11/22/19 22920    B & R SPORTING GOOD 101970293902800  5990     ATHLETIC KNIT SOCKS        0.00           576.00
+TOTAL CHECK                                                                                                    0.00         3,360.00
+A1003     2001909   11/22/19 21820    B P A REGION 4      101071221510000  3220     ATHENS BPA CONF FEE        0.00           370.00
+A1003     2001911   11/22/19 27899    TECHNICAL SUPPLIES  101905261805100  5990     OPEN PO 2019 - 2020        0.00           115.90
+A1003     2001912   11/22/19 20677    BELL FORK LIFT INC  101902261871000  4110     OPEN PO 2019 - 2020        0.00           129.47
+A1003     2001914   11/22/19 10232    BITTNER RICHARD     101590111350600  3190     PIANO TUNING               0.00         1,000.00
+A1003     2001914   11/22/19 10232    BITTNER RICHARD     101590111350600  3190     PIANO TUNING               0.00         1,375.00
+TOTAL CHECK                                                                                                    0.00         2,375.00
+A1003     2001915   11/22/19 21820    BPA OF AMERICA      101071127085600  7410     AHS BPA MBRSHP             0.00           532.00
+A1003     2001921   11/22/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00            17.30
+A1003     2001921   11/22/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00            23.08
+A1003     2001921   11/22/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00            48.92
+A1003     2001921   11/22/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00            52.54
+TOTAL CHECK                                                                                                    0.00           141.84
+A1003     2001922   11/22/19 21879    D J CONLEY ASSOCIAT 101902261862000  5990     OPEN PO 2019 - 2020        0.00           896.39
+A1003     2001923   11/22/19 10603    DIMMER WARREN ENTER 101970293917000  5990     AHS SOFTBALL               0.00           191.65
+A1003     2001923   11/22/19 10603    DIMMER WARREN ENTER 101970293909000  5990     AHS BASEBALL               0.00           556.15
+TOTAL CHECK                                                                                                    0.00           747.80
+A1003     2001924   11/22/19 25481    ENERGY PRODUCTS INC 101970293980000  4120     OPEN PO FOR CART RE        0.00           250.00
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     LARSON FOOTBALL            0.00           178.94
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     BOULAN FOOTBALL            0.00           183.46
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     BAKER FOOTBALL             0.00           193.05
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     SMITH FOOTBALL             0.00           202.09
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     THS GIRLS VBALL            0.00           276.60
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     AHS CROSS CTRY             0.00           409.26
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     THS CROSS CTRY             0.00           509.74
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     SMITH GIRLS BSKTBL         0.00            46.85
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 101970271000000  3310     AHS BOYS SOCCER            0.00            56.45
+TOTAL CHECK                                                                                                    0.00         2,056.44
+A1003     2001926   11/22/19 15924    FLEMING PAULA       101101231101000  1140     BRD PMT-1                  0.00            50.00
+A1003     2001927   11/22/19 26537    GFL ENVIRONMENTAL   101905261800500  3840     OPEN PO 2019 - 2020        0.00           265.00
+A1003     2001927   11/22/19 26537    GFL ENVIRONMENTAL   101905261800500  3840     REISSUE CK E2000871        0.00         1,590.00
+A1003     2001927   11/22/19 26537    GFL ENVIRONMENTAL   101905261800500  3840     REISSUE CK E2000871        0.00         6,641.88
+TOTAL CHECK                                                                                                    0.00         8,496.88
+A1003     2001928   11/22/19 26537    GFL ENVIRONMENTAL U 101905261800500  3840     REISSUE CK E2001331        0.00            24.45
+A1003     2001928   11/22/19 26537    GFL ENVIRONMENTAL U 101905261800500  3840     REISSUE CK E2000707        0.00            37.20
+A1003     2001928   11/22/19 26537    GFL ENVIRONMENTAL U 101905261800500  3840     REISSUE CK E2000871        0.00            58.80
+A1003     2001928   11/22/19 26537    GFL ENVIRONMENTAL U 101905261800500  3840     REISSUE CK E2000220        0.00            79.70
+59
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   16
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           200.15
+A1003     2001929   11/22/19 27682    GOTTLIEB STEVEN     101101231101000  1140     BOARD PMT -1               0.00            50.00
+A1003     2001931   11/22/19 27218    GREEN MEADOWS LAWNS 101904261870000  3192     2019 EAST SIDE PROP        0.00        11,395.00
+A1003     2001931   11/22/19 27218    GREEN MEADOWS LAWNS 101904261870000  3192     2019 WEST SIDE PROP        0.00        12,812.50
+A1003     2001931   11/22/19 27218    GREEN MEADOWS LAWNS 101904261870000  3192     2019 VACANT PROPERT        0.00           275.00
+TOTAL CHECK                                                                                                    0.00        24,482.50
+A1003     2001932   11/22/19 27215    H & H ENTERPRISES/G 101902261855500  4110     THS BLEACHER REP           0.00           595.00
+A1003     2001933   11/22/19 27666    HAMMOND ELIZABETH   101101231101000  1140     BOARD PMT -1               0.00            50.00
+A1003     2001934   11/22/19 16814    HAUFF GARY          101101231101000  1140     BRD PMT -1                 0.00            50.00
+A1003     2001935   11/22/19 28306    HYNES SHANE M       101              A1031    HCKY STARTUP CASH          0.00           200.00
+A1003     2001939   11/22/19 27643    JARVIS PAINTING INC 101902261001300  4110     MARTELL FLOOD CLAIM        0.00       150,000.00
+A1003     2001939   11/22/19 27643    JARVIS PAINTING INC 101902261001300  4110     NILES FLOOD CLAIM -        0.00        49,514.98
+TOTAL CHECK                                                                                                    0.00       199,514.98
+A1003     2001940   11/22/19 19962    JOHN GRAYSON        101052112005200  5110     GR8 LEAK RAKING            0.00             1.22
+A1003     2001944   11/22/19 11181    KROGER CO           101070113540000  5110     OPEN PURCHASE ORDER        0.00            16.43
+A1003     2001944   11/22/19 11181    KROGER CO           101070113540000  5110     OPEN PURCHASE ORDER        0.00            60.29
+A1003     2001944   11/22/19 11181    KROGER CO           101070113540000  5110     OPEN PURCHASE ORDER        0.00            81.06
+A1003     2001944   11/22/19 11181    KROGER CO           101070113540000  5110     OPEN PURCHASE ORDER        0.00            85.14
+A1003     2001944   11/22/19 11181    KROGER CO           101070113540000  5110     OPEN PURCHASE ORDER        0.00            87.08
+TOTAL CHECK                                                                                                    0.00           330.00
+A1003     2001945   11/22/19 10055    KSS ENTERPRISES     101905261805500  5990     OPEN PO 2019 - 2020        0.00            64.14
+A1003     2001947   11/22/19 11286    M P T DRIVES INC    101902261862000  5990     OPEN PO 2019 - 2020        0.00            27.09
+A1003     2001948   11/22/19 10738    MACOMB GROUP INC    101902261862500  5990     OPEN PO 2019 - 2020        0.00           130.00
+A1003     2001949   11/22/19 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2019 - 2020        0.00             2.18
+A1003     2001949   11/22/19 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2019 - 2020        0.00            23.39
+A1003     2001949   11/22/19 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2019 - 2020        0.00         1,589.48
+TOTAL CHECK                                                                                                    0.00         1,615.05
+A1003     2001951   11/22/19 11399    PERFORMANCE HEALTH  101970293914000  5990     OPEN PO FOR ATHLETI        0.00           130.86
+A1003     2001952   11/22/19 17941    METRO ELECTRIC ENGI 101902261870500  4110     OPEN PO 2019 - 2020        0.00           360.75
+A1003     2001952   11/22/19 17941    METRO ELECTRIC ENGI 101902261870500  4110     OPEN PO 2019 - 2020        0.00           991.25
+TOTAL CHECK                                                                                                    0.00         1,352.00
+A1003     2001954   11/22/19 11549    N B C TRUCK EQUIPME 101904261870000  4130     OPEN PO 2019 - 2020        0.00           136.33
+A1003     2001954   11/22/19 11549    N B C TRUCK EQUIPME 101904261870000  4130     OPEN PO 2019 - 2020        0.00         3,413.42
+TOTAL CHECK                                                                                                    0.00         3,549.75
+A1003     2001957   11/22/19 11694    FEDERATED PUBLICATI 101689252093200  3510     BP25A                      0.00           130.32
+60
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   17
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001957   11/22/19 11694    FEDERATED PUBLICATI 101689252093200  3510     9873/9874/9875             0.00           369.24
+TOTAL CHECK                                                                                                    0.00           499.56
+A1003     2001958   11/22/19 24394    WINDSTREAM          101944261406000  3410     OCT 2019                   0.00         1,642.87
+A1003     2001959   11/22/19 25692    PHILIPPART NANCY    101101231101000  1140     BOARD PMT -1               0.00            50.00
+A1003     2001961   11/22/19 10939    POWER VAC OF MICHIG 101902261871000  4110     OPEN PO 2019 - 2020        0.00           220.00
+A1003     2001963   11/22/19 19032    R K A PETROLEUM COM 101090271395000  5710     #2 DIES BOL#1054165        0.00        27,542.62
+A1003     2001966   11/22/19 11016    SCHMIDT KARL D      101101231101000  1140     BOARD PMT -1               0.00            50.00
+A1003     2001969   11/22/19 26748    SCHURIG ROBERT      101970293000000  7410     REG FEES                   0.00            45.00
+A1003     2001969   11/22/19 26748    SCHURIG ROBERT      101970293000000  3210     REIMB MILEAGE              0.00            91.41
+A1003     2001969   11/22/19 26748    SCHURIG ROBERT      101970293906000  5990     TEAM LICENSE               0.00           119.00
+A1003     2001969   11/22/19 26748    SCHURIG ROBERT      101970293906000  5990     LICENSE RENEWAL            0.00            20.00
+TOTAL CHECK                                                                                                    0.00           275.41
+A1003     2001971   11/22/19 10177    STAPLES ADVANTAGE   101905261860100  5990     OPEN PO 2019 - 2020        0.00           230.92
+A1003     2001972   11/22/19 11621    SUNG SON            101310125387000  3190     HILL TRANSLATION           0.00            40.00
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00            53.68
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           103.88
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           134.35
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           195.55
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           223.83
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           521.82
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           654.08
+A1003     2001974   11/22/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           666.11
+TOTAL CHECK                                                                                                    0.00         2,553.30
+A1003     2001978   11/22/19 11217    TRANE US INC        101902261863000  5990     OPEN PO 2019 - 2020        0.00           140.00
+A1003     2001979   11/22/19 12245    TROY CHAMBER OF COM 101928282087400  3510     2020 EXP TROY DIREC        0.00           795.00
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261007100  3830     3560118 ATHENS 1           0.00         4,153.30
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261007100  3830     3250623 ATHENS3            0.00        13,816.24
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261007100  3830     3250621 ATHENS2            0.00           398.46
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261000500  3830     3550630 TROY UNION         0.00           412.20
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261000500  3830     3550631 TROY UNION         0.00           728.89
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261001000  3830     3410830 HILL               0.00           749.50
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261005000  3830     3700462 BAKER              0.00           996.82
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261001200  3830     3820945 COSTELLO           0.00         1,305.97
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261007400  3830     3700460 IAE 1              0.00         1,340.32
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261001400  3830     3440099 WASS               0.00         1,594.51
+A1003     2001980   11/22/19 10414    TROY CITY OF WATER  101940261005200  3830     3800811 LARSON             0.00         2,185.33
+TOTAL CHECK                                                                                                    0.00        27,681.54
+A1003     2001981   11/22/19 10221    VENTE JENNIFER      101051112320100  5110     SMITH PETTY CASH           0.00            44.24
+A1003     2001981   11/22/19 10221    VENTE JENNIFER      101051112005100  5110     SMITH PETTY CASH           0.00            64.45
+61
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   18
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           108.69
+A1003     2001982   11/22/19 28066    WILSON NICOLE LYNNE 101101231101000  1140     BOARD PMT -1               0.00            50.00
+A1003     2001983   11/22/19 11621    YUKO AKASHI         101310125387000  3190     COSTELLO TRANS             0.00            40.00
+A1003     2001984   11/27/19 10967    A D N ADMINISTRATOR 101              L4572    DEC 2019                   0.00         1,501.80
+A1003     2001986   11/27/19 13227    A T & T             101944261015000  3410     248R10-06911067 TCC        0.00             5.76
+A1003     2001986   11/27/19 13227    A T & T             101944261090000  3410     24852600346876 FLEM        0.00            44.54
+TOTAL CHECK                                                                                                    0.00            50.30
+A1003     2001987   11/27/19 23640    ABDO PUBLISHING CO  101180222374300  5310     SPECIAL REPORTS 201        0.00           198.50
+A1003     2001987   11/27/19 23640    ABDO PUBLISHING CO  101180222374300  5310     PROVIDE PROCESSING         0.00             9.10
+TOTAL CHECK                                                                                                    0.00           207.60
+A1003     2001989   11/27/19 10013    ACT                 101620227000000  3190     ACT RPT/DATA FILE          0.00           340.50
+A1003     2001990   11/27/19 28300    ALEPH OBJECTS INC   101070113340700  6405     LULZBOT TAZ 3D PRIN        0.00         2,375.00
+A1003     2001990   11/27/19 28300    ALEPH OBJECTS INC   101071113340700  6405     LULZBOT TAZ 3D PRIN        0.00         2,375.00
+A1003     2001990   11/27/19 28300    ALEPH OBJECTS INC   101070113340700  6405     KT-CP0127 - LULZBOT        0.00           470.25
+A1003     2001990   11/27/19 28300    ALEPH OBJECTS INC   101071113340700  6405     KT-CP0127 - LULZBOT        0.00           470.25
+TOTAL CHECK                                                                                                    0.00         5,690.50
+A1003     2001993   11/27/19 27903    APAC PAPER & PACKAG 101              A1700    60 CASES PAPER TOWE        0.00         2,705.78
+A1003     2001993   11/27/19 27903    APAC PAPER & PACKAG 101              A1700    24 CASES - #12375 R        0.00           784.23
+A1003     2001993   11/27/19 27903    APAC PAPER & PACKAG 101              A1700    FUEL CHARGE                0.00             6.82
+TOTAL CHECK                                                                                                    0.00         3,496.83
+A1003     2001994   11/27/19 26329    LOWERY CORPORATION  101689252020500  3430     OPEN PO 2019 - 2020        0.00            28.89
+A1003     2001994   11/27/19 26329    LOWERY CORPORATION  101689252020500  3430     OPEN PO 2019 - 2020        0.00            57.72
+TOTAL CHECK                                                                                                    0.00            86.61
+A1003     2001995   11/27/19 22611    ARCH ENVIRONMENTAL  101905261809000  3190     2019 - 2020 STORMWA        0.00           902.86
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     OPEN PO 2019 - 2020        0.00           117.36
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     BOULAN                     0.00           110.00
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     HAMILTON                   0.00           123.48
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     WATTLES                    0.00           188.77
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     ATHENS                     0.00           273.30
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     TROY HIGH                  0.00           291.39
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     SCHROEDER                  0.00            80.00
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     MORSE                      0.00           100.00
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     BOULAN                     0.00           115.39
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     HAMILTON                   0.00           122.39
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     HAMILTON                   0.00           122.39
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     LARSON                     0.00           138.45
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     MORSE                      0.00           163.00
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     HILL                       0.00           223.00
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261811000  4120     BEMIS                      0.00           449.40
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     MARTELL                    0.00            19.47
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     BAKER                      0.00            20.69
+62
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   19
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     WASS                       0.00            33.69
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     NILES                      0.00            47.61
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     BARNARD                    0.00            47.61
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     BEMIS                      0.00            74.07
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     SMITH                      0.00            74.07
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     MORSE                      0.00            74.07
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     LARSON                     0.00            74.07
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     HAMILTON                   0.00            83.46
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     NILES                      0.00            91.15
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     HILL                       0.00            92.80
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     LEONARD                    0.00            94.36
+A1003     2001997   11/27/19 26823    ARNOLD SLS COMP JAN 101905261805100  5990     COSTELLO                   0.00            99.53
+TOTAL CHECK                                                                                                    0.00         3,544.97
+A1003     2001999   11/27/19 26516    AZTEC SOFTWARE ASSO 101204225646000  3450     AZTEC FUNDAMENTAL S        0.00         4,980.00
+A1003     2001999   11/27/19 26516    AZTEC SOFTWARE ASSO 101204225646000  3450     AZTEC BRIDGE SERIES        0.00         4,980.00
+A1003     2001999   11/27/19 26516    AZTEC SOFTWARE ASSO 101204225646000  3450     AZTEC FOUNDATION SE        0.00         4,980.00
+TOTAL CHECK                                                                                                    0.00        14,940.00
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            28.71
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00             7.49
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            11.21
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            13.49
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            13.50
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            14.24
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            26.17
+A1003     2002001   11/27/19 13176    BARNES & NOBLE      101180222374300  5310     2019-2020 OPEN PO F        0.00            40.47
+TOTAL CHECK                                                                                                    0.00           155.28
+A1003     2002003   11/27/19 10246    BLOOMFIELD HILLS SC 101074113007400  8220     TRI CAMPUS SH EXP          0.00         1,543.75
+A1003     2002005   11/27/19 26474    FRANK CALLENDAR     101970293905000  5990     TENNIS COURT REPAIR        0.00         2,000.00
+A1003     2002005   11/27/19 26474    FRANK CALLENDAR     101970293910000  5990     TRACK REPAIR FOR 4         0.00           200.00
+A1003     2002005   11/27/19 26474    FRANK CALLENDAR     101970293910000  5990     TRACK REPAIR FOR 4         0.00           200.00
+A1003     2002005   11/27/19 26474    FRANK CALLENDAR     101970293910000  5990     TRACK REPAIR FOR 4         0.00           200.00
+A1003     2002005   11/27/19 26474    FRANK CALLENDAR     101970293910000  5990     TRACK REPAIR FOR 4         0.00           200.00
+A1003     2002005   11/27/19 26474    FRANK CALLENDAR     101970293910000  5990     TRACK REPAIR FOR 4         0.00           200.00
+TOTAL CHECK                                                                                                    0.00         3,000.00
+A1003     2002008   11/27/19 22756    EXELON CORPORATION  101941261000300  5510     OCTOBER 2019               0.00         8,759.44
+A1003     2002009   11/27/19 10546    CONTRACT PAPER GROU 101              A1700    320 CASES WHITE 8-1        0.00         8,960.00
+A1003     2002010   11/27/19 23708    CREATIVE COMPANY (T 101180222374300  5310     REFERENCE POINT PRE        0.00           959.45
+A1003     2002011   11/27/19 20528    CYNERGY WIRELESS PR 101050241020500  5990     FOUR (4) HYTERA TC-        0.00           928.00
+A1003     2002011   11/27/19 20528    CYNERGY WIRELESS PR 101050241020500  5990     ONE (1)  EAN12 EARP        0.00            39.00
+A1003     2002011   11/27/19 20528    CYNERGY WIRELESS PR 101050241020500  5990     TWO (2) ESM12 EARBU        0.00            50.00
+TOTAL CHECK                                                                                                    0.00         1,017.00
+A1003     2002012   11/27/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00             6.50
+A1003     2002012   11/27/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00             6.50
+63
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   20
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002012   11/27/19 24375    D & D AUTO PARTS    101904261870000  4130     OPEN PO 2019 - 2020        0.00            17.39
+TOTAL CHECK                                                                                                    0.00            30.39
+A1003     2002014   11/27/19 25878    DAVID W RUSKIN      101              L4505    DED:C112 CHAPTER 13        0.00           310.15
+A1003     2002015   11/27/19 10577    D T E ENERGY        101942261005200  5520     910040925810 LARSON        0.00         2,252.93
+A1003     2002015   11/27/19 10577    D T E ENERGY        101942261005300  5520     910040926586 BOULAN        0.00         2,285.65
+A1003     2002015   11/27/19 10577    D T E ENERGY        101942261001500  5520     910040799124 BEMIS         0.00         3,990.18
+A1003     2002015   11/27/19 10577    D T E ENERGY        101942261007100  5520     910040798993 ATHENS        0.00         4,661.16
+A1003     2002015   11/27/19 10577    D T E ENERGY        101942261001600  5520     910040448961 BARNAR        0.00         5,086.40
+A1003     2002015   11/27/19 10577    D T E ENERGY        101942261007000  5520     910040798878 THS           0.00         6,305.35
+TOTAL CHECK                                                                                                    0.00        24,581.67
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261007400  5520     591864 IAE                 0.00         2,148.19
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261016000  5520     816829 SERVICES            0.00         2,550.21
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261005300  5520     1039786 BOULAN             0.00         4,371.93
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261005200  5520     591736 LARSON              0.00         4,903.11
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261000800  5520     706616 LEONARD             0.00         1,789.48
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261001000  5520     591928 HILL                0.00         1,810.50
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261001200  5520     592056 COSTELLO            0.00         1,934.12
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261001300  5520     592376 MARTELL             0.00         1,990.78
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261001700  5520     592312 HAMILTON            0.00         2,024.00
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261007000  5520     591608 THS                 0.00        16,275.60
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261007100  5520     591672 ATHENS              0.00        16,381.33
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 101942261015000  5520     591992 ADMIN               0.00           651.53
+TOTAL CHECK                                                                                                    0.00        56,830.78
+A1003     2002018   11/27/19 23877    DOWNRIVER REFRIGERA 101902261870500  4110     OPEN PO 2019 - 2020        0.00           160.68
+A1003     2002018   11/27/19 23877    DOWNRIVER REFRIGERA 101902261870500  4110     OPEN PO 2019 - 2020        0.00           297.75
+TOTAL CHECK                                                                                                    0.00           458.43
+A1003     2002020   11/27/19 10577    DTE ENERGY COMPANY  101902261849900  5990     POLE RENTAL FEE            0.00           755.56
+A1003     2002021   11/27/19 28021    EMPOWERED CHILD CAR 101200132092680  3190     CHILD DEV ASSOC CER        0.00         1,011.37
+A1003     2002021   11/27/19 28021    EMPOWERED CHILD CAR 101200132092680  3190     CHILD DEV ASSOC CER        0.00         2,364.23
+A1003     2002021   11/27/19 28021    EMPOWERED CHILD CAR 101200132092680  3190     CPR/FIRST AID: 6 CD        0.00           143.63
+A1003     2002021   11/27/19 28021    EMPOWERED CHILD CAR 101200132092680  3190     CPR/FIRST AID: 6 CD        0.00           335.77
+TOTAL CHECK                                                                                                    0.00         3,855.00
+A1003     2002022   11/27/19 13333    ENSLOW PUBLISHERS I 101180222374300  5310     CRITICAL THINKING A        0.00           150.33
+A1003     2002022   11/27/19 13333    ENSLOW PUBLISHERS I 101180222374300  5310     ANALYZING THE ISSUE        0.00           206.11
+TOTAL CHECK                                                                                                    0.00           356.44
+A1003     2002023   11/27/19 22646    FIBER LINK INC      101790284000000  4120     OPEN PO FOR 19-20 S        0.00         4,985.00
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374200  5310     REPLACE OUT OF WARR        0.00            12.66
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374200  5310     ESTIMATED SHIPPING/        0.00             6.33
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374300  5310     PROVIDE ITEMS ON QU        0.00           359.58
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374300  5310     PROVIDE FREE CATALO        0.00             1.74
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374200  5310     PROVIDE ITEMS ON QU        0.00           477.55
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374200  5310     PROVIDE ITEMS ON QU        0.00         1,300.20
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374200  5310     PROVIDE ITEMS ON QU        0.00           458.22
+64
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   21
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374200  5310     PROVIDE ITEMS ON QU        0.00         1,485.69
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374300  5310     PROVIDE ITEMS ON QU        0.00            60.01
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374100  5310     PROVIDE ITEMS ON QU        0.00         2,039.27
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374300  5310     PROVIDE ITEMS ON QU        0.00           101.53
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374300  5310     PROVIDE FREE PROCES        0.00             0.36
+A1003     2002024   11/27/19 10751    FOLLETT SCHOOL SOLU 101180222374300  5310     PROVIDE ITEMS ON QU        0.00           389.76
+TOTAL CHECK                                                                                                    0.00         6,692.90
+A1003     2002025   11/27/19 27992    GARDA CL GREAT LAKE 101668252621500  3190     ARMORED CAR PICKUP         0.00            37.40
+A1003     2002025   11/27/19 27992    GARDA CL GREAT LAKE 101668252621500  3190     ARMORED CAR PICKUP         0.00           441.82
+TOTAL CHECK                                                                                                    0.00           479.22
+A1003     2002026   11/27/19 26537    GFL ENVIRONMENTAL   101905261800500  3840     OPEN PO 2019 - 2020        0.00           265.00
+A1003     2002027   11/27/19 26537    GFL ENVIRONMENTAL U 101905261800500  3840     DIST PAPER RECYCLIN        0.00            45.48
+A1003     2002029   11/27/19 10866    W W GRAINGER INC    101902261849900  5990     OPEN PO 2019 - 2020        0.00           244.50
+A1003     2002030   11/27/19 26841    GRAPHICS EAST INC   101071113353300  5110     OPEN PO FOR FALL MU        0.00         3,448.00
+A1003     2002031   11/27/19 10964    GREENWOOD PUBLISHIN 101012111100100  5110     978-0-325-11069-1 -        0.00           345.00
+A1003     2002031   11/27/19 10964    GREENWOOD PUBLISHIN 101012111100100  5110     SHIPPING                   0.00            34.50
+TOTAL CHECK                                                                                                    0.00           379.50
+A1003     2002034   11/27/19 11763    J W PEPPER & SON IN 101071113353300  5110     OPEN PO FOR BAND MU        0.00            68.00
+A1003     2002036   11/27/19 11096    CHESTER LIMITED INC 101902261862000  5990     OPEN PO 2019 - 2020        0.00            62.14
+A1003     2002036   11/27/19 11096    CHESTER LIMITED INC 101902261862000  5990     OPEN PO 2019 - 2020        0.00           111.18
+TOTAL CHECK                                                                                                    0.00           173.32
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     OPERATIONS                 0.00         5,615.83
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     OPEN PO 2019 - 2020        0.00            23.48
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     INT'L ACADEMY-EAST         0.00            23.48
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     OPERATIONS                 0.00            31.27
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     BOULAN                     0.00            42.86
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     OPERATIONS                 0.00            64.14
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     OPERATIONS                 0.00            80.00
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     MARTELL                    0.00           100.88
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     TROY HIGH                  0.00           264.15
+A1003     2002042   11/27/19 10055    KSS ENTERPRISES     101905261805500  5990     OPERATIONS                 0.00           975.84
+TOTAL CHECK                                                                                                    0.00         7,221.93
+A1003     2002045   11/27/19 26963    SHERIZEN INC        101905261805200  5990     OPEN PO 2019 - 2020        0.00         1,590.63
+A1003     2002047   11/27/19 11260    LUCK'S MUSIC LIBRAR 101070113352000  5110     OPEN PURCHASE ORDER        0.00            43.51
+A1003     2002047   11/27/19 11260    LUCK'S MUSIC LIBRAR 101070113352000  5110     OPEN PURCHASE ORDER        0.00            77.21
+A1003     2002047   11/27/19 11260    LUCK'S MUSIC LIBRAR 101053112005300  5110     OPEN PO FOR R. TESO        0.00           405.90
+TOTAL CHECK                                                                                                    0.00           526.62
+A1003     2002048   11/27/19 10737    LUSK & ALBERTSON PL 101101231023500  3170     POLICY REG UPDATE          0.00         4,000.00
+A1003     2002050   11/27/19 11278    M E F S A INC       101              L4520    DEC 2019                   0.00           307.10
+65
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   22
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-690-523-2         0.00        -2,491.03
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-690-523-2         0.00        -1,430.84
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-690-523-2         0.00         1,430.84
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-690-523-2         0.00         2,491.03
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-690-523-2         0.00         2,673.37
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-688-814-6         0.00        -5,984.04
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-688-814-6         0.00        -3,437.23
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-688-814-6         0.00         3,437.23
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-688-814-6         0.00         5,984.04
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-688-814-6         0.00         6,422.07
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     SHIPPING                   0.00        -2,070.69
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     SHIPPING                   0.00        -1,189.40
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     SHIPPING                   0.00         1,189.40
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     SHIPPING                   0.00         2,070.69
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     SHIPPING                   0.00         2,222.26
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-864-6         0.00       -11,979.76
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-864-6         0.00        -6,881.16
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-864-6         0.00         6,881.16
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-864-6         0.00        11,979.76
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-864-6         0.00        12,856.69
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-315-3         0.00        -2,766.09
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-315-3         0.00        -1,588.84
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-315-3         0.00         1,588.84
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-315-3         0.00         2,766.09
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-315-3         0.00         2,968.56
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-316-0         0.00        -2,662.67
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-316-0         0.00        -1,529.43
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-316-0         0.00         1,529.43
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-316-0         0.00         2,662.67
+A1003     2002052   11/27/19 11385    MCGRAW-HILL COMPANI 101070113340700  5210     978-0-07-683-316-0         0.00         2,857.57
+TOTAL CHECK                                                                                                    0.00        30,000.52
+A1003     2002053   11/27/19 10738    MACOMB GROUP INC    101902261862500  5990     OPEN PO 2019 - 2020        0.00           202.07
+A1003     2002053   11/27/19 10738    MACOMB GROUP INC    101902261862500  5990     OPEN PO 2019 - 2020        0.00           202.13
+TOTAL CHECK                                                                                                    0.00           404.20
+A1003     2002054   11/27/19 22814    NATIONAL HIGHLIGHTS 101180222374300  5310     MASON CREST                0.00           583.90
+A1003     2002059   11/27/19 11463    MI SCHOOL BUSINESS  101425221042600  3220     GALILEO TUITION            0.00         6,000.00
+A1003     2002060   11/27/19 19587    MI STATE OF DISBURS 101              L4519    DED:C105 FRIEND/CT         0.00         1,085.28
+A1003     2002062   11/27/19 14054    MICRODATA SYSTEMS L 101203285646000  3450     2019-20 STU REC ANN        0.00           500.00
+A1003     2002063   11/27/19 13603    MSBOA DIST IV       101590221355000  7410     THS FRSHMN ORCH            0.00           150.00
+A1003     2002063   11/27/19 13603    MSBOA DIST IV       101590221355000  7410     THS PHILHARM ORCH          0.00           160.00
+A1003     2002063   11/27/19 13603    MSBOA DIST IV       101590221355000  7410     THS CONCERT ORCH           0.00           160.00
+A1003     2002063   11/27/19 13603    MSBOA DIST IV       101590221355000  7410     THS SYMP ORCH              0.00           210.00
+TOTAL CHECK                                                                                                    0.00           680.00
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101070113020300  3710     EMC TUITION PMT            0.00           550.00
+66
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   23
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101071113020300  3710     EMC TUITION PMT            0.00         6,450.00
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101005111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101007111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101008111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101009111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101010111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101011111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101012111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101013111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101014111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101015111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101016111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101017111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101010111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101011111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101012111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101013111042500  5110     GROWING UP BOOKLETS        0.00            51.73
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101014111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101015111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101016111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101017111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101005111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101007111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101008111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+A1003     2002065   11/27/19 11668    OAKLAND SCHOOLS     101009111042500  5110     GROWING UP BOOKLETS        0.00            51.74
+TOTAL CHECK                                                                                                    0.00         8,241.68
+A1003     2002067   11/27/19 23956    PRESIDIO HOLDINGS I 101203132373000  5110     CISCO FIREPOWER AND        0.00            81.20
+A1003     2002071   11/27/19 24919    READING RECOVERY CO 101425221042600  3220     2020 NATIONAL READI        0.00           310.00
+A1003     2002071   11/27/19 24919    READING RECOVERY CO 101425221042600  3220     2020 NATIONAL READI        0.00           365.00
+A1003     2002071   11/27/19 24919    READING RECOVERY CO 101425221042600  3220     2020 NATIONAL READI        0.00           390.00
+A1003     2002071   11/27/19 24919    READING RECOVERY CO 101425221042600  3220     2020 NATIONAL READI        0.00           690.00
+TOTAL CHECK                                                                                                    0.00         1,755.00
+A1003     2002072   11/27/19 10968    RELIANCE STANDARD L 101              L4565    DEC 2019                   0.00         7,723.62
+A1003     2002072   11/27/19 10968    RELIANCE STANDARD L 101669232084072  2110     DEC 2019                   0.00           649.72
+TOTAL CHECK                                                                                                    0.00         8,373.34
+A1003     2002073   11/27/19 19019    RICHARDSON MATTHEW  101970293000000  3210     REIMB XC MILEAGE           0.00           106.14
+A1003     2002073   11/27/19 19019    RICHARDSON MATTHEW  101970293000000  7910     REIMB XC FINALS EXP        0.00         1,954.94
+TOTAL CHECK                                                                                                    0.00         2,061.08
+A1003     2002075   11/27/19 22596    ROSEN PUBLISHING GR 101180222374300  5310     SEE ATTACHED SPREAD        0.00         1,434.50
+A1003     2002075   11/27/19 22596    ROSEN PUBLISHING GR 101180222374300  5310     GREENHAVEN PUBLISHI        0.00           577.96
+A1003     2002075   11/27/19 22596    ROSEN PUBLISHING GR 101180222374300  5310     CURRENT CONTROVERSI        0.00           214.19
+A1003     2002075   11/27/19 22596    ROSEN PUBLISHING GR 101180222374300  5310     CAVENDISH SQUARE           0.00         1,222.55
+TOTAL CHECK                                                                                                    0.00         3,449.20
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     CRITICAL INSIGHTS J        0.00            23.25
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     CRITICAL INSIGHTS J        0.00            72.66
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     THE 2000'S IN AMERI        0.00            87.47
+67
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   24
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     THE 2000'S IN AMERI        0.00           273.35
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     THIS IS WHO WE WERE        0.00            35.43
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     THIS IS WHO WE WERE        0.00           110.72
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     4% SHIPPING                0.00             5.85
+A1003     2002076   11/27/19 14156    GREY HOUSE PUBLISHI 101180222374300  5310     4% SHIPPING                0.00            18.27
+TOTAL CHECK                                                                                                    0.00           627.00
+A1003     2002079   11/27/19 12313    SCHOOL SPECIALTY IN 101010111350500  5110     HILL                       0.00           298.46
+A1003     2002079   11/27/19 12313    SCHOOL SPECIALTY IN 101052112005200  5110     2019-2020 OPEN PO F        0.00            88.76
+A1003     2002079   11/27/19 12313    SCHOOL SPECIALTY IN 101014111100100  5110     OPEN PURCHASE ORDER        0.00           242.12
+TOTAL CHECK                                                                                                    0.00           629.34
+A1003     2002080   11/27/19 11842    SEHI COMPUTER PRODU 101012111100100  5110     BELKIN WIRED KEYBOA        0.00           400.00
+A1003     2002080   11/27/19 11842    SEHI COMPUTER PRODU 101052112005200  5110     BELKIN WIRED KEYBOA        0.00           800.00
+TOTAL CHECK                                                                                                    0.00         1,200.00
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101070113007010  2840     PROFESSIONAL               0.00         3,342.08
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101101231101000  2840     BD OF ED                   0.00             7.94
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101200226093960  2840     CONT LABOR                 0.00             8.30
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101902261840550  2840     MAINT                      0.00            15.51
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101400232090230  2840     EXEC ADM                   0.00            38.97
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101668252093030  2840     OTHER ADM                  0.00            65.67
+A1003     2002081   11/27/19 27373    M A S B - SEG PRPER 101071241094040  2840     SECRETARIES                0.00           129.53
+TOTAL CHECK                                                                                                    0.00         3,608.00
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101070113340700  5110     125MBA - MAGNETIC P        0.00           182.72
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101070113340700  5110     CFB100 - SEARCH REG        0.00           108.83
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101070113340700  5110     RM325 - ILLUMINATED        0.00           143.92
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101070113340700  5110     SHIPPING ESTIMATE          0.00            20.05
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101071113340700  5110     125MBA - MAGNETIC P        0.00           182.71
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101071113340700  5110     CFB100 - SEARCH REG        0.00           108.83
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101071113340700  5110     RM325 - ILLUMINATED        0.00           143.92
+A1003     2002082   11/27/19 24622    SIRCHIE ACQUISITION 101071113340700  5110     SHIPPING ESTIMATE          0.00            20.06
+TOTAL CHECK                                                                                                    0.00           911.04
+A1003     2002083   11/27/19 26030    SOUHA MANSOUR       101970000100000  R1733    REIMB P2PLAY OVERPA        0.00           175.00
+A1003     2002084   11/27/19 19021    STANTONS SHEET MUSI 101070113351000  5110     OPEN PURCHASE ORDER        0.00            58.00
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   101070113320100  5110     OPEN PURCHASE ORDER        0.00            99.09
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   101070113320100  5110     OPEN PURCHASE ORDER        0.00           100.48
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   101905261805500  5990     CREDIT 3429628052          0.00          -148.08
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   101689252068900  6410     # 870391 PUTTY FILE        0.00           302.79
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   101014111100100  5110     OPEN PURCHASE ORDER        0.00            11.49
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   101014111100100  5110     OPEN PURCHASE ORDER        0.00            64.56
+TOTAL CHECK                                                                                                    0.00           430.33
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101007111100100  5110     SENCE SE-350-WR-1CH        0.00           339.00
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101007111100100  5110     SENCE SE350 WT-HAND        0.00           239.00
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101007111100100  5110     SENCE SE350 WT-BODY        0.00           239.00
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101007111100100  5110     SENCE SE350-WT-CH B        0.00           169.00
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101007111100100  5110     INSTALLATION AT MOR        0.00           200.00
+68
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   25
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101905261805500  5990     SONY XBR65X800G 65         0.00           526.78
+A1003     2002086   11/27/19 27918    STEWART AUDIO VIDEO 101905261805500  5990     LABOR INCLUDES REMO        0.00            63.21
+TOTAL CHECK                                                                                                    0.00         1,775.99
+A1003     2002087   11/27/19 11621    SUNG SON            101310125387000  3190     111419 HAMILTON            0.00            40.00
+A1003     2002088   11/27/19 25980    WEX BANK            101902261395500  5710     OPEN PO 2019 - 2020        0.00         1,698.39
+A1003     2002088   11/27/19 25980    WEX BANK            101904261870000  5710     OPEN PO 2019 - 2020        0.00         1,990.14
+TOTAL CHECK                                                                                                    0.00         3,688.53
+A1003     2002089   11/27/19 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           215.80
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     6TH GRADE LAKES CON        0.00            45.58
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     6TH GRADE AMERICA A        0.00            45.58
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     7TH GRADE AMERICA A        0.00            45.58
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     8TH GRADE AMERICA A        0.00            45.58
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     7TH/8TH GRADE CONTE        0.00            45.58
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     PROCESSING FEE             0.00             5.70
+A1003     2002091   11/27/19 12217    THINKING CAP QUIZ B 101052112005200  5110     ESTIMATED SHIPPING/        0.00            11.40
+TOTAL CHECK                                                                                                    0.00           245.00
+A1003     2002092   11/27/19 28340    TOLLIS DEVELOPMENT  101902261862500  4110     COSTELLO ELEMENTARY        0.00         6,900.00
+A1003     2002092   11/27/19 28340    TOLLIS DEVELOPMENT  101902261862500  4110     COSTELLO ELEMENTARY        0.00           750.00
+TOTAL CHECK                                                                                                    0.00         7,650.00
+A1003     2002093   11/27/19 26001    TOP CAT SALES LLC   101970293902000  5990     AHS FTBLL PANTS            0.00         3,796.82
+A1003     2002094   11/27/19 12234    TREVARROW HARDWARE  101790225717100  5990     OPEN PO FOR 19-20 S        0.00             1.59
+A1003     2002095   11/27/19 27148    TROY AUTO CARE INC  101904261870000  4130     OPEN PO 2019 - 2020        0.00            27.63
+A1003     2002095   11/27/19 27148    TROY AUTO CARE INC  101904261870000  4130     OPEN PO 2019 - 2020        0.00            31.66
+A1003     2002095   11/27/19 27148    TROY AUTO CARE INC  101904261870000  4130     OPEN PO 2019 - 2020        0.00           229.79
+A1003     2002095   11/27/19 27148    TROY AUTO CARE INC  101904261870000  4130     OPEN PO 2019 - 2020        0.00           424.54
+A1003     2002095   11/27/19 27148    TROY AUTO CARE INC  101904261870000  4130     OPEN PO 2019 - 2020        0.00           766.43
+A1003     2002095   11/27/19 27148    TROY AUTO CARE INC  101904261870000  4130     OPEN PO 2019 - 2020        0.00         1,617.67
+TOTAL CHECK                                                                                                    0.00         3,097.72
+A1003     2002096   11/27/19 10414    TROY CITY OF WATER  101940261001600  3830     3390104 BARNARD            0.00         1,450.24
+A1003     2002098   11/27/19 28220    U.S. DEPT OF EDUCAT 101              L4505    DED:C114 DEPT OF ED        0.00           227.33
+A1003     2002099   11/27/19 12333    V S C INC           101014111100100  5110     MIC/TRANSMTR/BATT          0.00           230.00
+A1003     2002099   11/27/19 12333    V S C INC           101015111100100  5110     LTSPEED RED MIC            0.00           294.00
+TOTAL CHECK                                                                                                    0.00           524.00
+A1003     2002100   11/27/19 11682    VARITRONICS LLC     101070241007000  5910     DTP 2300D 23" BLACK        0.00           301.34
+A1003     2002100   11/27/19 11682    VARITRONICS LLC     101070241007000  5910     TTP 2300T 23" BLACK        0.00           391.75
+A1003     2002100   11/27/19 11682    VARITRONICS LLC     101070241007000  5910     SHIPPING ESTIMATE          0.00            23.10
+TOTAL CHECK                                                                                                    0.00           716.19
+A1003     2002102   11/27/19 12358    WALSH COLLEGE       101203261647000  7910     ROOM RENTALS - 3 RO        0.00         3,825.00
+69
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   26
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2002103   11/27/19 10185    WILLIAM BEAUMONT HO 101970293990200  3190     ATHLETIC TRAINING S        0.00        14,066.56
+A1003     2002103   11/27/19 10185    WILLIAM BEAUMONT HO 101970293990200  3190     ATHENS HS BRYAN BAI        0.00        14,491.96
+TOTAL CHECK                                                                                                    0.00        28,558.52
+A1003     2002105   11/27/19 12461    YOUNG SUPPLY COMPAN 101902261863000  5990     OPEN PO 2019 - 2020        0.00            49.20
+A1003     2002105   11/27/19 12461    YOUNG SUPPLY COMPAN 101902261863000  5990     OPEN PO 2019 - 2020        0.00            51.90
+TOTAL CHECK                                                                                                    0.00           101.10
+A1003     W20-092   11/01/19 11436    MI EDUC SPEC SERV A 101              L4545    NOV PREMIUM                0.00     1,108,373.97
+A1003     W20-093   11/04/19 10748    SAFE ED LLC         101203212095080  3130     2/25-4/21 TCE ADDL         0.00         3,562.64
+A1003     W20-093   11/04/19 10748    SAFE ED LLC         101970293000080  3190     THS ATH DIR                0.00        13,663.53
+TOTAL CHECK                                                                                                    0.00        17,226.17
+A1003     W20-094   11/04/19 10748    SAFE ED LLC         101070219094300  3130     OPEN PO FOR ADDITIO        0.00         2,957.50
+A1003     W20-095   11/04/19 10748    SAFE ED LLC         101071219094300  3130     OPEN PO FOR ADDITIO        0.00         3,167.50
+A1003     W20-096   11/04/19 27800    EDUSTAFF LLC        101790225094780  3160     SCHIELKE BENEFITS          0.00           430.00
+A1003     W20-097   11/06/19 10967    A D N ADMINISTRATOR 101              L4572    CLAIMS 10/1-10/31          0.00        15,454.63
+A1003     W20-108   11/01/19 27800    EDUSTAFF LLC        101              L4026    CONT SVC 10/13-10/2        0.00       125,628.50
+A1003     W20-112   11/19/19 10748    SAFE ED LLC         101970293000080  3110     OPEN PO FOR COACH'S        0.00        57,143.46
+A1003     W20-115   11/20/19 10748    SAFE ED LLC         101400266094300  3130     2019-2020 SECURITY         0.00        26,250.00
+A1003     W20-117   11/22/19 27800    EDUSTAFF LLC        101700283086200  3191     CONT SVC ADJ FOR 11        0.00         1,357.00
+A1003     W20-121   11/27/19 28304    ARBITER PAY TRUST A 101970293990500  3190     WINTER SPORTS              0.00        30,000.00
+A1003     W20-122   11/27/19 11436    MI EDUC SPEC SERV A 101              L4545    NOV PREMIUM                0.00     1,107,903.72
+A1003     W20-123   11/27/19 11011    BLUE CROSS BLUE SHI 101              L4571    DEC 2019 PREMIUM           0.00       164,941.53
+A1003     W20-137   11/14/19 11284    M P S E R S         101              L4400    BD PD 11/1 PR              0.00       833,175.91
+A1003     W20-137   11/14/19 11284    M P S E R S         101              L4500    MIP 11/1 PR                0.00       231,221.49
+A1003     W20-137   11/14/19 11284    M P S E R S         101              L4526    TDP 11/1 PR                0.00         5,201.04
+A1003     W20-137   11/14/19 11284    M P S E R S         101071113007171  2820     ADJ N LINING               0.00            41.92
+A1003     W20-137   11/14/19 11284    M P S E R S         101070113007071  2820     ADJ T MARTIN               0.00          -605.06
+A1003     W20-137   11/14/19 11284    M P S E R S         101070113007071  2820     ADJ T MARTIN MIP           0.00          -148.85
+A1003     W20-137   11/14/19 11284    M P S E R S         101203131094560  2820     ADJ L SHARP                0.00           -55.31
+A1003     W20-137   11/14/19 11284    M P S E R S         101203131094560  2820     ADJ K VANDERWORP           0.00            61.38
+A1003     W20-137   11/14/19 11284    M P S E R S         101017241094040  2820     ADJ S ZOLL                 0.00           -69.20
+TOTAL CHECK                                                                                                    0.00     1,068,823.32
+A1003     W20-138   11/14/19 11284    M P S E R S         101203131094560  2820     ADJ L SHARP                0.00            53.53
+A1003     W20-138   11/14/19 11284    M P S E R S         101017241094040  2820     ADJ S ZOLL                 0.00            66.96
+A1003     W20-138   11/14/19 11284    M P S E R S         101              L4510    EMPER PD DC 11/1 PR        0.00        26,955.10
+A1003     W20-138   11/14/19 11284    M P S E R S         101              L4510    EMPEE PD DC 11/1 PR        0.00        52,026.75
+TOTAL CHECK                                                                                                    0.00        79,102.34
+70
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   27
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 101 - GENERAL FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     W20-139   11/29/19 11284    M P S E R S         101              L4510    EMPER PD DC 11/15PR        0.00        26,693.25
+A1003     W20-139   11/29/19 11284    M P S E R S         101              L4510    EMPEE PD DC 11/15PR        0.00        51,277.59
+A1003     W20-139   11/29/19 11284    M P S E R S         101203131094560  2820     ADJ L SHARP                0.00            48.50
+A1003     W20-139   11/29/19 11284    M P S E R S         101017241094040  2820     ADJ S ZOLL                 0.00            79.01
+A1003     W20-139   11/29/19 11284    M P S E R S         101070113007010  2820     ADJ K CARROLL              0.00           102.94
+A1003     W20-139   11/29/19 11284    M P S E R S         101005111000510  2820     ADJ L DELEEW               0.00           101.42
+A1003     W20-139   11/29/19 11284    M P S E R S         101017111001710  2820     ADJ E GOSSMAN              0.00            95.31
+TOTAL CHECK                                                                                                    0.00        78,398.02
+A1003     W20-140   11/29/19 11284    M P S E R S         101              L4400    BD PD 11/15 PR             0.00       822,091.71
+A1003     W20-140   11/29/19 11284    M P S E R S         101              L4500    MIP 11/15 PR               0.00       228,909.98
+A1003     W20-140   11/29/19 11284    M P S E R S         101              L4526    TDP 11/15 PR               0.00         5,201.04
+A1003     W20-140   11/29/19 11284    M P S E R S         101070113007010  2820     ADJ K CARROLL              0.00          -106.38
+A1003     W20-140   11/29/19 11284    M P S E R S         101005111000510  2820     ADJ L DELEEUW              0.00          -104.80
+A1003     W20-140   11/29/19 11284    M P S E R S         101017111001710  2820     ADJ E GOSSMAN              0.00           -98.49
+A1003     W20-140   11/29/19 11284    M P S E R S         101017241094040  2820     ADJ S ZOLL                 0.00           -91.98
+A1003     W20-140   11/29/19 11284    M P S E R S         101203131094560  2820     ADJ L SHARP                0.00           -50.11
+TOTAL CHECK                                                                                                    0.00     1,055,750.97
+A1003     W20-141   11/29/19 11284    M P S E R S         101              L4210    UAAL NOV PMT               0.00     1,790,772.29
+A1003    E2001677   11/07/19 26537    GFL ENVIRONMENTAL U 101905261800500  3840     OPEN PO 2019 - 2020        0.00           265.00
+A1003    E2001868   11/14/19 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2019 - 2020        0.00           296.97
+A1003    E2001964   11/22/19 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2019 - 2020        0.00            68.22
+A1003    E2001964   11/22/19 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2019 - 2020        0.00            95.00
+TOTAL CHECK                                                                                                    0.00           163.22
+A1003    E2001988   11/27/19 11010    ACE TRANSPORTATION  101090271098000  3311     HOMELESS TRANS             0.00         1,056.00
+A1003    E2001988   11/27/19 11010    ACE TRANSPORTATION  101090271098000  3311     HOMELESS TRANS             0.00         1,152.00
+A1003    E2001988   11/27/19 11010    ACE TRANSPORTATION  101090271009000  3311     OVRFLW TO SCHROEDER        0.00           147.00
+A1003    E2001988   11/27/19 11010    ACE TRANSPORTATION  101090271009000  3311     OVRFLW AHS/THS             0.00           378.00
+A1003    E2001988   11/27/19 11010    ACE TRANSPORTATION  101090271009000  3311     OVRFLW TO WASS             0.00            72.00
+TOTAL CHECK                                                                                                    0.00         2,805.00
+A1003    E2002074   11/27/19 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2019 - 2020        0.00            53.91
+A1003    E2002074   11/27/19 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2019 - 2020        0.00            67.90
+A1003    E2002074   11/27/19 15646    ROCHESTER LAWN EQUI 101904261870000  5990     PURCHASE OF AP12F F        0.00         1,179.00
+TOTAL CHECK                                                                                                    0.00         1,300.81
+TOTAL CASH ACCOUNT                                                                                             0.00     8,136,832.42
+TOTAL FUND                                                                                                     0.00     8,136,832.42
+71
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   28
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 120 - GRANT FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     W20-108   11/01/19 27800    EDUSTAFF LLC        120              L4026    CONT SVC 10/13-10/2        0.00         3,714.29
+TOTAL CASH ACCOUNT                                                                                             0.00         3,714.29
+TOTAL FUND                                                                                                     0.00         3,714.29
+72
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   29
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 122 - SPECIAL ED FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001638   11/07/19 11621    ALICIA GOMEZ-RUIZ   122885215230000  3130     102419 TSD ECC             0.00            20.00
+A1003     2001638   11/07/19 11621    ALICIA GOMEZ-RUIZ   122885215230000  3130     102819 WATTLES             0.00            40.00
+TOTAL CHECK                                                                                                    0.00            60.00
+A1003     2001646   11/07/19 26329    LOWERY CORPORATION  122885226326000  3610     9/25-10/24 TCT             0.00            61.67
+A1003     2001646   11/07/19 26329    LOWERY CORPORATION  122885226326000  3610     10/25-11/24 TCT            0.00            61.67
+A1003     2001646   11/07/19 26329    LOWERY CORPORATION  122885226326000  3610     8/25-9/24 TCT              0.00            61.67
+TOTAL CHECK                                                                                                    0.00           185.01
+A1003     2001671   11/07/19 26082    FIRST GROUP AMERICA 122885271394100  4230     AHS SPED WESTVIEW          0.00           239.91
+A1003     2001671   11/07/19 26082    FIRST GROUP AMERICA 122090271009000  3311     SPEC ED 2019-20            0.00       137,079.32
+A1003     2001671   11/07/19 26082    FIRST GROUP AMERICA 122090271009000  3312     MONITORS 2019-20           0.00        19,749.51
+TOTAL CHECK                                                                                                    0.00       157,068.74
+A1003     2001719   11/07/19 28063    POSITIVE BEHAVIOR S 122885219280000  3190     BEHAVIOR SUPPORT           0.00           618.75
+A1003     2001719   11/07/19 28063    POSITIVE BEHAVIOR S 122885219280000  3190     BEHAVIOR SUPPORT           0.00           340.00
+A1003     2001719   11/07/19 28063    POSITIVE BEHAVIOR S 122885219280000  3190     BEHAVIOR SUPPORT           0.00           352.50
+TOTAL CHECK                                                                                                    0.00         1,311.25
+A1003     2001721   11/07/19 23956    PRESIDIO HOLDINGS I 122885122326000  6460     DELL PROFESSIONAL P        0.00           147.00
+A1003     2001743   11/07/19 10376    VERIZON WIRELESS LL 122885261280000  3410     9/24-10/23                 0.00            80.02
+A1003     2001771   11/14/19 13270    BIRMINGHAM PUBLIC S 122875122231200  3710     SUMMR ESY/2 STDNTS         0.00         4,395.50
+A1003     2001778   11/14/19 25682    NABERHAUS THERAPY I 122885214314000  3135     PSYCH CONSULT              0.00           450.00
+A1003     2001787   11/14/19 24669    CRISIS PREVENTION I 122885226326000  7410     ANSPACH MBRSHP             0.00           150.00
+A1003     2001789   11/14/19 20528    CYNERGY WIRELESS PR 122885122856500  4120     MORSE RADIO REPAIR         0.00           100.00
+A1003     2001794   11/14/19 10577    D T E ENERGY        122207261020700  5520     910040087470 NILES         0.00           507.94
+A1003     2001925   11/22/19 26082    FIRST GROUP AMERICA 122885271394100  4230     AHS/THS OCC                0.00           246.68
+A1003     2001965   11/22/19 25404    S Z 3 CONSULTING    122884221231100  3190     STDNT/STAFF CONSULT        0.00         1,040.70
+A1003     2001976   11/22/19 10745    MI SPECIAL EDUCATIO 122885214314000  3135     19/20 SY THERAPY FO        0.00         5,239.64
+A1003     2001976   11/22/19 10745    MI SPECIAL EDUCATIO 122875122231200  3190     19/20 ESY FOR AB           0.00         4,320.00
+A1003     2001976   11/22/19 10745    MI SPECIAL EDUCATIO 122875122231200  3190     19/20 ESY FOR AB           0.00         4,687.50
+TOTAL CHECK                                                                                                    0.00        14,247.14
+A1003     2002016   11/27/19 25880    DIRECT ENERGY MARKE 122883261030000  5520     591864 GROW                0.00           174.18
+A1003     2002057   11/27/19 11407    MERZ MICHAEL A PHD  122885214314000  3135     PSYCH SVC                  0.00           400.00
+A1003     W20-093   11/04/19 10748    SAFE ED LLC         122883122231080  3115     J HENRY TCT JOB COA        0.00         1,703.87
+A1003     W20-108   11/01/19 27800    EDUSTAFF LLC        122              L4026    CONT SVC 10/13-10/2        0.00       111,658.04
+A1003     W20-137   11/14/19 11284    M P S E R S         122011122150050  2820     ADJ E KWOK                 0.00           222.77
+A1003     W20-137   11/14/19 11284    M P S E R S         122005122150010  2820     ADJ N RAGNONI              0.00          -104.80
+73
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   30
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 122 - SPECIAL ED FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           117.97
+A1003     W20-139   11/29/19 11284    M P S E R S         122016122193010  2820     ADJ V MASSEY               0.00            95.31
+A1003     W20-139   11/29/19 11284    M P S E R S         122885216316010  2820     ADJ A MCKEE                0.00           103.84
+A1003     W20-139   11/29/19 11284    M P S E R S         122885216316010  2820     ADJ K CARDOZO              0.00           103.84
+TOTAL CHECK                                                                                                    0.00           302.99
+A1003     W20-140   11/29/19 11284    M P S E R S         122885216316010  2820     ADJ K CARDOZO              0.00          -107.31
+A1003     W20-140   11/29/19 11284    M P S E R S         122885216316010  2820     ADJ A MCKEE                0.00          -107.31
+A1003     W20-140   11/29/19 11284    M P S E R S         122016122193010  2820     ADJ V MASSEY               0.00           -98.49
+TOTAL CHECK                                                                                                    0.00          -313.11
+A1003    E2001901   11/22/19 11010    ACE TRANSPORTATION  122885271394100  3310     19/20 TRANSPORT FOR        0.00         1,872.00
+A1003    E2001901   11/22/19 11010    ACE TRANSPORTATION  122885271394100  3310     19/20 TRANSPORT FOR        0.00         1,938.00
+TOTAL CHECK                                                                                                    0.00         3,810.00
+TOTAL CASH ACCOUNT                                                                                             0.00       297,843.92
+TOTAL FUND                                                                                                     0.00       297,843.92
+74
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   31
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 140 - DURANT FUNDS
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001765   11/14/19 19186    AVENTRIC TECHNOLOGI 140665213641100  5990     OPEN PO 2019 - 2020        0.00         1,695.00
+TOTAL CASH ACCOUNT                                                                                             0.00         1,695.00
+TOTAL FUND                                                                                                     0.00         1,695.00
+75
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   32
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 416 - 2016 CAPITAL PROJECTS
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416071284407500  6410     150 FT WEST PENN 81        0.00           144.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416071284407500  6410     100 FT WEST PENN 81        0.00            51.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416071284407500  6410     150 FT WEST PENN 42        0.00            86.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416071284407500  6410     100 FT WEST PENN 42        0.00            33.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416070284407500  6410     200 FT WEST PENN 81        0.00           172.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416070284407500  6410     100 FT WEST PENN 81        0.00            51.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416070284407500  6410     200 FT WEST PENN 42        0.00            96.00
+A1003     2001635   11/07/19 13451    ADVANCED LIGHTING A 416070284407500  6410     100 FT WEST PENN 42        0.00            33.00
+TOTAL CHECK                                                                                                    0.00           666.00
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     PANASONIC DMC-GH85M        0.00           380.34
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     PANASONIC DMC-GH85M        0.00           380.35
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     PANASONIC DMC-GH85M        0.00           380.35
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     PANASONIC DMC-GH85M        0.00           380.35
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     PANASONIC DMC-GH85M        0.00         2,015.65
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     PANASONIC DMC-GH85M        0.00         2,015.65
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     PANASONIC DMC-GH85M        0.00         2,015.65
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     PANASONIC DMC-GH85M        0.00         2,015.66
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     MAGNUS VIDEO TRIPOD        0.00            38.04
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     MAGNUS VIDEO TRIPOD        0.00            38.04
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     MAGNUS VIDEO TRIPOD        0.00            38.04
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     MAGNUS VIDEO TRIPOD        0.00            38.04
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     MAGNUS VIDEO TRIPOD        0.00           201.56
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     MAGNUS VIDEO TRIPOD        0.00           201.56
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     MAGNUS VIDEO TRIPOD        0.00           201.56
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     MAGNUS VIDEO TRIPOD        0.00           201.56
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     RODE WIRELESS GO CO        0.00            50.48
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     RODE WIRELESS GO CO        0.00            50.48
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     RODE WIRELESS GO CO        0.00            50.48
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     RODE WIRELESS GO CO        0.00            50.48
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     RODE WIRELESS GO CO        0.00           267.52
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     RODE WIRELESS GO CO        0.00           267.52
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     RODE WIRELESS GO CO        0.00           267.52
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     RODE WIRELESS GO CO        0.00           267.52
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     RODE VIDEOMICRO COM        0.00            15.28
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     RODE VIDEOMICRO COM        0.00            15.28
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     RODE VIDEOMICRO COM        0.00            15.28
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     RODE VIDEOMICRO COM        0.00            15.28
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     RODE VIDEOMICRO COM        0.00            81.00
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     RODE VIDEOMICRO COM        0.00            81.00
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     RODE VIDEOMICRO COM        0.00            81.00
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     RODE VIDEOMICRO COM        0.00            81.00
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     DJI RONIN SC F/DSLR        0.00            61.12
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     DJI RONIN SC F/DSLR        0.00            61.12
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     DJI RONIN SC F/DSLR        0.00            61.12
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     DJI RONIN SC F/DSLR        0.00            61.12
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416050225407500  6410     DJI RONIN SC F/DSLR        0.00           323.88
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416051225407500  6410     DJI RONIN SC F/DSLR        0.00           323.88
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416052225407500  6410     DJI RONIN SC F/DSLR        0.00           323.88
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416053225407500  6410     DJI RONIN SC F/DSLR        0.00           323.88
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416071225407500  6410     PANASONIC DC-GH5 CA        0.00           317.33
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416071225407500  6410     PANASONIC DC-GH5 CA        0.00         1,681.67
+76
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 01/09/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 14:25:42                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='5' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  7/20
+     FUND - 416 - 2016 CAPITAL PROJECTS
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416070284407500  6410     PANASONIC AW-RP50 R        0.00           286.88
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416071284407500  6410     PANASONIC AW-RP50 R        0.00           286.88
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416070284407500  6410     PANASONIC AW-HE40SK        0.00         1,418.74
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416071284407500  6410     PANASONIC AW-HE40SK        0.00         1,418.74
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416070284407500  6410     TP-LINK 8PORT GIGAB        0.00            21.06
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416071284407500  6410     TP-LINK 8PORT GIGAB        0.00            21.06
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416070284407500  6410     PANASONIC WALL MOUN        0.00            71.32
+A1003     2001651   11/07/19 14930    B & H PHOTO & ELECT 416071284407500  6410     PANASONIC WALL MOUN        0.00            71.32
+TOTAL CHECK                                                                                                    0.00        19,334.52
+A1003     2001678   11/07/19 11398    GLOBAL EQUIPMENT CO 416052456407500  6410     STEEL FOLDING CHAIR        0.00         5,410.80
+A1003     2001813   11/14/19 11398    GLOBAL EQUIPMENT CO 416052456407500  6410     BAL OF INV/PO200008        0.00           601.20
+A1003     2001887   11/14/19 16637    TRUST THERMAL ABATE 416051456407500  6228     2013 BOND - SMITH M        0.00        27,500.00
+A1003     2001910   11/22/19 10178    BARTON MALOW COMPAN 416051456407500  6221     SMITH                      0.00        12,860.00
+A1003     2001910   11/22/19 10178    BARTON MALOW COMPAN 416668456407500  6222     GENL COND                  0.00        14,784.01
+A1003     2001910   11/22/19 10178    BARTON MALOW COMPAN 416668456407500  6223     CM FEE                     0.00        45,203.88
+A1003     2001910   11/22/19 10178    BARTON MALOW COMPAN 416011456407500  6221     SCHROEDER                  0.00        50,052.26
+A1003     2001910   11/22/19 10178    BARTON MALOW COMPAN 416005456407500  6221     TROY UNION                 0.00        71,503.32
+A1003     2001910   11/22/19 10178    BARTON MALOW COMPAN 416668456407500  6222     INS LIAB                   0.00           412.50
+TOTAL CHECK                                                                                                    0.00       194,815.97
+A1003     2001973   11/22/19 27457    SYNERGY CONSULTING  416011456407500  6222     COMMISSIONING AT SC        0.00         2,875.90
+A1003     2001973   11/22/19 27457    SYNERGY CONSULTING  416005456407500  6222     COMMISSIONING AT TR        0.00           579.30
+A1003     2001973   11/22/19 27457    SYNERGY CONSULTING  416051456407500  6222     COMMISSIONING AT SM        0.00         2,049.70
+TOTAL CHECK                                                                                                    0.00         5,504.90
+A1003     2001975   11/22/19 11561    T M P ARCHITECTURE  416009456407500  6220     WATTLES PH2                0.00         9,821.59
+A1003     2001975   11/22/19 11561    T M P ARCHITECTURE  416010456407500  6220     HILL PH2                   0.00        16,427.13
+A1003     2001975   11/22/19 11561    T M P ARCHITECTURE  416051456407500  6220     SMITH PH2                  0.00         1,225.47
+A1003     2001975   11/22/19 11561    T M P ARCHITECTURE  416005456407500  6220     TROY UNION PH2             0.00         1,661.49
+A1003     2001975   11/22/19 11561    T M P ARCHITECTURE  416011456407500  6220     SCHROEDER PH2              0.00         1,918.46
+A1003     2001975   11/22/19 11561    T M P ARCHITECTURE  416051456407500  6220     2013 BOND - DESIGN         0.00           585.00
+TOTAL CHECK                                                                                                    0.00        31,639.14
+A1003     2002013   11/27/19 10544    DATA IMAGE LLC      416053225407500  6410     EPSON 675W WITH WAL        0.00           858.00
+A1003     2002043   11/27/19 26835    LECOLE PLANNERS LLC 416668456407500  6224     SEPT 2019 SER2             0.00         3,000.00
+A1003     2002085   11/27/19 10177    STAPLES ADVANTAGE   416052456407500  6410     ADVANTA

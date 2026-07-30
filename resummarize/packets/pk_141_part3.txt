@@ -1,0 +1,1317 @@
+   3,610.00
+A1003     2003264   02/20/20 15979    TOTAL T'S           700071399907800  5000     GLS BKTBLL TEES            0.00         1,122.00
+A1003     2003267   02/20/20 25975    TRIPLE THREAD CUSTO 700070399732300  5000     2023 PWRPUFF TEES          0.00           431.00
+A1003     2003273   02/20/20 17651    VARSITY SHOP (THE)  700071399906800  5000     GLS SWIM/DIVE APPAR        0.00         4,232.85
+A1003     2003276   02/20/20 21063    YMCA STORER CAMPS   700008199719400  5000     GR5 CAMP REG FEE           0.00           900.00
+A1003     2003282   02/28/20 12254    ANN TENNISWOOD      700070399354400  5000     REIMBSPR MUS COSTUM        0.00           188.03
+A1003     2003287   02/28/20 11585    SPORT SUPPLY GROUP  700071399743600  5000     BOWLING SHIRTS             0.00         1,011.46
+A1003     2003299   02/28/20 26082    FIRST GROUP AMERICA 700053299393000  5000     BOULAN MODEL UN MSU        0.00           799.89
+A1003     2003299   02/28/20 26082    FIRST GROUP AMERICA 700011199900600  5000     SCHROEDER EMAGINE          0.00           209.99
+A1003     2003299   02/28/20 26082    FIRST GROUP AMERICA 700011199900600  5000     SCHROEDER POMEROY L        0.00           282.25
+A1003     2003299   02/28/20 26082    FIRST GROUP AMERICA 700008199393000  5000     LEONARD ROBOT GARAG        0.00           127.01
+TOTAL CHECK                                                                                                    0.00         1,419.14
+A1003     2003300   02/28/20 10751    FOLLETT SCHOOL SOLU 700011199708000  5000     PROVIDE ITEMS ON QU        0.00            18.32
+61
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 04/13/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:43:50                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='8' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 10/20
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2003300   02/28/20 10751    FOLLETT SCHOOL SOLU 700011199708000  5000     PROVIDE ITEMS ON QU        0.00            39.22
+TOTAL CHECK                                                                                                    0.00            57.54
+A1003     2003303   02/28/20 10869    GRAND TRAVERSE RESO 700071399710100  5000     ATHENS HOSA CONF           0.00         3,942.00
+A1003     2003305   02/28/20 28278    HAZEN RICHARD EDWAR 700009199719000  5000     WATTLES PAINTING           0.00           957.25
+A1003     2003306   02/28/20 10930    HOSA                700071399710100  5000     2020 MIHOSA LDRSHP         0.00         3,975.00
+A1003     2003306   02/28/20 10930    HOSA                700070399710100  5000     THS LDRSHP CONF            0.00         8,175.00
+TOTAL CHECK                                                                                                    0.00        12,150.00
+A1003     2003307   02/28/20 25784    HOT MIX LLC         700071399718000  5000     CHARITY DNCE 2/14/2        0.00         1,400.00
+A1003     2003310   02/28/20 19962    JENNIFER BURKE      700201699921000  5000     REIMB ICE TIME             0.00           670.00
+A1003     2003318   02/28/20 28086    WEST MI BASEBALL FR 700071399524000  5000     OPEN PO FOR ATHENS         0.00           157.68
+A1003     2003319   02/28/20 12254    MICHELLE SMALLEY    700070399906700  5000     REIMB THS BYS SWIM         0.00            52.69
+A1003     2003320   02/28/20 28180    NEUVILLE COACH COMP 700070399718000  5000     2/7 ST GOV FLD TRP         0.00           348.84
+A1003     2003326   02/28/20 21880    SERVICAR OF MICHIGA 700070399715500  5000     MODEL UN TRANS             0.00           720.00
+A1003     2003329   02/28/20 12254    STEFANIE RODEN      700070399354400  5000     REIMB DRAMA EXP            0.00           349.44
+A1003     2003329   02/28/20 12254    STEFANIE RODEN      700070399354400  5000     REIMB DRAMA EXP            0.00            70.34
+TOTAL CHECK                                                                                                    0.00           419.78
+A1003     2003331   02/28/20 19962    SUNIL BHATTAD       700052299347000  5000     REIMB SO EXPENSE           0.00            76.71
+A1003     2003334   02/28/20 27813    TAGGERWEAR INC      700070399911000  5000     OPEN PURCHASE ORDER        0.00           678.98
+A1003     2003334   02/28/20 27813    TAGGERWEAR INC      700070399911000  5000     OPEN PURCHASE ORDER        0.00           707.82
+A1003     2003334   02/28/20 27813    TAGGERWEAR INC      700070399911000  5000     OPEN PURCHASE ORDER        0.00           790.02
+A1003     2003334   02/28/20 27813    TAGGERWEAR INC      700070399911000  5000     OPEN PURCHASE ORDER        0.00           801.68
+TOTAL CHECK                                                                                                    0.00         2,978.50
+A1003     2003335   02/28/20 15979    TOTAL T'S           700071399718000  5000     CHARITY WK FEES            0.00         4,550.00
+A1003     2003338   02/28/20 25975    TRIPLE THREAD CUSTO 700070399718000  5000     THS ST GOV TEES            0.00           294.00
+A1003     W20-184   02/13/20 12140    MI STATE OF/DEPT OF 700070399524000  5000     JAN 2020 SALES TAX         0.00             1.80
+A1003     W20-184   02/13/20 12140    MI STATE OF/DEPT OF 700070399710500  5000     JAN 2020 SALES TAX         0.00            35.65
+A1003     W20-184   02/13/20 12140    MI STATE OF/DEPT OF 700071399737400  5000     JAN 2020 SALES TAX         0.00           245.59
+A1003     W20-184   02/13/20 12140    MI STATE OF/DEPT OF 700071399524000  5000     JAN 2020 SALES TAX         0.00             0.30
+A1003     W20-184   02/13/20 12140    MI STATE OF/DEPT OF 700071399323500  5000     JAN 2020 SALES TAX         0.00            20.09
+A1003     W20-184   02/13/20 12140    MI STATE OF/DEPT OF 700051299323500  5000     JAN 2020 SALES TAX         0.00             4.22
+TOTAL CHECK                                                                                                    0.00           307.65
+A1003    E2003316   02/28/20 12547    MARSHALL MUSIC CO   700070399351300  5000     THS BAND SUPPLY            0.00           826.10
+TOTAL CASH ACCOUNT                                                                                             0.00       106,916.40
+TOTAL FUND                                                                                                     0.00       106,916.40
+62
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   48
+DATE: 04/13/2020                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:43:50                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='20' and transact.period='8' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 10/20
+     FUND - 701 - ACTIVITY ACCOUNT
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     2003290   02/28/20 12244    BOYS & GIRLS CLUB O 701009199697100  5000     GR4 DONATION               0.00           525.15
+A1003     2003311   02/28/20 27830    KOMESHAK PAM        701885699697100  5000     SP ED PETTY CASH           0.00            30.00
+TOTAL CASH ACCOUNT                                                                                             0.00           555.15
+TOTAL FUND                                                                                                     0.00           555.15
+TOTAL REPORT                                                                                                   0.00     5,020,527.90
+63
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+General Fund
+ Funds 101, 120, 122
+For the period July 1, 2019 through  February 29, 2020
+Approved 
+Local Sources 41,293,293 38,632,896        93.56% 2,660,397
+State Sources 106,358,968 49,113,872        46.18% 57,245,096
+Federal Sources 3,878,165 184,147             4.75% 3,694,018
+Interdistrict Sources 8,304,687 3,752,224          45.18% 4,552,463
+Transfers In and Other 1,110,000 -                     0.00% 1,110,000
+Expenditures:
+Instruction:
+Basic Programs 86,009,550 44,571,152 51.82% 41,438,398
+Added Needs 21,939,709 11,304,007 51.52% 10,635,702
+Adult Education 969,637 642,458 66.26% 327,179
+Total Instruction 108,918,896 56,517,616 51.89% 52,401,280
+Support Services:
+Pupil  11,215,229 5,584,791 49.80% 5,630,438
+Instructional Staff 9,108,434 5,112,130 56.13% 3,996,304
+General Administration 1,152,968 682,630 59.21% 470,338
+School Administration 8,487,262 4,916,717 57.93% 3,570,545
+Business Services 1,686,502 1,058,369 62.76% 628,133
+Operations/Maintenance 11,537,422 7,594,721 65.83% 3,942,701
+Pupil Transportation 3,915,665 2,393,454 61.13% 1,522,211
+Central Services 3,294,608 1,951,699 59.24% 1,342,909
+Athletics 2,142,080 1,295,815 60.49% 846,265
+Total Support Services 52,540,170 30,590,326 58.22% 21,949,844
+Community Services 269,064 53,505 19.89% 215,559
+Outgoing Transfers / Other 500,000.00        -                     100.00% 500,000
+64
+Revenues:
+Budget
+3/17/20  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 160,945,113$    91,683,138$      56.97% 69,261,975$      
+Total Expenditures 162,228,130$    87,161,447$      53.73% 75,066,683$      
+Revenues Over (Under) Expenditures (1,283,017)$       4,521,691$        
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Consolidated Debt Service Funds 
+Funds 312, 314, 315, 316, 319
+For the period July 1, 2019 through  February 29, 2020
+Approved 
+Local Sources 16,255,086 16,037,396        98.66% 217,690
+State Sources 192,504 167,623             87.08% 24,881
+Expenditures:
+Principal 12,235,000 -                     0.00% 12,235,000
+Interest 5,503,110 2,720,862          49.44% 2,782,248
+Other Bond Expenditures 2,500 925                    37.00% 1,575
+65
+Revenues:
+Budget
+6/11/19  Actual 
+Percentage of 
+Budget
+Available 
+Budget
+Total Revenues 16,447,590$      16,205,019$      98.53% 242,571
+Total Expenditures 17,740,610$      2,721,787$        15.34% 15,018,823
+Revenues Over (Under) Expenditures (1,293,020)$       13,483,232$      
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Consolidated Special Revenue Funds 
+Funds 520, 529, 530, 531,535
+For the period July 1, 2019 through  February 29, 2020
+Local Sources 7,361,500          5,173,404          70.28% 2,188,096
+State Sources 167,000             94,115               56.36% 72,885
+Federal Sources 3,452,540          1,789,687          51.84% 1,662,853
+Expenditures:
+Salaries 2,619,944          1,520,972          58.05% 1,098,972
+Employee Benefits 1,415,031          823,886             58.22% 591,145
+Purchased Services 3,904,519          2,432,628          62.30% 1,471,891
+Supplies and Materials 1,503,376          1,070,356          71.20% 433,020
+Capital Outlay 371,500             184,902             49.77% 186,598
+Other 301,315             140,349             46.58% 160,966
+Transfers Out 1,165,000          -                     0.00% 1,165,000
+66
+Revenues:
+ Approved 
+Budget  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 10,981,040$      7,057,206$        64.27% 3,923,834$        
+Total Expenditures 11,280,685$      6,173,094$        54.72% 5,107,591$        
+Revenues Over (Under) Expenditures (299,645)$          884,112$           
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Special Revenue Fund - Food Service (520)
+For the period July 1, 2019 through  February 29, 2020
+ Approved 
+Local Sources 2,281,500          1,499,283          65.71% 782,217
+State Sources 107,000             52,285               48.86% 54,715
+Federal Sources 1,067,390          720,427             67.49% 346,963
+Expenditures:
+Salaries 70,500               47,060               66.75% 23,440
+Employee Benefits 5,400                 3,600                 66.67% 1,800
+Purchased Services 1,701,469          1,016,310          59.73% 685,159
+Supplies and Materials 1,301,476          925,236             71.09% 376,240
+Capital Outlay 306,500             180,615             58.93% 125,885
+Other 50,000               14,877               29.75% 35,123
+Transfers Out 20,000               -                     0.00% 20,000
+67
+Revenues:
+Budget
+6/11/19  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 3,455,890$        2,271,995$        65.74% 1,183,895$        
+Total Expenditures 3,455,345$        2,187,699$        63.31% 1,267,646$        
+Revenues Over (Under) Expenditures 545$                  84,296$             
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Special Revenue Fund - Troy Career Center (529)
+For the period July 1, 2019 through  February 29, 2020
+ Approved 
+State Sources 60,000               41,830               69.72% 18,170
+Federal Sources 2,385,150          1,069,259          44.83% 1,315,891
+Expenditures:
+Salaries 1,100,000          614,551             55.87% 485,449
+Employee Benefits 650,000             367,021             56.46% 282,979
+Purchased Services 545,150             337,120             61.84% 208,030
+Supplies and Materials     25,500               9,997                 39.20% 15,503
+Capital Outlay 65,000               4,287                 6.60% 60,713
+Other 14,500               6,819                 47.03% 7,681
+Transfers Out 45,000               -                     0.00% 45,000
+68
+Revenues:
+Budget
+6/11/19  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 2,445,150$        1,111,090$        45.44% 1,334,060$        
+Total Expenditures 2,445,150$        1,339,795$        54.79% 1,105,355$        
+Revenues Over (Under) Expenditures 0$                      (228,705)$          
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Special Revenue Fund - Community Service (530)
+For the period July 1, 2019 through  February 29, 2020
+ Approved 
+Local Sources 3,110,000          2,297,764          73.88% 812,236
+Expenditures:
+Salaries 704,199             430,029             61.07% 274,170
+Employee Benefits 359,003             215,901             60.14% 143,102
+Purchased Services 1,199,100          795,567             66.35% 403,533
+Supplies and Materials 80,300               63,890               79.56% 16,410
+Other 2,200                 1,209                 54.97% 991
+Transfers Out 1,100,000          -                     0.00% 1,100,000
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Special Revenue Fund - Troy Preschool Fund (531)
+For the period July 1, 2019 through  February 29, 2020
+ Approved 
+Local Sources 1,835,000          1,325,789          72.25% 509,211             
+Expenditures:
+Salaries 645,775             361,668             56.01% 284,107             
+Employee Benefits 340,418             196,703             57.78% 143,715             
+Purchased Services 457,800             283,264             61.87% 174,536             
+Supplies and Materials 95,000               71,233               74.98% 23,767               
+Other 234,615             117,443             50.06% 117,172             
+69
+Revenues:
+Budget
+3/17/20  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 3,110,000$        2,297,764$        73.88% 812,236$           
+Total Expenditures 3,444,802$        1,506,596$        43.74% 1,938,206$        
+Revenues Over (Under) Expenditures (334,802)$          791,167$           
+Revenues:
+Budget
+3/17/20  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 1,835,000$        1,325,789$        72.25% 509,211$           
+Total Expenditures 1,773,608$        1,030,311$        41.91% 743,297$           
+Revenues Over (Under) Expenditures 61,392$             295,478$           
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Facilities Rental Fund (535)
+For the period July 1, 2019 through  February 29, 2020
+ Approved 
+Local Sources 135,000             50,569               37.46% 84,431
+Expenditures:
+Salaries 99,470               67,665               68.03% 31,805
+Employee Benefits 60,210               40,661               67.53% 19,549
+Purchased Services 1,000                 367                    36.70% 633
+Supplies and Materials 1,100                 -                     0.00% 1,100
+70
+Revenues:
+Budget
+6/11/19  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenues 135,000$           50,569$             37.46% 84,431$             
+Total Expenditures 161,780$           108,693$           67.19% 53,087$             
+Revenues Over (Under) Expenditures (26,780)$            (58,124)$            
+Troy School District
+Statement of Revenues and Expenditures - Unaudited 
+Consolidated Capital Projects Funds 
+Funds 416, 418, 419, 420, 498, 499
+For the period July 1, 2019 through  February 29, 2020
+Approved 
+Local Sources 4,620,000          4,431,979          95.93% 188,021
+Proceeds from Bond Issuance -                     6,217,488          100.00% (6,217,488)
+Proceeds from Sale of Land 3,228,080          3,228,080          100.00% -                     
+Incoming Transfers 1,000,000          -                     0.00% 1,000,000
+Expenditures:
+Purchased Services 300,000             263,678 87.89% 36,322
+Capital Outlay 22,761,248 12,838,237 56.40% 9,923,011
+Outgoing Transfers and Other -                     90,584 0.00% 90,584
+71
+Revenues:
+Budget
+3/17/20  Actual 
+Percentage of
+Budget
+Available 
+Budget
+Total Revenue 8,848,080$        13,877,547$      156.84% (5,029,467)$       
+Total Expenditures 23,061,248$      13,192,500$      43.58% 10,049,917$      
+Revenues Over (Under) Expenditures (14,213,168)$     685,047$           
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+1/30/2020-AMAZON.COM N FEB PCARD EXPENSE 101008111100100 5110 29.07                          -                  
+2/3/2020-SSI SCHOOL S FEB PCARD EXPENSE 101008111100100 5110 16.02                          -                  
+2/3/2020-STAPLS722947 FEB PCARD EXPENSE 101008111100100 5110 27.52                          -                  
+2/3/2020-STAPLS722945 FEB PCARD EXPENSE 101008111100100 5110 175.74                        -                  
+2/13/2020-STAPLS722978 FEB PCARD EXPENSE 101008111100100 5110 65.06                          -                  
+2/17/2020-STAPLS722986 FEB PCARD EXPENSE 101008111100100 5110 363.17                        -                  
+2/27/2020-SSI SCHOOL S FEB PCARD EXPENSE 101008111100100 5110 335.56                        -                  
+2/27/2020-STAPLS723012 FEB PCARD EXPENSE 101008111100100 5110 30.30                          -                  
+1/28/2020-NASCO  FORT FEB PCARD EXPENSE 101008111351100 5110 20.55                          -                  
+1/28/2020-NASCO  FORT FEB PCARD EXPENSE 101008111351100 5110 182.19                        -                  
+2/20/2020-SIGNUPGENIUS FEB PCARD EXPENSE 101008241031000 5910 9.99                            -                  
+2/21/2020-STAPLS722999 FEB PCARD EXPENSE 101008241031000 5910 45.58                          -                  
+2/24/2020-STAPLS723001 FEB PCARD EXPENSE 101008241031000 5910 47.48                          -                  
+2/10/2020-AMAZON.COM B FEB PCARD EXPENSE 700008199324000 5000 84.46                          -                  
+2/12/2020-AMZN Mktp US FEB PCARD EXPENSE 700008199324000 5000 101.16                        -                  
+2/14/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199324000 5000 119.92                        -                  
+2/19/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199324000 5000 -                              119.92            
+2/20/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199324000 5000 119.92                        -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199324000 5000 5.46                            -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199324000 5000 380.94                        -                  
+2/17/2020-THE ROBOT GA FEB PCARD EXPENSE 700008199393000 5000 876.00                        -                  
+2/12/2020-AMZN Mktp US FEB PCARD EXPENSE 700008199667400 5000 29.95                          -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199667400 5000 138.93                        -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 700008199667400 5000 629.21                        -                  
+2/24/2020-OU MP STRATE FEB PCARD EXPENSE 101071221542000 3220 470.00                        -                  
+2/7/2020-TEACHERSPAYT FEB PCARD EXPENSE 700127399542000 5000 12.70                          -                  
+2/10/2020-TARGET      FEB PCARD EXPENSE 700127399542000 5000 16.47                          -                  
+2/25/2020-TEACHERSPAYT FEB PCARD EXPENSE 700127399542000 5000 24.52                          -                  
+2/13/2020-GREAT LAKES FEB PCARD EXPENSE 101071127544100 5110 190.00                        -                  
+1/28/2020-KROGER #463 FEB PCARD EXPENSE 101071127544100 5990 29.77                          -                  
+1/29/2020-GFS STORE #0 FEB PCARD EXPENSE 700071399737400 5000 27.98                          -                  
+2/3/2020-GFS STORE #0 FEB PCARD EXPENSE 700071399737400 5000 53.96                          -                  
+2/11/2020-KROGER #463 FEB PCARD EXPENSE 700071399737400 5000 8.48                            -                  
+2/24/2020-GFS STORE #0 FEB PCARD EXPENSE 700071399737400 5000 41.98                          -                  
+2/3/2020-Audible T09W FEB PCARD EXPENSE 101053112005300 5110 99.50                          -                  
+2/5/2020-Audible 1M0B FEB PCARD EXPENSE 101053112005300 5110 13.99                          -                  
+2/5/2020-Audible HJ7Z FEB PCARD EXPENSE 101053112005300 5110 10.46                          -                  
+2/5/2020-Audible HN6Q FEB PCARD EXPENSE 101053112005300 5110 12.00                          -                  
+2/5/2020-Audible 3W9S FEB PCARD EXPENSE 101053112005300 5110 7.34                            -                  
+1 4/15/2020
+72
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/5/2020-Audible AO1E FEB PCARD EXPENSE 101053112005300 5110 6.99                            -                  
+2/5/2020-Audible M97M FEB PCARD EXPENSE 101053112005300 5110 9.79                            -                  
+2/5/2020-Audible 4T0S FEB PCARD EXPENSE 101053112005300 5110 7.99                            -                  
+2/5/2020-Audible NH45 FEB PCARD EXPENSE 101053112005300 5110 10.46                          -                  
+2/5/2020-Audible 5N5W FEB PCARD EXPENSE 101053112005300 5110 12.24                          -                  
+2/5/2020-Audible XW0N FEB PCARD EXPENSE 101053112005300 5110 13.95                          -                  
+2/6/2020-AMAZON.COM 2 FEB PCARD EXPENSE 101053112005300 5110 48.18                          -                  
+2/26/2020-AMZN MKTP US FEB PCARD EXPENSE 101053241031000 5910 31.79                          -                  
+2/19/2020-IN  CUSTOM R FEB PCARD EXPENSE 101070127521000 5110 846.60                        -                  
+1/29/2020-AMWAY GRAND FEB PCARD EXPENSE 101070221521000 3220 379.50                        -                  
+1/31/2020-AMWAY GRAND FEB PCARD EXPENSE 101070221521000 3220 -                              22.80              
+1/31/2020-AMWAY GRAND FEB PCARD EXPENSE 101070221521000 3220 3.00                            -                  
+2/3/2020-EMU WEB PURC FEB PCARD EXPENSE 101071221510000 3220 148.00                        -                  
+2/3/2020-EMU WEB PURC FEB PCARD EXPENSE 101071221510000 3220 2,790.00                     -                  
+2/14/2020-EMU WEB PURC FEB PCARD EXPENSE 101071221510000 3220 74.00                          -                  
+2/20/2020-AMWAY GRAND FEB PCARD EXPENSE 101071221510000 3220 1,200.00                     -                  
+1/29/2020-GLAZIER CLIN FEB PCARD EXPENSE 101970283000000 3220 399.00                        -                  
+2/5/2020-MICHIGAN PUP FEB PCARD EXPENSE 101650284000000 3220 345.00                        -                  
+2/5/2020-MICHIGAN PUP FEB PCARD EXPENSE 101650284000000 3220 345.00                        -                  
+2/6/2020-GRAND TRAV R FEB PCARD EXPENSE 101650284000000 3220 504.39                        -                  
+2/6/2020-GRAND TRAV R FEB PCARD EXPENSE 101650284000000 3220 479.55                        -                  
+2/17/2020-PAYPAL  SHIJ FEB PCARD EXPENSE 101790225000000 4120 139.13                        -                  
+2/17/2020-PAYPAL  SHIJ FEB PCARD EXPENSE 101790225000000 4120 129.32                        -                  
+2/24/2020-CAROLINA BIO FEB PCARD EXPENSE 101071113340000 5110 280.58                        -                  
+2/25/2020-CAROLINA BIO FEB PCARD EXPENSE 101071113340000 5110 208.36                        -                  
+2/27/2020-AMZN Mktp US FEB PCARD EXPENSE 700071399708000 5000 13.34                          -                  
+2/27/2020-THE NATIONAL FEB PCARD EXPENSE 700071399708600 5000 410.00                        -                  
+1/30/2020-TCT ANDERSON FEB PCARD EXPENSE 700071399718000 5000 158.95                        -                  
+2/25/2020-FEDEX OFFIC4 FEB PCARD EXPENSE 700071399907800 5000 150.00                        -                  
+2/12/2020-ULTIMATE SOC FEB PCARD EXPENSE 700071399915800 5000 2,250.00                     -                  
+2/25/2020-FEDEX OFFIC4 FEB PCARD EXPENSE 700071399992000 5000 149.41                        -                  
+2/4/2020-FEDEX OFFIC4 FEB PCARD EXPENSE 101011111100100 5110 38.10                          -                  
+2/6/2020-RR BOOKS FEB PCARD EXPENSE 101011111100100 5110 598.50                        -                  
+2/7/2020-THE HOME DEP FEB PCARD EXPENSE 101011111100100 5110 50.82                          -                  
+2/25/2020-AMZN MKTP US FEB PCARD EXPENSE 101011111100100 5110 13.52                          -                  
+2/24/2020-EMAGINE ROCH FEB PCARD EXPENSE 700011199900600 5000 810.00                        -                  
+2/18/2020-GRANDSTAY HO FEB PCARD EXPENSE 700070399710100 5000 4,312.22                     -                  
+2/10/2020-PAPA ROMANOS FEB PCARD EXPENSE 700070399718000 5000 64.87                          -                  
+2/4/2020-AMZN MKTP US FEB PCARD EXPENSE 101050112351000 5110 21.65                          -                  
+2 4/15/2020
+73
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/10/2020-AMAZON.COM 0 FEB PCARD EXPENSE 101050112351000 5110 35.42                          -                  
+2/11/2020-AMZN MKTP US FEB PCARD EXPENSE 101050112351000 5110 23.15                          -                  
+2/12/2020-Amazon Prime FEB PCARD EXPENSE 101050112351000 5110 126.14                        -                  
+2/24/2020-J.W. PEPPER FEB PCARD EXPENSE 101050112351000 5110 218.68                        -                  
+2/24/2020-J.W. PEPPER FEB PCARD EXPENSE 101050112351000 5110 53.98                          -                  
+2/25/2020-AMAZON.COM O FEB PCARD EXPENSE 101051112340000 5110 28.63                          -                  
+2/25/2020-AMAZON.COM I FEB PCARD EXPENSE 101051112340000 5110 100.36                        -                  
+2/25/2020-AMZN MKTP US FEB PCARD EXPENSE 101051112340000 5110 54.03                          -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 101051241031000 5910 24.12                          -                  
+1/30/2020-AMZN Mktp US FEB PCARD EXPENSE 101051241031000 5910 70.49                          -                  
+2/10/2020-TST  NEW YOR FEB PCARD EXPENSE 101051241031000 5910 37.62                          -                  
+2/10/2020-KROGER #487 FEB PCARD EXPENSE 101051241031000 5910 49.56                          -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 101051241031000 5910 23.30                          -                  
+2/14/2020-KROGER #487 FEB PCARD EXPENSE 101051241031000 5910 34.93                          -                  
+1/30/2020-TROY DENTAL FEB PCARD EXPENSE 101310125387000 5110 585.00                        -                  
+1/31/2020-MDE EDUCATOR FEB PCARD EXPENSE 101310125387000 5110 45.00                          -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 101310125387000 5110 12.99                          -                  
+2/7/2020-AMAZON.COM 9 FEB PCARD EXPENSE 101310125387000 5990 35.78                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101310125387000 5990 18.79                          -                  
+1/30/2020-AMAZON.COM T FEB PCARD EXPENSE 101310221387000 3220 27.97                          -                  
+2/3/2020-AMAZON.COM R FEB PCARD EXPENSE 101310221387000 3220 101.96                        -                  
+2/14/2020-SHERATON ANN FEB PCARD EXPENSE 101620227000000 3220 249.90                        -                  
+2/5/2020-BILINGUAL DI FEB PCARD EXPENSE 101620227000000 5990 119.70                        -                  
+2/6/2020-IN  FOUR WAY FEB PCARD EXPENSE 101620227000000 5990 372.05                        -                  
+2/19/2020-BILINGUAL DI FEB PCARD EXPENSE 101620227000000 5990 273.35                        -                  
+2/7/2020-CROWNE PLAZA FEB PCARD EXPENSE 120324283601400 3220 286.20                        -                  
+1/31/2020-AMAZON.COM T FEB PCARD EXPENSE 700053299708000 5000 26.50                          -                  
+2/13/2020-AMAZON.COM C FEB PCARD EXPENSE 700053299708000 5000 93.30                          -                  
+2/6/2020-LIGHTSPEED T FEB PCARD EXPENSE 101015111100100 5110 7.00                            -                  
+2/11/2020-IN  CHARACTE FEB PCARD EXPENSE 101015111100100 5110 649.00                        -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101015111100100 5110 115.48                        -                  
+2/17/2020-THE ROBOT GA FEB PCARD EXPENSE 700015199393000 5000 432.00                        -                  
+2/3/2020-JETS PIZZA - FEB PCARD EXPENSE 700015199700000 5000 52.46                          -                  
+2/7/2020-VIMEO.COM FEB PCARD EXPENSE 700015199700000 5000 192.00                        -                  
+2/10/2020-JETS PIZZA - FEB PCARD EXPENSE 700015199700000 5000 44.91                          -                  
+2/10/2020-JETS PIZZA - FEB PCARD EXPENSE 700015199700000 5000 117.49                        -                  
+1/30/2020-AMZN Mktp US FEB PCARD EXPENSE 101013111100100 5110 66.87                          -                  
+1/31/2020-AMZN Mktp US FEB PCARD EXPENSE 101013111100100 5110 36.94                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 180.17                        -                  
+3 4/15/2020
+74
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 32.28                          -                  
+2/3/2020-AMAZON.COM 1 FEB PCARD EXPENSE 101013111100100 5110 32.71                          -                  
+2/4/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 60.48                          -                  
+2/4/2020-AMAZON.COM A FEB PCARD EXPENSE 101013111100100 5110 -                              211.96            
+2/5/2020-AMAZON.COM T FEB PCARD EXPENSE 101013111100100 5110 41.58                          -                  
+2/5/2020-AMAZON.COM C FEB PCARD EXPENSE 101013111100100 5110 127.11                        -                  
+2/5/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 182.49                        -                  
+2/5/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 66.43                          -                  
+2/6/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 9.99                            -                  
+2/6/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 115.97                        -                  
+2/6/2020-AMZN Mktp US FEB PCARD EXPENSE 101013111100100 5110 12.88                          -                  
+2/7/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 66.84                          -                  
+2/10/2020-PTCFAST, LLC FEB PCARD EXPENSE 101013111100100 5110 50.00                          -                  
+2/11/2020-AMAZON.COM U FEB PCARD EXPENSE 101013111100100 5110 7.48                            -                  
+2/13/2020-LEARNING GIZ FEB PCARD EXPENSE 101013111100100 5110 108.00                        -                  
+1/31/2020-AMAZON.COM 1 FEB PCARD EXPENSE 700013199700000 5000 198.90                        -                  
+2/10/2020-MHE MCGRAW-H FEB PCARD EXPENSE 700013199700000 5000 197.40                        -                  
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 700013199700000 5000 -                              5.69                
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 700013199700000 5000 -                              8.99                
+2/5/2020-AMAZON.COM G FEB PCARD EXPENSE 700013199708000 5000 243.90                        -                  
+2/13/2020-NATIONAL TRA FEB PCARD EXPENSE 700013199719400 5000 3,708.00                     -                  
+1/29/2020-USPS PO 2510 FEB PCARD EXPENSE 101070241020500 3430 6.95                            -                  
+2/10/2020-KROGER #487 FEB PCARD EXPENSE 700070399718000 5000 26.98                          -                  
+1/30/2020-EIG CONSTANT FEB PCARD EXPENSE 530201311020600 3510 8.71                            -                  
+2/5/2020-AMZN MKTP US FEB PCARD EXPENSE 530201311031000 5910 299.72                        -                  
+2/10/2020-AMAZON.COM G FEB PCARD EXPENSE 530201311031000 5910 40.01                          -                  
+2/10/2020-AMZN Mktp US FEB PCARD EXPENSE 530201311031000 5910 15.76                          -                  
+2/11/2020-WWW COSTCO C FEB PCARD EXPENSE 530201311031000 5910 86.15                          -                  
+1/28/2020-WWW COSTCO C FEB PCARD EXPENSE 530212351021200 5110 176.99                        -                  
+2/12/2020-AMAZON.COM U FEB PCARD EXPENSE 530212351021200 5110 14.98                          -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 5.30                            -                  
+2/13/2020-STATE OF MIC FEB PCARD EXPENSE 530212351021200 5110 125.00                        -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 73.56                          -                  
+2/13/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 20.62                          -                  
+2/13/2020-STATE OF MIC FEB PCARD EXPENSE 530212351021200 5110 150.00                        -                  
+2/14/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 20.62                          -                  
+2/17/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 5.88                            -                  
+2/17/2020-AMAZON.COM E FEB PCARD EXPENSE 530212351021200 5110 32.98                          -                  
+2/17/2020-AMAZON.COM G FEB PCARD EXPENSE 530212351021200 5110 47.80                          -                  
+4 4/15/2020
+75
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/18/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 8.73                            -                  
+2/18/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 19.93                          -                  
+2/18/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 25.71                          -                  
+2/18/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 48.64                          -                  
+2/18/2020-WWW COSTCO C FEB PCARD EXPENSE 530212351021200 5110 202.97                        -                  
+2/18/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 317.26                        -                  
+2/20/2020-AMAZON.COM N FEB PCARD EXPENSE 530212351021200 5110 326.18                        -                  
+2/20/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 59.98                          -                  
+2/20/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 15.93                          -                  
+2/20/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5110 17.71                          -                  
+2/21/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 306.05                        -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 13.96                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 188.72                        -                  
+2/25/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5110 303.70                        -                  
+2/25/2020-APPELBAUM TR FEB PCARD EXPENSE 530212351021200 5110 39.00                          -                  
+1/28/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 7.59                            -                  
+1/28/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5990 24.95                          -                  
+1/28/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5990 14.99                          -                  
+1/28/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5990 24.40                          -                  
+1/28/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 159.31                        -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 407.96                        -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 285.28                        -                  
+1/29/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5990 8.00                            -                  
+1/30/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 21.41                          -                  
+1/30/2020-AMZN Mktp US FEB PCARD EXPENSE 530212351021200 5990 12.14                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 69.06                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 146.52                        -                  
+2/5/2020-AMZN MKTP US FEB PCARD EXPENSE 530212351021200 5990 545.85                        -                  
+2/24/2020-PEPPYS PIZZA FEB PCARD EXPENSE 530212351021200 5990 42.36                          -                  
+1/28/2020-STATE OF MIC FEB PCARD EXPENSE 530212351021200 7410 125.00                        -                  
+1/30/2020-AMZN MKTP US FEB PCARD EXPENSE 101007111100100 5110 59.73                          -                  
+1/30/2020-STAPLS722938 FEB PCARD EXPENSE 101007111100100 5110 142.44                        -                  
+1/30/2020-AMAZON.COM Q FEB PCARD EXPENSE 101007111100100 5110 6.56                            -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101007111100100 5110 28.61                          -                  
+2/3/2020-STAPLS722950 FEB PCARD EXPENSE 101007111100100 5110 289.87                        -                  
+2/4/2020-Really Good FEB PCARD EXPENSE 101007111100100 5110 349.59                        -                  
+2/4/2020-AMZN MKTP US FEB PCARD EXPENSE 101007111100100 5110 8.15                            -                  
+2/5/2020-STAPLS722938 FEB PCARD EXPENSE 101007111100100 5110 71.90                          -                  
+2/5/2020-AMAZON.COM E FEB PCARD EXPENSE 101007111100100 5110 295.16                        -                  
+5 4/15/2020
+76
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/6/2020-STAPLS722950 FEB PCARD EXPENSE 101007111100100 5110 57.39                          -                  
+2/10/2020-TARGET      FEB PCARD EXPENSE 101007111100100 5110 15.87                          -                  
+2/10/2020-STAPLS722970 FEB PCARD EXPENSE 101007111100100 5110 62.41                          -                  
+2/14/2020-SSI SCHOOL S FEB PCARD EXPENSE 101007111100100 5110 280.56                        -                  
+2/14/2020-SP   NUGGETC FEB PCARD EXPENSE 101007111100100 5110 242.74                        -                  
+2/14/2020-STAPLS722983 FEB PCARD EXPENSE 101007111100100 5110 171.85                        -                  
+2/17/2020-STAPLS722987 FEB PCARD EXPENSE 101007111100100 5110 351.12                        -                  
+2/24/2020-STAPLS723000 FEB PCARD EXPENSE 101007111100100 5110 45.31                          -                  
+2/24/2020-STAPLS723000 FEB PCARD EXPENSE 101007111100100 5110 43.27                          -                  
+2/24/2020-STAPLS723000 FEB PCARD EXPENSE 101007111100100 5110 34.13                          -                  
+2/26/2020-STAPLS723008 FEB PCARD EXPENSE 101007111100100 5110 62.84                          -                  
+2/27/2020-STAPLS723000 FEB PCARD EXPENSE 101007111100100 5110 20.79                          -                  
+2/6/2020-STAPLS722950 FEB PCARD EXPENSE 101007221000700 5990 143.80                        -                  
+2/10/2020-MATTHAEI BOT FEB PCARD EXPENSE 700007199393000 5000 60.00                          -                  
+2/24/2020-WATCHDOGS US FEB PCARD EXPENSE 700007199393300 5000 49.11                          -                  
+2/6/2020-OAKLAND SCHO FEB PCARD EXPENSE 529202283660000 3220 15.00                          -                  
+2/6/2020-MACOMB COUNT FEB PCARD EXPENSE 529202283660000 3220 3.00                            -                  
+2/27/2020-MICHIGAN WOR FEB PCARD EXPENSE 529202283660000 3220 30.00                          -                  
+2/27/2020-MICHIGAN WOR FEB PCARD EXPENSE 529202283660000 3220 30.00                          -                  
+2/27/2020-MICHIGAN WOR FEB PCARD EXPENSE 529202283660000 3220 15.00                          -                  
+1/30/2020-NATIONAL SPA FEB PCARD EXPENSE 101053112005300 5110 415.00                        -                  
+2/6/2020-AMAZON.COM M FEB PCARD EXPENSE 101053112005300 5110 48.48                          -                  
+2/6/2020-PAYPAL  AATF FEB PCARD EXPENSE 101053112005300 5110 236.50                        -                  
+2/6/2020-AMAZON.COM 9 FEB PCARD EXPENSE 101053112005300 5110 22.26                          -                  
+2/7/2020-AMAZON.COM H FEB PCARD EXPENSE 101053112005300 5110 41.28                          -                  
+2/10/2020-AMAZON.COM Z FEB PCARD EXPENSE 101053112005300 5110 13.77                          -                  
+2/10/2020-AMAZON.COM A FEB PCARD EXPENSE 101053112005300 5110 -                              1.26                
+2/10/2020-OFFICEMAX/OF FEB PCARD EXPENSE 101053112005300 5110 85.39                          -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 101053112005300 5110 5.29                            -                  
+2/10/2020-AMAZON.COM A FEB PCARD EXPENSE 101053112005300 5110 -                              2.34                
+2/10/2020-AMAZON.COM Q FEB PCARD EXPENSE 101053112005300 5110 2.82                            -                  
+2/10/2020-AMAZON.COM A FEB PCARD EXPENSE 101053112005300 5110 -                              2.72                
+2/14/2020-Amazon Prime FEB PCARD EXPENSE 101053112005300 5110 13.77                          -                  
+2/24/2020-KROGER #757 FEB PCARD EXPENSE 101053112005300 5110 15.96                          -                  
+2/27/2020-KELVIN ELECT FEB PCARD EXPENSE 101053112005300 5110 250.00                        -                  
+2/12/2020-BIANCO TOURS FEB PCARD EXPENSE 700053299393000 5000 309.00                        -                  
+1/30/2020-AMAZON.COM A FEB PCARD EXPENSE 700053299700000 5000 -                              0.88                
+1/30/2020-AMZN Mktp US FEB PCARD EXPENSE 700053299700000 5000 -                              0.56                
+2/6/2020-KROGER #487 FEB PCARD EXPENSE 700053299700000 5000 18.44                          -                  
+6 4/15/2020
+77
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/10/2020-IN  MICHIGAN FEB PCARD EXPENSE 700053299700000 5000 930.00                        -                  
+2/24/2020-KROGER #757 FEB PCARD EXPENSE 700053299700000 5000 21.52                          -                  
+2/14/2020-HUNGRY HOWIE FEB PCARD EXPENSE 700053299718000 5000 144.79                        -                  
+2/26/2020-AMZN Mktp US FEB PCARD EXPENSE 700053299735200 5000 122.95                        -                  
+1/28/2020-KROGER #487 FEB PCARD EXPENSE 700053299990000 5000 8.96                            -                  
+1/29/2020-OFFICE DEPOT FEB PCARD EXPENSE 700127399542000 5000 91.56                          -                  
+1/29/2020-MEIJER # 065 FEB PCARD EXPENSE 700127399542000 5000 64.91                          -                  
+1/29/2020-OFFICEMAX/DE FEB PCARD EXPENSE 700127399542000 5000 22.41                          -                  
+2/4/2020-KROGER #463 FEB PCARD EXPENSE 700127399542000 5000 29.33                          -                  
+2/5/2020-ANN ARBOR HA FEB PCARD EXPENSE 700127399542000 5000 162.00                        -                  
+2/6/2020-DISCOUNTSCH FEB PCARD EXPENSE 700127399542000 5000 105.99                        -                  
+2/10/2020-GFS STORE #0 FEB PCARD EXPENSE 700127399542000 5000 81.86                          -                  
+2/11/2020-KROGER #757 FEB PCARD EXPENSE 700127399542000 5000 9.04                            -                  
+2/11/2020-TARGET      FEB PCARD EXPENSE 700127399542000 5000 55.98                          -                  
+2/12/2020-MEIJER # 065 FEB PCARD EXPENSE 700127399542000 5000 103.58                        -                  
+2/20/2020-ANN ARBOR HA FEB PCARD EXPENSE 700127399542000 5000 36.00                          -                  
+2/21/2020-MEIJER # 065 FEB PCARD EXPENSE 700127399542000 5000 67.96                          -                  
+2/25/2020-TARGET      FEB PCARD EXPENSE 700127399542000 5000 -                              55.98              
+2/26/2020-THE HOME DEP FEB PCARD EXPENSE 700127399542000 5000 3.40                            -                  
+2/26/2020-MEIJER # 065 FEB PCARD EXPENSE 700127399542000 5000 89.84                          -                  
+2/10/2020-AMAZON.COM F FEB PCARD EXPENSE 101400112040000 5990 59.16                          -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 101425221042600 3220 179.78                        -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 101425221042600 3220 179.78                        -                  
+2/12/2020-HYATT REGENC FEB PCARD EXPENSE 101425221042600 3220 539.34                        -                  
+2/13/2020-HYATT REGENC FEB PCARD EXPENSE 101425221042600 3220 719.12                        -                  
+2/13/2020-HYATT REGENC FEB PCARD EXPENSE 101425221042600 3220 719.12                        -                  
+2/5/2020-AUTOZONE 437 FEB PCARD EXPENSE 101070127579100 3110 17.99                          -                  
+1/29/2020-CINTAS  60A FEB PCARD EXPENSE 101070127579100 5990 97.10                          -                  
+1/29/2020-CINTAS  60A FEB PCARD EXPENSE 101070127579100 5990 202.01                        -                  
+1/30/2020-AUTOZONE 437 FEB PCARD EXPENSE 101070127579100 5990 52.47                          -                  
+1/30/2020-AUTOZONE 437 FEB PCARD EXPENSE 101070127579100 5990 -                              47.88              
+2/4/2020-THE HOME DEP FEB PCARD EXPENSE 101070127579100 5990 32.64                          -                  
+2/10/2020-AMAZON.COM T FEB PCARD EXPENSE 101070127579100 5990 199.00                        -                  
+2/14/2020-AUTOZONE 437 FEB PCARD EXPENSE 101070127579100 5990 36.98                          -                  
+2/18/2020-AMZN MKTP US FEB PCARD EXPENSE 101070127579100 5990 81.52                          -                  
+1/30/2020-AUTOZONE 437 FEB PCARD EXPENSE 700070399573000 5000 39.96                          -                  
+1/31/2020-AUTOZONE 437 FEB PCARD EXPENSE 700070399573000 5000 3.99                            -                  
+2/3/2020-AUTOZONE 437 FEB PCARD EXPENSE 700070399573000 5000 21.99                          -                  
+2/6/2020-AUTOZONE 437 FEB PCARD EXPENSE 700070399573000 5000 36.47                          -                  
+7 4/15/2020
+78
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+1/30/2020-USPS PO 2593 FEB PCARD EXPENSE 101689252093200 3510 7.09                            -                  
+2/10/2020-USPS PO 2519 FEB PCARD EXPENSE 101689252093200 3510 6.95                            -                  
+2/3/2020-THE HOME DEP FEB PCARD EXPENSE 101070127031200 5990 792.77                        -                  
+2/4/2020-GFS STORE #0 FEB PCARD EXPENSE 700070399524000 5000 406.98                        -                  
+2/3/2020-SAMSCLUB.COM FEB PCARD EXPENSE 101902261031000 5910 45.00                          -                  
+2/17/2020-AMZN Mktp US FEB PCARD EXPENSE 101902261031000 5910 28.75                          -                  
+2/24/2020-GRAINGER FEB PCARD EXPENSE 101902261849900 5990 325.98                        -                  
+1/29/2020-ULINE   SHIP FEB PCARD EXPENSE 101902261860300 5990 594.05                        -                  
+2/19/2020-AMZN MKTP US FEB PCARD EXPENSE 101902261860300 5990 19.06                          -                  
+2/19/2020-AMZN MKTP US FEB PCARD EXPENSE 101902261860300 5990 27.54                          -                  
+2/20/2020-AMZN MKTP US FEB PCARD EXPENSE 101902261860300 5990 27.54                          -                  
+2/3/2020-AMAZON.COM 9 FEB PCARD EXPENSE 101902261861500 5990 44.10                          -                  
+2/21/2020-AARONS LOCK FEB PCARD EXPENSE 101902261866000 5990 98.50                          -                  
+2/19/2020-BELSON OUTDO FEB PCARD EXPENSE 101904261870000 5990 1,460.97                     -                  
+2/7/2020-KROGER #464 FEB PCARD EXPENSE 101053112540000 5110 47.08                          -                  
+2/13/2020-KROGER #487 FEB PCARD EXPENSE 101053112540000 5110 15.32                          -                  
+2/17/2020-KROGER #487 FEB PCARD EXPENSE 101053112540000 5110 53.08                          -                  
+2/21/2020-KROGER #464 FEB PCARD EXPENSE 101053112540000 5110 56.70                          -                  
+2/24/2020-KROGER #487 FEB PCARD EXPENSE 101053112540000 5110 24.95                          -                  
+2/27/2020-GFS STORE #1 FEB PCARD EXPENSE 101053112540000 5110 98.41                          -                  
+1/29/2020-OAKLAND SCHO FEB PCARD EXPENSE 531004118000000 5110 15.00                          -                  
+2/6/2020-Scholastic, FEB PCARD EXPENSE 531004118000000 5110 477.00                        -                  
+2/11/2020-KROGER #743 FEB PCARD EXPENSE 531004118000000 5990 68.29                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 531004118000000 5990 17.98                          -                  
+2/24/2020-PANERA BREAD FEB PCARD EXPENSE 531004118000000 5990 18.54                          -                  
+1/28/2020-SSI SCHOOL S FEB PCARD EXPENSE 531004118620000 5110 888.40                        -                  
+2/10/2020-LITERACY RES FEB PCARD EXPENSE 531004118620000 5110 91.99                          -                  
+2/13/2020-AMAZON.COM D FEB PCARD EXPENSE 531004118620000 5110 30.98                          -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 531004118620000 5110 107.82                        -                  
+2/19/2020-LAKESHORE LE FEB PCARD EXPENSE 531004118620000 5110 896.74                        -                  
+2/20/2020-SSI SCHOOL S FEB PCARD EXPENSE 531004118620000 5110 256.99                        -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 531004118620000 5110 217.08                        -                  
+2/17/2020-TARGET      FEB PCARD EXPENSE 531004226000000 5990 16.94                          -                  
+2/24/2020-PANERA BREAD FEB PCARD EXPENSE 531004226000000 5990 37.08                          -                  
+2/11/2020-AMZN Mktp US FEB PCARD EXPENSE 531213351000000 5990 29.95                          -                  
+1/31/2020-KROGER #463 FEB PCARD EXPENSE 101071113340100 5110 6.98                            -                  
+2/4/2020-MEIJER # 055 FEB PCARD EXPENSE 101071113340100 5110 20.75                          -                  
+2/12/2020-KROGER #463 FEB PCARD EXPENSE 101071113340100 5110 18.17                          -                  
+2/13/2020-GFS STORE #0 FEB PCARD EXPENSE 101071113340100 5110 38.13                          -                  
+8 4/15/2020
+79
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/25/2020-KROGER #463 FEB PCARD EXPENSE 101071113340100 5110 5.78                            -                  
+2/3/2020-APPLE.COM/BI FEB PCARD EXPENSE 101570221057000 5990 14.99                          -                  
+2/5/2020-SAMS CLUB #6 FEB PCARD EXPENSE 101570221057000 5990 35.96                          -                  
+2/7/2020-NEWEGG INC FEB PCARD EXPENSE 101570221057000 5990 103.86                        -                  
+2/10/2020-AMAZON.COM 4 FEB PCARD EXPENSE 101570221057000 5990 9.98                            -                  
+2/12/2020-AMAZON.COM T FEB PCARD EXPENSE 101570221057000 5990 44.52                          -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 101570221057000 5990 5.75                            -                  
+2/24/2020-OFFICEMAX/DE FEB PCARD EXPENSE 101570221057000 5990 29.86                          -                  
+2/27/2020-SAMS CLUB #6 FEB PCARD EXPENSE 101570221057000 5990 40.23                          -                  
+2/27/2020-LOWES #02312 FEB PCARD EXPENSE 101570221057000 5990 38.34                          -                  
+1/28/2020-OFFICE DEPOT FEB PCARD EXPENSE 101570221057100 5990 195.77                        -                  
+2/4/2020-ADVANCED LIG FEB PCARD EXPENSE 101570221057100 5990 568.59                        -                  
+2/4/2020-DURST LUMBER FEB PCARD EXPENSE 101570221057100 5990 127.06                        -                  
+2/4/2020-OFFICEMAX/DE FEB PCARD EXPENSE 101570221057100 5990 86.07                          -                  
+2/17/2020-ADVANCED LIG FEB PCARD EXPENSE 101570221057100 5990 327.00                        -                  
+2/24/2020-OFFICEMAX/DE FEB PCARD EXPENSE 101570221057100 5990 139.97                        -                  
+2/24/2020-SAMS CLUB #6 FEB PCARD EXPENSE 101570221057100 5990 173.94                        -                  
+2/24/2020-THE HOME DEP FEB PCARD EXPENSE 101570221057100 5990 100.00                        -                  
+2/26/2020-NETFLIX.COM FEB PCARD EXPENSE 101570221057100 5990 15.99                          -                  
+2/13/2020-KROGER #487 FEB PCARD EXPENSE 101051112540000 5110 31.82                          -                  
+2/25/2020-KROGER #487 FEB PCARD EXPENSE 101051112540000 5110 57.31                          -                  
+1/28/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399715500 5000 21.18                          -                  
+2/3/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 8.56                            -                  
+2/7/2020-56 - LOU MAL FEB PCARD EXPENSE 700070399715500 5000 131.82                        -                  
+2/10/2020-HUB 51 FEB PCARD EXPENSE 700070399715500 5000 54.77                          -                  
+2/10/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 8.21                            -                  
+2/10/2020-PANERA BREAD FEB PCARD EXPENSE 700070399715500 5000 82.21                          -                  
+2/10/2020-PARLOR PIZZA FEB PCARD EXPENSE 700070399715500 5000 312.68                        -                  
+2/10/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 13.89                          -                  
+2/10/2020-FOODLIFE FEB PCARD EXPENSE 700070399715500 5000 51.21                          -                  
+2/10/2020-CAFE BA-BA R FEB PCARD EXPENSE 700070399715500 5000 67.43                          -                  
+2/10/2020-Broken Engli FEB PCARD EXPENSE 700070399715500 5000 34.64                          -                  
+2/10/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 10.24                          -                  
+2/10/2020-PANERA BREAD FEB PCARD EXPENSE 700070399715500 5000 82.21                          -                  
+2/10/2020-WILDBERRY CA FEB PCARD EXPENSE 700070399715500 5000 71.79                          -                  
+2/10/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 9.16                            -                  
+2/10/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 255.74                        -                  
+2/10/2020-GIORDANOS OF FEB PCARD EXPENSE 700070399715500 5000 134.87                        -                  
+2/10/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 13.42                          -                  
+9 4/15/2020
+80
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 721.95                        -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 507.12                        -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 507.12                        -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 612.78                        -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 507.12                        -                  
+2/11/2020-HYATT REGENC FEB PCARD EXPENSE 700070399715500 5000 507.12                        -                  
+2/17/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 5.00                            -                  
+2/17/2020-UBER   TRIP FEB PCARD EXPENSE 700070399715500 5000 12.60                          -                  
+2/24/2020-STARBUCKS FEB PCARD EXPENSE 700070399715500 5000 35.00                          -                  
+2/24/2020-STARBUCKS ST FEB PCARD EXPENSE 700070399715500 5000 20.00                          -                  
+2/24/2020-PAPA ROMANOS FEB PCARD EXPENSE 700070399715500 5000 154.98                        -                  
+2/25/2020-AMZN DIGITAL FEB PCARD EXPENSE 700070399715500 5000 9.99                            -                  
+2/27/2020-GRADUATE ANN FEB PCARD EXPENSE 700070399715500 5000 -                              242.67            
+2/6/2020-STAPLS722959 FEB PCARD EXPENSE 101071113007100 5110 33.44                          -                  
+2/21/2020-DECKER EQUIP FEB PCARD EXPENSE 101071113007100 5110 113.51                        -                  
+2/26/2020-AMAZON.COM V FEB PCARD EXPENSE 101071113007100 5110 13.99                          -                  
+2/26/2020-STAPLS723006 FEB PCARD EXPENSE 101071113007100 5110 55.80                          -                  
+2/3/2020-AMAZON.COM R FEB PCARD EXPENSE 101071113320100 5110 268.20                        -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101071113320100 5110 9.00                            -                  
+2/3/2020-STAPLS722947 FEB PCARD EXPENSE 101071113320100 5110 271.16                        -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 101071113340000 5110 13.85                          -                  
+2/17/2020-AMZN MKTP US FEB PCARD EXPENSE 101071113340000 5110 82.95                          -                  
+2/19/2020-CAROLINA BIO FEB PCARD EXPENSE 101071113340000 5110 155.46                        -                  
+2/13/2020-DECKER EQUIP FEB PCARD EXPENSE 101071113340500 5110 347.34                        -                  
+2/3/2020-DBC BLICK AR FEB PCARD EXPENSE 101071113353300 5110 331.85                        -                  
+2/4/2020-AMZN Mktp US FEB PCARD EXPENSE 101071113367000 5110 5.48                            -                  
+2/4/2020-AMZN Mktp US FEB PCARD EXPENSE 101071113367000 5110 8.02                            -                  
+2/5/2020-AMZN Mktp US FEB PCARD EXPENSE 101071113367000 5110 8.09                            -                  
+2/7/2020-AMAZON.COM F FEB PCARD EXPENSE 101071113367000 5110 30.83                          -                  
+2/3/2020-COMPANION CO FEB PCARD EXPENSE 101071221007100 5990 324.36                        -                  
+1/29/2020-OAKLAND SCHO FEB PCARD EXPENSE 101071221021500 3220 -                              35.00              
+2/20/2020-STAPLS722991 FEB PCARD EXPENSE 101071222708000 5110 35.04                          -                  
+2/14/2020-AMZN MKTP US FEB PCARD EXPENSE 700071399340000 5000 29.98                          -                  
+2/19/2020-UNDERGROUND FEB PCARD EXPENSE 700071399341000 5000 361.99                        -                  
+1/28/2020-AMZN MKTP US FEB PCARD EXPENSE 700071399341100 5000 18.99                          -                  
+2/6/2020-AMZN MKTP US FEB PCARD EXPENSE 700071399342500 5000 142.92                        -                  
+2/14/2020-PAYPAL  MEMO FEB PCARD EXPENSE 700071399350700 5000 150.00                        -                  
+1/28/2020-SHEETMUSICPL FEB PCARD EXPENSE 700071399351000 5000 7.98                            -                  
+1/31/2020-Amazon.com FEB PCARD EXPENSE 700071399367000 5000 -                              27.98              
+10 4/15/2020
+81
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 700071399367000 5000 17.98                          -                  
+2/20/2020-STAPLS722991 FEB PCARD EXPENSE 700071399708000 5000 42.41                          -                  
+2/14/2020-FILMFREEWAY FEB PCARD EXPENSE 700071399708600 5000 205.78                        -                  
+2/14/2020-PAYPAL  MIPA FEB PCARD EXPENSE 700071399708600 5000 44.00                          -                  
+2/25/2020-4IMPRINT FEB PCARD EXPENSE 700071399708600 5000 548.66                        -                  
+2/3/2020-UNDERGROUND FEB PCARD EXPENSE 700071399710000 5000 737.10                        -                  
+2/10/2020-HOLIDAY INN FEB PCARD EXPENSE 700071399710100 5000 157.50                        -                  
+1/28/2020-AMZN MKTP US FEB PCARD EXPENSE 700071399718000 5000 30.95                          -                  
+2/3/2020-SSI SCHOOL S FEB PCARD EXPENSE 700071399718000 5000 227.68                        -                  
+2/3/2020-AMZN Mktp US FEB PCARD EXPENSE 700071399718000 5000 39.94                          -                  
+2/24/2020-JETS PIZZA - FEB PCARD EXPENSE 700071399907800 5000 96.17                          -                  
+2/17/2020-MEIJER # 222 FEB PCARD EXPENSE 122070122110000 5110 4.39                            -                  
+1/31/2020-PIONEER VALL FEB PCARD EXPENSE 101012111100100 5110 99.90                          -                  
+2/11/2020-SSI SCHOOL S FEB PCARD EXPENSE 101012111100100 5110 536.13                        -                  
+2/11/2020-AMZN MKTP US FEB PCARD EXPENSE 101012111100100 5110 22.08                          -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 101012111100100 5110 12.00                          -                  
+1/30/2020-STAPLS722938 FEB PCARD EXPENSE 101012241031000 5910 67.38                          -                  
+1/31/2020-STAPLS722938 FEB PCARD EXPENSE 101012241031000 5910 7.99                            -                  
+2/11/2020-SSI SCHOOL S FEB PCARD EXPENSE 101012241031000 5910 50.06                          -                  
+2/21/2020-PTCFAST, LLC FEB PCARD EXPENSE 101012241031000 5910 50.00                          -                  
+2/24/2020-STAPLS722998 FEB PCARD EXPENSE 101012241031000 5910 528.69                        -                  
+1/30/2020-WWW.1AND1.CO FEB PCARD EXPENSE 700012199700000 5000 9.99                            -                  
+2/3/2020-ABSOPURE WAT FEB PCARD EXPENSE 700012199700000 5000 158.80                        -                  
+2/3/2020-BENITO S PIZ FEB PCARD EXPENSE 700012199700000 5000 16.00                          -                  
+2/3/2020-KROGER #757 FEB PCARD EXPENSE 700012199700000 5000 18.29                          -                  
+2/5/2020-AMAZON.COM Y FEB PCARD EXPENSE 700012199700000 5000 33.91                          -                  
+2/10/2020-GOOGLE  YouT FEB PCARD EXPENSE 700012199700000 5000 11.99                          -                  
+2/14/2020-BENITO S PIZ FEB PCARD EXPENSE 700012199700000 5000 93.00                          -                  
+2/20/2020-AMZN Mktp US FEB PCARD EXPENSE 700012199700000 5000 44.46                          -                  
+2/20/2020-AMAZON.COM E FEB PCARD EXPENSE 700012199700000 5000 23.35                          -                  
+1/28/2020-AMAZON.COM H FEB PCARD EXPENSE 700012199708000 5000 43.66                          -                  
+2/18/2020-AMAZON.COM L FEB PCARD EXPENSE 700012199708000 5000 41.72                          -                  
+1/29/2020-AMZN Mktp US FEB PCARD EXPENSE 700012199718000 5000 -                              21.14              
+2/14/2020-TST  EL CHAR FEB PCARD EXPENSE 701012199697100 5000 362.25                        -                  
+2/5/2020-AMAZON.COM S FEB PCARD EXPENSE 101051112005100 5110 20.79                          -                  
+2/13/2020-AMZN Mktp US FEB PCARD EXPENSE 101051112005100 5110 27.27                          -                  
+2/13/2020-STAPLS722980 FEB PCARD EXPENSE 101051112005100 5110 236.09                        -                  
+2/14/2020-AMERICAN FLA FEB PCARD EXPENSE 101051112005100 5110 67.51                          -                  
+2/20/2020-HSMICHIGAN FEB PCARD EXPENSE 101051112005100 5110 91.00                          -                  
+11 4/15/2020
+82
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/21/2020-STAPLS722980 FEB PCARD EXPENSE 101051112005100 5110 210.75                        -                  
+1/29/2020-AMAZON.COM O FEB PCARD EXPENSE 101051112320100 5110 24.33                          -                  
+2/3/2020-AMAZON.COM 8 FEB PCARD EXPENSE 101051112320100 5110 111.12                        -                  
+2/3/2020-AMAZON.COM C FEB PCARD EXPENSE 101051112320100 5110 82.52                          -                  
+2/6/2020-DEMCO INC FEB PCARD EXPENSE 101051112320100 5110 76.03                          -                  
+2/21/2020-AMAZON.COM U FEB PCARD EXPENSE 101051112340000 5110 37.12                          -                  
+2/5/2020-REVROBOTICS FEB PCARD EXPENSE 101051112349400 5110 224.69                        -                  
+2/7/2020-PITSCO INC FEB PCARD EXPENSE 101051112349400 5110 284.88                        -                  
+2/10/2020-LUCK'S MUSIC FEB PCARD EXPENSE 101051112352000 5110 57.67                          -                  
+2/17/2020-LUCK'S MUSIC FEB PCARD EXPENSE 101051112352000 5110 27.30                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101051112573000 5110 81.22                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101051112573000 5110 25.89                          -                  
+1/31/2020-AMZN MKTP US FEB PCARD EXPENSE 101051241031000 5910 85.59                          -                  
+2/20/2020-KROGER #487 FEB PCARD EXPENSE 101051241031000 5910 29.67                          -                  
+2/6/2020-AMZN MKTP US FEB PCARD EXPENSE 700051299718000 5000 60.28                          -                  
+1/30/2020-PANERA BREAD FEB PCARD EXPENSE 700015199700000 5000 36.21                          -                  
+1/31/2020-THE HOME DEP FEB PCARD EXPENSE 700015199700000 5000 11.83                          -                  
+2/5/2020-KROGER #685 FEB PCARD EXPENSE 700015199700000 5000 56.32                          -                  
+1/28/2020-AMZN MKTP US FEB PCARD EXPENSE 101050112005000 5110 96.38                          -                  
+1/31/2020-AMZN MKTP US FEB PCARD EXPENSE 101050112005000 5110 89.38                          -                  
+2/4/2020-AMZN Mktp US FEB PCARD EXPENSE 101050112005000 5110 195.00                        -                  
+2/7/2020-AMZN MKTP US FEB PCARD EXPENSE 101050112005000 5110 612.22                        -                  
+2/7/2020-LOWES #00907 FEB PCARD EXPENSE 101050112005000 5110 709.14                        -                  
+2/10/2020-STAPLS722968 FEB PCARD EXPENSE 101050112005000 5110 41.34                          -                  
+2/11/2020-AMAZON.COM M FEB PCARD EXPENSE 101050112005000 5110 87.99                          -                  
+2/21/2020-AMZN Mktp US FEB PCARD EXPENSE 101050112005000 5110 11.99                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101050112005000 5110 132.22                        -                  
+2/3/2020-SCHOOL HEALT FEB PCARD EXPENSE 101050221005000 5990 138.02                        -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 101050221005000 5990 75.20                          -                  
+2/21/2020-STAPLS722998 FEB PCARD EXPENSE 101050221005000 5990 412.25                        -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 101050241031000 5910 254.84                        -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101050241031000 5910 115.09                        -                  
+1/28/2020-AMZN Mktp US FEB PCARD EXPENSE 700050299668100 5000 38.54                          -                  
+1/28/2020-HUNGRY HOWIE FEB PCARD EXPENSE 700050299700000 5000 48.93                          -                  
+1/29/2020-FIVE BELOW 5 FEB PCARD EXPENSE 700050299700000 5000 203.03                        -                  
+2/10/2020-AMAZON.COM 8 FEB PCARD EXPENSE 700050299700000 5000 220.04                        -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 700050299700000 5000 90.79                          -                  
+2/17/2020-DEMCO INC FEB PCARD EXPENSE 700050299708000 5000 614.24                        -                  
+1/28/2020-KROGER #463 FEB PCARD EXPENSE 122883122231000 5110 52.28                          -                  
+12 4/15/2020
+83
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+1/30/2020-KROGER #487 FEB PCARD EXPENSE 122883122231000 5110 41.24                          -                  
+1/30/2020-SAMS CLUB #6 FEB PCARD EXPENSE 122883122231000 5110 77.99                          -                  
+2/5/2020-MEIJER # 057 FEB PCARD EXPENSE 122883122231000 5110 15.14                          -                  
+2/11/2020-KROGER #757 FEB PCARD EXPENSE 122883122231000 5110 16.30                          -                  
+2/12/2020-MEIJER # 260 FEB PCARD EXPENSE 122883122231000 5110 36.33                          -                  
+2/14/2020-MEIJER # 057 FEB PCARD EXPENSE 122883122231000 5110 26.44                          -                  
+2/20/2020-KROGER #463 FEB PCARD EXPENSE 122883122231000 5110 21.62                          -                  
+2/26/2020-MEIJER # 057 FEB PCARD EXPENSE 122883122231000 5110 50.01                          -                  
+2/26/2020-KROGER #757 FEB PCARD EXPENSE 122883122231000 5110 73.03                          -                  
+2/4/2020-THE ROBOT GA FEB PCARD EXPENSE 700883699701900 5000 199.00                        -                  
+2/5/2020-WAL-MART #28 FEB PCARD EXPENSE 700883699701900 5000 18.79                          -                  
+2/7/2020-PAYPAL  DIRE FEB PCARD EXPENSE 700883699701900 5000 275.00                        -                  
+2/24/2020-ALIBI LOUNGE FEB PCARD EXPENSE 101700231086000 3170 104.45                        -                  
+2/14/2020-MSBO FEB PCARD EXPENSE 101700283021500 3220 510.00                        -                  
+2/17/2020-LOWES #02305 FEB PCARD EXPENSE 700050299700000 5000 286.05                        -                  
+2/17/2020-LOWES #02305 FEB PCARD EXPENSE 700050299700000 5000 13.74                          -                  
+2/24/2020-LOWES #02305 FEB PCARD EXPENSE 700050299700000 5000 35.47                          -                  
+2/24/2020-LOWES #02305 FEB PCARD EXPENSE 700050299700000 5000 28.62                          -                  
+1/30/2020-ALIA'S RESTA FEB PCARD EXPENSE 101700231086000 3170 245.66                        -                  
+1/31/2020-ALIA'S RESTA FEB PCARD EXPENSE 101700231086000 3170 294.42                        -                  
+2/5/2020-BREAKAWAY DE FEB PCARD EXPENSE 101700231086000 3170 86.87                          -                  
+2/14/2020-BREAKAWAY DE FEB PCARD EXPENSE 101700231086000 3170 137.02                        -                  
+2/14/2020-BREAKAWAY DE FEB PCARD EXPENSE 101700231086000 3170 41.00                          -                  
+2/17/2020-JETS PIZZA - FEB PCARD EXPENSE 101700231086000 3170 98.72                          -                  
+2/20/2020-BREAKAWAY DE FEB PCARD EXPENSE 101700231086000 3170 167.78                        -                  
+2/26/2020-BREAKAWAY DE FEB PCARD EXPENSE 101700231086000 3170 77.04                          -                  
+2/14/2020-MSBO FEB PCARD EXPENSE 101700283021500 3220 510.00                        -                  
+2/14/2020-MSBO FEB PCARD EXPENSE 101700283021500 3220 680.00                        -                  
+2/14/2020-AMERICAN ARB FEB PCARD EXPENSE 101700283085900 7410 325.00                        -                  
+2/27/2020-ADOBE ECHOSI FEB PCARD EXPENSE 101700283646000 3190 3,750.00                     -                  
+1/30/2020-ARKANSAS FLA FEB PCARD EXPENSE 101052112005200 5110 168.87                        -                  
+1/30/2020-ARKANSAS FLA FEB PCARD EXPENSE 101052112005200 5110 56.55                          -                  
+2/5/2020-AMZN MKTP US FEB PCARD EXPENSE 101052112005200 5110 167.92                        -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 101052112005200 5110 10.79                          -                  
+2/25/2020-AMAZON.COM 5 FEB PCARD EXPENSE 101052112005200 5110 17.20                          -                  
+1/29/2020-JW MARRIOTT FEB PCARD EXPENSE 101425221042600 3220 460.76                        -                  
+1/29/2020-JW MARRIOTT FEB PCARD EXPENSE 101425221042600 3220 460.76                        -                  
+1/29/2020-JW MARRIOTT FEB PCARD EXPENSE 101425221042600 3220 396.76                        -                  
+2/10/2020-MARSHALL MUS FEB PCARD EXPENSE 416590456407500 6410 555.00                        -                  
+13 4/15/2020
+84
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+1/31/2020-U-HAUL-CTR-T FEB PCARD EXPENSE 700070399354400 5000 189.50                        -                  
+2/3/2020-U-HAUL-CTR-T FEB PCARD EXPENSE 700070399354400 5000 39.74                          -                  
+2/5/2020-SP   FERRECC FEB PCARD EXPENSE 700070399354400 5000 429.90                        -                  
+2/6/2020-WWW.SIXSTARU FEB PCARD EXPENSE 700070399354400 5000 90.00                          -                  
+2/10/2020-HISTORICAL E FEB PCARD EXPENSE 700070399354400 5000 145.06                        -                  
+2/10/2020-SP   H-HOUSE FEB PCARD EXPENSE 700070399354400 5000 82.46                          -                  
+2/14/2020-THE HOME DEP FEB PCARD EXPENSE 700070399354400 5000 3.46                            -                  
+2/19/2020-HOBBY LOBBY FEB PCARD EXPENSE 700070399354400 5000 9.97                            -                  
+2/19/2020-THE HOME DEP FEB PCARD EXPENSE 700070399354400 5000 -                              3.46                
+2/19/2020-THE HOME DEP FEB PCARD EXPENSE 700070399354400 5000 54.20                          -                  
+2/20/2020-THE HOME DEP FEB PCARD EXPENSE 700070399354400 5000 24.78                          -                  
+2/20/2020-SIGNARAMA TR FEB PCARD EXPENSE 700070399354400 5000 124.00                        -                  
+2/27/2020-SP   BLACKTI FEB PCARD EXPENSE 700070399354400 5000 59.95                          -                  
+1/28/2020-CHARACTERORG FEB PCARD EXPENSE 101009241031000 5910 249.00                        -                  
+2/4/2020-SMK SURVEYMO FEB PCARD EXPENSE 101009241031000 5910 276.00                        -                  
+2/6/2020-CHARACTERORG FEB PCARD EXPENSE 101009241031000 5910 250.00                        -                  
+2/17/2020-SHERWIN WILL FEB PCARD EXPENSE 101902261860300 5990 1,928.87                     -                  
+1/30/2020-TST  THE GRE FEB PCARD EXPENSE 700009199700000 5000 389.00                        -                  
+2/19/2020-USPS PO 2576 FEB PCARD EXPENSE 700009199700000 5000 8.25                            -                  
+1/30/2020-ARC LAKESIDE FEB PCARD EXPENSE 101101231031200 5990 31.99                          -                  
+2/3/2020-DELTA     00 FEB PCARD EXPENSE 101101231101000 3210 30.00                          -                  
+1/30/2020-NATIONAL SCH FEB PCARD EXPENSE 101101231101000 3220 -                              620.00            
+1/31/2020-MARRIOTT MAR FEB PCARD EXPENSE 101101231101000 3220 -                              309.21            
+2/4/2020-MARRIOTT MAR FEB PCARD EXPENSE 101101231101000 3220 20.91                          -                  
+2/6/2020-MARRIOTT MAR FEB PCARD EXPENSE 101101231101000 3220 673.37                        -                  
+2/7/2020-MICHIGANASS FEB PCARD EXPENSE 101101231101000 3220 180.00                        -                  
+2/7/2020-MARRIOTT MAR FEB PCARD EXPENSE 101101231101000 3220 996.83                        -                  
+2/17/2020-MICHIGANASS FEB PCARD EXPENSE 101101231101000 3220 -                              55.00              
+2/20/2020-MICHIGANASS FEB PCARD EXPENSE 101101231101000 3220 360.00                        -                  
+2/17/2020-SQ  OAKLAND FEB PCARD EXPENSE 101101231101000 7410 83.69                          -                  
+2/18/2020-PAYPAL  TROY FEB PCARD EXPENSE 101101231101000 7410 28.00                          -                  
+2/19/2020-OAKLAND SCHO FEB PCARD EXPENSE 101101231101000 7410 70.00                          -                  
+1/28/2020-MARKETING TO FEB PCARD EXPENSE 101150232031200 5990 1,160.40                     -                  
+1/30/2020-LOWES #01779 FEB PCARD EXPENSE 101150232031200 5990 12.17                          -                  
+1/31/2020-AMZN Mktp US FEB PCARD EXPENSE 101150232031200 5990 158.99                        -                  
+2/3/2020-WAL-MART #25 FEB PCARD EXPENSE 101150232031200 5990 129.00                        -                  
+2/10/2020-TREVARROW AC FEB PCARD EXPENSE 101150232031200 5990 16.09                          -                  
+2/14/2020-AMZN Mktp US FEB PCARD EXPENSE 101150232031200 5990 -                              151.52            
+2/3/2020-IN  ELITE TR FEB PCARD EXPENSE 101150232090000 3210 108.00                        -                  
+14 4/15/2020
+85
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/10/2020-SHEPLERS INC FEB PCARD EXPENSE 101150232090000 3210 25.00                          -                  
+2/18/2020-PAYPAL  TROY FEB PCARD EXPENSE 101150232090000 7410 28.00                          -                  
+2/6/2020-MARRIOTT MAR FEB PCARD EXPENSE 101150283090000 3220 618.45                        -                  
+2/11/2020-DETROIT REGI FEB PCARD EXPENSE 101150283090000 3220 3,100.00                     -                  
+2/11/2020-THE INN AT S FEB PCARD EXPENSE 101150283090000 3220 1,193.67                     -                  
+2/6/2020-MARRIOTT MAR FEB PCARD EXPENSE 101400283090200 3220 611.27                        -                  
+1/30/2020-KROGER #463 FEB PCARD EXPENSE 701150699999900 5000 54.10                          -                  
+1/29/2020-ULINE   SHIP FEB PCARD EXPENSE 101902261031000 5910 4,620.00                     -                  
+1/30/2020-AARONS LOCK FEB PCARD EXPENSE 101902261031000 5910 80.00                          -                  
+1/28/2020-Presto Music FEB PCARD EXPENSE 101051112352000 5110 -                              62.15              
+1/28/2020-INTERNATIONA FEB PCARD EXPENSE 101051112352000 5110 -                              0.50                
+2/10/2020-LYFT    RIDE FEB PCARD EXPENSE 101005111033300 5110 9.63                            -                  
+2/10/2020-LYFT    RIDE FEB PCARD EXPENSE 101005111033300 5110 11.89                          -                  
+2/10/2020-#52 THE GUIL FEB PCARD EXPENSE 101005111033300 5110 32.25                          -                  
+2/11/2020-HMM GREENWOO FEB PCARD EXPENSE 101005111033300 5110 45.50                          -                  
+2/11/2020-SOLUTION TRE FEB PCARD EXPENSE 101005111033300 5110 63.55                          -                  
+2/11/2020-HMM GREENWOO FEB PCARD EXPENSE 101005111033300 5110 42.88                          -                  
+2/12/2020-LOCAL CANTIN FEB PCARD EXPENSE 101005111033300 5110 18.90                          -                  
+2/12/2020-HYATT REGENC FEB PCARD EXPENSE 101005111033300 5110 13.98                          -                  
+2/12/2020-HYATT REGENC FEB PCARD EXPENSE 101005111033300 5110 18.59                          -                  
+2/13/2020-HYATT REGENC FEB PCARD EXPENSE 101005111033300 5110 547.34                        -                  
+2/13/2020-HYATT REGENC FEB PCARD EXPENSE 101005111033300 5110 539.34                        -                  
+2/13/2020-HYATT REGENC FEB PCARD EXPENSE 101005111033300 5110 4.00                            -                  
+2/13/2020-HYATT REGENC FEB PCARD EXPENSE 101005111033300 5110 11.56                          -                  
+2/10/2020-HYATT REGENC FEB PCARD EXPENSE 101300221011100 3220 49.93                          -                  
+2/10/2020-#33 MARCELLA FEB PCARD EXPENSE 101300221011100 3220 136.09                        -                  
+2/12/2020-HYATT REGENC FEB PCARD EXPENSE 101300221011100 3220 208.78                        -                  
+2/3/2020-DIME STORE FEB PCARD EXPENSE 701150699999900 5000 19.31                          -                  
+2/5/2020-PIRTEK STERL FEB PCARD EXPENSE 101902261857000 5730 195.99                        -                  
+1/31/2020-ROSY BROS IN FEB PCARD EXPENSE 101904261870000 4120 812.20                        -                  
+2/6/2020-MIKE SAVOIE FEB PCARD EXPENSE 101904261870000 4130 1,699.35                     -                  
+2/10/2020-MULTISTATE T FEB PCARD EXPENSE 101904261870000 4130 1,807.05                     -                  
+2/24/2020-BEACON ATHLE FEB PCARD EXPENSE 101904261870000 6410 4,281.00                     -                  
+2/3/2020-AMAZON.COM G FEB PCARD EXPENSE 101010111100100 5110 60.18                          -                  
+2/3/2020-LOWES #01779 FEB PCARD EXPENSE 101010111100100 5110 -                              10.40              
+2/3/2020-LOWES #01779 FEB PCARD EXPENSE 101010111100100 5110 -                              9.63                
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101010111100100 5110 47.05                          -                  
+2/5/2020-STAPLS722953 FEB PCARD EXPENSE 101010111100100 5110 53.09                          -                  
+2/12/2020-COSTCO  PHOT FEB PCARD EXPENSE 101010111100100 5110 23.05                          -                  
+15 4/15/2020
+86
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/13/2020-STAPLS722979 FEB PCARD EXPENSE 101010111100100 5110 87.20                          -                  
+2/14/2020-STAPLS722983 FEB PCARD EXPENSE 101010111100100 5110 80.79                          -                  
+2/17/2020-AMAZON.COM I FEB PCARD EXPENSE 101010111100100 5110 479.97                        -                  
+2/17/2020-AMAZON.COM E FEB PCARD EXPENSE 101010111100100 5110 179.98                        -                  
+2/17/2020-AMAZON.COM X FEB PCARD EXPENSE 101010111100100 5110 159.99                        -                  
+2/19/2020-TIGER MEDICA FEB PCARD EXPENSE 101010111100100 5110 1,038.26                     -                  
+2/20/2020-WALGREENS #5 FEB PCARD EXPENSE 101010111100100 5110 32.91                          -                  
+2/21/2020-THE HOME DEP FEB PCARD EXPENSE 101010111100100 5110 34.24                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101010111100100 5110 7.59                            -                  
+2/24/2020-STAPLS723001 FEB PCARD EXPENSE 101010111100100 5110 63.30                          -                  
+2/26/2020-AMAZON.COM U FEB PCARD EXPENSE 101010111100100 5110 130.52                        -                  
+2/26/2020-AMAZON.COM M FEB PCARD EXPENSE 101010111100100 5110 16.80                          -                  
+2/10/2020-DBC BLICK AR FEB PCARD EXPENSE 101010111350500 5110 132.86                        -                  
+2/11/2020-DBC BLICK AR FEB PCARD EXPENSE 101010111350500 5110 175.92                        -                  
+2/19/2020-DBC BLICK AR FEB PCARD EXPENSE 101010111350500 5110 337.31                        -                  
+2/3/2020-LOWES #01779 FEB PCARD EXPENSE 101010241031000 5910 -                              2.52                
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 101010241031000 5910 23.99                          -                  
+2/20/2020-MICHAELS STO FEB PCARD EXPENSE 101010241031000 5910 5.63                            -                  
+2/21/2020-AMZN MKTP US FEB PCARD EXPENSE 101010241031000 5910 25.98                          -                  
+2/21/2020-AMAZON.COM F FEB PCARD EXPENSE 101010241031000 5910 17.99                          -                  
+2/27/2020-AMZN Mktp US FEB PCARD EXPENSE 101010241031000 5910 14.57                          -                  
+1/28/2020-AMAZON.COM Z FEB PCARD EXPENSE 700010199667400 5000 25.38                          -                  
+1/29/2020-AMAZON.COM S FEB PCARD EXPENSE 700010199667400 5000 10.58                          -                  
+1/30/2020-AMAZON.COM 5 FEB PCARD EXPENSE 700010199667400 5000 21.16                          -                  
+1/30/2020-Scholastic, FEB PCARD EXPENSE 700010199667400 5000 98.00                          -                  
+2/6/2020-Scholastic E FEB PCARD EXPENSE 700010199667400 5000 39.24                          -                  
+2/20/2020-Scholastic E FEB PCARD EXPENSE 700010199667400 5000 355.71                        -                  
+1/28/2020-AMZN Mktp US FEB PCARD EXPENSE 700010199700000 5000 79.75                          -                  
+1/28/2020-AMAZON.COM F FEB PCARD EXPENSE 700010199700000 5000 107.92                        -                  
+1/30/2020-FIRST CHOICE FEB PCARD EXPENSE 700010199700000 5000 35.00                          -                  
+2/5/2020-MACOMB PERFO FEB PCARD EXPENSE 700010199900100 5000 369.00                        -                  
+2/24/2020-BLUE LAKES C FEB PCARD EXPENSE 700010199900500 5000 412.00                        -                  
+2/3/2020-Spotify USA FEB PCARD EXPENSE 101928282000000 3450 14.99                          -                  
+2/10/2020-AMAZON.COM 8 FEB PCARD EXPENSE 101928282000000 5990 378.89                        -                  
+2/13/2020-WAYFAIR WAYF FEB PCARD EXPENSE 101928282000000 5990 1,824.94                     -                  
+2/14/2020-WAYFAIR WAYF FEB PCARD EXPENSE 101928282000000 5990 1,059.99                     -                  
+2/19/2020-STAPLS722981 FEB PCARD EXPENSE 101928282000000 5990 289.78                        -                  
+2/7/2020-RIDLEYS BA  FEB PCARD EXPENSE 101928282000000 7910 52.10                          -                  
+2/7/2020-ACCENT FLORI FEB PCARD EXPENSE 101928282000000 7910 80.00                          -                  
+16 4/15/2020
+87
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+1/30/2020-GAZETTE MEDI FEB PCARD EXPENSE 101928282087400 3510 850.00                        -                  
+2/3/2020-C & G PUBLIS FEB PCARD EXPENSE 101928282087400 3510 10,874.02                   -                  
+2/7/2020-GAZETTE MEDI FEB PCARD EXPENSE 101928282087400 3510 1,700.00                     -                  
+2/10/2020-C & G PUBLIS FEB PCARD EXPENSE 101928282087400 3510 1,697.00                     -                  
+2/26/2020-C & G PUBLIS FEB PCARD EXPENSE 101928282087400 3510 3,394.00                     -                  
+2/7/2020-OAKLAND SCHO FEB PCARD EXPENSE 101206113040000 5110 80.00                          -                  
+2/17/2020-AMAZON.COM 7 FEB PCARD EXPENSE 101206113040000 5110 168.08                        -                  
+1/31/2020-AMAZON.COM Q FEB PCARD EXPENSE 531004118000000 5110 5.98                            -                  
+2/6/2020-GBC E-COMMER FEB PCARD EXPENSE 531004118000000 5110 130.30                        -                  
+2/7/2020-SSI SCHOOL S FEB PCARD EXPENSE 531004118000000 5110 850.37                        -                  
+2/7/2020-OAKLAND SCHO FEB PCARD EXPENSE 531004118000000 5110 -                              80.00              
+2/18/2020-SSI SCHOOL S FEB PCARD EXPENSE 531004118000000 5110 75.36                          -                  
+2/20/2020-GARAGE FEB PCARD EXPENSE 531004118000000 5110 28.95                          -                  
+2/6/2020-AMZN MKTP US FEB PCARD EXPENSE 531004118000000 5990 345.06                        -                  
+2/10/2020-AMZN Mktp US FEB PCARD EXPENSE 531004118000000 5990 79.50                          -                  
+2/12/2020-AMAZON.COM I FEB PCARD EXPENSE 531004118000000 5990 128.85                        -                  
+2/12/2020-AMZN MKTP US FEB PCARD EXPENSE 531004118000000 5990 29.26                          -                  
+2/26/2020-PFG PROFORMA FEB PCARD EXPENSE 531004118000000 5990 770.00                        -                  
+2/27/2020-G2GCHARGE.CO FEB PCARD EXPENSE 531004118000000 5990 439.75                        -                  
+1/30/2020-AMAZON.COM W FEB PCARD EXPENSE 101052112005200 5110 187.48                        -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101052112005200 5110 257.25                        -                  
+2/4/2020-AMAZON.COM U FEB PCARD EXPENSE 101052112005200 5110 85.74                          -                  
+2/5/2020-PAYPAL  AATF FEB PCARD EXPENSE 101052112005200 5110 99.00                          -                  
+2/11/2020-PAYPAL  SANE FEB PCARD EXPENSE 101052112005200 5110 106.93                        -                  
+2/12/2020-ANTHEM SPRT FEB PCARD EXPENSE 101052112005200 5110 301.08                        -                  
+2/13/2020-AMAZON.COM E FEB PCARD EXPENSE 101052112005200 5110 8.36                            -                  
+2/25/2020-ANTHEM SPRT FEB PCARD EXPENSE 101052112005200 5110 -                              17.04              
+2/25/2020-AMAZON.COM 4 FEB PCARD EXPENSE 101052112005200 5110 16.99                          -                  
+2/14/2020-PAYPAL  OAKL FEB PCARD EXPENSE 101052221021500 3220 10.00                          -                  
+2/14/2020-PAYPAL  OAKL FEB PCARD EXPENSE 101052221021500 3220 10.00                          -                  
+2/17/2020-OAKLAND SCHO FEB PCARD EXPENSE 101052221021500 3220 20.00                          -                  
+2/7/2020-STAPLS722964 FEB PCARD EXPENSE 101052241031000 5910 111.09                        -                  
+2/26/2020-FESTIVALS OF FEB PCARD EXPENSE 700052299351000 5000 100.00                        -                  
+2/26/2020-FESTIVALS OF FEB PCARD EXPENSE 700052299352000 5000 100.00                        -                  
+1/29/2020-UNITED NATIO FEB PCARD EXPENSE 700052299700000 5000 1,083.75                     -                  
+1/30/2020-TST  RENEE S FEB PCARD EXPENSE 700052299700000 5000 41.84                          -                  
+1/30/2020-PAYPAL  MISC FEB PCARD EXPENSE 700052299700000 5000 75.00                          -                  
+1/31/2020-BENITO S PIZ FEB PCARD EXPENSE 700052299700000 5000 191.50                        -                  
+2/7/2020-EINSTEIN BRO FEB PCARD EXPENSE 700052299700000 5000 51.92                          -                  
+17 4/15/2020
+88
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/7/2020-TIM HORTONS FEB PCARD EXPENSE 700052299700000 5000 85.41                          -                  
+2/20/2020-TST  RENEE S FEB PCARD EXPENSE 700052299700000 5000 38.66                          -                  
+2/21/2020-BENITO S PIZ FEB PCARD EXPENSE 700052299700000 5000 172.00                        -                  
+2/26/2020-SEFMD (SCIEN FEB PCARD EXPENSE 700052299700000 5000 90.00                          -                  
+1/31/2020-AMZN MKTP US FEB PCARD EXPENSE 700052299708800 5000 36.98                          -                  
+2/4/2020-EZONCAMPUSFU FEB PCARD EXPENSE 700052299718000 5000 523.80                        -                  
+2/14/2020-AMZN MKTP US FEB PCARD EXPENSE 122883122231000 5110 34.99                          -                  
+2/21/2020-AMAZON.COM 7 FEB PCARD EXPENSE 122883122231000 5110 38.94                          -                  
+2/3/2020-AMAZON.COM V FEB PCARD EXPENSE 700883699667100 5000 15.59                          -                  
+2/3/2020-AMAZON.COM U FEB PCARD EXPENSE 700883699701900 5000 33.51                          -                  
+2/14/2020-AMAZON.COM A FEB PCARD EXPENSE 700883699701900 5000 -                              33.51              
+2/19/2020-KROGER #729 FEB PCARD EXPENSE 101050112005000 5110 25.48                          -                  
+2/26/2020-WM SUPERCENT FEB PCARD EXPENSE 101050112005000 5110 48.34                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101180222374100 5110 35.99                          -                  
+2/6/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 123.88                        -                  
+2/6/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 125.99                        -                  
+2/6/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 110.15                        -                  
+2/10/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 125.67                        -                  
+2/17/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 122.62                        -                  
+2/19/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 89.85                          -                  
+2/24/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 120.86                        -                  
+2/27/2020-DEMCO INC FEB PCARD EXPENSE 101180222374100 5110 111.77                        -                  
+2/12/2020-STAPLS722976 FEB PCARD EXPENSE 101180222374200 5110 32.41                          -                  
+2/12/2020-THE LIBRARY FEB PCARD EXPENSE 101180222374200 5110 111.18                        -                  
+2/13/2020-THE LIBRARY FEB PCARD EXPENSE 101180222374200 5110 111.18                        -                  
+2/13/2020-THE LIBRARY FEB PCARD EXPENSE 101180222374200 5110 -                              6.29                
+2/14/2020-DEMCO INC FEB PCARD EXPENSE 101180222374200 5110 138.34                        -                  
+2/14/2020-STAPLS722983 FEB PCARD EXPENSE 101180222374200 5110 18.19                          -                  
+2/14/2020-THE LIBRARY FEB PCARD EXPENSE 101180222374200 5110 -                              6.29                
+2/17/2020-DEMCO INC FEB PCARD EXPENSE 101180222374200 5110 347.95                        -                  
+2/20/2020-DEMCO INC FEB PCARD EXPENSE 101180222374200 5110 348.04                        -                  
+2/21/2020-DEMCO INC FEB PCARD EXPENSE 101180222374200 5110 72.95                          -                  
+2/24/2020-DEMCO INC FEB PCARD EXPENSE 101180222374200 5110 215.04                        -                  
+2/18/2020-MW  PSUG EVE FEB PCARD EXPENSE 101650284000000 3220 399.00                        -                  
+2/18/2020-MW  PSUG EVE FEB PCARD EXPENSE 101650284000000 3220 399.00                        -                  
+1/28/2020-DMI  DELL K- FEB PCARD EXPENSE 101790225000000 4120 1.98                            -                  
+2/18/2020-AMAZON.COM N FEB PCARD EXPENSE 101790225031000 5910 110.75                        -                  
+2/12/2020-STAPLS722976 FEB PCARD EXPENSE 101790225031000 5910 28.52                          -                  
+2/14/2020-STAPLS722983 FEB PCARD EXPENSE 101790225031000 5910 38.78                          -                  
+18 4/15/2020
+89
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/17/2020-AMZN MKTP US FEB PCARD EXPENSE 101790225717100 5990 153.86                        -                  
+2/18/2020-AMAZON.COM K FEB PCARD EXPENSE 101790225717100 5990 105.36                        -                  
+2/21/2020-AMZN Mktp US FEB PCARD EXPENSE 101790225717100 5990 22.79                          -                  
+2/21/2020-CSC-1972 FEB PCARD EXPENSE 101790225717100 5990 753.40                        -                  
+2/21/2020-AMZN MKTP US FEB PCARD EXPENSE 101790225717100 5990 74.97                          -                  
+2/24/2020-COMCAST FEB PCARD EXPENSE 101790284000000 4120 10.68                          -                  
+1/29/2020-STAPLS730389 FEB PCARD EXPENSE 700017199700000 5000 177.99                        -                  
+2/24/2020-WWW.DHGATE.C FEB PCARD EXPENSE 700790699397000 5000 3,674.00                     -                  
+2/3/2020-STAPLS722950 FEB PCARD EXPENSE 101206113373000 5110 248.55                        -                  
+2/7/2020-STAPLS722963 FEB PCARD EXPENSE 101206113373000 5110 45.00                          -                  
+2/10/2020-STAPLS722950 FEB PCARD EXPENSE 101206113373000 5110 6.39                            -                  
+2/12/2020-STAPLS722976 FEB PCARD EXPENSE 101206113373000 5110 117.30                        -                  
+2/7/2020-BED BATH & B FEB PCARD EXPENSE 101928282000000 7910 59.99                          -                  
+2/7/2020-THINGS REMEM FEB PCARD EXPENSE 101928282000000 7910 51.99                          -                  
+1/31/2020-Jones School FEB PCARD EXPENSE 101590111350500 5990 101.25                        -                  
+2/17/2020-NATL ART EDU FEB PCARD EXPENSE 101590221350500 7410 95.00                          -                  
+2/17/2020-NATL ART EDU FEB PCARD EXPENSE 101590221350500 7410 95.00                          -                  
+2/25/2020-KROGER #487 FEB PCARD EXPENSE 101070113540000 5110 24.68                          -                  
+2/25/2020-KROGER #622 FEB PCARD EXPENSE 101070113540000 5110 19.80                          -                  
+2/24/2020-PTCFAST, LLC FEB PCARD EXPENSE 101014111100100 5110 50.00                          -                  
+2/25/2020-AMZN MKTP US FEB PCARD EXPENSE 101014111100100 5110 48.65                          -                  
+2/26/2020-AMZN MKTP US FEB PCARD EXPENSE 101014111100100 5110 15.89                          -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 700014199667200 5000 581.79                        -                  
+1/29/2020-LEGO   EDUCA FEB PCARD EXPENSE 700014199667200 5000 2,078.08                     -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 700014199667200 5000 418.47                        -                  
+2/10/2020-SP   TURING FEB PCARD EXPENSE 700014199667200 5000 308.89                        -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 700014199667200 5000 6.99                            -                  
+2/3/2020-ADOBE PRODUC FEB PCARD EXPENSE 700014199700000 5000 9.99                            -                  
+2/3/2020-MICHAELS STO FEB PCARD EXPENSE 700014199700000 5000 17.79                          -                  
+2/3/2020-AMAZON.COM R FEB PCARD EXPENSE 700014199700000 5000 25.41                          -                  
+2/7/2020-AMAZON.COM G FEB PCARD EXPENSE 700014199700000 5000 30.81                          -                  
+2/7/2020-TEN PRINCIPL FEB PCARD EXPENSE 700014199700000 5000 283.34                        -                  
+2/10/2020-AMAZON.COM D FEB PCARD EXPENSE 700014199708000 5000 20.13                          -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399718000 5000 37.98                          -                  
+1/30/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399718000 5000 88.95                          -                  
+2/4/2020-SHERWIN WILL FEB PCARD EXPENSE 700070399718000 5000 44.00                          -                  
+2/5/2020-STAPLES     FEB PCARD EXPENSE 700070399718000 5000 23.99                          -                  
+2/5/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399718000 5000 19.99                          -                  
+2/6/2020-PAPA ROMANOS FEB PCARD EXPENSE 700070399718000 5000 60.99                          -                  
+19 4/15/2020
+90
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/6/2020-PAPA ROMANOS FEB PCARD EXPENSE 700070399718000 5000 204.99                        -                  
+2/6/2020-OFFICEMAX/DE FEB PCARD EXPENSE 700070399718000 5000 42.39                          -                  
+2/10/2020-KROGER #487 FEB PCARD EXPENSE 700070399718000 5000 9.28                            -                  
+2/10/2020-PAPA ROMANOS FEB PCARD EXPENSE 700070399718000 5000 67.99                          -                  
+2/21/2020-COURTYARD BY FEB PCARD EXPENSE 700070399718000 5000 2,273.74                     -                  
+1/30/2020-STAPLS722937 FEB PCARD EXPENSE 101016111100100 5110 77.96                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101016111100100 5110 228.77                        -                  
+2/3/2020-OTC BRANDS  FEB PCARD EXPENSE 101016111100100 5110 66.32                          -                  
+2/7/2020-SSI SCHOOL S FEB PCARD EXPENSE 101016111100100 5110 280.56                        -                  
+2/10/2020-AMAZON.COM X FEB PCARD EXPENSE 101016111100100 5110 99.18                          -                  
+2/12/2020-Scholastic, FEB PCARD EXPENSE 101016111100100 5110 131.65                        -                  
+2/12/2020-Scholastic, FEB PCARD EXPENSE 101016111100100 5110 123.42                        -                  
+2/12/2020-Scholastic, FEB PCARD EXPENSE 101016111100100 5110 131.65                        -                  
+2/24/2020-STAPLS723001 FEB PCARD EXPENSE 101016111100100 5110 361.88                        -                  
+2/26/2020-OAKLAND SCHO FEB PCARD EXPENSE 101016241011100 7410 50.00                          -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 700016199667100 5000 1,571.06                     -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 700016199667100 5000 527.40                        -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 700016199667300 5000 457.19                        -                  
+2/17/2020-SOUTHPAW ENT FEB PCARD EXPENSE 700016199667300 5000 627.00                        -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 700016199667400 5000 22.98                          -                  
+2/3/2020-STAPLS722946 FEB PCARD EXPENSE 700016199700000 5000 130.77                        -                  
+2/5/2020-AMZN Mktp US FEB PCARD EXPENSE 700016199700000 5000 25.78                          -                  
+2/21/2020-ACMETEC MICH FEB PCARD EXPENSE 700016199700000 5000 556.00                        -                  
+2/24/2020-SQ  OAKLAND FEB PCARD EXPENSE 700016199700000 5000 325.20                        -                  
+2/24/2020-LITTLE CAESA FEB PCARD EXPENSE 700016199700000 5000 50.00                          -                  
+2/13/2020-KNAPPS DONUT FEB PCARD EXPENSE 700005199700000 5000 20.20                          -                  
+2/7/2020-DISCOUNTMUGS FEB PCARD EXPENSE 700005199701900 5000 582.07                        -                  
+2/17/2020-DISCOUNTMUGS FEB PCARD EXPENSE 700005199701900 5000 -                              32.95              
+2/6/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 32.92                          -                  
+2/7/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 71.79                          -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 164.32                        -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 117.22                        -                  
+2/10/2020-Scholastic E FEB PCARD EXPENSE 101013111100100 5110 100.73                        -                  
+2/12/2020-AMZN Mktp US FEB PCARD EXPENSE 101013111100100 5110 55.79                          -                  
+2/17/2020-SP   HAMERAY FEB PCARD EXPENSE 101013111100100 5110 179.03                        -                  
+2/17/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 53.96                          -                  
+2/17/2020-TARGET      FEB PCARD EXPENSE 101013111100100 5110 19.08                          -                  
+2/18/2020-GBC E-COMMER FEB PCARD EXPENSE 101013111100100 5110 122.10                        -                  
+2/18/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 74.35                          -                  
+20 4/15/2020
+91
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/21/2020-AMAZON.COM 5 FEB PCARD EXPENSE 101013111100100 5110 9.93                            -                  
+2/21/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 76.40                          -                  
+2/21/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 69.42                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 48.53                          -                  
+2/24/2020-Scholastic, FEB PCARD EXPENSE 101013111100100 5110 92.22                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 13.46                          -                  
+2/24/2020-MHE MCGRAW-H FEB PCARD EXPENSE 101013111100100 5110 206.83                        -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 24.99                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 32.95                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 101013111100100 5110 48.80                          -                  
+2/25/2020-SSI SCHOOL S FEB PCARD EXPENSE 101013111100100 5110 35.41                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 700013199700000 5000 80.62                          -                  
+2/4/2020-SCHOOL OUTFI FEB PCARD EXPENSE 700013199700000 5000 1,014.71                     -                  
+2/5/2020-TROPICAL SMO FEB PCARD EXPENSE 700013199700000 5000 34.05                          -                  
+2/7/2020-GREEN LANTER FEB PCARD EXPENSE 700013199700000 5000 200.00                        -                  
+2/17/2020-RAPIDWRISTBA FEB PCARD EXPENSE 700013199700000 5000 173.84                        -                  
+2/17/2020-OTC BRANDS  FEB PCARD EXPENSE 700013199700000 5000 195.89                        -                  
+2/4/2020-COMCAST FEB PCARD EXPENSE 529202229660000 3190 249.64                        -                  
+2/4/2020-USPS PO 2519 FEB PCARD EXPENSE 529202229660000 3430 6.95                            -                  
+2/3/2020-QUILL CORPOR FEB PCARD EXPENSE 529202229660000 5910 99.59                          -                  
+2/6/2020-STAPLS722958 FEB PCARD EXPENSE 529202229660000 5910 36.93                          -                  
+2/10/2020-QUILL CORPOR FEB PCARD EXPENSE 529202229660000 5910 40.77                          -                  
+2/10/2020-QUILL CORPOR FEB PCARD EXPENSE 529202229660000 5910 210.11                        -                  
+2/5/2020-4TE CULLIGAN FEB PCARD EXPENSE 529202391660000 4220 35.00                          -                  
+2/3/2020-INDEED FEB PCARD EXPENSE 101700283086700 5990 79.98                          -                  
+2/3/2020-AMZN Mktp US FEB PCARD EXPENSE 122015122150000 5110 18.99                          -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 122015122150000 5110 282.67                        -                  
+2/13/2020-AMZN MKTP US FEB PCARD EXPENSE 122016122193000 5110 25.28                          -                  
+2/5/2020-WORLDSTRIDES FEB PCARD EXPENSE 122051122140000 4910 -                              462.50            
+2/3/2020-SP   LEGI LI FEB PCARD EXPENSE 122053122193000 5110 30.78                          -                  
+2/10/2020-AMZN MKTP US FEB PCARD EXPENSE 122053122193000 5110 59.86                          -                  
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 122070122150000 5110 -                              28.54              
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 122070122150000 5110 -                              28.54              
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 122070122150000 5110 -                              28.54              
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 122070122150000 5110 -                              28.54              
+2/13/2020-AMAZON.COM A FEB PCARD EXPENSE 122070122150000 5110 -                              28.54              
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 122071122120000 5110 156.29                        -                  
+2/13/2020-AMZN Mktp US FEB PCARD EXPENSE 122071122120000 5110 36.99                          -                  
+2/13/2020-AMAZON.COM E FEB PCARD EXPENSE 122071122150000 5110 74.85                          -                  
+21 4/15/2020
+92
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/13/2020-AMZN Mktp US FEB PCARD EXPENSE 122071122150000 5110 12.61                          -                  
+2/10/2020-OFFICEMAX/OF FEB PCARD EXPENSE 122885122326000 6410 119.99                        -                  
+2/10/2020-OFFICEMAX/OF FEB PCARD EXPENSE 122885122326000 6410 139.98                        -                  
+2/10/2020-STAND UP DES FEB PCARD EXPENSE 122885122326000 6410 1,502.91                     -                  
+2/14/2020-AMZN Mktp US FEB PCARD EXPENSE 122885122326000 6410 183.77                        -                  
+2/24/2020-OFFICEMAX/OF FEB PCARD EXPENSE 122885122326000 6410 109.99                        -                  
+2/4/2020-AMZN Mktp US FEB PCARD EXPENSE 122885213313000 5110 98.99                          -                  
+2/14/2020-AMZN Mktp US FEB PCARD EXPENSE 122885213313000 5110 97.98                          -                  
+2/17/2020-AMZN Mktp US FEB PCARD EXPENSE 122885213313000 5110 49.77                          -                  
+2/19/2020-AMZN Mktp US FEB PCARD EXPENSE 122885213313000 5110 -                              75.86              
+1/31/2020-AMZN MKTP US FEB PCARD EXPENSE 122885215315000 5110 13.89                          -                  
+2/3/2020-SQ  SPEECH C FEB PCARD EXPENSE 122885215315000 5110 50.93                          -                  
+2/3/2020-Really Good FEB PCARD EXPENSE 122885215315000 5110 33.95                          -                  
+2/4/2020-SUPER DUPER FEB PCARD EXPENSE 122885215315000 5110 163.13                        -                  
+2/5/2020-PRO-ED, INC FEB PCARD EXPENSE 122885215315000 5110 46.20                          -                  
+2/10/2020-EPIC! BOOKS FEB PCARD EXPENSE 122885221000000 5110 5.99                            -                  
+1/29/2020-OAKLAND SCHO FEB PCARD EXPENSE 122885221326000 3220 25.00                          -                  
+1/30/2020-OAKLAND SCHO FEB PCARD EXPENSE 122885221326000 3220 15.00                          -                  
+1/30/2020-OAKLAND SCHO FEB PCARD EXPENSE 122885221326000 3220 45.00                          -                  
+2/6/2020-MACOMB INTRM FEB PCARD EXPENSE 122885221326000 3220 65.00                          -                  
+2/6/2020-OAKLAND SCHO FEB PCARD EXPENSE 122885221326000 3220 -                              15.00              
+2/7/2020-OAKLAND SCHO FEB PCARD EXPENSE 122885221326000 3220 50.00                          -                  
+2/10/2020-LINDAMOOD-BE FEB PCARD EXPENSE 122885221326000 3220 895.00                        -                  
+2/14/2020-LINDAMOOD-BE FEB PCARD EXPENSE 122885221326000 3220 895.00                        -                  
+2/21/2020-EB BEHAVIOR FEB PCARD EXPENSE 122885221326000 3220 -                              100.00            
+2/25/2020-MACOMB INTRM FEB PCARD EXPENSE 122885221326000 3220 65.00                          -                  
+2/25/2020-LINDAMOOD-BE FEB PCARD EXPENSE 122885221326000 3220 495.00                        -                  
+2/4/2020-CRISIS PREVE FEB PCARD EXPENSE 122885221326000 5990 660.00                        -                  
+2/20/2020-USPS PO 2593 FEB PCARD EXPENSE 122885226326000 3430 136.55                        -                  
+2/14/2020-SAMS CLUB #6 FEB PCARD EXPENSE 122885226326000 5910 41.85                          -                  
+2/27/2020-KROGER #754 FEB PCARD EXPENSE 122885226326000 5910 64.89                          -                  
+2/13/2020-Etsy.com - K FEB PCARD EXPENSE 122885226326000 5990 19.35                          -                  
+2/13/2020-Etsy.com - K FEB PCARD EXPENSE 122885226326000 5990 -                              1.10                
+2/19/2020-KAPLAN EARLY FEB PCARD EXPENSE 122885226326000 7410 339.90                        -                  
+2/12/2020-EB BEHAVIOR FEB PCARD EXPENSE 122885283326000 3220 50.00                          -                  
+2/17/2020-EB BEHAVIOR FEB PCARD EXPENSE 122885283326000 3220 -                              60.00              
+2/7/2020-JETS PIZZA - FEB PCARD EXPENSE 701885699697100 5000 323.39                        -                  
+2/14/2020-SAMS CLUB #6 FEB PCARD EXPENSE 701885699697100 5000 5.96                            -                  
+1/29/2020-CAROLINA BIO FEB PCARD EXPENSE 101070113340000 5110 130.16                        -                  
+22 4/15/2020
+93
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 101070113340000 5110 12.98                          -                  
+2/25/2020-CAROLINA BIO FEB PCARD EXPENSE 101070113340000 5110 59.40                          -                  
+2/25/2020-CAROLINA BIO FEB PCARD EXPENSE 101070113340000 5110 100.25                        -                  
+1/31/2020-J.W. PEPPER FEB PCARD EXPENSE 101070113351000 5110 14.99                          -                  
+2/20/2020-AMAZON.COM K FEB PCARD EXPENSE 101070113970000 5110 24.81                          -                  
+2/3/2020-HAYES PRECIS FEB PCARD EXPENSE 101070221007000 3190 110.00                        -                  
+1/31/2020-AMZN MKTP US FEB PCARD EXPENSE 101070241007000 5990 247.96                        -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101070241007000 5990 244.30                        -                  
+2/3/2020-AMZN MKTP US FEB PCARD EXPENSE 101070241007000 5990 241.47                        -                  
+2/4/2020-AMAZON.COM N FEB PCARD EXPENSE 101070241007000 5990 89.92                          -                  
+2/14/2020-AMZN MKTP US FEB PCARD EXPENSE 101070241007000 5990 66.95                          -                  
+2/26/2020-USPS PO 2593 FEB PCARD EXPENSE 101070241020500 3430 6.25                            -                  
+2/6/2020-PAYPAL  MICH FEB PCARD EXPENSE 700070399322000 5000 26.00                          -                  
+2/17/2020-PAYPAL  MIPA FEB PCARD EXPENSE 700070399323700 5000 108.00                        -                  
+2/17/2020-MIPAMSU FEB PCARD EXPENSE 700070399323700 5000 125.00                        -                  
+2/14/2020-PAYPAL  AATF FEB PCARD EXPENSE 700070399325400 5000 283.50                        -                  
+2/20/2020-PAYPAL  AATF FEB PCARD EXPENSE 700070399325400 5000 460.00                        -                  
+2/20/2020-PAYPAL  AATF FEB PCARD EXPENSE 700070399325400 5000 163.00                        -                  
+2/6/2020-NATIONAL SPA FEB PCARD EXPENSE 700070399325600 5000 200.00                        -                  
+2/6/2020-NATIONAL SPA FEB PCARD EXPENSE 700070399325600 5000 185.00                        -                  
+2/7/2020-NATIONAL SPA FEB PCARD EXPENSE 700070399325600 5000 155.00                        -                  
+2/7/2020-NATIONAL SPA FEB PCARD EXPENSE 700070399325600 5000 150.00                        -                  
+2/12/2020-NATIONAL SPA FEB PCARD EXPENSE 700070399325600 5000 215.00                        -                  
+2/12/2020-NATIONAL SPA FEB PCARD EXPENSE 700070399325600 5000 250.00                        -                  
+2/12/2020-PAYPAL  NATI FEB PCARD EXPENSE 700070399354400 5000 50.00                          -                  
+2/24/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399354400 5000 74.40                          -                  
+1/31/2020-STAPLS722943 FEB PCARD EXPENSE 700070399708000 5000 51.22                          -                  
+2/10/2020-WWW.SHEIN.CO FEB PCARD EXPENSE 700070399713200 5000 385.51                        -                  
+2/10/2020-AEROPOSTALE. FEB PCARD EXPENSE 700070399713200 5000 214.98                        -                  
+2/10/2020-HERFF JONES FEB PCARD EXPENSE 700070399717500 5000 75.00                          -                  
+2/21/2020-KROGER #487 FEB PCARD EXPENSE 701070399703000 5000 56.23                          -                  
+2/17/2020-MSBO FEB PCARD EXPENSE 101668252021000 3220 85.00                          -                  
+2/24/2020-MSBO FEB PCARD EXPENSE 101668252021000 3220 510.00                        -                  
+1/29/2020-SQ  SQUARE P FEB PCARD EXPENSE 101668252024500 3190 -                              35.00              
+2/3/2020-SQ  SQUARE P FEB PCARD EXPENSE 101668252024500 3190 35.00                          -                  
+2/3/2020-STAPLS722947 FEB PCARD EXPENSE 101668252031000 5910 0.89                            -                  
+2/3/2020-STAPLS722947 FEB PCARD EXPENSE 101668252031000 5910 248.24                        -                  
+2/3/2020-STAPLS722947 FEB PCARD EXPENSE 101668252031000 5910 28.11                          -                  
+2/13/2020-STAPLS722979 FEB PCARD EXPENSE 101668252031000 5910 171.17                        -                  
+23 4/15/2020
+94
+TROY SCHOOL DISTRICT, PCARD REPORT, FEBRUARY 2020
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+2/13/2020-THESTAMPMAKE FEB PCARD EXPENSE 101668252031200 5990 13.05                          -                  
+2/14/2020-PITNEY BOWES FEB PCARD EXPENSE 101668252031200 5990 176.67                        -                  
+1/29/2020-USPS PO 2593 FEB PCARD EXPENSE 101668252066800 3430 7.10                            -                  
+2/25/2020-MARSHALL MUS FEB PCARD EXPENSE 101051112031300 4120 150.00                        -                  
+2/25/2020-MARSHALL MUS FEB PCARD EXPENSE 101051112351000 5110 126.28                        -                  
+1/29/2020-AMZN Mktp US FEB PCARD EXPENSE 700070399340900 5000 29.99                          -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399340900 5000 15.90                          -                  
+1/29/2020-AMZN MKTP US FEB PCARD EXPENSE 700070399340900 5000 9.99                            -                  
+1/31/2020-DOLLAR TREE FEB PCARD EXPENSE 700070399340900 5000 11.54                          -                  
+2/5/2020-DOLLAR TREE FEB PCARD EXPENSE 700070399340900 5000 16.00                          -                  
+2/5/2020-BP#9486564BA FEB PCARD EXPENSE 700070399340900 5000 4.18                            -                  
+2/27/2020-MICHAELS STO FEB PCARD EXPENSE 700070399340900 5000 28.01                          -                  
+2/5/2020-USPS PO 2576 FEB PCARD EXPENSE 700070399341000 5000 3.00                            -                  
+2/12/2020-USPS PO 2576 FEB PCARD EXPENSE 700070399341000 5000 9.90                            -                  
+1/29/2020-STAPLS722933 FEB PCARD EXPENSE 101011111100100 5110 365.04                        -                  
+2/3/2020-OFFICEMAX/OF FEB PCARD EXPENSE 101011111100100 5110 49.18                          -                  
+2/4/2020-J.W. PEPPER FEB PCARD EXPENSE 101011111100100 5110 38.23                          -                  
+2/4/2020-AMZN MKTP US FEB PCARD EXPENSE 101011111100100 5110 127.18                        -                  
+2/20/2020-RIDLEYS BA  FEB PCARD EXPENSE 700011199700000 5000 65.44                          -                  
+2/21/2020-CHOWNOW.CO  FEB PCARD EXPENSE 700011199700000 5000 -                              10.00            

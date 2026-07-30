@@ -1,0 +1,980 @@
+ON ENTERPRISES,INC.                                                                                       PAGE NUMBER:   29
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 314 - 2014 DEBT FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     W19-243   04/22/19 26649    HUNTINGTON NATIONAL 314920511009200  7120     TROYMISD14                 0.00     2,000,000.00
+A1003     W19-243   04/22/19 26649    HUNTINGTON NATIONAL 314920511009200  7220     TROYMISD14                 0.00       988,750.00
+TOTAL CHECK                                                                                                    0.00     2,988,750.00
+TOTAL CASH ACCOUNT                                                                                             0.00     2,988,750.00
+TOTAL FUND                                                                                                     0.00     2,988,750.00
+82
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   30
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 315 - 2015 DEBT SERVICE FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     W19-241   04/22/19 26649    HUNTINGTON NATIONAL 315920511009200  7120     TROYSDRFD15                0.00     3,280,000.00
+A1003     W19-241   04/22/19 26649    HUNTINGTON NATIONAL 315920511009200  7220     TROYSDRFD15                0.00       650,875.00
+A1003     W19-241   04/22/19 26649    HUNTINGTON NATIONAL 315920511009200  7310     TROYSDRFD15                0.00           500.00
+TOTAL CHECK                                                                                                    0.00     3,931,375.00
+TOTAL CASH ACCOUNT                                                                                             0.00     3,931,375.00
+TOTAL FUND                                                                                                     0.00     3,931,375.00
+83
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   31
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 316 - 2016 DEBT SERVICE
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     W19-242   04/22/19 26649    HUNTINGTON NATIONAL 316920511009200  7120     TROYMISD16                 0.00       950,000.00
+A1003     W19-242   04/22/19 26649    HUNTINGTON NATIONAL 316920511009200  7220     TROYMISD16                 0.00       537,285.00
+TOTAL CHECK                                                                                                    0.00     1,487,285.00
+TOTAL CASH ACCOUNT                                                                                             0.00     1,487,285.00
+TOTAL FUND                                                                                                     0.00     1,487,285.00
+84
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   32
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 416 - 2016 CAPITAL PROJECTS
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904746   04/04/19 26950    WEATHERTECH CONSULT 416074456407500  6225     INTERNATIONAL ACADE        0.00         2,455.00
+A1003     1904755   04/11/19 26823    ARNOLD SLS COMP JAN 416900456407500  6410     PURCHASE OF TWO (2)        0.00        15,395.00
+A1003     1904789   04/11/19 10055    KSS ENTERPRISES     416900456407500  6410     PURCHASE OF 10 PRO-        0.00         3,937.60
+A1003     1904840   04/18/19 26823    ARNOLD SLS COMP JAN 416900456407500  6410     PURCHASE OF FIVE (5        0.00        16,725.00
+A1003     1904840   04/18/19 26823    ARNOLD SLS COMP JAN 416900456407500  6410     PURCHASE OF THREE (        0.00        31,485.00
+A1003     1904840   04/18/19 26823    ARNOLD SLS COMP JAN 416900456407500  6410     PURCHASE OF TWO (2)        0.00        15,395.00
+TOTAL CHECK                                                                                                    0.00        63,605.00
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416051456407500  6221     SMITH                      0.00       159,497.10
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416053456407500  6221     BOULAN PARK                0.00         3,579.00
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416005456407500  6221     TROY UNION                 0.00       154,205.10
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416011456407500  6221     SCHROEDER                  0.00        55,917.00
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416206456407500  6221     NILES                      0.00         5,400.00
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416668456407500  6222     INS LIAB                   0.00         3,068.61
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416668456407500  6222     GENL COND                  0.00         6,387.09
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 416668456407500  6223     CM FEE                     0.00        45,203.88
+TOTAL CHECK                                                                                                    0.00       433,257.78
+A1003     1904871   04/18/19 27275    DM BURR FACILITIES  416900456407500  6410     PURCHASE OF 9 TORNA        0.00         4,812.39
+A1003     1904948   04/18/19 20418    SIGNPROCO INC       416070456407500  6410     TROY HIGH SCHOOL -         0.00        19,763.00
+A1003     1904948   04/18/19 20418    SIGNPROCO INC       416070456407500  6410     TROY HIGH SCHOOL -         0.00           220.00
+TOTAL CHECK                                                                                                    0.00        19,983.00
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416070456407500  6222     COMMISSIONING SERVI        0.00           408.80
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416051456407500  6222     COMMISSIONING AT SM        0.00         1,164.00
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416011456407500  6222     COMMISSIONING AT SC        0.00         1,255.00
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416012456407500  6222     COMMISSIONING SERVI        0.00           187.80
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416013456407500  6222     COMMISSIONING SERVI        0.00           187.80
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416005456407500  6222     COMMISSIONING AT TR        0.00         1,255.00
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416007456407500  6222     COMMISSIONING SERVI        0.00           187.80
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  416008456407500  6222     COMMISSIONING SERVI        0.00           187.80
+TOTAL CHECK                                                                                                    0.00         4,834.00
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416009456407500  6220     WATTLES PH2                0.00         4,910.80
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416011456407500  6220     SCHROEDER PH 2             0.00         4,036.11
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416051456407500  6220     SMITH PH 2                 0.00         2,269.57
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416051456407500  6220     2013 BOND - DESIGN         0.00         1,170.00
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416005456407500  6220     TROY UNION PH2             0.00         3,322.98
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416090456407500  6229     TRANSPORTATION PH2         0.00         1,349.37
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416206456407500  6220     NILES PH2                  0.00         7,085.56
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  416689456407500  6229     FACILITIES PH 2            0.00           641.85
+TOTAL CHECK                                                                                                    0.00        24,786.24
+TOTAL CASH ACCOUNT                                                                                             0.00       573,066.01
+TOTAL FUND                                                                                                     0.00       573,066.01
+85
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 418 - EARLY CHILDHOOD CAP PROJE
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904678   04/04/19 19671    CONVERGENT TECHNOLO 418004455407500  6220     TECHNOLOGY CONSULTI        0.00         1,662.50
+A1003     1904909   04/18/19 12865    MECHANICAL CONTROLS 418004455407500  6220     ECC - BAS SERVER PU        0.00         8,150.00
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  418004455407500  6220     ECC                        0.00        31,522.04
+TOTAL CASH ACCOUNT                                                                                             0.00        41,334.54
+TOTAL FUND                                                                                                     0.00        41,334.54
+86
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 498 - SINKING FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904804   04/11/19 11845    PROFESSIONAL ENGINE 498012456407500  6220     ENGINEERING SERVICE        0.00         1,170.00
+A1003     1904804   04/11/19 11845    PROFESSIONAL ENGINE 498013456407500  6220     ENGINEERING SERVICE        0.00         1,170.00
+A1003     1904804   04/11/19 11845    PROFESSIONAL ENGINE 498051456407500  6220     ENGINEERING SERVICE        0.00           650.00
+A1003     1904804   04/11/19 11845    PROFESSIONAL ENGINE 498052456407500  6220     ENGINEERING SERVICE        0.00           650.00
+A1003     1904804   04/11/19 11845    PROFESSIONAL ENGINE 498017456407500  6220     BSSF - HAMILTON CON        0.00         1,425.00
+TOTAL CHECK                                                                                                    0.00         5,065.00
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 498070456407500  6220     BSSF - CM FEE, LABO        0.00        33,421.50
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 498074456407500  6220     BSSF - CM FEE, LABO        0.00         4,071.11
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 498074456407500  6220     BSSF - CM FEE, LABO        0.00        23,925.46
+A1003     1904842   04/18/19 10178    BARTON MALOW COMPAN 498074456407500  6221     IAE CONSTRUCTION AN        0.00       232,862.47
+TOTAL CHECK                                                                                                    0.00       294,280.54
+A1003     1904847   04/18/19 28114    BILL ROBERTSON POOL 498070456407500  6220     BSSF - HOURLY CONST        0.00           300.00
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  498074456407500  6220     COMMISSIONING AT IA        0.00           761.00
+A1003     1905001   04/25/19 22500    CONVENTIONAL CARPET 498071456407500  6221     RFP #9856 - FLOORIN        0.00         1,450.00
+A1003     1905001   04/25/19 22500    CONVENTIONAL CARPET 498071456407500  6221     RFP #9856 - FLOORIN        0.00        14,348.40
+A1003     1905001   04/25/19 22500    CONVENTIONAL CARPET 498052456407500  6221     RFP #9856 - FLOORIN        0.00         5,000.00
+A1003     1905001   04/25/19 22500    CONVENTIONAL CARPET 498053456407500  6221     RFP #9856 - FLOORIN        0.00         5,000.00
+A1003     1905001   04/25/19 22500    CONVENTIONAL CARPET 498013456407500  6221     RFP #9856 - FLOORIN        0.00        13,771.90
+A1003     1905001   04/25/19 22500    CONVENTIONAL CARPET 498014456407500  6221     RFP #9856 - FLOORIN        0.00         9,226.00
+TOTAL CHECK                                                                                                    0.00        48,796.30
+A1003     1905007   04/25/19 28155    DICLEMENTE SIEGEL D 498017456407500  6220     ENGINEERING SERVICE        0.00         4,950.00
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  498070456407500  6220     BSSF - ARCHITECTURA        0.00           380.77
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  498074456407500  6220     BSSF - ARCHITECTURA        0.00         3,558.09
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  498074456407500  6220     BSSF - REMIBURSABLE        0.00           272.50
+TOTAL CHECK                                                                                                    0.00         4,211.36
+TOTAL CASH ACCOUNT                                                                                             0.00       358,364.20
+TOTAL FUND                                                                                                     0.00       358,364.20
+87
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 499 - CAPITAL PROJ MTCE FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904778   04/11/19 10793    GAMALSKI BUILDING S 499070261000000  4190     TROY HIGH SCHOOL TE        0.00         1,975.00
+TOTAL CASH ACCOUNT                                                                                             0.00         1,975.00
+TOTAL FUND                                                                                                     0.00         1,975.00
+88
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 520 - FOOD SERVICE FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904659   04/04/19 26663    A R REPAIRS BAKERS  520902257813000  4120     BAKER UNOX OVEN            0.00           447.90
+A1003     1904659   04/04/19 26663    A R REPAIRS BAKERS  520902257813000  4120     THS UNOX OVEN              0.00           272.05
+TOTAL CHECK                                                                                                    0.00           719.95
+A1003     1904668   04/04/19 10222    BILDON PARTS & SERV 520902257813000  4120     LARSON MS                  0.00           606.79
+A1003     1904668   04/04/19 10222    BILDON PARTS & SERV 520902257813000  4120     WASS ELEM                  0.00           218.00
+TOTAL CHECK                                                                                                    0.00           824.79
+A1003     1904682   04/04/19 24963    DIGITAL AGE TECHNOL 520950256091800  6410     TROY HS CABLE              0.00           195.00
+A1003     1904721   04/04/19 13893    PAPA'S REFRIGERATIO 520902257813000  4120     SMITH MS                   0.00           197.00
+A1003     1904721   04/04/19 13893    PAPA'S REFRIGERATIO 520902257813000  4120     SMITH MS                   0.00           207.00
+TOTAL CHECK                                                                                                    0.00           404.00
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     ATHENS                     0.00           -26.16
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00           315.60
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     BOULAN                     0.00           344.16
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     BOULAN                     0.00           375.84
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     IAE                        0.00           390.24
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     IAE                        0.00           445.92
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     BAKER                      0.00           465.12
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00           471.84
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     SMITH                      0.00           472.32
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00           564.00
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     LARSON                     0.00           622.08
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00           996.96
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     ATHENS                     0.00         1,060.56
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00         1,200.96
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00         1,247.52
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     ATHENS                     0.00         1,324.80
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     TROY HIGH                  0.00         1,344.72
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     ATHENS                     0.00         1,394.64
+A1003     1904780   04/11/19 27541    GREAT LAKES COCA CO 520950256091800  5610     ATHENS                     0.00         1,601.04
+TOTAL CHECK                                                                                                    0.00        14,612.16
+A1003     1904808   04/11/19 11463    SCHOOL NUTRITION AS 520              L4740    SNAM LDRSHP ACAD           0.00           275.00
+A1003     1904818   04/11/19 20401    SWAPHIL NAIK        520              L4740    REFUND LUNCH ACCT          0.00            40.00
+A1003     1904823   04/11/19 27148    TROY AUTO CARE INC  520902257813000  4120     FOOD SVC TRUCK REP         0.00         1,191.75
+A1003     1904877   04/18/19 27992    GARDA CL GREAT LAKE 520950297621500  3190     ARMORED CAR PICKUP         0.00         3,680.42
+A1003     1904928   04/18/19 13893    PAPA'S REFRIGERATIO 520902257813000  4120     SMITH R/I FREEZER          0.00           998.02
+A1003     1904928   04/18/19 13893    PAPA'S REFRIGERATIO 520902257813000  4120     BEMIS FREEZER              0.00         8,961.35
+TOTAL CHECK                                                                                                    0.00         9,959.37
+A1003     1905060   04/25/19 13893    PAPA'S REFRIGERATIO 520902257813000  4120     BOULAN SALAD BAR           0.00           163.00
+A1003     1905060   04/25/19 13893    PAPA'S REFRIGERATIO 520902257813000  4120     SCHROEDER FREEZR           0.00           305.00
+TOTAL CHECK                                                                                                    0.00           468.00
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  520051456005100  6220     ARCHITECTURAL & ENG        0.00         1,386.00
+89
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 520 - FOOD SERVICE FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1905088   04/25/19 11561    T M P ARCHITECTURE  520051456005100  6220     REIMBURSABLES (STAT        0.00           206.28
+TOTAL CHECK                                                                                                    0.00         1,592.28
+A1003     W19-233   04/12/19 12140    MI STATE OF/DEPT OF 520950256091800  7910     SALES TAX MARCH 201        0.00            34.47
+TOTAL CASH ACCOUNT                                                                                             0.00        33,997.19
+TOTAL FUND                                                                                                     0.00        33,997.19
+90
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 529 - TCC GRANT FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904687   04/04/19 27446    G T R TRUCKING SCHO 529202391660700  3710     GARRY ADKINS - TUIT        0.00         2,995.00
+A1003     1904714   04/04/19 24096    MICRO CENTER SALES  529202391660000  6420     CYPERPW/MI WORKS           0.00           129.99
+A1003     1904753   04/11/19 26329    LOWERY CORPORATION  529202391660000  4120     OPEN PO MARCH -JUNE        0.00           135.43
+A1003     1904874   04/18/19 27446    G T R TRUCKING SCHO 529202391660700  3710     MOHAMED ALHADI - TU        0.00         2,995.00
+A1003     1904900   04/18/19 18272    KONICA MINOLTA BUSI 529202261660000  4210     REF PO 19000013            0.00           157.37
+A1003     1904935   04/18/19 18277    ROCHESTER UNIVERSIT 529202391660700  3710     ABBEY BLACK - TUITI        0.00           550.00
+A1003     1904986   04/25/19 28132    BRAL ENTERPRISES IN 529202391660700  3710     STEVEN ANDREASSI -         0.00         1,295.00
+A1003     W19-247   04/05/19 27800    EDUSTAFF LLC        529              L4026    CONT SVC 3/17-3/30         0.00           563.07
+A1003     W19-249   04/19/19 27800    EDUSTAFF LLC        529              L4026    CONT SVC 3/31-4/13         0.00         1,064.70
+TOTAL CASH ACCOUNT                                                                                             0.00         9,885.56
+TOTAL FUND                                                                                                     0.00         9,885.56
+91
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 530 - CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904704   04/04/19 11181    KROGER CO           530211351021100  5990     MG1018                     0.00            17.95
+A1003     1904723   04/04/19 20864    PRINT STOP INC      530201311020400  3610     OPEN PO FOR FLYER P        0.00           545.20
+A1003     1904737   04/04/19 21021    TROY CITY OF PARKS  530211351021100  5990     061019 PICNIC SHELT        0.00            70.00
+A1003     1904749   04/11/19 13227    A T & T             530201311030000  3410     24887975416862             0.00             4.77
+A1003     1904749   04/11/19 13227    A T & T             530201311030000  3410     24882896977105             0.00            77.23
+A1003     1904749   04/11/19 13227    A T & T             530211351030000  3410     24887975416862             0.00             6.68
+A1003     1904749   04/11/19 13227    A T & T             530211351030000  3410     24882896977105             0.00           108.12
+TOTAL CHECK                                                                                                    0.00           196.80
+A1003     1904765   04/11/19 10577    D T E ENERGY        530201311030000  5520     910040087470 NILES         0.00           172.62
+A1003     1904765   04/11/19 10577    D T E ENERGY        530211351030000  5520     910040087470 NILES         0.00           120.83
+A1003     1904765   04/11/19 10577    D T E ENERGY        530211351030000  5520     910040087470 NILES         0.00           120.83
+TOTAL CHECK                                                                                                    0.00           414.28
+A1003     1904877   04/18/19 27992    GARDA CL GREAT LAKE 530207252621500  3190     ARMORED CAR PICKUP         0.00           186.84
+A1003     1904903   04/18/19 11181    KROGER CO           530212351021200  5990     MG1018                     0.00            10.42
+A1003     1904903   04/18/19 11181    KROGER CO           530212351021200  5990     MG1018                     0.00            10.87
+A1003     1904903   04/18/19 11181    KROGER CO           530212351021200  5990     MG1018                     0.00            16.75
+A1003     1904903   04/18/19 11181    KROGER CO           530212351021200  5990     MG1018                     0.00            21.96
+A1003     1904903   04/18/19 11181    KROGER CO           530212351021200  5990     MG1018                     0.00            46.57
+TOTAL CHECK                                                                                                    0.00           106.57
+A1003     1904932   04/18/19 20864    PRINT STOP INC      530201311020400  3610     OPEN PO FOR FLYER P        0.00           615.20
+A1003     1904932   04/18/19 20864    PRINT STOP INC      530201311020400  3610     OPEN PO FOR FLYER P        0.00           615.20
+TOTAL CHECK                                                                                                    0.00         1,230.40
+A1003     1904975   04/25/19 20002    ANN ARBOR HANDS ON  530212351021200  5110     COSTELLO CARE PRGRM        0.00           370.00
+A1003     1904987   04/25/19 26472    BROOKES BUNCH LLC   530201311020000  3190     MARCH VENDOR PAY           0.00         7,218.00
+A1003     1905017   04/25/19 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PO FOR 2018-19        0.00            26.94
+A1003     1905034   04/25/19 11181    KROGER CO           530211351021100  5990     MG1018                     0.00            20.91
+A1003     1905034   04/25/19 11181    KROGER CO           530212351021200  5110     MG1018                     0.00            11.58
+A1003     1905034   04/25/19 11181    KROGER CO           530212351021200  5110     MG1018                     0.00            26.91
+A1003     1905034   04/25/19 11181    KROGER CO           530212351021200  5110     MG1018                     0.00            33.78
+A1003     1905034   04/25/19 11181    KROGER CO           530212351021200  5110     MG1018                     0.00            36.01
+A1003     1905034   04/25/19 11181    KROGER CO           530212351021200  5110     MG1018                     0.00            93.45
+TOTAL CHECK                                                                                                    0.00           222.64
+A1003     1905057   04/25/19 19726    O'BRIEN ERIN E      530201311020000  3190     MARCH VENDOR PAY           0.00         3,585.60
+A1003     1905069   04/25/19 23397    RENAISSANCE FENCING 530201311020000  3190     MARCH VENDOR PAY           0.00           105.00
+A1003     1905093   04/25/19 10414    TROY CITY OF WATER  530201311030000  3830     2930015 NILES              0.00            56.70
+A1003     1905093   04/25/19 10414    TROY CITY OF WATER  530211351030000  3830     2930015 NILES              0.00            79.38
+TOTAL CHECK                                                                                                    0.00           136.08
+92
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 530 - CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     W19-247   04/05/19 27800    EDUSTAFF LLC        530              L4026    CONT SVC 3/17-3/30         0.00        49,809.67
+A1003     W19-249   04/19/19 27800    EDUSTAFF LLC        530              L4026    CONT SVC 3/31-4/13         0.00        28,844.95
+TOTAL CASH ACCOUNT                                                                                             0.00        93,086.92
+TOTAL FUND                                                                                                     0.00        93,086.92
+93
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 531 - EARLY CHILDHOOD CTR FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904960   04/18/19 27457    SYNERGY CONSULTING  531000455407500  6220     COMMISSIONING SERVI        0.00         1,729.92
+A1003     W19-244   04/22/19 26649    HUNTINGTON NATIONAL 531920511009200  7220     TROYSDBLDG18               0.00       116,807.50
+TOTAL CASH ACCOUNT                                                                                             0.00       118,537.42
+TOTAL FUND                                                                                                     0.00       118,537.42
+94
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 535 - FACILITY RENTAL
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1905103   05/02/19 13451    ADVANCED LIGHTING A 535071261095200  6410     BID 9865 WIRELESS A        0.00          -400.00
+TOTAL CASH ACCOUNT                                                                                             0.00          -400.00
+TOTAL FUND                                                                                                     0.00          -400.00
+95
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903131 V 01/10/19 11425    JOHNNY MACS SPORTIN 700070399906000  5000     GLS SWIM APPAREL           0.00          -403.00
+A1003     1904662   04/04/19 10132    AMANDA CRUM         700071399907800  5000     REIMB G BKTBLL SUPP        0.00           120.86
+A1003     1904664   04/04/19 11684    ATLAS WHOLESALE FOO 700071399524000  5000     REF PO 19000757            0.00           562.14
+A1003     1904664   04/04/19 11684    ATLAS WHOLESALE FOO 700070399524000  5000     REF PO 19000890            0.00           402.56
+TOTAL CHECK                                                                                                    0.00           964.70
+A1003     1904674   04/04/19 10375    CEDAR FAIR          700070399342400  5000     TROY AP PHYSICS            0.00        15,034.00
+A1003     1904674   04/04/19 10375    CEDAR FAIR          700071399342500  5000     ATHENS PHYSCS CP TK        0.00        10,037.49
+TOTAL CHECK                                                                                                    0.00        25,071.49
+A1003     1904676   04/04/19 27621    CLIPPARD DANIELLE S 700052299702700  5000     REIMB ROBOTICS EXP         0.00           291.28
+A1003     1904699   04/04/19 11039    IMPRESSION CENTER   700051299352000  5000     ORCH POLO SHIRTS           0.00           500.00
+A1003     1904702   04/04/19 12254    KIM BERCH           700070399745000  5000     REFUND SKI FEES            0.00            40.00
+A1003     1904703   04/04/19 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            28.85
+A1003     1904703   04/04/19 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            29.80
+TOTAL CHECK                                                                                                    0.00            58.65
+A1003     1904706   04/04/19 19962    LESLIE TOLTZMAN     700011199700000  5000     REIMB ROBOTICS EXP         0.00           189.72
+A1003     1904710   04/04/19 10215    MELINDA SHAMOUN     700011199900400  5000     REIMB HENRY FORD TR        0.00            22.00
+A1003     1904716   04/04/19 11572    NATL ASSOC OF SECON 700070399710000  5000     AFFIL FEE TROY HS          0.00           385.00
+A1003     1904731   04/04/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00           563.49
+A1003     1904731   04/04/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,030.35
+A1003     1904731   04/04/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,485.82
+TOTAL CHECK                                                                                                    0.00         3,079.66
+A1003     1904733   04/04/19 11201    TOTAL REGISTRATION  700071399372000  5000     AP EXAM/ATHENS             0.00         1,706.56
+A1003     1904734   04/04/19 15979    TOTAL T'S           700071399900000  5000     ADDL ALUMNI TEES           0.00           130.00
+A1003     1904739   04/04/19 26492    TROY BOWL BAR LLC   700071399902000  5000     ATHENS FTBLL               0.00           633.60
+A1003     1904741   04/04/19 28001    H F F MICHIGAN HOLD 700790699397000  5000     OPEN PO FOR IPAD RE        0.00           255.00
+A1003     1904742   04/04/19 20941    UTICA HIGH SCHOOL   700070399907800  5000     THS G BKTBLL 6/24-2        0.00           300.00
+A1003     1904743   04/04/19 10221    VENTE JENNIFER      700051299667100  5000     SMITH PETTY CASH           0.00            21.20
+A1003     1904743   04/04/19 10221    VENTE JENNIFER      700051299717600  5000     SMITH PETTY CASH           0.00            48.87
+A1003     1904743   04/04/19 10221    VENTE JENNIFER      700051299990000  5000     SMITH PETTY CASH           0.00            85.00
+TOTAL CHECK                                                                                                    0.00           155.07
+A1003     1904744   04/04/19 21913    VISUAL SPORTS NETWO 700070399907700  5000     THS B BKTBLL PLAQUE        0.00            20.00
+A1003     1904745   04/04/19 12360    WARDS NATURAL SCIEN 700070399701900  5000     THS DISSECTING PANS        0.00           432.00
+96
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904756   04/11/19 19628    BALFOUR CO L L C    700071399718000  5000     EMB OFFICR STOLES          0.00           179.00
+A1003     1904757   04/11/19 28119    RIS JR WILLIAM MART 700071399909700  5000     5X8 TEAM BANNER            0.00           200.00
+A1003     1904757   04/11/19 28119    RIS JR WILLIAM MART 700071399909700  5000     2X3 SENIOR BANNER          0.00           400.00
+TOTAL CHECK                                                                                                    0.00           600.00
+A1003     1904760   04/11/19 10381    CHAMPION CHEERLEADI 700070399900000  5000     TROY HS CHEER CAMP         0.00           250.00
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700070399901000  5000     THS BOYS LACROSSE W        0.00           145.50
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700070399390900  5000     AHS FIELD TRIP             0.00           169.35
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700010199900100  5000     HILL FIELD TRIP            0.00           357.89
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700010199900200  5000     HILL FIELD TRIP            0.00           112.90
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700010199900200  5000     HILL FIELD TRIP            0.00           225.80
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700016199700000  5000     BARNARD FIELD TRIP         0.00           225.80
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700017199393000  5000     HAMILTON FIELD TRIP        0.00           527.24
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700050299700000  5000     BAKER DIA FT               0.00           592.72
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700013199393000  5000     MARTELL FIELD TRIP         0.00           169.35
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700007199393000  5000     MORSE FIELD TRIP           0.00           193.06
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700071399700000  5000     AHS WSU TRIP               0.00           268.14
+A1003     1904775   04/11/19 26082    FIRST GROUP AMERICA 700074399718100  5000     IAE MODEL UN               0.00           528.37
+TOTAL CHECK                                                                                                    0.00         3,516.12
+A1003     1904776   04/11/19 12254    FRAN FAIRMAN        700070399915800  5000     REIMB SCCR EXP             0.00           136.28
+A1003     1904783   04/11/19 22649    HIGHEST HONOR INC   700071399908000  5000     WRESTLING AWARDS           0.00           231.40
+A1003     1904790   04/11/19 27883    LATHAM MATTHEW C    700070399900800  5000     WATER POLO - G TRNM        0.00           210.00
+A1003     1904795   04/11/19 11555    MCGILLIVRAY CHALMER 700070399900800  5000     WATER POLO - G TRNM        0.00           180.00
+A1003     1904797   04/11/19 23537    METROPOLITAN PUBLIS 700070399354400  5000     PRINTING SERVICES O        0.00         4,820.00
+A1003     1904799   04/11/19 28193    MILLMAN MICHELLE    700053299337700  5000     FLAMENCO DANCE             0.00           500.00
+A1003     1904799   04/11/19 28193    MILLMAN MICHELLE    700053299701900  5000     FLAMENCO DANCE             0.00           500.00
+TOTAL CHECK                                                                                                    0.00         1,000.00
+A1003     1904810   04/11/19 21880    SERVICAR OF MICHIGA 700070399717500  5000     THS/LK ORION COMM E        0.00           445.50
+A1003     1904819   04/11/19 28011    CYPRESS COMPUTER SY 700070399702700  5000     OPEN PURCHASE ORDER        0.00            38.64
+A1003     1904822   04/11/19 25439    TRINITY INC         700052299351000  5000     BAND/ORCH CEDAR PT         0.00         1,375.00
+A1003     1904822   04/11/19 25439    TRINITY INC         700052299352000  5000     BAND/ORCH CEDAR PT         0.00         1,375.00
+TOTAL CHECK                                                                                                    0.00         2,750.00
+A1003     1904828   04/11/19 12370    WAYNE STATE UNIVERS 700070399907800  5000     TROY HS SMMR CAMP          0.00           375.00
+A1003     1904834   04/18/19 16111    ALL AMERICAN SCREEN 700070399911000  5000     OPEN PURCHASE ORDER        0.00           169.44
+A1003     1904836   04/18/19 19962    ANIL BHAT           700051299347000  5000     REIMB SO EXP               0.00           319.37
+A1003     1904837   04/18/19 19962    APARAJITA DUTTA     700051299347000  5000     REIMB SO EXP               0.00           296.59
+97
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904846   04/18/19 27814    BIANCHI JEFFREY P   700071399917000  5000     SFTBLL BNNR                0.00           481.00
+A1003     1904854   04/18/19 28198    CAMP CAVELL CONSERV 700071399900000  5000     ATHENS CHEER CAMP,         0.00         1,288.95
+A1003     1904881   04/18/19 14523    GRAPH-TEX           700071399992000  5000     FULL ZIP FLEECE            0.00           524.43
+A1003     1904882   04/18/19 19962    HAO TIAN            700051299347000  5000     REIMB SO EXP               0.00           200.99
+A1003     1904889   04/18/19 22649    HIGHEST HONOR INC   700071399909700  5000     NAMEPLATE ENGRAVING        0.00            48.00
+A1003     1904891   04/18/19 10930    HOSA                700071399710100  5000     TROY ATHENS STATE C        0.00         3,750.00
+A1003     1904893   04/18/19 19962    JENNIFER BURKE      700201699921000  5000     REIMB FIG SKT ICE T        0.00           216.00
+A1003     1904897   04/18/19 21444    KACZANDER  RICHARD  700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904897   04/18/19 21444    KACZANDER  RICHARD  700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904897   04/18/19 21444    KACZANDER  RICHARD  700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+TOTAL CHECK                                                                                                    0.00           168.00
+A1003     1904898   04/18/19 26379    TIMMERMAN SCOTT AND 700071399732000  5000     500 KT-TICKET:500-9        0.00           527.79
+A1003     1904904   04/18/19 17150    LANDMARK TOURS & TR 700070399718600  5000     TROY HS DECA AIRFAR        0.00        11,426.40
+A1003     1904905   04/18/19 19962    LEO WRIGLEY         700051299347000  5000     REIMB SO EXP               0.00           202.19
+A1003     1904906   04/18/19 10872    LEY MICHAEL         700070399900800  5000     LAX B GAME JV              0.00            55.00
+A1003     1904908   04/18/19 11262    LUTTENBERGER J MICH 700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904908   04/18/19 11262    LUTTENBERGER J MICH 700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904908   04/18/19 11262    LUTTENBERGER J MICH 700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+TOTAL CHECK                                                                                                    0.00           168.00
+A1003     1904912   04/18/19 11613    MANCINI FRANCO      700071399992000  5000     REIMB BSTR CONCESS         0.00           240.00
+A1003     1904917   04/18/19 10930    MI HEALTH COUNCIL   700070399710100  5000     OPEN PURCHASE ORDER        0.00         7,800.00
+A1003     1904918   04/18/19 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     ATHENS WRSTNG DIST         0.00            62.00
+A1003     1904918   04/18/19 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     ATHENS REG CHEER           0.00         5,642.68
+A1003     1904918   04/18/19 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     ATHENS BKTBLL DSTRC        0.00         1,349.24
+TOTAL CHECK                                                                                                    0.00         7,053.92
+A1003     1904921   04/18/19 27646    ZIP MEDICAL SUPPLIE 700071399992000  5000     GATORADE PKG               0.00           155.00
+A1003     1904924   04/18/19 24081    NATL ACADEMIC QUIZ  700070399711000  5000     TROY HS QUIZ BWL           0.00           675.00
+A1003     1904925   04/18/19 21153    NATL TRAILS INC     700013199719400  5000     GR5 CAMP TRANS             0.00         1,600.00
+A1003     1904925   04/18/19 21153    NATL TRAILS INC     700013199719400  5000     GR5 CAMP TRANS             0.00         1,600.00
+TOTAL CHECK                                                                                                    0.00         3,200.00
+A1003     1904926   04/18/19 19962    NUSRAT LUBNA        700051299347000  5000     REIMB SO EXP               0.00           128.13
+A1003     1904929   04/18/19 24884    PAPPAS DENO G       700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+98
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904929   04/18/19 24884    PAPPAS DENO G       700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904929   04/18/19 24884    PAPPAS DENO G       700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+TOTAL CHECK                                                                                                    0.00           168.00
+A1003     1904930   04/18/19 11748    PAUL PATRICK B      700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904930   04/18/19 11748    PAUL PATRICK B      700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+A1003     1904930   04/18/19 11748    PAUL PATRICK B      700071399992000  5000     SFTBLL G TRNMNT V          0.00            56.00
+TOTAL CHECK                                                                                                    0.00           168.00
+A1003     1904936   04/18/19 19962    ROOPALI BELORKAR    700051299347000  5000     REIMB SO EXP               0.00            63.75
+A1003     1904939   04/18/19 19962    SAMAR TELI          700051299347000  5000     REIMB SO EXP               0.00           117.04
+A1003     1904940   04/18/19 28055    ENJOY THE CITY NORT 700071399910700  5000     BYS TRK FUNDRSR            0.00           255.00
+A1003     1904945   04/18/19 28195    SHOEMAKER THOMAS L  700070399900800  5000     BSBLL B GAME V             0.00            60.00
+A1003     1904947   04/18/19 27896    SARALINE LLC        700071399732900  5000     ATHENS PROM                0.00         1,400.00
+A1003     1904949   04/18/19 19962    SIVAKUMAR SRINIVASA 700051299347000  5000     REIMB SO EXP               0.00           114.29
+A1003     1904953   04/18/19 19962    SRIRAM RAO          700051299347000  5000     REIMB SO EXP               0.00            48.95
+A1003     1904958   04/18/19 19962    SUHAS TONAPI        700051299347000  5000     REIMB SO EXP               0.00           127.32
+A1003     1904966   04/18/19 15979    TOTAL T'S           700071399708000  5000     BOOK CLUB TEES             0.00            97.50
+A1003     1904968   04/18/19 28001    H F F MICHIGAN HOLD 700790699397000  5000     OPEN PO FOR IPAD RE        0.00           680.00
+A1003     1904978   04/25/19 11585    SPORT SUPPLY GROUP  700070399901600  5000     THS G LAX APPAREL          0.00        33,850.00
+A1003     1904992   04/25/19 10286    CHERYL MOREY        700053299702700  5000     REIMB ROBOTICS EXP         0.00           279.12
+A1003     1904995   04/25/19 26100    CLUB VENETIAN BANQU 700070399906700  5000     TROY HS SWIM BANQ          0.00         1,544.62
+A1003     1905005   04/25/19 12254    DANIEL TROCCOLI     700070399901600  5000     REIMB THS SCCR EXP         0.00         1,856.00
+A1003     1905008   04/25/19 12254    DREW MAJEWSKI       700070399909700  5000     REIMB FNGRPRNT FEE         0.00            57.25
+A1003     1905020   04/25/19 26664    GREAT ADVENTURE TOU 700013199701800  5000     GR4 MCKNW MARTELL          0.00        22,170.00
+A1003     1905027   04/25/19 11039    IMPRESSION CENTER   700052299700000  5000     GR7 B BKTBLL SHIRTS        0.00           434.00
+A1003     1905029   04/25/19 12254    JAY DARISH          700070399901000  5000     REIMB BYS LAX EXP          0.00           468.00
+A1003     1905031   04/25/19 11425    JOHNNY MACS SPORTIN 700070399906000  5000     REISSUE CK 1903131         0.00           403.00
+A1003     1905035   04/25/19 12254    LEYA CHAMBO         700070399705300  5000     REIMB BUILD ON EXP         0.00           141.13
+A1003     1905037   04/25/19 25865    AFFORDABLE ELEGANCE 700071399732000  5000     NAVY SATIN PILLOWCA        0.00           316.22
+A1003     1905037   04/25/19 25865    AFFORDABLE ELEGANCE 700071399732000  5000     GOLD SATIN PILLOWCA        0.00           103.76
+A1003     1905037   04/25/19 25865    AFFORDABLE ELEGANCE 700071399732000  5000     LATE NIGHT PICK UP         0.00            80.02
+99
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           500.00
+A1003     1905038   04/25/19 28144    MARIA DISMONDY INC  700007199708000  5000     MORSE ASSEMBLY             0.00           221.00
+A1003     1905038   04/25/19 28144    MARIA DISMONDY INC  700008199701300  5000     LEONARD BOOK ORDERS        0.00           316.00
+TOTAL CHECK                                                                                                    0.00           537.00
+A1003     1905043   04/25/19 12254    MEGHANA KEETA       700070399705300  5000     REIMB BUILDON EXP          0.00           126.00
+A1003     1905045   04/25/19 11440    MI FUTURE PROBLEM S 700070399709000  5000     TROY HS STATE BOWL         0.00           820.00
+A1003     1905046   04/25/19 10930    MI HEALTH COUNCIL   700074399711100  5000     IAE STATE COMP FEES        0.00            75.00
+A1003     1905046   04/25/19 10930    MI HEALTH COUNCIL   700074399711100  5000     IAE STATE COMP FEES        0.00         3,225.00
+TOTAL CHECK                                                                                                    0.00         3,300.00
+A1003     1905053   04/25/19 27181    GOULD KENNETH       700070399732000  5000     TROY HS 2020 PROM          0.00           850.00
+A1003     1905067   04/25/19 11175    MICHAEL CRAIG C     700070399732000  5000     TROY HS 2020 PROM          0.00           550.00
+A1003     1905076   04/25/19 21880    SERVICAR OF MICHIGA 700052299352000  5000     TRANSPORTATION TO T        0.00           345.71
+A1003     1905089   04/25/19 10286    THAVAMANI AMMAIYAPP 700053299702700  5000     REIMB ROBOTICS EXP         0.00           149.99
+A1003     1905090   04/25/19 15979    TOTAL T'S           700052299700000  5000     PROT VULNRBLE SHRTS        0.00           137.50
+A1003     1905090   04/25/19 15979    TOTAL T'S           700052299667600  5000     PROT VULNRBLE SHRTS        0.00           122.50
+A1003     1905090   04/25/19 15979    TOTAL T'S           700052299667600  5000     LINKS TSHIRTS              0.00           214.50
+A1003     1905090   04/25/19 15979    TOTAL T'S           700052299667600  5000     AUTISM T'S                 0.00            91.00
+TOTAL CHECK                                                                                                    0.00           565.50
+A1003     W19-233   04/12/19 12140    MI STATE OF/DEPT OF 700070399701900  5000     SALES TAX MARCH 201        0.00             3.40
+A1003     W19-233   04/12/19 12140    MI STATE OF/DEPT OF 700070399524000  5000     SALES TAX MARCH 201        0.00             6.57
+A1003     W19-233   04/12/19 12140    MI STATE OF/DEPT OF 700071399737400  5000     SALES TAX MARCH 201        0.00           275.06
+A1003     W19-233   04/12/19 12140    MI STATE OF/DEPT OF 700071399524000  5000     SALES TAX MARCH 201        0.00             3.36
+TOTAL CHECK                                                                                                    0.00           288.39
+A1003    E1904848   04/18/19 10254    BLUE LAKES CHARTERS 700071399900000  5000     56 PASSENGER BUS TO        0.00           400.00
+A1003    E1904984   04/25/19 10254    BLUE LAKES CHARTERS 700009199393000  5000     WATTLES/LNSNG 5/8          0.00         2,745.00
+A1003    E1905095   04/25/19 25188    VERNIER SOFTWARE &  700071399667100  5000     GO DIRECT TEMP PROB        0.00           765.81
+A1003    E1905095   04/25/19 25188    VERNIER SOFTWARE &  700071399667100  5000     GO DIRECT WIDE RANG        0.00           109.98
+A1003    E1905095   04/25/19 25188    VERNIER SOFTWARE &  700071399667100  5000     GO DIRECT CONDUCTIV        0.00         1,198.66
+A1003    E1905095   04/25/19 25188    VERNIER SOFTWARE &  700071399667100  5000     CONDUCTIVITY SOLUTI        0.00            18.16
+A1003    E1905095   04/25/19 25188    VERNIER SOFTWARE &  700071399667100  5000     GO DIRECT CHARGE ST        0.00           139.24
+TOTAL CHECK                                                                                                    0.00         2,231.85
+TOTAL CASH ACCOUNT                                                                                             0.00       165,691.14
+TOTAL FUND                                                                                                     0.00       165,691.14
+100
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   48
+DATE: 05/28/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 18:51:56                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='10' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD: 11/19
+     FUND - 701 - ACTIVITY ACCOUNT
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1904743   04/04/19 10221    VENTE JENNIFER      701051299697100  5000     SMITH PETTY CASH           0.00            29.02
+A1003     1904999   04/25/19 22355    CONTINENTAL CAFE LL 701070399700800  5000     OPEN PURCHASE ORDER        0.00            77.26
+A1003     W19-249   04/19/19 27800    EDUSTAFF LLC        701              L4026    CONT SVC 3/31-4/13         0.00            20.96
+TOTAL CASH ACCOUNT                                                                                             0.00           127.24
+TOTAL FUND                                                                                                     0.00           127.24
+TOTAL REPORT                                                                                                   0.00    20,095,250.10
+101
+Troy School District, ACH Debit Report, April 2019
+J/E Number Budget Unit A/C Code Transaction Amount Transaction Description
+616 101 A1003 36,567.99                     CONSUMERS ENERGY APR 2019
+616 122 A1003 379.49                           CONSUMERS ENERGY APR 2019
+616 530 A1003 176.08                           CONSUMERS ENERGY APR 2019
+617 101 A1003 96.70                             DTE ENERGY APR 2019
+617 122 A1003 13,108.56                     DTE ENERGY APR 2019
+$50,328.82
+102
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/12/2019-STAPLS721674 APR PCARD EXPENSE 101008111100100 5110 71.68                          -                  
+4/16/2019-SSI SCHOOL S APR PCARD EXPENSE 101008111100100 5110 55.66                          -                  
+4/17/2019-STAPLS721674 APR PCARD EXPENSE 101008111100100 5110 17.59                          -                  
+4/24/2019-CDW GOVT #RZ APR PCARD EXPENSE 101008111100100 5110 311.80                        -                  
+4/24/2019-INKANDTONER APR PCARD EXPENSE 101008111100100 5110 579.96                        -                  
+4/24/2019-STAPLS721705 APR PCARD EXPENSE 101008111100100 5110 59.38                          -                  
+4/26/2019-LIGHTSPEED T APR PCARD EXPENSE 101008111100100 5110 35.00                          -                  
+4/9/2019-HELPCOUNTER APR PCARD EXPENSE 101008241031000 5910 150.00                        -                  
+4/1/2019-AMAZON.COM M APR PCARD EXPENSE 700008199700000 5000 76.86                          -                  
+4/25/2019-AMAZON.COM M APR PCARD EXPENSE 700008199700000 5000 76.86                          -                  
+4/1/2019-G2GCHARGE.CO APR PCARD EXPENSE 101071127544100 5990 361.00                        -                  
+4/11/2019-SARAH'S CAKE APR PCARD EXPENSE 101071127544100 5990 29.99                          -                  
+4/17/2019-ECOLAB INC M APR PCARD EXPENSE 101071127544100 5990 59.28                          -                  
+4/18/2019-SKILLSUSA OR APR PCARD EXPENSE 101071127544100 5990 124.00                        -                  
+4/11/2019-KROGER #463 APR PCARD EXPENSE 700071399737400 5000 54.02                          -                  
+4/17/2019-GFS STORE #0 APR PCARD EXPENSE 700071399737400 5000 33.97                          -                  
+4/24/2019-GFS STORE #0 APR PCARD EXPENSE 700071399737400 5000 56.40                          -                  
+3/29/2019-RVT SALINE A APR PCARD EXPENSE 700053299701900 5000 95.00                          -                  
+4/19/2019-SP   USHIO E APR PCARD EXPENSE 700053299701900 5000 56.29                          -                  
+4/25/2019-BREAKAWAY DE APR PCARD EXPENSE 701053299697100 5000 50.07                          -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 101011111970100 5110 33.90                          -                  
+4/11/2019-INT IN  ESS APR PCARD EXPENSE 101070127579100 5990 752.18                        -                  
+4/15/2019-SUPERSHUTTLE APR PCARD EXPENSE 101071221510000 3220 255.58                        -                  
+4/22/2019-MARRIOTT ANA APR PCARD EXPENSE 101071221510000 3220 1,150.92                     -                  
+4/24/2019-MARRIOTT ANA APR PCARD EXPENSE 101071221510000 3220 1,057.32                     -                  
+4/22/2019-OFFICE EXPRE APR PCARD EXPENSE 101970293000000 5910 190.14                        -                  
+4/15/2019-BEST WESTERN APR PCARD EXPENSE 101970293000000 5990 583.15                        -                  
+4/25/2019-ISTE CONFERE APR PCARD EXPENSE 101790225000000 7410 125.00                        -                  
+4/25/2019-ISTE CONFERE APR PCARD EXPENSE 101790283021500 3220 470.00                        -                  
+4/22/2019-STAPLS721726 APR PCARD EXPENSE 101071113007100 5110 687.01                        -                  
+4/25/2019-NASSP PRODUC APR PCARD EXPENSE 101071113007100 7410 95.00                          -                  
+4/25/2019-NASSP PRODUC APR PCARD EXPENSE 101071113007100 7410 385.00                        -                  
+4/1/2019-STAPLS721588 APR PCARD EXPENSE 101071113330000 5110 185.92                        -                  
+4/22/2019-STAPLES DIRE APR PCARD EXPENSE 101071113330000 5110 180.12                        -                  
+4/1/2019-ARC SERVICES APR PCARD EXPENSE 700071399701800 5000 304.00                        -                  
+4/26/2019-QUALITY LOGO APR PCARD EXPENSE 700071399732900 5000 1,010.19                     -                  
+4/10/2019-HUDL APR PCARD EXPENSE 700071399901600 5000 400.00                        -                  
+4/9/2019-AMZN MKTP US APR PCARD EXPENSE 101011111100100 5110 69.99                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667400 5000 139.46                        -                  
+1 5/30/2019
+103
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/16/2019-Amazon.com M APR PCARD EXPENSE 700011199667400 5000 15.43                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667600 5000 7.41                            -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667600 5000 48.60                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667600 5000 30.19                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667600 5000 18.45                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667700 5000 22.23                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700011199667700 5000 47.54                          -                  
+4/12/2019-7-ELEVEN 367 APR PCARD EXPENSE 701011199697100 5000 6.29                            -                  
+4/11/2019-US SCHOOL SU APR PCARD EXPENSE 700070399700200 5000 334.80                        -                  
+4/16/2019-AMZN MKTP US APR PCARD EXPENSE 700070399700200 5000 32.45                          -                  
+4/18/2019-WALGREENS #4 APR PCARD EXPENSE 700070399700200 5000 125.01                        -                  
+4/18/2019-ACE HARDWARE APR PCARD EXPENSE 700070399700200 5000 26.24                          -                  
+4/19/2019-WHOLESALECAR APR PCARD EXPENSE 700070399700200 5000 310.59                        -                  
+4/24/2019-CRESTLINE - APR PCARD EXPENSE 700070399700200 5000 388.25                        -                  
+4/10/2019-MEIJER INC # APR PCARD EXPENSE 701070399697100 5000 57.52                          -                  
+4/10/2019-JIMMY JOHNS APR PCARD EXPENSE 701070399697100 5000 123.21                        -                  
+4/17/2019-AMZN MKTP US APR PCARD EXPENSE 701070399697100 5000 40.92                          -                  
+4/17/2019-AMZN MKTP US APR PCARD EXPENSE 701070399697100 5000 19.74                          -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 701070399697100 5000 59.63                          -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 701070399697100 5000 8.99                            -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 701070399697100 5000 69.34                          -                  
+4/22/2019-MEIJER INC # APR PCARD EXPENSE 701070399697100 5000 21.95                          -                  
+4/10/2019-APL ITUNES.C APR PCARD EXPENSE 101050112351000 5110 9.99                            -                  
+4/10/2019-MUSIC IN MOT APR PCARD EXPENSE 101050112351000 5110 41.70                          -                  
+4/16/2019-AMAZON.COM M APR PCARD EXPENSE 101050112351000 5110 20.30                          -                  
+4/24/2019-AMWAY GRAND APR PCARD EXPENSE 122885283326000 3220 24.80                          -                  
+4/12/2019-TROY DELI APR PCARD EXPENSE 101016111100100 5110 56.50                          -                  
+4/15/2019-RIDLEY'S BAK APR PCARD EXPENSE 101016111100100 5110 34.12                          -                  
+4/15/2019-TREVARROW AC APR PCARD EXPENSE 101051112005100 5110 63.24                          -                  
+4/18/2019-TREVARROW AC APR PCARD EXPENSE 101051112005100 5110 15.18                          -                  
+4/15/2019-THE HOME DEP APR PCARD EXPENSE 700051299708000 5000 212.89                        -                  
+4/15/2019-SQU SQ  KNAP APR PCARD EXPENSE 701051299697100 5000 10.25                          -                  
+4/10/2019-AMZN MKTP US APR PCARD EXPENSE 101620227000000 5910 35.97                          -                  
+4/11/2019-LAKESHORE LE APR PCARD EXPENSE 120304125684500 5110 240.99                        -                  
+4/19/2019-RIDLEY'S BAK APR PCARD EXPENSE 120315331684500 5990 745.20                        -                  
+4/22/2019-RIDLEY'S BAK APR PCARD EXPENSE 120315331684500 5990 50.00                          -                  
+3/28/2019-VWR INTERNAT APR PCARD EXPENSE 120317125684800 5110 187.50                        -                  
+4/10/2019-AMZN MKTP US APR PCARD EXPENSE 120317125684800 5110 184.65                        -                  
+4/17/2019-AMZN Mktp US APR PCARD EXPENSE 120317125684800 5110 722.40                        -                  
+2 5/30/2019
+104
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/23/2019-AMZN MKTP US APR PCARD EXPENSE 120317125684800 5110 16.19                          -                  
+4/22/2019-AMAZON.COM M APR PCARD EXPENSE 120317221684800 5110 55.56                          -                  
+4/23/2019-AMAZON.COM M APR PCARD EXPENSE 120317221684800 5110 23.96                          -                  
+4/25/2019-AMAZON.COM M APR PCARD EXPENSE 120317221684800 5110 53.10                          -                  
+4/26/2019-AMAZON.COM M APR PCARD EXPENSE 120317221684800 5110 882.88                        -                  
+3/28/2019-SHIPT TIP 16 APR PCARD EXPENSE 120317331684800 5990 5.00                            -                  
+4/12/2019-EINSTEIN BRO APR PCARD EXPENSE 701790699697100 5000 114.94                        -                  
+4/12/2019-BAGEL FACTOR APR PCARD EXPENSE 701790699697100 5000 90.00                          -                  
+4/18/2019-AMAZON.COM M APR PCARD EXPENSE 101015111100100 5110 10.06                          -                  
+4/18/2019-AMAZON.COM M APR PCARD EXPENSE 101015111100100 5110 25.88                          -                  
+4/16/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 211.90                        -                  
+4/17/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 210.10                        -                  
+4/17/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 189.70                        -                  
+4/18/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 205.40                        -                  
+4/18/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 201.80                        -                  
+4/19/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 209.20                        -                  
+4/19/2019-TROY HISTORI APR PCARD EXPENSE 700015199393000 5000 205.40                        -                  
+4/4/2019-Dollar Tree APR PCARD EXPENSE 700015199667300 5000 72.00                          -                  
+4/18/2019-YA YA E FAVO APR PCARD EXPENSE 700015199700000 5000 117.85                        -                  
+4/26/2019-AMAZON.COM M APR PCARD EXPENSE 700015199700000 5000 85.92                          -                  
+4/23/2019-CUSTOMINK LL APR PCARD EXPENSE 700015199719400 5000 38.51                          -                  
+3/28/2019-JETS PIZZA - APR PCARD EXPENSE 701015199697100 5000 177.55                        -                  
+3/29/2019-JETS PIZZA - APR PCARD EXPENSE 701015199697100 5000 59.69                          -                  
+3/29/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 35.98                          -                  
+4/15/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 8.42                            -                  
+4/15/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 108.01                        -                  
+4/16/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 28.56                          -                  
+4/16/2019-STAPLES     APR PCARD EXPENSE 101013111100100 5110 33.97                          -                  
+4/17/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 69.90                          -                  
+4/18/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 19.46                          -                  
+4/18/2019-SSI SCHOOL S APR PCARD EXPENSE 101013111100100 5110 146.53                        -                  
+4/18/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 21.99                          -                  
+4/19/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 58.99                          -                  
+4/19/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 28.16                          -                  
+4/22/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 37.40                          -                  
+4/22/2019-OTC BRANDS APR PCARD EXPENSE 101013111100100 5110 292.60                        -                  
+4/24/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 29.21                          -                  
+4/24/2019-AMAZON.COM M APR PCARD EXPENSE 101013111100100 5110 27.67                          -                  
+4/24/2019-AMAZON.COM M APR PCARD EXPENSE 101013111100100 5110 41.14                          -                  
+3 5/30/2019
+105
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/25/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 14.08                          -                  
+4/25/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 11.89                          -                  
+4/25/2019-SSI SCHOOL S APR PCARD EXPENSE 101013111100100 5110 130.26                        -                  
+4/25/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 38.28                          -                  
+4/25/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 121.72                        -                  
+4/25/2019-AMAZON.COM M APR PCARD EXPENSE 101013111100100 5110 13.93                          -                  
+4/25/2019-PHYSICAL EDU APR PCARD EXPENSE 101013111100100 5110 200.89                        -                  
+4/26/2019-LIGHTSPEED T APR PCARD EXPENSE 101013111100100 5110 70.00                          -                  
+4/26/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 14.39                          -                  
+4/26/2019-AMZN MKTP US APR PCARD EXPENSE 101013111100100 5110 53.15                          -                  
+4/26/2019-AMZN Mktp US APR PCARD EXPENSE 101013111100100 5110 23.45                          -                  
+3/28/2019-AMZN MKTP US APR PCARD EXPENSE 101013241031000 5910 28.74                          -                  
+4/19/2019-TARGET      APR PCARD EXPENSE 101013241031000 5910 61.99                          -                  
+4/23/2019-HELPCOUNTER APR PCARD EXPENSE 101013241031000 5910 150.00                        -                  
+4/26/2019-TARGET      APR PCARD EXPENSE 101013241031000 5910 6.99                            -                  
+3/28/2019-KROGER #487 APR PCARD EXPENSE 701013199697100 5000 10.99                          -                  
+3/29/2019-PANERA BREAD APR PCARD EXPENSE 701013199697100 5000 68.88                          -                  
+4/23/2019-AMZN MKTP US APR PCARD EXPENSE 701013199697100 5000 56.97                          -                  
+4/18/2019-ADOBE  EXPOR APR PCARD EXPENSE 101071221007100 5990 23.88                          -                  
+3/29/2019-BLOOMFIELD S APR PCARD EXPENSE 700070399990000 5000 58.00                          -                  
+4/15/2019-BLOOMFIELD S APR PCARD EXPENSE 700070399990000 5000 348.00                        -                  
+4/15/2019-AMAZON.COM M APR PCARD EXPENSE 700070399990000 5000 23.81                          -                  
+4/17/2019-KROGER #487 APR PCARD EXPENSE 700070399990000 5000 73.50                          -                  
+4/26/2019-SQU SQ  TROY APR PCARD EXPENSE 700070399990000 5000 35.00                          -                  
+4/22/2019-EIG CONSTANT APR PCARD EXPENSE 530201311020600 3510 195.00                        -                  
+4/11/2019-AMAZON.COM M APR PCARD EXPENSE 530201311031000 5910 50.00                          -                  
+4/16/2019-AMZN MKTP US APR PCARD EXPENSE 530201311031000 5910 -                              68.95              
+4/22/2019-OFFICE EXPRE APR PCARD EXPENSE 530201311031000 5910 380.28                        -                  
+4/24/2019-PROMO DIRECT APR PCARD EXPENSE 530201311031000 5910 283.08                        -                  
+4/1/2019-RISING PHOEN APR PCARD EXPENSE 530212351021200 5110 150.00                        -                  
+4/17/2019-AMZN MKTP US APR PCARD EXPENSE 530212351021200 5110 114.99                        -                  
+4/19/2019-AMAZON.COM M APR PCARD EXPENSE 530212351021200 5910 53.99                          -                  
+4/22/2019-WWW COSTCO C APR PCARD EXPENSE 530212351021200 5990 121.68                        -                  
+4/24/2019-PROMO DIRECT APR PCARD EXPENSE 530212351021200 5990 283.08                        -                  
+3/28/2019-STAPLS721579 APR PCARD EXPENSE 101007111100100 5110 97.41                          -                  
+3/29/2019-AMZN MKTP US APR PCARD EXPENSE 101007111100100 5110 23.98                          -                  
+3/29/2019-STAPLS721591 APR PCARD EXPENSE 101007111100100 5110 64.78                          -                  
+4/11/2019-STAPLS721562 APR PCARD EXPENSE 101007111100100 5110 -                              30.69              
+4/15/2019-STAPLS721685 APR PCARD EXPENSE 101007111100100 5110 149.85                        -                  
+4 5/30/2019
+106
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/18/2019-TARGET      APR PCARD EXPENSE 101007111100100 5110 17.86                          -                  
+4/24/2019-AMAZON.COM M APR PCARD EXPENSE 101007111100100 5110 8.94                            -                  
+4/25/2019-AMZN MKTP US APR PCARD EXPENSE 101007111100100 5110 14.16                          -                  
+4/19/2019-AMZN Mktp US APR PCARD EXPENSE 101007221000700 5990 60.52                          -                  
+4/25/2019-AMZN MKTP US APR PCARD EXPENSE 101007221000700 5990 11.99                          -                  
+4/24/2019-DETROIT ZOOL APR PCARD EXPENSE 700007199393000 5000 516.00                        -                  
+4/23/2019-SP   PEEQ - APR PCARD EXPENSE 700007199668200 5000 193.64                        -                  
+4/3/2019-COMCAST APR PCARD EXPENSE 529202229660000 3190 228.14                        -                  
+3/28/2019-MPHI APR PCARD EXPENSE 529202283660000 3220 275.00                        -                  
+4/1/2019-MARRIOTT ANN APR PCARD EXPENSE 529202283660000 3220 148.40                        -                  
+4/11/2019-MICHIGAN WOR APR PCARD EXPENSE 529202283660000 3220 15.00                          -                  
+4/18/2019-MICHIGAN WOR APR PCARD EXPENSE 529202283660000 3220 240.00                        -                  
+4/26/2019-PAYPAL  MEAT APR PCARD EXPENSE 529202283660000 3220 245.00                        -                  
+4/26/2019-MICHIGAN WOR APR PCARD EXPENSE 529202283660000 3220 120.00                        -                  
+4/3/2019-4TE CULLIGAN APR PCARD EXPENSE 529202391660000 4220 35.00                          -                  
+4/24/2019-PAYPAL  MICH APR PCARD EXPENSE 101053112005300 5110 100.00                        -                  
+3/28/2019-OFFICEMAX/OF APR PCARD EXPENSE 101053112005300 5990 142.17                        -                  
+4/15/2019-AMZN MKTP US APR PCARD EXPENSE 101053112005300 5990 41.97                          -                  
+4/22/2019-OFFICEMAX/OF APR PCARD EXPENSE 101053112005300 5990 72.73                          -                  
+4/1/2019-AMZN MKTP US APR PCARD EXPENSE 101053241031000 5910 28.90                          -                  
+4/12/2019-CANVA  02291 APR PCARD EXPENSE 101053241031000 5910 85.00                          -                  
+4/15/2019-Amazon Prime APR PCARD EXPENSE 101053241031000 5910 13.77                          -                  
+4/24/2019-CANVA  02303 APR PCARD EXPENSE 101053241031000 5910 1.00                            -                  
+3/28/2019-AMZN MKTP US APR PCARD EXPENSE 700053299701900 5000 8.24                            -                  
+3/28/2019-AMAZON.COM A APR PCARD EXPENSE 700053299701900 5000 -                              42.00              
+3/28/2019-AMZN MKTP US APR PCARD EXPENSE 700053299701900 5000 90.55                          -                  
+3/28/2019-AMAZON.COM M APR PCARD EXPENSE 700053299701900 5000 741.99                        -                  
+3/29/2019-AMZN MKTP US APR PCARD EXPENSE 700053299701900 5000 12.99                          -                  
+4/10/2019-AMZN Mktp US APR PCARD EXPENSE 700053299701900 5000 17.59                          -                  
+4/15/2019-AMZN MKTP US APR PCARD EXPENSE 700053299701900 5000 19.99                          -                  
+4/23/2019-PAYPAL  MICH APR PCARD EXPENSE 700053299701900 5000 1,200.00                     -                  
+4/23/2019-SQU SQ  NATI APR PCARD EXPENSE 700053299701900 5000 119.00                        -                  
+4/25/2019-AMZN MKTP US APR PCARD EXPENSE 700053299701900 5000 123.96                        -                  
+3/28/2019-AMZN MKTP US APR PCARD EXPENSE 700053299735200 5000 -                              2.34                
+3/28/2019-AMZN MKTP US APR PCARD EXPENSE 700053299735200 5000 -                              1.89                
+4/18/2019-KROGER #487 APR PCARD EXPENSE 701053299697100 5000 18.50                          -                  
+4/15/2019-TEACHERSPAYT APR PCARD EXPENSE 700127399542000 5000 5.50                            -                  
+4/17/2019-MEIJER INC # APR PCARD EXPENSE 700127399542000 5000 102.39                        -                  
+4/24/2019-MEIJER INC # APR PCARD EXPENSE 700127399542000 5000 98.86                          -                  
+5 5/30/2019
+107
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/25/2019-MICHAELS STO APR PCARD EXPENSE 700127399542000 5000 14.02                          -                  
+4/25/2019-Scholastic R APR PCARD EXPENSE 700127399542000 5000 39.50                          -                  
+4/26/2019-OFFICEMAX/DE APR PCARD EXPENSE 700127399542000 5000 15.29                          -                  
+4/25/2019-CU ORNITHOLO APR PCARD EXPENSE 101300221011100 3220 495.00                        -                  
+4/8/2019-MCLEAN   EAK APR PCARD EXPENSE 101300221011100 5990 287.84                        -                  
+4/25/2019-REI GREENWOO APR PCARD EXPENSE 101300221011100 5990 159.50                        -                  
+3/29/2019-USPS PO 2576 APR PCARD EXPENSE 101668252066800 3430 9.20                            -                  
+4/15/2019-BREAKAWAY DE APR PCARD EXPENSE 701150699999900 5000 183.84                        -                  
+4/19/2019-RIDLEY'S BAK APR PCARD EXPENSE 701150699999900 5000 17.25                          -                  
+4/9/2019-PAYPAL  MICH APR PCARD EXPENSE 101070127579100 3220 100.00                        -                  
+4/10/2019-ASE ENTRY-LE APR PCARD EXPENSE 101070127579100 5110 680.00                        -                  
+4/11/2019-AUTOZONE 437 APR PCARD EXPENSE 700070399573000 5000 -                              13.38              
+4/11/2019-AUTOZONE 437 APR PCARD EXPENSE 700070399573000 5000 -                              37.99              
+4/19/2019-AUTOZONE 437 APR PCARD EXPENSE 700070399573000 5000 42.45                          -                  
+4/2/2019-CHETS RENT A APR PCARD EXPENSE 101902261810000 4220 503.20                        -                  
+4/9/2019-CHETS RENT A APR PCARD EXPENSE 101902261810000 4220 -                              100.00            
+4/5/2019-MOTION INDUS APR PCARD EXPENSE 101902261849900 5990 -                              32.03              
+4/19/2019-SUBURBAN CHR APR PCARD EXPENSE 101902261857000 5730 15.18                          -                  
+4/22/2019-A2Z BALLOON APR PCARD EXPENSE 700070399524000 5000 185.00                        -                  
+4/17/2019-A2Z BALLOON APR PCARD EXPENSE 700070399718600 5000 92.36                          -                  
+4/23/2019-AARONS LOCK APR PCARD EXPENSE 101902261866000 5990 25.00                          -                  
+4/5/2019-GIL DAWS & A APR PCARD EXPENSE 101902283021500 3220 325.00                        -                  
+4/26/2019-PHOENIX STON APR PCARD EXPENSE 101904261870000 5990 777.00                        -                  
+3/28/2019-Scholastic R APR PCARD EXPENSE 700008199700000 5000 300.00                        -                  
+4/15/2019-KROGER #487 APR PCARD EXPENSE 101053112540000 5110 35.53                          -                  
+4/19/2019-KROGER #464 APR PCARD EXPENSE 101053112540000 5110 51.09                          -                  
+3/28/2019-BEST BUY    APR PCARD EXPENSE 101570221057000 5990 79.99                          -                  
+4/5/2019-BEST BUY    APR PCARD EXPENSE 101570221057000 5990 53.99                          -                  
+4/5/2019-THE HOME DEP APR PCARD EXPENSE 101570221057000 5990 11.91                          -                  
+4/9/2019-THE HOME DEP APR PCARD EXPENSE 101570221057000 5990 129.89                        -                  
+4/12/2019-THE HOME DEP APR PCARD EXPENSE 101570221057000 5990 79.88                          -                  
+4/15/2019-APL ITUNES.C APR PCARD EXPENSE 101570221057000 5990 14.99                          -                  
+4/15/2019-THE HOME DEP APR PCARD EXPENSE 101570221057000 5990 87.61                          -                  
+4/15/2019-MICRO CENTER APR PCARD EXPENSE 101570221057000 5990 -                              59.95              
+4/15/2019-MICRO CENTER APR PCARD EXPENSE 101570221057000 5990 599.99                        -                  
+4/15/2019-MICRO CENTER APR PCARD EXPENSE 101570221057000 5990 120.89                        -                  
+4/15/2019-BEST BUY    APR PCARD EXPENSE 101570221057000 5990 4.00                            -                  
+4/15/2019-BEST BUY    APR PCARD EXPENSE 101570221057000 5990 -                              67.99              
+4/16/2019-LOWES #02305 APR PCARD EXPENSE 101570221057000 5990 18.51                          -                  
+6 5/30/2019
+108
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/16/2019-THE HOME DEP APR PCARD EXPENSE 101570221057000 5990 161.97                        -                  
+4/18/2019-BEST BUY    APR PCARD EXPENSE 101570221057000 5990 -                              79.99              
+4/19/2019-APL  ITUNES. APR PCARD EXPENSE 101570221057000 5990 7.41                            -                  
+4/22/2019-THE HOME DEP APR PCARD EXPENSE 101570221057000 5990 19.96                          -                  
+4/26/2019-NETFLIX.COM APR PCARD EXPENSE 101570221057000 5990 13.99                          -                  
+4/1/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 499.99                        -                  
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              1.98                
+4/2/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 -                              0.69                
+4/2/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 79.98                          -                  
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              11.10              
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              1.76                
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              1.98                
+4/2/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 -                              0.50                
+4/2/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 -                              4.88                
+4/2/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 -                              1.20                
+4/2/2019-THE HOME DEP APR PCARD EXPENSE 101570221057100 5990 46.49                          -                  
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              18.54              
+4/2/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 -                              1.40                
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              4.05                
+4/2/2019-AMAZON.COM A APR PCARD EXPENSE 101570221057100 5990 -                              1.38                
+4/4/2019-APL ITUNES.C APR PCARD EXPENSE 101570221057100 5990 -                              0.22                
+4/4/2019-APL ITUNES.C APR PCARD EXPENSE 101570221057100 5990 -                              0.38                
+4/5/2019-AMAZON.COM M APR PCARD EXPENSE 101570221057100 5990 228.74                        -                  
+4/8/2019-THE HOME DEP APR PCARD EXPENSE 101570221057100 5990 -                              48.98              
+4/8/2019-LOWES #01779 APR PCARD EXPENSE 101570221057100 5990 19.98                          -                  
+4/8/2019-THE HOME DEP APR PCARD EXPENSE 101570221057100 5990 141.87                        -                  
+4/8/2019-APL ITUNES.C APR PCARD EXPENSE 101570221057100 5990 14.99                          -                  
+4/9/2019-SAMS CLUB #6 APR PCARD EXPENSE 101570221057100 5990 49.44                          -                  
+4/9/2019-AMAZON.COM M APR PCARD EXPENSE 101570221057100 5990 34.99                          -                  
+4/10/2019-THE HOME DEP APR PCARD EXPENSE 101570221057100 5990 -                              29.98              
+4/10/2019-AMZN Mktp US APR PCARD EXPENSE 101570221057100 5990 27.90                          -                  
+4/11/2019-ADORAMA INC APR PCARD EXPENSE 101570221057100 5990 1,599.00                     -                  
+4/15/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 -                              499.99            
+4/15/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 167.98                        -                  
+4/16/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 16.99                          -                  
+4/16/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 -                              103.99            
+4/16/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 79.99                          -                  
+4/18/2019-BEST BUY    APR PCARD EXPENSE 101570221057100 5990 99.99                          -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 101570221057100 5990 208.58                        -                  
+7 5/30/2019
+109
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/19/2019-APL ITUNES.C APR PCARD EXPENSE 101570221057100 5990 9.99                            -                  
+4/19/2019-APL  ITUNES. APR PCARD EXPENSE 101570221057100 5990 8.47                            -                  
+4/10/2019-JOANN STORES APR PCARD EXPENSE 101051112540000 5110 26.81                          -                  
+4/17/2019-GFS STORE #1 APR PCARD EXPENSE 101051112540000 5110 64.97                          -                  
+4/26/2019-JOANN STORES APR PCARD EXPENSE 101051112540000 5110 28.62                          -                  
+4/2/2019-KELLOGG CENT APR PCARD EXPENSE 700070399715500 5000 2,390.79                     -                  
+4/9/2019-AMZN MKTP US APR PCARD EXPENSE 700070399715500 5000 17.58                          -                  
+4/9/2019-AMZN MKTP US APR PCARD EXPENSE 700070399715500 5000 48.80                          -                  
+4/9/2019-AMZN MKTP US APR PCARD EXPENSE 700070399715500 5000 60.56                          -                  
+4/12/2019-TARGET      APR PCARD EXPENSE 700070399715500 5000 24.70                          -                  
+4/15/2019-PAPA ROMANOS APR PCARD EXPENSE 700070399715500 5000 281.74                        -                  
+4/8/2019-CAMERA EXCHA APR PCARD EXPENSE 700070399323500 5000 1,271.99                     -                  
+4/16/2019-MIPAMSU APR PCARD EXPENSE 700070399323500 5000 481.00                        -                  
+4/17/2019-AMZN MKTP US APR PCARD EXPENSE 700070399323500 5000 179.62                        -                  
+4/22/2019-MIPAMSU APR PCARD EXPENSE 700070399323500 5000 130.60                        -                  
+4/10/2019-BREAKAWAY DE APR PCARD EXPENSE 101071113007100 5110 -                              119.90            
+4/10/2019-BREAKAWAY DE APR PCARD EXPENSE 101071113007100 5110 119.90                        -                  
+4/19/2019-Amazon.com M APR PCARD EXPENSE 101071113007100 5110 24.95                          -                  
+3/28/2019-FOLLETT SCHO APR PCARD EXPENSE 101071113320100 5110 273.00                        -                  
+4/17/2019-AMZN Mktp US APR PCARD EXPENSE 101071113320100 5110 951.58                        -                  
+4/18/2019-FOLLETT SCHO APR PCARD EXPENSE 101071113320100 5110 115.20                        -                  
+4/19/2019-SSI SCHOOL S APR PCARD EXPENSE 101071113320100 5110 53.40                          -                  
+4/12/2019-FLUENCY MATT APR PCARD EXPENSE 101071113325000 5110 395.00                        -                  
+3/28/2019-Amazon.com M APR PCARD EXPENSE 101071113330000 5110 184.50                        -                  
+4/23/2019-SSI SCHOOL S APR PCARD EXPENSE 101071113340000 5110 42.12                          -                  
+4/19/2019-Amazon.com M APR PCARD EXPENSE 101071113340500 5110 1,536.60                     -                  
+4/19/2019-SOUTHEASTERN APR PCARD EXPENSE 101071113353300 5110 321.00                        -                  
+4/17/2019-ETSY.COM APR PCARD EXPENSE 101071113367000 5110 122.30                        -                  
+4/17/2019-OAKLAND SCHO APR PCARD EXPENSE 101071221021500 3220 30.00                          -                  
+4/10/2019-AMZN Mktp US APR PCARD EXPENSE 700071399667300 5000 20.67                          -                  
+4/10/2019-AMZN Mktp US APR PCARD EXPENSE 700071399667300 5000 21.92                          -                  
+4/15/2019-JETS PIZZA - APR PCARD EXPENSE 700071399701800 5000 60.92                          -                  
+4/15/2019-KROGER #464 APR PCARD EXPENSE 700071399701800 5000 7.00                            -                  
+4/1/2019-STAPLS721601 APR PCARD EXPENSE 700071399708000 5000 66.12                          -                  
+4/17/2019-RIDLEY'S BAK APR PCARD EXPENSE 700071399708000 5000 43.30                          -                  
+4/25/2019-DETROITZOOLO APR PCARD EXPENSE 700071399708800 5000 297.00                        -                  
+4/11/2019-JW MARRIOTT APR PCARD EXPENSE 700071399710100 5000 4,582.66                     -                  
+4/9/2019-PAYPAL  GO4T APR PCARD EXPENSE 700071399917000 5000 245.00                        -                  
+4/10/2019-BREAKAWAY DE APR PCARD EXPENSE 701071399697100 5000 126.70                        -                  
+8 5/30/2019
+110
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/11/2019-WONGS GARDEN APR PCARD EXPENSE 701071399697100 5000 99.14                          -                  
+4/15/2019-RIDLEY'S BAK APR PCARD EXPENSE 701071399697100 5000 54.13                          -                  
+4/16/2019-SAMSCLUB #47 APR PCARD EXPENSE 701071399697100 5000 31.94                          -                  
+4/26/2019-RIDLEY'S BAK APR PCARD EXPENSE 701071399697100 5000 47.91                          -                  
+4/10/2019-LUCKY`S MARK APR PCARD EXPENSE 101012241031000 3430 55.00                          -                  
+4/17/2019-STAPLS721702 APR PCARD EXPENSE 101012241031000 5910 18.78                          -                  
+4/17/2019-STAPLS721702 APR PCARD EXPENSE 101012241031000 5910 189.59                        -                  
+4/25/2019-AMZN Mktp US APR PCARD EXPENSE 101012241031000 5910 23.99                          -                  
+4/25/2019-AMZN Mktp US APR PCARD EXPENSE 101012241031000 5910 19.99                          -                  
+4/1/2019-WWW.1AND1.CO APR PCARD EXPENSE 700012199700000 5000 9.99                            -                  
+4/1/2019-BENITO S PIZ APR PCARD EXPENSE 700012199700000 5000 81.65                          -                  
+4/2/2019-ABSOPURE WAT APR PCARD EXPENSE 700012199700000 5000 85.00                          -                  
+4/8/2019-AMZN Mktp US APR PCARD EXPENSE 700012199700000 5000 77.32                          -                  
+4/8/2019-AMZN Mktp US APR PCARD EXPENSE 700012199700000 5000 14.82                          -                  
+4/9/2019-SCHOOL OUTFI APR PCARD EXPENSE 700012199700000 5000 90.49                          -                  
+4/11/2019-PEI WEI 0200 APR PCARD EXPENSE 700012199700000 5000 113.69                        -                  
+4/11/2019-KROGER #673 APR PCARD EXPENSE 700012199700000 5000 46.32                          -                  
+4/15/2019-OLIVE GARDEN APR PCARD EXPENSE 700012199700000 5000 77.37                          -                  
+4/15/2019-MUSEUM AFRCN APR PCARD EXPENSE 700012199700000 5000 90.00                          -                  
+4/16/2019-AMZN Mktp US APR PCARD EXPENSE 700012199700000 5000 16.40                          -                  
+4/16/2019-AMZN Mktp US APR PCARD EXPENSE 700012199700000 5000 21.98                          -                  
+4/16/2019-AMZN Mktp US APR PCARD EXPENSE 700012199700000 5000 10.99                          -                  
+4/18/2019-KROGER #673 APR PCARD EXPENSE 700012199700000 5000 39.92                          -                  
+4/22/2019-Amazon.com M APR PCARD EXPENSE 700012199700000 5000 23.06                          -                  
+4/24/2019-KROGER #673 APR PCARD EXPENSE 700012199700000 5000 6.46                            -                  
+4/25/2019-JJ FIELD BAS APR PCARD EXPENSE 700012199700000 5000 140.00                        -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700012199708000 5000 20.13                          -                  
+4/15/2019-Amazon.com M APR PCARD EXPENSE 700012199708000 5000 12.70                          -                  
+4/22/2019-AMZN Mktp US APR PCARD EXPENSE 700012199718000 5000 1,039.26                     -                  
+4/22/2019-AMZN Mktp US APR PCARD EXPENSE 700012199718000 5000 51.01                          -                  
+4/26/2019-AMZN Mktp US APR PCARD EXPENSE 700012199718000 5000 17.98                          -                  
+4/26/2019-AMZN Mktp US APR PCARD EXPENSE 700012199718000 5000 133.33                        -                  
+3/28/2019-CDW GOVT #RQ APR PCARD EXPENSE 101051112005100 5110 155.90                        -                  
+3/29/2019-STAPLS721591 APR PCARD EXPENSE 101051112005100 5110 208.30                        -                  
+3/28/2019-AMZN MKTP US APR PCARD EXPENSE 101051112320100 5110 88.30                          -                  
+3/29/2019-MARSHALL MUS APR PCARD EXPENSE 101051112352000 5110 82.15                          -                  
+3/29/2019-BALE CO APR PCARD EXPENSE 101051112352000 5110 105.80                        -                  
+4/12/2019-DRAMANOTEBOO APR PCARD EXPENSE 101051112352000 5110 24.95                          -                  
+4/15/2019-J.W. PEPPER APR PCARD EXPENSE 101051112352000 5110 79.49                          -                  
+9 5/30/2019
+111
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+4/15/2019-J.W. PEPPER APR PCARD EXPENSE 101051112352000 5110 130.50                        -                  
+4/15/2019-WALMART.COM APR PCARD EXPENSE 101051112352000 5110 47.68                          -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 101051112352000 5110 84.02                          -                  
+4/25/2019-RYAN MOFFETT APR PCARD EXPENSE 101051112352000 5110 36.90                          -                  
+4/26/2019-TARGET.COM APR PCARD EXPENSE 101051112352000 5110 33.90                          -                  
+4/26/2019-TARGET.COM APR PCARD EXPENSE 101051112352000 5110 15.89                          -                  
+4/26/2019-OFFICEMAX/DE APR PCARD EXPENSE 101051112352000 5110 16.74                          -                  
+4/26/2019-MICHAELS #94 APR PCARD EXPENSE 101051112352000 5110 89.92                          -                  
+4/26/2019-OFFICEMAX/OF APR PCARD EXPENSE 101051112352000 5110 195.50                        -                  
+4/1/2019-USPS PO 2580 APR PCARD EXPENSE 101051241020500 3430 269.50                        -                  
+4/1/2019-DAIRY QUEEN APR PCARD EXPENSE 700051299667100 5000 240.00                        -                  
+3/28/2019-PAYPAL  IHO APR PCARD EXPENSE 700051299700000 5000 1,085.00                     -                  
+4/1/2019-HSMICHIGAN APR PCARD EXPENSE 700051299700000 5000 84.00                          -                  
+4/15/2019-PEPPYS PIZZA APR PCARD EXPENSE 700051299700000 5000 32.00                          -                  
+4/18/2019-AMZN MKTP US APR PCARD EXPENSE 700051299703900 5000 75.42                          -                  
+4/9/2019-99 BOUNCE APR PCARD EXPENSE 700051299718000 5000 406.00                        -                  
+4/25/2019-KROGER #685 APR PCARD EXPENSE 101015111100100 5110 53.96                          -                  
+4/19/2019-YA YA E FAVO APR PCARD EXPENSE 700015199700000 5000 70.55                          -                  
+3/29/2019-CUSTOMINK LL APR PCARD EXPENSE 700015199719400 5000 1,156.73                     -                  
+4/12/2019-YARD HOUSE 0 APR PCARD EXPENSE 701015199697100 5000 76.00                          -                  
+4/15/2019-PANERA BREAD APR PCARD EXPENSE 701015199697100 5000 52.06                          -                  
+4/15/2019-STARBUCKS ST APR PCARD EXPENSE 701015199697100 5000 20.03                          -                  
+4/15/2019-NOODLES & CO APR PCARD EXPENSE 701015199697100 5000 56.66                          -                  
+4/16/2019-PANERA BREAD APR PCARD EXPENSE 701015199697100 5000 17.46                          -                  
+4/17/2019-PANERA BREAD APR PCARD EXPENSE 701015199697100 5000 69.25                          -                  
+4/18/2019-PANERA BREAD APR PCARD EXPENSE 701015199697100 5000 27.95                          -                  
+4/12/2019-AMZN MKTP US APR PCARD EXPENSE 101050112005000 5110 108.44                        -                  
+4/15/2019-AMZN MKTP US APR PCARD EXPENSE 101050112005000 5110 7.90                            -                  
+4/15/2019-AMZN MKTP US APR PCARD EXPENSE 101050112005000 5110 12.81                          -                  
+4/24/2019-GOOSECHASE.C APR PCARD EXPENSE 101050112005000 5110 49.00                          -                  
+4/24/2019-INTERNATIONA APR PCARD EXPENSE 101050112005000 5110 0.39                            -                  
+4/25/2019-FIVE BELOW 5 APR PCARD EXPENSE 101050112005000 5110 207.82                        -                  
+4/2/2019-AMZN MKTP US APR PCARD EXPENSE 101050221005000 5990 54.11                          -                  
+4/15/2019-GFS STORE #0 APR PCARD EXPENSE 101050221005000 5990 41.94                          -                  
+4/15/2019-LUCKY`S MARK APR PCARD EXPENSE 101050241020500 3430 165.00                        -                  
+4/1/2019-STAPLS721539 APR PCARD EXPENSE 101050241031000 5910 10.47                          -                  
+4/1/2019-STAPLS721539 APR PCARD EXPENSE 101050241031000 5910 12.89                          -                  
+4/24/2019-STAPLS721738 APR PCARD EXPENSE 101050241031000 5910 217.87                        -                  
+3/28/2019-HUNGRY HOWIE APR PCARD EXPENSE 700050299700000 5000 45.93                          -                  
+10 5/30/2019
+112
+TROY SCHOOL DISTRICT, PCARD REPORT, APRIL 2019
+Transaction Description JE Number Budget Unit A/C Code Transaction Amount Credits
+3/28/2019-KROGER #463 APR PCARD EXPENSE 700050299700000 5000 26.60                          -                  
+3/28/2019-HUNGRY HOWIE APR PCARD EXPENSE 700050299700000 5000 55.12                          -                  
+4/5/2019-WATCHDOGS US APR PCARD EXPENSE 700050299700000 5000 463.00                        -                  
+4/15/2019-HUNGRY HOWIE APR PCARD EXPENSE 700050299700000 5000 41.94                          -                  
+4/15/2019-HUNGRY HOWIE APR PCARD EXPENSE 700050299700000 5000 41.94                          -                  
+4/15/2019-KRISPY KREME APR PCARD EXPENSE 700050299700000 5000 56.13                          -                  
+4/25/2019-KROGER #463 APR PCARD EXPENSE 700050299700000 5000 21.44                          -                  
+4/26/2019-HUNGRY HOWIE APR PCARD EXPENSE 700050299700000 5000 73.89                          -                  
+4/10/2019-MICHAELS STO APR PCARD EXPENSE 122883122231000 5110 30.00                          -                  
+4/12/2019-TARGET      APR PCARD EXPENSE 122883122231000 5110 46.48                          -                  
+4/12/2019-DOLLAR TREE APR PCARD EXPENSE 122883122231000 5110 18.00                          -                  
+4/16/2019-KROGER #487 APR PCARD EXPENSE 122883122231000 5110 31.55                          -                  
+4/18/2019-KROGER #487 APR PCARD EXPENSE 122883122231000 5110 13.74                          -                  
+4/19/2019-KROGER #463 APR PCARD EXPENSE 122883122231000 5110 30.22                          -                  
+4/23/2019-KROGER #487 APR PCARD EXPENSE 122883122231000 5110 26.45                          -            

@@ -1,0 +1,1388 @@
+    ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006691   07/15/14 10042    DREW BAKER          530201000100000  R1810    ENRICH REFUND              0.00            39.50
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00           410.00
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00            13.50
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00            15.75
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00           475.00
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00            11.25
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00            18.00
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00           325.00
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00            36.00
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00         1,075.00
+A1003    14006695   07/15/14 20600    EDUCATION TO GO     530201311020000  3190     ON−LINE INSTRUCTION        0.00           520.00
+TOTAL CHECK                                                                                                    0.00         2,899.50
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 530212351021200  4230     CARE CO                    0.00           991.03
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 530212351021200  4230     CARE                       0.00           685.65
+TOTAL CHECK                                                                                                    0.00         1,676.68
+A1003    14006708   07/15/14 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00           940.07
+A1003    14006732   07/15/14 11181    KROGER CO           530212351021200  5990     LEONARD CARE               0.00            60.17
+A1003    14006804   07/15/14 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00           120.56
+A1003    14006811   07/15/14 12342    WAGG MARYANN        530213351021300  5990     REIMB AD ED PETTY C        0.00            20.00
+A1003    14006811   07/15/14 12342    WAGG MARYANN        530201311031000  5910     REIMB AD ED PETTY C        0.00            48.58
+A1003    14006811   07/15/14 12342    WAGG MARYANN        530201311373000  5110     REIMB AD ED PETTY C        0.00            66.37
+TOTAL CHECK                                                                                                    0.00           134.95
+A1003    14006812   07/15/14 12342    WAGG MARYANN        530213351021300  5990     REIMB CARE CO P CAS        0.00            30.00
+A1003    14006812   07/15/14 12342    WAGG MARYANN        530212351021200  5110     REIMB CARE CO P CAS        0.00           190.75
+A1003    14006812   07/15/14 12342    WAGG MARYANN        530212351021200  5990     REIMB CARE CO P CAS        0.00            46.96
+TOTAL CHECK                                                                                                    0.00           267.71
+A1003    15000003   07/09/14 13227    A T & T             530211351030000  3410     24887975416862NILES        0.00             1.61
+A1003    15000003   07/09/14 13227    A T & T             530213351030000  3410     24887975416862NILES        0.00             1.61
+A1003    15000003   07/09/14 13227    A T & T             530201311030000  3410     24887975416862NILES        0.00             2.30
+TOTAL CHECK                                                                                                    0.00             5.52
+A1003    15000015   07/09/14 10212    CONSTANCE GLORIA M  530212351021200  3190     CARE CO                    0.00            50.00
+A1003    15000017   07/09/14 10577    D T E ENERGY        530201311030000  5520     NILES #1 5/27−6/24         0.00           230.00
+A1003    15000017   07/09/14 10577    D T E ENERGY        530211351030000  5520     NILES #1 5/27−6/24         0.00           161.00
+A1003    15000017   07/09/14 10577    D T E ENERGY        530213351030000  5520     NILES #1 5/27−6/24         0.00           161.00
+TOTAL CHECK                                                                                                    0.00           552.00
+A1003    15000025   07/09/14 26510    THE ART EXPERIENCE  530212351021200  3190     CARE CO                    0.00           273.00
+A1003    15000030   07/15/14 10212    CONSTANCE GLORIA M  530212351021200  3190     CARE CO PROGRAM            0.00            50.00
+A1003    15000034   07/15/14 26434    LEISURE UNLIMITED L 530212351021200  3190     CARE CO PROGRAM            0.00           200.00
+81
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   31
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000036   07/15/14 26007    LOUIE MING A        530212351021200  3190     CARE CO PROGRAM            0.00           250.00
+A1003    15000069   07/31/14 10042    ANNEMARIE LYONS     530201000100000  R1810    ENRICH REFUND              0.00           170.00
+A1003    15000070   07/31/14 26489    CITY OF AUBURN HILL 530212351021200  3190     CARE TRIP                  0.00            50.00
+A1003    15000093   07/31/14 26082    FIRST GROUP AMERICA 530212351021200  4230     CARE CO                    0.00         1,201.83
+A1003    15000112   07/31/14 11181    KROGER CO           530212351021200  5990     SCHROEDER CARE             0.00            18.06
+A1003    15000113   07/31/14 10042    L P MUSUNUR         530              L4710    ENRICHMENT REF             0.00           295.00
+A1003    15000118   07/31/14 10042    LISA AVERY          530201000100000  R1810    AD ED REFUND               0.00            92.00
+A1003    15000119   07/31/14 11418    MI ASSOC OF COMMUNI 530201311021000  3220     9−22−14 CONF REG           0.00           179.00
+A1003    15000122   07/31/14 10042    MARK VANBODEGOM−SMI 530              L4710    ENRICHMENT REF             0.00            25.00
+A1003    15000126   07/31/14 10042    MEGAN MCCATTY       530212000100000  R1810    CARE REFUND                0.00           332.72
+A1003    15000133   07/31/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     DC630020498HAMILTON        0.00            62.50
+A1003    15000134   07/31/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     DC630019842LEONARD         0.00           125.00
+A1003    15000135   07/31/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     DC630019840MORSE           0.00           125.00
+A1003    15000136   07/31/14 23556    MI STATE OF−DEPT OF 530213351021300  7410     DC630022231LICENSEF        0.00           125.00
+A1003    15000137   07/31/14 23556    MI STATE OF−DEPT OF 530212351021200  7410     DC6300218877 WASS          0.00            62.50
+A1003    15000137   07/31/14 23556    MI STATE OF−DEPT OF 530213351021300  7410     DC6300218877 WASS          0.00            62.50
+TOTAL CHECK                                                                                                    0.00           125.00
+A1003    15000144   07/31/14 10042    NAGHAM YALDO        530              L4710    ENRICHMENT REF             0.00            82.00
+A1003    15000152   07/31/14 10042    RACHEL LEE          530              L4710    ENRICHMENT REF             0.00            82.00
+A1003    15000162   07/31/14 26443    SEMCYCLE  INC       530212351021200  3190     CARE CO                    0.00           800.00
+A1003    15000167   07/31/14 10042    SRINIVASA MOLLETI   530              L4710    ENRICHMENT REF             0.00           260.00
+TOTAL CASH ACCOUNT                                                                                             0.00        11,669.77
+TOTAL FUND                                                                                                     0.00        11,669.77
+82
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   32
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006632   07/15/14 23410    AMERICAN HEART ASSO 700053299700000  5000     BOULAN FUNDRAISER          0.00           418.00
+A1003    14006634   07/15/14 12254    AMY ENDRES          700070399900800  5000     THS WATER POLO REIM        0.00           281.60
+A1003    14006641   07/15/14 12612    APPLE COMPUTER INC  700053299700000  5000     KEYBOARD ’CORDED’ −        0.00           239.80
+A1003    14006642   07/15/14 10113    ARBOR PRESS LLC     700070399915800  5000     OPEN P.O. FOR TROY         0.00           740.00
+A1003    14006644   07/15/14 10420    ARGUS PRESS CO (THE 700071399323700  5000     OPEN PO FOR THE 201        0.00           424.58
+A1003    14006644   07/15/14 10420    ARGUS PRESS CO (THE 700071399323700  5000     OPEN PO FOR THE 201        0.00           578.16
+TOTAL CHECK                                                                                                    0.00         1,002.74
+A1003    14006656   07/15/14 25162    BLOOMFIELD SPORTS S 700071399992000  5000     AHS                        0.00           328.70
+A1003    14006656   07/15/14 25162    BLOOMFIELD SPORTS S 700071399992000  5000     AHS                        0.00           325.00
+A1003    14006656   07/15/14 25162    BLOOMFIELD SPORTS S 700071399901000  5000     NIKE VAPOR STOCK LA        0.00           600.00
+A1003    14006656   07/15/14 25162    BLOOMFIELD SPORTS S 700071399901000  5000     NIKE FULLY SUBLIMAT        0.00           945.00
+TOTAL CHECK                                                                                                    0.00         2,198.70
+A1003    14006657   07/15/14 10288    BOUND TO STAY BOUND 700008199701300  5000     PLEASE BOOKS ON LIS        0.00            94.07
+A1003    14006657   07/15/14 10288    BOUND TO STAY BOUND 700008199701300  5000     PLEASE PROVIDE PROC        0.00             1.38
+TOTAL CHECK                                                                                                    0.00            95.45
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO TC M73 I_G3220T        0.00             9.59
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO TC M73 I_G3220T        0.00             9.59
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO TC M73 I_G3220T        0.00             9.59
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO THINKCENTRE TIN        0.00             0.10
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO THINKCENTRE TIN        0.00             0.10
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO TC M73 I_G3220T        0.00            53.54
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO TC M73 I_G3220T        0.00             3.20
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO TC M73 I_G3220T        0.00             3.20
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO TC M73 I_G3220T        0.00             3.20
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO TC M73 I_G3220T        0.00           415.52
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO TC M73 I_G3220T        0.00           415.52
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO TC M73 I_G3220T        0.00           415.52
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO TC M73 I_G3220T        0.00            53.54
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO TC M73 I_G3220T        0.00            53.54
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO THINKCENTRE TIN        0.00            12.79
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO THINKCENTRE TIN        0.00            12.79
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO THINKCENTRE TIN        0.00             1.65
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO THINKCENTRE TIN        0.00             1.65
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO THINKCENTRE TIN        0.00            12.79
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO THINKCENTRE TIN        0.00             1.65
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO THINKCENTRE TIN        0.00             0.10
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700013199700000  5000     LVO THINKCENTRE TIN        0.00             0.30
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700014199700000  5000     LVO THINKCENTRE TIN        0.00             0.30
+A1003    14006659   07/15/14 19430    C D W GOVERNMENT IN 700015199700000  5000     LVO THINKCENTRE TIN        0.00             0.30
+TOTAL CHECK                                                                                                    0.00         1,490.07
+A1003    14006672   07/15/14 26540    LOUAY PAULS         700071399710000  5000     AHS SASH CLEANING          0.00           129.00
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700009199393000  5000     WATTLES                    0.00           534.42
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700071399341100  5000     AHS                        0.00           783.04
+83
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700051299700000  5000     SMITH                      0.00           138.50
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700074399700000  5000     IAE                        0.00           710.61
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700071399341100  5000     AHS                        0.00           967.05
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS                      0.00           949.44
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700017199393000  5000     HAMILTON                   0.00           491.36
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700010199393000  5000     HILL                       0.00           211.91
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700013199700000  5000     MARTELL                    0.00           151.71
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700007199393000  5000     MORSE                      0.00           122.35
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700011199719400  5000     SCHROEDER                  0.00         1,254.82
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700005199393000  5000     TROY UNION                 0.00           492.34
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700074399330100  5000     IAE                        0.00           717.46
+A1003    14006701   07/15/14 26082    FIRST GROUP AMERICA 700014199393000  5000     WASS                       0.00           354.82
+TOTAL CHECK                                                                                                    0.00         7,879.83
+A1003    14006703   07/15/14 10751    FOLLETT CORP        700011199708000  5000     PLEASE PROVIDE BOOK        0.00           154.42
+A1003    14006703   07/15/14 10751    FOLLETT CORP        700011199708000  5000     PLEASE PROVIDE PROC        0.00             8.05
+TOTAL CHECK                                                                                                    0.00           162.47
+A1003    14006713   07/15/14 10964    GREENWOOD PUBLISHIN 700009199719000  5000     WATTLES LLI GOLD KI        0.00         1,000.00
+A1003    14006716   07/15/14 26083    CAPSTONE GLOBAL LIB 700008199701300  5000     PLEASE PROVIDE BOOK        0.00         1,430.00
+A1003    14006721   07/15/14 23986    INACOMP TECHNICAL S 700009199700000  5000     TRC                        0.00            98.00
+A1003    14006722   07/15/14 13644    INDIAN TRAILS INC   700015199393000  5000     BEMIS                      0.00         2,814.00
+A1003    14006752   07/15/14 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     MHSAA GIRLS SOCCER         0.00         1,228.60
+A1003    14006752   07/15/14 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     MHSAA BOYS LAX             0.00        11,505.00
+A1003    14006752   07/15/14 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     MHSAA BOYS LAX             0.00         2,177.20
+A1003    14006752   07/15/14 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     MHSAA BOYS LAX             0.00           380.63
+TOTAL CHECK                                                                                                    0.00        15,291.43
+A1003    14006756   07/15/14 11412    MILLER JEANNE       700071399704200  5000     REIMB AHS PETTY CAS        0.00            10.25
+A1003    14006756   07/15/14 11412    MILLER JEANNE       700071399735000  5000     REIMB AHS PETTY CAS        0.00           122.88
+A1003    14006756   07/15/14 11412    MILLER JEANNE       700071399325200  5000     REIMB AHS PETTY CAS        0.00            16.97
+TOTAL CHECK                                                                                                    0.00           150.10
+A1003    14006761   07/15/14 11617    NEFF MOTIVATION INC 700050299990000  5000     BAKER                      0.00           192.42
+A1003    14006766   07/15/14 26521    O C TEES INC        700071399902000  5000     AHS CAMP TEES              0.00           207.84
+A1003    14006766   07/15/14 26521    O C TEES INC        700071399902000  5000     LIFTATHON A4 DRIFIT        0.00         1,258.95
+A1003    14006766   07/15/14 26521    O C TEES INC        700071399902000  5000     SAME LIFTATHON 2X−1        0.00           167.88
+A1003    14006766   07/15/14 26521    O C TEES INC        700071399902000  5000     PRIDE CAMP A4 DRIFI        0.00         1,258.95
+A1003    14006766   07/15/14 26521    O C TEES INC        700071399902000  5000     PRIDE CAMP SAME AS         0.00           167.88
+TOTAL CHECK                                                                                                    0.00         3,061.50
+A1003    14006779   07/15/14 12254    RITA BOGDANOVICH    700070399915800  5000     THS GIRL SOCCER REI        0.00           130.00
+A1003    14006785   07/15/14 11946    RYDER TRANSPORTATIO 700070399351300  5000     THS BAND                   0.00           159.47
+A1003    14006788   07/15/14 11511    WAPPINGERS FALLS SH 700070399323700  5000     THS                        0.00           392.00
+84
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006792   07/15/14 11842    SEHI COMPUTER PRODU 700051299371500  5000     HP DESKTOP 800 G1 C        0.00           864.78
+A1003    14006792   07/15/14 11842    SEHI COMPUTER PRODU 700051299371500  5000     HP 5 YEAR COMPUTER         0.00            97.42
+TOTAL CHECK                                                                                                    0.00           962.20
+A1003    14006799   07/15/14 12167    STRATFORD SHAKESPEA 700074399323300  5000     IAE TICKETS                0.00           261.58
+A1003    14006802   07/15/14 26268    TERRI MCCORMICK     700051299667200  5000     SMITH RIEMB                0.00           275.78
+A1003    14006813   07/15/14 12358    WALSH COLLEGE       700070399703800  5000     THS AP TESTING             0.00         2,507.50
+A1003    14006814   07/15/14 12360    WARDS NATURAL SCIEN 700070399700000  5000     691151 DOG FISH SHA        0.00           119.03
+A1003    14006814   07/15/14 12360    WARDS NATURAL SCIEN 700070399700000  5000     691251 DOG FISH SHA        0.00            16.54
+A1003    14006814   07/15/14 12360    WARDS NATURAL SCIEN 700070399700000  5000     690052 CEPHALOCHORD        0.00            41.36
+A1003    14006814   07/15/14 12360    WARDS NATURAL SCIEN 700070399700000  5000     682802 SOUTHERN CRA        0.00            19.16
+A1003    14006814   07/15/14 12360    WARDS NATURAL SCIEN 700070399700000  5000     SHIPPING                   0.00            29.54
+TOTAL CHECK                                                                                                    0.00           225.63
+A1003    15000020   07/09/14 25948    GREEN PASTURE ENTER 700070399703900  5000     THS BLDG IMPROVEMEN        0.00           331.21
+A1003    15000020   07/09/14 25948    GREEN PASTURE ENTER 700070399738600  5000     THS BLDG IMPROVEMEN        0.00         1,132.07
+A1003    15000020   07/09/14 25948    GREEN PASTURE ENTER 700070399700000  5000     THS BLDG IMPROVEMEN        0.00            26.72
+TOTAL CHECK                                                                                                    0.00         1,490.00
+A1003    15000021   07/09/14 11893    BUSQUAERT ROBERT    700970699990100  5000     BIP CHIP TIMING/FIN        0.00           800.00
+A1003    15000026   07/09/14 12326    VARSITY SPIRIT CORP 700070399900000  5000     ORDER #36901613 FOR        0.00           634.70
+A1003    15000039   07/15/14 19962    STACIE KLUMPP       700071399907800  5000     GIRLS BBALL ADVANCE        0.00           600.00
+A1003    15000063   07/31/14 26544    ABRO MATT           700970699990000  5000     THS SMMR BB CMP 201        0.00           132.00
+A1003    15000073   07/31/14 10364    CAROLINA BIOLOGICAL 700074399682000  5000     #216710 LURIA BROTH        0.00            75.52
+A1003    15000073   07/31/14 10364    CAROLINA BIOLOGICAL 700074399682000  5000     #736990 MICROCHEM P        0.00             9.69
+A1003    15000073   07/31/14 10364    CAROLINA BIOLOGICAL 700074399682000  5000     SHIPPING AND HANDLI        0.00            11.20
+TOTAL CHECK                                                                                                    0.00            96.41
+A1003    15000077   07/31/14 21795    CUNNINGHAM WILLIAM  700970699990000  5000     THS SMMR BB CMP 201        0.00           330.00
+A1003    15000078   07/31/14 13017    DANIEL WUNDERLICH   700970699990000  5000     THS SMMR BB CMP 201        0.00           230.00
+A1003    15000079   07/31/14 13144    DAVID GILLIE A.     700970699990000  5000     THS SMR BB CMP ASSG        0.00           249.00
+A1003    15000087   07/31/14 13610    DWORMAN JAMES M     700970699990000  5000     THS SMMR BB CMP 201        0.00            88.00
+A1003    15000094   07/31/14 10179    FLOWERS JOSEPH R    700970699990000  5000     THS SMMR BB CMP 201        0.00           242.00
+A1003    15000097   07/31/14 26545    GEORGE MELVIN       700970699990000  5000     THS SMMR BB CMP 201        0.00           110.00
+A1003    15000098   07/31/14 11020    GIANNAARIS THOMAS J 700970699990000  5000     THS SMMR BB CMP 201        0.00           220.00
+A1003    15000101   07/31/14 25141    GUICE ROBERT EARL I 700970699990000  5000     THS SMMR BB CMP 201        0.00            88.00
+A1003    15000105   07/31/14 13017    JOE LEONARD         700970699990000  5000     THS SMMR BB CMP 201        0.00           220.00
+85
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000108   07/31/14 12525    KACZANDER ALAN      700970699990000  5000     THS SMMR BB CMP 201        0.00            66.00
+A1003    15000109   07/31/14 21444    KACZANDER  RICHARD  700970699990000  5000     THS SMMR BB CMP 201        0.00            66.00
+A1003    15000111   07/31/14 25839    KLEIN KEVIN         700970699990000  5000     THS SMMR BB CMP 201        0.00           176.00
+A1003    15000114   07/31/14 21232    LACKEY RODRIQUEZ    700970699990000  5000     THS SMMR BB CMP 201        0.00            44.00
+A1003    15000117   07/31/14 13017    LEO MCMANUS         700970699990000  5000     THS SMMR BB CMP 201        0.00           170.00
+A1003    15000123   07/31/14 19789    MASSA RICHARD D     700970699990000  5000     THS SMMR BB CMP 201        0.00           132.00
+A1003    15000125   07/31/14 21438    MCDANIEL AARON      700970699990000  5000     THS SMMR BB CMP 201        0.00            66.00
+A1003    15000129   07/31/14 11504    MEYER NICHOLAS      700970699990000  5000     THS SMMR BB CMP 201        0.00           132.00
+A1003    15000143   07/31/14 26546    MUHAMMAD JILIL      700970699990000  5000     THS SMMR BB CMP 201        0.00           110.00
+A1003    15000145   07/31/14 11572    NATL ASSOC OF SECON 700074399710000  5000     IAE NEWSLETTER             0.00            85.00
+A1003    15000149   07/31/14 11748    PAUL PATRICK B      700970699990000  5000     THS SMMR BB CMP 201        0.00           132.00
+A1003    15000154   07/31/14 25709    RAMBUS ARNOLD       700970699990000  5000     THS SMMR BB CMP 201        0.00            66.00
+A1003    15000163   07/31/14 19064    SHERMAN KENDALL     700970699990000  5000     THS SMMR BB CMP 201        0.00           154.00
+A1003    15000165   07/31/14 10768    SIMS JOSEPH         700970699990000  5000     THS SMMR BB CMP            0.00           330.00
+A1003    15000166   07/31/14 19225    SMITH BRIAN K       700970699990000  5000     THS SMMR BB CMP            0.00           198.00
+A1003    15000171   07/31/14 10191    STEPHENS CRATHMAN   700970699990000  5000     THS SMMR BB CMP 201        0.00           220.00
+A1003    15000172   07/31/14 12178    SULLIVAN THOMAS R J 700970699990000  5000     THS SMMR BB CMP            0.00           154.00
+A1003    15000175   07/31/14 13017    TORREY KINNARD      700970699990000  5000     THS SMMR BB CMP 201        0.00           100.00
+A1003    15000177   07/31/14 25060    VANDENBUSSCHE SEAN  700970699990000  5000     THS SMMR BB CMP 201        0.00           286.00
+A1003    15000178   07/31/14 26162    WILLIAMS JU’VONNE   700970699990000  5000     THS SMMR BB CMP 201        0.00           110.00
+TOTAL CASH ACCOUNT                                                                                             0.00        51,916.38
+TOTAL FUND                                                                                                     0.00        51,916.38
+86
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006713   07/15/14 10964    GREENWOOD PUBLISHIN 701009199697100  5000     WATTLES LLI GOLD KI        0.00         1,577.38
+A1003    14006747   07/15/14 11026    MCCORMICK DONALD E  701009199697100  5000     WATTLES                    0.00           600.00
+A1003    14006811   07/15/14 12342    WAGG MARYANN        701201699697100  5000     REIMB AD ED PETTY C        0.00            35.98
+TOTAL CASH ACCOUNT                                                                                             0.00         2,213.36
+TOTAL FUND                                                                                                     0.00         2,213.36
+87
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 08/06/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140701 00:00:00.000’ and ’20140731
+ACCOUNTING PERIOD:  2/15
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006770   07/15/14 10134    OWEN WOODSTOCK      750071599742800  5000     ST CYR SCHOLARSHIP         0.00         1,000.00
+TOTAL CASH ACCOUNT                                                                                             0.00         1,000.00
+TOTAL FUND                                                                                                     0.00         1,000.00
+TOTAL REPORT                                                                                                   0.00     4,747,872.43
+88
+5.D.
+TO: Troy School District
+Board of Education
+ FROM: Mark S. Rajter
+Assistant Superintendent,
+Business Services
+BUSINESS 
+DEPARTMENT
+RE: Treasurer's Report
+4400 Livernois
+August, 2014
+Troy,  MI  48098
+248-823-4022
+Attached is the check register (including current period voids), a listing of ACH debits, wire
+transfers, and P-Card purchases made during the period.
+GENERAL  FUND (101) 1,409,471.54     
+GRANT FUND (120) 16,182.00          
+SPECIAL EDUCATION FUND (122) 181,727.89        
+FOOD SERVICE FUND (520) 11,078.19          
+TROY CAREER CENTER (529) 43,039.48          
+COMMUNITY EDUCATION FUND (530) 21,041.84          
+FACILITIES RENTAL FUND (535) -                    
+DEBT FUNDS (304, 306, 312) -                    
+BUILDING & SITE FUNDS (404, 499) 2,675,278.22     
+INTERNAL SERVICE FUND (681) -                    
+STUDENT ACTIVITY FUND (700, 701) 74,402.87          
+MEMORIAL SCHOLARSHIP FUND (750) 1,000.00            
+89
+DATE:
+Total - General Fund 1,607,381.43$  
+Total - Special Revenue Funds 75,159.51$       
+Total - Other Funds 2,750,681.09$  
+TOTAL CHECK DISBURSEMENTS 4,433,222.03$   4,433,222.03$   
+ACH DEBITS 13,649.51$        
+OUTGOING WIRE TRANSFERS 2,738,905.95$   
+September 15, 2014
+I certify that the disbursements listed on the attached check registers and listing of ACH debits
+wire transfers, and P-Card purchases were payments made for obligations of the Troy School 
+District and that all materials or services listed on the invoices have been received or performed.
+Mark S. Rajter
+Assistant Superintendent, Business Services
+90
+P-CARD PURCHASES 166,845.74$      
+PRIOR PERIOD VOID DISBURSEMENTS (33,925.77)$      
+TOTAL DISBURSEMENTS IN PERIOD 7,318,697.46$   
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Local sources 36,487,546 6,584,226 29,903,320 81.95%
+State sources 83,797,430 0 83,797,430 100.00%
+Federal sources 3,346,213 0 3,346,213 100.00%
+Incoming Transfers / Other 7,621,911 40,950 7,580,961 99.46%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Instruction:
+Basic Programs 71,241,541 2,530,341 829,884 67,881,316 95.28%
+Added Needs 15,785,389 656,765 59,272 15,069,352 95.46%
+Adult/Continuing Education 715,795 100,848 294,235 320,712 44.81%
+Total Instruction 87,742,725 3,287,954 1,183,391 83,271,380 94.90%
+Support Services:
+Pupil  9,518,872 420,172 283,104 8,815,596 92.61%
+Instructional Staff 6,625,044 705,364 836,162 5,083,518 76.73%
+General Administration 2,054,420 247,241 109,691 1,697,488 82.63%
+School Administration 8,092,920 1,229,169 1,033 6,862,718 84.80%
+Business Services 2,432,425 151,802 41,116 2,239,507 92.07%
+Operations/Maintenance 8,918,758 1,093,116 4,156,301 3,669,341 41.14%
+Pupil Transportation 3,441,680 169,242 2,508 3,269,930 95.01%
+Central Services 1,789,278 313,227 34,483 1,441,568 80.57%
+Other Support Services (Athletics and Other) 1,725,315 74,946 79,194 1,571,175 91.07%
+Total Support Services 44,598,712 4,404,279 5,543,592 34,650,841 77.69%
+Community Services 147,176 14,138 0 133,038 90.39%
+Outgoing Transfers / Other 36,567 0 0 36,567 100.00%
+Excess Revenue over (under) Expenditures (1,272,080)
+Fund Balance -  August 1, 2015 21,380,015
+91
+Revenue Approved Budget  Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 131,253,100$      6,625,176 $               124,627,924 $             94.95%
+Total Expenditures 132,525,180$      7,706,371 $               6,726,983 $            118,091,826$             89.11%
+Fund Balance - August 30, 2015 20,107,935$         
+General Fund 
+(Funds 101, 120, 122)
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Local 4,773,045 389,722 4,383,323 91.83%
+State 94,719 0 94,719 100.00%
+Federal 3,767,906 111,392 3,656,514 97.04%
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 1,465,825 253,645 0 1,212,180 82.70%
+Employee Benefits 802,637 167,174 0 635,463 79.17%
+Purchased Services 3,592,257 222,113 227,537 3,142,607 87.48%
+Supplies/Materials 1,757,786 5,292 60,004 1,692,490 96.29%
+Capital Outlay 10,000 0 267,087 (257,087) 0.00%
+Other Expenditures 113,650 4,131 0 109,519 96.37%
+Outgoing Transfers 98,413 0 0 98,413 100.00%
+Excess Revenue over (under) Expenditures 795,102
+Fund Balance -  August 1, 2015 3,541,661
+92
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 8,635,670$           501,114 $             8,134,556 $              94.20%
+Total Expenditures 7,840,568$           652,355 $             554,628 $                  6,633,585 $              84.61%
+Fund Balance - August 30, 2015 4,336,763$             
+Consolidated Special Revenue Funds 
+(520, 529, 530, 535)
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Local 2,407,045 4,893 2,402,152 99.80%
+State 94,719 0 94,719 100.00%
+Federal 984,425 71,571 912,854 92.73%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 1,687,822 30,213 500 1,657,109 98.18%
+Supplies/Materials 1,347,295 687 5,695 1,340,913 99.53%
+Capital Outlay 0 0 267,087 (267,087) 0.00%
+Other Expenditures 8,000 0 0 8,000 100.00%
+Outgoing Transfers 5,000 0 0 5,000 100.00%
+Excess Revenue over (under) Expenditures 438,072
+Fund Balance -  August 1, 2015 1,320,716
+93
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 3,486,189$           76,464 $               3,409,725 $              97.81%
+Total Expenditures 3,048,117$           30,900 $               273,282 $                  2,743,935 $              90.02%
+Fund Balance - August 30, 2015 1,758,788$             
+Special Revenue Funds - Food Service 
+(520)
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Troy Career Center (529)
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Local 0 0 0 0.00%
+State 0 0 0 0.00%
+Federal 2,783,481 39,821 2,743,660 98.57%
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 837,579 170,461 0 667,118 79.65%
+Employee Benefits 512,612 118,756 0 393,856 76.83%
+Purchased Services 1,035,290 79,773 182,602 772,915 74.66%
+Supplies/Materials 292,000 242 4,669 287,089 98.32%
+Capital Outlay 5,000 0 0 5,000 100.00%
+Other Expenditures 101,000 3,568 0 97,432 96.47%
+Outgoing Transfers 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance -  August 1, 2015 1,973,956
+94
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 2,783,481$           39,821 $               2,743,660 $              98.57%
+Total Expenditures 2,783,481$           372,800 $             187,271 $                  2,223,410 $              79.88%
+Fund Balance - August 30, 2015 1,973,956$             
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Local 2,366,000 370,986 1,995,014 84.32%
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 628,246 83,184 0 545,062 86.76%
+Employee Benefits 290,025 48,418 0 241,607 83.31%
+Purchased Services 869,145 112,127 44,435 712,583 81.99%
+Supplies/Materials 118,491 4,363 49,640 64,488 54.42%
+Capital Outlay 5,000 0 0 5,000                          100.00%
+Other Expenditures 4,650 563 0 4,087                          87.89%
+Outgoing Transfers 93,413 0 0 93,413 100.00%
+Excess Revenue over (under) Expenditures 357,030
+Fund Balance -  August 1, 2015 0
+95
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 2,366,000$           370,986 $             1,995,014 $              84.32%
+Total Expenditures 2,008,970$           248,655 $             94,075 $                    1,666,240$              82.94%
+Fund Balance - August 30, 2015 357,030$                
+Special Revenue Funds - Adult & Community Education 
+(530)
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Facilities Rental Fund (535)
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Local 0 13,843 -13,843 #DIV/0!
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 0 0 0 0 0.00%
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Outgoing Transfers 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance -  August 1, 2015 246,989
+96
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 0$                          13,843$               (13,843) $                  -46143333233.33%
+Total Expenditures -$                       - $                     0 $                              (0) $                           #DIV/0!
+Fund Balance - August 30, 2015 246,989$                
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Property Taxes 15,456,298 2,914,079 12,542,219 81.15%
+Earnings on Investments 0 245 (245) #DIV/0!
+Proceeds from Bond Refunding 0 0 0 0.00%
+Incoming Transfers/Other 657,715 0 657,715 100.00%
+Redemption of Principal 10,600,000 0 0 10,600,000 100.00%
+Interest on Debt 5,843,818 0 0 5,843,818 100.00%
+Other Expenditures 900 0 0 900 100.00%
+Outgoing Transfers 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures (330,705)
+Fund Balance -  August 1, 2015 853,935
+97
+Revenue
+Approved 
+Budget Actual Amount Total Uncollected
+Percent Uncollected 
+(Overcollected)
+Total Revenue 16,114,013$      2,914,324 $        13,199,689 $       81.91%
+Expenditures
+Approved 
+Budget Actual Amount
+Total 
+Encumbered Available Bu dget Percent Available
+Total Expenditures 16,444,718$      - $                    0 $                    16,444,718$       100.00%
+Fund Balance - August 30, 2015 523,230$            
+Debt Service Funds 
+(306, 307, 312,314)
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Earnings on Investments 0 0 0 100.00%
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Purchased Services 0 0 0 0 0.00%
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 0 0 2,000 (2,000) 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance -  August 1, 2015 803,719
+98
+Revenue Approved Budget Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 0$                          -$                     0$                            100.00%
+Total Expenditures 0$                          0 $                        2,000$                       (2,000) $                    0.00%
+Fund Balance - August 30, 2015 803,719$               
+Capital Projects Maintenance Fund 
+(499)
+Troy School District
+Summary Revenue and Expense Budget Report
+August YTD - Fiscal Year 2015
+Percent Uncollected 
+Earnings on Investments 0 14 (14) 0.00%
+Incoming Transfers/Other 24,000 0 24,000 100.00%
+Expenditures Amended Budget Actual Amount Total Encumbered Available Budget Percent Available
+VRIP Expense 0 0 0 (0) 0.00%
+Other Expenditures 24,000 0 0 24,000 100.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance -  August 1, 2015 25,318
+99
+Revenue Amended Budget Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 24,000$                 14 $                      23,986 $                   99.94%
+Total Expenditures 24,000$                 - $                     0 $                               24,000$                   100.00%
+Fund Balance - August 30, 2015 25,318$                  
+Internal Service Fund 
+(681)
+Troy School District, Wire Transfers, August 2014
+W0709501 101             A1003   -$545.11 SALES TAX FOR JUNE14     
+W0709501 101             A1098   $545.11 SALES TAX FOR JUNE14     
+W0710502 101             A1003   -$8,455.59 ADN ADMIN INC JUNE CLAIMS
+W0710502 101             A1098   $8,455.59 ADN ADMIN INC JUNE CLAIMS
+W0710503 101             A1003   -$17,255.04 NEXT GENERATION 6/23-7/6 
+W0710503 101             A1023   $0.00 NEXT GENERATION 6/23-7/6 
+W0710503 101             A1098   $17,255.04 NEXT GENERATION 6/23-7/6 
+W0710505 101             A1003   -$4,853.53 TSS PED 5-30-14TY2       
+W0710505 101             A1098   $4,853.53 TSS PED 5-30-14TY2       
+W0710509 101             A1003   -$268,212.43 TSS SUB&HRLY PAY PED61514
+W0710509 101             A1098   $268,212.43 TSS SUB&HRLY PAY PED61514
+W0717501 101             A1003   -$71,426.07 TSS SUB&HRLY PAY PED63014
+W0717501 101             A1098   $71,426.07 TSS SUB&HRLY PAY PED63014
+W0717503 101             A1003   -$2,234.17 TSS PED 6-30-14TY2       
+W0717503 101             A1098   $2,234.17 TSS PED 6-30-14TY2       
+W0721504 101             A1003   -$689,734.72 MIP/BD & PD/TDP FOR 70314
+W0721504 101             A1098   $689,734.72 MIP/BD & PD/TDP FOR 70314
+W0721505 101             A1003   -$12,854.99 PENS PLUS CONTRB 7/3/14  
+W0721505 101             A1098   $12,854.99 PENS PLUS CONTRB 7/3/14  
+W0813501 101             A1003   -$238,239.69 TSA FOR PAYROLL 8/1/2014 
+W0813502 101             A1003   -$2,570.00 PR DEDUCT FOR MESP 7/3/14
+W0813503 101             A1003   -$2,600.00 PRDEDUCT FOR MESP 7/18/14
+W0813504 101             A1003   -$2,870.00 PR DEDUCTFOR MESP 6/20/14
+W0813505 101             A1003   -$2,735.98 PRDEDUCT FOR MESP 8/1/14 
+W0813506 101             A1003   -$16,148.26 NEXT GENERATION 7/7-27/14
+W0813506 101             A1023   $0.00 NEXT GENERATION 7/7-27/14
+W0813506 101             A1098   $16,148.26 NEXT GENERATION 7/7-27/14
+W0813507 529             A1003   -$5,001.80 TCC WIA TRANSF MAY/JUNE  
+W0813507 529             A1008   $5,001.80 TCC WIA TRANSF MAY/JUNE  
+W0813508 101             A1003   -$84,336.49 SEVERANCE VRIP PAYMENT   
+W0813509 101             A1003   -$333,153.00 PROPERTY/CASULTY/INS PREM
+W0813509 101             A1098   $333,153.00 PROPERTY/CASULTY/INS PREM
+W0813510 101             A1003   -$89,689.44 TSSSUB/HRLYPAY PED7/15/14
+W0813510 101             A1098   $89,689.44 TSSSUB/HRLYPAY PED7/15/14
+W0813511 101             A1003   -$183.78 TSS ADMIN PED 071514TE1  
+W0813512 101             A1003   -$48.61 TSS REIMB PED 071514TE2  
+W0813513 101             A1003   -$1,996.05 TSS TCC PED 7-15-14TY2   
+W0813513 101             A1098   $1,996.05 TSS TCC PED 7-15-14TY2   
+W0813514 101             A1003   -$2,265.85 TSS ADMIN PED 071514TY1  
+Oct 16, 2014 1 3:49:53 PM
+100
+J/E Number
+ Budget Unit
+ A/C Code
+ Transaction Amount
+ Transaction Description
+Troy School District, Wire Transfers, August 2014
+W0813514 101             A1098   $2,265.85 TSS ADMIN PED 071514TY1  
+W0813515 101             A1003   -$7,474.97 HEALTH EQ EMP HSA CONTRIB
+W0813516 101             A1003   -$757,789.52 PR TAXES FOR 8/1/14 PAY  
+W0821501 101             A1003   -$712,000.00 PR TRANSFERS FOR 08152014
+W0821501 101             A1005   $712,000.00 PR TRANSFERS FOR 08152014
+W0821502 101             A1003   $600,000.00 PAYROLL TRANSFR MILAF-BOA
+W0821502 101             A1006   -$600,000.00 PAYROLL TRANSFR MILAF-BOA
+W0821503 101             A1003   -$97,377.04 TSA FOR 08152014 PAYROLL 
+W0821504 101             A1003   -$8,538.87 EMPLOYEE HSA CONTRIBUTION
+W0821505 101             A1003   -$2,750.00 PR DEDUCTION FOR MESP    
+W0821507 101             A1003   -$610,208.68 PR TAXES FOR 8/15/2014   
+W0822501 101             A1003   -$312,111.99 MPSERS UAAL RATE STAB PMT
+W0822501 101             A1098   $312,111.99 MPSERS UAAL RATE STAB PMT
+W0822502 101             A1003   -$69.84 SALES TAX - JULY 2014    
+W0822502 101             A1098   $69.84 SALES TAX - JULY 2014    
+W0822503 101             A1003   -$4,440.85 TSS- TCC PED 7-30-14TY2  
+W0822503 101             A1098   $4,440.85 TSS- TCC PED 7-30-14TY2  
+W0822504 101             A1003   -$5,664.63 TSS- ADMIN PED073014TY1  
+W0822504 101             A1098   $5,664.63 TSS- ADMIN PED073014TY1  
+W0822505 520             A1013   -$22,945.96 SODEXO JULY 2014         
+W0822505 520             A1098   $22,945.96 SODEXO JULY 2014         
+W0822506 101             A1003   -$15,769.25 PENSIONPLUSCONTRIB 081414
+W0822506 101             A1098   $15,769.25 PENSIONPLUSCONTRIB 081414
+W0822507 101             A1003   -$15,748.40 ADN ADMIN INC-JULY CLAIMS
+W0822507 101             A1098   $15,748.40 ADN ADMIN INC-JULY CLAIMS
+W0822508 101             A1003   -$838,924.60 MIP/BD PD/TDP PMT080414PR
+W0822508 101             A1098   $838,924.60 MIP/BD PD/TDP PMT080414PR
+W0822509 101             A1003   -$20,707.92 NEXT GENERAT 0728-0814/14
+W0822509 101             A1023   $0.00 NEXT GENERAT 0728-0814/14
+W0822509 101             A1098   $20,707.92 NEXT GENERAT 0728-0814/14
+W0822510 101             A1003   -$153,990.89 BCBSM SEPTEMBER PREMIUM  
+W0822510 101             A1098   $153,990.89 BCBSM SEPTEMBER PREMIUM  
+W0822511 101             A1003   -$66,862.48 TSS-SUB/HRLYPAY PED073014
+W0822511 101             A1098   $66,862.48 TSS-SUB/HRLYPAY PED073014
+W0822512 520             A1013   -$178,436.70 SODEXO JUNE 2014         
+W0822512 520             A1098   $178,436.70 SODEXO JUNE 2014         
+W0822513 520             A1013   -$344,686.42 SODEXO MAY 2014          
+W0822513 520             A1098   $344,686.42 SODEXO MAY 2014          
+W0822514 520             A1013   -$246,868.59 SODEXO APRIL 2014        
+Oct 16, 2014 2 3:49:53 PM
+101
+J/E Number
+ Budget Unit
+ A/C Code
+ Transaction Amount
+ Transaction Description
+Troy School District, Wire Transfers, August 2014
+W0822514 520             A1098   $246,868.59 SODEXO APRIL 2014        
+W0827501 101             A1003   $1,800,000.00 TRANS MILAF TO BOA FOR PR
+W0827501 101             A1006   -$1,800,000.00 TRANS MILAF TO BOA FOR PR
+W0827502 101             A1003   $2,603,368.72 MILAF TO BOA FOR BOND    
+W0827502 414             A1034   -$2,603,368.72 MILAF TO BOA FOR BOND    
+W0828501 101             A1003   -$1,614,518.51 PR TRANSF FOR PAY 082914 
+W0828501 101             A1005   $1,614,518.51 PR TRANSF FOR PAY 082914 
+W0829501 529             A1003   -$3,386.25 TCC WIA TRANSFER         
+W0829501 529             A1008   $3,386.25 TCC WIA TRANSFER         
+W0829502 101             A1003   -$137,149.82 TSA PAYROLL 082914       
+W0829503 101             A1003   -$3,864.02 PR DEDUCT FOR MESP       
+W0829504 101             A1003   -$780,168.48 PR TAXES FOR PAY 082914  
+W828502A 101             A1003   -$945,405.87 MESSA SEPTEMBER PAYMENT  
+W828502A 101             A1098   $945,405.87 MESSA SEPTEMBER PAYMENT  
+Oct 16, 2014 3 3:49:53 PM
+102
+J/E Number
+ Budget Unit
+ A/C Code
+ Transaction Amount
+ Transaction Description
+Total
+ -$2,738,905.95
+Troy School District, ACH Debits, August 2014
+ACE08315 101200261030000 5510    4.52 CONSUMERS AUG 2014       
+ACE08315 101203261030000 5510    7.71 CONSUMERS AUG 2014       
+ACE08315 101206261030000 5510    26.68 CONSUMERS AUG 2014       
+ACE08315 101214261030000 5510    4.52 CONSUMERS AUG 2014       
+ACE08315 101941261000300 5510    18.95 CONSUMERS AUG 2014       
+ACE08315 101941261000300 5510    32.36 CONSUMERS AUG 2014       
+ACE08315 101941261000500 5510    81.59 CONSUMERS AUG 2014       
+ACE08315 101941261000700 5510    71.92 CONSUMERS AUG 2014       
+ACE08315 101941261000800 5510    26.48 CONSUMERS AUG 2014       
+ACE08315 101941261001000 5510    65.16 CONSUMERS AUG 2014       
+ACE08315 101941261001100 5510    49.56 CONSUMERS AUG 2014       
+ACE08315 101941261001200 5510    29 CONSUMERS AUG 2014       
+ACE08315 101941261001400 5510    18.59 CONSUMERS AUG 2014       
+ACE08315 101941261001500 5510    18.59 CONSUMERS AUG 2014       
+ACE08315 101941261001600 5510    37.29 CONSUMERS AUG 2014       
+ACE08315 101941261001700 5510    31.9 CONSUMERS AUG 2014       
+ACE08315 101941261005000 5510    189.6 CONSUMERS AUG 2014       
+ACE08315 101941261005100 5510    45.62 CONSUMERS AUG 2014       
+ACE08315 101941261005200 5510    636.5 CONSUMERS AUG 2014       
+ACE08315 101941261005300 5510    889.7 CONSUMERS AUG 2014       
+ACE08315 101941261007000 5510    588.75 CONSUMERS AUG 2014       
+ACE08315 101941261007100 5510    801.26 CONSUMERS AUG 2014       
+ACE08315 101941261007400 5510    49.12 CONSUMERS AUG 2014       
+ACE08315 101941261009000 5510    18.8 CONSUMERS AUG 2014       
+ACE08315 101941261009000 5510    25.87 CONSUMERS AUG 2014       
+ACE08315 101941261015000 5510    43.75 CONSUMERS AUG 2014       
+ACE08315 101941261016000 5510    87.62 CONSUMERS AUG 2014       
+ACE08315 122207261020700 5510    11.17 CONSUMERS AUG 2014       
+ACE08315 122883261030000 5510    3.98 CONSUMERS AUG 2014       
+ACE08315 530201311030000 5510    3.1 CONSUMERS AUG 2014       
+ACE08315 530211351030000 5510    2.17 CONSUMERS AUG 2014       
+ACE08315 530213351030000 5510    2.17 CONSUMERS AUG 2014       
+ADT08315 101942261000300 5520    274.07 DTE CHARGES AUG 2014     
+ADT08315 101942261000500 5520    720.61 DTE CHARGES AUG 2014     
+ADT08315 101942261000700 5520    873.43 DTE CHARGES AUG 2014     
+ADT08315 101942261000800 5520    843.66 DTE CHARGES AUG 2014     
+ADT08315 101942261001000 5520    710.69 DTE CHARGES AUG 2014     
+ADT08315 101942261001100 5520    853.58 DTE CHARGES AUG 2014     
+ADT08315 101942261001200 5520    494.37 DTE CHARGES AUG 2014     
+Nov 5, 2014 1 4:16:57 PM
+103
+J/E Number
+ Journal Entry Title
+ Budget Unit
+ A/C Code
+ Transaction Amount
+ Transaction Description
+Troy School District, ACH Debits, August 2014
+ADT08315 101942261001300 5520    522.15 DTE CHARGES AUG 2014     
+ADT08315 101942261001700 5520    579.7 DTE CHARGES AUG 2014     
+ADT08315 101942261007100 5520    10.11 DTE CHARGES AUG 2014     
+ADT08315 101942261007100 5520    10.73 DTE CHARGES AUG 2014     
+ADT08315 101942261007400 5520    767.54 DTE CHARGES AUG 2014     
+ADT08315 101942261009000 5520    58.36 DTE CHARGES AUG 2014     
+ADT08315 101942261009000 5520    317.82 DTE CHARGES AUG 2014     
+ADT08315 101942261015000 5520    456.66 DTE CHARGES AUG 2014     
+ADT08315 101942261016000 5520    1,824.08 DTE CHARGES AUG 2014     
+ADT08315 101942261090000 5520    192.69 DTE CHARGES AUG 2014     
+ADT08315 101942261090000 5520    153.03 DTE CHARGES AUG 2014     
+ADT08315 122883261030000 5520    62.23 DTE CHARGES AUG 2014     
+JUNPCRD JUNE 14 PCRD PMT         101             L4022   88,258.21 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         120             L4022   3,277.79 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         122             L4022   4,270.21 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         529             L4022   1,791.24 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         530             L4022   5,164.05 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         535             L4022   375 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         700             L4022   54,204.12 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         701             L4022   8,878.51 POST JUNE 14 PCRD PMT    
+JUNPCRD JUNE 14 PCRD PMT         750             L4022   626.63 POST JUNE 14 PCRD PMT    
+Nov 5, 2014 2 4:16:57 PM
+104
+J/E Number
+ Journal Entry Title
+ Budget Unit
+ A/C Code
+ Transaction Amount
+ Transaction Description
+Total
+ 180,495.27
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    1
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006820   08/01/14 19261    A & M SERVICE CENTE 101902261857000  5730     OPEN PO 2013 − 2014        0.00           100.00
+A1003    14006824   08/01/14 11010    ACE TRANSPORTATION  101090271098000  3311     TRANSP                     0.00           690.00
+A1003    14006824   08/01/14 11010    ACE TRANSPORTATION  101090271098000  3311     TRANSP                     0.00         1,533.00
+A1003    14006824   08/01/14 11010    ACE TRANSPORTATION  101090271098000  3311     TRANSP                     0.00           216.00
+A1003    14006824   08/01/14 11010    ACE TRANSPORTATION  101090271098000  3311     TRANSP                     0.00           229.50
+A1003    14006824   08/01/14 11010    ACE TRANSPORTATION  101090271098000  3311     TRANSP                     0.00           240.00
+A1003    14006824   08/01/14 11010    ACE TRANSPORTATION  101090271098000  3311     TRANSP                     0.00           399.00
+TOTAL CHECK                                                                                                    0.00         3,307.50
+A1003    14006826   08/01/14 25724    ADVANCED LANDSCAPE  101904261870000  5990     OPEN PO 2013 − 2014        0.00            58.50
+A1003    14006826   08/01/14 25724    ADVANCED LANDSCAPE  101904261870000  5990     OPEN PO 2013 − 2014        0.00            58.50
+A1003    14006826   08/01/14 25724    ADVANCED LANDSCAPE  101904261870000  5990     OPEN PO 2013 − 2014        0.00            58.50
+A1003    14006826   08/01/14 25724    ADVANCED LANDSCAPE  101904261870000  5990     OPEN PO 2013 − 2014        0.00            78.00
+TOTAL CHECK                                                                                                    0.00           253.50
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00           594.19
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00           929.62
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00           960.44
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00           960.50
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00         1,053.46
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00         1,055.05
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00         1,682.00
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00         1,683.68
+A1003    14006828   08/01/14 12905    AERO FILTER INC     101902261872000  5990     AIR FILTERS, PER SP        0.00         3,083.40
+TOTAL CHECK                                                                                                    0.00        12,002.34
+A1003    14006830   08/01/14 26268    AMANDA FISHER       101402221040200  3220     IB CONF REIMB              0.00           314.41
+A1003    14006831   08/01/14 26268    ANDREW LA TORRE     101402221040200  3220     IB CONF REIMB              0.00           423.53
+A1003    14006832   08/01/14 23882    ANN ARBOR FIRE PROT 101902261860500  4910     OPEN PO 2013 − 2014        0.00           917.67
+A1003    14006835   08/01/14 22611    ARCH ENVIRONMENTAL  101905261809000  3190     DISTRICT−WIDE SERVI        0.00         1,625.75
+A1003    14006835   08/01/14 22611    ARCH ENVIRONMENTAL  101905261809000  3190     DISTRICT−WIDE SERVI        0.00         8,269.75
+A1003    14006835   08/01/14 22611    ARCH ENVIRONMENTAL  101905261809000  3190     2013 − 2014 SCHOOL         0.00         2,740.50
+TOTAL CHECK                                                                                                    0.00        12,636.00
+A1003    14006837   08/01/14 20512    M & M IRISH ENTERPR 101905261805100  5990     OPEN PO 2013 − 2014        0.00         1,306.48
+A1003    14006837   08/01/14 20512    M & M IRISH ENTERPR 101905261805100  5990     OPEN PO 2013 − 2014        0.00            38.50
+TOTAL CHECK                                                                                                    0.00         1,344.98
+A1003    14006839   08/01/14 10210    BENZ MICROSCOPE OPT 101900261850100  4120     REPAIR AND CLEANING        0.00         1,668.90
+A1003    14006842   08/01/14 10232    BITTNER RICHARD     101590221858400  4120     PIANO TUNING               0.00           510.00
+A1003    14006842   08/01/14 10232    BITTNER RICHARD     101013111351800  5118     OPEN PO FOR PIANO D        0.00         1,000.00
+TOTAL CHECK                                                                                                    0.00         1,510.00
+A1003    14006843   08/01/14 25162    BLOOMFIELD SPORTS S 101700283070000  5990     SHIRTS FOR ADMINIST        0.00         2,250.00
+A1003    14006847   08/01/14 18724    C E O IMAGE SYSTEMS 101400212011300  5110     CEO SCAN/FILE/VIE L        0.00           998.00
+A1003    14006847   08/01/14 18724    C E O IMAGE SYSTEMS 101400212011300  5110     CEO IMAGE EXECUTIVE        0.00           198.00
+105
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    2
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006847   08/01/14 18724    C E O IMAGE SYSTEMS 101400212011300  5110     ON−LINE TRAINING ON        0.00            99.00
+TOTAL CHECK                                                                                                    0.00         1,295.00
+A1003    14006850   08/01/14 24208    CENTRAL POLY BAG CO 101              A1700    260 CASES − CLEAR P        0.00         4,212.00
+A1003    14006851   08/01/14 14536    CLARK HILL PLC      101101231023500  3170     APRIL GENERAL              0.00           565.50
+A1003    14006851   08/01/14 14536    CLARK HILL PLC      101101231023500  3170     APRIL LABOR                0.00           747.64
+A1003    14006851   08/01/14 14536    CLARK HILL PLC      101101231023500  3170     APRIL GENERAL              0.00           154.00
+A1003    14006851   08/01/14 14536    CLARK HILL PLC      101101231023500  3170     MAY 2014 LABOR             0.00         2,098.00
+A1003    14006851   08/01/14 14536    CLARK HILL PLC      101101231023500  3170     MAY 2014 SP ED             0.00         4,133.00
+A1003    14006851   08/01/14 14536    CLARK HILL PLC      101101231023500  3170     APRIL SP ED                0.00         8,644.75
+TOTAL CHECK                                                                                                    0.00        16,342.89
+A1003    14006853   08/01/14 26268    COLIN QUINN         101402221040200  3220     IB CONF REIMB              0.00           356.37
+A1003    14006854   08/01/14 10486    H P PRODUCTS        101905261802500  5990     OPEN PO 2013 − 2014        0.00           467.34
+A1003    14006854   08/01/14 10486    H P PRODUCTS        101905261860100  5990     OPEN PO 2013 − 2014        0.00           470.60
+TOTAL CHECK                                                                                                    0.00           937.94
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00            98.84
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00            99.94
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00           100.16
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00           101.92
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00           176.08
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00           199.78
+A1003    14006855   08/01/14 17869    L A C PROMOTIONS    101902261849900  5990     OPEN PO 2013 − 2014        0.00            −0.63
+TOTAL CHECK                                                                                                    0.00           776.09
+A1003    14006856   08/01/14 22500    CONVENTIONAL CARPET 101905261860100  4110     FLOOR REPLACEMENT F        0.00         1,467.20
+A1003    14006858   08/01/14 20528    CYNERGY WIRELESS PR 101900261854200  6460     OPEN PO 2013 − 2014        0.00            57.52
+A1003    14006859   08/01/14 20483    DAIKIN APPLIED AMER 101902261863000  5990     OPEN PO 2013 − 2014        0.00         1,613.79
+A1003    14006861   08/01/14 13002    DECKER INC          101902261860300  5990     OPEN PO 2013−2014 S        0.00           532.58
+A1003    14006862   08/01/14 10577    D T E ENERGY        101942261005200  5520     LARSON#12 6/5−7/7          0.00         2,412.11
+A1003    14006865   08/01/14 10603    DIMMER WARREN ENTER 101970293902000  5990     WILSON F1001 FOOTBA        0.00           185.10
+A1003    14006865   08/01/14 10603    DIMMER WARREN ENTER 101970293902000  5990     WILSON F1005 FOOTBA        0.00           185.10
+A1003    14006865   08/01/14 10603    DIMMER WARREN ENTER 101970293902000  5990     SHIPPING CHARGES           0.00             6.00
+TOTAL CHECK                                                                                                    0.00           376.20
+A1003    14006866   08/01/14 25880    DIRECT ENERGY MARKE 101942261016000  5520     SVCS BLDG#12 5/9−6/        0.00           284.40
+A1003    14006866   08/01/14 25880    DIRECT ENERGY MARKE 101942261015000  5520     C/O#12 5/9−6/9             0.00           790.47
+A1003    14006866   08/01/14 25880    DIRECT ENERGY MARKE 101942261000800  5520     LEONARD#12 5/9−6/9         0.00         2,057.74
+A1003    14006866   08/01/14 25880    DIRECT ENERGY MARKE 101942261007400  5520     IAE#12 5/9−6/9             0.00         2,089.11
+A1003    14006866   08/01/14 25880    DIRECT ENERGY MARKE 101942261005200  5520     LARSON#12 5/6−6/4          0.00         5,297.21
+TOTAL CHECK                                                                                                    0.00        10,518.93
+A1003    14006872   08/01/14 14200    ELEVATOR TECHNOLOGY 101902261007000  4110     OPEN PO 2013 − 2014        0.00            70.00
+A1003    14006872   08/01/14 14200    ELEVATOR TECHNOLOGY 101902261007100  4110     OPEN PO 2013 − 2014        0.00            70.00
+106
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    3
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           140.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            26.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            26.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            26.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            26.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            26.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            27.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            39.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            39.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            39.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            39.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            39.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            49.00
+A1003    14006874   08/01/14 22701    ELITE PEST MANAGEME 101905261802000  4910     2013 − 2014 ANNUAL         0.00            49.00
+TOTAL CHECK                                                                                                    0.00           801.00
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101904261870000  3192     2013 − 2014 SCHOOLY        0.00         4,110.30
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101904261870000  3192     2013 − 2014 SCHOOLY        0.00        28,892.20
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101905261800100  3193     2013 − 2014 SCHOOL         0.00        17,687.45
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101905261800100  3193     WAGE AND BENEFIT AD        0.00         2,018.24
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101905261800100  3193     CUSTODIAL OVERTIME         0.00            88.07
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101689257068900  3190     2013 − 2014 SCHOOL         0.00         3,223.44
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101790225094700  3190     OPEN PO FOR WAREHOU        0.00         3,104.07
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101790225094700  3190     OPEN PO FOR WAREHOU        0.00         3,249.12
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101790225094700  3190     OPEN PO FOR WAREHOU        0.00         3,345.82
+A1003    14006875   08/01/14 25978    ENVIRO CLEAN SERVIC 101905261800100  3193     JUNE EVENTS                0.00         6,761.30
+TOTAL CHECK                                                                                                    0.00        72,480.01
+A1003    14006878   08/01/14 10723    FASTENERS INC       101902261849900  5990     OPEN PO 2013 − 2014        0.00         1,307.85
+A1003    14006879   08/01/14 10724    FEDEX               101650284856500  4120     DATA PROC MAILINGS         0.00            35.86
+A1003    14006880   08/01/14 22646    FIBER LINK INC      101946261035100  3911     FIBER OUTAGE               0.00         4,155.78
+A1003    14006882   08/01/14 10751    FOLLETT SCHOOL SOLU 101180222374100  5310     MCPMT SHORT BAL DUE        0.00           180.00
+A1003    14006883   08/01/14 19868    FRANKLIN COVEY CLIE 101005111100100  5110     TROY UNION LDR IN M        0.00         1,202.00
+107
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    4
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006885   08/01/14 10810    ACCO BRANDS USA LLC 101203132031200  5990     NILES                      0.00            72.60
+A1003    14006886   08/01/14 10793    GAMALSKI BUILDING S 101902261866000  5990     OPEN PO 2013 − 2014        0.00           116.85
+A1003    14006887   08/01/14 10826    GETZAN JOHN         101970293000000  3210     MILEAGE REIMB              0.00           397.60
+A1003    14006889   08/01/14 10852    GORDON FOOD SERVICE 101946261035100  3911     INS CLAIM AHS TERRA        0.00         2,099.06
+A1003    14006890   08/01/14 12110    GRAYBAR ELECTRIC CO 101905261805200  5990     M & O                      0.00           339.60
+A1003    14006891   08/01/14 25879    GREAT LAKES GLASS D 101902261866500  5990     OPEN PO 2013 − 2014        0.00           458.96
+A1003    14006895   08/01/14 10940    HARTSIG SUPPLY CO I 101902261862500  5990     OPEN PO 2013 − 2014        0.00           133.57
+A1003    14006901   08/01/14 11030    HURON VALLEY SCHOOL 101074113007400  8220     IAE DEPT CHAIRS            0.00         1,905.81
+A1003    14006902   08/01/14 23095    I D N HARDWARE SALE 101902261866000  5990     M & O                      0.00         1,920.93
+A1003    14006902   08/01/14 23095    I D N HARDWARE SALE 101902261866000  5990     OPEN PO 2013 − 2014        0.00         1,289.07
+TOTAL CHECK                                                                                                    0.00         3,210.00
+A1003    14006903   08/01/14 22756    INTEGRYS ENERGY SER 101941261000300  5510     JUNE BILLING               0.00        11,204.84
+A1003    14006904   08/01/14 22294    INTERLAKE LANDSCAPI 101904261870000  4110     OPEN PO 2013 − 2014        0.00         1,260.00
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101050112351200  5110     BAKER MUSIC                0.00            53.97
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101050112351200  5110     BAKER MUSIC                0.00            69.69
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101050112351200  5110     BAKER MUSIC                0.00           284.00
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101050112351200  5110     BAKER MUSIC                0.00            45.00
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101050112351200  5110     BAKER MUSIC                0.00           177.44
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101074113351300  5110     OPEN PURCHASE ORDER        0.00           153.99
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND         0.00            29.99
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND         0.00            40.00
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND         0.00            60.99
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND         0.00            55.99
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101052112351200  5110     MUSIC FOR BAKER MS         0.00           896.47
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101052112351200  5110     MUSIC FOR BAKER MS         0.00            50.00
+A1003    14006905   08/01/14 11763    J W PEPPER & SON IN 101050112353400  5110     MUSIC FOR BAKER CHO        0.00           808.47
+TOTAL CHECK                                                                                                    0.00         2,726.00
+A1003    14006907   08/01/14 26268    JANE HERBERHOLZ     101402221040200  3220     IB CONF REIMB              0.00           376.66
+A1003    14006908   08/01/14 26268    JANE MCKENNEY       101402221040200  3220     IB CONF REIMB              0.00           543.77
+A1003    14006912   08/01/14 26268    JENNY BERLIN        101402221040200  3220     IB CONF REIMB              0.00           361.24
+A1003    14006914   08/01/14 21417    JOHN DEERE LANDSCAP 101904261870000  5990     OPEN PO 20113 − 201        0.00         1,720.06
+A1003    14006914   08/01/14 21417    JOHN DEERE LANDSCAP 101904261870000  5990     OPEN PO 20113 − 201        0.00           680.31
+TOTAL CHECK                                                                                                    0.00         2,400.37
+A1003    14006915   08/01/14 11091    JOHN R SPRING & TIR 101904261870000  4130     OPEN PO 2013 − 2014        0.00           778.06
+A1003    14006917   08/01/14 26268    JUDY MORGAN         101402221040200  3220     IB CONF REIMB              0.00           632.49
+108
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    5
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006924   08/01/14 25809    KIMBERLY TIRE & WHE 101904261870000  4130     OPEN PO 2013 − 2014        0.00            33.50
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00            60.82
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101074113031300  4120     IAE                        0.00            69.39
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101052112031300  4120     LARSON                     0.00           437.77
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00           477.81
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101016111031300  4120     BARNARD                    0.00           480.53
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101008111031300  4120     LEONARD                    0.00           529.66
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00           553.72
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00           560.08
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101051112031300  4120     SMITH                      0.00           564.56
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101011111031300  4120     SCHROEDER                  0.00           565.92
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101206113031300  4120     NILES                      0.00           581.19
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101005111031300  4120     TROY UNION                 0.00           594.92
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00           604.75
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00           616.40
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101050112031300  4120     BAKER                      0.00           624.78
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945261015000  4120     CO                         0.00           661.32
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101053112031300  4120     BOULAN                     0.00           682.04
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00           693.16
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101013111031300  4120     MARTELL                    0.00           698.61
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101015111031300  4120     BEMIS                      0.00           726.08
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101007111031300  4120     MORSE                      0.00           754.56
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101052112031300  4120     LARSON                     0.00           320.94
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101011111031300  4120     SCHROEDER                  0.00           327.74
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101017111031300  4120     HAMILTON                   0.00         1,117.32
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101014111031300  4120     WASS                       0.00          −377.65
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101014111031300  4120     WASS                       0.00          −344.98
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101014241031000  5910     WASS                       0.00          −145.35
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101074113031300  4120     IAE                        0.00           −73.21
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101074113031300  4120     IAE                        0.00           −51.51
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101074113031300  4120     IAE                        0.00           −46.40
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101206113031300  4120     NILES                      0.00           −23.22
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101206113031300  4120     NILES                      0.00           −18.72
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101206113031300  4120     NILES                      0.00            −5.38
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101206113031300  4120     NILES                      0.00            −2.69
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00             0.09
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00             1.28
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00             9.05
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00             9.10
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00             9.75
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945222018000  4120     MEDIA                      0.00            13.03
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00            13.91
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00            20.65
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101206113031300  4120     NILES                      0.00            31.02
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101070113031300  4120     THS                        0.00            34.83
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00            26.58
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945261090000  4120     M & O                      0.00            49.39
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101017111031300  4120     HAMILTON                   0.00            50.63
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101005111031300  4120     TROY UNION                 0.00           154.43
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101015111031300  4120     BEMIS                      0.00           162.47
+109
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    6
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101009111031300  4120     WATTLES                    0.00           169.95
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101014111031300  4120     WASS                       0.00           185.87
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101008111031300  4120     LEONARD                    0.00           202.91
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945261068900  4120     PURCHASING                 0.00           219.37
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945222018000  4120     MEDIA                      0.00           230.03
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101013111031300  4120     MARTELL                    0.00           239.82
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945222018000  4120     MEDIA                      0.00           267.50
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00           358.71
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101053112031300  4120     BOULAN                     0.00           392.87
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945261015000  4120     CO                         0.00           395.56
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101012111031300  4120     COSTELLO                   0.00           396.41
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101050112031300  4120     BAKER                      0.00           409.95
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101010111031300  4120     HILL                       0.00           412.46
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101014111031300  4120     WASS                       0.00           419.44
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101071113031300  4120     AHS                        0.00           432.50
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101074113031300  4120     IAE                        0.00           995.02
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101009111031300  4120     WATTLES                    0.00         1,050.22
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101010111031300  4120     HILL                       0.00            74.28
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945222018000  4120     MEDIA                      0.00           117.95
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101016111031300  4120     BARNARD                    0.00           146.20
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101007111031300  4120     MORSE                      0.00           146.64
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101051112031300  4120     SMITH                      0.00           148.79
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101945271009000  4120     TRANSP                     0.00            96.22
+A1003    14006926   08/01/14 18272    KONICA MINOLTA BUSI 101012111031300  4120     COSTELLO                   0.00           124.72
+TOTAL CHECK                                                                                                    0.00        20,434.56
+A1003    14006932   08/01/14 26268    LINDA GEALY         101402221040200  3220     IB CONF REIMB              0.00           825.49
+A1003    14006936   08/01/14 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2013 − 2014        0.00            14.25
+A1003    14006939   08/01/14 26268    MARK WASHINGTON     101790225021000  3210     APR/MAY/JUNE MILEAG        0.00            93.58
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00            60.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  4120     IAE                        0.00            60.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            65.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113352400  5110     AHS                        0.00            65.43
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     THS                        0.00            72.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  5110     THS                        0.00           464.82
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101050112351200  5110     BAKER                      0.00           338.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101050112351200  5110     BAKER                      0.00           346.50
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS                        0.00           −16.62
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112352300  5110     BOULAN                     0.00             4.05
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  5110     LARSON                     0.00             4.80
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  5110     THS                        0.00             5.88
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  5110     LARSON                     0.00             7.98
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101050112351200  4120     BAKER                      0.00            10.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  4120     LARSON                     0.00            10.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  4120     LARSON                     0.00            10.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  5110     IAE                        0.00            12.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00            15.84
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101051112351200  5110     SMITH                      0.00            18.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            30.00
+110
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    7
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101050112351200  5110     BAKER                      0.00            33.24
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  5110     IAE                        0.00            33.60
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101051112352300  5110     SMITH                      0.00            35.70
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            36.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     THS                        0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  4120     IAE                        0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  4120     IAE                        0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00            24.68
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101590111351000  4120     HAMILTON                   0.00            25.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  5110     IAE                        0.00            42.70
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            44.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  5110     IAE                        0.00            47.91
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            48.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  4120     LARSON                     0.00            48.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  5110     IAE                        0.00            49.99
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS                        0.00            50.30
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101051112352300  5110     SMITH                      0.00            51.90
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113352400  4120     THS                        0.00            53.45
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS                        0.00            41.29
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  5110     LARSON                     0.00           127.80
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00           137.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113352400  5110     AHS                        0.00           166.37
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  5110     IAE                        0.00            78.40
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101050112352300  4120     BAKER                      0.00           170.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  4120     IAE                        0.00           187.50
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     THS                        0.00           200.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00           234.98
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00            95.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00            40.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00            54.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00            70.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00           100.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00           120.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00           189.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS, THS BAND          0.00           202.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00            74.94
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112352300  5110     BOULAN                     0.00           101.50
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00           109.99
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS                        0.00           113.10
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101070113351300  5110     THS                        0.00           113.40
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101050112351200  5110     BAKER                      0.00           115.50
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101052112352300  4120     LARSON                     0.00           117.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS                        0.00           142.47
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101071113352400  4120     AHS                        0.00           150.00
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00            92.35
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101053112352300  5110     BOULAN                     0.00            99.95
+A1003    14006943   08/01/14 12547    MARSHALL MUSIC CO   101074113351300  4120     IAE                        0.00           100.00
+TOTAL CHECK                                                                                                    0.00         5,991.69
+111
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    8
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006948   08/01/14 26268    MINA MORI           101071221021500  3220     6−19−14 CONF REIMB         0.00           198.30
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261001300  4110     MARTELL                    0.00            58.04
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007100  4110     AHS                        0.00             8.25
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007000  4110     THS                        0.00            16.04
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007000  4110     THS                        0.00            16.04
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007100  4110     THS                        0.00           202.12
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261001300  4110     MAINTENANCE ON TRAF        0.00             2.05
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007100  4110     MAINTENANCE ON TRAF        0.00             8.25
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007000  4110     THS                        0.00            86.61
+A1003    14006956   08/01/14 17033    OAKLAND CTY ROAD CO 101902261007000  4110     THS                        0.00            86.64
+TOTAL CHECK                                                                                                    0.00           484.04
+A1003    14006957   08/01/14 11668    OAKLAND SCHOOLS     101944261018000  3410     ONE CONSORTIUM             0.00        17,911.82
+A1003    14006958   08/01/14 11216    ON DEMAND MAIL SEVI 101150232020500  3430     OPEN PO 2013 − 2014        0.00         3,418.05
+A1003    14006959   08/01/14 11210    OSCAR W LARSON CO   101090271394500  4130     TRANSP                     0.00           176.00
+A1003    14006964   08/01/14 26268    PETER MAURER        101402221040200  3220     IB CONF REIMB              0.00           353.20
+A1003    14006967   08/01/14 14283    PIONEER MFG CO      101904261870000  5990     OPEN PO 2013 − 2014        0.00           223.35
+A1003    14006969   08/01/14 10939    POWER VAC OF MICHIG 101902261871000  4110     EMERGENCY REPAIRS A        0.00        15,280.00
+A1003    14006975   08/01/14 26268    RICH UEBBING        101402221040200  3220     IB CONF REIMB              0.00           404.73
+A1003    14006977   08/01/14 21630    ALL AMERICAN SPORTS 101970293902000  5990     BAKER FTBL HELMETS         0.00         1,050.17
+A1003    14006977   08/01/14 21630    ALL AMERICAN SPORTS 101970293902000  4120     2013−14 OPEN PO REC        0.00         1,939.39
+A1003    14006977   08/01/14 21630    ALL AMERICAN SPORTS 101970293902000  4120     2013−14 OPEN PO REC        0.00         3,994.23
+A1003    14006977   08/01/14 21630    ALL AMERICAN SPORTS 101970293902000  4120     2013−14 OPEN PO REC        0.00         5,878.65
+TOTAL CHECK                                                                                                    0.00        12,862.44
+A1003    14006980   08/01/14 11920    ROCHESTER COMMUNITY 101074113007400  8220     E BYRGE SAL/BEN            0.00         1,144.16
+A1003    14006980   08/01/14 11920    ROCHESTER COMMUNITY 101074113007400  8220     P MAJASK SAL/BEN           0.00         1,586.03
+TOTAL CHECK                                                                                                    0.00         2,730.19
+A1003    14006982   08/01/14 26282    JR ABUD GARY G      101425221000000  3120     BYOD − MAKING IT WO        0.00         1,015.12
+A1003    14006985   08/01/14 10169    SECREST WARDLE LYNC 101101231023500  3170     MAY 2014 LEGAL             0.00         1,187.61
+A1003    14006986   08/01/14 11842    SEHI COMPUTER PRODU 101203225647000  6410     HP 340 G1 NOTEBOOK,        0.00         2,205.60
+A1003    14006986   08/01/14 11842    SEHI COMPUTER PRODU 101203225647000  6410     3 YEAR COMPUTER WAR        0.00           225.00
+TOTAL CHECK                                                                                                    0.00         2,430.60
+A1003    14006988   08/01/14 26371    SKANDALARIS PASQUAL 101425221000000  3120     DESIGN & PRESENTATI        0.00           200.00
+A1003    14006991   08/01/14 10694    SPECIALIZED ELECTRO 101790225021000  3210     JUNE MILEAGE               0.00           129.25
+A1003    14006992   08/01/14 18888    SPRINT              101944261406000  3410     JUNE BILLING               0.00           631.55
+A1003    14006995   08/01/14 16641    SUNGARD PUBLIC SECT 101650284856500  4120     EFINANCEPLUS UPGRAD        0.00           410.39
+112
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:    9
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14006995   08/01/14 16641    SUNGARD PUBLIC SECT 101650284856500  4120     FINPLUS WEBEX TRAIN        0.00           175.00
+A1003    14006995   08/01/14 16641    SUNGARD PUBLIC SECT 101650284856500  4120     FINPLUS WEBEX TRAIN        0.00           175.00
+A1003    14006995   08/01/14 16641    SUNGARD PUBLIC SECT 101650284856500  4120     EFINANCEPLUS UPGRAD        0.00           407.65
+A1003    14006995   08/01/14 16641    SUNGARD PUBLIC SECT 101650284856500  4120     EFINANCEPLUS UPGRAD        0.00           386.49
+A1003    14006995   08/01/14 16641    SUNGARD PUBLIC SECT 101650284856500  4120     EFINANCEPLUS UPGRAD        0.00           715.47
+TOTAL CHECK                                                                                                    0.00         2,270.00
+A1003    14006997   08/01/14 25980    WRIGHT EXPRESS FINA 101902261395500  5710     FUEL M & O                 0.00         1,801.64
+A1003    14006997   08/01/14 25980    WRIGHT EXPRESS FINA 101904261870000  5710     FUEL M & O                 0.00         1,972.16
+TOTAL CHECK                                                                                                    0.00         3,773.80
+A1003    14007000   08/01/14 26547    SYN−TECH SYSTEMS IN 101090271391000  5790     TRANSP                     0.00            42.00
+A1003    14007002   08/01/14 12207    TEAL ELECTRIC CO    101902261861500  5990     OPEN PO 2013 − 2014        0.00         1,211.60
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101905261860100  5990     OPEN PO 2013 − 2014        0.00            14.12
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101905261860100  5990     OPEN PO 2013 − 2014        0.00           326.36
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101905261860100  5990     OPEN PO 2013 − 2014        0.00           127.82
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00             4.36
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00             5.52
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00             7.98
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00            15.98
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00            20.46
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00            38.14
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00            41.17
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00            41.96
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101902261849900  5990     OPEN PO 2013 − 2014        0.00            11.48
+A1003    14007007   08/01/14 12234    TREVARROW HARDWARE  101904261870000  5990     OPEN PO − 2013 − 20        0.00            29.99
+TOTAL CHECK                                                                                                    0.00           685.34
+A1003    14007008   08/01/14 26268    TREVOR SMITH        101070113007000  5110     THS REIMB                  0.00           249.21
+A1003    14007009   08/01/14 10413    TROY CITY OF        101904261870000  4130     OPEN PO 2013 − 2014        0.00         1,657.06
+A1003    14007009   08/01/14 10413    TROY CITY OF        101904261870000  4130     OPEN PO 2013 − 2014        0.00           594.86
+A1003    14007009   08/01/14 10413    TROY CITY OF        101904261870000  4130     MAINT & OPER               0.00         4,412.95
+TOTAL CHECK                                                                                                    0.00         6,664.87
+A1003    14007015   08/01/14 19592    PRAXAIR DISTRIBUTIO 101902261849900  5990     M & O                      0.00           161.27
+A1003    14007016   08/01/14 25770    GMT POWER INC       101902261861500  5990     OPEN PO 2013 − 2014        0.00           325.23
+A1003    15000181   08/06/14 10967    A D N ADMINISTRATOR 101              L4572    AUG PREMIUM                0.00         1,175.20
+A1003    15000182   08/06/14 10016    ASSOC /SUPERVISION  101300232090600  7410     J KEELING MSHIP DUE        0.00            89.00
+A1003    15000183   08/06/14 13227    A T & T             101200261030000  3410     24882896977105 NILE        0.00            10.78
+A1003    15000183   08/06/14 13227    A T & T             101206261030000  3410     24882896977105 NILE        0.00            63.60
+A1003    15000183   08/06/14 13227    A T & T             101214261030000  3410     24882896977105 NILE        0.00            10.78
+A1003    15000183   08/06/14 13227    A T & T             101203261030000  3410     24882896977105 NILE        0.00            18.37
+A1003    15000183   08/06/14 13227    A T & T             101200261030000  3410     24882896977105 NILE        0.00            12.09
+A1003    15000183   08/06/14 13227    A T & T             101206261030000  3410     24882896977105 NILE        0.00            71.33
+A1003    15000183   08/06/14 13227    A T & T             101214261030000  3410     24882896977105 NILE        0.00            12.09
+113
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   10
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000183   08/06/14 13227    A T & T             101203261030000  3410     24882896977105 NILE        0.00            20.60
+TOTAL CHECK                                                                                                    0.00           219.64
+A1003    15000184   08/06/14 13227    A T & T             101944261090000  3410     24852600346876FLEMI        0.00            27.80
+A1003    15000185   08/06/14 13227    A T & T             101944261001500  3410     24864303196438BEMIS        0.00            51.86
+A1003    15000186   08/06/14 13227    A T & T             101944261005300  3410     24864394055923BOULA        0.00            58.57
+A1003    15000187   08/06/14 13227    A T & T             101944261001300  3410     24887975742150MARTE        0.00            34.89
+A1003    15000188   08/06/14 13227    A T & T             101200261030000  3410     24887975416862NILES        0.00             3.79
+A1003    15000188   08/06/14 13227    A T & T             101206261030000  3410     24887975416862NILES        0.00            22.33
+A1003    15000188   08/06/14 13227    A T & T             101214261030000  3410     24887975416862NILES        0.00             3.79
+A1003    15000188   08/06/14 13227    A T & T             101203261030000  3410     24887975416862NILES        0.00             6.45
+TOTAL CHECK                                                                                                    0.00            36.36
+A1003    15000189   08/06/14 13227    A T & T             101944261001100  3410     24864361141342SCHRO        0.00            51.86
+A1003    15000190   08/06/14 13227    A T & T             101944261005100  3410     24887975701875SMITH        0.00            27.88
+A1003    15000191   08/06/14 13227    A T & T             101944261007000  3410     24895262017009THS          0.00           297.17
+A1003    15000192   08/06/14 13227    A T & T             101944261000500  3410     24887930721927TR UN        0.00            49.00
+A1003    15000193   08/06/14 13227    A T & T             101944261001400  3410     24887930662147WASS         0.00            33.88
+A1003    15000194   08/06/14 13227    A T & T             101944261090000  3410     24882/831957329EDMU        0.00            29.64
+A1003    15000195   08/06/14 13227    A T & T             101944261090000  3410     24826711882599PHILL        0.00            26.11
+A1003    15000196   08/06/14 13227    A T & T             101944261005000  3410     24874009767665BAKER        0.00            78.88
+A1003    15000197   08/06/14 13227    A T & T             101944261001000  3410     24874003011607HILL         0.00            28.32
+A1003    15000198   08/06/14 13980    A T & T CORP        101944261005000  3410     0534626966001BAKER         0.00            46.40
+A1003    15000199   08/06/14 13980    A T & T CORP        101944261090000  3410     0527901436001EDMUND        0.00            46.40
+A1003    15000200   08/06/14 20512    M & M IRISH ENTERPR 101905261805100  5990     OPEN PO 2014 − 2015        0.00            67.96
+A1003    15000202   08/06/14 10246    BLOOMFIELD HILLS SC 101074113007400  8220     MSHIP DUES                 0.00            69.28
+A1003    15000202   08/06/14 10246    BLOOMFIELD HILLS SC 101074113007400  8220     IAE ANNUAL FEES            0.00         6,963.29
+A1003    15000202   08/06/14 10246    BLOOMFIELD HILLS SC 101074113007400  8220     IAE SUBSCRIP RENEWA        0.00         5,446.43
+TOTAL CHECK                                                                                                    0.00        12,479.00
+A1003    15000203   08/06/14 21427    CHAPTER 13 TRUSTEE  101              L4505    DED:2131 CHP 13            0.00            91.85
+A1003    15000204   08/06/14 14504    CIRCUIT ELECTRIC MO 101902261861500  5990     OPEN PO 2014 − 2015        0.00           592.21
+A1003    15000204   08/06/14 14504    CIRCUIT ELECTRIC MO 101902261861500  5990     OPEN PO 2014 − 2015        0.00           349.96
+A1003    15000204   08/06/14 14504    CIRCUIT ELECTRIC MO 101902261861500  5990     OPEN PO 2014 − 2015        0.00            12.25
+TOTAL CHECK                                                                                                    0.00           954.42
+114
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   11
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000205   08/06/14 12668    CLAWSON HIGH SCHOOL 101970293000000  7910     AHSGV VLYBL 091314         0.00           250.00
+A1003    15000206   08/06/14 10734    COLDICOTT STANLEY R 101182224094700  3190     OPEN PO FOR SERVICE        0.00         4,685.76
+A1003    15000208   08/06/14 24501    COMCAST             101790225022000  3190     09558509537017TRC          0.00           229.85
+A1003    15000209   08/06/14 10486    H P PRODUCTS        101905261860100  5990     OPEN PO 2014 − 2015        0.00           191.64
+A1003    15000210   08/06/14 11900    LINDA A KARGOL      101970293902000  5990     TROY HIGH FOOTBALL         0.00           821.38
+A1003    15000211   08/06/14 10660    DAVISON HIGH SCHOOL 101970293000000  7910     AHSGV GLF 091914           0.00           250.00
+A1003    15000212   08/06/14 10555    DELASALLE HIGH SCHO 101970293000000  7910     THSBV SCCR 090614          0.00           440.00
+A1003    15000213   08/06/14 10577    D T E ENERGY        101942261005000  5520     BAKER#1 6/19−7/22          0.00         2,169.88
+A1003    15000213   08/06/14 10577    D T E ENERGY        101942261000000  7912     BAKER#1 6/19−7/22LF        0.00            50.61
+TOTAL CHECK                                                                                                    0.00         2,220.49
+A1003    15000214   08/06/14 10577    D T E ENERGY        101942261000900  5520     WATTLES#1 6/19−7/22        0.00         3,438.29
+A1003    15000214   08/06/14 10577    D T E ENERGY        101942261000000  7912     WATTLES#1 LF               0.00            98.92
+TOTAL CHECK                                                                                                    0.00         3,537.21
+A1003    15000215   08/06/14 10577    D T E ENERGY        101942261005100  5520     SMITH#1 6/19−7/22          0.00         1,617.73
+A1003    15000215   08/06/14 10577    D T E ENERGY        101942261000000  7912     SMITH#1 6/19−7/22LF        0.00            36.23
+TOTAL CHECK                                                                                                    0.00         1,653.96
+A1003    15000216   08/06/14 10577    D T E ENERGY        101942261001600  5520     BARNARD#1 6/16−7/16        0.00         4,581.56
+A1003    15000216   08/06/14 10577    D T E ENERGY        101942261000000  7912     BARNARD#1 6/16−7/16        0.00           135.84
+TOTAL CHECK                                                                                                    0.00         4,717.40
+A1003    15000217   08/06/14 10577    D T E ENERGY        101942261090000  5520     ST LIGHTS#126/1−6/3        0.00         1,238.66
+A1003    15000217   08/06/14 10577    D T E ENERGY        101942261000000  7912     ST LIGHTS#126/1−6/3        0.00            24.77
+TOTAL CHECK                                                                                                    0.00         1,263.43
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261005000  5520     BAKER#2 6/19−7/22          0.00         2,812.97
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261009000  5520     BUS GAR #1 6/16−7/1        0.00           598.39
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261000700  5520     MORSE#1 6/16−7/16          0.00         1,785.88
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261001100  5520     SCHROEDER#1 6/16−7/        0.00         1,744.06
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261000500  5520     TROY UN #2 6/17−7/1        0.00         1,463.84
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261016000  5520     SVC BLDG#1 6/9−7/10        0.00         3,638.69
+A1003    15000219   08/06/14 25880    DIRECT ENERGY MARKE 101942261005100  5520     SMITH#2 6/19−7/22          0.00         1,835.91
+TOTAL CHECK                                                                                                    0.00        13,879.74
+A1003    15000220   08/06/14 10731    EDWARDS WILLIAM J   101790225094700  3190     OPEN PO FOR BILL ED        0.00         5,628.48
+A1003    15000221   08/06/14 22701    ELITE PEST MANAGEME 101905261802000  4910     OPEN PO 2014 − 2015        0.00           882.40
+A1003    15000223   08/06/14 10724    FEDEX               101650284856500  4120     SHIP TEST CHECKS TO        0.00            34.77
+A1003    15000225   08/06/14 24819    FRASER HIGH SCHOOL  101970293000000  7910     AHSBV SCCR 090614          0.00           225.00
+115
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   12
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000226   08/06/14 10866    W W GRAINGER INC    101904261870000  5990     OPEN PO 2014 − 2015        0.00            68.25
+A1003    15000226   08/06/14 10866    W W GRAINGER INC    101905261860100  5990     OPEN PO 2014 − 2015        0.00           286.03
+TOTAL CHECK                                                                                                    0.00           354.28
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101902261849900  5990     OPEN PO 2014 − 2015        0.00           247.10
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101902261849900  5990     OPEN PO 2014 − 2015        0.00            81.79
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101902261849900  5990     OPEN PO 2014 − 2015        0.00            41.19
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101902261849900  5990     OPEN PO 2014 − 2015        0.00            20.00
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101902261849900  5990     OPEN PO 2014 − 2015        0.00            90.64
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101902261849900  5990     OPEN PO 2014 − 2015        0.00            29.08
+A1003    15000227   08/06/14 15997    HOME DEPOT U S A  I 101904261870000  5990     OPEN PO 2014−2015 S        0.00           383.76
+TOTAL CHECK                                                                                                    0.00           893.56
+A1003    15000228   08/06/14 11015    HOUGHTON MIFFLIN    101051112324900  5210     DISCOVERING FRENCH         0.00           345.75
+A1003    15000229   08/06/14 15644    HURON HIGH SCHOOL   101970293000000  7910     AHSGFR VLYBL 092014        0.00           175.00
+A1003    15000230   08/06/14 22294    INTERLAKE LANDSCAPI 101902261871000  4110     M & O                      0.00           281.90
+A1003    15000231   08/06/14 22692    INTL BACCALAUREATE  101402221040200  7410     S003130MYPBAKERANLF        0.00         9,055.00
+A1003    15000232   08/06/14 10042    JOCELYN LUA         101              L4714    SUMMER SCHOOL REF          0.00           418.00
+A1003    15000235   08/06/14 13622    LADYWOOD HIGH SCHOO 101970293000000  7910     AHSGJV VLYBL 092714        0.00           175.00
+A1003    15000236   08/06/14 10327    LAKELAND HIGH SCHOO 101970293000000  7910     THSGV SWM 092014           0.00           175.00
+A1003    15000238   08/06/14 10042    LISA OTREMBA        101              L4714    SUMMER SCHOOL REF          0.00           209.00
+A1003    15000240   08/06/14 11278    M E F S A INC       101              L4520    AUG PREMIUM                0.00           367.90
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101015241011100  7410     J WHAN/BEMIS DUES          0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101012241011100  7410     T DIPONIO/COSTELLO         0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101010241011100  7410     J BRZEZINSKI/HILL          0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101008241011100  7410     J COTTONE/HILL             0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101013241011100  7410     C LESSER/MARTELL           0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101007241011100  7410     S MILLER/MORSE             0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101011241011100  7410     B CANFIELD/SCHROEDE        0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101005241011100  7410     D PASS/TROY UNION          0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101014241011100  7410     M JANSEN/WASS              0.00           555.00
+A1003    15000241   08/06/14 11279    MI EL & MIDDLE SCH  101009241011100  7410     J BRASINGTON/WATTLE        0.00           555.00
+TOTAL CHECK                                                                                                    0.00         5,550.00
+A1003    15000242   08/06/14 11286    M P T DRIVES INC    101902261862000  5990     OPEN PO 2014 − 2015        0.00            20.55
+A1003    15000243   08/06/14 13397    MI SCHOOL VOCAL MUS 101590221355000  7410     C SEKICH MSHIP             0.00           350.00
+A1003    15000243   08/06/14 13397    MI SCHOOL VOCAL MUS 101590221355000  7410     M MARSZALKOWSKI MSH        0.00           350.00
+A1003    15000243   08/06/14 13397    MI SCHOOL VOCAL MUS 101590221355000  7410     A COVIAN MSHIP             0.00           370.00
+TOTAL CHECK                                                                                                    0.00         1,070.00
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN                     0.00            14.53
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101070113351300  5110     THS                        0.00            79.03
+116
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   13
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101070113351300  4120     THS                        0.00            80.00
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00            60.00
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00            65.00
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00           240.00
+A1003    15000244   08/06/14 12547    MARSHALL MUSIC CO   101071113351300  4120     AHS                        0.00         1,230.00
+TOTAL CHECK                                                                                                    0.00         1,768.56
+A1003    15000246   08/06/14 19587    MI STATE OF DISBURS 101              L4519    DED:4060 FRIEND/CT         0.00         2,385.46
+A1003    15000247   08/06/14 24096    MICRO CENTER SALES  101790225717100  5990     OPEN PO FOR 2014−15        0.00           219.90
+A1003    15000247   08/06/14 24096    MICRO CENTER SALES  101790225717100  5990     OPEN PO FOR 2014−15        0.00            99.99
+TOTAL CHECK                                                                                                    0.00           319.89
+A1003    15000248   08/06/14 11614    NATL TIME & SIGNAL  101902261860500  4910     OPEN PO 2014 − 2015        0.00           245.00
+A1003    15000249   08/06/14 10986    NATL VISION ADMINIS 101              L4572    AUG PREMIUM                0.00         2,090.24
+A1003    15000250   08/06/14 26015    NEXT GENERATION ENR 101700283085900  7410     AUG ADMIN FEES             0.00           716.90
+A1003    15000251 V 08/06/14 10042    NIKOLA PETKOVICH    101              L4714    SUMMER SCHOOL REF          0.00          −418.00
+A1003    15000251   08/06/14 10042    NIKOLA PETKOVICH    101              L4714    SUMMER SCHOOL REF          0.00           418.00
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003    15000252   08/06/14 10718    NORTH FARMINGTON GI 101970293000000  7910     AHSGV GLF 090514           0.00           195.00
+A1003    15000253   08/06/14 10718    NORTH FARMINGTON HI 101970293000000  7910     THSGV GLF 090514           0.00           195.00
+A1003    15000254   08/06/14 13754    NOVI HIGH SCHOOL    101970293000000  7910     THSGV VLYBL 092014         0.00           175.00
+A1003    15000256   08/06/14 26542    PORTFOLIO RECOVERY  101              L4505    DED:2124 GARNISH           0.00           559.88
+A1003    15000257   08/06/14 10968    RELIANCE STANDARD L 101              L4555    JULY LIFE AD & D           0.00         2,516.40
+A1003    15000257   08/06/14 10968    RELIANCE STANDARD L 101              L4556    JULY LTD                   0.00         1,825.90
+A1003    15000257   08/06/14 10968    RELIANCE STANDARD L 101669232084072  2110     JULY PREM                  0.00         1,239.75
+TOTAL CHECK                                                                                                    0.00         5,582.05
+A1003    15000259   08/06/14 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2014 − 2015        0.00            29.96
+A1003    15000260   08/06/14 10694    SPECIALIZED ELECTRO 101790225021000  3210     JULY MILEAGE               0.00           137.14
+A1003    15000260   08/06/14 10694    SPECIALIZED ELECTRO 101790225094700  3190     OPEN PO FOR TECH SE        0.00         4,620.00
+A1003    15000260   08/06/14 10694    SPECIALIZED ELECTRO 101790225094700  3190     OPEN PO FOR TECH SE        0.00         5,930.82
+A1003    15000260   08/06/14 10694    SPECIALIZED ELECTRO 101790225094700  3190     OPEN PO FOR TECH SE        0.00         5,914.95
+TOTAL CHECK                                                                                                    0.00        16,602.91
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00         7,229.04
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00           911.17
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00           182.40
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00           143.55
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00           136.20
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00            91.62
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261805500  5990     OPEN PO 2014 − 2015        0.00            15.42
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261860100  5990     OPEN PO 2014 − 2015        0.00           145.91
+117
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   14
+DATE: 09/15/2014                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:00:56                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’20140801 00:00:00.000’ and ’20140831
+ACCOUNTING PERIOD:  3/15
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15000264   08/06/14 10177    STAPLES ADVANTAGE   101905261860100  5990     OPEN PO 2014 − 2015        0.00            18.47
+TOTAL CHECK                                                                                                    0.00         8,873.78
+A1003    15000267   08/06/14 25007    TERRY TAMMY L       101              L4505    DED:2132 CHAP 13           0.00           178.05
+A1003    15000269   08/06/14 10414    TROY CITY OF WATER  101940261009000  3830     2700731 BUS WASH           0.00           463.14
+A1003    15000270   08/06/14 10414    TROY CITY OF WATER  101940261015000  3830     2730846 C/O                0.0

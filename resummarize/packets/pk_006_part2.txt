@@ -1,0 +1,1022 @@
+ER LINK INC      101790225022000  3190     MONTHLY MISS DIG TI        0.00           428.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     BAKER ORCHESTRA            0.00           895.50
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     BAKER ORCHESTRA            0.00           232.20
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     SMITH ORCHESTRA            0.00           405.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     AHS BAND                   0.00         1,735.20
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     LARSON ORCHESTRA           0.00           599.85
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     BOULAN ORCHESTRA           0.00            90.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     AHS BAND                   0.00           236.25
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 101590271732500  3311     THS BAND                   0.00           986.85
+TOTAL CHECK                                                                                                    0.00         5,180.85
+A1003      285663   04/27/10 10807    GAZETTE NEWSPAPERS  101214282020600  3510     2 1/2 PAGE ADS FOR         0.00           450.00
+33
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   19
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285669   04/27/10 12110    GRAYBAR ELECTRIC CO 101905261805200  5990     OPEN PURCHASE ORDER        0.00           180.00
+A1003      285671   04/27/10 25879    GREAT LAKES GLASS D 101902261866500  5990     OPEN PURCHASE ORDER        0.00            70.11
+A1003      285672   04/27/10 10884    GREENS OF ROCHESTER 101071113350700  5110     OPEN PO FOR SUPPLIE        0.00           340.15
+A1003      285672   04/27/10 10884    GREENS OF ROCHESTER 101071113350700  5110     OPEN PO FOR SUPPLIE        0.00           468.95
+TOTAL CHECK                                                                                                    0.00           809.10
+A1003      285680   04/27/10 25661    HERCULES & HERCULES 101              A1700    24" X 33" CLEAR TRA        0.00           617.50
+A1003      285681   04/27/10 17933    HEWLETT PACKARD CO  101              A1920    ANNUAL MAINT FOR HP        0.00         4,374.72
+A1003      285681   04/27/10 17933    HEWLETT PACKARD CO  101650284856500  4120     ANNUAL MAINT FOR HP        0.00         3,124.80
+TOTAL CHECK                                                                                                    0.00         7,499.52
+A1003      285684   04/27/10 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND,        0.00           490.99
+A1003      285684   04/27/10 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND,        0.00           337.99
+A1003      285684   04/27/10 11763    J W PEPPER & SON IN 101074113353400  5110     MUSIC FOR IA EAST C        0.00            45.00
+A1003      285684   04/27/10 11763    J W PEPPER & SON IN 101071113351300  5110     MUSIC FOR AHS BAND,        0.00            98.99
+TOTAL CHECK                                                                                                    0.00           972.97
+A1003      285687   04/27/10 10055    KSS ENTERPRISES     101              A1700    30" X 37"  CLEAR TR        0.00           637.50
+A1003      285690   04/27/10 13549    KELVIN LP           101070113340100  5110     SHIPPING & HANDLING        0.00            10.00
+A1003      285690   04/27/10 13549    KELVIN LP           101070113340100  5110     990317 − WHEEL TO 1        0.00            19.50
+A1003      285690   04/27/10 13549    KELVIN LP           101070113340100  5110     990182 − CD TO WHEE        0.00            14.75
+TOTAL CHECK                                                                                                    0.00            44.25
+A1003      285695   04/27/10 11181    KROGER CO           101070113540000  5110     OPEN P.O. FOR TROY         0.00           134.97
+A1003      285695   04/27/10 11181    KROGER CO           101070113540000  5110     OPEN P.O. FOR TROY         0.00            63.52
+A1003      285695   04/27/10 11181    KROGER CO           101070113540000  5110     OPEN P.O. FOR TROY         0.00            36.88
+A1003      285695   04/27/10 11181    KROGER CO           101070113540000  5110     OPEN P.O. FOR TROY         0.00            51.61
+TOTAL CHECK                                                                                                    0.00           286.98
+A1003      285698   04/27/10 11703    LOUIS  T OLLESHEIME 101902261865000  5990     OPEN PURCHASE ORDER        0.00           200.18
+A1003      285699   04/27/10 11260    LUCK’S MUSIC LIBRAR 101070113352000  5110     OPEN P.O. FOR TROY         0.00           166.50
+A1003      285701   04/27/10 22965    MACK JUDY           101051112340000  5110     REIMB SMITH PC             0.00            58.60
+A1003      285702   04/27/10 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PURCHASE ORDER        0.00           730.92
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     LEONARD  SUPPLIES          0.00            19.20
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  5110     SUPPLIES FOR THS BA        0.00           204.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101590221858400  4120     TROY UNION REPAIRS         0.00            44.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN BAND REPAIRS        0.00            17.49
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN BAND SUPPLIE        0.00             3.99
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN BAND SUPPLIE        0.00            15.84
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101052112352300  5110     LARSON ORCH SUPPLIE        0.00             3.96
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101074113351300  4120     REPAIRS FOR IA EAST        0.00            50.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  5110     SUPPLIES FOR THS BA        0.00            27.93
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            60.00
+34
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   20
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            30.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112352300  4120     REPAIRS FOR BOULAN         0.00            10.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            30.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00            30.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00            40.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00           140.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00            10.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  4120     REPAIRS FOR AHS BAN        0.00            46.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  4120     REPAIRS FOR BOULAN         0.00             1.50
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  4120     REPAIRS FOR BOULAN         0.00            12.60
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  4120     REPAIRS FOR BOULAN         0.00            48.97
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113352400  4120     REPAIRS FOR TROY HS        0.00           101.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS BAND, MISC. SUP        0.00            22.68
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113352400  4120     REPAIRS FOR TROY HS        0.00            10.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113352400  4120     REPAIRS FOR TROY HS        0.00            15.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101052112351000  5110     LARSON CREDIT              0.00           −12.72
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  5110     CREDIT TROY HIGH           0.00           −24.59
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  5110     CREDIT  TROY HIGH          0.00           −70.70
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  5110     CREDIT TROY HIGH           0.00           −17.55
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            20.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            36.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            40.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS BAND, MISC. SUP        0.00            47.79
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  5110     AHS BAND, MISC. SUP        0.00            66.23
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101050112352300  4120     REPAIRS FOR BAKER O        0.00            44.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101050112351200  5110     MISC. SUPPLIES FOR         0.00            78.98
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101050112351200  5110     MISC. SUPPLIES FOR         0.00             3.56
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN BAND RETURN         0.00           −38.16
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     BOULAN BAND RETURN         0.00            −6.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101074113351000  5110     IAE RETURN #2311317        0.00          −159.95
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101074113351300  4120     REPAIRS FOR IA EAST        0.00            30.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  5110     CREDIT ORDER #58274        0.00           −43.40
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101053112351200  5110     OVRPYMT INV#1595428        0.00           −57.50
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            37.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  4120     DUP PYMT INV610875         0.00           −20.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            40.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101052112352300  4120     REPAIRS FOR LARSON         0.00            12.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101052112352300  4120     REPAIRS FOR LARSON         0.00            84.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101051112351200  4120     REPAIRS FORSMITH BA        0.00            20.13
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101070113351300  4120     REPAIRS FOR  TROY H        0.00            30.00
+A1003      285706   04/27/10 12547    MARSHALL MUSIC CO   101071113351300  5110     SELMER 1430 LP PLAS        0.00         1,245.00
+TOTAL CHECK                                                                                                    0.00         2,378.28
+A1003      285710   04/27/10 11378    MCGRAW−HILL COMPANI 101071127542000  5210     ESTIMATED SHIPPING/        0.00            27.44
+A1003      285710   04/27/10 11378    MCGRAW−HILL COMPANI 101071127542000  5210     978−0−07−888360−6 T        0.00           324.66
+TOTAL CHECK                                                                                                    0.00           352.10
+A1003      285715   04/27/10 11436    MI EDUC SPEC SERV A 101              L4545    COBRA MAY 2010 PREM        0.00         5,000.28
+A1003      285715   04/27/10 11436    MI EDUC SPEC SERV A 101              L4545    MAY 2010 PREM              0.00     1,039,533.58
+TOTAL CHECK                                                                                                    0.00     1,044,533.86
+A1003      285717   04/27/10 18923    MINDWARE HOLDINGS I 101009111371000  5110     SHIPPING AND HANDLI        0.00            10.99
+35
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   21
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285717   04/27/10 18923    MINDWARE HOLDINGS I 101009111371000  5110     BG45024 − ANALOGY C        0.00            39.95
+A1003      285717   04/27/10 18923    MINDWARE HOLDINGS I 101009111371000  5110     BG44037 − WORD PIRA        0.00            24.95
+TOTAL CHECK                                                                                                    0.00            75.89
+A1003      285719   04/27/10 25163    MODER CHERYL        101052112005200  5110     REIMB LARSON P CASH        0.00            53.81
+A1003      285719   04/27/10 25163    MODER CHERYL        101052112340000  5110     REIMB LARSON P CASH        0.00           128.02
+A1003      285719   04/27/10 25163    MODER CHERYL        101052112330000  5110     REIMB LARSON P CASH        0.00            37.76
+A1003      285719   04/27/10 25163    MODER CHERYL        101052112573000  5110     REIMB LARSON P CASH        0.00            20.00
+A1003      285719   04/27/10 25163    MODER CHERYL        101052112354000  5110     REIMB LARSON P CASH        0.00            17.05
+TOTAL CHECK                                                                                                    0.00           256.64
+A1003      285722   04/27/10 11614    NATL TIME & SIGNAL  101902261860500  4910     OPEN PURCHASE ORDER        0.00           447.50
+A1003      285724   04/27/10 18121    NEW SAM MICHAELS    101070113351500  5110     FINE ARTS−TUXEDOS          0.00         1,199.50
+A1003      285729   04/27/10 17033    OAKLAND CTY ROAD CO 101902261007100  4110     WATTLES @ ATHENS           0.00             9.09
+A1003      285729   04/27/10 17033    OAKLAND CTY ROAD CO 101902261001300  4110     WATTLES @ ATHENS           0.00            11.82
+A1003      285729   04/27/10 17033    OAKLAND CTY ROAD CO 101902261001300  4110     LIVERNOIS @ MARTELL        0.00            17.36
+A1003      285729   04/27/10 17033    OAKLAND CTY ROAD CO 101902261007000  4110     LONG LAKE @ TROYHIG        0.00           270.81
+A1003      285729   04/27/10 17033    OAKLAND CTY ROAD CO 101902261007000  4110     LONG LAKE @ TROY HI        0.00            17.66
+TOTAL CHECK                                                                                                    0.00           326.74
+A1003      285730   04/27/10 26125    OFFICE PAL INC (THE 101790225031000  5910     DUP ORDER ON PO5812        0.00           209.00
+A1003      285730 V 04/27/10 26125    OFFICE PAL INC (THE 101790225031000  5910     DUP ORDER ON PO5812        0.00          −209.00
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003      285735   04/27/10 12658    PRECISION DATA PROD 101070113330000  5110     REMC#91295  3M HIGH        0.00           148.50
+A1003      285736   04/27/10 19032    R K A PETROLEUM COM 101090271395000  5710     4/5/10 FUEL DELIVER        0.00        28,396.72
+A1003      285739   04/27/10 16299    RASMUSSEN EVELYN    101200221020000  3190     CPR CLASS STIPEND          0.00           137.50
+A1003      285747   04/27/10 12982    SALES CONCEPTS OF M 101071113354300  5110     BEAUTY&BEAST APPARE        0.00         1,813.00
+A1003      285752   04/27/10 11293    STAPLES INC         101590221031000  5910     AHS FINE ARTS OPEN         0.00           537.96
+A1003      285752   04/27/10 11293    STAPLES INC         101009241031000  5910     WATTLES OPEN PO            0.00           111.12
+A1003      285752   04/27/10 11293    STAPLES INC         101071113350700  5110     ART SUPPLIES FOR AH        0.00           340.05
+A1003      285752   04/27/10 11293    STAPLES INC         101071113350700  5110     ART SUPPLIES FOR AH        0.00            70.56
+A1003      285752   04/27/10 11293    STAPLES INC         101590221031000  5910     AHS FINE ARTS OPEN         0.00           109.99
+TOTAL CHECK                                                                                                    0.00         1,169.68
+A1003      285753   04/27/10 25714    STERICYCLE INC      101905261809200  4110     OPEN PURCHASE ORDER        0.00            57.09
+A1003      285754   04/27/10 25980    WRIGHT EXPRESS FINA 101902261395500  5710     PURCHASE GAS FOR DI        0.00         1,326.45
+A1003      285754   04/27/10 25980    WRIGHT EXPRESS FINA 101904261870000  5710     OPEN PURCHASE ORDER        0.00         1,083.76
+TOTAL CHECK                                                                                                    0.00         2,410.21
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RB 2681 − EYE WITNE        0.00            16.87
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RB 2684 − EYE WITNE        0.00            16.87
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RB 2685 − CHINA − P        0.00            56.24
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RN 657S12 − ORIENTA        0.00            23.61
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RN 658S36 − CHINESE        0.00             8.94
+36
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   22
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RE 1083 − CHINESE T        0.00            21.32
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RV 1988 − GLOBETREK        0.00            22.44
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RV 1989 − GLOBETREK        0.00            33.69
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RV 1985 − CHINA:  T        0.00            22.45
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RV 1987 − THE GREAT        0.00            28.06
+A1003      285756   04/27/10 12205    AMER EAGLE          101071113325000  5110     RF 1049 − COMPLETE         0.00           264.34
+TOTAL CHECK                                                                                                    0.00           514.83
+A1003      285762   04/27/10 12290    UNITED PARCEL SERVI 101180222020500  3430     SHIPPER #425473            0.00             6.46
+A1003      285762   04/27/10 12290    UNITED PARCEL SERVI 101790225020500  3430     SHIPPER #425473            0.00             5.43
+TOTAL CHECK                                                                                                    0.00            11.89
+A1003      285763   04/27/10 26118    VALLEY NATIONAL GAS 101070113573000  5110     OPEN P.O. FOR TROY         0.00            27.04
+A1003      285764   04/27/10 15417    VIDYA KRISHNAKUMAR  101              L4716    K+ REFUND                  0.00           400.00
+A1003      285765   04/27/10 10866    W W GRAINGER INC    101902261862000  5990     OPEN PURCHASE ORDER        0.00            52.79
+A1003      285766   04/27/10 17735    W W GRAINGERS INC   101904261870000  5990     OPEN PURCHASE ORDER        0.00           472.76
+A1003      285772   04/27/10 10059    WOLF LARRY A        101590221355500  3190     CLINICIAN AHS CHOIR        0.00           100.00
+TOTAL CASH ACCOUNT                                                                                             0.00     3,283,985.35
+TOTAL FUND                                                                                                     0.00     3,283,985.35
+37
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   23
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 120 − GRANT FUND               
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285279   04/07/10 24205    CRICK SOFTWARE      120888122230500  5110     CLOZE PRO UPGRADE T        0.00           500.00
+A1003      285279   04/07/10 24205    CRICK SOFTWARE      120888122230500  5110     ESTIMATED SHIPPING/        0.00            25.00
+TOTAL CHECK                                                                                                    0.00           525.00
+A1003      285357   04/07/10 20460    VARIETY FAR CONSERV 120888219315500  3130     09−10 MUSIC THERAPY        0.00         1,288.31
+A1003      285458   04/20/10 12244    BOYS & GIRLS CLUB O 120433311696500  3130     MARCH 2010 SERVICES        0.00         1,280.00
+A1003      285471   04/20/10 25976    COURTESY DRIVING SC 120320125601100  7991     HOMELESS STDNT             0.00            35.00
+A1003      285502   04/20/10 10963    GREENWOOD PUBLISHIN 120009125601000  5110     978−0−325−01062−5 −        0.00           111.50
+A1003      285502   04/20/10 10963    GREENWOOD PUBLISHIN 120009125601000  5110     ISBN #978−0−325−010        0.00           111.50
+A1003      285502   04/20/10 10963    GREENWOOD PUBLISHIN 120009125601000  5110     978−0−325−01063−2 −        0.00           111.50
+A1003      285502   04/20/10 10963    GREENWOOD PUBLISHIN 120009125601000  5110     SHIPPING AND HANDLI        0.00            44.60
+A1003      285502   04/20/10 10963    GREENWOOD PUBLISHIN 120009125601000  5110     978−0−325−01064−9 −        0.00           111.50
+TOTAL CHECK                                                                                                    0.00           490.60
+A1003      285513   04/20/10 25755    KAUFMAN CHILDRENS C 120888218230000  3190     OPEN PURCHASE ORDER        0.00           402.00
+A1003      285525   04/20/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00            29.90
+A1003      285525   04/20/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00            25.12
+A1003      285525   04/20/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00            10.80
+A1003      285525   04/20/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00            24.74
+A1003      285525   04/20/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00            41.91
+A1003      285525   04/20/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00             9.61
+TOTAL CHECK                                                                                                    0.00           142.08
+A1003      285547   04/20/10 25681    NATL TRAINING NETWO 120053122230300  5110     ALGEBRAIC THINKING         0.00           959.60
+A1003      285547   04/20/10 25681    NATL TRAINING NETWO 120050122230300  5110     ALGEBRAIC THINKING         0.00           959.60
+A1003      285547   04/20/10 25681    NATL TRAINING NETWO 120050125601000  5110     ALGEBRAIC THINKING         0.00           696.18
+A1003      285547   04/20/10 25681    NATL TRAINING NETWO 120051122230300  5110     ALGEBRAIC THINKING         0.00           959.60
+A1003      285547   04/20/10 25681    NATL TRAINING NETWO 120051125601000  5110     ALGEBRAIC THINKING         0.00           404.24
+A1003      285547   04/20/10 25681    NATL TRAINING NETWO 120052122230300  5110     ALGEBRAIC THINKING         0.00           959.60
+TOTAL CHECK                                                                                                    0.00         4,938.82
+A1003      285572   04/20/10 19962    SRINIVASAN RENGANAT 120888218230000  3190     SP ED TUITION REIMB        0.00           250.00
+A1003      285572   04/20/10 19962    SRINIVASAN RENGANAT 120888218230000  3190     SP ED TUITION REIMB        0.00           200.00
+TOTAL CHECK                                                                                                    0.00           450.00
+A1003      285589   04/20/10 21506    WILLIAM BEAUMONT HO 120888218230000  3190     ENVIRO INTERVENTION        0.00           325.00
+A1003      285589   04/20/10 21506    WILLIAM BEAUMONT HO 120888218230000  3190      IEP GOALS REVIEW          0.00            72.00
+TOTAL CHECK                                                                                                    0.00           397.00
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622507−0 − SKI        0.00             6.99
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622502−X − SKI        0.00            15.24
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622508−9 − SKI        0.00             6.99
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622503−8 − SKI        0.00            30.96
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622501−1 − SKI        0.00             7.62
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−6225−09−7 − SK        0.00             6.99
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     SHIPPING & HANDLING        0.00            13.80
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622504−6 − SKI        0.00            30.96
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622510−0 − SKI        0.00             6.99
+38
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   24
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 120 − GRANT FUND               
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622505−4 − SKI        0.00            15.48
+A1003      285592   04/20/10 10521    MCGRAW HILL/CREATIV 120014125601000  5110     0−07−622511−9 − SKI        0.00             6.99
+TOTAL CHECK                                                                                                    0.00           149.01
+A1003      285614   04/27/10 26057    WEYHING VALERIE L   120888218230000  3190     OBSERVATIONS OF STU        0.00         3,087.50
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 120204271094500  3190     NCHS FIELD TRIPS           0.00           112.50
+A1003      285695   04/27/10 11181    KROGER CO           120013118620000  5110     MARTELL                    0.00             7.78
+A1003      285695   04/27/10 11181    KROGER CO           120013118620000  5110     MARTELL                    0.00            20.02
+A1003      285695   04/27/10 11181    KROGER CO           120013118620000  5110     MARTELL                    0.00             9.78
+A1003      285695   04/27/10 11181    KROGER CO           120883122231000  5110     OPEN PURCHASE FOR C        0.00            30.17
+A1003      285695   04/27/10 11181    KROGER CO           120013118620000  5110     MARTELL                    0.00             7.94
+TOTAL CHECK                                                                                                    0.00            75.69
+TOTAL CASH ACCOUNT                                                                                             0.00        13,373.51
+TOTAL FUND                                                                                                     0.00        13,373.51
+39
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   25
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285259   04/07/10 13227    A T & T             122207261020700  3410     24882896977105/NILE        0.00            38.59
+A1003      285283   04/07/10 25880    DIRECT ENERGY MARKE 122883261030000  5520     GROW 02/15−03/16           0.00           213.71
+A1003      285354   04/07/10 12290    UNITED PARCEL SERVI 122885226326000  3430     SHIPPER #425473            0.00            16.79
+A1003      285354   04/07/10 12290    UNITED PARCEL SERVI 122885226326000  3430     SHIPPER #425473            0.00             8.41
+TOTAL CHECK                                                                                                    0.00            25.20
+A1003      285357   04/07/10 20460    VARIETY FAR CONSERV 122886219120000  3134     2009−10 ART THERAPY        0.00           974.24
+A1003      285357   04/07/10 20460    VARIETY FAR CONSERV 122886219120000  3134     ART SUPPLIES               0.00             7.70
+A1003      285357   04/07/10 20460    VARIETY FAR CONSERV 122886219120000  3134     09−10 MUSIC THERAPY        0.00           693.70
+TOTAL CHECK                                                                                                    0.00         1,675.64
+A1003      285440   04/20/10 13981    A T & T MOBILITY NA 122883261030000  3410     830118533 SP ED            0.00            16.44
+A1003      285457   04/20/10 25492    PEDIATRIC HEALTH CO 122886213121100  3138     OPEN PURCHASE FOR 2        0.00           681.51
+A1003      285457   04/20/10 25492    PEDIATRIC HEALTH CO 122885213313000  3138     FEB 10 OT/PT               0.00         4,207.91
+TOTAL CHECK                                                                                                    0.00         4,889.42
+A1003      285464   04/20/10 24648    PEDIATRIC HEALTH CO 122885213313000  3138     FEB 10 OT/PT               0.00         5,989.98
+A1003      285466   04/20/10 24649    PEDIATRIC HEALTH CO 122885213313000  3138     FEB 10 OT/PT               0.00         3,855.72
+A1003      285466   04/20/10 24649    PEDIATRIC HEALTH CO 122886213121100  3138     OPEN PURCHASE FOR 2        0.00           773.70
+TOTAL CHECK                                                                                                    0.00         4,629.42
+A1003      285525   04/20/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00            16.59
+A1003      285525   04/20/10 11181    KROGER CO           122071122110000  5110     OPEN PURCHASE FOR C        0.00            47.50
+A1003      285525   04/20/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00             5.99
+A1003      285525   04/20/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00            23.25
+A1003      285525   04/20/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00            13.73
+A1003      285525   04/20/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00             5.33
+A1003      285525   04/20/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00            13.93
+TOTAL CHECK                                                                                                    0.00           126.32
+A1003      285527   04/20/10 24650    PEDIATRIC HEALTH CO 122885213313000  3137     FEB 10 OT/PT               0.00         2,766.03
+A1003      285527   04/20/10 24650    PEDIATRIC HEALTH CO 122886213121100  3137     OPEN PURCHASE FOR 2        0.00           332.81
+TOTAL CHECK                                                                                                    0.00         3,098.84
+A1003      285558   04/20/10 25236    PEDIATRIC HEALTH CO 122885213313000  3137     FEB 10 OT/PT               0.00         2,655.42
+A1003      285561   04/20/10 25654    PEDIATRIC HEALTH CO 122885213313000  3138     FEB 10 OT/PT               0.00         1,511.57
+A1003      285577   04/20/10 25237    PEDIATRIC HEALTH CO 122885213313000  3137     FEB 10 OT/PT               0.00           917.14
+A1003      285579   04/20/10 24652    PEDIATRIC HEALTH CO 122885213313000  3138     FEB 10 OT/PT               0.00         5,570.56
+A1003      285695   04/27/10 11181    KROGER CO           122015122110000  5110     OPEN PURCHASE FOR C        0.00            25.80
+A1003      285695   04/27/10 11181    KROGER CO           122883122231000  5110     OPEN PURCHASE FOR C        0.00            16.74
+TOTAL CHECK                                                                                                    0.00            42.54
+A1003      285762   04/27/10 12290    UNITED PARCEL SERVI 122885226326000  3430     SHIPPER #425473            0.00             9.51
+40
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   26
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CASH ACCOUNT                                                                                             0.00        31,410.30
+TOTAL FUND                                                                                                     0.00        31,410.30
+41
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   27
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 129 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285267   04/07/10 24647    AARONS LOCK & KEY I 129202229660000  5910     CABINET REPAIR             0.00           198.00
+A1003      285272   04/07/10 25583    BARNES & NOBLE @ OA 129202135660700  3710     OPEN PO FOR PURCHAS        0.00           505.45
+A1003      285278   04/07/10 23468    COLLEGE FOR CREATIV 129202135660700  3710     JENNIFER CHIN − TUI        0.00           555.00
+A1003      285289   04/07/10 21042    GLOBAL INFORMATION  129202135660700  3710     PERRY BRUNETTI − TU        0.00         5,000.00
+A1003      285289   04/07/10 21042    GLOBAL INFORMATION  129202135660700  3710     DENNIS WOLFF − TUIT        0.00         5,000.00
+TOTAL CHECK                                                                                                    0.00        10,000.00
+A1003      285300   04/07/10 11923    J L GEISLER CORP    129202229660000  5910     STAMP PADS                 0.00            46.70
+A1003      285312   04/07/10 20191    MACOMB COMMUNITY CO 129202135660700  3710     BILL DAVIDSON − TUI        0.00         1,332.00
+A1003      285328   04/07/10 26084    NETARX LLC          129202135660000  4120     OPEN PO FOR PRINTER        0.00           355.00
+A1003      285331   04/07/10 11665    OAKLAND PRESS       129202282660000  3510     OPEN PO FOR PLACEME        0.00         1,126.50
+A1003      285333   04/07/10 14090    OAKLAND UNIV−SCHOOL 129202135660700  3710     BOOKS                      0.00           431.86
+A1003      285333   04/07/10 14090    OAKLAND UNIV−SCHOOL 129202135660700  3710     JODY BENNETT−2010 T        0.00         1,388.14
+TOTAL CHECK                                                                                                    0.00         1,820.00
+A1003      285355   04/07/10 12333    V S C INC           129202229660000  5910     PER REMC BID               0.00         1,390.00
+A1003      285369   04/13/10 20775    CENTRAL MI UNIV/ACC 129202135660700  3710     ORGETT LEFLORE − TU        0.00           416.66
+A1003      285379   04/13/10 10724    FEDEX               129202229660000  3430     OPEN PO FOR DELIVER        0.00            27.09
+A1003      285389   04/13/10 25928    INTEGRATED INFORMAT 129202135660700  3710     STEVEN LEGG − TUITI        0.00         5,000.00
+A1003      285398   04/13/10 20191    MACOMB COMMUNITY CO 129202135660700  3710     ELIZABETH BIENIEK −        0.00           738.59
+A1003      285398   04/13/10 20191    MACOMB COMMUNITY CO 129202135660700  3710     BOOKS                      0.00           159.51
+TOTAL CHECK                                                                                                    0.00           898.10
+A1003      285436   04/20/10 13227    A T & T             129202229660000  3410     24873316958203/TCC         0.00           171.98
+A1003      285437   04/20/10 13227    A T & T             129202229660000  3410     24873316921565 TCC         0.00           269.05
+A1003      285451   04/20/10 21038    BAKER COLLEGE OF FL 129202135660700  3710     MARK WINTER − TUITI        0.00         1,135.00
+A1003      285453   04/20/10 25583    BARNES & NOBLE @ OA 129202135660700  3710     OPEN PO FOR BOOK PU        0.00             8.80
+A1003      285453   04/20/10 25583    BARNES & NOBLE @ OA 129202135660700  3710     OPEN PO FOR BOOK PU        0.00           345.60
+TOTAL CHECK                                                                                                    0.00           354.40
+A1003      285492   04/20/10 10724    FEDEX               129202229660000  3430     OPEN PO FOR DELIVER        0.00            27.09
+A1003      285517   04/20/10 11151    KIWANIS CLUB OF TRO 129202135660000  7410     STROMAYER/DUES/LUNC        0.00            30.00
+A1003      285517   04/20/10 11151    KIWANIS CLUB OF TRO 129202135660000  7910     STROMAYER/DUES/LUNC        0.00           168.00
+TOTAL CHECK                                                                                                    0.00           198.00
+A1003      285544   04/20/10 18125    MITEL NETWORKS INC  129202229660000  3410     REPAIRS @ 1355403          0.00           230.00
+42
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   28
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 129 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285553   04/20/10 14090    OAKLAND UNIV−SCHOOL 129202135660700  3710     COLLENE GARLAND − T        0.00         1,000.00
+A1003      285554   04/20/10 14079    OAKLAND UNIV−STUDEN 129202283660000  3220     J KIBBEY #G00505949        0.00           995.00
+A1003      285566   04/20/10 19853    ROBBINS INVESTMENTS 129202261660000  3890     40008424   RE604001        0.00            96.30
+A1003      285566   04/20/10 19853    ROBBINS INVESTMENTS 129202261660000  3890     #40008532  RE6−0400        0.00            13.02
+TOTAL CHECK                                                                                                    0.00           109.32
+A1003      285597   04/27/10 13227    A T & T             129202229660000  3410     248R1006911067/TCC         0.00           216.70
+A1003      285599   04/27/10 13227    A T & T             129202229660000  3410     248R1007581075/TCC         0.00           218.01
+A1003      285665   04/27/10 21042    GLOBAL INFORMATION  129202135660700  3710     MARK CRISSMAN − TUI        0.00         5,000.00
+A1003      285665   04/27/10 21042    GLOBAL INFORMATION  129202135660700  3710     STEPHANIE MATTHEWS         0.00         5,000.00
+TOTAL CHECK                                                                                                    0.00        10,000.00
+A1003      285723   04/27/10 23165    NATL BUSINESS SUPPL 129202135660000  4220     REMOVAL FEE                0.00            10.77
+A1003      285723   04/27/10 23165    NATL BUSINESS SUPPL 129202135660000  4220     DELIVERY FEE               0.00            10.77
+A1003      285723   04/27/10 23165    NATL BUSINESS SUPPL 129202135660000  4220     MONTHLY DAMAGE WAIV        0.00            22.05
+A1003      285723   04/27/10 23165    NATL BUSINESS SUPPL 129202135660000  4220     RENTAL OF 14  PLAST        0.00           128.57
+A1003      285723   04/27/10 23165    NATL BUSINESS SUPPL 129202135660000  4220     RENTAL OF 20 PLASTI        0.00            91.84
+TOTAL CHECK                                                                                                    0.00           264.00
+TOTAL CASH ACCOUNT                                                                                             0.00        38,859.05
+TOTAL FUND                                                                                                     0.00        38,859.05
+43
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   29
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 304 − 2004 DEBT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 304948259020900  7610     TAX DEBIT                  0.00         2,075.92
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 304920000100000  R1114    TAX CREDIT                 0.00          −550.20
+TOTAL CHECK                                                                                                    0.00         1,525.72
+TOTAL CASH ACCOUNT                                                                                             0.00         1,525.72
+TOTAL FUND                                                                                                     0.00         1,525.72
+44
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   30
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 306 − 306 DEBT FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 306948259020900  7610     TAX DEBIT                  0.00           608.12
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 306920000100000  R1114    TAX CREDIT                 0.00          −155.62
+TOTAL CHECK                                                                                                    0.00           452.50
+TOTAL CASH ACCOUNT                                                                                             0.00           452.50
+TOTAL FUND                                                                                                     0.00           452.50
+45
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   31
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 307 − 2007 DEBT                
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 307920000100000  R1114    TAX CREDIT                 0.00           −69.77
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 307948259020900  7610     TAX DEBIT                  0.00           258.81
+TOTAL CHECK                                                                                                    0.00           189.04
+TOTAL CASH ACCOUNT                                                                                             0.00           189.04
+TOTAL FUND                                                                                                     0.00           189.04
+46
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   32
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 394 − 2004−A REFUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 394920000100000  R1114    TAX CREDIT                 0.00          −111.21
+A1003      285330   04/07/10 11678    OAKLAND CTY TREASUR 394948259020900  7610     TAX DEBIT                  0.00           414.47
+TOTAL CHECK                                                                                                    0.00           303.26
+TOTAL CASH ACCOUNT                                                                                             0.00           303.26
+TOTAL FUND                                                                                                     0.00           303.26
+47
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285270   04/07/10 10138    AUDIO SENTRY CORP   404052456801600  6220     INSTALLATION OF NEW        0.00         1,150.00
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943974 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757889080 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757888748 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757887482 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757887512 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757893308 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757829260 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     SHIPPING                   0.00             2.72
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943493 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418944087 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418944032 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763538217 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596958 PM PL        0.00             0.44
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597030 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596989 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596941 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596996 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596972 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757856044 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597054 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597047 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596965 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597009 PM PL        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763544102 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763544041 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763543976 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763577032 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763577018 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763577001 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763577384 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906146 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906207 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906214 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597207 RIGBY        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597146 RIGBY        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597122 RIGBY        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943271 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943219 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597115 RIGBY        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597184 RIGBY        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597108 RIGBY        0.00             0.39
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943752 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943745 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763575984 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763577278 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763544454 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763544423 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763598655 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763598679 RGBY         0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861062 RIGBY        0.00             0.07
+48
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861116 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861338 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861178 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861277 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861284 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418915117 RIGBY        0.00             1.54
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763596934 RIGBY        0.00             0.85
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418926243 RIGBY        0.00             0.66
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861291 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861123 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757861239 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757859823 RIGBY        0.00             0.07
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757888823 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757829178 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757888809 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757888861 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757886775 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943301 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943332 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943790 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943813 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943820 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597412 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597399 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943356 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906481 RIBGY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906474 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906498 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906450 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906443 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418906504 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943561 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943394 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597641 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943400 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943912 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780757865015 RIBGY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597702 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597559 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943875 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943851 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597726 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597863 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9780763597856 RIGBY        0.00             0.40
+A1003      285295   04/07/10 11015    HOUGHTON MIFFLIN    404009459374000  6720     9781418943943 RIGBY        0.00             0.40
+TOTAL CHECK                                                                                                    0.00            36.77
+A1003      285341   04/07/10 26069    TECH MECHANICAL INC 404009456473000  6220     ELECTRICAL                 0.00         2,250.00
+A1003      285341   04/07/10 26069    TECH MECHANICAL INC 404009456473000  6220     CONTROLS                   0.00        10,800.00
+A1003      285341   04/07/10 26069    TECH MECHANICAL INC 404009456473000  6220     TOWER INSTALLATION         0.00        20,140.20
+TOTAL CHECK                                                                                                    0.00        33,190.20
+49
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404014459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404017459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404012459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404011459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404010459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404009459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404008459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404007459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404007459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404005459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404013459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404012459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404016459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404015459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404005459641000  6410     REFURBISH JR. EXECU        0.00           455.70
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404008459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404013459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404009459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404010459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404011459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404017459641000  6410     FREIGHT CHARGES            0.00            69.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404016459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404015459641000  6410     FREIGHT CHARGES            0.00            46.00
+A1003      285344   04/07/10 20304    TOP SEAT SUPPLY LTD 404014459641000  6410     FREIGHT CHARGES            0.00            46.00
+TOTAL CHECK                                                                                                    0.00         6,043.40
+A1003      285367   04/13/10 10340    C & G PUBLISHING IN 404071456407500  3190     PUBLISHING OF LEGAL        0.00           107.50
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404005456633300  6220     BASE BID − RELOCATE        0.00            26.45
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404007456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404016456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404017456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404005456633300  6220     CO #1 − RELOCATE TV        0.00           292.37
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404050456633300  6220     CO #2 − CORRECT PRO        0.00            46.23
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404008456633300  6220     CO #2 − PREP KINDER        0.00            60.10
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404008456633300  6220     CO #2 − CHANGE TV I        0.00           138.69
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404008456633300  6220     CO #3 − ADD’TL LAMI        0.00           175.68
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404010456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404008456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404014456633300  6220     BASE BID − RELOCATE        0.00            20.65
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404013456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404010456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404016456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404017456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404005456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404009456633300  6220     BASE BID − RELOCATE        0.00            15.71
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404007456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404015456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404012456633300  6220     BASE BID − RELOCATE        0.00            15.56
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404014456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404013456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404012456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+50
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404015456633300  6220     BASE BID − RELOCATE        0.00            20.65
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404008456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+A1003      285373   04/13/10 24963    DIGITAL AGE TECHNOL 404009456633300  6220     ELECTRICAL PERMITTI        0.00             4.05
+TOTAL CHECK                                                                                                    0.00           950.00
+A1003      285456   04/20/10 10288    BOUND TO STAY BOUND 404007459374000  6720     PLEASE PROVIDE BOOK        0.00           540.27
+A1003      285456   04/20/10 10288    BOUND TO STAY BOUND 404007459374000  6720     PLEASE PROVIDE PROC        0.00            13.93
+TOTAL CHECK                                                                                                    0.00           554.20
+A1003      285461   04/20/10 10340    C & G PUBLISHING IN 404054456407500  3190     PUBLICATION OF LEGA        0.00            19.71
+A1003      285461   04/20/10 10340    C & G PUBLISHING IN 404070456407500  3190     PUBLICATION OF LEGA        0.00            19.70
+A1003      285461   04/20/10 10340    C & G PUBLISHING IN 404010456407500  3190     PUBLICATION OF LEGA        0.00            19.71
+A1003      285461   04/20/10 10340    C & G PUBLISHING IN 404053456407500  3190     PUBLICATION OF LEGA        0.00            19.71
+A1003      285461   04/20/10 10340    C & G PUBLISHING IN 404071456407500  3190     PUBLICATION OF LEGA        0.00            19.71
+A1003      285461   04/20/10 10340    C & G PUBLISHING IN 404052456407500  3190     PUBLICATION OF LEGA        0.00            19.71
+TOTAL CHECK                                                                                                    0.00           118.25
+A1003      285523   04/20/10 18272    KONICA MINOLTA − AL 404071459641000  6410     KONICA MINOLTA BIZH        0.00         2,395.00
+A1003      285524   04/20/10 18272    KONICA MINOLTA − AL 404070459641000  6410     KONIAC MINOLTA BIZH        0.00         2,395.00
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404013456407500  3190     ARCHITECTURAL SERVI        0.00            30.11
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404014456407500  3190     ARCHITECTURAL SERVI        0.00            10.95
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404005456407500  3190     ARCHITECTURAL SERVI        0.00             6.85
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404015456407500  3190     ARCHITECTURAL SERVI        0.00            31.48
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404071456407500  3190     ARCHITECTURAL SERVI        0.00            12.30
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404016456407500  3190     ARCHITECTURAL SERVI        0.00             1.37
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404017456407500  3190     ARCHITECTURAL SERVI        0.00            35.59
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404071456405100  3190     ARCHITECTURAL SERVI        0.00           247.27
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404051456407500  3190     ARCHITECTURAL SERVI        0.00             6.85
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404005456405100  3190     ARCHITECTURAL SERVI        0.00           137.37
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404070456407500  3190     ARCHITECTURAL SERVI        0.00            69.81
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404009456407500  3190     ARCHITECTURAL SERVI        0.00            16.42
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404012456407500  3190     ARCHITECTURAL SERVI        0.00            30.11
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404070456405100  3190     ARCHITECTURAL SERVI        0.00         1,401.18
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404009456405100  3190     ARCHITECTURAL SERVI        0.00           329.69
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404012456405100  3190     ARCHITECTURAL SERVI        0.00           604.43
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404013456405100  3190     ARCHITECTURAL SERVI        0.00           604.43
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404014456405100  3190     ARCHITECTURAL SERVI        0.00           219.80
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404015456405100  3190     ARCHITECTURAL SERVI        0.00           631.91
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404016456405100  3190     ARCHITECTURAL SERVI        0.00            27.48
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404017456405100  3190     ARCHITECTURAL SERVI        0.00           714.33
+A1003      285590   04/20/10 26198    WOLD ARCHITECTS INC 404051456405100  3190     ARCHITECTURAL SERVI        0.00           137.37
+TOTAL CHECK                                                                                                    0.00         5,307.10
+A1003      285606   04/27/10 26047    AHERN CONTRACTING I 404012452415000  6310     SETTLEMENT AGRMNT          0.00        91,000.00
+A1003      285726   04/27/10 25234    NORTH COAST STUDIOS 404071456452300  6220     AUDITORIUM CURTAIN         0.00         6,645.00
+A1003      285731   04/27/10 13008    P C I INDUSTRIES IN 404054456492500  6220     ACOUSTICAL PANEL IN        0.00         4,760.00
+A1003      285767   04/27/10 21949    WASHINGTON MUSIC SA 404007459647600  6410     KNILLING 112VN VIOL        0.00         2,818.75
+51
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285767   04/27/10 21949    WASHINGTON MUSIC SA 404007459647600  6410     KNILLING 112VN VIOL        0.00         4,510.00
+A1003      285767   04/27/10 21949    WASHINGTON MUSIC SA 404007459647600  6410     KNILLING 112VN VIOL        0.00           563.75
+TOTAL CHECK                                                                                                    0.00         7,892.50
+TOTAL CASH ACCOUNT                                                                                             0.00       162,544.92
+TOTAL FUND                                                                                                     0.00       162,544.92
+52
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520070256091800  5610     THS                        0.00         2,748.89
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520052256091800  5610     LARSON                     0.00           454.72
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520074256091800  5610     IAE                        0.00           607.70
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520053256091800  5610     BOULAN                     0.00           329.64
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520051256091800  5610     SMITH                      0.00           221.66
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520071256091800  5610     AHS                        0.00         2,423.20
+A1003      285276   04/07/10 10433    COCA−COLA ENTERPRIS 520050256091800  5610     BAKER                      0.00           449.93
+TOTAL CHECK                                                                                                    0.00         7,235.74
+A1003      285345   04/07/10 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00         2,347.80
+A1003      285366   04/13/10 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PURCHASE ORDER        0.00        −1,218.84
+A1003      285366   04/13/10 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PURCHASE ORDER        0.00         1,261.50
+A1003      285366   04/13/10 10222    BILDON PARTS & SERV 520902257859100  5990     SHIPPING AND HANDLI        0.00            18.18
+A1003      285366   04/13/10 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PURCHASE ORDER        0.00           180.71
+A1003      285366   04/13/10 10222    BILDON PARTS & SERV 520902257859100  5990     SHIPPING AND HANDLI        0.00            32.04
+TOTAL CHECK                                                                                                    0.00           273.59
+A1003      285440   04/20/10 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FOOD SVC         0.00             5.49
+A1003      285442   04/20/10 10022    ABLE PRINTING & RUB 520950256091800  5910     THS FD SVC STAMP           0.00            23.50
+A1003      285536   04/20/10 20401    MARY DERESKI        520071256091800  5992     LUNCH ACCOUNT REFUN        0.00           100.00
+A1003      285551   04/20/10 11671    OAKLAND CTY HEALTH  520950256091800  7410     TROY SCHOOLS LICENS        0.00         8,493.00
+A1003      285551 V 04/20/10 11671    OAKLAND CTY HEALTH  520950256091800  7410     TROY SCHOOLS LICENS        0.00        −8,493.00
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003      285728   04/27/10 11671    OAKLAND CTY HEALTH  520950256091800  7410     RENEWALS−FOOD SERVC        0.00         5,833.00
+TOTAL CASH ACCOUNT                                                                                             0.00        15,819.12
+TOTAL FUND                                                                                                     0.00        15,819.12
+53
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285259   04/07/10 13227    A T & T             530211351030000  3410     24882896977105/NILE        0.00             7.50
+A1003      285259   04/07/10 13227    A T & T             530213351030000  3410     24882896977105/NILE        0.00             7.50
+A1003      285259   04/07/10 13227    A T & T             530201311030000  3410     24882896977105/NILE        0.00            10.72
+TOTAL CHECK                                                                                                    0.00            25.72
+A1003      285345   04/07/10 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00           169.00
+A1003      285368   04/13/10 24848    C P R PLUS          530213351021300  3139     OPEN PO FOR CPR AND        0.00            50.00
+A1003      285368   04/13/10 24848    C P R PLUS          530212351021200  3139     OPEN PO FOR CPR AND        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           200.00
+A1003      285383   04/13/10 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PURCHASE ORDER        0.00           141.87
+A1003      285383   04/13/10 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PURCHASE ORDER        0.00            20.98
+TOTAL CHECK                                                                                                    0.00           162.85
+A1003      285392   04/13/10 16601    KRYSTAL MARKETING I 530211351021100  3510     PRESCHOOL PENCILS          0.00           852.07
+A1003      285392   04/13/10 16601    KRYSTAL MARKETING I 530212351021200  3510     CARE PENCILS               0.00         1,549.23
+A1003      285392   04/13/10 16601    KRYSTAL MARKETING I 530212351021200  3510     SET UP CHARGE              0.00            36.15
+A1003      285392   04/13/10 16601    KRYSTAL MARKETING I 530211351021100  3510     SET UP CHARGE              0.00            36.15
+TOTAL CHECK                                                                                                    0.00         2,473.60
+A1003      285405   04/13/10 10060    REDFORD TWP UNICYCL 530212351021200  3190     UNICYCLE PERFORMANC        0.00           150.00
+A1003      285418   04/13/10 12462    SIMPSON CHARLES E   530212351021200  3610     OPEN PO FOR BUSINES        0.00            38.00
+A1003      285440   04/20/10 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 AD ED            0.00             0.55
+A1003      285440   04/20/10 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.87
+A1003      285440   04/20/10 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             2.18
+A1003      285440   04/20/10 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             1.97
+TOTAL CHECK                                                                                                    0.00             6.57
+A1003      285445   04/20/10 23741    AMER RED CROSS      530212351021200  3190     COSTELLO CARE              0.00            92.00
+A1003      285462   04/20/10 10340    C & G PUBLISHING IN 530201311020600  3510     2 PAGE FULL COLOR C        0.00           953.00
+A1003      285463   04/20/10 24848    C P R PLUS          530212351021200  3139     OPEN PO FOR CPR AND        0.00           185.00
+A1003      285463   04/20/10 24848    C P R PLUS          530213351021300  3139     OPEN PO FOR CPR AND        0.00            85.00
+TOTAL CHECK                                                                                                    0.00           270.00
+A1003      285499   04/20/10 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PURCHASE ORDER        0.00            37.53
+A1003      285499   04/20/10 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PURCHASE ORDER        0.00            57.08
+A1003      285499   04/20/10 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PURCHASE ORDER        0.00            12.07
+TOTAL CHECK                                                                                                    0.00           106.68
+A1003      285522   04/20/10 18272    KONICA MINOLTA − AL 530201311030000  4120     2009/10 COPIER MAIN        0.00           103.29
+A1003      285522   04/20/10 18272    KONICA MINOLTA − AL 530201311030000  4120     2009/10 COPIER MAIN        0.00            11.06
+TOTAL CHECK                                                                                                    0.00           114.35
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG 16500 −A  KARAO        0.00           192.23
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−XM2000  GLITTER        0.00             1.42
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−XM2000  GLITTER        0.00           104.82
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−BG1245−A  FUSE         0.00             2.66
+54
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−PT 3063  PALMER        0.00            90.33
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−AC822  FOAM SHE        0.00             2.35
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−GP482  PAINTER         0.00           206.66
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−W6919  LEMON TW        0.00            76.85
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG 16500 −A  KARAO        0.00             2.61
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−W6919  LEMON TW        0.00             1.04
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−WD453  WOOD SHA        0.00           195.96
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−BG1245−A  FUSE         0.00           195.96
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−PT 3063  PALMER        0.00             1.23
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−GP482  PAINTER         0.00             2.81
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−WD453  WOOD SHA        0.00             2.66
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     530212351021200  5110     BTG−AC822  FOAM SHE        0.00           172.89
+TOTAL CHECK                                                                                                    0.00         1,252.48
+A1003      285594   04/20/10 12462    SIMPSON CHARLES E   530212351021200  3610     OPEN PURCHASE ORDER        0.00           553.00
+A1003      285612   04/27/10 10042    ANGELA KATTULA      530201000100000  R1810    AD ED REIMB                0.00            79.00
+A1003      285613   04/27/10 10042    ANN LEMKE           530201000100000  R1810    AD ED REFUND               0.00            78.00
+A1003      285617   04/27/10 14924    BEAR COMMUNICATIONS 530212351021200  5110     SHIPPING & HANDLING        0.00            72.00
+A1003      285617   04/27/10 14924    BEAR COMMUNICATIONS 530212351021200  5110     PER QUOTE # 57917          0.00         7,164.00
+TOTAL CHECK                                                                                                    0.00         7,236.00
+A1003      285627   04/27/10 25820    CADDY FOR LIFE LLC  530201311020000  3190     CONTRACTED SERVICES        0.00         4,414.90
+A1003      285628   04/27/10 26039    CHAPMAN ANNETTE L   530201311020000  3190     CONTRACTED SERVICES        0.00           255.00
+A1003      285633   04/27/10 20804    COCHREN DEBORAH L   530201311020000  3190     CONTRACTED SERVICES        0.00           693.00
+A1003      285652   04/27/10 20600    EDUCATION TO GO     530201311020000  3190     CONTRACTED SERVICES        0.00           376.25
+A1003      285656   04/27/10 22144    EVOLA MUSIC CENTER  530201311020000  3190     CONTRACTED SERVICES        0.00           308.00
+A1003      285663   04/27/10 10807    GAZETTE NEWSPAPERS  530201311020600  3510     1/2 PAGE AD FOR ELE        0.00           150.00
+A1003      285663   04/27/10 10807    GAZETTE NEWSPAPERS  530201311020600  3510     1/2 PAGE AD FOR ED         0.00           150.00
+A1003      285663   04/27/10 10807    GAZETTE NEWSPAPERS  530201311020600  3510     1/2 PAGE AD FOR ELE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           450.00
+A1003      285667   04/27/10 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PURCHASE ORDER        0.00            27.63
+A1003      285667   04/27/10 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PURCHASE ORDER        0.00            26.57
+TOTAL CHECK                                                                                                    0.00            54.20
+A1003      285670   04/27/10 10042    GRAZYNA HORANSKY    530201000100000  R1810    AD ED REFUND               0.00            99.00
+A1003      285694   04/27/10 26151    P & Z 10201 LLC     530201311020000  3190                                0.00           262.50
+A1003      285697   04/27/10 11237    LEVIN NEAL          530201311020000  3190     CONTRACTED SERVICES        0.00           261.25
+A1003      285703   04/27/10 10042    MANSHEALLA ALOJIPAN 530201000100000  R1810    AD ED REFUND               0.00            79.00
+A1003      285707   04/27/10 10042    MARY FOUCHEY        530201000100000  R1810    AD ED REFUND               0.00            19.00
+55
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285714   04/27/10 10042    MELISSA O’HARA      530201000100000  R1810    NILES CLASS REFUND         0.00            79.00
+A1003      285727   04/27/10 19726    O’BRIEN ERIN E      530201311020000  3190     CONTRACTED SERVICES        0.00         3,267.00
+A1003      285738   04/27/10 10042    RAMESH THATAVARTHI  530201000100000  R1810    NILES CLASS REFUND         0.00            59.00
+A1003      285740   04/27/10 23397    RENAISSANCE FENCING 530201311020000  3190     CONTRACTED SERVICES        0.00            84.00
+A1003      285742   04/27/10 10042    RENEE TOMASELLO     530201000100000  R1810    NILES CLASS REFUND         0.00            79.00
+A1003      285760   04/27/10 10042    TRACEY WEINBERG     530201000100000  R1810    NILES CLASS REFUND         0.00            79.00
+A1003      285768   04/27/10 10588    WILLIAMS IVORY D    530212351021200  3190     RETREAT SPEAKER            0.00           150.00
+TOTAL CASH ACCOUNT                                                                                             0.00        25,029.35
+TOTAL FUND                                                                                                     0.00        25,029.35
+56
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 593 − ATHLETIC FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285281   04/07/10 23625    DAVIS JEFFERY C     593970571990500  3190     THSBJV LCRS 032510         0.00            50.00
+A1003      285282   04/07/10 21097    DEMEULEMEESTER LAUR 593970571990500  3190     AHSGJV LCRS 032910         0.00            95.00
+A1003      285290   04/07/10 26038    GRAND HAVEN AREA PU 593970571990000  7910     AHSGV WTRPL 032610         0.00           150.00
+A1003      285291   04/07/10 12962    HALLBERG COLLETTE C 593970571990500  3190     BMSG VLYBL 033110          0.00            55.00
+A1003      285293   04/07/10 24584    HOOKER JACK R       593970571990500  3190     AHSGJV LCRS 032910         0.00            95.00
+A1003      285294   04/07/10 13042    HOPP BRIAN          593970571990500  3190     THSBV LCRS 032510          0.00            60.00
+A1003      285309   04/07/10 17282    LUXMORE TOM         593970571990500  3190     THSGV SFTBL 032710         0.00            98.00
+A1003      285324   04/07/10 13233    MUYLAERT DAVID P    593970571990500  3190     THSGV SFTBL 032710         0.00            98.00
+A1003      285325   04/07/10 16840    NASH RICHARD        593970571990500  3190     SMSG VLYBL 033110          0.00            55.00
+A1003      285337   04/07/10 15052    SAFRAN PAUL         593970571990500  3190     THSBV LCRS 032510          0.00            60.00
+A1003      285338   04/07/10 25716    SCULLY MARTIN J     593970571990500  3190     THSGV WTRPL                0.00            75.00
+A1003      285359   04/07/10 25797    WHITE JAMES M       593970571990500  3190     SMSG VLYBL 022410          0.00            55.00
+A1003      285359   04/07/10 25797    WHITE JAMES M       593970571990500  3190     BPMSG VLYBL 032910         0.00            55.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003      285455   04/20/10 24574    BOCHENCK JAMES W    593970571990500  3190     AHSGJV SFTBL 033110        0.00            78.00
+A1003      285459   04/20/10 25919    BRANDON STEVEN E    593970571990500  3190     AHSBFR BSBL 041310         0.00            47.00
+A1003      285459   04/20/10 25919    BRANDON STEVEN E    593970571990500  3190     AHSGJV SFTBL 041410        0.00            78.00
+TOTAL CHECK                                                                                                    0.00           125.00
+A1003      285467   04/20/10 14677    CLARKSTON HIGH SCHO 593970571990000  7910     MS CNTY TRCK 060310        0.00           380.00
+A1003      285472   04/20/10 21795    CUNNINGHAM WILLIAM  593970571990500  3190     AHSGV SFTBL 033110         0.00            98.00
+A1003      285481   04/20/10 10603    DIMMER WARREN ENTER 593970571912000  5990     VOLLEYBALL SUPPLIES        0.00           560.26
+A1003      285481   04/20/10 10603    DIMMER WARREN ENTER 593970571912000  5990     ESTIMATED SHIPPING/        0.00            55.59
+A1003      285481   04/20/10 10603    DIMMER WARREN ENTER 593970571915000  5990     AHS SOCCER                 0.00           162.09
+TOTAL CHECK                                                                                                    0.00           777.94
+A1003      285490   04/20/10 13801    FAIRMAN PAUL        593970571990500  3190     AHSGJV WTRPL 041410        0.00            75.00
+A1003      285490   04/20/10 13801    FAIRMAN PAUL        593970571990500  3190     AHSGJV WTRPL               0.00            50.00
+TOTAL CHECK                                                                                                    0.00           125.00
+A1003      285500   04/20/10 16989    GROVES WATER POLO B 593970571990500  3190     AHSGJV WTRPL 041610        0.00           170.00
+A1003      285500   04/20/10 16989    GROVES WATER POLO B 593970571990000  7910     THSGV WTRPL 041610         0.00           170.00
+TOTAL CHECK                                                                                                    0.00           340.00
+A1003      285512   04/20/10 24986    JORDANO GRAPHICS    593970571910000  5990     AHS TRACK & FIELD          0.00            60.00
+A1003      285514   04/20/10 20605    KEENAN CHRIS        593970571990500  3190     AHSGJV WTRPL 040110        0.00            75.00
+57
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 593 − ATHLETIC FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285514   04/20/10 20605    KEENAN CHRIS        593970571990500  3190     AHSGJV WTRPL 041310        0.00            50.00
+TOTAL CHECK                                                                                                    0.00           125.00
+A1003      285516   04/20/10 24302    KIRKWOOD VERNEN     593970571990500  3190     AHSBFR BSBL 041310         0.00            47.00
+A1003      285516   04/20/10 24302    KIRKWOOD VERNEN     593970571990500  3190     AHSGJV SFTBL 041410        0.00            78.00
+TOTAL CHECK                                                                                                    0.00           125.00
+A1003      285518   04/20/10 11153    KLEEFUS LEONARD C J 593970571990500  3190     AHSGJV SFTBL 033110        0.00            78.00
+A1003      285526   04/20/10 24423    LANE MICHAEL G      593970571990500  3190     AHSGV SFTBL 033110         0.00            98.00
+A1003      285528   04/20/10 21817    LAVEIRGE WILFORD    593970571990500  3190     AHSBJV BSBL 041410         0.00            48.00
+A1003      285550   04/20/10 23231    O’DELL SHAWN PATRIC 593970571990500  3190     AHSBJV BSBL 041410         0.00            48.00
+A1003      285564   04/20/10 24128    RADEN RANDY         593970571990500  3190     AHSBJV BSBL 041210         0.00            48.00
+A1003      285568   04/20/10 11948    S & S WORLDWIDE     593970571907000  5990     B BALL SCOREBK REFU        0.00           −18.44
+A1003      285570   04/20/10 26164    BIRMINGHAM PUBLIC S 593970571990000  7910     THSGJV WTRPL 041610        0.00           150.00
+A1003      285573   04/20/10 23167    STACY’S GOLF CENTER 593970571903000  5990     GOLF BALLS FOR ATHE        0.00         1,224.00
+A1003      285581   04/20/10 20834    TRAVERSE CITY WEST  593970571990000  7910     THSGV SFTBL 050810         0.00           100.00
+A1003      285595   04/22/10 10247    BLOOMFIELD HILLS SC 593970571990000  7910     GOLF OUTING                0.00           175.00
+A1003      285604   04/27/10 13017    ADI GILL            593970571990460  1564     SMS GMWRK VLYBL            0.00            40.00
+A1003      285611   04/27/10 25049    ANDRAS RONALD       593970571990500  3190     AHSGV SFTBL 041410         0.00            98.00
+A1003      285616   04/27/10 12700    BARCZEWSKI MICHAEL  593970571990500  3190     THSGFR SFTBL 041510        0.00            41.00
+A1003      285619   04/27/10 10243    BLIEVERNICHT JEANNE 593970571990500  3190     THSGV LCRS 041610          0.00            55.00
+A1003      285622   04/27/10 10270    BONACCI, ROBERT M   593970571990500  3190     AHSGV BSBL 041910          0.00            55.00
+A1003      285623   04/27/10 13017    BRADLEY VINCENT     593970571990460  1564     SMS WNTR GMWRK             0.00            10.00
+A1003      285624   04/27/10 25919    BRANDON STEVEN E    593970571990500  3190     AHSBJV BSBL 041910         0.00            48.00
+A1003      285630   04/27/10 26030    CHIN YUN CHANG      593970000100000  R1733    REIMB ATHLETIC FEE         0.00            15.00
+A1003      285632   04/27/10 10422    CLASSIC TROPHIES    593970571990000  4910     AWARDS FOR SYNCHRON        0.00         1,181.83
+A1003      285637   04/27/10 24535    CUMMINS MICHAEL A   593970571990500  3190     THSBJV LCRS 041310         0.00            50.00
+A1003      285637   04/27/10 24535    CUMMINS MICHAEL A   593970571990500  3190     THSBV LCRS 041310          0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003      285639   04/27/10 22408    DAY ANTONE          593970571990500  3190     THSBV BSBL 041410          0.00            55.00
+A1003      285642   04/27/10 16682    DEVUYST MAURICE     593970571990500  3190     THSBV BSBL 041410          0.00            55.00
+58
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 593 − ATHLETIC FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285643   04/27/10 25453    DICRISTOFARO DANIEL 593970571990500  3190     ATH ASSGN FEE HCKY         0.00           200.00
+A1003      285644   04/27/10 10603    DIMMER WARREN ENTER 593970571918400  5990     BOYS AND GIRLS WATE        0.00           269.50
+A1003      285644   04/27/10 10603    DIMMER WARREN ENTER 593970571918400  5990     ESTIMATED SHIPPING/        0.00            16.49
+A1003      285644   04/27/10 10603    DIMMER WARREN ENTER 593970571918200  5990     BOYS AND GIRLS WATE        0.00           269.50
+A1003      285644   04/27/10 10603    DIMMER WARREN ENTER 593970571918200  5990     ESTIMATED SHIPPING/        0.00            16.50
+TOTAL CHECK                                                                                                    0.00           571.99
+A1003      285648   04/27/10 10032    DOZIER BRUCE L      593970571990500  3190     AHSGFR SFTBL 041310        0.00            41.00
+A1003      285648   04/27/10 10032    DOZIER BRUCE L      593970571990500  3190     AHSGFR SFTBL 042010        0.00            51.00
+TOTAL CHECK                                                                                                    0.00            92.00
+A1003      285650   04/27/10 22410    DZWIGALSKI CHARLES  593970571990500  3190     THSBV BSBL 041610          0.00            55.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     BOULAN WRESTLING           0.00            90.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     BOULAN VOLLEYBALL          0.00           360.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     SMITH VOLLEYBALL           0.00           360.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     THS TRACK                  0.00           225.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS TRACK                  0.00           371.25
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     THS WATERPOLO              0.00           653.85
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS LACROSSE               0.00           367.65
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS SOCCER                 0.00           270.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS WATERPOLO              0.00           273.60
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS CHEERLEADING           0.00           153.90
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS HOCKEY                 0.00           479.70
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS BASKETBALL             0.00           712.80
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS BASKETBALL             0.00           648.45
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS GYMNASTICS             0.00           315.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     LARSON VOLLEYBALL          0.00           270.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     THS SWIMMING               0.00           652.50
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     THS BASEKTBALL             0.00           611.10
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     AHS SWIMMING               0.00           326.25
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     BAKER VOLLEYBALL           0.00           270.00
+A1003      285660   04/27/10 26082    FIRST GROUP AMERICA 593970271990000  3310     THS BASKETBALL             0.00         1,117.35
+TOTAL CHECK                                                                                                    0.00         8,528.40
+A1003      285662   04/27/10 19920    GAY DONALD F        593970571990500  3190     AHSBV LCRS 041510          0.00            60.00
+A1003      285662   04/27/10 19920    GAY DONALD F        593970571990500  3190     AHSBJV LCRS 041510         0.00            50.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003      285664   04/27/10 17284    GENTRY MIKE         593970571990500  3190     AHSBV BSBL 041910          0.00            55.00
+A1003      285666   04/27/10 25560    GLYNN JEFF          593970571990500  3190     AHSBJV BSBL 041510         0.00            48.00
+A1003      285668   04/27/10 26038    GRAND HAVEN AREA PU 593970571990000  7910     AHSGJV WTRPL 0423          0.00           135.00
+A1003      285674   04/27/10 24437    HABITZ THOMAS       593970571990500  3190     THSBV BSBL 041710          0.00           110.00
+A1003      285675   04/27/10 12962    HALLBERG COLLETTE C 593970571990500  3190     AHSGV SFTBL 041410         0.00            98.00
+A1003      285676   04/27/10 25876    HALLOP ROBERT       593970571990500  3190     THSBV BSBL 041610          0.00            55.00
+59
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 593 − ATHLETIC FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285677   04/27/10 13017    HARRISON STOOLMILLE 593970571990460  1564     SMS GM WRK VLYBL           0.00            40.00
+A1003      285678   04/27/10 19938    HAYES PATRICIA      593970571990500  3190     AHSGJV LCRS 042110         0.00            95.00
+A1003      285679   04/27/10 22606    PERFECT PAR ENTERPR 593970571990000  7910     AHSBV GLF 050110           0.00           150.00
+A1003      285682   04/27/10 25889    HOLMES ROBERT       593970571990500  3190     THSBFR BSBL 041510         0.00            47.00
+A1003      285683   04/27/10 24584    HOOKER JACK R       593970571990500  3190     AHSGJV LCRS 042110         0.00            95.00
+A1003      285685   04/27/10 22158    JOHNSTON, WILLIAM T 593970571990500  3190     AHSBJV BSBL 041510         0.00            48.00
+A1003      285686   04/27/10 21444    KACZANDER  RICHARD  593970571990500  3190     THSGV LCRS 041410          0.00            95.00
+A1003      285689   04/27/10 24265    KELLY ROBERT M      593970571990500  3190     THSBJV BSBL 041710         0.00            96.00
+A1003      285691   04/27/10 24302    KIRKWOOD VERNEN     593970571990500  3190     AHSGV SFTBL 042010         0.00            98.00
+A1003      285693   04/27/10 21279    KOWALSKI, STEWART   593970571990500  3190     AHSBJV LCRS 041710         0.00            50.00
+A1003      285693   04/27/10 21279    KOWALSKI, STEWART   593970571990500  3190     AHSBV LCRS 041710          0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003      285696   04/27/10 11194    LAMBERT RICHARD D   593970571990500  3190     MS BSKTBL ASSGN FEE        0.00           200.00
+A1003      285708   04/27/10 17637    MASTROVITO TOM      593970571990500  3190     AHSBJV LCRS 041710         0.00            50.00
+A1003      285708   04/27/10 17637    MASTROVITO TOM      593970571990500  3190     AHSBV LCRS 041710          0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003      285713   04/27/10 25552    MELCHING DONALD F   593970571990500  3190     THSGV LCRS 041710          0.00            95.00
+A1003      285713   04/27/10 25552    MELCHING DONALD F   593970571990500  3190     THSBV LCRS 041910          0.00            95.00
+TOTAL CHECK                                                                                                    0.00           190.00
+A1003      285720   04/27/10 10030    MOLLICONE BOB       593970571990500  3190     THSBV BSBL 033010          0.00            55.00
+A1003      285721   04/27/10 25181    MORRIS JOHN         593970571990500  3190     THSBJV BSBL 041410         0.00            48.00
+A1003      285725   04/27/10 13017    NOLAN HOLLAND       593970571990460  1564     SMS GMWRK VLYBL            0.00            10.00
+A1003      285732   04/27/10 10031    PASDEN STEPHEN JR   593970571990500  3190     AHSGFR SFTBL 041310        0.00            41.00
+A1003      285733   04/27/10 25890    PEEL MICHAEL  S     593970571990500  3190     THSGV LCRS 041710          0.00            95.00
+A1003      285734   04/27/10 12537    PETRILL MARTIN D    593970571990500  3190     THSBJV BSBL 041610         0.00            20.00
+A1003      285737   04/27/10 24128    RADEN RANDY         593970571990500  3190     AHSGV SFTBL 042010         0.00            98.00
+A1003      285743   04/27/10 21630    ALL AMERICAN SPORTS 593970571905000  5990     OPEN PO FOR ATHLETI        0.00         1,735.59
+A1003      285744   04/27/10 10037    ROGISSART CHRISTOPH 593970571990500  3190     THSGV SCCR 033110          0.00            49.00
+A1003      285745   04/27/10 13877    ROYAL OAK HIGH SCHO 593970571990000  7910     AHSBFR TRCK 051210         0.00           100.00
+60
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 593 − ATHLETIC FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285746   04/27/10 15052    SAFRAN PAUL         593970571990500  3190     AHSBJV LCRS 041510         0.00            50.00
+A1003      285746   04/27/10 15052    SAFRAN PAUL         593970571990500  3190     AHSBV LCRS 041510          0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003      285755   04/27/10 25033    TASSONI DOMENIC     593970571990500  3190     THSBJV BSBL 041710         0.00            96.00
+A1003      285755   04/27/10 25033    TASSONI DOMENIC     593970571990500  3190     AHSBJV BSBL 041910         0.00            48.00
+TOTAL CHECK                                                                                                    0.00           144.00
+A1003      285759   04/27/10 25587    THOMPSON SHAWN      593970571990500  3190     THSBJV BSBL 041610         0.00            20.00
+A1003      285769   04/27/10 26044    WILLIAMS LARUE C    593970571990500  3190     AHSBGV TRCK 042010         0.00            65.00
+A1003      285770   04/27/10 22493    WILSON ANDREW       593970571990500  3190     THSBJV BSBL 041410         0.00            48.00
+A1003      285771   04/27/10 24080    WINN TERRANCE J     593970571990500  3190     AHSBGV TRCK 042010         0.00            65.00
+TOTAL CASH ACCOUNT                                                                                             0.00        21,085.31
+TOTAL FUND                                                                                                     0.00        21,085.31
+61
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 05/11/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 10:30:13                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’04/01/2010’ and ’04/30/2010’
+ACCOUNTING PERIOD: 11/10
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      285268   04/07/10 24929    ADVANCED SCREEN PRI 700071399909700  5000     RED T−SHIRTS               0.00           350.00
+A1003      285268   04/07/10 24929    ADVANCED SCREEN PRI 700071399909700  5000     BLACK T−SHIRTS             0.00           350.00
+TOTAL CHECK                                                                                                    0.00           700.00
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199700000  5000     REIMB MARTELL P CAS        0.00            12.00
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199708000  5000     REIMB MARTELL P CAS        0.00            22.77
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199700000  5000     REIMB MARTELL P CAS        0.00            15.01
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199700000  5000     REIMB MARTELL P CAS        0.00            13.00
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199700000  5000     REIMB MARTELL P CAS        0.00            29.88
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199700000  5000     REIMB MARTELL P CAS        0.00            17.98
+A1003      285271   04/07/10 24698    BARGER DENISE       700013199708000  5000     REIMB MARTELL P CAS        0.00            18.96
+TOTAL CHECK                                                                                                    0.00           129.60
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            52.10
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            34.97
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00           209.17
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00           285.54
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00           163.65
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            58.32
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            25.29
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00           −17.85
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            96.41
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00           161.68
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            59.28
+A1003      285292   04/07/10 15997    HOME DEPOT U S A  I 700071399354000  5000     OPEN P.O. FOR SUPPL        0.00            19.94
+TOTAL CHECK                                                                                                    0.00         1,148.50
+A1003      285298   04/07/10 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR THS SCH    

@@ -1,0 +1,675 @@
+### DOCUMENT KEY: 2014_061_031814spmtg
+TITLE: 031814SpMtg
+MEETING DATE: 2014-03-18
+TYPE: PDF
+PREVIOUSLY SUMMARIZED FROM: 6.7%
+======================================================================
+BOARD MEETING AGENDA 
+4400 LIVERNOIS    TROY, MICHIGAN  48098    248.823.4000 
+Visit our Web site at www.troy.k12.mi.us to learn about what’s happening in our district. 
+When school is in session, the Board of Education meetings are cablecast on TS-TV Channel 19 
+(Comcast) and Channel 15 (WOW) every Monday and Wednesday at 2:00 and 9:00 p.m.  School 
+Board meetings can also be viewed online at http://vimeo.com/troyschools. 
+6:00 PM 
+Administration Building, 4400 Livernois, Troy, MI 48098 
+March 18, 2014 
+Agenda of Special Meeting 
+The subjects to be discussed or considered or upon which any formal action may be taken are as 
+listed below.  Items do not have to be taken in the order shown on this meeting notice. 
+Unless removed from the consent agenda, items identified within the consent agenda will be 
+acted on at one time. 
+1. PLEDGE OF ALLEGIANCE  
+2. PUBLIC COMMUNICATION*  
+3. BUSINESS  
+A. CONSIDERATION:  Network and Phone Purchase Approval - Bond 2014 2 
+4. OTHER  
+5. ADJOURNMENT  
+     3. A. 03.18.14 
+3. BUSINESS 
+ A. CONSIDERATION:  NETWORK AND PHONE PURCHASE APPROVAL 
+  As part of the Technology Bond Project, the district has planned to replace 
+major components of the telephone, network security and wired/wireless 
+network.  Using the Midwest Higher Education Consortium (MHEC) and 
+Michigan Intercollegiate Telecommunications Consortium (MiCTA) state  
+approved bid tool s, bids from two vendors were  reviewed by Mark 
+Washington, Director of Technology, and  it is recommended the bid be 
+awarded as stated below.   
+RECOMMENDED ACTION:  Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By:  ______________________________ 
+Supported By: ______________________________ 
+Be it therefore resolved that the network and phone purchase  be awarded 
+to Hi-Tech Inc.  for the acquisition and installation of networking equipment 
+from Extreme Networks for wired/wireless data systems  and the acquisition 
+and installation of telecommunications equipment from Shoretel in the amount 
+of $1,912,095, and that th is amount be approved as expenditure of the 2014 
+Capital Projects Fund.   
+Yes: ____________ 
+No: ____________ 
+2
+To: Dr. Barbara Fowler, Superintendent 
+From: Mark Washington, Director of Technology 
+Date: March 13, 2014 
+Re: Bid Award Recommendation for Voice, Video, Security and Data Network 
+As part of the Technology Bond Project for 2013/14, the district has planned to replace major components of 
+the Telephone, Network Security and Wired/Wireless Network.  Using the MHEC, Midwest Higher Education 
+Consortium (MHEC) and Michigan Intercollegiate Telecommunications Consortium (MiCTA), both state 
+approved bid tools, TSD evaluated two vendors, Extreme Networks and Cisco Systems (our current network 
+provider).  After an in-depth analysis comparing features for each product, the bid from Hi-Tech, Inc. of Casco, 
+Michigan, is being recommended for the following;   
+1. The acquisition and installation of networking equipment from Extreme Networks for 
+wired/wireless data systems; and 
+2. The acquisition and installation of telecommunications equipment from Shoretel. 
+The total recommended amount of the award to Hi-Tech, Inc. will be in the amount of $1,912,095.  Recent 
+updates include a cost reduction of $304,248, which is $409,453 less than Cisco’s most recent updated bid as 
+of 3/5/14.  Attached please find a copy of the bid summary with related pricing and also a copy of support 
+materials from both Cisco and Extreme outlining features that each company believes differentiates them 
+against the other. 
+Both items use the approved state bid tools and the bond funds being allocated are within budget for the 
+project.  Should the Board of Education choose to award the recommended bids, installation will be 
+completed by June 31, 2014.  
+The Extreme Networks bid presented a solid, reliable solution providing for great network access for any 
+device connecting in our environment.  Some of the benefits of the solution are as follows: 
+ The installation of an enterprise-grade, fully redundant network core allowing for faster network traffic 
+management;  
+ Full network management from a centralized management console; 
+ The ability to manage network traffic at the access point preventing unnecessary traffic from reaching the core 
+of the network;  
+ Policy for optimized control of the users and network resources; 
+ Wireless device data analytics allowing for better network control and management; 
+ Network integration to our district content filter, iBoss; 
+ Full district-wide wireless access point coverage;   
+ Data Center Manager to help manage and support the district’s VMWare environment; 
+ Integrated Digital Citizenship enforcement; 
+ BYOD solutions with the ability to differentiate guest and non-district issued devices; and 
+ All network related costs are covered for the next five years with a full warranty included. 
+Should you have any questions, please feel free to contact me. 
+Cc:   M. Rajter 
+  3
+Network Bid Summary 
+Cisco Submitted 2/22/14 Extreme/Shoretel 
+$2,777,327 Initial Bid $2,302,555 
+$327,334 Installation Included in bid 
+$3,104,661 Initial Bid total $2,302,555 
+$2,446,795 Voluntary Alternates $2,127,581 
+$2,774,129 Revised Totals $2,216,343 
+The Extreme/Shoretel Networks Bid is $557,786 less than Cisco 
+Cisco Revised as of 3/6/14 Extreme/Shoretel 
+$2,251,548 Updated Bid $1,912,095 
+Included in bid Installation Included in bid 
+$2,251,548 Updated Bid total $1,912,095 
+ Voluntary Alternates $70,000 credit 
+Trade in Value of the Cisco Switches 
+and payment option. 
+$2,251,548 Revised Totals $1,842,095 
+The Extreme/Shoretel Networks Bid is $409,453 less than Cisco 
+4
+145 Rio Robles  /  San Jose, CA 95134  /  +1-408-579-2800  /  extremenetworks.com 
+March 5, 2014 
+Mr. Mark Washington  
+Director of Technology  
+4400 Livernois  
+Troy, MI 48098  
+Dear Mark,  
+Thank you for considering Extreme Networks for the Troy Schools Network refresh. We are pleased to 
+present the enclosed proposal to Troy Schools.  Extreme Networks delivers the most educationally 
+focused networking solution in the industry.  Extreme Networks offers a complete wireless networking 
+solution that will help augment and optimize the diverse services offered by Troy Schools all while 
+reducing operational costs. 
+Technology plays a vital role in enabling educators to provide their students with the skills they need in 
+order to succeed in the global economy. Along with traditional school subjects, students must also 
+become competent with the latest technology and be able to think critically and communicate 
+effectively with a wide audience as they address new and increasingly difficult problems. In order to 
+engage today’s students and reflect their techn ology-based lifestyles, the classroom needs to provide a 
+media-rich, interactive environment that supports a variety of digital networking devices such as 
+laptops, netbooks and smartphones. 
+In particular, wired and wireless LANs are the critical “glue” bet ween the K-12 classroom and the vast 
+array of network-based resources that educators utilize to enhance the classroom learning environment. 
+With student safety as a top priority, the integrated wired/wireless network must enable access to 
+leading education applications as well as research-oriented web sites while maintaining appropriate 
+access and control over network services.  
+The K-12 environment presents numerous challenges from a networking perspective, including:  
+• A diverse set of educational web sites and education applications residing on both internal and 
+external network locations, databases, and servers  
+• A large and dynamic student population with increasing and diverse expectations for network 
+and information access  
+• A teacher and administrator population with varying skills that are expected to manage their 
+own day to day technology-based needs  
+As the number and type of connected devices, applications and technologies increase, so too does the 
+complexity of the networking environment. In recognition of the need to manage this complexity 
+effectively and also tune the K-12 network to education priorities, Extreme Networks provides 
+capabilities to:  
+• Prioritize access for school operations and multimedia classroom applications 
+• Enforce authorized access criteria to protect student confidentiality and preserve data integrity  
+• Offer wireless network access to administrative staff, teachers, and students 
+5
+145 Rio Robles  /  San Jose, CA 95134  /  +1-408-579-2800  /  extremenetworks.com 
+Extreme Networks networking solutions provide unique capabilities that are leveraged by K-12 IT staff 
+around the world to control and prioritize access to education applications, ensure continuing 
+availability of networked resources, provide wired and wireless services to administrative staff, teachers, 
+students and guests, and ensure enforcement of appropriate access control to student and institutional 
+data.  
+Extreme Networks supports education nationwide with over 1400 school districts spanning over 17000 
+schools, delivering the most educationally focused networking solution in the industry. Extreme 
+Networks focuses on education with products that helps educational facilities meet their curricular 
+needs. As a result, not only does education represents 53% of Extreme Networks’ customer base, but  
+Extreme Networks has received the 2013 Top 100 Product of the Year awards from District 
+Administration and in 2013 was awarded Top 100 Product of the Year award from eSchool Media.  Just 
+this past month, we received the prestigious 2014 Gold Stevie award for Contact Center of the Year.  As 
+further evidence of providing a superior experience for our customers, Extreme Networks also received 
+three Silver Stevie awards for the Best Use of Technology in Sales, the Customer Service Training Team 
+of the Year and the award for Innovation in Customer Service. 
+Today’s K-12 environment with diverse needs must not only be facilitated and secured by the network, 
+but must encourage and enhance learning and curricular usage in a BYOD environment. Extreme 
+Networks’ solutions assist a BYOD in numerous ways:  
+Facilitating Individual Education Plans 
+The services offered to Troy Schools students, faculty and staff should not be a “one -size-fits-all” or even 
+a “one -VLAN-fits-most” environment. The diverse and complex needs handled by your district  require a 
+robust wireless system with a focus on delivering the best end user experience and be able to deliver 
+individualized instruction to allow students to reach their full academic potential. 
+Extreme Networks solutions allow an optional, “differentiated” access to resources. In a BYOD 
+environment, all users need not be treated alike; a faculty member with a BYOD should be able to access 
+different resources, and have different bandwidth, than a student. With our solution, users are based on 
+their identity. Identity is based on WHO you are, WHERE you are, and WHAT DEVICE you have, and even 
+on What time of day it may be. Since user profiles are accessed from Active Directory, Troy Schools does 
+not have to reinvent the wheel and can empower services utilizing existing resources.  
+The Extreme Networks solution provides complete visibility over the district’s network as well as its 
+airspace. Utilizing tunable parameters relating to signal strength and location, a MyWi-enabled device 
+operating on agency or affiliate properties can be automatically detected and identified as an 
+unauthorized access point so it cannot be used, ensuring CIPA compliance even on non-district owned 
+devices. 
+6
+145 Rio Robles  /  San Jose, CA 95134  /  +1-408-579-2800  /  extremenetworks.com 
+Protecting the Curricular Environment 
+Extreme Networks’ intelligent wireless solutions can filter and shape Apple Bonjour traffic, improving 
+bandwidth and protecting the curricular environment for essential functions. Alternatively, Bonjour can 
+be permitted in certain classrooms/lecture halls to allow curricular use of the Apple TV.  
+Embedded Guest Access 
+Extreme Networks Wireless includes an integrated GuestPortal (without a separate SSID) including a 
+fully easy-to-use graphical user interface allowing non-technical personnel to create temporary guest 
+accounts and distribute credentials.  
+Since Extreme Networks offers standards-based solutions, IT staff can manage the district’s  existing 
+network infrastructure, including third party products. The existing third party infrastructure and your 
+new Extreme Networks infrastructure can be managed from a single database through this powerful, 
+but easy-to-use management tool, Extreme Networks NetSight.  
+Industry Best Technical Support 
+Troy Schools can also rest assured knowing that one of the industry’s best support organizations is 
+behind your network. From Extreme Networks’ Global Technical Support Center (GTAC) providing 24x7 
+access to reliable technical help, to the comprehensive Extreme Networks SupportNet offerings that, let 
+you choose the exact level of service ideal for your organization, to comprehensive downloads, Extreme 
+Networks has you covered.  
+Through Extreme Networks’ Automated Call Distribution (ACD) system, the District will connect directly 
+to GTAC Engineers and technical teams who are responsible for supporting specific product lines 
+24x7x365. In addition, the GTAC maintains top-of-the-line technology labs for optimal issue re-creation 
+and fast answers to complex questions.  
+Extreme Networks prides itself on delivering on their promises and being a vendor that customers want 
+to do business with. One of the ways this is achieved is by providing quick, no-hassle support. The 
+quality of support Extreme Networks provides sets them apart from the competition and demonstrates 
+their commitment to customers. There are three main ways that Extreme Networks’ support is  
+differentiated: 
+• Extreme Networks support personnel are 100% in-sourced. Extreme Networks’ GTAC is 
+staffed only by Extreme Networks employees, with an average tenure of 12+ years with 
+the company. 
+• Extreme Networks personalizes the support customers receive –  you’ll meet your 
+support person via telephone so you know who you’ll be working with before you make 
+the final decision to invest with Extreme Networks. 
+• The innovative technology behind Extreme Networks’ support process enables Extreme 
+Networks to manage multi-channel customer contact with total cross-functional 
+visibility and response management.  
+7
+145 Rio Robles  /  San Jose, CA 95134  /  +1-408-579-2800  /  extremenetworks.com 
+Having all of support employees in-house provides significant advantages including: 
+• Tight integration with R&D, which fosters group collaboration, accelerates on-the-job 
+training, and enables problem-solving problems in real-time 
+• Low attrition rates achieved by recognizing and investing in support staff.  
+• 2-tier call center design, including support and engineering, allows them to meet 
+customer’s demand for f aster results –  no need to wait through five tiers of escalation 
+as with other vendors. 
+Extreme Networks has a very satisfied set of customers in the Michigan area with a growing number 
+providing educational services: 
+• Oakland ISD 
+• Rochester Public Schools 
+• Oakland Community College 
+• Clawson Schools 
+• Lamphere Schools 
+• Clarenceville Schools 
+• Clarkston Schools 
+• Royal Oak Schools 
+• Pontiac Schools 
+• Romeo Schools 
+• Port Huron Schools 
+• Oakland County 
+We appreciate the time invested in review of the proposal and look forward to a long, successful 
+partnership between Troy Public Schools, Hi-Tech System Services and Extreme Networks.  Thank you 
+again Mark for considering Extreme Networks. I look forward to speaking with you and answer any 
+questions you may have.   
+Sincerely, 
+Chris Crowell | Chief Operating Officer  
+Extreme Networks  
+Office: +1 603 952 5744 | Mobile: +1 603 502 3697  
+Email: ccrowell@extremenetworks.com  
+8
+March 5th, 2014 
+Joe Zanchetta, Account Manager 
+Scott Wilson, Systems Engineer 
+Jill Maiorano, Regional Manager 
+9
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 1 © 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 1 © 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 1 Cisco Public 1 © 2010 Cisco and/or its affiliates. All rights reserved. 
+Ensuring Customer Success 
+BUILD BUY PARTNER 
+$5.9B 
+The Cisco Innovation Engine 
+Nearly  
+18,000 
+Issued 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 2 
+10
+Market  
+Position 
+FY13 R&D 
+#1 or #2 
+Total 
+Patents 
+Acquisitions 
+Over 
+160 
+Partners 
+CCIEs 
+Nearly 
+70,000 
+26,000+ 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 3 
+Market Leadership (Q2 CY13) 
+Our Focus on Integration Provides our 
+Customers with a Competitive Advantage 
+Our Diverse Product Portfolio Means 
+We’re Here for the Long-term 
+Breadth and Depth of Technology Portfolio 
+No. 1 
+TelePresence 
+45% 
+No. 1 
+Wireless LAN 
+53% 
+No. 1 
+Voice 
+40% 
+No. 1 
+Web Conferencing 
+41% 
+No. 2 
+x86 Blade Servers 
+22% 
+No. 1 
+Security 
+33% 
+No. 1 
+Routing 
+Edge/Core/Access 
+49% 
+No. 1 
+Switching 
+Modular/Fixed 
+66% 
+No. 2 
+Storage Area Networks 
+45% 
+11
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 4 
+12
+Market Share Matters…  
+IDC Switching Market Share Report 
+Cisco                                         62.6% 
+Extreme/Enterasys Combined  2.2%  
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 5 
+13
+Market 
+Share Sales FY13 
+Growth 
+Momentu
+m GTM Verticals 
+54.2% $2.13B $284M Unified 
+Access All  
+11.9% $435M $61M Unified 
+Access All 
+6.2% $234M $18M Unified 
+Access 
+Education, Hospitality, 
+SMB, SP 
+4.2% $157M -20M WLAN Retail, Manufacturing, 
+Warehousing 
+5% $188M $53M WLAN    SP  
+Education 
+Hospitality  
+SMB 
+2.9% $107M $67M Unified 
+Access Education, SMB 
+2.7% $80M $40M WLAN Education, SMB 
+2.3% $87M $11M WLAN Education, SMB 
+2.2% $82M $14M WLAN Education, Stadiums, 
+Conference Centers 
+1.5% $48M $2.6M Unified 
+Access Direct Touch 
+Others 2% $70M --- 
+$3.7B $564M 
+Wireless  Market Share 
+Cisco 54.2% 
+Enterasys in the 2% Other 
+14
+Value in Switching 
+Why it matters: 
+• Switching is a Foundational Investment 
+• Cisco provides unparalleled Investment Protection 
+• Cisco delivers continual Innovation for ongoing Business Enablement 
+6880-X 
+Catalyst 6500-E 
+3850 
+3650 
+2960X/2960XR 
+Catalyst 4500-E, Sup7E, Sup8E 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 7 
+15
+Catalyst 6807-XL 
+4500-X 
+Switching Foundation 
+Why it matters: 
+• Switching is Foundational – it determines whether you have the ability to say “Yes” to 
+ future district requests. 
+Cisco Differentiation: Foundational 
+• Platform on which all other aspects of the networked 
+infrastructure are supported.  
+• Establishes flexibility and long term relevance.  
+• Helps establish and support more dynamic and robust 
+architectures.   
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 8 
+16
+Switching Investment 
+Why it matters: 
+• Investment protection – switches are not “throw away” purchases.  
+Cisco Differentiation: Market Share 
+• Mkt Share enables and drives many benefits…  
+• Stability 
+• Talent Attraction / Retention 
+• Feature Velocity – Realized Features and Roadmaps  
+• Establishes flexibility and long term relevance.  
+• Contributes to higher R&D.  
+Total L 2/3 Managed Switches – 66.3% 
+• Supports larger architectures. 
+Total Modular Chassis – 77.9% 
+• Better 3rd Party synergies (management, SDN, etc.) 
+Modular 10G Ports – 83.6% 
+• Drives Investment Protection   
+(Enterprise Markets Q3 CY2013) 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 9 
+17
+Switching Innovation 
+Why it matters: 
+• Continual Innovation – the platform you buy today will be more capable tomorrow 
+CleanAir 
+Cisco Differentiation: Innovation 
+LiSP 
+upgrades! (i.e. Smart Installation) 
+• ASICs – Doppler (UAC), SageRF (CleanAir), F3 (NX 
+SOC), Programmability 
+Converged Access 
+VDCs 
+• Multi-generational ASIC support – i.e. C6K, C4K, etc.  
+• Cisco and 3rd party investments – Open DayLight, SDN 
+Infrastructure 
+VSS/vPC 
+StackPower 
+Dynamic Farbric 
+Operations 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 10 
+18
+• Cisco Silicon allows for long term flexibility 
+• Additional features layered in over time – no fork lift 
+for legacy IOS devices as well as OF…  
+Application Centric 
+Automation Unified Fabric 
+Unified Compute 
+OTV 
+Smart 
+SGT 
+WLAN, Data Center 
+ure 
+WLAN, Dynamic 
+Optimization, DLP 
+Secured Services, Monitoring, 
+Compute Virtualization 
+Scalable, Service Rich 
+Campus and DC  
+Dynamic instantiation  
+Integration Options 
+of apps and storage 
+Intelligent storage,  
+app acceleration 
+Options, Flexibility, Synergies – Force Multipliers  
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 11 
+Identity  
+Services 
+Engine 
+Cisco 
+Prime 
+Infrastruct
+Cisco 
+ONE 
+WAN 
+and Instrumentation 
+Dynamic Service Level Provisioning,  
+Applications Integration 
+Network Programmability  
+and Automation – LAN, WAN, 
+Dynamic Fabric and 
+Foundations and Innovation Drives  Architectures 19
+Converged Access 
+Why it matters: 
+• Performance – provides the ability to handle 802.11ac 
+• Scale – the more switches in place, the more powerful the wireless network 
+• Investment protection 
+Cisco Differentiation: 
+• Performance – UADP ASIC drives 40G of WLAN per switch/stack. Provides linear 
+ scalability as networks are built out.  
+• Custom ASIC – UADP provides extensive capabilities – CAPWAP tunnel termination, 
+ OpenFlow support, wired capabilities for WLAN, WLAN features for wired. Cisco 
+ silicon control provides control over long term feature development and 
+ compatibilities.  
+• Investment protection. Built for the demand of future multi-gig wireless traffic. Includes  
+ Cisco IOS richness in QOS, traffic visibility and control (AVC), and security 
+ awareness.  
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 12 
+20
+Wireless 
+Why it matters: 
+• Wireless is the network edge - no wired port to fall back on 
+• Must be as reliable as the wired network 
+Cisco Differentiation: 
+• Cisco designed APs. High end processor & memory. 
+• CleanAir– ability to detect and mitigate 
+•  ClientLink and MRC 
+• 802.11ac 
+• The WiFi Alliance uses Cisco as the standard for all others to test and validate against 
+• Shipping ac AP 
+• Device onboarding with secure access & policy enforcement –10x device recognition 
+• Rich guest access portal – self registration and secure login sponsorship 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 13 
+21
+Voice 
+Why it matters: 
+• Collaboration rich solution aligns with shift in teaching from sage on stage to dynamic teaching 
+and learning 
+• Tools available to students that are widely used in businesses around the globe 
+Cisco Differentiation: 
+• Video rich solution 
+• Industry Leader 
+• Jabber UC apps on any device, any platform – IM, softphone, video, mobile, presence 
+• Open standards 
+• Emergency responder for safety and security 
+• Informacast capability 
+• Case study video equipment seed 
+• Cisco on Cisco benefits – AutoQoS, AutoVLAN, Energywise, Mediatrace 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 14 
+22
+Lot’s of Communication Options….. 
+Extension Mobility 
+Desk Phone 
+PC / Mac 
+Personal TelePresence 
+School 
+1 License 
+Office Phone 
+Tablet 
+PC / Mac 
+Smart Phone 
+23
+Mobile 
+Home 
+Power of ONE 
+Why it matters: 
+• Operational efficiency  
+• Investment protection 
+• Trust 
+• Expertise 
+Cisco Differentiation: 
+• One converged network 
+• One policy engine and enforcement 
+• One management platform 
+• ONE network controller 
+• One team of resources 
+• One phone number to call 
+• #1 in market share on UC, LAN, Wireless 
+• #1 partner community – strong expertise, strong resources and 
+scale 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 16 
+24
+Comprehensive support
+Reduced Complexity - Reduced Risk - 
+Reduced Cost 
+Policy 
+Support Contact 
+Mobile Device 
+Cisco TAC (800)553-2447 
+Management 
+Servers 
+© 2010 Cisco and/or its affiliates. All rights reserved. Cisco Public 17 
+25
+IP Phones 
+UC Gateways 
+Video Endpoints 
+Call Control Network 
+Wireless 
+Management 
+Medianet 
+Cisco Public 18 © 2010 Cisco and/or its affiliates. All rights reserved. 
+26
+Contract No.: MHEC-090101 
+1 
+MHEC/Enterasys Master Price Agreement Effective January 1, 2009 through October 31, 2011  Enterasys Networks Inc., (Enterasys) located at 50 Minuteman Road, Andover, MA 01810, and the Midwestern Higher Education Commission (MHEC or the Compact) located at 1300 South Second Street, Suite 130, Minneapolis, Minnesota, 55454 on behalf of the Eligible Organizations located in the MHEC member states enter into this MHEC/Enterasys Master Price Agreement (Master Agreement), subject to the terms and conditions herein, effective this First day of January, 2009 (Effective Date).  For purposes of this Master Agreement Enterasys and MHEC are referred to collectively as the Parties or individually as Party.  1. Definitions Authorized Reseller: refers to an Enterasys partner under contractual agreement with Enterasys to distribute Enterasys products and services.  Documentation: refers to documentation relating to any Equipment or Software. Eligible Organizations: This Master Agreement shall be made available to all Eligible Organizations. Eligible Organizations shall include: • all not-for-profit private and public institutions and/or systems of higher education (colleges, universities, community colleges, technical institutions and equivalent institutions) located in a Member State; • all K-12 schools and school districts located in a Member State; Equipment: refers to Enterasys’s full line of new or refurbished Hardware made available for sale by Enterasys to Eligible Organizations under this Master Agreement. Firmware embedded or otherwise incorporated in the Equipment shall not be deemed for sale to Eligible Organizations, but shall be deemed subject to licensing.  Large Order Negotiated Prices: refers to the price offered to specific Eligible Organizations under defined additional terms and conditions. Selection and pricing of large order negotiated prices shall be by mutual agreement of the Eligible Organization and Enterasys. Large Order Negotiated Prices shall apply only to those items that meet the applicable additional terms and conditions negotiated by Enterasys and the Eligible Organization. Member State: refers to any state that is a member, or an affiliate member, of the Midwestern Higher Education Compact. The current Member States are Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota and Wisconsin. MHEC shall promptly notify Enterasys if any other states join the Compact and thereby become a Member State for purposes of this Master Agreement. Order: refers to an Eligible Organization’s purchase order or other ordering document evidencing its intent to procure Products or Services from Enterasys under the terms and conditions of this Master Agreement.  Price Agreement: refers to an indefinite quantity contract, which allows Enterasys to furnish Products or Services to a Procuring Eligible Organization that issues a valid  Order document. Procuring Eligible Organization: refers to an Eligible Organization who desires to purchase under this Master Agreement and has executed an Order. 
+27
+ 
+ 2 
+Products: refers to the full product line of Equipment, Software and Documentation that Enterasys makes available. Price List: refers to the complete list of Products and Services and the corresponding prices for those Products and Services  made available for purchase by Eligible Organizations under this Master Agreement. The Price List contains an item number, item description and the maximum price for each Product or Service. The Price  List is set forth as Exhibit A and may be modified from time to time pursuant to the terms and conditions of this Master Agreement. Promotion Prices: refers to prices that are offered nationally or regionally to a specific category of customers intended to include Eligible Organizations for defined time periods under defined terms and conditions. Services: refers to the services offered by Enterasys under this Master Agreement, including pre-sales Assessment, Installation and Implementation Assistance, Technical Support and Training. Software: refers to Enterasys’ full offerings of software (including third-party software) made available for licensing by Enterasys to Procuring Eligible Organizations under this Master Agreement.  Software shall include updates, upgrades, maintenance releases, revisions and enhancements to the licensed software.  Software does not include source code with the exception of Open Source software or code designed to be included or compiled.   2. Scope of Work Procuring Eligible Organizations shall purchase from Enterasys, and Enterasys shall distribute to Procuring Eligible Organizations Products and Services in accordance with the terms of this Master Agreement. All Eligible Organizations are qualified to purchase under this Master Agreement, including those Eligible Organizations currently under a separate agreement with Enterasys.  This Master Agreement is a Price Agreement. Accordingly, Enterasys shall provide Products or Services only upon the issuance and acceptance of a valid Order. Orders may be issued to purchase any Products  or Services listed on the Price List. A Procuring Eligible Organization may purchase any quantity of Products or Services listed in Enterasys’s Price List at the prices stated therein. For Large Order Negotiated Prices, Enterasys and Eligible Organization may negotiate quantity discounts below the Price List price(s) for a given purchase order. As it sees fit, Enterasys may offer under this Master Agreement Promotional Price discounts that result in prices below those listed in the Price List. MHEC shall not be liable for any Eligible Organization that executes an Order under this Master Agreement.  An Eligible Organization shall not be responsible for any other Eligible Organization that executes its own Order under this Master Agreement.  3. Member States and Eligible Organizations  Eligible Organizations located in a Member State that terminates its association with the Compact will no longer be eligible under this Master Agreement to purchase pursuant to this Master Agreement. Termination by any Member State shall not prohibit or restrict 
+28
+ 
+ 3 
+Enterasys from negotiating or contracting with such Member State or entity within such Member State outside the Compact. MHEC shall promptly notify Enterasys in writing of the termination of any Member States’ membership in the Compact. If any Member State so terminates its membership in the Compact, such termination shall not affect the validity or enforceability of or constitute a default under any Order then in effect with any Procuring Eligible Organization. Similarly, MHEC shall promptly notify Enterasys if other states join the Compact, after which such states shall be deemed to be Member States for purposes of this Master Agreement.  4. Authorized Resellers Enterasys will utilize Authorized Resellers to supply the Products and Services under this Master Agreement.  Eligible Organizations will place Orders with, and make payments directly to, Authorized Resellers. A list of Authorized Resellers that will service each Member State will be published on the website dedicated to this Agreement and may be revised at the discretion of Enterasys from time to time.  5. Purchasing Under Master Agreement A.  Products: Procuring Eligible Organization shall purchase the Products listed on the Price List under the terms and conditions of this Master Agreement by delivering to an Authorized Reseller an Order.  The Order should include: (i) Procuring Eligible Organization by name and address; (ii) the quantity, and description of the Product that Procuring Eligible Organization desires to purchase or license; (iii) the price of the Product in accordance with this Master Agreement; (iv) the “bill-to” address; (v) the “ship-to” address; (vi) the requested delivery dates and shipping instructions; (vii) a contact name and telephone number; and (viii) reference to this Master Agreement by name and contract number.   B.  Services: Procuring Eligible Organization shall purchase Services under the terms and conditions of this Master Agreement by delivering to an Authorized Reseller  an Order.  The Order should include: (i) Procuring Eligible Organization by name and address; (ii) the description of the Service (s) that Procuring Eligible Organization desires Enterasys to perform; (iii) the price of the Service in accordance with this Master Agreement; (iv) the “bill-to” address; (v) the requested performance dates; (vi) a contact name and telephone number; and (vii) reference to this Master Agreement by name and contract number.  C.  Each Order that is accepted by Enterasys will become a part of the Master Agreement  as to the Products and/or Services listed on the Order only; no additional terms or conditions will be added to this Master Agreement  as a result of the acceptance of the Order.  Any additional or different terms and conditions attached or otherwise purported to apply to such Orders are expressly rejected.  An Order from an Eligible Organization accepted by Enterasys constitutes a binding contract.  D. All Products furnished will be subject to acceptance by Procuring Eligible Organization after delivery. No substitutions or cancellations are permitted without approval of the Procuring Eligible Organization. Nothing in this section precludes any agreements for the use of electronic purchase orders. 
+29
+ 
+ 4 
+E. Procuring Eligible Organization may request in writing changes to an Order (“Change Request”) that Enterasys has previously accepted.  In response to a Change Request, written quotations will be provided to Procuring Eligible Organization, including any changes to prices, license fees, shipment or completion dates.  A Change Request is a separate Order subject to acceptance by the Authorized Reseller and the terms and conditions of this Master Agreement and Enterasys’s change order process.   F.  Enterasys will accept a purchasing card for order placement in addition to accepting a purchase order. 6. Quantity Guarantee This Master Agreement is not a purchase order, nor does it guarantee any purchases to be made by any Eligible Organization. This Master Agreement is not an exclusive agreement. MHEC and Eligible Organizations may obtain voice and data network products and services from other sources during the term of the Master Agreement. 7. Master Agreement Term This Master Agreement will be formed upon execution by the Parties, and shall remain in effect, unless otherwise terminated pursuant to the terms of the Master Agreement, for a period of three (3) years from the Effective Date. The Master Agreement may be mutually renewed for four (4) additional one-year terms unless terminated pursuant to the terms of this agreement. 8. Order of Precedence Where the terms and conditions of this Master Agreement are in conflict with an Eligible Organization’s state and/or institutional laws or regulations, the Eligible Organization and Enterasys may enter into an addendum to amend the terms and conditions of the Master Agreement to conform to the Eligible Organization’s state and/or institutional laws or regulations. Likewise, a Procuring Eligible Organization and Enterasys may enter into an addendum to supplement or modify this Agreement for specific Products or Services.  The terms and conditions of the addendum shall only be applicable between the Eligible Organization that entered into the addendum and Enterasys. In the event of any conflict among these documents, the following order of precedence shall apply: A. executed addendum between Eligible Organization and Enterasys B. the terms and conditions of this Master Agreement C. exhibits to this Master Agreement D. the list of Products and Services contained in the Order 9. Payment Provisions A.  Acceptance. (1) Products: Unless otherwise agreed upon by Procuring Eligible Organization and Enterasys, within ten (10) business days from the date of delivery, the Procuring Eligible Organization shall accept or reject the Products for which installation by Enterasys is not needed. For Products for which installation by Enterasys is required, and unless otherwise agreed upon by Procuring Eligible Organization and Enterasys, the Procuring Eligible Organization shall accept or reject the Products within ten (10) business days of Enterasys’s completion of installation 
+30
+ 
+ 5 
+and verification tests, and issuance to Procuring Eligible Organization of an installation verification certificate. Enterasys shall accept return of all Products for up to ten (10) business days from date of delivery or installation when Enterasys is performing the installation with Eligible Organization paying only the return shipping. Products shall be invoiced upon delivery or installation when Enterasys is performing the installation. (2) Services: Unless otherwise agreed to by Procuring Eligible Organization and Enterasys, within ten (10) business days from completion of Services, Procuring Eligible Organization shall accept or reject the Services. Services shall be invoiced upon completion unless otherwise specified on the Order.  B. Payment of Invoice. Invoices shall be submitted to the Procuring Eligible Organization. Payments shall be remitted to the address shown on the invoice. Payment shall be tendered within thirty (30) days of the date of the invoice. After the thirtieth (30) day from the date of the invoice, unless mutually agreed to, interest shall be paid on the unpaid balance at the rate of one and one-half percent (1½) per month. The Procuring Eligible Organization shall make a good faith effort to pay within thirty (30) days after the date of the invoice. C. Dispute Notice. Procuring Eligible Organization shall give notice  of any billing discrepancies or disputes about an invoice within ten (10) days after receiving it, specifying with particularity the basis of any such dispute (“Dispute Notice”).  Tender of a Dispute Notice does not relieve Procuring Eligible Organization of its obligations to pay the undisputed portion of any invoice subject to a Dispute Notice.  Any amounts that were the subject of a Dispute Notice and are subsequently resolved unfavorably to Eligible Organization will be subject to interest charges accruing from the original due date. D. Partial Shipment. In the event an order is shipped incomplete (partial), the Procuring Eligible Organization must pay for each shipment as invoiced unless the Procuring Eligible Organization has clearly specified “No Partial Shipment” on each purchase order. E. Payment of Taxes. The prices listed under this Master Agreement do not include, and Procuring Eligible Organization shall be responsible for, any and all taxes and/or duties assessed in connection with the sale of Equipment, licensing of Software, or performance of Services except for taxes imposed upon Enterasys’s net income.  Unless the Procuring Eligible Organization provides a proof of tax exemption, taxes will be additive to the contracted price. 10. Shipping Enterasys shall ship the Products F.O.B. destination. Title to Products shall pass to Procuring Eligible Organization upon acceptance. Risk of loss or damage to the Products shall pass to Procuring Eligible Organization upon delivery to the Procuring Eligible Organization. Enterasys shall bear the risk of loss for returned Products upon due notification of election to return except for loss or damage directly attributable to the negligence of the Eligible Participant. 11. Product Delivery Unless otherwise agreed to by Procuring Eligible Organization and Enterasys, Enterasys agrees to deliver products to Procuring Eligible Organization within thirty (30) days after 
+31
+ 
+ 6 
+receipt of an accepted Order. If delivery can not be made within thirty (30) calendar days, Enterasys will notify Procuring Eligible Organization within ten (10) business days following receipt of Order of  a proposed delivery date, which shall be subject to approval  by the Procuring Eligible Organization.  Should Procuring Eligible Organization not approve the proposed new delivery date, its sole remedy shall be the cancelation of the order by written, electronic or facsimile notification. 12. Price Guarantees The Procuring Eligible Organization shall pay the lower of the prices contained in the Price  List or an Announced Promotion Price or Large Order Negotiated Price. 13. Price  List Enterasys agrees to maintain the Price  List in accordance with the following provisions: A. The Price  List prices for all Products and Services  will conform to the Price List provided to MHEC and set forth as Exhibit A but may vary in format. Except as set forth in Section 12, “Price Guarantees”, the discount percentage set forth in the Price List shall not decrease during the initial twelve (12) months of the Master Agreement. Thereafter, prices are subject to change with thirty (30) days prior written notice to MHEC. The year-over-year price increase on the Price  List, if any, will not exceed the year-over-year percentage increase as reflected in Enterasys’s published academic price list. B. Should the list price of a Product or a Service on Enterasys’s academic price list price decrease at any time during this Master Agreement, Enterasys agrees to a similar price reduction on this Master Agreement’s Price  List for the same Product or Service, prior to the Administrative Fee set forth in Section 37of this Master Agreement. C. For all Products on the Price List, any price reductions that occur from the time of submission of an Order by Procuring Eligible Organization to Product delivery must be passed on to the Procuring Eligible Organization that issued the Order. D. Enterasys shall add new Product(s) or Services to the Price List when such Products or Services become available for sale or licensing by Enterasys. The pricing for all new Products and Services shall incorporate, to the extent possible, similar or comparable price discount levels provided herein, as agreed by the Parties. E. Enterasys will delete obsolete and discontinued Products and Services  from the Price  List on a timely basis. F. The Price  List shall be maintained by Enterasys on an Internet web site. Notification of specific changes to this list shall be provided to MHEC within thirty (30) days of modification. Failure to comply with the requirements in this Section 13,Price  List, will be grounds for action to be taken against Enterasys, including termination.  14. License A. Procuring Eligible Organization shall use all licensed Products in accordance with this Section.  Upon delivery of any licensed Products and subject to Procuring Eligible Organization’s payment of the applicable fees for such licensed Products and compliance with the other terms and conditions of this 
+32
+ 
+ 7 
+Master Agreement, Enterasys grants to Procuring Eligible Organization, and Procuring Eligible Organization accepts, a nonexclusive, nontransferable license to use portions of the licensed Products  for which activation has been authorized by Enterasys, solely on or with a single unit or arrangement of Equipment for which the licensed Product was delivered, for Procuring Eligible Organization’s internal use. B. Procuring Eligible Organization acknowledges and agrees that: (i) Enterasys may have encoded within the licensed Products optional functionality, features and/or capacity, which may be accessed only through the purchase of the applicable license extensions from Enterasys at additional cost; and (ii) Procuring Eligible Organization may need to obtain a new or additional application key from Enterasys to use such licensed Products. C. This Master Agreement applies to all updates, upgrades, maintenance releases, revisions and enhancements for the licensed Products which Enterasys may supply to Procuring Eligible Organization from time to time.   D. Procuring Eligible Organization may make one copy of any licensed Products  for backup and archival purposes if the copy contains all of the Enterasys proprietary notices contained in the original licensed Products.  Subject to applicable law, all copies of all licensed Products  are deemed Enterasys’ Confidential Information.  All rights, title and interest in and to the licensed Products, including all intellectual property rights, remain vested in Enterasys, its suppliers or licensors, and Procuring Eligible Organization is granted only a limited license to use the licensed Products in conjunction with the Equipment, as set out in this Section. E. Procuring Eligible Organization shall not directly or indirectly (i) modify, copy, transmit, alter, merge, decompile, disassemble, reverse engineer or adapt any portion of the  licensed Products; (ii) encumber, time-share, rent or lease the rights granted herein; (iii) manufacture, adapt, create derivative works of, localize, port or otherwise modify any licensed Products; (iv) disclose or otherwise make available the licensed Products to any third party (other than employees or contractors of Procuring Eligible Organization); or (v) enable any licensed Products  features or capacity which Enterasys licenses as separate products, without Enterasys’s prior written consent. F. At Enterasys’s request and upon reasonable prior written notice, Enterasys may inspect and audit Procuring Eligible Organization’s compliance with this Section during normal business hours.  Procuring Eligible Organization shall cooperate with the audit and shall grant assistance and access to applicable records, materials, personnel, and Equipment.  In addition, Procuring Eligible Organization shall provide remote access to its systems to Enterasys to enable Enterasys to electronically audit Procuring Eligible Organization’s compliance with this Section.  If an audit reveals that Procuring Eligible Organization possesses or at any time possessed unlicensed copies of any licensed Products, or used any licensed Products beyond the licensed features or capacity restrictions or beyond the terns stated herein, then Procuring Eligible Organization shall pay Enterasys the applicable license fees (plus interest) and the reasonable costs incurred in the audit. 
+33
+ 
+ 8 
+G. If the terms set forth in this Section differ from the terms of any license agreement packaged or otherwise provided with the licensed Products (“Additional License”) the terms of the Additional License govern to the extent that the terms of the Additional License are inconsistent with those in this Section.  Enterasys’s licensors are third party beneficiaries with respect to their licensed products.   H. If Procuring Eligible Organization’s license is canceled or terminated, or when Procuring Eligible Organization no longer uses the Licensed Products, Procuring Eligible Organization shall return or destroy the Licensed Products  and all copies and certify to Enterasys that it has done so.   15. Warranties A. Equipment: Enterasys warrants that the Equipment shall be free from defects in material and workmanship under normal use and that the Equipment shall remain in good working order for a period of 12 months from the date of acceptance by Procuring Eligible Organization as determined by Section 9A, of this Master Agreement. If any Equipment is not as warranted in this section, then (a) Procuring Eligible Organization shall obtain from Enterasys a return authorization number, and return the Equipment at Enterasys’s expense, together with the authorization number and a detailed description of the problem, to Enterasys’s designated repair facility; and (b) Enterasys shall repair or replace the Equipment and return it at Enterasys’s expense to Procuring Eligible Organization’s destination point.  Enterasys shall assume the risk of loss or damage to any Equipment returned to Enterasys for repair or replacement from receipt thereof until delivery to Procuring Eligible Organization’s destination point. If Enterasys ascertains that Equipment is not readily returnable for repair, then at its option, Enterasys may elect to repair or replace the Equipment at Procuring Eligible Organization’s site.  In such instances, Procuring Eligible Organization, at its expense, shall make the Equipment accessible for repair or replacement and shall be responsible for restoring the site after Enterasys has completed its repair or replacement. In repairing or replacing any Equipment or part of any Equipment under this warranty, Enterasys may use new, remanufactured, reconditioned, refurbished, or functionally equivalent Equipment or parts of Equipment.  For any Equipment or parts thereof repaired, replaced or corrected under this Section, the warranty period applicable to the Equipment will continue for the longer of (i) the remainder of the original warranty period or (ii) ninety (90) days after the date of shipment of the repaired or replaced Equipment.  If, Enterasys determines that it cannot, in a commercially reasonable manner repair or replace any Equipment, then Enterasys may, in its sole discretion, refund to Procuring Eligible Organization the price of the Equipment, less a reasonable adjustment for beneficial use. B. Software: Enterasys warrants that the media, if any, on which the Software is delivered will be free of defects and that the Software will substantially conform to the descriptions contained in the applicable user documentation with respect to the particular Software purchased by Procuring Eligible Organization for a period of 
+34
+ 
+ 9 
+ninety (90) days after acceptance of the Software by Procuring Eligible Organization as determined by Section 9A of this Master Agreement.  If the media is defective and the Software is still commercially available, Enterasys shall repair or replace the defective media.  If the Software does not substantially conform to the description contained in the applicable user documentation, Enterasys, at its option, shall correct the defects in the Software or refund to Procuring Eligible Organization the purchase amount paid to Enterasys for the defective Software, less a reasonable adjustment for beneficial use.  In repairing or replacing any Software medium under this warranty, Enterasys may use new, remanufactured, reconditioned, refurbished, or functionally equivalent Software medium.  The warranty period for the corrected Software via fixes and/or patches will be the remaining period of the original warranty period.  The Software warranty shall include free firmware and software updates for all Software purchased by Procuring Eligible Organization under this Master Agreement.   C. Services: Enterasys represents and warrants that the Services provided under this Master Agreement will be performed in a skillful, competent, timely, professional and workmanlike manner, and that the Enterasys employees, agents, and contractors assigned to perform Services under this Master Agreement have the proper skill, training and background so as to be able to perform in a skillful, competent, timely, professional and workmanlike manner.  The warranty period for Services is thirty (30) days from the date of acceptance by Procuring Eligible Organization as determined by Section 9A of this Master Agreement. If Enterasys determines that it cannot, in a commercially reasonable manner correct any Services, then Enterasys may, in its sole discretion, refund to Procuring Eligible Organization the price of the Services less a reasonable adjustment for beneficial use.   16. Termination A. At any time MHEC may terminate this Master Agreement, in whole or in part, by giving Enterasys ninety (90) days written notice; provided however, neither MHEC nor Eligible Organization has the right to terminate a specific Order for convenience after it has been issued. At any time, Enterasys may terminate this Master Agreement, in whole or in part, by giving MHEC ninety (90) days written notice. Such termination shall not relieve Enterasys of any warranty or other service obligations incurred under the terms of this Master Agreement. B. Either Party may terminate this Master Agreement for cause based upon material breach of the Master Agreement by the other party, provided that the non-breaching party shall give the breaching party written notice specifying the breach and shall afford the breaching party a reasonable opportunity to correct the breach. If within thirty (30) days after receipt of a written notice the breaching party has not corrected the breach or, in the case of a breach that cannot be corrected in thirty (30) days, begun and proceeded in good faith to correct the breach, the non-breaching party may declare the breaching party in default and terminate the agreement effective immediately. The non-breaching party shall retain any and all remedies available to it under the law. C. In the event that either Party be adjudged insolvent or bankrupt by a court of competent jurisdiction, or upon the institution of any proceedings by or against it 
+35
+ 
+ 10 
+seeking relief, reorganization or arrangement under any laws relating to insolvency, or upon any assignment for the benefit of creditors, or upon the appointment of a receiver or trustee of any of its property or assets, or upon the liquidation, dissolution or winding up of its business, then and in any such event this Master Agreement may immediately be terminated or cancelled by the other Party hereto. D. In the event this Master Agreement expires or is terminated for any reason, a Procuring Eligible Organization shall retain its rights in all Product and Services accepted prior to the effective termination date or ordered before the effective termination date and ultimately accepted. 17. Non‐Appropriation This provision applies only to government and government educational customers. The terms of this Master Agreement and any Order issued for multiple years under this Master Agreement is contingent upon sufficient appropriations being made by the legislature or other appropriate governing entity. Notwithstanding any language to the contrary in this Master Agreement or in any purchase order or other document, Procuring Eligible Organization may terminate its obligations under this Master Agreement if sufficient appropriations are not made by the governing entity to pay amounts due for multiple year agreements. The Procuring Eligible Organization’s decision as to whether sufficient appropriations are available shall be accepted by Enterasys and shall be final and binding. A Procuring Eligible Organization shall provide sixty (60) days notice, if possible, of its intent to terminate this contract for non-appropriation. The Procuring Eligible Organization shall send to Enterasys a notice of its Governing Body’s decision not to appropriate funds for the installment sale payments for the subsequent fiscal year. The notice shall also include a statement that the Procuring Eligible Organization was unsuccessful in finding another assignee within its own organization to continue the installment sale payments and that the Product or Service will not be replaced by a similar product during the ensuing fiscal year. Such termination shall relieve the Procuring Eligible Organization, its officers and employees from any responsibility or liability for the payment of any future Orders. However, all outstanding invoices issued pursuant to the  terms of this Master Agreement  will be paid by the Procuring Eligible Organization. 18. Records and Audit Enterasys agrees to maintain detailed records pertaining to the price of Services rendered and Products delivered for a period of six (6) years from the date of acceptance of each Order. These records shall be subject to inspection by Procuring Eligible Organization and appropriate governmental authorities with Procuring Eligible Organization’s state. The Procuring Eligible Organization shall have the right to audit billings either before or after payment. Payment under this Master Agreement shall not foreclose the right of the Procuring Eligible Organization to recover excessive or illegal payments. 19. Independent Contractor Enterasys and its agents and employees are independent contractors and are not employees of MHEC or any Eligible Organization. Enterasys has no authorization, 
+36
+ 
+ 11 
+express or implied to bind MHEC or any Eligible Organization to any agreements, settlements, liability or understanding whatsoever, and agrees not to perform any acts as agent of MHEC or any Eligible Organization, except as expressly set forth herein. Nothing in this Master Agreement is intended, or shall be deemed, or construed to constitute a partnership or a joint venture between the parties. 20. Patent, Copyright, Trademark and Trade Secret Indemnification Enterasys will indemnify, defend and hold MHEC and Eligible Organization harmless from a claim that any Service or Product provided to Eligible Organization pursuant to this Master Agreement infringes on another person’s or entity’s patent, copyright, trade secret or any other proprietary right of a third party. Such indemnification is subject to Eligible Organizations providing Enterasys with prompt notice of such claim, subject to any legally required approval, including approval of a state’s attorney general, or consistent with applicable law allowing Enterasys sole control of the defense of such claim, and providing Enterasys all information and cooperation reasonably requested by Enterasys in relation to such defense. Enterasys will have no obligation under this section with respect to any claim of infringement resulting from (a) Services performed, or Product provided, pursuant to Eligible Organization’s specification or design; (b) an Eligible Organization’s unauthorized modification of a Product; (c) any combination, operation, or use of the Product with systems other than those provided by Enterasys to the extent that such a claim is caused by such modification, combination, operation, or use of the Product; (d) the use of other than Enterasys’ latest version of the Software or firmware associated with the Equipment, as appropriate, if such infringement could have been avoided by the use of the latest version made available to the Eligible Organization; or (e) use of the Products  in a manner or for a purpose  inconsistent with published specifications.  Following notice of a claim or a threat of actual suit, Enterasys will, at its own expense and option, either (1)  procure for the Eligible Organization the right to continue using the Products; (2) provide a comparable replacement at no cost; (3) modify the infringing Product so that it becomes non-infringing, or (4) in the case of a Product accept return of the Product, freight collect, and provide a reasonable depreciated refund and in the case of a Service, provide a refund less a reasonable adjustment for beneficial use.  21. Indemnification Enterasys will indemnify, protect, save and hold harmless MHEC and Eligible Organizations, as well as the representatives, agents and employees of MHEC and Eligible Organizations, from any and all claims or causes of action related to a claim of personal injury or damage to property incurred by MHEC and/or Eligible Organizations, arising from the performance of the Master Agreement by Enterasys, Enterasys’s agents, subcontractors, or employees to the extent the same arise from or relate to the acts or omissions of Enterasys in its performance or duties. MHEC and/or Eligible Organization shall give Enterasys written notice, by registered mail, promptly after it becomes aware of any claim to be indemnified hereunder, and, subject to any legally required approval, including approval of state’s attorney general, or consistent with applicable law permits Enterasys to control the defense of any such claim or action at Enterasys’s own expense. MHEC and/or Eligible Organization agree that Enterasys may employ attorneys of its own choice to appear and defend the claim or action and that MHEC and/or Eligible 
+37
+ 
+ 12 
+Organization shall do nothing to compromise the defense of such claim or action or any settlement thereof and shall provide Enterasys with all reasonable assistance that Enterasys may require. 22. Limitation of Liability Neither Enterasys nor its directors, officers, employees, agents or affiliates shall be liable to MHEC or any individual Eligible Organization or Member State for any direct damages in excess of $500,000 or the amounts paid hereunder.. The foregoing limitation does not apply to any indemnification obligations pursuant to Sections 20 and 21 hereof or to damages resulting from personal injury or property damage caused by Enterasys’s negligence or willful misconduct.  Notwithstanding the indemnification provisions contained herein, neither Enterasys, MHEC nor any Eligible Organization shall be liable for any special, indirect, incidental, consequential or punitive damages,  loss of data, lost profits or attorneys’ fees arising out of or relating to this Master Agreement, whether the claim alleges tortuous conduct (including negligence) or any other legal theory. 23. Confidentiality A. While Enterasys is providing Services hereunder, Eligible Organization or Enterasys may disclose to the other certain non-public business information identified as confidential (“Confidential Information”).  All such information shall be marked or otherwise designated as “Confidential” or “Proprietary”.  In order for such information to be considered Confidential Information pursuant to this Section 23 of the Master Agreement, it must conform to the data practices laws or similar type laws of the State in which the Eligible Organization is located or was founded.  Confidential Information which is disclosed orally to the other party shall not be treated as Confidential Information unless it is stated at the time of such oral disclosure that such information is Confidential Information and such information is reduced to writing and confirmed as Confidential Information to the recipient within ten (10) days after oral disclosure.  Both Eligible Organization and Enterasys agree that, with respect to Confidential Information it receives (as “Recipient”) from the other (as a “Discloser”) in connection with this Master Agreement or an Order pursuant to this Master Agreement, that it (i) will use such Confidential Information solely for the purposes contemplated by the Master Agreement or an Order placed under this Master Agreement; (ii) may only share Confidential Information with its employees, agents and other representatives on an as-needed basis and will advise those parties who receive the Confidential Information of their obligations under this Master Agreement and assume full responsibility for any breach by them of such obligations; and (iii)  will use the same standard of care to protect the other Party’s Confidential Information as it uses to protect its own.   B. Neither  party is permitted to disclose the other party's Confidential Information to any third party, except as may be required by law, provided that the Recipient notifies the Discloser of such required disclosure promptly in writing and cooperates with the Discloser, at the Discloser’s reasonable request and expense, in any lawful action to contest or limit the scope of such required disclosure, or is expressly authorized in writing by the Discloser, unless such Confidential Information: (i) was in the public domain prior to, at the time of, or subsequent to the date of disclosure through no 
+38
+ 
+ 13 
+fault of the Recipient; (ii) can be documented as previously known by the Recipient prior to disclosure; (iii) was disclosed to the Recipient by a third party who had the right to make such disclosure without any confidentiality restrictions; or (iv) was developed by the Recipient’s employees or agents independently of and without reference to or reliance on the Discloser’s Confidential Information. Confidential Information shall remain the property of and be returned to the Disclosure (along with all copies or other embodiments thereof) within fifteen (15) days of (a) the termination or completion of an Order under this Master Agreement, or (b) the earlier receipt by the Recipient from the Discloser of a written demand following a breach by Eligible Participant or Enterasys of this Master Agreement or an Order under this Master Agreement directing that Confidential Information described generally or specifically in such demand be returned to the Discloser. C. Each Party agrees not to (a) reproduce or copy the other party’s Confidential Information except as reasonably required to accomplish the purpose of this Master Agreement or any subsequent Order; (b) remove any proprietary rights legend from any tangible material that discloses or embodies Confidential Information; or (c) reverse engineer, disassemble or decompile any prototypes, software or other tangible products that may embody any of the other party’s Confidential Information. D. Notwithstanding anything to the contrary in this Agreement or amendment to this Master Agreement, both Eligible Participant and Enterasys agree to comply with the data practices or similar type laws of the State in which Eligible Participant is located or founded. Confidential Information disclosed under this Agreement will be subject to the terms of this Section 23 for three (3) years following the date of disclosure, regardless of termination.  24. FERPA (and Other Privacy Laws) Where applicable Enterasys agrees to comply with the Family Education Rights and Privacy Act (FERPA), the Health Insurance Portability and Accountability Act (HIPPA), the Gramm-Leach Bliley Act (GLBA) and all other state and federal privacy laws; and agrees to implement and maintain safeguards to protect the security, confidentiality, and integrity of information it receives from Eligible Organization.  25. Amendments Except as provided for in Section 8, “Order of Precedence” and  Section 13, “Price List,” this Master Agreement shall only be amended by written instrument executed by the Parties. 26. Scope of Agreement This Master Agreement incorporates all of the agreements between MHEC and Enterasys  concerning the subject matter of this Master Agreement, and all prior agreements have been merged into this Master Agreement. No prior agreements, verbal or otherwise, between MHEC and Enterasys or their agents shall be valid or enforceable under this Master Agreement unless embodied in this Master Agreement. Nothing in this Master Agreement shall invalidate any separate agreement Enterasys may have with any Member State or Eligible Organization or preclude the execution of any future agreements.  
+39
+ 
+ 14 
+27. Invalid Term or Condition If any term or condition of this Master Agreement shall be held invalid or unenforceable, the remainder of this Master Agreement shall not be affected and shall be valid and enforceable. 28. Enforcement of Agreement A party’s failure to require strict performance of any provision of this Master Agreement shall not waive or diminish that party’s right thereafter to demand strict compliance with that or any other provision. No waiver by a party of any of its rights under this Master Agreement shall be effective unless express and in writing, and no effective waiver by a party of any of its rights shall be effective to waive any other rights. 29. Web Site Maintenance Enterasys agrees to maintain and support Internet website(s) for access to the Price List,  Product descriptions, Product specifications, Service descriptions, Service specifications and other aids in accordance with instructions provided by MHEC.   30. Equal Opportunity Compliance Enterasys agrees to abide by all applicable laws, regulations, and executive orders pertaining to equal employment opportunity, including federal laws and the laws of the state in which its primary place of business is located. In accordance with such laws, regulations, and executive orders, Enterasys agrees that no person in the United States shall, on the grounds of race, color, religion, national origin, sex, age, veteran status or handicap, be excluded from employment with or participation in, be denied the benefits of, or be otherwise subjected to discrimination under any program or activity performed by Enterasys under this Master Agreement. If Enterasys is found to be not in compliance with these requirements during the life of this Master Agreement, Enterasys agrees to take appropriate steps to correct these deficiencies. 31. Compliance with Law Enterasys shall comply with all applicable laws and governmental regulations, which by their terms, apply to Enterasys’s performance under an Order pursuant to this Master Agreement.  Eligible Organization agrees to comply with all applicable laws and governmental regulations in connection with this Master Agreement.  MHEC agrees to comply with all applicable laws and governmental regulations in connection with this Master Agreement. 32. Applicable Law A.  As between Eligible Organization and Enterasys, this Master Agreement will be construed in accordance with, and its performance governed by the laws of the state in which the Eligible Organization resides. Venue for all legal proceedings arising out of this Master Agreement, or breach thereof, shall be in a state or federal court with competent jurisdiction located in the state in which the Eligible Organization resides. 
+40
+ 
+ 15 
+B.  As between MHEC and Enterasys this Master Agreement will be construed in accordance and its performance governed by the laws of the state of Minnesota. Venue for all legal proceedings arising out of this Master Agreement, or breach thereof, shall be in a state or federal court with competent jurisdiction located in the State of Minnesota. C.  As between Eligible Organization, MHEC, and Enterasys this Master Agreement will be construed in accordance with and its performance governed by the laws of the state in which the Eligible Organization resides. Venue for all legal proceedings arising out of this Master Agreement, or breach thereof, shall be in a state or federal court with competent jurisdiction located in the state in which the Eligible Organization resides. 33. Conflict of Interest Enterasys warrants that to the best of its knowledge, it presently has no interest and shall not acquire any interest, direct or indirect, which would conflict in any manner or degree with the performance of services required under this Master Agreement. 34. Assignment Neither Party shall sell, transfer, assign or otherwise dispose of the Master Agreement or any portion thereof or of any right, title, or interest herein without the prior written consent of the other Party. This consent requirement does not include assignment of this Master Agreement due to change in ownership, merger, or acquisition of Enterasys  or its subsidiaries or affiliated corporations.  Nothing in this Section shall preclude Enterasys from employing a subcontractor in carrying out its obligations under this Master Agreement.  Enterasys’s use of such subcontractors will not release Enterasys from its obligations under this Master Agreement.  35. Survival Certain paragraphs of this Master Agreement including but not limited to Indemnification and Limitation of Liability shall survive the expiration of this Master Agreement. Product licenses, warranty and service agreements, and non-disclosure agreements that were entered into under terms and conditions of this Master Agreement shall survive this Master Agreement accordingly. 36. Notification A. Between the Parties: Whenever under the terms of this Master Agreement any notice is required or permitted to be given by one Party to the other, such notice shall be given in writing and shall be deemed to have been sufficiently given for all purposes hereof if given by facsimile or mail, postage prepaid, to the Parties at the addresses set forth below, or at such other address as the Parties may direct in writing from time to time: To MHEC: To Enterasys Networks: MHEC Enterasys Networks 1300 South Second Street 50 Minuteman Road Suite 130  Minneapolis, Minnesota 55454-1079 Andover MA 01810 Attn: Grant Crawford Attn: Legal Department 
+41
+ 
+ 16 
+Facsimile: 612-626-8290 Fax: 978-684-1420  B. To Eligible Organization: Notices shall be sent to Eligible Organization’s business address. The term “business address” shall mean the “Bill to” address set forth in an invoice submitted to Eligible Organization. 37. Administrative Reporting and Fees On a quarterly basis, Enterasys will, in a timely manner, make available to MHEC reports and information generated by this Master Agreement, including but not limited to state-by-state and institution-by-institution information on sales volume and volume savings. The information and reports shall be accompanied with a check payable to the Midwestern Higher Education Commission  for an amount equal to one-half (.5) percent of the net Product and Service sales for that quarter period (the “Fee”). MHEC from time to time may change the percentage of the Fee it will receive as a result of this Master Agreement. Such change shall be effective as of the quarter following receipt of notice of such change, and shall not be deemed retroactive for previous sales. At no time will the Fee exceed a total of two (2) percent of the net Product and Service sales.  Any change in the fee may also require a change in the Price  List.  38. MHEC Not Liable For Eligible Organizations MHEC is not liable to Enterasys for the failure of any Eligible Organization to make any payment or to otherwise fully perform pursuant to the terms and conditions of an Order and/or the Master Agreement. 39. Announcements and Publicity Any announcements and publicity given to MHEC (or an Eligible Organization) resulting from this Master Agreement must receive the prior approval of MHEC (or Eligible Organization). Enterasys will not make any representations of MHEC’s (or an Eligible Organization’s) opinion or position as to the quality of effectiveness of the products, supplies and/or services that are the subject of this Master Agreement without the prior written consent of MHEC (or Eligible Organization). 40. Marketing Enterasys will assist MHEC in developing and implementing appropriate marketing strategies including seminars, printed materials and a full service, on-line MHEC-specific web site to receive information and prices on Products, Services, , and Authorized Resellers.. 41. Oversight Committee An Oversight Committee comprised of representatives of Eligible Organizations shall be appointed by MHEC to assist and support MHEC and Enterasys in developing and refining the implementation of this Master Agreement. This shall include, but not be limited to, assistance with marketing strategies, representing the interests of Eligible Organizations in assuring quality and timely products and services; and to advise Enterasys on the effectiveness of its implementation progression. There will be an annual 
+42
+43
+ 
+ 18 
+Exhibit A –   • All MHEC participants are eligible for a Special Pricing Allowance (SPA) relative to their solution requirements.  However, a minimum base discount off a list price has been established as follows: • Switching Products – 38% off list • Routing Products – 38% off list • Wireless Products – 35% off list • Security Products – 38% off list • NAC Hardware – 35% off list • Software – 22% off list • Trusted Access Gateway (NAC & NSTAM) – 22% off list • Cables – 5% off list • SupportNet (Hardware) – 12% off list • SupportNet (Software) – 6% • MHEC Participants are eligible to take advantage of a special bundle on SupportNet product maintenance.  o 3 year SupportNet plan at the 2 year price o 5 year SupportNet plan at the 3 year price • MHEC Participants are eligible to take advantage of special bundle pricing for Enterasys Service Units (ESU). • 4 Pack bundle of ESUs for a price of a 20 pack of ESUs (Equates to a 20% discount) • Each ESU provides MHEC participants one of the following:  One day (8 hours) of professional services engagement  One open enrollment training session per unit  Customized training course delivered at MHEC member location
+44
+45
+     gov 
+MiCTA Technology Solutions Consortium 
+        Summary 
+ MiCTA Overview: 
+MiCTA represents thousands of governmental and charitable entities, higher 
+education, K-12, healthcare, and libraries.  Nationally, MiCTA seeks to resolve common 
+voice, video and data issues, provide helpful information, participate in legislative and 
+regulatory telecommunications advocacy, and negotiate discounted purchase 
+contracts for telecommunications and technology services for its members. For more 
+information, please visit the MiCTA Web site, http://www.mictatech.org. 
+. 
+ShoreTel Master Service Agreement Description: 
+National VOIP Telephony and Unified Communications Equipment MSA.  MiCTA 
+members may purchase ShoreTel telecommunications and technology-oriented 
+products and services at volume discounts using the MiCTA contract. Besides offering 
+significant cost savings, this approach also eliminates the need for members to 
+conduct their own competitive bidding processes. 
+Products :   
+ShoreTel Switches, Conference Bridges, Phones, Accessories, Training, Unified 
+Communications Software and Maintenance. 
+Contract Number and Expiration Date: 
+#120EN-TISA2010-0512 
+09/30/2012 with 3 one year extensions 
+ Order Process: 
+1) Current MiCTA member (or government entity enrolls and becomes a MiCTA member) 
+goes to MiCTA website and via secure login and password views ShoreTel MSA, Pricing 
+and Authorized Resellers (Partners). 
+2) MiCTA member chooses Authorized Reseller from list or contacts ShoreTel directly for 
+general information and local ShoreTel Partner.  MiCTA member requests quote. 
+3) Upon decision to procure ShoreTel products and services MiCTA member signs the 
+Member Participating Agreement and issues PO to ShoreTel Partner. 
+4) ShoreTel Partner fulfills order via QMS. 
+5) ShoreTel Partner provides copy of PO at end of calendar month order is placed for 
+MiCTA monthly reporting requirements. 
+ShoreTel Contacts:  
+Shane Harper     Michael Bork 
+Government Program Manager-West Region Government Program Manager-Central Region 
+ShoreTel Inc.     ShoreTel Inc. 
+408.331.3588     408.962.2735 
+sharper@shoretel.com    mbork@shoretel.com   
+46

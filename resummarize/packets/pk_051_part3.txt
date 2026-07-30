@@ -1,0 +1,1712 @@
+        149.99
+A1003    14000515   08/27/13 25978    ENVIRO CLEAN SERVIC 122207261800100  3193     NILES JULY 2013            0.00           627.60
+A1003    14000535   08/27/13 11191    LAKESHORE EQUIPMENT 122017122120000  5110     OPEN PO FOR 13−14 S        0.00           100.00
+A1003    14000558   08/27/13 11668    OAKLAND SCHOOLS     122885221326000  3220     SP ED NCI MATLS/ MA        0.00           438.91
+A1003    14000559   08/27/13 25017    OAKLAND U CTR FOR A 122875122231200  3710     SUMMER 2013 ESY SES        0.00         2,400.00
+A1003    14000572   08/27/13 11507    ROCHESTER AVON RECR 122875122231200  3710     SUMMER 2013−ESY FOR        0.00           700.00
+A1003    14000572   08/27/13 11507    ROCHESTER AVON RECR 122875122231200  3710     SUMMER 2013−ESY FOR        0.00           700.00
+TOTAL CHECK                                                                                                    0.00         1,400.00
+TOTAL CASH ACCOUNT                                                                                             0.00        45,383.97
+68
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   25
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL FUND                                                                                                     0.00        45,383.97
+69
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   26
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000227   08/06/13 20401    CARINA PAN          520010256091800  5992     LUNCH ACCT REF             0.00            90.25
+A1003    14000276   08/06/13 11513    MORAN GAYLE         520              A1031    1314 FD SVC ST UP P        0.00         4,100.00
+A1003    14000299   08/06/13 24816    TOTAL ARMORED CAR S 520950297621500  3190     JUNE SERVICE               0.00         1,442.52
+A1003    14000305   08/06/13 12457    YE OLDE FLOWER BARN 520950256009100  5640     FOOD SVC FLOWERS           0.00            50.00
+A1003    14000305   08/06/13 12457    YE OLDE FLOWER BARN 520950256009100  5640     FOOD SVC FLOWERS           0.00           110.00
+A1003    14000305   08/06/13 12457    YE OLDE FLOWER BARN 520950256009100  5640     FOOD SVC FLOWERS           0.00            50.00
+TOTAL CHECK                                                                                                    0.00           210.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           350.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           350.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           350.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           375.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           350.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           825.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           300.00
+A1003    14000349   08/13/13 10174    INDUSTRIAL STEAM CL 520902257813000  4120     ANNUAL INSPECTION A        0.00           275.00
+TOTAL CHECK                                                                                                    0.00         6,200.00
+A1003    14000494   08/27/13 20401    APRIL ELLIS         520013256091800  5992     LUNCH ACCT REF             0.00            32.30
+A1003    14000499   08/27/13 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PO 2013 − 2014        0.00            40.51
+A1003    14000499   08/27/13 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PO 2013 − 2014        0.00           247.33
+TOTAL CHECK                                                                                                    0.00           287.84
+A1003    14000545   08/27/13 20401    MARK WEIGAND        520070256091800  5992     LUNCH ACCT REF             0.00            65.90
+TOTAL CASH ACCOUNT                                                                                             0.00        12,428.81
+TOTAL FUND                                                                                                     0.00        12,428.81
+70
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   27
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 529 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000287   08/06/13 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00           209.06
+A1003    14000287   08/06/13 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00           109.46
+A1003    14000287   08/06/13 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00           458.95
+A1003    14000287   08/06/13 19853    ROBBINS INVESTMENTS 529202261660000  3890     OPEN PO FOR ELECTRI        0.00            69.28
+TOTAL CHECK                                                                                                    0.00           846.75
+A1003    14000309   08/13/13 23057    A C T INC           529202391660000  5110     OPEN PO FOR ACT WOR        0.00            18.00
+A1003    14000418   08/20/13 11163    AWECOMM TECHNOLOGIE 529202229660000  3190     YEARLY RENEWAL FEE         0.00           540.00
+A1003    14000487   08/27/13 13227    A T & T             529202229660000  3410     OPEN PO FOR TELEPHO        0.00           102.09
+A1003    14000488   08/27/13 13227    A T & T             529202229660000  3410     OPEN PO FOR T1 LINE        0.00           224.72
+A1003    14000489   08/27/13 13227    A T & T             529202229660000  3410     OPEN PO FOR T1 LINE        0.00           224.72
+A1003    14000571   08/27/13 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT − SUITE 400 @         0.00         9,583.00
+A1003    14000571   08/27/13 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT − SUITE 410 @         0.00         1,906.67
+A1003    14000571   08/27/13 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT FOR SUITE 300         0.00         3,175.00
+TOTAL CHECK                                                                                                    0.00        14,664.67
+TOTAL CASH ACCOUNT                                                                                             0.00        16,620.95
+TOTAL FUND                                                                                                     0.00        16,620.95
+71
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   28
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000201   08/06/13 21272    PREIST JANICE       530212351021200  3190     CARE COMPANY               0.00           125.00
+A1003    14000205   08/06/13 13227    A T & T             530201311030000  3410     24887975416862 NILE        0.00             2.23
+A1003    14000205   08/06/13 13227    A T & T             530211351030000  3410     24887975416862 NILE        0.00             1.56
+A1003    14000205   08/06/13 13227    A T & T             530213351030000  3410     24887975416862 NILE        0.00             1.56
+TOTAL CHECK                                                                                                    0.00             5.35
+A1003    14000212   08/06/13 13227    A T & T             530213351030000  3410     24882896977105NILES        0.00             4.26
+A1003    14000212   08/06/13 13227    A T & T             530211351030000  3410     24882896977105NILES        0.00             4.26
+A1003    14000212   08/06/13 13227    A T & T             530201311030000  3410     24882896977105NILES        0.00             6.11
+TOTAL CHECK                                                                                                    0.00            14.63
+A1003    14000233   08/06/13 10802    COOK’S FARM DAIRY I 530211351021100  3190     CARE COMPANY               0.00           690.00
+A1003    14000243   08/06/13 10628    EAGER DEREK         530201311020000  3190     LCRS ENRCHM 060913         0.00            90.00
+A1003    14000246   08/06/13 22144    EVOLA MUSIC CENTER  530201311020000  3190     CONT SERVICE               0.00            67.20
+A1003    14000248   08/06/13 11372    FINESSE SERVICES IN 530201311020000  3190     CONT SERVICE               0.00         2,125.00
+A1003    14000249   08/06/13 26082    FIRST GROUP AMERICA 530212351021200  4230     CARE FIELD TRIPS           0.00           701.32
+A1003    14000256   08/06/13 24222    HOMEFIELD TURF & AT 530201311373000  5110     5/20/13 PAINT LAX F        0.00         1,050.00
+A1003    14000263   08/06/13 11140    K9 POLICE DOG FUND  530201311020000  3190     CONT SERVICES              0.00           213.00
+A1003    14000264   08/06/13 11007    KREMPA DIANE L      530201311020000  3190     CONT SERVICES              0.00           500.00
+A1003    14000264   08/06/13 11007    KREMPA DIANE L      530201311373000  5110     REIMB SUPPLIES             0.00            48.45
+TOTAL CHECK                                                                                                    0.00           548.45
+A1003    14000265   08/06/13 11191    LAKESHORE EQUIPMENT 530211351021100  5110     NILES                      0.00           126.11
+A1003    14000267   08/06/13 11237    LEVIN NEAL          530201311020000  3190     CONT SERVICE               0.00           229.90
+A1003    14000268   08/06/13 10561    KINDER IAN          530201311020000  3190     CONT SERVICES              0.00            72.00
+A1003    14000285   08/06/13 10060    REDFORD TWP UNICYCL 530212351021200  3190     CARE COMPANY               0.00           125.00
+A1003    14000299   08/06/13 24816    TOTAL ARMORED CAR S 530207252621500  3190     JUNE SERVICE               0.00           102.41
+A1003    14000300   08/06/13 10414    TROY CITY OF WATER  530213351030000  3830     2930015 NILES              0.00            55.98
+A1003    14000300   08/06/13 10414    TROY CITY OF WATER  530211351030000  3830     2930015 NILES              0.00            55.98
+A1003    14000300   08/06/13 10414    TROY CITY OF WATER  530201311030000  3830     2930015 NILES              0.00            79.97
+TOTAL CHECK                                                                                                    0.00           191.93
+A1003    14000334   08/13/13 10577    D T E ENERGY        530213351030000  5520     NILES #2 06/25−07/2        0.00           161.97
+A1003    14000334   08/13/13 10577    D T E ENERGY        530211351030000  5520     NILES #2 06/25−07/2        0.00           161.97
+A1003    14000334   08/13/13 10577    D T E ENERGY        530201311030000  5520     NILES #2 06/25−07/2        0.00           231.38
+TOTAL CHECK                                                                                                    0.00           555.32
+A1003    14000339   08/13/13 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     JULY 213NILES              0.00           187.55
+A1003    14000339   08/13/13 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     JULY 213NILES              0.00           187.55
+72
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   29
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000339   08/13/13 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     JULY 213NILES              0.00           267.93
+TOTAL CHECK                                                                                                    0.00           643.03
+A1003    14000341   08/13/13 10807    GAZETTE NEWSPAPERS  530213351021300  3510     FULL PAGE AD IN THE        0.00           200.00
+A1003    14000341   08/13/13 10807    GAZETTE NEWSPAPERS  530211351021100  3510     FULL PAGE AD IN THE        0.00           600.00
+TOTAL CHECK                                                                                                    0.00           800.00
+A1003    14000347   08/13/13 11426    HIGHSCOPE EDUCATION 530211351021100  5110     NILES PO 65313             0.00         6,558.76
+A1003    14000357   08/13/13 11181    KROGER CO           530212351021200  5990     SCHROEDER CARE             0.00            39.83
+A1003    14000357   08/13/13 11181    KROGER CO           530212351021200  5990     COSTELLO CARE              0.00            32.97
+A1003    14000357   08/13/13 11181    KROGER CO           530212351021200  5990     COSTELLO CARE              0.00            10.58
+TOTAL CHECK                                                                                                    0.00            83.38
+A1003    14000391   08/13/13 12481    U S POSTAL SERVICE  530201311020500  3430     OPEN P.O. FOR POSTA        0.00         2,300.00
+A1003    14000395   08/13/13 26239    WILLIAMS THERESA    530201311020600  3510     NILES PO 65291             0.00           150.00
+A1003    14000395   08/13/13 26239    WILLIAMS THERESA    530201311020600  3510     NILES PO 65291             0.00           149.00
+TOTAL CHECK                                                                                                    0.00           299.00
+A1003    14000424   08/20/13 13733    CITIZENS MANAGEMENT 530212351094660  2840     CHILD CARE WORKERS         0.00         1,180.68
+A1003    14000431   08/20/13 26082    FIRST GROUP AMERICA 530212351021200  4230     CARE FIELD TRIP            0.00           358.74
+A1003    14000433   08/20/13 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00           266.52
+A1003    14000442   08/20/13 21400    KERN ENTERPRISES    530212351021200  3190     REPAIR AND PAINT CL        0.00         1,900.00
+A1003    14000501   08/27/13 10340    C & G PUBLISHING IN 530212351021200  3510     HALF PAGE−4 COLOR A        0.00           586.00
+A1003    14000506   08/27/13 22500    CONVENTIONAL CARPET 530212351021200  3190     NILES CLASSROOM 406        0.00         2,660.50
+A1003    14000515   08/27/13 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES JULY 2013            0.00           122.04
+A1003    14000515   08/27/13 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES JULY 2013            0.00           174.33
+A1003    14000515   08/27/13 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES JULY 2013            0.00           122.03
+TOTAL CHECK                                                                                                    0.00           418.40
+A1003    14000522   08/27/13 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN P.O. FOR 2013−        0.00           115.53
+A1003    14000586   08/27/13 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00           120.56
+TOTAL CASH ACCOUNT                                                                                             0.00        25,323.72
+TOTAL FUND                                                                                                     0.00        25,323.72
+73
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   30
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000216   08/06/13 13451    ADVANCED LIGHTING A 700052299700000  5000     LARSON                     0.00            78.45
+A1003    14000216   08/06/13 13451    ADVANCED LIGHTING A 700052299700000  5000     LARSON                     0.00         2,992.00
+TOTAL CHECK                                                                                                    0.00         3,070.45
+A1003    14000217   08/06/13 12612    APPLE COMPUTER INC  700051299700000  5000     APPLE TV SMITH             0.00           198.00
+A1003    14000219   08/06/13 10151    BAINES BRIAN K      700071399902000  5000     REIMB FOOTBALL SPLY        0.00           523.58
+A1003    14000224   08/06/13 23249    BOUTROS JOHN        700071399992000  5000     SPRING TOURNAMENT          0.00            35.00
+A1003    14000252   08/06/13 14523    GRAPH−TEX           700071399992000  5000     ATHENS                     0.00         1,582.00
+A1003    14000252   08/06/13 14523    GRAPH−TEX           700071399992000  5000     AHS LAX JERSEYS            0.00         1,455.86
+TOTAL CHECK                                                                                                    0.00         3,037.86
+A1003    14000322   08/13/13 25162    BLOOMFIELD SPORTS S 700071399992000  5000     AHS ATHLETICS              0.00           171.00
+A1003    14000322   08/13/13 25162    BLOOMFIELD SPORTS S 700071399992000  5000     WATER POLO AHS             0.00           531.00
+A1003    14000322   08/13/13 25162    BLOOMFIELD SPORTS S 700071399901000  5000     AHS WATER POLO             0.00           844.00
+A1003    14000322   08/13/13 25162    BLOOMFIELD SPORTS S 700071399906800  5000     AHS GIRLS SWIM             0.00            45.00
+TOTAL CHECK                                                                                                    0.00         1,591.00
+A1003    14000327   08/13/13 17176    COSTCO WHOLESALE ME 700017199700000  5000     000833381851000RENE        0.00           165.00
+A1003    14000343   08/13/13 14523    GRAPH−TEX           700071399992000  5000     HELMETS                    0.00           374.00
+A1003    14000351   08/13/13 12254    JACKIE YOUSIF       700970699990000  5000     REFUND DUPL PMT            0.00            19.00
+A1003    14000352   08/13/13 19962    JACQUELINE BURKE    700074399731300  5000     CLASS OF 2013 REIMB        0.00            74.20
+A1003    14000362   08/13/13 11026    MCCORMICK DONALD E  700017199700000  5000     PBIS SIGNAGE               0.00           500.00
+A1003    14000367   08/13/13 26255    MICHAEL CHRISTOPHER 700070399990000  5000     THS GMWRK 060113           0.00           135.00
+A1003    14000379   08/13/13 19560    PREMIER SCHOOL AGEN 700053299700000  5000     STUDENT EDITION PLA        0.00         2,152.00
+A1003    14000379   08/13/13 19560    PREMIER SCHOOL AGEN 700053299700000  5000     HALL PASS (2 PAGES)        0.00           120.00
+TOTAL CHECK                                                                                                    0.00         2,272.00
+A1003    14000383   08/13/13 26276    SCHOOL DATEBOOKS IN 700071399736500  5000     1000 STEAMBOAT 5.5X        0.00         2,621.70
+A1003    14000414   08/20/13 26279    GIRARDI FRANK D     700071399902000  5000     APEX HEADSET PACKAG        0.00         2,695.50
+A1003    14000415   08/20/13 26030    AMI O’NEILL         700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000425   08/20/13 11900    LINDA A KARGOL      700070399700000  5000     ORIENTATION T−SHIRT        0.00           525.00
+A1003    14000439   08/20/13 19962    JACQUELINE BURKE    700074399731300  5000     IAE SR PLAQUE              0.00            15.90
+A1003    14000441   08/20/13 18638    JONES JAMES E       700051299700000  5000     SMITH ASSEMBLY             0.00           530.00
+A1003    14000443   08/20/13 10872    LEY MICHAEL         700970699990000  5000     2013 SMR CAMP REISS        0.00           330.00
+A1003    14000450   08/20/13 12791    MOBILE ED PRODUCTIO 700051299335000  5000     SMITH 05/01/14             0.00           445.00
+A1003    14000450   08/20/13 12791    MOBILE ED PRODUCTIO 700051299335000  5000     SMITH 12/12/13             0.00           755.25
+74
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   31
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000450   08/20/13 12791    MOBILE ED PRODUCTIO 700051299335000  5000     SMITH 03/20/14             0.00           755.25
+TOTAL CHECK                                                                                                    0.00         1,955.50
+A1003    14000451   08/20/13 26030    MOLLY THOMAS        700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000453   08/20/13 26030    MR & MRS KNAUSS     700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000454   08/20/13 26030    MR & MRS LEVITT     700051299371500  5000     AD ISLAND REG              0.00            60.00
+A1003    14000455   08/20/13 26030    MR & MRS MEEK       700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000456   08/20/13 26030    MR & MRS MILLER     700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000457   08/20/13 26030    MR & MRS MOSEY      700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000458   08/20/13 26030    MR & MRS PAGNOAS    700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000459   08/20/13 26030    MR & MRS WILLIAMS   700051299371500  5000     ADV ISALND REG             0.00            60.00
+A1003    14000460   08/20/13 26030    MRS KALMAR          700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000462   08/20/13 13635    OAKLAND ACTIVITIES  700070399700000  5000     THS PORTION                0.00           640.00
+A1003    14000467   08/20/13 19560    PREMIER SCHOOL AGEN 700052299700000  5000     STUDENT PLANNER, 8.        0.00         1,943.40
+A1003    14000468   08/20/13 10086    RAJEEV & DIPTI TRIP 700074399681000  5000     IAE BOOK FEE REF           0.00           150.00
+A1003    14000468   08/20/13 10086    RAJEEV & DIPTI TRIP 700074399682000  5000     IAE BOOK FEE REF           0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000470   08/20/13 10132    ROBERT SHERIDAN     700071399992000  5000     SWIM GEAR REIMB/AHS        0.00            48.30
+A1003    14000473   08/20/13 26030    SARAH BONGIAVANNI   700051299371500  5000     ADV ISLAND REG             0.00            60.00
+A1003    14000482   08/20/13 25975    TRIPLE THREAD CUSTO 700070399718000  5000     OPEN P.O. FOR TROY         0.00         4,275.00
+A1003    14000484   08/20/13 12326    VARSITY SPIRIT CORP 700070399900000  5000     CPOM130056M, CUSTOM        0.00           780.30
+A1003    14000484   08/20/13 12326    VARSITY SPIRIT CORP 700070399900000  5000     S&H                        0.00            52.00
+TOTAL CHECK                                                                                                    0.00           832.30
+A1003    14000485   08/27/13 10086    A ABRAHAM & M MATHE 700074399682000  5000     BOOK/LAB FEE IAE RE        0.00           150.00
+A1003    14000485   08/27/13 10086    A ABRAHAM & M MATHE 700074399681000  5000     BOOK/LAB FEE IAE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000492   08/27/13 12254    ALYSSA RUMMELT      700070399739300  5000     CLASS OF 93 REIMB          0.00            45.79
+A1003    14000493   08/27/13 10098    AMSTERDAM PRINTING  700070399990000  5000     ATHLETICS                  0.00           469.37
+A1003    14000497   08/27/13 10086    B YERRAMAILLI & V P 700074399682000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+A1003    14000497   08/27/13 10086    B YERRAMAILLI & V P 700074399681000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000500   08/27/13 21851    BIRMINGHAM GROVES H 700070399743600  5000     THS BOWLING                0.00           100.00
+75
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   32
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000521   08/27/13 10826    GETZAN JOHN         700070399903000  5000     THS GOLF REIMB             0.00           116.50
+A1003    14000529   08/27/13 11864    AGILE SPORTS TECHNO 700070399902000  5000     SUBSCRIPTION BALANC        0.00           906.00
+A1003    14000537   08/27/13 10086    LELE ZHANG          700074399681000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+A1003    14000537   08/27/13 10086    LELE ZHANG          700074399682000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000538   08/27/13 12254    LORI MANRY          700070399739300  5000     CLASS 1993 REIMB           0.00           152.20
+A1003    14000541   08/27/13 10086    M MATIN & A SHULTAN 700074399681000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+A1003    14000541   08/27/13 10086    M MATIN & A SHULTAN 700074399682000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000548   08/27/13 11468    MICHIGAN SCIENCE OL 700071399340000  5000     AHS SCIENCE OLYMPIA        0.00           275.00
+A1003    14000556   08/27/13 11685    OAKLAND CTY SCIENCE 700071399340000  5000     AHS SCIENCE OLYMPIA        0.00           125.00
+A1003    14000558   08/27/13 11668    OAKLAND SCHOOLS     700074399682000  5000     PHYSICS 10 NOTES 20        0.00         1,042.91
+A1003    14000558   08/27/13 11668    OAKLAND SCHOOLS     700074399682000  5000     IB 1 PHYSICS 2013 N        0.00           785.55
+TOTAL CHECK                                                                                                    0.00         1,828.46
+A1003    14000566   08/27/13 10086    RAGHU & SUDHA NANNA 700074399681000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+A1003    14000566   08/27/13 10086    RAGHU & SUDHA NANNA 700074399682000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000567   08/27/13 10086    RENNIE YOUNG & AYAK 700074399682000  5000     IAE BOOK/LAB FEES          0.00           150.00
+A1003    14000567   08/27/13 10086    RENNIE YOUNG & AYAK 700074399681000  5000     IAE BOOK/LAB FEES          0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000573   08/27/13 10517    ROCHESTER COMUNITY  700885699667100  5000     SP ED WORKSHOP             0.00           500.00
+A1003    14000575   08/27/13 10086    S VAIDYANATHAN & S  700074399681000  5000     IAE BOOK/FEE REFUND        0.00           150.00
+A1003    14000575   08/27/13 10086    S VAIDYANATHAN & S  700074399682000  5000     IAE BOOK/FEE REFUND        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000579   08/27/13 23167    STACY’S GOLF CENTER 700070399990000  5000     THS                        0.00           255.00
+A1003    14000584   08/27/13 11583    BRENNAN EBERLY TEAM 700970699990000  5000     OPEN PO FOR ATHLETI        0.00         1,616.25
+A1003    14000584   08/27/13 11583    BRENNAN EBERLY TEAM 700970699990000  5000     OPEN PO FOR ATHLETI        0.00           878.40
+TOTAL CHECK                                                                                                    0.00         2,494.65
+A1003    14000588   08/27/13 25975    TRIPLE THREAD CUSTO 700052299700000  5000     T−SHIRTS: TWO COLOR        0.00           937.50
+A1003    14000590   08/27/13 10413    TROY CITY OF        700071399718000  5000     AHS PARADE PERMIT          0.00            50.00
+A1003    14000591   08/27/13 10086    V KUNA & S KUNA     700074399681000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+A1003    14000591   08/27/13 10086    V KUNA & S KUNA     700074399682000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+A1003    14000592   08/27/13 10086    V SHANKAR & A SHANK 700074399682000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+76
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000592   08/27/13 10086    V SHANKAR & A SHANK 700074399681000  5000     IAE BOOK/LAB FEE RE        0.00           150.00
+TOTAL CHECK                                                                                                    0.00           300.00
+TOTAL CASH ACCOUNT                                                                                             0.00        40,323.16
+TOTAL FUND                                                                                                     0.00        40,323.16
+77
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 09/11/2013                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 12:02:42                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’08/01/2013’ and ’08/31/2013’
+ACCOUNTING PERIOD:  3/14
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    14000372   08/13/13 11676    OAKLAND CTY SCHOOL  701150699999900  5000     HAUFF/BOARD                0.00            30.00
+TOTAL CASH ACCOUNT                                                                                             0.00            30.00
+TOTAL FUND                                                                                                     0.00            30.00
+TOTAL REPORT                                                                                                   0.00     3,013,087.77
+78
+5.D
+TO: Troy School District
+Board of Education
+ FROM: Mark S. Rajter
+Assistant Superintendent,
+Business Services
+BUSINESS 
+DEPARTMENT
+RE: Treasurer's Report
+4400 Livernois
+September, 2013
+Troy,  MI  48098
+248-823-4022
+Attached is the check register (including current period voids), a listing of ACH debits, wire
+transfers, and P-Card purchases made during the period.
+GENERAL  FUND (101) 2,775,516.56     
+GRANT FUND (120) 2,605.61            
+SPECIAL EDUCATION FUND (122) 42,357.39          
+FOOD SERVICE FUND (520) 3,196.19            
+TROY CAREER CENTER (529) 18,394.99          
+COMMUNITY EDUCATION FUND (530) 18,831.08          
+FACILITIES RENTAL FUND (535) -                    
+DEBT FUNDS (304, 306, 312) 23,065.00          
+BUILDING & SITE FUNDS (404, 499) -                    
+INTERNAL SERVICE FUND (681) -                    
+STUDENT ACTIVITY FUND (700, 701) 58,242.98          
+MEMORIAL SCHOLARSHIP FUND (750) -                    
+I certify that the disbursements listed on the attached check registers and listing of ACH debits
+wire transfers, and P-Card purchases were payments made for obligations of the Troy School 
+District and that all materials or services listed on the invoices have been received or performed.
+Mark S. Rajter
+Assistant Superintendent, Business Services
+79
+DATE:
+Total - General Fund 2,820,479.56$  
+Total - Special Revenue Funds 40,422.26$       
+Total - Other Funds 81,307.98$       
+TOTAL CHECK DISBURSEMENTS 2,942,209.80$   2,942,209.80$   
+ACH DEBITS 12,570.56$        
+OUTGOING WIRE TRANSFERS 2,594,776.76$   
+P-CARD PURCHASES 122,142.00$      
+PRIOR PERIOD VOID DISBURSEMENTS (1,337.50)$        
+TOTAL DISBURSEMENTS IN PERIOD 5,670,361.62$   
+November 7, 2013
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ACE09304101200261030000 5510 $4.57 CONSUMERS SEPT 2013
+ACE09304101203261030000 5510 $7.79 CONSUMERS SEPT 2013
+ACE09304101206261030000 5510 $26.98 CONSUMERS SEPT 2013
+ACE09304101214261030000 5510 $4.57 CONSUMERS SEPT 2013
+ACE09304101941261000300 5510 $7.33 CONSUMERS SEPT 2013
+ACE09304101941261000300 5510 $13.00 CONSUMERS SEPT 2013
+ACE09304101941261000500 5510 $56.43 CONSUMERS SEPT 2013
+ACE09304101941261000700 5510 $9.02 CONSUMERS SEPT 2013
+ACE09304101941261000800 5510 $22.85 CONSUMERS SEPT 2013
+ACE09304101941261001000 5510 $73.44 CONSUMERS SEPT 2013
+ACE09304101941261001100 5510 $45.53 CONSUMERS SEPT 2013
+ACE09304101941261001200 5510 $49.67 CONSUMERS SEPT 2013
+ACE09304101941261001400 5510 $19.14 CONSUMERS SEPT 2013
+ACE09304101941261001500 5510 $18.70 CONSUMERS SEPT 2013
+ACE09304101941261001600 5510 $18.70 CONSUMERS SEPT 2013
+ACE09304101941261001700 5510 $26.77 CONSUMERS SEPT 2013
+ACE09304101941261005000 5510 $213.51 CONSUMERS SEPT 2013
+ACE09304101941261005100 5510 $56.87 CONSUMERS SEPT 2013
+ACE09304101941261005200 5510 $731.04 CONSUMERS SEPT 2013
+ACE09304101941261005300 5510 $762.06 CONSUMERS SEPT 2013
+ACE09304101941261007000 5510 $588.84 CONSUMERS SEPT 2013
+ACE09304101941261007100 5510 $756.95 CONSUMERS SEPT 2013
+ACE09304101941261007400 5510 $84.89 CONSUMERS SEPT 2013
+ACE09304101941261009000 5510 $18.70 CONSUMERS SEPT 2013
+ACE09304101941261009000 5510 $26.98 CONSUMERS SEPT 2013
+ACE09304101941261015000 5510 $32.87 CONSUMERS SEPT 2013
+ACE09304101941261016000 5510 $60.14 CONSUMERS SEPT 2013
+ACE09304122207261020700 5510 $11.30 CONSUMERS SEPT 2013
+ACE09304122883261030000 5510 $6.88 CONSUMERS SEPT 2013
+ACE09304530201311030000 5510 $3.14 CONSUMERS SEPT 2013
+ACE09304530211351030000 5510 $2.20 CONSUMERS SEPT 2013
+ACE09304530213351030000 5510 $2.20 CONSUMERS SEPT 2013
+ADT09304101942261000300 5520 $209.86 DTE CHARGES SEPT 2013
+ADT09304101942261000500 5520 $587.87 DTE CHARGES SEPT 2013
+ADT09304101942261000700 5520 $829.31 DTE CHARGES SEPT 2013
+ADT09304101942261000800 5520 $477.03 DTE CHARGES SEPT 2013
+ADT09304101942261001000 5520 $427.56 DTE CHARGES SEPT 2013
+ADT09304101942261001100 5520 $801.60 DTE CHARGES SEPT 2013
+ADT09304101942261001200 5520 $799.62 DTE CHARGES SEPT 2013
+ADT09304101942261001300 5520 $605.67 DTE CHARGES SEPT 2013
+ADT09304101942261001700 5520 $724.41 DTE CHARGES SEPT 2013
+ADT09304101942261007100 5520 $12.71 DTE CHARGES SEPT 2013
+ADT09304101942261007100 5520 $18.25 DTE CHARGES SEPT 2013
+ADT09304101942261007400 5520 $536.90 DTE CHARGES SEPT 2013
+ADT09304101942261009000 5520 $36.44 DTE CHARGES SEPT 2013
+ADT09304101942261009000 5520 $325.31 DTE CHARGES SEPT 2013
+Page 1
+80
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ADT09304101942261015000 5520 $465.17 DTE CHARGES SEPT 2013
+ADT09304101942261016000 5520 $1,571.45 DTE CHARGES SEPT 2013
+ADT09304101942261090000 5520 $160.56 DTE CHARGES SEPT 2013
+ADT09304101942261090000 5520 $174.25 DTE CHARGES SEPT 2013
+ADT09304122883261030000 5520 $43.53 DTE CHARGES SEPT 2013
+PCRD0827101 A1207 -$76.29 PCRD STMT 08-27-13
+PCRD0827101 A1207 $1,465.32 PCRD STMT 08-27-13
+PCRD0827101 A1207 $1,755.32 PCRD STMT 08-27-13
+PCRD0827101 A1207 $1,775.32 PCRD STMT 08-27-13
+PCRD0827101 A1207 $1,775.32 PCRD STMT 08-27-13
+PCRD0827101005111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $3.38 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $8.09 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $23.50 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $130.00 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $278.19 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $290.40 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $771.92 PCRD STMT 08-27-13
+PCRD0827101005111100100 5110 $1,281.87 PCRD STMT 08-27-13
+PCRD0827101005111350000 5110 $266.31 PCRD STMT 08-27-13
+PCRD0827101005111353000 5118 $118.29 PCRD STMT 08-27-13
+PCRD0827101005111353000 5118 $139.97 PCRD STMT 08-27-13
+PCRD0827101007111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $15.10 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $19.60 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $44.23 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $101.84 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $149.28 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $230.40 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $275.75 PCRD STMT 08-27-13
+PCRD0827101007111100100 5110 $284.95 PCRD STMT 08-27-13
+PCRD0827101008111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101008111100100 5110 $23.23 PCRD STMT 08-27-13
+PCRD0827101008111100100 5110 $45.26 PCRD STMT 08-27-13
+PCRD0827101008111100100 5110 $125.29 PCRD STMT 08-27-13
+PCRD0827101008111100100 5110 $197.50 PCRD STMT 08-27-13
+PCRD0827101008111100100 5110 $240.45 PCRD STMT 08-27-13
+PCRD0827101009111033300 5110 $136.63 PCRD STMT 08-27-13
+PCRD0827101010111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 -$606.36 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 $37.05 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 $64.11 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 $180.39 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 $207.68 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 $259.96 PCRD STMT 08-27-13
+PCRD0827101010111100100 5110 $606.47 PCRD STMT 08-27-13
+Page 2
+81
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101011111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101011111100100 5110 $38.85 PCRD STMT 08-27-13
+PCRD0827101011111100100 5110 $50.65 PCRD STMT 08-27-13
+PCRD0827101011111100100 5110 $59.88 PCRD STMT 08-27-13
+PCRD0827101011111100100 5110 $102.52 PCRD STMT 08-27-13
+PCRD0827101011111100100 5110 $172.48 PCRD STMT 08-27-13
+PCRD0827101012111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $4.46 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $4.88 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $9.00 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $16.20 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $28.92 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $133.06 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $183.37 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $211.50 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $315.52 PCRD STMT 08-27-13
+PCRD0827101012111100100 5110 $315.69 PCRD STMT 08-27-13
+PCRD0827101013111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $5.76 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $6.50 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $24.22 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $44.18 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $67.59 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $77.17 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $81.55 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $90.43 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $95.57 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $120.30 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $120.83 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $137.16 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $170.04 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $182.08 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $186.08 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $260.37 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $309.28 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $435.37 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $438.73 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $496.82 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $564.00 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $778.31 PCRD STMT 08-27-13
+PCRD0827101013111100100 5110 $907.41 PCRD STMT 08-27-13
+PCRD0827101014111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101015111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $15.13 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $15.15 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $29.80 PCRD STMT 08-27-13
+Page 3
+82
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101015111100100 5110 $51.49 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $53.09 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $53.96 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $55.84 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $64.10 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $72.73 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $74.61 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $75.32 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $95.47 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $98.73 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $104.78 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $117.09 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $122.64 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $129.77 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $142.14 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $153.97 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $159.36 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $166.08 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $169.54 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $274.67 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $312.36 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $325.90 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $381.00 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $441.75 PCRD STMT 08-27-13
+PCRD0827101015111100100 5110 $473.95 PCRD STMT 08-27-13
+PCRD0827101016111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $3.72 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $6.28 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $29.76 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $51.25 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $53.95 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $78.84 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $107.17 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $153.00 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $159.90 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $200.00 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $216.00 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $219.20 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $265.16 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $303.00 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $314.25 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $363.00 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $485.16 PCRD STMT 08-27-13
+PCRD0827101016111100100 5110 $1,559.51 PCRD STMT 08-27-13
+PCRD0827101017111033300 5110 $136.67 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $26.37 PCRD STMT 08-27-13
+Page 4
+83
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101017111100100 5110 $34.85 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $76.25 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $131.00 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $149.00 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $149.85 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $263.61 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $289.04 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $298.50 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $458.61 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $462.84 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $464.50 PCRD STMT 08-27-13
+PCRD0827101017111100100 5110 $468.27 PCRD STMT 08-27-13
+PCRD0827101017111610400 5110 $56.98 PCRD STMT 08-27-13
+PCRD0827101050112011200 5210 $65.94 PCRD STMT 08-27-13
+PCRD0827101050112011200 5210 $77.07 PCRD STMT 08-27-13
+PCRD0827101050112011200 5210 $402.00 PCRD STMT 08-27-13
+PCRD0827101050112330000 5110 $657.54 PCRD STMT 08-27-13
+PCRD0827101050112352000 5110 $208.84 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 -$41.76 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $5.40 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $7.64 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $10.79 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $16.42 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $41.76 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $41.76 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $85.02 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $86.61 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $176.07 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $463.47 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $484.50 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $516.00 PCRD STMT 08-27-13
+PCRD0827101050221005000 5990 $672.96 PCRD STMT 08-27-13
+PCRD0827101050241020500 3430 $18.40 PCRD STMT 08-27-13
+PCRD0827101050241020500 3430 $53.24 PCRD STMT 08-27-13
+PCRD0827101051221005100 5990 $5.82 PCRD STMT 08-27-13
+PCRD0827101051221005100 5990 $11.11 PCRD STMT 08-27-13
+PCRD0827101051221005100 5990 $15.28 PCRD STMT 08-27-13
+PCRD0827101051221005100 5990 $23.76 PCRD STMT 08-27-13
+PCRD0827101051221005100 5990 $26.77 PCRD STMT 08-27-13
+PCRD0827101051221005100 5990 $438.50 PCRD STMT 08-27-13
+PCRD0827101051241031000 5910 -$12.00 PCRD STMT 08-27-13
+PCRD0827101051241031000 5910 $11.74 PCRD STMT 08-27-13
+PCRD0827101051241031000 5910 $211.99 PCRD STMT 08-27-13
+PCRD0827101052112005200 5110 -$23.60 PCRD STMT 08-27-13
+PCRD0827101052112005200 5110 $13.58 PCRD STMT 08-27-13
+PCRD0827101052112005200 5110 $16.80 PCRD STMT 08-27-13
+Page 5
+84
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101052112005200 5110 $45.64 PCRD STMT 08-27-13
+PCRD0827101052112005200 5110 $100.04 PCRD STMT 08-27-13
+PCRD0827101052112005200 5110 $172.80 PCRD STMT 08-27-13
+PCRD0827101052112005200 5110 $182.22 PCRD STMT 08-27-13
+PCRD0827101052112387000 5110 $95.76 PCRD STMT 08-27-13
+PCRD0827101052112387000 5110 $390.60 PCRD STMT 08-27-13
+PCRD0827101052125387000 5110 $104.33 PCRD STMT 08-27-13
+PCRD0827101053112005300 5110 $29.52 PCRD STMT 08-27-13
+PCRD0827101053112005300 5110 $113.08 PCRD STMT 08-27-13
+PCRD0827101053112005300 5110 $234.00 PCRD STMT 08-27-13
+PCRD0827101053112005300 5110 $263.93 PCRD STMT 08-27-13
+PCRD0827101053112320100 5110 $45.01 PCRD STMT 08-27-13
+PCRD0827101053112320100 5110 $285.00 PCRD STMT 08-27-13
+PCRD0827101053112335000 5110 $329.33 PCRD STMT 08-27-13
+PCRD0827101053112378500 5110 $78.84 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $11.97 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $14.98 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $33.09 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $38.15 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $42.30 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $44.86 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $47.73 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $70.76 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $72.64 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $119.88 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $148.80 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $203.96 PCRD STMT 08-27-13
+PCRD0827101053221005300 5990 $380.48 PCRD STMT 08-27-13
+PCRD0827101070113007000 5110 $23.09 PCRD STMT 08-27-13
+PCRD0827101070113007000 5110 $191.52 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $1.78 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $2.76 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $5.30 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $13.95 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $37.20 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $48.71 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $63.59 PCRD STMT 08-27-13
+PCRD0827101070113320100 5110 $66.64 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $1.04 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $4.96 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $9.54 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $14.02 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $22.54 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $31.19 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $32.81 PCRD STMT 08-27-13
+PCRD0827101070113325000 5110 $92.97 PCRD STMT 08-27-13
+Page 6
+85
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101070113340000 5110 $55.04 PCRD STMT 08-27-13
+PCRD0827101071113007100 5110 $46.15 PCRD STMT 08-27-13
+PCRD0827101071113007100 5110 $79.64 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $41.58 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $55.44 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $73.99 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $76.50 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $78.99 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $103.99 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $124.74 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $180.18 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $180.18 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $185.10 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $242.97 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $255.00 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $374.22 PCRD STMT 08-27-13
+PCRD0827101071113007100 5210 $415.80 PCRD STMT 08-27-13
+PCRD0827101071113320100 5110 $16.82 PCRD STMT 08-27-13
+PCRD0827101071113320100 5110 $22.40 PCRD STMT 08-27-13
+PCRD0827101071113320100 5110 $79.20 PCRD STMT 08-27-13
+PCRD0827101071113320100 5110 $998.99 PCRD STMT 08-27-13
+PCRD0827101071113340000 5110 $57.52 PCRD STMT 08-27-13
+PCRD0827101071113340000 5110 $62.16 PCRD STMT 08-27-13
+PCRD0827101071113340000 5110 $450.18 PCRD STMT 08-27-13
+PCRD0827101071113350000 5110 $599.00 PCRD STMT 08-27-13
+PCRD0827101071113350000 5110 $1,198.00 PCRD STMT 08-27-13
+PCRD0827101071113351300 5110 $24.95 PCRD STMT 08-27-13
+PCRD0827101071113351300 5110 $79.55 PCRD STMT 08-27-13
+PCRD0827101071113351300 5110 $116.75 PCRD STMT 08-27-13
+PCRD0827101071113351300 5110 $229.80 PCRD STMT 08-27-13
+PCRD0827101071113351300 5110 $250.00 PCRD STMT 08-27-13
+PCRD0827101071113351300 5110 $299.88 PCRD STMT 08-27-13
+PCRD0827101071113367000 5110 $0.78 PCRD STMT 08-27-13
+PCRD0827101071113367000 5110 $2.67 PCRD STMT 08-27-13
+PCRD0827101071113367000 5110 $24.84 PCRD STMT 08-27-13
+PCRD0827101071113367000 5110 $106.24 PCRD STMT 08-27-13
+PCRD0827101071113367000 5110 $193.43 PCRD STMT 08-27-13
+PCRD0827101071113367000 5110 $299.80 PCRD STMT 08-27-13
+PCRD0827101071113970300 5110 $667.42 PCRD STMT 08-27-13
+PCRD0827101071221007100 5990 $53.97 PCRD STMT 08-27-13
+PCRD0827101071221007100 5990 $215.00 PCRD STMT 08-27-13
+PCRD0827101071241020500 3430 $46.00 PCRD STMT 08-27-13
+PCRD0827101071241031000 5910 $34.96 PCRD STMT 08-27-13
+PCRD0827101071241031000 5910 $1,138.74 PCRD STMT 08-27-13
+PCRD0827101074113007400 3610 $175.79 PCRD STMT 08-27-13
+PCRD0827101074113007400 5110 $418.30 PCRD STMT 08-27-13
+Page 7
+86
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101074221007400 5990 $481.01 PCRD STMT 08-27-13
+PCRD0827101150232020500 3430 $6.31 PCRD STMT 08-27-13
+PCRD0827101150232020500 3430 $460.00 PCRD STMT 08-27-13
+PCRD0827101150232090000 5990 $11.68 PCRD STMT 08-27-13
+PCRD0827101150232090000 5990 $25.49 PCRD STMT 08-27-13
+PCRD0827101150232090000 5990 $26.17 PCRD STMT 08-27-13
+PCRD0827101150232090000 5990 $61.17 PCRD STMT 08-27-13
+PCRD0827101150232090000 5990 $107.04 PCRD STMT 08-27-13
+PCRD0827101150232090000 5990 $127.34 PCRD STMT 08-27-13
+PCRD0827101180222031000 5910 $31.43 PCRD STMT 08-27-13
+PCRD0827101180222031000 5910 $68.94 PCRD STMT 08-27-13
+PCRD0827101180222648900 4120 $26.76 PCRD STMT 08-27-13
+PCRD0827101200132373000 5110 $138.95 PCRD STMT 08-27-13
+PCRD0827101203132389500 5210 -$5.00 PCRD STMT 08-27-13
+PCRD0827101203132389500 5210 $11.80 PCRD STMT 08-27-13
+PCRD0827101203132389500 5210 $17.78 PCRD STMT 08-27-13
+PCRD0827101203132389500 5210 $24.62 PCRD STMT 08-27-13
+PCRD0827101203132389500 5210 $27.71 PCRD STMT 08-27-13
+PCRD0827101203221021500 3220 $291.33 PCRD STMT 08-27-13
+PCRD0827101206113373000 5110 $13.62 PCRD STMT 08-27-13
+PCRD0827101206113373000 5110 $482.90 PCRD STMT 08-27-13
+PCRD0827101300119372300 7913 $135.00 PCRD STMT 08-27-13
+PCRD0827101400119371500 7913 $153.00 PCRD STMT 08-27-13
+PCRD0827101400221011300 3190 $231.96 PCRD STMT 08-27-13
+PCRD0827101400221011300 5990 $63.74 PCRD STMT 08-27-13
+PCRD0827101400221011300 5990 $139.00 PCRD STMT 08-27-13
+PCRD0827101400221040000 7410 $470.00 PCRD STMT 08-27-13
+PCRD0827101425221000000 5990 $9.98 PCRD STMT 08-27-13
+PCRD0827101425221000000 5990 $35.00 PCRD STMT 08-27-13
+PCRD0827101425221000000 5990 $118.26 PCRD STMT 08-27-13
+PCRD0827101425221000000 5990 $188.80 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $21.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $125.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $125.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $125.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $309.80 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $309.80 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $309.80 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $550.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $550.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $625.00 PCRD STMT 08-27-13
+PCRD0827101425221042600 3220 $750.00 PCRD STMT 08-27-13
+PCRD0827101502221000000 5990 $65.92 PCRD STMT 08-27-13
+PCRD0827101502221000000 5990 $172.00 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 -$494.96 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 -$333.79 PCRD STMT 08-27-13
+Page 8
+87
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101570221057000 5990 -$299.99 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 -$174.98 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 -$79.99 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 -$74.99 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 -$34.99 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $20.44 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $24.99 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $35.00 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $39.95 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $51.36 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $59.33 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $69.99 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $82.98 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $176.75 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $199.00 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $333.79 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $347.93 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $375.96 PCRD STMT 08-27-13
+PCRD0827101570221057000 5990 $494.96 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $10.29 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $55.17 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $92.89 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $136.21 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $139.85 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $264.70 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $299.92 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $299.93 PCRD STMT 08-27-13
+PCRD0827101590221031000 5910 $412.37 PCRD STMT 08-27-13
+PCRD0827101590271350000 4230 $204.76 PCRD STMT 08-27-13
+PCRD0827101590271350000 4230 $386.79 PCRD STMT 08-27-13
+PCRD0827101668252031000 5910 $168.80 PCRD STMT 08-27-13
+PCRD0827101668252031000 5910 $280.42 PCRD STMT 08-27-13
+PCRD0827101668252031000 5910 $370.52 PCRD STMT 08-27-13
+PCRD0827101668252066800 5410 $675.00 PCRD STMT 08-27-13
+PCRD0827101700283021500 3220 $625.00 PCRD STMT 08-27-13
+PCRD0827101700283021500 3220 $625.00 PCRD STMT 08-27-13
+PCRD0827101700283021500 3220 $625.00 PCRD STMT 08-27-13
+PCRD0827101700283048800 3190 $1,598.66 PCRD STMT 08-27-13
+PCRD0827101700283048800 3190 $1,754.92 PCRD STMT 08-27-13
+PCRD0827101700283048800 3190 $1,923.20 PCRD STMT 08-27-13
+PCRD0827101700283048800 3190 $1,923.20 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $25.43 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $43.13 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $43.74 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $50.48 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $56.38 PCRD STMT 08-27-13
+Page 9
+88
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827101700283070000 5990 $82.99 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $142.00 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $379.14 PCRD STMT 08-27-13
+PCRD0827101700283070000 5990 $700.00 PCRD STMT 08-27-13
+PCRD0827101790225000000 3450 $59.68 PCRD STMT 08-27-13
+PCRD0827101790225717100 5990 -$70.62 PCRD STMT 08-27-13
+PCRD0827101790225717100 5990 $72.85 PCRD STMT 08-27-13
+PCRD0827101790225717100 5990 $148.39 PCRD STMT 08-27-13
+PCRD0827101790225717100 5990 $173.63 PCRD STMT 08-27-13
+PCRD0827101790225717100 5990 $836.74 PCRD STMT 08-27-13
+PCRD0827101790225717100 5990 $1,247.57 PCRD STMT 08-27-13
+PCRD0827101790225850100 6410 $1,649.48 PCRD STMT 08-27-13
+PCRD0827101902261849900 5990 $198.40 PCRD STMT 08-27-13
+PCRD0827101905283021500 3220 $108.60 PCRD STMT 08-27-13
+PCRD0827101928282000000 3610 $575.00 PCRD STMT 08-27-13
+PCRD0827101928282087400 3510 $7,135.75 PCRD STMT 08-27-13
+PCRD0827101970293000000 5910 $24.77 PCRD STMT 08-27-13
+PCRD0827101970293000000 5910 $58.00 PCRD STMT 08-27-13
+PCRD0827101970293000000 5910 $161.90 PCRD STMT 08-27-13
+PCRD0827101970293000000 7910 $70.00 PCRD STMT 08-27-13
+PCRD0827101970293905000 5990 $1,267.20 PCRD STMT 08-27-13
+PCRD0827101970293906000 5990 $237.00 PCRD STMT 08-27-13
+PCRD0827101970293914000 5990 $2,376.45 PCRD STMT 08-27-13
+PCRD0827120005125601500 5110 $37.05 PCRD STMT 08-27-13
+PCRD0827120005125601500 5110 $54.80 PCRD STMT 08-27-13
+PCRD0827120005125601500 5110 $78.98 PCRD STMT 08-27-13
+PCRD0827120010118620000 5110 $374.36 PCRD STMT 08-27-13
+PCRD0827120050125601500 5110 $172.95 PCRD STMT 08-27-13
+PCRD0827120052221601400 5990 $377.00 PCRD STMT 08-27-13
+PCRD0827120304125684700 5114 $145.00 PCRD STMT 08-27-13
+PCRD0827120304125684700 5114 $154.00 PCRD STMT 08-27-13
+PCRD0827120317221684700 3220 $125.00 PCRD STMT 08-27-13
+PCRD0827120321221601500 3220 $249.00 PCRD STMT 08-27-13
+PCRD0827120323125601500 5114 -$117.22 PCRD STMT 08-27-13
+PCRD0827120323125601500 5114 $92.50 PCRD STMT 08-27-13
+PCRD0827120323125601500 5114 $307.24 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $4.92 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $5.24 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $24.57 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $42.48 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $51.20 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $54.90 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $61.74 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $61.90 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $85.56 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $106.23 PCRD STMT 08-27-13
+Page 10
+89
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827122885221326000 5990 $117.85 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $149.00 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $246.64 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $440.20 PCRD STMT 08-27-13
+PCRD0827122885221326000 5990 $519.30 PCRD STMT 08-27-13
+PCRD0827122885226326000 5910 -$10.00 PCRD STMT 08-27-13
+PCRD0827122885226326000 5910 $550.00 PCRD STMT 08-27-13
+PCRD0827122885226326000 5910 $625.00 PCRD STMT 08-27-13
+PCRD0827529202229660000 3430 $18.56 PCRD STMT 08-27-13
+PCRD0827529202229660000 3430 $20.33 PCRD STMT 08-27-13
+PCRD0827529202229660000 3430 $141.00 PCRD STMT 08-27-13
+PCRD0827529202229660000 5910 $27.50 PCRD STMT 08-27-13
+PCRD0827529202229660000 5910 $30.17 PCRD STMT 08-27-13
+PCRD0827529202229660000 5910 $50.86 PCRD STMT 08-27-13
+PCRD0827529202229660000 5910 $95.14 PCRD STMT 08-27-13
+PCRD0827529202229660000 5910 $154.54 PCRD STMT 08-27-13
+PCRD0827529202283660000 3220 $23.88 PCRD STMT 08-27-13
+PCRD0827529202283660000 3220 $110.19 PCRD STMT 08-27-13
+PCRD0827529202283660000 3220 $110.19 PCRD STMT 08-27-13
+PCRD0827529202283660000 3220 $159.00 PCRD STMT 08-27-13
+PCRD0827529202391660000 4220 $7.00 PCRD STMT 08-27-13
+PCRD0827529202391660000 5110 $465.00 PCRD STMT 08-27-13
+PCRD0827529202391660000 5110 $772.74 PCRD STMT 08-27-13
+PCRD0827530201311373000 5110 $87.99 PCRD STMT 08-27-13
+PCRD0827530211351021100 5110 $395.94 PCRD STMT 08-27-13
+PCRD0827530212351021200 3190 $138.00 PCRD STMT 08-27-13
+PCRD0827530212351021200 3190 $228.00 PCRD STMT 08-27-13
+PCRD0827530212351021200 3190 $232.00 PCRD STMT 08-27-13
+PCRD0827530212351021200 3190 $927.50 PCRD STMT 08-27-13
+PCRD0827530212351021200 5110 $119.76 PCRD STMT 08-27-13
+PCRD0827530212351021200 5110 $199.90 PCRD STMT 08-27-13
+PCRD0827530212351021200 7410 $59.95 PCRD STMT 08-27-13
+PCRD0827530212351021200 7410 $190.00 PCRD STMT 08-27-13
+PCRD0827530213351021300 3190 $120.00 PCRD STMT 08-27-13
+PCRD0827530213351021300 5110 $67.14 PCRD STMT 08-27-13
+PCRD0827530213351021300 5110 $94.40 PCRD STMT 08-27-13
+PCRD0827700 A1099 $3,873.10 PCRD STMT 08-27-13
+PCRD0827700005199700000 5000 $121.96 PCRD STMT 08-27-13
+PCRD0827700007199700000 5000 -$1,039.50 PCRD STMT 08-27-13
+PCRD0827700007199700000 5000 $546.87 PCRD STMT 08-27-13
+PCRD0827700008199700000 5000 $8.31 PCRD STMT 08-27-13
+PCRD0827700008199700000 5000 $20.00 PCRD STMT 08-27-13
+PCRD0827700008199719400 5000 $22.03 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 -$24.40 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 -$20.44 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $8.09 PCRD STMT 08-27-13
+Page 11
+90
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827700010199700000 5000 $24.99 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $35.00 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $42.47 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $44.30 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $68.41 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $72.70 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $88.66 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $104.20 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $112.82 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $130.68 PCRD STMT 08-27-13
+PCRD0827700010199700000 5000 $179.40 PCRD STMT 08-27-13
+PCRD0827700012199700900 5000 $26.45 PCRD STMT 08-27-13
+PCRD0827700012199700900 5000 $30.00 PCRD STMT 08-27-13
+PCRD0827700012199700900 5000 $89.00 PCRD STMT 08-27-13
+PCRD0827700012199700900 5000 $90.00 PCRD STMT 08-27-13
+PCRD0827700015199700000 5000 $18.80 PCRD STMT 08-27-13
+PCRD0827700015199700000 5000 $41.74 PCRD STMT 08-27-13
+PCRD0827700015199700000 5000 $143.31 PCRD STMT 08-27-13
+PCRD0827700015199700000 5000 $156.64 PCRD STMT 08-27-13
+PCRD0827700017199700000 5000 $3.12 PCRD STMT 08-27-13
+PCRD0827700017199700000 5000 $32.09 PCRD STMT 08-27-13
+PCRD0827700017199700000 5000 $59.85 PCRD STMT 08-27-13
+PCRD0827700017199701300 5000 $306.51 PCRD STMT 08-27-13
+PCRD0827700050299700000 5000 -$114.95 PCRD STMT 08-27-13
+PCRD0827700050299700000 5000 $114.95 PCRD STMT 08-27-13
+PCRD0827700051299371500 5000 $8.80 PCRD STMT 08-27-13
+PCRD0827700051299371500 5000 $12.55 PCRD STMT 08-27-13
+PCRD0827700051299371500 5000 $27.00 PCRD STMT 08-27-13
+PCRD0827700051299371500 5000 $48.61 PCRD STMT 08-27-13
+PCRD0827700051299371500 5000 $53.40 PCRD STMT 08-27-13
+PCRD0827700051299371500 5000 $133.00 PCRD STMT 08-27-13
+PCRD0827700052299700000 5000 $52.18 PCRD STMT 08-27-13
+PCRD0827700052299700000 5000 $89.21 PCRD STMT 08-27-13
+PCRD0827700052299700000 5000 $500.00 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $10.00 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $12.68 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $15.00 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $39.80 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $71.00 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $140.00 PCRD STMT 08-27-13
+PCRD0827700053299700000 5000 $217.28 PCRD STMT 08-27-13
+PCRD0827700053299704500 5000 $8.00 PCRD STMT 08-27-13
+PCRD0827700053299704500 5000 $9.95 PCRD STMT 08-27-13
+PCRD0827700053299704500 5000 $13.87 PCRD STMT 08-27-13
+PCRD0827700053299704500 5000 $19.92 PCRD STMT 08-27-13
+PCRD0827700053299704500 5000 $267.50 PCRD STMT 08-27-13
+Page 12
+91
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827700070399340900 5000 $9.98 PCRD STMT 08-27-13
+PCRD0827700070399340900 5000 $17.00 PCRD STMT 08-27-13
+PCRD0827700070399341300 5000 $7.71 PCRD STMT 08-27-13
+PCRD0827700070399341300 5000 $39.00 PCRD STMT 08-27-13
+PCRD0827700070399341300 5000 $47.32 PCRD STMT 08-27-13
+PCRD0827700070399341300 5000 $64.98 PCRD STMT 08-27-13
+PCRD0827700070399341300 5000 $66.41 PCRD STMT 08-27-13
+PCRD0827700070399700000 5000 $181.85 PCRD STMT 08-27-13
+PCRD0827700070399700000 5000 $209.85 PCRD STMT 08-27-13
+PCRD0827700070399700200 5000 $120.73 PCRD STMT 08-27-13
+PCRD0827700070399702700 5000 $350.00 PCRD STMT 08-27-13
+PCRD0827700070399708000 5000 $14.39 PCRD STMT 08-27-13
+PCRD0827700070399718000 5000 $55.92 PCRD STMT 08-27-13
+PCRD0827700070399718000 5000 $80.00 PCRD STMT 08-27-13
+PCRD0827700070399718000 5000 $154.73 PCRD STMT 08-27-13
+PCRD0827700070399718000 5000 $171.72 PCRD STMT 08-27-13
+PCRD0827700070399718000 5000 $380.00 PCRD STMT 08-27-13
+PCRD0827700070399741600 5000 $36.62 PCRD STMT 08-27-13
+PCRD0827700070399741600 5000 $230.00 PCRD STMT 08-27-13
+PCRD0827700070399741600 5000 $305.00 PCRD STMT 08-27-13
+PCRD0827700071399325600 5000 $255.64 PCRD STMT 08-27-13
+PCRD0827700071399700000 5000 $56.07 PCRD STMT 08-27-13
+PCRD0827700071399900000 5000 $225.83 PCRD STMT 08-27-13
+PCRD0827700071399900000 5000 $309.00 PCRD STMT 08-27-13
+PCRD0827700071399901600 5000 $13.95 PCRD STMT 08-27-13
+PCRD0827700071399902000 5000 -$33.88 PCRD STMT 08-27-13
+PCRD0827700071399902000 5000 -$12.27 PCRD STMT 08-27-13
+PCRD0827700071399902000 5000 $43.54 PCRD STMT 08-27-13
+PCRD0827700071399902000 5000 $159.00 PCRD STMT 08-27-13
+PCRD0827700071399902000 5000 $260.96 PCRD STMT 08-27-13
+PCRD0827700071399902000 5000 $948.00 PCRD STMT 08-27-13
+PCRD0827700071399992000 5000 $5.29 PCRD STMT 08-27-13
+PCRD0827700071399992000 5000 $1,119.00 PCRD STMT 08-27-13
+PCRD0827700074399700000 5000 $250.00 PCRD STMT 08-27-13
+PCRD0827700300199033300 5000 $162.80 PCRD STMT 08-27-13
+PCRD0827700970699990000 5000 $456.00 PCRD STMT 08-27-13
+PCRD0827700970699990000 5000 $1,998.20 PCRD STMT 08-27-13
+PCRD0827701007199697100 5000 $31.94 PCRD STMT 08-27-13
+PCRD0827701007199697100 5000 $52.47 PCRD STMT 08-27-13
+PCRD0827701008199697100 5000 $6.79 PCRD STMT 08-27-13
+PCRD0827701008199697100 5000 $47.72 PCRD STMT 08-27-13
+PCRD0827701011199697100 5000 $19.26 PCRD STMT 08-27-13
+PCRD0827701012199697100 5000 $26.17 PCRD STMT 08-27-13
+PCRD0827701012199697100 5000 $47.96 PCRD STMT 08-27-13
+PCRD0827701014199697100 5000 $35.98 PCRD STMT 08-27-13
+PCRD0827701014199697100 5000 $59.12 PCRD STMT 08-27-13
+Page 13
+92
+Troy School District, ACH Debits, September 2013
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+PCRD0827701015199697100 5000 $21.67 PCRD STMT 08-27-13
+PCRD0827701050299697200 5000 $29.09 PCRD STMT 08-27-13
+PCRD0827701050299697200 5000 $33.28 PCRD STMT 08-27-13
+PCRD0827701052299697100 5000 $36.26 PCRD STMT 08-27-13
+PCRD0827701052299697100 5000 $49.35 PCRD STMT 08-27-13
+PCRD0827701053299697100 5000 $29.97 PCRD STMT 08-27-13
+PCRD0827701053299697100 5000 $37.96 PCRD STMT 08-27-13
+PCRD0827701053299697100 5000 $309.46 PCRD STMT 08-27-13
+PCRD0827701070399697100 5000 $73.13 PCRD STMT 08-27-13
+PCRD0827701070399700800 5000 $41.00 PCRD STMT 08-27-13
+PCRD0827701070399703000 5000 $200.00 PCRD STMT 08-27-13
+PCRD0827701071399697100 5000 $14.41 PCRD STMT 08-27-13
+PCRD0827701071399697100 5000 $88.15 PCRD STMT 08-27-13
+PCRD0827701071399697100 5000 $104.97 PCRD STMT 08-27-13
+PCRD0827701071399697100 5000 $243.52 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $5.00 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $15.00 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $23.35 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $29.57 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $29.57 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $29.57 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $31.90 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $43.04 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $60.15 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $61.69 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $66.95 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $79.76 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $114.22 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $163.43 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $226.73 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $286.00 PCRD STMT 08-27-13
+PCRD0827701150699999900 5000 $399.15 PCRD STMT 08-27-13
+$134,712.56 
+Page 14
+93
+Troy School District, Wire Transfers, September 2013
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0903401 101 A1003 -$753,353.87 PR TAXES 8/30 PAY
+W0904401 101 A1003 -$139,473.65 TSA FOR 8/30/13 PAY
+W0904402 101 A1003 -$3,520.00 MESP 8/30 PAY
+W0904403 101 A1003 -$2,416.31 NEXT GEN 8/26-9/1/13
+W0904403 101 A1023 $2,416.31 NEXT GEN 8/26-9/1/13
+W0904403 101 A1023 -$2,416.31 NEXT GEN 8/26-9/1/13
+W0904403 101 A1098 $2,416.31 NEXT GEN 8/26-9/1/13
+W0905401 101 A1003 -$8,671.27 HEALTHEQU HSA 83013PAY
+W0906401 520 A1011 -$16,994.01 SODEXO JULY13 INV
+W0906401 520 A1098 $16,994.01 SODEXO JULY13 INV
+W0906402 101 A1003 -$120,198.94 MPSERS UAAL STAB
+W0906402 101 A1098 $120,198.94 MPSERS UAAL STAB
+W0909401 304 A1016 -$200.00 DEBT-AGENT FEES
+W0909401 304 A1098 $200.00 DEBT-AGENT FEES
+W0909402 101 A1003 -$11,130.40 ADN AUG13 CLMS
+W0909402 101 A1098 $11,130.40 ADN AUG13 CLMS
+W0910401 101 A1003 -$632.54 PAYSCH ADM 8/13 FEES
+W0910401 101 A1098 $632.54 PAYSCH ADM 8/13 FEES
+W0911401 101 A1003 -$5,649.46 NEXT GEN 9/2-9/8/13
+W0911401 101 A1023 $5,649.46 NEXT GEN 9/2-9/8/13
+W0911401 101 A1023 -$5,649.46 NEXT GEN 9/2-9/8/13
+W0911401 101 A1098 $5,649.46 NEXT GEN 9/2-9/8/13
+W0911402 101 A1003 -$800,677.89 MPSERS MIP/BD/TDP83013
+W0911402 101 A1098 $800,677.89 MPSERS MIP/BD/TDP83013
+W0911403 101 A1003 -$7,965.19 MPSERS DC 8/30/13
+W0911403 101 A1098 $7,965.19 MPSERS DC 8/30/13
+W0912401 101 A1003 -$1,210.36 SALES TAX 8/2013
+W0912401 101 A1098 $1,210.36 SALES TAX 8/2013
+W0913401 529 A1003 -$2,226.87 TCC/WIA TRNS AUG 13
+W0913401 529 A1008 $2,226.87 TCC/WIA TRNS AUG 13
+W0913401 529 A1008 -$2,226.87 TCC/WIA TRNS AUG 13
+W0913402 101 A1003 -$1,595,779.33 PR TRNS 9/13/13
+W0913402 101 A1005 $5,398.29 PR TRNS 9/13/13
+W0913402 101 A1005 $1,590,381.04 PR TRNS 9/13/13
+W0913403 101 A1003 -$123,115.27 TSS SUB/HRLY PED 083013
+W0913403 101 A1098 $123,115.27 TSS SUB/HRLY PED 083013
+W0913404 101 A1003 -$18,524.79 TSS ADM PED083013
+W0913404 101 A1098 $18,524.79 TSS ADM PED083013
+W0913405 101 A1003 -$7,259.37 TSS TCC 083013
+W0913405 101 A1098 $7,259.37 TSS TCC 083013
+W0913406 101 A1006 -$2,567,832.13 BNK TRNS TXS RCD 9/12
+W0913406 304 A1016 $928,790.35 BNK TRNS TXS RCD 9/12
+W0913406 306 A1016 $1,256,598.70 BNK TRNS TXS RCD 9/12
+W0913406 312 A1016 $382,443.08 BNK TRNS TXS RCD 9/12
+W0916401 101 A1003 -$774,143.42 PR TXES 9/13/13
+W0918401 101 A1003 -$146,502.72 TSA 9/13/13
+Page 1
+94
+Troy School District, Wire Transfers, September 2013
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0918402 101 A1003 -$3,120.00 MESP 9/13/13
+W0918403 101 A1003 -$6,288.41 DIRECT ENERGY
+W0918403 101 A1098 $6,288.41 DIRECT ENERGY
+W0918404 101 A1003 -$4,889.88 NEXT GEN 9/9-9/15
+W0918404 101 A1023 $4,889.88 NEXT GEN 9/9-9/15
+W0918404 101 A1023 -$4,889.88 NEXT GEN 9/9-9/15
+W0918404 101 A1098 $4,889.88 NEXT GEN 9/9-9/15
+W0919401 101 A1003 -$8,546.27 HEALTH EQU HSA 9/13/13
+W0924401 101 A1003 -$868,909.07 MPSERS MIP/BD/TDP 091313
+W0924401 101 A1098 $868,909.07 MPSERS MIP/BD/TDP 091313
+W0924402 101 A1003 -$15,991.57 MPSERS DC 091313
+W0924402 101 A1098 $15,991.57 MPSERS DC 091313
+W0925401 101 A1003 -$1,604,170.46 PR TRNS 092713
+W0925401 101 A1005 $7,933.92 PR TRNS 092713
+W0925401 101 A1005 $1,596,236.54 PR TRNS 092713
+W0926401 101 A1003 -$5,540.58 NGE 9/16-9/22
+W0926401 101 A1023 $5,540.58 NGE 9/16-9/22
+W0926401 101 A1023 -$5,540.58 NGE 9/16-9/22
+W0926401 101 A1098 $5,540.58 NGE 9/16-9/22
+W1400150 101 A1003 -$746,492.42 9/27/13 PR TAXES
+W1400152 101 A1003 -$8,726.27 HEALTHEQUITY CONTRIBUTION
+-$2,594,776.76 
+Page 2
+95
+5.D
+TO: Troy School District
+Board of Education
+ FROM: Mark S. Rajter
+Assistant Superintendent,
+Business Services
+BUSINESS 
+DEPARTMENT
+RE: Treasurer's Report
+4400 Livernois
+September, 2013
+Troy,  MI  48098
+248-823-4022
+Attached is the check register (including current period voids), a listing of ACH debits, wire
+transfers, and P-Card purchases made during the period.
+GENERAL  FUND (101) 2,775,516.56     
+GRANT FUND (120) 2,605.61            
+SPECIAL EDUCATION FUND (122) 42,357.39          
+FOOD SERVICE FUND (520) 3,196.19            
+TROY CAREER CENTER (529) 18,394.99          
+COMMUNITY EDUCATION FUND (530) 18,831.08          
+FACILITIES RENTAL FUND (535) -                    
+DEBT FUNDS (304, 306, 312) 23,065.00          
+BUILDING & SITE FUNDS (404, 499) -                    
+INTERNAL SERVICE FUND (681) -                    
+STUDENT ACTIVITY FUND (700, 701) 58,242.98          
+MEMORIAL SCHOLARSHIP FUND (750) -                    
+I certify that the disbursements listed on the attached check registers and listing of ACH debits
+wire transfers, and P-Card purchases were payments made for obligations of the Troy School 
+District and that all materials or services listed on the invoices have been received or performed.
+Mark S. Rajter
+Assistant Superintendent, Business Services
+96
+DATE:
+Total - General Fund 2,820,479.56$  
+Total - Special Revenue Funds 40,422.26$       
+Total - Other Funds 81,307.98$       
+TOTAL CHECK DISBURSEMENTS 2,942,209.80$   2,942,209.80$   
+ACH DEBITS 12,570.56$        
+OUTGOING WIRE TRANSFERS 2,594,776.76$   
+P-CARD PURCHASES 122,142.00$      
+PRIOR PERIOD VOID DISBURSEMENTS (1,337.50)$        
+TOTAL DISBURSEMENTS IN PERIOD 5,670,361.62$   
+November 7, 2013
+Troy School District
+Summary Revenue and Expense Budget Report
+General Fund (Funds 101, 120, 122)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Local sources 36,487,546 16,912,365 19,575,181 53.65%
+State sources 84,734,723 107,252 84,627,471 99.87%
+Federal sources 3,401,549 0 3,401,549 100.00%
+Incoming Transfers / Other 7,623,271 1,535,418 6,087,853 79.86%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Instruction:
+Basic Programs 71,367,501 8,883,604 850,575 61,633,322 86.36%
+Added Needs 15,765,045 1,904,365 29,012 13,831,668 87.74%
+Adult/Continuing Education 683,802 129,058 277,326 277,418 40.57%
+Total Instruction 87,816,348 10,917,027 1,156,913 75,742,408 86.25%
+Support Services:
+Pupil  9,285,925 1,009,252 693,114 7,583,559 81.67%
+Instructional Staff 6,793,066 1,132,971 491,633 5,168,462 76.08%
+General Administration 2,656,286 451,874 90,501 2,113,911 79.58%
+School Administration 7,259,330 1,588,539 13,075 5,657,716 77.94%
+Business Services 2,448,661 244,848 49,270 2,154,543 87.99%
+Operations/Maintenance 8,485,556 2,109,150 3,032,274 3,344,132 39.41%
+Pupil Transportation 3,450,286 314,136 11,378 3,124,772 90.57%
+Central Services 1,808,725 573,695 38,609 1,196,421 66.15%
+Other Support Services (Athletics and Other) 1,682,903 338,241 35,208 1,309,454 77.81%
+Total Support Services 43,870,738 7,762,706 4,455,062 31,652,970 72.15%
+Community Services 81,974 25,761 168 56,045 68.37%
+Outgoing Transfers / Other 36,141 0 0 36,141 100.00%
+Excess Revenue over (under) Expenditures 441,888
+Fund Balance - September  1, 2013 20,989,250
+97
+Revenue Approved Budget  Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 132,247,089$     18,555,035$            113,692,054$            85.97%
+Total Expenditures 131,805,201$     18,705,494$            5,612,143$           107,487,564$            81.55%
+Fund Balance - June 30, 2014 21,431,138$         
+Troy School District
+Summary Revenue and Expense Budget Report
+Consolidated Special Revenue Funds (520, 529, 530, 535)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Local 4,919,123 1,175,950 3,743,173 76.09%
+State 110,367 0 110,367 100.00%
+Federal 3,786,411 115,941 3,670,470 96.94%
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 1,465,825 318,515 0 1,147,310 78.27%
+Employee Benefits 802,637 134,868 0 667,769 83.20%
+Purchased Services 4,115,662 293,217 222,017 3,600,428 87.48%
+Supplies/Materials 1,718,546 19,358 30,852 1,668,336 97.08%
+Capital Outlay 10,000 0 0 10,000 100.00%
+Other Expenditures 97,925 4,688 0 93,237 95.21%
+Outgoing Transfers 122,488 0 0 122,488 100.00%
+Excess Revenue over (under) Expenditures 482,818
+Fund Balance - September  1, 2013 2,174,233
+98
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 8,815,901$            1,291,891$          7,524,010$              85.35%
+Total Expenditures 8,333,083$            770,646$             252,869$                  7,309,568$              87.72%
+Fund Balance - June 30, 2014 2,657,051$             
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Food Service (520)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Local 2,371,383 266,488 2,104,895 88.76%
+State 110,367 0 110,367 100.00%
+Federal 1,002,930 72,328 930,602 92.79%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 1,793,262 33,115 23,494 1,736,653 96.84%
+Supplies/Materials 1,588,555 4,685 4,698 1,579,172 99.41%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 8,000 238 0 7,762 97.03%
+Outgoing Transfers 9,075 0 0 9,075 100.00%
+Excess Revenue over (under) Expenditures 85,788
+Fund Balance - September  1, 2013 941,289
+99
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 3,484,680$            338,816$             3,145,864$              90.28%
+Total Expenditures 3,398,892$            38,038$               28,192$                    3,332,662$              98.05%
+Fund Balance - June 30, 2014 1,027,077$             
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Troy Career Center (529)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Local 0 0 0 0.00%
+State 0 0 0 0.00%
+Federal 2,783,481 43,613 2,739,868 98.43%
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 837,579 207,865 0 629,714 75.18%
+Employee Benefits 512,612 87,095 0 425,517 83.01%
+Purchased Services 1,302,290 126,670 171,072 1,004,548 77.14%
+Supplies/Materials 25,000 3,835 3,844 17,321 69.28%
+Capital Outlay 5,000 0 0 5,000 100.00%
+Other Expenditures 81,000 4,200 0 76,800 94.81%
+Outgoing Transfers 20,000 0 0 20,000 100.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance - September  1, 2013 0
+100
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 2,783,481$            43,613$               2,739,868$              98.43%
+Total Expenditures 2,783,481$            429,665$             174,916$                  2,178,900$              78.28%
+Fund Balance - June 30, 2014 0$                            
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Adult & Community Education (530)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Local 2,366,000 870,996 1,495,004 63.19%
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 628,246 110,650 0 517,596 82.39%
+Employee Benefits 290,025 47,772 0 242,253 83.53%
+Purchased Services 878,370 115,844 27,450 735,076 83.69%
+Supplies/Materials 104,991 10,838 22,311 71,842 68.43%
+Capital Outlay 5,000 0 0 5,000                         100.00%
+Other Expenditures 8,925 250 0 8,675                         97.20%
+Outgoing Transfers 93,413 0 0 93,413 100.00%
+Excess Revenue over (under) Expenditures 357,030
+Fund Balance - September  1, 2013 1,192,944
+101
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 2,366,000$            870,996$             1,495,004$              63.19%
+Total Expenditures 2,008,970$            285,354$             49,761$                    1,673,855$              83.32%
+Fund Balance - June 30, 2014 1,549,974$             
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Facilities Rental Fund (535)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Local 181,740 38,466 143,274 78.83%
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 141,740 17,589 0 124,151 87.59%
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Outgoing Transfers 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 40,000
+Fund Balance - September  1, 2013 40,000
+102
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 181,740$               38,466$               143,274$                 78.83%
+Total Expenditures 141,740$               17,589$               0$                              124,151$                 87.59%
+Fund Balance - June 30, 2014 80,000$                  
+Troy School District
+Summary Revenue and Expense Budget Report
+Debt Service Funds (304, 306, 307, 312)
+September  YTD - Fiscal Year 2014
+Property Taxes 16,145,934 7,779,830 8,366,104 51.82%
+Earnings on Investments 3,800 62 3,738 98.37%
+Proceeds from Bond Refunding 0 0 0.00%
+Incoming Transfers/Other 0 0 0.00%
+Redemption of Principal 8,660,000 0 0 8,660,000 100.00%
+Interest on Debt 3,324,912 0 3,324,912 100.00%
+Other Expenditures 303,000 12,742 0 290,258 95.79%
+Outgoing Transfers 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 3,861,822
+Fund Balance - September  1, 2013 (2,618,181)
+103
+Revenue
+Approved 
+Budget Actual Amount Total Uncollected
+Percent Uncollected 
+(Overcollected)
+Total Revenue 16,149,734$      7,779,892$        8,369,842$         51.83%
+Expenditures
+Approved 
+Budget Actual Amount
+Total 
+Encumbered Available Budget Percent Available
+Total Expenditures 12,287,912$      12,742$             0$                     12,275,170$       99.90%
+Fund Balance - June 30, 2014 1,243,641$         
+Troy School District
+Summary Revenue and Expense Budget Report
+Capital Projects Maintenance Fund (499)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Earnings on Investments 0 0 0 100.00%
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Purchased Services 0 0 0 0 0.00%
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 0 86,630 3,370 (90,000) 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance - September  1, 2013 804,992
+104
+Revenue Approved Budget Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 0$                          -$                     0$                            100.00%
+Total Expenditures 0$                          86,630$               3,370$                        (90,000)$                  0.00%
+Fund Balance - June 30, 2014 804,992$                
+Troy School District
+Summary Revenue and Expense Budget Report
+Internal Service Fund (681)
+September  YTD - Fiscal Year 2014
+Percent Uncollected 
+Earnings on Investments 500 80 420 84.00%
+Incoming Transfers/Other 23,500 23,500 100.00%
+Expenditures Amended Budget Actual Amount Total Encumbered Available Budget Percent Available
+VRIP Expense 25,000 0 25,000 100.00%
+Other Expenditures 0 0 0.00%
+Excess Revenue over (under) Expenditures (1,000)
+Fund Balance - September  1, 2013 25,000
+Revenue Amended Budget Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 24,000$                 80$                      23,920$                   99.67%
+Total Expenditures 25,000$                 -$                     0$                               25,000$                   100.00%
+Fund Balance - June 30, 2014 24,000$                  
+105
+      6. A.   11.12.13 
+6. A. PERSONNEL 
+ CONSIDERATION:  ELEMENTARY AND SECONDARY 
+New Hires 
+It is recommended that the Board of Edu cation approves the issuance of  
+probationary contracts to the following teachers for the 2013-2014 school year. 
+Caitlin Goike – .5 FTE Resource Room, Larson Middle School 
+Ashleigh Horler – 1.0 FTE Resource Room, Troy High School 
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ Moved by          
+ Supported by         
+BE IT THEREFOR E RESOLVED that the Board of Education takes action to approve 
+the aforementioned personnel recommendations as stated above. 
+ Yes       
+ No       
+106
+BIOGRAPHICAL SKETCH – NEW TEACHERS 
+November 12, 2013  
+Caitlin Goike .5 FTE Resource Room, Larson Middle School 
+Educational Background: B.S., Western Michigan University, Kalamazoo, April 2013 
+  Major: Spec Ed Learning Dis & Cog Imp/EI   Minor: LA  
+ Michigan Provisional Certificate, July 2013 
+Teaching Experience: Intern Teacher, Heidelberg High School, Heidelberg, Germany 
+    January 2013 – April 2013 
+ Intern Teacher, Kalamazoo Public Schools, Kalamazoo, MI 
+   September 2012 – December 2012 
+Resident Community: Washington, Michigan 
+Ashleigh Horler 1.0 FTE Resource Room, Troy High School 
+Educational Background: B.S., Central Michigan University, Mt Pleasant, May 2010 
+  Majors: Spec Ed Cog Impaired and Physical Education  
+ Michigan Provisional Certificate, June 2010 
+Teaching Experience: Spec Ed Teacher, South Lyon Community Schools, South Lyon, MI 
+    June 2011 – November 2013 
+ Guest Teacher, South Lyon Community Schools, South Lyon, MI 
+   October 2010 – June 2011 
+Resident Community: Washington, Michigan 
+107
+ 6. B.   11.12.13 
+6. PERSONNEL 
+B.      REPORT:  Negotiations Update  
+Mr. Jasen Witt, Assistant Superintendent of Human Resources , 
+will provide the Board with the latest updates regarding 
+negotiations. 
+RECOMMENDED ACTION:  This evening’s report will be presented by Mr. 
+Jasen Witt.  No action is required.   
+108
+     8. A.        11.12.13 
+8. BUSINESS 
+ A.  CONSIDERATION:  SUMMER TAX COLLECTIONS 
+Approve the Summer Tax Collection Resolution. 
+RECOMMENDED ACTION:  Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By: ______________________________ 
+Supported By: ______________________________ 
+BE IT THEREFORE RESOLVED that the Troy School District’s Board of 
+Education intends to continue summer tax collections for the 20 14-2015 fiscal 
+year and will notify the City of Troy of this action and that a copy of the attached 
+resolution be incorporated as part of the official minutes of the Board of 
+Education. 
+Yes: ____________ 
+No: ____________ 
+109
+     8. A.        11.12.13 
+TROY SCHOOL DISTRICT 
+TROY, MICHIGAN 48098 
+ANNUAL SUMMER TAX RESOLUTION 
+ WHEREAS, this Board of Ed ucation by resolution of November 12, 
+2013, determined to impose a summer property tax levy to collect one -half of 
+school property taxes, including debt services, upon property located within the 
+Troy School District, beginning with 20 14 and continuing from year to year until 
+specifically revoked by this Board of Education. 
+ NOW, THEREFORE BE IT RESOLVED THAT: 
+ 1.  This Board of Education, pursuant to 1976 P .A. 451, as amended, 
+hereby invokes a summer tax levy of one -half of school property taxes, including 
+debt service, continuing with 20 14, and continuing from year to year until 
+specifically revoked by this Board of Education, and requests each city in which 
+this district is located and in which a local school district or city is concurrently 
+imposing a summer tax levy to collect those summer taxes. 
+ 2.  The Superintendent or his/her designee is authorized and directed 
+to forward to the governing body of each city in which this district is located and 
+in which a local school district or city is concurrently imposing a summer tax levy, 
+a copy of this Board’s resolution requesting that each such city agree to coll ect 
+the summer tax levy for 20 14 in the amount specified in this resolution.  Such 
+forwarding of the resolution and the request to collect the summer tax levy shall 
+be sent so that they are received by the appropriate governi ng bodies before 
+January 1, 2014. 
+ 3.  The Superintendent or his/her designee is authorized and directed 
+to negotiate on behalf of this District with the governing body of each city in 
+which the District is located for the reasonable expenses for collection of the 
+District’s summer tax levy that the city may bill und er MCLA 380.1612.  Any such 
+proposed agreement shall be brought before this Board for its approval or 
+disapproval. 
+ 4.  All resolutions and parts of resolutions insofar as they conflict with 
+the provisions of this resolution be and the same are hereby rescinded. 
+ Yes: Members 
+ No: Members 
+110
+     8. A.        11.12.13 
+Resolution declared adopted.  
+_____________________________Secretary, Board of Education 
+ The undersigned, duly qualified and acting Secretary of the Board of 
+Education of Troy School District, Troy, Michigan, hereby certifies that the 
+foregoing constitutes a true and complete copy of a resolution adopted by said 
+Board of Education at a regular meeting held on November 12, 2013, the original 
+of which is part of the Board’s minutes.  The undersigned further certi fies that 
+notice of the meeting was given to the public pursuant to the provisions of the 
+“Open Meetings Act” (Act 267, P.A. 1976, as amended). 
+____________________________ 
+Secretary, Board of Education 
+111
+         8. B. 11.12.13 
+8. BUSINESS 
+ B. REPORT: 2012-2013 AUDIT REPORT 
+Teresa Pollock, Audit Partner from Plante  Moran, will make a 
+presentation to the Board of Education.  A draft copy of the 
+District’s Audit Report was presented to the Board at the 
+October 15, 2013 workshop. 
+RECOMMENDED ACTION:  This is a report. 
+112
+plantemoran.com 
+Troy School District 
+Board Presentation 
+FOR YEAR ENDED JUNE 30, 2013 
+113
+Governmental Funds  
+Revenue and Expenditures 
+June 30, 2013 
+Special 
+Expenditures 131,851,755     7,157,026     357,176            18,098,435    
+Excess of Revenue (Under) Over Expenditures (1,208,357)        981,536       (356,977)           (1,231,356)    
+Other Financing Sources (Uses)
+  Transfers In 700,012            -              500,000            145,528        
+  Transfers Out (500,000)           (700,012)      -                   (145,528)       
+  Payment to bond escrow agent (43,428,352)   
+  Proceeds from bond refunding 43,580,000    
+Total Other Financing Sources (Uses) 200,012            (700,012)      500,000            151,648        
+Net Change in Fund Balances (1,008,345)        281,524       143,023            (1,079,708)    
+Fund Balances (Deficit) - Beginning of year 23,078,581       2,335,433     750,560            (1,859,077)    
+114
+plantemoran.com 
+1 
+General Fund
+Revenue 
+Funds
+Capital Project 
+Funds
+Debt Service 
+Funds
+Revenue 130,643,398$    8,138,562$   199$                 16,867,079$  
+Fund Balances (Deficit)- End of year 22,070,236$     2,616,957$   893,583$           (2,938,785)$   
+General Fund Revenue 
+June 30, 2013 
+$130,562,761 $130,643,398 
+$140,000,000  
+$7,646,457  $7,684,248  
+$100,000,000  
+$80,000,000  
+$82,916,643  $83,529,139  
+$60,000,000  
+$40,000,000  
+$20,000,000  
+$36,176,489 $35,999,921  
+$0  
+Budget* Actual* 
+*Excluding other financing sources 
+115
+plantemoran.com 
+$3,823,172  $3,430,090 
+$120,000,000  
+Local 
+ State 
+ Federal 
+ Interdistrict and Other 
+2 
+General Fund Expenditures 
+June 30, 2013 
+$132,811,963 $131,851,755 
+$140,000,000  
+$120,000,000  
+$43,794,462 $43,487,079  
+$100,000,000  
+$80,000,000  
+$60,000,000  
+$89,017,501  $88,364,676  
+$40,000,000  
+$20,000,000  
+$0  
+Budget* Actual* 
+*Excluding other financing uses 
+116
+plantemoran.com 
+Instruction 
+ Support and Other 
+3 
+Instructional Expenditures 
+Comparison to Oakland County Schools 
+100% 
+90% 
+80% 
+70% 
+60% 
+50% 
+40% 
+20% 
+10% 
+0% 
+* Oakland County data based on 2011-2012 figures. Instructional 
+expenditures includes only direct contact between teachers, aides 
+and pupils. 
+117
+plantemoran.com 
+67% 61% 
+30% 
+Troy Schools June 30, 2013 
+ Oakland County Schools: Avg % 
+4 
+General and Durant Fund 
+Historical Fund Balance 
+As of June 30 
+ $45,000,000  
+ $40,688,281  
+ $40,000,000  
+ $35,000,000  
+ $30,000,000  
+ $19,756,837  
+ $20,000,000  
+ $20,594,715  
+ $23,078,581  
+ $18,861,061  
+ $15,000,000  
+ $10,000,000  
+ $5,000,000  
+ $-  
+2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 
+Combined Fund  Balance of General Fund and Durant Fund 
+DISTRICT COST SAVING INITIATIVES 
+2004-2005: $5.5 million ERI 
+2008-2009: $4.9 million ERI 
+2009-2010: Privatization of Food Service, Custodial, and Transportation 
+118
+plantemoran.com 
+5 
+ $31,043,131   $28,896,195  
+ $30,027,579   $29,807,152  
+ $22,070,236  
+ $25,000,000  
+History of General Fund and Durant Fund 
+Balance as a Percentage of Expenditures 
+As of June 30 
+35% 
+30% 
+25% 
+21.71% 
+20% 
+18.11% 
+16.74% 
+14.09% 13.70% 14.41% 
+Recommended: 
+10.66% 
+15 – 20% 
+10% 
+5% 
+0% 
+2005 2006 2007 2008 2009 2010 2011 2012 2012 2013 
+State  
+Average  
+(Excluding 
+DPS) 
+119
+plantemoran.com 
+22.89% 
+22.25% 21.83% 
+15% 
+MSBO 
+6 
+plantemoran.com 
+THANK YOU 
+7 
+120
+         8. C. 11.12.13 
+8. BUSINESS 
+  C.     CONSIDERATION: 2012-2013 AUDIT REPORT 
+Administration recommends that the Board of Education accept 
+the financial statements as presented by Teresa Pollock, Audit 
+Partner from Plante Moran. 
+RECOMMENDED ACTION:  Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By: ____________________________ 
+Supported By: _______________________ 
+Be it therefore resolved that the Board of Education accept and approve the 
+Troy School District’s audited 20 13 financial statements as presented by 
+Plante Moran. 
+Yes:  ______________ 
+No:  ______________ 
+121
+ 10. A.   11.12.13 
+10. OTHER 
+A. REPORT:  2013 Bond Election Review & Timeline  
+Dr. Fowler will review the results of the November 5 th election 
+of the District’s 2013  Bond Proposal  and briefly discuss the 
+proposed timeline for the rollout of bond projects.   
+RECOMMENDED ACTION:  This is a report – no action is necessary.  
+122
+                                      11. A. 11.12.13 
+11. A.  CLOSED SESSION 
+  CONSIDERATION:  Negotiations  
+The Board must pass a resolution to go into closed session  to discuss 
+negotiations. Following the passage of the resolution, the Board of  
+Education will go into closed session.  No additional business will take place 
+after this time, other than to officially adjourn the meeting. 
+RECOMMENDED ACTION:  Adopt the following resolution. 
+   Moved by  
+   Supported by  
+Be it therefore res olved that, as permitted in the Michigan Open Meetings Act, Public 
+Act 267, Section 8 (c), the Troy Board of Education shall go into closed session to discuss 
+negotiations. 
+Roll call vote.  
+Underwood 
+Edmunds 
+Fleming 
+Hauff 
+Miletti 
+Philippart 
+Schmidt 
+123

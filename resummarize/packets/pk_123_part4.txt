@@ -1,0 +1,1784 @@
+               ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903148   01/10/19 27049    RYAN SEAN           700070399906000  5000     GLS SWIM CAPS              0.00           132.75
+A1003     1903148   01/10/19 27049    RYAN SEAN           700070399906700  5000     BYS SWIM CAPS              0.00         1,146.00
+TOTAL CHECK                                                                                                    0.00         1,278.75
+A1003     1903152   01/10/19 26558    MILLER DIANE        700053299708000  5000     BOULAN PETTY CASH          0.00            21.19
+A1003     1903152   01/10/19 26558    MILLER DIANE        700053299735200  5000     BOULAN PETTY CASH          0.00           110.00
+TOTAL CHECK                                                                                                    0.00           131.19
+A1003     1903153   01/10/19 27646    ZIP MEDICAL SUPPLIE 700071399992000  5000     TRNING RM SUPPLIES         0.00           145.00
+A1003     1903154   01/10/19 12254    MOLLY MYERS         700070399718000  5000     REIMB ST GOVT EXP          0.00            85.78
+A1003     1903157   01/10/19 27795    NFINITY ATHLETIC LL 700071399900000  5000     42 PAIRS NFINITY VE        0.00         3,787.62
+A1003     1903158   01/10/19 19962    NIRMALA SRIVATSAN   700074399347000  5000     REIMB SO SUPPLIES          0.00            52.75
+A1003     1903167   01/10/19 19962    PREMALATHA GARAPATI 700074399347000  5000     REIMB SO SUPPLIES          0.00            34.90
+A1003     1903172   01/10/19 10086    RAVITHAS MUTHIAH    700074399681000  5000     REISSUE CK1900334          0.00           150.00
+A1003     1903173   01/10/19 19962    RICHARD LISOWSKI    700051299702700  5000     REIMB ROBOTICS EXP         0.00         1,190.07
+A1003     1903174   01/10/19 11920    ROCHESTER COMMUNITY 700052299700000  5000     LARSON MS CHEER            0.00           125.00
+A1003     1903176   01/10/19 27248    S & S II CHARTERS & 700070399710100  5000     032119 DEP HOSA TRI        0.00           800.00
+A1003     1903178   01/10/19 10132    SANDY NOLAN         700071399904700  5000     REIMB XC TEAM PICS         0.00            31.58
+A1003     1903186   01/10/19 12254    STEVE HASLER        700070399907700  5000     122818 JV BYS SCRIM        0.00            50.00
+A1003     1903192   01/10/19 27813    TAGGERWEAR INC      700070399911000  5000     75% DEPOSIT                0.00           792.72
+A1003     1903192   01/10/19 27813    TAGGERWEAR INC      700070399911000  5000     75% DEPOSIT                0.00           859.44
+A1003     1903192   01/10/19 27813    TAGGERWEAR INC      700070399911000  5000     75% DEPOSIT                0.00         1,239.75
+A1003     1903192   01/10/19 27813    TAGGERWEAR INC      700070399911000  5000     75% DEPOSIT                0.00         1,827.95
+TOTAL CHECK                                                                                                    0.00         4,719.86
+A1003     1903194   01/10/19 28092    TEAMLEADER          700071399900000  5000     SEE ESTIMATE:  CQ14        0.00         1,409.70
+A1003     1903194   01/10/19 28092    TEAMLEADER          700071399900000  5000     SEE ESTIMATE CQ1474        0.00            59.70
+A1003     1903194   01/10/19 28092    TEAMLEADER          700071399900000  5000     SHIPPING                   0.00           193.50
+TOTAL CHECK                                                                                                    0.00         1,662.90
+A1003     1903196   01/10/19 27636    TINSLEY ALISON      700071399900000  5000     STUNT CAMPS 11/28/1        0.00           550.00
+A1003     1903201   01/10/19 12326    VARSITY SPIRIT CORP 700070399900000  5000     THS CHEER APPAREL          0.00         3,305.25
+A1003     1903203   01/10/19 10221    VENTE JENNIFER      700051299708000  5000     SMITH PETTY CASH           0.00            29.98
+A1003     1903203   01/10/19 10221    VENTE JENNIFER      700051299717600  5000     SMITH PETTY CASH           0.00           181.98
+A1003     1903203   01/10/19 10221    VENTE JENNIFER      700051299700000  5000     SMITH PETTY CASH           0.00            49.98
+TOTAL CHECK                                                                                                    0.00           261.94
+A1003     1903205   01/10/19 21913    VISUAL SPORTS NETWO 700070399900000  5000     THS CHEER BANNER           0.00           175.00
+91
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   49
+DATE: 03/13/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903207   01/10/19 12360    WARDS NATURAL SCIEN 700070399701600  5000     PRIOR YEAR CREDIT          0.00          -485.82
+A1003     1903207   01/10/19 12360    WARDS NATURAL SCIEN 700070399701600  5000     PREV YEAR DUP PMT          0.00           -75.38
+A1003     1903207   01/10/19 12360    WARDS NATURAL SCIEN 700070399701600  5000     RAT DISSEC/PTO GRNT        0.00         1,489.10
+TOTAL CHECK                                                                                                    0.00           927.90
+A1003     1903214   01/10/19 19962    YOUNG SOO           700051299702700  5000     TEAM 4- SHIRTS             0.00           314.09
+A1003     1903216   01/10/19 26615    BESPOKE GOODS LLC   700070399901000  5000     LAX HELMET DECALS          0.00           155.00
+A1003     1903222   01/17/19 19962    AMI SHAH            700052299702700  5000     REIMB ROBOTICS EXP         0.00           205.30
+A1003     1903227   01/17/19 27843    ATHENS ORCHESTRA PA 700071399353300  5000     NEW ORLEANS TRIP           0.00         1,146.00
+A1003     1903228   01/17/19 11585    SPORT SUPPLY GROUP  700070399907700  5000     B BKTBLL TEAM APPAR        0.00           504.00
+A1003     1903228   01/17/19 11585    SPORT SUPPLY GROUP  700071399907700  5000     HYPRELT LS SHOOTER         0.00           282.00
+TOTAL CHECK                                                                                                    0.00           786.00
+A1003     1903229   01/17/19 11739    BALDWIN MARY        700052299352000  5000     S&E ADJUDICATION           0.00           100.00
+A1003     1903232   01/17/19 24697    BARRY LISA          700052299700000  5000     LARSON PETTY CASH          0.00            14.14
+A1003     1903232   01/17/19 24697    BARRY LISA          700052299700000  5000     LARSON PETTY CASH          0.00           139.35
+A1003     1903232   01/17/19 24697    BARRY LISA          700052299708800  5000     LARSON PETTY CASH          0.00            45.80
+A1003     1903232   01/17/19 24697    BARRY LISA          700052299708800  5000     LARSON PETTY CASH          0.00             8.19
+TOTAL CHECK                                                                                                    0.00           207.48
+A1003     1903236   01/17/19 28119    RIS JR WILLIAM MART 700071399907700  5000     B BKTBLL SR  BANNER        0.00           350.00
+A1003     1903239   01/17/19 25824    BRAUN AMY ELISABETH 700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903240   01/17/19 11113    BROWNLEE SHEILA B   700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903256   01/17/19 25782    DICRISTOFARO RENEE  700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903267   01/17/19 19962    ERIKA RESH          700052299702700  5000     ROBOTICS REIMB             0.00           200.00
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700071399320100  5000     AHS FIELD TRIP             0.00           831.51
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700011199900600  5000     SCHROEDER FIELD TRI        0.00           457.24
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700009199393000  5000     WATTLES FIELD TRIP         0.00           337.57
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           225.80
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           451.60
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700015199393000  5000     TROY UNION FIELD TR        0.00           479.82
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           496.76
+A1003     1903269   01/17/19 26082    FIRST GROUP AMERICA 700016199700000  5000     BARNARD FIELD TRIP         0.00           534.02
+TOTAL CHECK                                                                                                    0.00         3,814.32
+A1003     1903270   01/17/19 23064    FIVE STAR LANES INC 700070399743600  5000     TROY HIGH LANE FEES        0.00           753.00
+A1003     1903271   01/17/19 10751    FOLLETT SCHOOL SOLU 700010199701300  5000     HILL BOOK FAIR             0.00         2,897.98
+A1003     1903271   01/17/19 10751    FOLLETT SCHOOL SOLU 700008199701300  5000     PROVIDE ITEMS ON QU        0.00           494.49
+A1003     1903271   01/17/19 10751    FOLLETT SCHOOL SOLU 700017199701300  5000     PROVIDE ITEMS ON QU        0.00           350.59
+TOTAL CHECK                                                                                                    0.00         3,743.06
+92
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   50
+DATE: 03/13/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903280   01/17/19 27174    HILLA NICOLE M      700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903283   01/17/19 10930    HOSA                700071399710100  5000     REG 9 LDRSHP CONF          0.00         2,760.00
+A1003     1903283   01/17/19 10930    HOSA                700074399711100  5000     LOCL OFFCR DEV CONF        0.00            25.00
+A1003     1903283   01/17/19 10930    HOSA                700074399711100  5000     REG 9 LDRSHP CONF          0.00         5,850.00
+TOTAL CHECK                                                                                                    0.00         8,635.00
+A1003     1903287   01/17/19 11039    IMPRESSION CENTER   700071399524000  5000     OPEN PO FOR ATHENS         0.00         1,710.00
+A1003     1903287   01/17/19 11039    IMPRESSION CENTER   700071399352000  5000     SWEATSHIRT BLANKET         0.00           750.00
+TOTAL CHECK                                                                                                    0.00         2,460.00
+A1003     1903290   01/17/19 19962    JENNIFER BURKE      700201699921000  5000     REIMB FIG SKT EXP          0.00         1,096.00
+A1003     1903294   01/17/19 14162    JUNIOR LIBRARY GUIL 700050299708000  5000     $192.00:  SHELF REA        0.00         1,177.80
+A1003     1903298   01/17/19 26717    KINGSTON JESSICA    700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903299   01/17/19 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            44.70
+A1003     1903305   01/17/19 12175    LAUREN SMITH        700206399524000  5000     2018 STU GOVT SCHRS        0.00           250.00
+A1003     1903309   01/17/19 27173    LOCH JAIME LISA     700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903310   01/17/19 26750    LOVELL KRISTIN      700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903317   01/17/19 27145    MCCARTY BETH        700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903320   01/17/19 28086    WEST MI BASEBALL FR 700071399524000  5000     OPEN PO FOR ATHENS         0.00           269.61
+A1003     1903321   01/17/19 11441    MI HIGH SCHOOL ATHL 700070399990000  5000     TROY HS/B SCCR SEMI        0.00         2,692.30
+A1003     1903325   01/17/19 11307    NIRMALA SRIVATSAN   700074399347000  5000     REIMB IAE SO SUPPLI        0.00           637.67
+A1003     1903330   01/17/19 10132    PHIL WILS           700071399906700  5000     REIMB B SWIM DINNER        0.00           147.92
+A1003     1903333   01/17/19 27875    POLYCHRONOU CHRISTI 700201699921000  5000     FIG SKATE COACH            0.00         1,161.60
+A1003     1903337   01/17/19 11175    MICHAEL CRAIG C     700070399732000  5000     THS SNOWCOMING             0.00           450.00
+A1003     1903338   01/17/19 19619    REED DAVID          700052299352000  5000     S&E ADJUDICATION           0.00           100.00
+A1003     1903346   01/17/19 11961    SAN MARINO CLUB     700070399906000  5000     GLS SWIM BANQUET           0.00         1,509.74
+A1003     1903351   01/17/19 24254    SHOGREN NICOLE E    700052299352000  5000     S&E ADJUDICATION           0.00           100.00
+A1003     1903352   01/17/19 10412    SINNING JULIE A     700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903359   01/17/19 10286    SUTHY SIVALINGAM    700053299702700  5000     REIMB ROBOTICS EXP         0.00         2,193.11
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     883199 062718 CREDI        0.00        -1,195.64
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     883199 101518 CREDI        0.00           -19.54
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00            82.11
+93
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   51
+DATE: 03/13/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00           102.45
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00           345.95
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00           823.96
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,408.85
+A1003     1903361   01/17/19 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,472.07
+TOTAL CHECK                                                                                                    0.00         3,020.21
+A1003     1903362   01/17/19 12175    TAYLOR MCCASKILL    700206399524000  5000     ST GOV SCHLRSHP            0.00           250.00
+A1003     1903362   01/17/19 12175    TAYLOR MCCASKILL    700206399700000  5000     ATHLETIC SCHLRSHP          0.00           500.00
+TOTAL CHECK                                                                                                    0.00           750.00
+A1003     1903366   01/17/19 27636    TINSLEY ALISON      700070399900000  5000     THS CHEER TRAINING         0.00           300.00
+A1003     1903367   01/17/19 26001    TOP CAT SALES LLC   700071399902000  5000     FTBLL FULL ZIP/PANT        0.00           500.00
+A1003     1903367   01/17/19 26001    TOP CAT SALES LLC   700071399902000  5000     FTBLL FULL ZIP/PANT        0.00           500.00
+TOTAL CHECK                                                                                                    0.00         1,000.00
+A1003     1903374   01/17/19 27454    HOBAN TRACY         700052299700000  5000     LARSON CHEER APPARE        0.00           341.00
+A1003     1903378   01/17/19 27172    WALEWSKI STEPHANIE  700071399992000  5000     COMP CHEER G INV V         0.00           200.00
+A1003     1903382   01/17/19 25443    ZACHARZEWSKI JENNIF 700071399992000  5000     COMP CHR G INV VAR         0.00           200.00
+A1003     1903386   01/24/19 16111    ALL AMERICAN SCREEN 700070399911000  5000     OPEN PURCHASE ORDER        0.00            95.43
+A1003     1903386   01/24/19 16111    ALL AMERICAN SCREEN 700070399911000  5000     OPEN PURCHASE ORDER        0.00           489.90
+A1003     1903386   01/24/19 16111    ALL AMERICAN SCREEN 700070399911000  5000     OPEN PURCHASE ORDER        0.00           832.55
+TOTAL CHECK                                                                                                    0.00         1,417.88
+A1003     1903389   01/24/19 11684    ATLAS WHOLESALE FOO 700070399524000  5000     OPEN PO FOR TROY HS        0.00           655.49
+A1003     1903391   01/24/19 11585    SPORT SUPPLY GROUP  700071399907700  5000     ITEM#NK727980 WHITE        0.00         1,173.00
+A1003     1903391   01/24/19 11585    SPORT SUPPLY GROUP  700071399907700  5000     ITEM#AA560R WHITE A        0.00           900.00
+A1003     1903391   01/24/19 11585    SPORT SUPPLY GROUP  700071399907700  5000     SHIPPING                   0.00            24.00
+TOTAL CHECK                                                                                                    0.00         2,097.00
+A1003     1903416   01/24/19 25782    DICRISTOFARO RENEE  700071399992000  5000     CHEER G INV MS             0.00           100.00
+A1003     1903417   01/24/19 25422    DILDINE DIANA       700071399992000  5000     CHEER G INV MS             0.00           100.00
+A1003     1903435   01/24/19 14523    GRAPH-TEX           700071399901600  5000     PER QUOTE 5452 ASST        0.00           700.00
+A1003     1903435   01/24/19 14523    GRAPH-TEX           700071399901600  5000     SHIPPING                   0.00            25.00
+TOTAL CHECK                                                                                                    0.00           725.00
+A1003     1903442   01/24/19 11071    JACKSON GILBERT     700050299352000  5000     S&E ADJUDICATION           0.00            75.00
+A1003     1903443   01/24/19 11425    JOHNNY MACS SPORTIN 700070399907800  5000     GLS BSKTBLL SOCKS          0.00           144.00
+A1003     1903446   01/24/19 12254    KATHERINE MOWREY    700070399906700  5000     REIMB BYS SWIM EXP         0.00            92.90
+A1003     1903449   01/24/19 26717    KINGSTON JESSICA    700071399992000  5000     CHEER G INV MS             0.00           100.00
+A1003     1903452   01/24/19 27954    VAN OOSTEN NICHOLAS 700071399900000  5000     JV & VARSITY TUMBLI        0.00           400.00
+94
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   52
+DATE: 03/13/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903457   01/24/19 26197    LAIRD BARBARA J     700071399992000  5000     CHEER G INV MS             0.00           100.00
+A1003     1903469   01/24/19 10086    MANASI PATWARDHAN   700074399681000  5000     REFUND BK/LAB FEES         0.00           300.00
+A1003     1903476   01/24/19 11412    MILLER JEANNE       700071399992000  5000     ATHENS PETTY CASH          0.00            15.76
+A1003     1903476   01/24/19 11412    MILLER JEANNE       700071399700300  5000     ATHENS PETTY CASH          0.00             1.59
+A1003     1903476   01/24/19 11412    MILLER JEANNE       700071399325600  5000     ATHENS PETTY CASH          0.00            42.27
+A1003     1903476   01/24/19 11412    MILLER JEANNE       700071399342500  5000     ATHENS PETTY CASH          0.00            70.59
+A1003     1903476   01/24/19 11412    MILLER JEANNE       700071399372000  5000     ATHENS PETTY CASH          0.00            12.80
+A1003     1903476   01/24/19 11412    MILLER JEANNE       700071399520000  5000     ATHENS PETTY CASH          0.00            50.00
+TOTAL CHECK                                                                                                    0.00           193.01
+A1003     1903481   01/24/19 19962    NATALIE PADILLA     700790699397000  5000     REFUND IPAD REP FEE        0.00            50.00
+A1003     1903507   01/24/19 19962    SARAH STRASSER      700052299702700  5000     REIMB ROBOTICS EXP         0.00            70.34
+A1003     1903507   01/24/19 19962    SARAH STRASSER      700052299702700  5000     REIMB ROBOTICS EXP         0.00           420.80
+TOTAL CHECK                                                                                                    0.00           491.14
+A1003     1903510   01/24/19 10412    SINNING JULIE A     700071399992000  5000     CHEER G INV MS             0.00           100.00
+A1003     1903522   01/24/19 15979    TOTAL T'S           700071399900000  5000     T SHIRTS SPECS AND         0.00         1,690.00
+A1003     1903522   01/24/19 15979    TOTAL T'S           700071399907800  5000     A4 LONG SLEEVE TS F        0.00         1,250.00
+TOTAL CHECK                                                                                                    0.00         2,940.00
+A1003     1903523   01/24/19 20436    TREPCO SALES & DIST 700070399524000  5000     OPEN PO FOR TROY HS        0.00           617.99
+A1003     1903524   01/24/19 27568    TROCCOLI DANIEL J   700070399915800  5000     REIMB SCCR EXP             0.00            34.23
+A1003     1903538   01/24/19 12254    YING DING           700070399710900  5000     REIMB OCEAN BOWL           0.00            34.28
+A1003     1903561   02/01/19 27219    ASHLEY MARIE EASTER 700070399717500  5000     TROY HS DONATION           0.00         9,500.00
+A1003     1903573   02/01/19 19962    JEANA EAPEN         700051299702700  5000     REIMB ROBOTICS EXP         0.00           214.53
+A1003     1903577   02/01/19 19962    KSHITIJA KULKARNI   700051299702700  5000     REIMB ROBOTICS EXP         0.00            92.95
+A1003     1903585   02/01/19 27555    MOORE LYNSEY        700008199719400  5000     GR5 TSHIRTS                0.00           435.00
+A1003     1903585   02/01/19 27555    MOORE LYNSEY        700008199700000  5000     GR5 TSHIRTS                0.00           393.00
+TOTAL CHECK                                                                                                    0.00           828.00
+A1003     1903587   02/01/19 10086    MANISH DESAI        700074399681000  5000     REFUND IAE BK/LAB F        0.00           150.00
+A1003     1903588   02/01/19 19962    MAOPING RAN         700051299702700  5000     REIMB ROBOTICS EXP         0.00           140.02
+A1003     1903592   02/01/19 19962    NIRUBA KRIS         700051299702700  5000     REIMB ROBOTICS EXP         0.00           703.90
+A1003     1903594   02/01/19 16961    OXFORD HIGH SCHOOL  700070399715500  5000     TROYHS MUN REG             0.00           750.00
+A1003     1903602   02/01/19 19962    RAHUL PATIL         700051299702700  5000     REIMB ROBOTICS EXP         0.00           464.08
+A1003     1903603   02/01/19 19962    RICHARD LISOWSKI    700051299702700  5000     REIMB ROBOTICS EXP         0.00           914.02
+95
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   53
+DATE: 03/13/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 700 - STUDENT ACTIVITY FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903609   02/01/19 19962    SUBBARAO KANKATALA  700051299702700  5000     REIMB ROBOTICS EXP         0.00            89.09
+A1003     1903614   02/01/19 23416    TROY PEOPLE CONCERN 700070399702300  5000     TROY HS DONATION           0.00           500.00
+A1003     W19-154   01/14/19 12140    MI STATE OF/DEPT OF 700070399524000  5000     DEC SALES TAX              0.00            13.90
+A1003     W19-154   01/14/19 12140    MI STATE OF/DEPT OF 700071399524000  5000     DEC SALES TAX              0.00            61.83
+A1003     W19-154   01/14/19 12140    MI STATE OF/DEPT OF 700071399737400  5000     DEC SALES TAX              0.00           272.10
+A1003     W19-154   01/14/19 12140    MI STATE OF/DEPT OF 700051299323500  5000     DEC SALES TAX              0.00             8.73
+TOTAL CHECK                                                                                                    0.00           356.56
+A1003    E1903180   01/10/19 13022    SCHOLASTIC BOOK FAI 700052299701200  5000     LARSON BOOK FAIR           0.00         2,016.25
+A1003    E1903180   01/10/19 13022    SCHOLASTIC BOOK FAI 700008199701300  5000     LEONARD BOOK FAIR          0.00         4,760.11
+A1003    E1903180   01/10/19 13022    SCHOLASTIC BOOK FAI 700011199708000  5000     SCHROEDER BK FAIR          0.00         2,458.66
+TOTAL CHECK                                                                                                    0.00         9,235.02
+A1003    E1903347   01/17/19 13022    SCHOLASTIC BOOK FAI 700012199708000  5000     COSTELLO BOOK FAIR         0.00         3,222.78
+A1003    E1903347   01/17/19 13022    SCHOLASTIC BOOK FAI 700014199708000  5000     WASS BOOK FAIR             0.00         2,139.91
+TOTAL CHECK                                                                                                    0.00         5,362.69
+A1003    E1903508   01/24/19 13022    SCHOLASTIC BOOK FAI 700016199701300  5000     BARNARD BK FAIR            0.00         1,843.35
+TOTAL CASH ACCOUNT                                                                                             0.00       119,146.44
+TOTAL FUND                                                                                                     0.00       119,146.44
+96
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   54
+DATE: 03/13/2019                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:48:26                                        CHECK REGISTER - BY FUND
+SELECTION CRITERIA: transact.yr='19' and transact.period='7' and transact.gl_cash='A1003'
+ACCOUNTING PERIOD:  9/19
+     FUND - 701 - ACTIVITY ACCOUNT
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    ----DESCRIPTION----   SALES TAX           AMOUNT
+A1003     1903088   01/10/19 27160    BRUBAKER PAM        701070399697100  5000     THS PETTY CASH             0.00            79.39
+A1003     1903097   01/10/19 22355    CONTINENTAL CAFE LL 701070399700800  5000     OPEN PURCHASE ORDER        0.00            72.26
+A1003     1903203   01/10/19 10221    VENTE JENNIFER      701051299697100  5000     SMITH PETTY CASH           0.00             1.60
+A1003     1903232   01/17/19 24697    BARRY LISA          701052299697100  5000     LARSON PETTY CASH          0.00            36.28
+A1003     1903408   01/24/19 22355    CONTINENTAL CAFE LL 701070399700800  5000     THS COFFEE                 0.00            36.13
+A1003     1903408   01/24/19 22355    CONTINENTAL CAFE LL 701070399697100  5000     THS COFFEE                 0.00            36.13
+TOTAL CHECK                                                                                                    0.00            72.26
+A1003     1903476   01/24/19 11412    MILLER JEANNE       701071399697100  5000     ATHENS PETTY CASH          0.00            85.88
+TOTAL CASH ACCOUNT                                                                                             0.00           347.67
+TOTAL FUND                                                                                                     0.00           347.67
+TOTAL REPORT                                                                                                   0.00     7,007,060.22
+97
+5.D.      3.19.19
+5.        CONSENT
+          D.    CONSIDERATION:       2018 - 19 Budget Amendment Resolution
+Attached is the Budget Amendment Resolution for the 2018 - 19 fiscal year.  It includes the Food 
+Service Fund - Amendment 1, Troy Career Center Fund - Amendment 1, Adult Education and 
+Community Service Fund - Amendment 1, Troy School District Preschool Fund - Amendment 1, Facilities 
+Rental Fund - Amendment 1, Capital Maintenance Fund - Amendment 1, 2014 Capital Projects Fund - 
+Amendment 1, 2016 Capital Projects Fund - Amendment 1, Early Childhood Learning Center Capital 
+Projects Fund - Amendment 1 and Sinking Fund Capital Projects Fund - Amendment 1.  Approval of the 
+attached resolution is recommended.
+We do not have to read the Budget Amendment Resolution in its entirety.  However, it must be made a 
+part of the official minutes.
+RECOMMENDED ACTION:       Adopt the following resolution.
+SUGGESTED RESOLUTION
+Moved By:  ____________________
+Supported By:  ____________________
+BE IT THEREFORE RESOLVED, that the general appropriations and
+budget of the Troy School District for the fiscal year 2018 - 19 for the
+following funds be amended and approved as attached hereto and
+made a part of the official minutes of the March 19, 2019 regular
+meeting.
+Adult Education and Community 
+Early Childhood Learning Center 
+Yes:  ___________
+No:    ___________
+98
+Food Service Fund 4,244,139$              
+Troy Career Center Fund 2,445,150$              
+Service Fund 3,879,188$              
+Troy School District Preschool Fund 366,716$                 
+Facilities Rental Fund 743,578$                 
+Capital Maintenance Fund 220,000$                 
+2014 Capital Projects Fund 107,085$                 
+2016 Capital Projects Fund 15,876,000$            
+Capital Projects Fund 13,000,000$            
+Sinking Fund Capital Projects Fund 3,873,000$              
+5.D.      3.19.19
+BE IT RESOLVED, that the total revenues and unappropriated fund balance 
+available for appropriations in the Food Service Fund  of the Troy School District for 
+the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED
+BUDGET BUDGET CHANGE
+Revenues:
+State 122,728              122,728              -                        
+Federal 857,993              1,037,589           179,596             
+to Appropriate
+BE IT FURTHER RESOLVED, that $4,244,139 of the total available to appropriate in the 
+Food Service Fund  is hereby appropriated in the amounts and for the purposes 
+set forth below:
+Expenditures:
+Facilities Acquisitions 247,502              683,225              435,723             
+Outgoing Transfers 35,000                16,000                (19,000)             
+99
+Local 2,467,144$         2,236,800$         (230,344)$         
+Total Revenues 3,447,865$         3,397,117$         (50,748)$           
+Fund Balance, July 1 1,085,493$         954,411$            (131,082)$         
+Fund Balance Available 1,085,493$         954,411$            (131,082)$         
+Total Available to Appropriate 4,533,358$         4,351,528$         (181,830)$         
+Food Services 3,113,584$         3,544,914$         431,330$           
+Total Expenditures 3,396,086$         4,244,139$         848,053$           
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Troy Career Center Fund  of the Troy School District for the  
+fiscal year 2018-19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED
+BUDGET BUDGET CHANGE
+Revenues:
+Federal Sources 2,466,544      2,385,150      (81,394)             
+to Appropriate
+BE IT FURTHER RESOLVED, that $2,445,150 of the total available to appropriate
+in the Troy Career Center Fund  is hereby appropriated in the amounts and for the 
+purposes set forth below:
+Expenditures:
+Outgoing Transfers 43,762           45,000           1,238                 
+(EXPENDITURES)
+BALANCE JULY 1
+BALANCE JUNE 30
+100
+State Sources 54,279$         60,000$         5,721$               
+Total Revenues 2,520,823$    2,445,150$    (75,673)$           
+Fund Balance, July 1 -$                   -$                   -$                      
+Fund Balance Available -$                   -$                   -$                      
+Total Available to Appropriate 2,520,823$    2,445,150$    (75,673)$           
+Supporting Services 2,477,061$    2,400,150$    (76,911)$           
+Total Expenditures 2,520,823$    2,445,150$    (75,673)$           
+EXCESS REVENUES/ -$               -$               -$                  
+BEGINNING FUND -$               -$               -$                  
+ENDING FUND -$               -$               -$                  
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Adult Education and Community Service  Fund of 
+the Troy School District for the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+to Appropriate
+BE IT FURTHER RESOLVED, that $3,879,188 of the total available to appropriate in 
+the Adult Education and Community Service Fund is hereby appropriated in the 
+amounts and for the purposes set forth below:
+Expenditures:
+Facilities Acquisition 2,000 -                 (2,000)               
+Other Expenditures -                 -                 -                    
+Outgoing Transfers -                 400,000 400,000            
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+101
+Local 3,870,500$    4,135,000$    264,500            
+Total Revenues 3,870,500$    4,135,000$    264,500$          
+Fund Balance, July 1 176,630$       311,231$       134,601$          
+Fund Balance Available 176,630$       311,231$       134,601$          
+Total Available to Appropriate 4,047,130$    4,446,231$    399,101$          
+Community Services 3,162,013$    3,479,188$    317,175$          
+Total Expenditures 3,164,013$    3,879,188$    715,175$          
+EXCESS REVENUES/ 706,487$       255,812$       (450,675)$         
+BALANCE JULY 1 176,630$       311,231$       134,601$          
+BALANCE JUNE 30 883,117$       567,043$       (316,074)$         
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Troy School District Preschool Fund  of the Troy 
+School District for the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+Incoming Transfers -                 400,000         
+to Appropriate
+BE IT FURTHER RESOLVED, that $366,716 of the total available to appropriate in 
+the Troy School District Preschool Fund is hereby appropriated in the amounts and for 
+the purposes set forth below:
+Expenditures:
+Debt Service 218,690 219,190 500                   
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+102
+Local -$               23,000$         23,000              
+Total Revenues -$               423,000$       23,000$            
+Fund Balance, July 1 -$               -$               -$                  
+Fund Balance Available -$               -$               -$                  
+Total Available to Appropriate -$               423,000$       423,000$          
+Supporting Services 140,000$       147,526$       7,526$              
+Total Expenditures 358,690$       366,716$       8,026$              
+EXCESS REVENUES/ (358,690)$      56,284$         414,974$          
+BALANCE JULY 1 -$               -$               -$                  
+BALANCE JUNE 30 (358,690)$      56,284$         414,974$          
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Facility Rentals Fund  of the Troy School District for 
+the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+to Appropriate
+BE IT FURTHER RESOLVED, that $743,578 of the total available to appropriate in 
+the Facility Rentals Fund is hereby appropriated in the amounts and for the purposes 
+set forth below:
+Expenditures:
+Facilities Acquisition -                 91,106 91,106              
+Outgoing Transfers 500,000 500,000 -                    
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+103
+Local 110,000$       135,000$       25,000              
+Total Revenues 110,000$       135,000$       25,000$            
+Fund Balance, July 1 857,932$       886,881$       28,949$            
+Fund Balance Available 857,932$       886,881$       28,949$            
+Total Available to Appropriate 967,932$       1,021,881$    53,949$            
+Supporting Services 146,100$       152,472$       6,372$              
+Total Expenditures 646,100$       743,578$       97,478$            
+EXCESS REVENUES/ (536,100)$      (608,578)$      (72,478)$           
+BALANCE JULY 1 857,932$       886,881$       28,949$            
+BALANCE JUNE 30 321,832$       278,303$       (43,529)$           
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Capital Maintenance Fund  of the Troy School District 
+for the fiscal year 2017 - 18 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+to Appropriate
+BE IT FURTHER RESOLVED, that $220,000 of the total available to appropriate in the 
+Capital Maintenance Fund  is hereby appropriated in the amounts and for the purposes set 
+forth below:
+Expenditures:
+Capital Outlay 450,000           -                   (450,000)           
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+104
+Incoming Transfers 500,000$         500,000$         -                    
+Total Revenues 500,000$         500,000$         -$                  
+Fund Balance, July 1 5,000$             686,469$         681,469$           
+Fund Balance Available 5,000$             686,469$         681,469$           
+Total Available to Appropriate 505,000$         1,186,469$      681,469$           
+Purchased Services -$                 220,000$         220,000$           
+Total Expenditures 450,000$         220,000$         (230,000)$         
+EXCESS REVENUES/ 50,000$           280,000$         230,000$           
+BALANCE JULY 1 5,000$             686,469$         681,469$           
+BALANCE JUNE 30 55,000$           966,469$         911,469$           
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the 2014 Capital Projects Fund  of the Troy School District 
+for the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+to Appropriate
+BE IT FURTHER RESOLVED, that $107,085 of the total available to appropriate in the 
+2014  Capital Projects Fund  is hereby appropriated in the amounts and for the purposes set 
+forth below:
+Expenditures:
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+105
+Local -$                 1,800$              1,800                
+Total Revenues -$                 1,800$              1,800$              
+Fund Balance, July 1 -$                 105,285$          105,285$          
+Fund Balance Available -$                 105,285$          105,285$          
+Total Available to Appropriate -$                 107,085$          107,085$          
+Facilities Acquisition -$                 107,085$          107,085$          
+Total Expenditures -$                 107,085$          107,085$          
+EXCESS REVENUES/ -$                 (105,285)$        (105,285)$         
+BALANCE JULY 1 -$                 105,285$          105,285$          
+BALANCE JUNE 30 -$                 -$                 -$                  
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the 2016 Capital Projects Fund  of the Troy School District 
+for the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+to Appropriate
+BE IT FURTHER RESOLVED, that $107,085 of the total available to appropriate in the 
+2016  Capital Projects Fund  is hereby appropriated in the amounts and for the purposes set 
+forth below:
+Expenditures:
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+106
+Local 50,000$            810,000$          760,000            
+Total Revenues 50,000$            810,000$          760,000$          
+Fund Balance, July 1 8,800,220$       22,951,776$     14,151,556$     
+Fund Balance Available 8,800,220$       22,951,776$     14,151,556$     
+Total Available to Appropriate 8,850,220$       23,761,776$     14,911,556$     
+Facilities Acquisition 14,031,830$     15,876,000$     1,844,170$       
+Total Expenditures 14,031,830$     15,876,000$     1,844,170$       
+EXCESS REVENUES/ (13,981,830)$   (15,066,000)$   (1,084,170)$      
+BALANCE JULY 1 8,800,220$       22,951,776$     14,151,556$     
+BALANCE JUNE 30 (5,181,610)$     7,885,776$       13,067,386$     
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Early Childhood Learning Center Capital Projects 
+Fund  of the Troy School District for the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+Sale of Land 6,358,000         3,655,413         (2,702,587)        
+to Appropriate
+BE IT FURTHER RESOLVED, that $13,000,000 of the total available to appropriate in 
+the Early Childhood Learning Center Capital Projects Fund  is hereby appropriated in the 
+amounts and for the purposes set forth below:
+Expenditures:
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+107
+Local 25,000$            120,000$          95,000              
+Total Revenues 6,383,000$       3,775,413$       (2,607,587)$      
+Fund Balance, July 1 14,263,969$     14,335,520$     71,551$            
+Fund Balance Available 14,263,969$     14,335,520$     71,551$            
+Total Available to Appropriate 20,646,969$     18,110,933$     (2,536,036)$      
+Facilities Acquisition 19,100,000$     13,000,000$     (6,100,000)$      
+Total Expenditures 19,100,000$     13,000,000$     (6,100,000)$      
+EXCESS REVENUES/ (12,717,000)$   (9,224,587)$     3,492,413$       
+BALANCE JULY 1 14,263,969$     14,335,520$     71,551$            
+BALANCE JUNE 30 1,546,969$       5,110,933$       3,563,964$       
+5.D.      3.19.19
+BE IT FURTHER RESOLVED that the total revenues and unappropriated fund balance 
+available for appropriations in the Sinking Fund Capital Projects Fund  of the Troy 
+School District for the fiscal year 2018 - 19 be amended as follows:
+PROPOSED
+ORIGINAL AMENDED  
+BUDGET BUDGET CHANGE
+Revenues:
+to Appropriate
+BE IT FURTHER RESOLVED, that $3,873,000 of the total available to appropriate in 
+the Early Childhood Learning Center Capital Projects Fund  is hereby appropriated in the 
+amounts and for the purposes set forth below:
+Expenditures:
+(EXPENDITURES)
+BEGINNING FUND
+ENDING FUND 
+108
+Local 3,900,000$       3,873,000$       (27,000)             
+Total Revenues 3,900,000$       3,873,000$       (27,000)$           
+Fund Balance, July 1 -$                 -$                 -$                  
+Fund Balance Available -$                 -$                 -$                  
+Total Available to Appropriate 3,900,000$       3,873,000$       (27,000)$           
+Facilities Acquisition 3,900,000$       3,873,000$       (27,000)$           
+Total Expenditures 3,900,000$       3,873,000$       (27,000)$           
+EXCESS REVENUES/ -$                 -$                 -$                  
+BALANCE JULY 1 -$                 -$                 -$                  
+BALANCE JUNE 30 -$                 -$                 -$                  
+      6. A.   03.19.19 
+6. A. PERSONNEL 
+ CONSIDERATION:  ELEMENTARY AND SECONDARY  
+New Hire 
+It is recommended that the Board of Edu cation approves the issuance of a 
+probationary contract to the following teacher  for the 2018-2019 school 
+year. 
+Erin Mullins - 1.0 Social Worker, TCCHS and Athens High School  
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ Moved by          
+ Supported by         
+BE IT THEREFORE RESOLVED  that the Board of Education takes action to 
+approve the aforementioned personnel recommendation as stated above. 
+ Yes     
+ No     
+109
+BIOGRAPHICAL SKETCH – NEW TEACHER 
+March 19, 2019 
+Erin Mullins, 1.0 Social Worker, TCCHS/Athens 
+Educational Background:  MSW., University of Michigan, Ann Arbor, MI  
+August 2011 
+     BSW., Michigan State University, Lansing, MI  
+      Major: Social Work 
+May 2010 
+     Social Workers License June 2015 
+Teaching Experience:  Orchards Children’s Services, Southfield, MI 
+     Social Worker 
+      July 2016-Present  
+     Havenwyck Hospital, Auburn Hills, MI 
+     Social Worker 
+      November 2015-July 2016 
+Resident Community:  Berkley, MI  
+110
+8. A. 03.19.19 
+8. BUSINESS 
+A.  CONSIDERATION: Districtwide Site Work Projects 
+A RFP was issued to obtain competitive bids for the site work at Costello, 
+Hamilton and Martell Elementary Schools and Smith and Larson Middle 
+Schools.  Bid responses were reviewed by  Rob Carson, Director of 
+Operations and Barton Malow Company, and it is recommended the bid 
+be awarded as stated below.  
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved that the bid for site work projects be awarded 
+to Asphalt Specialists, Inc.  in the amount of $822,140.00 and that th is 
+amount be approved as an expenditure of the Building and Site Sinking 
+Fund. 
+ Yes: 
+ No: 
+111
+Memorandum 
+ TO:       Rick West - Asst. Superintendent - Business Services  
+Operations 
+ FROM:  Rob Carson – Director of Maintenance & Operations   
+Department 
+RE:       RFP 9877 – BSSF Site Work Project  
+1140 Rankin 
+Troy, MI 48083 
+Ph: 248.823.4050 
+DATE:   February 28, 2019  
+Fax: 248.823.4077 
+A RFP (Bid 9835) was issued to obtain competitive bids for site 
+work at Costello, Hamilton & Martell Elementary Schools and Smith & Larson Middle Schools.  
+The scope of work for this RFP is to create a new parent drop off loop and some additional 
+parking spaces at Hamilton Elementary School, remove & replace the existing paved play 
+surfaces and Dumpster Enclosures at Costello & Martell Elementary Schools and remove the  
+existing tennis courts/restore to grass at Larson & Smith Middle Schools.  The Hamilton Loop 
+Project is scheduled to commence on March 29, 2019 with a completion in July of 2019.  The 
+Costello & Martell paved play projects will commence on June 17th with a completion of August 
+3, 2019 and the Smith & Larson tennis court projects will commence in July 2019 with a 
+completion in August 2019 
+The RFP s pecified 1 bid categor y as detailed in the bid summary  sheet attached.  I am 
+recommending th e following vendo r based on  low bid for their category along with a 
+Contingency Budget. 
+Cat. #320000(Sitework)   Asphalt Specialists, Inc.      $    747,400.00 
+Contingency Budget           $      74,700.00 
+Total Budget Recommendation         $    822,140.00 
+All proposals were reviewed and qualified by the Barton Malow. 
+Upon award a Purchase Order will be issued to Asphalt Specialties, Inc.  The funding for the  
+purchases will be from the Building Site & Sinking Fund. 
+If you have any questions, please let me know.  
+Cc:  Purchasing Department – File  
+Atts:  Bid Tally, BMC Contract Award Recommendation  
+112
+                Barton Malow Company 
+                                                                                          26500 American Drive – Southfield, Michigan  48034 – p 248.4365000 – f 248.436.5001  
+February 27, 2019 
+Mr. Rick West, Assistant of Business Services 
+Troy School District 
+1140 Rankin 
+Troy, MI  48083 
+Re: BSSF Project 
+ Bid Package 27:  2019 Sitework projects -Hamilton bus loop, Costello & Martell Playground, and  
+ Smith & Larson tennis courts –  Contract Award Recommendations 
+Dear Mr. West: 
+Proposals were received on February 21, 2019 for Bid Package 27:  Hamilton bus loop, Costello & 
+Martell Playground, and Smith & Larson tennis courts.  The work at Hamilton Elementary includes a new 
+bus loop, Costello and Martell work includes playground surface replacement and Smith and Larson 
+Middle School is the removal of tennis courts.  We reviewed the proposals and qualifications of apparent 
+low bidder, and recommend a contract be awarded as follows: 
+Category   Contractor          Amount 
+ 320000 Sitework  Asphalt Specialists, Inc.    $   747,400.00 
+     TOTAL AWARD    $   747,400.00 
+The award amount plus a 10% contingency of $74,740.00 for the project is $822,140.00.  Included with 
+this recommendation is a tabulation spreadsheet of all bids received for bid package 27. 
+Please contact me should you have any questions. 
+Sincerely, 
+Christa Amalio 
+BMC Project Manager 
+Attachment:  Bid Tabulation  
+cc:  Mr. Robert Carson – TSD 
+       Mrs. Michelle Kerns 
+113
+140077: Troy School District_Sitework_BP27
+Prepared by Barton Malow Company - 1274 Library St, Detroit, MI 48226, USA
+Project Lead: Rick Vanderpoel, Jr (rick.vanderpoeljr@bartonmalow.com)
+Project Location: Troy, MI, US
+Proposal Summary Awarded / Apparent Low 2nd Apparent Low 3rd Appar ent Low
+Generated February 21st 2019 Awarded bids are highlighted
+Submitted Total $747,400
+BID PACKAGES Company Total Cost Company Total Cost Company Total Cost
+320000: Sitework/Paving/Concrete Asphalt Specialists, Inc. $747,400 Nagle Paving Company $956,790
+Subtotal $747,400
+114
+140077: Troy School District_Sitework_BP27
+Prepared by Barton Malow Company - 1274 Library St, Detroit, MI 48226, USA
+Bid Package Lead: Stephanie Buhagiar (stephanie.buhagiar@bartonmalow.com)
+Project Location: Troy, MI, US
+320000: Sitework/Paving/Concrete Asphalt Specialists, Inc. Nagle Paving Company
+Generated February 21st 2019 Submitted by Tim Baugher Submitted b y Chris Leideker
+Submitted Total $747,400 $956,790
+Original Proposal, February 21st 2019 Revision #1, February 21st  2019
+Unit Qty Unit Cost Total Cost Unit Qty Unit Cost Total Cost
+LINE ITEMS $747,400 $956,790
+ Base Bid (Including Bond & $60,000 Allowance)
+Hamilton Elementary School $397,000 $476,090
+Base Bid (Including Bond) - Costello Elementary School $132,800 $173,700
+Base Bid (Including Bond) - Larson Middle School $43,000 $67,500
+Base Bid (Including Bond) - Smith Middle School $39,800 $65,500
+Base Bid (Including Bond) - Martell Elementary School $134,800 $174,000
+Submitted Total $747,400 $956,790
+SCOPE-SPECIFIC INFORMATION
+VOLUNTARY ALTERNATES
+Voluntary Alternate No. 1 Seal coat/ Crackfill Hamilton $11,600.00 Hamilton Crack Seal and  Seal Coat ADD $9500
+Voluntary Alternate No. 2 N/A
+UNIT PRICES
+Undercuts - Removal Only per cubic yard $25.00 per cubic yard $35.00
+1 x 3 Stone delivered and installed per cubic yard $45.00 per cubic yard $55.00
+21AA Limestone Installed per cubic yard $45.00 per cubic yard $55.00
+21AA Crushed Concrete Installed per cubic yard $38.00 per cubic yard $45.00
+Class II Sand Installed per cubic yard $27.00 per cubic yard $45.00
+Temporary Fencing per linear foot $10.00 per linear foot $45.00
+Remove/Replace 4" Concrete per square foot $7.00 per square foot $12.50
+Remove/Replace 4" Asphalt per Detail per square yard $40.00 per square yard $7.50
+Curb & Gutter per Detail per linear foot $30.00 per linear foot $45.00
+Operator & Front End Loader per hour $185.00 per hour $165.00
+Operator & Bobcat per hour $145.00 per hour $145.00
+Geo Fabric per square foot $1.00 per square foot $2.75
+Geo Grid per square foot $15.00 per square foot $5.50
+Topsoil per cubic yard $30.00 per cubic yard $30.00
+Hydroseeding per square yard $20.00 per square yard $1.00
+Silt Fence per linear foot $1.25 per linear foot $2.50
+4" Concrete per square foot $6.00 per square foot $7.50
+6" Concrete per square foot $8.00 per square foot $10.00
+Concrete Removal per square foot $1.25 per square foot $5.00
+Undercut per Detail per cubic yard $60.00 per cubic yard $80.00
+GENERAL ACKNOWLEDGMENTS
+115
+Bidder, in compliance with the Advertisement to Bid for 
+construction contemplated for this Bid Package having 
+carefully examined the Bidding Documents and the site 
+of the proposed Project and the conditions affecting the 
+proposed work in the Bid Category(ies) proposes to 
+furnish all labor,  materials, tools, equipment, machinery, 
+equipment rental, transportation, superintendence, and 
+services as are  necessary to perform all Work in the Bid 
+Category(ies) stated in accordance with the Contract 
+Documents. YES YES
+If identified as one of the apparent lowest bidder(s) for a 
+Bid Category Bidder agrees to meet immediately with 
+Section 00200 Instructions to Bidders. YES YES
+Bidder, if awarded a contract, agrees to execute 
+Agreement within fifteen (15) days of receiving notice of 
+the award YES YES
+Bidder, if awarded a contract, agrees to provide 
+performance/payment bonds and insurance certificates in 
+full compliance with the Contract Documents YES YES
+Bidder, if awarded a contract, agrees to commence Work 
+upon execution of the Agreement or at such other time as 
+directed in the notice of award YES YES
+Bidder, if awarded a contract, agrees to complete its 
+Work in accordance with the Contract Documents and 
+in the Bidding Documents and subsequent construction 
+project master schedule established by CM. YES YES
+Bidder has included required Iran Sanctions Form fo
+in the Box shared folder. YES YES
+Bidder has included required Familial Disclosure Form 
+found in the Box shared folder. YES YES
+Warranties Included (if applicable)? YES YES
+Permits Included (if applicable, please list)? Permit for ROW work, Northfield Parkway city street SESC Permits N/A
+Sales Tax Included? YES YES
+Insurance Coverage and Limits acknowledged and w
+be provided YES YES
+Have you visited the site? YES YES
+Cleanup Included per BMC Clean Up Procedures YES YES
+Proposed Major Subs? IC Striping, Nationwide N/A
+Bidder has read, understood, and included in it's bid all 
+documents in the shared folder including drawings, 
+specifications, addenda, and other documents. YES YES
+BOND INFORMATION
+Current EMR Rating? .68 0.56
+Bonding Company? (with rating) Hudson Insurance Agency   Western Surety
+LABOR RATES
+Foreman per hour $60.00 per hour
+Journeyman per hour $50.00 per hour
+Apprentice per hour $40.00 per hour
+116
+CM and  shall submit post bid information as describ
+e
+within the milestone activity dates and durations set  
+f
+Summary This bid acknowledges the RFI response received on 2-21-19 and Addendum 
+#
+8. B. 03.19.19 
+8. BUSINESS 
+B.  CONSIDERATION: Asbestos Abatement 
+A RFP was issued to obtain competitive bids for asbestos abatement 
+work at International Academy East, Boulan  Park, Larson and Smith 
+Middle Schools and Schroeder, Troy Union and Wattles Elementary 
+Schools.  Bid responses were reviewed by  Rob Carson, Director of 
+Operations and NOVA Environmental, Inc., and it is recommended the 
+bid be awarded as stated below.  
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved that the bid for asbestos abatement be awarded 
+to Trust Thermal Abatement  in the amount of $288,420.00 and that this 
+amount be approved as an expenditure of the 2016 Capital Projects Fund 
+and the Building and Site Sinking Fund. 
+ Yes: 
+ No: 
+117
+February 27, 2019 
+Mr. Rob Carson 
+Director of Operations 
+Troy School District 
+1140 Rankin 
+Troy, MI  48083 
+RE:   Contractor Selection  
+Dear Mr. Carson: 
+As you are well aware, asbestos abatement work has to be performed as part of the renovation activities at Smith Middle 
+School, Troy Union Elementary School, Larson Middle School, Boulan Park Middle School, Schroeder Elementary 
+School, Wattles Elementary School and International Academy East .  The present project s involve the removal of  
+flooring materials, pipe insulation, boilers and caulks. 
+The following is Nova Environmental, Inc.’s recommendation regarding the selection of th e asbestos abatement 
+Contractor for the Troy School District projects. 
+BID NO. Buildings Contractor Bid Amount 
+School, Larson Middle School, Boulan Park Middle 
+School, Schroeder Elementary School, Wattles 
+Elementary School and International Academy East 
+This recommendation is based upon the following factors: 
+1. The bid from the Contractor was the low bid. 
+2. The Contractor has performed similar projects for numerous school districts. 
+3. The Contractor  should be able to provide a safe and effective project within the time parameters of the 
+specification.  
+For the above noted reasons, along with others, Nova recommends the bid proposal from the above noted Contractor be 
+accepted for the projects in Troy School District.  Obviously, this recommendation is conditioned upon proper submittals 
+from the company in keeping with the requirements of the bid documents and the contract between the School District 
+and the Contractor being mutually agreed upon.   
+If you have any questions or if I can be of further service, please contact me. 
+Thank you, 
+NOVA ENVIRONMENTAL, INC. 
+Lisa Whitton 
+Vice President  
+118
+1 Smith Middle School, Troy Union Elementary 
+Trust Thermal Abatement $262,200.00 
+Memorandum 
+ TO:       Rick West - Asst. Superintendent - Business Services  
+Operations 
+ FROM:  Rob Carson – Director of Maintenance & Operations   
+Department 
+RE:       RFP–9878 Asbestos Abatement   
+1140 Rankin 
+Troy, MI 48083 
+Ph: 248.823.4050 
+DATE:   February 28, 2019 
+Fax: 248.823.4077 
+A RFP (Bid 98 78) was issued to obtain competitive bids for 
+Asbestos Abatement work at International Academy East, Boulan, Larson & Smith Middle 
+Schools and Schroeder, Troy Union & Wattles Elementary Schools.  The scope of this work is 
+to perform asbestos abatement as necessary and  in accordance with all required state and 
+federal laws in conjunction of our scheduled Bond Construction & BSSF Flooring Replacement 
+Projects.    Please see the attached bid tabulation and a contractor award recommendation 
+from NOVA Environmental, Inc.  The RFP resulted in favorable bid responses and pricing.  
+I am recommending the following vendor based on qualified low bid per the RFP specifications. 
+BID NO. Buildings Contractor Bid Amount 
+Troy Union Elementary 
+Wattles Elementary School  
+Boulan Park Middle School 
+Larson Middle School 
+Smith Middle School, School 
+International Academy East 
+  Contingency (10%) $26,220.00 
+  Total Project Request $288,420.00 
+All proposals were reviewed by NOVA Environmental and the recommended vendor has 
+performed similar work for other school districts and is able to meet the required timeline 
+which corelates with the Bond Construction & BSSF Flooring Replacement Project Schedules. 
+Upon award a Purchase Order will be issued to Trust Thermal Abatement and funding for the 
+purchase will be from the Capitol Projects Fund & Building Site & Sinking Projects Fund. 
+If you have any questions, please let me know.  
+Cc:  Purchasing Department – File  
+Atts:  Bid Tabulation, NOVA Environmental Contractor Award Recommendation  
+119
+9878 Schroeder Elementary School 
+Trust Thermal Abatement $262,200.00 
+TROY SCHOOL DISTRICT 
+Asbestos Abatement Bid Tabulation 
+February 26, 2019 
+Abatement 
+Service Group 
+Decommission 
+Services 
+Abatement 
+Services 
+Contractor Alternate 1 Alternate 1 Early Schedule 
+Abatement 
+Service Group 
+Decommission 
+Services 
+Abatement 
+Services 
+120
+Contractors 
+Bid 
+Bond 
+Familial 
+Stmt 
+Iran 
+Stmt 
+Bid 1 
+Smith MS 
+Bid 1 
+Troy Union 
+Bid 1 
+Larson MS 
+Bid 1 
+Boulan Park MS 
+Bid 1 
+Schroeder 
+Bid 1 
+Wattles 
+Bid 1 
+IAE 
+Bid 1 
+Total 
+Trust Thermal 
+X 
+X 
+X 
+$96,000.00 
+$95,00.00 
+$9,600.00 
+$9,600.00 
+$24,000.00 
+$24,000.00 
+$4,000.00 
+$262,200.00 
+Global Green 
+X 
+X 
+X 
+$107,600.00 
+$110,700.00 
+$9,800.00 
+$9,800.00 
+$15,100.00 
+$28,800.00 
+$1,050.00 
+$282,850.00 
+Building 
+X 
+X 
+X 
+$145,000.00 
+$139,905.00 
+$11,875.00 
+$11,000.00 
+$19,120.00 
+$15,600.00 
+$6,500.00 
+$349,000.00 
+Qualified 
+X 
+X 
+X 
+$143,600.00 
+$135,600.00 
+$13,400.00 
+$11,700.00 
+$18,400.00 
+$18,400.00 
+$2,250.00 
+$343,350.00 
+Trust Thermal 
+$30,000.00 
+_______ 
+Global Green 
+$22,050.00 
+$35,600.00 
+Building 
+$35,000.00 
+$47,000.00 
+Qualified 
+$16,400.00 
+$18,800.00 
+8. C.     03.19.19 
+8. BUSINESS 
+C. CONSIDERATION:  2019 School Building and Site Bonds  
+The $125,000,000 bond issue was passed by the voters November 5, 
+2013.  The District would like to proceed with issuing the third series of 
+bonds in an amount not to exceed $ 27,000,000.   Dr. Richard Machesky 
+and Rick West will be the individuals authorized to accept a purchase offer 
+on the bonds. 
+RECOMMENDED ACTION: Accept the resolution attached. 
+Moved by:  ____________________ 
+Supported by: _______________________  
+THEREFORE, BE IT RESOLVED that the Board of Education of the Troy School District 
+does hereby authorize the issuance of bonds designated the “2019 School Building and 
+Site Bonds” in an amount not to exceed $27,000,000 and that the attached resolution, in 
+its entirety, be made a part of the official minutes of the March 19, 2019 Regular meeting. 
+Yes:  __________ 
+No:  __________ 
+121
+TROY SCHOOL DISTRICT 
+COUNTY OF OAKLAND, STATE OF MICHIGAN 
+RESOLUTION AUTHORIZING 
+2019 SCHOOL BUILDING AND SITE BONDS 
+(UNLIMITED TAX GENERAL OBLIGATION) 
+______________________________________________ 
+ At a regular meeting of the Board of Education (the “Board”) of the Troy School District, 
+County of Oakland, State of Michigan (the “School District”), held in the School District on March 
+19, 2019, at 7:00 p.m., local time. 
+PRESENT: Members:             
+ABSENT: Members:           
+The following preamble and resolution were offered by Member       
+and supported by Member     . 
+WHEREAS, on November 5, 2013, the qualified electors of the School District approved 
+a proposal authorizing the issuance of bonds in an aggregate amount of not to exceed $125,000,000 
+to be issued in one or more series for the purpose of remodeling, equipping, re -equipping, 
+furnishing, re-furnishing school buildings  and other facilities to enhance security and for other 
+purposes; acquiring and installing technology equipment and technology infrastructure in school 
+buildings and other facilities; constructing additions to school buildings; preparing, developing 
+and improving sites at school buildings and other facilities; the purchase of school buses (the “2013 
+Bond Proposal”). 
+WHEREAS, under the provisions of Section 6, Article IX and Section 16, Article IX of the 
+Michigan Constitution of 1963, the tax levies for said bonds authorized pursuant to the 2013 Bond 
+Proposal shall be without limitation as to rate or amount; and 
+WHEREAS, the School District has previously issued its $52,710,000 2014 School 
+Building and Site Bonds on January 29, 2014, and its $40,000,000 2016 School Building and Site 
+Bonds on December 28, 2016, as the first and second series of bonds pursuant to the 2013 Bond 
+Proposal; and 
+WHEREAS, the Board now desires to authorize the issuance of the third and final series 
+of bonds authorized pursuant to the 2013 Bond Proposal in the aggregate principal amount of not 
+to exceed Twenty-Seven Million Dollars ($27,000,000) to pay the cost of the projects authorized 
+122
+pursuant to the 2013 Bond Proposal (the “Projects”) and the costs associated with the issuance of 
+the bonds; and 
+WHEREAS, the School District also deems it advisable to authorize the Superintendent 
+and the Assistant Superintendent, Business Services, or either one acting individually (the 
+“Authorized Officer”), to accept an offer to purchase the bonds fr om an underwriter, negotiate, 
+approve and execute a bond purchase agreement with the underwriter and to approve various other 
+terms and documents in connection with the sale and delivery of the bonds to the underwriter; and 
+WHEREAS, the School District must either be granted qualified status within the meaning 
+of Act 34, Public Acts of Michigan, 2001, as amended (the “Act”), or receive prior approval of the 
+bonds from the Michigan Department of Treasury (“Treasury”); and 
+NOW, THEREFORE, BE IT RESOLVED THAT: 
+1. Issuance of Bonds.  Bonds of the School District designated 2019 School Building 
+and Site Bonds (Unlimited Tax General Obligation) , (the “Bonds”), be issued in one or more 
+series, with such changes to the bond name, designation or suffix as may be appropr iate for each 
+series based on the type of bonds issued, in the aggregate principal amount of not to exceed 
+Twenty-Seven Million Dollars ($27,000,000), or such lesser amount as shall be determined by the 
+Authorized Officer upon sale of the Bonds, for the pu rpose of financing the costs of the Projects 
+and paying the costs of issuance of the Bonds.   
+2. Bond Details.  The issue shall consist of bonds registered as to principal and interest 
+of the denomination of $5,000 or integral multiples thereof, be dated as o f the date of delivery or 
+such other date as shall be determined by the Authorized Officer at the time of sale of the Bonds, 
+and numbered as determined by the Transfer Agent (as defined below).  The Bonds shall mature 
+on May 1 or November 1 in the years and in the principal amounts as determined by the Authorized 
+Officer at the time of sale provided that the final maturity of the Bonds shall not be later than 
+fifteen (15) years from the date of issue.  The Bonds shall bear interest at a rate or rates to be 
+determined upon negotiated sale thereof, but in any event not exceeding a true interest cost of five 
+percent (5.00%) per annum, payable semi -annually on May 1 and November 1 in the years as 
+determined by the Authorized Officer at the time of sale.  The und erwriter’s discount shall not 
+exceed 0.75% of the principal amount of the Bonds.  
+The principal of the Bonds shall be payable at a bank or trust company selected by the 
+Authorized Officer, as registrar and transfer agent for the Bonds (the “Transfer Agent” ) upon 
+presentation and surrender of the appropriate Bond.  Interest on the Bonds shall be payable by 
+check drawn on the Transfer Agent, mailed to the registered owner of the Bonds at the registered 
+address, as shown on the registration books of the School  District maintained by the Transfer 
+Agent.  Interest shall be payable to the registered owner of record as of the fifteenth day of the 
+month prior to the payment date for each interest payment.  The date of determination of registered 
+owner for purposes o f payment of interest as provided in this paragraph may be changed by the 
+School District to conform to market practice in the future.   
+The Bonds may be issued in book-entry-only form through The Depository Trust Company 
+in New York, New York. 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+2 
+123
+The Bonds of any series may be issued as serial or term bonds or both and shall be subject 
+to optional or mandatory redemption prior to maturity at the times and prices determined at the 
+time of sale and in the manner as set forth in the form of Bonds set forth in pa ragraph 6 of this 
+Resolution. 
+Unless waived by any registered owner of any Bonds to be redeemed, official notice of 
+redemption shall be given by the Transfer Agent on behalf of the School District.  Such notice 
+shall be dated and shall contain at a minimum  the following information:  original issue date; 
+maturity dates; interest rates; CUSIP numbers, if any; certificate numbers (and in the case of partial 
+redemption) the called amounts of each certificate; the redemption date; the redemption price; the 
+place where Bonds called for redemption are to be surrendered for payment; and that interest on 
+Bonds or portions thereof called for redemption shall cease to accrue from and after the redemption 
+date. 
+In addition, further notice shall be given by the Transfer  Agent in such manner as may be 
+required or suggested by regulations or market practice at the applicable time, but no defect in 
+such further notice nor any failure to give all or any portion of such further notice shall in any 
+manner defeat the effectiven ess of a call for redemption if notice thereof is given as prescribed 
+herein. 
+3. Execution of Bonds .  The Bonds shall be signed by the manual or facsimile 
+signatures of the President and Secretary of the Board.  No Bonds shall be valid until authenticated 
+by an authorized representative of the Transfer Agent.  The Bonds shall be delivered to the Transfer 
+Agent for authentication and be delivered by it to the purchaser in accordance with instructions 
+from the Treasurer of the Board upon payment of the purchase price for the Bonds in accordance 
+with the bid therefor when accepted.  Executed blank bonds for registration and issuance to 
+transferees shall simultaneously, and from time to time thereafter as necessary, be delivered to the 
+Transfer Agent for safekeeping. 
+4. Debt Retirement Fund .  Unless the School District establishes a Common Debt 
+Retirement Fund as provided by law for all issues of bonds of like character of the School District, 
+the Treasurer shall open a special depositary account for the Bonds with a b ank to be designated 
+as 2019 School Building and Site Bonds Debt Retirement Fund (the “Debt Retirement Fund”).  All 
+proceeds from taxes levied for the payment of the principal of, interest on and redemption price 
+for the Bonds shall be deposited into the D ebt Retirement Fund or the Common Debt Retirement 
+Fund, if one is established.  Once the Debt Retirement Fund is established, the moneys deposited 
+in such fund shall be used solely for the purpose of paying the principal of, interest on and 
+redemption pric e, if any, for the Bonds.  If the School District establishes a Common Debt 
+Retirement Fund, the moneys deposited in that fund shall be used solely for the payment of the 
+principal of and interest on the Bonds and other bonds of like character of the Schoo l District 
+payable from the Common Debt Retirement Fund.  The accrued interest, if any, received upon 
+delivery of the Bonds shall also be deposited in the appropriate debt retirement fund.  Taxes 
+required to be levied to meet the principal and interest obl igations and redemption premiums, if 
+any, may be without limitation as to rate or amount, as provided by Article IX, Section 6 and 
+Article IX, Section 16 of the Michigan Constitution of 1963. 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+3 
+124
+5. Capital Projects Fund .  There shall be established by the Treasu rer a special 
+depository account, designated the 2019 School Building and Site Bonds Projects Fund (the 
+“Capital Projects Funds”).  The amounts specified by the Authorized Officer at the time of sale of 
+the Bonds from the net proceeds of sale of the Bonds and from any net original issue premium 
+shall be deposited to the Capital Projects Fund to be used only to pay for the costs of the Projects 
+and the costs of issuance of the Bonds.  Except for investment pending disbursement and as herein 
+provided, the moneys in the Capital Projects Fund shall be used only to pay the costs of the Projects 
+as such costs become due and payable and the costs of issuance of the Bonds and, as may be 
+necessary, to rebate arbitrage earnings, if any, to the United States Department  of Treasury as 
+required by the Internal Revenue Code of 1986, as amended (the “Code”).  Any net original issue 
+premium received on sale and delivery of the Bonds shall be deposited in the appropriate fund 
+consistent with State and federal law, and if requ ired by federal tax law, may be used to pay 
+capitalized interest on the Bonds associated with the Projects or may be used to reduce the principal 
+amount of the Bonds associated with the Projects issued.  Such net original issue premium 
+received, if any, sh all be counted against the 2013 Bond Proposal.  Moneys remaining in the 
+Capital Projects Fund after completion of the Projects, payment of the costs of issuance of the 
+Bonds, and payment of capitalized interest, if any, may be used first for any purpose permitted by 
+the 2013 Bond Proposal and second for any other purpose permitted by law, than shall be 
+transferred to the Debt Retirement Fund. 
+6. Bond Form .  The Bonds shall be substantially in the following form  with such 
+changes as are authorized by the terms of this Resolution or necessary to complete the provisions 
+thereof: 
+UNITED STATES OF AMERICA 
+STATE OF MICHIGAN 
+COUNTY OF OAKLAND 
+TROY SCHOOL DISTRICT 
+2019 SCHOOL BUILDING AND SITE BONDS 
+(UNLIMITED TAX GENERAL OBLIGATION) 
+DATE OF 
+May 1, 20__ 
+Registered Owner: Cede & Co. 
+Principal Amount:   Dollars 
+Troy School District, County of Oakland, State of Michigan (the “School District”) 
+promises to pay to the Registered Owner specified above, or registered assigns, the Principal 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+4 
+125
+INTEREST RATE 
+MATURITY DATE 
+ORIGINAL ISSUE 
+CUSIP 
+Amount specified above, in lawful money of the United States of America on the Maturity Date 
+specified above, unless prepaid prior thereto as hereinafter provided, with interest thereon 
+(computed on the basis of a 360 -day year consisting of twelve 30 -day months) from the Date of 
+Original Issue specified above, or such later date to which interest has been paid, until paid, at the 
+Interest Rate per annum specified above, first payable on __________, 20__ and semiannually 
+thereafter.  Principal of this bond is payable at the corporate trust office of 
+__________________________, or such other transfer agent as the School District may hereafter 
+designate by notice mailed to the registered owner hereof not less than 60 days prior to any interest 
+payment date (the “Transfer Agent”).  Interest on this bond is payable by check or draft mailed by 
+the Transfer Agent to the person or entity who or which is as of the 15th day of the month preceding 
+each interest payment date, the registered owner, at the registered address.  For the prompt payment 
+of this bond, both principal and interest, the full  faith and credit of the School District is hereby 
+irrevocably pledged. 
+This bond is one of a series of bonds of even date of original issue aggregating the principal 
+sum of $_________, (the “Bonds”).  The Bonds are issued under and in pursuance of the provisions 
+of Act 451, Public Acts of Michigan, 1976, as amended, and Act 34, Public Acts of Michigan, 
+2001, as amended, and pursuant to a resolution duly adopted by the Board of Education of the 
+School District on March 19, 2019, and constitutes the third and final series of bonds authorized 
+pursuant to a majority vote of the qualified electors of the School District voting thereon at the 
+Regular School Election held on November 5, 2013. 
+This Bond and the interest hereon are payable from the Debt Retirement Fund of the School 
+District for this issue, and the School District is obligated to levy annually sufficient taxes without 
+limitation as to rate or amount to provide for the payment of the principal of and interest on these 
+bonds as they mature. 
+Bonds or $5,000 portions of bonds maturing in the years 20__ to 20__, inclusive, shall not 
+be subject to redemption prior to maturity. 
+Bonds maturing in the years 20__ to 20__, inclusive, shall be subject to redemption prior 
+to maturity, at the option of the School District, in any order of maturity, and by lot within a single 
+maturity, on any date on or after ____________, 20__.  Bonds or portions thereof called for 
+redemption shall be redeemed at par plus accrued interest to the date fixed for redemption. 
+[Insert mandatory term bond redemption provisions, if needed] 
+In case less than the full amount of an outstanding bond is called for redemption, the 
+Transfer Agent, upon presentation of the bond called in part for redemption, shall regist er, 
+authenticate and deliver to the registered owner of record a new bond in the principal amount of 
+the portion of the original bond not called for redemption. 
+Notice of redemption of any bond shall be given at least 30 days and not more than 60 days 
+prior to the date fixed for redemption by mail to the registered holder or holders at the registered 
+addresses shown on the registration books kept by the Transfer Agent.  Bonds shall be called for 
+redemption in multiples of $5,000, and bonds of denominations of more than $5,000 shall be 
+treated as representing the number of bonds obtained by dividing the denomination of the bond by 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+5 
+126
+$5,000, and such bonds may be redeemed in part.  The notice of redemption for bonds redeemed 
+in part shall state that upon surrender of the bond to be redeemed a new bond or bonds in aggregate 
+principal amount equal to the unredeemed portion of the bond surrendered shall be issued to the 
+registered holder thereof.  No further interest shall accrue on the bonds or portions of bonds called 
+for redemption after the date fixed for redemption, whether presented for redemption or not, 
+provided funds are on hand with the Transfer Agent to redeem the same. 
+Any bond may be transferred by a registered owner, in person or by the registered owner’s 
+authorized attorney or legal representative, upon surrender of the bond to the Transfer Agent for 
+cancellation, together with a duly executed written instrument of transfer in a form approved by 
+the Transfer Agent.  Whenever any bond is surrendered for transfer, the Transfer Agent shall 
+authenticate and deliver a new bond or bonds, in like aggregate principal amount, interest rate and 
+maturity.  The Transfer Agent shall require the owner requesting the transfer to pay any tax or 
+other governmental charge  required to be paid with respect to the transfer.  The Transfer Agent 
+will not be required to (i)  issue, register the transfer of or exchange any bond during a period 
+beginning at the opening of business 15 days before the day of the mailing of a notice o f 
+redemption of bonds selected for redemption and ending at the close of business on the day of that 
+mailing, or (ii) register the transfer of or exchange any bond selected for redemption in whole or 
+in part, except the unredeemed portion of bonds being redeemed in part. 
+It is hereby certified and recited that all acts, conditions and things required to be done, 
+exist and happen, precedent to and in the issuance of this bond and the series of bonds of which 
+this is one, in order to make them valid and bindi ng obligations of the School District have been 
+done, exist and have happened in regular and due form and time as provided by law, and that the 
+total indebtedness of the School District, including this bond and the series of bonds of which this 
+is one, does not exceed any constitutional or statutory limitation. 
+This bond is not valid or obligatory for any purpose until the Transfer Agent’s Certificate 
+of Authentication on this bond has been executed by the Transfer Agent. 
+IN WITNESS WHEREOF, the Troy School  District, County of Oakland, State of 
+Michigan, by its Board of Education has caused this bond to be signed in the name of the School 
+District by the manual or facsimile signature of the President and to be countersigned by the 
+manual or facsimile signatu re of the Secretary of the Board of Education, all as of the Date of 
+Original Issue. 
+TROY SCHOOL DISTRICT 
+County of Oakland 
+State of Michigan 
+ By:  [manual/facsimile]    
+  President 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+6 
+127
+Countersigned: 
+By:  [manual/facsimile]  
+  Secretary 
+[FORM OF TRANSFER AGENT’S CERTIFICATE OF AUTHENTICATION] 
+Certificate of Authentication 
+This bond is one of the Bonds described above. 
+  Transfer Agent 
+ By:        
+  Authorized Signature 
+Date of Authentication:   , 2019 
+[End of Bond Form] 
+7. Unlimited Tax.  Commencing with the fiscal year beginning July 1, 2019, it shall 
+be the duty of the School District to levy a tax annually in an amount sufficient so that the estimated 
+collections therefrom will be sufficient to pay promptly when due the principal o f and interest 
+becoming due on the Bonds, which tax levies shall not be subject to limitation as to rate or amount. 
+8. Negotiated Sale.  The School District has considered the option of selling the Bonds 
+through a competitive sale and a negotiated sale and, pursuant to the requirements of the Act, and 
+based on the advice of the Municipal Advisor (as defined below) has determined that a negotiated 
+sale of the Bonds provides the School District with greater flexibility in structuring bond maturities 
+and the timi ng of the sale of the Bonds, and will enable the School District to better market the 
+Bonds to the advantage of the School District and its taxpayers. 
+9. Retention of Underwriter and Execution of Bond Purchase Agreement.  The School 
+District hereby appoints S tifel, Nicolaus & Company, Incorporated as senior managing 
+underwriter for the Bonds (the “Underwriter”).  The Authorized Officer is hereby authorized to 
+appoint one or more co-managing underwriters, if recommended by the Municipal Advisor.  The 
+Authorized Officer is further authorized to negotiate and, subject to the parameters set forth in this 
+Resolution, award the sale of the Bonds to the Underwriter pursuant to a bond purchase agreement.  
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+7 
+128
+The Authorized Officer is authorized to execute and deliver the bond purchase agreement on behalf 
+of the School District without further approval of this Board.   
+The Authorized Officer may, without further approval or direction from the Board, execute 
+a sale order evidencing the final terms of the Bonds, and make any of the determinations, covenants 
+and elections authorized by this Resolution, provided that the final terms of the Bonds shall be 
+within the parameters set forth in this Resolution. 
+10. Ratings and Bond Insurance .  The Authorized Officer is authorized to apply  for 
+bond ratings from such municipal bond rating agencies as is deemed appropriate, and apply for 
+and purchase a policy of municipal bond insurance, if deemed appropriate by the Municipal 
+Advisor and Bond Counsel (as defined below). 
+11. Official Statements.  The President of the Board of Education and the Authorized 
+Officer are each hereby authorized to approve preliminary and final official statements relating to 
+the Bonds as is deemed appropriate by the Municipal Advisor and Bond Counsel.  The President 
+of the Board of Education or the Authorized Officer are further authorized to execute and deliver 
+the final Official Statement relating to the Bonds on behalf of the School District and to approve, 
+execute and deliver any amendments and supplements to the Official Statement necessary to assure 
+that the statements therein are, and as of the time the Bonds are delivered to the Underwriter will 
+be true, and that it does not contain any untrue statement of a material fact and does not omit to 
+state a material fact necessary in order to make the statements therein, in light of the circumstances 
+under which they were made, not misleading. 
+12. Continuing Disclosure Undertaking .  The School District hereby covenants, in 
+accordance with the provisions of Rule 15c2 -12, as may be amended (the “Rule”), promulgated 
+by the Securities and Exchange Commission (the “SEC”), to provide or cause to be provided the 
+information set forth in the attached Exhibit A, as such Exhibit may be revised by the Authorized 
+Officer as required by Rule 15c2-12 prior to delivery of the Bonds. 
+13. Tax Matters.  The School District hereby covenants that, to the extent permitted by 
+law, it shall take all actions within its control necessary to maintain the exclusion of the interest 
+on the Bonds from adjusted gross income for federal income purposes under the Internal Revenue 
+Code of 1986, as amended (the “Code”) including but not limited to, actions relating to the rebate 
+of arbitrage earnings, if applicable, and the expenditure and investment of bond proceeds and 
+moneys deemed to be bond proceeds.   
+14. Further Bond Details.  The Authorized Officer is authorized to adjust the final Bond 
+details to the extent necessary or convenient to complete the transaction authorized in this 
+Resolution, and in pursuance of the foregoing is authorized to exercise the authority and make the 
+determinations authorized pursuant to Section 315(1)(d) of the Act, including but not limited to, 
+determinations regarding interest rates, prices, discounts, maturities, principal amounts, 
+denominations, dates of issuance, interest payment dates, redemption rights, the place of delivery 
+and payment, designation of series, and other matters, all subject to the parameters established in 
+this Resolution.   
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+8 
+129
+15. Retention of Bond Counsel and Municipal Adv isor.  The law firm of Miller, 
+Canfield, Paddock and Stone, P.L.C. is hereby appointed as bond counsel for the School District 
+with reference to the issuance of the Bonds authorized by this Resolution (“Bond Counsel”).  The 
+representation of the School Dis trict by Miller, Canfield, Paddock and Stone, P.L.C. as Bond 
+Counsel is hereby approved, notwithstanding Miller, Canfield’s periodic representation in 
+unrelated matters of the Underwriter, Stifel, Nicolaus & Company, Incorporated, and other 
+potential parties to the transactions contemplated by this Resolution.  The School District also 
+hereby appoints PFM Financial Advisors LLC to act as financial advisor with reference to the 
+issuance of the Bonds authorized by this Resolution (the “Municipal Advisor”). 
+16. Department of Treasury .  The Authorized Officer is hereby authorized to make 
+application to Treasury for prior approval to issue the Bonds or file a qualifying statement.  The 
+Authorized Officer is further authorized to request any and all waivers, including  without 
+limitation, rating waivers, or exemptions from Treasury necessary to the issuance of the Bonds as 
+recommended by the Municipal Advisor and Bond Counsel.  The Authorized Officer is authorized 
+to have prepared and filed a Security Report with Treasury pursuant to the Act.   
+17. Department of Treasury Qualification .  The officers, agents and employees of the 
+School District are authorized to submit a request for interim approval and such other actions as 
+may be required for qualification under the School Bond Qualification, Approval, and Loan Act, 
+Act 92, Public Acts of Michigan, 2005, as amended.  The Authorized Officer is authorized on 
+behalf of the School District to approve a completed Application for Final Qualification of the 
+Bonds, in substantially the form attached hereto as Exhibit B, with such changes as the Authorized 
+Officer shall deem necessary to conform such Application to the final terms of each series of the 
+Bonds, and to sign one or more loan agreements and any other documents that may be required by 
+each loan agreement.  The Secretary of the Board is hereby authorized and directed to execute and 
+cause to be submitted to Treasury the completed Application for Final Qualification of the Bonds. 
+18. Further Actions.  The officers, administrators, agents and attorneys of the School 
+District are authorized and directed to execute and deliver all other agreements, documents and 
+certificates and to take all other actions necessary to complete the issuance and delivery of the 
+Bonds in accordance with th is Resolution.  The officers, administrators, agents and attorneys of 
+the School District are authorized and directed to pay costs of issuance including Bond Counsel 
+fees, Municipal Advisor fees, rating agency fees, Transfer Agent fees, costs of printing t he 
+preliminary and official statements, and any other costs necessary to accomplish sale and delivery 
+of the Bonds. 
+[Remainder of Page Intentionally Left Blank] 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+9 
+130
+19. Conflicts.  All resolutions and parts of resolutions insofar as they conflict with the 
+provisions of this Resolution be and the same hereby are rescinded. 
+ YES: ____________________________________________________________ 
+  ____________________________________________________________ 
+ NO: ____________________________________________________________ 
+  ____________________________________________________________ 
+RESOLUTION DECLARED ADOPTED. 
+      ___________________________________ 
+      Gary Hauff 
+      Secretary, Board of Education  
+ I hereby certify that the foregoing constitutes a true and complete copy of a resolution 
+adopted by the Board of Education of the Troy School District, County of Oakland, State of 
+Michigan, at a regular meeting held on March 19, 2019, and that said meeting was conducted and 
+public notice of said meeting was given pursuant to and in full compliance with the Open Meetings 
+Act, being Act 267, Public Acts of 1976, as amended, and that the minutes of said meeting were 
+kept and will be or have been made available as required by said Act. 
+      ___________________________________ 
+      Gary Hauff 
+      Secretary, Board of Education 
+33092238 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+10 
+131
+EXHIBIT A 
+FORM OF CONTINUING DISCLOSURE UNDERTAKING 
+This Continuing Disclosure Undertaking (the “Undertaking”) is executed and delivered by 
+the Troy School District, County of Oakland, State of Michigan (the “School District”), in 
+connection with the issuance of its 2019 School Building and Site Bonds (Unlimited Tax General 
+Obligation) (the “Bonds”).  The School District covenants and agrees for the benefit of the 
+Bondholders, as hereinafter defined, as follows: 
+(a)  Definitions.  The following terms used h erein shall have the following 
+meanings: 
+“Audited Financial Statements” means the annual audited financial 
+statement pertaining to the School District prepared by an individual or firm of 
+independent certified public accountants as required by Act 2, Publi c Acts of 
+Michigan, 1968, as amended, which presently requires preparation in accordance 
+with generally accepted accounting principles. 
+“Bondholders” shall mean the registered owner of any Bond or any person 
+(a) with the power, directly or indirectly, to v ote or consent with respect to, or to 
+dispose of ownership of, any Bond (including any person holding a Bond through 
+a nominee, depository or other intermediary) or (b) treated as the owner of any 
+Bond for federal income tax purposes. 
+“EMMA” shall mean the  MSRB’s Electronic Municipal Market Access 
+District, or such other District, Internet Web site, or repository hereafter prescribed 
+by the MSRB for the submission of electronic filings pursuant to the Rule. 
+“MSRB” means the Municipal Securities Rulemaking Board. 
+“Rule” means Rule 15c2 -12 promulgated by the SEC pursuant to the 
+Securities Exchange Act of 1934, as amended. 
+“SEC” means the United States Securities and Exchange Commission. 
+(b) Continuing Disclosure.  The School District hereby agrees, in accordan ce 
+with the provisions of the Rule, to provide or cause to be provided to the MSRB through 
+EMMA, on or before the last day of the 6th month after the end of the fiscal year of the 
+School District, the following annual financial information and operating da ta, 
+commencing with the fiscal year ended June 30, 2019, in an electronic format as prescribed 
+by the MSRB:  
+(1) Updates of the numerical financial information and operating data 
+included in the official statement of the School District relating to the Bon ds (the 
+“Official Statement”) appearing in the Tables in the Official Statement as described 
+below: [Headings to be conformed to Official Statement when available.] 
+a. ENROLLMENT – Historical Enrollment; 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ A - 1 
+132
+b. STATE AID PAYMENTS; 
+c. PROPERTY VALUATIONS – History of Valuations; 
+d. MAJOR TAXPAYERS; 
+e. SCHOOL DISTRICT TAX RATES – (per $1,000 of 
+Valuation); 
+f. TAX LEVIES AND COLLECTIONS; 
+g. RETIREMENT PLAN – Contribution to MPSERS; 
+h. DEBT STATEMENT – DIRECT DEBT;  
+i. SCHOOL LOAN REVOLVING FUND (SLRF) PROGRAM; and 
+j. GENERAL FUND BUDGET SUMMARY in Appendix C.  
+(2) The Audited Financial Statements. provided, however, that if the 
+Audited Financial Statements are not available by the date specified above, they 
+shall be pro vided when available and unaudited financial statements will be filed 
+by such date and the Audited Financial Statements will be filed as soon as available 
+Such annual financial information and operating data described above are expected to be 
+provided directly by the School District or by specific reference to documents available to 
+the public through EMMA or filed with the SEC. 
+If the fiscal year of the School District is changed, the School District shall send a notice 
+of such change to the MSRB through EMMA, prior to the earlier of the ending date of the 
+fiscal year prior to such change or the ending date of the fiscal year as changed. 
+(c) Notice of Failure to Disclose .  The School District agrees to provide or 
+cause to be provided, in a timely manner, to  the MSRB through EMMA, in an electronic 
+format as prescribed by the MSRB, notice of a failure by the School District to provide the 
+annual financial information with respect to the School District described in subsection (b) 
+above on or prior to the dates set forth in subsection (b) above. 
+(d) Occurrence of Events.  The School District agrees to provide or cause to be 
+provided to the MSRB through EMMA, in an electronic format as prescribed by the 
+MSRB, in a timely manner not in excess of ten business days after the occurrence of the 
+event, notice of the occurrence of any of the following events listed in (b)(5)(i)(C) of the 
+Rule with respect to the Bonds: 
+(1) principal and interest payment delinquencies; 
+(2) non-payment related defaults, if material; 
+(3) unscheduled draws on debt service reserves reflecting financial 
+difficulties; 
+(4) unscheduled draws on credit enhancements reflecting financial 
+difficulties; 
+(5) substitution of credit or liquidity providers, or their failure to 
+perform; 
+(6) adverse tax opinions, the issuance by the Internal Revenue Service 
+of proposed or final determinations of taxability, Notices of 
+Proposed Issue (IRS Form 5701 -TEB) or other material notices or 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ A - 2 
+133
+determinations with respect to the tax status of the Bonds, or other 
+material events affecting the tax status of the Bonds; 
+(7) modifications to rights of holders of the Bonds, if material; 
+(8) bond calls, if material, and tender offers; 
+(9) defeasances; 
+(10) release, substitution, or sale of property securing repayment of the 
+Bonds, if material; 
+(11) rating changes; 
+(12) bankruptcy, insolvency, receivership or similar event of the School 
+District, which is considered to occur when any of the following 
+occur: the appointment of a receiver, fiscal agent or similar officer 
+for the Sch ool District in a proceeding under the U.S. Bankruptcy 
+Code or in any other proceeding under state or federal law in which 
+a court or governmental authority has assumed jurisdiction over 
+substantially all of the assets or business of the School District, or if 
+such jurisdiction has been assumed by leaving the existing 
+governing body and officials or officers in possession but subject to 
+the supervision and orders of a court or governmental authority, or 
+the entry of an order confirming a plan of reorganizat ion, 
+arrangement or liquidation by a court or governmental authority 
+having supervision or jurisdiction over substantially all of the assets 
+or business of the School District; 
+(13) the consummation of a merger, consolidation, or acquisition 
+involving the School District or the sale of all or substantially all of 
+the assets of the School District, other than in the ordinary course of 
+business, the entry into a definitive agreement to undertake such an 
+action or the termination of a definitive agreement rela ting to any 
+such actions, other than pursuant to its terms, if material; 
+(14) appointment of a successor or additional trustee or the change of 
+name of a trustee, if material; 
+(15) incurrence of a financial obligation of the School District, if 
+material, o r agreement to covenants, events of default, 
+remedies, priority rights, or other similar terms of a financial 
+obligation of the School District, any of which affect security 
+holders, if material; or 
+(16) default, event of acceleration, termination event, m odification of 
+terms, or other similar events under the terms of the financial 
+obligation of the School District, any of which reflect financial 
+difficulties. 
+(e) Materiality Determined Under Federal Securities Laws .  The School 
+District agrees that its de termination of whether any event listed in subsection (d) is 
+material shall be made in accordance with federal securities laws. 
+(f) Identifying Information .  All documents provided to the MSRB through 
+EMMA shall be accompanied by the identifying information prescribed by the MSRB.   
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ A - 3 
+134
+(g) Termination of Reporting Obligation.  The obligation of the School District 
+to provide annual financial information and notices of material events, as set forth above, 
+shall be terminated if and when the School District no longer remains an “obligated person” 
+with respect to the Bonds within the meaning of the Rule, including upon legal defeasance 
+of all Bonds. 
+(h) Benefit of Bondholders .  The School District agrees that its undertaking 
+pursuant to the Rule set forth in this Undertaking is intended to be for the benefit of the 
+Bondholders and shall be enforceable by any Bondholder; provided that, the right to 
+enforce the provisions of this Undertaking shall be limited to a right to obtain specific 
+enforcement of the School Dis trict’s obligations hereunder and any failure by the School 
+District to comply with the provisions of this Undertaking shall not constitute a default or 
+an event of default with respect to the Bonds. 
+(i) Amendments to the Undertaking.  Amendments may be made in the specific 
+types of information provided or the format of the presentation of such information to the 
+extent deemed necessary or appropriate in the judgment of the School District, provided 
+that the School District agrees that any such amendment will be adopted procedurally and 
+substantively in a manner consistent with the Rule, including any interpretations thereof 
+by the SEC, which, to the extent applicable, are incorporated herein by reference.  Such 
+interpretations currently include the requir ements that (a) the amendment may only be 
+made in connection with a change in circumstances that arises from a change in legal 
+requirements, change in law, or change in the identity, nature, or status of the School 
+District or the type of activities conducted thereby, (b) the undertaking, as amended, would 
+have complied with the requirements of the Rule at the time of the primary offering of the 
+Bonds, after taking into account any amendments or interpretations of the Rule, as well as 
+any change in circumst ances, and (c) the amendment does not materially impair the 
+interests of Bondholders, as determined by parties unaffiliated with the School District 
+(such as independent legal counsel), but such interpretations may be changed in the future.  
+If the account ing principles to be followed by the School District in the preparing of the 
+Audited Financial Statements are modified, the annual financial information for the year 
+in which the change is made shall present a comparison between the financial statements 
+as prepared on the prior basis and the statements as prepared on the new basis, and 
+otherwise shall comply with the requirements of the Rule, in order to provide information 
+to investors to enable them to evaluate the ability of the School District to meet i ts 
+obligations.  A notice of the change in accounting principles shall be sent to the MSRB 
+through EMMA. 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ A - 4 
+135
+IN WITNESS WHEREOF, the School District has caused this Undertaking to be executed 
+by its authorized officer. 
+TROY SCHOOL DISTRICT 
+By: ______________________________ 
+Its: Superintendent 
+Dated: _______________, 2019 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ A - 5 
+136
+EXHIBIT B 
+FORM OF APPLICATION FOR FINAL QUALIFICATION OF BONDS 
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ B - 1 
+137
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ B - 2 
+138
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ B - 3 
+139
+33092238.1\091101-00045  
+BOND RESOLUTION 
+2019 School Building and Site Bonds 
+ B - 4 
+140
+8.D. 03.19.19 
+8. BUSINESS 
+D.  CONSIDERATION: Troy School District Preschool Technology 
+Cabling 
+A RFP was issued to obtain competitive bids for the cabling infrastructure 
+for the Troy School District Preschool.  Bid responses were reviewed by 
+Beth Soggs , Director of Technology and Convergent Technology 
+Partners, and it is recommended the bid be awarded as stated below.  
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved  that the bid for cabling infrastructure for the 
+Troy School District Preschool  be awarded to Complete Interactive 
+Technologies in the amount of $59,905.31 and that th is amount be 
+approved as an expenditure of the Early Childhood Center Fund. 
+ Yes: 
+ No: 
+141
+                                            Convergent Technology Partners  
+                                            111 E. Court  Ste 202   Flint, MI  48502  
+                                            810.720.3820 Fax 810.720.3886  
+                                            E-mail: info@ctpartners.net  
+                                            Website: www.ctpartners.net  
+March 5, 2019 
+Beth Soggs 
+Technology Director 
+Troy School District 
+4420 Livernois 
+Troy, Michigan 48098 
+Subject: ECC Communications Cabling Bid Pack #9877 Recommendation Letter 
+Beth, 
+We received, opened, and publicly read bids and proposals for the cabling infrastructure at the new Early 
+Childhood Center on February 28, 2019 at 10:00 A.M.  The following is a summary of the evaluation and our 
+recommendation. 
+Five proposals were received.  The initial results were tabulated as follows: 
+Contractor Base Bid 
+Amcomm $68, 250.00 
+Western Telcom $80,041.50 
+Complete  $59,905.31 
+JMC $65,484.00 
+TTI Not Read, No Bid Bond 
+All proposals were evaluated for compliance with the RFP requirements, pricing, technical solution and acceptance 
+of terms and conditions of the RFP. All Bidders provided compliant proposals except TTI who did not provide the 
+required bid bond.  The low bidder was Complete Interactive Technologies.  We had questions regarding some of 
+the items in their “Bill Of Materials”.  Those questions were satisfactorily answered in writing. 
+We have previously worked with Complete Interactive Technnologies and have found their work to be of good 
+quality. 
+Based on our evaluation, we recommend the award of the Communications Cabling Package to Complete 
+Interactive Technologies in the amount of $59,905.31 
+Please contact me with any questions at 810-223-0528. 
+Respectfully, 
+John C. Foster, RCDD 
+President 
+Convergent Technology Partners  
+142
+BID TABULATION SHEET
+Troy School District
+Communications Cabling Bid #9877
+February 28, 2019 at 10:00am
+Iran
+Bidder Bond PA-232 Affidavit Base Bid Total
+Amcomm x x x $68,250.00
+Western Telcom x x x $80,041.50
+Complete x x x $59,905.31
+JMC x x x $65,484.00
+TTI No x x Not Read
+John Foster
+Signed
+Verified
+Convergent Technology Partners, LLC
+143
+8. E. 03.19.19 
+8. BUSINESS 
+E.  CONSIDERATION: Aquatic Sports Timing Equipment 
+A RFP was issued to obtain competitive bids for aquatic sports timing 
+equipment pricing and installation for the pool  area at Athens High 
+School.  Bid responses were reviewed by  Todd Hensley , Purchasing 
+Supervisor and Tim Fulcher, Athletic Director , and it is recommended 
+the bid be awarded as stated below.  
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+ Be it therefore resolved that the bid for aquatic sports timing equipment 
+and installation be awarded to Riegle Timing Consultants LLC in the amount 
+of $65,008.00 and that this amount be approved as an expenditure of the 
+General Fund and Activity Fund. 
+ Yes: 
+ No: 
+144
+Memorandum 
+          TO:     Rick West – Assistant Superintendent  
+                      Business Services   
+    FROM:     Todd Hensley – Purchasing Supervisor  
+Purchasing Department 
+          RE:     BID 9875 Aquatic Sports Timing Equipment  
+1140 Rankin 
+                       and Installation – Athens High School                                                
+Troy, Michigan  48093 
+Fax  248 823-4013 
+Invitations were sent to eleven potential bidders to provide closed-sealed aquatic sports timing   
+equipment pricing and installation for the pool area at Athens High School. Three vendors 
+responded and after collaboratively  analyzing th e information provided with Tim  Fulcher, 
+Athletic Director, we are recommending that Riegle Timing Consultants LLC, be awarded this 
+bid package.    
+              Vendor                          Award Amount 
+Riegle Timing Consultants LLC                $ 65,008.00 
+          Total Bid Award             $ 65,008.00 
+Also, attached is a tabulation for the bids received providing supporting documentation.  
+Cc:   Pat Orczykowski – Business Department  
+ Purchasing Department – File  
+145
+Phone  248 823-4091 
+     DATE:     February 22, 2019 
+Bid Tabulation 
+BID 9875 Aquatic Sports Timing 
+Equipment and Installation
+Athens High School
+Vendors Amount
+BSN Sports LLC a) $ 89,436.62
+Kieffer Signs LLC $ 71,780.00
+Riegle Timing Consultants LLC $ 65,008.00
+a) Installion not included.
+3/14/2019
+146
+     10. A.       03.19.19 
+10. OTHER 
+ A. CONSIDERATION:  Cancellation of the June 18, 2019, Board 
+of Education Meeting  
+RECOMMENDED ACTION:  Adopt the following resolution. 
+   Moved by  
+   Supported by  
+Be It Therefore Resolved  that the Board of Education takes action to cancel 
+the June 18, 2019, Board of Education Meeting. 
+Yes:  
+No:    
+147
+     10. B.       03.19.19 
+10. OTHER 
+ B.  CONSIDERATION:    DESIGNATION OF A SCHOOL SAFETY  
+     LIAISON AND EMERGENCY CONTACT TO  
+     ATTORNEY GENERAL HOTLINE 
+RECOMMENDED ACTION:  Adopt the following resolution. 
+   Moved by  
+   Supported by  
+WHEREAS, Public Act 435 of 2018 establishes the Office of School Safety within 
+the Department of State Police; the Office of School Safety is tasked with working 
+with the Michigan Department of Education to create model practices  for school 
+safety and offering school safety trainings to school districts; 
+WHEREAS, Public Act 538 of 2018 requires the Department of State Police to 
+create a School Safety Commi ssion to review model practices for determining 
+school safety measures and to make policy recommen dations to the Office of 
+School Safety;  
+WHEREAS, Public Act 549 of 2018 requires the Board to designate a District 
+employee to act as a liaison to both the newly-created Office of School Safety and 
+the School Safety Commission; 
+WHEREAS, the District’s d esignated liaison to the Office of School Safety and 
+School Safety Commission must be a District employee who regularly and 
+continuously works under contract for the District; 
+WHEREAS, under the Student Safety Act, MCL 752.913(3), the Attorney General is 
+responsible for operating a hotline that allows the public to submit reports 
+regarding potential self-harm and potential harm or criminal acts directed at school 
+students, school employees, or schools in Michigan; and 
+148
+WHEREAS, Publi c Act 670 of 2018 requi res the governing body of a school to 
+provide, at least biannually, to the Department of State Police current emergency 
+contact information for at least 1 school official to ensure that the school official is 
+able to receive information submitted through the hotline described above.  
+NOW THEREFORE LET IT BE RESOLVED:  
+1. That the Superintendent is directed t o designate an individual employed by th e 
+District or who is assigned to regularly and continuously work under contract for 
+the Di strict to act as a liai son to the Office of School Safety and the School 
+Safety Commission and the Superintendent shall notify the Department of State 
+Police of the designated liaison by March 28, 2019; and 
+2. That the Superintendent is directed to provide t he contact information of at 
+least one (1) school official within the District to receive information from the 
+Attorney General’s hotline, to the Department of State Police by March 28, 2019 
+as required by Public Act 670. 
+ Yes: ___________ 
+No: ___________ 
+Resolution declared adopted. 
+ _______________________________________ 
+Gary N. Hauff 
+Board of Education, Secretary  
+Troy School District  
+The undersigned, duly qualified Secretary of the Board of Education of Troy School 
+District, certifies that the f oregoing constitu tes a true and complete copy of a 
+Resolution adopted by the Board of Education at a meeting held on March 19, 
+2019, the original of which is part of the Board’s Minutes.  I further certify that 
+notice of the meeting w as given to the public  pursuant to the Open Meetings Act, 
+Act 267 of the Public Acts of Michigan, 1976, as amended. 
+ _______________________________________ 
+Gary N. Hauff 
+Board of Education, Secretary  
+Troy School District  
+149

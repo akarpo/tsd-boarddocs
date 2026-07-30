@@ -1,0 +1,2257 @@
+3      295659   09/07/11 17933    HEWLETT PACKARD CO  404053459647000  6410     #QL489AA#ABA HP 20         0.00            88.97
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404054459647000  6410     #QL489AA#ABA HP 20         0.00            88.97
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404070459647000  6410     #QL489AA#ABA HP 20         0.00            88.97
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404005459647000  6410     HP PROBOOK 6460B NO        0.00           305.42
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404071459647000  6410     #QL489AA#ABA HP 20         0.00            88.97
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404007459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404206459647000  6410     #QL489AA#ABA HP 20         0.00            88.97
+65
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404160459647000  6410     #NZ222AA#ABA HP 120        0.00            74.18
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404008459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404009459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404010459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404011459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404012459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404013459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404014459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404015459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404016459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404017459647000  6410     HP PROBOOK 6460B NO        0.00           305.50
+A1003      295659   09/07/11 17933    HEWLETT PACKARD CO  404050459647000  6410     HP PROBOOK 6460B NO        0.00           611.00
+TOTAL CHECK                                                                                                    0.00        12,953.52
+A1003      295855   09/20/11 19430    C D W GOVERNMENT IN 404015459647000  6410     #2366434 SPECK PIXE        0.00           739.00
+TOTAL CASH ACCOUNT                                                                                             0.00        13,692.52
+TOTAL FUND                                                                                                     0.00        13,692.52
+66
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295730   09/13/11 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PURCHASE ORDER        0.00            94.00
+A1003      295736   09/13/11 10433    COCA−COLA REFRESHME 520074256091800  5610     IAE                        0.00         1,576.29
+A1003      295739   09/13/11 22355    CONTINENTAL DISTRIB 520950256040500  4290     CATERING                   0.00            45.00
+A1003      295739   09/13/11 22355    CONTINENTAL DISTRIB 520950256040500  4290     CATERING                   0.00            45.00
+A1003      295739   09/13/11 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE RENTAL              0.00            45.00
+A1003      295739   09/13/11 22355    CONTINENTAL DISTRIB 520950256040500  4290     CATERING                   0.00            45.00
+TOTAL CHECK                                                                                                    0.00           180.00
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520009256091800  5640     WATTLES                    0.00            72.12
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520007256091800  5640     MORSE                      0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520014256091800  5640     WASS                       0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520071256091800  5640     ATHENS                     0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520070256091800  5640     THS                        0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520050256091800  5640     BAKER                      0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520053256091800  5640     BOULAN                     0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520052256091800  5640     LARSON                     0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520051256091800  5640     SMITH                      0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520016256091800  5640     BARNARD                    0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520015256091800  5640     BEMIS                      0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520012256091800  5640     COSTELLO                   0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520017256091800  5640     HAMILTON                   0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520010256091800  5640     HILL                       0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520005256091800  5640     T UNION                    0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520008256091800  5640     LEONARD                    0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520011256091800  5640     SCHROEDER                  0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520013256091800  5640     MARTELL                    0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520007256091800  5640     MORSE                      0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520011256091800  5640     SCHROEDER                  0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520005256091800  5640     T UNION                    0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520014256091800  5640     WASS                       0.00            98.61
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520009256091800  5640     WATTLES                    0.00            98.63
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520016256091800  5640     BARNARD                    0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520015256091800  5640     BEMIS                      0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520012256091800  5640     COSTELLO                   0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520017256091800  5640     HAMILTON                   0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520010256091800  5640     HILL                       0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520008256091800  5640     LEONARD                    0.00            72.08
+A1003      295769   09/13/11 12879    LESNAU PRINTING CO  520013256091800  5640     MARTELL                    0.00            72.08
+TOTAL CHECK                                                                                                    0.00         2,640.00
+A1003      295817   09/13/11 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00            46.82
+A1003      295841   09/20/11 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FD SVC           0.00             5.64
+A1003      295845   09/20/11 10022    ABLE PRINTING & RUB 520950256091800  5910     BEMIS FD SVC BK STA        0.00            29.50
+A1003      295957   09/20/11 15417    SHEREE FERGUSON     520              L4740    K+ REFUND                  0.00           381.25
+A1003      295993   09/27/11 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PURCHASE ORDER        0.00            58.61
+67
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295996   09/27/11 20401    CARISSA MCNELLEN    520070256091800  5992     LUNCH ACCT REFUND          0.00            21.55
+A1003      296022   09/27/11 20401    EMAD ALATASSI       520051256091800  5992     LUNCH ACCT REFUND          0.00            78.11
+A1003      296054   09/27/11 20401    LISA MATZENBACH     520071256091800  5992     LUNCH ACCT REFUND          0.00             7.00
+A1003      296079   09/27/11 20401    NADIA ISMAIL        520071256091800  5992     LUNCH ACCT REFUND          0.00             6.00
+A1003      296115   09/27/11 20401    SUSAN DOUGLAS       520071256091800  5992     LUNCH ACCT REFUND          0.00            11.75
+A1003      296131   09/27/11 20401    WESAM NAJOR         520012256091800  5992     LUNCH ACCT REFUND          0.00            20.00
+TOTAL CASH ACCOUNT                                                                                             0.00         5,156.52
+TOTAL FUND                                                                                                     0.00         5,156.52
+68
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 529 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295615   09/07/11 23057    A C T INC           529202135660000  5110     OPEN PO FOR ACT WOR        0.00           181.50
+A1003      295714   09/13/11 23057    A C T INC           529202135660000  5110     OPEN PO FOR ACT WOR        0.00           170.50
+A1003      295774   09/13/11 26210    MEDIA GENESIS INC   529202229660000  3190     ANNUAL  WEB HOSTING        0.00           750.00
+A1003      295778   09/13/11 18125    MITEL NETWORKS INC  529202229660000  3410     CAREER CTR REPAIRS         0.00            92.00
+A1003      295826   09/20/11 23057    A C T INC           529202135660000  5110     OPEN PO FOR ACT WOR        0.00           176.00
+A1003      295879   09/20/11 15988    DYNAMIC NETWORK SYS 529202135660000  3110     OPEN PO FOR COMPUTE        0.00           840.00
+A1003      295879   09/20/11 15988    DYNAMIC NETWORK SYS 529202135660000  3110     OPEN PO FOR COMPUTE        0.00         4,427.50
+TOTAL CHECK                                                                                                    0.00         5,267.50
+A1003      295905   09/20/11 10502    LEAR CORPORATION    529202135660700  3710     OPEN PO FOR OJT TRA        0.00        26,013.65
+A1003      295920   09/20/11 26210    MEDIA GENESIS INC   529202229660000  3190     OCT 2011 SERVICE           0.00            20.00
+A1003      295947   09/20/11 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT FOR SUITE 410,        0.00         2,461.67
+A1003      295947   09/20/11 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT FOR SUITE 400,        0.00        12,393.25
+A1003      295947   09/20/11 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT FOR SUITE 308,        0.00         3,175.00
+A1003      295947   09/20/11 19853    ROBBINS INVESTMENTS 529202261660000  3890     ELECTRIC SERVICE           0.00           342.09
+TOTAL CHECK                                                                                                    0.00        18,372.01
+A1003      295983   09/27/11 13227    A T & T             529202229660000  3410     24873316958203/MIWR        0.00           113.75
+A1003      296001   09/27/11 10477    CONSULTING PSYCHOLO 529202135660000  5110     SKILLSONE SITE RENE        0.00           195.00
+A1003      296020   09/27/11 22807    EASTERN MI UNIV−CON 529202135660700  3710     ARNOLD D’AMORE BRAV        0.00         1,420.00
+TOTAL CASH ACCOUNT                                                                                             0.00        52,771.91
+TOTAL FUND                                                                                                     0.00        52,771.91
+69
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295620   09/07/11 13227    A T & T             530201311030000  3410     24887975416862/NILE        0.00             2.17
+A1003      295620   09/07/11 13227    A T & T             530211351030000  3410     24887975416862/NILE        0.00             1.52
+A1003      295620   09/07/11 13227    A T & T             530213351030000  3410     24887975416862/NILE        0.00             1.52
+TOTAL CHECK                                                                                                    0.00             5.21
+A1003      295627   09/07/11 13227    A T & T             530211351030000  3410     24882896977105 NILE        0.00             8.45
+A1003      295627   09/07/11 13227    A T & T             530201311030000  3410     24882896977105 NILE        0.00            12.06
+A1003      295627   09/07/11 13227    A T & T             530213351030000  3410     24882896977105 NILE        0.00             8.45
+TOTAL CHECK                                                                                                    0.00            28.96
+A1003      295636   09/07/11 10340    C & G PUBLISHING IN 530201311020400  3610     SPRING ENRICHMENT B        0.00         2,094.82
+A1003      295636   09/07/11 10340    C & G PUBLISHING IN 530201311020400  3610     FALL ENRICHMENT BRO        0.00         2,094.83
+A1003      295636   09/07/11 10340    C & G PUBLISHING IN 530201311020400  3610     WINTER ENRICHMENT B        0.00         2,094.82
+TOTAL CHECK                                                                                                    0.00         6,284.47
+A1003      295722   09/13/11 10042    ANAN YAPARLA        530211000100000  R1810    NILES PAL REFUND           0.00           651.00
+A1003      295723   09/13/11 12612    APPLE COMPUTER INC  530213351021300  5110     S3788LL/A  APPLECAR        0.00            79.00
+A1003      295723   09/13/11 12612    APPLE COMPUTER INC  530211351021100  5110     S3788LL/A  APPLECAR        0.00           237.00
+TOTAL CHECK                                                                                                    0.00           316.00
+A1003      295738   09/13/11 20048    OCCUPATIONAL HEALTH 530212351021200  3139     OPEN PO FOR STAFF P        0.00            61.50
+A1003      295738   09/13/11 20048    OCCUPATIONAL HEALTH 530212351021200  3139     OPEN PO FOR STAFF P        0.00            21.00
+TOTAL CHECK                                                                                                    0.00            82.50
+A1003      295745   09/13/11 10577    D T E ENERGY        530211351030000  5520     NILES 07/26−08/24 #        0.00           141.76
+A1003      295745   09/13/11 10577    D T E ENERGY        530213351030000  5520     NILES 07/26−08/24 #        0.00           141.76
+A1003      295745   09/13/11 10577    D T E ENERGY        530201311030000  5520     NILES 07/26−08/24 #        0.00           202.52
+TOTAL CHECK                                                                                                    0.00           486.04
+A1003      295754   09/13/11 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PO FOR FOOD SN        0.00            57.16
+A1003      295764   09/13/11 10042    JULIA XENOS         530211000100000  R1810    NILES PAL REFUND           0.00           420.00
+A1003      295775   09/13/11 10042    MELODIE MYRICK      530211000100000  R1810    PAL REFUND                 0.00           420.00
+A1003      295786   09/13/11 24685    MAYFAIR INSURANCE A 530212351094660  2840     CHILD CARE                 0.00           812.25
+A1003      295801   09/13/11 10042    SHERI SMITH         530212000100000  R1810    CARE CO REFUND             0.00           106.80
+A1003      295817   09/13/11 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00           131.67
+A1003      295841   09/20/11 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             2.04
+A1003      295841   09/20/11 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 NILES            0.00             0.57
+A1003      295841   09/20/11 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.93
+A1003      295841   09/20/11 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             2.25
+TOTAL CHECK                                                                                                    0.00             6.79
+A1003      295855   09/20/11 19430    C D W GOVERNMENT IN 530213351021300  5110     ITEM#2366434 SPECK         0.00            36.95
+A1003      295855   09/20/11 19430    C D W GOVERNMENT IN 530211351021100  5110     ITEM#2366434 SPECK         0.00           110.85
+TOTAL CHECK                                                                                                    0.00           147.80
+70
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295856   09/20/11 24848    C P R PLUS          530212351021200  5990     OPEN PO FOR CPR & F        0.00           105.00
+A1003      295856   09/20/11 24848    C P R PLUS          530212351021200  5990     OPEN PO FOR CPR & F        0.00            60.00
+TOTAL CHECK                                                                                                    0.00           165.00
+A1003      295929   09/20/11 10042    MUTAHIRA KHAWAJA    530211000100000  R1810    NILES PAL REFUND           0.00           420.00
+A1003      295948   09/20/11 10042    ROBIN GODDARD       530211000100000  R1810    CARE REFUND                0.00           420.00
+A1003      296000   09/27/11 20048    OCCUPATIONAL HEALTH 530212351021200  3139     M LOMBARDO PHYSICAL        0.00            61.50
+A1003      296030   09/27/11 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PO FOR FOOD SN        0.00            89.66
+A1003      296030   09/27/11 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PO FOR FOOD SN        0.00            52.86
+A1003      296030   09/27/11 10852    GORDON FOOD SERVICE 530213351021300  5990     OPEN PO FOR FOOD SN        0.00           643.75
+A1003      296030   09/27/11 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PO FOR FOOD SN        0.00            52.98
+TOTAL CHECK                                                                                                    0.00           839.25
+A1003      296064   09/27/11 10042    MARILYN CANTIN      530201000100000  R1810    NILESS CLASS REFUND        0.00           254.00
+A1003      296137   09/27/11 12462    SIMPSON CHARLES E   530212351021200  3610     PER QUOTE OF 8/24/1        0.00           245.00
+TOTAL CASH ACCOUNT                                                                                             0.00        12,361.40
+TOTAL FUND                                                                                                     0.00        12,361.40
+71
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295635   09/07/11 26157    BYRGE ERIN          700074399682000  5000     IAE TEST DIVIDERS          0.00           219.27
+A1003      295645   09/07/11 10086    DILWAR & RAHNAMA KH 700074399681000  5000     IAE BOOK FEES REFUN        0.00           150.00
+A1003      295661   09/07/11 10086    HYUKDOO KWON & YUNJ 700074399681000  5000     IAE BOOK FEE REFUND        0.00           150.00
+A1003      295663   09/07/11 11763    J W PEPPER & SON IN 700074399682000  5000     OPEN PURCHASE ORDER        0.00         1,213.40
+A1003      295663   09/07/11 11763    J W PEPPER & SON IN 700074399682000  5000     OPEN PURCHASE ORDER        0.00           100.00
+A1003      295663   09/07/11 11763    J W PEPPER & SON IN 700074399682000  5000     OPEN PURCHASE ORDER        0.00            57.49
+TOTAL CHECK                                                                                                    0.00         1,370.89
+A1003      295665   09/07/11 10086    JANARDHANA & SAMYUK 700074399681000  5000     IAE BOOK FEE REFUND        0.00           150.00
+A1003      295687   09/07/11 13635    OAKLAND ACTIVITIES  700071399700000  5000     ATHENS HS DUES             0.00           640.00
+A1003      295692   09/07/11 21418    PEARSON EDUCATION/P 700070399703800  5000     978−0−13−1346819  R        0.00         2,739.47
+A1003      295692   09/07/11 21418    PEARSON EDUCATION/P 700070399703800  5000     S&H − MUST SHIP AFT        0.00           191.76
+TOTAL CHECK                                                                                                    0.00         2,931.23
+A1003      295697   09/07/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     BES105−11  BARRON’S        0.00         1,374.54
+A1003      295697   09/07/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     S&H  ****ALL MUST B        0.00           229.50
+A1003      295697   09/07/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     REA149−11  AP HUMAN        0.00           537.96
+A1003      295697   09/07/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     REA149−11  AP HUMAN        0.00           210.54
+A1003      295697   09/07/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     S&H  ****ALL MUST B        0.00            89.82
+A1003      295697   09/07/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     BES105−11  BARRON’S        0.00           537.96
+TOTAL CHECK                                                                                                    0.00         2,980.32
+A1003      295704   09/07/11 17712    TEXTBOOK WAREHOUSE  700070399703800  5000     #0−324−16862−4  PRI        0.00         2,370.00
+A1003      295704   09/07/11 17712    TEXTBOOK WAREHOUSE  700070399703800  5000     #0716764288  PSYCHO        0.00         6,966.00
+TOTAL CHECK                                                                                                    0.00         9,336.00
+A1003      295713   09/13/11 26016    3 BLIND MICE INC    700071399902000  5000     15 XXLG                    0.00           195.49
+A1003      295713   09/13/11 26016    3 BLIND MICE INC    700071399902000  5000     ATHENS FOOTBALL 201        0.00         1,129.51
+TOTAL CHECK                                                                                                    0.00         1,325.00
+A1003      295729   09/13/11 23227    BIANCO TRAVEL & TOU 700070399702300  5000     PEER MEDIATION TRIP        0.00         1,102.00
+A1003      295731   09/13/11 25162    BLOOMFIELD SPORTS S 700071399992000  5000     2011 NIKE SIDELINE         0.00         1,300.00
+A1003      295731   09/13/11 25162    BLOOMFIELD SPORTS S 700071399906800  5000     SWIM CAPS                  0.00           310.94
+A1003      295731   09/13/11 25162    BLOOMFIELD SPORTS S 700071399992000  5000     OPEN P.O.                  0.00         1,557.50
+A1003      295731   09/13/11 25162    BLOOMFIELD SPORTS S 700071399906800  5000     GIRLS SWIM SUITS           0.00         1,451.06
+TOTAL CHECK                                                                                                    0.00         4,619.50
+A1003      295735   09/13/11 10422    CLASSIC TROPHIES    700070399700000  5000     SMART BD PLAQUES           0.00           187.75
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     AP1019 TIRRILL BURN        0.00           112.28
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     AP8469 WAX PENCIL,         0.00            10.69
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     AP5391 RULER, METRI        0.00            17.10
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     P0204 POTASSIUM, 5         0.00            12.52
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     SHIPPING AND HANDLI        0.00            18.75
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     AP9286 PROTRACTOR,         0.00            15.12
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     S0450 SODIUM, 15 SM        0.00            14.77
+72
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295751   09/13/11 10747    FLINN SCIENTIFIC IN 700074399682000  5000     L0057 LITHIUM STICK        0.00            15.85
+TOTAL CHECK                                                                                                    0.00           217.08
+A1003      295752   09/13/11 10792    G T JERSEYS         700070399900000  5000     THS CHEER                  0.00            91.00
+A1003      295760   09/13/11 10086    JEFF & ANA URIAN    700074399681000  5000     IAE BOOK FEE REFUND        0.00           150.00
+A1003      295768   09/13/11 10719    LEGENDS PERFORMING  700590699732500  5000     TSD FINE ARTS SCHLR        0.00           250.00
+A1003      295777   09/13/11 10132    MIKE PIERCE         700071399902000  5000     AHS FOOTBALL REIMB         0.00            43.98
+A1003      295780   09/13/11 25163    MODER CHERYL        700052299700000  5000     REIMB LARSON P CASH        0.00           117.09
+A1003      295781   09/13/11 11541    M T I ENTERPRISES I 700071399354000  5000     BOOK & RECORDING           0.00            35.00
+A1003      295796   09/13/11 11946    RYDER TRANSPORTATIO 700070399351300  5000     RENTAL FOR TROY HIG        0.00           578.09
+A1003      295797   09/13/11 24389    S T E P S  INC      700070399702300  5000     THS PEER MEDIATION         0.00         3,600.00
+A1003      295798   09/13/11 10379    V W R INTERNATIONAL 700074399682000  5000     SHIPPING AND HANDLI        0.00            26.43
+A1003      295798   09/13/11 10379    V W R INTERNATIONAL 700074399682000  5000     SEE ATTACHED PHYSIC        0.00            99.70
+TOTAL CHECK                                                                                                    0.00           126.13
+A1003      295799   09/13/11 11998    SCIENCE KIT LLC     700074399682000  5000     SEE ATTACHED PHYSIC        0.00            66.00
+A1003      295799   09/13/11 11998    SCIENCE KIT LLC     700074399682000  5000     SHIPPING AND HANDLI        0.00            16.36
+A1003      295799   09/13/11 11998    SCIENCE KIT LLC     700074399682000  5000     SEE ATTACHED PHYSIC        0.00            34.50
+A1003      295799   09/13/11 11998    SCIENCE KIT LLC     700074399682000  5000     SHIPPING AND HANDLI        0.00            16.33
+TOTAL CHECK                                                                                                    0.00           133.19
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     RAWLINGS FOOTBALL J        0.00         3,780.00
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     WHITE 50/50 JERZEE         0.00           548.00
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     OPEN P.O. FOR MISCE        0.00         1,800.00
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     RAWLINGS FOOTBALL J        0.00         3,780.00
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     3 XXXLG                    0.00            21.00
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     WHITE COACHES SHORT        0.00         2,080.00
+A1003      295800   09/13/11 13131    SERVICE SPORTS INC  700071399902000  5000     20 XXLG                    0.00           120.00
+TOTAL CHECK                                                                                                    0.00        12,129.00
+A1003      295809   09/13/11 24735    T SHIRT LADY (THE)  700050299700000  5000     BAKER LANYARDS             0.00           404.16
+A1003      295810   09/13/11 12197    TAMS WITMARK MUSIC  700071399354000  5000     LOST BOOK FEE              0.00             8.00
+A1003      295812   09/13/11 12212    TENNIS AND GOLF COM 700070399905000  5000     THS BOYS TENNIS            0.00            24.75
+A1003      295812   09/13/11 12212    TENNIS AND GOLF COM 700070399905000  5000     THS BOYS TENNIS            0.00           272.25
+A1003      295812   09/13/11 12212    TENNIS AND GOLF COM 700070399905000  5000     404702 NIKE MEN’S U        0.00           618.75
+A1003      295812   09/13/11 12212    TENNIS AND GOLF COM 700070399905000  5000     JV TENNIS ORDER            0.00           668.25
+TOTAL CHECK                                                                                                    0.00         1,584.00
+A1003      295819   09/13/11 12238    TRI COUNTY CUSTOM S 700071399992000  5000     RAWLINGS QUANTUM HE        0.00         1,074.00
+A1003      295819   09/13/11 12238    TRI COUNTY CUSTOM S 700071399902000  5000     EMBROIDERY FOR AHS         0.00           350.00
+TOTAL CHECK                                                                                                    0.00         1,424.00
+73
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295820   09/13/11 25975    TRIPLE THREAD CUSTO 700070399718000  5000     BLACKOUT T−SHIRTS          0.00           362.25
+A1003      295820   09/13/11 25975    TRIPLE THREAD CUSTO 700070399718000  5000     BLACKOUT T−SHIRTS          0.00         2,925.00
+TOTAL CHECK                                                                                                    0.00         3,287.25
+A1003      295821   09/13/11 17954    U S SPORTS VIDEO IN 700071399902000  5000     SHIPPING                   0.00            24.00
+A1003      295821   09/13/11 17954    U S SPORTS VIDEO IN 700071399902000  5000     US−DVD−R:  DVD RECO        0.00           375.00
+TOTAL CHECK                                                                                                    0.00           399.00
+A1003      295822   09/13/11 26118    VALLEY NATIONAL GAS 700071399524000  5000     OPEN PO FOR ATHENS         0.00            10.15
+A1003      295844   09/20/11 10800    ABDAL MAHIR         700071399992000  5000     SOCCER OFFICIAL−AHS        0.00            60.00
+A1003      295847   09/20/11 19456    AQUARIUM SHINE      700005199700000  5000     BLANKET PURCHASE OR        0.00           135.00
+A1003      295852   09/20/11 25378    BRADY WORLDWIDE INC 700071399701800  5000     ATHENS PAPER               0.00           408.97
+A1003      295857   09/20/11 10364    CAROLINA BIOLOGICAL 700074399682000  5000     650737 − CHEST WADE        0.00           390.45
+A1003      295862   09/20/11 10422    CLASSIC TROPHIES    700070399990000  5000     ATHLETICS                  0.00            23.25
+A1003      295865   09/20/11 10802    COOK’S FARM DAIRY I 700017199393000  5000     HAMILTON TRIP 9−28−        0.00           365.00
+A1003      295886   09/20/11 14523    GRAPH−TEX           700071399992000  5000     OPEN P.O. FOR VARIO        0.00           370.00
+A1003      295888   09/20/11 25948    GREEN PASTURE ENTER 700070399703900  5000     OPEN P.O. FOR TROY         0.00           800.00
+A1003      295889   09/20/11 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00            85.60
+A1003      295889   09/20/11 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           128.64
+A1003      295889   09/20/11 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           181.88
+A1003      295889   09/20/11 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           676.63
+TOTAL CHECK                                                                                                    0.00         1,072.75
+A1003      295893   09/20/11 10771    HOPE COLLEGE        700074399330100  5000     IAE 2011 REG               0.00           188.00
+A1003      295914   09/20/11 10132    MARJORIE JOYCE−OBER 700071399906800  5000     AHS GIRLS SWIM REIM        0.00            92.95
+A1003      295932   09/20/11 11572    NATL ASSOC OF SECON 700074399710000  5000     IAE MEMBERSHIP             0.00            85.00
+A1003      295934   09/20/11 10795    NELSON STEPHEN      700071399992000  5000     AHS SOCCER SCRIMMAG        0.00            90.00
+A1003      295950   09/20/11 10760    ROSENBERG LISA E    700590699732500  5000     TSD FINE ARTS SCHOL        0.00           200.00
+A1003      295952   09/20/11 10645    SACCOIA ROBERT J    700071399992000  5000     AHS SOCCER OFFICIAL        0.00            90.00
+A1003      295954   09/20/11 10379    V W R INTERNATIONAL 700074399682000  5000     SEE ATTACHED PHYSIC        0.00           319.82
+A1003      295954   09/20/11 10379    V W R INTERNATIONAL 700074399682000  5000     SHIPPING AND HANDLI        0.00            24.17
+A1003      295954   09/20/11 10379    V W R INTERNATIONAL 700074399682000  5000     SEE ATTACHED PHYSIC        0.00            91.18
+A1003      295954   09/20/11 10379    V W R INTERNATIONAL 700074399682000  5000     SHIPPING AND HANDLI        0.00            84.77
+TOTAL CHECK                                                                                                    0.00           519.94
+A1003      295962   09/20/11 10798    SPESHOCK  GEORGE    700071399992000  5000     AHS SOCCER OFFICIAL        0.00            60.00
+74
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295966   09/20/11 19962    SUSAN YORK          700015199708000  5000     BEMIS MEDIA FINE RE        0.00            40.00
+A1003      295971   09/20/11 10221    VENTE JENNIFER      700051299700000  5000     REIMB SMITH PETTYCA        0.00           119.00
+A1003      295976   09/20/11 10796    WIKLE KENNETH G     700071399992000  5000     AHS SOCCER OFFICIAL        0.00            60.00
+A1003      295995   09/27/11 10344    COMPETITIVE CHEER C 700070399900000  5000     11/5 SUMMIT REGIST         0.00            75.00
+A1003      296003   09/27/11 15586    CONTINENTAL MATH LE 700052299700000  5000     CML TEAM REGIS             0.00           225.00
+A1003      296026   09/27/11 26082    FIRST GROUP AMERICA 700011199719400  5000     5TH GR CAMP TRANSP         0.00           633.60
+A1003      296037   09/27/11 25784    HOT MIX LLC         700071399718000  5000     HOMECOMING DANCE           0.00         1,962.40
+A1003      296040   09/27/11 10283    INFINITY 2 PRODUCTI 700053299700000  5000     DJ BOULAN 9−21−11          0.00           120.00
+A1003      296055   09/27/11 11252    P K C  LLC          700074399347000  5000     IAE FUNDRAISER             0.00           577.00
+A1003      296067   09/27/11 12547    MARSHALL MUSIC CO   700596699351300  5000     LARSON SUMMER BAND         0.00            27.10
+A1003      296067   09/27/11 12547    MARSHALL MUSIC CO   700596699351300  5000     LARSON SUMMER BAND         0.00           630.92
+A1003      296067   09/27/11 12547    MARSHALL MUSIC CO   700596699351300  5000     RETURNS INV#3424787        0.00          −229.40
+A1003      296067   09/27/11 12547    MARSHALL MUSIC CO   700052299351000  5000     CREDIT/ERROR PAYBAC        0.00            49.54
+A1003      296067   09/27/11 12547    MARSHALL MUSIC CO   700596699351300  5000     LARSON SUMMER BAND         0.00           125.02
+A1003      296067   09/27/11 12547    MARSHALL MUSIC CO   700596699351300  5000     LARSON SUMMER BAND         0.00           136.95
+TOTAL CHECK                                                                                                    0.00           740.13
+A1003      296077   09/27/11 10286    MOO HONG SUH        700053299704500  5000     BOULAN REFUND              0.00            50.00
+A1003      296081   09/27/11 13607    NATL GEOGRAPHIC BEE 700052299700000  5000     NATL GEO BEE REGIST        0.00            90.00
+A1003      296084   09/27/11 14204    NATL LANGUAGE ARTS  700052299700000  5000     LEAGUE RENEWAL FEES        0.00           140.00
+A1003      296098   09/27/11 20569    SARA DELLY          700206399700000  5000     ACTIVITY SCHOLARSHI        0.00           200.00
+A1003      296098   09/27/11 20569    SARA DELLY          700206399666100  5000     PARENT SCHOLARSHIP         0.00           200.00
+TOTAL CHECK                                                                                                    0.00           400.00
+A1003      296099   09/27/11 10379    V W R INTERNATIONAL 700074399682000  5000     IAE SCIENCE SUPPLIE        0.00            36.00
+A1003      296099   09/27/11 10379    V W R INTERNATIONAL 700074399682000  5000     SHIPPING AND HANDLI        0.00             4.32
+TOTAL CHECK                                                                                                    0.00            40.32
+A1003      296100   09/27/11 11987    SCHOLASTIC CLASSROO 700008199700000  5000     LEONARD MAGAZINES          0.00         1,108.02
+A1003      296103   09/27/11 13131    SERVICE SPORTS INC  700071399902000  5000     10 XXLARGE                 0.00           250.00
+A1003      296103   09/27/11 13131    SERVICE SPORTS INC  700071399902000  5000     WHITE A4 DRI FIT PO        0.00           840.00
+A1003      296103   09/27/11 13131    SERVICE SPORTS INC  700071399902000  5000     BLACK A4 DRI FIT PO        0.00           920.00
+A1003      296103   09/27/11 13131    SERVICE SPORTS INC  700071399902000  5000     RED A4 DRI FIT POLO        0.00           840.00
+TOTAL CHECK                                                                                                    0.00         2,850.00
+A1003      296105   09/27/11 12060    CODY CORPORATION    700070399700000  5000     THS STAFF CARDS            0.00            93.49
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #CTG 43097 CABLES T        0.00           126.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     SHIPPING                   0.00           471.00
+75
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #CAL680−LY−10H1−174        0.00           135.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #SMA SB685 SMART −         0.00        11,043.72
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     SES MISCELLANEOUS I        0.00           414.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     SVC CART LABOR − AS        0.00           585.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #BTX YD−DVISPLIT BT        0.00           144.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #EPS V11H33002024 E        0.00         7,551.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #EXT 60−453−03 EXTR        0.00           349.38
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #TEC CWP−T1652401 T        0.00           513.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #EXT 42−095−35 EXTR        0.00         2,421.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     SES INSTALLATION OF        0.00         1,980.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #DAL 4541 DALITE AV        0.00           990.00
+A1003      296106   09/27/11 25706    CLEVELAND CORPORATE 700071399700000  5000     #INT SB3−685 INTERA        0.00            93.14
+TOTAL CHECK                                                                                                    0.00        26,816.24
+A1003      296113   09/27/11 10693    STUDENT PLANNER LLC 700071399736500  5000     AHS STUDENT PLANNER        0.00         2,228.50
+A1003      296116   09/27/11 24735    T SHIRT LADY (THE)  700074399682000  5000     IAE CLASS TEES             0.00         1,574.38
+A1003      296117   09/27/11 12205    AMER EAGLE          700070399708500  5000     RIVERA TRAVELING EX        0.00           179.00
+A1003      296119   09/27/11 13985    TIME FOR KIDS       700008199700000  5000     LEONARD SUBSCRIPTIO        0.00           453.60
+A1003      296120   09/27/11 25866    TOEPEL−HARTZELL JAC 700074399682000  5000     IAE LAB SUPPLIES RE        0.00           385.36
+A1003      296120   09/27/11 25866    TOEPEL−HARTZELL JAC 700074399682000  5000     IAE LAB SUPPLIES RE        0.00           273.25
+TOTAL CHECK                                                                                                    0.00           658.61
+A1003      296127 V 09/27/11 23470    WALSWORTH PUBLISHIN 700070399323500  5000     YEARBOOKS SOLD             0.00       −15,000.00
+A1003      296127   09/27/11 23470    WALSWORTH PUBLISHIN 700070399323500  5000     YEARBOOKS SOLD             0.00        15,000.00
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003      296130   09/27/11 12378    WEEKLY READER CORPO 700008199700000  5000     LEONARD #S25065633         0.00           245.44
+A1003      296132   09/27/11 23725    K B R INC           700014199393000  5000     LEONARD 10/19              0.00           645.00
+A1003      296134   09/27/11 10345    WOJCIKS STADIUM SPO 700070399907800  5000     THS GIRLS BASKETBAL        0.00           260.00
+A1003      296135   09/27/11 12434    WORDMASTERS         700052299700000  5000     REGIST FEES                0.00           306.56
+TOTAL CASH ACCOUNT                                                                                             0.00        97,391.68
+TOTAL FUND                                                                                                     0.00        97,391.68
+76
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295677   09/07/11 11312    MAKE A WISH FOUNDAT 701070399703000  5000     TUMA/DAVIES MEMORIA        0.00           100.00
+A1003      295708   09/07/11 17651    VARSITY SHOP (THE)  701014199697100  5000     WASS SPIRIT SHIRTS         0.00           495.00
+A1003      295780   09/13/11 25163    MODER CHERYL        701052299697100  5000     REIMB LARSON P CASH        0.00            35.50
+A1003      295971   09/20/11 10221    VENTE JENNIFER      701051299697200  5000     REIMB SMITH PETTYCA        0.00            15.72
+A1003      295971   09/20/11 10221    VENTE JENNIFER      701051299697100  5000     REIMB SMITH PETTYCA        0.00           178.81
+TOTAL CHECK                                                                                                    0.00           194.53
+A1003      296002   09/27/11 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR TROY         0.00            98.75
+TOTAL CASH ACCOUNT                                                                                             0.00           923.78
+TOTAL FUND                                                                                                     0.00           923.78
+77
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   48
+DATE: 10/05/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 09:24:43                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’09/01/2011’ and ’09/30/2011’
+ACCOUNTING PERIOD:  4/12
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      295755   09/13/11 12175    HALEY A SVCINA      750668599740100  5000     KU SCHLRSHP AWARD          0.00         1,000.00
+A1003      296070   09/27/11 12175    MELISSA JARVIS      750668599740100  5000     KU SCHOLARSHIP             0.00         1,000.00
+TOTAL CASH ACCOUNT                                                                                             0.00         2,000.00
+TOTAL FUND                                                                                                     0.00         2,000.00
+TOTAL REPORT                                                                                                   0.00     2,492,409.30
+78
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Local sources 43,653,734 18,557,752 25,095,982 57.49%
+State sources 71,934,988 0 71,934,988 100.00%
+Federal sources 3,118,235 0 3,118,235 100.00%
+Incoming Transfers / Other 8,468,560 114,476 8,354,084 98.65%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Instruction:
+Basic Programs 68,671,352 8,057,001 54,153,610 6,460,741 9.41%
+Added Needs 15,663,876 1,471,176 9,782,631 4,410,069 28.15%
+Adult/Continuing Education 457,887 171,812 0 286,075 62.48%
+Total Instruction 84,793,115 9,699,989 63,936,241 11,156,885 13.16%
+Support Services:
+Pupil  9,642,016 1,112,030 6,953,985 1,576,001 16.35%
+Instructional Staff 5,784,797 967,716 2,783,802 2,033,279 35.15%
+General Administration 2,045,860 472,661 1,103,969 469,230 22.94%
+School Administration 7,662,345 1,594,832 5,451,480 616,033 8.04%
+Business Services 1,591,947 557,936 508,618 525,393 33.00%
+Operations/Maintenance 8,511,813 1,579,572 3,662,897 3,269,344 38.41%
+Pupil Transportation 3,391,941 175,556 492,331 2,724,054 80.31%
+Central Services 1,449,124 413,321 810,195 225,608 15.57%
+Other Support Services (Athletics and Other) 1,609,545 297,323 157,995 1,154,227 71.71%
+Total Support Services 41,689,388 7,170,947 21,925,272 12,593,169 30.21%
+Community Services 1,235,001 131,766 1,075,637 27,598 2.23%
+Pymts to Other Govt, Site Aqc., PY Adjustments 25,000 0 1,465 23,535 94.14%
+Outgoing Transfers / Other 539,983 36,141 0 503,842 93.31%
+Excess Revenue over (under) Expenditures (1,106,970)
+Fund Balance - July 1, 2011 18,803,870
+79
+Revenue Approved Budget  Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 127,175,517$     18,672,228 $            108,503,289 $            85.32%
+Total Expenditures 128,282,487$     17,038,843 $            86,938,615 $         24,305,029 $              18.95%
+Fund Balance - June 30, 2012 17,696,900$         
+General Fund 
+(Funds 101, 120, 122, 140)
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Local 4,543,804 1,044,298 3,499,506 77.02%
+State 114,198 0 114,198 100.00%
+Federal 4,030,448 231,363 3,799,085 94.26%
+Incoming Transfers/Other 0 0 0 100.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 1,708,710 415,585 735,988 557,137 32.61%
+Employee Benefits 1,177,333 150,436 485,345 541,552 46.00%
+Purchased Services 3,607,986 217,418 866,751 2,523,817 69.95%
+Supplies/Materials 1,432,958 33,203 18,944 1,380,811 96.36%
+Capital Outlay 5,000 0 0 5,000 100.00%
+Other Expenditures 24,725 5,826 0 18,899 76.44%
+Outgoing Transfers 818,440 0 0 818,440 100.00%
+Excess Revenue over (under) Expenditures (86,702)
+Fund Balance - July 1, 2011 1,937,173
+80
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 8,688,450$           1,275,661 $          7,412,789 $              85.32%
+Total Expenditures 8,775,152$           822,468 $             2,107,028 $               5,845,656 $              66.62%
+Fund Balance - June 30, 2012 1,850,471$             
+Consolidated Special Revenue Funds 
+(520, 529, 530)
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Local 2,382,017 266,564 2,115,453 88.81%
+State 114,198 0 114,198 100.00%
+Federal 829,118 54,125 774,993 93.47%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 1,756,594 30,938 23,010 1,702,646 96.93%
+Supplies/Materials 1,284,498 14,931 1,558 1,268,009 98.72%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 5,800 5,751 0 49 0.84%
+Outgoing Transfers 131,091 0 0 131,091 100.00%
+Excess Revenue over (under) Expenditures 147,350
+Fund Balance - July 1, 2011 692,840
+81
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 3,325,333$           320,689 $             3,004,644 $              90.36%
+Total Expenditures 3,177,983$           51,620 $               24,568 $                    3,101,795$              97.60%
+Fund Balance - June 30, 2012 840,190$                
+Special Revenue Funds - Food Service 
+(520)
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Troy Career Center (529)
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Local 0 0 0 0.00%
+State 0 0 0 0.00%
+Federal 3,201,330 177,238 3,024,092 94.46%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 900,847 255,713 528,848 116,286 12.91%
+Employee Benefits 760,905 95,006 393,399 272,500 35.81%
+Purchased Services 1,368,078 105,265 802,362 460,451 33.66%
+Supplies/Materials 50,000 5,284 3,049 41,667 83.33%
+Capital Outlay 5,000 0 0 5,000 100.00%
+Other Expenditures 16,500 0 0 16,500 100.00%
+Outgoing Transfers 100,000 0 0 100,000 100.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance - July 1, 2011 0
+82
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 3,201,330$           177,238 $             3,024,092 $              94.46%
+Total Expenditures 3,201,330$           461,268 $             1,727,658 $               1,012,404 $              31.62%
+Fund Balance - June 30, 2012 0$                            
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Local 2,161,787 777,734 1,384,053 64.02%
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 807,863 159,872 207,140 440,851 54.57%
+Employee Benefits 416,428 55,430 91,946 269,052 64.61%
+Purchased Services 483,314 81,215 41,379 360,720 74.63%
+Supplies/Materials 98,460 12,988 14,337 71,135 72.25%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 2,425 75 0 2,350 96.91%
+Outgoing Transfers 587,349 0 0 587,349 100.00%
+Excess Revenue over (under) Expenditures (234,052)
+Fund Balance - July 1, 2011 1,244,333
+83
+Revenue Approved Budget Actual Amount  Total Uncollected 
+(Overcollected)
+Total Revenue 2,161,787$           777,734 $             1,384,053 $              64.02%
+Total Expenditures 2,395,839$           309,580 $             354,802 $                  1,731,457 $              72.27%
+Fund Balance - June 30, 2012 1,010,281$             
+Special Revenue Funds - Adult & Community Education 
+(530)
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Property Taxes 19,402,035 7,767,909 11,634,126 59.96%
+Earnings on Investments 6,500 70 6,430 98.92%
+Proceeds from Bond Refunding 0 0 0 0.00%
+Incoming Transfers/Other 0 0 0 0.00%
+Redemption of Principal 12,460,000 0 0 12,460,000 100.00%
+Interest on Debt 5,790,650 0 0 5,790,650 100.00%
+Other Expenditures 197,500 88,181 0 109,319 55.35%
+Outgoing Transfers 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 960,385
+Fund Balance - July 1, 2011 518,484
+84
+Revenue
+Approved 
+Budget Actual Amount
+Total 
+Uncollected
+Percent Uncollected 
+(Overcollected)
+Total Revenue 19,408,535$      7,767,979 $     -$                 11,640,556$      59.98%
+Expenditures
+Approved 
+Budget Actual Amount
+Total 
+Encumbered
+Available 
+Budget Percent Available
+Total Expenditures 18,448,150$      88,181 $          0 $                    18,359,969$      99.52%
+Fund Balance - June 30, 2012 1,478,869$         
+Debt Service Funds 
+(304, 306, 307)
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Earnings on Investments 44,271 357 43,914 99.19%
+Incoming Transfers/Other 0 0 0 0.00%
+Total Revenue 44,271 357 43,914 99.19%
+Expenditures 0 Actual Amount Total Encumbered Available Budget Percent Available
+Purchased Services 0 0 307 (307) 0.00%
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 1,102,084 667,119 1,171,134 (736,169) 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Total Expenditures 1,102,084 667,119 1,171,441 (736,476) 0.00%
+Excess Revenue over (under) Expenditures (1,057,813)
+Fund Balance - July 1, 2011 1,057,813
+Fund Balance - June 30, 2012 0
+85
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Capital Projects Fund 
+(404)
+Troy School District
+Summary Revenue and Expense Budget Report
+Fund Balance - July 1, 2011
+Percent Uncollected 
+Earnings on Investments 0 0 0 100.00%
+Incoming Transfers/Other 500,000 500,000 100.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Purchased Services 0 0 0 0 0.00%
+Supplies/Materials 0 0 0 0 100.00%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 500,000
+Fund Balance - July 1, 2011 0
+86
+Revenue Approved Budget Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 500,000$              -$                     500,000$                 100.00%
+Total Expenditures 0$                          0 $                        0 $                               0 $                            25.00%
+Fund Balance - June 30, 2012 500,000$               
+Capital Projects Fund 
+(499)
+Troy School District
+Summary Revenue and Expense Budget Report
+September YTD - Fiscal Year 2012
+Percent Uncollected 
+Earnings on Investments 6,000 245 5,755 95.92%
+Incoming Transfers/Other 114,000 0 114,000 100.00%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+VRIP Expense 120,000 0 0 120,000 100.00%
+Other Expenditures 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance - July 1, 2011 0
+Fund Balance - June 30, 2012 0
+87
+Revenue Approved Budget Actual Amount Total Uncollected
+(Overcollected)
+Total Revenue 120,000$              245 $                    119,755 $                 99.80%
+Total Expenditures 120,000$              0 $                        0 $                               120,000$                 100.00%
+Internal Service Fund 
+(681)
+Troy School District, ACH Debits, September 2011
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ACE09302101200261030000 5510 $4.05 CONSUMERS SEPT 2011
+ACE09302101203261030000 5510 $6.90 CONSUMERS SEPT 2011
+ACE09302101206261030000 5510 $23.87 CONSUMERS SEPT 2011
+ACE09302101214261030000 5510 $4.05 CONSUMERS SEPT 2011
+ACE09302101941261000300 5510 $11.65 CONSUMERS SEPT 2011
+ACE09302101941261000300 5510 $29.54 CONSUMERS SEPT 2011
+ACE09302101941261000500 5510 $58.19 CONSUMERS SEPT 2011
+ACE09302101941261000700 5510 $29.95 CONSUMERS SEPT 2011
+ACE09302101941261000800 5510 $24.80 CONSUMERS SEPT 2011
+ACE09302101941261001000 5510 $53.45 CONSUMERS SEPT 2011
+ACE09302101941261001100 5510 $44.79 CONSUMERS SEPT 2011
+ACE09302101941261001200 5510 $42.73 CONSUMERS SEPT 2011
+ACE09302101941261001300 5510 $44.79 CONSUMERS SEPT 2011
+ACE09302101941261001400 5510 $18.20 CONSUMERS SEPT 2011
+ACE09302101941261001500 5510 $18.20 CONSUMERS SEPT 2011
+ACE09302101941261001600 5510 $18.20 CONSUMERS SEPT 2011
+ACE09302101941261001700 5510 $23.56 CONSUMERS SEPT 2011
+ACE09302101941261005000 5510 $150.38 CONSUMERS SEPT 2011
+ACE09302101941261005100 5510 $49.75 CONSUMERS SEPT 2011
+ACE09302101941261005200 5510 $682.64 CONSUMERS SEPT 2011
+ACE09302101941261005300 5510 $596.19 CONSUMERS SEPT 2011
+ACE09302101941261007000 5510 $588.04 CONSUMERS SEPT 2011
+ACE09302101941261007100 5510 $705.42 CONSUMERS SEPT 2011
+ACE09302101941261007400 5510 $38.57 CONSUMERS SEPT 2011
+ACE09302101941261009000 5510 $18.20 CONSUMERS SEPT 2011
+ACE09302101941261009000 5510 $22.94 CONSUMERS SEPT 2011
+ACE09302101941261015000 5510 $32.84 CONSUMERS SEPT 2011
+ACE09302101941261016000 5510 $81.29 CONSUMERS SEPT 2011
+ACE09302122207261020700 5510 $9.99 CONSUMERS SEPT 2011
+ACE09302122883261030000 5510 $3.13 CONSUMERS SEPT 2011
+ACE09302530201311030000 5510 $2.78 CONSUMERS SEPT 2011
+ACE09302530211351030000 5510 $1.94 CONSUMERS SEPT 2011
+ACE09302530213351030000 5510 $1.94 CONSUMERS SEPT 2011
+ADT09302101942261000300 5520 $243.07 DTE CHARGES SEPT 2011
+ADT09302101942261000500 5520 $910.15 DTE CHARGES SEPT 2011
+ADT09302101942261000700 5520 $967.55 DTE CHARGES SEPT 2011
+ADT09302101942261000800 5520 $560.16 DTE CHARGES SEPT 2011
+ADT09302101942261001000 5520 $759.66 DTE CHARGES SEPT 2011
+ADT09302101942261001100 5520 $602.16 DTE CHARGES SEPT 2011
+Page 1
+88
+Troy School District, ACH Debits, September 2011
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ADT09302101942261001200 5520 $637.86 DTE CHARGES SEPT 2011
+ADT09302101942261001300 5520 $793.27 DTE CHARGES SEPT 2011
+ADT09302101942261001700 5520 $1,156.55 DTE CHARGES SEPT 2011
+ADT09302101942261007100 5520 $14.65 DTE CHARGES SEPT 2011
+ADT09302101942261007100 5520 $15.26 DTE CHARGES SEPT 2011
+ADT09302101942261007400 5520 $969.29 DTE CHARGES SEPT 2011
+ADT09302101942261009000 5520 $114.28 DTE CHARGES SEPT 2011
+ADT09302101942261009000 5520 $325.67 DTE CHARGES SEPT 2011
+ADT09302101942261015000 5520 $531.25 DTE CHARGES SEPT 2011
+ADT09302101942261016000 5520 $1,694.71 DTE CHARGES SEPT 2011
+ADT09302101942261090000 5520 $166.16 DTE CHARGES SEPT 2011
+ADT09302101942261090000 5520 $215.77 DTE CHARGES SEPT 2011
+ADT09302122883261030000 5520 $78.59 DTE CHARGES SEPT 2011
+$14,199.02 
+14,199.02 
+Page 2
+89
+Troy School District, Wire Transfers, September 2011
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0901201 101 A1003 -$7,000,000.00 BOA TO MILAF
+W0901201 101 A1006 $7,000,000.00 BOA TO MILAF
+W0901202 101 A1006 -$2,856,055.01 MILAF GF TO DEBT
+W0901202 304 A1016 $1,944,548.10 MILAF GF TO DEBT
+W0901202 306 A1016 $729,205.53 MILAF GF TO DEBT
+W0901202 307 A1016 $182,301.38 MILAF GF TO DEBT
+W0902201 101 A1003 -$1,715,935.24 PR TRANSF FOR 09/02/11
+W0902201 101 A1005 $9,575.30 PR TRANSF FOR 09/02/11
+W0902201 101 A1005 $1,706,359.94 PR TRANSF FOR 09/02/11
+W0902202 101 A1003 -$9,193.36 AMERAPLAN TRANSFER 9/2/11
+W0902202 101 A1098 $9,193.36 AMERAPLAN TRANSFER 9/2/11
+W0906202 101 A1003 -$140,210.54 PR TRANF TSA'S
+W0906203 101 A1003 -$2,995.00 PR MESP
+W0906204 101 A1003 -$760,398.08 PR TAXES FOR 09/02/11
+W0906205 101 A1003 -$18,422.67 TSA J. GETZAN
+W0906206 101 A1003 -$85,437.60 VRIP PAYMENT
+W0907201 101 A1006 $67,083.11 MILAF DEBT TO GF
+W0907201 304 A1016 -$46,406.92 MILAF DEBT TO GF
+W0907201 306 A1016 -$16,237.39 MILAF DEBT TO GF
+W0907201 307 A1016 -$4,438.80 MILAF DEBT TO GF
+W0908201 101 A1003 -$90,722.73 AAMERAPLAN TRANSF 9/08/11
+W0908201 101 A1098 $90,722.73 AAMERAPLAN TRANSF 9/08/11
+W0908202 101 A1003 -$15,201.82 4D PHARMACY 8/31/11
+W0908202 101 A1098 $15,201.82 4D PHARMACY 8/31/11
+W0908203 101 A1006 $12,953.52 MILAF BOND TO GF
+W0908203 404 A1004 -$12,953.52 MILAF BOND TO GF
+W0909201 101 A1003 -$1,094.17 PSPP FOR 9/02/11
+W0909201 101 A1098 $1,094.17 PSPP FOR 9/02/11
+W0912201 101 A1003 -$710,146.39 MPSERS FOR 9/02/11
+W0912201 101 A1098 $710,146.39 MPSERS FOR 9/02/11
+W0913201 101 A1003 -$58.04 AUGUST 2011 SALES TAX
+W0914201 101 A1003 $250,000.00 MILAF GF TO BOA GF
+W0914201 101 A1006 -$250,000.00 MILAF GF TO BOA GF
+W0914202 101 A1003 -$15,254.89 AMERAPLAN TRANSFER
+W0914202 101 A1098 $15,254.89 AMERAPLAN TRANSFER
+W0915201 101 A1006 -$3,091,458.41 MILAF GF TO DEBT FUND
+W0915201 304 A1016 $2,104,822.75 MILAF GF TO DEBT FUND
+W0915201 306 A1016 $789,308.53 MILAF GF TO DEBT FUND
+W0915201 307 A1016 $197,327.13 MILAF GF TO DEBT FUND
+W0916201 529 A1003 -$6,656.92 TCC WIA TRANSFER
+W0916201 529 A1008 $6,656.92 TCC WIA TRANSFER
+Page 1
+90
+Troy School District, Wire Transfers, September 2011
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0916201 529 A1008 -$6,656.92 TCC WIA TRANSFER
+W0916202 101 A1003 -$1,726,941.92 PR TRANSFER FOR 9/16/11
+W0916202 101 A1005 $6,939.13 PR TRANSFER FOR 9/16/11
+W0916202 101 A1005 $1,720,002.79 PR TRANSFER FOR 9/16/11
+W0916203 101 A1003 -$71,942.43 TSS ADMIN 8-30-11
+W0916203 101 A1098 $71,942.43 TSS ADMIN 8-30-11
+W0916204 101 A1003 -$36,140.56 PNC EQUIPMENT FINANCE
+W0916204 520 A1098 $36,140.56 PNC EQUIPMENT FINANCE
+W0916205 520 A1013 -$35,406.16 SODEXO JULY/AUG 2011
+W0916205 520 A1098 $35,406.16 SODEXO JULY/AUG 2011
+W0916206 101 A1003 -$7,000,000.00 BOA GF TO MILAF GF
+W0916206 101 A1006 $7,000,000.00 BOA GF TO MILAF GF
+W0919201 101 A1003 -$2,995.00 MESP 9-19-11
+W0919202 101 A1003 -$36,865.15 PR TRANF UNION DUES
+W0919203 101 A1003 -$803,143.03 PR TAXES 9-16-11
+W0919204 101 A1003 -$138,420.95 PR TRANSF TSA'S 9-16-11
+W0919205 101 A1003 -$15,980.03 PAYSCHOOLS ADMIN FEES
+W0919205 101 A1098 $15,980.03 PAYSCHOOLS ADMIN FEES
+W0920201 101 A1006 $739.00 MILAF BOND FUND TO GF
+W0920201 404 A1004 -$739.00 MILAF BOND FUND TO GF
+W0920202 101 A1003 -$146.25 TSS REIMBURSEMENTS
+W0920203 101 A1003 -$18,595.37 TSS ADMIN 8/30/11
+W0920203 101 A1098 $18,595.37 TSS ADMIN 8/30/11
+W0922201 101 A1003 -$1,304.63 PSPP 9-16-11
+W0922201 101 A1098 $1,304.63 PSPP 9-16-11
+W0923201 101 A1003 -$762,392.38 MPSERS FOR 9-16-11 PR
+W0923201 101 A1098 $762,392.38 MPSERS FOR 9-16-11 PR
+W0923202 101 A1003 $500,000.00 MILAF GF TO BOA GF
+W0923202 101 A1006 -$500,000.00 MILAF GF TO BOA GF
+W0923203 101 A1003 -$38,548.39 AMERAPLAN TRANSFER
+W0923203 101 A1098 $38,548.39 AMERAPLAN TRANSFER
+W0923204 101 A1003 -$3,636.60 AMERAPLAN ADMIN FEES
+W0923204 101 A1098 $3,636.60 AMERAPLAN ADMIN FEES
+W0927201 101 A1003 $1,200,000.00 MILAF GF TO BOA GF
+W0927201 101 A1006 -$1,200,000.00 MILAF GF TO BOA GF
+W0927202 101 A1003 -$9,175.53 4D PHARMACY 9-15-11
+W0927202 101 A1098 $9,175.53 4D PHARMACY 9-15-11
+W0928201 101 A1003 -$7,969.90 AMERAPLAN TRANSFER
+W0928201 101 A1098 $7,969.90 AMERAPLAN TRANSFER
+W0930201 101 A1003 -$1,706,368.12 PR TRANSF FOR 9-30-11
+W0930201 101 A1005 $1,697,733.23 PR TRANSF FOR 9-30-11
+Page 2
+91
+Troy School District, Wire Transfers, September 2011
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W0930201 101 A1005 $8,634.89 PR TRANSF FOR 9-30-11
+W0930202 101 A1003 -$85,437.60 VRIP PAYMENT 9-30-11
+W0930203 101 A1006 -$13,680.90 MILAF DEBT TO GF
+W0930203 304 A1016 $9,314.65 MILAF DEBT TO GF
+W0930203 306 A1016 $3,493.00 MILAF DEBT TO GF
+W0930203 307 A1016 $873.25 MILAF DEBT TO GF
+W0930204 101 A1003 $3,000,000.00 MILAF GF TO BOA GF
+W0930204 101 A1006 -$3,000,000.00 MILAF GF TO BOA GF
+-$2,081,186.83 
+Page 3
+92
+Troy School District
+Fall 2011/12 Athletic Equipment
+Bid 9720
+Qty Description
+18 Nike Gainesville Game Jersey 0.00 0.00
+18 Nike Gainesville Game Short 0.00 0.00
+18 Nike Gainesville Game Jersey 0.00 0.00
+18 Nike Gainesville Game Short 0.00 0.00
+15 Rawlings Basketball 0.00 0.00
+2 Slip Knot Refill 0.00 0.00
+Athens Girls Basketball
+2 Slip Knot Refill 0.00 0.00
+12 TF-100 Spalding Basketball 0.00 34.79 417.48
+Athens Baseball
+6 Buckr200x Rawlings bucket of practice balls 0.00 0.00
+3 114 F Rawlings Wood Fungo Bat 0.00 0.00
+1 BSPEEDV Bushnell Radar Gun 0.00 0.00
+3 Wilson A1030 yellow baseballs 0.00 0.00
+1 36919 Jugs instant screen 0.00 153.20 153.20
+1 Louisville 2012 Exogride Adult Baseball Bat 0.00 0.00
+4 Rawlings piped baseball pants 0.00 0.00
+6 Rawlings piped baseball pants 0.00 0.00
+Athens Softball
+8 dz Wilson Optic green softballs 0.00 65.88 527.04
+4 dz Bull dog Optic green poly softballs 0.00 8.40 33.60
+4 dz Optic green poly baseballs 0.00 6.00 24.00
+2 Rawlings Blackhawk catchers mask 0.00 0.00
+2 Rawlings Blackhawk catchers chest protector 0.00 0.00
+2 Mizuno G2 Samurai shinguards 0.00 0.00
+5 batting tees 19.00 95.00 21.80 109.00
+3 8" base dig out tool 6.00 18.00 4.79 14.37
+Athens Lacrosse
+3 Warrior Buzzkill Goalie Pants 0.00 0.00
+3 STX Sultra Women's chest protector 0.00 0.00
+3 STX Sultra Women's goalie glove 0.00 0.00
+3 Eaton S3 Shin Guards 0.00 0.00
+35 red shorts 0.00 0.00
+Troy High Boys Basketball
+12 Rawlings Basketballs 0.00 37.20 446.40
+1 Large Pre-Game Playmaker 0.00 0.00
+1 Playmaker Board Bag 0.00 0.00
+1 Slipp-nott base and pad 0.00 0.00
+1 Model 2000 ball rack 0.00 0.00
+Troy High Wrestling
+1 6ft Monster Mop 0.00 0.00
+2 6ft Mop heads 0.00 0.00
+4 gal KenClean Plus mat cleaner 0.00 0.00
+2 sprayers 0.00 0.00
+2 cs 4 in mat tape 0.00 129.36 258.72
+1 Aluminum Storage Clip Board 0.00 0.00
+4 GS-102Wrist Bands 0.00 0.00
+4 GS-101 Referee Arm Bands 0.00 0.00
+12 Brute Torq. Black kneepads 0.00 0.00
+1 Fox 40 CMG & Lanyard Whistle 0.00 0.00
+1 Digital Scale 0.00 857.90 857.90
+1 Dollamur Wrestling Mat - special dimensions 0.00 0.00
+Troy High Baseball
+12 dz Rawlings game balls R100HS 0.00
+6 STBUCKPT30PK Bucket Rawlings Practice balls 0.00 0.00
+6 dz 5TBUCKPT30 pk Practice whiffle balls 0.00
+Troy High Softball
+8 Schutt one size fits Air 7 Helmet w/mask 0.00 0.00
+2 DenMaria 34/21 Vandetta bat 0.00 0.00
+6 Helmets with masks 0.00 0.00
+3 TAG/Equiv complete set catching gear 0.00 0.00
+5 Diamond ball bags 0.00 18.67 93.35
+Troy High Track
+2 1st place internation adjustable blocks AAE TSB-PRO 79.00 158.00 107.72 215.44
+2 2kg discus trainer AAE RCD 15.00 30.00 0.00
+Boulan Park MS Boys Basketball
+6 Tf-1000 Spalding basketballs 0.00 34.79 208.74
+1 Basketball storage cage w/wheels 0.00 632.50 632.50
+93
+Alt.
+Cannon sports Inc.
+Alt. Unit Cost Total
+Aluminum Athletic Equipment
+Athens Boys Basketball Unit Cost Total
+Troy School District
+Fall 2011/12 Athletic Equipment
+Bid 9720
+Qty Description
+18 Nike Gainesville Game Jersey
+18 Nike Gainesville Game Short
+18 Nike Gainesville Game Jersey
+18 Nike Gainesville Game Short
+15 Rawlings Basketball
+2 Slip Knot Refill
+2 Slip Knot Refill
+12 TF-100 Spalding Basketball
+6 Buckr200x Rawlings bucket of practice balls
+3 114 F Rawlings Wood Fungo Bat
+1 BSPEEDV Bushnell Radar Gun
+3 Wilson A1030 yellow baseballs
+1 36919 Jugs instant screen
+1 Louisville 2012 Exogride Adult Baseball Bat
+4 Rawlings piped baseball pants
+6 Rawlings piped baseball pants
+8 dz Wilson Optic green softballs
+4 dz Bull dog Optic green poly softballs
+4 dz Optic green poly baseballs
+2 Rawlings Blackhawk catchers mask
+2 Rawlings Blackhawk catchers chest protector
+2 Mizuno G2 Samurai shinguards
+5 batting tees
+3 8" base dig out tool
+3 Warrior Buzzkill Goalie Pants
+3 STX Sultra Women's chest protector
+3 STX Sultra Women's goalie glove
+3 Eaton S3 Shin Guards
+35 red shorts
+12 Rawlings Basketballs
+1 Large Pre-Game Playmaker
+1 Playmaker Board Bag
+1 Slipp-nott base and pad
+1 Model 2000 ball rack
+1 6ft Monster Mop
+2 6ft Mop heads
+4 gal KenClean Plus mat cleaner
+2 sprayers
+2 cs 4 in mat tape
+1 Aluminum Storage Clip Board
+4 GS-102Wrist Bands
+4 GS-101 Referee Arm Bands
+12 Brute Torq. Black kneepads
+1 Fox 40 CMG & Lanyard Whistle
+1 Digital Scale
+1 Dollamur Wrestling Mat - special dimensions
+12 dz Rawlings game balls R100HS
+6 STBUCKPT30PK Bucket Rawlings Practice balls
+6 dz 5TBUCKPT30 pk Practice whiffle balls
+8 Schutt one size fits Air 7 Helmet w/mask
+2 DenMaria 34/21 Vandetta bat
+6 Helmets with masks
+3 TAG/Equiv complete set catching gear
+5 Diamond ball bags
+2 1st place internation adjustable blocks
+2 2kg discus trainer
+6 Tf-1000 Spalding basketballs
+1 Basketball storage cage w/wheels
+Boulan Park MS Boys Basketball
+Troy High Baseball
+Troy High Softball
+Troy High Track
+Athens Lacrosse
+Troy High Boys Basketball
+Troy High Wrestling
+Athens Girls Basketball
+Athens Baseball
+Athens Softball
+Athens Boys Basketball
+0.00 0.00
+0.00 0.00
+0.00 0.00
+0.00 0.00
+36.70 550.50 0.00
+21.35 42.70 0.00
+21.35 42.70 0.00
+35.90 430.80 0.00
+122.20 733.20 0.00
+28.85 86.55 0.00
+0.00 0.00
+0.00 0.00
+126.50 126.50 128.58 128.58
+299.95 299.95 0.00
+0.00 0.00
+0.00 0.00
+58.80 470.40 0.00
+10.20 40.80 0.00
+8.40 33.60 0.00
+108.50 217.00 0.00
+87.50 175.00 0.00
+56.40 112.80 0.00
+17.70 88.50 13.78 68.90
+6.75 20.25 0.00
+0.00 0.00
+0.00 0.00
+0.00 0.00
+0.00 0.00
+0.00 0.00
+36.70 440.40 39.78 477.36
+76.50 76.50 0.00
+32.50 32.50 0.00
+60 shts. 68.50 68.50 0.00
+168.75 168.75 0.00
+252.50 252.50 0.00
+48.50 97.00 0.00
+35.40 141.60 0.00
+4.50 9.00 0.00
+168.50 337.00 0.00
+0.00 0.00
+0.00 0.00
+0.00 0.00
+15.75 189.00 0.00
+0.00 4.73 4.73
+621.50 621.50 333.57 333.57
+0.00 0.00
+55.70 668.40
+48.85 293.10 0.00
+balls only 8.20 49.20
+59.85 478.80 0.00
+149.50 299.00 0.00
+Rawlings 23.70 142.20 27.14 162.84
+Diamond 399.25 1,197.75 0.00
+26.20 131.00 0.00
+93.45 186.90 0.00
+9.20 18.40 0.00
+37.20 223.20 47.33 283.98
+187.40 187.40 73.96 73.96
+Flaghouse, Inc.
+Alt. Unit Cost Total
+Dimmer Warren Enterprises
+Alt. Unit Cost Total
+94
+Troy School District
+Fall 2011/12 Athletic Equipment
+Bid 9720
+Qty Description
+18 Nike Gainesville Game Jersey
+18 Nike Gainesville Game Short
+18 Nike Gainesville Game Jersey
+18 Nike Gainesville Game Short
+15 Rawlings Basketball
+2 Slip Knot Refill
+2 Slip Knot Refill
+12 TF-100 Spalding Basketball
+6 Buckr200x Rawlings bucket of practice balls
+3 114 F Rawlings Wood Fungo Bat
+1 BSPEEDV Bushnell Radar Gun
+3 Wilson A1030 yellow baseballs
+1 36919 Jugs instant screen
+1 Louisville 2012 Exogride Adult Baseball Bat
+4 Rawlings piped baseball pants
+6 Rawlings piped baseball pants
+8 dz Wilson Optic green softballs
+4 dz Bull dog Optic green poly softballs
+4 dz Optic green poly baseballs
+2 Rawlings Blackhawk catchers mask
+2 Rawlings Blackhawk catchers chest protector
+2 Mizuno G2 Samurai shinguards
+5 batting tees
+3 8" base dig out tool
+3 Warrior Buzzkill Goalie Pants
+3 STX Sultra Women's chest protector
+3 STX Sultra Women's goalie glove
+3 Eaton S3 Shin Guards
+35 red shorts
+12 Rawlings Basketballs
+1 Large Pre-Game Playmaker
+1 Playmaker Board Bag
+1 Slipp-nott base and pad
+1 Model 2000 ball rack
+1 6ft Monster Mop
+2 6ft Mop heads
+4 gal KenClean Plus mat cleaner
+2 sprayers
+2 cs 4 in mat tape
+1 Aluminum Storage Clip Board
+4 GS-102Wrist Bands
+4 GS-101 Referee Arm Bands
+12 Brute Torq. Black kneepads
+1 Fox 40 CMG & Lanyard Whistle
+1 Digital Scale
+1 Dollamur Wrestling Mat - special dimensions
+12 dz Rawlings game balls R100HS
+6 STBUCKPT30PK Bucket Rawlings Practice balls
+6 dz 5TBUCKPT30 pk Practice whiffle balls
+8 Schutt one size fits Air 7 Helmet w/mask
+2 DenMaria 34/21 Vandetta bat
+6 Helmets with masks
+3 TAG/Equiv complete set catching gear
+5 Diamond ball bags
+2 1st place internation adjustable blocks
+2 2kg discus trainer
+6 Tf-1000 Spalding basketballs
+1 Basketball storage cage w/wheels
+Boulan Park MS Boys Basketball
+Troy High Baseball
+Troy High Softball
+Troy High Track
+Athens Lacrosse
+Troy High Boys Basketball
+Troy High Wrestling
+Athens Girls Basketball
+Athens Baseball
+Athens Softball
+Athens Boys Basketball
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+36.00 540.00 0.00 0.00
+38.00 76.00 0.00 0.00
+38.00 76.00 0.00 0.00
+36.00 432.00 0.00 0.00
+88.95 533.70 0.00 0.00
+26.70 80.10 0.00 0.00
+0.00 0.00 0.00
+Rawling 35.00 105.00 0.00 0.00
+117.00 117.00 0.00 139.95 139.95
+242.00 242.00 0.00 241.50 241.50
+29.40 117.60 0.00 0.00
+29.40 176.40 0.00 0.00
+64.75 518.00 0.00 0.00
+11.75 47.00 0.00 0.00
+6.95 27.80 0.00 0.00
+950X 84.00 168.00 0.00 0.00
+950X 101.00 202.00 0.00 0.00
+63.00 126.00 0.00 0.00
+13.25 66.25 0.00 20.99 104.95
+Champro 7.00 21.00 0.00 3.69 11.07
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+Alleson 6.75 236.25 0.00 0.00
+36.00 432.00 0.00 0.00
+75.00 75.00 0.00 0.00
+28.00 28.00 0.00 0.00
+102.00 102.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+149.00 298.00 0.00 63.48 126.96
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 12.99 155.88
+0.00 0.00 0.00
+0.00 549.00 549.00 0.00
+0.00 0.00 0.00
+56.00 672.00
+38.50 231.00 0.00 0.00
+just balls 8.75 52.50
+0.00 0.00 0.00
+176.00 352.00 0.00 169.95 339.90
+Rawlings 24.75 148.50 0.00 0.00
+Rawlings 200.00 600.00 0.00 0.00
+Champro 8.25 41.25 0.00 0.00
+Champro 90.00 180.00 84.95 169.90 74.99 149.98
+Champro 110.00 220.00 44.50 89.00 0.00
+36.00 216.00 0.00 0.00
+169.00 169.00 0.00 139.99 139.99
+Pyramid School Products
+Alt. Unit Cost Total
+M-F Athletics
+Alt. Unit Cost Total
+ForSports
+Alt. Unit Cost Total
+95
+Troy School District
+Fall 2011/12 Athletic Equipment
+Bid 9720
+Qty Description
+18 Nike Gainesville Game Jersey
+18 Nike Gainesville Game Short
+18 Nike Gainesville Game Jersey
+18 Nike Gainesville Game Short
+15 Rawlings Basketball
+2 Slip Knot Refill
+2 Slip Knot Refill
+12 TF-100 Spalding Basketball
+6 Buckr200x Rawlings bucket of practice balls
+3 114 F Rawlings Wood Fungo Bat
+1 BSPEEDV Bushnell Radar Gun
+3 Wilson A1030 yellow baseballs
+1 36919 Jugs instant screen
+1 Louisville 2012 Exogride Adult Baseball Bat
+4 Rawlings piped baseball pants
+6 Rawlings piped baseball pants
+8 dz Wilson Optic green softballs
+4 dz Bull dog Optic green poly softballs
+4 dz Optic green poly baseballs
+2 Rawlings Blackhawk catchers mask
+2 Rawlings Blackhawk catchers chest protector
+2 Mizuno G2 Samurai shinguards
+5 batting tees
+3 8" base dig out tool
+3 Warrior Buzzkill Goalie Pants
+3 STX Sultra Women's chest protector
+3 STX Sultra Women's goalie glove
+3 Eaton S3 Shin Guards
+35 red shorts
+12 Rawlings Basketballs
+1 Large Pre-Game Playmaker
+1 Playmaker Board Bag
+1 Slipp-nott base and pad
+1 Model 2000 ball rack
+1 6ft Monster Mop
+2 6ft Mop heads
+4 gal KenClean Plus mat cleaner
+2 sprayers
+2 cs 4 in mat tape
+1 Aluminum Storage Clip Board
+4 GS-102Wrist Bands
+4 GS-101 Referee Arm Bands
+12 Brute Torq. Black kneepads
+1 Fox 40 CMG & Lanyard Whistle
+1 Digital Scale
+1 Dollamur Wrestling Mat - special dimensions
+12 dz Rawlings game balls R100HS
+6 STBUCKPT30PK Bucket Rawlings Practice balls
+6 dz 5TBUCKPT30 pk Practice whiffle balls
+8 Schutt one size fits Air 7 Helmet w/mask
+2 DenMaria 34/21 Vandetta bat
+6 Helmets with masks
+3 TAG/Equiv complete set catching gear
+5 Diamond ball bags
+2 1st place internation adjustable blocks
+2 2kg discus trainer
+6 Tf-1000 Spalding basketballs
+1 Basketball storage cage w/wheels
+Boulan Park MS Boys Basketball
+Troy High Baseball
+Troy High Softball
+Troy High Track
+Athens Lacrosse
+Troy High Boys Basketball
+Troy High Wrestling
+Athens Girls Basketball
+Athens Baseball
+Athens Softball
+Athens Boys Basketball
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 34.54 69.08
+0.00 0.00 34.54 69.08
+0.00 0.00 37.56 450.72
+0.00 0.00 90.04 540.24
+0.00 0.00 34.72 104.16
+0.00 0.00 101.53 101.53
+0.00 0.00 0.00
+130.91 130.91 0.00 128.36 128.36
+0.00 0.00 0.00
+Ridell 40.20 160.80 0.00 11.49 45.96
+Ridell 40.20 241.20 0.00 11.49 68.94
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+55.00 110.00 0.00 0.00
+59.00 118.00 0.00 0.00
+57.00 114.00 0.00 0.00
+22.00 110.00 13.70 68.50 13.06 65.30
+7.95 23.85 0.00 2.56 7.68
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+printing extra 7.95 278.25 0.00 4.88 170.80
+0.00 0.00 Macgregor 13.53 162.36
+0.00 0.00 1299786 27.54 27.54
+0.00 0.00 0.00
+0.00 0.00 85.12 85.12
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+53.20 212.80 0.00 1092479 37.82 151.28
+0.00 0.00 0.00
+119.34 238.68 0.00 120.96 241.92
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 0.00
+0.00 0.00 14.72 176.64
+0.00 0.00 0.00
+0.00 0.00 952.93 952.93
+0.00 0.00 0.00
+56.96 683.52
+0.00 0.00 Rawlings 90.04 540.24
+4.36 26.16
+0.00 0.00 1195828 18.06 144.48
+0.00 0.00 1186802 96.22 192.44
+20.49 122.94 0.00 0.00
+171.00 513.00 0.00 0.00
+13.44 67.20 0.00 8.02 40.10
+0.00 0.00 135.47 270.94
+0.00 0.00 10.34 20.68
+0.00 0.00 37.56 225.36
+292.86 292.86 0.00 132.18 132.18
+Total
+Sport supply Group
+Alt. Unit Cost Total
+S & S Worldwide
+Alt. Unit Cost Total
+Riddell/All American
+Alt. Unit Cost
+96
+      6. A.   11.01.11 
+6. A. PERSONNEL 
+ CONSIDERATION:  ELEMENTARY AND SECONDARY 
+New Hire
+It is recommended that the Board of  Education approves the issuance of a 
+probationary contract to the following teacher for the 2011-2012 school year. 
+Melissa Marsack – .5 FTE Great Start Readiness Preschool Teacher, Hill 
+Elementary School 
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ M o v e d  b y          
+ S u p p o r t e d  b y         
+BE IT THEREFORE RESOLVED  that the Board of Educatio n takes action to approve 
+the aforementioned personnel recommendation as stated above. 
+ A y e s       
+ N a y s        
+97
+BIOGRAPHICAL SKETCH – NEW TEACHER 
+November 1, 2011 
+Melissa Marsack .5 FTE, Great Star t Readiness Preschool Teacher, Hill 
+Elementary School 
+Educational Background: B.S., Oakland University, Auburn Hills, December 2005 
+  Major: Elementary Education 
+ Michigan Provisional Ce rtificate issued March 2006 
+Teaching Experience: Kindergarten Teache r, Prevail Academy, Mount Clemens, MI 
+   September 2007 – June 2011 
+ Guest Teacher, Chippewa Valley Schools, Clinton Township, MI 
+   October 2005 – June 2011 
+ Preschool Instructor, Gymboree Play  & Music, Shelby Township, MI 
+   December 2004 – December 2006 
+ Student Teacher, Chippewa Valle y Schools, Clinton Township, MI 
+   September 2005 – December 2005 
+Resident Community: Clin ton Township, Michigan 
+98
+     7. A.   11.01.11 
+7.  CURRICULUM 
+A. REPORT: iPad Curriculum/Lesson Plans  
+Ron Keolian , Coordinator of Instructional Technology  and Merri Lynn 
+Colligan, Director of Technology , will present an overview of  the 
+integration of iPads into the classroom  as well as  the iPad integration 
+lessons and support resources developed by the iPad Integration 
+Committee. 
+_________________________________________________________________  
+RECOMMENDED ACTION:  This is a report. 
+Ms. Merri Lynn Colligan, Director of Technology for the Troy School 
+District, will introduce this evening's report. 
+99
+November 1, 2011November 1, 2011
+100
+ Creativity and Innovation
+ Communication and Collaboration
+ Research and Information Fluency
+ Critical Thinking, Problem Solving, and 
+Decision Making
+ Technology Operations and Concepts
+101
+ Digital Citizenship Digital Citizenship
+ Multiple devices and integration points for 1 
+to 1 access for students.
+ Technology Replacement – 1000 Laptops, 
+laptops to the Troy Cloud to extend the life of 
+102
+660 iPads and virtualizing some existing660 iPads, and virtualizing some existing 
+the technology.
+the technology.
+ The Apps available for the iPad allow students 
+and teachers the ability to access 
+information, process knowledge, 
+as allow varying modes of output. 
+Students using dictionary app to
+spell words in their writing pieces.
+They also used the voice to text
+103
+communicate and work collaboratively as wellcommunicate and work collaboratively as well 
+when revising their writing
+when revising their writing.
+ Same lifecycle as laptops
+ iOS 5 and subsequent software updates
+ Hardware will change, software will update
+ iPad app updates v. laptop programs
+ Each iPad has a full covered case.
+Guides, and Projector
+104
+Ct i d/ C K i t Q i k L i Carts equipped w/ Care Kits, Quick Learning 
+Name Building Grade
+Lauren Fragomeni Wass 1 
+Carol Dospil Hamilton 1 
+Emily Freeman Schroeder 2 
+Ashley Pellosmaa Bemis 2   
+Aaron Maliepaard Martell 4 
+Jessica Thudium Hamilton 4
+Jason Fawcett Barnard 5 
+Mike Cottone  Bemis 5 
+105
+Julie Marjamaa Costello KJulie Marjamaa Costello K
+Shannon Kocher Schroeder 3Shannon Kocher Schroeder 3
+A base set of Apps selected by a committee of teachers.
+ E- Print – Print capabilities.
+ iMovie – Editing iPad video
+ Garage band – Music
+ Google docs 
+K Pi Pi
+ IWrite words
+ Comic Strip
+ Insects HD
+ Prezi
+Db Keynote – Powerpoint Presentations
+ Discovery Education – Video Streaming
+ Goodreader – Access to Student Folders
+ Google Earth
+ Calculator XL
+ Dropbox
+ MoodlEZ
+ iBooks
+ Brainpop
+ EMD Periodic Table
+ Dictionary.com
+ Everyday Math Apps
+ Popplet
+ Doodle Buddy 
+ Whiteboard
+ News – BBC, CNN, USA Today
+ Story Buddy
+ NASA
+ CIA World Factbook
+ Pearson Textbook Materials
+ Whiteboard
+ Make Dice
+ Who Can Read
+ Learn Time
+ ABC Phonics
+ Pearson Textbook Materials
+ The Constitution
+106
+ Apple Trainings – Teacher, Media Specialist, 
+ Elementary Teacher lessons
+ Staff Meeting Trainings.
+ After school PD sessions.
+ “The interactive nature of 
+Elementary.”
+107
+Technology Parapro Administrator
+Technology Parapro, Administrator
+ Developing Secondary lessons
+pg y
+Moodle & Blog
+ Moodle & Blog
+them is perfect for
+them is perfect for 
+108
+ Successfully added the ability to print to iPads
+ Allowed students to save to a network folder
+free apps to elementary iPads.
+both communicate and share files across the 
+district.
+ “Much quicker and easier to use than the 
+109
+ Still need to find a more efficient way to add Still need to find a more efficient way to add 
+ Working on creating a space for teachers to Working on creating a space for teachers to 
+computer lab and the laptops.”
+computer lab and the laptops.
+ Secondary iPad implementations
+It td L l
+◦ Integrated Lesson plans
+◦ Resources
+◦ App identification
+ Special Education
+◦ Piloting in MICI and RR at Bemis
+◦ Exploring impact on Autism at Morse and Hamilton 
+Elementary
+ 60 minutes
+ English as Second Language
+◦ Exploring Application for differentiate learning
+110
+           7. B.  11.01.11  
+7. CURRICULUM  
+B.  REPORT:  Changes in MEAP and MME  
+In the coming months and years we are goin g to see significant changes to our state 
+assessment system.  This year  we will be seeing an incr ease in the cut scores for 
+proficiency on the MEAP and MME tests.  Th is increase in the cu t score is meant to 
+more accurately reflect whet her or not a student is on track for career and college 
+readiness.  Additionally, in 2015, we will first administer the Smarter Balance 
+computer adaptive assessments measuring the Common Core State Standards.   
+RECOMMENDED ACTION:  This evening’s report is presented by Mrs. Anne Mull, 
+Troy School District’s Director of Instruction and Assessment.  
+111
+November 1  2011
+November 1, 2011
+112
+• Results are not comparable across states; Each 
+state bears the cost of assessments 
+Each state procures its own 
+assessment system
+• Students often leave high school unprepared to 
+succeed in entry-level college courses
+Measure proficiency against 
+state standards, not college and 
+career readiness
+• Poorly measure higher-order thinking skills Often rely on multiple choice 
+questions
+Th d i i l d ’ t h t d tRl t d l i d t h f t
+ • Teachers and principals don’t have access to data 
+during the school year to inform instruction 
+Results delivered months after 
+tests are given
+• Time consuming for teachers and schools with Accommodations for special 
+ g
+inconsistent results education and ELL students vary
+• Costly, time consuming, and challenging to 
+maintain securityMost administered on paper
+ aas e c u y
+113
+ More rigorous tests measuring student progress toward 
+ Have common, comparable scores across member states;
+ Provide achievement and growth information to help make
+better educational decisions and professional development
+ Assess all students except those with “significant cognitive 
+disabilities”;
+ Administer online with timely results;
+Source: Federal Register / Vol. 75, No. 68 / Friday, April 9, 2010   pp. 18171‐85
+114
+“ ll   d    di ”
+“college and career readiness”;
+opportunities;
+oppo ;
+ Use multiple measures.
+p
+• Turnaround in weeks compared to months todayFaster results
+• Fewer questions compared to fixed form testsShorter test length
+• Provides accurate measurements of student growth 
+over timeIncreased precision
+Tailored to student
+ • Item difficulty based on student responsesTailored to student 
+ability
+• Larger item banks mean that not all students receive Greater security
+ g
+the same questionsGreater security
+• GMAT, GRE, COMPASS (ACT), Measures of Academic 
+Progress (MAP)Mature technology
+ og ess ( )
+115
+ Getting to know the CCSS/Alignment work;
+ 2010 MEAP/2011MME remain the same;
+2011‐2012
+ 2011 MEAP/2012 MME remain the same;
+ State focus will be on instruction/professional 
+116
+2010‐2011
+2010 2011
+ State focus will be on technical assistance
+State focus will be on technical assistance.
+ Implementation of CCSS in classrooms;
+Implementation of CCSS in classrooms;
+development
+development.
+2012‐2013
+the CCSS.
+ 2013 MME remains the same.
+2013‐2014
+ 2013 MEAP remains the same.
+ State focus will be on preparing for new assessments
+from SMARTER Consortium.
+2014‐2015
+ Full implementation ‐ Instruction and assessment based
+on CCSS.
+117
+ii l l difi d fl
+ 2012 MEAP minimally modified as necessary to reflect 
+ State focus will be on student learning
+ State focus will be on student learning.
+ 2014 MME remains the same
+ 2014 MME remains the same.
+ In September, the State Board of Education adopted more
+Assessment Program (MEAP) and the Michigan Merit Exam
+(MME).
+ With the more rigorous cut scores, students will need to get
+roughly 65 percent of the answers correct to "pass" the 
+state test, instead of only 39 percent as was the previous
+ This shift forward will better reflect whether schools are 
+preparing their students to be on‐track to being career‐
+educations.
+118
+i dd f h ih i di l
+rigorous standards for scores on the Michigan Educational 
+benchmark
+benchmark.
+d  ll d   h   h   l   hi  hi h   hl  
+and college‐ready when they complete their high school 
+MEAP & MME 2010-11 Old & New Cut Scores
+Michigan Old Michigan New
+State of 
+Michigan
+95
+91
+84 85 87
+84 85 84 82
+90
+100
+g gg
+80
+84
+78
+84 84
+79
+82
+63
+78 78
+61
+75 74
+78
+63 64 66 64
+70
+80
+52
+61
+56 57
+54
+42
+50
+60
+ent Proficient
+35 37 39
+36 36
+29 28 26 28
+33
+30
+40
+Perce
+17
+14
+10
+20
+0
+3rd 4th 5th 6th 7th 8th 11th 3rd 4th 5th 6th 7th 8th 11th 5th 8th 11th 6th 9th 11th
+Math Reading Science Social Studies
+119
+MEAP & MME 2010-11 Old & New Cut Scores
+Oakland County Old Oakland County New
+Oakland County
+97
+95
+88 89 90
+84
+90 89 90 88
+85 87 86 84 82
+90
+100
+Oakland County Old Oakland County New
+60
+68
+84
+66
+82 80 80
+71 73
+76
+72
+66 6670
+80
+60
+51
+56 57
+52 52
+44
+59
+44
+4750
+60
+cent Proficient
+37
+26
+22
+33
+39
+30
+40
+Perc
+0
+10
+20
+0
+3rd 4th 5th 6th 7th 8th 11th 3rd 4th 5th 6th 7th 8th 11th 5th 8th 11th 6th 9th 11th
+Math Reading Science Social Studies
+120
+MEAP & MME 2010-11 Old & New Cut Scores
+Troy Old Troy New
+Troy District 
+Results
+100 98
+95 93 95
+92
+96 96 95 93 93 92 91
+89 88 88 8785 8590
+100
+Troy Old Troy New
+78 79 79
+73
+81 79
+66
+71
+66
+82
+85 85
+78 80 80
+71
+70
+80
+59
+48
+53 54
+62
+50
+60
+nt Proficient
+35 34
+30
+40
+Percen
+10
+20
+0
+3rd 4th 5th 6th 7th 8th 11th 3rd 4th 5th 6th 7th 8th 11th 5th 8th 11th 6th 9th 11th
+Math Reading Science Social Studies
+121
+         8. A. 11.01.11 
+8. BUSINESS 
+ A. REPORT: 2010-2011 AUDIT REPORT 
+Teresa Pollock, district auditor from Plante & Moran, will make a 
+presentation to the Board of Education.  A draft copy of the 
+District’s Audit Report was presented to the Board at the 
+October 18, 2011 workshop. 
+RECOMMENDED ACTION:  This is a report. 
+122
+plantemoran.com
+Troy School District
+Board Presentation
+FOR YEAR ENDED JUNE 30, 2011
+123
+Governmental Funds 
+Revenue and Expenditures
+Revenue Project Debt Service
+General Fund Funds Fund Funds
+Expenditures 137,073,866     4,904,690      3,711,105           18,669,233     
+Excess of Revenue Over (Under) Expenditures 277,732            457,091        (3,690,322)         (547,203)        
+Other Financing Sources (Uses)
+  Trans fers  In 721,905            -               -                    -                
+  Trans fers  Out (103,861)           (618,044)       -                    -                
+Total Other Financing Sources (Uses) 618,044            (618,044)      -                    -                
+Net Change in Fund Balances 895,776            (160,953)       (3,690,322)         (547,203)        
+Fund Balances - Beginning of year 18,861,061       2,039,030      8,229,662           780,922         
+plantemoran.com 1
+124
+June 30  2011June 30, 2011
+Special CapitalSpecial Capital
+Revenue 137,351,598$    5,361,781 $   20,783 $            18,122,030$  
+Fund Balances - End of year 19 756 837$ 1 878 077$ 4 539 340$ 233 719$Fund Balances  End of year 19,756,837$    1,878,077$  4,539,340$       233,719$     
+General Fund Revenue
+June 30  2011
+$8 222 832 $8 247 213$140,000,000 
+June 30, 2011
+$137,530,238 $137,351,598
+$13,007,711 $11,947,217 
+$8,222,832 $8,247,213 
+$100,000,000 
+$120,000,000 
+$72,966,234 $73,988,119 
+$60,000,000
+$80,000,000 
+,,
+$43,333,461 $43,169,049$20 000 000
+$40,000,000 
+$60,000,000 
+$43,333,461 $43,169,049 
+$0 
+$20,000,000 
+Budget* Actual*
+Ll
+ St t
+ Fd l
+ Oth
+plantemoran.com
+Local
+ State
+ Federal
+ Other
+2
+*Excluding other financing sources and uses
+125
+General Fund Expenditures
+$138,128,536 $137,073,866
+$120,000,000 
+$44,026,943 $44,330,747 
+$100,000,000 
+$80,000,000 
+$60,000,000 
+$92,866,638 $91,468,454 
+$40,000,000 
+$20,000,000 
+$0 
+Budget* Actual*
+*Excluding other financing sources and uses
+126
+June 30  2011
+$1 234 955 $1 274 665$140,000,000 
+June 30, 2011
+$1,234,955 $1,274,665 
+$,,
+It t i
+ S t d Oth
+ Ci t
+plantemoran.com
+Instruction
+ Support and Other
+ Community
+3
+Instructional Expenditures
+100%
+80%
+70%
+50%
+40%
+20%
+10%
+expenditures includes only direct contact between teachers, aides 
+and pupils.
+plantemoran.com 4
+127
+Comparison to Oakland County Schools
+90%
+Comparison to Oakland County Schools
+60%
+90%
+67% 59%30%
+60%
+59%
+0%
+30%
+0%
+Troy Schools June 30, 2011
+ Oakland County Schools: Avg %
+* Oakland County data based on 2009 2010 figures Instructional
+ Oakland County data based on 2009-2010 figures, Instructional 
+General and Durant Fund
+Historical Fund Balance
+$45,000,000 
+(1) $40,688,281 
+$35,000,000 
+(2) $31,043,131 
+$30,000,000 
+$25,000,000 
+$19,756,837 
+$20,000,000 
+(3) $20,594,715 
+$18,861,061 
+$10,000,000 
+$8,156,942
+$5,000,000 
+$-
+2003 2004 2005 2006 2007 2008 2009 2010 2011
+Combined Fund Balance of General Fund and Durant Fund
+Estimated Fund Balance without Privatization, Asset Sales, and ERI's
+(1) $9 million land sale occurred
+(2) Retirement rate increase of 14% with no revenue increase, $5.5 million ERI
+(3) $4.9 million ERI
+plantemoran.com 5
+128
+As of June 30
+$40 000 000
+As of June 30
+$35,294,218 
+$28 896 195
+$30,027,579 $29,807,152 
+$30 500 000
+$40,000,000 
+$28,896,195 
+$30,500,000 
+$15 000 000
+$15,000,000 
+History of General Fund and Durant Fund 
+Balance as a Percentage of Expenditures
+A  f J  30
+35% 31 40%
+As of June 30
+25%
+30%
+31.40%
+22.89% 21.71% 22.25% 21.83%
+15%
+20%
+14.09% 13.70% 14.41%
+10.44%
+MSBO 
+Recommended 
+Operating FB
+5%
+10%8%
+Borrowing 
+Danger Zone
+0%
+2004 2005 2006 2007 2008 2009 2010 2011 2010
+State 
+Average
+plantemoran.com 6
+Average 
+(Excluding 
+DPS)
+129
+plantemoran.com
+THANK YOU
+7
+130
+         8. B. 11.01.11 
+8. BUSINESS 
+  B.     CONSIDERATIO N: 2010-2011 AUDIT REPORT 
+Administration recommends that the Board of Education accept 
+the financial statements as presented by Teresa Pollock, the 
+District’s auditor from Plante & Moran. 
+RECOMMENDED ACTION:  Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By: ________ ____________________ 
+Supported By: ____ ___________________ 
+Be it therefore resolved, that the Board of Educ ation accept and approve 
+the Troy School District’s audited 2011 fi nancial statements as presented by 
+Plante & Moran. 
+Ayes:  ______________ 
+Nays:  ______________ 
+131
+10. A.    11.01.11 
+10. OTHER  
+A. REPORT:   Facilities Study Update 
+The following is an overview of the District’s facilities study process and 
+introduction of our official Facilities Study Team, which is comprised of 18 
+community members.  This study will  take place over the next several 
+months and result in a recommendation that will be presented to the Board 
+at the February 7, 2012 Board of Education Meeting.  The District would like 
+to thank the individuals on the study team for their willingness to participate 
+in this important undertaking.       
+RECOMMENDED ACTION: 
+This report that will be given by  co-chairs Greg Bryen and Waqar 
+Hashim.    
+132
+TROY SCHOOL DISTRICT
+FACILITIES STUDY TEAM
+INITIAL REPORT 
+TO THE BOARD OF EDUCATION 
+133
+FACILITIES STUDY TEAM
+Co-Chair Presenters:
+Greg Bryen & Waqar Hashim
+134
+FACILITIES STUDY TEAM MEMBERS
+• Rahmat Awan
+• Greg Bryen
+• David Cole
+• Scott Courtney
+• Adeyinka Dawodu
+• Jamie Douglas
+• Waqar Hashim
+• Laurie Huber
+• Dale Jerome
+• Lynda Keough
+• Bernard Lourin
+• John Mayernik
+• Denise Murray 
+• Heather Plastow
+• Kim Rosseter
+• Nehal Shah
+• Pete va der Harst
+• Pete Ziegenfelder
+135
+FACILITIES STUDY TEAM
+Roles & Responsibilities:
+•
+of the District’s facilities (elementary, middle & high schools, and 
+district buildings) with an emphasis on maintaining a quality 
+education and financial efficiency for consideration by the Board 
+of Education. 
+Identify specific criteria to use in the evaluation of the District’s 
+facilities.
+136
+• Develop a recommendation and time line for maximizing the use 
+FACILITIES STUDY TEAM
+District’s:
+– Financial resources, revenue and expenditures 
+– Anticipated operational cost savings  
+– Demographics and enrollment projections 
+– Building student capacity and current functional use  
+– Building infrastructure (i.e. age of buildings, interior & exterior 
+conditions, floor plan, flexibility, etc.)
+– Proximity to other schools  
+– Standard and special room needs 
+137
+Roles & Responsibilities:
+• In developing the recommendation, gather and analyze the 
+FACILITIES STUDY TEAM
+October 28 -29 Training & Planning Meetings
+• Reviewed roles & responsibilities, process flow chart and 
+project parameters.
+• Practiced several communication, collaboration and consensus-
+building activities.
+• Developed team Ground Rules.
+• Selected team co-chairs, recorders and task teams.
+• Acquired a results-oriented agenda for our Nov. 2 team 
+meeting.
+138
+GROUND RULES
+• Stay focused on our “charge”
+• Be a committed and active participant by:
+- Coming prepared
+- Being punctual
+- Completing assigned task on project timeline or 
+asking for help 
+• Value ideas, resources and expertise
+• Engage and respect others with open and honest discussions using 
+appropriate language and objectivity.
+• Actively listen
+139
+FACILITIES STUDY TEAM
+November 2 Meeting Topics
+enrollment trends) 
+projected financial conditions)
+140
+• Student Enrollment (Historical, current & projected 
+• District Financial Status (Funding sources, current & 
+10. B.    11.01.11 
+10. OTHER  
+B. REPORT:   Update on Superintendent’s Goals 
+The following is an update on the Superintendent’s Goals for the 2011-2012 
+school year.  This is the first of four  updates that will be presented to the 
+Board during this school year.  The next update will be given at the January 
+17, 2012 Board of Education Meeting.   
+RECOMMENDED ACTION: 
+This report will be given by Dr. Fowler.   
+141
+142
+Maintain a high level of visibility throughout the District 
+teachers, and attending numerous building activities.
+completed by January 20, 2012;
+ Staff presentations began October 19th and will be completed by 
+January 19, 2012.
+143
+through buildin g presentations, visitation of probationary 
+g g p, py
+Pt t i t PTO/PTA b Ot b 10th d ill b
+ Presentations to PTO/PTA groups began October 10th and will be 
+144
+Complete Facilities Study with a recommendation 
+presented to the Board of Education on February 7, 2012.  
+ Study student enrollment and future trends;
+ Study building information and operating costs;
+ Review building capacities and evaluate facilities use options;
+ Tour and assess District buildings.
+145
+ Ri Di t i t fi i l it ti
+ Review District financial situation;
+ Team will gather information and discuss new options;
+recommendation;
+ Team will verify data, determine content, etc.
+ Review District data and information gathered;
+ Present FST recommendation, rationale, timeline and benefits.
+146
+ Team will create Task Teams to develop FST report and 
+p p
+El i FST d f
+ Explain FST process and sequence of events;
+ Explain FST assumptions, criteria and desired outcomes;
+p p
+Complete cost analysis of current data processing 
+possible alternatives.
+ September ‐ November 2011
+ December ‐ February 2012
+ June 2012
+147
+department with recommendation to the Board regarding
+department with recommendation to the Board regarding 
+Mh M 2012
+ March ‐ May 2012
+Continue to review District student career and college 
+readiness and recommend strategies to increase.
+ Academic Writing 
+ Atlas Rubicon Curriculum Website
+ Common Assessment
+ Visible Thinking
+ Parent and Community 
+Communications
+ Common Assessment
+ District Vision Meetings
+ Formative Assessment
+ Effective Hiring Practices
+ Effective Use of T echnology
+ Parent/Stakeholder Involvement
+ Patterns of Strengths and 
+Weaknesses
+ Personal Growth Plans
+ Effective Use of T echnology
+ Establishing a Respectful 
+Environment
+ Grade Level Meetings
+ Research Based Instructional 
+ Reading Recovery
+ Safe Learning Environment
+ Sheltered Instruction Observational 
+Protocol
+SS h l
+Strategies
+ Instructional Rounds
+ International Baccalaureate
+ Management of School Finances
+ Summer School
+ Standards for Mathematical Practice
+ Surveys
+ Use of Title 1 Tutors
+ Uf T i t l 3 P f i l
+ READ 180 (MS)  Use of Title 3 Paraprofessionals
+148
+ Currently using.
+ Will be added by June 2012.
+149
+ Currently using
+ Currently using. 
+ Will be completed by June 2012
+ Will be completed by June 2012.
+ Goal is to adopt by June 2012 for implementation in fall 2012‐13.
+ Complete by June 2012.
+150
+ January June 2012
+ January – June 2012.
+Cl t b J 2012
+ Complete by June 2012.
+ Mission of Council is to foster a climate of inclusion and diversity that 
+creates an optimal learning environment for the entire school community.
+ Books purchased for administrators and all K‐12 buildings;
+ Attend next LAC‐O Best Practices Conference January 27, 2012.
+151
+ Three videos to be completed by 2012
+ Three videos to be completed by 2012.
+ Attended Workshop September 2011.
+Attended Workshop September 2011.
+Expand communication channels with community by adding 
+additional TS-TV spots, Superintendent’s Column in local 
+streaming video on website.
+ Online (i.e. Troy Patch).
+152
+papers service club presentations and pod casting or
+papers, service club presentations, and pod-casting or 
+ Invitations sent by November 30, 2011.
+y ,
+ Begin in November 2011.
+Begin in November 2011.
+ Newspaper (i e Somerset Gazette Troy Times);
+ Newspaper (i.e. Somerset Gazette, Troy Times);
+ As issues arise  (Legislative, curriculum, etc.);
+ Posting of District newsletters.
+153
+ Send out link using School Messenger
+ Send out link using School Messenger.
+ Online February 2012;
+ Online February 2012;
+SUPERINTENDENT‘S GOALS 
+TIMELINE
+February 
+2012
+Facilities Study 
+Team  makes 
+recommendation
+June 2012
+Superintendent  
+Goals Update to 
+Board of Ed. 
+October 
+2011
+Presentations  
+to TSD staff &
+December 
+2011
+FST develops 
+ recommendation 
+to Board of 
+Education.
+New District 
+website launched.
+April 2012
+Community 
+service group 
+presentations 
+continue. 
+Rubrics for Fine 
+Arts & PE.
+Computer 
+adapted testing 
+product adopted.
+August 
+2012
+to TSD staff & 
+PTO’s started
+Facilities Study 
+Team formed & 
+began  
+planning. 
+facilities use 
+recommendation.
+Analyze data and 
+costs for Data 
+Processing. 
+1 0 1 1 1 212 3 45678 9
+January 2012
+Superintendent  Goals 
+Update ‐ Board of Ed. 
+Presentations to staff 
+& PTO’s complete.  
+Community forum
+March 2012
+Superintendent  
+Goals Update to 
+Board of Ed. 
+May 2012
+Data Processing 
+recommendation 
+to Supt.
+July 2012 September 
+2012
+November 2011
+Superintendent  Goals 
+Update to Board of Ed. 
+Probationary teacher 
+visitations begin.
+FST gathering 
+ Community forum 
+presentations. information and data.
+Update on status of Superintendent Goals will be presented four times 
+throughout the 2011 – 2012 school year at designated Board Meetings.
+154

@@ -1,0 +1,1882 @@
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290338   12/01/10 12612    APPLE COMPUTER INC  404160459643100  6410     #MC531ZM/A IPAD CAM        0.00           140.65
+A1003      290338   12/01/10 12612    APPLE COMPUTER INC  404160459643100  6410     #MC552ZM/A IPAD DOC        0.00           281.30
+A1003      290338   12/01/10 12612    APPLE COMPUTER INC  404160459643100  6410     #MC361ZM/B IPAD CAS        0.00         1,664.52
+A1003      290338   12/01/10 12612    APPLE COMPUTER INC  404160459643100  6410     #S3788LL/A APPLECAR        0.00           396.00
+TOTAL CHECK                                                                                                    0.00         2,482.47
+A1003      290369   12/01/10 10831    INTEGRATED DESIGN S 404071459453000  3190     AHS                        0.00           105.00
+A1003      290383   12/01/10 21487    MID THUMB AUCTIONEE 404050459641000  6410     INSTALL WHITEBOARDS        0.00           270.00
+A1003      290383   12/01/10 21487    MID THUMB AUCTIONEE 404013459641000  6410     INSTALL WHITEBOARDS        0.00           235.32
+TOTAL CHECK                                                                                                    0.00           505.32
+A1003      290390   12/01/10 10099    PETERSON GLASS CO   404071456880700  6220     EXTERIOR DOOR REPLA        0.00        30,542.00
+A1003      290391   12/01/10 25104    PORT HURON ROOFING  404905456491000  6220     CHANGE ORDER TO BID        0.00        16,400.00
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404013456407500  3190     ARCHITECTURAL SERVI        0.00             4.95
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404014456407500  3190     ARCHITECTURAL SERVI        0.00             1.80
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404015456407500  3190     ARCHITECTURAL SERVI        0.00             5.18
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404016456407500  3190     ARCHITECTURAL SERVI        0.00             0.23
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404016456405100  3190     ARCHITECTURAL SERVI        0.00             4.52
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404070456405100  3190     ARCHITECTURAL SERVI        0.00           230.33
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404070456407500  3190     ARCHITECTURAL SERVI        0.00            11.48
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404071456407500  3190     ARCHITECTURAL SERVI        0.00             2.02
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404009456407500  3190     ARCHITECTURAL SERVI        0.00             2.70
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404005456407500  3190     ARCHITECTURAL SERVI        0.00             1.12
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404015456405100  3190     ARCHITECTURAL SERVI        0.00           103.88
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404051456405100  3190     ARCHITECTURAL SERVI        0.00            22.59
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404014456405100  3190     ARCHITECTURAL SERVI        0.00            36.13
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404013456405100  3190     ARCHITECTURAL SERVI        0.00            99.36
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404012456405100  3190     ARCHITECTURAL SERVI        0.00            99.36
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404009456405100  3190     ARCHITECTURAL SERVI        0.00            54.20
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404005456405100  3190     ARCHITECTURAL SERVI        0.00            22.56
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404012456407500  3190     ARCHITECTURAL SERVI        0.00             4.95
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404051456407500  3190     ARCHITECTURAL SERVI        0.00             1.12
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404017456407500  3190     ARCHITECTURAL SERVI        0.00             5.85
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404071456405100  3190     ARCHITECTURAL SERVI        0.00            40.65
+A1003      290407   12/01/10 26198    WOLD ARCHITECTS INC 404017456405100  3190     ARCHITECTURAL SERVI        0.00           117.42
+TOTAL CHECK                                                                                                    0.00           872.40
+A1003      290551   12/17/10 12612    APPLE COMPUTER INC  404160459643100  6410     #MC349LL/A IPAD WI−        0.00         2,516.00
+A1003      290617   12/17/10 24691    J B ELECTRICAL CO   404053456420000  6220     CHANGE ORDER #2 − P        0.00         1,484.05
+A1003      290617   12/17/10 24691    J B ELECTRICAL CO   404071456324000  6220     CHANGE ORDER #2 − A        0.00         4,769.34
+A1003      290617   12/17/10 24691    J B ELECTRICAL CO   404052456420000  6220     CHANGE ORDER #2 − M        0.00         1,482.17
+TOTAL CHECK                                                                                                    0.00         7,735.56
+A1003      290673   12/17/10 10099    PETERSON GLASS CO   404071456880700  6220     EXTERIOR DOOR REPLA        0.00        88,228.00
+A1003      290673   12/17/10 10099    PETERSON GLASS CO   404071456880700  6220     EXTERIOR DOOR REPLA        0.00        15,743.00
+TOTAL CHECK                                                                                                    0.00       103,971.00
+TOTAL CASH ACCOUNT                                                                                             0.00       165,129.75
+114
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL FUND                                                                                                     0.00       165,129.75
+115
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290334   12/01/10 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FD SVC           0.00             5.48
+A1003      290341   12/01/10 10222    BILDON PARTS & SERV 520902257859100  5990     OPEN PURCHASE ORDER        0.00           325.49
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520050256091800  5610     BAKER                      0.00           574.48
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520074256091800  5610     IAE                        0.00           539.90
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520051256091800  5610     SMITH                      0.00           235.06
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520052256091800  5610     LARSON                     0.00           473.04
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520053256091800  5610     BOULAN                     0.00           602.76
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520071256091800  5610     ATHENS                     0.00         2,613.73
+A1003      290441   12/07/10 10433    COCA−COLA ENTERPRIS 520070256091800  5610     THS                        0.00         3,525.41
+TOTAL CHECK                                                                                                    0.00         8,564.38
+A1003      290541   12/17/10 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FD SVC           0.00             5.48
+A1003      290571   12/17/10 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE VENDING RENT        0.00            45.00
+A1003      290571   12/17/10 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE VENDING RENT        0.00            45.00
+A1003      290571   12/17/10 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE VENDING RENT        0.00            45.00
+A1003      290571   12/17/10 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE VENDING RENT        0.00            45.00
+TOTAL CHECK                                                                                                    0.00           180.00
+A1003      290641   12/17/10 20401    MAHA ABOUL−HASSAS   520015256091800  5992     LUNCH ACCT                 0.00            46.55
+A1003      290655   12/17/10 20401    MI YOUNG LEE        520015256091800  5992     REFUND LUNCH ACCT          0.00            94.30
+A1003      290684   12/17/10 20401    RAZU MIAH           520007256091800  5992     LUNCH ACCT REFUND          0.00           102.90
+A1003      290712   12/17/10 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00         2,064.40
+A1003      290712   12/17/10 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00            15.00
+TOTAL CHECK                                                                                                    0.00         2,079.40
+A1003      290730   12/17/10 20401    XUAN YU             520074256091800  5992     LUNCH ACCT REFUND          0.00            48.20
+TOTAL CASH ACCOUNT                                                                                             0.00        11,452.18
+TOTAL FUND                                                                                                     0.00        11,452.18
+116
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290334   12/01/10 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.87
+A1003      290334   12/01/10 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             1.98
+A1003      290334   12/01/10 13981    A T & T MOBILITY NA 530212351030000  3410     830118533 NILES            0.00             2.19
+A1003      290334   12/01/10 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 NILES            0.00             0.55
+TOTAL CHECK                                                                                                    0.00             6.59
+A1003      290343   12/01/10 24848    C P R PLUS          530212351021200  3139     PLEASE OPEN A PURCH        0.00            65.00
+A1003      290419   12/07/10 13227    A T & T             530211351030000  3410     24887975416862/ADLT        0.00             2.23
+A1003      290419   12/07/10 13227    A T & T             530201311030000  3410     24887975416862/ADLT        0.00             3.19
+A1003      290419   12/07/10 13227    A T & T             530213351030000  3410     24887975416862/ADLT        0.00             2.23
+TOTAL CHECK                                                                                                    0.00             7.65
+A1003      290423   12/07/10 13227    A T & T             530201311030000  3410     24887975416862 NILE        0.00            10.97
+A1003      290423   12/07/10 13227    A T & T             530213351030000  3410     24887975416862 NILE        0.00             7.68
+A1003      290423   12/07/10 13227    A T & T             530211351030000  3410     24887975416862 NILE        0.00             7.68
+TOTAL CHECK                                                                                                    0.00            26.33
+A1003      290453   12/07/10 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES                      0.00           173.09
+A1003      290453   12/07/10 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES                      0.00           118.72
+A1003      290453   12/07/10 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES                      0.00           247.28
+A1003      290453   12/07/10 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES                      0.00           169.60
+A1003      290453   12/07/10 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES                      0.00           118.70
+A1003      290453   12/07/10 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES                      0.00           173.08
+TOTAL CHECK                                                                                                    0.00         1,000.47
+A1003      290500   12/07/10 11665    OAKLAND PRESS       530201311020600  3510     ADVERTISEMENT FOR N        0.00           550.00
+A1003      290541   12/17/10 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 NILES            0.00             0.55
+A1003      290541   12/17/10 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.87
+A1003      290541   12/17/10 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             1.98
+A1003      290541   12/17/10 13981    A T & T MOBILITY NA 530212351030000  3410     830118533 NILES            0.00             2.19
+TOTAL CHECK                                                                                                    0.00             6.59
+A1003      290547   12/17/10 10313    ALL ABOUT LEARNING  530201311020000  3190     CONTRACTED SERVICE         0.00         3,540.00
+A1003      290562   12/17/10 25820    DAVE ROBINSON       530201311020000  3190     CONTRACTED SERVICE         0.00           791.00
+A1003      290570   12/17/10 20804    COCHREN DEBORAH L   530201311020000  3190     CONTRACTED SERVICE         0.00           234.00
+A1003      290580   12/17/10 10577    D T E ENERGY        530201311030000  5520     NILES 10/26−11/22          0.00           158.17
+A1003      290580   12/17/10 10577    D T E ENERGY        530213351030000  5520     NILES 10/26−11/22          0.00           110.72
+A1003      290580   12/17/10 10577    D T E ENERGY        530211351030000  5520     NILES 10/26−11/22          0.00           110.72
+TOTAL CHECK                                                                                                    0.00           379.61
+A1003      290591   12/17/10 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES OCT 2010             0.00           247.28
+A1003      290591   12/17/10 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES OCT 2010             0.00           173.09
+A1003      290591   12/17/10 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES OCT 2010             0.00           173.09
+TOTAL CHECK                                                                                                    0.00           593.46
+A1003      290594   12/17/10 10716    FANCY COLOR PAINTS  530201311020000  3190     CONTRACTED SERVICES        0.00            30.00
+117
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            60.68
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            97.78
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            73.52
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            72.66
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530211351021100  5990     PLEASE OPEN A PURCH        0.00            50.42
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530211351021100  5990     PLEASE OPEN A PURCH        0.00            47.84
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            88.15
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           116.88
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            99.75
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            66.01
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            65.53
+A1003      290600   12/17/10 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            39.88
+TOTAL CHECK                                                                                                    0.00           879.10
+A1003      290627   12/17/10 25834    KUEHNEL KARMIN R    530201311020000  3190     CONTRACTED SERVICE         0.00           872.30
+A1003      290632   12/17/10 11237    LEVIN NEAL          530201311020000  3190     CONTRACTED SERVICE         0.00           271.70
+A1003      290668   12/17/10 24685    MAYFAIR INSURANCE A 530212351094660  2840     CHILDCARE                  0.00           812.25
+A1003      290676   12/17/10 25485    PLAY 4 FUN SPORTS L 530201311020000  3190     CONTRACTED SERVICES        0.00         2,596.00
+A1003      290685   12/17/10 23397    RENAISSANCE FENCING 530201311020000  3190     CONTRACTED SERVICE         0.00           252.00
+A1003      290709   12/17/10 10042    SUSAN YORK          530201000100000  R1810    ADULT ED CLASS REFU        0.00            99.00
+A1003      290712   12/17/10 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00            91.00
+A1003      290716   12/17/10 10413    TROY CITY OF        530211351021100  3190     PRE SCHOOL EVENT FE        0.00            15.00
+A1003      290731   12/17/10 23153    ARTS 4 KIDS         530201311020000  3190     CONTRACTED SERVICE         0.00           469.80
+TOTAL CASH ACCOUNT                                                                                             0.00        13,588.85
+TOTAL FUND                                                                                                     0.00        13,588.85
+118
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290336   12/01/10 22945    ALLIANCE MOBILE HEA 700071399992000  5000     AMBULANCE SVC/FTBAL        0.00           120.00
+A1003      290342   12/01/10 26157    BYRGE ERIN          700074399682000  5000     LAB REIMB                  0.00           103.27
+A1003      290347   12/01/10 10411    CITY ANIMATION CO   700050299700000  5000     REMC ITEM #101178,         0.00           995.00
+A1003      290348   12/01/10 17176    COSTCO WHOLESALE ME 700052299700000  5000     LARSON MSHIP               0.00            95.35
+A1003      290359   12/01/10 10792    G T JERSEYS         700052299718000  5000     LARSON SHIRTS              0.00           331.50
+A1003      290360   12/01/10 13539    CENGAGE LEARNING    700074399682000  5000     IAE E BOOKS                0.00           300.00
+A1003      290370   12/01/10 13114    VANITY FAIR         700071399524000  5000     OPEN PO FOR ATHENS         0.00           466.09
+A1003      290370   12/01/10 13114    VANITY FAIR         700071399524000  5000     OPEN PO FOR ATHENS         0.00         1,098.00
+A1003      290370   12/01/10 13114    VANITY FAIR         700071399524000  5000     OPEN PO FOR ATHENS         0.00           757.26
+A1003      290370   12/01/10 13114    VANITY FAIR         700071399524000  5000     OPEN PO FOR ATHENS         0.00           602.90
+A1003      290370   12/01/10 13114    VANITY FAIR         700070399524000  5000     OPEN PO FOR THS COL        0.00           772.06
+TOTAL CHECK                                                                                                    0.00         3,696.31
+A1003      290379   12/01/10 13838    MI DECA             700074399718600  5000     IAE DIST 6 CONF FEE        0.00           125.00
+A1003      290395   12/01/10 25706    CLEVELAND CORPORATE 700050299700000  5000     DALITE 4547 AV2−42J        0.00           105.40
+A1003      290401   12/01/10 25866    TOEPEL−HARTZELL JAC 700074399682000  5000     REIMB                      0.00            55.44
+A1003      290436   12/07/10 25126    ATHENS ALL NIGHT PA 700071399731100  5000     ANP TICKET                 0.00            55.00
+A1003      290449   12/07/10 25422    DILDINE DIANA       700070399990000  5000     THSV CHR OAA  01221        0.00           250.00
+A1003      290455   12/07/10 10801    GARRETT DR JUDITH   700009199700000  5000     ELDER FORD DONATION        0.00           200.00
+A1003      290456   12/07/10 26152    GEMELLARO BARBARA   700070399990000  5000     THSGV CHR 012211           0.00           250.00
+A1003      290461   12/07/10 26177    GREER MELISSA       700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290462   12/07/10 25464    GRIGNANI NOELLE     700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290463   12/07/10 10914    HAEZEBROUCK−DOWNIE  700016199700000  5000     REIMB BARNARD P CAS        0.00           198.02
+A1003      290464   12/07/10 10132    HANNAH JENUWINE     700071399710000  5000     NHS CANDY GRAM             0.00            32.24
+A1003      290467   12/07/10 11039    IMPRESSION CENTER   700590699732500  5000     HOODED SWEATSHIRT I        0.00         1,569.50
+A1003      290467   12/07/10 11039    IMPRESSION CENTER   700590699732500  5000     ADD INDIVIDUAL NAME        0.00           248.50
+TOTAL CHECK                                                                                                    0.00         1,818.00
+A1003      290469   12/07/10 24236    BLOOMFIELD HILLS SC 700074399731300  5000     OLYMPIC T SHIRTS           0.00           329.20
+A1003      290469   12/07/10 24236    BLOOMFIELD HILLS SC 700074399731200  5000     OLYMPIC T SHIRTS           0.00           299.44
+A1003      290469   12/07/10 24236    BLOOMFIELD HILLS SC 700074399731400  5000     OLYMPIC T SHIRTS           0.00           228.30
+TOTAL CHECK                                                                                                    0.00           856.94
+A1003      290470   12/07/10 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR THS COL        0.00           283.47
+A1003      290470   12/07/10 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR THS COL        0.00           379.26
+119
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290470   12/07/10 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR THS COL        0.00           277.00
+A1003      290470   12/07/10 13240    INTRASTATE DISTRIBU 700070399524000  5000     OPEN PO FOR THS COL        0.00           314.79
+TOTAL CHECK                                                                                                    0.00         1,254.52
+A1003      290473   12/07/10 10132    KAJA MITEVSKA       700071399900000  5000     AHS CHEER REIMB            0.00            38.77
+A1003      290474   12/07/10 26146    KOENIG BERNADETTE   700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290476   12/07/10 26197    LAIRD BARBARA J     700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290478   12/07/10 11262    LUTTENBERGER J MICH 700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290479   12/07/10 25461    LUTTENBERGER JANETT 700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290480   12/07/10 11429    MI ASSOC / SECONDAR 700070399718000  5000     MOSS−CAMP 7/26−7/31        0.00           400.00
+A1003      290487   12/07/10 12547    MARSHALL MUSIC CO   700052299351000  5000     LARSON BAND SUPPLIE        0.00            31.95
+A1003      290489   12/07/10 13838    MI DECA             700074399718600  5000     DIST CONF REGIST           0.00            75.00
+A1003      290490   12/07/10 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     PROGRAM SALES              0.00           437.25
+A1003      290490   12/07/10 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     MHSAA SEMI F’BALL          0.00        21,250.00
+TOTAL CHECK                                                                                                    0.00        21,687.25
+A1003      290491   12/07/10 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     MHSAA TICKET SALES         0.00         4,326.00
+A1003      290492   12/07/10 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     CHAMPIONSHIP SOCCER        0.00        12,929.00
+A1003      290496   12/07/10 10047    NATL MULTIPLE SCHER 700071399718000  5000     CHARITY WK DONATION        0.00        13,125.33
+A1003      290498   12/07/10 13635    OAKLAND ACTIVITIES  700071399718000  5000     LEADERSHIP CONF FEE        0.00           217.00
+A1003      290502   12/07/10 19757    ROBINSON GRETCHEN   700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290503   12/07/10 11920    ROCHESTER COMMUNITY 700074399703800  5000     BYRGE PSAT TEST PRE        0.00           187.50
+A1003      290503   12/07/10 11920    ROCHESTER COMMUNITY 700074399703800  5000     MAJASK PSAT PROCTOR        0.00           125.00
+A1003      290503   12/07/10 11920    ROCHESTER COMMUNITY 700074399703800  5000     MAJASK AUG 2010            0.00           466.75
+TOTAL CHECK                                                                                                    0.00           779.25
+A1003      290511   12/07/10 24735    T SHIRT LADY (THE)  700009199700000  5000     WATTLES CHOIR TEES         0.00           364.00
+A1003      290513   12/07/10 14391    TIM KAISER STUDIOS  700070399718000  5000     RIBBON/CARD STOCK          0.00           125.00
+A1003      290514   12/07/10 25823    TOTH NICOLE         700070399990000  5000     THSGV CHR OAA 01221        0.00           250.00
+A1003      290522   12/07/10 10334    VRENA MICHELLE      700590699732500  5000     SCHOLARSHIP                0.00           150.00
+A1003      290526   12/07/10 19723    WILMAC TOURS INC    700071399341000  5000     5/12−5/14 DEPOSIT          0.00           400.00
+A1003      290527   12/07/10 26093    WOLVERINE CAMPS     700071399341000  5000     ATHENS BIOCAMP DPSI        0.00           850.00
+A1003      290552   12/17/10 19456    AQUARIUM SHINE      700005199700000  5000     BLANKET PURCHASE OR        0.00            90.00
+120
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290560   12/17/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     COACHES JACKETS            0.00           310.00
+A1003      290560   12/17/10 25162    BLOOMFIELD SPORTS S 700071399992000  5000     OPEN P.O. FOR SPORT        0.00         2,000.00
+TOTAL CHECK                                                                                                    0.00         2,310.00
+A1003      290563   12/17/10 10132    CANDACE ROEN        700071399906800  5000     AHS GIRLS SWIM REIM        0.00           209.41
+A1003      290566   12/17/10 10381    CHAMPION CHEERLEADI 700070399900000  5000     OPEN P.O. FOR TROY         0.00           500.00
+A1003      290566   12/17/10 10381    CHAMPION CHEERLEADI 700070399900000  5000     OPEN P.O. FOR JV CH        0.00           500.00
+TOTAL CHECK                                                                                                    0.00         1,000.00
+A1003      290575   12/17/10 10132    DAVID FARNUM        700071399710000  5000     REIMB NHS SUPLYS           0.00           283.46
+A1003      290576   12/17/10 14673    DAVIES JANICE M     700070399718800  5000     REIMB THS P CASH           0.00           199.20
+A1003      290576   12/17/10 14673    DAVIES JANICE M     700070399372200  5000     REIMB THS P CASH           0.00            63.20
+TOTAL CHECK                                                                                                    0.00           262.40
+A1003      290578   12/17/10 20788    DETROIT COUNTRY DAY 700052299700000  5000     2011 LARSON REG            0.00            20.00
+A1003      290597   12/17/10 24953    FORGOTTEN HARVEST   700071399992000  5000     AHS DONATION               0.00         1,000.00
+A1003      290598   12/17/10 25124    FRANKENMUTH SCHOOL  700070399340000  5000     THS 2−12−11                0.00           140.00
+A1003      290603   12/17/10 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           468.87
+A1003      290603   12/17/10 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           120.00
+A1003      290603   12/17/10 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00            97.75
+A1003      290603   12/17/10 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           168.90
+A1003      290603   12/17/10 10884    GREENS OF ROCHESTER 700074399682000  5000     OPEN PURCHASE ORDER        0.00           230.95
+TOTAL CHECK                                                                                                    0.00         1,086.47
+A1003      290604   12/17/10 10132    GWEN DICKERSON      700071399904700  5000     CROSS COUNTRY              0.00             7.96
+A1003      290609   12/17/10 22649    HIGHEST HONOR INC   700071399904700  5000     CROSS COUNTRY              0.00           233.00
+A1003      290614   12/17/10 24236    BLOOMFIELD HILLS SC 700074399681000  5000     IAE                        0.00           150.00
+A1003      290614   12/17/10 24236    BLOOMFIELD HILLS SC 700074399682000  5000     IAE DATABASES              0.00           967.86
+TOTAL CHECK                                                                                                    0.00         1,117.86
+A1003      290615   12/17/10 13240    INTRASTATE DISTRIBU 700071399524000  5000     OPEN PO FOR ATHENS         0.00           539.64
+A1003      290615   12/17/10 13240    INTRASTATE DISTRIBU 700071399524000  5000     OPEN PO FOR ATHENS         0.00           284.81
+A1003      290615   12/17/10 13240    INTRASTATE DISTRIBU 700071399524000  5000     OPEN PO FOR ATHENS         0.00           101.52
+A1003      290615   12/17/10 13240    INTRASTATE DISTRIBU 700071399524000  5000     OPEN PO FOR ATHENS         0.00           449.70
+TOTAL CHECK                                                                                                    0.00         1,375.67
+A1003      290620   12/17/10 13114    VANITY FAIR         700071399524000  5000     OPEN PO FOR ATHENS         0.00           450.58
+A1003      290623   12/17/10 10132    KARA PERRY          700071399718000  5000     AHS HOMECOMING REIM        0.00            79.92
+A1003      290636   12/17/10 11429    MI ASSOC / SECONDAR 700070399700000  5000     1−20−11 LEADERSHIP         0.00            99.00
+A1003      290650   12/17/10 26030    MEI LI              700053299700000  5000     REFUND PAYSCHOOLS          0.00            17.00
+121
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290656   12/17/10 17389    MICHINDOH MINISTRIE 700012199704000  5000     COSTELLO CAMP              0.00         5,622.50
+A1003      290661   12/17/10 25163    MODER CHERYL        700052299700000  5000     REIMB LARSON P CASH        0.00            94.00
+A1003      290661   12/17/10 25163    MODER CHERYL        700052299700000  5000     REIMB LARSON P CASH        0.00            18.96
+TOTAL CHECK                                                                                                    0.00           112.96
+A1003      290663   12/17/10 14652    NATL SATELLITE CORP 700070399700000  5000     #40168 BOSE 402 SPE        0.00           623.21
+A1003      290666   12/17/10 11672    OAKLAND COUNTY PARK 700070399745000  5000     OPEN P.O. FOR TROY         0.00         1,625.00
+A1003      290672   12/17/10 10132    PAUL ORLANDO        700071399904700  5000     AHS XCOUNTRY REIMB         0.00           349.95
+A1003      290683   12/17/10 10132    RASIKA KARNIK       700071399718000  5000     BALLOT ENVELOPES           0.00            16.99
+A1003      290687   12/17/10 21678    ROCHESTER ADAMS HIG 700070399900000  5000     ATHLETIC FEE REIMB         0.00           100.00
+A1003      290688   12/17/10 19962    RONG YAO            700051299353000  5000     SMITH CABARET REIMB        0.00           152.91
+A1003      290692   12/17/10 12982    SALES CONCEPTS OF M 700071399354000  5000     ATHENS DRAMA−MISC          0.00         1,253.98
+A1003      290693   12/17/10 11961    SAN MARINO CLUB     700071399906800  5000     GIRLS SWIM TEAM BAN        0.00           500.50
+A1003      290698   12/17/10 12033    SHAR PRODUCTS CO    700074399682000  5000     OPEN P.O. FOR PURCH        0.00         1,626.00
+A1003      290710   12/17/10 24735    T SHIRT LADY (THE)  700050299351000  5000     IB TEE SHIRTS              0.00           504.00
+A1003      290713   12/17/10 15979    TOTAL T’S           700071399718000  5000     STUCO SWEATSHIRTS          0.00           982.64
+A1003      290713   12/17/10 15979    TOTAL T’S           700071399718000  5000     STUCO SHIRTS               0.00           620.61
+TOTAL CHECK                                                                                                    0.00         1,603.25
+A1003      290715   12/17/10 20436    TREPCO SALES & DIST 700071399524000  5000     OPEN PO FOR ATHENS         0.00           462.42
+A1003      290718   12/17/10 20728    UNIV OF MI MODEL UN 700071399718100  5000     MODEL UN FEES              0.00           770.00
+A1003      290719   12/17/10 12326    VARSITY SPIRIT CORP 700070399900000  5000     THS CHEER                  0.00            80.50
+A1003      290720   12/17/10 26118    VALLEY NATIONAL GAS 700071399524000  5000     OPEN PO FOR ATHENS         0.00            10.50
+A1003      290721   12/17/10 19962    VARSHA PATHRE       700051299353000  5000     SMITH CABARET REIMB        0.00           272.20
+A1003      290722   12/17/10 10221    VENTE JENNIFER      700051299700000  5000     REIMB SMITH P CASH         0.00           125.00
+TOTAL CASH ACCOUNT                                                                                             0.00        93,935.14
+TOTAL FUND                                                                                                     0.00        93,935.14
+122
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290571   12/17/10 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR TROY         0.00            89.75
+A1003      290576   12/17/10 14673    DAVIES JANICE M     701070399703000  5000     REIMB THS P CASH           0.00             9.68
+A1003      290576   12/17/10 14673    DAVIES JANICE M     701070399700800  5000     REIMB THS P CASH           0.00             9.45
+TOTAL CHECK                                                                                                    0.00            19.13
+A1003      290605   12/17/10 10927    HANNON LINDA        701885699697100  5000     REIMB SP ED P CASH         0.00            35.00
+A1003      290605   12/17/10 10927    HANNON LINDA        701885699697100  5000     REIMB SP ED P CASH         0.00            41.00
+TOTAL CHECK                                                                                                    0.00            76.00
+A1003      290614   12/17/10 24236    BLOOMFIELD HILLS SC 701074299697100  5000     IAE                        0.00            35.91
+A1003      290661   12/17/10 25163    MODER CHERYL        701052299770700  5000     REIMB LARSON P CASH        0.00            65.47
+A1003      290722   12/17/10 10221    VENTE JENNIFER      701051299697100  5000     REIMB SMITH P CASH         0.00           128.30
+TOTAL CASH ACCOUNT                                                                                             0.00           414.56
+TOTAL FUND                                                                                                     0.00           414.56
+123
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 01/07/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 11:39:33                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’12/01/2010’ and ’12/31/2010’
+ACCOUNTING PERIOD:  7/11
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      290509   12/07/10 23424    SHIH YIH            750071599743100  5000     SCHOLARSHIP                0.00           400.00
+TOTAL CASH ACCOUNT                                                                                             0.00           400.00
+TOTAL FUND                                                                                                     0.00           400.00
+TOTAL REPORT                                                                                                   0.00     1,638,510.84
+124
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+State sources 70,443,859 19,712,418 50,731,441 72.02%
+Federal sources 10,371,927 1,096,842 9,275,085 89.42%
+Incoming Transfers / Other 9,114,130 3,633,446 5,480,684              60.13%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Instruction:
+Added Needs 16,255,289 5,976,718 6,759,402 3,519,169 21.65%
+Adult/Continuing Education 4,558,579 1,569,113 2,024,472 964,994 21.17%
+Total Instruction 91,039,810 33,398,663 47,729,299 9,911,848 10.89%
+Support Services:
+Pupil  9,669,499 3,471,679 5,014,403 1,183,417 12.24%
+Instructional Staff 6,560,245 2,665,006 2,703,123 1,192,116 18.17%
+General Administration 1,923,680 862,025 679,705 381,950 19.86%
+School Administration 7,446,158 3,490,588 3,672,374 283,196 3.80%
+Business Services 1,363,084 917,158 365,945 79,981 5.87%
+Operations/Maintenance 9,525,826 3,753,952 2,748,416 3,023,458 31.74%
+Pupil Transportation 3,859,731 1,280,085 304,897 2,274,749 58.94%
+Central Services 1,522,717 703,287 428,303 391,127 25.69%
+Other Support Services (Athletics and Other) 1,719,729 704,496 115,080 900,153 52.34%
+Total Support Services 43,590,669 17,848,276 16,032,246 9,710,147 22.28%
+Community Services 990,196 399,156 516,014 75,026 7.58%
+Pymts to Other Govt, Site Aqc., PY Adjustments 25,000 8,170 1,465 15,365 61.46%
+Outgoing Transfers / Other 147,830 37,659 0 110,171 74.53%
+Excess Revenue over (under) Expenditures (1,484,897)
+Fund Balance - July 1, 2010 18,120,438
+125
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Local sources 44,378,692 $         22,352,483 $          22,026,209 $         49.63%
+Total Revenue 134,308,608$     46,795,189 $         87,513,419 $        65.16%
+Basic Programs 70,225,942 $         25,852,832 $          38,945,425 $          5,427,685 $           7.73%
+Total Expenditures 135,793,505$     51,691,924 $         64,279,024 $         19,822,557 $        14.60%
+Fund Balance - June 30, 2011 16,635,541$         
+General Fund 
+(Funds 101, 120, 122, 129, 140)
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+State 115,041 31,142 83,899 72.93%
+Federal 738,310 273,122 465,188 63.01%
+Incoming Transfers/Other 0 0 0 100.00%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Employee Benefits 436,643 143,483 48,710 244,450 55.98%
+Purchased Services 1,984,315 429,763 69,461 1,485,091 74.84%
+Supplies/Materials 1,429,455 55,818 16,855 1,356,782 94.92%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 7,710 650 0 7,060 91.57%
+Outgoing Transfers 640,332 0 0 640,332 100.00%
+Excess Revenue over (under) Expenditures (299,871)
+Fund Balance - July 1, 2010 2,028,887 *
+* Fund Balance on Budget Resolution was $7,639,053 for Special Revenue Funds included $5,610,166 Durant fund balance that beginning 2010-2011 is part of General Fund.
+126
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Local 4,292,455 $            2,103,044 $          2,189,411 $               51.01%
+Total Revenue 5,145,806$           2,407,308 $         2,738,498 $             53.22%
+Salaries 947,222 $               361,908 $             119,970 $                   465,344 $                  49.13%
+Total Expenditures 5,445,677$           991,622 $            254,996 $                  4,199,059 $             77.11%
+Fund Balance - June 30, 2011 1,729,016$            
+Consolidated Special Revenue Funds 
+(520, 530)
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+State 115,041 31,142 83,899 72.93%
+Federal 738,310 273,122 465,188 63.01%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Employee Benefits 1,955 0 0 1,955 100.00%
+Purchased Services 1,687,729 250,897 15,947 1,420,885 84.19%
+Supplies/Materials 1,341,153 36,751 3,267 1,301,135 97.02%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 5,800 400 0 5,400 93.10%
+Outgoing Transfers 254,810 0 0 254,810 100.00%
+Excess Revenue over (under) Expenditures (88,209)
+Fund Balance - July 1, 2010 925,233
+127
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Local 2,352,058 $            920,022 $             1,432,036 $               60.88%
+Total Revenue 3,205,409$           1,224,286 $         1,981,123 $             61.81%
+Salaries 2,171 $                    0 $                         0 $                               2,171$                      100.00%
+Total Expenditures 3,293,618$           288,048 $            19,214 $                    2,986,356$             90.67%
+Fund Balance - June 30, 2011 837,024$               
+Special Revenue Funds - Food Service 
+(520)
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Employee Benefits 434,688 143,483 48,710 242,495 55.79%
+Purchased Services 296,586 178,866 53,514 64,206 21.65%
+Supplies/Materials 88,302 19,067 13,588 55,647 63.02%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 1,910 250 0 1,660 86.91%
+Outgoing Transfers 385,522 0 0 385,522 100.00%
+Excess Revenue over (under) Expenditures (211,662)
+Fund Balance - July 1, 2010 1,103,654
+128
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Local 1,940,397 $            1,183,022 $          757,375 $                  39.03%
+Total Revenue 1,940,397$           1,183,022 $         757,375 $                 39.03%
+Salaries 945,051 $               361,908 $             119,970 $                   463,173 $                  49.01%
+Total Expenditures 2,152,059$           703,574 $            235,782 $                  1,212,703 $             56.35%
+Fund Balance - June 30, 2011 891,992$               
+Special Revenue Funds - Adult & Community Education 
+(530)
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+Earnings on Investments 17,200 431 16,769 97.49%
+Proceeds from Bond Refunding 0 0 0 0.00%
+Incoming Transfers/Other 137,365 0 137,365 100.00%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Interest on Debt 6,350,200 3,175,100 0 3,175,100 50.00%
+Other Expenditures 177,500 106,479 0 71,021 40.01%
+Outgoing Transfers 137,365 0 0 137,365 100.00%
+Excess Revenue over (under) Expenditures 326,027
+Fund Balance - July 1, 2010 946,534
+129
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Property Taxes 18,761,527 $          9,700,072 $          9,061,455 $               48.30%
+Total Revenue 18,916,092$         9,700,503 $         -$                            9,215,589$             48.72%
+Redemption of Principal 11,925,000 $          0 $                         0 $                                11,925,000$            100.00%
+Total Expenditures 18,590,065$         3,281,579 $         0 $                               15,308,486$           82.35%
+Fund Balance - June 30, 2011 1,272,561$            
+Debt Service Funds 
+(394,397,304,306)
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+Incoming Transfers/Other 0 0 0 0.00%
+Expenditures 0 Actual Amount Total Encumbered Available Budget Percent Available
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 7,185,370 3,422,728 195,467 3,567,175 49.64%
+Other Expenditures 0 0 0 0 0.00%
+Excess Revenue over (under) Expenditures (7,156,120)
+Fund Balance - July 1, 2010 8,441,765
+130
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Earnings on Investments 60,000 $                  (37,630) $              97,630 $                    162.72%
+Total Revenue 60,000$                 (37,630) $             97,630 $                   162.72%
+Purchased Services 30,750 $                  42,877 $                307 $                            (12,434)$                   0.00%
+Total Expenditures 7,216,120$           3,465,605 $         195,774 $                   3,554,741 $             49.26%
+Fund Balance - June 30, 2011 1,285,645$            
+Capital Projects Fund 
+(404)
+Troy School District
+Summary Revenue and Expense Budget Report
+December YTD - Fiscal Year 2011
+Percent Uncollected 
+Incoming Transfers/Other 104,000 0 104,000 100.00%
+Expenditures Original Budget Actual Amount Total Encumbered Available Budget Percent Available
+Other Expenditures 0 127 0 (127) 0.00%
+Excess Revenue over (under) Expenditures 0
+Fund Balance - July 1, 2010 33,531
+131
+Revenue Original Budget Actual Amount Total Uncollected
+(Overcollected)
+Earnings on Investments 16,000 $                  2,349 $                  13,651 $                    85.32%
+Total Revenue 120,000$              2,349 $                 117,651 $                 98.04%
+VRIP Expense 120,000 $               - $                      0 $                                120,000$                  100.00%
+Total Expenditures 120,000$              127 $                    0 $                               119,873$                 99.89%
+Fund Balance - June 30, 2011 33,531$                  
+Internal Service Fund 
+(681)
+Troy School District, ACH Debits, December 2010
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ACE12311101200261030000 5510 $26.27 CONSUMERS DEC 2010
+ACE12311101203261030000 5510 $44.76 CONSUMERS DEC 2010
+ACE12311101206261030000 5510 $154.98 CONSUMERS DEC 2010
+ACE12311101214261030000 5510 $26.27 CONSUMERS DEC 2010
+ACE12311101941261000300 5510 $48.52 CONSUMERS DEC 2010
+ACE12311101941261000300 5510 $234.02 CONSUMERS DEC 2010
+ACE12311101941261000500 5510 $628.94 CONSUMERS DEC 2010
+ACE12311101941261000700 5510 $574.98 CONSUMERS DEC 2010
+ACE12311101941261000800 5510 $398.42 CONSUMERS DEC 2010
+ACE12311101941261001000 5510 $337.62 CONSUMERS DEC 2010
+ACE12311101941261001100 5510 $1,000.49 CONSUMERS DEC 2010
+ACE12311101941261001200 5510 $345.93 CONSUMERS DEC 2010
+ACE12311101941261001300 5510 $419.42 CONSUMERS DEC 2010
+ACE12311101941261001400 5510 $119.61 CONSUMERS DEC 2010
+ACE12311101941261001500 5510 $140.11 CONSUMERS DEC 2010
+ACE12311101941261001600 5510 $84.55 CONSUMERS DEC 2010
+ACE12311101941261001700 5510 $418.54 CONSUMERS DEC 2010
+ACE12311101941261005000 5510 $2,452.89 CONSUMERS DEC 2010
+ACE12311101941261005100 5510 $639.44 CONSUMERS DEC 2010
+ACE12311101941261005200 5510 $1,231.76 CONSUMERS DEC 2010
+ACE12311101941261005300 5510 $2,362.92 CONSUMERS DEC 2010
+ACE12311101941261007000 5510 $6,700.44 CONSUMERS DEC 2010
+ACE12311101941261007100 5510 $6,556.33 CONSUMERS DEC 2010
+ACE12311101941261007400 5510 $774.04 CONSUMERS DEC 2010
+ACE12311101941261009000 5510 $47.80 CONSUMERS DEC 2010
+ACE12311101941261009000 5510 $127.38 CONSUMERS DEC 2010
+ACE12311101941261015000 5510 $236.34 CONSUMERS DEC 2010
+ACE12311101941261016000 5510 $282.94 CONSUMERS DEC 2010
+ACE12311122207261020700 5510 $64.87 CONSUMERS DEC 2010
+ACE12311122883261030000 5510 $62.76 CONSUMERS DEC 2010
+ACE12311530201311030000 5510 $18.02 CONSUMERS DEC 2010
+ACE12311530211351030000 5510 $12.61 CONSUMERS DEC 2010
+ACE12311530213351030000 5510 $12.61 CONSUMERS DEC 2010
+ADT12311101942261000300 5520 $189.74 DTE CHARGES DEC 2010
+ADT12311101942261000500 5520 $1,314.85 DTE CHARGES DEC 2010
+ADT12311101942261000700 5520 $1,208.73 DTE CHARGES DEC 2010
+ADT12311101942261000800 5520 $1,043.70 DTE CHARGES DEC 2010
+ADT12311101942261001000 5520 $1,057.56 DTE CHARGES DEC 2010
+ADT12311101942261001100 5520 $1,366.83 DTE CHARGES DEC 2010
+Page 1
+132
+Troy School District, ACH Debits, December 2010
+J/E Number Budget Unit A/C CodeTransaction Amount Transaction Description
+ADT12311101942261001200 5520 $974.19 DTE CHARGES DEC 2010
+ADT12311101942261001300 5520 $1,764.94 DTE CHARGES DEC 2010
+ADT12311101942261001700 5520 $1,536.65 DTE CHARGES DEC 2010
+ADT12311101942261007100 5520 $14.98 DTE CHARGES DEC 2010
+ADT12311101942261007400 5520 $1,089.71 DTE CHARGES DEC 2010
+ADT12311101942261009000 5520 $90.59 DTE CHARGES DEC 2010
+ADT12311101942261009000 5520 $397.20 DTE CHARGES DEC 2010
+ADT12311101942261015000 5520 $399.22 DTE CHARGES DEC 2010
+ADT12311101942261016000 5520 $1,843.12 DTE CHARGES DEC 2010
+ADT12311101942261090000 5520 $169.48 DTE CHARGES DEC 2010
+ADT12311101942261090000 5520 $223.23 DTE CHARGES DEC 2010
+ADT12311122883261030000 5520 $88.36 DTE CHARGES DEC 2010
+$41,359.66 
+41,359.66 
+Page 2
+133
+Troy School District, Wire Transfers, December 2010
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W1124102 101 A1003 -$26,550.47 BOA TRNS TO AMERAPLAN
+W1124102 101 A1098 $26,550.47 BOA TRNS TO AMERAPLAN
+W1124103 101 A1003 -$16,052.97 4D PHARMACY
+W1124103 101 A1098 $16,052.97 4D PHARMACY
+W1129101 101 A1003 -$854,719.28 PR TAXES 120610
+W1130101 101 A1003 -$85,437.60 VRIP PAYMENT
+W1202101 101 A1003 -$633.84 GENERAL TO MPSERS
+W1202101 101 A1098 $633.84 GENERAL TO MPSERS
+W1203101 101 A1003 -$17,698.51 BOA TO AMERAPLAN TRNS
+W1203101 101 A1098 $17,698.51 BOA TO AMERAPLAN TRNS
+W1203102 101 A1003 -$12,987.26 TSS PR TRNS
+W1203102 101 A1098 $12,987.26 TSS PR TRNS
+W1203103 101 A1003 -$65,105.10 TSS ADMIN PR TRANSFER
+W1203103 101 A1098 $65,105.10 TSS ADMIN PR TRANSFER
+W1203104 101 A1003 -$1,636.56 TSS ADMIN PR TRANSFER
+W1203104 101 A1098 $1,636.56 TSS ADMIN PR TRANSFER
+W1203105 101 A1003 -$198,469.87 TSS SUB & HOURLY PR TRNS
+W1203105 101 A1098 $198,469.87 TSS SUB & HOURLY PR TRNS
+W1203106 101 A1003 -$1,868.45 TSS REIMBURSEMENTS
+W1203107 101 A1006 $50,907.19 MILAF PROCEEDS TO GF
+W1203107 404 A1800 -$50,907.19 MILAF PROCEEDS TO GF
+W1203108 101 A1003 -$781,783.00 TRANSF TO  MPSERS
+W1203108 101 A1098 $781,783.00 TRANSF TO  MPSERS
+W1208101 101 A1003 -$313.83 NOV. SALES TAX
+W1208102 101 A1006 $1,891.82 GF TO DEBT TRANSFER
+W1208102 304 A1016 -$1,308.46 GF TO DEBT TRANSFER
+W1208102 306 A1016 -$458.94 GF TO DEBT TRANSFER
+W1208102 307 A1016 -$124.42 GF TO DEBT TRANSFER
+W1208103 101 A1003 $3,500,000.00 MILAF TO BOA- GF
+W1208103 101 A1006 -$3,500,000.00 MILAF TO BOA- GF
+W1209101 101 A1003 -$12,036.85 4D PHARMACY NOV. 2010
+W1209101 101 A1098 $12,036.85 4D PHARMACY NOV. 2010
+W1210102 101 A1003 -$1,832,516.75 PR TRANSFERS 121010
+W1210102 101 A1005 $8,772.43 PR TRANSFERS 121010
+W1210102 101 A1005 $1,823,744.32 PR TRANSFERS 121010
+W1210103 101 A1003 -$2,380.00 PR MESP TRANSFER
+W1210104 101 A1003 -$37,527.25 PR TRANS UNION DUES
+W1210105 101 A1003 -$128,362.08 PR TRANS TSA'S
+W1210106 129 A1003 -$7,622.42 TCC WIA TRANS 12/10/10
+W1210106 129 A1008 $7,622.42 TCC WIA TRANS 12/10/10
+W1210106 129 A1008 -$7,622.42 TCC WIA TRANS 12/10/10
+Page 1
+134
+Troy School District, Wire Transfers, December 2010
+J/E NumberBudget Unit A/C CodeTransaction Amount Transaction Description
+W1210107 101 A1003 -$6,226.23 PAYSCHOOLS ADMN FEES NOV.
+W1210107 101 A1098 $6,226.23 PAYSCHOOLS ADMN FEES NOV.
+W1213101 101 A1003 -$867,646.65 PR TAXES 121010
+W1213102 101 A1003 $1,000,000.00 MILAF TO BOA
+W1213102 101 A1006 -$1,000,000.00 MILAF TO BOA
+W1214101 101 A1003 -$1,491.40 TSS REIMBURSEMENTS
+W1214102 101 A1003 -$184,926.12 TSS SUB & HOURLY PAY
+W1214102 101 A1098 $184,926.12 TSS SUB & HOURLY PAY
+W1214103 101 A1003 -$11,092.86 TSS CAREER CENTER
+W1214103 101 A1098 $11,092.86 TSS CAREER CENTER
+W1214104 101 A1003 -$58,816.52 TSS ADMIN 12-14-10
+W1214104 101 A1098 $58,816.52 TSS ADMIN 12-14-10
+W1214105 101 A1003 -$4,364.16 TSS ADMIN NOV. 2010
+W1214105 101 A1098 $4,364.16 TSS ADMIN NOV. 2010
+W1216101 101 A1003 -$604.04 PUB PENSION + CONTR.
+W1216101 101 A1098 $604.04 PUB PENSION + CONTR.
+W1217101 101 A1006 -$427,504.51 MILAF GF TO DEBT 12/17/10
+W1217101 304 A1016 $295,614.82 MILAF GF TO DEBT 12/17/10
+W1217101 306 A1016 $103,692.58 MILAF GF TO DEBT 12/17/10
+W1217101 307 A1016 $28,197.11 MILAF GF TO DEBT 12/17/10
+W1217103 101 A1006 $114,222.56 MILAF TRANS TO GENERAL
+W1217103 404 A1800 -$114,222.56 MILAF TRANS TO GENERAL
+W1217104 101 A1003 -$15,673.74 AMERAPLAN TRANS 12/17/10
+W1217104 101 A1098 $15,673.74 AMERAPLAN TRANS 12/17/10
+W1217105 101 A1003 -$795,056.90 MPSERS 12/10/10 PR
+W1217105 101 A1098 $795,056.90 MPSERS 12/10/10 PR
+W1220101 101 A1003 -$77,153.48 AMERAPLAN TRANSFER
+W1220101 101 A1098 $77,153.48 AMERAPLAN TRANSFER
+W1222101 101 A1003 $2,500,000.00 MILAF TO BOA 12/22/10
+W1222101 101 A1006 -$2,500,000.00 MILAF TO BOA 12/22/10
+W1223101 101 A1003 -$2,380.00 PR MESP 12/23/10
+W1223102 101 A1003 -$123,114.64 TSA PR TRANSFERS 12/23/10
+W1223103 101 A1003 -$37,527.25 PR TRANS UNION DUES
+W1223104 101 A1003 -$1,809,831.16 PR TRANSFERS 12/23/10
+W1223104 101 A1005 $7,937.36 PR TRANSFERS 12/23/10
+W1223104 101 A1005 $1,801,893.80 PR TRANSFERS 12/23/10
+-$2,150,390.85 
+Page 2
+135
+ 7. A. 01.18.11 
+7. CURRICULUM 
+A. CONSIDERATION:   Schools of Choice - Section 105 
+In accordance with Michigan state law, school districts 
+are required to pass a resolution each school year 
+indicating whether or not t hey plan to implement a 
+Schools of Choice program f or nonresident students who 
+attend another district within their county.  It would be 
+appropriate at this time for the Board of Education to 
+consider adopting a resolution regarding Schools of 
+Choice within Oakland County. 
+RECOMMENDED ACTION: Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+ Moved by: __________________________ 
+ Supported by: __________________________ 
+be it therefore resolved that the Board of Education of the Troy 
+School District, exercising the opt ion permitted by Section 105 of 
+the State School Aid Act of 1979, as amended by Public Act 300 
+of 1996, will accept applications for a limited Schools of Choice 
+program for the 201 1-2012 school year for nonresident 
+kindergarten and first-grade students within Oakland County. 
+Ayes: __________ 
+Nays: __________ 
+136
+ 7. B. 01.18.11 
+7. CURRICULUM 
+B. CONSIDERATION:   Schools of Choice - Section 105c 
+In accordance with Michigan  state law, school districts  are 
+required to pass a resolution each school year indicating 
+whether or not they plan to implement a Schools of Choice 
+program for nonresident students who attend a district in 
+another county, if that Intermediate School District is 
+contiguous with the O akland Intermediate School District 
+boundaries.  It would be appropriate at this time for the Board 
+of Education to consider adopting a resolution regarding 
+Schools of Choice, Section 105c.   
+RECOMMENDED ACTION: Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+ Moved by: __________________________ 
+ Supported by: __________________________ 
+be it therefore resolved that the Board of Education of the Troy School 
+District, exercising the option permitted by Section 105c  of the State 
+School Aid Act of 1979, as amended by Public Act 300 of 1996, will 
+accept applications for a limited Schools of Choice program  for th e 
+2011-2012 school year for nonresident kindergarten and first -grade 
+students who attend a school district in  another county if that 
+Intermediate School District is contiguous with the Oakland Intermediate 
+School District boundaries. 
+Ayes: __________ 
+Nays: __________  
+137
+ 7. C. 01.18.11 
+7. CURRICULUM 
+C. REPORT:   NASA DIME Competition 
+DIME is a NASA competitive program that invites high school teams to 
+develop an experiment concept, prepare a proposal for an experiment, 
+and submit the proposal to NASA.   A NASA panel selects four top -
+ranked proposals nationally.  These four teams will then continue their 
+experiment development and fabrication leading to operation in the 
+NASA drop tower in March , 2011.  NASA provides an expense -paid trip 
+for each selected team to attend DIME Drop Days in March , 2011, at 
+NASA’s Glenn Research Center in Cleveland, Ohio.   During DIME Drop 
+Days, the team representatives will conduct their experiment in the 
+NASA 2.2 second drop tower, analyze their data, tour NASA facilities, 
+and participate in workshops.   
+The Troy High School team was one of the four nationally selected and 
+will trave l to Cleveland March 21  - 25, 2011,  to perform their 
+experiments.  They are here tonight with their teacher, John Morrison, 
+to share their project. 
+RECOMMENDED ACTION: This is a report. 
+Troy School District Science Coordinator, Jennifer Gottlieb , will provide this 
+evening's report. 
+138
+Motion of Air Bubbles in Water
+Liang, Mihir Pande
+139
+Effect of Microgravity on the 
+Effect of Microgravity on the 
+Sara Guenther  Nicholas Krajewski  Mason 
+Sara Guenther, Nicholas Krajewski, Mason 
+DIME stands for Dropping in a 
+Microgravity Environment
+Student teams across the country 
+Three stages of competition: Tiers I, 
+II, III
+140
+Wh t i  NASA DIME?
+What is NASA DIME?
+design and create a proposal
+design and create a proposal
+We are all seniors at Troy High School 
+We worked every weekend on the 
+design proposal
+141
+O T
+Our Team
+ We started our proposal in October
+ We started our proposal in October
+O P l
+Our Proposal
+F
+FB
+Air 
+bubble
+Air 
+bubble
+FG
+bubble bubble
+Normal Gravity Microgravity
+142
+We are testing lack of buoyant force 
+in microgravity
+Bubbles’ behavior in normal gravity vs. 
+Two possible outcomes in our 
+experiment
+143
+O P l  ( t )
+Our Proposal (cont)
+microgravity
+microgravity
+Hypothesis
+ If bubbles are released underwater 
+in the horizontal direction in 
+microgravity, then these air bubbles 
+will travel in a straight horizontal 
+path, because the buoyant force of 
+the water will not force the bubbles 
+to the surface of the water.
+144
+O P l  ( t )
+Our Proposal (cont)
+Vertical Position vs Time
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4
+Time (sec)
+145
+Pl ii  E i t
+Preliminary Experiments
+on (cm)
+Positi Normal Gravity
+Vertical Position vs Time
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+0 0.1 0.2 0.3 0.4
+Time (sec)
+146
+Pl ii  E i t
+Preliminary Experiments
+on (cm)
+Vertical positionNormal Gravity
+Positi Vertical positionMicrogravity
+Horizontal Position vs Time
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4
+-0.05
+Time (sec)
+147
+Pl ii  E i t
+Preliminary Experiments
+sition (cm)
+Horizontal pos
+O A t 
+Our Apparatus 
+148
+Tier I Winners
+Center in Cleveland, OH
+One of four teams that will be running 
+an experiment
+149
+Th  C titi
+The Competition
+ In March  we will go to Glenn Research 
+ In March, we will go to Glenn Research 
+ Troy High School
+ Mr. Morrison
+ Mr. Heath
+ Mrs. Ritter
+ Mr. and Mrs. Gottlieb
+150
+W  ld lik  t  th k
+We would like to thank
+M Di k
+ Mr. Dziatczak
+ NASA
+NASA
+ 8. A.    01.18.11 
+8. BUSINESS 
+A.  CONSIDERATION:  INTERGOVERNMENTAL AGREEMENT 
+The District was approached by Avondale School District to provide 
+administrative consulting services to Avondale.  It is appropriate for the Board to 
+consider a resolution regarding these contracted services.   
+RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+Moved by:   
+ Supported by: 
+District to enter into an agreement with Avondale Sc hool District to provide 
+certain management, consulting and su pervisory services relative to the 
+administrative services and function of Avondale School District for a one year 
+period starting July 1, 2010 and ending J une 30, 2011, with an option to renew; 
+and further authorizes the Superintendent to enter into an agreement on behalf 
+of the District.  A copy of the agreement will be attached to the Minutes of this 
+meeting.   
+Ayes: 
+Nays: 
+151
+Be it therefore resolved that 
+the Troy Board of Education authorizes the 
+AGREEMENT 
+FOR 
+ADMINISTRATIVE SERVICES CONSULTANTS 
+ This AGREEMENT FOR ADMINISTRATIVE SERVICES CONSULTANTS (the “Agreement”) 
+is made as of the 1 st day of July, 2010 (the “Effective Date”), by and between AVONDALE SCHOOL 
+DISTRICT, a Mi chigan general powers school district, whose address is 2940 Waukegan Street, Auburn 
+Hills, Michigan 48326  (“Avondale”), and TROY SCHOOL DISTRICT , a Michigan general powers 
+school district, whose address is 4400 Livernois, Troy, Michigan 48098  (“Troy”).  E ach a “Party” and 
+collectively the “Parties.” 
+RECITALS 
+ WHEREAS, pursuant to Sections 11a(3) and (4) of the School Code MCL 380.1 et seq., a general 
+powers school district has the authority to exercise a power incidental or appropriate to the performance o f 
+any function related to the operation of the school district in the interests of public elementary and secondary 
+education in the school district, and to enter into agreements or cooperative arrangements with other entities, 
+public or private, or join organizations as part of performing the functions of the school district; and 
+ WHEREAS, Avondale desires to engage Troy to receive certain management, consulting and 
+supervisory services relative to the administrative services and functions of Avondale in accordance with the 
+terms and conditions of this Agreement; and 
+ WHEREAS, Troy desires to perform the management, consulting and supervisory services in 
+accordance with the terms and conditions of this Agreement 
+ NOW THEREFORE, IT IS HEREBY AGREED BETWEEN THE PARTIES AS FOLLOWS: 
+I. ENGAGEMENT AND SCOPE OF SERVICES 
+A. Consultants.  Avondale hereby engages Troy and Troy accepts such engagement to provide 
+certain Troy employees to Avondale to provide the Services set forth in this Agreement for 
+the consideration and upon the terms and conditions set forth herein.  The Parties agree that 
+the following Troy employees will be provided to Avondale to perform the Services:  Mr. 
+Jasen Witt (the “Human Resources Services Consultant”); Mr. Mark Rajter and Mr. Frank 
+Lams (together, the “Business Management Consultant”); and Mr. Dominick Asaro (the 
+“Transportation Consultant”), as well as other consultants as agreed upon by the Parties in 
+writing (collectively the “Consultants”).  The Consultants are employed by Troy under a 
+twelve (12) month annual work schedule and it is the intent of the Parties that Troy will make 
+the Consultants available to perform the services defined below (collectively the “Services”). 
+B. Human Resources Consulting Services .  Troy agrees to make the  Human Resources 
+Consultant, and other individuals agreed to by the Parties in writing, available to Avondale to 
+perform various human resources consulting services as requested by Avondale, which may 
+include, but are not limited to: labor relations and hi ring consultation; benefits and 
+compensation consultation; employee certification consultation; recordkeeping/reporting 
+consultation; and attendance at Avondale Board of Education meetings as necessary 
+(hereinafter the “Human Resources Consulting Services” ).  The Human Resources 
+6462446.3 28938/136783 
+- 1 - 
+152
+Consulting Services are more specifically described in Exhibit A , attached hereto and 
+incorporated herein by reference.  It is agreed by the Parties that the Human Resources 
+Services Consultant, Mr. Jasen Witt, shall not have the authority to act as an agent of 
+Avondale to execute documents/reports unless authorized by the Superintendent of Avondale    
+The Human Resources Consultant, including any other individuals agreed to by the parties, 
+will establish a regular schedule to be on-site within Avondale, as agreed by the parties, and 
+shall be available to Avondale for the provision of Human Resources Consulting Services in 
+a reasonable and customary manner.   Given the periodic nature of some Human Resources 
+Consulting Services (e.g. c ollective bargaining, labor relations, employee hiring, etc.), the 
+parties recognize this schedule may need to be altered. 
+C. Business Management Consulting Services .  Troy agrees to make the Business Services 
+Consultant, and other individuals agreed to by the Parties in writing, available to Avondale to 
+perform various business management consulting services as requested by Avondale, which 
+may include, but are not limited to: consultation related to payroll, accounts payable and 
+receivable; purchasing, and pupil accounting; consultation related to budget development and 
+forecasting; taxes and other financial issues of Avondale; consultation related to cash flow, 
+investments and borrowings; consultation related to annual reports required by federal and 
+state laws; consultation related to annual audits and risk management; and attendance at 
+Avondale Board of Education meetings as necessary (hereinafter the “Business Management 
+Consulting Services”).  The Business Management Consulting Services are more specifically 
+described in Exhibit B, attached hereto and incorporated herein by reference.  It is agreed by 
+the Parties that the Business Management Services Consultant, Mr. Mark Rajter and Mr. 
+Frank Lams, shall not have the authority to act as an agent of Avond ale to execute 
+documents/reports unless authorized by the Superintendent of Avondale  The Business 
+Management Consultant, including any other individuals agreed to by the parties, shall be 
+available to Avondale approximately 40% of a full time equivalent b asis for both the 
+Business Management Consulting Services and the Bond Project Consulting Services 
+described below.  
+D. Transportation Consulting Services.  Troy agrees to make the Transportation Consultant, and 
+other individuals agreed to by the Parties in writing, available to Avondale to perform various 
+transportation consulting services as requested by Avondale, which may include, but are not 
+limited to: consultation related to routing and dispatching; consultation related to 
+computerized routing softwa re applications; consultation related to transportation policies 
+and procedures; consultation regarding bus maintenance and annual inspections; consultation 
+related to new school bus acquisitions; consultation related to bus driver routing assignments; 
+consultation related to student issues arising from school bus transportation; and attendance 
+at Avondale Board of Education meetings as necessary (hereinafter the “Transportation 
+Consulting Services”).  The Transportation Consulting Services are more specifi cally 
+described in Exhibit C, attached hereto and incorporated herein by reference.  It is agreed by 
+the Parties that the Transportation Services Consultant, Mr. Dominick Asaro, shall not have 
+the authority to act as an agent of Avondale to execute documen ts/reports unless authorized 
+by the Superintendent of Avondale. The Transportation Consultant, including any other 
+6462446.3 28938/136783 
+- 2 - 
+153
+individuals agreed to by the parties, shall be available to Avondale approximately 50% of a 
+full time equivalent basis for the Transportation Consulting Services. 
+E. Bond Project Consulting Services.  Troy agrees to make the Business Services Consultant, 
+and other individuals agreed to by the Parties in writing, available to Avondale to perform 
+various bond project consulting services as requested by Avondale, which may include, but 
+are not limited to: consultation regarding the preparation of financial projections relating to 
+the bond project; general oversight of the construction manager and architect as necessary or 
+requested by Avondale; attendance at meetings with the construction manager and architect 
+as necessary or requested by Avondale; consultation regarding the oversight of the 
+construction fund and debt service retirement fund of the bond project; preparation of reports 
+for the Avondale Board of Education regarding the bond project; and attendance at Avondale 
+Board of Education meetings as necessary (hereinafter the “Bond Project Consulting 
+Services”).  The Bond Project Consulting Services are more specifically described in Exhibit 
+B, attached hereto and incorporated herein by reference.  It is agreed by the Parties that Troy 
+personnel performing the Bond Project Consulting Services shall not have the authority to act 
+as an agent of Avondale to execute documents/reports unless authorize d by the 
+Superintendent of Avondale. 
+F. Additional Services.  The Parties agree that they may expand the scope of the Services upon 
+the mutual written agreement of both Parties.  Furthermore, Avondale may provide certain 
+consulting services to Troy as mutually agreed upon by the Parties in writing.  Any mutually 
+agreed upon expansion of the Services shall be set forth in a written amendment to this 
+Agreement, executed by both Parties, and shall take effect as of the effective date of the 
+written amendment. 
+II. COMPENSATION 
+A. Rate.  The Parties agree that Troy shall be reimbursed for the Services rendered by the 
+Consultants under the formula as mutually agreed to by the Parties in writing, provided, 
+however, that the total fees for the Services shall not exc eed two hundred thousand and 
+00/100 Dollars ($200,000.00) annually.   
+B. Rate Adjustment.  The aforementioned rates for the Services may be adjusted after the Initial 
+Term if this Agreement is extended, or at intervals otherwise agreed to by the Parties.  Any 
+such agreement and adjustment to the rates shall be mutually agreed upon by the Parties and 
+set forth in writing.  Minimally, the Parties agree to use their best efforts to mutually agree 
+upon on any rate adjustment minimally by March 1, and such agree d upon rate adjustment 
+shall go into effect as of July 1 of following year. 
+C. Reimbursement for Mileage and Travel.  For reasonable mileage incurred by the Consultants 
+in rendering the Services, if agreed upon by Avondale, Avondale agrees to reimburse Troy, at 
+the Internal Revenue Service (“IRS”) rates.  If the Consultants are required to travel 
+(including the attendance at conferences on behalf of Avondale) to perform the Services and 
+incur costs other than mileage, Avondale will reimburse Troy for all re asonable travel costs 
+approved in advance by Avondale, but pursuant to Troy reimbursement policy, a copy of 
+which will be provided to Avondale upon request.  If the Consultant is required to attend any 
+6462446.3 28938/136783 
+- 3 - 
+154
+professional development as part of, or in order to, e ffectively perform the Services, it is 
+agreed by the Parties that the costs for such professional development will be split equally 
+amongst Avondale and Troy. 
+III. INVOICING AND PAYMENT 
+Troy shall submit invoices to Avondale, detailing any Services render ed and costs incurred, on or 
+before January 1 and June 30 of each fiscal year, together with all supporting documentation and 
+records as requested by Avondale.  Avondale shall make payment of undisputed amounts no later 
+than February 1 and August 1, respec tively, of each fiscal year.  Disputes regarding amounts 
+contained in any invoice will be communicated to Troy by Avondale, in writing, within fifteen (15) 
+business days of the receipt of the disputed invoice.  Payments of disputed amounts will be delayed 
+unless Troy is able to resolve the matter to Avondale’s satisfaction within fifteen (15) business days 
+prior to payment due date.  Avondale will not be assessed any late payment penalties, fines or charges 
+for disputed amounts not timely paid due to Troy’s  failure to timely resolve the matter as set forth 
+above. 
+IV. PERFORMANCE 
+Avondale’s Superintendent shall serve as Avondale’s liaison for this Agreement and the Services.  
+Troy agrees that the Consultants shall perform all the Services in a professional an d workmanlike 
+manner in accordance with all applicable federal, state and local laws, rules, regulations and 
+ordinances, as well as applicable written policies and procedures of Avondale. The parties agree that 
+in the event that both Avondale and Troy have  an issue that arises at the same time which requires 
+the services and expertise of any Consultant, the issue which presents the most immediate and serious 
+safety or health or monetary concern shall be addressed first, in the sole discretion of the Consultant, 
+who shall be advised of this provision. 
+V. COMMUNICATION 
+The parties shall meet and confer on a mutually agreeable date and time on no less than a quarterly 
+basis to discuss the performance of the Consultants.  Avondale shall notify Troy of any scheduling, 
+performance or conduct issue related to the services provided under this Agreement within two (2) 
+days of receiving notice of the issue. All communications to Avondale shall be provided to its 
+Superintendent, or his/her designee.  All communications  to Troy shall be provided to its 
+Superintendent, or his/her designee. 
+VI. TERM AND TERMINATION 
+This Agreement shall commence on July 1, 2010 and shall expire on June 30, 2011 (the “Initial 
+Term”).  This Agreement may be renewed by the Parties for periods of one (1) year, commencing on 
+July 1, 2011 and annually thereafter (each a “Renewal Term”), provided that the Parties agree upon 
+such extension in writing at least 60 days prior to the date of expiration of the current term.  The 
+Parties mutually agree that this Agreement may be terminated, in whole or in part, by either Party for 
+“Cause” if a Party fails to perform, or cure its performance of, its obligations under this Agreement 
+6462446.3 28938/136783 
+- 4 - 
+155
+within thirty (30) days of its receipt of written notice from the other Par ty stating such breach/non-
+performance.  Notwithstanding the foregoing, either Party may terminate this Agreement, in whole or 
+in part, for any reason, with or without cause, upon sixty (60) days prior written notice.  Furthermore, 
+if a Consultant is no lo nger available to provide the Services, either party may terminate this 
+Agreement, or any portion thereof, immediately.  In the event of termination, Avondale shall only be 
+liable for payment for Services actually rendered and reimbursements previously approved.  Notice 
+shall be delivered by the terminating Party via return receipt, certified US Mail or delivered in person 
+to the Superintendent of the other Party. 
+VII. RELATIONSHIP OF THE PARTIES 
+The relationship between Avondale and Troy (including the Consultants) shall be that of independent 
+contracting parties.  The Consultants in performing their duties under this Agreement shall, except as 
+otherwise specified in this Agreement, be subject only to the oversight and direction of the Avondale 
+superintendent and no other employee of Avondale, and shall abide by the terms of this Agreement, 
+as well as the policies and procedures of Avondale.  Moreover, Troy is the Employer of Record with 
+respect to the Consultants under this Agreement and shall be responsibl e for costs of employment 
+(salary, taxes, fees, fringe and/or retirement benefits, insurance, worker’s disability compensation, 
+etc.) relative to each Consultant.  This Agreement shall not be construed as authority for any Party to 
+act for another Party in  any agency or other capacity or to make commitments of any kind for the 
+account of, or on behalf of, another Party, except to the extent, and for the purposes, expressly 
+provided for and set forth herein, and no partnership or joint venture is created hereby.  It is expressly 
+agreed that neither Troy nor the Consultant are entitled to participate in any plans, arrangements, or 
+distributions by Avondale pertaining to or in connection with any fringe, pension, bonus, profit 
+sharing, or similar benefits, or any medical, dental, life or disability insurance plans.   
+VIII. RESERVATION OF RIGHTS 
+This Agreement does not, and is not intended to impair, divest, delegate, or contravene any 
+constitutional, statutory, and/or other legal right, privilege, power, obligat ion, duty or immunity of 
+each Party and shall not be construed to  waive the defense of governmental immunity held by any 
+Party to this Agreement. 
+IX. RECORDS 
+All records, forms and supplies or any reproduced copies provided and furnished by Avondale to 
+Troy or the Consultants or obtained by Troy or the Consultants during the course of rendering the 
+Services to Avondale shall always remain the property of Avondale and shall be returned to 
+Avondale on demand, or upon the expiration or termination of this Agre ement.  All records and 
+related documents prepared by the Consultants or otherwise created in connection with the rendering 
+of Services to Avondale shall be prepared in accordance with applicable law and the practices and 
+procedures of Avondale and shall b e the property of Avondale.  Troy and the Consultants shall 
+maintain records of any obligations performed, and any payments received or costs incurred under 
+this Agreement.  Such records shall be kept in accordance with Generally Accepted Accounting 
+Principles, and shall be made available to Avondale upon reasonable notice.  Except as required by 
+its duties to Avondale or by law, Troy agrees that it, the Consultants and its agents will never, during 
+the Term of this Agreement or at any time subsequent to th e expiration or termination of this 
+6462446.3 28938/136783 
+- 5 - 
+156
+Agreement, directly or indirectly use or disclose any confidential information of Avondale without 
+the prior written consent of Avondale’s Superintendent.  All records must be retained in compliance 
+with Bulletin 522.  Furthermore, Troy and its Consultants shall comply with all applicable provisions 
+of the Family Educational Rights and Privacy Act (“FERPA”) in performing the Services 
+X. TENURE DISCLAIMER 
+Troy acknowledges and agrees that, notwithstanding anything to the contrary, any person performing 
+Services under this Agreement shall not acquire teacher tenure, administrative tenure, or any other 
+tenure rights in any capacity whatsoever, regardless of where such Services are performed. 
+XI. OTHER ACTIVITIES 
+Troy shall remain free to engage in other independent contracting activities, provided, however, that 
+Troy and the Consultants shall remain available to perform the Services under this Agreement in in 
+accordance with State standards of performance for school administrators performing such Services 
+and shall refrain from engaging in any activities which are inconsistent with, which interfere with, or 
+which are in conflict with any of the terms of this Agreement. 
+XII. FINGERPRINTING AND BACKGROUND CHECK 
+Troy acknowledges  and agrees that the Consultants and any of its agents, employees or 
+representatives of Troy who will be on Avondale premises regularly and continuously to perform the 
+Services will be fingerprinted and subjected to criminal history and background checks through the 
+Michigan State Police and Federal Bureau of Investigation, as detailed in Public Act 680 of 2006, as 
+amended, prior to commencing any Services under this Agreement by presenting themselves, or any 
+of its agents, employees or representatives, for  proper fingerprinting and criminal backgrounds 
+checks, as directed by Avondale, or provide written notification to Avondale that the Consultants and 
+other Troy personnel have previously completed fingerprinting and a criminal history and 
+background check in connection with contracting or working for Troy, another school district, 
+intermediate school district, public school academy or nonpublic school (each an “Agency”), and 
+consent to the sharing or transferring of the appropriate fingerprinting and crimin al history 
+background report from the other Agency.  Additionally, Troy represents and warrants to Avondale 
+that it will at all times during the Initial Term, or any Renewal Term(s) of this Agreement be in 
+compliance with the provisions of Michigan Public Act 680 of 2006, as amended, including, but not 
+limited to, reporting to Avondale within 3 business days of when any Consultant or any Troy agents, 
+employees or representatives who will regularly and continuously be on Avondale premises to 
+perform the Serv ices, is/are charged with a crime listed in Section 1535a(1) or 1539b(1) of the 
+Revised School Code, being MCL 380.1535a(1) and 380.1539b(1), or a substantially similar law, 
+and to immediately report to Avondale if that person is subsequently convicted, plead guilty or plead 
+no contest to that crime. Troy shall be responsible for all costs and expenses associated with the 
+above-required fingerprinting and background checks.  Troy shall supply all necessary data and 
+information, as requested by Avondale, to enable Avondale to properly submit the Consultants or any 
+other Troy employees and agents for inclusion in the State of Michigan Department of Education’s 
+list of “registered educational personnel” as may be required. 
+6462446.3 28938/136783 
+- 6 - 
+157
+XIII. WORKING FACILITIES 
+The Consultants may utilize those premises and facilities of Avondale in rendering Services pursuant 
+to this Agreement as identified by Avondale. 
+XIV. NON-EXCLUSIVE SERVICES 
+Avondale does not agree to use Troy exclusively to perform the Services and is free to engage other 
+parties to perform similar services as required under this Agreement. 
+6462446.3 28938/136783 
+- 7 - 
+158
+XV. MISCELLANEOUS 
+A. Entire Agreement.  This Agreement sets forth all the covenants, agreements, stipulations, 
+promises, conditions and understandings of the parties to the Conso rtium concerning the 
+activities and Services contemplated herein.  No Party, including but not limited to its 
+respective Board members, employees, attorneys, consultants, advisors, agents, 
+representatives or students, have made any covenant, agreement, sti pulation, promise, 
+condition or understanding, warranty or representation, either oral or written, other than set 
+forth herein. 
+B. Amendment.  This Agreement shall not be modified, altered or amended except by written 
+agreement duly executed by all parties to this Agreement in accordance with the terms hereof. 
+C. Invalidity of Particular Provision.  The invalidity of any article, section, subsection, clause or 
+provision of this Agreement shall not affect the validity of the remaining sections, 
+subsections, clauses or provisions hereof which remain valid and be enforced to the fullest 
+extent permitted by law. 
+D. Captions.  The captions in this Agreement are inserted only as a matter of convenience and  
+for reference and in no way define, limit, enlarge or des cribe the scope or intent of this 
+Agreement nor in any way shall affect this Agreement or the construction of any provision 
+hereof. 
+E. Waivers.  A Party may not waive any default, condition, promise, obligation or requirement 
+applicable to the other party hereunder, unless such waiver is in writing signed by an 
+authorized representative of such Party and expressly stated to constitute such waiver.  Such 
+waiver shall only apply to the extent given and shall not be deemed or construed to waive any 
+such or oth er default, condition, promise, obligation or requirement in any past or future 
+instance.  No failure by a Party to insist upon strict performance of any covenant, agreement, 
+term, or condition of this Agreement, or to the exercise any right or remedy in t he event of 
+default, shall constitute a waiver of any such default of such covenant, agreement, term or 
+condition. 
+F. Governing Law.  This Agreement shall be governed by, construed and enforced in accordance 
+with, the laws of the State of Michigan, and Par ties consent to the jurisdiction and venue of 
+the appropriate Oakland County Court. 
+G. Successors and Assigns.  The covenants, conditions and agreements in this Agreement shall 
+be binding upon and inure to the benefit of each Party, their respective legal representatives, 
+successors and assigns. 
+H. Counterparts.  This Agreement may be executed in any number of counterparts, each of 
+which shall be an original, but all such counterparts shall together constitute one and the 
+same instrument. 
+6462446.3 28938/136783 
+- 8 - 
+159
+I. Authorized Signatory.  All Parties represent that the individual executing this Agreement is 
+duly authorized by, and has the authority to execute this Agreement and bind, the respective 
+Party. 
+IN WITNESS WHEREOF: the parties hereto on this day execute this Agreement f or Administrative 
+Services Consultants as of the Effective Date. 
+6462446.3 28938/136783 
+- 9 - 
+160
+AVONDALE SCHOOL DISTRICT 
+By:________________________________  
+Its:  _______________________________  
+Date: ______________________________  
+TROY SCHOOL DISTRICT 
+By:______________________ __________  
+Its:  _______________________________  
+Date: ______________________________  
+EXHIBIT A 
+DESCRIPTION OF HUMAN RESOURCES CONSULTING SERVICES 
+ Collective Bargaining & Labor Relations 
+o Teachers (MEA) – Jasen Witt 
+o Secretaries (MEA) – Jasen Witt/Bonnie Lobert 
+o Para-Educators (MEA) – Jasen Witt/Bonnie Lobert 
+o Transportation (AFSCME) – Jasen Witt/Bonnie Lobert 
+o Building Administrators – Jasen Witt 
+o Alternative Education Teachers – Jasen Witt/Bonnie Lobert 
+ Employee Hiring – Jasen Witt/Bonnie Lobert 
+ Benefits Administration – Bonnie Lobert 
+ Compensation Administration – Jasen Witt/Bonnie Lobert  
+ Unemployment – Bonnie Lobert 
+ Worker’s Compensation – Bonnie Lobert 
+ Teacher/Administrator Certification – Jasen Witt 
+ Training/Development – Jasen Witt/Bonnie Lobert 
+ Personnel Files/Recordkeeping/Reporting – Bonnie Lobert 
+6462446.3 28938/136783 
+161
+EXHIBIT B 
+DESCRIPTION OF BUSINESS MANAGEMENT CONSULTING SERVICES 
+Supervisor, Frank E. Lams 
+ Board of Education  
+o Attend Board of Education and Finance Committee meetings, as required 
+o Prepare and present materials as required 
+o Provide guidance and support on finance, business and strategy 
+o Assist in preparation of materials and presentations for Board of Education, staff and 
+community 
+ Management, Oversight, Consultation and Supervision of the Following Areas: 
+o Payroll/services 
+o Accounts payable 
+o Accounts receivable 
+o Cash Management/Cash Flow projections 
+o Utility contracts 
+o Contract Management & Oversight 
+o Purchasing/bidding 
+o General Ledger postings 
+o Other existing services 
+o Third-party service provider contracts 
+ Budget and Financial Planning 
+o Budget development including amendments 
+o Multi-year, multi-scenario forecasts 
+o Presentations to the Board of Education, community and Finance Committee as required 
+o Budget hearing including property tax levies 
+o Analyze financial impact of any issue affecting the financial health of Avondale such as 
+legislation, benefit rates, enrollment or other changes. 
+o Develop and recommend strategies based on Avondale Administrative input and plans to 
+improve financial position of Avondale 
+6462446.3 28938/136783 
+162
+ Deficit Elimination Plan 
+o Conduct appropriate work including but not limited to State required monthly/annual 
+reporting 
+ Cash Flow/Treasury Management 
+o Cash flow analysis and forecasts 
+o Investments 
+o Borrowing 
+o Banking services 
+ Annual Audit 
+o Preparation for and oversight of all required audit activities and timeline 
+o Ensure compliance with all audit requirements  
+ Labor Relations and Contract Negotiations 
+o Provide analytical support (cost calculations and projections) 
+o Assist in negotiation strategy development 
+ Federal and State Reports 
+ Supervise and assist in preparing: 
+o FID (Financial Information Database) 
+o SE-4096 – Annual Special Education Annual Report 
+o SE-4094 – Transportation Cost Report 
+o SE-4107 – Transportation Inventory 
+o Medicaid Administrative Outreach Financials 
+o USF (Universal Service Fund) 
+o Qualifying Statement 
+o Preparation of IRS 1099 earnings reports 
+o Preparation of IRS W-2 reporting 
+o Transparency Report 
+o FS-4731 – At-Risk Annual Report 
+o SM-4012 – Year End School Meals Program Report 
+o L-4029 Report – Tax Levy 
+o ARRA reporting 
+6462446.3 28938/136783 
+163
+o Any other additional required reporting of Avondale 
+ Compliance 
+o Maintain awareness and ensure compliance with all existing and new legal, regulatory, statutory 
+requirements affecting Avondale business and operations.  
+ Processes Review 
+During the course of providing the Business Management Consulting Services, recommendations 
+may be developed during a review of current processes. If weaknesses in such processes are found, 
+areas will be identified for improvement, a plan developed to address the issue(s), along with a 
+timeline and implementation plan. 
+o Payroll and related functions 
+o Accounts Payable 
+o Accounts Receivable 
+o Account Reconciliation 
+o Internal Control 
+o Grants 
+o Insurances 
+o Purchasing  
+ General Obligation Unlimited Tax Bonds 
+o Oversee post bond election activities including bond sales, investment, and arbitrage, annual 
+levy calculation, reporting requirements, cash flow forecasting and management. 
+o Includes owner’s representative services and post bond election sale and investment. 
+o Oversee bond project for Avondale as Avondale’s owner representative including periodic 
+reporting of the bond project’s completion to the Superintendent. 
+o Provide any required change order or project modification decisions to the Superintendent for 
+approval 
+ Risk Management/Fixed Asset Management 
+o Assist with and make recommendations regarding district risk management insurance 
+coverages. 
+6462446.3 28938/136783 
+164
+Director, Monica Papasian 
+ Grants Oversight/Review 
+o Support grant applications 
+o MEGS Reporting 
+o Request Funds 
+o Maintenance of Effort 
+ Annual Audit 
+o Preparation for and oversight of all required audit activities and timeline 
+o Ensure compliance with all audit requirements  
+ Federal and State Reports 
+o Review Grant related financial reports  
+ Compliance 
+o Maintain awareness and ensure compliance with all existing and ne w legal, regulatory, 
+statutory requirements affecting Avondale business and operations.  
+ Processes Review 
+During the course of providing the Business Management Consulting Services, recommendations 
+may be developed during a review of current processes. If weaknesses are found, areas will be 
+identified for improvement, a plan developed to address the issue(s), along with a timeline and 
+implementation plan. 
+o Internal Control 
+o Grants 
+Accountant, Renelle Tolan 
+ Grants Oversight 
+o Support grant applications 
+o Conduct monthly accounting for grant projects 
+o MEGS Reporting 
+o Request Funds 
+o Maintenance of Effort 
+ Annual Audit 
+6462446.3 28938/136783 
+165
+o Assist with preparation of grant work papers and schedules in preparation of annual audit 
+ Federal and State Reports 
+o Prepare grant related financial reports  
+6462446.3 28938/136783 
+166
+EXHIBIT C 
+DESCRIPTION OF TRANSPORTATION CONSULTING SERVICES 
+Supervisor, Dominick Asaro  
+ Provide assistance and consultation regarding staffing (both drivers and substitutes) including 
+interviewing, hiring, training, evaluating, consulting with and disciplining (if necessary) 
+ Assist with scheduling and maintaining required driver forms, physicals, training records, etc. 
+ Respond to all accidents or property damage matters involving Avondale buses 
+ Oversee Avondale transportation payroll 
+ Be a Liaison with Hoekstra Transportation with regards to repair of Avondale bus fleet 
+ Assist with dispatching as necessary 
+ Be available to be onsite at Avondale as required 
+ Provide transportation updates, and report issues or concerns to Superintendent of Avondale 
+ Assist with handling parental inquiries/complaints regarding Avondale bussing matters, as 
+well as consult with Avondale Superintendent on critical parental issues 
+ Evaluate road conditions and report/consult with Avondale Superintendent as requested  
+ Oversee and prepare of all required State transportation reporting forms 
+Routing Coordinator, Suzanne Oselett 
+ Assist with route selection and prepare proposed routes, in conjunction with Avondale 
+dispatcher, for presentation to Avondale Board of Education for review and approval 
+ Assist in notification of community regarding bus routes 
+ Post new routes 
+ Maintaining school schedule for Avondale drivers (half days, etc.) 
+ Collecting information for SE-4094, SE-4096 and SE-4017 forms 
+Avondale Dispatcher, TBD 
+ Hours: 6:00-9:30 a.m.; 12:30-5:00 p.m. 
+ Answering Avondale phones 
+ Dispatching of Avondale buses 
+ Maintaining record of hours for bus drivers for payroll purposes 
+ Coordinate buses for Avondale special events 
+6462446.3 28938/136783 
+167
+ Substitute as a driver when necessary 
+ Assist with route selection and preparation 
+ Notifying community of bus routes 
+18,709,997.1\091101-00041  
+DRAFT 01/06/11 12:17 PM  
+6462446.3 28938/136783 
+168
+           8.B.     01.07.11 
+8. BUSINESS 
+ B. CONSIDERATION:  WEB HOSTING SERVICE 
+  Bids were posted to our website with 4 responding bidders 
+(none of which were “No Bid”).  The bids were reviewed with 
+Mr. Scott Bryan, Director of Technology, and it is 
+recommended that the bid be awarded as stated below.   
+RECOMMENDED ACTION:  Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By: ____________ __________________ 
+Supported By: __________ ____________________ 
+Be it therefore resolved that the bid for web hosting service be 
+awarded to Edline in the amount of  $29,436.00 and that this amount 
+be approved as an expenditure of the 2010/11 General Fund. 
+Ayes: ____________ 
+Nays: ____________ 
+169
+Memorandum 
+ DATE: January 11, 2011 
+ TO: Mark S. Rajter 
+  Assistant Superintendent 
+Purchasing 
+  Business Services 
+Department 
+ FROM: Frank E. Lams 
+1140 Rankin 
+  Supervisor, Purchasing and Budget  
+Troy, MI 48083 
+248-823-4052,  
+                      Web Hosting Service                      
+On January 5, 2011 bids were opened for Web Hosting Service for the District.   Bids 
+were posted to our website with four responding bidders (none of whi ch were “No Bid”).   
+Results of this bid have been reviewed by Mr. S. Bryan, Director of Technology, who 
+has recommended award to Edline.  I have also reviewed this bid and concur with this 
+recommendation.  Accordingly, I recommend award of this bid as fo llows: 
+  Edline  $ 29,436.00 
+Please include this as an action item on the January 18, 2011 Board agenda as an 
+expenditure of the 2011/12 General Fund.  
+170
+          RE:      Bid Award #9701 
+Fax – 248-823-4077 
+Barbara A. Fowler, Ph.D., Superintendent of Schools 
+Technology Resource Center Scott Bryan, Director of Technology 
+4420 Livernois Phone No. 248-823-5090 
+Troy, Michigan 48098 Fax No.  248-823-5050 
+MEMORANDUM 
+To: Frank Lams, Purchasing Supervisor  
+From: Scott Bryan, Director of Technology  
+Date: January 11, 2011 
+Re: Bid 9701 web hosting service 
+In compliance with federal E-Rate bidding practices and in order to secure an estimated 38% discount , we 
+released a bid for web hosting service for the district on November 11, 2010.  Bids were opened January 5, 
+2011.  Four bid packets that complied with the RFP were received; other bid responses via email or other 
+non-compliant methods were rejected.  
+I have analyzed the bids from the two apparent lowest solu tions – THiNQ Ed and Edline.  Upon further 
+review, the bid from THiNQ Ed fails to meet all bid specifications – specifically the requirement to be 100% 
+compatible with GradeQuick.  The THiNQ Ed response indicates that it does work with the GradeQuick 
+desktop edition, but not GradeQuick Web, which is proprietary.  The District migrated exclusively to 
+GradeQuick Web two years ago, therefore the THiNQ  Ed solution does not meet District standards.  The 
+next lowest bid from Edline is fully compliant with all bid  specifications. 
+Based on this analysis, I recommend award of a one year contract with Edline in the amount of $29,436 to 
+commence July 1, 2011 per E-Rate regulations.  The E-Rate timeframe requires forms awarding the bid to be 
+completed now in order to meet eligibility rules for the federal discount.  
+This item required Board of Education action; p lease place this on the January 18, 2011 agenda.  Thank you 
+for your attention to this matter.  
+171
+Troy School District
+Web Hosting Service
+Bid 9701
+Edline Americaneagle.com
+# of 
+Students 1 Year 3  Year 1  Year 3  Year
+One Time Install ‐                 ‐                 60,000.00     60,000.00     
+Barnard 1,521.00         1,521.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Bemis 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Costello 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Hamilton 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Hill 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Leonard 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Martell 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Morse 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Schroeder 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Troy Union 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Wass 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Wattles 1,282.50         1,282.50      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+172
+District Cost 29,436.00 $   29,436.00$  6,000.00$      17,000.00$  
+Troy School District
+Web Hosting Service
+Bid 9701
+Edline Americaneagle.com
+# of 
+Students 1 Year 3  Year 1  Year 3  Year
+Baker 1,521.00         1,521.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Boulan 1,521.00         1,521.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Larson 1,521.00         1,521.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Smith 1,521.00         1,521.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Athens 2,952.00         2,952.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Troy High 2,952.00         2,952.00      450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Niles 910.00           910.00         450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+Int'l Acad East 910.00           910.00         450.00           1,350.00       
+One Time Install ‐                 ‐                 5,000.00        5,000.00       
+$15,000 based 
+SIS Setup/Install ‐                 ‐                 See Above N/A
+Stratum 1 Bldg Rate 5,500 18,912.00      18,912.00    N/A N/A
+Stratum 2 Bldg Rate 7,500 16,800.00      16,800.00    N/A N/A
+Stratum 3 Bldg Rate ALL 29,436.00      29,436.00    N/A N/A
+173
+‐                  ‐                  
+on 100 hours 
+incl in install N/A
+GradeQuick 
+Setup/Install
+District Cost
+One Time Install
+Barnard
+One Time Install
+Bemis
+One Time Install
+Costello
+One Time Install
+Hamilton
+One Time Install
+Hill
+One Time Install
+Leonard
+One Time Install
+Martell
+One Time Install
+Morse
+One Time Install
+Schroeder
+One Time Install
+Troy Union
+One Time Install
+Wass
+One Time Install
+Wattles
+One Time Install
+Troy School Dist
+Web Hosting Se
+Bid 9701
+1 Year 3  Year
+# of 
+Students 1 Year 3  Year
+16,250.00$  16,250.00$  50,650.00$      152,700.00$           
+21,255.00       27,840.00                
+1,995.00         5,985.00                  
+N/A N/A
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+eChalk Inc.THiNQ Ed
+174
+Troy School Dist
+Web Hosting Se
+Bid 9701
+Baker
+One Time Install
+Boulan
+One Time Install
+Larson
+One Time Install
+Smith
+One Time Install
+Athens
+One Time Install
+Troy High
+One Time Install
+Niles
+One Time Install
+Int'l Acad East
+One Time Install
+SIS Setup/Install
+Stratum 1 Bldg Rate
+Stratum 2 Bldg Rate
+Stratum 3 Bldg Rate
+GradeQuick 
+Setup/Install
+1 Year 3  Year
+# of 
+Students 1 Year 3  Year
+eChalk Inc.THiNQ Ed
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+1,995.00         5,985.00                  
+2,500.00        N/A N/A
+2,500.00        1,500.00         1,500.00                  
+2,000 7.45/student 7.45/student/yr
+4,999 7.25/student 7.25/student/yr
+9,999 6.90/student 6.90/student/yr
+Price/site, not/student
+Price/site, not/student
+175
+               8.C.     01.18.11 
+8. BUSINESS 
+ C. CONSIDERATION:  PRI LOCAL AND LONG DISTANCE 
+      SERVICE 
+  Bids were posted to our website with 4 responding bidders 
+(none of which were “No Bid”).  The bids were reviewed with 
+Mr. Scott Bryan, Director of Technology, and it is 
+recommended that the bid be awarded as stated below.   
+RECOMMENDED ACTION:  Acceptance of the resolution below. 
+SUGGESTED RESOLUTION 
+Moved By: ____________ __________________ 
+Supported By: __________ ____________________ 
+Be it therefore resolved that the bid for PRI Local and Long 
+Distance Service be awarded to Paetec - Tampa in the amount of 
+$59,118.55 and that this amount be approved as expenditures of the 
+2011/12, 2012/13 and 2013/14 General Funds. 
+Ayes: ____________ 
+Nays: ____________ 
+176
+Memorandum 
+ DATE: January 11, 2011 
+ TO: Mark S. Rajter 
+  Assistant Superintendent 
+Purchasing 
+  Business Services 
+Department 
+ FROM: Frank E. Lams 
+1140 Rankin 
+  Supervisor, Purchasing and Budget  
+Troy, MI 48083 
+248-823-4052,  
+                      PRI Local and Long Distance Service                      
+On January 5, 2011 bids were opened for PRI Local and Long Distance telephone 
+service for the District.   Bids were posted via our websit e with four responding (none of 
+which were “No Bid”).   
+Results of this bid have been reviewed by Mr. S. Bryan, Director of Technology, who 
+has recommended award to Paetec - Tampa.  I have also reviewed this bid and concur 
+with this recommendation.  Accordingly, I recommend award of this bid as follows:  
+  Paetec – Tampa  $ 59,118.55 Estimated Cost 
+Please include this as an action item on the January 18, 2011 Board agenda as an 
+expenditure of the 2011-12, 2012-13 and 2013-14 General Fund. 
+177
+          RE:      Bid Award #9699 
+Fax – 248-823-4077 
+Barbara A. Fowler, Ph.D., Superintendent of Schools 
+Technology Resource Center Scott Bryan, Director of Technology 
+4420 Livernois Phone No. 248-823-5090 
+Troy, Michigan 48098 Fax No.  248-823-5050 
+MEMORANDUM 
+To: Frank Lams, Purchasing Supervisor  
+From: Scott Bryan, Director of Technology  
+Date: January 11, 2011 
+Re: Bid 9699 PRI Local and Long Distance service  
+In compliance with federal E-Rate bidding practices and in order to secure an estimated 38% discount on 
+telephone services, we released a bid for PRI/long distance telephone service for the district on November 
+11, 2010.  Bids were opened January 5, 2011.  Four bid packets were received; the packet from Cavalier 
+Telecom included two different bid price responses.  The packet from PAETEC Fairpor t NY had conflicting 
+data on the bid form vs. the backup documentation and was rejected after review with the vendor.  Therefore, 
+four bid responses were considered:  Cavalier Telecom measured rate, Cavalier Telecom flat rate, PAETEC 
+Tampa, and Telcom Worldwide. 
+The bid responses include a fixed monthly charge for each circuit plus a variable usage rate per minute for 
+calling patterns.  I have created an evaluation matrix that used actual numbers of phone calls and per minute 
+usage for the district from October 2010.  Traditionally October calling is a high water mark for telephone 
+usage, so it is a reasonable “worst case scenario” to project telephone expenses.  Based on this, the attached 
+spreadsheet projects that the response from PAETEC Tampa is the “wo rst case” low bid response.  Please 
+note that, based on the nature of the bid responses, lower usage, i.e., fewer local calls or less long distance 
+minutes usage simply increases the value of the PAETEC solution over other options.  
+There were some clerical errors in the PAETEC Tampa bid form – specifically, they entered the monthly 
+cost for all 4 circuits instead of each individual circuit.  However, the backup documentation/sample contract 
+provided in the bid response permitted for an easy evaluation and correction, so although the initial “as read” 
+bid opening pricing appears that this bid is highest by several orders of magnitude, the error is easily 
+understood using documentation provided within the bid response.  Due to the overall significant cost 
+savings over the life of the contract, I recommend exercising the District’s right to waive minor irregularities 
+in the bid process – the vendor has not changed their response in any way as a result of my review.  
+Based on the above analysis, I recommend that  a three year contract for PRI, local and long distance 
+telecommunications services be awarded to PAETEC Tampa, contract to commence July 1, 2011 per E -Rate 
+rules.  The E-Rate timeframe requires forms awarding the bid to be completed now in order to meet 
+eligibility rules for the federal discount.  
+Please place this on the January 18, 2011 agenda.  Thank you for your attention to this matter.  
+178
+The following analysis considers only three-year responses from each vendor; one-year responses were reviewed and found to be not in the District's best interest
+Fixed counts
+4 PRI circuits 16639.5 October 2010 IntraLATA LD minutes
+2700 DID numbers 1540.4 October 2010 InterLATA - IntraState minutes
+8677 October 2010 # calls 2556.7 October 2010 InterLATA - InterState minutes
+PAETEC Tampa Telnet Worldwide
+$226.85 Monthly cost/PRI $907 Total PRI/mo $365.00 Monthly cost/PRI $1,460 Total PRI/mo
+$0.05 Cost/DID $135 Total DID/mo $0.15 Cost/DID $405 Total DID/mo
+$0.81 Cost/PRI - Services $3.25 Total CID/mo $0.00 Cost/PRI - Services $0.00 Total CID/mo
+$0 Cost/local call $0 Total local/mo $0.00000 Cost/local call $0 Total local/mo
+$0.03000 IntraLATA/min $499.19 Oct 2010 IntraLATA $0.00000 IntraLATA/min $0.00 Oct 2010 IntraLATA
+$0.03000 InterLATA - instate/min $46.21 Oct 2010 InterLATA - instate $0.02000 InterLATA - instate/min $30.81 Oct 2010 InterLATA - instate
+$0.02000 InterLATA - outstate/min $51.13 Oct 2010 outstate $0.02000 InterLATA - outstate/min $51.13 Oct 2010 outstate
+$1,642 Projected cost for Oct 2010 $1,947 Projected cost for Oct 2010
+Cavalier - Measured
+$260.00 Monthly cost/PRI $1,040 Total PRI/mo PAETEC NY - bid form does not match up with printed rate sheet, bid response is rejected
+$0.15 Cost/DID $405 Total DID/mo
+$0.00 Cost/PRI - Services $0.00 Total CID/mo
+$0.04500 Cost/local call $390 Total local/mo
+$0.02900 IntraLATA/min $482.55 Oct 2010 IntraLATA
+$0.02900 InterLATA - instate/min $44.67 Oct 2010 InterLATA - instate
+$0.02900 InterLATA - outstate/min $74.14 Oct 2010 outstate
+$2,437 Projected cost for Oct 2010 
+Cavalier - flat rate
+$360.00 Monthly cost/PRI $1,440 Total PRI/mo
+$0.15 Cost/DID $405 Total DID/mo
+$0.00 Cost/PRI - Services $0.00 Total CID/mo
+$0.00000 Cost/local call $0 Total local/mo
+$0.02900 IntraLATA/min $482.55 Oct 2010 IntraLATA
+$0.02900 InterLATA - instate/min $44.67 Oct 2010 InterLATA - instate
+$0.02900 InterLATA - outstate/min $74.14 Oct 2010 outstate
+$2,446 Projected cost for Oct 2010 
+36 month projected total
+$59,118.55 Paetec Tampa
+$87,725.75 Cavalier measured
+$88,069.01 Cavalier flat rate
+$70,089.91 Telnet Worldwide
+179
+Troy School District
+PRI Local Access/Long Distance Telephone Service
+Bid 9699
+1‐Year 3 ‐Year 1 ‐Year 3 ‐Year 1 ‐Year 3 ‐Year 1 ‐Year 3 ‐Year
+ISDN Primary Rate Interface
+One Time Installation 250.00      ‐            ‐            ‐            N/A N/A ‐              ‐           
+Monthly Cost/Circuit incl. local calling 400.00      360.00    465.00    365.00    420.00        420.00       1,007.40    907.40   
+One Time Installation 250.00      ‐            ‐            ‐            N/A N/A ‐              ‐           
+One Time Installation ‐            ‐            N/A ‐             
+Monthly Calling Number Display ‐            Included ‐               3.25           
+One Time Installation ‐            ‐            N/A ‐             
+Monthly Calling Name Display ‐            Included ‐               3.25           
+One Time Installation ‐            ‐            N/A ‐             
+Local Calls ‐            ‐            ‐               
+Per Minute Rate
+IntraLATA calls 0.029 0.029 ‐           ‐            0.0266 0.0266 0.03 0.03
+InterLATA Intrastate 0.029 0.029 .02/min .02/min 0.0266 0.0266 0.03 0.03
+InterLATA Interstate 0.029 0.029 .02/min .02/min 0.0245 0.0245 0.02 0.02
+180
+Montlhy Cost/Circuit 275.00 $   260.00$   465.00$   365.00$   1,180.54$  1,182.64$  1,007.40$  907.40$  
+Monthly Cost/DID 0.15           0.15         ‐               
+Minimum Call Billing
+Paetec 
+Communications ‐ 
+Fairport, NY
+Paetec 
+Communications ‐ 
+Tampa, FL
+1.00/block of #'s
+6 seconds6 Second18 seconds
+Cavalier Telecom Telnet  Worlwide
+18 seconds
+Troy School District
+PRI Local Access/Long Distance Telephone Service
+Bid 9699
+1‐Year 3 ‐Year 1 ‐Year 3 ‐Year 1 ‐Year 3 ‐Year 1 ‐Year 3 ‐Year
+2 Digit rounded up to 
+Min. Monthly/Annual Billing Revenue ‐            ‐            ‐                N/A
+Directory Assistance Included/month ‐            ‐            ‐                ‐              
+Cost of Directory Assistance 1.79           1.25 1.99 1.99
+Cost of Operator Assisted 1.79           1.25 1.99 Service  not provided
+Cost of Calling Card
+Flat Fee N/A N/A N/A
+Per Minute 0.12           N/A N/A 0.12
+181
+Paetec 
+Communications ‐ 
+Fairport, NY
+Paetec 
+Communications ‐ 
+Tampa, FLCavalier Telecom Telnet  Worlwide
+Add'l Billing Rounding
+nearest .01 6 seconds6 seconds 6  seconds
+                              10. A. 01.18.11  
+10.  OTHER 
+A. CONSIDERATION:  NSBA Conference Attendance 
+As required by Board Policy B-2001, Workshops and Conferences, 
+“…expenditure of district fund s for members for out-of-state 
+meetings must have prior approval by resolution.”  Board Secretary, 
+Ms. Philippart, has indicated her desire to attend the National School 
+Boards Association’s Annual Fe deral Relations Network (FRN) 
+Conference, which will be held in Washington, D.C., from February 6 
+– 8, 2011. Troy Schools was one of six districts selected by Oakland 
+County School Board Association to receive a $500 scholarship as 
+reimbursement if a Board member attends this conference.  We, 
+therefore, ask you to consider the following resolution.   
+RECOMMENDED ACTION:  Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+   M o v e d  b y   
+   Supported by  
+Be it therefore resolved  that the Board of Education takes action to 
+approve Ms. Philippart’s attendance as  representative of the Troy Board of 
+Education at the National School Boards Association’s Annual Federal 
+Relations Network Conference in Wash ington, D.C., from February 6 - 8, 
+2011. 
+AYES      
+NAYES      
+182
+     10. B.       01.18.11 
+10. OTHER 
+ B. CONSIDERATION:    Schedule Special Board of Education 
+      Meeting for January 25, 2011   
+  In order to give each candidate  applying for the vacancy resulting 
+from the resignation of Carol Pochodylo from the B oard of 
+Education an opportunity to address his or her interest in serving 
+on the Board , it is necessary for the Board of Education to 
+schedule a Special Board Meeting on Tuesday, January 25, 2011.   
+RECOMMENDED ACTION:  Adopt the following resolution 
+SUGGESTED RESOLUTION 
+   Moved by  
+   Supported by  
+Be It Therefore Resolved that the Board of E ducation takes action to schedule 
+a Special Board of Education Meeting  on Tuesday, January 25, 2011 at 7:00 
+p.m. to be held in the Services Building. 
+Ayes:  
+Nayes:    
+183
+                              11. A. 1.18.11  
+11.  CLOSED SESSION 
+A. CONSIDERATION:  Negotiations 
+The Board must pass a resolution to go into closed session. 
+Following the passage of the resolu tion, the Board of  Education will 
+go into closed session.  No additional business will take place after 
+this time, other than to officially adjourn the meeting. 
+RECOMMENDED ACTION:  Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+   M o v e d  b y   
+   Supported by  
+Be it therefore resolved  that, as permitted in the Michigan Open Meetings 
+Act, Public Act 267, Section 8 (c), the Troy Board of Education shall go into 
+closed session to discuss negotiations. 
+Roll call vote.  
+Fleming 
+Hauff 
+Miletti 
+Philippart 
+Underwood 
+Edmunds 
+184

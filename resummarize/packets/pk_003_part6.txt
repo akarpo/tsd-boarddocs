@@ -1,0 +1,3837 @@
+OUNT
+A1003      284441   02/24/10 11422    MI ASSOC /SECONADAR 700071399718000  5000     02/24/10 CONF REGIS        0.00           480.00
+A1003      284444   02/24/10 21956    MI HISTORY          700010199393000  5000     HILL 4TH GRADE             0.00           128.00
+A1003      284453   02/24/10 10132    NANCY GURZICK       700071399732800  5000     AHS INTENSITY REIMB        0.00           114.73
+A1003      284465   02/24/10 12559    OTIS SPUNKMEYER INC 700071399524000  5000     ATHENS SCH STORE           0.00           186.08
+A1003      284469   02/24/10 19962    PRITBALA KOTHARI    700074399681000  5000     IAE BOOK FEES REFUN        0.00           150.00
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SM−XXLG UNISEX JERS        0.00            36.91
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SM−XXLG UNISEX JERS        0.00           111.85
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SM − XLG 50/50 OR 1        0.00             5.59
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SM−XLG SH. SL. 50/5        0.00           375.82
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     3 INCH OVAL BUTTONS        0.00           416.41
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     720 MARDI GRAS BEAD        0.00            22.35
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SM−XLG SHORT SLEEVE        0.00           264.24
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SCREEN CHARGES AND         0.00            61.24
+A1003      284484   02/24/10 24735    T SHIRT LADY (THE)  700071399702700  5000     SM−XLG SH. SL 50/50        0.00             5.59
+TOTAL CHECK                                                                                                    0.00         1,300.00
+A1003      284489   02/24/10 25866    TOEPEL−HARTZELL JAC 700074399347000  5000     IAE REIMB                  0.00           439.16
+A1003      284490   02/24/10 12238    TRI COUNTY CUSTOM S 700071399907800  5000     AHS GIRLS B’BALL TE        0.00           189.00
+A1003      284494   02/24/10 26095    UTICA RENT ALL INC  700502699667100  5000     NASA TABLE RENTAL          0.00           504.00
+A1003      284497   02/24/10 26193    WASS ELEMENTARY PTO 700014199667200  5000     SCI NITE REIMB             0.00           500.00
+TOTAL CASH ACCOUNT                                                                                             0.00        53,545.79
+TOTAL FUND                                                                                                     0.00        53,545.79
+160
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   56
+DATE: 03/04/2010                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:07:57                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’02/01/2010’ and ’02/28/2010’
+ACCOUNTING PERIOD:  9/10
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      283914   02/02/10 14673    DAVIES JANICE M     701070399700800  5000     REIMB THS P CASH           0.00            55.19
+A1003      284011   02/02/10 12238    TRI COUNTY CUSTOM S 701071399697100  5000     ATHENS BASKETBALLS         0.00           100.00
+A1003      284062   02/09/10 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR TROY         0.00           104.75
+A1003      284179   02/09/10 24735    T SHIRT LADY (THE)  701689699733500  5000     TRAIN SHOW APPARELL        0.00           137.00
+A1003      284273   02/16/10 22965    MACK JUDY           701051299697100  5000     REIMB SMITH P CASH         0.00            24.55
+A1003      284281   02/16/10 26122    M D W & ASSOCIATES  701150699999900  5000     FOCUS GRPS FINAL PY        0.00         6,500.00
+A1003      284351   02/24/10 19962    ALAN SOLVAY         701689699733500  5000     AUCTION PROCEEDS           0.00           109.60
+A1003      284360   02/24/10 19624    ATHENS ATHLETIC BOO 701689699733500  5000     AUCTION PROCEEDS           0.00           171.40
+A1003      284381   02/24/10 10505    COSTELLO HARDWARE I 701689699733500  5000     TRAIN SHOW                 0.00            33.27
+TOTAL CASH ACCOUNT                                                                                             0.00         7,235.76
+TOTAL FUND                                                                                                     0.00         7,235.76
+TOTAL REPORT                                                                                                   0.00     4,936,569.63
+161
+Troy School District, ACH Debits, February 2010
+Page 1
+J/E Number Budget Unit A/C Code Transaction Amount Transaction Description
+ACE02280 101200261030000 5510 $76.66 CONSUMERS FEB 10
+ACE02280 101203261030000 5510 $130.61 CONSUMERS FEB 10
+ACE02280 101206261030000 5510 $452.18 CONSUMERS FEB 10
+ACE02280 101214261030000 5510 $76.66 CONSUMERS FEB 10
+ACE02280 101941261000300 5510 $156.85 CONSUMERS FEB 10
+ACE02280 101941261000300 5510 $607.45 CONSUMERS FEB 10
+ACE02280 101941261000500 5510 $1,826.79 CONSUMERS FEB 10
+ACE02280 101941261000700 5510 $1,034.97 CONSUMERS FEB 10
+ACE02280 101941261000800 5510 $910.50 CONSUMERS FEB 10
+ACE02280 101941261001000 5510 $1,253.47 CONSUMERS FEB 10
+ACE02280 101941261001100 5510 $1,439.94 CONSUMERS FEB 10
+ACE02280 101941261001200 5510 $1,161.37 CONSUMERS FEB 10
+ACE02280 101941261001300 5510 $1,434.22 CONSUMERS FEB 10
+ACE02280 101941261001400 5510 $468.10 CONSUMERS FEB 10
+ACE02280 101941261001500 5510 $374.17 CONSUMERS FEB 10
+ACE02280 101941261001600 5510 $374.28 CONSUMERS FEB 10
+ACE02280 101941261001700 5510 $760.17 CONSUMERS FEB 10
+ACE02280 101941261005000 5510 $7,313.01 CONSUMERS FEB 10
+ACE02280 101941261005100 5510 $2,055.88 CONSUMERS FEB 10
+ACE02280 101941261005200 5510 $2,437.75 CONSUMERS FEB 10
+ACE02280 101941261005300 5510 $1,904.44 CONSUMERS FEB 10
+ACE02280 101941261007000 5510 $4,676.11 CONSUMERS FEB 10
+ACE02280 101941261007100 5510 $4,703.54 CONSUMERS FEB 10
+ACE02280 101941261007400 5510 $1,837.43 CONSUMERS FEB 10
+ACE02280 101941261009000 5510 $154.27 CONSUMERS FEB 10
+ACE02280 101941261009000 5510 $666.34 CONSUMERS FEB 10
+ACE02280 101941261015000 5510 $490.54 CONSUMERS FEB 10
+ACE02280 101941261016000 5510 $640.88 CONSUMERS FEB 10
+ACE02280 122207261020700 5510 $189.28 CONSUMERS FEB 10
+ACE02280 122883261030000 5510 $148.98 CONSUMERS FEB 10
+ACE02280 530201311030000 5510 $52.58 CONSUMERS FEB 10
+ACE02280 530211351030000 5510 $36.81 CONSUMERS FEB 10
+ACE02280 530213351030000 5510 $36.81 CONSUMERS FEB 10
+ADT02280 101200261030000 5520 $347.03 DTE CHARGES FEB 10
+ADT02280 101203261030000 5520 $591.23 DTE CHARGES FEB 10
+ADT02280 101206261030000 5520 $2,046.93 DTE CHARGES FEB 10
+ADT02280 101214261030000 5520 $347.03 DTE CHARGES FEB 10
+ADT02280 101942261000300 5520 $274.37 DTE CHARGES FEB 10
+ADT02280 101942261000500 5520 $2,115.79 DTE CHARGES FEB 10
+162
+Troy School District, ACH Debits, February 2010
+Page 2
+J/E Number Budget Unit A/C Code Transaction Amount Transaction Description
+ADT02280 101942261000700 5520 $1,665.08 DTE CHARGES FEB 10
+ADT02280 101942261000800 5520 $1,360.40 DTE CHARGES FEB 10
+ADT02280 101942261000900 5520 $10,291.89 DTE CHARGES FEB 10
+ADT02280 101942261001000 5520 $1,607.76 DTE CHARGES FEB 10
+ADT02280 101942261001100 5520 $1,996.93 DTE CHARGES FEB 10
+ADT02280 101942261001200 5520 $1,511.23 DTE CHARGES FEB 10
+ADT02280 101942261001300 5520 $1,378.50 DTE CHARGES FEB 10
+ADT02280 101942261001400 5520 $6,930.94 DTE CHARGES FEB 10
+ADT02280 101942261001500 5520 $6,480.96 DTE CHARGES FEB 10
+ADT02280 101942261001600 5520 $7,159.02 DTE CHARGES FEB 10
+ADT02280 101942261001700 5520 $1,969.76 DTE CHARGES FEB 10
+ADT02280 101942261005000 5520 $3,398.95 DTE CHARGES FEB 10
+ADT02280 101942261005100 5520 $1,646.17 DTE CHARGES FEB 10
+ADT02280 101942261005200 5520 $3,439.86 DTE CHARGES FEB 10
+ADT02280 101942261005300 5520 $2,910.62 DTE CHARGES FEB 10
+ADT02280 101942261007000 5520 $5,236.25 DTE CHARGES FEB 10
+ADT02280 101942261007100 5520 $11.85 DTE CHARGES FEB 10
+ADT02280 101942261007100 5520 $31.03 DTE CHARGES FEB 10
+ADT02280 101942261007100 5520 $4,832.91 DTE CHARGES FEB 10
+ADT02280 101942261007400 5520 $1,667.17 DTE CHARGES FEB 10
+ADT02280 101942261009000 5520 $163.37 DTE CHARGES FEB 10
+ADT02280 101942261009000 5520 $690.66 DTE CHARGES FEB 10
+ADT02280 101942261015000 5520 $627.33 DTE CHARGES FEB 10
+ADT02280 101942261016000 5520 $2,711.89 DTE CHARGES FEB 10
+ADT02280 101942261090000 5520 $181.01 DTE CHARGES FEB 10
+ADT02280 101942261090000 5520 $425.20 DTE CHARGES FEB 10
+ADT02280 101942261090000 5520 $1,158.90 DTE CHARGES FEB 10
+ADT02280 122207261020700 5520 $856.86 DTE CHARGES FEB 10
+ADT02280 122883261030000 5520 $135.18 DTE CHARGES FEB 10
+ADT02280 530201311030000 5520 $238.02 DTE CHARGES FEB 10
+ADT02280 530211351030000 5520 $166.61 DTE CHARGES FEB 10
+ADT02280 530213351030000 5520 $166.61 DTE CHARGES FEB 10
+$118,654.34 
+118,654.34 
+163
+Troy School District, Wire Transfers, February 2010
+Page 1
+J/E Number Budget Unit A/C Code Transaction Amount Transaction Description
+W0107004 101 A1003 $500,000.00 W-BNK TNSF-MILAF TO BOA
+W0107004 101 A1006 -$500,000.00 W-BNK TNSF-MILAF TO BOA
+W0201001 101 A1006 -$6,000,000.00 W-BNK TNSF MILAF TO CITZ
+W0201001 101 A1028 $6,000,000.00 W-BNK TNSF MILAF TO CITZ
+W0201002 304 A1016 -$6,868,319.64 W-BNK TNSF-MILAF TO 5/3
+W0201002 304 A1026 $6,868,319.64 W-BNK TNSF-MILAF TO 5/3
+W0201002 306 A1016 -$1,364,300.73 W-BNK TNSF-MILAF TO 5/3
+W0201002 306 A1026 $1,364,300.73 W-BNK TNSF-MILAF TO 5/3
+W0201002 307 A1016 -$979,014.47 W-BNK TNSF-MILAF TO 5/3
+W0201002 307 A1026 $979,014.47 W-BNK TNSF-MILAF TO 5/3
+W0201002 394 A1016 -$1,688,365.16 W-BNK TNSF-MILAF TO 5/3
+W0201002 394 A1026 $1,688,365.16 W-BNK TNSF-MILAF TO 5/3
+W0201002 681 A1025 $5,100,000.00 W-BNK TNSF-MILAF TO 5/3
+W0201002 681 A1800 -$5,100,000.00 W-BNK TNSF-MILAF TO 5/3
+W0201003 404 A1033 $8,000,000.00 W-BNK TNSF-MILAF TO CITZ
+W0201003 404 A1800 -$8,000,000.00 W-BNK TNSF-MILAF TO CITZ
+W0203001 101 A1003 -$17,933.05 W-AMERAPLAN TRANSFER
+W0203002 101 A1003 $1,300,000.00 W-BNK TNSF-CITZ TO BOA
+W0203002 101 A1028 -$1,300,000.00 W-BNK TNSF-CITZ TO BOA
+W0203003 101 A1028 $48,203.59 W-A/P
+W0203003 404 A1033 -$48,203.59 W-A/P
+W0205001 101 A1006 -$130.73 W-BNK TNF-GF TO DEBT
+W0205001 304 A1016 $19.62 W-BNK TNF-GF TO DEBT
+W0205001 306 A1016 $49.25 W-BNK TNF-GF TO DEBT
+W0205001 307 A1016 -$9.16 W-BNK TNF-GF TO DEBT
+W0205001 394 A1016 $71.02 W-BNK TNF-GF TO DEBT
+W0205002 101 A1003 -$1,916,563.85 W-PAYROLL
+W0205002 101 A1005 $15,891.15 W-PAYROLL
+W0205002 101 A1005 $1,900,672.70 W-PAYROLL
+W0205003 101 A1003 -$156,096.46 W-TSA'S
+W0205004 101 A1003 -$38,980.99 W-UNION DUES
+W0205006 101 A1003 -$590,743.02 W-BNK TRNSF-GF TO DEBT
+W0205006 304 A1026 $365,972.51 W-BNK TRNSF-GF TO DEBT
+W0205006 306 A1026 $109,503.58 W-BNK TRNSF-GF TO DEBT
+W0205006 307 A1026 $43,225.10 W-BNK TRNSF-GF TO DEBT
+W0205006 394 A1026 $72,041.83 W-BNK TRNSF-GF TO DEBT
+W0208001 101 A1003 -$889,820.32 W-PAYROLL TAXES
+W0210001 101 A1028 $47,562.91 W-A/P
+W0210001 404 A1033 -$47,562.91 W-A/P
+W0210002 101 A1003 $1,300,000.00 W-BNK TNSF-CITZ TO BOA
+W0210002 101 A1028 -$1,300,000.00 W-BNK TNSF-CITZ TO BOA
+164
+Troy School District, Wire Transfers, February 2010
+Page 2
+J/E Number Budget Unit A/C Code Transaction Amount Transaction Description
+W0210004 101 A1003 -$48,772.13 W-AMERAPLAN TRANSFER
+W0211001 101 A1003 -$9,555.13 W-XPRESS SCRIPTS BILLS
+W0211002 101 A1003 -$702,222.68 W-BNK TNSF-GF TO DEBT
+W0211002 304 A1026 $435,035.51 W-BNK TNSF-GF TO DEBT
+W0211002 306 A1026 $130,168.11 W-BNK TNSF-GF TO DEBT
+W0211002 307 A1026 $51,382.15 W-BNK TNSF-GF TO DEBT
+W0211002 394 A1026 $85,636.91 W-BNK TNSF-GF TO DEBT
+W0212001 101 A1003 -$2,000,000.00 W-BNK TNSF-BOA TO CITZENS
+W0212001 101 A1028 $2,000,000.00 W-BNK TNSF-BOA TO CITZENS
+W0212001 520 A1013 -$180,000.00 W-BNK TNSF-BOA TO CITZENS
+W0212001 520 A1030 $180,000.00 W-BNK TNSF-BOA TO CITZENS
+W0212001 530 A1002 -$70,000.00 W-BNK TNSF-BOA TO CITZENS
+W0212001 530 A1029 $70,000.00 W-BNK TNSF-BOA TO CITZENS
+W0216001 101 A1003 $78,798.90 W-TSS CHRGS PED 1-30 SUBS
+W0216002 101 A1003 -$13,859.02 W-TSS CHRGS PED 1-30 TCC
+W0216003 101 A1003 -$60,238.87 W-TSS CHRGS PED 1-30 ADMI
+W0217001 101 A1003 -$12,283.03 W-XPRESS SCRIPT BILL
+W0217002 101 A1003 -$17,994.33 W-AMERAPLAN ADMIN FEE
+W0217003 101 A1003 -$27,110.98 W-AMERAPLAN TRANSFER
+W0218001 101 A1003 -$7,573.21 W-BNK TRANSFER-WIA
+W0218001 129 A1008 $7,573.21 W-BNK TRANSFER-WIA
+W0219001 101 A1003 -$4,500,000.00 W-BNK TNSF- BOA TO CITIZE
+W0219001 101 A1028 $4,500,000.00 W-BNK TNSF- BOA TO CITIZE
+W0219002 101 A1003 -$2,048,391.50 W-BNK TNSF- GF TO DEBT
+W0219002 304 A1026 $1,269,003.52 W-BNK TNSF- GF TO DEBT
+W0219002 306 A1026 $379,701.84 W-BNK TNSF- GF TO DEBT
+W0219002 307 A1026 $149,882.30 W-BNK TNSF- GF TO DEBT
+W0219002 394 A1026 $249,803.84 W-BNK TNSF- GF TO DEBT
+W0219003 101 A1003 -$38,908.74 W-UNION DUES
+W0219004 101 A1003 -$1,917,567.59 W-PAYROLL
+W0219004 101 A1005 $15,627.30 W-PAYROLL
+W0219004 101 A1005 $1,901,940.29 W-PAYROLL
+W0219005 101 A1003 -$155,114.57 W-TSA'S
+W0222001 101 A1003 -$896,397.99 W-PAYROLL TAXES
+W0223001 101 A1003 $2,000,000.00 W-BANK TRNSF-MILAF TO BOA
+W0223001 101 A1006 -$2,000,000.00 W-BANK TRNSF-MILAF TO BOA
+W0223002 520 A1030 -$325,694.09 W-VNDR PAY'T- SODEXO
+W0224001 101 A1003 -$20,463.74 W-AMERAPLAN TRANSFER
+W0225001 101 A1028 $20,012.88 W-A/P
+W0225001 404 A1033 -$20,012.88 W-A/P
+W0225002 101 A1003 -$647,559.07 W-BANK TRNSF-GF TO DEBT
+165
+Troy School District, Wire Transfers, February 2010
+Page 3
+J/E Number Budget Unit A/C Code Transaction Amount Transaction Description
+W0225002 304 A1026 $401,170.74 W-BANK TRNSF-GF TO DEBT
+W0225002 306 A1026 $120,035.34 W-BANK TRNSF-GF TO DEBT
+W0225002 307 A1026 $47,382.37 W-BANK TRNSF-GF TO DEBT
+W0225002 394 A1026 $78,970.62 W-BANK TRNSF-GF TO DEBT
+W0226001 101 A1003 -$185,777.02 W-VRIP PAYMENT
+W0226002 101 A1003 -$14,564.98 W-TSS CHRGS PED 2-15 TCC
+W0226003 101 A1003 -$56,789.91 W-TSS CHRGS PED 2-15  ADM
+W0226004 101 A1003 -$312.50 W-TSS CHGS PED 2-15  REIM
+W0226005 101 A1003 $164,368.13 W-TSS CHGS PED 2-15  SUBS
+-$2,743,500.82 
+166
+ 5. D. 03.16.10 
+ 
+ 
+5. GENERAL - CONSENT 
+ 
+ D.  AWARDING OF BID RENEWAL OF ANTI-VIRUS 
+SOFTWARE LICENSES 
+ 
+ Invitations to bid were sent to 6 potential bidders  with 3 
+responding (none of which were “No Bid”).  The resp onses 
+were reviewed with Mr. Scott Bryan, Director of 
+Technology, and it is recommended the bid be awarde d as 
+stated below. 
+ 
+ 
+ RECOMMENDED ACTION:  Accept the resolution below. 
+ 
+SUGGESTED RESOLUTION 
+ 
+ 
+ Moved by:   
+ 
+ Supported by: 
+ 
+ 
+ Be it therefore resolved  that the bid for renewal of anti-virus 
+software licenses be awarded to Networks Group in the amount 
+of $107,346.47 and that this amount be approved as 
+expenditures of the 2009-2010, 2010-2011, 2011-2012 . 2012-
+2013 and 2013-2014 General Funds. 
+ 
+ 
+ Ayes: 
+ 
+ Nays: 
+167
+Technology Resource Center Scott Bryan, Director of Technology 
+4420 Livernois Phone No. 248-823-5090 
+Troy, Michigan 48098 Fax No.  248-823-5050 
+ 
+MEMORANDUM  
+ 
+To: Mike Adamczyk, Assistant Superintendent, Business Services 
+From: Scott Bryan, Director of Technology 
+Date: March 16, 2010 
+Re: Anti-Virus software license purchase 
+Cc: Frank Lams, Purchasing Supervisor 
+ 
+On March 1, 2010, the Technology Department issued a bid for financing the renewal of software licenses 
+for Trend Micro anti-virus products for five years, to protect district desktops, servers, storage, and email 
+systems.  Bids were opened on March 15. 
+ 
+Three bids were received, with two being identically priced at $119,273.85 for the five year term.  Upon 
+negotiation with both low bid vendors, a further discount was extended to the District to purchase outright 
+instead of financing.  An equal 10% discount was offered by each of the low bidders, for a total of 
+$107,346.47.  As Frank Lams and I discussed with you, the District is permitted by law to consider 
+companies with headquarters in Michigan as a determining factor for selecting a bidder.  Based on this and 
+on positive reference checks of the bidder, I recommend that this project be awarded to Networks Group, 
+Inc., in the amount of $107,346.47.  I have attached a copy of their updated offer to this memo. 
+ 
+This item requires Board action due to the dollar amount of the purchase; please place this on the March 16, 
+2010 agenda.  Thank you for your attention to this matter. 
+Barbara A. Fowler, Ph.D., Superintendent of Schools 
+168
+Troy School District
+Anti-Virus Software
+Bid 9663
+Qty Description Trend Part #
+BASE  Unit Cost Total
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+5001 EBNA0007 3.77                     18,853.77       
+5001 SPNA0028 1.00                     5,001.00         
+500 PCNA0168 -                       -                    
+RENEWAL
+5001 EBRA0007 3.77      18,853.77      3.77      18,853.77      3.77      18,853.77      3.77      18,853.77      
+5001 SPRA0028 1.00      5,001.00        1.00      5,001.00        1.00      5,001.00        1.00      5,001.00        
+500 PCRA0122 -        -                   -        -                   -        -                   -        -                   
+BASE FIVE YR. TOTAL
+Extended discount for up front purchase of 5 years 
+(10% discount)
+Special pricing (expires 3/31/2010)
+ALTERNATE:
+6500 EBNA0007 3.77                     24,505.00       
+6500 SPNA0028 1.00                     6,500.00         
+ALTERNATE RENEWAL:
+6500 EBRA0007 3.77      24,505.00      3.77      24,505.00      3.77      24,505.00      3.77      24,505.00      
+6500 SPRA0028 1.00      6,500.00        1.00      6,500.00        1.00      6,500.00        1.00      6,500.00        
+ALT. FIVE YR. TOTAL
+Interest Rate -             -             -             -             
+BASE + ALT 5 YR. TOTAL
+Corporate Technologies:  No Response
+Network Source One Inc.:  No Response
+Pomeroy IT Solutions:  No Response
+(11,927.38)
+107,346.47
+ServerProtect - 
+MultiStorage
+Year 4 Year 5
+Networks Group Inc.
+Trend Micro Internet 
+Security
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+ServerProtect - 
+MultiStorage
+ Year 1  Year 2 Year 3
+Enterprise Security for 
+Endpoints & Mail Server
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+274,298.85
+Trend Micro Internet 
+SecurityEnterprise Security for 
+Endpoints & Mail Server
+119,273.85
+155,025.00
+id21515218 pdfMachine by Broadgun Software  - a great PDF writer!  - a great PDF creator! - http://www.pdfmachine.com  http://www.broadgun.com 
+169
+Troy School District
+Anti-Virus Software
+Bid 9663
+Qty Description Trend Part #
+BASE
+5001 EBNA0007
+5001 SPNA0028
+500 PCNA0168
+RENEWAL
+5001 EBRA0007
+5001 SPRA0028
+500 PCRA0122
+BASE FIVE YR. TOTAL
+Extended discount for up front purchase of 5 years 
+(10% discount)
+Special pricing (expires 3/31/2010)
+ALTERNATE:
+6500 EBNA0007
+6500 SPNA0028
+ALTERNATE RENEWAL:
+6500 EBRA0007
+6500 SPRA0028
+ALT. FIVE YR. TOTAL
+Interest Rate
+BASE + ALT 5 YR. TOTAL
+Corporate Technologies:  No Response
+Network Source One Inc.:  No Response
+Pomeroy IT Solutions:  No Response
+ServerProtect - 
+MultiStorage
+Trend Micro Internet 
+Security
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+Trend Micro Internet 
+Security
+Enterprise Security for 
+Endpoints & Mail Server
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+3.77      18,853.77       
+1.00      5,001.00         
+-        -                    
+-                    3.77      18,853.77    3.77    18,853.77     3.77    18,853.77     3.77    18,853.77     
+-                    1.00      5,001.00      1.00    5,001.00       1.00    5,001.00       1.00    5,001.00       
+-                    -        -                -      -                 -      -                 -      -                 
+3.77      24,505.00       -                 
+1.00      6,500.00         -                 
+-                 
+3.77      24,505.00    3.77    24,505.00     3.77    24,505.00     3.77    24,505.00     
+1.00      6,500.00      1.00    6,500.00       1.00    6,500.00       1.00    6,500.00       
+-          -           -           -           
+Year 5
+CDW Government LLC
+ Year 1  Year 2 Year 3 Year 4
+274,298.85
+119,273.85
+155,025.00
+170
+Troy School District
+Anti-Virus Software
+Bid 9663
+Qty Description Trend Part #
+BASE
+5001 EBNA0007
+5001 SPNA0028
+500 PCNA0168
+RENEWAL
+5001 EBRA0007
+5001 SPRA0028
+500 PCRA0122
+BASE FIVE YR. TOTAL
+Extended discount for up front purchase of 5 years 
+(10% discount)
+Special pricing (expires 3/31/2010)
+ALTERNATE:
+6500 EBNA0007
+6500 SPNA0028
+ALTERNATE RENEWAL:
+6500 EBRA0007
+6500 SPRA0028
+ALT. FIVE YR. TOTAL
+Interest Rate
+BASE + ALT 5 YR. TOTAL
+Corporate Technologies:  No Response
+Network Source One Inc.:  No Response
+Pomeroy IT Solutions:  No Response
+ServerProtect - 
+MultiStorage
+Trend Micro Internet 
+Security
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+ServerProtect - 
+MultiStorage
+Enterprise Security for 
+Endpoints & Mail Server
+Trend Micro Internet 
+Security
+Enterprise Security for 
+Endpoints & Mail Server
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+ Unit 
+Cost  Total 
+15.50    77,515.50      
+5.00      25,005.00      
+7.50      3,750.00        
+7.00    35,007.00     7.00    35,007.00     7.00    35,007.00        7.00 35,007.00     
+1.75    8,751.75       1.75    8,751.75       1.75    8,751.75          1.75 8,751.75       
+3.45    1,725.00       3.45    1,725.00       3.45    1,725.00          3.45 1,725.00       
+15.40    100,100.00    
+4.90      31,850.00      
+6.90    44,850.00     6.90    44,850.00     6.90    44,850.00        6.90 44,850.00     
+1.65    10,725.00     1.65    10,725.00     1.65    10,725.00        1.65 10,725.00     
+-  -           -  -           -       -   -           
+Dell Marketing
+ Year 1  Year 2 Year 3 Year 4 Year 5
+354,250.00
+642,455.50
+288,205.50
+171
+Date: 03/16/10
+Prepared by: Paul Alexander
+E-mail: palexander@networksgroup.com
+Company: Troy School District
+Cell # 810-599-6607 Attn: Scott Bryan
+Suite 200 Fax: 734-827-1401 Address:  4400 Livernois Road
+Ann Arbor, Michigan 48104 http://www.networksgroup.com City, St. Zip : Troy, Michigan 48098 
+Telephone:  (248) 823-4000
+Quote #: TSD-31610-TMS-60M
+ Email: Sbryan2@troy.k12.mi.us
+TSD-31610-TMS-60M
+PRODUCTS/SERVICES
+Qty Item MSRP Annual Unit  Price 5 Year Extension
+Trend Micro Enterprise Anti-Virus Solution
+5001 EBNI0007/ Trend Micro Enterprise Security for Endpoints, Mail Servers for 5001U. $366,023.19 $3.77 $94,268.85
+EBRA0007 Includes 60 months technical phone support during normal business hours,
+minor patches, and product enhancements. Length of contract: 60 Months
+ 
+EBNI0007 - New Product Purchase (Includes 1st year support)
+EBRA0007 - 4Yrs of Product Support 
+Trend Micro ServerProtect Multi-Storage
+5001 SPNA0028/ Trend Micro ServerProtect Multi-Storage for up to 5001 users. Includes $73,264.64 $1.00 $25,005.00
+SPRA0028 60 months technical phone support during normal business hours,
+minor patches, and product enhancements. Length of contract: 60 Months
+ 
+SPNA0028 - New Product Purchase (Includes 1st year support)
+SPRA0028 - 4Yrs of Product Support 
+Trend Micro Internet Security - 2010 
+500 PCNA0168 / Trend Micro Internet Security License - 2010 version for up to 500 users $35,975.00 Included Included
+PCRA0122
+PCNA0168 - New Product Purchase (Includes 1st year support)
+PCRA0122 - 4Yrs of Product Support 
+Subtotal 5 year Option $475,262.83 Sub Total $119,273.85
+       Extended discount for up front purchase of 5 years (10% discount) ($11,927.38) ($11,927.38)
+Educational Savings: ($367,937.83)
+Special Pricing Expires 3/31/2010 -----------------Total Savings: ($379,865.21)
+1 NWG-TT-AREA4 Travel Time (within 75-Mile Radius) N/A
+1 NWG-SH-AREA4 Shipping and Handling N/A
+Total $107,346.47
+Notes:
+1 Payment Terms: Net 30 Days from Invoice date.
+2 Upon completion of transaction, prices above are valid for term of agreement.
+3 Quote valid thru March 31, 2010.
+Authorized by:
+Signature
+Print Name Date Customer PO Number
+Customer Acceptance:
+Above signature will constitute authorized Purchase Order
+Description
+100 South Main Street
+Copyright 2010, NetWorks Group. All Rights Reserved.
+Subject to Non-Disclosure Agreement / Confidential
+172
+173
+174
+         7. A.      03.16.10 
+ 
+ 
+ 
+7.   CURRICULUM       
+ 
+ 
+ A. Elementary Reading Program  
+ 
+The elementary reading program has undergone extensive review and 
+revision, beginning in the 2006/07 school year.  As we approach full 
+implementation of the revised reading instructional program in grades 
+kindergarten through 5 th , we would like to take this opportunity to 
+share the process and changes in elementary reading instruction.  The 
+committee was co-chaired by principals Janice Brzezinski from Hill and 
+Lois Byrne from Martell and teachers Dr. Karen Reese from Morse and 
+Trudi Motzenbecker from Wattles.  Dr. Reese and Mrs. Motzenbecker 
+will make the presentation tonight to share the revisions developed by 
+a large committee of teachers working collaboratively during the last 
+three years.  
+ 
+_________________________________________________________________ 
+Recommended Action:  Introduce Dr. Reese and Mrs. Motzenbecker  
+ 
+ 
+175
+176
+Jennifer Anderson Heidi Apol Marianne Belleville 
+Stacey Beloungea Scott Binford Karen Bush 
+Janice Brzezinski Lois Byrne Ellen Cale 
+Jason Cichowicz Dikki CieChanski Gail Cowger 
+Julie Dagenais Sue Delbeke Jason Fawcett 
+Sheryl Fragomeni Deanna Francis Nicole Given 
+Holly Gordon Rhona Gorosh Nancy Haboush 
+Karla Hebert Jane Held Natalie Jagels 
+Holly Gordon Rhona Gorosh Nancy Haboush 
+Karla Hebert Jane Held Natalie Jagels 
+Karen Jakinovich Krista Ketner Dawn Klemp 
+Charla Lau Jane McKenney Megan Mittelstaedt 
+Trudi Motzenbecker Beth Newingham Tracy Oliver 
+Tammy Polena Karen Reese Kyle Rogers 
+Angela Sennott Kim Smiley Mary Thomas 
+Val Thudium Rose Udicki Lori Ulewicz 
+Kathy VanDerWorp Liz Waters Joe Youanes 
+177
+/triangle45rightWe believe We believe We believe We believe that that that that reading reading reading reading is the process of constructing is the process of constructing is the process of constructing is the process of constructing 
+meaning through the dynamic interaction among the meaning through the dynamic interaction among the meaning through the dynamic interaction among the meaning through the dynamic interaction among the 
+reader’s existing knowledge, the information suggested by reader’s existing knowledge, the information suggested by reader’s existing knowledge, the information suggested by reader’s existing knowledge, the information suggested by 
+the text and the context of the reading situation. the text and the context of the reading situation. the text and the context of the reading situation. the text and the context of the reading situation. 
+/triangle45rightWe believe all students can be independent, life long We believe all students can be independent, life long We believe all students can be independent, life long We believe all students can be independent, life long 
+readers. readers. readers. readers. 
+/triangle45rightWe believe all students can be independent, life long We believe all students can be independent, life long We believe all students can be independent, life long We believe all students can be independent, life long 
+readers. readers. readers. readers. 
+/triangle45rightWe believe every student’s reading ability develops We believe every student’s reading ability develops We believe every student’s reading ability develops We believe every student’s reading ability develops 
+continuously and can be divided into predictable stages. continuously and can be divided into predictable stages. continuously and can be divided into predictable stages. continuously and can be divided into predictable stages. 
+/triangle45rightWe believe all students deserve instruction We believe all students deserve instruction We believe all students deserve instruction We believe all students deserve instruction by instructors by instructors by instructors by instructors 
+trained in best practice trained in best practice trained in best practice trained in best practice.
+178
+/triangle45rightProvide consistency of elementary reading Provide consistency of elementary reading Provide consistency of elementary reading Provide consistency of elementary reading 
+instruction throughout the district instruction throughout the district instruction throughout the district instruction throughout the district 
+/triangle45rightEstablish a common assessment to ensure Establish a common assessment to ensure Establish a common assessment to ensure Establish a common assessment to ensure /triangle45rightEstablish a common assessment to ensure Establish a common assessment to ensure Establish a common assessment to ensure Establish a common assessment to ensure 
+student reading needs are addressed student reading needs are addressed student reading needs are addressed student reading needs are addressed 
+/triangle45rightProvide the Troy School District elementary Provide the Troy School District elementary Provide the Troy School District elementary Provide the Troy School District elementary 
+teachers with a deeper understanding of teachers with a deeper understanding of teachers with a deeper understanding of teachers with a deeper understanding of 
+best practice reading instruction best practice reading instruction best practice reading instruction best practice reading instruction 
+179
+/triangle45rightDetermined current state of Troy School District Determined current state of Troy School District Determined current state of Troy School District Determined current state of Troy School District 
+rr rreading eading eading eading ii iinstruction nstruction nstruction nstruction 
+/circle3Troy did not have a comprehensive written reading Troy did not have a comprehensive written reading Troy did not have a comprehensive written reading Troy did not have a comprehensive written reading 
+curriculum curriculum curriculum curriculum 
+/circle3A wide variety of texts were being utilized A wide variety of texts were being utilized A wide variety of texts were being utilized A wide variety of texts were being utilized /circle3A wide variety of texts were being utilized A wide variety of texts were being utilized A wide variety of texts were being utilized A wide variety of texts were being utilized 
+(Scholastic/Houghton (Scholastic/Houghton (Scholastic/Houghton (Scholastic/Houghton-- --Mifflin anthology, trade Mifflin anthology, trade Mifflin anthology, trade Mifflin anthology, trade 
+books/literacy libraries, Making Meaning in a few books/literacy libraries, Making Meaning in a few books/literacy libraries, Making Meaning in a few books/literacy libraries, Making Meaning in a few 
+buildings) buildings) buildings) buildings) 
+/circle3Assessment:  Assessment:  Assessment:  Assessment:  Kdg Kdg Kdg Kdg –– –– 22 22nd nd nd nd grades were using the TLA; no grades were using the TLA; no grades were using the TLA; no grades were using the TLA; no 
+commonality among 3 commonality among 3 commonality among 3 commonality among 3 rd rd rd rd –– –– 55 55th th th th grades across the district grades across the district grades across the district grades across the district 
+/circle3A variety of teaching approaches were being used with a A variety of teaching approaches were being used with a A variety of teaching approaches were being used with a A variety of teaching approaches were being used with a 
+limited understanding of “best practice” limited understanding of “best practice” limited understanding of “best practice” limited understanding of “best practice” 
+180
+/triangle45rightResearched best practice Researched best practice Researched best practice Researched best practice 
+instructional approaches instructional approaches instructional approaches instructional approaches 
+◦Richard Richard Richard Richard Allington’s Allington’s Allington’s Allington’s 6 Ts  ( 6 Ts  ( 6 Ts  ( 6 Ts  ( 
+Classrooms That Classrooms That Classrooms That Classrooms That 
+Work) Work) Work) Work) 
+/circle3Time Time Time Time /circle3Time Time Time Time 
+/circle3Texts Texts Texts Texts 
+/circle3Teaching Teaching Teaching Teaching 
+/circle3Talk Talk Talk Talk 
+/circle3Tasks Tasks Tasks Tasks 
+/circle3Testing Testing Testing Testing 
+181
+◦Lucy Calkins Workshop Approach Lucy Calkins Workshop Approach Lucy Calkins Workshop Approach Lucy Calkins Workshop Approach 
+(The Art of (The Art of (The Art of (The Art of 
+Teaching Reading) Teaching Reading) Teaching Reading) Teaching Reading) 
+/circle3Explicit whole group and individualized instruction
+◦Irene Irene Irene Irene Fountas Fountas Fountas Fountas & Guy Su & Guy Su & Guy Su & Guy Su Pinnell Pinnell Pinnell Pinnell 
+/circle3Continuum of literacy learning 
+◦Ellen Oliver Keene & Susan Zimmerman Ellen Oliver Keene & Susan Zimmerman Ellen Oliver Keene & Susan Zimmerman Ellen Oliver Keene & Susan Zimmerman 
+(Mosaic of (Mosaic of (Mosaic of (Mosaic of 
+Thought) Thought) Thought) Thought) 
+/circle3“ …learning to read depends on two critical factors:  the 
+teacher’s thorough understanding of the reading process 
+itself, and his/her determination to understand and 
+respond to each child’s needs as a reader.” 
+182
+/triangle45rightDesignated Reading Workshop as our Designated Reading Workshop as our Designated Reading Workshop as our Designated Reading Workshop as our 
+Instructional Approach: Instructional Approach: Instructional Approach: Instructional Approach: 
+/circle3Explicit teaching and modeling with a single focus Explicit teaching and modeling with a single focus Explicit teaching and modeling with a single focus Explicit teaching and modeling with a single focus 
+/circle3Active engagement of students through guided Active engagement of students through guided Active engagement of students through guided Active engagement of students through guided /circle3Active engagement of students through guided Active engagement of students through guided Active engagement of students through guided Active engagement of students through guided 
+practice practice practice practice 
+/circle3Independent practice using text that students can read Independent practice using text that students can read Independent practice using text that students can read Independent practice using text that students can read 
+/circle3Allows teacher to monitor and address individual  Allows teacher to monitor and address individual  Allows teacher to monitor and address individual  Allows teacher to monitor and address individual  
+student learning needs student learning needs student learning needs student learning needs 
+183
+/triangle45rightSelected instructional materials to pilot Selected instructional materials to pilot Selected instructional materials to pilot Selected instructional materials to pilot 
+184
+/triangle45rightEstablished curriculum goals 
+/circle3Designated specific grade level reading goals (Reader’s 
+Profile) aligned to the GLCEs to guide instructional 
+decisions decisions 
+/circle3Wrote reading goals as personal student goals (“I Can” 
+statements) 
+/circle3Determined grade level units of study aligned to the 
+GLCEs 
+185
+/triangle45rightSelected a common reading assessment for 
+grades Kdg – 5th (Fountas and Pinnell)
+/triangle45rightPlanned 2008-2009 staff development to 
+develop understanding of best practice 
+instructional approaches as well as of 
+balanced literacy balanced literacy 
+/triangle45rightSelected Kdg – 5th read-aloud materials to 
+ensure continuity of comprehension 
+instruction, terminology and approach 
+(Making Meaning)    
+186
+/triangle45rightCurriculum writing 
+/triangle45rightPilot of Fountas and Pinnell assessment 
+/triangle45rightDeveloped Kdg – 5th grade PD series: /triangle45rightDeveloped Kdg – 5th grade PD series: 
+/circle3
+Making Meaning: focused development of specific 
+comprehension skills. 
+/circle3
+Fountas and Pinnell assessment training 
+/circle3
+Accountable talk 
+/circle3
+Small group instruction 
+/circle3
+Reading workshop 
+187
+/triangle45rightKindergarten Kindergarten Kindergarten Kindergarten: Marianne Belleville, Dikki CieChanski, 
+Nicole Given, Trudi Motzenbecker, Mary Thomas 
+/triangle45rightFirst Grade First Grade First Grade First Grade: Jennifer Anderson, Ellen Cale, Krista Ketner,
+Karen Reese 
+/triangle45rightSecond Grade Second Grade Second Grade Second Grade:  Erin Detmer, Holly Gordon, 
+Natalie Haezebrouck , Kylie Wood Natalie Haezebrouck , Kylie Wood 
+/triangle45rightThird Grade Third Grade Third Grade Third Grade: Scott Binford, Karen Bush, Beth 
+Newingham, Val Thudium 
+/triangle45rightFourth Grade Fourth Grade Fourth Grade Fourth Grade: Scott Francis, Karla Hebert, Dawn Klemp,
+Angela Sennott 
+/triangle45rightFifth Grade Fifth Grade Fifth Grade Fifth Grade: Jason Fawcett, Jayne Kelly, Tammy Polena 
+188
+189
+ 
+                   
+ 
+ 
+SEPT. OCT. NOV. DEC. JAN. FEB. MAR. APR. MAY JUNE 
+K 
+Supporting 
+Emergent Reading  
+through Reading 
+Workshop 
+Launching  
+Building 
+comprehension/ 
+accountable talk  
+Moving into 
+conventional reading  Non-fiction  Poetry 
+ 
+Planning 
+for 
+Summer 
+Reading  
+1 
+ 
+ 
+Launching  
+ 
+Supporting 
+Early Reading  
+Readers Build 
+Strategies to 
+Retell  
+ 
+Building 
+comprehension/ 
+Character study 
+ 
+ 
+Non-fiction  
+ 
+ 
+Planning for  
+Summer Reading  
+DRAFT     TROY SCHOOL DISTRICT READING CURRICULUM UNITS OF  STUDY    DRAFT  
+/triangle45rightThe Units of Study 
+1 Launching  Early Reading  Retell  comprehension/ 
+accountable talk   
+Summer Reading  
+2 
+ 
+ 
+Launching 
+Fiction   
+Building comprehension and 
+fluency  
+ 
+Author Study/Story 
+Elements/Character 
+Study  
+ 
+Genre  
+study - 
+Poetry & 
+Legends 
+ 
+ 
+Nonfiction/ 
+Research  
+Test Prep /  
+Planning  
+for Summer 
+ Reading  
+3 
+ 
+Launching/  
+Test Prep  
+ 
+     Fiction 
+ 
+Mystery 
+Book Clubs  
+Poetry  
+Non-
+fiction  
+ 
+Partnerships  
+ Author Study  
+ 
+Research  
+Planning for    
+Summer  
+Reading  
+4 
+ 
+Launching/  
+Test Prep 
+ 
+Fiction Biography  
+Poetry 
+ 
+Non-fiction  
+ 
+ 
+ 
+Fantasy/Legend/Myth/  
+Adventure 
+Author 
+Study  
+ 
+Planning  
+for Summer  
+Reading 
+ 
+5 
+Launching/  
+Test Prep 
+ 
+Nonfiction 
+ 
+Fiction 
+ 
+Genre Book Clubs 
+ 
+Author 
+Study  
+Planning for 
+Summer  
+Reading 
+Revised 1/18/10 
+190
+/triangle45rightOngoing Professional Development provided 
+to all Kdg. – 5th grade instructional staff 
+/circle3Conducted by committee members 
+/circle3Focused on individual curriculum units as well as best 
+practice instructional approaches 
+/triangle45rightUsing a PLC model, we have collected 
+feedback from the Troy teachers as they have 
+been implementing the units of study for use 
+in enhancing/revising the lessons 
+191
+/triangle45rightRevision of curriculum during summer of 
+2010 
+Editing of final curriculum to ensure: /triangle45rightEditing of final curriculum to ensure: 
+/circle3Vertical and horizontal alignment of skills 
+/circle3Alignment of reading and writing units to provide 
+most effective sequence of instruction 
+192
+/triangle45rightContinuation of professional development 
+series to build Troy teaching staffs’ 
+understanding of effective reading 
+instructional approaches 
+/triangle45rightWrite Kdg – 5th grade Word Study curriculum 
+component 
+193
+Read 
+Aloud 
+Reading 
+Workshop 
+Word 
+Study 
+Writing 
+Workshop 
+194
+
+ 
+ 
+                   
+ 
+ SEPT. OCT. NOV. DEC. JAN. FEB. MAR. APR. MAY JUNE 
+K 
+Supporting 
+Emergent Reading  
+through Reading 
+Workshop 
+Launching  
+Building 
+comprehension/ 
+accountable talk  
+Moving into 
+conventional reading  Non-fiction  Poetry 
+ 
+Planning 
+for 
+Summer 
+Reading  
+1 
+ 
+ 
+Launching 
+ 
+Supporting 
+Early Reading 
+Readers Build 
+Strategies to 
+Retell 
+ 
+Building 
+comprehension/ 
+accountable talk 
+Character study 
+ 
+ 
+Non-fiction  
+ 
+ 
+Planning for  
+Summer Reading 
+2 
+ 
+ 
+Launching 
+Fiction   
+Building comprehension and 
+fluency  
+ 
+Author Study/Story 
+Elements/Character 
+Study  
+ 
+Genre 
+study - 
+Poetry & 
+Legends 
+ 
+ 
+Nonfiction/ 
+Research  
+Test Prep /  
+Planning  
+for Summer 
+ Reading  
+3 
+ 
+Launching/  
+Test Prep  
+ 
+     Fiction 
+ 
+Mystery 
+Book Clubs  
+Poetry  
+Non-
+fiction  
+ 
+Partnerships  
+ Author Study  
+ 
+Research  
+Planning for    
+Summer  
+Reading  
+4  
+ 
+Launching/  
+Test Prep 
+ 
+Fiction Biography  
+Poetry 
+ 
+Non-fiction  
+ 
+ 
+ 
+Fantasy/Legend/Myth/ 
+ 
+Adventure 
+Author 
+Study  
+ 
+Planning  
+for Summer  
+Reading 
+ 
+5 
+Launching/  
+Test Prep 
+ 
+Nonfiction 
+ 
+Fiction 
+ 
+Genre Book Clubs 
+ 
+Author 
+Study  
+Planning for 
+Summer  
+Reading 
+Revised 1/18/10 
+DRAFT     TROY SCHOOL DISTRICT READING CURRICULUM UNITS OF STUDY    DRAFT  
+196
+DRAFT DRAFT DRAFT DRAFT Reader Profile for Grade One (Levels D/4-E/7) DRAFT DRAFT DRAFT DRAFT  
+8/18/09 Troy School District Reading Committee                                                             1 
+ 
+Self -Monitoring   
+Students will… 
+ 
+1.  Track print with eyes and use finger only at point of difficulty, left to 
+right. 
+ 
+2.  Know a core of high-frequency words (18-30) that can be read 
+automatically and can be used to self-monitor, using word parts and letter-
+sound information. 
+ 
+3.  Read familiar texts with fluency, phrasing and at least 98% accuracy. 
+ 
+ 
+4.  Monitor for all sources of information during reading:  checking to make 
+sure what has been read makes sense, sounds right and looks right. 
+ 
+ 
+5.  Reread to problem solve, correct, or confirm. 
+ 
+ 
+ 
+6.  Reread to search for information. 
+ 
+7.  Recognize and use word parts (onsets and rimes) to solve words while 
+reading 
+ 
+ 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.  I can follow the words with my eyes and use my finger 
+when I get to a word I don’t know. 
+ 
+2.  I can read many high-frequency words quickly and read a 
+new word by pointing and sliding my index finger through 
+the word blending the sounds of the letters I know. 
+ 
+3.  I can read familiar books like I’m talking, with good 
+phrasing and fluency. 
+ 
+4.  I can monitor my reading to make sure what I have read 
+makes sense, sounds right, and looks right. 
+ 
+ 
+5.  I can recognize an error I make when I am reading and I 
+go back, slow down, and correct my error so that it 
+makes sense.  
+ 
+6.  I can reread to search for information. 
+ 
+7.  I can recognize and use word families to decode unknown 
+words. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+197
+DRAFT DRAFT DRAFT DRAFT Reader Profile for Grade One (Levels D/4-E/7) DRAFT DRAFT DRAFT DRAFT  
+8/18/09 Troy School District Reading Committee                                                             2 
+Comprehension -Thinking within the text  
+Students will… 
+ 
+1.  Notice details in pictures and use information to understand the text.  
+ 
+ 
+2.  Notice, search for, remember, and discuss information that is important to 
+understanding.  
+ 
+3.  Recall a series of events in order.  
+ 
+4.  Provide an oral summary of a text with appropriate details.  
+ 
+ 
+5.  Reflect punctuation through appropriate pausing and intonation while 
+reading orally.  
+ 
+6.  Reread to solve words or think about ideas and resume good rate of 
+reading. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.  I can describe illustrations and compare and contrast my 
+interpretations to the text. 
+ 
+2.  I can look for, remember, and talk about important 
+information while I am reading. 
+ 
+3.  I can remember the sequence of events in the story. 
+ 
+4.  I can use the text structure (characters, setting, 
+problem, and solution) to summarize the story. 
+ 
+5.  I can pause or change my voice while reading to show 
+that I understand punctuation. 
+ 
+6.  When I come to a word I don’t know, I can solve it by 
+rereading or thinking, and then begin reading again. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+198
+DRAFT DRAFT DRAFT DRAFT Reader Profile for Grade One (Levels D/4-E/7) DRAFT DRAFT DRAFT DRAFT  
+8/18/09 Troy School District Reading Committee                                                             3 
+Comprehension -Thinking beyond the text  
+Students will… 
+ 
+1.  Begin to make connections, ask questions and make predictions before, 
+during, and after reading. 
+ 
+ 
+2.  Show words in the text of new ideas and information. 
+ 
+3.  Infer and talk about characters’ feelings, motives, and attributes. 
+ 
+ 
+4.  Infer and talk about causes for feelings, motives, or actions. 
+ 
+ 
+5.  Show evidence in the print or pictures to support the inference. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.  I can begin to makes text-self connections, ask 
+questions, and make predictions, before, during, and 
+after reading. 
+ 
+2.  I can find new words in the text that show new ideas. 
+ 
+3.  I can share my thinking about characters’ feelings and 
+motives. 
+ 
+4.  I can share my thinking about why characters behave and 
+act in certain ways throughout the story. 
+ 
+5.  I can show you the words or illustrations in the story 
+that support my thinking. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+199
+DRAFT DRAFT DRAFT DRAFT Reader Profile for Grade One (Levels D/4-E/7) DRAFT DRAFT DRAFT DRAFT  
+8/18/09 Troy School District Reading Committee                                                             4 
+Comprehension - Thinking about the text  
+Students will… 
+ 
+1.  Recognize whether a text is fiction or nonfiction.  
+ 
+ 
+2.  Recognize and discuss how print layout or features are used to reflect 
+meaning (such as large or bold words).  
+ 
+3.  Understand that a story has a beginning, a series of events, and an end.  
+ 
+ 
+4.  Understand how writers use interesting characters and situations.  
+ 
+ 
+5.  Share opinions about the text as a whole (beginning, characters, ending). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.  After looking through a text, I can tell you whether it is 
+fiction or non-fiction. 
+ 
+2.  I can use titles, headings, and large or bold words to help 
+me read. 
+ 
+3.  I know that a fiction story has a beginning, a sequence of 
+events, and an ending. 
+ 
+4.  I can share my thinking about how writers use 
+interesting characters and situations. 
+ 
+5.  I can share my opinion about the text.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+200
+DRAFT DRAFT DRAFT DRAFT Reader Profile for Grade One (Levels D/4-E/7) DRAFT DRAFT DRAFT DRAFT  
+8/18/09 Troy School District Reading Committee                                                             5 
+       Word Study  
+Students will…. 
+ 
+1.  Build words families such as 
+play-plays, play-playing.  
+ 
+2.  Know the difference between a vowel (V) and a consonant (C). 
+ 
+ 
+3.  Explore consonant sounds represented by consonant diagraphs at the 
+beginning and end of a word (sh, ch, th, ph, and wh). 
+ 
+4.  Explore consonant clusters that blend two consonant sounds (bl, cl, gl, fl, pl, 
+pr, br, dr, gr, tr, cr, fr, sl, sn, sp, st, sw, sc, sk, sm,). 
+ 
+5.  Recognize that vowels have two sounds (short, long). 
+ 
+6.  Recognize and use short vowel sounds in words. 
+ 
+7.  Understand that every syllable has a vowel.  
+ 
+8.  Know some long vowel patterns- when an “e” is at the end of the word the 
+vowel is long (CVCe). 
+ 
+9.  Explore word families consisting of two letters (an, am, at, ap, ad, in, ip, ig, 
+it, ug, ut, og, ot, op, ed, et, en). 
+ 
+10.  Recognize and use –ing at the end of words. 
+ 
+11.  Understand the concept of plural. 
+ 
+12.  Understand that changing the beginning or the end of a word can make a 
+new word. 
+“I Can” Statements  
+ 
+ 
+1.  I can build word families with endings. 
+ 
+2.  I can know the difference between a vowel and a 
+consonant. 
+ 
+3.  I can explore consonant diagraphs at the beginning and 
+end of words. 
+ 
+4.  I can explore consonant clusters that blend two 
+consonant sounds.  
+ 
+5.  I can explain that vowels have two sounds. 
+ 
+6.  I can recognize and use short vowel sounds in words. 
+ 
+7.  I can understand that every syllable has a vowel. 
+ 
+8.  I can demonstrate that I know the ‘magic e’ rule in some 
+words.. 
+ 
+9.  I can explore word families with two letters. 
+ 
+ 
+10.  I can notice and use –ing at the end of words. 
+ 
+11.  I can show I understand plurals. 
+ 
+12.  I can show that I understand that placing a new letter at 
+the beginning or end of a word makes a new word. 
+ 
+ 
+201
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               1 
+Self -Monitoring   
+Students will… 
+ 
+1.  Demonstrate ability to use, automatically and flexibly, a wide range of 
+decoding strategies (for example, dividing words into syllables, using 
+phonograms within multi syllable words, using words parts, using 
+prefixed and affixes, and connecting words to known words). 
+(R.WS.05.05) (R.WS.05.02) 
+ 
+2.  Use word-solving strategies, background knowledge, analogies, graphics, 
+text context, and readers’ tools (glossaries, dictionaries, and electronic 
+devices) to solve words, including content-specific and technical words. 
+(R.WS.05.07) 
+ 
+ 
+ 
+ 
+3.  Continue to monitor accuracy and understanding, self-correcting when 
+errors detract from meaning.  
+ 
+ 
+ 
+4.  Automatically recognize frequently encountered words (Dolch list-first 
+1000) in print with the number of words that can be read fluently 
+increasing steadily throughout the year. (R.WS.05.03)  
+ 
+5.  Fluently read beginning grade-level text and increasingly demanding text 
+as the year progresses. (R.WS.05.06) 
+ 
+6.  Change style and pace of reading to reflect purpose. 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.  I can read unfamiliar words by: 
+a.  dividing words into syllables 
+b.  using base and root words 
+c.  using prefixes and affixes 
+d.  connecting new words to words I already know 
+ 
+2.  I can help myself understand the meaning of words by using: 
+a.  graphics 
+b.  prior knowledge 
+c.  analogies 
+d.  context clues 
+e.  dictionaries, glossaries, and computers 
+ 
+ 
+3.  When what I read does not make sense I can: 
+a.  reread a phrase or sentence 
+b.  make a connection 
+c.  use context clues 
+ 
+4.  I can read the first 1000 Dolch words automatically. 
+ 
+ 
+ 
+5.  I can read Level T books and increase my reading to Level V 
+or above. 
+ 
+6.  I can adjust how fast I read depending on what and why I am 
+reading.  
+ 
+ 
+ 
+ 
+202
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               2 
+Comprehension -Thinking within the text  
+Students will… 
+1.  Explain when to use and apply word structure, sentence structure and 
+prediction to aid in decoding words and understanding meanings of words 
+encountered in context. (R.WS.05.01) 
+ 
+2.  Reread to solve words or think about ideas and resume good rate of 
+reading. 
+ 
+3.  Search for and use information in a wide range of graphics and integrate 
+with information from print (for example, pictures, captions, diagrams, 
+illustrations with labels, maps, charts). (R.CM.05.04) 
+ 
+ 
+ 
+4.  Use a full range of readers’ tools to search for information (table of 
+contents, glossary, heading and subheadings, call-outs, pronunciation 
+guides, index, references). (R.IT.05.03) 
+ 
+ 
+ 
+5.  Analyze how characters’ traits and setting define plot, climax, the role 
+of dialogue and how problems are resolved.  (R.NT.05.03) 
+ 
+6.  Apply significant knowledge from grade-level science, social studies, and 
+mathematics texts. (R.CM.05.04) 
+ 
+7.  Identify important ideas and information (longer texts with chapters 
+and sometimes multiple texts) and organize them in a concise summary in 
+order to remember and use them as background knowledge in reading or 
+for discussion and writing. (R.CM.05.02) 
+ 
+8.  Self monitor comprehension when reading or listening by questioning, 
+rereading, or listening again if uncertain about meaning, inferring, 
+summarizing, and engaging in discussion. (R.MT.05.01) 
+“I Can” Statements  
+ 
+1.  I can explain how I use word structure, sentence structure, 
+and prediction when reading and understanding new words 
+while reading. 
+ 
+2.  I can reread to solve words or think about ideas and begin 
+reading again. 
+ 
+3.  To better understand what I am reading I can use: 
+a.  pictures and illustrations with labels 
+b.  captions and diagrams 
+c.  maps, charts, graphs, timelines 
+d.  introductions and conclusions 
+ 
+4.  To better understand what I am reading I use: 
+a.  table of contents, glossary, indexes 
+b.  headings and subheadings 
+c.  call-outs and pronunciation guides 
+d.  references to search for information 
+ 
+5.  I can tell you how a character’s traits and setting affects 
+the plot, climax, dialogue, problem and solution of the story. 
+ 
+6.  I can use what I have learned from my math, social studies, 
+and science books. 
+ 
+7.  I can identify important information from non-fiction and 
+fiction books to use in discussions, writing, and reading. 
+ 
+ 
+ 
+8.  When what I read doesn’t make sense, I can: 
+       Reread, make connections, use context clues, ask   
+       questions,  infer, summarize, or talk with others. 
+203
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               3 
+Comprehension -Thinking beyond the text  
+Students will… 
+ 
+1.  Make and continually revise a wide range of predictions (what 
+characters will do, what will happen to solve the problem) based on 
+personal experiences, content knowledge, and knowledge of similar 
+texts. (R.MT.05.01) 
+ 
+2.  Use knowledge from personal experiences in the interpretation of 
+characters and events, particularly content, situation, and themes in oral 
+and written responses. (R.CM.05.01) 
+ 
+3.  Analyze global themes, universal truths, and principles within and across 
+texts to create a deeper understanding by drawing conclusions, making 
+inferences, and synthesizing. (R.CM.05.03) 
+ 
+4.  Mentally form categories of related information and revise them as new 
+information is acquired across the text. (R.MT.05.01) 
+ 
+5.  Integrate existing content knowledge with new information from a text 
+to consciously create new understanding. 
+ 
+6.  In texts with multiple complex characters, infer traits, motivations, and 
+changes through examining how the writer describes them, what they 
+do, what they say and think, and what other characters say about them. 
+(R.NT.05.04)  
+ 
+7.  Infer causes of problems or of outcomes that reflect life through 
+literature, including literature recognized for quality and literary merit. 
+(R. NT. 05.01) 
+ 
+ 
+ 
+“I Ca n” Statements  
+ 
+ 
+1.  I can make predictions based on life experiences  
+             and other things I have read, heard, or observed. 
+ 
+ 
+ 
+2.  I can express my understanding of characters, events, and 
+themes through my personal experiences through discussion 
+and writing. 
+ 
+3.  I can identify the theme of a story and the common theme 
+when comparing two stories. 
+ 
+ 
+4.  I can think about what I know before reading and adjust 
+this knowledge as I read new information. 
+ 
+5.  I can build upon my knowledge as I read new information. 
+ 
+ 
+6.  I can use a character chart to understand how characters in 
+my book change and grow. 
+ 
+ 
+ 
+7.  I can figure out why outcomes occur based on text to text, 
+text to self, or text to world connections. 
+ 
+ 
+ 
+ 
+ 
+204
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               4 
+Comprehension -Thinking about the text  
+Students will… 
+ 
+1.  Understand when a writer has combined underlying organizational 
+structures (description, compare and contrast, temporal sequence, 
+problem and solution, cause and effect). (R.IT.05.02) (R.MT.05.02) 
+ 
+ 
+ 
+ 
+2.  Notice and understand figurative and descriptive language and the role it 
+plays in enhancing a text. (R.NT.05.04) 
+ 
+3.  Notice and reflect on a writer’s use of idioms.  
+           (R.NT.05.04) 
+ 
+4.  Notice how an author uses words in a connotative way 
+     (to imply something beyond the literal meaning).       
+     (R.NT.05.04) 
+ 
+5.  Analyze the structure, elements, style, and purpose of narrative genre 
+including historical fiction, tale tales, science fiction, fantasy, and 
+mystery. (R.NT.05.02) 
+ 
+ 
+ 
+ 
+6.  Identify and describe informational text patterns including compare and 
+contrast, cause and effect, and problem/solution. (R.IT.05.02) 
+ 
+ 
+7.  Evaluate the text in terms of readers’ own experience. (R.CS.05.01) 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.  I can determine and understand when an author has used: 
+a.  description 
+b.  compare and contrast 
+c.  sequencing 
+d.  problem/solution 
+e.  cause/effect 
+ 
+2-4. I can understand how an author uses idioms, similes, and 
+metaphors to enhance meaning of the story. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.  I can identify the forms and features of  
+a.  historical fiction 
+b.  tall tales 
+c.  science fiction 
+d.  fantasy 
+e.  mystery 
+ 
+6.  see #1 above 
+ 
+ 
+ 
+7.  I can evaluate a story using my personal experiences. 
+ 
+ 
+ 
+205
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               5 
+Comprehension -Thinking about the text (cont’d) 
+Students will… 
+ 
+8.  Evaluate the author’s use of characterization and plot (for example, 
+believability or depth). 
+ 
+9.  Assess whether a text is authentic and consistent with real life 
+experiences or prior knowledge, and provide evidence for viewpoint. 
+(R.CS 05.01) 
+ 
+10.  Use other sources of information to check the authenticity of a text 
+(fiction, historical fiction, nonfiction) when questions arise. 
+ 
+11.  Discuss whether social issues and different cultural groups are 
+accurately represented in a fiction or nonfiction text. (R.NT.05.01) 
+ 
+12.  Explain how timelines, graphs, charts, introductions, summaries, and 
+conclusions enhance the understanding of key ideas.  (R.IT.05.03) 
+ 
+13.  Analyze the structure, elements, features, and purpose of informational 
+genre including advertising, experiments, editorials, and atlases. 
+(R.IT.05.01) 
+ 
+ 
+ 
+14.  Be enthusiastic about reading and do substantial, independent reading 
+and writing. (R.AT.05.01) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+8-9.  I can evaluate a story for: 
+a.  authenticity 
+b.  believability and depth 
+ 
+ 
+ 
+ 
+10. I can use other sources of information when    
+     checking the authenticity of a text. 
+ 
+      11. I can determine if social issues and cultural groups  
+           are accurate in a variety of texts. 
+ 
+12. See #3 (Thinking within the Text) 
+ 
+ 
+13. I can figure out the purpose of: 
+a. advertising 
+b. experiments 
+c. editorials 
+d. atlas’ 
+ 
+       14. I enjoy reading and read and write two hours a week. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+206
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               6 
+Test Taking Genre  
+Students will… 
+ 
+1.  Students will respond to a prompt for paired reading selections. 
+(R.CM.05.03) 
+ 
+2.  Students will answer cross-text questions for paired reading selections. 
+(R.CM.05.03) 
+ 
+3.  Respond to individual and multiple texts by finding evidence, discussing, 
+illustrating, and or writing to reflect, make connections, take a position, 
+and or show understanding. (R.CM.05.03) 
+ 
+4.  Students will use testing strategies (Make a prediction form titles and 
+pictures, make a prediction from highlighted key words in questions, use 
+reading strategies while reading a selection, show evidence of “search 
+and find” and “right there” and “author and me answers”, process of 
+elimination). (R.MT. 05.01) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“I Can” Statements  
+ 
+ 
+1.     I can write to a prompt about two texts. 
+ 
+ 
+2.     I can answer questions that compare and contrast two    
+      paired texts. 
+ 
+3.     I can answer a prompt or question that refers to one text    
+      or more than one text. 
+ 
+ 
+4.     I can use test-taking strategies to answer questions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+207
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               7 
+Word Study  
+Students will… 
+ 
+1.  Read words with a full range of plurals including irregular plurals. 
+ 
+2.  Add a variety of endings to words (-able, -ible, -ent, -ant) and discuss 
+changes in spelling and meaning. 
+ 
+3.  Work flexibly with base words, making new words by changing letters 
+and adding prefixes and suffixes. 
+ 
+4.  Recognize words that have multiple meanings (a form of homograph: bay, 
+bay) homographs (look the same, sound different: contract, contract), 
+and homophones (sound the same, look different: flair, flare). 
+ 
+5.  Read and derive meaning of words that are related to each other 
+because they have the same base or root word (monarch, monarchs, 
+monarchy). (RWS.05.02) 
+ 
+6.  Recognize words with frequently appearing vowel and syllable patterns 
+(ic(k) in dicker, organic; -ble in implausible, stable). 
+ 
+7.  Read words with consonant clusters and long and short vowel patterns, 
+including vowel patterns with r, that appear in multi-syllable words. 
+“I Can” Statements  
+ 
+ 
+1.  I can read words that are plurals. 
+ 
+2.  I can add a variety of endings to words and talk about the 
+changes in spelling and meaning. 
+ 
+3.  I can work with base words and add prefixes and suffixes. 
+ 
+ 
+4.  I can recognize that some words have multiple meanings, or 
+are homographs or homophones. 
+ 
+ 
+5.  I can read and understand words and how they are related 
+by looking at their base or root word. 
+ 
+ 
+6.  I can recognize words with common word patterns. 
+ 
+ 
+7.  I can read multi-syllable words with consonant clusters and 
+vowel patterns. 
+208
+DRAFT DRAFT DRAFT DRAFT  Reader Profile for Grade Five (Level U/50) DRAFT DRAFT DRAFT DRAFT  
+8/18/09  Troy School District Reading Committee                                                               8 
+ 
+209
+1 
+ 
+Troy School District Reading Steering Committee, February, 2010   
+Essential Classroom Components for Effective Reading Instruction  
+Context for Instruction :   
+ Room environment : 
+/checkbld Room arrangement allows for whole group instruction 
+/checkbld Room arrangement allows for small group instruction 
+/checkbld Room arrangement allows for  student independent rea ding 
+/checkbld Students have access to materials and books 
+ Resources : 
+/checkbld Classroom has an organized independent library (for e xample, includes level and/or  
+genre/author of books) 
+/checkbld Class constructed reading charts are current and clearly d isplayed for student reference 
+/checkbld Reading response logs (journals/binders) are available for each student 
+/checkbld Guided reading/shared reading materials are accessible f or lesson use 
+/checkbld Making Meaning  is utilized  
+ 
+Instructional  Approach :  Time is allotted for  
+ 
+ Shared reading    Note:  Shared reading is more prevalent in the reading instructional block in the Kdg – 2nd  
+grade classrooms.  In the upper grades, shared reading is more common in the other curricular areas.  
+/checkbld Teacher utilizes appropriate  text to model specific instructional skill/strategy that 
+students need  
+/checkbld Book introduction sets the purpose and teacher model ing helps students construct 
+meaning  
+/checkbld Instruction is explicit and is focused on a grade appropr iate strategy 
+ 
+ Read Aloud - Making Meaning and other appropriate teacher selected text  
+Before : 
+/checkbld Teacher gives a brief overview of the book  
+/checkbld Teacher invites predictions about the book  
+/checkbld Teacher sets purpose for listening  
+During : 
+/checkbld Teacher provides opportunities for students to develop  concepts and vocabulary 
+/checkbld Teacher models constructing meaning  
+/checkbld Teacher uses appropriate questions to guide comprehensio n  
+/checkbld Teacher provides a model of fluent and expressive read ing  
+After : 
+/checkbld Teacher and students discuss meaning of the story  
+/checkbld Teacher and students confirm or disconfirm predictions  
+ 
+ 
+210
+2 
+ 
+ Reading Workshop:  
+Strategy Based  Mini-Lesson : 
+/checkbld Lesson is focused on one clear strategy or procedure 
+/checkbld Teacher introduces the strategy or procedure with clear,  concrete examples 
+/checkbld Teacher models, or demonstrates how  and when  to apply the strategy or procedure 
+Active Engagement :  
+/checkbld Students have an opportunity to engage in the strate gy or procedure during the 
+lesson  
+/checkbld Students will practice the strategy or procedure during  guided reading and/or 
+independent reading 
+Independent Reading (IDR)  
+/checkbld Students have appropriate level books for use during I DR in book bags/bins 
+/checkbld Students follow clearly established routines and proce dures 
+/checkbld Assignments reinforce previous learning 
+/checkbld Assignments provide practice at the student’s independen t level 
+/checkbld Students are engaged in authentic reading/writing ac tivities that reflect the 
+instruction 
+/checkbld Students are on-task and working responsibly 
+/checkbld Teacher utilizes this time to conference  with individual students (individual 
+student goals/progress is noted)  and/or… 
+/checkbld Teacher utilizes this time to assess  individual student progress  and/or… 
+/checkbld Teacher utilizes this time to work with small groups of students (guided 
+reading/strategy/book club) 
+• Guided Reading 
+: 
+o Book selection matches student instructional level, with  a few challenging 
+features 
+o Book introduction provides appropriate support for t he students according to 
+their level, strengths and needs. 
+o Teacher closely observes and notes students’ reading beh avior. 
+o Teacher prompts students and provides feedback 
+o Teacher and students discuss comprehension of story 
+• Strategy Group  
+o Intervention is directly linked to classroom instruction a nd learner’s identified 
+needs  
+o Teacher provides clear explanation of task  
+o Teacher demonstrates using clear examples to connect  to prior knowledge  
+o Teacher leads guided practice providing explicit feedba ck to scaffold learner  
+o Student independently practices skill or strategy  
+• Guided Literature Discussion (Book Club)  
+o Students have already read the selection  
+o Teacher facilitates a focused conversation about the te xt  
+o Most of conversation is generated and produced by stu dents  
+o When necessary, teacher prompts students’ use of comprehe nsion strategies  
+211
+3 
+ 
+o Teacher provides specific feedback to students about strate gy use 
+Mid-Workshop Teaching Point  (optional):  
+/checkbld As the students are working  during  IDR, a student tha t is demonstrating the task is 
+chosen to share with the class   
+Lesson Closing : 
+/checkbld Teacher selects a student who applied mini-lesson to shar e their work with the 
+class 
+/checkbld Teacher leads a conversation to provide feedback on the new learning and to 
+reinforce desired behaviors 
+ 
+ Anchor charts solidify and support students’ learning of the skills/strategies 
+ 
+ Displays of student work  support learning objectives 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+212
+ 7. B.   03.16.10 
+ 
+ 
+ 
+7. CURRICULUM 
+ 
+B.  REPORT:  Middle School Health Textbook 
+Recommendation 
+ 
+During the fall of 2009, middle school health teachers 
+met to review health materials from various textbook 
+publishers.  Once the selection was made, the 
+materials on human sexuality, HIV, and AIDS were 
+presented for review and approval by the Sex 
+Education Advisory Board on November 9, 2009.  
+Tonight, we will be presenting the committee’s 
+recommendation for the new middle school health 
+program. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RECOMMENDED ACTION:  This evening’s report will be 
+given by Alicia Wahls, health teacher from Smith Middle 
+School, and Larry Hahn, principal of Baker Middle School, 
+who is responsible for the middle school health curriculum. 
+213
+ Textbook Recommendation  
+For the 2010-2011 School Year 
+ 
+ 
+Middle School Health  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Textbook Review Committee Members:  
+Sean Fisher 
+Michael Hosbach 
+Andrea Lothian 
+Judy Steinberger 
+Alicia Wahls 
+ 
+ 
+214
+Middle School Health  
+ 
+ 
+Rationale for Textbook Search  
+• Part of a pre-determined rotation schedule. 
+• Current textbook has a copyright of 2001 and was due to be reviewed.  
+• The current textbook has outdated information that is a large part of our 
+curriculum.  
+ 
+ 
+Textbook Selection Process  
+The following books were previewed for Health:  
+• Teen Health 
+, (Course 1-3), Glencoe Publishing, copyright 2009  
+• Decision for Health , Holt McDougal Publishing, copyright 2008  
+• Health and Wellness , MacMillan Publishing, copyright 2009  
+ 
+ 
+The Following Criteria Were Used in the Selection Process:  
+• Components:  Layout, Organization, Teacher Accessibility  
+• Content – Student Accessibility  
+• Research Based Instructional Strategies, Best Practice 
+• Accuracy, Reliability 
+• GLCEs for middle school covered 
+• Readability 
+ 
+ 
+Features of the Recommended Text:  
+ 
+Components: Layout, Organization  - Teacher Accessibility  
+The content and organization of the program contribute to ease of use.  
+The supplemental materials are organized and easy to access.  
+The Teacher’s Edition is well organized and easy to use.  
+The text and teacher materials are easily accessible electronically and are NIMAS 
+compliant. 
+The program links to interactive technology tools and digital resources (media 
+clips, etc.). 
+Ample supp lemental resources at various levels facilitate differentiation within a 
+classroom. 
+The program provides adequate review and extension activities to supplement 
+instruction. 
+Explicit SmartBoard applications are available . 
+Ongoing, formative assessments are provided at regular intervals.  
+Data from assessments is diagnostic and informs instruction.  
+ 
+  
+215
+Content - Student Accessibility  
+ 
+The material is suitable to the maturity level of students.  
+Text material is written in rich, natural language. 
+The photographs, graphics, and illustrations help the students understand the 
+written text. 
+The vocabulary is both challenging and appropriate. 
+Text features and structures enhance student learning.  
+The selections are of interest and engaging to the students.  
+The content fosters creative activities for extending knowledge in a variety of 
+ways including drama, writing, movement, music, etc. 
+The content engages students to become actively involved.  
+The supplemental materials facilitate, enhance, and extend learning.  
+The materials provide students with necessary historical, social , and political 
+background knowledge. 
+ 
+Research Based Instructional Strategies, Best Practice  
+ 
+The materials provide opportunities for students to think critically.  
+Instructional practices are current, credible, and cited.  
+Content is consistent with findings in research in learning theory and child 
+development. 
+Concepts and skills are developed in a continuous and expanding progression.  
+ 
+Accuracy, Reliability  
+ 
+The factual information is accurate.  
+Reading levels (or L exiles ) are grade level appropriate for the course.  
+Middle School GLCEs for g rades 6 -7. 
+The GLCE alignment is clearly indicated.  
+ 
+ 
+Textbook Recommendation for Middle School Health:  
+ 
+The chapters containing human sexuality and HIV/AIDS information was 
+presented for review and approved by the Troy School District Sex Education 
+Advisory Board on November 9, 2009.   
+ 
+The textbook review committee unanimously recommends the adoption of 
+Teen 
+Health  , Course 3; written by Bronson, Cleary, Hubbard, © 2009 published by 
+Glencoe for use in the Troy School District beginning in the 2010-2011 school 
+year. 
+ 
+216
+Health 7 Health 7 
+Health 7 Health 7 
+Textbook recommendation for 7 th grade Health 
+March 2010 
+Textbook selection committee: 
+•Sean Fisher 
+•Michael Hosbach 
+•Andrea Lothian 
+•Judy Steinberger 
+•Alicia Wahls 
+217
+/circle5Current books are nine years old. 
+/circle5Some information is outdated. 
+/circle5All information needs updating 
+and current statistics are needed 
+across all health units taught. 
+Textbook need rationale Textbook need rationale 
+across all health units taught. 
+218
+Information Student needs 
+/circle5Food pyramid and drug 
+laws need to be updated 
+/circle5Clear, easy to understand 
+definitions 
+/circle5Current informational 
+articles on health topics 
+/circle5Components of health 
+/circle5Readability level 
+/circle5On-line book access 
+/circle5Graphs and pictures 
+pertaining to and 
+enhancing the 
+information taught 
+Selection criteria Selection criteria 
+/circle5Components of health 
+need to match high school 
+instruction 
+/circle5Needs to support 
+Michigan’s health 
+education expectations 
+and standards 
+/circle5Vocabulary highlighted 
+and clearly defined 
+/circle5Extension lesson 
+possibilities 
+219
+Health and Wellness 
+by MacMillan/ McGraw-
+Hill 
+Decisions for Health 
+by Holt 
+Other textbooks considered Other textbooks considered 
+220
+Teen Health Teen Health 
+by Glencoe by Glencoe 
+by Glencoe by Glencoe 
+By: 
+Mary H. Bronson, Ph.D., 
+Michael J. Cleary, Ed.D., and 
+Betty M. Hubbard, Ed.D.
+With contributing editor 
+Dinah Zike, M.Ed., Time 
+Magazine 
+Copyright 2009 
+221
+/circle5This textbook stood out above the 
+other two for several reasons 
+including: 
+1. Readability and font size. 
+2. Current information and statistics. 
+3. Time Magazine articles and informational 
+texts within the book. 
+Flexibility with differentiation for student 
+Textbook highlights Textbook highlights 
+4. Flexibility with differentiation for student 
+ability levels. 
+5. Extension lesson opportunities and 
+activities. 
+222
+Health careers 
+and future 
+opportunities 
+Features of the textbook Features of the textbook 
+Consistency with 
+High School text and 
+curriculum 
+223
+Vocabulary is highlighted 
+and bolded with clear 
+definitions 
+Great visuals 
+224
+Lesson/Chapter Lesson/Chapter 
+review review 
+1. 
+Questions contain 
+higher order  
+questioning for 
+student’s basic 
+understanding. 
+2. Allows for students to 
+compare/contrast 
+subject matter, apply 
+information learned to 
+information learned to 
+scenarios, and 
+synthesis of 
+information in their 
+decision-making 
+process. 
+3. Application projects 
+are provided for each 
+unit. 
+225
+Hands–on activities and 
+application practice 
+including foldables 
+Topic review 
+with main idea 
+and supporting 
+details 
+226
+Student features Teacher features 
+/circle5Access to on-line 
+resources 
+/circle5StudentWorks Plus disc 
+which contains all book 
+pages 
+/circle5Disc plays audio version 
+read to students 
+/circle5Editable personalized 
+worksheets 
+/circle5Editable PowerPoints 
+/circle5Extension discussions 
+and activities 
+/circle5Foldables and hands -on 
+Features Features 
+read to students 
+/circle5Graph analysis 
+/circle5On-line extension 
+activities 
+/circle5Foldables and hands -on 
+activities for application 
+/circle5National Standards in 
+Teacher Manual 
+227
+Recommended 
+text for 7 th 
+grade health 
+Teen Health Teen Health by Glencoe by Glencoe 
+228
+ 7. C.    03.16.10 
+ 
+7. CURRICULUM 
+ 
+ C. CONSIDERATION:  Middle School and High School E nglish 
+Textbook Adoption  
+ 
+ 
+ 
+RECOMMENDED ACTION:  Adopt the following resolution. 
+ 
+SUGGESTED RESOLUTION 
+ 
+ Moved by: 
+ 
+ Supported by: 
+ 
+be it therefore resolved  that the English textbooks and materials that were  
+presented at the March 2, 2010, Board of  Education meeting be adopted for use in 
+the secondary English program.  It is recommended that: 
+ 
+Literature 
+, published by McDougal Littell, be adopted for use  in the English 
+program in grades six through 12.  These textbooks will be phased in over two 
+years. The recommended textbooks are approved for u se in the high school 
+program beginning in the 2010-2011 school year and will be an expenditure of the 
+2010-2011 secondary textbook budgets in the estimated amount of $469,369. 
+ 
+Furthermore, the recommended textbooks for the midd le school program are 
+approved for use beginning in the 2011-2012 school year and will be an 
+expenditure of the 2011-2012 secondary textbook budgets in the estimated amount 
+of $321,052. 
+ 
+ 
+Ayes: 
+ 
+ 
+Nays: 
+ 
+229
+ 8. A.  03.16.10 
+ 
+8. BUSINESS  
+ 
+A.   CONSIDERATION:  MEDIA CENTER FURNITURE – ATHENS 
+HIGH SCHOOL 
+  
+ Invitations to bid were sent to 16 potential bidde rs with 8 responding 
+(none of which were “No Bid”).  The responses were reviewed by Dr. 
+Rich Machesky, Assistant Superintendent for Seconda ry Instruction, 
+Ms. Lara Dixon, Athens Highs School Principal, Mr. Gary Bell, District 
+Carpenter, Mr. Michael Adamczyk, Assistant Superint endent, Business 
+Services and Mr. Frank Lams, Purchasing Supervisor.  It is 
+recommended the bid be awarded as stated below. 
+ 
+ 
+ RECOMMENDED ACTION:  Accept the resolution below. 
+ 
+SUGGESTED RESOLUTION 
+ 
+ 
+ Moved by:   
+ 
+ Supported by: 
+ 
+ 
+ Be it therefore resolved  that the bid for media center furniture for 
+Athens Highs School be awarded as follows in the am ount of $83,660.93 
+and that this amount be approved as an expenditure of the 2004 Capital 
+Projects Fund. 
+ 
+ 
+Office Express  $16,957.18  
+3rd  Coast  66,703.75  
+TOTAL  $83,660.93  
+  
+ 
+ 
+ 
+ 
+ Ayes: 
+ 
+ Nays: 
+230
+ DATE:  March 10, 2010 
+  
+ TO: Michael Adamczyk 
+  Assistant Superintendent 
+  Business Services 
+   
+ FROM: Frank E. Lams 
+  Supervisor, Purchasing and Budget 
+ 
+          RE:      Bid Award #9648 
+                      Athens Media Center Furniture                      
+ 
+ 
+ 
+On January 12, 2010 bids were opened for replacing the furniture in the media center at 
+Athens High School.  Bids were sent to 16 potential bidders with eight responding (none 
+of which were “No Bid”). 
+     
+Samples of the proposed shelving, tables and chairs were obtained from the lowest five 
+complete bidders. Dr.. R. Machesky, Assistant Superintendent for Secondary 
+Education, Ms. L. Dixon, Athens High School Principal, G. Bell, District Carpenter, 
+yourself and I all met on two separate occasions to review these samples and the 
+related bid submissions.    
+ 
+After extensive discussions, the above group decided that the best value – considering 
+cost, construction quality and style – would be to split the award between bidders as 
+follows: 
+ 
+ Office Express: Media Seating, Miscellaneous Seating 
+ 3 rd  Coast: Shelving, Tables, Custom Counter (Alt. #1) 
+  Undecided: Lounge Furniture; A recommendation for t his will be taken to the 
+Board of Education at the April 20 th  meeting. 
+ 
+Accordingly, I recommend award of this bid as follows: 
+  
+Office Express  $ 16,957.18 
+3rd  Coast     66,703.75 
+ 
+                            $ 83,660.93  
+ 
+Note that the recommendation for media seating ($13,374.93) is the overall low bid for 
+that category, the recommendation for misc. seating ($3,582.25) is the lowest bid to 
+specification and the recommendation for shelving, tables and the custom computer 
+counter ($66,703.75) is the overall second lowest bidder for the combination of those 
+furniture categories. 
+ 
+Please include this as an action item on the March 16, 2010 Board agenda as an 
+expenditure of the 2004 Capital Projects Fund. 
+ 
+ 
+ 
+ 
+ 
+ 
+Purchasing Purchasing Purchasing Purchasing    
+Department Department Department Department    
+ 
+1140 Rankin 
+Troy, MI 48083 
+248-823-4052,  
+Fax – 248-823-4077  
+Memorandum 
+231
+ 
+232
+233
+234
+235
+Qty Tag Manufacturer Unit Price Total Alt Unit Price Total Alt Unit  Price Total
+7 A Jasper 453.00        3,171.00    Paladin 542.14         3,794.98      HLF Furn 383.91        2,687.37     
+22 B Jasper 372.00         8,184.00    Paladin 381.91         8,402.02      HLF Furn 275.86        6,068.92     
+29 C Jasper incl ‐             Paladin 18.29           530.41         HLF Furn 74.71          2,166.59     
+6 D Jasper 676.00         4,056.00    Paladin 780.44         4,682.64      HLF Furn 574.71        3,448.26     
+12 E Jasper 571.00         6,852.00    Paladin 539.43         6,473.16      HLF Furn 436.78        5,241.36     
+18 F Jasper incl ‐             Paladin 26.92           484.56         HLF Furn 77.01          1,386.18     
+8 G Jasper 538.00         4,304.00    Paladin 733.59         5,868.72      HLF Furn 457.47        3,659.76     
+5 H Jasper 453.00         2,265.00    Paladin 584.87         2,924.35      HLF Furn 363.22        1,816.10     
+13 I Jasper incl ‐             Paladin 20.23           262.99         HLF Furn 55.17          717.21        
+2 J Jasper 630.00         1,260.00    Paladin 684.07         1,368.14      HLF Furn 572.41        1,144.82     
+2 K Jasper 550.00         1,100.00    Paladin 586.61         1,173.22      HLF Furn 478.16        956.32        
+4 L Jasper incl ‐             Paladin 71.60           286.40         HLF Furn 55.17          220.68        
+3 M Jasper 510.00         1,530.00    Paladin 684.07         2,052.21      HLF Furn 514.94        1,544.82     
+2 N Jasper 425.00         850.00       Paladin 532.07         1,064.14      HLF Furn 420.69        841.38        
+5 O Jasper incl ‐             Paladin 17.90           89.50           HLF Furn 55.17          275.85        
+1 P Jasper 371.00         371.00       Paladin 576.43         576.43         HLF Furn 381.61        381.61        
+1 Q Jasper 327.00        327.00       Paladin 257.76         257.76         HLF Furn 321.84        321.84        
+2 R Jasper incl ‐             Paladin 35.80           71.60           HLF Furn 55.17          110.34        
+2 S Jasper 289.00         578.00       Paladin 356.43         712.86         HLF Furn 266.67        533.34        
+10 T Jasper 239.00         2,390.00    Paladin 257.76         2,577.60      HLF Furn 206.90        2,069.00     
+12 U Jasper incl ‐             Paladin 17.90           214.80         HLF Furn 55.17          662.04        
+10 V Jasper 356.00         3,560.00    Paladin 516.28         5,162.80      HLF Furn 373.56        3,735.60     
+9 W Jasper 316.00         2,844.00    Paladin 481.60         4,334.40      HLF Furn 335.63        3,020.67     
+2 X Jasper 413.00         826.00       Paladin 658.50         1,317.00      HLF Furn 626.44        1,252.88     
+73 Y Community 139.00         10,147.00 Paladin 134.63         9,827.99      126.11        9,206.03     
+39 Z Community 168.00         6,552.00    Paladin 158.01         6,162.39      153.53        5,987.67     
+ALTERNATE BID ALTERNATE BID ALTERNATE BID
+SBD Commercial Int.
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+E‐Quip Co. School Specialty
+Page 1 of 9
+236
+Qty Tag Manufacturer Unit Price Total Alt Unit Price Total Alt Unit  Price Total
+ALTERNATE BID ALTERNATE BID ALTERNATE BID
+SBD Commercial Int.
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+E‐Quip Co. School Specialty
+2 AA Jasper 504.00        1,008.00    Paladin 785.95         1,571.90      HLF Furn 568.97        1,137.94     
+10 BB Jasper 376.00         3,760.00    Paladin 743.11         7,431.10      HLF Furn 431.03        4,310.30     
+1 HH Jasper 142.00         142.00       no bid HLF Furn incl ‐                
+1 OO Jasper 1,104.00     1,104.00    Paladin 976.44         976.44         HLF Furn 9,974.23     9,974.23     
+2 PP Jasper 628.00         1,256.00    Paladin 577.60         1,155.20      HLF Furn incl ‐                
+1 QQ Jasper 1,104.00     1,104.00    Paladin 976.44         976.44         HLF Furn incl ‐                
+1 RR Jasper 680.00        680.00       Paladin 650.95         650.95         HLF Furn incl ‐                
+2 SS Jasper 202.00        404.00       Paladin 306.93         613.86         HLF Furn incl ‐                
+3 UU Jasper incl ‐             Paladin 9.10             27.30           HLF Furn incl ‐                
+1 VV Jasper 1,390.00     1,390.00    Paladin 976.44         976.44         HLF Furn incl ‐                
+1 YY Jasper 162.00        162.00       Paladin 142.11         142.11         HLF Furn incl ‐                
+1 ZZ Jasper 162.00        162.00       Paladin 142.11         142.11         HLF Furn incl ‐                
+4 AAA Jasper no bid ‐              not req'd HLF Furn incl ‐                
+2 CBA Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 932.16        1,864.32     
+6 CBB Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 1,048.52     6,291.12     
+4 CBC Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn incl ‐                
+8 CBD Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 684.00        5,472.00     
+16 CBE Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn incl ‐                
+4 CBF Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 527.60        2,110.40     
+2 CBG Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 969.70        1,939.40     
+4 CBH Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 419.16        1,676.64     
+4 CBI Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 602.67        2,410.68     
+6 CBJ Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 473.38        2,840.28     
+4 CBX Carolina  Business Furn no  bid ‐              no bid ‐                Legacy Furn 310.72        1,242.88     
+2 HA Hon no  bid ‐             Paladin 275.51         551.02         9 to 5 177.53        355.06        
+6 HB Hon no  bid ‐             Paladin 321.74         1,930.44      9 to 5 148.31        889.86        
+Page 2 of 9
+237
+Qty Tag Manufacturer Unit Price Total Alt Unit Price Total Alt Unit  Price Total
+ALTERNATE BID ALTERNATE BID ALTERNATE BID
+SBD Commercial Int.
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+E‐Quip Co. School Specialty
+1 HC Hon 838.00        838.00       Paladin 296.97         296.97         HLF Furn 1,017.24     1,017.24     
+1 HC1 Hon incl ‐             Paladin 259.78         259.78         HLF Furn incl ‐                
+4 HD Hon 353.00        1,412.00    Paladin 223.56         894.24         HLF Furn 281.61        1,126.44     
+Freight Incl Incl ‐                 incl
+Installation 4460 Incl ‐                 incl
+Total 79,049.00 89,269.37   104,115.43
+ALTERNATE 1
+1 CC Jasper 473.00         473.00       Paladin 504.79         504.79         HLF Furn 214.29        214.29        
+3 CC1 Jasper 373.00         1,119.00    Paladin 406.46         1,219.38      HLF Furn 214.29        642.87        
+1 DD Jasper 473.00         473.00       Paladin 504.79         504.79         HLF Furn 214.29        214.29        
+4 DD1 Jasper 373.00         1,492.00    Paladin 406.46         1,625.84      HLF Furn 214.29        857.16        
+1 EE Jasper 473.00         473.00       Paladin 504.79         504.79         HLF Furn 214.29        214.29        
+3 EE1 Jasper 373.00         1,119.00    Paladin 406.46         1,219.38      HLF Furn 214.29        642.87        
+1 FF Jasper 473.00         473.00       Paladin 504.79         504.79         HLF Furn 214.29        214.29        
+10 FF1 Jasper 373.00         3,730.00    Paladin 406.46         4,064.60      HLF Furn 214.29        2,142.90     
+1 GG Jasper 473.00         473.00       Paladin 504.79         504.79         HLF Furn 214.29        214.29        
+4 GG1 Jasper 373.00         1,492.00    Paladin 406.46         1,625.84      HLF Furn 214.29        857.16        
+ALT 1 Freight Incl 0 Incl ‐                 incl ‐                
+ALT 1 Installation 480 Incl ‐                 incl ‐                
+ALT 1 Total 11,797.00 12,278.99   6,214.41     
+BID GRAND TOTAL 90,846.00 101,548.36 110,329.84
+Page 3 of 9
+238
+Qty Tag Manufacturer
+7 A Jasper
+22 B Jasper
+29 C Jasper
+6 D Jasper
+12 E Jasper
+18 F Jasper
+8 G Jasper
+5 H Jasper
+13 I Jasper
+2 J Jasper
+2 K Jasper
+4 L Jasper
+3 M Jasper
+2 N Jasper
+5 O Jasper
+1 P Jasper
+1
+Q Jasper
+2 R Jasper
+2 S Jasper
+10 T Jasper
+12 U Jasper
+10 V Jasper
+9 W Jasper
+2 X Jasper
+73 Y Community
+39 Z Community
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+Alt. Unit  Price Total Unit  Price Total Unit  Price Total
+Brodart 368.80        2,581.60      310.00          2,170.00      290.95        2,036.65     
+Brodart 279.95        6,158.90      236.00          5,192.00      225.40        4,958.80     
+Brodart 45.00          1,305.00      82.00           2,378.00      78.20          2,267.80     
+Brodart 587.10        3,522.60      528.00          3,168.00      543.95        3,263.70     
+Brodart 455.00        5,460.00      402.00          4,824.00      384.10        4,609.20     
+Brodart 50.95          917.10         105.00          1,890.00      101.20        1,821.60     
+Brodart 493.40        3,947.20      629.00          5,032.00      455.40        3,643.20     
+Brodart 493.40        2,467.00      505.00          2,525.00      331.20        1,656.00     
+Brodart incl ‐                 105.00          1,365.00      55.20          717.60        
+Brodart 580.95        1,161.90      568.00          1,136.00      553.15        1,106.30     
+Brodart 580.95        1,161.90      490.00          980.00         426.65        853.30        
+Brodart incl ‐                 57.00           228.00         55.20          220.80        
+Brodart 458.43        1,375.29      466.00          1,398.00      455.40        1,366.20     
+Brodart 458.43        916.86         389.00          778.00         331.20        662.40        
+Brodart incl ‐                 57.00           285.00         55.20          276.00        
+Brodart 485.85        485.85         367.00          367.00         438.15        438.15        
+Brodart 417.00        417.00         325.00          325.00         397.90        397.90        
+Brodart 27.12          54.24           42.00           84.00           40.25          80.50          
+Brodart 320.70        641.40         240.00          480.00         204.70        409.40        
+Brodart 229.75        2,297.50      198.00          1,980.00      159.85        1,598.50     
+Brodart 33.90          406.80         57.00           684.00         55.20          662.40        
+Brodart 369.70        3,697.00      290.00          2,900.00      299.00        2,990.00     
+Brodart 323.50        2,911.50      241.00          2,169.00      290.95        2,618.55     
+Brodart 1,082.60     2,165.20      585.00          1,170.00      568.10        1,136.20     
+Jasper 132.50        9,672.50      137.00          10,001.00    137.92        10,068.16   
+Jasper 162.50        6,337.50      161.00          6,279.00      161.55        6,300.45     
+ASGDew‐El Corp.
+ALTERNATE BIDALTERNATE BID
+3rd Coast
+ALTERNATE BID
+Page 4 of 9
+239
+Qty Tag Manufacturer
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+2 AA Jasper
+10 BB Jasper
+1 HH Jasper
+1 OO Jasper
+2 PP Jasper
+1 QQ Jasper
+1 RR Jasper
+2 SS Jasper
+3 UU Jasper
+1 VV Jasper
+1 YY Jasper
+1 ZZ Jasper
+4 AAA Jasper
+2 CBA Carolina  Business Furn
+6 CBB Carolina  Business Furn
+4 CBC Carolina  Business Furn
+8 CBD Carolina  Business Furn
+16 CBE Carolina  Business Furn
+4 CBF Carolina  Business Furn
+2 CBG Carolina  Business Furn
+4 CBH Carolina  Business Furn
+4 CBI Carolina  Business Furn
+6 CBJ Carolina  Business Furn
+4 CBX Carolina  Business Furn
+2 HA Hon
+6 HB Hon
+Alt. Unit  Price Total Unit  Price Total Unit  Price Total
+ASGDew‐El Corp.
+ALTERNATE BIDALTERNATE BID
+3rd Coast
+ALTERNATE BID
+Brodart 527.15        1,054.30      319.00          638.00         546.25        1,092.50     
+Brodart 472.20        4,722.00      250.00          2,500.00      448.50        4,485.00     
+Brodart 245.40        245.40         400.00          400.00         145.00        145.00        
+Brodart 1,024.10     1,024.10      7,580.00       7,580.00      886.50        886.50        
+Brodart 870.20        1,740.40      incl ‐                 569.25        1,138.50     
+Brodart 1,116.85     1,116.85      incl ‐                 1,208.65     1,208.65     
+Brodart 880.85        880.85         incl ‐                 573.85        573.85        
+Brodart 397.85        795.70         incl ‐                 151.80        303.60        
+Brodart incl ‐                 ‐                 40.25          120.75        
+Brodart 1,023.50     1,023.50      ‐                 1,208.65     1,208.65     
+Brodart 137.95        137.95         ‐                 184.00        184.00        
+Brodart 137.95        137.95         ‐                 184.00        184.00        
+Brodart incl ‐                 ‐                 184.00        736.00        
+Office Furn Grp 556.85        1,113.70      840.00          1,680.00      1,179.23     2,358.46     
+Office Furn Grp 1,310.30     7,861.80      1,070.00       6,420.00      1,647.17     9,883.02     
+Office Furn Grp incl ‐                 200.00          800.00         369.89        1,479.56     
+Office Furn Grp 962.75        7,702.00      760.00          6,080.00      863.60        6,908.80     
+Office Furn Grp incl ‐                incl ‐                 320.29        5,124.64     
+Office Furn Grp 1,331.15     5,324.60      1,270.00       5,080.00      1,647.17     6,588.68     
+Office Furn Grp 1,322.10     2,644.20      1,005.00       2,010.00      1,716.67     3,433.34     
+Office Furn Grp 680.00        2,720.00      490.00          1,960.00      625.44        2,501.76     
+Office Furn Grp 385.75        1,543.00      995.00          3,980.00      1,474.80     5,899.20     
+Office Furn Grp 680.00        4,080.00      630.00          3,780.00      1,022.20     6,133.20     
+Office Furn Grp 406.85        1,627.40      490.00          1,960.00      427.82        1,711.28     
+296.35        592.70         290.00          580.00         291.02        582.04        
+345.25        2,071.50      340.00          2,040.00      335.94        2,015.64     
+Page 5 of 9
+240
+Qty Tag Manufacturer
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+1 HC Hon
+1 HC1 Hon
+4 HD Hon
+Freight
+Installation
+Total
+ALTERNATE 1
+1 CC Jasper
+3 CC1 Jasper
+1 DD Jasper
+4 DD1 Jasper
+1 EE Jasper
+3 EE1 Jasper
+1 FF Jasper
+10 FF1 Jasper
+1 GG Jasper
+4 GG1 Jasper
+ALT 1 Freight
+ALT 1 Installation
+ALT 1 Total
+BID GRAND TOTAL
+Alt. Unit  Price Total Unit  Price Total Unit  Price Total
+ASGDew‐El Corp.
+ALTERNATE BIDALTERNATE BID
+3rd Coast
+ALTERNATE BID
+337.55        337.55         312.00          312.00         309.13        309.13        
+295.85        295.85         275.00          275.00         270.51        270.51        
+254.00        1,016.00      235.00          940.00         232.79        931.16        
+‐                 Perf bond 4,120.00     
+incl ‐                 1,100.00      incl ‐                
+incl ‐                 7,140.00      incl ‐                
+111,871.14 117,043.00 128,677.18
+‐                
+Brodart 451.50        451.50         265.00          265.00         454.25        454.25        
+Brodart 376.25        1,128.75      265.00          795.00         396.75        1,190.25     
+Brodart 397.10        397.10         245.00          245.00         454.25        454.25        
+Brodart 345.00        1,380.00      245.00          980.00         396.75        1,587.00     
+Brodart 451.50        451.50         162.00          162.00         488.75        488.75        
+Brodart 376.25        1,128.75      162.00          486.00         396.75        1,190.25     
+Brodart 451.50        451.50         162.00          162.00         488.75        488.75        
+Brodart 376.25        3,762.50      162.00          1,620.00      454.25        4,542.50     
+Brodart 451.50        451.50         162.00          162.00         488.75        488.75        
+Brodart 376.25        1,505.00      162.00          648.00         454.25        1,817.00     
+‐                
+incl ‐                 350.00        
+incl ‐                 1,100.00     
+incl 11,108.10    6,975.00      12,701.75  
+122,979.24 124,018.00 141,378.93
+Page 6 of 9
+241
+Qty Tag Manufacturer
+7 A Jasper
+22 B Jasper
+29 C Jasper
+6 D Jasper
+12 E Jasper
+18 F Jasper
+8 G Jasper
+5 H Jasper
+13 I Jasper
+2 J Jasper
+2 K Jasper
+4 L Jasper
+3 M Jasper
+2 N Jasper
+5 O Jasper
+1 P Jasper
+1
+Q Jasper
+2 R Jasper
+2 S Jasper
+10 T Jasper
+12 U Jasper
+10 V Jasper
+9 W Jasper
+2 X Jasper
+73 Y Community
+39 Z Community
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+Unit Price Total Unit  Price Total
+420.00        2,940.00      489.34        3,425.38       
+337.00        7,414.00      393.44        8,655.68       
+66.00          1,914.00      77.70          2,253.30       
+639.00        3,834.00      742.13        4,452.78       
+562.00        6,744.00      655.08        7,860.96       
+67.00          1,206.00      78.20          1,407.60        Detroit Office Interiors: No Response
+595.00        4,760.00      686.56        5,492.48        Facility Matrix Group: No Response
+465.00        2,325.00      534.10        2,670.50        Global Office Solutions: No Response
+45.00          585.00         52.13          677.69          Great Lakes Furn & Sply: No Response
+725.00        1,450.00      820.82        1,641.64        ISCG: No Response
+575.00        1,150.00      668.36        1,336.72        Kerr Albert: No Response
+44.00          176.00         51.15          204.60          Office Depot: No Response
+575.00        1,725.00      664.43        1,993.29        Staples: No Response
+425.00        850.00         490.33        980.66         
+44.00          220.00         51.15          255.75         
+650.00        650.00         771.64        771.64         
+600.00        600.00         704.75        704.75         
+40.00          80.00           46.72          93.44           
+325.00        650.00         367.87        735.74         
+275.00        2,750.00      300.98        3,009.80       
+44.00          528.00         51.15          613.80         
+330.00        3,300.00      384.59        3,845.90       
+300.00        2,700.00      344.75        3,102.75       
+675.00        1,350.00      758.85        1,517.70       
+107.00        7,811.00      114.10        8,329.30       
+129.00        5,031.00      134.64        5,250.96        
+BID TO SPEC BID TO SPEC
+Office Express Lincoln  Office Solutions
+Page 7 of 9
+242
+Qty Tag Manufacturer
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+2 AA Jasper
+10 BB Jasper
+1 HH Jasper
+1 OO Jasper
+2 PP Jasper
+1 QQ Jasper
+1 RR Jasper
+2 SS Jasper
+3 UU Jasper
+1 VV Jasper
+1 YY Jasper
+1 ZZ Jasper
+4 AAA Jasper
+2 CBA Carolina  Business Furn
+6 CBB Carolina  Business Furn
+4 CBC Carolina  Business Furn
+8 CBD Carolina  Business Furn
+16 CBE Carolina  Business Furn
+4 CBF Carolina  Business Furn
+2 CBG Carolina  Business Furn
+4 CBH Carolina  Business Furn
+4 CBI Carolina  Business Furn
+6 CBJ Carolina  Business Furn
+4 CBX Carolina  Business Furn
+2 HA Hon
+6 HB Hon
+Unit Price Total Unit  Price Total
+BID TO SPEC BID TO SPEC
+Office Express Lincoln  Office Solutions
+660.00        1,320.00      760.33        1,520.66       
+500.00        5,000.00      584.26        5,842.60       
+5,500.00     5,500.00      not req'd ‐                 
+1,150.00     1,150.00      1,311.64     1,311.64       
+794.00        1,588.00      922.13        1,844.26       
+1,150.00     1,150.00      2,311.97     2,311.97       
+725.00        725.00         848.85        848.85         
+220.00        440.00         257.21        514.42         
+31.00          93.00           35.90          107.70         
+1,150.00     1,150.00      1,311.64     1,311.64       
+175.00        175.00         205.08        205.08         
+175.00        175.00         205.08        205.08         
+175.00        700.00         209.02        836.08         
+1,050.00     2,100.00      1,139.18     2,278.36      
+ 
+1,470.00     8,820.00      1,591.23     9,547.38       
+330.00        1,320.00      357.33        1,429.32       
+770.00        6,160.00      834.27        6,674.16       
+278.00        4,448.00      301.33        4,821.28       
+1,475.00     5,900.00      1,591.18     6,364.72       
+1,535.00     3,070.00      1,658.37     3,316.74       
+825.00        3,300.00      604.20        2,416.80       
+1,300.00     5,200.00      1,424.73     5,698.92       
+915.00        5,490.00      987.49        5,924.94       
+500.00        2,000.00      413.29        1,653.16       
+240.00        480.00         284.26        568.52         
+280.00        1,680.00      331.97        1,991.82        
+Page 8 of 9
+243
+Qty Tag Manufacturer
+Troy School District
+Athens Media Center Furnishings
+Bid 9648
+1 HC Hon
+1 HC1 Hon
+4 HD Hon
+Freight
+Installation
+Total
+ALTERNATE 1
+1 CC Jasper
+3 CC1 Jasper
+1 DD Jasper
+4 DD1 Jasper
+1 EE Jasper
+3 EE1 Jasper
+1 FF Jasper
+10 FF1 Jasper
+1 GG Jasper
+4 GG1 Jasper
+ALT 1 Freight
+ALT 1 Installation
+ALT 1 Total
+BID GRAND TOTAL
+Unit Price Total Unit  Price Total
+BID TO SPEC BID TO SPEC
+Office Express Lincoln  Office Solutions
+275.00        275.00         306.39        306.39         
+225.00        225.00         268.03        268.03         
+195.00        780.00         230.66        922.64         
+2,700.00      2,863.38       
+3,450.00      6,924.04       
+139,307.00 152,115.39  
+450.00        450.00         574.43        574.43         
+435.00        1,305.00      486.89        1,460.67       
+475.00        475.00         535.08        535.08         
+450.00        1,800.00      467.21        1,868.84       
+490.00        490.00         574.43        574.43         
+450.00        1,350.00      486.89        1,460.67       
+490.00        490.00         574.43        574.43         
+450.00        4,500.00      486.89        4,868.90       
+490.00        490.00         574.43        574.43         
+450.00        1,800.00      486.89        1,947.56      
+ 
+Electrical 2,350.82       
+‐                 1,348.63       
+2,000.00      1,215.85       
+15,150.00   19,354.74    
+154,457.00 171,470.13  
+Page 9 of 9
+244
+245
+     8. B. 03.16.10  
+8.  BUSINESS 
+  
+ B. CONSIDERATION:  Media Center Carpet – Athens 
+High School  
+ 
+  Invitations to bid were sent to 14 potential bidd ers with 4 
+responding (none of which were “No Bid”.)  The bids  were 
+reviewed with Mr. Ken Miller, Director of Operation s, and it 
+is recommended that the bid be awarded as stated below.   
+ 
+ 
+RECOMMENDED ACTION :  Acceptance of the resolution below. 
+ 
+SUGGESTED RESOLUTION 
+ 
+Moved By: ______________________________ 
+ 
+Supported By: ______________________________ 
+ 
+Be it therefore resolved that the bid for media center carpet 
+replacement be awarded to Conventional Carpet in th e amount of 
+$27,040.00 and that this amount be approved as an e xpenditure of 
+the 2004 Capital Projects Fund.   
+ 
+ 
+Ayes: ____________ 
+ 
+Nays: ____________ 
+246
+ DATE:  March 10, 2010 
+  
+ TO: Michael Adamczyk 
+  Assistant Superintendent 
+  Business Services 
+   
+ FROM: Frank E. Lams 
+  Supervisor, Purchasing and Budget 
+ 
+          RE:      Bid Award #9658 
+                      Athens Media Center Carpet Replacement                      
+ 
+ 
+ 
+On February 23, 2010 bids were opened for carpet replacement in the media center at 
+Athens High School.   Bids were sent to 14 potential bidders with four responding (none 
+of which were “No Bid”).   
+ 
+Results of this bid have been reviewed with Mr. K. Miller, Director of Operations, who 
+has recommended award to Conventional Carpet.   I have also reviewed this bid and 
+concur with this recommendation.   Accordingly, I recommend award of this bid as 
+follows: 
+     
+   Conventional Carpet  $ 27,040.00 
+  
+  
+Please include this as an action item on the March 16, 2010 Board agenda as an 
+expenditure of the 2004 Capital Projects Fund. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Purchasing Purchasing Purchasing Purchasing    
+Department Department Department Department    
+ 
+1140 Rankin 
+Troy, MI 48083 
+248-823-4052,  
+Fax – 248-823-4077  
+Memorandum 
+247
+Troy School District
+Replacement Carpeting ‐ Athens
+Bid 9658
+Removal of 
+Existing
+Installation 
+of New Total
+Conventional Carpet 2,370.00 $     24,670.00$    27,040.00 $  
+Cohn's Commercial Floor Covering 2,400.00       27,593.25      29,993.25    
+Floorcraft Floor Covering 1,150.00       29,550.00      30,700.00    
+Imperial Floor Covering 3,852.00       30,308.00      34,160.00    
+Fair Way Tile & Carpet:  No Response
+Independent Carpet One:  No Response
+J & J Floors:  No Response
+Langdon Floor Installations:  No Response
+Master Craft Carpet Service:  No Response
+Metro Wholesale Flooring:  No Response
+Quality Floor Covering:  No Response
+Rite Floor Covering:  No Response
+Shock Brothers Floor Covering:  No Response
+Specialty Floor Covering:  No Response
+248
+249
+     8. C. 03.16.10  
+8.  BUSINESS 
+  
+ C. CONSIDERATION:  Bus Security Cameras 
+ 
+  Invitations to bid were sent to 12 potential bidd ers with 5 
+responding (none of which were “No Bid”.)  The bids  were 
+reviewed with Mr. Dominick Asaro, Transportation 
+Supervisor and Ms. Amy Johnson, Contract Manager, F irst 
+Student, and it is recommended that the bid be awarded as 
+stated below.   
+ 
+ 
+RECOMMENDED ACTION :  Acceptance of the resolution below. 
+ 
+SUGGESTED RESOLUTION 
+ 
+Moved By: ______________________________ 
+ 
+Supported By: ______________________________ 
+ 
+Be it therefore resolved that the bid for bus security cameras be 
+awarded to Unity School Bus Parts in the amount of $49,895.00 and 
+that this amount be approved as an expenditure of t he 2004 Capital 
+Projects Fund.   
+ 
+ 
+Ayes: ____________ 
+ 
+Nays: ____________ 
+250
+ DATE:  March 11, 2010 
+  
+ TO: Michael Adamczyk 
+  Assistant Superintendent 
+  Business Services 
+   
+ FROM: Frank E. Lams 
+  Supervisor, Purchasing and Budget 
+ 
+          RE:      Bid Award #9661 
+                      Bus Security Systems                      
+ 
+ 
+ 
+On February 24, 2010 bids were opened for the purchase of additional security systems 
+(surveillance cameras) for installation inside the District’s school buses.   Bids were sent 
+to 12 potential bidders with five responding (none of which were “No Bid”).   
+ 
+Results of this bid have been reviewed with Mr. D. Asaro, Transportation Supervisor, 
+and Ms. A. Johnson, Contract Manager-First Student, who have recommended award 
+to Unity School Bus Parts.  Please note that Unity’s bid was for a Seon camera system 
+which is the same system being used in some of our buses currently.   I concur with this 
+recommendation.    
+ 
+Working within a budgetary constraint of $50,000.00, I recommend the following: 
+ 
+ Purchase 20 Complete Systems  $ 29,600.00 
+     Purchase 41 Decoy Systems  20,295.00 
+ 
+  
+ Total Purchase from Unity Bus Parts  $ 49,895.00 
+  
+ 
+This purchase will allow all of our non-spare buses to be equipped with a camera 
+system mount.  The twenty cameras (along with the existing five) can be switched 
+between any bus in the fleet allowing greater flexibility and usage.  
+  
+Please include this as an action item on the March 16, 2010 Board agenda as an 
+expenditure of the 2004 Capital Projects Fund. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Purchasing Purchasing Purchasing Purchasing    
+Department Department Department Department    
+ 
+1140 Rankin 
+Troy, MI 48083 
+248-823-4052,  
+Fax – 248-823-4077  
+Memorandum 
+251
+Troy School District
+Security Cameras for Buses
+Bid 9661
+Make/Model of Camera
+Unit Cost Unit Cost Unit Cost
+Camera (less than 5) 1,335.00  complete system 2,404.00  ea 177.00      
+Enclosure (less than 5) incl -            1,152.00  w/1 cam
+Installation (less than 5) 200.00      complete system 310.00      ea 267.00      
+Subtotal 1,535.00  complete system 2,714.00  1,596.00   
+Other 1,070.00   DVR system only - 439.00     optional Wi-Fi Download
+320.00     Decoy system only
+175.00     decoy install only
+Camera (6-10 units) 1,300.00 complete system 2,372.00  ea 177.00      
+Enclosure (6-10 units) incl -            1,152.00  w/1 cam
+Installation (6-10 units) 200.00     complete system 310.00   ea 267.00    
+Subtotal 1,500.00   complete system 2,682.00  1,596.00   
+Other 1,070.00   DVR system only -            439.00     
+optional Wi-Fi 
+Download
+320.00     Decoy system only
+175.00      decoy install only
+Subtotal 495.00     complete decoy
+Camera (10-20 units) 1,280.00 complete system 2,340.00  ea 177.00      
+Enclosure (10-20 units) incl -            1,152.00  w/1 cam
+Installation (10-20 units) 200.00      complete system 300.00      ea 267.00      
+Subtotal 1,480.00  complete system 2,640.00 1,596.00
+Other 1,070.00   DVR system only -            439.00     
+optional Wi-Fi 
+Download
+320.00     Decoy system only
+175.00      decoy install only
+Subtotal 495.00     complete decoy
+Fortress Systems 
+International
+MX4B/SQ306A1 514W-004 FMobile 1CX6M-4CHGP
+Unity School Bus 
+Parts
+247 Security 
+Inc.
+252
+Troy School District
+Security Cameras for Buses
+Bid 9661
+Fortress Systems 
+International
+Unity School Bus 
+Parts
+247 Security 
+Inc.
+Camera (21-30 units) 1,280.00  complete system 2,290.00  ea 177.00      
+Enclosure (21-30 units) incl -            1,152.00  w/1 cam
+Installation (21-30 units) 200.00      complete system 300.00      ea 267.00      
+Subtotal 1,480.00  complete system 2,590.00 1,596.00
+Other 1,070.00   DVR system only -            439.00     
+optional Wi-Fi 
+Download
+320.00     Decoy system only
+175.00      decoy install only
+Subtotal 495.00     complete decoy
+Camera (31-50 units) 1,245.00  complete system 2,240.00  ea 177.00      
+Enclosure (31-50 units) incl -            1,152.00  w/1 cam
+Installation (31-50 units) 200.00      complete system 290.00      ea 267.00      
+Subtotal 1,445.00  complete system 2,530.00 1,596.00
+Other 1,070.00   DVR system only -            439.00     
+optional Wi-Fi 
+Download
+320.00     Decoy system only
+175.00      decoy install only
+Subtotal 495.00     complete decoy
+Camera (51+ units) 1,195.00  complete system 2,209.00  ea 177.00      
+Enclosure (51+ units) incl -            1,152.00  w/1 cam
+Installation (51+ units) 200.00      complete system 275.00      ea 267.00      
+Subtotal 1,395.00  complete system 2,484.00  1,596.00   
+Other 1,070.00   DVR system only -            439.00     
+optional Wi-Fi 
+Download
+320.00     Decoy system only
+175.00      decoy install only
+Subtotal 495.00     complete decoy
+Bearcom:  No Response
+Brinker Tech Team:  No Response
+Complete Communications Inc.:  No Response
+Cynergy Wireless:  No Response
+253
+Troy School District
+Security Cameras for Buses
+Bid 9661
+Make/Model of Camera
+Camera (less than 5)
+Enclosure (less than 5)
+Installation (less than 5)
+Subtotal
+Other
+Camera (6-10 units)
+Enclosure (6-10 units)
+Installation (6-10 units)
+Subtotal
+Other
+Subtotal
+Camera (10-20 units)
+Enclosure (10-20 units)
+Installation (10-20 units)
+Subtotal
+Other
+Subtotal
+177.00     177.00      
+1,273.00  w/1 cam 1,145.00   w/1 cam
+267.00      225.00      
+1,717.00  1,155.00      complete system 1,547.00  
+439.00     
+optional Wi-Fi 
+Download 425.00     optional Wi-Fi Download
+177.00     177.00      
+1,273.00  w/1 cam 1,145.00   w/1 cam
+267.00     225.00     
+1,717.00  1,155.00      complete system 1,547.00  
+439.00     
+optional Wi-Fi 
+Download 425.00     optional Wi-Fi Download
+177.00     177.00      
+1,273.00  w/1 cam 1,145.00   w/1 cam
+267.00      225.00      
+1,717.00  1,155.00      complete system 1,547.00  
+439.00     
+optional Wi-Fi 
+Download 425.00     optional Wi-Fi Download
+Fortress Systems 
+International
+Gatekeeper 
+Systems A Parts Warehouse
+FMobile FM411-         
+4CHGPS-HSD N404 FMobile 1CX6M-4CHGP
+Unit Cost Unit Cost Unit Cost
+$855.00
+n/a
+$300 + $25/extra camera
+$215 extra day/night 
+cameras;    $90 IR 
+Illuminator; $150 GPS
+855.00
+n/a
+$300 + $25/extra camera
+$215 extra DN cameras;  
+$90 IR Illuminator;         
+$150 GPS
+855.00
+n/a
+$300 + $25/extra camera
+$215 extra cameras;       
+$90 IR Illuminator;         
+$150 GPS
+254
+Troy School District
+Security Cameras for Buses
+Bid 9661
+Camera (21-30 units)
+Enclosure (21-30 units)
+Installation (21-30 units)
+Subtotal
+Other
+Subtotal
+Camera (31-50 units)
+Enclosure (31-50 units)
+Installation (31-50 units)
+Subtotal
+Other
+Subtotal
+Camera (51+ units)
+Enclosure (51+ units)
+Installation (51+ units)
+Subtotal
+Other
+Subtotal
+Fortress Systems 
+International
+Gatekeeper 
+Systems A Parts Warehouse
+177.00     177.00      
+1,273.00  w/1 cam 1,145.00   w/1 cam
+267.00      225.00      
+1,717.00  1,155.00      complete system 1,547.00  
+439.00     
+optional Wi-Fi 
+Download 425.00     optional Wi-Fi Download
+177.00     177.00      
+1,273.00  w/1 cam 1,145.00   w/1 cam
+267.00      225.00      
+1,717.00  1,155.00      complete system 1,547.00   
+439.00     
+optional Wi-Fi 
+Download 425.00     optional Wi-Fi Download
+177.00     177.00      
+1,273.00  w/1 cam 1,145.00   w/1 cam
+267.00      225.00      
+1,717.00  1,155.00      complete system 1,547.00  
+439.00     
+optional Wi-Fi 
+Download 425.00     optional Wi-Fi Download
+Intelligent Choice:  No Response
+LVC Technologies:  No Response
+Technology Solutions:  No Response
+855.00
+n/a
+$250 + $25/extra camera
+$215 extra cameras;       
+$90 IR Illuminator;         
+$150 GPS
+855.00
+n/a
+$250 + $25 extra camera
+$215 extra cameras;       
+$90 IR Illuminator;         
+$150 GPS
+n/a
+$250 + $25 extra camera
+$215 extra cameras;       
+$90 IR Illuminator;         
+$150 GPS
+855.00
+255
+256
+ 9. A.       03.16.10  
+ 
+ 
+ 
+9. OTHER  
+ 
+ A.   First Reading:   Revisions to Listed Board Policies  and 
+ New Board Policy D-1106, Fixed Assets  
+ 
+  
+ Members of the Board Policy Committee have met to review 
+and update the following Board policies and new Board Policy, 
+D-1106, Fixed Assets.  The proposed changes and the new 
+policy have been reviewed by the Board of Education’s attorney 
+to make sure they comply with state law, the Open Meetings 
+Act, and the Revised School Code. 
+ 
+ The first reading of the proposed changes and new Board 
+Policy, D-1106, Fixed Assets, is presented at this evening’s 
+meeting.   
+ 
+ 
+B-1208 Voting 
+B-1211 Public Participation in Board of Education 
+Meetings 
+B-1301 Agenda Format for Regular Meetings 
+C-1402 Smoking Policy 
+D-1106 Fixed Assets (NEW) 
+K-1303 Political and/or Commercial Advertising 
+by District Employees 
+K-1304 Advertising on School Property and in 
+School District Electronic Media 
+ 
+  
+ 
+RECOMMENDED ACTION:  Have each Board member read a Board Policy 
+with the changes in a round-robin fashion. 
+257
+  MEETINGS OF THE BOARD     B-1200 
+ 
+ 
+B-1208 VOTING 
+ 
+ 
+The Board of Education shall conduct all of its votes in   
+ accordance with the applicable federal and state laws including , 
+but not limited to, the Revised School Code and the Open 
+Meetings Act, as amended. 
+ 
+The roll call for voting is by random call of last names on a 
+rotating basis. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Adopted: January 16, 1979 
+First Reading: March 16, 2010 
+  Pending adoption on April 20, 2010  
+258
+MEETINGS OF THE BOARD     B-1200  
+ 
+ 
+B-1211 PUBLIC PARTICIPATION IN BOARD OF EDUCATION 
+MEETINGS 
+ 
+ 
+All meetings, except closed sessions, are open to the public.  The Board 
+welcomes citizens’ comments.  The public participation portion of the 
+meeting is limited to one -half hour , but exceptions may be made at the 
+discretion of the Board president.  Each p erson will be allowed to 
+speak for up to five minutes, except where the number of speakers 
+exceeds the time limit.  In those instances, the President may reduce 
+the five -minute limit to a three -minute limit for each speaker  or the 
+president of the Board ma y waive the half –hour time limit.  In any 
+event, no one’s right to address the Board will be denied. 
+ 
+Each person wishing to address the Board of Education must identify 
+himself or herself by name and address.  If the person is representing 
+an organizatio n or group, the person should indicate whether the 
+comments or presentation represents the official view of the 
+organization or group. 
+ 
+Board of Education members may question speakers but are not 
+obligated to answer questions or make statements or commitm ents in 
+response to issues raised by the public.  In general, such issues will be 
+referred to the Superintendent for investigation, study, and 
+recommendation or designated as future agenda items for Board of 
+Education consideration. 
+ 
+Individuals addressing 
+ the Board should take into consideration the 
+rules of common courtesy.  The public participation portion of the 
+meeting cannot be used to make personal attacks against any 
+individual school board member or school district employee that are 
+totally unrelat ed to the manner in which the member or employee 
+performs his or her duties. 
+ 
+To ensure individual due process rights, the District maintains a 
+formal process for handling complaints against individuals.  A 
+problem involving an individual or specific incid ent is handled 
+through administrative channels.  For assistance, contact the 
+Superintendent’s office. 
+ 
+The president or designee is responsible for the orderly conduct of the 
+meeting and shall rule on such matters as to the appropriateness of the 
+subject b eing presented.  
+259
+MEETINGS OF THE BOARD     B-1200  
+ 
+ 
+B-1211 PUBLIC PARTICIPATION IN BOARD OF EDUCATION 
+MEETINGS 
+ 
+ 
+The Board values public participation and recognizes the importance 
+of public input on issues affecting the Board and the District.  This 
+Policy has been adopted to balance the importance of pub lic 
+participation with other important objectives, including: insuring all 
+community members a fair and reasonable opportunity to express 
+their views to the Board; completing Board business effectively, 
+efficiently and in an orderly manner; respecting other important time 
+commitments of Board members, District staff and audience members; 
+and, respecting the rights of Board members, District staff and 
+students and audience members. 
+Public participation will be limited to 60 minutes per Board meeting.  
+Generally, there will be 30 minutes of public participation at the 
+beginning of the meeting, limited to agenda items.  There will be an 
+additional 30 minutes of public participation at the end of the meeting, 
+limited to non-agenda items. 
+Although the public participation portion of the meeting is limited, an 
+exception may be made, if necessary, so that no one’s right to address 
+the Board will be denied. 
+Audience members who wish to address the Board must complete a 
+Speaker Request Form.  Forms will be available 30 minutes prior to the 
+start of the meeting and must be completed and submitted to the 
+Secretary of the Board of Education before the start of the meeting.  
+The Board President or presiding officer will recognize audience 
+members for public participation subject to the following rules: 
+• Each person wishing to speak must identify self by name and 
+address. 
+• Recognized speakers may be permitted to speak for up to three (3) 
+minutes.  However, the President of the Board may reduce the time 
+limit for each speaker in order to accommodate all of the 
+individuals who wish to address the Board of Education. 
+• Recognized speakers may not transfer or delegate their time to 
+others. 
+260
+MEETINGS OF THE BOARD     B-1200  
+ 
+ 
+B-1211 PUBLIC PARTICIPATION IN BOARD OF EDUCATION 
+MEETINGS 
+ 
+ 
+• Delegations who wish to express their views are encouraged to 
+ select one speaker to present the delegation’s views to the  Board. 
+• Each member of a delegation wishing to speak must submit a 
+ separate Speaker Request form. 
+• Persons who have completed Speaker Request forms but have not 
+had any opportunity to address the Board or to complete their 
+presentations may be given the option of submitting their views in 
+writing to the Secretary of the Board of Education, whose name and 
+e-mail address are printed on each Speaker Request form.  The 
+Secretary of the Board will forward all such written presentation to 
+all Board members. 
+• Speakers shall direct their comments to the Board and not to 
+District staff or other audience members. 
+• Speakers should not expect Board members to answer questions 
+during public participation.  Questions will be referred to the 
+Superintendent for review and study and, if appropriate, future 
+Board action. 
+• Speakers are expected to express themselves responsibly and 
+courteously and with due respect for the fact their views and 
+opinions may not be shared by all present.  The following are 
+examples of irresponsible or discourteous expression:  
+/head2right Denigrating Board members, District staff or students or other 
+audience members. 
+/head2right Speculating on the motives of Board members, District staff or 
+students or other audience members. 
+/head2right Complaints about District staff or students that have not been 
+brought to the District’s attention through appropriate channels. 
+• Speakers may not express complaints against Board members or 
+District staff unrelated to their offices or jobs. 
+261
+MEETINGS OF THE BOARD     B-1200  
+ 
+ 
+B-1211 PUBLIC PARTICIPATION IN BOARD OF EDUCATION 
+MEETINGS 
+ 
+ 
+• Speakers may not express complaints against Board members or 
+District staff that are related to their offices or job unless the 
+affected person or persons have been notified and permitted a 
+reasonable opportunity to choose whether to hold a hearing on the 
+complaint in open or closed session. 
+• Audience members are expected to conduct themselves responsibly 
+and courteously and with due respect for the fact their views and 
+opinions may not be shared by all present.  Thus, raucous or 
+disrespectful expressions of agreement or disagreement by 
+audience members are not appropriate. 
+• The Board’s President or presiding officer is charged with the 
+responsibility for insuring that public participation assists the 
+Board in discharging its responsibilities and is conducted according 
+to this Policy.  Thus, the Board President or presiding officer is 
+authorized to enforce this Policy by, among other things: 
+interrupting presentations to remind speakers and audience 
+members of this Policy; dismissing previously recognized speakers 
+who violate this Policy; requesting speakers or audience members 
+to leave the meeting if they violate the Policy and, if necessary, 
+requesting the assistance of law enforcement officers to assist in 
+removing speakers or audience members who refuse to leave; or, 
+adjourning the meeting. 
+The Board may amend or waive this Policy, or specific provisions 
+thereof, when, in the Board’s judgment, amendment or waiver is 
+appropriate. 
+Revised: April 1988 
+ March 17, 1998 
+ July 10, 2007 
+ March 17, 2009 
+First Rdg: March 16, 2010 
+ Pending adoption on April 20, 2010 
+  
+ 
+ 
+262
+AGENDA FORMAT FOR REGULAR BOARD OF EDUCATION  
+MEETINGS     B-1300  
+ 
+ 
+ 
+B-1301 AGENDA FORMAT FOR REGULAR MEETINGS 
+ 
+   
+ A. PLEDGE OF ALLEGIANCE 
+ 
+ B.  RECOGNITION 
+ 
+ C. ADDITIONS & DELETIONS 
+ 
+ D. PUBLIC COMMUNICATION 
+ 
+ E. GENERAL - CONSENT AGENDA 
+ 
+ F. PERSONNEL 
+ 
+ G. CURRICULUM 
+ 
+ H. BUSINESS 
+ 
+I.  PUBLIC COMMUNICATION 
+ 
+ J. OTHER 
+ 
+ K. ADJOURNMENT 
+ 
+ 
+ 
+ 
+ 
+Revised: September 28, 1988 
+ October 3, 1989 
+ March 17, 1998 
+ June, 19, 2007 
+First Rdg: March 16, 2010 
+ Pending adoption on April 20, 2010 
+ 
+263
+ 
+ 
+   RULES AND REGULATIONS    C-1400 
+ 
+ 
+ 
+C-1402 SMOKING 
+ 
+The policy of the Troy School District is to follow Public Act 140 of 
+1993 regarding smoking and use of tobacco products on school 
+district property, with the exception that smoking is prohibited at 
+ath letic fields. 
+ 
+It is the policy of the Troy School District that the use and/or sale of 
+any tobacco products is prohibited in vehicles, buildings, facilities, 
+structures, or other real estate owned, leased or otherwise 
+controlled by the Troy School District at all times (24 hours a day – 
+7 days a week.) 
+ 
+For the purpose of this policy, the use and/or sale of a tobacco 
+product is defined as follows: 
+ 
+“Tobacco product” means a preparation of tobacco to be inhaled, 
+chewed, or placed in a person’s mouth. 
+ 
+“Use of a tobacco product” means any of the following: 
+ 
+/head2right The carrying by a person of a lighted cigar, cigarette, pipe, or 
+ other lighted smoking device. 
+ 
+/head2right The inhaling or chewing of a tobacco product. 
+ 
+/head2right The placing of a tobacco product within a person’s mouth. 
+ 
+ 
+ 
+ 
+ 
+Adopted: February 2, 1999 
+Revised: September, 2003 
+First Rdg: March 16, 2010 
+  Pending adoption on April 20, 2010  
+264
+ 
+ 
+   ACCOUNTING AND REPORTING     D-1100 
+ 
+ 
+ 
+D-1106 FIXED ASSET POLICY  
+ 
+The Board shall maintain a fixed asset procedure sufficient to 
+track applicable purchases and donations of items meeting the 
+following criteria: 
+ 
+• The cost of each item shall exceed $5,000;  
+ 
+• The item shall have an estimated useful life which exceeds 
+one year; 
+ 
+• Items costing less than $5,000 each may also be included 
+within this policy if such item is deemed to be theft prone or 
+otherwise warranting tracking; 
+ 
+Fixed assets shall be classified into the following major 
+categories: 
+ 
+/head2right Land 
+/head2right Buildings  
+/head2right Improvements other than buildings 
+/head2right Construction in Progress 
+/head2right Machinery and Equipment 
+ 
+The Assistant Superintendent of Business Services shall develop 
+such procedures and practices sufficient to meet this policy. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+First Rdg: March 16, 2010 
+  Pending adoption on April 20, 2010 
+ 
+265
+ 
+ 
+ADVERTISING & DISTRIBUTION OF MATERIALS IN THE SCHOOLS 
+K-1300   
+ 
+ 
+ 
+K-1303 POLITICAL 
+AND/OR COMMERCIAL  ADVERTISING BY 
+DISTRICT EMPLOYEES  
+ 
+ No material supporting any candidate, candidates, slate of candidates, 
+political issues, issues which cause substantial and material interference 
+and/or disruption with normal school activities , or political 
+organizations/committees may be distributed, posted, or displayed on 
+any district-owned property. 
+ 
+/head2right Except for the reserved length of time in a building or room which 
+has been rented or reserved by a political or community group for 
+meeting purposes or in connection with a class project or activities. 
+ 
+All school personnel, including contracted personnel assigned to the  
+school district, shall maintain a posture of complete neutrality with 
+respect to all candidate(s), political issues, and/or political 
+organizations/committees while engaged in duties for the Troy School 
+District or in contact with students or students’ parents. 
+ 
+Further, absent the express written consent of the superintendent or 
+his/her designee, all school personnel shall be restricted from utilizing 
+Troy School District resources, technology, including District e-mail, and 
+student/parent contact information received while engaged in duties for 
+the Troy School District for commercial purposes or for the purpose of 
+supporting any candidate, candidates, slate of candidates, political 
+issues, including any issues which cause substantial and material 
+interference and/or disruption with normal school activities, or political 
+organizations/committees. 
+ 
+Adopted: May 3, 1976 
+Revised: January 16, 1979 
+ April 21, 1998 
+First Rdg: March 16, 2010 
+ For adoption on April 20, 2010 
+266
+ 
+ 
+ADVERTISING & DISTRIBUTION OF MATERIALS IN THE SCHOOLS 
+K-1300   
+ 
+K-1304 SERVICE ADVERTISING 
+ 
+ 
+ Advertising of a service to employees or service to students may be allowed by 
+obtaining approval of the superintendent or designee.  
+ 
+ ADVERTISING ON SCHOOL DISTRICT PROPERTY AND IN SCHOOL 
+DISTRICT ELECTRONIC MEDIA  
+ 
+The school district property and electronic media, like school newspapers, 
+yearbooks, and other District-sponsored publications and property, is a nonpublic 
+forum subject to the District’s control and regulation.  The District will accept 
+commercial advertisements, subject to the following rules and procedures. 
+ 
+• Advertising is restricted to commercial purposes.  (The District reserves the 
+right to give preference to local businesses and businesses that sell goods and 
+services that students may be interested in purchasing.)  The District property 
+and Web site are not forums for political, religious, or public advocacy 
+discussion or expression. 
+ 
+• The District reserves the right to deny advertisements that are ungrammatical, 
+poorly written, inadequately researched, biased or prejudiced, vulgar or 
+profane or otherwise unsuitable for student audiences. 
+ 
+• Advertisements cannot be for goods or services which are illegal. 
+ 
+• The sponsors, goods, services, advertisement or activities may not violate or 
+condone (explicitly or implicitly) the violation of Board or School District’s 
+policies, or be inconsistent with or in competition with the educational mission 
+of the School District. 
+ 
+• The advertisements cannot be libelous, offensive, contain explicit sexual 
+content, or be obscene. 
+ 
+• The District will not approve advertising in connection with the following 
+products or uses: 
+ 
+1.  Products used to injure or kill. 
+2.  Alcohol-related products. 
+3.  Tobacco-related products. 
+4.  Illegal drug-related products. 
+267
+ 
+ 
+5.  Prescription or over-the-counter medication. 
+6.  Sexually suggestive products or language. 
+7.  Gambling-related products. 
+8.  Products that present an unacceptable risk of liability. 
+9.  Products that are harmful to or inconsistent with the mission or image of 
+the School District. 
+10.  Racist, sexist, hateful, demeaning or degrading language or statements. 
+11.  Profanity. 
+12.  Sexual acts. 
+13.  Statements impugning any school in the Troy School District or schools 
+outside of the Troy School District. 
+14.  Art or a design incorporating trademarks or copyrights owned by third 
+parties, unless written permission of such use is satisfactory in form and 
+substance to the school, is obtained from the trademark holder or 
+copyright owner, and approved in advance. 
+15.  Any use which suggests or implies the school district’s endorsement of 
+other organizations, companies, products, services, political parties or 
+views, or religious organizations or beliefs. 
+16.  Any use that discriminates or implies discrimination against any persons 
+or groups based on age, ancestry, belief, color, creed, disability, national 
+origin, race, ethnicity, religion, sex, sexual orientation or veteran status, or 
+in any other way that would be a violation of the School District’s anti-
+discrimination policies or practices. 
+ 
+All advertisements are to be reviewed by the superintendent or designee who is 
+responsible for applying and enforcing this policy.  Any entity or person who 
+disagrees with the superintendent or designee’s decision can petition the 
+superintendent’s office for a review within 30 calendar days from the initial 
+written decision of the designee.  The superintendent, or the superintendent’s 
+designee, will review the petition and upon request meet with the petitioner.  The 
+superintendent or designee will issue a decision within 30 calendar days after the 
+petition and/or meeting which decision shall be final. 
+ 
+ 
+Adopted: April 19, 1976 
+Revised: January 16, 1979 
+ April 21, 1998 
+ April 15, 2003 
+First Rdg: March 16, 2010 
+ For adoption on April 20, 2010 
+ 
+ 
+268
+ 
+                              10. A.       03.16.10   
+      
+ 
+10. CLOSED SESSION 
+ 
+ A. CONSIDERATION:  Negotiations 
+ 
+The Board must pass a resolution to go into closed session. 
+Following the passage of the resolution, the Board of 
+Education will go into closed session.  No additional business 
+will take place after this time, other than to officially adjourn 
+the meeting. 
+ 
+ 
+ 
+RECOMMENDED ACTION: Adopt the following resolution. 
+ 
+ 
+   Moved by  
+ 
+   Supported by  
+ 
+ 
+ 
+Be it therefore resolved that, as permitted in the Michigan Open Meetings 
+Act, Public Act 267, Section 8 (c), the Troy Board of Education shall go 
+into closed session to discuss TESPA negotiations. 
+ 
+ 
+Roll call vote.  
+  
+Underwood 
+Edmunds 
+Fleming 
+Hauff  
+Miletti 
+Philippart  
+Pochodylo 
+ 
+ 
+269

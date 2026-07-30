@@ -1,0 +1,1070 @@
+ WARREN ENTER 101970293910000  5990     ATH SUPPLIES               0.00            27.20
+TOTAL CHECK                                                                                                    0.00           101.58
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101905261800100  3193     OPEN PO 2016 − 2017        0.00       230,128.64
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101905261800100  3193     OPEN PO 2016 − 2017        0.00         7,473.88
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101905261800100  3193     OPEN PO 2016 − 2017        0.00           830.43
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101904261870000  3192     OPEN PO 2016 − 2017        0.00        20,508.85
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101904261870000  3192     OPEN PO 2016 − 2017        0.00           674.43
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101904261870000  3192     OPEN PO 2016 − 2017        0.00           802.90
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101689257068900  3190     OPEN PO 2016 − 2017        0.00         2,964.63
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101689257068900  3190     OPEN PO 2016 − 2017        0.00           178.81
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101689257068900  3190     OPEN PO 2016 − 2017        0.00           372.52
+A1003     1706344   05/25/17 27275    DM BURR FACILITIES  101905261800100  3193     OPEN PO 2016 − 2017        0.00           875.62
+TOTAL CHECK                                                                                                    0.00       264,810.71
+A1003     1706345   05/25/17 22410    DZWIGALSKI CHARLES  101970293990500  3190     BSEBLL  GAME JV            0.00            48.00
+A1003     1706346   05/25/17 18695    EFFINGER BRIAN      101970293990500  3190     LAXBYS GAME JV             0.00            50.00
+A1003     1706346   05/25/17 18695    EFFINGER BRIAN      101970293990500  3190     LAXBYS GAME V              0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003     1706348   05/25/17 21594    EQUIPMENT DISTRIBUT 101070127579100  5990     THS AUTO LIFT MAINT        0.00           285.00
+A1003     1706349   05/25/17 11121    ESCHMANN THOMAS R   101970293990500  3190     TRCK FLD  INVITATIO        0.00           120.00
+A1003     1706351   05/25/17 11880    FINNEY RHIANNON     101970293000000  3210     REIM WATERPOLO MILA        0.00           586.79
+A1003     1706352   05/25/17 19919    FULCHER ROBERT S    101970293990500  3190     TRCK FLD  INVITATIO        0.00           120.00
+A1003     1706353   05/25/17 27626    GEIST GRETCHEN      101970293990500  3190     LAX GLS GAME JV            0.00            50.00
+A1003     1706353   05/25/17 27626    GEIST GRETCHEN      101970293990500  3190     LAX GLS GAME V             0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003     1706354   05/25/17 27405    GINTER LISA         101970293990500  3190     SCCR GLS GAME JVB          0.00            41.00
+A1003     1706355   05/25/17 24954    GLOBAL COMPLIANCE N 101700283646000  3450     GCN MOD/YRLY SUBSCR        0.00           850.00
+A1003     1706356   05/25/17 26030    GONZALO GARCIA      101668000100000  R1731    REFUND P2P FEE             0.00            50.00
+A1003     1706358   05/25/17 10878    GRADUATION ALLIANCE 101206132000000  3450     GRAD ALLNCE STDNT F        0.00         8,800.00
+A1003     1706359   05/25/17 27361    GREAT LAKES CONSTRU 101902261871000  4110     OPEN PO 2016 − 2017        0.00           556.28
+A1003     1706359   05/25/17 27361    GREAT LAKES CONSTRU 101902261871000  4110     OPEN PO 2016 − 2017        0.00         1,220.32
+TOTAL CHECK                                                                                                    0.00         1,776.60
+A1003     1706361   05/25/17 24437    HABITZ THOMAS       101970293990500  3190     BSEBLL  DBLHDR V           0.00           115.00
+193
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   33
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706362   05/25/17 10612    HALLORAN KEVIN      101970293990500  3190     BASEBALL  BYS GAME         0.00            47.00
+A1003     1706363   05/25/17 10940    HARTSIG SUPPLY CO I 101902261862000  5990     OPEN PO 2016 − 2017        0.00           416.68
+A1003     1706363   05/25/17 10940    HARTSIG SUPPLY CO I 101902261862000  5990     OPEN PO 2016 − 2017        0.00         1,865.22
+TOTAL CHECK                                                                                                    0.00         2,281.90
+A1003     1706364   05/25/17 22155    HAYNER PAUL         101970293990500  3190     BASEBALL  BYS GAME         0.00            48.00
+A1003     1706364   05/25/17 22155    HAYNER PAUL         101970293990500  3190     BSEBLL  DBLHDR V           0.00           115.00
+TOTAL CHECK                                                                                                    0.00           163.00
+A1003     1706365   05/25/17 22649    HIGHEST HONOR INC   101700283086700  5990     RETIREMENT CLOCKS          0.00         1,462.50
+A1003     1706367   05/25/17 12915    DORIS M MUKALLA     101203131389500  5210     STAND OUT 5 STUDENT        0.00           623.75
+A1003     1706367   05/25/17 12915    DORIS M MUKALLA     101203131389500  5210     STAND OUT 5 LESSON         0.00            28.95
+A1003     1706367   05/25/17 12915    DORIS M MUKALLA     101203131389500  5210     STAND OUT 5 WORKBOO        0.00            19.95
+A1003     1706367   05/25/17 12915    DORIS M MUKALLA     101203131389500  5210     STAND OUT 5 AUDIO C        0.00            55.95
+TOTAL CHECK                                                                                                    0.00           728.60
+A1003     1706370   05/25/17 27617    JAMF HOLDINGS INC & 101790284000000  3450     1 YR ANNUAL SUPPORT        0.00         3,200.04
+A1003     1706370   05/25/17 27617    JAMF HOLDINGS INC & 101790284000000  3450     STANDARD MANDATORY         0.00         6,000.00
+TOTAL CHECK                                                                                                    0.00         9,200.04
+A1003     1706372   05/25/17 26588    JENDRUSCH THOMAS    101970293990500  3190     SCCR GLS GAME JV           0.00            48.00
+A1003     1706374   05/25/17 24986    GIORDANO FRANCES MA 101970293910000  5990     AHS/THS TRACK UPDAT        0.00           185.00
+A1003     1706380   05/25/17 24029    KNUDSON PAUL        101970293990500  3190     LAXBYS GAME V              0.00            60.00
+A1003     1706381   05/25/17 11181    KROGER CO           101012111610400  5110     SINK VS FLOAT SCIEN        0.00             4.99
+A1003     1706382   05/25/17 10286    KUNTHAVAI SHIVAKUMA 101668000100000  R1731    REFUND TENNIS FEE          0.00            50.00
+A1003     1706383   05/25/17 10286    KURT HARAS          101668000100000  R1731    REIMB CLUB FEE VS A        0.00            50.00
+A1003     1706387   05/25/17 21817    LAVEIRGE WILFORD    101970293990500  3190     SFTBLL GLS DBLHDR V        0.00            98.00
+A1003     1706390   05/25/17 11260    LUCK’S MUSIC LIBRAR 101051112352000  5110     PURCHASING OF MUSIC        0.00           489.60
+A1003     1706391   05/25/17 11262    LUTTENBERGER J MICH 101970293990500  3190     SFTBLL GLS DBLHDR V        0.00            98.00
+A1003     1706392   05/25/17 12865    MECHANICAL CONTROLS 101902261862300  4120     OPEN PO 2016 − 2017        0.00         2,342.82
+A1003     1706392   05/25/17 12865    MECHANICAL CONTROLS 101902261862300  4120     OPEN PO 2016 − 2017        0.00           487.00
+TOTAL CHECK                                                                                                    0.00         2,829.82
+A1003     1706393   05/25/17 11278    M E F S A INC       101              L4520    JUNE 2017                  0.00           245.75
+A1003     1706394   05/25/17 11286    M P T DRIVES INC    101902261862000  5990     OPEN PO 2016 − 2017        0.00           113.08
+A1003     1706395   05/25/17 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2016 − 2017        0.00            78.66
+A1003     1706395   05/25/17 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2016 − 2017        0.00           264.48
+A1003     1706395   05/25/17 19094    MADISON ELECTRIC CO 101902261861500  5990     OPEN PO 2016 − 2017        0.00           976.25
+194
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   34
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00         1,319.39
+A1003     1706396   05/25/17 24028    MAFFESOLI ANTHONY   101970293990500  3190     BSEBLL  DBLHDR V           0.00           115.00
+A1003     1706397   05/25/17 26522    MARIANI LINDA       101970293990500  3190     SFTBLL GLS GAME JV         0.00            42.00
+A1003     1706397   05/25/17 26522    MARIANI LINDA       101970293990500  3190     SFTBLL GLS DBLHDR F        0.00            76.00
+A1003     1706397   05/25/17 26522    MARIANI LINDA       101970293990500  3190     SFTBLL GLS GAME FRS        0.00            76.50
+TOTAL CHECK                                                                                                    0.00           194.50
+A1003     1706399   05/25/17 11354    MATSON PAUL W       101970293990500  3190     TRCK FLD  INVITATIO        0.00           120.00
+A1003     1706400   05/25/17 26872    MCAULIFFE MICHAEL P 101970293990500  3190     BSEBLL  GAME JV            0.00            48.00
+A1003     1706400   05/25/17 26872    MCAULIFFE MICHAEL P 101970293990500  3190     BSEBLL  DBLHDR FRSH        0.00            94.00
+A1003     1706400   05/25/17 26872    MCAULIFFE MICHAEL P 101970293990500  3190     BSEBLL  DBLHDR FRSH        0.00            94.00
+TOTAL CHECK                                                                                                    0.00           236.00
+A1003     1706404   05/25/17 23537    METROPOLITAN PUBLIS 101070113007000  5110     2,000 PIECES−  8" X        0.00           103.00
+A1003     1706404   05/25/17 23537    METROPOLITAN PUBLIS 101071221007100  5990     AHS HONORS INVITES         0.00           170.00
+TOTAL CHECK                                                                                                    0.00           273.00
+A1003     1706405   05/25/17 27006    MICA−TEC INC        101902261872000  4110     OFFICE DESKS FOR RA        0.00         4,246.00
+A1003     1706406   05/25/17 24096    MICRO CENTER SALES  101790225717100  5990     OPEN PO FOR 2016−17        0.00            19.99
+A1003     1706407   05/25/17 18768    MILFORD HIGH SCHOOL 101970293000000  7910     AHS TRACK 052717           0.00           140.00
+A1003     1706408   05/25/17 26558    MILLER DIANE        101053112005300  5110     BOULAN PARK PETTY C        0.00           163.22
+A1003     1706408   05/25/17 26558    MILLER DIANE        101053112005300  5990     BPMS PETTY CASH REI        0.00            83.11
+TOTAL CHECK                                                                                                    0.00           246.33
+A1003     1706409   05/25/17 27360    MILTON MINKAH K     101970293990500  3190     SFTBLL GLS DBLHDR J        0.00            78.00
+A1003     1706410   05/25/17 10074    MIRAMONTI LOUIS W   101970293990500  3190     TRCK FLD  INVITATIO        0.00           120.00
+A1003     1706411   05/25/17 11174    MISKA BRIAN         101970293000000  7910     THS STATE TENNIS AD        0.00           612.00
+A1003     1706412   05/25/17 10795    NELSON STEPHEN      101970293990500  3190     SCCR GLS GAME V            0.00            51.00
+A1003     1706413   05/25/17 27384    PANONE BRIAN D      101970293990500  3190     SCCR GLS GAME JVB          0.00            41.00
+A1003     1706415   05/25/17 10031    PASDEN STEPHEN JR   101970293990500  3190     SFTBLL GLS DBLHDR V        0.00            98.00
+A1003     1706416   05/25/17 11748    PAUL PATRICK B      101970293990500  3190     SFTBLL GLS GAME FRS        0.00            41.00
+A1003     1706417   05/25/17 10939    POWER VAC OF MICHIG 101902261862500  4110     STADIUM DRAIN CLEAN        0.00         6,025.00
+A1003     1706417   05/25/17 10939    POWER VAC OF MICHIG 101902261862500  4110     STADIUM DRAIN CLEAN        0.00         5,030.00
+TOTAL CHECK                                                                                                    0.00        11,055.00
+A1003     1706419   05/25/17 10968    RELIANCE STANDARD L 101669232084072  2110     JUNE 2017                  0.00         6,693.67
+A1003     1706420   05/25/17 19019    RICHARDSON MATTHEW  101970293000000  7910     TRACK FINALS ADVANC        0.00           528.00
+195
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   35
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706421   05/25/17 27325    RISOV EDWARD        101970293990500  3190     SCCR GLS GAME JVB          0.00            41.00
+A1003     1706421   05/25/17 27325    RISOV EDWARD        101970293990500  3190     SCCR GLS GAME JV           0.00            48.00
+A1003     1706421   05/25/17 27325    RISOV EDWARD        101970293990500  3190     SCCR GLS GAME V            0.00            48.00
+TOTAL CHECK                                                                                                    0.00           137.00
+A1003     1706423   05/25/17 26365    ROHTBART MAX        101970293990500  3190     BSEBLL  DBLHDR JV          0.00            96.00
+A1003     1706426   05/25/17 11971    SCANTRON CORPORATIO 101              A1700    SCANTRON FORM 882−W        0.00         3,802.02
+A1003     1706426   05/25/17 11971    SCANTRON CORPORATIO 101              A1700    FREIGHT CHARGES            0.00           124.80
+TOTAL CHECK                                                                                                    0.00         3,926.82
+A1003     1706428   05/25/17 12313    SCHOOL SPECIALTY IN 101014111100100  5110     OPEN PURCHASE ORDER        0.00            44.73
+A1003     1706429   05/25/17 12005    SCOTT JOHN D        101970293990500  3190     SFTBLL GLS DBLHDR F        0.00            76.00
+A1003     1706431   05/25/17 12039    SHIVELY KENYON D    101970293990500  3190     TRCK MEET MIDDLE SC        0.00            67.00
+A1003     1706431   05/25/17 12039    SHIVELY KENYON D    101970293990500  3190     TRCK MEET MIDDLE SC        0.00            67.00
+TOTAL CHECK                                                                                                    0.00           134.00
+A1003     1706432   05/25/17 12040    SHOQUIST RONALD     101970293990500  3190     TRCK MEET MIDDLE SC        0.00            67.00
+A1003     1706432   05/25/17 12040    SHOQUIST RONALD     101970293990500  3190     TRCK MEET MIDDLE SC        0.00            67.00
+TOTAL CHECK                                                                                                    0.00           134.00
+A1003     1706433   05/25/17 14234    SIGNS OF SUCCESS    101902261872000  5990     OPEN PO 2016 − 2017        0.00            55.00
+A1003     1706434   05/25/17 24079    SLEBODA MARK A      101970293990500  3190     BSEBLL  GAME JV            0.00            48.00
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101180222031000  5910     QTY 1:  ITEM #47290        0.00           −23.43
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101180222031000  5910     QTY 1:  ITEM #47290        0.00             5.36
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101180222031000  5910     QTY 1:  ITEM #47290        0.00            23.43
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101180222031000  5910     QTY 1:  ITEM #38590        0.00          −102.56
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101180222031000  5910     QTY 1:  ITEM #38590        0.00            23.43
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101180222031000  5910     QTY 1:  ITEM #38590        0.00           102.56
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101070113325000  5110     041417 HARABURDA           0.00           −61.23
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101070113325000  5110     041417 HARABURDA           0.00            61.23
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101014111100100  5110     OPEN PURCHASE ORDER        0.00           107.68
+A1003     1706436   05/25/17 10177    STAPLES ADVANTAGE   101905261860100  5990     OPEN PO 2016 − 2017        0.00           220.49
+TOTAL CHECK                                                                                                    0.00           356.96
+A1003     1706437   05/25/17 11092    STASIEWICZ FRANCISC 101970293990500  3190     SFTBLL GLS DBLHDR J        0.00            78.00
+A1003     1706438   05/25/17 11877    STOEHR CONAN        101970293990500  3190     BSEBLL  GAME JV            0.00            48.00
+A1003     1706439   05/25/17 12161    STONE JAMES J       101970293990500  3190     SFTBLL GLS GAME JV         0.00            42.00
+A1003     1706441   05/25/17 12178    SULLIVAN THOMAS R J 101970293990500  3190     SFTBLL GLS GAME V          0.00            49.00
+A1003     1706443   05/25/17 20779    SYSCO FOOD SERVICES 101071127544100  5990     OPEN PO FOR ATHENS         0.00           170.39
+A1003     1706444   05/25/17 16178    SZMANIA ROBERT      101970293990500  3190     BASEBALL  BYS GAME         0.00            48.00
+A1003     1706448   05/25/17 12216    THILMAN JOSEPH E    101970293990500  3190     SFTBLL GLS GAME V          0.00            49.00
+196
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   36
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706449   05/25/17 26268    TOM COOK            101970293000000  7910     TRACK FINALS ADVANC        0.00            46.00
+A1003     1706450   05/25/17 26001    TOP CAT SALES LLC   101970293902000  5990     TROY HIGH SCHOOL PR        0.00         6,080.00
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261007400  3830     3700461 IAE2               0.00            51.30
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261007100  3830     3560118 ATHENS1            0.00            63.80
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261007100  3830     3250621 ATHENS2            0.00           452.98
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261007400  3830     3700460 IAE1               0.00         1,590.60
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261001600  3830     3390104 BARNARD            0.00         1,871.32
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261005200  3830     3800811 LARSON             0.00         2,866.60
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261005000  3830     3700462 BAKER              0.00         6,700.98
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261007100  3830     3250623 ATHENS3            0.00         8,449.10
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261000500  3830     3550630 UNION1             0.00           765.60
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261000500  3830     3550631 UNION2             0.00         1,041.92
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261001000  3830     3410830 HILL               0.00         1,226.94
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261001400  3830     3440099 WASS               0.00         1,463.00
+A1003     1706451   05/25/17 10414    TROY CITY OF WATER  101940261001200  3830     3820945 COSTELLO           0.00         1,475.76
+TOTAL CHECK                                                                                                    0.00        28,019.90
+A1003     1706454   05/25/17 27109    VACHON STEVEN       101970293990500  3190     BASKETBALL GLS FRSH        0.00            47.00
+A1003     1706455   05/25/17 12314    VALLIERE JAMES L    101970293990500  3190     SFTBLL GLS DBLHDR V        0.00            98.00
+A1003     1706456   05/25/17 11344    VICARI THOMAS J     101970293990500  3190     SFTBLL GLS DBLHDR J        0.00            78.00
+A1003     1706459   05/25/17 26044    WILLIAMS LARUE C    101970293990500  3190     TRCK MEET MIDDLE SC        0.00            67.00
+A1003     1706460   05/25/17 27629    WILSON MICHAEL      101970293990500  3190     BASEBALL  BYS DBLHD        0.00            96.00
+A1003     1706463   05/25/17 11022    YOUNG SHELBYE A     101970293990500  3190     LAX GLS GAME JV            0.00            50.00
+A1003     1706463   05/25/17 11022    YOUNG SHELBYE A     101970293990500  3190     LAX GLS GAME V             0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003     1706464   05/25/17 12461    YOUNG SUPPLY COMPAN 101902261863000  5990     OPEN PO 2016 − 2017        0.00            17.70
+A1003     1706464   05/25/17 12461    YOUNG SUPPLY COMPAN 101902261863000  5990     OPEN PO 2016 − 2017        0.00           900.00
+TOTAL CHECK                                                                                                    0.00           917.70
+A1003     1706465   05/25/17 25243    ZANGKAS TERRY       101970293990500  3190     BASEBALL  BYS DBLHD        0.00           115.00
+A1003     1706466   05/25/17 27421    ZIMMER WILLIAM JOHN 101970293990500  3190     LAXBYS GAME JV             0.00            50.00
+A1003     1706466   05/25/17 27421    ZIMMER WILLIAM JOHN 101970293990500  3190     LAXBYS GAME V              0.00            60.00
+TOTAL CHECK                                                                                                    0.00           110.00
+A1003     W17−205   05/08/17 26691    PROFESSIONAL ED SER 101              L4026    CONT SVC 4/9−4/22          0.00       139,844.92
+A1003     W17−207   05/08/17 11436    MI EDUC SPEC SERV A 101              L4545    MAY PREMIUM                0.00     1,085,011.53
+A1003     W17−208   05/08/17 10967    A D N ADMINISTRATOR 101              L4572    CLAIMS 4/1−4/30            0.00        12,393.15
+A1003     W17−210   05/15/17 26691    PROFESSIONAL ED SER 101053112005300  5990     KWASNY REIMB               0.00           184.99
+197
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     W17−211   05/15/17 11011    BLUE CROSS BLUE SHI 101              L4571    JUNE 2017 PREMIUM          0.00       147,137.62
+A1003     W17−216   05/31/17 26691    PROFESSIONAL ED SER 101              L4026    CONT SVCS 4/23−5/6         0.00       163,927.82
+A1003     W17−219   05/31/17 11436    MI EDUC SPEC SERV A 101              L4545    JUNE PREMIUM               0.00     1,084,788.59
+A1003     W17−222   05/31/17 11284    M P S E R S         101              L4510    EMPER PD DC 5/5 PR         0.00        12,700.34
+A1003     W17−222   05/31/17 11284    M P S E R S         101              L4510    EMPEE PD DC 5/5 PR         0.00        24,522.54
+TOTAL CHECK                                                                                                    0.00        37,222.88
+A1003     W17−223   05/31/17 11284    M P S E R S         101              L4510    EMPER PD DC 4/21 PR        0.00        12,213.62
+A1003     W17−223   05/31/17 11284    M P S E R S         101              L4510    EMPEE PD DC 4/21 PR        0.00        23,511.76
+TOTAL CHECK                                                                                                    0.00        35,725.38
+A1003     W17−224   05/31/17 11284    M P S E R S         101              L4400    BD PAID 4/21 PR            0.00       683,201.60
+A1003     W17−224   05/31/17 11284    M P S E R S         101              L4500    MIP 4/21 PR                0.00       214,683.11
+A1003     W17−224   05/31/17 11284    M P S E R S         101              L4526    TDP 4/21 PR                0.00         8,785.86
+TOTAL CHECK                                                                                                    0.00       906,670.57
+A1003     W17−225   05/31/17 11284    M P S E R S         101              L4210    UAAL STABIL PMT APR        0.00       348,272.51
+A1003     W17−225   05/31/17 11284    M P S E R S         101              L4210    UAAL STABIL PMT APR        0.00       192,114.48
+A1003     W17−225   05/31/17 11284    M P S E R S         101              L4210    UAAL STABIL PMT APR        0.00       279,917.17
+TOTAL CHECK                                                                                                    0.00       820,304.16
+A1003     W17−226   05/31/17 11284    M P S E R S         101              L4400    BD PAID 5/5 PR             0.00       699,140.57
+A1003     W17−226   05/31/17 11284    M P S E R S         101              L4500    MIP 5/5 PR                 0.00       218,725.29
+A1003     W17−226   05/31/17 11284    M P S E R S         101              L4526    TDP 5/5 PR                 0.00         8,414.81
+TOTAL CHECK                                                                                                    0.00       926,280.67
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            10.27
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            13.01
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            14.38
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            15.40
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            15.40
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            15.75
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            19.00
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            22.25
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR MARSHAL        0.00            29.10
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            49.73
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            62.99
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            69.62
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            74.60
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            74.60
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            76.25
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00            92.00
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00           107.75
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     BOTH ORCHESTRA AND         0.00           140.90
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112351000  5110     OPEN P.O. FOR JHAVR        0.00             4.76
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112351000  5110     OPEN P.O. FOR JHAVR        0.00             6.36
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112351000  5110     OPEN P.O. FOR JHAVR        0.00            29.99
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112351000  5110     OPEN P.O. FOR JHAVR        0.00           106.28
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101053112031300  4120     OPEN PO FOR ORCHEST        0.00           100.00
+198
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 101 − GENERAL FUND             
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101052112351000  5110     INSTRUMENT ORDER FO        0.00           404.00
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   101014111031300  4120     INSTRUMENT REPAIR          0.00            75.00
+TOTAL CHECK                                                                                                    0.00         1,629.39
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 101017111610400  5990     OPEN PO FOR BUILDIN        0.00            42.46
+A1003    E1706014   05/10/17 12547    MARSHALL MUSIC CO   101013111031300  4120     REPAIR CLARINET            0.00            71.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  101090271098000  3311     MV TRANS TRUSEL            0.00         1,131.00
+A1003    E1706098   05/18/17 10254    BLUE LAKES CHARTERS 101074113351000  5110     BUS TRANSPORTATION         0.00           510.00
+A1003    E1706247   05/18/17 15646    ROCHESTER LAWN EQUI 101904261870000  5990     OPEN PO 2016 − 2017        0.00           292.51
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101051112352000  5110     PURCHASE OF 2 SOUND        0.00         3,175.00
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     BACH 50B20 STRADIVA        0.00           367.56
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     BACH 50B20 STRADIVA        0.00           410.05
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     BACH TBSOL310 STUDE        0.00            59.29
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     BACH TBSOL310 STUDE        0.00            66.15
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     GEMEIHNHARDT 4PMH P        0.00            66.15
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     GEMEIHNHARDT 4PMH P        0.00            73.80
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     SELMER ASOL300 STUD        0.00           534.04
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     SELMER TSOL200 INTE        0.00           972.08
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   101071113353300  5110     BUFFET BC2301−2−0 E        0.00         1,003.88
+TOTAL CHECK                                                                                                    0.00         6,728.00
+TOTAL CASH ACCOUNT                                                                                             0.00     6,648,841.39
+TOTAL FUND                                                                                                     0.00     6,648,841.39
+199
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 120 − GRANT FUND               
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 120304271684500  4230     ELL SHUTTLE−AFTER S        0.00         1,113.90
+A1003     1706183   05/18/17 10963    GREENWOOD PUBLISHIN 120501221601200  5990     978−0−325−08934−8          0.00           347.75
+A1003     1706183   05/18/17 10963    GREENWOOD PUBLISHIN 120501221601200  5990     978−0−325−01070−0          0.00         1,606.57
+A1003     1706183   05/18/17 10963    GREENWOOD PUBLISHIN 120501221601200  5990     30% DISCOUNT FOR QU        0.00           195.43
+TOTAL CHECK                                                                                                    0.00         2,149.75
+A1003     W17−205   05/08/17 26691    PROFESSIONAL ED SER 120              L4026    CONT SVC 4/9−4/22          0.00         2,157.64
+A1003     W17−216   05/31/17 26691    PROFESSIONAL ED SER 120              L4026    CONT SVCS 4/23−5/6         0.00         3,987.08
+TOTAL CASH ACCOUNT                                                                                             0.00         9,408.37
+TOTAL FUND                                                                                                     0.00         9,408.37
+200
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705740   05/04/17 13227    A T & T             122207261020700  3410     24887975416862 NILE        0.00            13.31
+A1003     1705793   05/04/17 11009    EDUCATIONAL TOURS I 122885283326100  3220     R.MANIER BAND TRIP         0.00           956.00
+A1003     1705836   05/04/17 11407    MERZ MICHAEL A PHD  122885226326000  3190     TEST/CONS 2/27−3301        0.00         1,175.00
+A1003     1705849   05/04/17 27598    NAGEL SANDRA        122885226326000  3190     CONSULTATION               0.00           400.00
+A1003     1705851   05/04/17 26349    NOVA HEALTH EDUCATI 122885226326000  3190     INV 85 INSVC               0.00            90.00
+A1003     1705871   05/04/17 25404    S Z 3 CONSULTING    122885226326000  3190     PAC PRESENTATION           0.00           750.00
+A1003     1705902   05/04/17 10414    TROY CITY OF WATER  122207261020700  3830     2930015 NILES              0.00           195.23
+A1003     1705915   05/10/17 13227    A T & T             122207261020700  3410     24882896977105 NILE        0.00           162.67
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 122090271009000  3312     MONITORS 16−17             0.00        10,519.71
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 122090271009000  3311     SPECIAL ED 16−17           0.00        79,578.38
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 122885271394100  4230     BARNARD ASD FIELD T        0.00           184.45
+TOTAL CHECK                                                                                                    0.00        90,282.54
+A1003     1705994   05/10/17 27021    JOHNSON III HAROLD  122885221326000  3220     3/3−3/31                   0.00           256.90
+A1003     1705994   05/10/17 27021    JOHNSON III HAROLD  122885221326000  3220     SECLUSION/RESTRAINT        0.00           472.50
+A1003     1705994   05/10/17 27021    JOHNSON III HAROLD  122885221326000  3220     KZ CONSULT                 0.00         1,054.20
+TOTAL CHECK                                                                                                    0.00         1,783.60
+A1003     1706026   05/10/17 11668    OAKLAND SCHOOLS     122885283326000  3220     SEAOC SPRING RETREA        0.00           115.00
+A1003     1706061   05/10/17 10376    VERIZON WIRELESS LL 122885261280000  3410     SP ED                      0.00            40.01
+A1003     1706069   05/10/17 13733    YORK RISK SERVICES  122014122110050  2840     WASS SP ED PARA            0.00         1,242.31
+A1003     1706069   05/10/17 13733    YORK RISK SERVICES  122052122110050  2840     LARSON CI AIDE             0.00         1,271.29
+TOTAL CHECK                                                                                                    0.00         2,513.60
+A1003     1706111   05/18/17 24648    PEDIATRIC HEALTH CO 122885213313000  3138     033117 CALDWELL            0.00         7,900.60
+A1003     1706114   05/18/17 24649    PEDIATRIC HEALTH CO 122885213313000  3138     16/17 OT SERVICES A        0.00         7,792.00
+A1003     1706133   05/18/17 10577    D T E ENERGY        122207261020700  5520     910040087470 NILES         0.00           570.92
+A1003     1706160   05/18/17 11621    FARIDA ARIF         122885215230000  3130     ARIF 4/28/17               0.00            40.00
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 122885271394100  4230     HAMILTON SP ED FT          0.00           480.62
+A1003     1706180   05/18/17 10749    HAROLD & SHERRI THI 122885122193000  3710     THIBODEAU−GOLDFISH         0.00           239.00
+A1003     1706201   05/18/17 11181    KROGER CO           122071122110000  5110     OPEN PO FOR 16−17 S        0.00            15.22
+A1003     1706201   05/18/17 11181    KROGER CO           122071122193000  5110     OPEN PO FOR 16−17 S        0.00             3.78
+A1003     1706201   05/18/17 11181    KROGER CO           122071122193000  5110     OPEN PO FOR 16−17 S        0.00             7.73
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00             1.19
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00             5.18
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00            11.83
+201
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00            27.21
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00            31.17
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00            32.59
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00            41.87
+A1003     1706201   05/18/17 11181    KROGER CO           122883122231000  5110     OPEN PO FOR 16−17 S        0.00            45.96
+A1003     1706201   05/18/17 11181    KROGER CO           122005122110000  5110     OPEN PO FOR 16/17 S        0.00             7.13
+A1003     1706201   05/18/17 11181    KROGER CO           122005122110000  5110     OPEN PO FOR 16/17 S        0.00            18.97
+A1003     1706201   05/18/17 11181    KROGER CO           122012122193000  5110     OPEN PO FOR 16/17 S        0.00            23.47
+TOTAL CHECK                                                                                                    0.00           273.30
+A1003     1706204   05/18/17 24650    PEDIATRIC HEALTH CO 122885213313000  3137     OPEN PO FOR 16/17 P        0.00         6,250.50
+A1003     1706225   05/18/17 27006    MICA−TEC INC        122885226326000  5910     WALL MOUNTED 27 SLO        0.00         2,270.00
+A1003     1706235   05/18/17 11621    PATRICIA MARTINS    122885215230000  3130     050117 MARTINS             0.00            40.00
+A1003     1706236   05/18/17 25236    PEDIATRIC HEALTH CO 122885213313000  3137     OPEN PO FOR 16/17 P        0.00         7,545.65
+A1003     1706238   05/18/17 25654    PEDIATRIC HEALTH CO 122885213313000  3138     2016/ 2017 OT SERVI        0.00         2,090.54
+A1003     1706243   05/18/17 26703    PEDIATRIC HEALTH CO 122885213313000  3138     2016/2017 OT SERVIC        0.00         5,728.62
+A1003     1706248   05/18/17 13877    ROYAL OAK SCHOOL DI 122885271394100  3310     TRANSPORTATION SERV        0.00         2,292.00
+A1003     1706271   05/18/17 25237    PEDIATRIC HEALTH CO 122885213313000  3137     OPEN PO FOR 16/17 P        0.00           687.80
+A1003     1706277   05/18/17 26709    SAR BIRMINGHAM LLC  122885122193000  3710     APRIL TUITION RAYMO        0.00           359.00
+A1003     1706279   05/18/17 24652    PEDIATRIC HEALTH CO 122885213313000  3138     2016/2017 OT SERVIC        0.00         8,932.30
+A1003     1706291   05/18/17 27212    WEINER CHERYL       122885122193000  3710     APRIL TUTORING             0.00           520.00
+A1003     1706299   05/18/17 26704    PEDIATRIC HEALTH CO 122885213313000  3138     2016/2017 OT SERVIC        0.00         5,823.64
+A1003     1706381   05/25/17 11181    KROGER CO           122071122120000  5110     OPEN PO FOR 16−17 S        0.00            25.33
+A1003     1706381   05/25/17 11181    KROGER CO           122071122193000  5110     OPEN PO FOR 16−17 S        0.00            15.85
+A1003     1706381   05/25/17 11181    KROGER CO           122016122193000  5110     OPEN PO FOR 16/17 S        0.00             5.80
+A1003     1706381   05/25/17 11181    KROGER CO           122016122193000  5110     OPEN PO FOR 16/17 S        0.00             7.98
+TOTAL CHECK                                                                                                    0.00            54.96
+A1003     1706386   05/25/17 11198    LAMPHERE SCHOOLS    122947122319000  8210     SEM2 COOP AGREEMNT         0.00         3,521.50
+A1003     W17−205   05/08/17 26691    PROFESSIONAL ED SER 122              L4026    CONT SVC 4/9−4/22          0.00       118,868.08
+A1003     W17−210   05/15/17 26691    PROFESSIONAL ED SER 122885215315000  3210     WICKA REIMB                0.00            14.16
+A1003     W17−216   05/31/17 26691    PROFESSIONAL ED SER 122              L4026    CONT SVCS 4/23−5/6         0.00       126,055.19
+A1003    E1705741   05/04/17 11010    ACE TRANSPORTATION  122885271394100  3310     PUPIL TRANSP RAYMOR        0.00           792.00
+A1003    E1705741   05/04/17 11010    ACE TRANSPORTATION  122885271394100  3310     PUPIL TRNS ACKLES          0.00         1,596.00
+TOTAL CHECK                                                                                                    0.00         2,388.00
+202
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 122 − SPECIAL ED FUND          
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     APRIL RAYMORE TRANS        0.00           279.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     2016−2017 SCHOOL YE        0.00           949.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     2016 / 2017 REG. SC        0.00           462.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     APRIL ACKLES TRANSP        0.00         1,596.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     TRANSPORTATION FOR         0.00           936.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     TRANSPORTATION FOR         0.00           297.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     TRANSPORTATION FOR         0.00         1,212.00
+A1003    E1706075   05/18/17 11010    ACE TRANSPORTATION  122885271394100  3310     TRANSPORTATION FOR         0.00           210.00
+TOTAL CHECK                                                                                                    0.00         5,941.00
+TOTAL CASH ACCOUNT                                                                                             0.00       415,156.34
+TOTAL FUND                                                                                                     0.00       415,156.34
+203
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 414 − 2014 CAP PROJ − SERIES 1 
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705861   05/04/17 23956    PRESIDIO HOLDINGS I 414050225407500  6410     DELL OPTIPLEX 3040         0.00        11,248.20
+A1003     1705861   05/04/17 23956    PRESIDIO HOLDINGS I 414050225407500  6410     UPGRADE TO I7−6700         0.00         2,575.80
+A1003     1705861   05/04/17 23956    PRESIDIO HOLDINGS I 414050225407500  6410     UPGRADE TO 16GB, TR        0.00         4,197.60
+A1003     1705861   05/04/17 23956    PRESIDIO HOLDINGS I 414050225407500  6410     UPLIFT TO MICROSOFT        0.00         1,080.00
+A1003     1705861   05/04/17 23956    PRESIDIO HOLDINGS I 414050225407500  6410     UPGRADE TO 500GB HY        0.00           953.40
+A1003     1705861   05/04/17 23956    PRESIDIO HOLDINGS I 414050225407500  6410     AMD RADEON R7 350X         0.00         3,434.40
+TOTAL CHECK                                                                                                    0.00        23,489.40
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  414071456407500  6220     ATHENS PH1 BP1−13          0.00         4,279.80
+A1003     1705929   05/10/17 10178    BARTON MALOW COMPAN 414668456407500  6222     INS LIABILITY              0.00         5,379.03
+A1003     1705929   05/10/17 10178    BARTON MALOW COMPAN 414668456407500  6222     GENL CONDITIONS            0.00        16,606.13
+A1003     1705929   05/10/17 10178    BARTON MALOW COMPAN 414668456407500  6223     CM FEE                     0.00        45,203.88
+TOTAL CHECK                                                                                                    0.00        67,189.04
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414071456407500  6227     SINGLE CAT 6 CABLE         0.00         2,730.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414071456407500  6227     INSTALL WIRELESS AC        0.00           420.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     SINGLE CAT 6 CABLE         0.00         1,560.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     INSTALL WIRELESS AC        0.00           240.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     INSTALLATION OF LOW        0.00            75.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     LOW PROFILE SAFETY         0.00           150.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     INSTALLATION LABOR,        0.00           130.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     SHIPPING                   0.00            15.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414050456407500  6227     1/2" TO 1" CORE WIT        0.00            75.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414905456407500  6227     SINGLE CAT 6 CABLE         0.00           780.00
+A1003     1705951   05/10/17 24963    DIGITAL AGE TECHNOL 414905456407500  6227     INSTALLATION LABOR,        0.00            65.00
+TOTAL CHECK                                                                                                    0.00         6,240.00
+A1003     1706205   05/18/17 26835    LECOLE PLANNERS LLC 414668456407500  6224     THROUGH 3/31/17            0.00         3,840.00
+A1003     1706334   05/25/17 19671    CONVERGENT TECHNOLO 414160456407500  6226     CONSULTING SERVICES        0.00         4,512.50
+TOTAL CASH ACCOUNT                                                                                             0.00       109,550.74
+TOTAL FUND                                                                                                     0.00       109,550.74
+204
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 416 − 2016 CAPITAL PROJECTS    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705811   05/04/17 25729    GREAT LAKES POWER & 416014456407500  6221     2013 BOND − EMERGEN        0.00        33,349.96
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416668456407500  6220     ADMIN PH2 BP 15+           0.00         4,728.47
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416007456407500  6220     MORSE PH2 BP 14+           0.00         5,348.05
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416008456407500  6220     LEONARD PH2 BP 14+         0.00         6,658.48
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416013456407500  6220     MARTELL PH2 BP 14+         0.00         6,853.84
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416012456407500  6220     COSTELLO                   0.00         7,047.94
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416016456407500  6220     BARNARD REIMBURSABL        0.00            38.27
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416070456407500  6220     THS PH2 BP 14+             0.00           249.20
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416071456407500  6220     ATHENS PH2 BP 14+          0.00           547.22
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416015456407500  6220     BEMIS REIMBURSABLE         0.00           640.63
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416014456407500  6220     WASS PH2 BP 14+            0.00         2,215.78
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416016456407500  6220     BARNARD                    0.00         2,269.29
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  416015456407500  6220     BEMIS                      0.00         3,612.87
+TOTAL CHECK                                                                                                    0.00        40,210.04
+A1003     1706205   05/18/17 26835    LECOLE PLANNERS LLC 416668456407500  6224     THROUGH 3/31/17            0.00         2,880.00
+TOTAL CASH ACCOUNT                                                                                             0.00        76,440.00
+TOTAL FUND                                                                                                     0.00        76,440.00
+205
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 499 − CAPITAL PROJ MTCE FUND   
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705773   05/04/17 22500    CONVENTIONAL CARPET 499074261000000  4190     INTERNATIONAL ACADE        0.00         5,182.50
+A1003     1705807   05/04/17 27587    POPAJ LULZIM        499051261000000  4190     PAINTING AT SMITH M        0.00        15,375.00
+A1003     1706231   05/18/17 21308    NATIONWIDE FENCE &  499071261000000  4190     ATHENS HIGH SCHOOL         0.00        15,496.00
+A1003     1706309   05/25/17 27529    ARISCO CONTRACTING  499071261000000  4190     ATHENS HIGH SCHOOL         0.00         3,250.00
+A1003     1706424   05/25/17 25619    ROLAR PROPERTY SERV 499005261000000  4190     TROY UNION ELEMENTA        0.00         3,975.00
+A1003     1706424   05/25/17 25619    ROLAR PROPERTY SERV 499012261000000  4190     COSTELLO ELEMENTARY        0.00         4,185.00
+A1003     1706424   05/25/17 25619    ROLAR PROPERTY SERV 499009261000000  4190     WATTLES ELEMENTARY         0.00         4,720.00
+TOTAL CHECK                                                                                                    0.00        12,880.00
+TOTAL CASH ACCOUNT                                                                                             0.00        52,183.50
+TOTAL FUND                                                                                                     0.00        52,183.50
+206
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY HIGH                  0.00           127.20
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     ATHENS                     0.00           144.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BARNARD                    0.00           144.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     LARSON                     0.00           144.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BAKER                      0.00           155.04
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     IAE                        0.00           176.64
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BOULAN                     0.00           179.28
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     SCHROEDER                  0.00           192.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BOULAN                     0.00           192.72
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BOULAN                     0.00           192.72
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     MARTELL                    0.00           201.60
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BAKER                      0.00           210.96
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY UNION                 0.00           211.20
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BAKER                      0.00           228.48
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     SMITH                      0.00           260.16
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     WASS                       0.00           288.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     WATTLES                    0.00           288.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     MARTELL                    0.00           288.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY HIGH                  0.00           291.84
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY HIGH                  0.00           345.60
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     HILL                       0.00           352.80
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     LARSON                     0.00           369.36
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY HIGH                  0.00           410.40
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BAKER                      0.00           432.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     LARSON                     0.00           528.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     SMITH                      0.00           528.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BEMIS                      0.00           556.80
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     LEONARD                    0.00           672.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     BOULAN                     0.00           672.00
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY HIGH                  0.00           696.24
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     ATHENS                     0.00           732.96
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     TROY HIGH                  0.00           763.68
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     ATHENS                     0.00           984.96
+A1003     1705768   05/04/17 10433    COCA−COLA REFRESHME 520950256091800  5610     ATHENS                     0.00         1,016.88
+TOTAL CHECK                                                                                                    0.00        12,977.52
+A1003     1705817   05/04/17 10993    I T W  FEG  LLC     520902257813000  4120     LARSON                     0.00           284.00
+A1003     1705821   05/04/17 20401    KATERINA MARTIN     520              L4740    LUNCH REF MARTIN           0.00             5.00
+A1003     1705837   05/04/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISH WASHER ELECTRI        0.00         3,430.00
+A1003     1705837   05/04/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISH WASHER ELECTRI        0.00         2,350.00
+A1003     1705837   05/04/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISH WASHER ELECTRI        0.00         2,350.00
+A1003     1705837   05/04/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISH WASHER ELECTRI        0.00         2,167.00
+A1003     1705837   05/04/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISH WASHER ELECTRI        0.00         2,035.00
+TOTAL CHECK                                                                                                    0.00        12,332.00
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  520074456007400  6220     CONSULTING / ENGINE        0.00           420.75
+A1003     1705893   05/04/17 11561    T M P ARCHITECTURE  520074456007400  6220     REIMBURSABLES              0.00           375.00
+TOTAL CHECK                                                                                                    0.00           795.75
+A1003     1706054   05/10/17 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00         1,827.26
+207
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706083   05/18/17 20401    ANISH SARASWAT      520              L4740    SAWASWAT REFUND            0.00            35.70
+A1003     1706209   05/18/17 20401    LISA MARIE RANDON   520              L4740    RANDON REFUND              0.00            47.20
+A1003     1706241   05/18/17 20401    RAJWINDER BAINS     520              L4740    R BAINS REIMB              0.00            33.20
+A1003     1706251   05/18/17 20401    SANDEEP RAJASEKARAM 520              L4740    RAJASEKARAMOORTHY          0.00            62.70
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520902257813000  4120     COMBI OVEN                 0.00         2,510.00
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520902257813000  4120     COMVECTION OVEN            0.00        10,662.00
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520902257813000  4120     CONVECTION STEAMER         0.00        23,088.00
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520902257813000  4120     DISHWASHER                 0.00        25,312.00
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     HOBART MODEL  M15T−        0.00         6,791.38
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     HOBART MODEL AM15T         0.00         1,012.49
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     HOBART MODEL AM15T−        0.00           970.20
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     SOLARIS MODEL SX−55        0.00           992.64
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     SOLARIS MODEL GSX−1        0.00         1,619.19
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     UNOX MODEL XAVC−101        0.00           747.74
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     HOBART MODEL CL44E−        0.00         1,775.17
+A1003     1706360   05/25/17 22564    GREAT LAKES HOTEL S 520950256091800  6410     UPGRADED UNOX MODEL        0.00           245.19
+TOTAL CHECK                                                                                                    0.00        75,726.00
+A1003     1706366   05/25/17 10993    I T W  FEG  LLC     520902257813000  4120     OPEN PO 2016 − 2017        0.00           327.00
+A1003     1706366   05/25/17 10993    I T W  FEG  LLC     520902257813000  4120     REPAIR                     0.00           507.53
+TOTAL CHECK                                                                                                    0.00           834.53
+A1003     1706403   05/25/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     UNOX OVEN CIRCUIT U        0.00         3,337.00
+A1003     1706403   05/25/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISHWASHER ELECTRIC        0.00         1,657.00
+A1003     1706403   05/25/17 17941    METRO ELECTRIC ENGI 520902257813000  4120     DISHWASHER CIRCUIT         0.00         1,647.00
+TOTAL CHECK                                                                                                    0.00         6,641.00
+A1003     1706414   05/25/17 13893    PAPA’S REFRIGERATIO 520902257813000  4120     LEONARD REPAIR             0.00           422.00
+A1003     1706414   05/25/17 13893    PAPA’S REFRIGERATIO 520902257813000  4120     LARSON COOLER              0.00           638.00
+A1003     1706414   05/25/17 13893    PAPA’S REFRIGERATIO 520902257813000  4120     HILL FREEZER REPAIR        0.00           166.55
+A1003     1706414   05/25/17 13893    PAPA’S REFRIGERATIO 520902257813000  4120     HAMILTON REPAIR            0.00           295.00
+TOTAL CHECK                                                                                                    0.00         1,521.55
+A1003     1706446   05/25/17 12200    TAYLOR FREEZER OF M 520902257813000  4120     BAKER                      0.00            18.06
+A1003     1706462   05/25/17 12457    YE OLDE FLOWER BARN 520950297009100  5640     ART SHOW FLOWERS           0.00           125.00
+A1003     1706462   05/25/17 12457    YE OLDE FLOWER BARN 520950297009100  5640     NATL LUNCH SUPER HE        0.00           362.00
+TOTAL CHECK                                                                                                    0.00           487.00
+A1003     W17−214   05/15/17 12140    MI STATE OF/DEPT OF 520950256091800  7910     SALES TAX APRIL 201        0.00            37.67
+TOTAL CASH ACCOUNT                                                                                             0.00       113,666.14
+TOTAL FUND                                                                                                     0.00       113,666.14
+208
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   48
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 529 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706211   05/18/17 11481    LOGISOFT COMPUTER P 529202229660000  5910     ESET 1 YR RENEWAL F        0.00           513.80
+A1003     1706301   05/25/17 13227    A T & T             529202229660000  3410     OPEN PO FOR TELEPHO        0.00           106.53
+A1003     1706301   05/25/17 13227    A T & T             529202229660000  3410     OPEN PO FOR T1 LINE        0.00           242.35
+TOTAL CHECK                                                                                                    0.00           348.88
+A1003     W17−205   05/08/17 26691    PROFESSIONAL ED SER 529              L4026    CONT SVC 4/9−4/22          0.00           278.51
+A1003     W17−212   05/15/17 19853    ROBBINS INVESTMENTS 529202261660000  4210     RENT FOR SUITE 400,        0.00         8,743.00
+A1003     W17−216   05/31/17 26691    PROFESSIONAL ED SER 529              L4026    CONT SVCS 4/23−5/6         0.00           278.51
+A1003     W17−218   05/31/17 19853    ROBBINS INVESTMENTS 529202261660000  3890     4/17−5/16 UTILITIES        0.00           625.08
+TOTAL CASH ACCOUNT                                                                                             0.00        10,787.78
+TOTAL FUND                                                                                                     0.00        10,787.78
+209
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   49
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705740   05/04/17 13227    A T & T             530211351030000  3410     24887975416862 NILE        0.00             2.59
+A1003     1705740   05/04/17 13227    A T & T             530213351030000  3410     24887975416862 NILE        0.00             2.59
+A1003     1705740   05/04/17 13227    A T & T             530201311030000  3410     24887975416862 NILE        0.00             3.70
+TOTAL CHECK                                                                                                    0.00             8.88
+A1003     1705902   05/04/17 10414    TROY CITY OF WATER  530211351030000  3830     2930015 NILES              0.00            37.96
+A1003     1705902   05/04/17 10414    TROY CITY OF WATER  530213351030000  3830     2930015 NILES              0.00            37.96
+A1003     1705902   05/04/17 10414    TROY CITY OF WATER  530201311030000  3830     2930015 NILES              0.00            54.23
+TOTAL CHECK                                                                                                    0.00           130.15
+A1003     1705904   05/04/17 27377    WYATT DAWN M        530201311092680  3190     CONTRACTED SERVICES        0.00         3,496.50
+A1003     1705915   05/10/17 13227    A T & T             530211351030000  3410     24882896977105 NILE        0.00            31.63
+A1003     1705915   05/10/17 13227    A T & T             530213351030000  3410     24882896977105 NILE        0.00            31.63
+A1003     1705915   05/10/17 13227    A T & T             530201311030000  3410     24882896977105 NILE        0.00            45.19
+TOTAL CHECK                                                                                                    0.00           108.45
+A1003     1705928   05/10/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            85.00
+A1003     1705966   05/10/17 25985    FITHIAN LORI E      530211351021100  3190     052417 CARE PICNIC         0.00           800.00
+A1003     1705981   05/10/17 22509    HANNON DENNIS       530201311020000  3190     4/27 GIRLS LACROSSE        0.00            47.00
+A1003     1705981   05/10/17 22509    HANNON DENNIS       530201311020000  3190     5/1 GIRLS LACROSSE         0.00            47.00
+TOTAL CHECK                                                                                                    0.00            94.00
+A1003     1705998   05/10/17 11181    KROGER CO           530211351021100  5990     FIRST FRIENDS              0.00            59.41
+A1003     1706003   05/10/17 10561    KINDER IAN          530201311020000  3190     041917 STAFF TRAINI        0.00           350.00
+A1003     1706016   05/10/17 27297    MERLO VIRGINIA      530201311020000  3190     4/27 GIRLS LACROSSE        0.00            47.00
+A1003     1706038   05/10/17 10042    SANDEE TALLANT      530201000100000  R1810    REFUND YOGA CLASS          0.00            28.80
+A1003     1706039   05/10/17 11978    SCHIMA DONALD E     530201311020000  3190     5/1 GIRLS LACROSSE         0.00            47.00
+A1003     1706054   05/10/17 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00           100.84
+A1003     1706076   05/18/17 25926    ACLUCHE ANNE L      530201311020000  3190     GIRLS LACROSSE 5/9/        0.00            47.00
+A1003     1706082   05/18/17 14226    ANGEVINE CARL       530201311020000  3190     APRIL CLASS PAYMENT        0.00           343.20
+A1003     1706094   05/18/17 10782    BERG JAMES F        530201311020000  3190     APRIL CLASS PAYMENT        0.00           247.80
+A1003     1706095   05/18/17 27331    BISHOP SUSAN S      530201311020000  3190     APRIL CLASS PAYMENT        0.00           462.00
+A1003     1706100   05/18/17 11094    BOOTH DEBRA A       530201311020000  3190     GIRLS LACROSSE 5/11        0.00            47.00
+A1003     1706103   05/18/17 10510    BRAUNSTEINER JOAN L 530201311020000  3190     APRIL CLASS PAYMENT        0.00           595.80
+A1003     1706104   05/18/17 26472    BROOKES BUNCH LLC   530201311020000  3190     APRIL CLASS PAYMENT        0.00         7,656.60
+A1003     1706112   05/18/17 27213    CAMPBELL CHRISTOPHE 530201311020000  3190     APRIL CLASS PAYMENT        0.00           198.00
+210
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   50
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706116   05/18/17 26285    CHESS WIZARDS INC   530201311020000  3190     APRIL CLASS PAYMENT        0.00        10,338.00
+A1003     1706117   05/18/17 27624    IMAGINATION THEATRE 530212351021200  3190     CARE PROGRAM ACTIVI        0.00           600.00
+A1003     1706122   05/18/17 27418    CLASSIC LEARNING LL 530201311020000  3190     APRIL CLASS PAYMENT        0.00         1,848.00
+A1003     1706133   05/18/17 10577    D T E ENERGY        530211351030000  5520     910040087470 NILES         0.00           111.01
+A1003     1706133   05/18/17 10577    D T E ENERGY        530213351030000  5520     910040087470 NILES         0.00           111.01
+A1003     1706133   05/18/17 10577    D T E ENERGY        530201311030000  5520     910040087470 NILES         0.00           158.59
+TOTAL CHECK                                                                                                    0.00           380.61
+A1003     1706143   05/18/17 10363    DETROIT SCIENCE FOR 530201311020000  3190     APRIL CLASS PAYMENT        0.00         7,176.00
+A1003     1706150   05/18/17 26902    KORNFELD PAMELA     530201311020000  3190     APRIL CLASS PAYMENT        0.00         7,353.60
+A1003     1706155   05/18/17 27162    EDMUNDS IDA         530201311020000  3190     APRIL CLASS PAYMENT        0.00           168.00
+A1003     1706156   05/18/17 18695    EFFINGER BRIAN      530201311020000  3190     3/4 LACROSSE 5/11/1        0.00            70.50
+A1003     1706156   05/18/17 18695    EFFINGER BRIAN      530201311020000  3190     5/6 LACROSSE 5/11/1        0.00            70.50
+TOTAL CHECK                                                                                                    0.00           141.00
+A1003     1706159   05/18/17 22144    EVOLA MUSIC CENTER  530201311020000  3190     APRIL CLASS PAYMENT        0.00           218.40
+A1003     1706163   05/18/17 10784    FIGUEROA THOMAS G   530201311020000  3190     APRIL CLASS PAYMENT        0.00         1,584.00
+A1003     1706170   05/18/17 25067    GARBARINO STEVEN    530201311020000  3190     MAY 6 3/5 GAME             0.00            70.50
+A1003     1706170   05/18/17 25067    GARBARINO STEVEN    530201311020000  3190     MAY 6 3/5 GAME             0.00            70.50
+A1003     1706170   05/18/17 25067    GARBARINO STEVEN    530201311020000  3190     MAY 6 5/6 GAME             0.00            70.50
+TOTAL CHECK                                                                                                    0.00           211.50
+A1003     1706174   05/18/17 12989    GORNBEIN REVA       530201311020000  3190     APRIL CLASS PAYMENT        0.00           312.00
+A1003     1706192   05/18/17 27052    JONES PEARL         530201311020000  3190     APRIL CLASS PAYMENT        0.00           780.00
+A1003     1706214   05/18/17 27521    LUCKY PENNY PURSES  530201311020000  3190     APRIL CLASS PAYMENT        0.00           480.00
+A1003     1706222   05/18/17 27297    MERLO VIRGINIA      530201311020000  3190     GIRLS LACROSSE 5/11        0.00            47.00
+A1003     1706229   05/18/17 26444    MOHAMMAD FAWAZI MOH 530201311020000  3190     APRIL CLASS PAYMENT        0.00            96.00
+A1003     1706242   05/18/17 23397    RENAISSANCE FENCING 530201311020000  3190     APRIL CLASS PAYMENT        0.00           280.00
+A1003     1706262   05/18/17 12097    SOUTHERN MI OBEDIEN 530201311020000  3190     APRIL CLASS PAYMENT        0.00           786.00
+A1003     1706263   05/18/17 25842    SOUTHERN MICHIGAN C 530201311020000  3190     APRIL CLASS PAYMENT        0.00           520.80
+A1003     1706264   05/18/17 11126    STAMEY LINDA        530201311020000  3190     APRIL CLASS PAYMENT        0.00           583.20
+A1003     1706275   05/18/17 25820    CADDY FOR LIFE LLC  530201311020000  3190     APRIL CLASS PAYMENT        0.00        10,335.00
+A1003     1706278   05/18/17 27273    THOMAS BRAD A       530201311020000  3190     GIRLS LACROSSE 5/9/        0.00            47.00
+211
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   51
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706280   05/18/17 26314    TOGGWEILER TIMOTHY  530201311020000  3190     APRIL CLASS PAYMENT        0.00         2,462.40
+A1003     1706284   05/18/17 27377    WYATT DAWN M        530201311020000  3190     APRIL CLASS PAYMENT        0.00           954.00
+A1003     1706297   05/18/17 11125    ART FACTOR INC      530201311020000  3190     APRIL CLASS PAYMENT        0.00         3,595.20
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            58.31
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            76.56
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            78.24
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            81.32
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            83.01
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            84.55
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            84.56
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            85.00
+A1003     1706314   05/25/17 13176    BARNES & NOBLE      530212351021200  5110     OPEN PO FOR CARE PR        0.00            85.00
+TOTAL CHECK                                                                                                    0.00           716.55
+A1003     1706318   05/25/17 25162    BLOOMFIELD SPORTS S 530201311373000  5110     LAX SCORE BOOKS            0.00            30.00
+A1003     1706338   05/25/17 15516    DEE’S SPORT SHOP IN 530201311373000  5110     LAX UNIFORMS               0.00           307.00
+A1003     1706338   05/25/17 15516    DEE’S SPORT SHOP IN 530201311373000  5110     LAX WEAR                   0.00           120.00
+TOTAL CHECK                                                                                                    0.00           427.00
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     INSECTS − LARGE INS        0.00            21.43
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     GLOWPONY − COLORFUL        0.00             2.62
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     PZ3LTR − EXCELLERAT        0.00             6.82
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     TIPPED − TIPPED LAC        0.00             8.77
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     MINI − COLORATIONS         0.00             9.74
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     CHIP − 100 MAG CHIP        0.00             6.82
+A1003     1706343   05/25/17 13503    DISCOUNT SCHOOL SUP 530211351021100  5110     TRBLK − TREE BLOCKS        0.00            48.74
+TOTAL CHECK                                                                                                    0.00           104.94
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 530211351021100  5990     OPEN PO FOR PAL PRO        0.00            41.54
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PO FOR CARE PR        0.00             5.29
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PO FOR CARE PR        0.00            36.33
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 530212351021200  5990     OPEN PO FOR CARE PR        0.00            56.02
+TOTAL CHECK                                                                                                    0.00           139.18
+A1003     1706381   05/25/17 11181    KROGER CO           530211351021100  5990     MOTHERS DAY CELEB          0.00             5.00
+A1003     1706381   05/25/17 11181    KROGER CO           530212351021200  5990     COSTELLO CARE              0.00            24.61
+A1003     1706381   05/25/17 11181    KROGER CO           530211351021100  5990     MOTHERS DAY CELEB          0.00            27.04
+A1003     1706381   05/25/17 11181    KROGER CO           530213351021300  5990     TOTS                       0.00            83.73
+TOTAL CHECK                                                                                                    0.00           140.38
+A1003     1706422   05/25/17 14229    ROESCH JOSEPH       530201311020000  3190     APRIL CLASS PAYMENT        0.00            63.60
+A1003     1706452   05/25/17 27377    WYATT DAWN M        530201311373000  5110     REIMB GLS LAX UNIFO        0.00            44.60
+A1003     W17−205   05/08/17 26691    PROFESSIONAL ED SER 530              L4026    CONT SVC 4/9−4/22          0.00        32,727.71
+A1003     W17−216   05/31/17 26691    PROFESSIONAL ED SER 530              L4026    CONT SVCS 4/23−5/6         0.00        31,528.59
+212
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   52
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     RR621X − MAGNETIC W        0.00            67.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     TT818 − GETTING REA        0.00            14.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     PP670 − FOAM SENSOR        0.00            24.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     PP491 − GIANT CLEAR        0.00            19.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     PP490 − GIANT CLEAR        0.00            19.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     LL426 − SQUEEZE, SC        0.00            19.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     AA340GR − WASHABLE         0.00             2.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     AA340YE − WASHABLE         0.00             2.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     AA340RG − WASHABLE         0.00             2.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     AA340RD − WASHABLE         0.00             2.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     AA340VT − WASHABLE         0.00             2.99
+A1003    E1706000   05/10/17 11191    LAKESHORE EQUIPMENT 530213351021300  5110     AA340BU − WASHABLE         0.00             2.99
+TOTAL CHECK                                                                                                    0.00           185.88
+A1003    E1706385   05/25/17 11191    LAKESHORE EQUIPMENT 530211351021100  5110     LC241 − HEAVY DUTY         0.00            36.83
+A1003    E1706385   05/25/17 11191    LAKESHORE EQUIPMENT 530211351021100  5110     RE102 − CHILEAN RAI        0.00            40.50
+A1003    E1706385   05/25/17 11191    LAKESHORE EQUIPMENT 530211351021100  5110     RE107 − JAPANESE DE        0.00            36.80
+A1003    E1706385   05/25/17 11191    LAKESHORE EQUIPMENT 530211351021100  5110     DS301 − FEELS REAL         0.00            11.95
+A1003    E1706385   05/25/17 11191    LAKESHORE EQUIPMENT 530211351021100  5110     LC1430 − 30 PLAYER         0.00           164.84
+TOTAL CHECK                                                                                                    0.00           290.92
+TOTAL CASH ACCOUNT                                                                                             0.00       132,650.49
+TOTAL FUND                                                                                                     0.00       132,650.49
+213
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   53
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 535 − FACILITY RENTAL          
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705870   05/04/17 11947    DRI STICK DECAL COR 535908391000000  5990     STUDENT PARKING TAG        0.00           377.63
+TOTAL CASH ACCOUNT                                                                                             0.00           377.63
+TOTAL FUND                                                                                                     0.00           377.63
+214
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   54
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1704335 V 02/23/17 10381    CHAMPION CHEERLEADI 700070399900000  5000     THS CHEER CLINIC           0.00          −300.00
+A1003     1705744   05/04/17 22426    AMER CANCER SOCIETY 700051299717500  5000     RELAY FOR LIFE TEAM        0.00           451.00
+A1003     1705747   05/04/17 19962    ARAVINDA PALADUGU   700050299667400  5000     SCI OLYM PALADUGU          0.00           418.35
+A1003     1705749   05/04/17 11684    ATLAS WHOLESALE FOO 700070399524000  5000     OPEN PO FOR TROY HI        0.00           344.45
+A1003     1705749   05/04/17 11684    ATLAS WHOLESALE FOO 700071399524000  5000     OPEN PO FOR ATHENS         0.00           192.84
+TOTAL CHECK                                                                                                    0.00           537.29
+A1003     1705751   05/04/17 22920    B & R SPORTING GOOD 700071399909700  5000     BASEBALL SHIRTS            0.00           144.00
+A1003     1705755   05/04/17 24645    BELIEVE IN MIRACLES 700071399718000  5000     CHARITY WEEK DONATI        0.00       100,000.00
+A1003     1705758   05/04/17 11150    BREZENSKI JANICE M  700071399992000  5000     WINTER MHSAA BREZEN        0.00           205.00
+A1003     1705764   05/04/17 27575    CHICK BRYAN         700016199701300  5000     AUTHOR VISIT 3/1/17        0.00           784.00
+A1003     1705765   05/04/17 27346    CLARK KAJA          700071399900000  5000     CHEER CLOSET               0.00           279.31
+A1003     1705772   05/04/17 20928    CONTINENTAL CHARTER 700017199393000  5000     LANSING FT BUS             0.00         1,400.00
+A1003     1705776   05/04/17 27284    CROSSON ANDREW      700071399992000  5000     WINTER MHSAA CROSSO        0.00            85.00
+A1003     1705779   05/04/17 16817    DEBANDT MOLLY       700071399992000  5000     WINTER MHSAA DEBAND        0.00            85.00
+A1003     1705782   05/04/17 24942    DETROIT ZOOLOGICAL  700070399341200  5000     ADMISSION TICKETS,         0.00         1,013.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     ELECTRICAL LABOR/HO        0.00           150.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     LG 65 INCH LED COMM        0.00         1,350.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     PREMIER TILTING LOW        0.00           110.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     NOVOPRO WIRELESS PR        0.00           475.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     SINGLE CAT 6 CABLE         0.00           195.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     28A WG GIGH SPEED H        0.00             7.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     INSTALLATION LABOR,        0.00           260.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     SHIPPING                   0.00           125.00
+A1003     1705785   05/04/17 24963    DIGITAL AGE TECHNOL 700051299371500  5000     MISC SUPPORT HARDWA        0.00            25.00
+TOTAL CHECK                                                                                                    0.00         2,697.00
+A1003     1705787   05/04/17 10132    DONNA MCCLAIN       700071399910700  5000     MCCLAIN TEAM DINNER        0.00            69.31
+A1003     1705812   05/04/17 27471    GRIMES MICHAEL WILL 700071399916000  5000     AVONDALE COACHING          0.00           500.00
+A1003     1705816   05/04/17 22649    HIGHEST HONOR INC   700071399909700  5000     BBALL NAMEPLATES           0.00            72.00
+A1003     1705820   05/04/17 10132    JORDAN MILETTI      700071399662000  5000     MILETTI REIMB SUPPL        0.00           276.00
+A1003     1705822   05/04/17 19962    KIRAN JASTI         700050299667400  5000     SCI OLYMP JASTI            0.00            81.65
+A1003     1705830   05/04/17 10488    LINEDRIVE SPORTZ    700052299700000  5000     PO FOR INVOICE 6280        0.00           795.76
+A1003     1705831   05/04/17 26856    MACEDONIAN ORTHODOX 700071399718000  5000     STDT CONG DEP BANQU        0.00           250.00
+215
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   55
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705841   05/04/17 10132    MICHELLE WARD       700071399910700  5000     TEAM DINNER WARD           0.00            55.02
+A1003     1705845   05/04/17 27092    MOORE JARR’ANJE     700071399992000  5000     WINTER MHSAA MOORE         0.00           120.00
+A1003     1705846   05/04/17 26795    MOSKAL DIANE        700070399913000  5000     GYMNASTIC REIMB            0.00           344.07
+A1003     1705847   05/04/17 23647    SWANK MOTION PICTUR 700005199700000  5000     TROY UNION                 0.00           417.00
+A1003     1705847   05/04/17 23647    SWANK MOTION PICTUR 700017199700000  5000     HAMILTON                   0.00           392.00
+A1003     1705847   05/04/17 23647    SWANK MOTION PICTUR 700007199700000  5000     MORSE                      0.00           392.00
+TOTAL CHECK                                                                                                    0.00         1,201.00
+A1003     1705848   05/04/17 24671    MI YOUTH LEADERSHIP 700071399718000  5000     MYLEAD CONF                0.00           370.00
+A1003     1705850   05/04/17 10132    NEHA PARAGI         700071399718000  5000     PARAGI CHARITY WK          0.00           106.40
+A1003     1705850   05/04/17 10132    NEHA PARAGI         700071399718000  5000     PARAGI REIMB CHARIT        0.00           222.09
+TOTAL CHECK                                                                                                    0.00           328.49
+A1003     1705858   05/04/17 11144    PERKINS DIANE       700071399992000  5000     WINTER MHSAA PERKIN        0.00           190.00
+A1003     1705860   05/04/17 10132    PREMA GARGAPATI     700071399910700  5000     TRACK TEAM DINNER          0.00            28.62
+A1003     1705862   05/04/17 19962    RAMITA GARG         700015199700000  5000     REIMB GARG MTH OLYM        0.00           198.00
+A1003     1705863   05/04/17 10132    RANIA MELEKA        700071399372000  5000     MELEKA REIMB AP EXA        0.00            72.00
+A1003     1705866   05/04/17 12254    RICHARD YEE         700070399718000  5000     PAYSCHOOLS REFUND Y        0.00            18.00
+A1003     1705875   05/04/17 26748    SCHURIG ROBERT      700070399906700  5000     AVONDALE SCHURIG           0.00         1,000.00
+A1003     1705877   05/04/17 21880    SERVICAR OF MICHIGA 700070399341200  5000     TRANSPORTATION FOR         0.00         1,651.68
+A1003     1705878   05/04/17 13131    SERVICE SPORTS INC  700071399909700  5000     MAJESTIC BATTING JA        0.00           275.00
+A1003     1705878   05/04/17 13131    SERVICE SPORTS INC  700071399909700  5000     CHAMPRO UNIFORMS           0.00         1,056.00
+TOTAL CHECK                                                                                                    0.00         1,331.00
+A1003     1705880   05/04/17 26650    SHOALES TIMOTHY M   700052299667100  5000     REIMB LARSON ROBOTI        0.00           500.00
+A1003     1705880   05/04/17 26650    SHOALES TIMOTHY M   700052299702700  5000     REIMB LARSON ROBOTI        0.00         1,115.15
+A1003     1705880   05/04/17 26650    SHOALES TIMOTHY M   700052299702700  5000     REIMB LARSON ROBOTI        0.00         1,576.71
+TOTAL CHECK                                                                                                    0.00         3,191.86
+A1003     1705881   05/04/17 24254    SHOGREN NICOLE E    700051299352000  5000     SMS ORCH CLINIC            0.00           150.00
+A1003     1705903   05/04/17 12252    TROY HIGH BAND BOOS 700050299352000  5000     OVPMT SOUND POWER C        0.00           122.72
+A1003     1705903   05/04/17 12252    TROY HIGH BAND BOOS 700050299351000  5000     OVPMT SOUND POWER C        0.00           122.73
+TOTAL CHECK                                                                                                    0.00           245.45
+A1003     1705907   05/04/17 10221    VENTE JENNIFER      700051299718000  5000     SMS PETTY CASH             0.00            52.40
+A1003     1705907   05/04/17 10221    VENTE JENNIFER      700051299700000  5000     SMS PETTY CASH             0.00            95.28
+A1003     1705907   05/04/17 10221    VENTE JENNIFER      700051299347000  5000     SMS PETTY CASH             0.00           126.58
+TOTAL CHECK                                                                                                    0.00           274.26
+216
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   56
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705908   05/04/17 26394    VOIGHT JENNIFER L   700071399992000  5000     WINTER MHSAA VOIGHT        0.00            85.00
+A1003     1705908   05/04/17 26394    VOIGHT JENNIFER L   700071399992000  5000     WINTER MHSAA VOIGHT        0.00           205.00
+TOTAL CHECK                                                                                                    0.00           290.00
+A1003     1705910   05/04/17 26044    WILLIAMS LARUE C    700071399992000  5000     WINTER MHSAA WILLIA        0.00            85.00
+A1003     1705910   05/04/17 26044    WILLIAMS LARUE C    700071399992000  5000     WINTER MHSAA WILLIA        0.00           205.00
+TOTAL CHECK                                                                                                    0.00           290.00
+A1003     1705917   05/10/17 12175    ABIGAIL MIYA        700070399710000  5000     THS NHS SCHOLARSHIP        0.00           400.00
+A1003     1705923   05/10/17 10132    ANGELA YUAN         700071399718000  5000     REIMB STUCO SUPPLIE        0.00           147.73
+A1003     1705926   05/10/17 25126    ATHENS ALL NIGHT PA 700071399704200  5000     2017 SANP TKT/LEKAJ        0.00            70.00
+A1003     1705927   05/10/17 25126    ATHENS ALL NIGHT PA 700071399704200  5000     1/2 SANP TKT/JOHNSO        0.00            35.00
+A1003     1705934   05/10/17 12254    BETSEY HAGEN        700070399915800  5000     REIMB GLS SOCCR EXP        0.00           152.91
+A1003     1705935   05/10/17 21019    BIG COUNTRY TOURS L 700050299354100  5000     GR8 FUNDRSR OFFSET         0.00           987.00
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           666.13
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 700017199393000  5000     HAMILTON FIELD TRIP        0.00           210.80
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 700010199393000  5000     HILL FIELD TRIP            0.00           210.80
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 700070399901000  5000     THS BOYS LACROSSE W        0.00           340.00
+A1003     1705965   05/10/17 26082    FIRST GROUP AMERICA 700016199700000  5000     BARNARD FIELD TRIP         0.00           382.60
+TOTAL CHECK                                                                                                    0.00         1,810.33
+A1003     1705968   05/10/17 10751    FOLLETT SCHOOL SOLU 700015199708000  5000     PROVIDE ITEMS ON QU        0.00         1,137.13
+A1003     1705968   05/10/17 10751    FOLLETT SCHOOL SOLU 700008199701300  5000     PROVIDE ITEMS ON QU        0.00           324.17
+A1003     1705968   05/10/17 10751    FOLLETT SCHOOL SOLU 700051299667200  5000     PROVIDE ITEMS ON QU        0.00           149.56
+A1003     1705968   05/10/17 10751    FOLLETT SCHOOL SOLU 700051299667200  5000     PROVIDE ITEMS ON QU        0.00           280.03
+A1003     1705968   05/10/17 10751    FOLLETT SCHOOL SOLU 700051299667200  5000     PROVIDE CATALOGING         0.00             1.80
+A1003     1705968   05/10/17 10751    FOLLETT SCHOOL SOLU 700051299667200  5000     PROVIDE CATALOGING         0.00             3.37
+TOTAL CHECK                                                                                                    0.00         1,896.06
+A1003     1705974   05/10/17 14297    MOORE JEFFERY ALAN  700070399700000  5000     OPEN PURCHASE ORDER        0.00           600.00
+A1003     1705974   05/10/17 14297    MOORE JEFFERY ALAN  700070399340000  5000     THS SO TRANSPORT           0.00           300.00
+TOTAL CHECK                                                                                                    0.00           900.00
+A1003     1705977   05/10/17 10869    GRAND TRAVERSE RESO 700070399710100  5000     OPEN PURCHASE ORDER        0.00         5,554.00
+A1003     1705978   05/10/17 26664    GREAT ADVENTURE TOU 700017199393200  5000     FINAL MACKINAC PMT         0.00        19,719.00
+A1003     1705978   05/10/17 26664    GREAT ADVENTURE TOU 700013199701800  5000     MARTELL MCK ISL FIN        0.00        27,279.00
+TOTAL CHECK                                                                                                    0.00        46,998.00
+A1003     1705980   05/10/17 19962    GRETCHEN OHMAN      700011199900500  5000     REFUND DNR FLD TRIP        0.00             9.00
+A1003     1705986   05/10/17 12175    HOWARD LI           700070399710000  5000     THS NHS SCHOLARSHIP        0.00           400.00
+A1003     1705987   05/10/17 10132    ISABELLA SERAPHINOF 700071399372000  5000     REFUND AP CHEM EXAM        0.00            72.00
+A1003     1705988   05/10/17 11763    J W PEPPER & SON IN 700074399667200  5000     OPEN PURCHASE ORDER        0.00           126.89
+217
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   57
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705988   05/10/17 11763    J W PEPPER & SON IN 700074399667200  5000     OPEN PURCHASE ORDER        0.00           389.22
+TOTAL CHECK                                                                                                    0.00           516.11
+A1003     1705990   05/10/17 10286    JEN PELUSO          700053299393000  5000     REFUND CIVIL WAR TR        0.00            20.00
+A1003     1705992   05/10/17 19962    JESSICA RESKE       700017199393200  5000     REIM OVERPMT MACKIN        0.00           120.00
+A1003     1705993   05/10/17 11425    JOHNNY MACS SPORTIN 700070399901600  5000     THS GLS LAX                0.00           840.00
+A1003     1706001   05/10/17 23363    LEUKEMIA AND LYMPHO 700071399718000  5000     ATHENS STUCO DONATI        0.00           715.00
+A1003     1706005   05/10/17 25865    AFFORDABLE ELEGANCE 700071399732900  5000     CHAIR COVERS AND SA        0.00           549.75
+A1003     1706010   05/10/17 10132    MAICA MORI          700071399716500  5000     REIMB PROJ LEAD SUP        0.00            37.16
+A1003     1706012   05/10/17 27049    RYAN SEAN           700070399906700  5000     THS BYS SWIM               0.00            55.25
+A1003     1706012   05/10/17 27049    RYAN SEAN           700070399906700  5000     THS BYS SWIM               0.00         1,715.00
+TOTAL CHECK                                                                                                    0.00         1,770.25
+A1003     1706013   05/10/17 10132    MARJORIE JOYCE−OBER 700071399910700  5000     REIMB BYS TRACK DIN        0.00            49.96
+A1003     1706017   05/10/17 11441    MI HIGH SCHOOL ATHL 700070399990000  5000     THS GLS BB DIST            0.00         2,009.00
+A1003     1706019   05/10/17 12254    MICHAEL ZHANG       700070399340000  5000     REIMB THS SO EXPENS        0.00           124.42
+A1003     1706019   05/10/17 12254    MICHAEL ZHANG       700070399340000  5000     REIMB THS SO EXPENS        0.00           136.81
+TOTAL CHECK                                                                                                    0.00           261.23
+A1003     1706025   05/10/17 12175    NEIL VAISHAMPAYAN   700070399710000  5000     THS NHS SCHOLARSHIP        0.00           400.00
+A1003     1706028   05/10/17 21987    PANERA BREAD−TROY C 700070399716500  5000     THS PROJ LEAD              0.00            77.94
+A1003     1706032   05/10/17 12175    RICKY YOUNG         700070399710000  5000     THS NHS SCHOLARSHIP        0.00           400.00
+A1003     1706037   05/10/17 11961    SAN MARINO CLUB     700070399906700  5000     TAX/NON−TEAM DINNER        0.00            30.45
+A1003     1706050   05/10/17 19691    WINDMILL DRUG PREVE 700050299700000  5000     BAKER ASSEMB 5/15−1        0.00         1,250.00
+A1003     1706055   05/10/17 15979    TOTAL T’S           700071399327000  5000     DIVERSITY CLUB TSHI        0.00           474.50
+A1003     1706056   05/10/17 27568    TROCCOLI DANIEL J   700070399915800  5000     THS GLS SOCCER             0.00            25.19
+A1003     1706059   05/10/17 12252    TROY HIGH BAND BOOS 700052299352000  5000     ORCH OVERPMT               0.00           245.45
+A1003     1706062   05/10/17 26485    VILLAGE TROPHY SHOP 700071399992000  5000     AHS SOFTBALL TROPHI        0.00           100.00
+A1003     1706064   05/10/17 26193    WASS ELEMENTARY PTO 700014199667200  5000     GO BATTY ASSEMBLY          0.00           260.00
+A1003     1706067   05/10/17 26093    WOLVERINE CAMPS     700071399341000  5000     BIO TRIP DEP 5/12−1        0.00           750.00
+A1003     1706081   05/18/17 25100    LV MANAGEMENT INC   700071399732900  5000     AHS PROM                   0.00        17,505.06
+A1003     1706081   05/18/17 25100    LV MANAGEMENT INC   700071399732900  5000     DEPOSIT FOR MAY 12,        0.00         1,000.00
+A1003     1706081   05/18/17 25100    LV MANAGEMENT INC   700071399732900  5000     DEPOSIT FOR MAY 11,        0.00         1,000.00
+218
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   58
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706081   05/18/17 25100    LV MANAGEMENT INC   700071399732900  5000     DEPOSIT FOR MAY 9,         0.00         1,000.00
+TOTAL CHECK                                                                                                    0.00        20,505.06
+A1003     1706086   05/18/17 10420    ARGUS PRESS CO (THE 700070399323700  5000     OPEN PURCHASE ORDER        0.00           760.00
+A1003     1706089   05/18/17 13176    BARNES & NOBLE      700180699708000  5000     PROVIDE ITEMS ON QU        0.00           706.68
+A1003     1706096   05/18/17 10246    BLOOMFIELD HILLS SC 700074399705300  5000     BUILDON CHARGES            0.00           322.40
+A1003     1706096   05/18/17 10246    BLOOMFIELD HILLS SC 700074399745000  5000     A0000988 SKI CLUB B        0.00           910.38
+A1003     1706096   05/18/17 10246    BLOOMFIELD HILLS SC 700074399745000  5000     A0000989 SKI CLUB B        0.00           922.43
+TOTAL CHECK                                                                                                    0.00         2,155.21
+A1003     1706097   05/18/17 25162    BLOOMFIELD SPORTS S 700071399901000  5000     NIKE SUBLIMATED GRA        0.00         1,560.00
+A1003     1706101   05/18/17 27616    BOSSICK GREGORY E   700070399711000  5000     QUIZ BOWL FEES             0.00           135.00
+A1003     1706115   05/18/17 24070    GOLF FACILITIES INC 700070399731800  5000     ADDL PROM ATTENDEES        0.00           522.00
+A1003     1706115   05/18/17 24070    GOLF FACILITIES INC 700070399731800  5000     PROM BALANCE               0.00        20,968.00
+TOTAL CHECK                                                                                                    0.00        21,490.00
+A1003     1706121   05/18/17 25086    COMMERCIAL GRAPHICS 700071399909700  5000     DISTANCE BANNER            0.00           137.90
+A1003     1706131   05/18/17 13425    DEMCO INC           700013199708000  5000     RZEPKA/MARTELL             0.00            32.80
+A1003     1706132   05/18/17 11655    DESTINATION IMAGINA 700051299700000  5000     TEAM REGISTR DI            0.00           250.00
+A1003     1706152   05/18/17 24640    ETHNIC ARTWORK INC  700970699990100  5000     PARTICIPANT T−SHIRS        0.00         1,644.00
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 700071399901600  5000     AHS GIRLS LACROSSE         0.00           162.50
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 700070399901000  5000     THS BOYS LACROSSE W        0.00           131.25
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 700017199393000  5000     HAMILTON FIELD TRIP        0.00           342.55
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 700011199900600  5000     SCHROEDER FIELD TRI        0.00           354.14
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 700071399708800  5000     AHS AP TO WSU              0.00           508.03
+A1003     1706165   05/18/17 26082    FIRST GROUP AMERICA 700017199393000  5000     HAMILTON FIELD TRIP        0.00           514.35
+TOTAL CHECK                                                                                                    0.00         2,012.82
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700051299667200  5000     PROVIDE ITEMS ON QU        0.00           111.63
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700051299667200  5000     PROVIDE PROCESSING         0.00             1.38
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700016199701300  5000     PROVIDE REPLACEMENT        0.00           −65.91
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700016199701300  5000     PROVIDE REPLACEMENT        0.00            65.91
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700016199701300  5000     PROVIDE PROCESSING         0.00            −2.27
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700016199701300  5000     PROVIDE PROCESSING         0.00             2.27
+A1003     1706167   05/18/17 10751    FOLLETT SCHOOL SOLU 700007199708000  5000     PROVIDE ITEMS ON QU        0.00           212.54
+TOTAL CHECK                                                                                                    0.00           325.55
+A1003     1706173   05/18/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            24.58
+A1003     1706173   05/18/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            28.08
+A1003     1706173   05/18/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            29.99
+A1003     1706173   05/18/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            30.80
+A1003     1706173   05/18/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            92.95
+TOTAL CHECK                                                                                                    0.00           206.40
+219
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   59
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706176   05/18/17 26664    GREAT ADVENTURE TOU 700013199701800  5000     ADDL ROOM                  0.00           538.00
+A1003     1706184   05/18/17 22649    HIGHEST HONOR INC   700071399909700  5000     ENGRAVED PLATES            0.00             8.00
+A1003     1706185   05/18/17 25784    HOT MIX LLC         700071399731800  5000     DJ FOR ATHENS PROM         0.00         1,000.00
+A1003     1706186   05/18/17 11039    IMPRESSION CENTER   700071399342500  5000     1 COLOR PRINT TEES         0.00         1,283.10
+A1003     1706189   05/18/17 10132    JEFF KOCH           700071399910700  5000     TEAM DINNER KOCH           0.00           136.77
+A1003     1706194   05/18/17 17233    JOSTENS INC         700071399323500  5000     YB BALANCE                 0.00         6,970.42
+A1003     1706196   05/18/17 12175    KAREN BARRIENTOS    700070399700200  5000     CHARITY DRIVE RECIP        0.00         2,000.00
+A1003     1706198   05/18/17 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            62.20
+A1003     1706198   05/18/17 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            80.82
+TOTAL CHECK                                                                                                    0.00           143.02
+A1003     1706207   05/18/17 12254    LILIANA OPREA       700070399906700  5000     REIMB BANQ EXP OPRE        0.00            91.92
+A1003     1706233   05/18/17 10286    NIRMALA GATLA       700053299393000  5000     REIMB FT EXP               0.00            20.00
+A1003     1706258   05/18/17 26650    SHOALES TIMOTHY M   700052299702700  5000     STUDENT LUNCHES            0.00            37.00
+A1003     1706268   05/18/17 10132    SUE PARKS           700071399992000  5000     GIRLS LAX BANNERS          0.00           108.00
+A1003     1706269   05/18/17 19962    SUPRIYA RAVOOR      700014199667400  5000     REIMB SO EXPENSE           0.00           512.74
+A1003     1706272   05/18/17 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,481.02
+A1003     1706272   05/18/17 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,183.00
+A1003     1706272   05/18/17 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,959.40
+TOTAL CHECK                                                                                                    0.00         4,623.42
+A1003     1706283   05/18/17 13150    TRI−C PUBLICATIONS  700015199700000  5000     SUMMER SKILLS BOOKS        0.00           665.00
+A1003     1706289   05/18/17 10132    WAEL TOMO           700071399341000  5000     AP BIO DEP REFUND          0.00           200.00
+A1003     1706290   05/18/17 12360    WARDS NATURAL SCIEN 700070399701600  5000     OPEN PURCHASE ORDER        0.00           250.00
+A1003     1706295   05/18/17 10286    YANGBING ZENG       700053299393000  5000     RIEMB FT EXP               0.00            20.00
+A1003     1706302   05/25/17 10029    KAYDEE INC          700070399731800  5000     THS JR/PROM FLWRS          0.00         1,150.00
+A1003     1706311   05/25/17 11684    ATLAS WHOLESALE FOO 700071399524000  5000     CKY DGH                    0.00           336.30
+A1003     1706311   05/25/17 11684    ATLAS WHOLESALE FOO 700070399524000  5000     CKY DGH, BAGS, PAPE        0.00           486.87
+TOTAL CHECK                                                                                                    0.00           823.17
+A1003     1706316   05/25/17 26822    BAZIN II CRAIG      700071399992000  5000     REIMB JV BYS LAX EQ        0.00            68.97
+A1003     1706317   05/25/17 19962    BIN JING            700011199667300  5000     REIMB DESTIN IMAGIN        0.00           500.00
+A1003     1706317   05/25/17 19962    BIN JING            700011199700000  5000     REIMB DESTIN IMAGIN        0.00             0.49
+TOTAL CHECK                                                                                                    0.00           500.49
+220
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   60
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706321   05/25/17 10132    BRUCE SUTELA        700071399372000  5000     AP REFUND                  0.00            72.00
+A1003     1706328   05/25/17 10381    CHAMPION CHEERLEADI 700070399900000  5000     REISSUE CK 1704335         0.00           300.00
+A1003     1706332   05/25/17 27621    CLIPPARD DANIELLE S 700052299702700  5000     REIMB ROBOTICS COMP        0.00           233.61
+A1003     1706339   05/25/17 24942    DETROIT ZOOLOGICAL  700011199900100  5000     SCHRO KDG/DETROIT Z        0.00           624.00
+A1003     1706341   05/25/17 10132    DIANE MCCORMICK     700071399910700  5000     REIMB TEAM DINNER          0.00            75.00
+A1003     1706347   05/25/17 10132    ELISE LEVERENZ      700071399718000  5000     REIMB CHARITY WK EX        0.00            19.60
+A1003     1706350   05/25/17 19962    FELICIA GRUIAN      700013199393000  5000     REIMB MD PROJ SUPPL        0.00            46.98
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            87.50
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            28.74
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            31.60
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            35.57
+A1003     1706357   05/25/17 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00            89.72
+TOTAL CHECK                                                                                                    0.00           273.13
+A1003     1706368   05/25/17 10215    JACQUELINE BYRNE    700017199393000  5000     REIMB OVRPMT−ZOO TR        0.00            16.50
+A1003     1706369   05/25/17 10132    JACQUELYN SCHELLMAT 700071399372000  5000     AP REFUND                  0.00           169.00
+A1003     1706371   05/25/17 19962    JASWINDER GILL      700074399330000  5000     REIMB ECO CHALL SUP        0.00            49.97
+A1003     1706373   05/25/17 10215    JOANNE YIHAN KIM    700015199393000  5000     REIMB FLD TRIP             0.00             7.00
+A1003     1706375   05/25/17 17233    JOSTENS INC         700074399710000  5000     2017 NHS SPANSH CRD        0.00           396.48
+A1003     1706375   05/25/17 17233    JOSTENS INC         700074399325600  5000     2017 NHS SPANSH CRD        0.00           220.97
+TOTAL CHECK                                                                                                    0.00           617.45
+A1003     1706376   05/25/17 10215    KARTHY RAVIKANTH    700015199393000  5000     REIMB FLD TRP              0.00            14.00
+A1003     1706377   05/25/17 10215    KATHY WEAVER        700017199393000  5000     REIMB ZOO OVERPMT          0.00            16.50
+A1003     1706378   05/25/17 10215    KELLY BLOCK         700015199393000  5000     REIMB FLD TRP              0.00             7.00
+A1003     1706379   05/25/17 21759    KNICKERBOCKER BAKIN 700071399737400  5000     OPEN PO FOR ATHENS         0.00            55.02
+A1003     1706384   05/25/17 10132    KURT HIGLEY         700071399372000  5000     AP REFUND                  0.00            72.00
+A1003     1706388   05/25/17 10132    LEE FENG            700071399372000  5000     AP REFUND                  0.00            72.00
+A1003     1706389   05/25/17 10215    LIGANG ZHANG        700015199393000  5000     REIMB FLD TRP              0.00             7.00
+A1003     1706401   05/25/17 11026    MCCORMICK DONALD E  700015199700000  5000     MATH BANNER                0.00            50.00
+A1003     1706402   05/25/17 10132    MEI ZHEN TAN        700071399372000  5000     AP REFUND                  0.00            25.00
+221
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   61
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1706408   05/25/17 26558    MILLER DIANE        700053299718000  5000     BPMS PETTY CASH REI        0.00            40.30
+A1003     1706408   05/25/17 26558    MILLER DIANE        700053299735200  5000     BPMS PETTY CASH REI        0.00            72.00
+TOTAL CHECK                                                                                                    0.00           112.30
+A1003     1706418   05/25/17 19962    RAHUL GOPINATH      700074399330000  5000     REIMB ECO CHALL SUP        0.00           355.72
+A1003     1706418   05/25/17 19962    RAHUL GOPINATH      700074399330000  5000     REIMB ECO CHALL SUP        0.00           344.70
+TOTAL CHECK                                                                                                    0.00           700.42
+A1003     1706425   05/25/17 11961    SAN MARINO CLUB     700071399909700  5000     DEP BYS BSBLL BANQ         0.00           500.00
+A1003     1706430   05/25/17 21880    SERVICAR OF MICHIGA 700011199900100  5000     SCHRO KDG/DETROIT Z        0.00           899.00
+A1003     1706435   05/25/17 27570    SOBOLESKI ALLISON I 700070399901600  5000     REIMB GLS LAX EXP          0.00           146.45
+A1003     1706440   05/25/17 27561    SUAREZ JUSTIN A     700071399901000  5000     REIMB LAX DINNER           0.00           413.79
+A1003     1706442   05/25/17 19962    SURESH SANJALA      700074399330000  5000     REIMB ECO CHALL SUP        0.00            16.84
+A1003     1706443   05/25/17 20779    SYSCO FOOD SERVICES 700071399737400  5000     OPEN PO FOR ATHENS         0.00         1,409.23
+A1003     1706445   05/25/17 10215    TALAN ZHANG         700015199393000  5000     REIMB FLD TRP              0.00            14.00
+A1003     1706447   05/25/17 10132    TERESA OBAYASHI     700071399372000  5000     AP REFUND                  0.00            25.00
+A1003     1706453   05/25/17 10215    UNA MA              700015199393000  5000     REIMB FLD TRP              0.00             7.00
+A1003     1706457   05/25/17 10132    VIVIAN DANG         700071399372000  5000     AP REFUND                  0.00            72.00
+A1003     1706458   05/25/17 10132    WAEL TOMO           700071399372000  5000     AP REFUND                  0.00            50.

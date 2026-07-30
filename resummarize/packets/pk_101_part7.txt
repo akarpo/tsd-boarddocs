@@ -1,0 +1,2331 @@
+00
+A1003     1706461   05/25/17 26093    WOLVERINE CAMPS     700071399341000  5000     AP BIO CAMP                0.00         6,100.00
+A1003     W17−205   05/08/17 26691    PROFESSIONAL ED SER 700              L4026    CONT SVC 4/9−4/22          0.00            58.95
+A1003     W17−214   05/15/17 12140    MI STATE OF/DEPT OF 700071399737400  5000     SALES TAX APRIL 201        0.00           264.18
+A1003     W17−214   05/15/17 12140    MI STATE OF/DEPT OF 700071399524000  5000     SALES TAX APRIL 201        0.00             1.80
+A1003     W17−214   05/15/17 12140    MI STATE OF/DEPT OF 700070399524000  5000     SALES TAX APRIL 201        0.00             1.82
+A1003     W17−214   05/15/17 12140    MI STATE OF/DEPT OF 700070399710500  5000     SALES TAX APRIL 201        0.00            17.04
+TOTAL CHECK                                                                                                    0.00           284.84
+A1003    E1705833   05/04/17 12547    MARSHALL MUSIC CO   700052299352000  5000     INSTRUMENT ORDER FO        0.00           400.00
+A1003    E1706040   05/10/17 13022    SCHOLASTIC BOOK FAI 700052299701200  5000     LARSON BOOK FAIR           0.00         2,627.44
+A1003    E1706040   05/10/17 13022    SCHOLASTIC BOOK FAI 700005199708000  5000     TROY UNION BOOK FAI        0.00         4,024.52
+TOTAL CHECK                                                                                                    0.00         6,651.96
+A1003    E1706098   05/18/17 10254    BLUE LAKES CHARTERS 700071399342500  5000     6 BLUE LAKES CHARTE        0.00         8,550.00
+A1003    E1706319   05/25/17 10254    BLUE LAKES CHARTERS 700017199719400  5000     HAMILTON GR5 17/18         0.00           898.00
+A1003    E1706398   05/25/17 12547    MARSHALL MUSIC CO   700051299352000  5000     PURCHASE OF 2 SOUND        0.00         3,175.00
+222
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   62
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    E1706427   05/25/17 13022    SCHOLASTIC BOOK FAI 700017199701300  5000     HAMILTON BOOK FAIR         0.00         3,540.62
+TOTAL CASH ACCOUNT                                                                                             0.00       301,446.74
+TOTAL FUND                                                                                                     0.00       301,446.74
+223
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   63
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705944   05/10/17 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR 2015−        0.00           129.00
+A1003     1706266   05/18/17 10177    STAPLES ADVANTAGE   701689699697100  5000     HDOD HON VOLT® MID−        0.00           343.98
+A1003     1706266   05/18/17 10177    STAPLES ADVANTAGE   701689699697100  5000     MESH BACK WITH FABR        0.00           396.38
+A1003     1706266   05/18/17 10177    STAPLES ADVANTAGE   701689699697100  5000     HON BRGD 600 SERIES        0.00           864.87
+TOTAL CHECK                                                                                                    0.00         1,605.23
+TOTAL CASH ACCOUNT                                                                                             0.00         1,734.23
+TOTAL FUND                                                                                                     0.00         1,734.23
+224
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   64
+DATE: 06/12/2017                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 15:22:07                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’17’ and transact.period=’11’ and transact.gl_cash=’A1003’
+ACCOUNTING PERIOD: 12/17
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003     1705918   05/10/17 12175    ALEXANDER SIMON     750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1705919   05/10/17 12175    ALEXANDRA MOUNTEER  750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1705920   05/10/17 12175    ALYSSA ASMAR        750015599740200  5000     BEMIS SCHOLARSHIP          0.00           500.00
+A1003     1705960   05/10/17 12175    ELLIE ROCHELEAU     750015599740200  5000     BEMIS SCHOLARSHIP          0.00           500.00
+A1003     1705961   05/10/17 12175    ERIN CUETER         750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1705962   05/10/17 12175    ETHAN CLIFFORD      750015599740200  5000     BEMIS SCHOLARSHIP          0.00         1,200.00
+A1003     1705963   05/10/17 12175    ETHAN FULCHER       750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1706006   05/10/17 12175    LYRIC MYRE          750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1706007   05/10/17 12175    MADELEINE GLASSER   750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1706008   05/10/17 12175    MADELINE ALDINGER   750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1706011   05/10/17 12175    MAICA MORI          750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1706023   05/10/17 12175    MYA TEETER          750015599740200  5000     BEMIS SCHOLARSHIP          0.00           200.00
+A1003     1706035   05/10/17 12175    ROWEN VONPLAGENHOEF 750015599740200  5000     BEMIS SCHOLARSHIP          0.00           500.00
+A1003     1706071   05/10/17 12175    ZACHARY PICKELL     750015599740200  5000     BEMIS SCHOLARSHIP          0.00           500.00
+A1003     1706193   05/18/17 10134    JOSEPH STARK        750071599743000  5000     MEN FOR OTHERS SCHO        0.00         1,000.00
+A1003     1706195   05/18/17 12175    JUSTIN STRONG       750070399742400  5000     LOVE MEM STRONG            0.00         1,000.00
+A1003     1706208   05/18/17 12175    LILLIAN XIAO        750070399742400  5000     LOVE MEMORIAL XIAO         0.00         1,000.00
+TOTAL CASH ACCOUNT                                                                                             0.00         8,000.00
+TOTAL FUND                                                                                                     0.00         8,000.00
+TOTAL REPORT                                                                                                   0.00     7,880,243.35
+225
+Revenue Approved Budget  Actual Amount Total Uncollected
+Percent Uncollected 
+(Overcollected)
+Local sources 36,983,103 37,459,750 (476,647) -1.29%
+State sources 96,756,588 70,696,607 26,059,981 26.93%
+Federal sources 3,757,332 2,552,005 1,205,327 32.08%
+Incoming Transfers / Other 8,158,473 5,256,849 2,901,624 35.57%
+Total Revenue 145,655,496$     115,965,211$          29,690,285$              20.38%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Instruction:
+Basic Programs 81,760,617 63,982,971 10,053,716 7,723,930 9.45%
+Added Needs 17,087,872 13,419,935 1,725,591 1,942,347 11.37%
+Adult/Continuing Education 644,028 796,799 190,551 (343,322) -53.31%
+Total Instruction 99,492,517 78,199,705 11,969,858 9,322,954 9.37%
+Support Services:
+Pupil  10,490,258 8,351,112 1,328,254 810,893 7.73%
+Instructional Staff 7,655,515 6,199,669 856,908 598,938 7.82%
+General Administration 2,301,063 1,942,887 130,229 227,947 9.91%
+School Administration 7,297,872 6,344,236 336,622 617,014 8.45%
+Business Services 1,140,685 857,482 75,055 208,149 18.25%
+Operations/Maintenance 9,179,819 7,436,189 1,415,838 327,792 3.57%
+Pupil Transportation 3,412,537 2,696,375 313,530 402,632 11.80%
+Central Services 2,525,281 1,650,525 153,602 721,154 28.56%
+Other Support Services (Athletics and Other) 1,707,907 1,534,748 25,353 147,807 8.65%
+Total Support Services 45,710,937 37,013,222 4,635,389 4,062,326 8.89%
+Community Services 139,137 72,447 68 66,621 47.88%
+Outgoing Transfers / Other 0 0 0 0 0.00%
+Total Expenditures 145,342,591$     115,285,374$          16,605,316$         13,451,901$              9.26%
+Excess Revenue over (under) Expenditures 312,905
+Fund Balance -  May 1, 2017 21,532,285
+Fund Balance - May 31, 2017 21,845,190$         
+General Fund (Funds 101, 120, 122)
+May YTD - Fiscal Year 2017
+Troy School District
+Summary Revenue and Expense Budget Report
+226
+Revenue
+Approved 
+Budget Actual Amount Total Uncollected
+Percent Uncollected 
+(Overcollected)
+Property Taxes 18,100,000 17,077,089 1,022,911 5.65%
+Earnings on Investments 3,000 787 2,213 73.78%
+Proceeds from Bond Refunding 0 0 0 0.00%
+Incoming Transfers/Other 0 0 0 0.00%
+Total Revenue 18,103,000$      17,077,875$      1,025,125$         5.66%
+Expenditures
+Approved 
+Budget Actual Amount
+Total 
+Encumbered Available Budget Percent Available
+Redemption of Principal 11,310,000 11,310,000 0 (0) 0.00%
+Interest on Debt 4,428,896 4,428,896 0 1 0.00%
+Other Expenditures 46,500 6,656 0 39,844 85.69%
+Outgoing Transfers 0 0 0 0 0.00%
+Total Expenditures 15,785,396$      15,745,551$      0$                     39,845$               0.25%
+Excess Revenue over (under) Expenditures 2,317,604
+Fund Balance -  May 1, 2017 1,178,387
+Fund Balance - May 31, 2017 3,495,991$         
+Consolidated Debt Service Funds (312, 314, 315)
+May YTD - Fiscal Year 2017
+Troy School District
+Summary Revenue and Expense Budget Report
+227
+Revenue Approved Budget Actual Amount  Total Uncollected 
+Percent Uncollected 
+(Overcollected)
+Local 5,995,600 5,738,425 257,175 4.29%
+State 119,998 169,834 (49,836) -41.53%
+Federal 2,747,024 2,200,096 546,928 19.91%
+Incoming Transfers/Other 0 0 0 0.00%
+Total Revenue 8,862,622$            8,108,356$          754,266$                 8.51%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 1,851,963 1,363,838 360,636 127,489 6.88%
+Employee Benefits 975,888 750,517 114,712 110,659 11.34%
+Purchased Services 3,312,283 2,915,025 207,069 190,188 5.74%
+Supplies/Materials 1,623,034 1,206,358 29,790 386,886 23.84%
+Capital Outlay 624,705 444,897 482,595 (302,787) -48.47%
+Other Expenditures 84,575 74,844 0 9,731 11.51%
+Outgoing Transfers 688,718 31,706 0 657,012 95.40%
+Total Expenditures 9,161,166$            6,787,187$          1,194,802$               1,179,177$              12.87%
+Excess Revenue over (under) Expenditures (298,543)
+Fund Balance -  May 1, 2017 2,207,994
+Fund Balance - May 31, 2017 1,909,451$             
+Consolidated Special Revenue Funds (520, 529, 530, 535)
+May YTD - Fiscal Year 2017
+Troy School District
+Summary Revenue and Expense Budget Report
+228
+Revenue Approved Budget Actual Amount  Total Uncollected 
+Percent Uncollected 
+(Overcollected)
+Local 2,436,295 2,295,388 140,907 5.78%
+State 101,268 140,621 (39,353) -38.86%
+Federal 900,000 982,842 (82,842) -9.20%
+Incoming Transfers 0 0 0 0.00%
+Total Revenue 3,437,563$            3,418,850$          18,713$                   0.54%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 1,790,249 1,617,512 69,255 103,482 5.78%
+Supplies/Materials 1,448,795 1,129,900 414 318,482 21.98%
+Capital Outlay 622,705 443,011 460,384 (280,691) -45.08%
+Other Expenditures 40,000 45,149 0 (5,149) -12.87%
+Outgoing Transfers 2,218 31,706 0 (29,488) -1329.49%
+Total Expenditures 3,903,967$            3,267,278$          530,053$                  106,636$                 2.73%
+Excess Revenue over (under) Expenditures (466,404)
+Fund Balance -  May 1, 2017 1,610,824
+Fund Balance - May 31, 2017 1,144,421$             
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Food Service (520)
+May YTD - Fiscal Year 2017
+229
+Revenue Approved Budget Actual Amount  Total Uncollected 
+Percent Uncollected 
+(Overcollected)
+Local 0 0 0 100.00%
+State 18,730 29,213 -10,483 -55.97%
+Federal 1,847,024 1,217,255 629,769 34.10%
+Incoming Transfers/Other 0 0 0 0.00%
+Total Revenue 1,865,754$            1,246,468$          619,286$                 33.19%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 844,510 657,583 123,240 63,688 7.54%
+Employee Benefits 529,874 402,721 40,521 86,632 16.35%
+Purchased Services 400,424 226,621 123,230 50,573 12.63%
+Supplies/Materials     16,388 6,872 1,183 8,333 50.85%
+Capital Outlay 0 0 22,210 -22,210 0.00%
+Other Expenditures   38,058 26,221 0 11,837 31.10%
+Outgoing Transfers 36,500 0 0 36,500 100.00%
+Total Expenditures 1,865,754$            1,320,018$          310,384$                  235,352$                 12.61%
+Excess Revenue over (under) Expenditures 0
+Fund Balance -  May 1, 2017 0
+Fund Balance - May 31, 2017 0$                            
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Troy Career Center (529)
+May YTD - Fiscal Year 2017
+230
+Revenue Approved Budget Actual Amount  Total Uncollected 
+Percent Uncollected 
+(Overcollected)
+Local 3,476,835 3,361,067 115,768 3.33%
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Total Revenue 3,476,835$            3,361,067$          115,768$                 3.33%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 1,007,453 706,256 237,396 63,801 6.33%
+Employee Benefits 446,014 347,796 74,191 24,027 5.39%
+Purchased Services 1,120,610 1,070,545 14,585 35,480 3.17%
+Supplies/Materials 156,851 68,961 28,193 59,697 38.06%
+Capital Outlay 2,000 1,886 0 114 5.70%
+Other Expenditures 6,517 3,475 0 3,043                         46.69%
+Outgoing Transfers 650,000 0 0 650,000 100.00%
+Total Expenditures 3,389,445$            2,198,919$          354,365$                  836,161$                 24.67%
+Excess Revenue over (under) Expenditures 87,390
+Fund Balance -  May 1, 2017 155,527
+Fund Balance - May 31, 2017 242,917$                
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Adult & Community Education (530)
+May YTD - Fiscal Year 2017
+Troy School District
+231
+Revenue Approved Budget Actual Amount  Total Uncollected 
+Percent Uncollected 
+(Overcollected)
+Local 82,470 81,971 499 0.61%
+State 0 0 0 0.00%
+Federal 0 0 0 0.00%
+Incoming Transfers 0 0 0 0.00%
+Total Revenue 82,470$                 81,971$               499$                        0.61%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Salaries 0 0 0 0 0.00%
+Employee Benefits 0 0 0 0 0.00%
+Purchased Services 1,000 347 0 653 65.31%
+Supplies/Materials 1,000 625 0 375 37.49%
+Capital Outlay 0 0 0 0 0.00%
+Other Expenditures 0 0 0 0 0.00%
+Outgoing Transfers 0 0 0 0 0.00%
+Total Expenditures 2,000$                   972$                    -$                           1,028$                     51.40%
+Excess Revenue over (under) Expenditures 80,470
+Fund Balance -  May 1, 2017 441,643
+Fund Balance - May 31, 2017 522,113$                
+May YTD - Fiscal Year 2017
+Troy School District
+Summary Revenue and Expense Budget Report
+Special Revenue Funds - Facilities Rental Fund (535)
+232
+Revenue Approved Budget Actual Amount Total Uncollected
+Percent Uncollected 
+(Overcollected)
+Earnings on Investments 125,000 223,252 (98,252) -78.60%
+Miscellaneous Revenue 0 8,647 (8,647.44)                  0.00%
+Proceeds from sale of Bond 40,000,000 40,000,000 -                             0.00%
+Proceeds from sale of Land 200,000 200,000 -                             0.00%
+Incoming Transfers/Other 0 0 -                             0.00%
+Total Revenue 40,325,000$         40,431,899$       (106,899)$               -0.27%
+Expenditures Approved Budget Actual Amount Total Encumbered Available Budget Percent Available
+Purchased Services 2,469,355 1,194,375 309,068 965,913 39.12%
+Supplies/Materials 0 0 0 0 0.00%
+Capital Outlay 12,978,639 12,038,801 4,105,294 (3,165,456) -24.39%
+Other Expenditures 145,000 173,378 0 (28,378) -19.57%
+Total Expenditures 15,592,994$         13,406,554$       4,414,361$                (2,227,922)$            -14.29%
+Excess Revenue over (under) Expenditures 24,732,006
+Fund Balance -  May 1, 2017 14,685,689
+Fund Balance - May 31, 2017 39,417,695$          
+Troy School District
+Summary Revenue and Expense Budget Report
+Consolidated Capital Projects Funds (499, 414, 416)
+May YTD - Fiscal Year 2017
+233
+Troy School District, Wire Transfers, May 2017
+1 6/13/2017
+JE Number Budget Unit A/C Code Transaction Amount Transcription Description 
+W0518705 101 A1003 175,100.67$                              PAYROLL TSA 5/5/17
+W0518704 101 A1003 3,440.00$                                   PAYROLL MESP 5/5/17
+W0518703 101 A1003 88,135.54$                                 PAYROLL TAXES 5/5/17
+W0518703 101 A1003 678,788.54$                              PAYROLL TAXES 5/5/17
+W0518702 101 A1003 50,011.30$                                 PAYROLL HSA 5/5/17
+W0526707 101 A1003 3,440.00$                                   PAYROLL MESP 5/19/17
+W0526706 101 A1003 234,737.14$                              PAYROLL TSA 5/19/17
+W0526705 101 A1003 841,009.80$                              PAYROLL TAXES 5/19/17
+W0526704 101 A1003 48,199.06$                                 PAYROLL HSA 5/19/17
+W0526703 101 A1003 7,097.02$                                   GF TO NGE 5/8-5/14/17
+W0526702 101 A1003 7,957.20$                                   GF TO NGE 5/1-5/7/17
+W0526701 101 A1003 5,474.39$                                   GF TO NGE 4/24-4/30/17
+W0526708 529 A1003 1,518.30$                                   GF TO TCC CAREER CENTER
+Total 2,144,908.96$                           
+234
+               7. A.   06.20.17 
+ 
+7. A.  PERSONNEL 
+ 
+ CONSIDERATION:  TEA CONTRACT RATIFICATION  
+ 
+A tentative agreement between representatives of the Troy Board of Education 
+and the Troy Education Association/MEA/NEA (TEA) was reached on June 9 , 
+2017.  The T EA membership voted to ratify the agreement on June 16, 2017.  
+The tentative agreement is a contract for the period of July 1, 201 7, through 
+January 31, 2020 .  The specifics of the Tentative Agreement are attached and 
+have been signed by Mr. Tony Lucchi, President of the TEA and Mr. Jordan Harris, 
+Assistant Superintendent, Employee Services on June 9, 2017. 
+ 
+ 
+ 
+ 
+ RECOMMENDED ACTION:  Accept the resolution below. 
+ 
+SUGGESTED RESOLUTION 
+ 
+ Moved by: 
+ 
+ 
+ Supported by: 
+ 
+ 
+ 
+ 
+ BE IT THEREFORE RESOLVED  that the Board of Education hereby ratifies and 
+adopts the tentative agreement reached on June 9, 2017 between representatives 
+of the Troy Board of Education and the Troy Education Association/MEA/NEA for 
+the period of July 1, 2017 through January 31, 2020. 
+ 
+ 
+ Yes: 
+ 
+ No: 
+235
+i 
+APRIL 
+APRI 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+TROY EDUCATION ASSOCIATION 
+A Local Affiliate of MEA/NEA 
+ 
+and the 
+ 
+TROY SCHOOL DISTRICT 
+BOARD OF EDUCATION 
+ 
+JULY 1, 201 7 TO J ANUARY  31, 20 20 
+COLLECTIVE BARGAINING 
+AGREEMENT  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4400 Livernois, Troy, MI  48098 
+ 
+TROY EDUCATION ASSOCIATION/MEA/NEA 
+17500 West 11 Mile, Ste. 200, Lathrup Village, MI 48076 
+236
+ii 
+TABLE OF CONTENTS 
+ARTICLE          PAGE 
+1. Recognition ............................................................................................... 1 
+2. TEA Rights................................................................................................ 2 
+3. Teacher Rights ........................................................................................... 3 
+4. Evaluation .................................................................................................  6 
+5. Layoff and Recall Procedures .................................................................... 6 
+6. Teacher Responsibilities ............................................................................ 6 
+7. Rights of Administration ............................................................................ 9 
+8. Joint Responsibilities ................................................................................. 9 
+9. Health and Safety ...................................................................................... 9 
+10. Professional Qualifications and Assignment ............................................ 10 
+11. Professional Compensation ...................................................................... 10 
+12. Teaching Hours ....................................................................................... 15 
+13. Class Size ................................................................................................ 17 
+14. Teaching Conditions ................................................................................ 20 
+15. Special Education………………………………………………………… 24 
+16. Transfers .................................................................................................  26 
+17. Seniority .................................................................................................. 26 
+18. Leave Pay ................................................................................................ 27 
+19. Maternity, Child Care and Adoption Leaves ............................................ 28 
+20. Leaves of Absence – General ................................................................... 29 
+21. Sabbatical Leave ...................................................................................... 31 
+22. Lines of Communication .......................................................................... 32 
+23. Grievance Procedure ................................................................................ 32 
+24. Negotiation Procedures ............................................................................ 35 
+25. Miscellaneous Provisions ......................................................................... 35 
+26. Insurance .................................................................................................  39 
+27. Salary Schedule Application .................................................................... 42 
+28. Protection of Teachers ............................................................................. 44 
+29. Severance Pay and Retirement/Resignation ............................................. 45 
+30. Master Sick Bank .................................................................................... 46 
+31. Annexation and Consolidation .................................................................  48 
+32. District Organization ............................................................................... 48 
+33. Retirement ............................................................................................... 51 
+34. Shared Teaching ...................................................................................... 51 
+35. Niles Community High School ................................................................ 53 
+36. Ancillary Teachers Not Covered by Teachers’ Tenure Act ....................... 58 
+37. Minimum Fund Balance .......................................................................... 72 
+37. Duration of Agreement ............................................................................ 74 
+ 
+ Schedule A – 2017-2020 Salary Schedule ................................................ 75 
+Schedule B – Extra Duty Pay ................................................................... 76 
+Schedule C – Extra Duty Pay ................................................................... 78 
+Schedule D – Extra Duty Pay ................................................................... 81 
+Schedule E – 2016/2017 School Calendar ................................................ 82 
+ 
+ 
+237
+iii 
+Appendix 1–Troy Education Association/MEA/NEA/Grievance Form .... 84 
+Appendix 2 – Mentoring Log……………………………………………...85 
+Appendix 3 – Board Policies/Administrative Regulations: Teacher  
+     Placement, Layoff and Recall, Discipline, and Performance  
+     Evaluations ......................................................................................... 86 
+ 
+LOA:  Schoology Online Grading and Communication…………………..111-112 
+ 
+238
+ 
+1 
+COLLECTIVE BARGAINING AGREEMENT 
+BETWEEN 
+BOARD OF EDUCATION, 
+TROY SCHOOL DISTRICT 
+AND 
+TROY EDUCATION ASSOCIATION, A LOCAL AFFILIATE OF THE MEA/NEA 
+ 
+ 
+This Agreement entered into this   20th day of June 2017 by and between the Board of Education of 
+the Troy School District, Troy, Michigan, hereinafter called the Board, and the Troy Education 
+Association, hereinafter called the TEA. 
+ 
+WITNESSETH 
+ 
+Whereas the Board and TEA, following extended and deliberate negotiations, have reached certain 
+understandings with respect to hours, wages, terms and conditions of employment, it is hereby agreed 
+as follows: 
+ 
+ARTICLE 1.   RECOGNITION 
+ 
+1.1 The Board hereby recognizes the TEA, a local affiliate of the MEA/NEA, as the exclusive 
+bargaining representative as defined in Section 11 of Act 379, Public Acts of 1965 as amended, for 
+all teachers as hereinafter defined for purposes of collective bargaining in respect t o rates of pay, 
+wages, hours, and other conditions of employment. 
+ 
+1.2 Definition. The term teacher when used hereinafter in this Collective Bargaining 
+Agreement shall include the following personnel employed under contract by the Board: All teachers 
+in gr ades preschool through twelfth (12th), including special education, guidance counselors, 
+consultants, educational coordinators, media specialists, reading support teachers, school 
+psychologists, speech pathologists, social workers, department chairpersons,  head teachers, 
+administrative interns, and all paid positions as set forth in Schedules B, C, and D.  Article 36 contains 
+terms and conditions applicable to ancillary teachers, teachers whose terms and conditions of 
+employment are not subject to the Michigan Teachers' Tenure Act. 
+ 
+BUT EXCLUDING:  superintendent; deputy superintendent; assistant superintendents: business 
+services, human resourcesEmployee Services , elementary instruction; executive director auxiliary 
+services; administrative assistant; principals:  high school, middle school, elementary school; assistant 
+principals:  high school, middle school, elementary school; high school building athletic director, high 
+school activities director; directors:  continuing education, special education, curriculum, technology, 
+evaluation and research, health and health education, fine arts, guidance and counseling, athletics and 
+physical education, media services, community relations, vocational education; supervisors:  
+accounting, buildings and grounds, data processing, food services, planning and construction, 
+purchasing, special education, maintenance, custodial services, cable TV, state and federal projects, 
+transportation; day -to-day substitutes and summer school teachers; continuing education teachers 
+(except Niles Community High School teachers); teacher aides; study hall monitors; in -house 
+suspension monitors; clerks, typists; secretaries; and all office personnel. 
+ 
+If the District decides to establish an In-School Suspension program, it shall be staffed as determined 
+by the District. 
+ 
+1.3 Other Organizations.   The Board agrees not to negotiate with any teacher organization other 
+than the TEA for the duration of this Agreement.  However, nothing contained herein shall be 
+Formatted: Superscript
+239
+ 
+2 
+construed to prevent a Board memb er or administrator from meeting with any teacher, groups of 
+teachers or organization other than the TEA for the purpose of hearing and discussing their views on 
+matters other than hours, wages and working conditions. 
+ 
+1.4 Employees in the District who per form administrative duties shall not be allowed to perform 
+regularly assigned bargaining unit duties; however, bargaining unit members may substitute for 
+administrators in cases of emergency for up to ninety (90) days.  Said teachers shall not evaluate or 
+discipline bargaining unit members.  Teachers may substitute for administrators in cases of temporary 
+or unexpected vacancies.  Teachers will be compensated at their current salary.  However, teachers 
+working longer than 30 calendar days in an administrati ve position will be compensated at their 
+current salary or the administrative starting salary of the position the teacher is filling temporarily, 
+whichever is greater.  Should the assignment exceed the scheduled teacher work year, then the teacher 
+will be paid the assignment ’s daily rate for each day worked exceeding the number of contractual 
+teacher work days.  These temporary assignments shall not exceed one school year.  Said teachers 
+shall not evaluate or discipline bargaining unit members.  
+ 
+1.5 It is understood that the bargaining unit  employees in positions set forth in Article 1.2 have 
+responsibility for performing duties normally associated with those positions.   
+ 
+ARTICLE 2.   TEA RIGHTS 
+ 
+2.1 Membership. The TEA agrees to admit to full participatin g membership all teachers as 
+defined who wish to become members of the TEA. 
+ 
+2.2 Use of Facilities.  The TEA and its members shall have the privilege of using school equipment 
+and school building facilities at all reasonable hours when otherwise not in use  and provided that no 
+special custodial service is required.  A teacher’s use of the Internet/Intranet shall be governed by the 
+District’s acceptable use policy.  The availability and use of the Internet/Intranet is not guaranteed. 
+ 
+Any supplies required in the use of any equipment in this regard must be furnished by or paid for by 
+the TEA at cost price. 
+ 
+If a meeting is to be scheduled by the TEA which required special custodial services and/or specific 
+facilities within a school building, the TEA shall have the privilege of using the school building on 
+the same basis as civic or political organizations, as established in District policy. 
+ 
+All equipment shall be returned to its normal storage or location or designated place in proper order.  
+In the event any equipment is found to be damaged, either before or after its use by the TEA, the 
+building principal shall be notified. 
+ 
+2.3 The intra-district mailing system shall be made available to the TEA and its members. 
+ 
+2.4 Strike and Lock Out Prohibition. 
+ 
+ A. The TEA will not engage in, or encourage, a strike prohibited by the Public Employment 
+Relations Act (PERA) as amended. 
+ 
+ B. The Board agrees that it will not lock out any employees or otherwise discipline employees 
+for exercising their rights under PERA. 
+ 
+240
+ 
+3 
+2.5 A tenure teacher or a teacher in a position that is not covered by the Tenure Act who has at least 
+three (3) years of service with the Board and who holds the following positions within the TEA, shall 
+be placed in the order listed below at the top of the seniority list. 
+ 
+ A. President 
+ B. Vice President 
+ C. Grievance Chairperson  
+The TEA shall furnish the Assistant Superintendent, Human Resources Employee Services, with the 
+name of the person holding each position listed above within thirty (30) days of election or 
+appointment, whichever is applicable. 
+ 
+2.6 TEA Day.   The TEA shall have the use of up to forty-five (45) days for TEA business requested 
+by the President or Executive Director of the TEA.  The TEA shall be able to purchase up to fifteen 
+(15) additional days for TEA business at the minimum substitute rate of pay.  The President, Vice 
+President or Executive Director of the TEA shall make every effort to notify the Human 
+ResourcesEmployee Services  Department at least forty -eight (48) hours in a dvance.  The call -in 
+procedure for substitutes shall be followed. 
+ 
+2.7 TEA Officers.   The TEA president, vice president, secretary, treasurer, and five trustees shall 
+have the privilege of leaving their buildings to conduct TEA business and/or implement t his 
+agreement when not scheduled in class.  They must notify their building principal upon departure and 
+return. 
+ 
+2.8 The Association shall have the equivalent of one officer released full time from teaching duties 
+during the work days prescribed by the c alendars in schedules E.  The Association shall have the 
+option of releasing the president full time or releasing the president and vice president each half time. 
+The Board will pay fifty percent (50%) of the total compensation package for the full- time released 
+officer (or half-time released officers) and will be reimbursed by the Association for the remaining 
+fifty percent (50%) of the total compensation package for the full -time released officer (or half-time 
+released officers.) The fifty percent (50%) re imbursement by the Association will be applied to the 
+total cost of the retirement contribution made to the Office of Retirement Service (ORS) for the full-
+time released officer (or half-time released officers) with the remaining reimbursement amount placed 
+in the District’s general fund.  The total reimbursement amount made by the Association to the District 
+shall not exceed fifty percent (50%.)  The District will provide the Association with an invoice for 
+the cost associated with the release d officer no later than April 30
+th.  Reimbursement to the District 
+by the Association for the specified amount shall be made no later than May 30th of the given school 
+year.  The president and vice president shall be released without loss of salary, insurance protection, 
+seniority or other benefits provided for in this Agreement or by law.  The release time shall commence 
+on the first day of the semester nearest to the time the officer takes office and shall end the last day 
+of the semester nearest to the expir ation of the officer's term of office. The president-elect and vice-
+president-elect shall contact the Assistant Superintendent, Human ResourcesEmployee Services to 
+make arrangements for release time. Since the TEA officers perform services which are of val ue to 
+both the TEA and the Board, the Board accepts the foregoing us reimbursement for payment of these 
+items referred to in MCLA 38.1371 (5) (B). 
+ 
+ARTICLE 3.   TEACHER RIGHTS 
+ 
+3.1 The Board agrees that it will not directly or indirectly discourage or depr ive or coerce any 
+teacher in the enjoyment of any rights conferred by Act 379 or other laws of Michigan and/or the 
+United States or the Constitution of Michigan and/or the United States; that it will not discriminate 
+against any teacher with respect to hours, wages or any terms or conditions of employment by reason 
+241
+ 
+4 
+of membership in the TEA, participation in any activities of the TEA or collective professional 
+negotiations with the Board, or institution of any grievance, complaint or proceeding under this 
+Agreement or otherwise with respect to any terms or conditions of employment. 
+ 
+3.2 No teacher shall be prevented from wearing official insignia, pins or other identification of 
+membership in the TEA, either on or off school premises.  Bulletin boards in the main school office 
+and the teachers' lounges shall be made available to the TEA and its members, provided that all 
+materials posted relate to the official business of the TEA and such communication shall bear the 
+name of the organization.  Any questionable  or improper use of bulletin boards shall become the 
+concern of the principal and the TEA representative of that building. 
+ 
+3.3 Deductions for financial institutions, tax -deferred annuities, United Foundation and other 
+current deductions will continue as authorized by individual teachers.  Other deductions may be 
+arranged by mutual agreement between the Board and the TEA. 
+ 
+3.4 Equal Treatment.   The provisions of this Agreement and the wages, hours, terms and 
+conditions of employment shall be applied without regard to race, creed, religion, disability, color or 
+national origin, age, sex, or marital status or membership in or association with the activities of any 
+employee organization.  The Board and the TEA pledge themselves to seek to extend the advantages 
+of public education to every student without regard to race, creed, religion, disability, sex, color or 
+national origin and to seek to achieve full equality of educational opportunity to all pupils. 
+ 
+Notwithstanding their employment, teachers shall be entitle d to full rights of citizenship and no 
+religious or political activities of any teacher or the lack thereof shall be grounds for any discipline or 
+discrimination with respect to the professional employment of such teacher.  The private and personal 
+life of any teacher is not within the appropriate concern or attention of the Board unless it affects 
+performance as an educator. 
+ 
+3.5 Nothing in this contract shall be construed to deny or restrict to any teacher any rights he/she 
+may have under the Michigan General School Laws, Teacher Tenure Laws or other applicable laws 
+or state departmental regulations. 
+ 
+3.6 Teacher Personnel Files.   The teacher personnel files shall be those files concerning teachers, 
+which are housed and maintained by the Central Office of the  District and/or in the office of each 
+building principal.  All contractual infractions shall be entered in the file in the principal's office.  The 
+Board agrees to give every teacher access to their own files.  The examination of the files shall be in 
+the presence of an administrator or agent thereof.  A representative of the TEA may be requested by 
+the teacher to accompany the teacher in such review.  Maintenance and inspection of personnel files 
+shall be in accordance with the Bullard-Plawecki Right to Know Act (397 PA 1978) and as follows: 
+ 
+ A. Materials shall be removed from a personnel file if and when a teacher's claim that such 
+material is inaccurate and has been sustained through the grievance procedure.  The name 
+of the person making the complaint shall be disclosed to the grievant by Step Two (2) of the 
+grievance procedure. 
+ 
+ B. A teacher shall be permitted to reproduce any non-confidential material in his/her file.  The 
+Board may charge for the copies. 
+ 
+ C. Information relating to a teacher's unsu ccessful application for a position requiring a 
+screening committee recommendation may be removed from a teacher's file at his/her 
+written request. 
+ 
+242
+ 
+5 
+ D. Except for copies of materials routinely furnished teachers that are placed in the personnel 
+file (e.g., individual contract, leave requests), a copy of all material placed therein will be 
+furnished to the teacher. 
+ 
+ E. A teacher shall have the right to answer any material placed in his/her file, and his/her 
+answer shall be attached to the file copy. 
+ 
+ F. Confidential recommendations, including credentials furnished by the college placement 
+offices will be withheld, except for recommendations including credentials prepared after 
+January 1, 1975, except when the right to examine recommendations and credentials has to 
+be waived in accordance with Section 483 of 93- 98 as amended of the Family Rights and 
+Privacy Act. 
+ 
+3.7 Rights to Representation.  Teachers shall at all times be entitled to have a TEA representative 
+present when being warned, reprimanded or disc iplined.  The Administration shall may inform the 
+teacher of this right before warning, reprimanding or disciplining the teacher.  If a teacher requests a 
+TEA representative present, the administrator shall delay action until the TEA representative is 
+present.  However, the delay shall not exceed seventy-two (72) hours unless the administrator agrees 
+to do so. 
+ 
+3.8  Personnel File.   
+ 
+ A. If a written record of an incident is inserted in a personnel file, the teacher shall receive a 
+dated copy within te n (10) days of the administrator 's knowledge of said incident. The 
+teacher's copy will note that the item is being inserted into said file.  
+ 
+ B. The teacher shall have the right within thirty (30) workdays after receipt to insert a rebuttal 
+to any item.  Any rebuttal so inserted shall be attached to the object insertion by the person 
+responsible for said file. 
+ 
+ C. Written record of an incident and rebuttal involving a teacher will be removed from the 
+teacher's personnel file when he/she leaves the Distric t for any reason except a leave of 
+absence. 
+ 
+3.9 All significant complaints and compliments, whether or not they seem valid, received by the 
+Administration, shall be reported to the teacher named within one (1) week. 
+ 
+ If a complaint is filed against a named teacher by a student, the teacher (and if the teacher 
+requests, an Association representative) shall the Association president or a mutually agreed 
+upon designee shall have an opportunity to be present at an interview  with the student within 
+one week of the registering of the complaint with the school principal or other school official.  
+However, the school board will not be required to afford the named teacher this opportunity if 
+it determines within one week that the  student's complaint is not a justified basis for any 
+personnel action against the teacher. 
+ 
+ This section shall not prevent the school board from conducting such investigations as it deems 
+necessary with respect to other complaints or allegations of misconduct by a teacher. 
+ 
+3.10 If the Board plans to read a letter at a board meeting, the teacher/staff who is the object of the 
+letter will be contacted prior to its public reading.  The Board will make every effort to protect teachers 
+from unsubstantiated public criticism. 
+ 
+243
+ 
+6 
+3.11 Under no circumstances shall a student's CA -60 or confidential special education file contain 
+any reference to a teacher's conduct or any information which may be construed as evaluating the 
+teacher. 
+ 
+3.12 Termination Notice.  A probationer must give a sixty (60) day written notice before termination 
+of contract unless mutually agreed upon.  If the contract is broken by the probationer without proper 
+written notification, the Board of Education may take proper action. 
+ 
+ 
+ 
+ARTICLE 4.   EVALUATION 
+ 
+4.1 See Appendix 3 for evaluation of teachers covered by the Tenure Act; evaluation of ancillary 
+teachers not covered by the Tenure Act is provided within Article 36.  
+ 
+ARTICLE 5.   LAYOFF AND RECALL PROCEDURES 
+ 
+5.1 See Appendix 3 for layoff and recall of teachers covered by the Tenure Act; layoff and recall of 
+ancillary teachers not covered by the Tenure Act is provided within Article 36. 
+ 
+5.2 A teacher who is laid off and who is paid unemployment compensation benefits (associated 
+with his/her regular teaching assignment) during the summer immediately following the layoff and 
+who is subsequently recalled to the teaching position at the beginning of the next school year will be 
+paid according to annual salary rate, such that his/her unemployment compensation plus that annual 
+salary rate will be equal to the rate of salary he/she would have earned for the school year had 
+he/she not been laid off, subject to the following conditions:       
+ 
+A. The total of unemployment compensation plus salary earned by employment in the District 
+shall not be below that which the employee would have received had he/she been employed 
+the entire school year. 
+ 
+B. The salary earned through employment in the District shall not be less than his/her salary 
+from same for a similar period during the preceding school year. 
+ 
+5.3 The status of shared-time teachers who are recalled and the status of teachers recalled to 
+shared-time shall be covered by the following provisions: 
+ 
+ A. A shared-time teacher may be recalled to a shared -time position.  The shared-time teacher 
+shall receive pay and fringe benefits equivalent to his/her full-time equivalency status. 
+ 
+ B. A shared-time teacher may be recalled to a full- time position.  If the teacher accepts the 
+recall to a full-time position, the teacher shall receive full pay and fringe benefits. 
+ 
+ C. A full-time teacher who has requested shared -time for the school year in which he/she is 
+recalled may be recalled to a shared -time position.  If the teacher accepts the recall to the 
+shared-time position, the teacher shall receive pay and fringe benefits equivalent to his/her 
+full-time equivalency status. 
+ 
+ D. A full-time teacher who has not requested shared -time for the school year in which he/she 
+is recalled, may be recalled to a shared-time position.  If the teacher accepts the recall to the 
+shared-time position, the teacher shall receive pay prorated to his/her full-time equivalency 
+status and shall receive full fringe benefits paid for by the Board. 
+244
+ 
+7 
+ 
+ARTICLE 6.   TEACHER RESPONSIBILITIES 
+ 
+6.1 Policies and Regulations.  It is the responsibility of the TEA and individual teachers to honor 
+Board policies and administration regulations not in conflict with this Agreement. 
+ 
+6.2 General Responsibilities.  It is the responsibility of th e TEA and each individual teacher, as 
+well as the Board, to provide the highest quality education program possible for every student in the 
+School District.  On the teacher's part this includes: 
+ 
+ A. Careful daily preparation of lessons, lectures, demonstrations. 
+ 
+ B. A teacher may be required to serve on no more than two committees during the school year.  
+The length of service in each activity shall not exceed five months.  An activity lasting more 
+than five months shall satisfy the requirement of serving  on two committees during the 
+school year.  Teachers may be requested to serve on district -wide, inter- and intra-school 
+committees.  This section is not intended to limit a teacher from voluntarily serving on any 
+number of committees. 
+ 
+ C. A written notice will be provided of not more than three (3) required evening events each 
+teacher is expected to attend.  Written notice of up to two (2) building activities requiring 
+all staff to be in attendance will be given by October 1.  Each teacher will be given a written 
+notice of the other required event(s) at least two weeks before each event.  Parent -Teacher 
+conferences are set forth in the school calendar and not included in the mentioned events.  
+In any event the number of required evening events shall not exceed three (3). 
+ 
+ D. Promptness in meeting classes, keeping appointments with parents, students and other 
+school employees, and in furnishing essential reports and information required by 
+administrators.  See Article 12, Teaching Hours. 
+ 
+ E. Principals may request teachers to attend important school functions. 
+ 
+ F. It is the responsibility of the teacher to assist the administration in maintaining discipline 
+and proper student behavior, as set forth in the Student Rights and Responsibilities 
+Handbook. 
+ 
+ G. Teachers shall make an effort to be aware and report the general health and wellbeing of 
+students as it relates to evidence of child abuse, nutrition and general childhood illnesses.   
+ 
+ H. Parent-Teacher Conference Schedule.   
+   
+Level Afternoon Session Evening Session 
+Elementary:    Early Start 
+                             Late Start 
+1:00 p.m. – 4:00 p.m.  
+1:40 p.m. – 4:40 p.m. 
+5:00 p.m. – 8:00 p.m.  
+5:45 p.m. – 8:45 p.m. 
+Middle School:       Early Start 
+                                Late Start 
+12:30 p.m. – 3:30 p.m. 
+12:30 p.m. – 3:30 p.m. 
+5:00 p.m. – 8:00 p.m. 
+5:00 p.m. – 8:00 p.m. 
+High School 12:30 p.m. – 3:30 p.m. 5:00 p.m. – 8:00 p.m. 
+ 
+6.3 Absence.   When a teacher is unable to be in school on any given day, he/she should contact the 
+system-wide designated elementary or secondary number at least one and one-half (1 1/2) hours prior 
+to the student starting time, in order that arrangements may be made for a substitute. 
+ 
+245
+ 
+8 
+A. A teacher shall not be charged a leave day on a day when schools are closed, as per Section 
+9.1, unless the absence was arranged for prior to the closing of school and is a day in a series 
+of absences. 
+ 
+B. Each teacher shall be provided at the beginning of the school year, the number that should 
+be called when a substitute is needed. 
+ 
+C. In the event of the absence of art, music, media, physical education, Spanish, and reading 
+teachers, the Board agrees to provide substitutes when properly qualified substitutes are 
+available. 
+ 
+D. In the event that a remedial reading teacher notifies the Adminis tration that he/she will be 
+absent for more than five (5) consecutive contact days with students, a substitute shall be 
+provided. 
+ 
+E. These teachers will provide lesson plans to be used in the event of their absence and shall 
+follow the call-in procedures as outlined in Article 6, Section 6.3. 
+ 
+F. When a teacher calls in late, the Assistant Superintendent, Human Resources Employee 
+Services will contact the teacher to determine whether an emergency situation existed. 
+ 
+6.4 Unauthorized Absence.  An absence without prior notification from the teacher to the 
+administration or sub caller shall be considered unauthorized.  
+ 
+Absences from parent-teacher conferences because of college-level classes shall be authorized if the 
+teacher notifies the buildin g principal at least three weeks prior to parent -teacher conferences.  
+Teachers who are absent from parent -teacher conferences shall make up the conference outside of 
+regular teaching duties. 
+ 
+6.5 Management Half Days.   Substitute teachers shall be provid ed by the Board for up to one-
+half (1/2) days per teacher for elementary teachers working on management record systems and/or 
+district-approved voluntary staff development activities.  Teachers eligible for a record management 
+half day shall schedule said half day in the following manner:  A half day scheduled on Mondays, 
+Fridays, and days before and proceeding holidays and vacation periods shall be requested at least ten 
+(10) working days in advance and must be approved by the building principal.  All other half days 
+must be scheduled with at least twenty -four (24) hours’ notice  to the building principal.  It is 
+understood and agree d that during the 2016- 2017duration of this agreement, specials teachers will 
+not service students on the first day of school.  Instead, this time will be a management day for specials 
+teachers only. The first afternoon in the sequence of three (3) half days at the end of the school year 
+will be designated as a management day for all elementary teachers. school year, K-5 teachers will 
+have three (3) half days built into the calendar for management/assessment purposes.  The 2016-
+2017school year calendar has the afternoon of September 1 st, the afternoon of May 26 th and the 
+afternoon of June 14th allocated for this purpose.   
+ 
+In order to address the complexities of Public Act 306 of 2016 (MCL 380.1280f) , the district will 
+provide each elementary teacher that administers the reading assessment with one (1) full-day 
+substitute coverage during each of the three (3) assessment windows.  The building administrator will 
+be responsible for developing a rotational schedule. 
+ 
+6.6 Data Team Meetings,  In order to be in compliance with the Public Act 306 of 2016 (MCL 
+380.1280f), all elementary teachers (K-5) will be required to participate in grade-level team meetings 
+three (3) times per year at the conclusion of each testing window.   
+Formatted: Font: Bold
+246
+ 
+9 
+A. These meetings should be conducted at an agreed upon time with the building literacy team. 
+ 
+B. All elementary building literacy teams shall include grade level teachers, reading specialists, 
+building principal and relevant special populations staff members.  
+ 
+C. Acceptable meeting times are any non-instructional time periods (i.e. before or after school), 
+including common preparation time.  
+ 
+D. The purpose of these meetings will be to create a growth plan for students performing below 
+grade level expectations.   
+ 
+Sent out as memorandum: 
+ 
+A. During the 2016-2017 school year, September 1st and May 26th management/assessment half 
+days are reserved for k-5 classroom teachers for the district-wide reading assessment. 
+ 
+B. During the 2016-2017 school year, September 1st and May 26th management/assessment half 
+days are reserved for special education classroom teachers for the district -wide reading 
+assessment as applicable.  
+ 
+C. During the 2016 -2017 school year, May 26 th will be used for management purposes for 
+specials teachers and elementary ancillary staff. 
+ 
+D. During the 2016-2017 school year, June 14th management/assessment half day is reserved for 
+management purposes for all elementary teachers.  
+ 
+E. During the 2016- 2017 school year, specials teachers and elementary ancillary staff will 
+participate in meaningful professional development on September 1st in the afternoon.   
+ 
+ARTICLE 7.   RIGHTS OF ADMINISTRATION 
+ 
+The TEA recognizes that the Board has the responsibility and authority to manage and direct, on 
+behalf of the public, all the operations and activities of the School District to the full extent authorized 
+by law. 
+ 
+ARTICLE 8.  JOINT RESPONSIBILITIES 
+ 
+8.1 The parties recognize the importance of a quality educational program designed to meet the 
+need of all students.  Changes in the program are effectively made when the Board, administration 
+and teachers work in cooperation. 
+ 
+8.2 District committees established to study curriculum and program shall include teachers. 
+ 
+8.3 The organization of the instructional program and curriculum is designed to meet the special 
+needs of all students within the teacher's regular work day.  The regular work day shall not be changed 
+if the result would be an expansion of the teachers' work time.  The duties of teachers may be altered 
+to meet the needs of students and teachers, providing that the teachers are given reasonable flexibility 
+within the program. 
+ 
+Formatted: Font: Bold
+Formatted: List Paragraph, Numbered + Level: 1 +
+Numbering Style: A, B, C, … + Start at: 1 + Alignment: Left +
+Aligned at:  0.25" + Indent at:  0.5"
+Formatted: Font: Bold
+247
+ 
+10 
+8.4 The TEA will use its best efforts to assist the Board with ideas and plan to provide for maximum 
+efficiency in the use of building facilities including change in existing buildings and design of new 
+buildings. 
+ 
+8.5 Responsibility for student achievement is the joint responsibility of teachers, administrators, the 
+Board, parents, the community, and students.  Recognizing this, teachers are not solely responsible 
+when a student does not achieve a level of performance determined in advance as a standard. 
+ 
+8.6 In order to maximize the cooperative effort between teachers and instructional aides, teachers 
+who are to be assigned a new instructional aide shall be notified of the opportunity to be involved in 
+the interview process prior to final selection.  To the extent possible, the desire s of the teacher shall 
+be a criterion in the selection of the instructional aide.  The principal will inform the teacher of his/her 
+aide's job responsibilities as it relates to the effective use of the aide.  The teacher will likewise be 
+informed of his/her rights and responsibilities as it relates to the aide. 
+ 
+8.7 The parties agree to maintain or improve the high standards of educational opportunity for 
+students and professional conditions that exist in Troy School District. 
+ 
+ARTICLE 9.   HEALTH AND SAFETY 
+ 
+9.1 On days when students are excused due to bad weather, for safety reasons, teachers will not 
+report to school.  On days when students are dismissed early due to an emergency situation (i.e., 
+severe weather, civil disaster, etc.), the teachers shall be excused as soon as all students and/or buses 
+have left the building. 
+ 
+Any pupil instructional day which is canceled and which must be rescheduled in order to comply with 
+1984 PA 239, section 101 of the School State Aid Act, MCLA 338.1701(3), (4), shall be rescheduled 
+as provided in Section 11.4 of this Agreement.  If 1984 PA 239 is modified or repealed so as not to 
+require the rescheduling of student instructional days, Section 9.1 of this Agreement shall be null and 
+void, and the following language shall apply: 
+ 
+ On days when students are excused due to bad weather, for safety reasons, teachers will not be 
+required to report to school .  Inasmuch  as this is a paid work day, the teachers will report as 
+soon as practical on these days.  On days when students are dismissed early due to an emergency 
+situation (i.e., severe weather, civil disaster, etc.), the teachers shall be excused as soon as all 
+students and/or buses have left the building. 
+ 
+9.2 In emergency situations (i.e., severe weather with the threat o f tornadoes, etc.), teachers may 
+leave the building during lunch periods only after receiving permission from the building principal. 
+ 
+9.3 Teachers have the right to inspect the building, to which they are assigned, its premises, and 
+equipment on their own volition, or as a result of the initial report of possible unsafe and/or unhealthy 
+conditions.  The report of an unsafe or unhealthy condition shall be reported in writing to the proper 
+authority.  Such report may include suggestions to correct the condition or remove the danger of said 
+condition. 
+ 
+9.4 In any case, where a teacher is sued and held personally liable for injuries caused by an 
+unhealthy or unsafe condition in the school building or equipment, the Board will indemnify and hold 
+harmless the teacher against any damages adjudged against him or her providing the teacher had no 
+knowledge of the condition or had knowledge and reported same in writing to the principal. 
+ 
+248
+ 
+11 
+9.5 Emergency procedures for the District and each building within the District shall be established 
+in the event of heating, ventilation, plumbing, and/or power failures.  In addition, procedures for fire, 
+tornadoes and severe winter weather shall also be established on the same basis.  These procedures 
+shall be placed in the Teacher Handbook. 
+ 
+ Decisions to close the District's buildings or individual buildings shall  reflect the safety and 
+welfare of students and teachers and the possibility of continuing the educational program. 
+  
+ In the event a building is closed due to the above -mentioned reasons, teachers will be free to
+ leave for the day after students and/or buses have departed and emergency procedures have 
+ been completed. 
+ 
+ARTICLE 10.   PROFESSIONAL QUALIFICATIONS AND ASSIGNMENT 
+ 
+10.1 All teachers employed by the Board shall  have at least a Bachelor's degree from an accredited 
+college or university and be certified or authorized in accordance with current state and federal law. 
+ 
+10.2 All teachers shall be employed under approved individual contracts based on certification, or  
+annual authorization, in accordance with the State Board of Education and in accordance with federal 
+and state regulations, and not in conflict with or violation of the Master Agreement. 
+ 
+ARTICLE 11.   PROFESSIONAL COMPENSATION 
+ 
+11.1 Salary Schedule.  The salaries of teachers covered by this Agreement are set forth in Schedule 
+A. 
+ 
+A. As of July 1, 20176, all eligible teachers shall move one salary step from the step that they 
+were on during the 20165- 20176 school year, on the 20176- 202017 salary schedule.  In 
+addition, eligible teachers shall receive a lane adjustment or longevity, as applicable. 
+ 
+B. As of July 1, 2018, all eligible teachers shall move one salary step from the step that they 
+were on during the 2017-2018 school year, on the 2017-2020 salary schedule.  In addition, 
+eligible teachers shall receive a lane adjustment or longevity, as applicable. 
+B. . Teachers who are on steps one (1) through thirteen (13), o r who advance to step fourteen 
+(14) during the 2016-2017 school year, will receive an off-schedule payment of one hundred 
+dollars ($100) for the 2016- 2017 school year.  The stipend will be paid in two (2) equal 
+payments of $50.00 (fifty dollars) as the second payroll in January 2017, and as of the second 
+payroll in May 2017 (pro-rated for part-time teachers and those who worked less than a full 
+school year.) 
+ 
+C. As of July 1, 2019, all eligible teachers shall move one -half (1/2) salary step from the step 
+that they were on during the 2018-2019 school year, on the 2017-2020 salary schedule.  In 
+addition, eligible teachers shall receive a lane adjustment or longevity, as applicable. 
+C. Teachers who are on Step 14 and above during the 2015-2016 school year will receive and 
+off-schedule payment of twelve hundred and fifty dollars ($1,250.00) for the 2016 -2017 
+school year.  The stipend will be paid in two (2) equal payments of $625.00 (six hundred 
+twenty-five dollars) as of the second payroll in January 2017, and as of the second payroll 
+in May 2017 (pro-rated for part-time teachers and those who worked less than a full school 
+year. 
+ 
+D. As of July 1, 2017, Step 14 of Schedule A will increase by five -hundred dollars ($500.00) 
+as reflected in the 2017 -2020 Salary Schedule A. All longevity levels will increase three 
+249
+ 
+12 
+hundred dollars ($300.00) as of July 1, 2016.  This on schedule increase in longevity will be 
+reflected in the first pay of the 2016-2017 school year. 
+ 
+E. Teachers w ho are on step 14 during the 2015- 2016 school year and are beginning their 
+fifteenth (15) year of service with the district during the 2016-2017 school year, shall receive 
+a three hundred dollars ($300.00) off schedule payment for the 2016-2017 school year.  The 
+stipend will be paid in two (2 ) equal payments of $150.00 (one hundred fifty dollars) as of 
+the second payroll in January 2017, and as of the second payroll in May 2017 (pro-rated for 
+part-time teachers and those who worked less than a full school year.   
+ 
+ 
+11.2 Extra-duty Compensation. The salary schedule is based upon a normal weekly teaching 
+load during normal teaching hours, as hereinafter defined during the life of this Agreement.  For any 
+additional work or duties, the teacher shall be entitled to appropriate additional compensation, as 
+provided in Schedules B, C and D. 
+ 
+11.3 Holidays and Paid Vacations. The following legal holidays shall be observed, and all 
+schools shall be close d:  Labor Day, Thanksgiving Day, Christmas Day, New Year's Day, Good 
+Friday and Memorial Day.  There shall be six (6) paid holidays:  Labor Day, Thanksgiving Day, 
+Christmas Day, New Year's Day, Good Friday and Memorial Day. 
+ 
+11.4 School Calendar. 
+ 
+A. The school calendars are set forth in Schedule E of this Agreement.  For purposes of teacher 
+compensation, the calendar for 20176/2017 2018, 2018/2019, 2019/2020, shall constitute 
+192 days inclusive of the six (6) paid holidays.  To insure provision of the minimum number 
+of days of student instruction as required by MCLA 388.1701, as amended from time to 
+time, days of student instruction may be rescheduled and the necessary modifications to 
+the school calendar will be made. 
+ 
+B. In the event that pupil instructional days have been canceled due to conditions not within 
+the control of the Board, then instructional days shall be rescheduled to comply with MCLA 
+388.1701.  In order to make up canceled days, the following day s of the school calendar 
+will be instructional days without any additional compensation to bargaining unit 
+employees: 
+ 
+  1. The teacher non-instructional day at the end of the first semester (1/2 day of student 
+classes; full day for teachers); 
+ 
+2. The last teacher non -instructional day at the end of the second semester (1/2 day of 
+student classes; full day for teachers); 
+ 
+  3. Add up to three (3) days to the end of the student year (full teacher/full student days) 
+without additional pay. 
+ 
+C. Rescheduling Required Instructional Time. 
+ 
+  1.  If additional days of instruction must be scheduled to insure compliance with MCLA 
+388.1701 beyond those days specified in 11.4 B (1), (2) and (3), then such days will 
+be scheduled at the end of the teacher school year; and te achers will be eligible for 
+their daily rate of pay for such days taught.  Rescheduled days in 11.4 B (3) and 11.4 
+C shall be scheduled before the last three (3) half days of the student year. 
+ 
+250
+ 
+13 
+  2.  If minutes fall short district-wide, instructional time shall be increased on student half 
+days during the current semester to avoid state aid loss, if reasonably possible.  In other 
+situations, the parties will negotiate before scheduling the required time. 
+ 
+D. If MCLA 388.1701 is modified or repealed so as not to require the rescheduling of student 
+instructional days, Section 11.4 of this Agreement shall be null and void and the following 
+language shall apply:   
+ 
+  School Calendar. The school calendar s set forth in Schedule E of this Agreement are 
+based on 186 teacher days of work  for 20176/2018, 2018/2019, 2019/2020 plus six (6) 
+paid holidays.  The school calendar shall not be modified for the duration of this 
+Agreement unless by mutual agreement.  
+ 
+E. In any event teachers shall not lose pay for Act of God days as defined in MCLA 388.1701 
+which the Board decides not to make up or for which the law allows not to be made up. 
+ 
+11.5 Pay Periods.   The teacher shall be given the option at the beginning of each school year of 
+electing to receive his/her salary in twent y-one (21) equal payments or twenty -six (26) equal 
+payments according to the pay schedules in Schedule A. 
+ 
+A teacher who elects the twenty-six (26) pay option may elect at the beginning of the school year to 
+have the final five (5) payments in one payment on the last day of school or every two (2) week 
+payments. 
+ 
+During the 2017-2018 school year only, a teacher will be required to choose between the option of 
+electing to receive his/her salary in twenty -two (22) equal payments or twenty -seven (27) equal 
+payments according to the pay schedules in Schedule A. 
+ 
+A teacher who elects the twenty-seven (27) pay option may elect at the beginning of the school year 
+to have the final six (6) payments in one payment on the last day of school or every two (2) week 
+payments. 
+ 
+11.6 Compensation for Schedule B assignments shall, at the option of the teacher, be paid in a one-
+time payment upon completion of the activity, or a two -time payment, half at the midpoint of the 
+activity and the remainder upon completion of the activity for which compensation is being received.  
+If the coach elects to be paid in two payments, the mid-point payment shall be issued as follows: 
+ 
+Level Fall Sports Winter Sports Spring Sports 
+High School Last pay in September Last pay in January Last pay in April 
+Middle School Last pay in September Winter 1: Last pay in December 
+Winter 2: Last pay in February 
+First pay in May 
+ 
+Compensation for Schedule C shall be paid in nineteentwenty (1920) or twenty-five (25) consecutive 
+payments consistent with the teacher's option in Section 11.5, commencing with the second third 
+payrollment of the school year.  Compensation for Schedule D shall be submitted on timesheets. 
+ 
+11.7 Retroactive Pay.   All retroactive pay shall be paid on the next regular payday. 
+ 
+11.8 Financial Institution Deductions/Direct Deposits.  Financial institution deductions/direct 
+deposits shall be transmitted to the financial institution on the date of the paycheck from which the 
+deduction/direct deposit was made.  All teachers shall enroll in direct deposit to a financial institution 
+in the United States. 
+ 
+11.9  Paycheck Payments.   The Board agrees to provide a biweekly schedule of payment to the 
+TEA prior to the beginning of the school year.  Pay chec ks shall be issued every other Friday 
+251
+ 
+14 
+according to the biweekly schedule.  If a pay date falls on a contractual holiday, pay checks shall be 
+issued one business day earlier.   
+ 
+11.10 Upon written application to the Assistant Superintendent, Human Resources Employee 
+Services, the Board or its designee may grant days off without pay. 
+ 
+11.11 Required Teacher Professional Development Days. 
+ 
+A. Required Professional Developmen t.  Teachers shall be required to complete a 
+minimum of thirty (30) hours of professional development annually.  It is understood and 
+agreed that the minimal amount of required annual professional development shall be in 
+accordance with applicable state law and regulations. 
+ 
+ B. Professional Development Activities Satisfying the Requirement: 
+ 
+1. Summer workshops provided by the Troy School District.   
+ 
+2. Martin Luther King Day Professional Development Workshop(s) in the Troy School 
+District.   
+ 
+3. Pre-approved out -of-district workshops paid for by the District (No additional 
+compensation shall be paid if the workshop is on a non-workday). 
+ 
+4. Pre-approved out of  district workshops paid for by the teacher (No additional 
+compensation shall be paid if the workshop is on a non-workday). 
+ 
+5. School year in- services (no guarantees to be scheduled or to attend; no g uaranteed 
+number of substitute days). 
+ 
+6. No later than October 1, the District shall announce the professional development 
+sessions known at that time which shall  be offered to teachers after school each 
+marking period.  Each of these sessions shall be scheduled for at least a minimum of 
+one (1) hour.  The District may choose to offer additional professional development 
+opportunities for which teachers may opt to attend.   
+ 
+7. All building meetings eligible for professional development which are known at that 
+time will be posted for each semester prior to the beginning of the semester. 
+ 
+ C. Recordkeeping.   
+ 
+1. The teacher must keep a record of professional development and submit the record to 
+the principal for a signature by the last teacher workday of the school year.  The teacher 
+will be provided with a signed copy.  
+ 
+2. Staff development in -service attended between the end of the teachers’ school year 
+and June 30th can be counted for either the current or successor school year. 
+ 
+3. After the District announces the professional development that shall be offered to 
+teachers, the teachers are to pre- register on the District’s professional development 
+management system for the session prior to the day of the scheduled professional 
+development event. 
+ 
+4. All records of professional development including session offerings, teacher 
+professional development plans, registration, and validation will be maintained on the 
+District’s professional development management system. 
+ 
+252
+ 
+15 
+ D. Validation Procedures. 
+ 
+1. In lieu of a sign-in validation for attendance, teachers are to complete an online survey 
+through the District’s professional development management system after they have 
+attended the professional development session. 
+ 
+2. The survey will consist of the following response prompts: 
+a. The intended outcomes, as described for this offering, were accomplished. 
+b. The offering was organized so I had time to reflect on what I learned. 
+c. The presenters modeled effective questioning strategies and facilitation techniques 
+to enhance my learning of content and/or skills. 
+d. The offering was organized so I had time to collaborate with colleagues and plan 
+how to implement the new content and/or skills. 
+e. I feel confident in my ability to implement the new knowledge or skills gained in 
+this offering in my current position. 
+f. Three specific ways I might implement the new knowledge or skills gained in my 
+current position. 
+ 
+Response prompts #1 -#5 (a-e above) will have blanks for multiple choice responses 
+that reflect a degree of agreement with each statement including a “not applicable” 
+response. Additionally, response #6 (f) seeks a short phrase response to the following:
+   
+3. All responses to the survey will be used to validate attendance only; any information 
+gathered from the surveys will be used only for informational purposes by the District. 
+ 
+4. The parties recognize the mutual benefits for the teachers and District from receiving 
+survey feedback as soon as possible following any professional development session. 
+Accordingly, all participants are encouraged to complete the survey process in a timely 
+manner. Within each of the four (4) marking periods, if the professional development 
+session occurs before progress reports are due, teachers have until the end of that 
+marking period to complete the survey. If the professional development session occurs 
+after a progress reporting date, teachers have until the end of the following marking 
+period to compl ete their surveys for validation of professional development 
+attendance. Validations must be completed prior to the end of the school year. 
+ 
+5. The parties also recognize the mutual benefits for the teachers and District to provide 
+professional development which meets the Michigan Department of Education (MDE) 
+requirements for District-Provided Professional Developments (DPPD) that might be 
+utilized for the purpose of teacher certificate renewal. While the ultimate 
+determination of what professional development activities/sessions qualifies as DPPD 
+is within the authority of MDE to decide, the District will take steps to identify the 
+activities/sessions it believes  should qualify for this purpose within the District’s 
+professional development management system.  Further, the parties recognize that 
+voluntary response prompts will be provided (in addition to those identified in 
+subsection 2 above) for teachers to utilize within the validation process as a means of 
+supporting that the identified activities/sessions should qualify as DPPD. Nonetheless, 
+despite the District’s efforts to support teachers  in their possible use of completed 
+professional development activities/sessions as DPPD for teacher certificate renewal, 
+the parties again recognize this final determination is within the exclusive authority of 
+MDE. 
+ 
+ARTICLE 12.   TEACHING HOURS 
+253
+ 
+16 
+ 
+12.1  Teaching Hours.   Starting and closing times of individual schools will be determined by the 
+Board after due consideration of all relevant factors.  These times shall be determined by August first 
+of each year, and the TEA shall be so notified. 
+ 
+The total length of a teacher's workday shall not exceed seven (7) hours and ten (10) minutes per day.  
+The workday shall be continuous except as provided for elsewhere in this Agr eement.  Rotation of 
+late school schedule will be referred to the Professional Relations Committee. 
+ 
+The District agrees that no District or building level meetings will be scheduled the last three hours 
+of the first teacher workday. 
+ 
+12.2 Teachers will be required to be at their designated workstations at least five (5) minutes 
+before the designated starting time of the first class in the secondary schools.  The reporting and 
+dismissal time before and after classes will be determined by a vote of the staff at a  faculty meeting 
+in the beginning of each school year.  In each building teachers (general and special education 
+classroom teachers, media specialists and reading teachers) may vote to select one of the following 
+options for reporting and dismissal times: 
+ 
+High Schools 
+Reporting Time before  Dismissal Time after  
+      Start of Student Day      Close of Student Day   
+ 10 minutes 12 minutes 
+ 12 minutes 10 minutes  
+Middle Schools 
+Reporting Time before  Dismissal Time after  
+  Start of Student Day   Close of Student Day  
+ 10 minutes 20 minutes 
+ 15 minutes 15 minutes 
+ 20 minutes 10 minutes 
+Elementary Schools 
+Reporting Time before  Dismissal Time after  
+  Start of Student Day   Close of Student Day  
+ 8 minutes *   8 minutes 
+The selected option shall remain in effect for one entire school year.  On a given day, teachers, with 
+the approval of their principal, may leave earlier or arrive later than the designated times. 
+ 
+* The Early-Elementary report time shall be three ( 3) minutes on all  early release professional 
+learning days. 
+ 
+12.3 The TEA encourages teachers to remain for a sufficient period after the close of the pupils' 
+school day to attend to those matters which properly require attention at that time. 
+ 
+12.4 Preparation for classro om teaching, building meetings, assigned non -teaching duties, 
+extracurricular activities which are not covered by extra compensation, curriculum and other required 
+professional committee meetings, exclusive of TEA meetings, are recognized as examples of 
+professional responsibilities falling within the work week and/or day. 
+ 
+12.5 On Fridays and days immediately preceding school holidays and vacations, the teachers' day 
+shall end at the close of the pupils' school day, except that the teachers should remain in the building 
+until the buses have left the school grounds.  Teachers involved in scheduled TEA meetings shall be 
+excused at the end of the pupils' school day, except that this practice shall not apply to more than five 
+(5) days when the entire TEA membership is involved. 
+ 
+12.6 Elementary Preparation Time.  The Board agrees to provide a weekly minimum of two 
+hundred twenty-five (225) minutes of preparation and conference time for all elementary teachers.   
+ 
+254
+ 
+17 
+Planning time for classroom teachers (including kindergarten) will be scheduled in segments of at 
+least twenty-five (25) minutes each day whenever possible, but will be guaranteed at least 25 minutes 
+each day 4 days a week, unless the teacher agrees otherwise.  Planning time for special teachers (art, 
+music, physical education, media, Spanish, ESL, etc.) will be scheduled to provide a minimum of 
+three (3) twenty-five (25) minute segments.  Remaining planning time will be scheduled in segments 
+of not less than fifteen (15) minutes.  The District will make an effort to limit the number of sections 
+per week for specials teachers to fifty (50).
+ 
+ 
+12.7 On student half days, the class schedules shall be alternated to provide an equalization of 
+teacher planning time. 
+ 
+12.8 Elementary Specials Block Schedule 
+The district will make every effort to provide elementary specials teachers access to their classroom 
+after school when impacted by seven-section days.   
+ 
+Elementary specials teachers impacted by seven-section days will be provided one half-day 
+management day per quarter or one full-day per semester.  These days must be used in the building 
+impacted by the seven-section schedule.   If the teacher elects to schedule a half-day management 
+day, every effort shall be made to partner with another specials teacher eligible for the management 
+days.   Scheduling of these days must follow current contract language regarding scheduling of 
+management days per Article 6.5.   
+ 
+When practicable, the elementary specials schedule will be grouped according to common grade 
+levels (i.e. K/1, 2/3, 4/5). 
+ 
+12.9 Loss of Elementary Prep Time.    
+ 
+12A. If the total of the planning time missed by a classroom teacher or a group of classroom 
+teachers within a school building on a given instructional day due to a scheduled specials 
+period not taking place because of the lack of a substitute teacher is ninety  (90) minutes 
+or less, then the impacted teacher(s) will be paid for the missed planning time at the 
+appropriate prorated hourly rate for teaching in place of a substitute teacher (Schedule D) 
+upon submission of a completed timesheet. 
+ 
+13B. If the total of the planning time missed by a classroom teacher or a group of classroom 
+teachers within a school building on a given instructional day due to a scheduled specials 
+period not taking place because of the lack of a substitute teacher is greater than ninety 
+(90) minutes, then the impacted classroom teacher(s) will be provided with substitute 
+teacher coverage to allow him/her/them to make -up the missed planning time.  A 
+concerted effort will be made by the building principal to arrange for this substitute teacher 
+coverage within five (5) working days from the date the planning time is missed. 
+ 
+ 
+14C. Where the planning time is missed due to the absence of a specials teacher arising after 
+the specified time for reporting a daily absence, then the specials teacher whose abse nce 
+led to the missed planning time of the other teacher(s) will need to create a lesson plan 
+that can be used by the substitute teacher for the purpose of (B) above. 
+ 
+D. Where the planning time is missed due to the appropriately-reported absence of a specials 
+teacher because a substitute teacher for the specials teacher was either not secured or re-
+Formatted: Font: Bold
+Formatted: List Paragraph, Outline numbered + Level: 2 +
+Numbering Style: 1, 2, 3, … + Start at: 8 + Alignment: Left +
+Aligned at:  0" + Indent at:  0.26"
+Formatted: Numbered + Level: 1 + Numbering Style: A, B,
+C, … + Start at: 1 + Alignment: Left + Aligned at:  0.51" +
+Indent at:  0.76"
+Formatted: Numbered + Level: 1 + Numbering Style: A, B,
+C, … + Start at: 1 + Alignment: Left + Aligned at:  0.51" +
+Indent at:  0.76"
+Formatted: Numbered + Level: 1 + Numbering Style: A, B,
+C, … + Start at: 1 + Alignment: Left + Aligned at:  0.51" +
+Indent at:  0.76"
+Formatted: Numbered + Level: 1 + Numbering Style: A, B,
+C, … + Start at: 1 + Alignment: Left + Aligned at:  0.51" +
+Indent at:  0.76"
+255
+ 
+18 
+assigned by the District to cover another teacher absence, then the lesson plans to be used 
+by the substitute teacher for the purpose of #2 above will be drawn from a common bank 
+of specials lesson plans which will be developed be two (2) specials teachers within each 
+specials area.  This common bank of specials lesson plans will be maintained on the 
+District’s electronic shared folder, and a paper copy will be maintained at each elementary 
+building.  The specials teachers who develop these lesson plans will be paid for this work 
+at the curriculum rate of pay (Schedule D) for a maximum of three (3) hours.   
+ 
+12.9 Staff Member Death.   Whenever a teacher or principal dies,  the District shall provide 
+substitutes for up to 80% of the teachers requiring substitutes in the affected building to permit those 
+teachers to attend the funeral.  In buildings where more than twenty -four (24)  teachers require 
+substitutes, and more than 20 substitutes are needed, the District will provide at least twenty ( 20) 
+substitutes, and will make a good faith effort to obtain additional substitutes.  Persons in other 
+buildings wishing to attend said funeral will request permission from the build ing principal.  
+Permission will be granted, as long as substitutes are available without time loss from leave days. 
+ 
+12.10 Lunch Period, Elementary.   All elementary teachers shall be guaranteed a duty -free, 
+uninterrupted lunch period of forty (40) minutes per day.  In the event a teacher has not had a forty - 
+(40-) minute lunch period, he/she shall be excused immediately after school by the principal.  
+Teachers are not required to stay in the building during their lunch period. 
+ 
+12.11 Lunch Period, Secondary.   Secondary teachers shall have a duty -free lunch period at least 
+equal to that of the students or twenty-five (25) minutes, whichever is greater, during which they may 
+leave the building. 
+ 
+12.12 Elementary Recess Procedure.   The standard procedure shall be a fifteen (15) minute 
+morning and fifteen- (15) minute afternoon recess, but an individual school may choose to alter this 
+by agreement of staff and principal.  Recess period does not apply for the morning or afternoon that 
+a particular class has physical education instruction, except in those cases where a teacher believes it 
+to be in the best educational interests of his/her students.  In this situation, the individual teachers 
+shall supervise their own recess period. 
+ 
+A rotational duty schedule will be arranged so that teachers will supervise a minimum of two (2) 
+classes at one time.  Teachers may volunteer to take their own classes to recess and, therefore, will 
+not be placed in the rotational schedule.  A teacher who is not supervising recess shall not be assigned 
+any other duty at that time. 
+ 
+12.13  It is recognized by the Board and the TEA that reasonable grade level, departmental , school 
+improvement and general faculty meetings are a necessary and integral part of the professional duties 
+of teachers.  Up to a maximum of two (2) hours per month may be used for such meetings.  One  (1) 
+of the two hours per month shall be scheduled for collaboration as determined by each building’s 
+Instructional Leadership Team (ILT) in conjunction with the building principal or building 
+supervisor.  The remaining one (1) hour per month shall be reserved for general faculty meetings. 
+ 
+During the continuous improvement review process, up to one (1) hour of the two (2) allocated hours 
+for general faculty  or collaboration meetings may be used per marking period for the continuous 
+improvement review process.  During the year of an external visitation, up to one (1) additional hour 
+per month may be used exclusively for NCA visitation activities.  Every effort will be made not to 
+schedule meetings on designated half -day workdays, on two consecutive days, on Fridays, or days 
+preceding a vacation, recess, or holiday period. 
+ 
+Attendance at faculty meetings is required following the posting or distribution to all teachers of a 
+tentative agenda including an approximate ending time at least twenty -four (24) hours prior to the 
+256
+ 
+19 
+meeting.  If it is necessary for a teacher to be excused from a properly announced meeting, it shall be 
+the responsibility of the teacher to obtain the information covered at the meeting.  
+  
+12.14  All teachers shall be informed no later than Thursday of the week preceding the event of 
+temporary workday schedu le changes which result from special activities such as assemblies and 
+homerooms.  In the event a scheduled special activity is canceled or rescheduled, all teachers shall be 
+notified immediately. 
+ 
+12.15  With the approval of the special education director , school psychologists and social workers 
+shall be allowed to adjust their workday so as to provide compensatory time for meetings with parents 
+outside of their normal day. 
+ 
+ARTICLE 13.  CLASS SIZE 
+ 
+13.1 Teaching Loads and Assignments, Elementary (K-5) 
+ 
+ A. It is recognized by the Board and the Association that the pupil -teacher ratio is an 
+important aspect of an effective program.  Therefore, they agree that every effort will be 
+made to keep class sizes at acceptable numbers as dictated by the financial conditions of 
+the District, the building facilities available, and the best interests of the District as deemed 
+administratively feasible. 
+ 
+B. Every effort shall be made to equalize loads throughout the building at each particular 
+grade level.  By the second Friday of the school year, these loads shall be equalized. 
+ 
+ C. It is the recommendation of both the Board and the Association that classroom 
+assignments shall be based upon the following considerations: 
+   
+  1. Physical size of the classroom 
+  2. Set maximums at this grade level 
+  3. Normal size of these grade level students 
+ 
+ D. Class Size Maximums 
+ 
+Elementary Maximum Students Note 
+Preschool (See Note) According to State or Federal guidelines, 
+whichever is lower. 
+Kindergarten 26 (27*) Split classes prohibited; 
+27=$80/marking period for each student in excess 
+of 26 to TEA* *or .5 aide 
+First, Second 28 (30*) 29, 30=$80/marking period for each student in 
+excess of 28 to TEA or .5 aide 
+Third, Fourth, Fifth 29 (30*) 30=$80/marking period for each student in excess 
+of 29 to TEA or .5 aide 
+Art, Vocal Music, Physical 
+Education, Media 
+30  
+Split Grade Classrooms***  80% of max for lower grade level 
+Ungraded Primary  80% of max for lower grade level 
+ 
+*The District shall retain the flexibility to address an overcrowding situation by transferring some 
+students within the building or to another building, or hire an additional teacher, using rooms available 
+in existing facilities. 
+ 
+**TEA (throughout article in same context) means TEA Scholarship Fund for graduating Troy School 
+District high school students  
+ 
+***A split grade classroom is two consecutive grades (i.e., first and second, fourth and fifth) in the 
+same classroom 
+257
+ 
+20 
+ 
+13.2 Teaching Loads and Assignments, Secondary (6-12) 
+     
+A. Class Size Maximums 
+ 
+Level Maximum 
+Students 
+Note 
+Middle School 6-8 30  
+Exceptions:   
+Computer 28  
+ESL 25  
+Foreign World Language- full year 
+Foreign World Language-exploratory 
+285 
+28 
+ 
+Home Living 24 or number of lab stations, whichever less 
+Industrial Education 24 or number of lab stations, whichever less 
+English, Language Arts and Reading 30 all classes must average 26 
+Music  100-199 students/day=1 sectional; 200+ 
+students/day=2 sectionals 
+Physical Education 33  
+Science 28 or number of lab stations, whichever less 
+Counselor Caseload 400 Contribution to TEA scholarship fund of 
+$500 per semester if caseload goes over 
+25 after count day.  
+High School    9-12 30  
+Exceptions:   
+Advanced Placement 25 (30) 26-30=$80/marking period to TEA for each 
+student in excess of 25 
+Computer 26  
+ESL 25  
+English, Reading, Language Arts 
+ Exceptions: 
+   Basic English –Level 1 
+   Basic English- Level 2 
+   TV Production 
+30 
+ 
+15 
+21 
+26 
+all classes must average 26 
+Foreign World Language- 285  
+Home Economics  
+Exceptions: 
+  Marriage & Family Life 
+  Child Growth & Development  
+  Housing and Home Furnishing 
+  Stitchery 
+  Singles Survival 
+(additional exceptions need approval 
+of secondary curriculum committee) 
+24 
+ 
+30 
+30 
+30 
+30 
+30 
+or number of lab stations, whichever less 
+Music  100-199 students/day=1 sectional; 200+ 
+students/day=2 sectionals 
+Physical Education 363  
+Progressive Learning Support (PLS) 21 (23) (22-23) = $80/marking period to TEA for 
+each student in excess of 21 
+Science 24 or number of lab stations, whichever less 
+Social Studies – basic 25 (30) 26-30=$80/marking period to TEA for each 
+student in excess of 25 
+Vocational Education 24 or number of lab stations, whichever less 
+Counselor Caseload 400 Contribution to TEA scholarship fund of 
+$500 per semester if caseload goes over 
+25 after count day.  
+  
+ B. English and Reading classes (6-12) 
+ 
+Formatted: paragraph, Font Alignment: Baseline
+Formatted: Font: (Default) Times New Roman, 12 pt
+258
+ 
+21 
+  1. Teachers shall be responsible for grading no more than one hundred thirty (130) 
+students.  For teachers who do not teach English classes full time, the daily student 
+totals shall be as outlined below: 
+ 
+   1 English class 26 students 
+   2 English classes 52 students 
+   3 English classes 78 students 
+   4 English classes 104 students 
+   Example:  4 English + 1 Social Studies =134 students 
+  
+ 
+  2.  In grades 6, 7, and 8, when an English class is combined with any other departmental 
+class for the purpose of team teaching, an aggregate maximum of no more than fifty-
+six (56) students shall be scheduled into the two (2) classes. 
+C.  All High school counselors shall evenly participate in a thirty minute (30) extended day 
+coverage to support student needs.  There shall be one (1) counselor scheduled each day on 
+Monday through Thursday to provide this coverage.  The assigned counselor will stagger 
+their report time by thirty minutes (30) on their extended day.  The counseling department 
+will propose a staggered day schedule to the building administration for the school year. 
+ D. Maximum Enrollments.  When any class in a school reaches the maximum number of 
+students, the Administration with the Association will formulate plans for handling the 
+first enrollee over the maximum.  The following shall be used as criteria in solving the 
+overcrowding situation: 
+ 
+  1. Transfer student(s): 
+   a. within the school 
+b. to another building 
+ 
+  2. In the event of an emergency (defined as a situation which cannot be resolved by the 
+above procedures) the planned maximum may be exceeded by  two one (12) pupils.  
+When this situation occurs, one -thousand dollars ( $1,000.00_) will be paid into the 
+TEA Scholarship Fund per occurrence. 
+    
+  3. Hire an additional teacher, using rooms available in some other community facilities 
+if necessary. 
+ 
+  3. In the event of an emergency (defined as a situation which cannot be resolved by the 
+above procedures) the planned maximum may be exceeded by two (2) pupils. 
+ 
+4. Either party to the master agreement may request a meeting to discuss alternative 
+methods to numbers 1, 2 and 3 above.  In this situation, the parties shall meet and 
+discuss alternative methods such as, but not limited to, those listed below, recognizing 
+that for teachers covered by the Tenure Act, since all listed alternatives involve teacher 
+placement, the remedy is solely within the authority of the Board of Education: 
+ 
+   a. Voluntarily Increasing shared-time/part-time assignments. 
+   b. Recall a laid-off teacher, which may possibly necessitate the involuntary transfer 
+of a teacher(s). 
+c. Voluntary Assignment of a sixth teaching period in the secondary buildings.  (Pay 
+shall be equal to one-fifth (1/5) of the teacher's pay rate.) 
+259
+ 
+22 
+d. The voluntary assigning of a sixth teaching period in the secondary may be 
+accomplished after the following criteria have been considered: 
+ 
+   1) Availability and district -wide seniority within the department of the 
+affected building. 
+ 
+    2) The number of sixth period class assignments the teacher has taught in past 
+years. 
+ 
+    3) Teacher possesses the contractual requirements for teaching said course. 
+ 
+4) Any other criteria upon which the parties agree. 
+ 
+  The intent of Section 4 is to allow the parties the opportunity to discuss and agree upon 
+alternative methods of handling an overload of students at the secondary level, and to give 
+teachers rated Effective or Highly Effective an equitable opportunity to teach a sixth 
+period.   
+ 
+ E. It is the recommendation of both the Board and the Association that classroom 
+assignments shall be based upon the following considerations: 
+ 
+  1. Physical size of the classroom 
+  2. Set maximums at this grade level 
+  3. Normal size of these grade level students 
+ 
+ F. Every effort shall be made to equalize class sizes of like sections in the same department. 
+ 
+ARTICLE 14.   TEACHING CONDITIONS 
+ 
+14.1 A high school teacher shall not be assigned more than five classes per day totaling two 
+hundred ninety (290) minutes, and a middle school teacher shall not be assigned more than five classes 
+per day totaling two hundred eighty-seven (287) minutes.  Secondary teachers will have a preparation 
+period of the same length as a one of his/her class periods each day.  The class periods will range 
+between fifty-five (55) and sixty (60) minutes in duration.  In the event the Board increases the passing 
+time at secondary, the increased time shall be taken from the class period. 
+ 
+Reading practitioners shall have two (2) non-student periods.  Middle school reading support teachers 
+shall have one non-student period.  A maximum of ten (10) one-half days of guest teacher support, as 
+determined by the teacher, will be provide to each middle school reading support teacher for student 
+testing annually.   
+ 
+Building Restructuring.  A building principal may convene a building committee for the purpose of 
+restructuring.  The building committee may submit recommendations for restructuring in the building 
+to the Superintendent (or Superintendent’s designee) and the TEA Executive Committee for approval.  
+The Administration and the TEA will appoint equal numbers of members to the building committee.  
+If approved by the Superintendent (or Superintendent’s designee) and the TEA Executive Committee, 
+the recommendation shall be submitted to a vote of the regular TEA members working in the building 
+on at least a half-time basis.  If at least seventy-five percent (75%) of the teachers who vote approve 
+the restructuring recommendations, the recommendations shall be implemented at the beginning of 
+the next school year, unless otherwise agreed by the Superintendent (or Superintendent’s designee) 
+and the TEA  to implement the restructuring at a different time.  Unless otherwise agreed, these 
+changes shall remain in effect for at least the duration of one school year. 
+ 
+260
+ 
+23 
+These changes shall remain in effect for subsequent school years, unless disapproved by the 
+Superintendent (or Superintendent’s designee) or the TEA in writing by April 1st of the preceding 
+school year.  At the request of either party made before February 1st, the restructuring changes may 
+again be submitted to a vote of the regular TEA members wo rking in the building on at least a half -
+time basis.  Such vote shall be completed by March 15th.  It is understood and agreed that any 
+restructuring changes under this provision shall not address salaries, benefits or teacher performance.  
+It is also unde rstood that because the restructuring contemplated by this provision changes the 
+contract, the vote shall be conducted by the TEA. 
+ 
+14.2 No secondary teacher shall have more than three (3) preparations unless the teacher requests 
+or accepts more. 
+ 
+ Any course offering or level of a course offering, whether it is at the same or a different level, 
+in which students are evaluated for credit, shall be considered a preparation.  The combining 
+of two (2) or more course offerings in one (1) class period shall coun t as two (2) or more 
+preparations.  The following are excluded from being defined as a preparation: student 
+assistants, independent study, study halls, in-house suspensions and co-op coordinating hours. 
+ 
+14.3 In schools where beverages are not otherwise or already available, vending machines shall be 
+installed at the request of the TEA, the proceeds to be used at the discretion of the building faculty. 
+ 
+14.4 Safety goggles and protective clothing will be provided to teachers of special areas, i.e., shop, 
+science, art, and home economics.  Laundry services will only be provided for auto mechanics, metal 
+shop, machine shop, printing and welding teachers. 
+ 
+14.5 Scheduling of Special Subjects. All scheduling of special subjects (art, music, physical 
+education, media, Spanish, and ESL) will be done by the building principal after consultation with 
+special subjects' teacher(s).  Scheduling shall make due allowance for the best overall education 
+benefits for all students.  The scheduling shall include kindergarten ( physical education only), and 
+special education classes and provide travel time between buildings in addition to lunch time and 
+planning time provided for elsewhere in this Agreement. 
+ 
+14.6 Multi-building Assignments (Elementary).  Elementary special subject teachers (music, art, 
+physical education, Spanish, and ESL) will be provided twenty (20) minutes to travel between schools 
+up to 4.9 miles apart; twenty-five (25) minutes to travel between schools 5-6.9 miles apart; and thirty 
+(30) minutes to travel between schools more than seven (7) miles apart.  Distances between schools 
+will be as prescribed on the district mileage charts.  Two  (2) designated parking spaces shall be 
+reserved near the main entrance of each elementary school for traveling teachers.  These spaces shall 
+be adjacent to one another and clearly marked with vertical, posted signage. 
+ 
+14.7 Multi-building Assignments (Secondary).   Secondary teachers assigned to more than one 
+building shall not be required to travel between buildings on their l unch hour.  Secondary teachers 
+traveling between schools on their preparation period will receive five hundred dollars ($500) per 
+year.  Appropriate proration of the five -hundred dollar ($500) amount will be paid to teachers 
+traveling between schools for less than a full year.  Teachers shall receive the lump -sum payment in 
+the last regular paycheck issued in June of the teacher's school year. 
+ 
+14.8 Early and Late Building Assignments. A teacher whose regular assignment to a 
+combination of early and late start buildings results in him/her working beyond the contractual 
+workday as defined in Article 12.1 will receive three hundred fifty dollars ( $350) per semester that 
+these circumstances exist. However, this payment shall not be made to such teacher unless he/she has 
+brought these circumstances to the attention of his/her “home” building principal within thirty ( 30) 
+261
+ 
+24 
+calendar days of the start of the semester, and/or, if the “home” building principal otherwise resolves 
+these circumstances within ten (10) calendar days of such notification. An elementary specials teacher 
+who works additional time on scheduled half days of student instruction due to being assigned to a 
+combination of early an d late start buildings will receive one hundred fifty dollars ( $150) per year. 
+Any such payments made to teachers under this provision shall be made in a lump- sum payment in 
+the last regular paycheck issued in June of the teacher’s school year. 
+ 
+14.9 Non-teaching Duties and Assignments.   Teachers will be relieved of miscellaneous non -
+teaching duties.  To the extent that the Board is able to provide, such duties shall be performed by 
+principals, secretaries, clerks, aides, custodians and other employees. 
+ 
+ A. Secondary counselors may be required by the building administrator to interact with the 
+students in the school cafeteria during lunchtime.  Counselors will not be required to 
+monitor or supervise lunch procedures during this time.  The counselors m ay leave the 
+school cafeteria to meet privately with a student when in the counselor's judgment the 
+student's need will best be served by a private conference. 
+ 
+ B. Each secondary building shall have additional paid office help at semester ends to aid 
+teachers.  Individual buildings will arrange scheduling of this additional help as mutually 
+agreed to by the principal, the staff of the building and the Human Resources Employee 
+Services Department. 
+ 
+14.10 Teaching Conditions.  The Board recognizes its duty to keep the schools properly equipped 
+and maintained, including: 
+ 
+ A. Adequate lunchroom, restroom and lavatory facilities will be reserved exclusively for staff 
+use.  At least one room, appropriately furnished, shall be reserved as a staff lounge. 
+ 
+ B. Adequate rooms for use by special subjects' teachers, diagnosticians, psychologists, social 
+workers, etc.  Separate lockable storage cabinets of appropriate size shall be provided for 
+the special subjects' teachers as needed. 
+ 
+ C. Telephone facilities shall be provided for teachers' use for school business and reasonable 
+personal calls.  The location is to be determined by the principal and staff as provided in 
+letter of understanding. 
+ 
+ D. Paved parking facilities reserved for teachers' use during school hours. 
+ 
+ E. Two (2) classes will not be scheduled to meet in the same classroom at the same time 
+except where rooms are physically designed for this purpose, the teachers arrange joint 
+sessions, or to accommodate emergency situations that do not extend beyond the close of 
+the school day. 
+ 
+14.11 Teaching Supplies. The Board shall provide equipment and supplies for every class so as 
+to maintain a high level of instruction for the children of Troy. 
+ 
+ A. Purchase orders for supplies and equipment ordered by the teachers for the current school 
+year shall be issued by the Board within twenty (20) calendar days from the date of 
+submission of a requisition to the principal, except for those items that are placed out for 
+bid. 
+ 
+ B. Delays in shipping and the placing of an item for bid shall be reported to the teacher by 
+the building principal as soon as he/she becomes aware of delay.  Supplies and equipment 
+ordered by a teacher for the ensuing school year shall be in the classroom September first, 
+262
+ 
+25 
+unless a delay occurs and  in that event, the teacher shall be so notified by the building 
+principal on the teachers' first work day. 
+ 
+14.12 Library Use.   Libraries and Media Centers shall be maintained as resource and learning 
+centers, not as classrooms, other than for classes involving the use of media center materials.  Students 
+shall not be assigned to the library for disciplinary reasons. 
+ 
+14.13 In-service Training.  
+ 
+A. Five (5) half days per year may be allowed for in-service training, workshops, curriculum 
+studies, etc., not including special days as listed in the calendar. 
+ 
+B. The District shall make in-service training on special education issues available to teachers 
+prior to the beginning of the school year.  
+ 
+14.14 Report Cards.   Any new evaluation tool, such as report  cards, shall be reviewed by a 
+committee at that level. 
+ 
+A. Report cards or final grades shall not be routinely required to be completed and handed in 
+earlier than the end of the second work day following the last day of the marking period as 
+shown on the cal endar.  It is recognized, however, that grades may be required for certain 
+students earlier than the time lines above, and the teachers agree to cooperate and submit 
+grades earlier under these special circumstances (examples of special circumstances includ e 
+student moving, scholarship and admission to college). 
+ 
+B. Teachers shall have the authority to grade students and recommend whether a student shall be 
+passed or retained.  Any person or committee who has authority to change or reverse a 
+teacher's decision shall do so only after furnishing the teacher with written notification of their 
+action.  The notification shall include the name of the student and rationale for said change. 
+ 
+C. Teachers with classes that regularly meet only every other school day will be required to grade 
+students pass/fail for the first and third marking periods and with a regular letter grade at the 
+end of the second and fourth marking periods. 
+ 
+14.15   Elementary Report Cards.     
+ 
+A. All elementary teachers (K -5) will conduct three (3) reportings per year.  These reportings 
+will be aligned with the reading assessment windows.  
+ 
+B. Comments will be required on all reportings.   
+ 
+C. The district will establish a committee of kindergarten teachers to work jointly with the 
+Department of Teaching and Learning to develop a reporting instrument that meets the needs 
+of this grade level.   
+ 
+D. Specials teachers will conduct two (2) reportings per school year (first and third card marking).   
+ 
+14.16 Progress-Updates.     If a student has been identified by the school psychologist, social 
+worker, counselor or administrator as needing special attention, an arrangement can be made to 
+provide more frequent progress-updates. 
+ 
+14.17 The parties seek to educate young people in the democratic tradition; to foster their recognition 
+of both individual freedom and social responsibility; to inspire meaningful awareness of and respect 
+Formatted: List Paragraph, Numbered + Level: 1 +
+Numbering Style: A, B, C, … + Start at: 1 + Alignment: Left +
+Aligned at:  0.25" + Indent at:  0.5"
+Formatted: List Paragraph, Numbered + Level: 1 +
+Numbering Style: A, B, C, … + Start at: 1 + Alignment: Left +
+Aligned at:  0.25" + Indent at:  0.5"
+Formatted: List Paragraph, Numbered + Level: 1 +
+Numbering Style: A, B, C, … + Start at: 1 + Alignment: Left +
+Aligned at:  0.25" + Indent at:  0.5"
+Formatted: List Paragraph, Numbered + Level: 1 +
+Numbering Style: A, B, C, … + Start at: 1 + Alignment: Left +
+Aligned at:  0.25" + Indent at:  0.5"
+263
+ 
+26 
+for the Constitution and the Bill of Rights; and to instill appreciation of the values of individual 
+personality. 
+ 
+14.18 Responsible teaching shall be encouraged for all teachers who shall exercise such 
+responsibility within the framework of the curriculum, school policies, good judgment and common 
+standards of decency which shall prevail at all times.  W ithin these guidelines, the teacher is 
+encouraged to teach the student in the best manner of which he/she is capable. 
+ 
+14.19 Teachers have an obligation to present facts without bias, and to encourage students to think 
+and to draw objective conclusions. 
+ 
+14.20 Teacher parking lots at the high schools shall be patrolled during the normal school hours. 
+ 
+14.21 All teachers and the TEA Office shall have electronic access to their building's handbook(s) 
+and work rules.  Also, the District Board Policy book will be available on the District’s website. 
+ 
+14.22 The Board agrees to provide necessary support service for teachers who have students who 
+do not speak English or for students who speak English as a second language.  The support services 
+may include in -service education, intermediate school district consultants (as available) and 
+educational materials (as available). 
+ 
+14.23 Field Trips.  The Board agrees to permit teachers to conduct approved educational field trips 
+and, when necessary, to provide substitute teachers at Board expense. 
+ 
+The Administration shall provide the bus driver with a map to the destination.  At the time of approval, 
+the Transportation Department shall furnish the requesting teacher with a statement of total costs, 
+including complete mileage costs, bus driver's meal (if appropriate) and any other added costs. 
+ 
+14.24 Conferences.  Teachers attending approved professional conferences shall be released from 
+teaching duties without loss of leave days or compensation.  The expenses for such conferences shall 
+be assumed by the Board.  Every effort shall be made to equitably distribute approved conferences 
+according to the following levels: K-2, 3-5, 6-8, 9-12, and Special Education. 
+ 
+18.9 The Board will reimburse a teacher for the appropr iate expenses incurred while attending a 
+Board approved conference upon submission of an itemized expense sheet.  Travel, meals, lodging, 
+and registration fees shall be deemed appropriate expenses of the Board, as well as the cost of the 
+substitute teacher  needed to relieve the participant.  A teacher attending such conferences and 
+meetings shall be granted sufficient leave time to attend without loss of compensation.  Teachers will 
+submit, upon request, a written report regarding such conferences. 
+ 
+14.25 The principal, with the consent of the counselor, may request Central Office for approval that 
+a counselor be allowed to work up to two (2) weeks during the summer break.  If the counselor does 
+work during the summer break, he/she shall be paid his/her daily rate of pay for each day worked. 
+ 
+14.26 When locker rooms cannot be supervised by teacher staff, adult supervision will be provided 
+by the Board. 
+ 
+14.27 Home economics teachers who are required to purchase groceries for their class shall be 
+permitted to do so through the district food services whenever feasible. 
+ 
+14.28 Teachers will be provided reasonable access to duplicators and photocopiers for instructional 
+purposes subject to machine capacity and other building requirements. 
+264
+ 
+27 
+ 
+14.29 Video taping of T EA members performing regular daily duties during the seven-  (7-) hour 
+and ten-  (10-) minute teacher workday will not be broadcast on cable television unless the TEA 
+member signs the cable release form. 
+ 
+ 
+ARTICLE 15.   SPECIAL EDUCATIONPOPULATIONS 
+ 
+15.1 Mainstreaming/Special Education.Inclusion/Special Education/504/ELD. 
+ 
+A. The student age range in a classroom and/or caseload shall not exceed the state/federal 
+regulations, rules or guidelines. Special education class size maximums shall be as 
+provided in applicable federal and state statutes and the applicable administrative rules for 
+special education. 
+ 
+B. When practicable, reasonable efforts shall be made to equalize or balance the numbers of 
+Special Education, 504 and/or ELDL students in like classes. 
+ 
+C. Placement of special education students need not be equalized and class sizes may be 
+adjusted as deemed appropriate, provided the impacted teacher(s) and building 
+administration agree, and there is no increase in building staff allocations. 
+ 
+15.2 Mainstreaming Professional Development.Inclusion professional 
+development/communication. 
+ 
+The Board shall provide in-service training and orientation for general education teachers and 
+special education teachers who are involved in mainstreaming prior to the mainstreami ng of 
+a student. The in- service training and orientation shall include, but not be limited to, a 
+clarification of the teacher’s rights and responsibilities as they relate to grading, instruction, 
+communication with parents and support personnel and reports .The Board shall provide in -
+service training and orientation for general education and special education teachers regarding 
+practices to be used with students who are included in general education classes.  The in -
+service training and orientation shall include, but not limited to, a clarification of the teacher’s 
+responsibilities as they relate to grading, instruction, and communication with parents and 
+support personnel. 
+ 
+A. Teachers shall be provided written guidelines as to the law, District policy and appropriate 
+persons to contact regarding mainstreaming inclusion and special education. 
+ 
+B. General education teachers will be informed regarding the nature of a special education 
+student’s disability placed in their classrooms. 
+ 
+C. No later than the second week of school year, general and special education teachers will 
+be provided through the student information system: 
+ 
+1. Names of student s identified as special education, 504, ELD and the identity of the 
+primary case manager. 
+2. Required resources/materials as per the IEP of any student placed in the class of the 
+general education teacher. 
+3. IEP mandated training. 
+4. Present level of academic achievement and functional performance (PLAAFP) as 
+recorded in the IEP. 
+Formatted: List Paragraph, Left,  No bullets or numbering,
+Tab stops: Not at  0.5"
+Formatted: List Paragraph, Left,  No bullets or numbering,
+Tab stops: Not at  0.5"
+265
+ 
+28 
+5. Supplementary aides and services (SAS) as recorded in the IEP. 
+6. The behavior intervention plan (BIP) as necessary. 
+7. The 504 Accommodation-At-Glance information. 
+ 
+D. Special education shall coordinate their leadership hours to attend changes of building 
+level meetings (“move-up meetings”).  When issues with logistics or te achers’ schedules 
+occur, special education teachers shall meet with their building principal to ensure 
+adequate substitute coverage to attend the building level meetings. 
+ 
+E. General education teachers will: 
+ 
+• Consult with PCM/504 coordinator/ELD regarding appropriate instructional 
+and behavior support strategies.  
+• Collaborate with PCM/504 coordinator/ELD teacher concerns regarding 
+special population student performance when concerns arise. 
+• Collaborate with PCM/504 coordinator /ELD teacher on strategies to improve 
+student performance. 
+• Collaboratively plan with any special education teacher in a co-teaching 
+environment. 
+• Regularly monitor and document progress of the special education students in 
+their general education courses. 
+• Participate in IEPT/504 meetings when invited. 
+• Access and review student information outlined in 15.2.C.  
+• Implement SAS as required per the IEPs of students in their class. 
+F. Special education teachers will: 
+ 
+• Collaborate with general education teachers regarding content delivery. 
+• Communicate with general education teaching staff regarding appropriate 
+strategies, materials, accommodations, and supports for special education 
+students. 
+• Work collaboratively with the general education teacher(s) to determine the 
+essential course objectives for special education students who require a 
+modified curriculum.  
+• Regularly monitor and document progress of their caseload students in 
+general education courses. 
+• Work collaboratively with general education teachers to implement SAS for 
+student achievement, record IEP progress on quarterly reports and progress 
+towards IEP goals and objectives in determining appropriate grading.  
+• Document SAS provided, document progress toward IEP goals and 
+objectives, and record IEP goal progress on quarterly reports. 
+• Ancillary staff must document SAS provided, document progress toward IEP 
+goals and objectives, and record IEP goal progress on quarterly reports. 
+• Document contact time, services provided, record IEP progress on quarterly 
+reports and progress towards IEP goals/objectives. 
+• Support their caseload with assistance on general education assignments, 
+projects, and test preparation as needed to ensure that the IEP is implemented 
+fully and that adequate progress is achieved on IEP goals. 
+Formatted: Font: Italic
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+Formatted:  No bullets or numbering
+Formatted: List Paragraph, Left,  No bullets or numbering,
+Tab stops: Not at  0.5"
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: List Paragraph, Left,  No bullets or numbering,
+Tab stops: Not at  0.5"
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+266
+ 
+29 
+• Assist general education teachers in implementing IEP required 
+supplementary aids and services and accommodations/modifications as 
+appropriate.  This assistance could include, but not be limited to: reading 
+assignments/assessments; providing an alternate location for testing; 
+extended time on assignments/assessments. 
+• Be primarily responsible in communicating their caseload students’ IEP 
+progress with parents/families. 
+• Be assigned to teach in a resource room classroom setting, co-teaching 
+environment, and/or special education categorical program classroom as 
+assigned by administration. 
+• For primary case managers:  
+o Be responsible to monitor IEP implementation for all caseload 
+students. 
+o Report concerns to administration.   
+ 
+and consulted in regards to the nature of a special education student’s disability. 
+ 
+15.3 General Education Teacher Notification.Individual education plans (IEP) & 504 plans. 
+ 
+A. Teachers shall be relieved of teaching duties during their involvement in diagnostic 
+interpretations meetings.  Teachers required to attend IEPC/504 meetings shall be 
+relieved of teaching duties during their involvement in said meeting. 
+ 
+B. Administration will advise building principals regarding replacement of teacher 
+participants at IEP meetings.  
+ 
+C. If special education teachers cannot arrange meetings with ancillary staff, teachers are to 
+contact special education administration, who will arrange for ancillary staff 
+participation. 
+ 
+D. PCM shall make a reasonable effort to invite a general education teacher on the student’s 
+schedule to an IEP meeting where the general education teacher’s professional 
+certifications align with the student’s area of disability.  
+ 
+No later than the end of the second week of the school year, special education caseload 
+managers will provide general education teachers with information regarding special 
+education students placed in their class. 
+ 
+Special education caseload managers will provide general education staff with information 
+that includes, but is not limited to the following: 
+ 
+ Present Level of Academic Achievement and Functional Performance (PLAAFP) as 
+recorded in the Individual Educational Program (IEP); 
+ Supplementary aides and services as recorded in the IEP; and/or 
+ Behavior Intervention Plan (BIP), if applicable. 
+ 
+15.4 Individual Education Plans (IEP).Health care needs of special education students. 
+ 
+A. All needs of students who require specialized durable medical equipment will be 
+provided appropriate equipment as mandated by the IEP.  The equipment will be ordered 
+Formatted: List Paragraph, Left, Space After:  8 pt, Don't
+add space between paragraphs of the same style, Line
+spacing:  Multiple 1.08 li, Bulleted + Level: 2 + Aligned at: 
+1.75" + Indent at:  2", Tab stops: Not at  0.5"
+Formatted: List Paragraph, Indent: Left:  1",  No bullets or
+numbering
+Formatted:  No bullets or numbering
+Formatted: Font: Not Bold
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+Formatted: Indent: Left:  0.5",  No bullets or numbering
+Formatted: Font: Not Bold
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+267
+ 
+30 
+as soon as possible. Should a student move-in mid-year the appropriate specialized 
+durable medical equipment shall be provided.   
+ 
+B. Students required to take prescribed medications during the school day should be given 
+those medications by a trained staff member who has the knowledge and skills to 
+administer or assist in the administration of medication to students which are necessary 
+to maintain the student in school and those needed in the event of an emergency.  These 
+guidelines do not prohibit any school employee from providing emergency assistance to 
+a student.  
+ 
+C. When a special education/medically fragile student requires special restraints, 
+procedures or accommodations outside what is reasonably expected within the 
+traditional classroom, general education and special education teachers who provide 
+services to these students, shall be provided with appropriate and necessary training in 
+order to provide services in compliance with such students’ IEP. 
+Teachers shall be relieved of teaching duties during the course of their involvement in 
+diagnostic interpretations meetings.  Teachers required to attend IEPC meetings shall be 
+relieved of teaching duties during the course of their involvement in said meeting.  
+ 
+Administration will advise building principals regarding replacement of teacher participants 
+at IEPs. 
+ 
+If teachers cannot arrange meetings with ancillary staff, teachers are to contact special 
+education administration, who will facilitate the same. 
+ 
+15.5 Special Education Records. 
+ 
+IEPs, BIPs, and 504 plans will be maintained in the student’s CA-60 and be made accessible to 
+authorized staff members. 
+ 
+15.5 6     Year-Round Early On Intervention Service Program and Assignments. 
+ 
+A. Teacher(s)/ancillary staff teachers will work the contractual number of teacher days 
+and/or hours based upon their FTE status, and fulfill all contractual obligations, such as 
+attendance on and participation in professional development, record days and staff 
+meetings.  The tea cher(s)/ancillary staff will be required to attend child team meetings 
+and to be in attendance on evaluation days. 
+ 
+B. Early-on intervention team(s) could be comprised of the following teachers based upon 
+the needs of the particular student: an early interven tion teacher, a speech and language 
+therapist, a social worker and/or school psychologist. 
+ 
+C. The required student days and/or student service hours for these teachers will be spread 
+over the calendar year (July 1 st- June 30th).  There will be a maximum of t en (10 work 
+days for these teachers in the summer.)  All days worked in the summer, including 
+meeting days and child service days will be made up/compensated in the upcoming 
+school year in the form of “flex days.”  The makeup/compensated days will not be taken 
+on the day immediately before or the day immediately following the winter or spring 
+break periods. 
+ 
+D. If there is an unscheduled school or building closure (e.g. snow day, power outage, and/or 
+any other reason)  during one of the make -up/compensated days then the day will be 
+Formatted: Font: Not Bold
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+Formatted: Font: Not Bold
+Formatted: Indent: Left:  0.5",  No bullets or numbering
+Formatted: Left, Indent: Left:  0"
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+Formatted: Left, Indent: Left:  0.5", Right:  0", Space After: 
+0 pt, Add space between paragraphs of the same style, Line
+spacing:  single,  No bullets or numbering
+Formatted: Font: Not Bold
+Formatted: Strikethrough
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+268
+ 
+31 
+rescheduled by the teacher.  While the preference is for make-up compensated days to be 
+taken as scheduled days off during the school year, if unforeseen circumstances do not 
+permit for all of these days to be scheduled, then a teacher/non- certificated teacher will 
+be compensated at his/her per diem rate for these days.   
+ 
+E. A teacher/ancillary staff member may also elect to be compensated at his/her per diem 
+rate for these days up to five  (5) days and/or the they may opt to accumulate flex days 
+for use during the next school year. 
+ 
+15.6  Categorical classroom communication procedure  if the special education teacher in the 
+specialized or categorical classroom has concerns about a student’s placement or performance in the 
+classroom, the following lines of communication are available to allow dialogue regarding the 
+concern as follows: 
+ 
+1. Discussion with other staff members of the IEP team  
+2. Discussion with building principal 
+3. Discussion with special education supervisor 
+4. Discussion with special education director 
+5. Meeting with appropriate grade level Deputy or Assistant Superintendent 
+6. Meeting with Superintendent 
+ 
+At each level, the parties shall attempt to resolve any issue regarding outstanding concerns.  
+ 
+1. Teacher(s)/non- certified teachers will work on the contractual number of teacher days 
+and/or hours based upon their FTE status, and fulfill all contractual o bligations, such as 
+attendance on and participation in Professional Development, Record Days and Staff 
+Meetings.  The teachers/non -certified teachers will be required to attend weekly staff 
+meetings and to be in attendance on common assessment days. 
+ 
+2.  Early-On Intervention Team(s) could be comprised of the following teachers based upon 
+the needs of the particular student: an Early Intervention teacher, a Speech and Language 
+Therapist, a Social Worker and/or School Psychologist. 
+ 
+3.  The required student days and/or student service hours for these teachers will be spread 
+over the calendar year (July 1st- June 30th).  There will be a maximum of ten (10 work days 
+for these teachers in the summer.  All days worked in the summer, including meeting days 
+and child service days will be made up/compensated in the upcoming school year.  The make-
+up/compensated days will not be taken on the day immediately before or the day immediately 
+following the Winter or Spring Break periods. 
+4.  If there is an unscheduled school or building closure (e.g. snow day, power outage, and/or 
+any other reason) during one of the make -up/compensated days then the day will be 
+rescheduled by the teacher.  While the preference is for make- up compensated days to be 
+taken as scheduled days off during the school year, if unforeseen circumstances do not permit 
+for all of these days to be scheduled, then a teacher/non-certified teacher will be compensated 
+at his/her per diem rate for these days.   
+ 
+ARTICLE 16.   TRANSFERS 
+ 
+16.1 All administrative vacancies will be publicized by being posted at each school, at the 
+Administrative Center, and at the TEA Office.  The posting shall include all pertinent information, 
+including qualifications.  All applicants who are employees of the District shall be given consideration 
+and shall also receive written notification of the filling of the position.  The Board supports a policy 
+Formatted: Font: Not Bold
+Formatted: Indent: Left:  0.75",  No bullets or numbering
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Font: Not Bold
+Formatted: Normal,  No bullets or numbering
+Formatted: Indent: Left:  0.56"
+Formatted: Indent: Left:  0.56"
+269
+ 
+32 
+of promotion from within the District, except when local candidates fall short of qualifying well for 
+the position in the judgment of the Administration. 
+ 
+16.2 Definitions.  When used in this Article, the following terms shall mean:  (1) A transfer is a 
+change in building, grade level, department, course or subject matter; (2) a voluntary transfer is one 
+requested by the teacher on his/her own or at the suggestion of the Administration; (3) an involuntary 
+transfer is one not requested by the teacher. 
+ 
+16.3 Teachers are subject to involuntary transfers from position to position and

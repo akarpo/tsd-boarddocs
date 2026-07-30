@@ -1,0 +1,2969 @@
+   TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:33:30                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’15’ and transact.period=’13’ and transact.gl_cash in (’A1003’,’A1013’)
+ACCOUNTING PERIOD:  1/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           124.00
+A1003    15007314   07/02/15 26082    FIRST GROUP AMERICA 700051299700000  5000     SMITHGRADUATION            0.00           139.44
+A1003    15007314   07/02/15 26082    FIRST GROUP AMERICA 700070399702700  5000     TROY HIGHROBOTICS          0.00         1,249.99
+TOTAL CHECK                                                                                                    0.00         1,389.43
+A1003    15007318   07/02/15 22649    HIGHEST HONOR INC   700071399910800  5000     GLS TRACK PLAQUE           0.00           210.00
+A1003    15007320   07/02/15 10086    I A E BOOK & LAB FE 700074399681000  5000     BOOK REFUND/NIRMOL         0.00           150.00
+A1003    15007325   07/02/15 12547    MARSHALL MUSIC CO   700074399682000  5000     EASTMAN VCSIGNATURE        0.00         1,570.00
+A1003    15007326   07/02/15 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     BYS LAX FINALS ATHE        0.00        12,309.00
+A1003    15007326   07/02/15 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     GLS SOCCER SEMI FIN        0.00           813.40
+A1003    15007326   07/02/15 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     GLS SOCCER DIST/ATH        0.00           125.00
+A1003    15007326   07/02/15 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     BYS LAX FINAL PRG S        0.00           344.50
+A1003    15007326   07/02/15 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     BYS LAX REG/ATHENS         0.00         1,848.40
+TOTAL CHECK                                                                                                    0.00        15,440.30
+A1003    15007335   07/02/15 21880    SERVICAR OF MICHIGA 700074399731800  5000     IAE/DETROIT ZOO 6/4        0.00         1,291.08
+A1003    15007335   07/02/15 21880    SERVICAR OF MICHIGA 700010199393000  5000     HILL/FORD ROUGE 6/3        0.00           377.00
+A1003    15007335   07/02/15 21880    SERVICAR OF MICHIGA 700010199393000  5000     HILL SPECIAL EVENT         0.00           435.00
+TOTAL CHECK                                                                                                    0.00         2,103.08
+A1003    15007337   07/02/15 14252    STALLSMITH MICHAEL  700071399910800  5000     GLS TRACK SUPPLIES         0.00           111.30
+A1003    15007340   07/02/15 12254    TAMRA BOUZIDE       700070399915800  5000     GLS SOCCER REIMB           0.00           153.63
+A1003    15007343   07/02/15 26493    OLMSTEAD ROBERT     700051299990000  5000     2015 TENNIS CLUB CO        0.00           800.00
+A1003    15007387   07/13/15 26268    AMY BUCHANAN        700051299700000  5000     REIMB 066                  0.00           170.62
+A1003    15007396   07/13/15 26268    BRENDA CLIPPARD     700071399804900  5000     REIMB 066                  0.00            18.76
+A1003    15007399   07/13/15 19430    C D W GOVERNMENT IN 700074399682000  5000     ACER C910 15 INCH C        0.00           660.82
+A1003    15007399   07/13/15 19430    C D W GOVERNMENT IN 700074399682000  5000     CHROME MANAGEMENT C        0.00            59.18
+A1003    15007399   07/13/15 19430    C D W GOVERNMENT IN 700074399682000  5000     ACER C910 15 INCH C        0.00         7,379.18
+A1003    15007399   07/13/15 19430    C D W GOVERNMENT IN 700074399682000  5000     CHROME MANAGEMENT C        0.00           660.82
+TOTAL CHECK                                                                                                    0.00         8,760.00
+A1003    15007401   07/13/15 19962    CANDACE ROEN        700071399743600  5000     ALL AMERICAN REIMB         0.00           208.56
+A1003    15007401   07/13/15 19962    CANDACE ROEN        700071399743600  5000     CYNDI’S PRO REIMB          0.00           186.00
+A1003    15007401   07/13/15 19962    CANDACE ROEN        700071399743600  5000     SUNNYBROOK                 0.00            24.00
+A1003    15007401   07/13/15 19962    CANDACE ROEN        700071399743600  5000     HIGHEST HONOR              0.00            67.50
+TOTAL CHECK                                                                                                    0.00           486.06
+A1003    15007442   07/13/15 26268    JEANNE MILLER       700071399700000  5000     REIMB 066                  0.00            42.47
+A1003    15007463   07/13/15 26268    MATT JANSEN         700014199700000  5000     REIMB 066                  0.00           103.75
+A1003    15007467   07/13/15 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     TROY HS SFTBLL DIST        0.00           311.99
+134
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 07/29/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:33:30                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’15’ and transact.period=’13’ and transact.gl_cash in (’A1003’,’A1013’)
+ACCOUNTING PERIOD:  1/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15007481   07/13/15 10086    RANJIT AND SUKHSATE 700074399681000  5000     NIRMOL BOOK REFUND         0.00           150.00
+A1003    15007495   07/13/15 26268    SUSAN FORTUNA       700070399325400  5000     REIMB 066                  0.00           496.27
+A1003    15007499   07/13/15 11583    BRENNAN EBERLY TEAM 700071399902000  5000     LIFT A THON TEES CO        0.00           804.00
+A1003    15007499   07/13/15 11583    BRENNAN EBERLY TEAM 700071399902000  5000     LIFT A THON TEES SP        0.00           140.00
+A1003    15007499   07/13/15 11583    BRENNAN EBERLY TEAM 700071399902000  5000     LIFT A THON TEES SP        0.00            48.00
+TOTAL CHECK                                                                                                    0.00           992.00
+A1003    15007500   07/13/15 26268    TERRI MCCORMICK     700051299667100  5000     REIMB 066                  0.00            48.50
+A1003    15007500   07/13/15 26268    TERRI MCCORMICK     700051299700000  5000     REIMB 066                  0.00             1.57
+TOTAL CHECK                                                                                                    0.00            50.07
+A1003    15007546   07/17/15 10113    ARBOR PRESS LLC     700070399915800  5000     OPEN P.O. FOR TROY         0.00           745.00
+A1003    15007548   07/17/15 26268    BRIAN ZAWISLAK      700070399915800  5000     EE REIMB 066               0.00            32.84
+A1003    15007549   07/17/15 26268    BRIGETTE GARNER     700010199700000  5000     EE REIMB 066               0.00            40.00
+A1003    15007566   07/17/15 26268    HANNAH NAGI         700071399327000  5000     EE REIMB 066               0.00           135.79
+A1003    15007569   07/17/15 26268    JACKLYN SKINNER     700014199667700  5000     EE REIMB 066               0.00           488.65
+A1003    15007588   07/17/15 25511    ROTARY CLUB OF TROY 700206399666100  5000     WATER FOR LEBANON          0.00         1,145.94
+A1003    15007589   07/17/15 26268    SANDRA J OSAER      700071399702100  5000     EE REIMB 066               0.00           205.94
+A1003    15007595   07/17/15 26268    TIM MULLEN          700070399909700  5000     EE REIMB 066               0.00            22.00
+A1003    15007657   07/24/15 22649    HIGHEST HONOR INC   700071399909700  5000     BYS BASEBALL               0.00            30.00
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399700000  5000                                0.00            18.00
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399701800  5000                                0.00            21.78
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399700000  5000                                0.00            30.00
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399700000  5000                                0.00            44.49
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399907800  5000                                0.00            50.00
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399907800  5000                                0.00            50.00
+A1003    15007671   07/24/15 11412    MILLER JEANNE       700071399700300  5000                                0.00            75.00
+TOTAL CHECK                                                                                                    0.00           289.27
+A1003    15007672   07/24/15 26907    MOHARTER EMILY      700071399902000  5000     REDHAWK VIDEOS             0.00           120.00
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700051299323500  5000     SMITH YEARBOOK             0.00            52.49
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700071399524000  5000     AHS SCHOOL STORE           0.00             3.60
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700071399323500  5000     ATHENS YEARBOOK            0.00           206.10
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700071399737400  5000     TERRACE CAFE               0.00           355.58
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700070399524000  5000     THS SCHOOL STORE           0.00            16.31
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700070399323500  5000     THS YEARBOOK               0.00            54.62
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700070399702700  5000     THS ROBOTICS               0.00            32.89
+A1003    W15−0232   06/12/15 12140    MI STATE OF/DEPT OF 700070399915800  5000     THS GLS SOCCER             0.00             4.25
+TOTAL CHECK                                                                                                    0.00           725.84
+135
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 07/29/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:33:30                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’15’ and transact.period=’13’ and transact.gl_cash in (’A1003’,’A1013’)
+ACCOUNTING PERIOD:  1/16
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    W15−0234   06/15/15 26692    STAFFEZ LLC         700070399702700  5000     INV S10071                 0.00         4,081.50
+A1003    W15−0242   06/30/15 26690    COACHEZ LLC         700070399901000  5000     INV C102214                0.00         2,250.00
+A1003    W15−0242   06/30/15 26690    COACHEZ LLC         700071399909700  5000     INV C102214                0.00         1,687.50
+TOTAL CHECK                                                                                                    0.00         3,937.50
+A1003    W15−0244   07/08/15 12140    MI STATE OF/DEPT OF 700052299323500  5000     LARSON YEARBOOK            0.00           153.60
+A1003    W15−0244   07/08/15 12140    MI STATE OF/DEPT OF 700053299323500  5000     BOULAN YEARBOOK            0.00           181.13
+A1003    W15−0244   07/08/15 12140    MI STATE OF/DEPT OF 700071399524000  5000     AHS SCHOOL STORE           0.00             2.34
+A1003    W15−0244   07/08/15 12140    MI STATE OF/DEPT OF 700070399323500  5000     THS YEARBOOK               0.00           502.19
+A1003    W15−0244   07/08/15 12140    MI STATE OF/DEPT OF 700070399325200  5000     THS GERMAN CLUB            0.00            14.48
+A1003    W15−0244   07/08/15 12140    MI STATE OF/DEPT OF 700070399900000  5000     THS CHEERLEADERS           0.00           198.30
+TOTAL CHECK                                                                                                    0.00         1,052.04
+TOTAL CASH ACCOUNT                                                                                             0.00       153,430.51
+TOTAL FUND                                                                                                     0.00       153,430.51
+136
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 07/29/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:33:30                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’15’ and transact.period=’13’ and transact.gl_cash in (’A1003’,’A1013’)
+ACCOUNTING PERIOD:  1/16
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15007658   07/24/15 10704    HOLMES JUDY         701150699999900  5000                                0.00           190.73
+A1003    15007661   07/24/15 12932    JAGELS KATHY        701885699697100  5000                                0.00            25.00
+A1003    15007671   07/24/15 11412    MILLER JEANNE       701071399697100  5000                                0.00            17.86
+A1003    15007682   07/24/15 12342    WAGG MARYANN        701201699700800  5000                                0.00            59.99
+TOTAL CASH ACCOUNT                                                                                             0.00           293.58
+TOTAL FUND                                                                                                     0.00           293.58
+137
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 07/29/2015                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 16:33:30                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.yr=’15’ and transact.period=’13’ and transact.gl_cash in (’A1003’,’A1013’)
+ACCOUNTING PERIOD:  1/16
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT VENDOR   NAME                BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003    15007303   07/02/15 21019    BIG COUNTRY TOURS L 750050599703400  5000     PATTON−LYONS               0.00           483.00
+A1003    15007303   07/02/15 21019    BIG COUNTRY TOURS L 750050599703400  5000     PAPADELIS                  0.00           255.00
+TOTAL CHECK                                                                                                    0.00           738.00
+TOTAL CASH ACCOUNT                                                                                             0.00           738.00
+TOTAL FUND                                                                                                     0.00           738.00
+TOTAL REPORT                                                                                                   0.00     7,568,347.64
+138
+      6. A.   08.04.15 
+6. A. PERSONNEL 
+ CONSIDERATION:  ELEMENTARY AND SECONDARY 
+New Hire 
+It is recommended that the Board of Edu cation approves the issuance of a 
+probationary contract to the following teachers for the 2015-2016 school year. 
+Melissa A. Abele- Science Teacher, Troy High school  
+Ali Ali-Ahmed  - Counselor, Troy High School 
+Heather Baron –Special Education Teacher, Athens High School 
+Jennifer Chambers – Kindergarten Teacher, Leonard Elementary School 
+Jacqueline Ciolek - English Teacher, Troy High School 
+Eric T. Dennis  - Elementary Teacher, Bemis Elementary School 
+Michael Denyes - Counselor, Smith Middle School/Boulan Park Middle 
+School 
+Sarah Gerding – 4th Grade Teacher, Wattles Elementary 
+Jacqueline Goeddeke –Counselor, Athens High School 
+Thomas Keegan - Physics Teacher, Troy High School 
+Billy J. Keenist – Physical Education Teacher, Athens High School 
+Kelly M. Lerdahl – English Language Arts Teacher, Larson Middle School  
+Hayley E. Lewis - English Teacher, International Academy-East   
+Megan  Little – Special Education Teacher, Morse Elementary 
+Alison Malkowych - .4 Instructional Speech Teacher 
+Erin W. Marshall - 4th or 5th Grade, Barnard Elementary School 
+Robert R. Mele - Resource Room Teacher, Smith Middle School 
+Kristen Novelli – .5 Early Child Care Provider/.5 Resource Room, Niles 
+HS, Wattles Elementary 
+Heidi K. O’Donnell - Life Skills/Health Teacher, Smith Middle School 
+139
+Lauren E. Petz - Science Teacher, Larson Middle School 
+Karlye R. Pickelhaupt – 4th Grade Teacher, Martell Elementary School 
+Bradley Pryzmusinski – Social Worker, Athens High School 
+Ryan Quinn - Orchestra Teacher, Athens High School 
+Taylor M. Richey – Special Education Teacher, Athens High School 
+Carly L. Rose – High School Spanish Teacher, Athens High School 
+Emily A. Speicher – Science Teacher, International Academy 
+East/Oakland Macomb 
+Kathryn Stanley - Math & Social Studies Teacher, Larson Middle School 
+Mitchell S. Vercellino - Business Teacher, Athens High School 
+Dustin Warner - Auto/Woods/ CAD Engineering Drawing, Troy High 
+School 
+Amy Wyss - .8 Science Teacher, Troy High School/ Smith Middle School 
+Ashourina Yousif – English Language Development (ELD) Teacher, 
+Morse Elementary 
+RECOMMENDED ACTION:  Acceptance of the resolution below: 
+SUGGESTED RESOLUTION 
+ Moved by          
+ Supported by         
+BE IT THEREFORE RESOLVED that the Board of Education takes action to approve the 
+aforementioned personnel recommendations as stated above. 
+ Yes     
+ No     
+140
+BIOGRAPHICAL SKETCH – NEW TEACHER 
+August 4, 2015 
+Melissa A. Abele - Science Teacher, Troy High School  
+Educational Background: B.A., Central Michigan University, Mt. Pleasant, May 2013 
+  Major: Teachers of Students w/Cog Imp 
+  Minor: Reading in the Elem Grades Teac Accred. Prog 
+ Provisional Teaching Certificate, May 2015 
+Teaching Experience: Substitute Teacher, EDUStaff 
+   December 2014 – Current 
+Substitute Teacher/Paraprofessional, PCMI Services, Marine City, MI 
+January 2013 – December 2014 
+Camp Counselor, St. Clair Shores Special Needs Playground 
+Program, St. Clair Shores, MI 
+   May 2014 – August 2014 
+Student Teacher, Pearl Learn Elementary School, Warren 
+Consolidated Schools, Warren, MI 
+Resident Community:   Sterling Heights, MI 
+Ali Ali-Ahmed  - Counselor, Troy High School 
+Educational Background: B.A., Wayne State University, Detroit, May 2011  
+Major:  Psychology 
+M.A., Wayne State University, Detroit, April 2014 
+ Major: Counseling 
+Michigan Counseling License, January 2015 
+Teaching Experience: Counseling Intern, Boulan Park Middle School, Troy, MI 
+ January 2014 – April 2014 
+ School Counselor, Troy High School, Troy School District, Troy, MI 
+      October 2014 – December 2014 
+ Paraprofessional Sub, Noor International Academy, Sterling Hts., MI 
+      February 2013 – December 2013 
+ Instructor, Frontier International Academy, Hamtramck, MI 
+      June 2012 – August 2012 
+Paraprofessional in Response to Intervention Program, Frontier 
+International Academy, Hamtramck, MI 
+ January 2011 – June 2012 
+Resident Community:   Fraser, MI 
+Heather Baron –Special Education Teacher, Athens High School  
+Educational Background: B.S., Grand Valley State University, Allendale, April 2013 
+  Major: Psychology 
+  Minor:  Elem Dist-Psych Spec. Ed 
+ Provisional Teaching Certificate, June 2013 
+141
+Teaching Experience: 18-21 Lead Program Teacher, Menomonee Falls High School, 
+Menomonee Falls, WI 
+      July 2014 – June 2015 
+High School Special Education Cross Categorical Co-Teacher, 
+Menomonee Falls School District, Menomonee Falls, WI 
+      June 2013 – July 2014 
+Lead Summer Camp Teacher, Okemos Community Schools, 
+Okemos, MI 
+      May 2013 – August 2013 
+Student Teacher, Okemos High School, Okemos, MI 
+Resident Community: Clarkston, MI 
+Jacqueline Ciolek - English Teacher, Troy High School  
+Educational Background:  B.A., Michigan State University, East Lansing, August 2010 
+   Major: Advertising 
+  Provisional Teaching Certificate,  June 2015 
+Teaching Experience: Sub Teacher, Bloomfield Hills High School, Bloomfield Hills, MI 
+    September 2013 – June 2015 
+  Student Teacher, Bloomfield Hills High School, Bloomfield Hills, MI 
+Resident Community:   Warren, MI 
+Eric T. Dennis  - Elementary Teacher, Bemis Elementary School 
+Educational Background:   B.A. Oakland University, Rochester,  April 2014 
+    Major:  Elementary Education 
+   Michigan Provisional Certificate,  May 2014 
+Teaching Experience: 4th Grade Long Term Guest Teacher, Troy School District, PESG,  
+Caledonia, MI 
+      September 2014 – June 2015 
+ Guest Teacher, EduStaff, Grand Rapids, MI 
+      November 2013 – June 2014 
+ Pre-School Teacher, Cream of the Crop Childcare, White Lake, MI 
+      September 2010-December 2013 
+ Student Teacher, Lakewood Elementary, White Lake, MI 
+Resident Community:  White Lake, MI 
+Sarah Gerding – 4th Grade Teacher, Wattles Elementary 
+Educational Background: B.A., Michigan State University, East Lansing, May 2008 
+  Major: Psychology, General Management 
+ Provisional Teaching Certificate, May 2014 
+142
+Teaching Experience:  Long term sub, Wattles Elementary School, Troy, MI 
+    February 2015 – May 2015 
+  Long term sub, Wattles Elementary School, Troy, MI 
+    August 2014 – November 2014 
+  Student Teacher, Wattles Elementary, Troy, MI 
+Resident Community:   Madison Heights, MI 
+Jacqueline Goeddeke –Counselor, Athens High School 
+Educational Background:    B.A., Rochester College, Rochester, September 2011 
+   Major: Counseling Psychology 
+    M.A., Oakland University, Rochester, December 2013 
+   Major: Counseling  
+School Counselor License, February 2014 
+Teaching Experience: School Counselor, L’Anse Creuse North High School, Macomb, MI 
+      December 2014 – June 2015 
+ School Counselor/MME Test Coordinator, Sterling Heights, MI 
+      August 2013 – December 2014 
+ Counselor, Rochester Adult Education, Rochester Hills, MI 
+   August 2014 – January 2015 
+ Student Teacher, Stevenson High School, Sterling Heights, MI 
+Resident Community:    Sterling Heights, MI 
+Thomas Keegan - Physics Teacher, Troy High School 
+Educational Background:  B.A. Central Michigan University December 2010 
+ Major: Integrated Science 
+ Minor: Earth Science 
+ Michigan Provisional Teaching Certificate March 2011 
+Teaching Experience: Teacher, West Bloomfield School District, West Bloomfield, MI 
+    September 2011 – May 2015 
+  Student Teacher, Baker Middle School, Troy, MI 
+Resident Community:  Berkley, MI 
+Billy Keenist- Physical Education Teacher, Athens High School 
+Educational Background: B.A., Adrian College, Adrian December 2011 
+   Major:  Physical Education 
+   Minor:  History 
+ Provisional Teaching Certificate, May 2012 
+Teaching Experience: Assistant Coach/Quarterbacks, Adrian College, Adrian, MI 
+    July 2014 – May 2015 
+  Middle School PE Teacher, Oxford Community Schools, Oxford, MI 
+    August 2012 – June 2014 
+143
+  Student Teacher, Oxford High School, Oxford, MI 
+  Student Teacher, Oxford Elementary School, Oxford,MI 
+Resident Community:  Oxford, MI 
+Kelly M. Lerdahl – English Language Arts Teacher, Larson Middle School   
+Educational Background: B.A., Western Michigan University, Kalamazoo, December 2003 
+   Major: English 
+   Minor: History 
+  M.A., Western Michigan University, Kalamazoo, April 2011 
+   Major: Literacy Studies 
+  Provisional Teaching Certificate 1st Renewal, February 2014 
+Teaching Experience: ELA Teacher & Reading Interventionist, Portage Public Schools, 
+Portage, MI 
+    September 2004 – June 2015 
+  Summer School Reading Teacher, Portage Public Schools, Portage, MI 
+    June 2013 – August 2013 
+  Student Teacher, Kalamazoo Central High School, Kalamazoo, MI 
+Resident Community:  Lake Orion, MI 
+Hayley E. Lewis - English Teacher, International Academy-  
+Educational Background: B.S., Central Michigan University, Mt. Pleasant, May 2013 
+  Major: English 
+  Minor: Geography 
+ Provisional Teaching Certificate, May 2014 
+Teaching Experience: Long term sub, IA East Campus, Troy, MI 
+    March 2015 – June 2015 
+  Long term sub, Troy HS, Troy, MI 
+    November 2014 – March 2015 
+  Permanent building sub, Bloomfield High School, Bloomfield Hills, MI 
+    September 2013 – June 2014 
+  Student Teacher, Andover High School, Bloomfield Hills, MI 
+Resident Community: Ortonville, MI 
+Megan Little  – Special Education Teacher, Morse Elementary 
+Educational Background: B.S., Central Michigan University, Mt. Pleasant, August 2001 
+  Major: Teachers of Emotionally Impaired 
+  Minor: Language Arts 
+ M.A., Oakland University, Rochester, April 2011 
+  Major: Special Education 
+ Professional Education Certificate Renewal, January 2012 
+144
+Teaching Experience: ASD Center Program Teacher, Clawson Public Schools, Clawson, MI 
+    August 2008 – June 2015 
+  ASD Center Program Teacher, Clarkston Public Schools, Clarkston, MI 
+    August 2007 – June 2008 
+ASD Center Resource Room Teacher, Grand Ledge Public Schools, Grand 
+Ledge, MI 
+    August 2005 – June 2007 
+7th Gr. Resource Room Teacher, Grand Ledge Public Schools, Grand 
+Ledge, MI 
+Resident Community:  Clarkston, MI 
+Alison Malkowych - .4 Instructional Speech Teacher 
+Educational Background:   M.A. Wayne State University,  Detroit,  June 2014 
+Major: Speech Language Pathology  
+   Michigan Speech-Language Pathologist Educational Ltd. License 
+       April 2014 
+Teaching Experience: Speech Language Pathologist, Clinical Fellow, Cromie Elementary  
+ EduStaff, Warren, MI 
+      May 2014 – June 2014 
+ Graduate Student Assistant, Wayne State University, Detroit, MI 
+      July 2012 – August 2013 
+ Student Teacher, Stepanski Early Childhood Center, Waterford MI 
+  Student Teacher, Mason Middle School, Waterford, MI 
+Resident Community:   Waterford, MI 
+Erin W. Marshall - 4th or 5th Grade, Barnard Elementary School  
+Educational Background: B.A., University of Michigan, Ann Arbor, April 2004 
+  Major: English 
+  Minor: History 
+ Provisional Teaching Certificate, June 2015 
+Teaching Experience: Substitute Teacher/PESG, Burton, MI 
+     October 2014 – June 2015 
+ Student Teacher, Hamlin Elementary School, Rochester, MI 
+Resident Community: Troy, MI 
+Robert R. Mele - Resource Room Teacher, Smith Middle School  
+Educational Background: BGS, Oakland University, Rochester, December 2005 
+  Major: General Studies 
+  Minor: English 
+ Provisional Temporary Teacher Employment Authorization, January 
+2015 
+145
+Teaching Experience: Education Para Pro, Oakview Middle School, Lake Orion, MI 
+    August 2014 – June 2015 
+ Occupational Course of Study Teacher, Sanderson High School, 
+Raleigh, NC 
+    October 2010 – June 2013  
+ Teaching Assistant, Martin Middle School, Raleigh, NC 
+    December 2008 – October 2010 
+ Student Teacher, Sanderson High School, Raleigh, NC 
+Resident Community: Rochester Hills, MI 
+Kristen Novelli – .5 Early Child Care Provider/.5 Resource Room, Niles HS, Wattles 
+Elementary 
+Educational Background: B.S., Western Michigan University, Kalamazoo, May 2015 
+  Major: Special Ed Learning Dis./Cognitive Imp. Elem. 
+  Minor: Elementary Language Arts 
+ Provisional Teaching Certificate, May 2015 
+Teaching Experience:  Student Teacher, Independence Elementary, Clarkston, MI 
+Resident Community: Rochester, MI 
+Heidi K. O’Donnell - Life Skills/Health Teacher, Smith Middle School  
+Educational Background: B.S., Central Michigan University, Mt. Pleasant, Dec. 2008 
+  Major: Family Studies; Life Mgt Educ. 
+  Minor: School Health Education 
+ Provisional Teaching Certificate 1st Renewal, March 2015 
+Teaching Experience: Family & Consumer Science/Health Educator, Berkley School 
+District 
+    October 2010 – June 2015 
+ Long term sub, Health & Foods, Berkley High School, Berkley, MI 
+    November 2010 – April  
+Resident Community: Royal Oak, MI 
+Lauren E. Petz - Science Teacher, Larson Middle School  
+Educational Background: B.S., Hillsdale College, Hillsdale, May 2006 
+ Major: Chemistry 
+ Minor: Biology 
+ B.S. + 20, Saginaw Valley State University 
+ Provisional Teaching Certificate 1st Renewal, June 2013 
+Teaching Experience: Chemistry Teacher, Waterford School District, Waterford, MI 
+    August 2009 – June 2015 
+ GED Science Teacher, Berkley School District, Berkley, MI 
+146
+    February 2009 – June 2009 
+ Biology Long term Sub, Warren Consolidated Schools, Warren, MI 
+    February 2009 – June 2009 
+ Science Teacher, Arts Academy in the Woods, Fraser, Mil 
+    January 2008 – January 2009 
+ Student Teacher, Fraser High School, Fraser, MI 
+Resident Community: Sterling Heights, MI 
+Karlye R. Pickelhaupt – 4th Grade Teacher, Martell Elementary School 
+Educational Background: B.S., Central Michigan University, Mt. 
+Pleasant, December 2014 
+  Major: Language Arts; Early Child Dev & Learning 
+ Provisional Teaching Certificate, February 2015 
+Teaching Experience: Long Term Sub, Martell Elementary,  PESG 
+    December 2014 – June 2015  
+ Lunchroom/Recess Supervisor, Pullen Elementary School,  Mt. 
+Pleasant, MI 
+    October 2010 – May 2014 
+ Substitute Teacher, PCMI, Mt. Pleasant, MI 
+    March 2013 – May 2014 
+ Student Teacher, Martell Elementary, Troy School District 
+Resident Community: Grosse Pointe Woods, MI 
+Bradley Pryzmusinski – Social Worker, Athens High School 
+Educational Background: B.A., Adrian College, Adrian, May 2007 
+   Major: History 
+ M.A., Wayne State University, Detroit, May 2015 
+   Major: Social Work 
+ Masters Social Worker Limited License 
+Teaching Experience: Admissions Advisor, Baker College, Auburn Hills, MI 
+    April 2008 – December 2009 
+ Student Teacher, Waterford Kettering High School, Waterford, MI 
+Resident Community: Rochester, MI 
+Ryan Quinn - Orchestra Teacher, Athens High School  
+Educational Background: B.M.E., Central Michigan University, Mt. Pleasant, December 2011 
+  Major: Music; Music Education 
+  Minor: Music: Instrumental 
+ Provisional Teaching Certificate, January 2012 
+147
+Teaching Experience: 4th/5th Grade Orchestra Teacher, Bloomfield Hills Schools, West 
+Bloomfield, MI 
+    September 2012 – June 2015 
+ Student Teacher, Boulan Park Middle School, Troy School District 
+Resident Community: Commerce, MI 
+Taylor M. Richey – Special Education Teacher, Athens High School 
+Educational Background: B.S., Central Michigan University, Mt. Pleasant, December 2014 
+  Major: Special Education 
+  Minor: English & Speech 
+ Provisional Teaching Certificate, March 2015 
+Teaching Experience: Long Term Substitute Teacher, West Bloomfield High School,  
+W. Bloomfield, MI 
+      March 2015 – June 2015 
+ Long Term Substitute Teacher, Eppler Junior High, Utica, MI 
+      November 2014 – January 2015 
+ Student Intern, Eppler Junior High, Utica, MI 
+      July 2014 – November 2014 
+ Student Intern, Vestaburg High School, Vestaburg, MI 
+      January 2014 – June 2014 
+ Student Teacher, Eppler Junior High, Vestaburg, MI 
+ Student Teacher, Vestaburg High School, Vestaburg, MI 
+Resident Community:        Macomb Twp, MI 
+Carly L. Rose – High School Spanish Teacher, Athens High School  
+Educational Background: B.A., Michigan State University, East Lansing, May 2013 
+  Major: Spanish 
+ B.A.+20, Michigan state University, East Lansing  
+ Provisional Teaching Certificate, July 2014 
+Teaching Experience Spanish Teacher, Southfield Public Schools, Southfield, MI 
+      August 2014 – July 2015 
+ Student Teacher, Southfield-Lathrup High School, Southfield, MI 
+Resident Community: Wixom, MI 
+Emily A. Speicher – Science Teacher, International Academy East/Oakland Macomb 
+Educational Background: B.S., Michigan State University, East Lansing, May 2005 
+  Major: LBS Human Biology 
+ M.A., Wayne State University, Detroit, August 2011 
+  Major: Secondary Education 
+ M.A. + 20, Wayne State University, Detroit 
+ Professional Education Certificate, May 2013 
+148
+Teaching Experience: Science Teacher, Romeo Community Schools, Romeo, MI 
+      September 2009 – June 2015 
+ Summer Camp Educator, Michigan Science Center, Detroit, MI 
+      June 2014 – August 2014 
+ Summer School E20/20 Teacher, Lake Shore Public Schools,  
+St. Clair Shores, MI 
+      Dates Not Listed 
+Coordinator/Teacher, Lake Shore Public Schools, Environmental 
+Grant Program, St. Clair Shores, MI 
+      Dates Not Listed 
+ Substitute Teacher, PESG, Lakewood, Ohio 
+      August 2008 – June 2015 
+Summer School Biology Teacher, Grosse Pointe Public School 
+System, Grosse Pointe Farms, MI 
+      June 2007 – August 2007 
+ Substitute Teacher, Grosse Pointe Public School System,  
+Grosse Pointe, MI 
+      February 2006 – June 2007 
+ Student Teacher, Grosse Pointe South High School,  
+  Grosse Pointe Farms, MI 
+Resident Community: Troy, MI 
+Kathryn Stanley – Math & Social Studies Teacher, Larson Middle School 
+Educational Background: B.A., University of Michigan, Ann Arbor,  April 2006 
+  Major: Elementary Ed Social Studies 
+  Minor: Elementary Ed Math 
+Teaching Experience: 7th Gr. Social Studies Teacher, Holly Ridge Middle School,  
+  Holly Springs, NC 
+   June 2012 – June 2015 
+7th Gr. Social Studies/Math Teacher, Holly Grove Middle School, 
+Holly Springs, NC 
+   June 2011 – June 2012 
+ 7th Gr. Math Teacher, Reedy Creek Middle School, Cary, NC 
+   July 2008 – June 2011 
+ 5th Gr. Math Teacher, Horton Middle School, Pittsboro, NC 
+   August 2007 – June 2008 
+ 7th Gr. Global Studies Permanent Sub, Smith Middle School, Troy, MI 
+   September 2006 – February 2007 
+ Student Teacher, Tonda Elementary School, Canton, MI 
+Resident Community: Apex, NC 
+Mitchell Vercellino - Business Teacher, Athens High School 
+Educational Background: B.S., Central Michigan University, Mt. Pleasant, May 2013 
+  Major: Bus Tchr Ed; Marketing Ed; History 
+149
+ Provisional Teaching Certificate, June 2013 
+ Interim Occupational Certificate, June 2013 
+Teaching Experience: Business Information Technology, Tipton Middle School, Tipton, IN 
+      August 2013 – June 2015 
+ Teacher, Kinder Care School, Westfield, IN 
+      August 2014 – June 2015 
+ Student Teacher, Athens High School, Troy, MI 
+Resident Community: Walled Lake, MI 
+Dustin Warner - Auto/Woods/ CAD Engineering Drawing, Troy High School 
+Educational Background: B.S., Eastern Michigan University, Ypsilanti, April 2015 
+  Major: Technology, Design Education 
+  Minor: Vocational Technology 
+ Provisional Teaching Certificate,  July 2015 
+Teaching Experience: ASE Certified Automotive Technician, Firestone Complete Auto 
+Care, Southgate, MI 
+      May 2013 – Date not listed 
+ Student Teaching, Trenton High School, Trenton, MI 
+ Student Teaching, Ann Arbor Skyline High School, Ann Arbor, MI 
+Resident Community: Trenton, MI 
+Amy Wyss - .8 Science Teacher, Troy High School/ Smith Middle School 
+Educational Background:       B.A. Lake Superior State University, April 2013 
+ Major: Integrated Science 
+ Major Concentration: Secondary Teaching  
+ Michigan Provisional Teaching Certificate,  June 2013 
+Teaching Experience : Long term sub/Temporary School Staff, Dearborn  
+   August 2014 – November 2014 
+ Science Teacher, Bishop Foley High School, Madison Hts., MI 
+   May 2013 – June 2014 
+ Student Teacher, Cousino High School, Warren, MI 
+Resident Community: Troy, MI 
+Ashourina Yousif – English Language Development (ELD) Teacher, Morse Elementary  
+Educational Background: B.A., National Louis University, Chicago, March 2011 
+  Major: Early Childhood Education 
+  Minor: Psychology: Human Development 
+ M.A., National Louis University, Chicago, September 2013 
+  Major: Curriculum and Instruction 
+150
+  Major Concentration: English Second Language 
+ Professional Education Certificate, September 2014 
+Teaching Experience: 2nd Gr. Classroom Teacher, Academy for Business/Technology, 
+Dearborn, MI 
+    November 2014 – June 2015 
+ STEM Elective Teacher, STEM.org, Southfield, MI 
+    September 2014 – October 2014 
+ 1st/2nd Grade ELL Teacher, John Middleton Elementary School, 
+Skokie, IL 
+    August 2013 – June 2014 
+ 1st Grade Classroom Teacher, John Middleton Elementary School, 
+  Skokie, IL 
+    August 2011 – May 2013 
+ Teacher, Children’s Care & Development Center, Lincolnwood, IL 
+    June 2006 – July 2011 
+ Student Teacher, Elizabeth Meyer Elementary School, Skokie, IL 
+Resident Community: Warren, MI 
+151
+         6. B. 08.04.15 
+6. B.  PERSONNEL 
+CONSIDERATION:  Administrative Appointment –  
+     Supervisor, Special Education  
+I am pleased to recommend the appointment of Mr. Adrian Dean to the 
+position of Supervisor, Special Education.  Mr. Dean comes to Troy from the 
+Waterford School District where he spent the past 7 years serving as first a 
+behavioral consultant and later as principal at Waterford’s Kingsley Montgomery 
+School which serves as one of the Oakland ISD’s center -based programs.  Mr. 
+Dean rec eived his Education Specialist degree from Wayne State University in 
+2009 focusing on Autism Spectrum Disorders.  He holds his Master  of Arts and 
+Bachelor of Science degrees from Wayne State and Eastern Michigan University 
+respectively. 
+With your approval , Mr. Dean will begin his duties as our Special Education 
+Supervisor effective August 10, 2015. 
+RECOMMENDED ACTION:  Acceptance of the resolution below:  
+SUGGESTED RESOLUTION 
+ Moved by         
+ Supported by        
+BE IT THEREFORE RESOLVED  that the  Board of Education approves Mr. 
+Dean’s employment as Special Education Supervisor without any tenure in the 
+administrative position to effective August 10, 2015. 
+ Yes 
+ No  
+152
+Mr. Adrian J Dean
+1101 East Cook
+Grand Blanc, MI 48439
+deana01@wsdmi.org - (313) 655-9595
+Contents:
+Prepared for: Rich Machesky
+Oakland Human Resources Consortium
+Aug 4, 2015 1:10 PM
+These documents were assembled by AppliTrack for the exclusive use of the user listed above. Any unauthorized disclosure, distribution or reproduction is prohibited.
+153
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+Online Application
+Attachment: Cover Letter
+Attachment: Other
+Attachment: Other p. 2
+Attachment: Other p. 3
+Attachment: Resume
+Attachment: Transcripts
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Personal Data
+Name: Mr. Adrian J Dean
+(Title) (First) (Middle Initial) (Last)
+Other name(s) under which transcripts, certificates, and former applications may be listed:
+Other:
+(Title) (First) (Middle Initial) (Last)
+Email Address: deana01@wsdmi.org
+Postal Address
+Permanent Address Present Address
+Number & Street: 1101 East Cook Number & Street:
+Apt. Number: Apt. Number:
+City: Grand Blanc City:
+State/Province: MI State/Province:
+Zip/Postal Code: 48439 Zip/Postal Code:
+Country: United States of America Country:
+Daytime Phone: (313) 655-9595 Phone Number: ()
+Home/Cell Phone: (313) 655-9595
+Employment Desired
+JobID: 18082 Administration: Supervisor, Special Education  at TSD Services Building 7/22/2015 years
+Position Desired: Experience in 
+Similar Positions
+Administration
+ 1.   Assistant Principal years
+ 2.   Executive Director years
+ 3.   Principal 2 years
+ 4.   Supervisor 1 year
+Consultant
+ 1.   Educational Consultant 2 years
+Instructional - Special Education
+ 1.   Autism (SV) years
+ 2.   Teacher Consultant years
+Current District
+information on this page accordingly. Responding ’yes’ to the question, ’Would 
+you like to prevent xxxx district from viewing your employment application?’ 
+will also result in the district being unable to view any submissions you may 
+Employed at: Waterford
+Exclude application from district? No
+154
+Page 1 of  11Generated at 8/4/2015 1:10:46 PM Central
+Open Vacancy Desired: Date Last 
+Submitted
+Experience in 
+Similar Positions
+Please note: When making future submissions, please verify and/or update the 
+make for job postings within that district.’ 
+Are you currently employed by one of the organizations listed below?
+Yes
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Employment Information
+BACKGROUND INFORMATION AUTHORIZATION
+I hereby authorize The Oakland Human Resources Consortium to make any investigation into my background deemed necessary.  I 
+authorize former employers, law enforcement organizations, educational institutions and any other third party to give the district any 
+information they have regarding me without providing me notice of the same.  Such information may include educational transcripts 
+and records, references, disciplinary information and records, information about my job performance, criminal convictions, driving 
+records, child protective service information, or other information pertaining to child neglect or abuse, and other information relevant 
+to my application for employment.  I hereby waive my right to access any such information, and without limitation hereby release The 
+Oakland Human Resources Consortium, its employees, Board members, and agents, and the reference sources from any liability in 
+connection with release of such information.  I understand that as a condition of employment and as a requirement of State law I must 
+be fingerprinted.
+LIMITATION PERIOD
+I agree that any claim or lawsuit relating to my service with The Oakland Human Resources Consortium must be filed no more than 
+six (6) months after the date of the employment action that is the subject of the claim or lawsuit.  I waive any statue of limitations to 
+the contrary.
+EMPLOYMENT STATUS
+Unless subject to an individual employment contract or a collective bargaining agreement, I understand that my employment can be 
+terminated with or without cause, and with or without notice, any time, at my option or that of the district.  I understand that no 
+officer, agent, or employee of the district, other than the Board of Education itself, has any authority to enter into agreement for 
+employment contrary to the forgoing.
+Before final consideration for employment, the candidate must have on file in the Human Resources Department complete official 
+transcripts of college credits, placement references and evidence of eligibility for certification as required for the position.
+Employment is contingent upon compliance with any conditions, rules or regulations required by The Oakland Human Resources 
+Consortium.  Only the Superintendent or Director of Human Resources may offer employment with The Oakland Human Resources 
+Consortium.
+NOTE: INDIVIDUALS ARE NOT PERMITTED TO WORK UNTIL AUTHORIZED BY THE HUMAN RESOURCES 
+DEPARTMENT.
+Upon completing this application, I represent that all of the information now or later given by me in support of my application for 
+employment is true and complete.  I understand that this application is not an offer for, or a contract of, employment  I further 
+understand that any misrepresentation, misleading statement, or omission of fact given by me in support of this application will be 
+sufficient reason for my (1) not being offered employment, or (2) immediate termination at any time.
+Experience
+Please list ALL relevant work experience 
+beginning with the most recent. 
+155
+Page 2 of  11Generated at 8/4/2015 1:10:49 PM Central
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Page 3 of  11Generated at 8/4/2015 1:10:49 PM Central
+Experience Continued
+Current or Most Recent Position Employer Contact Information Supervisor/Reference Contact 
+Information
+Waterford School District
+Principal - Kingsley Montgomery School
+501 N. Cass Lake Road 
+Waterford, MI  484328 
+248-682-7800
+Nadine Milostan 
+(248) 682-0258 
+milosn01@wsdmi.org
+Date From - Date 
+To:
+11/2013 - 11/2014 Full or Part Time: Full Last Annual 
+Salary:
+$103,000
+Reason for 
+Leaving:
+Lay off Notice Due to Administrative Restructure/Reductions
+Responsibilities/
+Accomplishments
+at this Position
+Over the past two years I have provided leadership and management to a center-based school that provides 
+special education services to approximately 100 students throughout northern Oakland County. In this position I 
+supervise over 70 employees, conduct professional staff evaluations, and oversee day to day operations of the 
+school. I also identify, design and oversee the implementation of professional learning for all staff members.  As 
+principal of a county "program for all", I pride myself in working collaboratively with Oakland Schools, district 
+administrators and parents in providing unique and appropriate special education programming for students with 
+individual education plans. Finally, as supervisor of Kingsley Montgomery, I ensure that federal and state legal 
+regulations are being implemented with fidelity.
+Previous Position Held Employer Contact Information Supervisor/Reference Contact 
+Information
+Waterford School District
+Teacher Consultant/Program Coordinator
+501 N. Cass Lake Road 
+Waterford, MI  48328 
+248-682-7800
+Nadine Milostan 
+(248) 682-0258 
+milosn01@wsdmi.org
+Date From - Date 
+To:
+03/2011 - 10/2013 Full or Part Time: Full Last Annual 
+Salary:
+$75,000
+Reason for 
+Leaving:
+Career Advancement
+Responsibilities/
+Accomplishments
+at this Position
+Within this position, I am most proud of working with administration on the complete redesign of the districts 
+autism spectrum disorders program. To improve the quality of education for students with autism, we relocated 
+several classrooms to larger spaces, added ASD classrooms, significantly increased teacher to student ratio, and 
+provided a more systematic delivery system for students with autism. Furthermore, within this role I provided 
+consultation services on behalf of over 70 students with autism with a focus on an increase in programming in the 
+least restrictive environment. Within this role I also oversaw the implementation of several professional 
+development projects through the START initiative.  Finally, I provided behavior consultation services, whereas, 
+I collaborated with staff on designing positive behavior intervention plans, conducting functional behavioral 
+assessments, facilitating student centered meetings, and/or collaborating with district administration on finidng 
+more appropriate special education programming to offer to the IEPT.
+Previous Position Held Employer Contact Information Supervisor/Reference Contact 
+Information
+Waterford School District
+Special Education Teacher - ASD & Coach 
+(Basketball)
+501 N. Cass Lake Road 
+Waterford, MI  48328 
+248-682-7800
+Nadine Milostan 
+(248) 682-0258 
+milosn01@wsdmi.org
+Date From - Date 
+To:
+08/2008 - 03/2011 Full or Part Time: Last Annual 
+Salary:
+$63,000
+Reason for 
+Leaving:
+Career Advancement
+Responsibilities/
+Accomplishments
+at this Position
+Through this teaching experience I provided special education services and supports to students with autism 
+spectrum disorder. I facilitated IEP meetings, working collaboratively with IEP teams to design individualized 
+supports for special education student that allow for maximum progress in the general education curriculum 
+within the least restrictive environment. I also managed multiple paraprofessional staff, integrated a peer to peer 
+mentoring program, monitored student IEP goal progress, worked closely with general education teachers to 
+implement students IEPs, and modify the general education curriculum.
+156
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Experience Continued
+Previous Position Held Employer Contact Information Supervisor/Reference Contact 
+Information
+(313) 873-6897
+Leaving:
+skills, with an emphasis on positive behavior interventions, and building positive relationships and rapport with 
+students.
+Furthermore, I also managed and coached several boys middle school basketball teams.
+Student Teaching
+First Second
+School Grosse Ile High School
+Location Grosse Ile Township
+School Phone # (734) 362-2400
+School Year 2000
+Taught
+Name and Phone of Cooperating Teacher N/A
+Teacher
+Contact
+Academic Grade Received A
+Education
+Please tell us about your educational background beginning with the most recent.
+High School Attended: Davison High School
+Graduation Status: H.S. Diploma
+Colleges, Universities and Technical Schools Attended:
+Education Continued
+From - To
+Hrs:
+Hrs:
+Hrs:
+157
+Page 4 of  11Generated at 8/4/2015 1:10:49 PM Central
+Detroit Public Schools
+Physical Education Teacher & Coach
+3011 West Grand Blvd. 
+Detroit, MI  48402 
+Date From - Date 
+To:
+08/2000 - 08/2008 Full or Part Time: Full Last Annual 
+Salary:
+$68,000
+Reason for 
+Relocation
+Responsibilities/
+Accomplishments
+at this Position
+My main focus was designing, planning and implementing physical education curriculum for grades K-8. I also 
+had a high focus on differentiating instruction, and providing adaptive physical education for students with 
+disabilities. In working with large class sizes of at-risk youth, I had to have a high level of classroom management 
+Grade Level(s)/ Subject Area(s) 
+9-12
+Name and Phone of Additional Cooperating 
+N/A
+Name and Phone of University Supervising 
+N/A
+Name and location Dates Attended:
+Major area of study and 
+number of semester hours 
+Minor area of study and 
+number of semester hours 
+Degree Date Conferred or 
+Expected
+Graduated
+Wayne State University 01/2014
+04/2015
+Education
+Administration
+Hrs: Education
+Specialist
+08/2016
+Wayne State Univeristy 01/2006
+12/2008
+Special Education
+Hrs: 34
+Autism Spectrum 
+Disorders
+Education
+Specialist
+12/2008
+Wayne State University 01/2003
+12/2005
+Athletic Administrtion 
+Hrs: 34
+Intercollegiate
+Athletics
+Masters
+of
+12/2005
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Education Continued
+From - To
+Undergraduate Graduate
+Overall GPA 2.9/ 3.74/
+Major GPA 3.4/ 3.74/
+highest degree:
+Ed. Specialist/6th yr./etc. 10 Special Education Administration
+List honors, awards or distinctions you have earned:
+HS Teaching Areas
+Please indicate how many semester hours you have in the following teaching areas.
+No Teaching Areas Entered
+158
+Page 5 of  11Generated at 8/4/2015 1:10:49 PM Central
+Name and location Dates Attended:
+Major area of study and 
+number of semester hours 
+Minor area of study and 
+number of semester hours 
+Degree Date Conferred or 
+Expected
+Graduated
+Eastern Michigan 
+Unveristy
+09/1995
+05/2000
+Physical Education
+Hrs:
+Health Education
+Hrs:
+Bachelors
+of Science 
+05/2000
+Highest Degree Attained Number of graduate hours beyond your 
+Grad Program Of Study
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Extracurricular Activities
+Athletic Baseball Basketball
+Club Chess
+Please provide more details regarding your experience or interest in your selected extra curricular activities. For instance, provide 
+details on any experience as a participant at the high school or college level or as a director, coach, supervisor, or sponsor.
+Middle School Teaching Areas
+Please indicate how many semester hours you have and/or if you are endorsed in the following teaching areas.
+No Middle School Teaching Areas Entered
+Certification
+certification?
+Do you hold or anticipate a Michigan certificate? Certificate is held
+Michigan Certification System Look-Up
+Type Certificate Number Expiration Date Status
+Physical Education  (MB), Sp.Ed. - Autism  (SV)) 
+Please list any other endorsements and/or verifications documented on your certificate(s):
+Do you hold a current out-of-state certificate?
+State Type Certificate Number Expiration Date Current?
+List your out-of-state certified teaching/administration fields:
+Statement
+TCA1. Describe the skills or attributes you believe are necessary to be an outstanding teacher.
+I believe there many skills and attributes that are necessary to be an outstanding teacher. Some of the most important qualities are 
+passion, leadership, classroom management and content knowledge. A teacher has many roles throughout the school day, therefore 
+requires various qualities to be an outstanding educator. Throughout the school day, teachers accommodate the academic, social, and 
+emotional needs of all of their students. 
+In addition, an outstanding teacher uses excellent classroom management techniques to produce a healthy classroom that is safe, 
+resourceful and productive. An effective teacher engages all students into each lesson so they feel like they are part of the classroom 
+community. Thus, when a teacher engages all students then the students become more active in the learning process. Furthermore, an 
+outstanding teacher is extremely knowledgeable and understanding of the content being presented. It is important that teach teacher 
+159
+Page 6 of  11Generated at 8/4/2015 1:10:49 PM Central
+Do you hold National Board for Professional Teaching Standards 
+No
+K - 12 Certification   (Professional, P.E. - Health  (MA), P.E. - 
+IF0000000299357 06/30/2019 Current
+teaches a lesson dynamically as to cater to all studentsˆ¢‹¢ diverse learning styles. 
+An outstanding teacher is not only a leader but a good listener. Students seek a teacherˆ¢‹¢s guidance thus it is important that the teacher 
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Question Continued
+demonstrates leadership skills while helping students be successful in working together. An outstanding teacher is a role model to all 
+students thus must always handle each situation in an appropriate way so that students can learn from those situations as apply them to 
+their everyday life. Lastly, an outstanding teacher has the ability to influence students not only at school but within the community as 
+well.
+TCA2. How would you address a wide range of skills in your classroom?
+In order to meet I wide range of skills it is vital to differentiate instruction to meet the unique learning needs of all students. 
+Teachers can differentiate instruction in a variety of ways, some examples include: 
+Highly Qualified Teacher
+* Have you previously obtained Highly Qualified status from a school district? No
+If Yes, what type of school district considered you Highly Qualified?
+No information entered on Highly Qualified Teacher Subject(s)/Method(s).
+Statement
+SSS1. Please explain how your past personal and professional experience make you a quality candidate for the position for 
+which you are applying.
+Over the past 14 years I have had a wide range of professional and educational experiences that qualify me for a position as an 
+administrator in the field of special education. To begin, I have had many years of experience providing direct special education service 
+to countless students of a wide range of disability areas with varying degrees of cultural, and social backgrounds. Most recently my 
+involvement in multiple leadership roles, as teacher consultant, program coordinator, and principal of a center based program has 
+allowed me to gain valuable experiences in the areas of education leadership, public/community relations, conflict resolution, adult 
+learning implementation, and school administration. In addition to this skill-set, I have had an assortment of professional preparation, 
+with multiple degrees in the field of education and countless professional learning experiences. Additionally, I feel I have a deep 
+understanding of complex concepts such as, educational leadership, teaching methodologies, behavioral interventions, special education 
+programming, and the political landscape that impacts local districts, schools, and classrooms.
+Statement
+ADM1. What personal characteristics define an excellent administrator?
+To begin, as a foundation, school administrators must have strong content knowledge in public school law, finance, K-12 curriculum, and 
+professional development needs. However, this foundation only scratches the surface of the skillset of the successful school leader. 
+Administrators need to have irrepressible conflict resolution skills, interpersonal skills, organizational skills, and strong communication 
+abilities. Furthermore, the successful school leader understands the importance of shared leadership, empowering employees, encourages 
+innovation, and the importance of building a vibrant school climate and culture. Finally, a strong leader is an individual who is 
+continuously trying to improve his or her practice through expanding their skill-set and knowledge.
+ADM2. From your point of view, how important is technology in education. What technology-related skills can you 
+160
+Page 7 of  11Generated at 8/4/2015 1:10:50 PM Central
+ˆ¢‹´¢ Content ˆ¢‹ what the student needs to learn or how the student will get access to the information; 
+ˆ¢‹´¢ Process ˆ¢‹ activities in which the student engages in order to make sense of or master the content; 
+ˆ¢‹´¢ Products ˆ¢‹ culminating projects that ask the student to rehearse, apply, and extend what he or she has learned in a unit; and 
+ˆ¢‹´¢ Learning environment ˆ¢‹ the way the classroom works and feels. 
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Question Continued
+It is imperative to have a deep understanding of how technology impacts student learning, and the school environment. Keeping up with 
+technological advances, undoubtedly a challenge, is one of the most important tasks schools and local districts are faced with.
+From a personal standpoint, I implement technology to my own work experience whenever possible. I have made use of a variety of 
+computer applications and a solid understanding of how use these tools. I am always interested on how technology can make my 
+Statement
+PPS1. Describe the skills or attributes you believe are necessary to be outstanding when working in student support services.
+First off, I would acknowledge that the special education environment is very challenging and complex. I think it is important to 
+recognize this fact, because it is nearly impossible for one person to have all the answers for a student with disability. To this point, I 
+would like to emphasize the importance of making decisions through a team-based approach. Thus, a Stephen Covey quote comes to 
+world, all the stakeholders would come to an agreement regarding the programming of a specific student. This not always being the 
+case, it is important to be able resolve conflict, leave personal issues aside, and come to a consensus on difficult issues. 
+Some students with disabilities can be extremely complex and require multiple unique supports and services to succeed. It is essential to 
+keep this this in mind when working with student support services to develop specialized programming for our most challenging 
+students. Finally, there are many intricate federal and state legalities when it comes to supporting students with disabilities. Having a 
+PPS2. How would you address a wide range of issues in your groups?
+and on topic is one approach that I have used in the past. When issues arise off the agenda, it is important to acknowledge those thoughts 
+in some capacity and attempt to redirect back to the agenda. Most often, I feel the key is to focus on one issue at a time, getting caught 
+up in off topic issues is usually a lost battle. Meeting facilitators need to stay focused, and keep the group focused on one topic. 
+importance (or lack there of) of the the problem, and know where the conversation may be going, redirecting as needed. As a final 
+to irrational decision making.
+Language Skills
+Do you know any language other than English? No
+161
+Page 8 of  11Generated at 8/4/2015 1:10:50 PM Central
+professional life more effective and efficient, often exploring new technology. As a school leader, I feel it is vital to ˆ¢‹¯ lead by 
+exampleˆ¢‹´ and make use of technology when circumstances present themselves. 
+mind when working within the special education environment, which is, ˆ¢‹¯ seek first to understand then to be understoodˆ¢‹´. In a perfect 
+deep understanding of these requirements is imperative when working to suppoprt students with IEPˆ¢‹¢s.
+Facilitating groups can be both a science and an art form. Many issues may arise and ˆ¢‹¯ snowballˆ¢‹´ if the facilitator is not skilled in 
+leading meetings, and lacks experience. From a ˆ¢‹¯ scienceˆ¢‹´ standpoint, using systems, such as meeting mechanics to keep people focused 
+The ˆ¢‹¯ art formˆ¢‹´ of facilitating groups comes from experience and a sense of how far to go with certain issues, understanding the 
+point, and as someone who has been involved in many ˆ¢‹¯ issuesˆ¢‹´, I think it is vital not to engage emotionally, as this will most often lead 
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Professional References
+Reference 1 Reference 2
+Name: John Silveri Nadine Milostan
+School/Org: Waterford School District Waterford School District
+Current Position: Former Superintendent Executive Director of Student Support 
+Services
+Home Phone:
+Cell Phone: (248) 420-9354
+Work Phone: (248) 682-0258
+Mailing Address: 1328 Copper Circle, Rochester, MI 48306 501 N. Cass Lake Rd 
+Waterford Mi 
+48328
+Email: silverijg@gmail.com milosn01@wsdmi.org
+Relationship to Candidate: Supervisor Supervisor
+Years Known: 38
+Reference 3 Reference 4
+Name: John Gregory Kathy Barker
+School/Org: Waterford School District Oakland Schools - ISD
+Current Position: Special Education Supervisor Executive Director of Student Support 
+Services
+Home Phone:
+Cell Phone:
+Work Phone: (248) 494-9027 248.209.2533
+Email: gregoj01@wsdmi.org kathleen.barker@oakland.k12.mi.us
+Relationship to Candidate: Colleague Colleague
+Years Known: 52
+Additional Information
+List any additional information which will help in determining your professional qualifications for a position.
+Additional Info. (cont.)
+Contract Status
+*  Are you currently under contract? Yes
+    If Yes, which district? Waterford
+    If Yes, when does it expire? 06/30/2015
+    When may your present employer be contacted? Immedietly
+Professional Status
+*  Have you obtained tenure status in any other School District? Yes
+    If Yes, where? Waterford
+162
+Page 9 of  11Generated at 8/4/2015 1:10:50 PM Central
+Mailing Address: 501 N. Cass Lake Rd 
+Waterford Mi 
+48328
+Oakland Schools 
+2111 Pontiac Lake Rd 
+Waterford Charter Township, MI 48328
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Additional Info. (cont.) continued
+    When? 09/2010
+*  Have you ever been denied tenure? No
+If Yes, explain: 
+*  Have you ever had a teaching certificate or teaching license revoked or suspended? No
+If Yes, explain: 
+termination, or terminated from employment? 
+If Yes, explain: 
+applying, with or without reasonable accommodation? 
+List any accommodations: 
+Referrals
+How did you hear about employment with us?
+OHRC Website
+Equal Opportunity Employer
+Each school district in the Oakland Human Resources Consortium is an Equal Opportunity Employer. Each school district ensures 
+employment opportunities regardless of race, creed, sex, color, national origin, religion, age or handicap.  Any individual needing 
+assistance in making an application for any vacancy should contact the Human Resources/Personnel Office in the school district with 
+the vacancy.
+Legal Information
+Please Note: Applicants are not obligated to disclose sealed or expunged records of conviction or arrest.
+* Are you eligible to work in the United States? Yes
+* Have you ever been convicted of a criminal offense other than a minor traffic violation? No
+ If yes, explain, giving dates:
+163
+Page 10 of  11Generated at 8/4/2015 1:10:51 PM Central
+*  Have you ever failed to be rehired, been asked to resign a position, resigned to avoid 
+No
+*  Can you perform all the essential job function(s) of the position(s) for which you are 
+Yes
+Oakland Human Resources Consortium Online Application
+Dean, Adrian - SC: % | TC: % - AppNo: 128154 Date Submitted: 7/22/2015
+Confirmation
+     All applicants are advised that the making of a willfully false statement or knowing omission of any employment history on this 
+application may constitute a Class A misdemeanor and that the information that I have provided on this application is true and complete 
+to the best of my knowledge.
+Adrian J Dean
+(agreed online)
+164
+Page 11 of  11Generated at 8/4/2015 1:10:51 PM Central
+Adrian Dean
+1101 East Cook
+Grand Blanc, MI 48439
+To Whom It May Concern:
+It is with great excitement that I apply for an educational leadership position with school 
+districts within Oakland County!  With over 15 years of diverse experiences in the K-12 
+education profession, I feel I will be a valuable asset and strong educational leader. 
+Most recently, as Principal of Kingsley Montgomery School, I have provided leadership to 
+one of Oakland County’s largest “programs for all”.  Within this current position, it is most 
+important to me to ensure that Oakland County students with disabilities have access to 
+specialized programming that meet their unique, and often, complex needs.  This experience 
+has allowed me to gain countless valuable skills, including, leading over 70 employees, 
+conflict resolution, collaborating with families, facilitating small and large groups in 
+professional development, problem solving within a systematic team approach, and leading 
+staff in designing specialized education interventions and programs for some of Oakland 
+County’s most intricate students. 
+Previous to my position as principal, I provided consultative services on behalf of students 
+with autism spectrum disorder, and behavioral challenges.  Within this role I collaborated 
+with staff on the implementation of evidence based approaches for students with ASD, 
+positive behavioral interventions and supports, functional behavior assessments, and 
+maximizing inclusive opportunities to ensure students reach their full education potential. 
+Furthermore this opportunity allowed me to advise district administration on the redesign 
+of the school districts pre-k through postsecondary ASD programs and service delivery.  
+In addition to my extensive professional background, you will see that I have had numerous 
+respected education and professional development experiences. Beyond my education 
+specialist degree, I am currently perusing administrative certifications in the following 
+areas; K-12 administration, special education and central office. Additionally, as outlined on 
+my resume, I have attended numerous professional development opportunities that have 
+strengthened my leadership skills.  I believe my current skillset and knowledge are 
+expansive, yet I continue to grow and develop to meet the ever evolving challenges of public 
+education.   
+It is my combination of passion for student success, leadership experience and my 
+dedication to being a lifelong learner that I feel will greatly benefit school districts.  I am 
+excited to discuss how I can contribute in leading your school district’s vision and mission 
+in greater detail with you.  Please feel free to contact me if you require additional 
+information in considering me as an interview candidate.
+Sincerely,
+Adrian Dean
+165
+May 12
+th, 2015
+166
+WATERFORD SCHOOL DISTRICT
+STUDENT SUPPORT SERVICES
+501 N. CASS LAKE ROAD
+WATERFORD, MI  48328
+John H. Gregory, Supervisor
+Student Support Services Department
+Phone: (248) 682-3242
+Email:gregoj01@wsdmi.org
+May 6, 2015
+Re: Recommendation for Adrian Dean
+I am pleased to recommend Adrian Dean for a position as a Special Education Administrator.  I 
+have worked with Adrian in the Waterford School District in his roles as both a consultant for 
+students with Autism and as Supervisor of the Kingsley Montgomery School.
+Adrian has classroom and consultant experience working with students with a variety of 
+challenges including Autism and Emotional Impairments.  Adrian made a successful transition to 
+his current administrative role, replacing me as administrator at Kingsley Montgomery School 
+(KMS).  Adrian was at KMS the previous year in a consultant capacity working intimately with 
+the various programs at the school.  In his new capacity, he quickly learned the many aspects of 
+the position as an administrator.  Adrian has a confident approach to his work and shows sound 
+judgment by asking for input from stakeholders regarding how best to address challenging and 
+complex situations.  He is able to lead others to reach collaborative decisions, while employing 
+the resources necessary to guide sound decision making.     
+Adrian is self-motivated and fulfills his job expectations with little to no supervision.  He readily 
+develops professional relationships within the school district and in the community of special 
+educators.  Adrian is well respected by those staff whom he supervises.  He has brought 
+positive changes to the programs at KMS and holds his staff to high expectations.  Adrian is a 
+lifelong learner who seeks out opportunities to develop professionally through professional 
+organizations, workshops and the relationships he has worked to build with other programs. 
+It has been my pleasure to work with Adrian.  I am confident you will find him to be an excellent 
+candidate for this position.   I am available to respond to any specific questions you may have 
+and can be reached at 248-494-9027.
+Sincerely,
+John H. Gregory, M Ed.
+Student Support Services Supervisor
+Inspire, educate, and empower our students for the future.
+167
+168
+	
+
+
+		
+		
+
+ 
+	
+
+
+
+
+ 
+!"#$!	%	!		
+$	
+!$	 
+	
+	
+
+			
+		
+	
+
+			
+
+
+				
+		
+
+	
+
+	
+	
+	
+		
+	
+
+			
+
+
+
+	
+
+
+	
+	
+	
+			
+
+
+	
+								
+	
+			
+
+
+	
+
+
+
+	
+	 
+!"	
+
+	
+!#$		
+%
+
+			&			
+
+	
+!#		
+
+
+
+			
+		
+
+			
+
+& 
+	$	$		
+""!	'
+!
+"
+$ 
+	
+		
+	
+
+	
+	
+				
+
+( 	
+	
+	)%%
+
+
+		
+	
+'		
+
+
+&		
+
+	
+
+
+* 	
+	)%%
+(		)*
+				(
+	
+	
+						
+	
+
+		
+	+		,(		
+	
+
+		
+			
+	(
+						
+
+
+
+	
+		
+)			
+				
+
++
+'"
+	
+
+	
+	
+ 	
+	
+
+
+169
+	
+	
+		
+	
+
+	
+
+
+	
+
+
+
+
+	
+
+
+	
+		
+		
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+ 
+
+	
+
+	
+		
+
+
+!		
+
+
+	
+
+	 		
+	
+	 
+
+
+	
+	
+
+	 
+
+			
+
+	
+	
+	
+
+!	
+
+
+
+
+
+
+		
+	
+
+	
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+	
+	
+		
+
+
+ 
+		
+
+	
+!
+ 
+	
+	 	
+		
+		
+
+	
+	
+	
+	
+	
+	
+		
+!
+
+	
+		
+
+		 	 	
+
+
+	
+
+
+!	
+	
+
+
+	
+
+	
+	
+
+	
+
+	
+ 	
+	!"#	
+
+
+$
+$
+!	
+%&
+
+
+'
+	
+
+
+
+	
+
+
+(
+			'
+
+170
+Adrian Dean, Ed. S.
+1101 East Cook Road
+Grand Blanc, MI 48439
+313-655-9595
+Deana01@wsdmi.org
+Professional Profile
+Currently, as Principal of Kingsley Montgomery School I am a dedicated and highly motivated educational 
+administrative professional with a proven track record for leading and implementing successful research-based 
+programs.  My areas of high expertise include PBIS, differentiated instruction, data analysis, adult 
+learning/professional development, school climate/culture, special education services, and athletic 
+administration. Alongside a goal oriented staff and administration, I look forward to supporting educational 
+needs of all students. 
+Professional Experience
+Principal, Kingsley Montgomery School 
+Waterford School District
+10/2013 – 06/30/2015
+education plans
+and preparation
+student’s needs 
+possible in the life of the school
+relationships can thrive
+programming for those students with significant cognitive, physical, and emotional disabilities.
+Updated 06/23/2015
+171
+ Supervise and facilitate the daily operations of a county center based program for students with individual 
+ Evaluate teaching staff on curriculum delivery, classroom management, professional responsibilities and planning 
+ Provide school leadership in effective positive data driven behavioral management systems and interventions
+ Oversee and manage school budget in purchasing supplies, teaching equipment, and materials to support 
+ Oversee compliancy of local, state and federal legal requirements for students with disabilities. 
+ Support relationships with parents, characterized by good communication strategies and involving parents where 
+ Design, provide and implement professional development activities 
+ Ensure an orderly and motivational culture and a strong school community where teaching, learning and healthy 
+ Work in a collaborative partnership with all Oakland County School Districts in providing educational 
+Adrian Dean
+Resume Continued
+Updated 04/17/2015
+Teacher/Behavior Consultant 
+Waterford School District   
+08/2012 – 10/2013
+ Provide consultation to teaching staff in areas such as instructional methods, evaluation, behavior  management      
+and problem solving   for students with autism spectrum disorder
+ Provide behavior consultation to staff on behalf of students with severe emotional and mental health needs
+ Participate in Individualized Education Planning Team (IEPT) meetings 
+ Assist in the coordination of program curriculum design, development and implementation.
+ Develop, seek and implement professional development initiatives for staff
+ Work with community agencies to coordinate the delivery of services to students.
+ Assist with the coordination, development and implementation of transitional programs and services for students
+ Consult with administration regarding the individualized needs of students
+ Work closely with district administration on problem solving a variety of issues pertaining to special    
+education programs and services
+Professional Experience Cont.
+Special Education Teacher – Autism Spectrum Disorders
+Waterford School District   
+08/2008 – 03/2012
+ Work collaboratively with a variety of school staff to ensure implementation student’s IEP’s 
+ Pre-plan, collaborate with staff and parents on the development of IEP’s
+ Facilitate IEP meetings
+ Design and implement individualized behavior improvement plans
+ Manage situations when students were in a state of emotional crisis 
+ Design individualized programs to meet the needs of students
+ Manage paraprofessional staff to implement detailed lesson & behavioral plans
+Physical Education Teacher
+Detroit Public Schools
+08/2000 – 08/2008
+ Plan & instruct physical education curriculum for grades K-8
+ Teach individual and team sports skills
+ Instruct students on fitness activities and healthy lifestyle habits
+ Assist in the implementation of a 3 year $75,000 MDE funded grant to promote healthy lifestyles
+ Collaborate with special education staff to meet the needs of students with IEP’s
+ Develop and implement behavior management strategies for large groups of students
+172
+Adrian Dean
+Resume Continued
+Professional Education
+Education Specialist
+Major: Education Administration (K-12, Special Education Administration, Central Office Administration) 
+Wayne State University, Detroit Michigan
+Anticipated: 12/2016
+Education Specialist
+Major: Special Education
+Focus:  Autism Spectrum Disorders
+Wayne State University, Detroit Michigan
+01/2007 -12/2009
+Master of Arts
+Major: Athletic Administration
+Wayne State University, Detroit Michigan
+01/2003 -12/2005
+Bachelor of Science
+Major: Physical Education   Minor: Health Education
+Eastern Michigan University, Ypsilanti Michigan
+09/1995 – 05/2000
+Recent Professional Development
+Updated 04/17/2015
+173
+ Michigan Association of Administrators of Special Education (MAASE) Legislative Action Day (04/2015)
+ MAASE conference on Adult Learning (12/2015)
+ MAASE Developing Leaders workshop (10/2014)
+ MAASE Workshop on Positive Behavior Supports (12/2013)
+ MAASE Winter Institute (2013)
+ Statewide Autism Resources and Training (START) 7 module Intensive training (2012-13)
+ Oakland Schools - Autism Diagnostic Observation Schedule Training (8/2012)
+ MAASE Summer Institute (8/2012)
+ Oakland University Symposium on Autism Spectrum Disorders (3/2012)
+ Statewide Autism Resources and Training Annual Conference (4/2011)
+ Statewide Autism Resources and Training Annual Conference (4/2010)
+Adrian Dean
+Resume Continued
+Updated 04/17/2015
+174
+  
+Academic Transcript 
+In accordance with the Family Educational Rights and Privacy Act of 1974, information from this  
+transcript may not be released to a third party without written consent of the student.
+O
+              This official university transcript does not require a raised seal.
+Registrar’s Signature:
+     Student No: 000512467                                        
+    Student UIC: 3328185866
+     Record of: Adrian James Dean                                 
+                1101 East Cook
+                Grand Blanc, MI 48439
+     Issued To: Adrian Dean
+                deana01@wsdmi.org
+  Course Level: Graduate
+    Only Admit: Winter 2003                                       
+                                                                  
+ Current Program                                                  
+            College : College of Education                        
+              Major : General Admin & Supervision
+                                                                  
+ Degree Awarded Master of Arts 15-DEC-2005                        
+ Primary Degree                                                   
+            College : College of Education                        
+              Major : Sports Administration
+                                                                  
+ Degree Awarded Education Specialist Cert 22-DEC-2009             
+ Primary Degree                                                   
+            College : College of Education                        
+              Major : Special Education                           
+  Maj/Concentration : Autism Spectrum Disorders
+                                                                  
+ SUBJ  NO.              COURSE TITLE           CRED GRD     PTS R 
+ _________________________________________________________________
+ INSTITUTION CREDIT:                                              
+                                                                  
+ Winter 2003                                                      
+ P E  6410     Intr Sports Admn                3.00 B+     9.99
+         Ehrs:  3.00 GPA-Hrs: 3.00   QPts:     9.99 GPA:   3.33   
+                                                                  
+ Fall 2003                                                        
+ KHS  6570     Sprts Mrrketng                  3.00 A     12.00   
+ KHS  7310     Cllegt Athltc Admn              3.00 B      9.00
+         Ehrs:  6.00 GPA-Hrs: 6.00   QPts:    21.00 GPA:   3.50   
+                                                                  
+ Winter 2004                                                      
+ KHS  7300     Intrschl Ath Drctg              3.00 A-    11.01   
+ KHS  7580     Entrepnrsp&Fundrsg              2.00 A      8.00   
+ ******************** CONTINUED ON NEXT COLUMN *******************
+                                      
+                                      
+SUBJ  NO.              COURSE TITLE   
+_____________________________________
+_
+Institution Information continued:
+        Ehrs:  5.00 GPA-Hrs: 5.00   QP
+Fall 2004
+KHS  5740     Fclt Plng Dgn&Cnsrn     
+KHS  7500     Research in KHS         
+        Ehrs:  7.00 GPA-Hrs: 7.00   Q
+P
+Winter 2005
+KHS  6640     Legal Issues: HPR       
+KHS  7540     Concepts: Mgt: HPR      
+KHS  8750     Internsp: KHS           
+        Ehrs: 10.00 GPA-Hrs: 10.00  Q
+P
+Spring/Summer 2005
+KHS  6660     Rsk Mgt: P E&Sports     
+        Ehrs:  3.00 GPA-Hrs: 3.00   Q
+P
+Fall 2005
+KHS  6540     Wrkshop: KHS            
+        Ehrs:  2.00 GPA-Hrs: 2.00   QP
+Winter 2008
+ELE  6010     Famly Colabn: Erl Ch Iv
+t
+SED  7030     Dyn Assmnt: Erl Chld Sp 
+        Ehrs:  6.00 GPA-Hrs: 6.00   QP
+Spring/Summer 2008
+SED  6021     Intro:Autsm Spctrm Dsrd
+r
+SED  6030     Autsm Spctm Dsdr(ASD):Ed
+        Ehrs:  6.00 GPA-Hrs: 6.00   QP
+********************* CONTINUED ON PAG
+This document is official only if obtained directly from Wayne State University.
+175
+TO TEST FOR AUTHENTICITY:  This transcript should only be considered official when downloaded
+directly from Wayne State University's website via the link provided in the email from
+transcripts@wayne.edu.  Do not accept hand-carried or pre-printed transcripts with this notice, nor
+forwarded emails from any other address.
+In Accordance with the Federal Family Educational Rights a
+n
+Act of 1974, you are advised that this information is provided 
+condition that you, your agents, or employees will not permit a
+party to have access to such information, in personally identi f
+without first obtaining written consent of the student.
+AUTHENTICATION OF THIS TRANSCRIPT
+ACADEMIC CALENDAR
+UNDERGRADUATE GRADES
+GRADUATE GRADES
+MARKS
+SCHOOL OF LAW
+HONOR POINT SYSTEM
+COURSE LEVEL
+REPEATED COU
+REQUIREMENT
+ACCREDITATIO
+Undergraduate:
+Graduate:
+EXPLANATORY NOTES
+Wayne State University
+Office of the Registrar
+Detroit, Michigan 48202
+(313) 577-3531
+A transcript is official when it is downloaded by the recipient directly
+from Wayne State University's website.  Do not accept printed copies
+of this transcript.  Further authentication can be obtained by calling the
+Office of the Registrar at Wayne State University at  (313) 577-3531
+or emailing transcripts@wayne.edu.
+Fall 1980 to present, based on semester system (each semester
+equals 15 weeks); Fall 1962 to Summer 1980, based on quarter
+system (each quarter equals 11 weeks), prior to September 1962
+based upon semester system.
+Grades ending with X reflect credit by exam or Accelerated
+Graduate program.
+Grades ending in NC are for courses that cannot earn credit towards
+graduation.
+Wayne State Univ
+e
+university and is ac
+North Central Asso
+and Colleges.
+Only degrees comp
+two weeks prior to 
+commencement da
+requirements comp
+Effective Fall 1969
+the honor points an
+attempts and these 
+attempt provided th
+of A, A-, B+, B, B-
+forward, repeats ar
+(Include in the GP
+A
+courses prior to Wi
+repeats are indicate
+For repeated course
+1969, contact the O
+Registrar.
+A separate grading system is used for students in the graduate-
+professional (Juris Doctor) program.
+The honor point average (gpa) is computed by multiplying the
+honor points assigned to each course grade by the number of credit
+hours for each course, adding the results and dividing by the total
+number of credit hours.
+                              A grade point average of 2.00 is required for
+graduation.
+                     A grade point average of 3.00 is required for graduation.
+This grade point system became effective in Fall 1959.
+0000-0999         N
+o
+1000-1999         Fr
+2000-2999         Pr
+3000-4999         Pr
+5000-6999         Pr
+                           ta
+                           gr
+7000-8999         Op
+9000-9999         Gr
+                           st
+Symbol
+A
+A-
+AX
+A-X
+B+
+B
+B-
+B+X
+BX
+C+
+C
+D/F
+F
+M
+S
+U
+Value
+Excellent
+Excellent
+Excellent
+Excellent
+Good
+Good
+Good
+Good
+Good
+Fair
+Fair
+Failure
+Failure
+Marginal Pass
+Satisfactory
+Unsatisfactory
+Points
+4.00
+3.67
+n/a
+n/a
+3.33
+3
+2.67
+n/a
+n/a
+2.33
+2
+n/a
+0
+n/a
+n/a
+n/a
+Earned Hrs.
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+N
+Y
+Y
+N
+GPA Hrs.
+Y
+Y
+N
+N
+Y
+Y
+Y
+N
+N
+Y
+Y
+N
+Y
+N
+N
+N
+Grades ending with X reflect credit by exam
+I
+Y
+X
+W
+Incomplete
+Deferred
+Insufficient Work*
+Official Withdrawal*
+Z
+NR
+WF
+WP
+WN
+Audit
+Not Reported
+Withdrawal Failing*
+Withdrawal Passing*
+Withdrawal Never
+Attended*
+*Effective Fall 2006, the marks X and W were eliminated.  WF, WP
+  and WN were added as withdrawal marks.
+Symbol
+A
+A-
+AX
+B+
+B
+B-
+BX
+C+
+C
+C-
+CX
+D+
+D
+D-
+DX
+E
+F
+M
+MNC
+N
+NE
+P
+S
+SNC
+U
+UNC
+Value
+Excellent
+Excellent
+Excellent
+Good
+Good
+Good
+Good
+Fair
+Fair
+Fair
+Fair
+Poor
+Poor
+Poor
+Poor
+Failure
+Failure*
+Marginal Pass
+Marginal Pass
+No Pass
+Nursing Exam
+Pass
+Satisfactory
+Satisfactory
+Unsatisfactory
+Unsatisfactory
+*Effective Fall 2006, the grade E was replaced by F
+Points
+4.00
+3.67
+n/a
+3.33
+3.00
+2.67
+n/a
+2.33
+2.00
+1.67
+n/a
+1.33
+1.00
+0.67
+n/a
+0.00
+0.00
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+Earned Hrs
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+N
+N
+Y
+N
+N
+Y
+Y
+Y
+N
+N
+N
+GPA Hrs.
+Y
+Y
+N
+Y
+Y
+Y
+N
+Y
+Y
+Y
+N
+Y
+Y
+Y
+N
+Y
+Y
+N
+N
+N
+N
+N
+N
+N
+N
+N
+176
+In accordance with the Family Educational Rights and Privacy Act of 1974, information from this  
+transcript may not be released to a third party without written consent of the student.
+     Student No: 000512467                                        
+     Record of: Adrian James Dean                                 
+                  Earned Hrs  GPA Hrs 
+TOTAL INSTITUTION      76.00    74.00 
+TOTAL TRANSFER          0.00     0.00 
+OVERALL                76.00    74.00 
+ _________________________________________________________________
+ Institution Information continued:
+ Fall 2008
+ SED  5140     Behavr Mgt:Postv Supprt         3.00 A-    11.01
+ SED  6050     Lang Cmucn Dvpt&Intvtns         3.00 A     12.00
+         Ehrs:  6.00 GPA-Hrs: 6.00   QPts:    23.01 GPA:   3.83
+ Winter 2009
+ Requirements Completed 08/21/2009 for
+ Educ Spec Cert
+ SED  5030     Ed: Exceptional Chld            3.00 A     12.00
+ SED  5090     Transitions:Stdts w/Disabils    3.00 A     12.00
+ SED  7800     Prctm-Itshp:Specl Ed            3.00 A     12.00
+ SED  7800     Prctm-Itshp:Specl Ed            3.00 A-    11.01
+         Ehrs: 12.00 GPA-Hrs: 12.00  QPts:    47.01 GPA:   3.91
+ Winter 2014
+ EDA  7620     Intr: Administration            4.00 A     16.00
+ EDA  8650     Staf Dvpt&Scl Ipvmt             4.00 A     16.00
+         Ehrs:  8.00 GPA-Hrs: 8.00   QPts:    32.00 GPA:   4.00
+ Spring/Summer 2014
+ EDA  7820     Emergnt Polcy: Spec Ed          2.00 S      0.00
+         Ehrs:  2.00 GPA-Hrs: 0.00   QPts:     0.00 GPA:   0.00
+ Fall 2014
+ IN PROGRESS WORK
+ EDA  7800     Admn&Spvn: Spec Ed              4.00 IN PROGRESS
+              In Progress Credits     4.00
+ ******************** CONTINUED ON NEXT COLUMN *******************
+Registrar’s Signature:
+177
+Academic Transcript 
+O
+              This official university transcript does not require a raised seal.
+         Level: Graduate                                          
+ SUBJ  NO.              COURSE TITLE           CRED GRD     PTS R 
+********************** TRANSCRIPT TOT
+A
+********************** END OF TRANSCRI
+This document is official only if obtained directly from Wayne State University.
+TO TEST FOR AUTHENTICITY:  This transcript should only be considered official when downloaded
+directly from Wayne State University's website via the link provided in the email from
+transcripts@wayne.edu.  Do not accept hand-carried or pre-printed transcripts with this notice, nor
+forwarded emails from any other address.
+In Accordance with the Federal Family Educational Rights a
+n
+Act of 1974, you are advised that this information is provided 
+condition that you, your agents, or employees will not permit a
+party to have access to such information, in personally identi f
+without first obtaining written consent of the student.
+AUTHENTICATION OF THIS TRANSCRIPT
+ACADEMIC CALENDAR
+UNDERGRADUATE GRADES
+GRADUATE GRADES
+MARKS
+SCHOOL OF LAW
+HONOR POINT SYSTEM
+COURSE LEVEL
+REPEATED COU
+REQUIREMENT
+ACCREDITATIO
+Undergraduate:
+Graduate:
+EXPLANATORY NOTES
+Wayne State University
+Office of the Registrar
+Detroit, Michigan 48202
+(313) 577-3531
+A transcript is official when it is downloaded by the recipient directly
+from Wayne State University's website.  Do not accept printed copies
+of this transcript.  Further authentication can be obtained by calling the
+Office of the Registrar at Wayne State University at  (313) 577-3531
+or emailing transcripts@wayne.edu.
+Fall 1980 to present, based on semester system (each semester
+equals 15 weeks); Fall 1962 to Summer 1980, based on quarter
+system (each quarter equals 11 weeks), prior to September 1962
+based upon semester system.
+Grades ending with X reflect credit by exam or Accelerated
+Graduate program.
+Grades ending in NC are for courses that cannot earn credit towards
+graduation.
+Wayne State Univ
+e
+university and is ac
+North Central Asso
+and Colleges.
+Only degrees comp
+two weeks prior to 
+commencement da
+requirements comp
+Effective Fall 1969
+the honor points an
+attempts and these 
+attempt provided th
+of A, A-, B+, B, B-
+forward, repeats ar
+(Include in the GP
+A
+courses prior to Wi
+repeats are indicate
+For repeated course
+1969, contact the O
+Registrar.
+A separate grading system is used for students in the graduate-
+professional (Juris Doctor) program.
+The honor point average (gpa) is computed by multiplying the
+honor points assigned to each course grade by the number of credit
+hours for each course, adding the results and dividing by the total
+number of credit hours.
+                              A grade point average of 2.00 is required for
+graduation.
+                     A grade point average of 3.00 is required for graduation.
+This grade point system became effective in Fall 1959.
+0000-0999         N
+o
+1000-1999         Fr
+2000-2999         Pr
+3000-4999         Pr
+5000-6999         Pr
+                           ta
+                           gr
+7000-8999         Op
+9000-9999         Gr
+                           st
+Symbol
+A
+A-
+AX
+A-X
+B+
+B
+B-
+B+X
+BX
+C+
+C
+D/F
+F
+M
+S
+U
+Value
+Excellent
+Excellent
+Excellent
+Excellent
+Good
+Good
+Good
+Good
+Good
+Fair
+Fair
+Failure
+Failure
+Marginal Pass
+Satisfactory
+Unsatisfactory
+Points
+4.00
+3.67
+n/a
+n/a
+3.33
+3
+2.67
+n/a
+n/a
+2.33
+2
+n/a
+0
+n/a
+n/a
+n/a
+Earned Hrs.
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+N
+Y
+Y
+N
+GPA Hrs.
+Y
+Y
+N
+N
+Y
+Y
+Y
+N
+N
+Y
+Y
+N
+Y
+N
+N
+N
+Grades ending with X reflect credit by exam
+I
+Y
+X
+W
+Incomplete
+Deferred
+Insufficient Work*
+Official Withdrawal*
+Z
+NR
+WF
+WP
+WN
+Audit
+Not Reported
+Withdrawal Failing*
+Withdrawal Passing*
+Withdrawal Never
+Attended*
+*Effective Fall 2006, the marks X and W were eliminated.  WF, WP
+  and WN were added as withdrawal marks.
+Symbol
+A
+A-
+AX
+B+
+B
+B-
+BX
+C+
+C
+C-
+CX
+D+
+D
+D-
+DX
+E
+F
+M
+MNC
+N
+NE
+P
+S
+SNC
+U
+UNC
+Value
+Excellent
+Excellent
+Excellent
+Good
+Good
+Good
+Good
+Fair
+Fair
+Fair
+Fair
+Poor
+Poor
+Poor
+Poor
+Failure
+Failure*
+Marginal Pass
+Marginal Pass
+No Pass
+Nursing Exam
+Pass
+Satisfactory
+Satisfactory
+Unsatisfactory
+Unsatisfactory
+*Effective Fall 2006, the grade E was replaced by F
+Points
+4.00
+3.67
+n/a
+3.33
+3.00
+2.67
+n/a
+2.33
+2.00
+1.67
+n/a
+1.33
+1.00
+0.67
+n/a
+0.00
+0.00
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+n/a
+Earned Hrs
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+N
+N
+Y
+N
+N
+Y
+Y
+Y
+N
+N
+N
+GPA Hrs.
+Y
+Y
+N
+Y
+Y
+Y
+N
+Y
+Y
+Y
+N
+Y
+Y
+Y
+N
+Y
+Y
+N
+N
+N
+N
+N
+N
+N
+N
+N
+178
+Adams,   Felicia
+Alexander,   Sarah‐Beth
+Allison,   Michelle
+Anders,   Rebecca
+Balintfy,   Nicole
+Barterian,   Stephanie
+Bauerle,   Chris
+Bracken,   Kelli Bracken
+Breakiron,   Julie
+Brown,   Dwayne
+Caruana,   Mary
+Chynoweth,   Ashley
+Copple,   Molly
+Corbelli,   Cristina
+Corridor,   Michael
+Cote,   Maribeth
+Cunningham,   Jacquelyn
+Dean,   Adrian
+Delpy,   Lynn
+DeVault,   Joseph
+Dickerson,   Justin
+Dixon,   Traci
+Dreyer,   David
+DuPuy,   Courtney
+EDWARDS,   KEVIN
+Ellias,   Alan
+Farquhar,   Nicole (Nic)
+Fessler,   Jessica
+Fowler,   Gail
+Galvin,   Danna
+Green,   Tammora
+Greenaway,   Deborah
+Greenberg,   Jay
+Guadalupe,   Sarah
+Halliday,   Christine
+Harris,   Anita
+Hauncher,   Brittany
+Hawkshaw,   John
+Henderson,   Tracye
+Hill,   Jennifer
+Hollowell,   Keith
+Holt,   Jessica
+Hopkins,   Paula
+Horvatich,   Lisa
+Iras,   Giovanna
+Jones,   Chondra
+Kendrick‐Potts,   Kelly
+LeRoy,   Adam
+179
+ JobID: 18082 - Supervisor, Special Education - TSD Services BuildingFull Name
+Lewis,   Concetta Page 1 of 2
+Lounds,   Kenneth
+Lowe,   Amy
+Lucas,   Matthew
+Lyszczyk,   Robin
+Marsh,   Athena
+McNeary‐Bass,   Shlanda
+Miller,   Wanda
+Moore,   Nichole
+Muylaert,   Melissa
+Nance,   Judith
+Nowka,   Derek
+Oermann,   Jerry
+OKopski,   Marie
+Palmateer,   Karen
+Powell,   Trienere
+Raucher,   Aryeh
+Rawsky,   Amanda
+Richardson,   Eleonora
+Richardson,   Joyce
+Robinson,   Lorretta
+Roby,   Anita
+Rogers,   Jennifer
+Rood,   Lura
+Rose,   Deni
+Ruiz,   Renee
+Schabel,   Maureen
+Schimandle,   Deborah
+Seckel,   Sara
+Sell,   Michelle
+Shah,   Tripti
+Shepich,   Dianne
+Smith,   Natashia
+Smith,   Natashia
+Stoler,   Robert
+Struzik,   Sarah
+Swatosh,   Diane
+Symington,   Todd
+Theophelis,   Anastasia
+Thompson,   Annette
+Threlkeld‐Brown,   Jan
+Tomlingson,   Stacy
+Townsend,   Sonya
+Tymes,   Trena
+Walton,   Julia
+Watts,   Devonna
+Watts,   Kellise
+Waymaster,   Sean
+Windell,   Jane
+Page 2 of 2
+Young‐Bowie,   LaTisha
+180
+ JobID: 18082 - Supervisor, Special Education - TSD Services BuildingLockhart,   Christopher
+ 7. A.  08.04.15 
+7. CURRICULUM 
+A. CONSIDERATION:   Schools of Choice - Section 105c 
+     9th Grade for 2016 – 2017  
+In accordance with Michigan  state law, school districts  shall pass a resolution 
+each school year if they intend to participate in a Schools of Choice program.  It 
+is anticipated that seats will be available for the 2016-2017 school year for grade 
+9 at the International Academy East.  It would be appropriate at this time to 
+consider adopting a Schools of Choice section 105c resolution for 90 non-resident 
+9th grade students who attend a district in another county, if that intermediate 
+school district is contiguous with the Oakland Intermediate School District 
+boundaries.   
+RECOMMENDED ACTION:  Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+ Moved by: __________________________ 
+ Supported by: __________________________ 
+be it therefore resolved that the Board of Education of the Troy School 
+District, exercising the option permitted by Section 105c  of the State School Aid 
+Act of 1979, as amended by Public Act 300 of 1996, will accept applications for a 
+Schools of Choice program for the 2016-2017 school year for 90 non-resident 9th 
+grade students who attend a school district in another county if that 
+Intermediate School District is contiguous with the Oakland Intermediate School 
+District boundaries for the purposes of attending the International Academy East 
+program located in the Troy School District. 
+Yes: _________ 
+No: __________  
+181
+ 8. A.  08.04.15 
+8. BUSINESS 
+ A. CONSIDERATION:  Approval of Facility Use and Rental 
+Rates Fee Schedule 
+  In accordance with policy E -1102 “Use of School Buildings and 
+Facilities”, the fee schedules were reviewed and revised to clarify 
+user groups, simplify the rental fee schedule and communicate 
+expectations.  The revised fee schedule is presented for Board 
+approval. 
+RECOMMENDED ACTION:  Adopt the following resolution. 
+SUGGESTED RESOLUTION 
+Moved by: 
+Supported by: 
+Be it therefore r esolved that the Troy School District’s Board of Education 
+adopt the attached revised schedule of Building Rental fees. 
+Yes: 
+No: 
+182
+Troy School District 
+Troy School District 
+Building Rental Fees 
+ALL FEES- per hour with one hour minimum 
+Application Fee $20 annual fee per applicant 
+Standard Classrooms $ 20.00 $ 20.00 $ 30.00 
+Large Group Instruction  (Elementary Only) $ 40.00 - - - - - - 
+Lecture Room  (Troy High Only)  Seats 80 - - - - - - $ 50.00 
+Media Center $ 35.00 $ 40.00 $ 50.00 
+Cafeteria $ 50.00 $ 60.00 $ 75.00 
+Gymnasium $ 55.00 $ 65.00 $ 80.00 
+Auxiliary Gymnasium (High Schools Only) - - -  - - - $ 70.00 
+Sports Decks  (Athens Only) - - - - - - $ 55.00 
+Pool and Locker Rooms (High Schools Only) - - - - - - $ 150.00 
+Music, Band, Green Room or Choir Room - - - $ 40.00 $ 45.00 
+Athens Auditorium – Seats 1575 - - - - - - $ 230.00 
+Troy High Auditorium – Seats 760  - - - - - - $ 200.00 
+Stage Area Only- A special rate of $150.00 per hour will only be allowed for rehearsals if 
+authorized by the Theatre Manager and/ or the Facility Operations Coordinator. 
+183
+Elementary 
+Schools 
+Middle  
+Schools 
+High 
+Schools 
+Service Rate Charges 
+ 
+Snow Removal Services 
+ 
+ 
+Artificial Turf Rental - Rates 
+ 
+ Ancillary** Community Private 
+Practice Only  
+(No Event Manager or Rest Room 
+Access)  
+$50.00 per hour $50.00 per hour $100.00 per 
+hour 
+Game* - No Admission  
+(Includes Event Manager Services)  
+$75.00 per hour $100.00 per hour $150.00 per 
+hour 
+Game* - Admission  
+(Includes Event Manager Services)  
+$100.00 per hour $130.00 per hour $180.00 per 
+hour 
+Optional Item – Lights No Charge $22.00 per hour $22.00 per 
+hour 
+ 
+ 
+Custodial Services 
+ 
+ 
+ 
+Standard Rate  
+Overtime & Saturday 
+Sunday & Holidays 
+$18.00 per hour for all Groups 
+$25.00 per hour for all Groups 
+$36.00 per hour for all Groups 
+ 
+Grounds Services 
+Standard Rate  
+Overtime & Saturday 
+Sunday & Holidays 
+$25.00 per hour for all Groups 
+$38.00 per hour for all Groups 
+$50.00 per hour for all Groups 
+   
+Theatre Manager 
+Standard Rate  
+Overtime & Saturday 
+Sunday & Holidays 
+$40.00 per hour for all Groups 
+$60.00 per hour for all Groups 
+$80.00 per hour for all Groups 
+   
+ 
+Theatre Technicians Standard Rate  
+Sunday and Holidays  
+$15.00 per hour for all Groups 
+$20.00 per hour for all Groups 
+   
+ 
+Stage Manager Standard Rate  
+Sunday and Holidays 
+$15.00 per hour for all Groups 
+$20.00 per hour for all Groups 
+ Level of Service Required  
+  
+Facility Type  Full Service  Salting Only  Traction Control  
+    
+Elementary Schools  $       300.00  $       150.00  $      75.00 
+Middle Schools  $       650.00 $       250.00 $    150.00 
+High Schools  $       850.00 $       475.00 $    275.00 
+IAE / Niles Center  $       500.00 $       200.00 $    125.00 
+184
+ 8. B.      8.04.15 
+8. BUSINESS  
+ B.  CONSIDERATION:  VACANT PROPERTY CONSULTING 
+SERVICES 
+ In an effort to receive valuation of District owned vacant property, 
+Administration is recommending a Pre -Sale Investigation of five (5) 
+vacant lands be performed by Great Northern Consulting Group as 
+outlined in their comprehensive proposal submitted July 29, 2015.  
+ RECOMMENDED ACTION:  Accept the resolution below. 
+SUGGESTED RESOLUTION 
+ Moved by:   
+ Supported by: 
+Be it therefore resolved  that the Troy Board of Education authorize 
+administration to accept Phase I of the proposal from  Great Northern 
+Consulting Group and to proceed with Pre-Sale Investigation of  the five 
+(5) District owned  vacant properties as listed in the proposal for  an 
+amount not to exceed $17,500.00 and that this amount be approved as 
+an expenditure of the Capital Maintenance Fund. 
+ Yes: 
+ No: 
+185
+GREAT NORTHERN CONSULTING GROUP  
+1785 W. Stadium, Suite 202 
+Ann Arbor, Michigan 48103  
+Phone (734)-996-9979 
+Fax (734)-994-5709 
+July 29, 2015 
+Rick West 
+Assistant Superintendent, Business Services 
+Troy School District 
+4400 Livernois 
+Troy, MI 48098 
+Re: Pre-Sale Investigation/ Due Diligence/ Marketing  5 sites in Troy MI 
+1. Section 1 Square Lake and John R 
+2. 18 acres north of Long lake between Rochester and John R 
+3. 15 and 20 acres North of Wattles East of Livernois 
+4. 19.5 acres East of I-75 
+5. 18 acres North of Big Beaver and west of John R 
+Dear Mr. West: 
+Please find attached our proposal for the pre-sale investigation/ due diligence and 
+marketing for the 5 sites listed above. 
+I. Scope Of The Project 
+II. Compensation 
+I.  SCOPE OF THE PROJECT 
+Great Northern Consulting Group shall provide the following services on behalf of 
+The Troy School District. 
+ Phase I: PRE SALE INVESTIGATION   
+· Determine existing zoning and potential upgrades to zoning 
+· Review existing appraisals 
+· Determine availability, location and capacity of water, storm sewer, and sani-
+tary sewer.  
+· Order Title Work or review existing Title Work and attachments to deter-
+mine if any issues need to be resolved 
+· Determine approval process and work necessary for approval process for re-
+use or re-development. 
+· Determine if any development incentives are available from City 
+186
+· Prepare budget for proposed planning and due diligence items with recom-
+mendations 
+· Determine highest and best use for the site 
+· Determine Estimated Market Values  
+· Review Existing Surveys if available 
+· Review Existing environmental information if available 
+· Prepare report with recommendations and budget for due diligence and 
+marketing 
+PHASE II:  PLANNING AND DUE DILIGENCE 
+· Complete approved due diligence 
+· Prepare report on results of Due Diligence and recommendations for Mar-
+keting 
+PHASE III: MARKETING    
+· Determine method of Sale/Lease RFP   
+· Create marketing plan/ mailing list  
+· Determine deadlines if any 
+· Create marketing package and duplicate for distribution 
+· Create e-package for distribution 
+· Post RFP Package on District Web Site  
+· Distribution of marketing packages / via hard copies, CD-ROMs, and e-
+packages  
+· Prepare decision Matrix 
+· Make recommendations to District 
+*PHASE IV:  HOURLY CONSULTING  
+· After initial marketing effort Great Northern will provide the following ser-
+vices on an hourly basis approved by District.  
+· Meetings with Qualified Purchasers  
+· Assist Purchasers with Municipal approvals if necessary 
+· Assist in negotiations  
+· Attend Board meetings 
+II. COMPENSATION: 
+Great Northern Consulting Group will provide the services listed above on an hour-
+ly fee basis. Troy School District will be billed hourly on a monthly basis at a rate of 
+$185.00 per hour for Principal time and $125.00 per hour for support personnel. 
+The monthly fee does not include engineering, Title Work, Environmental studies, 
+advertisements, or printing and postage costs. However the scope of such work is at 
+the discretion of the School District. The School District must approve any and all of 
+these costs in advance in writing. These items will be added to the monthly invoice. 
+Payment for monthly billing shall be due within 30 days of receipt of invoice. 
+187
+FEE FOR EACH PHASE: 
+.   
+· Phase I:  Pre Sale Investigation:   Pre-Sale Investigation will be completed 
+for a not to exceed amount of  $17,500.00 ( If individual sites $5,000 per 
+property) 
+· Phase II: Due Diligence: After Pre- Sale Investigation is completed Great 
+Northern Consulting Group will prepare a detailed budget for recommended 
+due diligence Items including Great Northern Consulting hours required. 
+This must be approved by the District in writing. This fee Great Northern 
+Time) is estimated to be $4,000.00 ( if individual sites $1,500 per property)  
+· Phase III: Marketing:  If approved by District after due diligence completed 
+Great Northern Consulting Group will Complete Items Outlined in Phase III 
+of this proposal. This work cost shall not exceed $ 60,000.00. ( if individual 
+sites 15,000 per site) 
+· Phase IV: Hourly Consulting: After initial marketing effort Great Northern 
+will perform services outlined in Phase IV as approved by the District on an 
+hourly basis. This Fee Will not exceed $12,000 ( if individual sites $5,000 per 
+property).  
+· Please note the service menu may change after pre-sale investigation com-
+pleted or due diligence completed. The District may elect to select only cer-
+tain phases of this proposal.  
+The marketing packages will reflect the fact that the School District will not pay any 
+commission. Brokers must look to their purchaser for any commission. Additionally 
+the School District may cancel this agreement with 30 days notice at any time, for 
+any reason or no reason, with or without cause. 
+Thank you for the opportunity to present this proposal for your consideration. If 
+the proposal is acceptable please sign below. I will follow up to answer any questions 
+you may have in the next few days. 
+Sincerely, 
+William Bowman 
+President 
+__________________________ ______________ 
+Accepted by     Date   
+188
+                  10. A.  08.04.15 
+10.  OTHER 
+ A. CONSIDERATION:      Certification of Troy School District Board 
+Delegates and Alternates to the Michigan Association of School 
+Boards’ 2015 Delegate Assembly 
+  Delegates and alternates must be certified  by the Board of Education to 
+be its representatives, allowing them to make motions and vote on issues 
+at the MASB 20 15 Delegate Assembly during the MASB Fall Conference 
+October 22 - 25, 2015. 
+RECOMMENDED ACTION:  Adopt the following resolution. 
+   Moved by  
+   Supported by  
+Be It Therefore Resolved  that the Troy Board of Education hereby certifies  that 
+Paula Fleming, Gary Hauff , Nancy Philippart, and Karl Schmidt will serve as 
+delegates to the MASB 2015 Delegate Assembly October 22 - 25, 2015. 
+Yes:  
+No:  
+I certify that the above resolution was adopted at the Troy Board of Education 
+meeting on Tuesday, August 4, 2015. 
+      Paula Fleming 
+      Secretary, Troy Board of Education 
+189
+/uni0032/uni0030/uni0031/uni0035/uni0020/uni004D/uni0041/uni0053/uni0042/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0041/uni0073/uni0073/uni0065/uni006D/uni0062/uni006C/uni0079 
+/uni0043/uni0065/uni0072/uni0074/uni0069/uni0066/uni0069/uni0063/uni0061/uni0074/uni0069/uni006F/uni006E/uni0020/uni006F/uni0066/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0061/uni006E/uni0064/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0047/uni0072/uni0061/uni006E/uni0064/uni0020/uni0054/uni0072/uni0061/uni0076/uni0065/uni0072/uni0073/uni0065/uni0020/uni0052/uni0065/uni0073/uni006F/uni0072/uni0074 
+/uni0054/uni0068/uni0075/uni0072/uni0073/uni0064/uni0061/uni0079/uni002C/uni0020/uni004F/uni0063/uni0074/uni002E/uni0020/uni0032/uni0032/uni002C/uni0020/uni0032/uni0030/uni0031/uni0035/uni002C/uni0020/uni0037/uni003A/uni0033/uni0030/uni0020/uni0070/uni002E/uni006D/uni002E 
+/uni0053/uni0063/uni0068/uni006F/uni006F/uni006C/uni0020/uni0044/uni0069/uni0073/uni0074/uni0072/uni0069/uni0063/uni0074 
+/uni0053/uni0065/uni006C/uni0065/uni0063/uni0074/uni0020/uni0044/uni0069/uni0073/uni0074/uni0072/uni0069/uni0063/uni0074 
+/uni0043/uni006F/uni0075/uni006E/uni0074/uni0079 
+/uni0053/uni0065/uni006C/uni0065/uni0063/uni0074/uni0020/uni0043/uni006F/uni0075/uni006E/uni0074/uni0079 
+/uni0042/uni0061/uni0073/uni0065/uni0064/uni0020/uni006F/uni006E/uni0020/uni006F/uni0075/uni0072/uni0020/uni0064/uni0069/uni0073/uni0074/uni0072/uni0069/uni0063/uni0074/uni0027/uni0073/uni0020/uni0073/uni0074/uni0075/uni0064/uni0065/uni006E/uni0074/uni0020/uni006D/uni0065/uni006D/uni0062/uni0065/uni0072/uni0073/uni0068/uni0069/uni0070/uni002C/uni0020/uni0077/uni0065/uni0020/uni0061/uni0072/uni0065/uni0020/uni0065/uni006E/uni0074/uni0069/uni0074/uni006C/uni0065/uni0064/uni0020/uni0074/uni006F/uni0020/uni0074/uni0068/uni0065/uni0020/uni0066/uni006F/uni006C/uni006C/uni006F/uni0077/uni0069/uni006E/uni0067/uni0020/uni006E/uni0075/uni006D/uni0062/uni0065/uni0072/uni0020/uni006F/uni0066/uni0020/uni0076/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0064/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020 
+/uni0061/uni006E/uni0064/uni0020/uni0061/uni006E/uni0020/uni0065/uni0071/uni0075/uni0061/uni006C/uni0020/uni006E/uni0075/uni006D/uni0062/uni0065/uni0072/uni0020/uni006F/uni0066/uni0020/uni0061/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073/uni002E 
+/uni0044/uni0069/uni0073/uni0074/uni0072/uni0069/uni0063/uni0074/uni0020/uni004E/uni006F/uni0074/uni0020/uni0041/uni0074/uni0074/uni0065/uni006E/uni0064/uni0069/uni006E/uni0067 
+/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0031 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0032 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0033 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0034 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0020/uni0031 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0020/uni0032 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0020/uni0033 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0020/uni0034 
+/uni0045/uni006D/uni0061/uni0069/uni006C/uni0020/uni0041/uni0064/uni0064/uni0072/uni0065/uni0073/uni0073 
+/uni0050/uni006C/uni0065/uni0061/uni0073/uni0065/uni0020/uni0073/uni0070/uni0065/uni0063/uni0069/uni0066/uni0079/uni0020/uni0061/uni006E/uni0079/uni0020/uni0073/uni0070/uni0065/uni0063/uni0069/uni0061/uni006C/uni0020/uni0061/uni0073/uni0073/uni0069/uni0073/uni0074/uni0061/uni006E/uni0063/uni0065/uni0020/uni0074/uni0068/uni0061/uni0074/uni0020/uni0069/uni0073/uni0020/uni0072/uni0065/uni0071/uni0075/uni0069/uni0072/uni0065/uni0064/uni0020/uni0074/uni006F/uni0020/uni0066/uni0075/uni006C/uni006C/uni0079/uni0020/uni0070/uni0061/uni0072/uni0074/uni0069/uni0063/uni0069/uni0070/uni0061/uni0074/uni0065/uni0020/uni0069/uni006E/uni0020/uni0074/uni0068/uni0065/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0041/uni0073/uni0073/uni0065/uni006D/uni0062/uni006C/uni0079/uni003A 
+/uni0054/uni0068/uni0065/uni0020/uni004D/uni0041/uni0053/uni0042/uni0020/uni0042/uni0079/uni006C/uni0061/uni0077/uni0073/uni0020/uni0067/uni006F/uni0076/uni0065/uni0072/uni006E/uni0020/uni0074/uni0068/uni0065/uni0020/uni006E/uni0075/uni006D/uni0062/uni0065/uni0072/uni0020/uni006F/uni0066/uni0020/uni0064/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0061/uni006E/uni0064/uni0020/uni0061/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073/uni0020/uni0079/uni006F/uni0075/uni0072/uni0020/uni0062/uni006F/uni0061/uni0072/uni0064/uni0020/uni006D/uni0061/uni0079/uni0020/uni0064/uni0065/uni0073/uni0069/uni0067/uni006E/uni0061/uni0074/uni0065/uni002E/uni0020/uni0041/uni0072/uni0074/uni0069/uni0063/uni006C/uni0065/uni0020 
+/uni0056/uni0049/uni0049/uni002C/uni0020/uni0053/uni0065/uni0063/uni0074/uni0069/uni006F/uni006E/uni0073/uni0020/uni0034/uni0020/uni0061/uni006E/uni0064/uni0020/uni0035/uni0020/uni0070/uni0072/uni006F/uni0076/uni0069/uni0064/uni0065/uni003A 
+/uni0045/uni0061/uni0063/uni0068/uni0020/uni0073/uni0063/uni0068/uni006F/uni006F/uni006C/uni0020/uni0062/uni006F/uni0061/uni0072/uni0064/uni0020/uni0074/uni0068/uni0061/uni0074/uni0020/uni0069/uni0073/uni0020/uni0061/uni006E/uni0020/uni0061/uni0063/uni0074/uni0069/uni0076/uni0065/uni0020/uni006F/uni0072/uni0020/uni0061/uni0063/uni0061/uni0064/uni0065/uni006D/uni0079/uni0020/uni006D/uni0065/uni006D/uni0062/uni0065/uni0072/uni0020/uni006F/uni0066/uni0020/uni0074/uni0068/uni0065/uni0020/uni0041/uni0073/uni0073/uni006F/uni0063/uni0069/uni0061/uni0074/uni0069/uni006F/uni006E/uni0020/uni0069/uni0073/uni0020/uni0065/uni006E/uni0074/uni0069/uni0074/uni006C/uni0065/uni0064/uni0020/uni0074/uni006F/uni0020/uni0072/uni0065/uni0070/uni0072/uni0065/uni0073/uni0065/uni006E/uni0074/uni0061/uni0074/uni0069/uni006F/uni006E/uni0020 
+/uni0061/uni0074/uni0020/uni0061/uni006E/uni0020/uni0061/uni006E/uni006E/uni0075/uni0061/uni006C/uni0020/uni006F/uni0072/uni0020/uni0073/uni0070/uni0065/uni0063/uni0069/uni0061/uni006C/uni0020/uni006D/uni0065/uni0065/uni0074/uni0069/uni006E/uni0067/uni002C/uni0020/uni0061/uni0073/uni0020/uni0066/uni006F/uni006C/uni006C/uni006F/uni0077/uni0073/uni003A 
+/uni0050/uni0061/uni0067/uni0065/uni0020 /uni0032/uni0020/uni006F/uni0066/uni0020 /uni0033/uni0043/uni0065/uni0072/uni0074/uni0069/uni0066/uni0069/uni0063/uni0061/uni0074/uni0069/uni006F/uni006E/uni0020/uni006F/uni0066/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073 
+/uni0037/uni002F/uni0032/uni0038/uni002F/uni0032/uni0030/uni0031/uni0035/uni0068/uni0074/uni0074/uni0070/uni003A/uni002F/uni002F/uni0077/uni0077/uni0077/uni002E/uni006D/uni0061/uni0073/uni0062/uni002E/uni006F/uni0072/uni0067/uni002F/uni0063/uni0065/uni0072/uni0074/uni0069/uni0066/uni0069/uni0063/uni0061/uni0074/uni0069/uni006F/uni006E/uni002D/uni006F/uni0066/uni002D/uni0064/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni002E/uni0061/uni0073/uni0070/uni0078
+190
+/uni0068/uni0074/uni0074/uni0070/uni003A/uni002F/uni002F/uni0077/uni0077/uni0077/uni002E/uni006D/uni0061/uni0073/uni0062/uni002E/uni006F/uni0072/uni0067/uni002F/uni0063/uni0065/uni0072/uni0074/uni0069/uni0066/uni0069/uni0063/uni0061/uni0074/uni0069/uni006F/uni006E/uni002D/uni006F/uni0066/uni002D/uni0064/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni002E/uni0061/uni0073/uni0070/uni0078 
+/uni0045/uni0061/uni0063/uni0068/uni0020/uni0073/uni0063/uni0068/uni006F/uni006F/uni006C/uni0020/uni0062/uni006F/uni0061/uni0072/uni0064/uni0020/uni0074/uni0068/uni0061/uni0074/uni0020/uni0069/uni0073/uni0020/uni0061/uni006E/uni0020/uni0061/uni0063/uni0074/uni0069/uni0076/uni0065/uni0020/uni006F/uni0072/uni0020/uni0061/uni0063/uni0061/uni0064/uni0065/uni006D/uni0079/uni0020/uni006D/uni0065/uni006D/uni0062/uni0065/uni0072/uni0020/uni006F/uni0066/uni0020/uni0074/uni0068/uni0065/uni0020/uni0041/uni0073/uni0073/uni006F/uni0063/uni0069/uni0061/uni0074/uni0069/uni006F/uni006E/uni0020/uni0073/uni0068/uni0061/uni006C/uni006C/uni0020/uni0073/uni0065/uni006C/uni0065/uni0063/uni0074/uni0020/uni0069/uni0074/uni0073/uni0020/uni0064/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0061/uni006E/uni0064/uni0020 
+/uni0061/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073/uni0020/uni002E/uni002E/uni002E/uni0020/uni0061/uni006E/uni0064/uni0020/uni0063/uni0065/uni0072/uni0074/uni0069/uni0066/uni0079/uni0020/uni005B/uni0074/uni0068/uni0065/uni006D/uni005D/uni0020/uni0074/uni006F/uni0020/uni0074/uni0068/uni0065/uni0020/uni0065/uni0078/uni0065/uni0063/uni0075/uni0074/uni0069/uni0076/uni0065/uni0020/uni0064/uni0069/uni0072/uni0065/uni0063/uni0074/uni006F/uni0072/uni0020/uni0070/uni0072/uni0069/uni006F/uni0072/uni0020/uni0074/uni006F/uni0020/uni0074/uni0068/uni0065/uni0020/uni0061/uni006E/uni006E/uni0075/uni0061/uni006C/uni0020/uni006F/uni0072/uni0020/uni0073/uni0070/uni0065/uni0063/uni0069/uni0061/uni006C/uni0020/uni006D/uni0065/uni0065/uni0074/uni0069/uni006E/uni0067/uni002E 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0049 /uni0041/uni006C/uni006C/uni0020/uni0049/uni0053/uni0044/uni0073 /uni0031/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0049/uni0049 /uni0030/uni002D/uni0031/uni002C/uni0034/uni0030/uni0030 /uni0031/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0049/uni0049/uni0049 /uni0031/uni002C/uni0034/uni0030/uni0031/uni002D/uni0032/uni002C/uni0035/uni0030/uni0030 /uni0032/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0049/uni0056 /uni0032/uni002C/uni0035/uni0030/uni0031/uni002D/uni0035/uni002C/uni0030/uni0030/uni0030 /uni0033/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0056 /uni0035/uni002C/uni0030/uni0030/uni0031/uni002D/uni0031/uni0031/uni002C/uni0030/uni0030/uni0030 /uni0034/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0056/uni0049 /uni0031/uni0031/uni002C/uni0030/uni0030/uni0031/uni002D/uni0034/uni0030/uni002C/uni0030/uni0030/uni0030 /uni0034/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0047/uni0072/uni006F/uni0075/uni0070/uni0020/uni0056/uni0049/uni0049 /uni004F/uni0076/uni0065/uni0072/uni0020/uni0034/uni0030/uni002C/uni0030/uni0030/uni0030 /uni0034/uni0020/uni0056/uni006F/uni0074/uni0069/uni006E/uni0067/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni0020/uni0026/uni0020/uni0041/uni006C/uni0074/uni0065/uni0072/uni006E/uni0061/uni0074/uni0065/uni0073 
+/uni0053/uni0075/uni0062/uni006D/uni0069/uni0074 
+/uni0050/uni0061/uni0067/uni0065/uni0020 /uni0033/uni0020/uni006F/uni0066/uni0020 /uni0033/uni0043/uni0065/uni0072/uni0074/uni0069/uni0066/uni0069/uni0063/uni0061/uni0074/uni0069/uni006F/uni006E/uni0020/uni006F/uni0066/uni0020/uni0044/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073 
+/uni0037/uni002F/uni0032/uni0038/uni002F/uni0032/uni0030/uni0031/uni0035/uni0068/uni0074/uni0074/uni0070/uni003A/uni002F/uni002F/uni0077/uni0077/uni0077/uni002E/uni006D/uni0061/uni0073/uni0062/uni002E/uni006F/uni0072/uni0067/uni002F/uni0063/uni0065/uni0072/uni0074/uni0069/uni0066/uni0069/uni0063/uni0061/uni0074/uni0069/uni006F/uni006E/uni002D/uni006F/uni0066/uni002D/uni0064/uni0065/uni006C/uni0065/uni0067/uni0061/uni0074/uni0065/uni0073/uni002E/uni0061/uni0073/uni0070/uni0078
+191
+ 10. B.       08.04.15 
+10. OTHER 
+ B.  FIRST READING:   Board Policy J-3306 Epinephrine Auto- 
+        Injectors (Epi-Pens)  
+ Michigan’s Public Acts 186 and 187 requir e that each Michigan public and 
+nonpublic school have at least two epinephrine auto -injectors, commonly 
+known as “Epi-Pens,” in each school building.  Board of Education members 
+have read and reviewed the new Policy J-3306, Epinephrine Auto -Injectors 
+(Epi-Pens). The Board of Education’s legal counsel has also reviewed this 
+policy a long with MCL 380.1178,  MCL 380.1178a and MCL 380.1179  
+pertaining to the possession and use of Epinephrine Auto -Injectors and has 
+determined that the policy as drafted conforms to the relevant statues of  
+State law, the Open Meetings Act, and the Revised School Code. 
+RECOMMENDED ACTION:  Indicate that all Board members will be asked to 
+review this policy for a second time prior to the next Board meeting and will vote on 
+adoption of revisions under the consent agenda at the September Board meeting.   
+192
+STUDENT HEALTH     J-3300 
+J-3306   EPINEPHRINE AUTO-INJECTORS (EPI-PENS) 
+1. A stud ent m ay possess an epinephrine auto -injector (“epi-
+pen”) at  a school building , on District-sponsored 
+transportation, or at any activity, event, or  program 
+sponsored by the District or  in wh ich the  student’s school 
+building is participating, provided that: 
+a. The stu dent has written approval to possess and use 
+the epi-pen from the  student’s physician or other 
+health care provider authorized by law to prescribe an 
+epi-pen, and, if the student is  a minor, from the 
+student's parent/legal guardian. 
+b. T h e Principal or Principal’s Designee of the student’s 
+school building  has rece ived a copy of each written 
+approval required under subdivision (a) for the 
+student. 
+c. There is  on file at the stud ent's school building  a 
+written emergency care plan that contains specific 
+instructions for the student's needs, that is prepared by 
+a physician licensed in this state in collaboration with  
+the  student  and  the  student's  parent/legal  guardian,  
+and  that  is upd ated as n ecessary for changing 
+circumstances. 
+2. In each school building  operated by the District with an 
+instructional and administrative st aff of at least ten, there 
+shall be at least two (2) employees at the school building who 
+have been trained in the appropriate use and administration 
+of an epi-pen.  In each school building  operated by t he 
+District with an instructional and administrative staff of fewer 
+than ten, there s hall be at l east one employee at the school 
+building who has been trained in the appropriate use and 
+administration of an epi-pen.  The training required under 
+1 
+193
+this subp aragraph shall be conducted under t he sup ervision 
+of, and shall include evaluation by, a  licensed registered 
+professional nurse. 
+3. The  District  shall  acquire  or  purchase  and  maintain  at  
+least  two  (2) un expired epi-pens for and at each school 
+building operated by the District. 
+4. A licensed registered professional nurse who is employed or 
+contracted by the Dist rict or a Dist rict employee who  is 
+trained in the administration of an epi- pen under 
+subparagraph (2), above, is authorized to administer an epi-
+pen to a student who h as a prescription on file at the school 
+building. 
+5. A licensed registered professional nurse who is employed or 
+contracted by the  District or a Dist rict employee who  is 
+trained in the administration of an epi- pen under 
+subparagraph (2), above, is authorized to  administer an epi-
+pen on the grounds of a school building  to any oth er 
+individual who is believed to be h aving an anaphylactic 
+reaction. 
+6. The District will notify the parent(s)/legal guardian  of any 
+student to whom an epi-pen has b een administered by a 
+District employee or contractor as soon as possible. 
+7. This policy is not intended, and should not be construed, to 
+create or grant any rights or remedies to any person.  This 
+policy is drafted to comply with applicable law, and shall be 
+interpreted and applied in a m anner to  be consistent with  
+applicable l aw.  In the event that through either 
+administrative, judicial or legislative action the law is clarified 
+or changed such that any p rovision of this poli cy is  
+inconsistent with the law by imposing requirements that are 
+less than or exceed the law, then such provision shall no 
+longer be applicable, and instead the requirements of the law 
+as clarified or changed shall be followed. 
+2 
+194
+8. The Superintendent shall establish administrative rules to 
+implement this poli cy consistent with the requirements of 
+2013 PA 187 and the Michigan Department of  Education’s 
+Medication Administration Guidelines. 
+LEGAL REF: MCL 380.1178-1179 (2013 PA 187) 
+Adopted:  
+3 
+195

@@ -1,0 +1,1009 @@
+EIMB                0.00          −325.00
+A1003      294654 V 06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     TUTOR REIMB                0.00          −100.00
+A1003      294654   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     TUTOR REIMB                0.00           325.00
+A1003      294654   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     TUTORING REIMB             0.00           910.00
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003      294671   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     MAY 2011 TUTOR REIM        0.00           315.00
+A1003      294671   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     JUNE 2011 TUTOR REI        0.00           225.00
+A1003      294671   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     APRIL 2011 TUTOR RE        0.00           280.00
+A1003      294671   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     MARCH 2011 TUTOR RE        0.00           315.00
+A1003      294671   06/30/11 19962    TIPLANCE VERNON−HUN 122885226326000  3190     MAY 2011 TUTOR REIM        0.00           100.00
+TOTAL CHECK                                                                                                    0.00         1,235.00
+TOTAL CASH ACCOUNT                                                                                             0.00       224,448.69
+TOTAL FUND                                                                                                     0.00       224,448.69
+54
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   37
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 129 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294113   06/14/11 23057    A C T INC           129202135660000  5110     OPEN PO FOR ACT WOR        0.00            82.50
+A1003      294210   06/14/11 18125    MITEL NETWORKS INC  129202229660000  3410     PHONE SYSTEMS              0.00           110.25
+A1003      294215   06/14/11 25572    NEXT DIMENSION US I 129202135660000  5110     ANNUAL RENEWAL − 70        0.00           554.40
+A1003      294231   06/14/11 19853    ROBBINS INVESTMENTS 129202261660000  3890     RE6−04001                  0.00            96.42
+A1003      294231   06/14/11 19853    ROBBINS INVESTMENTS 129202261660000  3890     RE6−0400                   0.00           224.95
+TOTAL CHECK                                                                                                    0.00           321.37
+A1003      294259   06/14/11 12486    U S POSTAL SERVICE  129202229660000  3430     ACCT#0000151527            0.00           500.00
+A1003      294274   06/21/11 23057    A C T INC           129202135660000  5110     OPEN PO FOR ACT WOR        0.00            60.50
+A1003      294298   06/21/11 17429    BAKER COLLEGE       129202135660700  3710     CHARLYNN KROUT − TU        0.00           410.00
+A1003      294337   06/21/11 23986    INACOMP TECHNICAL S 129202135660000  6410     SERVER PER BID SPEC        0.00         4,903.29
+A1003      294337   06/21/11 23986    INACOMP TECHNICAL S 129202135660000  6410     HP−6000 PRO SFF DES        0.00        17,972.71
+TOTAL CHECK                                                                                                    0.00        22,876.00
+A1003      294367   06/21/11 14404    MI HVAC VOCATIONAL  129202135660700  3710     MICHAEL MEGROET − H        0.00         4,000.00
+A1003      294375   06/21/11 24891    NEOPOST INC         129202135660000  4120     TCC MAINTENANCE            0.00           293.45
+A1003      294377   06/21/11 11665    OAKLAND PRESS       129202282660000  3510     986−1672630 AD             0.00           364.21
+A1003      294379   06/21/11 14079    OAKLAND UNIV−SCH OF 129202135660700  3710     JOLANTA HALACZKIEWI        0.00           500.00
+A1003      294392   06/21/11 19853    ROBBINS INVESTMENTS 129202261660000  3890     RE6−0400−1                 0.00            98.01
+A1003      294392   06/21/11 19853    ROBBINS INVESTMENTS 129202261660000  3890     RE6−0400                   0.00           190.00
+TOTAL CHECK                                                                                                    0.00           288.01
+A1003      294414   06/30/11 23057    A C T INC           129202135660000  5110     OPEN PO FOR ACT WOR        0.00            66.00
+A1003      294416   06/30/11 13227    A T & T             129202229660000  3410     248R1006911067/MIWR        0.00           220.00
+A1003      294418   06/30/11 13227    A T & T             129202229660000  3410     24873316958203/MIWR        0.00           113.40
+A1003      294419   06/30/11 13227    A T & T             129202229660000  3410     248R1007581075/MIWR        0.00           220.00
+A1003      294445   06/30/11 25583    BARNES & NOBLE @ OA 129202135660700  3710     OPEN PO FOR BOOK PU        0.00            99.00
+A1003      294460   06/30/11 12625    CARNEGIE INSTITUTE  129202135660700  3710     TUITION/FEES − DANI        0.00           666.66
+A1003      294469   06/30/11 23468    COLLEGE FOR CREATIV 129202135660700  3710     ANN HUBBARD − TUITI        0.00            29.11
+A1003      294469   06/30/11 23468    COLLEGE FOR CREATIV 129202135660700  3710     ANN HUBBARD − TUITI        0.00           504.95
+A1003      294469   06/30/11 23468    COLLEGE FOR CREATIV 129202135660700  3710     BOOKS                      0.00             2.89
+A1003      294469   06/30/11 23468    COLLEGE FOR CREATIV 129202135660700  3710     BOOKS                      0.00            50.05
+A1003      294469   06/30/11 23468    COLLEGE FOR CREATIV 129202135660700  3710     BOOKS                      0.00            41.95
+A1003      294469   06/30/11 23468    COLLEGE FOR CREATIV 129202135660700  3710     TUITION/FEES FOR KA        0.00           555.00
+TOTAL CHECK                                                                                                    0.00         1,183.95
+55
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   38
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 129 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294505   06/30/11 21042    GLOBAL INFORMATION  129202135660700  3710     BRUCE TAYLORE − TUI        0.00         3,995.00
+A1003      294535   06/30/11 18272    KONICA MINOLTA BUSI 129202135660000  4120     OPEN PO FOR BIZHUB         0.00           404.05
+A1003      294535   06/30/11 18272    KONICA MINOLTA BUSI 129202135660000  4120     OPEN PO FOR BIZHUB         0.00            57.72
+TOTAL CHECK                                                                                                    0.00           461.77
+A1003      294577   06/30/11 24732    MI STATE UNIV/FEES  129202135660700  3710     MATTHEW MCLALIN  (P        0.00           905.50
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         3,425.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         5,480.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         4,364.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         3,273.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         1,980.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         2,821.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         3,960.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         2,821.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         2,418.00
+A1003      294586   06/30/11 25486    OAKLAND COMMUNITY C 129202135660700  3710     OPEN PO FOR GM ORIO        0.00         2,418.00
+TOTAL CHECK                                                                                                    0.00        32,960.00
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     A DEYONKER #0833624        0.00           761.15
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     K MAHONEY #0421553         0.00           792.57
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     J COLLINS #0843399         0.00           501.90
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     L MCDOWELL #0747587        0.00           426.30
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     K NADOLSKY #0797214        0.00           168.40
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     C BRITTON #0774241         0.00           373.70
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     M PORADA #0446896          0.00           307.60
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     T DOWNIE #0478892          0.00           297.70
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     B ROBINSON #0818352        0.00           454.80
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     R RUDD #0786711            0.00           463.50
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     OLGA SMALL #0734338        0.00           768.90
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     P WALKER #0441160          0.00           396.30
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     C WILLIAMS #0778091        0.00           658.05
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     J WILSON #0789614          0.00           331.60
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     R PAIGE #0747117           0.00           162.00
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     T FREE,AM #0656634         0.00           260.00
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     K FULTON #0568223          0.00           865.60
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     R GRIFFITHS #005419        0.00           690.20
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     P HANLEY #0368023          0.00           602.90
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     M HASS #0790707            0.00           685.95
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     T HENRY #0399190           0.00           280.72
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     P HOWAY #0169559           0.00           932.60
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     A KOON #0148603            0.00           958.20
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     J JAFFELLS #0641870        0.00           360.10
+A1003      294588   06/30/11 21330    OAKLAND COMMUNITY C 129202135660700  3710     J LERDAHL #0296646         0.00           835.15
+TOTAL CHECK                                                                                                    0.00        13,335.89
+A1003      294591   06/30/11 14079    OAKLAND UNIV−SCH OF 129202135660700  3710     CATHLEEN MARTIN − T        0.00         1,500.00
+A1003      294611   06/30/11 19853    ROBBINS INVESTMENTS 129202261660000  4210     RENT − SUITE 308           0.00         3,175.00
+A1003      294661   06/30/11 12290    UNITED PARCEL SERVI 129202229660000  3430     SHIPPER #E3159E            0.00            28.73
+56
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   39
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 129 − TCC GRANT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294661   06/30/11 12290    UNITED PARCEL SERVI 129202229660000  3430     SHIPPER #E3159E            0.00            18.23
+TOTAL CHECK                                                                                                    0.00            46.96
+A1003      294667   06/30/11 12370    WAYNE STATE UNIVERS 129202135660700  3710     CHRISTINA HOPKINS −        0.00           333.00
+A1003      294667   06/30/11 12370    WAYNE STATE UNIVERS 129202135660700  3710     PATRICIA HOWARD − T        0.00         1,220.00
+TOTAL CHECK                                                                                                    0.00         1,553.00
+TOTAL CASH ACCOUNT                                                                                             0.00        90,862.82
+TOTAL FUND                                                                                                     0.00        90,862.82
+57
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   40
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 304 − 2004 DEBT FUND           
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 304920000100000  R1114    TAX CREDIT                 0.00          −521.47
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 304920000100000  R1110    TAX CREDIT                 0.00        −3,307.35
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 304948259020900  7610     TAX DEBIT                  0.00        22,131.67
+TOTAL CHECK                                                                                                    0.00        18,302.85
+TOTAL CASH ACCOUNT                                                                                             0.00        18,302.85
+TOTAL FUND                                                                                                     0.00        18,302.85
+58
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   41
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 306 − 306 DEBT FUND            
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 306920000100000  R1114    TAX CREDIT                 0.00          −182.91
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 306920000100000  R1110    TAX CREDIT                 0.00        −1,157.11
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 306948259020900  7610     TAX DEBIT                  0.00         7,751.99
+TOTAL CHECK                                                                                                    0.00         6,411.97
+TOTAL CASH ACCOUNT                                                                                             0.00         6,411.97
+TOTAL FUND                                                                                                     0.00         6,411.97
+59
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   42
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 307 − 2007 DEBT                
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 307948259020900  7610     TAX DEBIT                  0.00         2,111.41
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 307920000100000  R1114    TAX CREDIT                 0.00           −49.58
+A1003      294049   06/07/11 11678    OAKLAND CTY TREASUR 307920000100000  R1110    TAX CREDIT                 0.00          −316.42
+TOTAL CHECK                                                                                                    0.00         1,745.41
+TOTAL CASH ACCOUNT                                                                                             0.00         1,745.41
+TOTAL FUND                                                                                                     0.00         1,745.41
+60
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   43
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404015459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404014459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404005459374000  6720     QUOTE #Q48783 2ND G        0.00             0.45
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404007459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404008459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404009459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404010459374000  6720     QUOTE #Q48783 2ND G        0.00             0.28
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404011459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404016459374000  6720     QUOTE #Q48812 5TH G        0.00             0.83
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404012459374000  6720     QUOTE #Q48783 2ND G        0.00             0.28
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404012459374000  6720     QUOTE #Q48812 5TH G        0.00             0.36
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404013459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404014459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404015459374000  6720     QUOTE #Q48783 2ND G        0.00             0.64
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404016459374000  6720     QUOTE #Q48783 2ND G        0.00             0.64
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404017459374000  6720     QUOTE #Q48783 2ND G        0.00             0.46
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404005459374000  6720     QUOTE #Q48810 3RD G        0.00             0.71
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404007459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404008459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404009459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404010459374000  6720     QUOTE #Q48810 3RD G        0.00             0.31
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404011459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404012459374000  6720     QUOTE #Q48810 3RD G        0.00             0.31
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404017459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404013459374000  6720     QUOTE #Q48810 3RD G        0.00             0.31
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404013459374000  6720     QUOTE #Q48812 5TH G        0.00             0.36
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404014459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404015459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404016459374000  6720     QUOTE #Q48810 3RD G        0.00             0.71
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404017459374000  6720     QUOTE #Q48810 3RD G        0.00             0.51
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404005459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404007459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404008459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404009459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404010459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404011459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404012459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404013459374000  6720     QUOTE #Q48811 4TH G        0.00             0.34
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404014459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404015459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404016459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404017459374000  6720     QUOTE #Q48811 4TH G        0.00             0.56
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404005459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404007459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404008459374000  6720     QUOTE #Q48812 5TH G        0.00             0.83
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404009459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404010459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+A1003      294452   06/30/11 19045    BOOKSOURCE (THE)    404011459374000  6720     QUOTE #Q48812 5TH G        0.00             0.60
+TOTAL CHECK                                                                                                    0.00            25.11
+A1003      294601   06/30/11 10099    PETERSON GLASS CO   404070456880700  6220     EXTERIOR DOOR REPLA        0.00         1,714.79
+A1003      294601   06/30/11 10099    PETERSON GLASS CO   404070456880700  6220     CHANGE ORDER #1 − F        0.00           359.21
+61
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   44
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 404 − 2004 CAPITAL PROJECT FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00         2,074.00
+TOTAL CASH ACCOUNT                                                                                             0.00         2,099.11
+TOTAL FUND                                                                                                     0.00         2,099.11
+62
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   45
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      293933   06/07/11 10222    BILDON PARTS & SERV 520902257859100  5990     TO COVER COST OF SU        0.00           204.59
+A1003      293933   06/07/11 10222    BILDON PARTS & SERV 520070256091800  4120     THS                        0.00           137.00
+A1003      293933   06/07/11 10222    BILDON PARTS & SERV 520902257859100  5990     TO COVER COST OF SU        0.00           669.30
+A1003      293933   06/07/11 10222    BILDON PARTS & SERV 520902257859100  5990     TO COVER COST OF SU        0.00            82.61
+TOTAL CHECK                                                                                                    0.00         1,093.50
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520950256009100  5610     CATERING                   0.00           113.40
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520014256091800  5610     WASS                       0.00            88.70
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520051256091800  5610     SMITH                      0.00           595.49
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520052256091800  5610     LARSON                     0.00           578.38
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520053256091800  5610     BOULAN                     0.00           628.12
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520050256091800  5610     BAKER                      0.00           918.61
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520074256091800  5610     IAE                        0.00           482.38
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520070256091800  5610     THS                        0.00         3,193.55
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520071256091800  5610     AHS                        0.00         1,509.11
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520007256091800  5610     MORSE                      0.00            88.70
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520013256091800  5610     MARTELL                    0.00           133.05
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520011256091800  5610     SCHROEDER                  0.00           177.40
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520005256091800  5610     T UNION                    0.00           248.36
+A1003      293947   06/07/11 10433    COCA−COLA REFRESHME 520008256091800  5610     LEONARD                    0.00           390.28
+TOTAL CHECK                                                                                                    0.00         9,145.53
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520013256091800  5640     MARTELL                    0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520005256091800  5640     T UNION                    0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520009256091800  5640     WATTLES                    0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520014256091800  5640     WASS                       0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520016256091800  5640     BARNARD                    0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520008256091800  5640     LEONARD                    0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520012256091800  5640     COSTELLO                   0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520017256091800  5640     HAMILTON                   0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520010256091800  5640     HILL                       0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520007256091800  5640     MORSE                      0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520015256091800  5640     BEMIS                      0.00            23.75
+A1003      294021   06/07/11 12879    LESNAU PRINTING CO  520011256091800  5640     SCHROEDER                  0.00            23.75
+TOTAL CHECK                                                                                                    0.00           285.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520053256091800  5640     BOULAN                     0.00            32.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520950256091800  5640     CATERING                   0.00             6.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520071256091800  5640     AHS                        0.00            72.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520052256091800  5640     LARSON                     0.00            32.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520070256091800  5640     THS                        0.00            72.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520051256091800  5640     SMITH                      0.00            32.00
+A1003      294050   06/07/11 11668    OAKLAND SCHOOLS FOO 520050256091800  5640     BAKER                      0.00            32.00
+TOTAL CHECK                                                                                                    0.00           278.00
+A1003      294253   06/14/11 24816    TOTAL ARMORED CAR S 520950297621500  3190     ARMORED CAR PICK−UP        0.00         2,326.17
+A1003      294310   06/21/11 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE RENTAL              0.00            45.00
+A1003      294310   06/21/11 22355    CONTINENTAL DISTRIB 520950256040500  4290     COFFEE RENTAL              0.00            45.00
+TOTAL CHECK                                                                                                    0.00            90.00
+A1003      294332   06/21/11 20401    HONG JI             520017256091800  5992     REFUND LUNCH ACCT          0.00            24.75
+63
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   46
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294332   06/21/11 20401    HONG JI             520015256091800  5992     REFUND LUNCH ACCT          0.00            12.75
+TOTAL CHECK                                                                                                    0.00            37.50
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520007256091800  5640     MORSE                      0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520014256091800  5640     WASS                       0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520005256091800  5640     T UNION                    0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520011256091800  5640     SCHROEDER                  0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520009256091800  5640     WATTLES                    0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520008256091800  5640     LEONARD                    0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520016256091800  5640     BARNARD                    0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520010256091800  5640     HILL                       0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520015256091800  5640     BEMIS                      0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520013256091800  5640     MARTELL                    0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520012256091800  5640     COSTELLO                   0.00            23.75
+A1003      294352   06/21/11 12879    LESNAU PRINTING CO  520017256091800  5640     HAMILTON                   0.00            23.75
+TOTAL CHECK                                                                                                    0.00           285.00
+A1003      294398   06/21/11 12200    TAYLOR FREEZER OF M 520902257813000  4120     TROY HIGH REPAIR           0.00           153.00
+A1003      294412   06/21/11 12457    YE OLDE FLOWER BARN 520950256009100  5640     FLOWERS                    0.00            52.00
+A1003      294424   06/30/11 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FD SVC           0.00             5.53
+A1003      294425   06/30/11 13981    A T & T MOBILITY NA 520950256091800  3410     830118533 FD SVC           0.00             5.52
+A1003      294427   06/30/11 20401    ALICIA WAHLS        520005256091800  5992     LUNCH ACCT REFUND          0.00             7.50
+A1003      294447   06/30/11 20401    BHANASREE PERSHA    520011256091800  5992     LUNCH ACCOUNT REFUN        0.00            43.25
+A1003      294467   06/30/11 10433    COCA−COLA REFRESHME 520071256091800  5610     ATHENS POP                 0.00           551.50
+A1003      294467   06/30/11 10433    COCA−COLA REFRESHME 520053256091800  5610     BOULAN POP                 0.00           126.80
+A1003      294467   06/30/11 10433    COCA−COLA REFRESHME 520070256091800  5610     THS POP                    0.00           623.09
+A1003      294467   06/30/11 10433    COCA−COLA REFRESHME 520050256091800  5610     BAKER POP                  0.00           273.10
+TOTAL CHECK                                                                                                    0.00         1,574.49
+A1003      294474   06/30/11 20401    CYNTHIA WILLIAMSON  520005256091800  5992     LUNCH ACCOUNT REFUN        0.00            70.05
+A1003      294478   06/30/11 20401    DEBORAH TAYLOR      520005256091800  5992     LUNCH ACCT REFUND          0.00            29.10
+A1003      294480   06/30/11 20401    DENISE SLEELPER     520070256091800  5992     LUNCH ACCOUNT REFUN        0.00           127.35
+A1003      294486   06/30/11 20401    DIANE LANGE         520070256091800  5992     REF LUNCH ACCT             0.00            87.25
+A1003      294490   06/30/11 20401    ELAINE HAMZEY       520070256091800  5992     REF LUNCH ACCT             0.00            47.95
+A1003      294491   06/30/11 20401    ELIZABETH MATTAR    520070256091800  5992     LUNCH ACCT REFUND          0.00             8.55
+A1003      294503   06/30/11 20401    GEETHA ANNADI       520005256091800  5992     REF LUNCH ACCT             0.00            12.50
+A1003      294504   06/30/11 20401    GEORGETA JANIKIC    520005256091800  5992     REF LUNCH ACCT             0.00            15.15
+A1003      294514   06/30/11 20401    HONG XIAO           520070256091800  5992     LUNCH ACCT REFUND          0.00            24.40
+64
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   47
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 520 − FOOD SERVICE FUND        
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294524   06/30/11 20401    IVETTE LARROQUETTE  520005256091800  5992     REF LUNCH ACCT             0.00             8.95
+A1003      294527   06/30/11 20401    JEFFREY LAMBRECHT   520015256091800  5992     REF LUNCH ACCT             0.00             7.20
+A1003      294533   06/30/11 20401    KIM HOSANG          520005256091800  5992     REF LUNCH ACCT             0.00            89.55
+A1003      294540   06/30/11 20401    LAURA MAHLER        520070256091800  5992     LUNCH ACCT REFUND          0.00             5.75
+A1003      294555   06/30/11 20401    MABEL PURTON        520011256091800  5992     LUNCH ACCT REFUND          0.00             6.10
+A1003      294558   06/30/11 20401    MARCIA TEKELLY      520070256091800  5992     LUNCH ACCT REFUND          0.00            11.20
+A1003      294559   06/30/11 20401    MARIANNE CUNNINGHAM 520070256091800  5992     REF LUNCH ACCT             0.00            80.55
+A1003      294565   06/30/11 20401    MEI H TANG          520070256091800  5992     LUNCH ACCT REFUND          0.00            62.15
+A1003      294580   06/30/11 20401    MONICA GERHARDSTEIN 520011256091800  5992     REF LUNCH ACCT             0.00             5.90
+A1003      294614   06/30/11 20401    RON RISTAU          520071256091800  5992     LUNCH ACCT REFUND          0.00            16.70
+A1003      294615   06/30/11 20401    RONALD BERNSTEIN    520017256091800  5992     REF LUNCH ACCT             0.00            14.00
+A1003      294619   06/30/11 20401    SANDRA SINNAEVE     520070256091800  5992     LUNCH ACCT REFUND          0.00            11.65
+A1003      294629   06/30/11 20401    SHARON MCDERMOTT    520070256091800  5992     LUNCH ACCT REFUND          0.00            13.30
+A1003      294641   06/30/11 20401    SUSAN BALL          520070256091800  5992     REF LUNCH ACCT             0.00           106.35
+A1003      294645   06/30/11 20401    TAMMY SOBOTTA       520005256091800  5992     LUNCH ACCT REFUND          0.00            14.75
+TOTAL CASH ACCOUNT                                                                                             0.00        16,258.39
+TOTAL FUND                                                                                                     0.00        16,258.39
+65
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   48
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      293895   06/07/11 13227    A T & T             530213351030000  3410     24887975416862NILES        0.00             1.51
+A1003      293895   06/07/11 13227    A T & T             530201311030000  3410     24887975416862NILES        0.00             2.16
+A1003      293895   06/07/11 13227    A T & T             530211351030000  3410     24887975416862NILES        0.00             1.50
+TOTAL CHECK                                                                                                    0.00             5.17
+A1003      293906   06/07/11 13227    A T & T             530213351030000  3410     24882896977105/NILE        0.00             8.05
+A1003      293906   06/07/11 13227    A T & T             530211351030000  3410     24882896977105/NILE        0.00             8.05
+A1003      293906   06/07/11 13227    A T & T             530201311030000  3410     24882896977105/NILE        0.00            11.50
+TOTAL CHECK                                                                                                    0.00            27.60
+A1003      293938   06/07/11 10340    C & G PUBLISHING IN 530201311020600  3510     ACCT#0003271               0.00         1,902.00
+A1003      293938   06/07/11 10340    C & G PUBLISHING IN 530201311020600  3510     2 FULL PAGE COLOR A        0.00         1,902.00
+A1003      293938   06/07/11 10340    C & G PUBLISHING IN 530211351021100  3510     1/4 PG 4 COLOR PRES        0.00           401.80
+TOTAL CHECK                                                                                                    0.00         4,205.80
+A1003      293958   06/07/11 10630    DEVEREUX FOUNDATION 530212351021200  3190     PO FOR BUILDING YOU        0.00         1,000.00
+A1003      293958   06/07/11 10630    DEVEREUX FOUNDATION 530211351021100  3190     PO FOR BUILDING YOU        0.00           390.00
+TOTAL CHECK                                                                                                    0.00         1,390.00
+A1003      293965   06/07/11 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES MAY 2011             0.00           178.20
+A1003      293965   06/07/11 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES MAY 2011             0.00           254.57
+A1003      293965   06/07/11 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES MAY 2011             0.00           178.20
+TOTAL CHECK                                                                                                    0.00           610.97
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           181.65
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            68.83
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            47.98
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           120.58
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            95.43
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            98.33
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            31.98
+A1003      293974   06/07/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           112.93
+TOTAL CHECK                                                                                                    0.00           757.71
+A1003      294045   06/07/11 10042    NANCY ZEBRACKI      530201000100000  R1810    CLASS REFUND               0.00            34.00
+A1003      294146   06/14/11 10577    D T E ENERGY        530213351030000  5520     NILES 04/26−05/24          0.00           124.00
+A1003      294146   06/14/11 10577    D T E ENERGY        530201311030000  5520     NILES 04/26−05/24          0.00           177.15
+A1003      294146   06/14/11 10577    D T E ENERGY        530211351030000  5520     NILES 04/26−05/24          0.00           124.00
+TOTAL CHECK                                                                                                    0.00           425.15
+A1003      294151   06/14/11 13503    DISCOUNT SCHOOL SUP 530212351021200  5110     #827DSRE  SCARLET R        0.00           917.83
+A1003      294157   06/14/11 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES MAY 2011             0.00            89.06
+A1003      294157   06/14/11 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES MAY 2011             0.00           127.23
+A1003      294157   06/14/11 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES MAY 2011             0.00            89.07
+TOTAL CHECK                                                                                                    0.00           305.36
+A1003      294161   06/14/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            42.51
+A1003      294161   06/14/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            95.97
+A1003      294161   06/14/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            43.73
+A1003      294161   06/14/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00             3.65
+66
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   49
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+TOTAL CHECK                                                                                                    0.00           185.86
+A1003      294216   06/14/11 24685    MAYFAIR INSURANCE A 530212351094660  2840     CHILD CARE                 0.00           812.25
+A1003      294217   06/14/11 11665    OAKLAND PRESS       530201311020600  3510     1 FULL PAGE SUMMER         0.00           600.00
+A1003      294253   06/14/11 24816    TOTAL ARMORED CAR S 530207252621500  3190     ARMORED CAR PICK−UP        0.00           117.04
+A1003      294290   06/21/11 10465    ADDED VALUE REALTY  530201311020000  3190     CONTRACTED SERVICE         0.00           110.50
+A1003      294292   06/21/11 24958    AGAZZI IOLANDA      530201311020000  3190     CONTRACTED SERVICE         0.00           220.00
+A1003      294301   06/21/11 10541    BIZ Z3 LLC          530201311020000  3190     COTRACTED SERVICE          0.00         1,248.00
+A1003      294304   06/21/11 21482    PRIEST JAMES W SR   530212351021200  3190     OPEN PURCHASE ORDER        0.00         2,160.20
+A1003      294305   06/21/11 10340    C & G PUBLISHING IN 530211351021100  3510     1/4 PG 4 COLOR PRES        0.00           401.80
+A1003      294316   06/21/11 20600    EDUCATION TO GO     530201311020000  3190     CONTRACTED SERVICE         0.00           393.50
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            −4.98
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            45.83
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00             4.79
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            81.12
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           112.92
+TOTAL CHECK                                                                                                    0.00           239.68
+A1003      294343   06/21/11 22851    JANSSEN ANDREA      530201311020000  3190     CONTRACTED SERVICE         0.00           132.00
+A1003      294353   06/21/11 11237    LEVIN NEAL          530201311020000  3190     CONTRACTED SERVICE         0.00           250.80
+A1003      294354   06/21/11 20684    LINDNER TECHNOLOGY  530201311020400  3610     SOFTWARE FOR AUTOMA        0.00         1,200.00
+A1003      294357   06/21/11 10561    LIVE SAFE ACADEMY L 530201311020000  3190     CONTRACTED SERVICE         0.00           192.50
+A1003      294381   06/21/11 10321    SMITH MEGAN M       530201311020000  3190     CONTRACTED SERVICE         0.00           607.50
+A1003      294390   06/21/11 10336    JEFFREY ZUPANCIC    530201311020000  3190     CONTRACTED SERVICE         0.00            42.90
+A1003      294424   06/30/11 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             2.20
+A1003      294424   06/30/11 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.88
+A1003      294424   06/30/11 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 NILES            0.00             0.55
+A1003      294424   06/30/11 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             1.99
+TOTAL CHECK                                                                                                    0.00             6.62
+A1003      294425   06/30/11 13981    A T & T MOBILITY NA 530213351030000  3410     830118533 NILES            0.00             1.99
+A1003      294425   06/30/11 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             1.88
+A1003      294425   06/30/11 13981    A T & T MOBILITY NA 530211351030000  3410     830118533 NILES            0.00             2.20
+A1003      294425   06/30/11 13981    A T & T MOBILITY NA 530201311030000  3410     830118533 NILES            0.00             0.55
+TOTAL CHECK                                                                                                    0.00             6.62
+A1003      294456   06/30/11 10042    BUJAR DOKO          530201000100000  R1810    AD ED REFUND               0.00            75.00
+67
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   50
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 530 − CONTINUING EDUCATION FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294457   06/30/11 10340    C & G PUBLISHING IN 530201311020600  3510     NILES AD                   0.00           233.80
+A1003      294493   06/30/11 25978    ENVIRO CLEAN SERVIC 530201311800100  3193     NILES JUNE 2011            0.00           254.57
+A1003      294493   06/30/11 25978    ENVIRO CLEAN SERVIC 530211351800100  3193     NILES JUNE 2011            0.00           178.20
+A1003      294493   06/30/11 25978    ENVIRO CLEAN SERVIC 530213351800100  3193     NILES JUNE 2011            0.00           178.20
+TOTAL CHECK                                                                                                    0.00           610.97
+A1003      294501   06/30/11 10810    GENERAL BINDING COR 530212351021200  5110     3000004 LAMINATING         0.00           871.20
+A1003      294507   06/30/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           903.05
+A1003      294507   06/30/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00            45.72
+A1003      294507   06/30/11 10852    GORDON FOOD SERVICE 530212351021200  5990     PLEASE OPEN A PURCH        0.00           974.09
+TOTAL CHECK                                                                                                    0.00         1,922.86
+A1003      294542   06/30/11 11237    LEVIN NEAL          530201311020000  3190     CONTRACTED SERVICE         0.00           564.20
+A1003      294585   06/30/11 19726    O’BRIEN ERIN E      530201311020000  3190     CONTRACTED SERVICE         0.00         1,163.20
+A1003      294635   06/30/11 12097    SOUTHERN MI OBEDIEN 530201311020000  3190     CONTRACTED SERVICE         0.00           810.00
+TOTAL CASH ACCOUNT                                                                                             0.00        23,858.59
+TOTAL FUND                                                                                                     0.00        23,858.59
+68
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   51
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      293908   06/07/11 19962    AADE VETTER         700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293909   06/07/11 25926    ACLUCHE ANNE L      700070399990000  5000     THSGV REG LCRS 0526        0.00            60.00
+A1003      293911   06/07/11 19962    AMANDA SABELHAUS    700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293913   06/07/11 10082    AMERICAN RED CROSS  700010199718000  5000     HILL FUNDRAISER            0.00           430.00
+A1003      293914   06/07/11 10082    AMERICAN RED CROSS  700008199700000  5000     DISASTER RELIEF            0.00         1,164.00
+A1003      293915   06/07/11 25100    LV MANAGEMENT INC   700071399732900  5000     DEPOSIT FOR 5/3/14         0.00         1,000.00
+A1003      293915   06/07/11 25100    LV MANAGEMENT INC   700071399732900  5000     DEPOSIT FOR 4/21/12        0.00         1,000.00
+A1003      293915   06/07/11 25100    LV MANAGEMENT INC   700071399732900  5000     DEPOSIT FOR 5/4/13         0.00         1,000.00
+TOTAL CHECK                                                                                                    0.00         3,000.00
+A1003      293916   06/07/11 19962    ANGIE LEIJA         700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293917   06/07/11 19962    ANGIE MAXWELL       700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293918   06/07/11 12254    ANNIE HUANG         700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      293919   06/07/11 12254    ANNIE XIAO          700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      293920   06/07/11 12254    ANTHONY ANTAKLI     700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      293921   06/07/11 19456    AQUARIUM SHINE      700005199700000  5000     BLANKET PURCHASE OR        0.00            90.00
+A1003      293928   06/07/11 19962    BEATRICE PECK       700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293929   06/07/11 10644    BELTSER ILYA        700071399992000  5000     AHSGV SCCR REG 0607        0.00            55.00
+A1003      293931   06/07/11 10086    BHASKAR & RATNA TAD 700074399681000  5000     REFUND BK FEES             0.00           150.00
+A1003      293936   06/07/11 19962    BRIGIT AMANN        700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293937   06/07/11 10642    BURNS RICHARD P     700071399992000  5000     AHSGV SCCR REG 0607        0.00            55.00
+A1003      293940   06/07/11 19962    CAREN MASON         700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293943   06/07/11 19962    CATHY COVE          700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293944   06/07/11 12175    CHRIS HOEF          700070399741600  5000     THS BREEN SCHOLARHS        0.00           500.00
+A1003      293945   06/07/11 10132    CHRISTOPHER BART    700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      293946   06/07/11 10422    CLASSIC TROPHIES    700070399990000  5000     GIRLS TENNIS THS           0.00            44.25
+A1003      293954   06/07/11 19962    DANIELLE FAVRET     700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293955   06/07/11 10132    DEBBIE HARBIN       700071399372000  5000     AHS REIMB                  0.00           148.00
+A1003      293957   06/07/11 21097    DEMEULEMEESTER LAUR 700071399992000  5000     AHSGV REG LCRS 0604        0.00            60.00
+69
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   52
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      293959   06/07/11 19962    DIANE FISHER        700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293961   06/07/11 14324    DUNN BLUE PRINT CO  700070399321400  5000     TROY HIGH LIT MAG          0.00           682.99
+A1003      293963   06/07/11 19962    ELAINE LIU          700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      293966   06/07/11 10134    ERIN FOLEY          700071399354000  5000     TUCKER SCHOLARSHIP         0.00         2,000.00
+A1003      293967   06/07/11 10134    EVAN POLITI         700071399354000  5000     THEATRE SPONSOR AWA        0.00           500.00
+A1003      293968   06/07/11 14721    FRIENDS OF THE ROUG 700051299805300  5000     SMITH MS FAIR SHARE        0.00           106.70
+A1003      293971   06/07/11 10132    GINA RIS            700071399901600  5000     REIMB LACROSSE             0.00           101.48
+A1003      293978   06/07/11 25948    GREEN PASTURE ENTER 700070399703900  5000     FRIENDSHIP GARDEN M        0.00         1,000.00
+A1003      293979   06/07/11 25115    GROBBEL SUSAN A     700071399992000  5000     AHSGV SCCR REG 0610        0.00            55.00
+A1003      293983   06/07/11 22509    HANNON DENNIS       700070399990000  5000     THSGV LCRS REG 5261        0.00            60.00
+A1003      293985   06/07/11 12175    HARRY MOORADIAN     700070399741600  5000     BREEN SCHOLARSHIP          0.00           500.00
+A1003      293987   06/07/11 19938    HAYES PATRICIA      700071399992000  5000     AHSGV REG LCRS 0528        0.00           120.00
+A1003      293989   06/07/11 21882    HILL ELEMENTARY SCH 700010199719400  5000     HILL 5TH GRADE             0.00           938.39
+A1003      293990   06/07/11 24584    HOOKER JACK R       700071399992000  5000     AHSGV REG LCRS 5246        0.00           127.92
+A1003      293997   06/07/11 10646    IWASKO ROBERT M     700071399992000  5000     AHSGV SCCR REG 0607        0.00            55.00
+A1003      293998   06/07/11 11068    J & M REPRODUCTION  700505699321000  5000     BK PRINTING CONTEST        0.00           316.60
+A1003      293999   06/07/11 10132    J D STERBA          700071399731200  5000     REIMB PROM SUPPLYS         0.00            79.60
+A1003      294001   06/07/11 10132    JACKIE DUNCAN       700071399372000  5000     AP TEST REFUND             0.00            87.00
+A1003      294002   06/07/11 10635    JACOBS RONALD K     700071399992000  5000     AHSGV SCCR REG 0607        0.00            55.00
+A1003      294003   06/07/11 10132    JENNIFER GOEHMANN   700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294005   06/07/11 10132    JOHN HARRISON       700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294008   06/07/11 12254    JOOHEE KEUM         700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294009   06/07/11 19962    JOYCE PIKULAS       700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      294010   06/07/11 19962    JOYCE WARNER        700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      294011   06/07/11 12175    JULIA DINVERNO      700070399741600  5000     BREEN SCHOLARSHIP          0.00           500.00
+A1003      294013   06/07/11 10132    KATHRYN KOSS        700071399372000  5000     AP TEST REFUND             0.00            74.00
+70
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   53
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294014   06/07/11 10134    KATIE DOUGLAS       700071399354000  5000     THEATRE SPONSOR AWA        0.00           500.00
+A1003      294018   06/07/11 11181    KROGER CO           700885699700000  5000     SP ED                      0.00           115.51
+A1003      294020   06/07/11 12175    LAUREN MILLER       700070399741600  5000     BREEN SCHOLARSHIP          0.00           500.00
+A1003      294020 V 06/07/11 12175    LAUREN MILLER       700070399741600  5000     BREEN SCHOLARSHIP          0.00          −500.00
+TOTAL CHECK                                                                                                    0.00             0.00
+A1003      294022   06/07/11 10132    LISA LAVELANET      700071399718000  5000     AHS REIMB                  0.00            19.20
+A1003      294024   06/07/11 10132    LYNDA KEOUGH        700071399372000  5000     AP TEST REFUND             0.00            87.00
+A1003      294029   06/07/11 19962    MASSIMO OSELLA      700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      294033   06/07/11 10132    MEG ROACH           700071399918400  5000     WATER POLO REIMB           0.00            81.84
+A1003      294034   06/07/11 10132    MELANIE BRUNK       700071399733200  5000     T SHIRT REIMB              0.00            10.00
+A1003      294036   06/07/11 11441    MI HIGH SCHOOL ATHL 700070399990000  5000     THS TENNIS MEDALS          0.00            60.00
+A1003      294037   06/07/11 11444    MI INTERSCHOLASTIC  700070399323500  5000     YEARBK CONF REGIST         0.00           735.00
+A1003      294038   06/07/11 11444    MI INTERSCHOLASTIC  700070399323700  5000     NEWSPAPER CONF REGI        0.00           770.00
+A1003      294039   06/07/11 17389    MICHINDOH MINISTRIE 700007199719400  5000     MORSE 5TH GR CAMP          0.00         6,159.75
+A1003      294041   06/07/11 10132    MOIN ASJAD          700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294042   06/07/11 10132    MUJIBUS SAMAD KHAN  700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294044   06/07/11 10132    MYUNG KIM           700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294048   06/07/11 12175    NICHOLAS KRAJEWSKI  700070399710000  5000     NHS SCHOLARSHIP            0.00           350.00
+A1003      294052   06/07/11 12254    OLIVIA DORANTES     700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294055   06/07/11 10132    PATRICK LALKO       700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294056   06/07/11 12254    PETER HAO           700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294059   06/07/11 12254    QIXIANG LI          700070399716500  5000     PROJ LEAD REIMB            0.00           816.75
+A1003      294062   06/07/11 16710    READ NATURALLY INC  700009199670000  5000     READ NATURALLY − LE        0.00           399.00
+A1003      294062   06/07/11 16710    READ NATURALLY INC  700009199670000  5000     ESTIMATED SHIPPING/        0.00            10.00
+TOTAL CHECK                                                                                                    0.00           409.00
+A1003      294063   06/07/11 19962    RENATE KETELS       700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      294064   06/07/11 10132    RHEA DANE           700071399372000  5000     AP TEST REFUND             0.00            74.00
+A1003      294068   06/07/11 10037    ROGISSART CHRISTOPH 700071399992000  5000                                0.00            55.00
+71
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   54
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294069   06/07/11 12175    SAABIR KASKAR       700070399710000  5000     NHS SCHOLARSHIP            0.00           350.00
+A1003      294070   06/07/11 10645    SACCOIA ROBERT J    700071399992000  5000     AHSGV SCCR REG 0607        0.00            55.00
+A1003      294072   06/07/11 12175    SARAH BYRNE         700070399710500  5000     NAHS SCHOLARSHIP           0.00           150.00
+A1003      294075   06/07/11 12254    SHELBY KEEN         700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294078   06/07/11 23724    FOSTER VENTURES LLC 700070399731100  5000     SIGNAGE FOR ATHLETI        0.00         2,114.00
+A1003      294081   06/07/11 12254    STEPHANIE YANG      700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294084   06/07/11 19962    TAMMY KING          700013199719400  5000     5TH GR CAMP REFUND         0.00            10.00
+A1003      294087   06/07/11 12225    TORVINEN ELAINE M   700071399992000  5000     AHSGV LCRS REG 0604        0.00            60.00
+A1003      294088   06/07/11 10131    TROY ATHENS BAND BO 700590699667300  5000     LEADERSHIP WORKSHOP        0.00           500.00
+A1003      294090   06/07/11 12717    TROY FOUNDATION FOR 700051299700000  5000     SMITH GOLF CLASSIC         0.00           100.00
+A1003      294091   06/07/11 23416    TROY PEOPLE CONCERN 700070399700000  5000     BOOSTER DONATION           0.00           600.00
+A1003      294092   06/07/11 19962    TURK HISHAM         700051299700000  5000     SMITH SCI OLYMPIAD         0.00           106.45
+A1003      294094   06/07/11 12333    V S C INC           700008199700000  5000     LIGHTSPEED FP−100−R        0.00         2,145.00
+A1003      294094   06/07/11 12333    V S C INC           700013199700000  5000     LIGHTSPEED FP−100−R        0.00         3,432.00
+A1003      294094   06/07/11 12333    V S C INC           700013199700000  5000     SHIPPING                   0.00           142.00
+A1003      294094   06/07/11 12333    V S C INC           700008199700000  5000     SHIPPING                   0.00            88.75
+A1003      294094   06/07/11 12333    V S C INC           700008199667200  5000     LIGHTSPEED FP−100−R        0.00           429.00
+A1003      294094   06/07/11 12333    V S C INC           700008199667200  5000     SHIPPING                   0.00            17.75
+TOTAL CHECK                                                                                                    0.00         6,254.50
+A1003      294095   06/07/11 23470    WALSWORTH PUBLISHIN 700070399323500  5000     THS YRBK WORKSHOP          0.00         3,255.00
+A1003      294096   06/07/11 23470    WALSWORTH PUBLISHIN 700070399323500  5000     TROY HIGH YEARBOOK         0.00         5,597.76
+A1003      294098   06/07/11 12254    WAYNE SHU           700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294099   06/07/11 12175    WEI ZHANG           700070399710000  5000     NHS SCHOLARSHIP            0.00           350.00
+A1003      294100   06/07/11 12254    WEI ZHANG           700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294101   06/07/11 25568    WHEELER JAMES       700071399992000  5000     AHSGV SCR 061011           0.00            55.00
+A1003      294102   06/07/11 25227    WHITBREAD JAMES     700071399992000  5000     AHSGV SCCR REG 0610        0.00            55.00
+A1003      294106   06/07/11 12254    YEJI HONG           700070399703800  5000     AP TEST REFUND             0.00            56.00
+A1003      294108   06/07/11 19962    YU ZHANG            700051299700000  5000     SCIENCE OLMP REIMB         0.00            27.87
+A1003      294109   06/07/11 10132    YUH YING CHU        700071399372000  5000     AP TEST REFUND             0.00            74.00
+72
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   55
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294110   06/07/11 19962    ZHENG QIN           700051299700000  5000     SCIENCE OLYMPIAD RE        0.00            50.40
+A1003      294111   06/14/11 26016    3 BLIND MICE INC    700071399902000  5000     10 XXLG/5 XXXLG            0.00           225.00
+A1003      294111   06/14/11 26016    3 BLIND MICE INC    700071399902000  5000     BADGER DRI−FIT SLEE        0.00         1,235.00
+TOTAL CHECK                                                                                                    0.00         1,460.00
+A1003      294119   06/14/11 25926    ACLUCHE ANNE L      700070399990000  5000     THSGV LCRS FNL 0601        0.00            60.00
+A1003      294122   06/14/11 22426    AMER CANCER SOCIETY 700051299717500  5000     RFL SMITH                  0.00           397.85
+A1003      294123   06/14/11 25126    ATHENS ALL NIGHT PA 700071399731100  5000     E BRENNAN TICKET           0.00            55.00
+A1003      294125   06/14/11 19628    BALFOUR CO L L C    700070399700000  5000     DIPLOMAS                   0.00            61.40
+A1003      294128   06/14/11 10246    BLOOMFIELD HILLS SC 700074399393000  5000     CAREER DAY OCC             0.00            95.70
+A1003      294129   06/14/11 10653    BUTCH JONES FOOTBAL 700071399902000  5000     FOOTBALL CAMP              0.00           325.00
+A1003      294131   06/14/11 19962    CARRIE MANCEOR      700008199700000  5000     REIMB LEONARD CRTYR        0.00            89.99
+A1003      294133   06/14/11 10422    CLASSIC TROPHIES    700070399700000  5000     PLATE RE DO                0.00            15.00
+A1003      294142   06/14/11 21097    DEMEULEMEESTER LAUR 700070399990000  5000     THSGV LCRS 060111          0.00           180.00
+A1003      294147   06/14/11 10132    DEVON GAC           700071399718000  5000     STUCO REIMB                0.00            35.92
+A1003      294148   06/14/11 17566    DEWOLFE MUSIC LIBRA 700180699708100  5000     TWO YEAR MUSIC LICE        0.00           500.00
+A1003      294149   06/14/11 12254    DIANE BISE          700070399342400  5000     CEDAR PTE TRIP REFU        0.00            30.00
+A1003      294153   06/14/11 24734    DOLLYS PIZZA TROY # 700052299700000  5000     LARSON TRACK               0.00           165.50
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700070399390900  5000     THS FIELD TRIP             0.00           764.78
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700885699700000  5000     NILES FIELD TRIP           0.00            88.99
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700071399708800  5000     AHS FIELD TRIP             0.00           208.58
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700071399735000  5000     AHS FIELD TRIP             0.00           536.73
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700013199719400  5000     MARTELL                    0.00           984.94
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700017199393000  5000     HAMILTON FIELD TRIP        0.00           150.64
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700071399718500  5000     AHS FIELD TRIP             0.00           212.28
+A1003      294158   06/14/11 26082    FIRST GROUP AMERICA 700071399341100  5000     AHS FIELD TRIP             0.00         1,158.75
+TOTAL CHECK                                                                                                    0.00         4,105.69
+A1003      294164   06/14/11 12313    HAMMOND & STEPHENS  700052299700000  5000     AWARD PAPER                0.00           160.61
+A1003      294165   06/14/11 22509    HANNON DENNIS       700070399990000  5000     THSGV LCRS FNL 0601        0.00            60.00
+A1003      294175   06/14/11 24236    BLOOMFIELD HILLS SC 700074399713200  5000     IASA SHOW CLUB TRAN        0.00           300.00
+A1003      294177   06/14/11 10639    JACKSON CHRISTOPHER 700071399992000  5000     AHSBV LCRS REG 0531        0.00            62.00
+A1003      294181   06/14/11 12254    KATHY BERQUIST      700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+73
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   56
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294192   06/14/11 11429    MI ASSOC / SECONDAR 700051299718000  5000     SMITH LDRSHIP CONF         0.00         1,200.00
+A1003      294194   06/14/11 10132    MARIA DYE           700071399703300  5000     SUPPLY REIMB               0.00           295.98
+A1003      294195   06/14/11 12254    MARK & DIAN HOFSTAD 700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294196   06/14/11 12254    MARK DARDZIZNSKI    700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294199   06/14/11 12547    MARSHALL MUSIC CO   700052299351000  5000     OPEN PURCHASE ORDER        0.00            12.72
+A1003      294201   06/14/11 12254    MARY ANN EDGIN      700070399901600  5000     GIRLS LACROSSE REIM        0.00           149.94
+A1003      294202   06/14/11 12254    MAUREEN OLSON       700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294204   06/14/11 13838    MI DECA             700074399718600  5000     STATE CONF COPIES          0.00            50.00
+A1003      294206   06/14/11 11441    MI HIGH SCHOOL ATHL 700070399990000  5000     THS LACROSSE               0.00         1,020.00
+A1003      294206   06/14/11 11441    MI HIGH SCHOOL ATHL 700070399990000  5000     2011 GIRLS SOCCER          0.00           220.00
+TOTAL CHECK                                                                                                    0.00         1,240.00
+A1003      294208   06/14/11 17389    MICHINDOH MINISTRIE 700015199719400  5000     BEMIS 5TH GR CAMP          0.00         8,490.13
+A1003      294212   06/14/11 11541    M T I ENTERPRISES I 700071399354000  5000     OPEN P.O. FOR MATER        0.00         2,500.00
+A1003      294219   06/14/11 12559    OTIS SPUNKMEYER INC 700071399524000  5000     OPEN PO FOR ATHENS         0.00           230.60
+A1003      294222   06/14/11 25593    PAINT CREEK CENTER  700590699732500  5000     J BLANCK SCHOLARSHI        0.00            95.00
+A1003      294223   06/14/11 10197    PARK EUN            700590699732500  5000     M LIN SCHOLARSHIP          0.00           100.00
+A1003      294227   06/14/11 13917    TAYMARK             700070399731200  5000     OPEN P.O. FOR TROY         0.00         2,625.70
+A1003      294229   06/14/11 12254    RICHARD & SUSAN KAL 700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294230   06/14/11 10123    RIDEOUT STEPHEN     700070399990000  5000     THSGV LCRS 060111          0.00            60.00
+A1003      294233   06/14/11 10037    ROGISSART CHRISTOPH 700071399992000  5000     AHSG SCCR  FNLS0615        0.00            60.00
+A1003      294241   06/14/11 10654    SMITH RAYMOND L     700071399992000  5000     AHSGV SCCR FNLS 061        0.00            60.00
+A1003      294243   06/14/11 10655    SPANO VINCENZO      700071399992000  5000     AHSGV SCCR FNLS 061        0.00            64.20
+A1003      294245   06/14/11 23628    SULLWOLD MARK W     700071399992000  5000     AHSGV SCCR 061511          0.00            60.00
+A1003      294247   06/14/11 10651    SWEET DREAMZZZ INC  700071399710000  5000     NHS FUNDRAISER             0.00         1,337.75
+A1003      294249   06/14/11 12254    TERESA DEAGLE       700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294252   06/14/11 12225    TORVINEN ELAINE M   700070399990000  5000     THSGV LCRS FNL 0601        0.00           120.00
+A1003      294254   06/14/11 25975    TRIPLE THREAD CUSTO 700052299700000  5000     CANCER WALK TSHIRTS        0.00         1,400.00
+74
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   57
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294256   06/14/11 10131    TROY ATHENS BAND BO 700590699732500  5000     S CONWAY SCHOLARSHI        0.00           250.00
+A1003      294260   06/14/11 26118    VALLEY NATIONAL GAS 700071399524000  5000     OPEN PO FOR ATHENS         0.00             9.90
+A1003      294261   06/14/11 12254    VIOLET BURIEWICZ    700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294266   06/14/11 22285    WILDLIFE RECOVERY A 700053299700000  5000     BOULAN                     0.00           350.00
+A1003      294267   06/14/11 12254    WILLIAM & DEBRA SHA 700070399342400  5000     PHYSICS CEDAR PT RE        0.00            30.00
+A1003      294269   06/14/11 12254    XINRUI YANG         700070399716500  5000     PROJ LEAD REIMB            0.00            46.18
+A1003      294272   06/14/11 25677    YUN ANDREA          700052299352000  5000     CELLO SECTIONALS           0.00           105.00
+A1003      294273   06/21/11 26016    3 BLIND MICE INC    700071399902000  5000     ATHENS FOOTBALL 201        0.00           390.00
+A1003      294273   06/21/11 26016    3 BLIND MICE INC    700071399902000  5000     10 XXLG                    0.00           150.00
+TOTAL CHECK                                                                                                    0.00           540.00
+A1003      294296   06/21/11 12612    APPLE COMPUTER INC  700052299700000  5000     IPAD SMART COVER −         0.00            78.00
+A1003      294296   06/21/11 12612    APPLE COMPUTER INC  700052299700000  5000     APPLE DIGITAL AV AD        0.00            39.00
+A1003      294296   06/21/11 12612    APPLE COMPUTER INC  700053299700000  5000     MC769LL/A, I−PAD 2         0.00         5,489.00
+A1003      294296   06/21/11 12612    APPLE COMPUTER INC  700053299700000  5000     MC769LL/A, I−PAD 2         0.00        −4,990.00
+A1003      294296   06/21/11 12612    APPLE COMPUTER INC  700053299700000  5000     MC769LL/A, I−PAD 2         0.00         4,990.00
+TOTAL CHECK                                                                                                    0.00         5,606.00
+A1003      294297   06/21/11 25126    ATHENS ALL NIGHT PA 700071399731100  5000     G MANCI ANP TICKET         0.00            55.00
+A1003      294299   06/21/11 19628    BALFOUR CO L L C    700206399666100  5000     NILES GRAD SUPPLIES        0.00            32.90
+A1003      294299   06/21/11 19628    BALFOUR CO L L C    700206399666100  5000     NILES GRAD SUPPLIES        0.00            23.00
+TOTAL CHECK                                                                                                    0.00            55.90
+A1003      294306   06/21/11 12254    CHI−CHUAN & LI−WEN  700070399340000  5000     THS SCI OLYMPIAD RE        0.00           164.05
+A1003      294307   06/21/11 12175    CHRIS HOEF          700053299700000  5000     BPMS SCHOLARSHIP           0.00           500.00
+A1003      294308   06/21/11 11657    FUNK JERRY          700053299700000  5000     BOULAN DJ SERVICES         0.00           470.00
+A1003      294311   06/21/11 12254    DARCEL CONNORS      700070399915800  5000     GIRLS SOCCER REIMB         0.00            52.83
+A1003      294318   06/21/11 12175    EMILY HERBON        700053299700000  5000     BPMS SCHOLARSHIP           0.00           500.00
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00           986.69
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00             3.49
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00           475.57
+A1003      294327   06/21/11 10852    GORDON FOOD SERVICE 700071399737400  5000     OPEN PO FOR ATHENS         0.00           135.53
+TOTAL CHECK                                                                                                    0.00         1,601.28
+A1003      294333   06/21/11 25784    HOT MIX LLC         700071399732900  5000     DJ FOR 2012 AHS PRO        0.00         1,681.00
+A1003      294334   06/21/11 12254    IAN HARTWIG         700070399340000  5000     SCIENCE OLYMPIAD RE        0.00           257.07
+75
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   58
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294335   06/21/11 12254    IAN LAI             700070399340000  5000     SCIENCE OLYMPIAD RE        0.00            75.04
+A1003      294338   06/21/11 24236    BLOOMFIELD HILLS SC 700074399713200  5000     IND AMER STUDENT DO        0.00         3,000.00
+A1003      294339   06/21/11 13240    INTRASTATE DISTRIBU 700071399524000  5000     BAL DUE FRM CK#2931        0.00           491.82
+A1003      294344   06/21/11 23769    JOLLY MICHAEL       700070399905000  5000     REIMB ATHLETICS P C        0.00            19.98
+A1003      294348   06/21/11 23972    JUVENILE DIABETES R 700074399713200  5000     IND/AMER STDNT DONA        0.00         1,000.00
+A1003      294351   06/21/11 11181    KROGER CO           700885699700000  5000     SP ED                      0.00            17.94
+A1003      294355   06/21/11 12175    LINDSEY MILLER      700070399741600  5000     BREEN SCHOLARSHIP          0.00           500.00
+A1003      294356   06/21/11 10488    LINEDRIVE SPORTZ    700070399909700  5000     OPEN P.O. FOR TROY         0.00           400.00
+A1003      294356   06/21/11 10488    LINEDRIVE SPORTZ    700070399909700  5000     OPEN P.O. FOR TROY         0.00           273.30
+A1003      294356   06/21/11 10488    LINEDRIVE SPORTZ    700070399909700  5000     OPEN P.O. FOR TROY         0.00           109.91
+TOTAL CHECK                                                                                                    0.00           783.21
+A1003      294362   06/21/11 12254    MANOJ TUMMALA       700070399340000  5000     THS SCI OLYMPIAD RE        0.00            40.18
+A1003      294369   06/21/11 13374    MI STATE UNIV−MANAG 700070399905800  5000     FOR BANQUET 6/6/11         0.00         1,081.65
+A1003      294371   06/21/11 24123    SATISH INC          700051299700000  5000     DELIVERY CHARGE            0.00            15.00
+A1003      294371   06/21/11 24123    SATISH INC          700051299700000  5000     150 TURKEY, 90 HAM,        0.00           777.40
+TOTAL CHECK                                                                                                    0.00           792.40
+A1003      294376   06/21/11 10650    NORTH SHACK INC     700071399910700  5000     AHS BOYS TRACKBANQU        0.00           330.00
+A1003      294383   06/21/11 11768    HERTZBERG NEW METHO 700012199708000  5000     PLEASE PROVIDE BOOK        0.00           525.78
+A1003      294385   06/21/11 12254    PHYLLIS DRAYTON     700070399915800  5000     GIRLS SOCCER REIMB         0.00            17.00
+A1003      294386   06/21/11 19962    PRATHIMA ARAKALI    700051299700000  5000     SCIENCE OLYMPIAD           0.00            36.64
+A1003      294394   06/21/11 11961    SAN MARINO CLUB     700070399702700  5000     ROBOTICS BANQUET           0.00         1,015.00
+A1003      294394   06/21/11 11961    SAN MARINO CLUB     700070399915800  5000     THS  BANQUET               0.00         2,085.00
+TOTAL CHECK                                                                                                    0.00         3,100.00
+A1003      294395   06/21/11 21807    SCHROEDER PTO       700011199719400  5000     SMART BOARDS REIMB         0.00         4,266.50
+A1003      294401   06/21/11 12238    TRI COUNTY CUSTOM S 700970699990000  5000     JUNIOR AND WOMENS B        0.00           716.50
+A1003      294402   06/21/11 13150    TRI−C PUBLICATIONS  700015199700000  5000     GRADE I MATH−BEMIS         0.00            16.00
+A1003      294402   06/21/11 13150    TRI−C PUBLICATIONS  700015199700000  5000     OPEN PO TO PURCHASE        0.00         1,456.00
+TOTAL CHECK                                                                                                    0.00         1,472.00
+A1003      294406   06/21/11 12358    WALSH COLLEGE       700070399703800  5000     ROOM RENTAL FOR AP         0.00         1,950.00
+A1003      294407   06/21/11 23470    WALSWORTH PUBLISHIN 700074399700000  5000     JUNE 28 & 29 WRKSHP        0.00           600.00
+A1003      294408   06/21/11 23470    WALSWORTH PUBLISHIN 700074399323500  5000     IAE YEARBK PYMT            0.00         1,964.43
+76
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   59
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294413   06/30/11 26016    3 BLIND MICE INC    700071399524000  5000     OPEN PO FOR ATHENS         0.00         1,575.00
+A1003      294413   06/30/11 26016    3 BLIND MICE INC    700071399901600  5000     OPEN P.O. FOR LACRO        0.00         1,995.25
+A1003      294413   06/30/11 26016    3 BLIND MICE INC    700071399524000  5000     OPEN PO FOR ATHENS         0.00         1,380.00
+TOTAL CHECK                                                                                                    0.00         4,950.25
+A1003      294428   06/30/11 22426    AMER CANCER SOCIETY 700052299700000  5000     LARSON CANCER WALK         0.00         2,361.43
+A1003      294429   06/30/11 10073    AMER FLAG & BANNER  700070399731100  5000     SR CLASS BANNER            0.00           125.00
+A1003      294430   06/30/11 23410    AMER HEART ASSOCIAT 700053299700000  5000     BOULAN FUNDRAISER          0.00         1,740.00
+A1003      294431   06/30/11 23741    AMER RED CROSS      700071399718900  5000     JAPANESE CLUB DONAT        0.00         1,100.00
+A1003      294432   06/30/11 10082    AMER RED CROSS      700052299352000  5000     LARSON ORCH DONATIO        0.00         1,565.68
+A1003      294436   06/30/11 12612    APPLE COMPUTER INC  700052299700000  5000     IPAD 2 16 GB WITH W        0.00           998.00
+A1003      294436   06/30/11 12612    APPLE COMPUTER INC  700052299700000  5000     APPLE CARE WARRANTY        0.00           158.00
+TOTAL CHECK                                                                                                    0.00         1,156.00
+A1003      294440   06/30/11 19962    ARETHA BRADLEY      700400699667300  5000     N BROWN/GRANT/REIMB        0.00           475.01
+A1003      294441   06/30/11 10154    BAKER & TAYLOR INC  700005199708000  5000     T UNION MEDIA              0.00            32.54
+A1003      294441   06/30/11 10154    BAKER & TAYLOR INC  700005199708000  5000     T UNION MEDIA              0.00            19.25
+A1003      294441   06/30/11 10154    BAKER & TAYLOR INC  700012199708000  5000     PLEASE PROVIDE PROC        0.00            33.58
+A1003      294441   06/30/11 10154    BAKER & TAYLOR INC  700012199708000  5000     PLEASE PROVIDE BOOK        0.00           870.55
+TOTAL CHECK                                                                                                    0.00           955.92
+A1003      294446   06/30/11 24645    BELIEVE IN MIRACLES 700052299700000  5000     LARSON CANCER WALK         0.00         1,500.00
+A1003      294450   06/30/11 10255    BLUE LAKE FINE ARTS 700590699732500  5000     F A SCHOLARSHIP            0.00           250.00
+A1003      294451   06/30/11 10255    BLUE LAKE FINE ARTS 700590699732500  5000     F A SCHOLARSHIP            0.00           250.00
+A1003      294453   06/30/11 10288    BOUND TO STAY BOUND 700009199670000  5000     PLEASE PROVIDE BOOK        0.00         1,219.38
+A1003      294453   06/30/11 10288    BOUND TO STAY BOUND 700009199670000  5000     PLEASE PROVIDE BOOK        0.00           908.43
+A1003      294453   06/30/11 10288    BOUND TO STAY BOUND 700007199708000  5000     PLEASE PROVIDE PROC        0.00            26.50
+A1003      294453   06/30/11 10288    BOUND TO STAY BOUND 700009199670000  5000     PLEASE PROVIDE PROC        0.00             9.90
+A1003      294453   06/30/11 10288    BOUND TO STAY BOUND 700009199670000  5000     PLEASE PROVIDE PROC        0.00            23.23
+A1003      294453   06/30/11 10288    BOUND TO STAY BOUND 700007199708000  5000     PLEASE PROVIDE BOOK        0.00         1,133.10
+TOTAL CHECK                                                                                                    0.00         3,320.54
+A1003      294463   06/30/11 24070    GOLF FACILITIES INC 700070399731300  5000     2012 PROM DEPOSIT          0.00         1,000.00
+A1003      294470   06/30/11 10687    COMP SQUAD TUMBLING 700070399900000  5000     THS CHEER CAMP             0.00         2,000.00
+A1003      294473   06/30/11 19705    CUSTOM COFFEE SERVI 700010199700000  5000     OPEN PURCHASE ORDER        0.00            35.00
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700005199667100  5000     T UNION FIELD TRIP         0.00           205.60
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700014199393000  5000     WASS FIELD TRIP            0.00           173.81
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700005199393000  5000     T UNION FIELD TRIP         0.00            26.15
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700007199393000  5000     MORSE FIELD TRIP           0.00           196.99
+77
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   60
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700013199700000  5000     MARTELL FIELD TRIP         0.00            92.70
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700050299367000  5000     BAKER FIELD TRIP           0.00         1,235.23
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           185.40
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           456.08
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700051299700000  5000     SMITH DANCE                0.00           103.82
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700015199667400  5000     BEMIS FIELD TRIP           0.00            88.99
+A1003      294496   06/30/11 26082    FIRST GROUP AMERICA 700015199393000  5000     BEMIS FIELD TRIP           0.00           799.07
+TOTAL CHECK                                                                                                    0.00         3,563.84
+A1003      294498   06/30/11 10751    FOLLETT CORP        700012199708000  5000     PLEASE PROVIDE BOOK        0.00           993.47
+A1003      294517   06/30/11 19962    HUI YUE             700052299700000  5000     SCI OLYMPIAD REIMB         0.00           167.56
+A1003      294523   06/30/11 24236    BLOOMFIELD HILLS SC 700074399705300  5000     BUILDON FUNDRAISER         0.00         1,090.00
+A1003      294529   06/30/11 12254    JOHANSSON JACK & JO 700070399900800  5000     GWATERPOLO REIMB           0.00           150.00
+A1003      294532   06/30/11 17233    JOSTEN’S INC        700052299323500  5000     FINAL INSATALLMENT         0.00         3,196.08
+A1003      294543   06/30/11 22967    LIGHTHOUSE SPORTSWE 700071399992000  5000     AHS CLOTHES SALE           0.00           105.00
+A1003      294561   06/30/11 12547    MARSHALL MUSIC CO   700590699732500  5000     FINE ARTS SCHOLARSH        0.00           125.00
+A1003      294562   06/30/11 12254    MARY ANN EDGIN      700070399901600  5000     GIRLS LACROSSE REIM        0.00            53.00
+A1003      294568   06/30/11 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     BOYS LAX REGIONAL          0.00         1,616.00
+A1003      294569   06/30/11 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     GIRLS LAX REGIONAL         0.00           619.00
+A1003      294570   06/30/11 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     GIRLS SOCCER REGION        0.00         1,863.00
+A1003      294571   06/30/11 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     2011 GIRLS LAX FINA        0.00         5,005.00
+A1003      294572   06/30/11 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     GIRLS SOCCER SEMI−F        0.00           986.00
+A1003      294573   06/30/11 11441    MI HIGH SCHOOL ATHL 700071399992000  5000     PROGRAM SALES              0.00           105.00
+A1003      294575   06/30/11 24945    MI STATE UNIV MODEL 700074399718100  5000     INT’L ACADEMY EAST         0.00         5,253.08
+A1003      294576   06/30/11 13374    MI STATE UNIV−MANAG 700070399901600  5000     BANQUET − GIRLS LAC        0.00         1,728.94
+A1003      294578   06/30/11 10132    MICAH SAFSTEN       700071399700000  5000     STRETCHING CANVAS          0.00            80.00
+A1003      294583   06/30/11 23906    NEW HORIZONS TOUR & 700074399323300  5000     QUOPO6151−48Q8 #535        0.00           750.00
+A1003      294593   06/30/11 24670    OFFICE EXPRESS      700005199701900  5000     TABLES FOR LGI  H13        0.00         1,620.00
+A1003      294596   06/30/11 20907    ORIGINAL WORKS − YO 700017199350900  5000     BALANCE DUE                0.00             4.00
+A1003      294597   06/30/11 10132    PAM CARPENTER       700071399910700  5000     BOYS TRACK REIMB           0.00            33.00
+A1003      294598   06/30/11 10197    PARK EUN            700590699732500  5000     FINE ARTS SCHLRSHP         0.00           100.00
+78
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   61
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 700 − STUDENT ACTIVITY FUND    
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      294607   06/30/11 11865    QUICK MADE TROPHY S 700071399903700  5000     AHS BOYS GOLF AWARD        0.00            67.50
+A1003      294609   06/30/11 14304    RENAISSANCE LEARNIN 700051299708000  5000     SMITH READING QUIZZ        0.00           203.32
+A1003      294610   06/30/11 10132    RITA BRUNK          700071399703300  5000     SENIOR PICNIC REIMB        0.00           115.55
+A1003      294616   06/30/11 10685    ROPP BRYCE          700590699732500  5000     FINE ARTS SCHOLARSH        0.00           100.00
+A1003      294618   06/30/11 12982    SALES CONCEPTS OF M 700071399354000  5000     OPEN P.O. FOR "INTO        0.00           874.50
+A1003      294622   06/30/11 11983    SCHOLASTIC BOOK CLU 700052299700000  5000     AZB968928 STAGE A R        0.00           417.69
+A1003      294622   06/30/11 11983    SCHOLASTIC BOOK CLU 700052299700000  5000     AZB990360 RBOOK FLE        0.00           417.69
+TOTAL CHECK                                                                                                    0.00           835.38
+A1003      294623   06/30/11 13022    SCHOLASTIC BOOK FAI 700012199708000  5000     FAIR ID#2847725            0.00         2,569.85
+A1003      294624   06/30/11 21807    SCHROEDER PTO       700011199393000  5000     OVERPMT 1ST STUDENT        0.00           969.75
+A1003      294626   06/30/11 13131    SERVICE SPORTS INC  700070399915800  5000     THS GIRLS SOCCER           0.00           420.00
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     BES218−61  FLASHCAR        0.00            17.89
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     WY108−61  WOODYARD         0.00            12.20
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     BW104−61  DICTIONAR        0.00            49.88
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     BES106−61  AP HUMAN        0.00            16.01
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     REA149−61  AP HUMAN        0.00            23.51
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     BW113061  INTRO REA        0.00            40.46
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     WY107−61  WOODYARD         0.00            16.91
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     S&H                        0.00            25.30
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     KAP107−61  AP HUMAN        0.00            16.95
+A1003      294634   06/30/11 12086    SOCIAL STUDIES SCHO 700070399703800  5000     RH208−61  CRACKING         0.00            16.95
+TOTAL CHECK                                                                                                    0.00           236.06
+A1003      294650   06/30/11 25910    THOMAS DANIEL RAY   700070399907700  5000     VIDEO TAPING TROYHI        0.00           350.00
+A1003      294653   06/30/11 14391    TIM KAISER STUDIOS  700051299323500  5000     SMITH YEARBOOK             0.00         8,951.00
+A1003      294655   06/30/11 15979    TOTAL T’S           700071399718900  5000     AHS JAPANESE CLUB T        0.00           420.00
+A1003      294659   06/30/11 12252    TROY HIGH BAND BOOS 700590699732500  5000     FINE ARTS SCHOLARSH        0.00           250.00
+A1003      294660   06/30/11 13348    VEI FRIENDLY LLC IN 700070399900000  5000     THS CHEER TEAM             0.00         1,030.00
+A1003      294663   06/30/11 10132    VAL VULAJ           700071399718000  5000     ATHENS STU CO REIMB        0.00             8.00
+A1003      294666   06/30/11 23470    WALSWORTH PUBLISHIN 700074399323500  5000     WORKSHOP−1 STUDENT         0.00           125.00
+TOTAL CASH ACCOUNT                                                                                             0.00       177,502.63
+TOTAL FUND                                                                                                     0.00       177,502.63
+79
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   62
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 701 − ACTIVITY ACCOUNT         
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      293949   06/07/11 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR TROY         0.00            67.50
+A1003      294303   06/21/11 10230    S & M DELI INC      701150699999900  5000     CABINET MTG/LUNCH          0.00            43.38
+A1003      294310   06/21/11 22355    CONTINENTAL DISTRIB 701070399700800  5000     OPEN P.O. FOR TROY         0.00            67.50
+TOTAL CASH ACCOUNT                                                                                             0.00           178.38
+TOTAL FUND                                                                                                     0.00           178.38
+80
+PENTAMATION ENTERPRISES,INC.                                                                                       PAGE NUMBER:   63
+DATE: 08/04/2011                                        TROY SCHOOL DISTRICT                                       ACCTPA21
+TIME: 08:38:21                                        CHECK REGISTER − BY FUND
+SELECTION CRITERIA: transact.gl_cash between ’A1001’ and ’A1005’ and transact.ck_date between ’06/01/2011’ and ’06/30/2011’
+ACCOUNTING PERIOD:  2/12
+     FUND − 750 − MEMORIAL SCHOLARSHIP FUND
+CASH ACCT CHECK NO  ISSUE DT −−−−−−−−−−−VENDOR−−−−−−−−−−− BUDGET UNIT      ACCNT    −−−−DESCRIPTION−−−−   SALES TAX           AMOUNT
+A1003      293912   06/07/11 10134    AMELIA SMEEKENS     750071599742100  5000     WILHELM SCHOLARSHIP        0.00         1,000.00
+A1003      294030   06/07/11 10134    MATTHEW UPMEYER     750071599742100  5000     WILHELM SCHOLARSHIP        0.00         1,000.00
+A1003      294051   06/07/11 11668    OAKLAND SCHOOLS     750885599743700  5000     T KITCHEN−COSMOTOLO        0.00           210.00
+A1003      294234   06/14/11 25575    RONMARK ADRIENNE    750071599743100  5000     A FENG SCHOLARSHIP         0.00           500.00
+A1003      294257   06/14/11 10131    TROY ATHENS BAND BO 750071599743100  5000     V HOME SCHOLARSHIP         0.00           250.00
+A1003      294600   06/30/11 24872    PETERS KEVIN        750590599743800  5000     F A  SCHOLARSHIP           0.00           200.00
+A1003      294630   06/30/11 10682    SLANAKER GAIL       750071599743100  5000     STINDT SCHOLARSHIP         0.00           400.00
+TOTAL CASH ACCOUNT                                                                                             0.00         3,560.00
+TOTAL FUND                                                                                                     0.00         3,560.00
+TOTAL REPORT                                                                                                   0.00     3,349,929.10
+81
+Troy School District
+Summary Revenue and Expense Budget Report
+June YTD - Fiscal Year 2011
+Local sources 43,333,461 43,169,050 164,411 0.38%
+State sources 72,966,234 73,036,632 (70,398) -0.10%
+Federal sources 13,007,711 11,947,216 1,060,495 8.15%
+Incoming Transfers / Other 8,903,922 8,969,117 (65,195) -0.73%
+Instruction:
+Basic Programs 70,844,703 70,239,458 0 605,245 0.85%
+Added Needs 16,027,244 15,850,993 0 176,251 1.10%
+Adult/Continuing Education 5,994,691 5,378,003 0 616,688 10.29%
+Total Instruction 92,866,638 91,468,454 0 1,398,184 1.51%
+Support Services:
+Pupil  9,878,949 9,861,716 0 17,233 0.17%
+Instructional Staff 6,658,604 6,412,223 0 246,381 3.70%
+General Administration 1,976,501 1,785,244 0 191,257 9.68%
+School Administration 7,618,032 7,370,512 0 247,520 3.25%
+Business Services 1,564,163 2,586,618 0 (1,022,455) 0.00%
+Operations/Maintenance 9,426,683 9,163,622 0 263,061 2.79%
+Pupil Transportation 3,750,660 4,089,150 0 (338,490) 0.00%
+Central Services 1,485,424 1,356,454 0 128,970 8.68%
+Other Support Services (Athletics and Other) 1,642,927 1,651,659 0 (8,732) 0.00%
+Total Support Services 44,001,943 44,277,198 0 (275,255) -0.63%
+Community Services 1,234,955 1,274,665 0 (39,710) 0.00%
+Pymts to Other Govt, Site Aqc., PY Adjustments 25,000 15,891 0 9,109 36.44%
+Outgoing Transfers / Other 139,983 141,520 0 (1,537) 0.00%
+Excess Revenue over (under) Expenditures (57,191)
+Fund Balance - July 1, 2010 18,861,061
+82
+Revenue Original Budget Actual Amount
+Total 
+Uncollected
+Percent Uncollected 
+(Overcollected)
+Total Revenue 138,211,328$      137,122,015 $      1,089,313 $        0.79%
+Expenditures Original Budget Actual Amount
+Total 
+Encumbered
+Available 
+Budget Percent Available
+Total Expenditures 138,268,519$      137,177,728 $      - $                   1,090,791$        0.79%
+Fund Balance - June 30, 2011 18,803,870$         
+General Fund 
+(Funds 101, 120, 122, 129, 140)
+Troy School District
+Summary Revenue and Expense Budget Report
+June YTD - Fiscal Year 2011
+Local 4,418,369 4,428,381 (10,012) -0.23%
+State 103,318 103,318 0 0.00%
+Federal 815,691 830,082 (14,391) -1.76%
+Incoming Transfers/Other 0 0 0 100.00%
+Salaries 817,244 787,635 0 29,609 3.62%
+Employee Benefits 382,294 382,744 0 (450) 0.00%
+Purchased Services 2,203,887 2,402,629 0 (198,742) 0.00%
+Supplies/Materials 1,450,331 1,284,314 0 166,017 11.45%
+Capital Outlay 0 9,070 0 (9,070) 0.00%
+Other Expenditures 6,542 2,349 0 4,193 64.09%
+Outgoing Transfers 578,937 653,995 0 (75,058) 0.00%
+Excess Revenue over (under) Expenditures (101,857)
+Fund Balance - July 1, 2010 2,039,030
+83
+Revenue
+Original 
+Budget Actual Amount
+ Total 
+Uncollected 
+Percent Uncollected 
+(Overcollected)
+Total Revenue 5,337,378$     5,361,781 $          (24,403) $        -0.46%
+Expenditures
+Original 
+Budget Actual Amount
+Total 
+Encumbered
+Available 
+Budget Percent Available
+Total Expenditures 5,439,235$     5,522,736 $          0 $                    (83,501)$        -1.54%
+Fund Balance - June 30, 2011 1,937,173$      
+Consolidated Special Revenue Funds 
+(520, 530)
+Troy School District
+Summary Revenue and Expense Budget Report
+June YTD - Fiscal Year 2011
+Local 2,334,365 2,326,036 8,329 0.36%
+State 103,318 103,318 0 0.00%
+Federal 815,691 830,082 (14,391) 0.00%
+Incoming Transfers 0 0 0 0.00%
+Salaries 0 0 0 0 0.00%
+Employee Benefits 500 42,338 0 (41,838) 0.00%
+Purchased Services 1,687,729 1,901,928 0 (214,199) 0.00%
+Supplies/Materials 1,341,153 1,180,522 0 160,631 11.98%
+Capital Outlay 0 9,070 0 (9,070) 
