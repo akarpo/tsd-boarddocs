@@ -65,10 +65,11 @@ District board business, reply with one polite decline sentence and stop):
 
 {q}
 
-METHOD — you may ONLY use curl against the public archive API:
-  curl -s '{site}/api/search?q=QUERY&k=8'                 (add &years=2025,2026 etc. to filter)
-  curl -s '{site}/api/fetch?id=CHUNK_ID'                  (full text of a search hit)
-Run 2-5 focused searches with different phrasings, fetch the most relevant 2-4 chunks, then answer.
+METHOD — you may ONLY use curl against the public archive API, and you have a STRICT token budget,
+so be economical: usually 2 searches and at most 2 fetches are enough. The search results' summary
+fields often already contain the answer — prefer them over fetching full text.
+  curl -s '{site}/api/search?q=QUERY&k=5'                 (add &years=2025,2026 etc. to filter)
+  curl -s '{site}/api/fetch?id=CHUNK_ID'                  (full text — only when the summary is not enough)
 
 ANSWER RULES:
 - Base every claim on fetched archive text. If the archive doesn't contain it, say so plainly.
@@ -111,7 +112,7 @@ def run_answer(question, budget):
     """Stage 2: Opus agentic answer, streaming usage; kill past the token budget.
     Returns (answer_text|None, error|None, tokens_used)."""
     cmd = ["claude", "-p", ANSWER_PROMPT.format(site=SITE, q=question),
-           "--model", OPUS, "--max-turns", "12",
+           "--model", OPUS, "--max-turns", "8",
            "--allowedTools", "Bash(curl:*)",
            "--output-format", "stream-json", "--verbose"]
     tokens, result, t0 = 0, None, time.time()
