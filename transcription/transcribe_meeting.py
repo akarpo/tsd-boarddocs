@@ -193,6 +193,12 @@ def main():
                 mapping = {}
         who = namer(mapping, spec)
         notes = spec.get("notes") or []
+        # Persist the resolved spec so upload_transcript.py (and re-runs) share
+        # exactly this attribution without another identification call.
+        resolved = {**spec, "mapping": mapping}
+        outdir.mkdir(parents=True, exist_ok=True)
+        (outdir / f"{base}.speakers.json").write_text(
+            json.dumps(resolved, indent=1, ensure_ascii=False), encoding="utf-8")
     write_outputs(r, outdir, base, who, notes)
 
 

@@ -5,6 +5,15 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- Batch transcription tooling: `transcription/run_meeting.sh` (YouTube upload →
+  transcript → anchors → D1, one command, idempotent), `make_anchors.py`
+  (heuristic agenda-chapter generator from transcript transition cues) and
+  `speakers_2026.json` (generic identification roster). `transcribe_meeting.py`
+  now persists the per-meeting resolved speaker spec (`<base>.speakers.json`)
+  so the upload step shares the exact attribution. First batch: the four public
+  2026 workshop videos (01-13, 02-03, 04-07, 04-28); regular-meeting videos are
+  unlisted and need their IDs supplied.
+
 ## [0.11.0] — 2026-08-02
 
 **🕳️ Easter egg: `/singularity`.** A tiny black hole in the site footer leads to a

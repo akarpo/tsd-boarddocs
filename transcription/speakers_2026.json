@@ -1,0 +1,19 @@
+{
+  "_comment": "Generic 2026 candidate roster for speaker identification (API max 10). No overrides/splits — those are per-meeting verification results; add them after reviewing a specific transcript. transcribe_meeting.py persists the per-meeting resolved spec next to its outputs.",
+  "speakers": [
+    {"name": "Vital Anne", "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"},
+    {"name": "Emina Alic", "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"},
+    {"name": "Matt Haupt", "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"},
+    {"name": "Audra Melton", "description": "Trustee, addressed as Dr. Melton"},
+    {"name": "Nancy Philippart", "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"},
+    {"name": "Ayessa Potts", "description": "Trustee, addressed as Ms. Potts"},
+    {"name": "Stephanie Zendler", "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"},
+    {"name": "Richard Machesky", "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"},
+    {"name": "Dan Trudel", "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"},
+    {"name": "Christine DiPilato", "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"}
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the generic 2026 roster; unmapped voices stay Speaker letters.",
+    "Automated pass — cluster splits/merges are NOT hand-verified for this meeting (the 2026-07-22 example shows what verification adds)."
+  ]
+}
