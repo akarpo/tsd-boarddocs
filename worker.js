@@ -213,6 +213,175 @@ async function handleMcp(request, env) {
   }
 }
 
+// ---------- assistant: registration-gated public Q&A, answered by a Claude Code
+// runner polling from the owner's machine (outbound only — no tunnel). Tables:
+// bot_users (status pending/approved/denied), bot_sessions, bot_questions,
+// bot_config (admin_key / agent_key). See assistant/README.md.
+const enc = new TextEncoder();
+const hex = (buf) => [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
+const nowIso = () => new Date().toISOString();
+async function pbkdf2(pw, saltHex) {
+  const key = await crypto.subtle.importKey("raw", enc.encode(pw), "PBKDF2", false, ["deriveBits"]);
+  const salt = new Uint8Array(saltHex.match(/../g).map((h) => parseInt(h, 16)));
+  const bits = await crypto.subtle.deriveBits(
+    { name: "PBKDF2", hash: "SHA-256", salt, iterations: 150000 }, key, 256);
+  return hex(bits);
+}
+function safeEq(a, b) {
+  a = String(a || ""); b = String(b || "");
+  if (a.length !== b.length) return false;
+  let d = 0;
+  for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return d === 0;
+}
+let _cfg = null;
+async function botCfg(env) {
+  if (!_cfg) {
+    const { results } = await env.DB.prepare("SELECT k, v FROM bot_config").all();
+    _cfg = Object.fromEntries((results || []).map((r) => [r.k, r.v]));
+  }
+  return _cfg;
+}
+function cookieToken(request) {
+  const m = /(?:^|;\s*)tsd_sess=([A-Za-z0-9-]+)/.exec(request.headers.get("cookie") || "");
+  return m ? m[1] : null;
+}
+async function sessionUser(request, env) {
+  const tok = cookieToken(request);
+  if (!tok) return null;
+  return await env.DB.prepare(
+    "SELECT u.id, u.email, u.name, u.status FROM bot_sessions s JOIN bot_users u ON u.id=s.user_id WHERE s.token=?1"
+  ).bind(tok).first();
+}
+const QUESTION_MAX = 600, OPEN_CAP = 2, DAILY_CAP = 10;
+
+async function handleAssistant(request, env, url) {
+  const p = url.pathname.slice("/api/assistant".length);
+  const method = request.method;
+  const body = method === "POST" ? await request.json().catch(() => ({})) : {};
+
+  if (p === "/register" && method === "POST") {
+    const email = String(body.email || "").trim().toLowerCase();
+    const name = String(body.name || "").trim().slice(0, 80);
+    const reason = String(body.reason || "").trim().slice(0, 400);
+    const pw = String(body.password || "");
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: "valid email required" }, 400);
+    if (pw.length < 8) return json({ error: "password must be at least 8 characters" }, 400);
+    const salt = hex(crypto.getRandomValues(new Uint8Array(16)).buffer);
+    const hash = await pbkdf2(pw, salt);
+    try {
+      await env.DB.prepare(
+        "INSERT INTO bot_users (email,name,reason,pw_hash,pw_salt,status,created_at) VALUES (?1,?2,?3,?4,?5,'pending',?6)"
+      ).bind(email, name, reason, hash, salt, nowIso()).run();
+    } catch { return json({ error: "that email is already registered" }, 409); }
+    return json({ ok: true, status: "pending" });
+  }
+
+  if (p === "/login" && method === "POST") {
+    const email = String(body.email || "").trim().toLowerCase();
+    const u = await env.DB.prepare("SELECT * FROM bot_users WHERE email=?1").bind(email).first();
+    const hash = u ? await pbkdf2(String(body.password || ""), u.pw_salt) : "";
+    if (!u || !safeEq(hash, u.pw_hash)) return json({ error: "wrong email or password" }, 401);
+    if (u.status !== "approved") return json({ ok: true, status: u.status });
+    const tok = crypto.randomUUID() + "-" + crypto.randomUUID();
+    await env.DB.prepare("INSERT INTO bot_sessions (token,user_id,created_at) VALUES (?1,?2,?3)")
+      .bind(tok, u.id, nowIso()).run();
+    return new Response(JSON.stringify({ ok: true, status: "approved", email: u.email }), {
+      headers: { "content-type": "application/json",
+        "set-cookie": `tsd_sess=${tok}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=2592000`, ...CORS } });
+  }
+
+  if (p === "/logout" && method === "POST") {
+    const tok = cookieToken(request);
+    if (tok) await env.DB.prepare("DELETE FROM bot_sessions WHERE token=?1").bind(tok).run();
+    return new Response(JSON.stringify({ ok: true }), {
+      headers: { "content-type": "application/json",
+        "set-cookie": "tsd_sess=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0", ...CORS } });
+  }
+
+  if (p === "/me") {
+    const u = await sessionUser(request, env);
+    return json(u ? { email: u.email, name: u.name, status: u.status } : {});
+  }
+
+  if (p === "/ask" && method === "POST") {
+    const u = await sessionUser(request, env);
+    if (!u || u.status !== "approved") return json({ error: "not authorized" }, 401);
+    const q = String(body.question || "").trim();
+    if (q.length < 5) return json({ error: "ask a real question" }, 400);
+    if (q.length > QUESTION_MAX) return json({ error: `keep it under ${QUESTION_MAX} characters` }, 400);
+    const open = await env.DB.prepare(
+      "SELECT count(*) c FROM bot_questions WHERE user_id=?1 AND status IN ('pending','answering')").bind(u.id).first();
+    if (open.c >= OPEN_CAP) return json({ error: "wait for your open questions to finish" }, 429);
+    const today = await env.DB.prepare(
+      "SELECT count(*) c FROM bot_questions WHERE user_id=?1 AND asked_at > ?2")
+      .bind(u.id, new Date(Date.now() - 86400e3).toISOString()).first();
+    if (today.c >= DAILY_CAP) return json({ error: `daily limit of ${DAILY_CAP} questions reached` }, 429);
+    const r = await env.DB.prepare(
+      "INSERT INTO bot_questions (user_id,question,status,asked_at) VALUES (?1,?2,'pending',?3)")
+      .bind(u.id, q, nowIso()).run();
+    return json({ ok: true, id: r.meta.last_row_id });
+  }
+
+  if (p === "/questions") {
+    const u = await sessionUser(request, env);
+    if (!u) return json({ error: "not authorized" }, 401);
+    const { results } = await env.DB.prepare(
+      "SELECT id,question,status,answer,error,asked_at,answered_at FROM bot_questions WHERE user_id=?1 ORDER BY id DESC LIMIT 30"
+    ).bind(u.id).all();
+    return json({ questions: results || [] });
+  }
+
+  // ----- admin (X-Admin-Key) -----
+  const cfg = await botCfg(env);
+  const isAdmin = safeEq(request.headers.get("x-admin-key"), cfg.admin_key);
+  if (p === "/admin/users" && isAdmin) {
+    const { results } = await env.DB.prepare(
+      "SELECT id,email,name,reason,status,created_at,decided_at FROM bot_users ORDER BY (status='pending') DESC, id DESC LIMIT 200").all();
+    return json({ users: results || [] });
+  }
+  if (p === "/admin/decide" && method === "POST" && isAdmin) {
+    const decision = body.decision === "approved" ? "approved" : "denied";
+    await env.DB.prepare("UPDATE bot_users SET status=?1, decided_at=?2 WHERE id=?3")
+      .bind(decision, nowIso(), Number(body.id)).run();
+    if (decision === "denied")
+      await env.DB.prepare("DELETE FROM bot_sessions WHERE user_id=?1").bind(Number(body.id)).run();
+    return json({ ok: true });
+  }
+  if (p === "/admin/questions" && isAdmin) {
+    const { results } = await env.DB.prepare(
+      "SELECT q.id,u.email,q.question,q.status,q.answer,q.error,q.asked_at,q.tokens_used FROM bot_questions q JOIN bot_users u ON u.id=q.user_id ORDER BY q.id DESC LIMIT 50").all();
+    return json({ questions: results || [] });
+  }
+  if (p.startsWith("/admin/")) return json({ error: "bad admin key" }, 401);
+
+  // ----- agent (X-Agent-Key): the Claude Code runner on the owner's machine -----
+  const isAgent = safeEq(request.headers.get("x-agent-key"), cfg.agent_key);
+  if (p === "/agent/next" && isAgent) {
+    // pending first; else retry questions stuck in 'answering' >20 min (crashed runner)
+    const stale = new Date(Date.now() - 20 * 60e3).toISOString();
+    const q = await env.DB.prepare(
+      "SELECT id,question FROM bot_questions WHERE status='pending' OR (status='answering' AND asked_at < ?1) ORDER BY (status='pending') DESC, id LIMIT 1"
+    ).bind(stale).first();
+    if (!q) return json({});
+    await env.DB.prepare("UPDATE bot_questions SET status='answering' WHERE id=?1").bind(q.id).run();
+    return json(q);
+  }
+  if (p === "/agent/answer" && method === "POST" && isAgent) {
+    const toks = Number(body.tokens_used) || null;
+    if (body.error)
+      await env.DB.prepare("UPDATE bot_questions SET status='error', error=?1, answered_at=?2, tokens_used=?3 WHERE id=?4")
+        .bind(String(body.error).slice(0, 500), nowIso(), toks, Number(body.id)).run();
+    else
+      await env.DB.prepare("UPDATE bot_questions SET status='answered', answer=?1, answered_at=?2, tokens_used=?3 WHERE id=?4")
+        .bind(String(body.answer || "").slice(0, 20000), nowIso(), toks, Number(body.id)).run();
+    return json({ ok: true });
+  }
+  if (p.startsWith("/agent/")) return json({ error: "bad agent key" }, 401);
+
+  return json({ error: "not found" }, 404);
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -293,6 +462,7 @@ export default {
         return json({ youtube_id: rec.youtube_id, duration_s: rec.duration_s,
                       anchors: anchors || [], utterances: utts || [] });
       }
+      if (p.startsWith("/api/assistant/")) return await handleAssistant(request, env, url);
       if (p === "/doc") {
         // Serve an R2 object same-origin (avoids cross-origin iframe issues).
         const key = url.searchParams.get("key");

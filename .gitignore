@@ -25,6 +25,9 @@
 # Large raw artifacts (video, full transcript JSON) stay local — regenerable for ~$0.40.
 !/transcription/
 
+# Ask-the-Archive: Mac Mini runner + docs (keys live in tsd-secrets.env / D1 bot_config, never here)
+!/assistant/
+
 # Claude Code prompt-capture hook (travels with the repo; not local settings)
 !/.claude/
 /.claude/settings.local.json

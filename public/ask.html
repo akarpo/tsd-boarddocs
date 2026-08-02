@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask the Archive — Troy SD BoardDocs</title>
+<style>
+  :root{--bg:#fff;--fg:#1a1c1e;--muted:#5b6167;--line:#e2e5e9;--card:#f7f8fa;--accent:#1668c1;--accent-fg:#fff;--ok:#1a7f4b;--warn:#b26a00;--err:#b3261e}
+  @media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e6e8eb;--muted:#9aa1a9;--line:#2a2e35;--card:#1e2127;--accent:#4f9dee;--accent-fg:#0c1116;--ok:#4ec98a;--warn:#e0a458;--err:#f2b8b5}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 96px}
+  h1{font-size:1.5rem;margin:0 0 4px;letter-spacing:-.01em}
+  p.sub{color:var(--muted);margin:0 0 22px;font-size:.95rem}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:18px}
+  label{display:block;font-size:.82rem;font-weight:600;color:var(--muted);margin:12px 0 4px}
+  input,textarea{width:100%;padding:11px 13px;font:inherit;font-size:.95rem;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:10px}
+  input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
+  textarea{resize:vertical;min-height:74px}
+  button{font:inherit;font-size:.95rem;font-weight:700;padding:11px 20px;cursor:pointer;border:1px solid transparent;border-radius:10px;background:var(--accent);color:var(--accent-fg);margin-top:14px}
+  button.secondary{background:transparent;color:var(--accent);border-color:var(--line)}
+  button:disabled{opacity:.5;cursor:default}
+  .msg{font-size:.9rem;margin-top:10px} .msg.err{color:var(--err)} .msg.ok{color:var(--ok)}
+  .tabs{display:flex;gap:8px;margin-bottom:6px}
+  .tabs button{margin:0;padding:8px 16px;font-size:.88rem}
+  .tabs button.off{background:transparent;color:var(--fg);border-color:var(--line);font-weight:600}
+  .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 9px;border-radius:999px;border:1px solid var(--line)}
+  .pill.pending{color:var(--warn)} .pill.answering{color:var(--accent)} .pill.answered{color:var(--ok)} .pill.error{color:var(--err)}
+  .qa{border-top:1px solid var(--line);padding:14px 0}
+  .qa .q{font-weight:600;margin-bottom:6px}
+  .qa .a{white-space:pre-wrap;font-size:.94rem}
+  .qa .meta{font-size:.76rem;color:var(--muted);margin-top:6px}
+  .note{font-size:.84rem;color:var(--muted)}
+  .topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  .topbar .who{font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <h1>🎓 Ask the Archive</h1>
+    <span class="who" id="who"></span>
+  </div>
+  <p class="sub">Ask questions about the Troy School District Board of Education — budgets, policies,
+  meetings, programs, facilities. An AI assistant reads the <a href="/">public archive</a>
+  (2010–2026) and answers with citations. <b>Off-topic questions are declined.</b></p>
+
+  <div class="card" id="auth-card" hidden>
+    <div class="tabs">
+      <button id="tab-reg">Register</button>
+      <button id="tab-log" class="off">Sign in</button>
+    </div>
+    <div id="pane-reg">
+      <p class="note">Access requires one-time approval by the site owner. You'll register now,
+      and once approved you can sign in and ask questions.</p>
+      <label>Name</label><input id="r-name" autocomplete="name">
+      <label>Email</label><input id="r-email" type="email" autocomplete="email">
+      <label>Why do you want access? <span style="font-weight:400">(shown to the approver)</span></label>
+      <textarea id="r-reason" placeholder="e.g. Troy parent following the budget process"></textarea>
+      <label>Password <span style="font-weight:400">(8+ characters)</span></label>
+      <input id="r-pw" type="password" autocomplete="new-password">
+      <button id="btn-reg">Request access</button>
+      <div class="msg" id="reg-msg"></div>
+    </div>
+    <div id="pane-log" hidden>
+      <label>Email</label><input id="l-email" type="email" autocomplete="email">
+      <label>Password</label><input id="l-pw" type="password" autocomplete="current-password">
+      <button id="btn-log">Sign in</button>
+      <div class="msg" id="log-msg"></div>
+    </div>
+  </div>
+
+  <div class="card" id="pending-card" hidden>
+    <b>⏳ Registration received.</b>
+    <p class="note">Your request is waiting for approval. Check back later — once approved,
+    signing in unlocks the question box. <a href="#" id="pending-signout">Use a different account</a></p>
+  </div>
+
+  <div class="card" id="ask-card" hidden>
+    <label>Your question <span style="font-weight:400">(Troy School District topics only · max 600 chars · 10/day)</span></label>
+    <textarea id="q" maxlength="600" placeholder="e.g. What did the board decide about the Boulan Park renovation bids?"></textarea>
+    <button id="btn-ask">Ask</button>
+    <button id="btn-signout" class="secondary">Sign out</button>
+    <div class="msg" id="ask-msg"></div>
+  </div>
+
+  <div id="history"></div>
+  <p class="note" style="margin-top:26px">Answers are AI-generated from public board documents and may
+  contain errors — verify against the cited sources. Independent public-records tool, not affiliated
+  with Troy School District. <a href="/">← Back to search</a></p>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const api=(path,opts)=>fetch("/api/assistant"+path,{headers:{"content-type":"application/json"},credentials:"same-origin",...opts});
+function esc(s){const d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML}
+function fmtA(t){ // escape, then linkify + minimal markdown bold
+  let h=esc(t);
+  h=h.replace(/(https?:\/\/[^\s)<>"]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  h=h.replace(/\*\*([^*\n]+)\*\*/g,"<b>$1</b>");
+  return h;
+}
+let me=null, pollTimer=null;
+
+async function refreshMe(){
+  me=await (await api("/me")).json();
+  const authed=me&&me.status==="approved";
+  $("auth-card").hidden=!!(me&&me.email);
+  $("pending-card").hidden=!(me&&me.email&&!authed);
+  $("ask-card").hidden=!authed;
+  $("who").textContent=me&&me.email?me.email:"";
+  if(authed) loadHistory();
+}
+async function loadHistory(){
+  const d=await (await api("/questions")).json();
+  const qs=d.questions||[];
+  $("history").innerHTML=qs.map(q=>`
+    <div class="qa">
+      <div class="q">${esc(q.question)}</div>
+      ${q.status==="answered"?`<div class="a">${fmtA(q.answer)}</div>`:
+        q.status==="error"?`<div class="a" style="color:var(--err)">The assistant hit an error: ${esc(q.error||"unknown")}. Ask again.</div>`:
+        `<div class="a" style="color:var(--muted)">…the assistant is working on it. This usually takes a minute or two.</div>`}
+      <div class="meta"><span class="pill ${esc(q.status)}">${esc(q.status)}</span> · asked ${esc((q.asked_at||"").replace("T"," ").slice(0,16))} UTC</div>
+    </div>`).join("");
+  const open=qs.some(q=>q.status==="pending"||q.status==="answering");
+  clearTimeout(pollTimer);
+  if(open) pollTimer=setTimeout(loadHistory,5000);
+}
+$("tab-reg").onclick=()=>{$("pane-reg").hidden=false;$("pane-log").hidden=true;$("tab-reg").classList.remove("off");$("tab-log").classList.add("off")};
+$("tab-log").onclick=()=>{$("pane-reg").hidden=true;$("pane-log").hidden=false;$("tab-log").classList.remove("off");$("tab-reg").classList.add("off")};
+$("btn-reg").onclick=async()=>{
+  $("reg-msg").className="msg";$("reg-msg").textContent="…";
+  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,reason:$("r-reason").value,password:$("r-pw").value})});
+  const d=await r.json();
+  if(d.ok){$("reg-msg").className="msg ok";$("reg-msg").textContent="Request submitted — you'll be able to sign in once approved.";}
+  else{$("reg-msg").className="msg err";$("reg-msg").textContent=d.error||"registration failed";}
+};
+$("btn-log").onclick=async()=>{
+  $("log-msg").className="msg";$("log-msg").textContent="…";
+  const r=await api("/login",{method:"POST",body:JSON.stringify({email:$("l-email").value,password:$("l-pw").value})});
+  const d=await r.json();
+  if(d.ok&&d.status==="approved"){location.reload();}
+  else if(d.ok){$("log-msg").className="msg err";$("log-msg").textContent=d.status==="pending"?"Still waiting for approval — check back later.":"Access was not approved.";}
+  else{$("log-msg").className="msg err";$("log-msg").textContent=d.error||"sign-in failed";}
+};
+async function signout(){await api("/logout",{method:"POST"});location.reload();}
+$("btn-signout").onclick=signout;
+$("pending-signout").onclick=e=>{e.preventDefault();signout()};
+$("btn-ask").onclick=async()=>{
+  const q=$("q").value.trim();
+  $("ask-msg").className="msg";$("ask-msg").textContent="…";
+  const r=await api("/ask",{method:"POST",body:JSON.stringify({question:q})});
+  const d=await r.json();
+  if(d.ok){$("q").value="";$("ask-msg").className="msg ok";$("ask-msg").textContent="Queued — the assistant will answer shortly.";loadHistory();}
+  else{$("ask-msg").className="msg err";$("ask-msg").textContent=d.error||"failed";}
+};
+refreshMe();
+</script>
+</body>
+</html>
