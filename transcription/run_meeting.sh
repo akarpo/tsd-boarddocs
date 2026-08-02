@@ -4,8 +4,8 @@
 #   e.g.:  transcription/run_meeting.sh 2026-02-03 "Board of Education Workshop 6 00 PM" SBV4mbIzKlk
 # Idempotent: skips download/transcription when their outputs already exist in workdir.
 set -euo pipefail
-DATE="$1"; NAME="$2"; YT="$3"; WD="${4:-$HOME/Downloads/tsd-transcripts}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
+DATE="$1"; NAME="$2"; YT="$3"; WD="${4:-$HERE/../scratch/tsd-transcripts}"
 BASE="Troy School Board Meeting - $DATE"
 mkdir -p "$WD"
 
