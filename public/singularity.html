@@ -226,7 +226,8 @@ const kick = setInterval(() => {
   if (playing || kicks++ > 12) { clearInterval(kick); return; }
   yt("playVideo");
 }, 900);
-addEventListener("pointerdown", () => { if (!playing) yt("playVideo"); }, { once: true, capture: true });
+for (const ev of ["pointerdown", "wheel", "keydown", "touchstart", "scroll"])
+  addEventListener(ev, () => { if (!playing) yt("playVideo"); }, { once: true, capture: true, passive: true });
 
 const btn = document.getElementById("unmute");
 btn.addEventListener("click", () => {
