@@ -289,14 +289,17 @@ async function handleAssistant(request, env, url) {
     const name = String(body.name || "").trim().slice(0, 80);
     const reason = String(body.reason || "").trim().slice(0, 400);
     const pw = String(body.password || "");
+    const digits = String(body.phone || "").replace(/\D/g, "");
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: "valid email required" }, 400);
+    if (digits.length < 10 || digits.length > 15) return json({ error: "valid mobile number required" }, 400);
     if (pw.length < 8) return json({ error: "password must be at least 8 characters" }, 400);
+    const phone = "+" + (digits.length === 10 ? "1" + digits : digits);   // E.164-ish, default US
     const salt = hex(crypto.getRandomValues(new Uint8Array(16)).buffer);
     const hash = await pbkdf2(pw, salt);
     try {
       await env.DB.prepare(
-        "INSERT INTO bot_users (email,name,reason,pw_hash,pw_salt,status,created_at) VALUES (?1,?2,?3,?4,?5,'pending',?6)"
-      ).bind(email, name, reason, hash, salt, nowIso()).run();
+        "INSERT INTO bot_users (email,name,reason,phone,pw_hash,pw_salt,status,created_at) VALUES (?1,?2,?3,?4,?5,?6,'pending',?7)"
+      ).bind(email, name, reason, phone, hash, salt, nowIso()).run();
     } catch { return json({ error: "that email is already registered" }, 409); }
     return json({ ok: true, status: "pending" });
   }
@@ -396,7 +399,7 @@ async function handleAssistant(request, env, url) {
   const isAdmin = safeEq(request.headers.get("x-admin-key"), cfg.admin_key);
   if (p === "/admin/users" && isAdmin) {
     const { results } = await env.DB.prepare(
-      "SELECT id,email,name,reason,status,created_at,decided_at FROM bot_users ORDER BY (status='pending') DESC, id DESC LIMIT 200").all();
+      "SELECT id,email,name,reason,phone,status,created_at,decided_at FROM bot_users ORDER BY (status='pending') DESC, id DESC LIMIT 200").all();
     return json({ users: results || [] });
   }
   if (p === "/admin/decide" && method === "POST" && isAdmin) {

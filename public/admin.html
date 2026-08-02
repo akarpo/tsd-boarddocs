@@ -33,7 +33,7 @@
   </div>
   <div id="panel" hidden>
     <h2>Registrations</h2>
-    <table id="users"><thead><tr><th>Status</th><th>Email</th><th>Name</th><th>Reason</th><th>Registered</th><th></th></tr></thead><tbody></tbody></table>
+    <table id="users"><thead><tr><th>Status</th><th>Email</th><th>Name</th><th>Phone</th><th>Reason</th><th>Registered</th><th></th></tr></thead><tbody></tbody></table>
     <h2>Recent questions</h2>
     <table id="qs"><thead><tr><th>#</th><th>User</th><th>Question / answer</th><th>Status</th><th>Tokens</th><th>Asked</th></tr></thead><tbody></tbody></table>
   </div>
@@ -50,7 +50,7 @@ async function load(){
   const users=(await r.json()).users||[];
   $("users").tBodies[0].innerHTML=users.map(u=>`
     <tr><td><span class="pill ${esc(u.status)}">${esc(u.status)}</span></td>
-    <td>${esc(u.email)}</td><td>${esc(u.name)}</td><td class="q">${esc(u.reason)}</td>
+    <td>${esc(u.email)}</td><td>${esc(u.name)}</td><td>${esc(u.phone||"")}</td><td class="q">${esc(u.reason)}</td>
     <td class="muted">${esc((u.created_at||"").slice(0,16).replace("T"," "))}</td>
     <td>${u.status!=="approved"?`<button data-a="approved" data-id="${u.id}">Approve</button> `:""}
         ${u.status!=="denied"?`<button class="deny" data-a="denied" data-id="${u.id}">Deny</button>`:""}</td></tr>`).join("");
