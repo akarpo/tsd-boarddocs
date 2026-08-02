@@ -34,8 +34,13 @@ The docs and pricing pages lag the API — these were confirmed by probing:
 - **Proper nouns**: `keyterms_prompt` — up to 1,000 phrases, ≤6 words each.
   `word_boost` and Slam-1 are deprecated. Keyterms cost +$0.05/hr.
 - **Diarization**: `speaker_labels: true` (+$0.02/hr) yields anonymous A/B/C…
-  clusters. `min_speakers_expected` / `max_speakers_expected` are rejected
-  ("Invalid endpoint schema") — omit them.
+  clusters. Speaker-count hints must be NESTED — `speaker_options:
+  {min_speakers_expected, max_speakers_expected}` (top-level variants 400).
+  **When clustering degenerates** (the 2026-06-01 workshop — a different room's
+  mic chain — collapsed 3.4 hours into 2 clusters and the identifier labeled one
+  "Unknown"), re-run with `--min-speakers 6 --max-speakers 25` and
+  full-fidelity stereo audio instead of the 16 kHz mono downmix: that combination
+  took June 1 from 2 unusable clusters to 9, all identified.
 - **Speaker identification** (names, not letters): separate call, works on an
   already-completed transcript — `POST https://llm-gateway.assemblyai.com/v1/understanding`
   with `speech_understanding.request.speaker_identification =

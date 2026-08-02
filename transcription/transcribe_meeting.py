@@ -65,7 +65,7 @@ def transcode(media: Path) -> Path:
     return out
 
 
-def transcribe(media: Path, keyterms: list[str], key: str) -> dict:
+def transcribe(media: Path, keyterms: list[str], key: str, speakers_range=None) -> dict:
     audio = media if media.suffix.lower() in AUDIO_EXTS else transcode(media)
     print("uploading ...", flush=True)
     up = call(f"{BASE}/upload", key, data=audio.read_bytes(),
@@ -75,6 +75,11 @@ def transcribe(media: Path, keyterms: list[str], key: str) -> dict:
            "keyterms_prompt": keyterms,
            "speaker_labels": True,
            "language_code": "en_us"}
+    if speakers_range:
+        # Nested speaker_options is the current shape (top-level *_speakers_expected 400s).
+        # A min hint breaks degenerate diarization (e.g. a 3-hour meeting collapsing to 2 clusters).
+        cfg["speaker_options"] = {"min_speakers_expected": speakers_range[0],
+                                  "max_speakers_expected": speakers_range[1]}
     t = call(f"{BASE}/transcript", key, data=json.dumps(cfg).encode(),
              headers={"content-type": "application/json"})
     print("transcript id:", t["id"], flush=True)
@@ -162,6 +167,8 @@ def main():
                                        "(see examples/2026-07-22/speakers.json)")
     ap.add_argument("--transcript-id", help="reuse a completed transcript (skip stages 1-4)")
     ap.add_argument("--outdir", help="output dir (default: alongside the media file)")
+    ap.add_argument("--min-speakers", type=int, help="diarization hint (use when clustering degenerates)")
+    ap.add_argument("--max-speakers", type=int)
     a = ap.parse_args()
     if not a.media and not a.transcript_id:
         ap.error("give a media file, or --transcript-id to reuse a completed transcript")
@@ -174,7 +181,8 @@ def main():
     else:
         keyterms = json.load(open(a.keyterms))
         print(f"{len(keyterms)} keyterms loaded", flush=True)
-        r = transcribe(Path(a.media), keyterms, key)
+        rng = (a.min_speakers, a.max_speakers or 30) if a.min_speakers else None
+        r = transcribe(Path(a.media), keyterms, key, rng)
 
     date = a.date or (Path(a.media).stem if a.media else r["id"][:8])
     base = f"Troy School Board Meeting - {date}"
