@@ -74,7 +74,9 @@ Your final message is shown to the asker verbatim."""
 def api(path, payload=None):
     req = urllib.request.Request(SITE + "/api/assistant" + path,
                                  data=json.dumps(payload).encode() if payload is not None else None,
-                                 headers={"x-agent-key": KEY, "content-type": "application/json"})
+                                 headers={"x-agent-key": KEY, "content-type": "application/json",
+                                          # zone WAF 403s non-browser UAs (see repo gotchas) — look like one
+                                          "user-agent": "Mozilla/5.0 (Macintosh) tsd-assistant-runner/1.0"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)
 
