@@ -224,7 +224,7 @@ async function pbkdf2(pw, saltHex) {
   const key = await crypto.subtle.importKey("raw", enc.encode(pw), "PBKDF2", false, ["deriveBits"]);
   const salt = new Uint8Array(saltHex.match(/../g).map((h) => parseInt(h, 16)));
   const bits = await crypto.subtle.deriveBits(
-    { name: "PBKDF2", hash: "SHA-256", salt, iterations: 150000 }, key, 256);
+    { name: "PBKDF2", hash: "SHA-256", salt, iterations: 100000 }, key, 256);
   return hex(bits);
 }
 function safeEq(a, b) {
