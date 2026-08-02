@@ -362,10 +362,18 @@ async function openMeeting(m, push){
 // ---- meeting recording + searchable transcript (click a line/chapter -> seek the video) ----
 function tstr(ms){const s=Math.floor(ms/1000),h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")}
 function ytSeek(iframe,ms){
+  const sec=Math.floor(ms/1000);
+  if(!iframe.dataset.live){
+    // First interaction: a never-started embed ignores seek commands, so (re)load it
+    // starting at the target time. autoplay is delegated via allow="autoplay" and the
+    // user's click provides activation.
+    const u=new URL(iframe.src); u.searchParams.set("start",String(sec)); u.searchParams.set("autoplay","1");
+    iframe.src=u.toString(); iframe.dataset.live="1"; return;
+  }
   const w=iframe.contentWindow; if(!w)return;
   const msg=o=>w.postMessage(JSON.stringify(o),"*");
   msg({event:"listening",id:"tsd",channel:"widget"});   // widget-API handshake; no external script needed
-  msg({event:"command",func:"seekTo",args:[ms/1000,true]});
+  msg({event:"command",func:"seekTo",args:[sec,true]});
   msg({event:"command",func:"playVideo",args:[]});
 }
 function recordingSection(rec){
