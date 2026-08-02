@@ -36,7 +36,7 @@ Recording → named transcript → site. Full guide: [TRANSCRIPTION.md](TRANSCRI
 
 | Script | Role |
 |---|---|
-| `transcription/transcribe_meeting.py` | Meeting video/audio → AssemblyAI (`speech_models: ["universal-3-5-pro", "universal-2"]`, `keyterms_prompt` vocabulary, `speaker_labels`) → transcript JSON/txt/srt; `--speakers speakers.json` runs native speaker identification (≤10 names) + manual `overrides`/`splits`, writing the name-attributed transcript. `--transcript-id` reuses a completed transcript. Key: `ASSEMBLYAI_API_KEY` via `tsd_secrets`. |
+| `transcription/transcribe_meeting.py` | Meeting video/audio → AssemblyAI (`speech_models: ["universal-3-5-pro", "universal-2"]`, `keyterms_prompt` vocabulary, `speaker_labels`) → transcript JSON/txt/srt; `--speakers speakers.json` attributes names — reusing the spec's resolved `mapping` when present (offline, reproducible), else calling native speaker identification (≤10 names) — plus manual `overrides`/`splits`. `--transcript-id` reuses a completed transcript. Key: `ASSEMBLYAI_API_KEY` via `tsd_secrets`. |
 | `transcription/upload_transcript.py` | Transcript JSON + `speakers.json` + `anchors.json` + YouTube id → D1 (`recordings`, `transcript_utts`, `transcript_anchors`) via `wrangler --remote`. Idempotent per meeting; powers `/api/recording` and the meeting-page recording section. |
 | `transcription/keyterms/` | Generated 361-term vocabulary snapshot (Jan 2025 → Jul 2026); regenerate with `proper_nouns.py --since 2025-01-01 --flat-out …`. |
 | `transcription/examples/2026-07-22/` | Worked example: verified `speakers.json`, hand-tuned `anchors.json`, attributed transcript, `.srt`, meeting brief. |

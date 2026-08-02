@@ -17,7 +17,7 @@ transcription/transcribe_meeting.py MEDIA --date YYYY-MM-DD --speakers speakers.
   │  3. POST /v2/transcript   speech_models + keyterms_prompt + speaker_labels
   │  4. poll until completed
   │  5. POST llm-gateway /v1/understanding  (speaker_identification, ≤10 names)
-  ▼  writes <base>.transcript.json / .txt / .attributed.txt / .srt
+  ▼  writes <base>.transcript.json · .transcript.txt (or .transcript.attributed.txt) · .srt
 transcription/upload_transcript.py JSON --date --name --youtube ID --speakers --anchors
   ▼  D1 tables: recordings · transcript_utts · transcript_anchors   (wrangler --remote)
 site  /api/recording → meeting page: embed + chapter chips + searchable transcript,
@@ -53,7 +53,8 @@ The docs and pricing pages lag the API — these were confirmed by probing:
 cabinet, all principals/APs from the 22 Jul 2026 packet, student board reps,
 schools, programs, unions, acronyms) merged with firms auto-extracted from the
 meeting-summary corpus. Ledger docs (check registers, P-card, ACH) are always
-excluded as noise.
+excluded as noise. (`dataset/` is gitignored — on a fresh checkout rebuild it
+with `scripts/build_dataset.py`, or omit `--dataset` to pull summaries from D1.)
 
 **Homophone caveat**: archival names can collide with current ones — the
 2026-07-22 transcript wrote "Mr. Hauff" (Gary Hauff, trustee to 2024, since
@@ -75,7 +76,9 @@ failure modes to check for:
 `speakers.json` (see `transcription/examples/2026-07-22/`) is the reconciliation
 record: `speakers[]` feeds the API (`description` strongly guides matching),
 `mapping` stores the resolved result, `overrides` pins corrections, and
-`splits` divides a two-person cluster at a timestamp.
+`splits` divides a two-person cluster at a timestamp. Once `mapping` is present,
+both `transcribe_meeting.py` and `upload_transcript.py` use it directly — no
+further identification calls, so re-runs are offline and deterministic.
 
 Verification levers that settle disputes fast:
 

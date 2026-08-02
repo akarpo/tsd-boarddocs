@@ -213,6 +213,10 @@ downloaded, and finishes by prepping summary batches for exactly the pending cou
 Summary generation itself is not automated (it needs Opus); the script prints the
 two remaining commands. `--no-prep` stops after ingest.
 
+Once the meeting's recording is on YouTube, the transcription pipeline adds the
+embed + searchable named transcript to its meeting page — the 4-step checklist is
+in [TRANSCRIPTION.md](TRANSCRIPTION.md#adding-a-new-meeting-checklist).
+
 The manual sequence follows, for when you need to run a step on its own.
 
 Run locally, from a checkout with the corpus at `$TSD_BOE_ROOT`:

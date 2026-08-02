@@ -8,7 +8,7 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 ## [0.10.0] — 2026-08-02
 
 **Meeting recordings on the site + the transcription pipeline that feeds them.**
-Full guide: [docs/TRANSCRIPTION.md](TRANSCRIPTION.md).
+Full guide: [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md).
 
 - **Site — recording & searchable transcript per meeting.** A meeting page now
   shows its YouTube recording (privacy-enhanced embed) with agenda-item chapter

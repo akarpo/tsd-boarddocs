@@ -17,7 +17,7 @@ Usage
       --youtube v9EHA5_yT-8 \
       --speakers transcription/examples/2026-07-22/speakers.json \
       --anchors  transcription/examples/2026-07-22/anchors.json
-  # --dry-run writes the SQL next to the transcript instead of executing it.
+  # --dry-run writes the SQL to a temp file (path printed) instead of executing it.
 
 `--name` must match the meeting_name already in D1 chunks (see /api/meetings)
 so the meeting page can join the recording to its document set. Executes with

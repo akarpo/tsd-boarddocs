@@ -11,7 +11,8 @@ Pipeline (each stage skippable / resumable):
   4. poll    → GET  /v2/transcript/{id}  until completed
   5. attribute (with --speakers) → POST llm-gateway /v1/understanding
                                      speaker_identification, speaker_type "name",
-                                     ≤10 candidate names per request
+                                     ≤10 candidate names per request; skipped when the
+                                     spec already carries a resolved "mapping"
   6. write   → <base>.transcript.json / .txt / .srt (+ .attributed.txt when named)
 
 The API key is read via tsd_secrets: env ASSEMBLYAI_API_KEY, else the
@@ -179,7 +180,18 @@ def main():
     who, notes = None, []
     if a.speakers:
         spec = json.load(open(a.speakers))
-        who = namer(identify(r["id"], spec, key), spec)
+        if spec.get("mapping"):
+            # A verified spec (like the committed examples) carries the resolved mapping —
+            # reuse it: reproducible, offline, and no repeat identification charge.
+            mapping = spec["mapping"]
+            print("using resolved mapping from speakers spec (identification call skipped)", flush=True)
+        else:
+            try:
+                mapping = identify(r["id"], spec, key)
+            except SystemExit as e:
+                print(f"identification failed ({e}); continuing with overrides/splits only", flush=True)
+                mapping = {}
+        who = namer(mapping, spec)
         notes = spec.get("notes") or []
     write_outputs(r, outdir, base, who, notes)
 
