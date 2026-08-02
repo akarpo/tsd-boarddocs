@@ -30,10 +30,13 @@ approval → /admin ↑                    └ topic gate (Haiku) · ≤100K tok
 - **Topic gate**: every question first passes a Haiku classifier — strictly Troy
   School District / board business, or it gets a one-line decline (a few hundred
   tokens, no Opus run).
-- **Token cap**: the Opus run streams its usage; the runner kills it the moment
-  the per-question total (gate + answer, all token kinds) passes
-  `ASSISTANT_TOKEN_CAP` (default 100,000). Totals are recorded per question and
-  shown in `/admin`.
+- **Token cap**: the runner kills the Opus run the moment the per-question total
+  passes `ASSISTANT_TOKEN_CAP` (default 100,000 **price-weighted** tokens:
+  input x1, cache-write x1.25, cache-read x0.1, output x5). Weighted is the
+  honest cost meter — a good cited answer measures ~42K weighted (~114K raw,
+  dominated by re-reading the CLI's own cached baseline each turn, which is why
+  a raw cap can never bind sanely). Totals are recorded per question and shown
+  in `/admin`.
 - **Tool cage**: the answering agent may only run `curl` (allowed-tools pattern
   `Bash(curl:*)`) against the site's public search API; question text is
   declared untrusted in the prompt.

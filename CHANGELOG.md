@@ -5,6 +5,22 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+## [0.12.0] — 2026-08-02
+
+**🎓 Ask the Archive** — registration-gated public Q&A answered by a local
+Claude Code instance. `/ask`: register → owner approves in `/admin` (admin key)
+→ sign in → ask; caps 600 chars, 2 open, 10/day. Worker `/api/assistant/*`
+holds users/sessions/questions in D1 (PBKDF2-100k passwords, cookie sessions,
+stale-answer retry). `assistant/runner.py` polls outbound from the owner's
+machine (no tunnel): Haiku topic gate (strictly Troy SD board business, polite
+decline otherwise) → Opus 5 via `claude -p` caged to `Bash(curl:*)` against the
+site's own search API, usage streamed and killed past 100K weighted tokens per
+question (input x1, cache-write x1.25, cache-read x0.1, output x5 — measured:
+a good cited answer ≈ 42K weighted). launchd plist + Mac Mini README included.
+Found along the way: the zone WAF 403s non-browser UAs (runner sends one), the
+CLI repeats per-message usage on every content block (dedupe before summing),
+and the result event's usage is the authoritative session total.
+
 - Singularity polish: the accretion disk now visibly rotates (two sweeping
   density arms + tangential motion streaks, additive blending); the equalizer
   is **real** — a precomputed 12-band spectrum of the actual track (~10 KB of
