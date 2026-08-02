@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Singularity — Troy SD BoardDocs</title>
+<style>
+  :root{
+    --fg:#e8ecf4; --muted:#9aa4b5; --accent:#6fc3ff; --accent2:#ff9d5c; --accent3:#d17bff;
+    --panel:rgba(9,11,20,.72); --panel-line:rgba(255,255,255,.09);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#04050a;color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  #cosmos{position:fixed;inset:0;width:100vw;height:100vh;z-index:0}
+  /* ------- foreground ------- */
+  .wrap{position:relative;z-index:2;max-width:880px;margin:0 auto;padding:9vh 22px 140px}
+  .panel{background:var(--panel);border:1px solid var(--panel-line);border-radius:18px;
+    padding:26px 30px;margin:0 0 26px;backdrop-filter:blur(7px) saturate(130%);
+    -webkit-backdrop-filter:blur(7px) saturate(130%)}
+  h1{font-size:clamp(1.9rem,4.5vw,2.9rem);margin:0 0 6px;letter-spacing:-.02em;
+     background:linear-gradient(92deg,#fff 10%,var(--accent) 45%,var(--accent3) 75%,var(--accent2));
+     -webkit-background-clip:text;background-clip:text;color:transparent}
+  .kicker{font-size:.8rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+  h2{font-size:1.22rem;margin:0 0 12px;letter-spacing:-.01em}
+  h2 .g{margin-right:8px}
+  p{margin:0 0 12px;color:var(--fg)}
+  p.dim,li.dim{color:var(--muted)}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .lesson{border-left:3px solid var(--accent2);padding:2px 0 2px 14px;margin:14px 0;color:#ffd9bd;font-style:italic}
+  .cascade{display:flex;flex-direction:column;gap:8px;margin:16px 0 4px}
+  .cstep{display:flex;align-items:baseline;gap:12px;font-variant-numeric:tabular-nums}
+  .cstep .n{font-weight:800;font-size:1.05rem;min-width:7.2ch;text-align:right;color:var(--accent2)}
+  .cstep .arrow{color:var(--muted)}
+  .cstep .what{color:var(--muted);font-size:.92rem}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0 4px}
+  .stat{background:rgba(255,255,255,.045);border:1px solid var(--panel-line);border-radius:12px;padding:10px 12px}
+  .stat b{display:block;font-size:1.25rem;color:var(--accent)}
+  .stat span{font-size:.78rem;color:var(--muted)}
+  .sig{color:var(--muted);font-size:.86rem;margin-top:18px}
+  code{background:rgba(127,160,255,.14);padding:1px 7px;border-radius:6px;font-size:.88em}
+  /* ------- audio bar ------- */
+  .deck{position:fixed;left:0;right:0;bottom:0;z-index:3;display:flex;align-items:center;gap:14px;
+    padding:10px 18px;background:rgba(6,8,15,.82);border-top:1px solid var(--panel-line);
+    backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+  .eq{display:flex;align-items:flex-end;gap:3px;height:34px;flex:0 0 auto}
+  .eq i{display:block;width:5px;height:4px;border-radius:2px 2px 0 0;
+    background:linear-gradient(180deg,var(--bh,#6fc3ff),rgba(111,195,255,.25));
+    transition:height .09s linear}
+  .track{flex:1;min-width:0;font-size:.82rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .track b{color:var(--fg);font-weight:600}
+  #unmute{flex:0 0 auto;font:inherit;font-size:.85rem;font-weight:700;padding:8px 16px;cursor:pointer;
+    color:#04050a;background:linear-gradient(92deg,var(--accent),var(--accent3));border:0;border-radius:999px}
+  #unmute.muted-off{background:rgba(255,255,255,.12);color:var(--fg)}
+  #ytbox{position:fixed;width:2px;height:2px;left:-4px;bottom:-4px;opacity:.01;pointer-events:none}
+  @media (max-width:640px){ .panel{padding:20px 18px} .track .by{display:none} .wrap{padding-top:6vh} }
+  @media (prefers-reduced-motion:reduce){ .eq i{transition:none} }
+</style>
+</head>
+<body>
+<canvas id="cosmos" aria-hidden="true"></canvas>
+
+<div class="wrap">
+  <div class="panel">
+    <p class="kicker">🕳️ you found the easter egg</p>
+    <h1>The Singularity</h1>
+    <p>Where sixteen years of school-board meetings collapse into a point you can query.</p>
+    <p class="dim">Behind this text, the corpus is falling into a black hole: dollar signs, section marks,
+    stray digits from check registers — all of it spiraling past the photon ring while one very calm
+    little computer keeps a safe orbit and takes notes. That is, roughly, an honest diagram of this
+    project. Scroll on; the music is optional but recommended. ♪</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🌀</span>The compression cascade</h2>
+    <p>Everything on this site is one long act of compression — gigabytes of civic paper trail
+    squeezed into something a question can reach in milliseconds:</p>
+    <div class="cascade">
+      <div class="cstep"><span class="n">3.7&nbsp;GB</span><span class="arrow">→</span><span>the raw corpus <span class="what">— 419 meetings, ~2,800 documents, 2010–2026</span></span></div>
+      <div class="cstep"><span class="n">344&nbsp;MB</span><span class="arrow">→</span><span>the queryable database <span class="what">— ~44,000 searchable chunks + three-tier AI summaries</span></span></div>
+      <div class="cstep"><span class="n">~1&nbsp;KB</span><span class="arrow">→</span><span>what a question actually retrieves <span class="what">— the paragraph that answers it</span></span></div>
+    </div>
+    <p style="margin-top:14px">The newest layer does the same thing to video:</p>
+    <div class="cascade">
+      <div class="cstep"><span class="n">1.4&nbsp;GB</span><span class="arrow">→</span><span>one board-meeting recording <span class="what">— 85 minutes of MP4</span></span></div>
+      <div class="cstep"><span class="n">39&nbsp;MB</span><span class="arrow">→</span><span>the audio track alone</span></div>
+      <div class="cstep"><span class="n">90&nbsp;KB</span><span class="arrow">→</span><span>a speaker-attributed transcript <span class="what">— 13,767 words, searchable</span></span></div>
+      <div class="cstep"><span class="n">15</span><span class="arrow">→</span><span>agenda chapters that seek the video <span class="what">— click one on any meeting page</span></span></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">📄</span>How the archive works (the honest version)</h2>
+    <p>Four steps: <b>crawl</b> every document off BoardDocs, <b>extract</b> the words,
+    <b>chunk</b> them into ~800-word index cards, and <b>summarize</b> each document three ways.
+    Each step sounds trivial. Three of the four bit us.</p>
+    <p>The dirty secret of extraction: a PDF does not contain a document — it contains
+    <em>drawing instructions</em>. “Put a ‘B’ at (72,&nbsp;400).” Closer to a painting than a text file.
+    One library reads the words perfectly but scrambles their order; another keeps the order but
+    splits <code>$123,879,792</code> into <code>1</code> and <code>23,879,792</code>. So the extractor runs both
+    and merges them — one tool’s characters in the other tool’s order.</p>
+    <p>The summaries are the trick that makes search work. A query for “budget cuts” will never match a
+    document that only ever says “expenditure reductions” — so a dense, verbose summary is indexed
+    <em>alongside</em> every document, acting as a translation layer between how people ask and how
+    bureaucracies write.</p>
+    <p>And because fluent output is the hardest kind to audit, every figure a summary asserts is
+    machine-checked against the source — 6,151 numbers in the latest pass. This paranoia is earned: one
+    innocent-looking line (<code>TEXT_CAP&nbsp;=&nbsp;6000</code>) once fed the AI only the first two pages of
+    everything, and 788 documents got fluent, plausible, nearly source-free summaries. A 100-page budget
+    book, summarized from its table of contents. Nothing crashed. Everything read beautifully.</p>
+    <p class="lesson">The dangerous failures produce confident, well-formed, wrong output. Crashes are a gift.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🎙️</span>The archive taught the transcriber how to hear</h2>
+    <p>Meeting recordings now get transcribed by a Whisper-class speech model (AssemblyAI’s
+    Universal-3.5&nbsp;Pro). Out of the box, a speech model has never heard of Boulan Park, mishears
+    “Machesky,” and thinks TESPA is a typo. Names are exactly what a civic transcript cannot get wrong.</p>
+    <p>This is where the archive bootstraps itself. Those verbose summaries are dense with proper nouns —
+    so a script mines them: every trustee and principal, every school building, every vendor on a bid
+    tab, every acronym a board member has ever pronounced out loud. The result is a 361-term vocabulary
+    that gets handed to the speech model as key terms before it listens to a single second of audio.</p>
+    <p><b>The paper trail teaches the ear.</b> Documents → summaries → proper nouns → a transcriber that
+    hears “Boulan Park Middle School security and paging” on the first try. Diarization splits the voices,
+    a second pass pins real names on them, and the agenda items become chapters that jump the video to the
+    moment a motion was moved. Cost of transcribing an entire board meeting this way: about forty cents.</p>
+    <p class="dim">It still wrote “Mr. Hauff” for Mr. Haupt six times — two different humans, one homophone
+    apart, both real. Some entropy is irreducible.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🧮</span>A two-minute primer: compression <em>is</em> intelligence</h2>
+    <p>In the 1940s Claude Shannon asked how far text can be compressed, and invented information theory
+    to answer it. His definition: the information in a message is <code>−log₂&nbsp;p</code> — “how many times
+    must you halve the space of possibilities to land on this one?” Surprising messages carry many bits;
+    predictable ones carry almost none.</p>
+    <p>Which means compression and prediction are the same job. If you can predict the next character
+    well, you barely need to store it. Shannon proved it by using people as the predictor — show a human
+    100 letters of context, ask them to guess the next one — and measured English at roughly
+    <b>1&nbsp;bit per character</b>, an 8× compression of plain ASCII, achievable only because a human brain
+    is an excellent (if un-inspectable) model of language. Today we build those black boxes instead of
+    interviewing them: a large language model is, quite literally, a compression engine you can talk to.</p>
+    <p>That is what this archive is. The verbose summaries are lossy compression tuned to future
+    questions. The transcript compresses an afternoon of civic life into text you can grep. The index
+    compresses “where is it?” from 3.7&nbsp;GB to a millisecond. None of it reaches Shannon’s floor — but
+    every useful system lives in the gap between ASCII and 1&nbsp;bit per character.</p>
+    <p class="dim">Primer distilled from 3Blue1Brown’s
+    <a href="https://www.youtube.com/watch?v=l6DKRf-fAAM" target="_blank" rel="noopener">“Reinventing Entropy — Compression is Intelligence, Part&nbsp;1”</a>,
+    which you should absolutely watch instead of trusting my summary. (Fluent summaries, we established, deserve verification.)</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🕳️</span>The ultimate computer</h2>
+    <p>Now the background art. Physicists have entertained a wonderful idea: the densest possible
+    computer — the endpoint of Moore’s law, pursued without taste or restraint — is a black hole.</p>
+    <p>Jacob Bekenstein showed that the information a region of space can hold is finite, and scales with
+    its <em>surface area</em>, not its volume — as if the universe stored everything on the boundary
+    (the “holographic principle”). A black hole saturates that bound exactly: it is the most information
+    per square inch that physics permits. Seth Lloyd ran the numbers on the “ultimate laptop” — one
+    kilogram of matter computing as hard as physical law allows: ~10⁵⁰ operations per second on ~10³¹
+    bits, and its final form is, inconveniently, a small black hole. Maximum compression and maximum
+    computation turn out to be the same object. Shannon would have smiled.</p>
+    <p>Hence the scene behind this page: the colorful matter in the accretion disk is the data on its way
+    in — glowing hot precisely because it is being compressed — and the little computer in stable orbit
+    is this website, reading the radiation and answering your questions from a safe distance.</p>
+    <p class="dim">This archive currently holds its sixteen years at a leisurely 344&nbsp;MB, which leaves
+    considerable headroom before the Bekenstein bound. We do not intend to test it.</p>
+    <p class="sig">↩ <a href="/">Escape the event horizon — back to the archive</a><br>
+    ♪ Background: Trent Reznor &amp; Atticus Ross — <i>Painted Sun in Abstract</i> (The Social Network),
+    playing via <a href="https://www.youtube.com/watch?v=tTB6HmZNJ5s" target="_blank" rel="noopener">YouTube</a>, muted until you say otherwise.<br>
+    No pixels were harmed crossing the event horizon.</p>
+  </div>
+</div>
+
+<div class="deck">
+  <div class="eq" id="eq" aria-hidden="true"></div>
+  <div class="track"><b>♪ Painted Sun in Abstract</b> <span class="by">— Trent Reznor &amp; Atticus Ross · The Social Network</span></div>
+  <button id="unmute" aria-pressed="false">🔇 Unmute</button>
+</div>
+<div id="ytbox"><div id="yt"></div></div>
+
+<script>
+"use strict";
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------------- audio: hidden YouTube embed (keeps the track licensed & monetized) ---------------- */
+const VID = "tTB6HmZNJ5s";
+const ytf = document.createElement("iframe");
+ytf.id = "yt";
+ytf.allow = "autoplay; encrypted-media";
+ytf.src = `https://www.youtube-nocookie.com/embed/${VID}?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=${VID}&controls=0&disablekb=1&playsinline=1`;
+document.getElementById("ytbox").replaceChildren(ytf);
+let ytReady = false, playing = false, muted = true;
+const yt = (func, args=[]) => { try {
+  ytf.contentWindow.postMessage(JSON.stringify({event:"command", func, args}), "*");
+} catch(e){} };
+ytf.addEventListener("load", () => {
+  const hello = () => { try {
+    ytf.contentWindow.postMessage(JSON.stringify({event:"listening", id:"egg", channel:"widget"}), "*");
+  } catch(e){} };
+  hello(); setTimeout(hello, 700); setTimeout(hello, 2000);
+});
+addEventListener("message", (e) => {
+  if (!/youtube/.test(e.origin)) return;
+  let d; try { d = JSON.parse(e.data); } catch { return; }
+  if (d.event === "onReady") ytReady = true;
+  const info = d.info || {};
+  if (typeof info.playerState === "number") playing = info.playerState === 1;
+  if (typeof info.muted === "boolean") muted = info.muted;
+});
+const btn = document.getElementById("unmute");
+btn.addEventListener("click", () => {
+  if (muted) { yt("unMute"); yt("setVolume", [70]); yt("playVideo"); muted = false; playing = true; }
+  else { yt("mute"); muted = true; }
+  btn.textContent = muted ? "🔇 Unmute" : "🔊 Playing";
+  btn.classList.toggle("muted-off", false);
+  btn.setAttribute("aria-pressed", String(!muted));
+});
+
+/* ---------------- equalizer (stylized — the audio lives cross-origin, so we perform) ---------------- */
+const eq = document.getElementById("eq"), BARS = 26, bars = [];
+for (let i = 0; i < BARS; i++) {
+  const b = document.createElement("i");
+  b.style.setProperty("--bh", `hsl(${195 + i * 6.5}, 95%, 66%)`);
+  eq.appendChild(b); bars.push({el: b, v: 0.1});
+}
+let eqT = 0;
+setInterval(() => {
+  eqT += 0.11;
+  const amp = playing !== false ? (muted ? 0.42 : 1) : 0.1;   // treat "unknown" as softly playing
+  for (let i = 0; i < BARS; i++) {
+    const base = 0.3 + 0.7 * Math.abs(Math.sin(eqT * (0.6 + i * 0.037) + i * 1.7));
+    const jitter = 0.75 + 0.25 * Math.random();
+    const target = 4 + 30 * amp * base * jitter;
+    bars[i].v += (target - bars[i].v) * 0.4;
+    bars[i].el.style.height = bars[i].v.toFixed(1) + "px";
+  }
+}, reduceMotion ? 400 : 66);
+
+/* ---------------- the cosmos: starfield, black hole, colorful accretion, infalling corpus ---------------- */
+const cv = document.getElementById("cosmos"), cx = cv.getContext("2d");
+let W, H, R, BH;
+const DPR = Math.min(devicePixelRatio || 1, 2);
+function size() {
+  W = innerWidth; H = innerHeight;
+  cv.width = W * DPR; cv.height = H * DPR;
+  cv.style.width = W + "px"; cv.style.height = H + "px";
+  cx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  BH = { x: W * (W > 900 ? 0.66 : 0.5), y: H * 0.36 };
+  R = Math.min(W, H) * (W > 900 ? 0.115 : 0.14);
+}
+size(); addEventListener("resize", size);
+
+const stars = Array.from({length: 230}, () => ({
+  x: Math.random(), y: Math.random(), r: Math.random() * 1.3 + .3,
+  tw: Math.random() * Math.PI * 2, sp: 0.3 + Math.random() * 1.2
+}));
+
+/* accretion disk particles orbit on a tilted ellipse; hue drifts around the ring */
+const DISK = Array.from({length: 620}, () => {
+  const a = Math.random() * Math.PI * 2;
+  return { a, r: 1.25 + Math.pow(Math.random(), 1.6) * 1.9,          // in units of R
+           w: 0.25 + 0.55 / (0.4 + Math.random()),                    // angular speed
+           s: 0.7 + Math.random() * 1.9, h: Math.random() * 360 };
+});
+const TILT = 0.34;                                                    // ellipse squash
+
+/* the corpus, falling in: glyphs on a decaying spiral */
+const GLYPHS = "$§¶%0123456789✓•№=+".split("");
+function newFall(init) {
+  const a = Math.random() * Math.PI * 2;
+  return { a, r: (init ? 2.4 + Math.random() * 9 : 8 + Math.random() * 5),
+           w: 0.5 + Math.random() * 0.7, g: GLYPHS[(Math.random() * GLYPHS.length) | 0],
+           h: 180 + Math.random() * 180, sz: 9 + Math.random() * 8 };
+}
+const falls = Array.from({length: 42}, () => newFall(true));
+
+function drawComputer(t) {
+  /* a small retro terminal in a wide, safe orbit */
+  const oa = -t * 0.1, ox = BH.x + Math.cos(oa) * R * 3.6, oy = BH.y + Math.sin(oa) * R * 3.6 * 0.55 + R * 0.2;
+  cx.save(); cx.translate(ox, oy); cx.rotate(Math.sin(t * 0.4) * 0.08);
+  const u = Math.max(R * 0.16, 13);
+  cx.fillStyle = "#c9cfdb";                                           // monitor shell
+  cx.beginPath(); cx.roundRect(-u * 1.1, -u * 1.05, u * 2.2, u * 1.7, u * 0.18); cx.fill();
+  cx.fillStyle = "#0a1524";                                           // screen
+  cx.beginPath(); cx.roundRect(-u * 0.88, -u * 0.85, u * 1.76, u * 1.18, u * 0.1); cx.fill();
+  cx.fillStyle = "rgba(111,195,255,.9)";                              // busy screen lines
+  for (let i = 0; i < 4; i++) {
+    const lw = u * (0.5 + 0.7 * Math.abs(Math.sin(t * 1.7 + i * 1.3)));
+    cx.fillRect(-u * 0.74, -u * 0.66 + i * u * 0.26, lw, u * 0.09);
+  }
+  cx.fillStyle = "#aab2c2";                                           // neck + base + keyboard
+  cx.fillRect(-u * 0.28, u * 0.65, u * 0.56, u * 0.22);
+  cx.beginPath(); cx.roundRect(-u * 1.25, u * 0.86, u * 2.5, u * 0.34, u * 0.12); cx.fill();
+  cx.restore();
+}
+
+let t0 = performance.now();
+function frame(now) {
+  const t = (now - t0) / 1000;
+  cx.clearRect(0, 0, W, H);
+
+  /* space */
+  const bg = cx.createRadialGradient(BH.x, BH.y, R * 0.5, BH.x, BH.y, Math.max(W, H));
+  bg.addColorStop(0, "#0b0d1c"); bg.addColorStop(0.4, "#070812"); bg.addColorStop(1, "#03040a");
+  cx.fillStyle = bg; cx.fillRect(0, 0, W, H);
+  for (const s of stars) {
+    const a = 0.35 + 0.6 * Math.abs(Math.sin(s.tw + t * s.sp));
+    cx.fillStyle = `rgba(220,230,255,${a})`;
+    cx.fillRect(s.x * W, s.y * H, s.r, s.r);
+  }
+
+  /* accretion disk — far half behind the hole, near half in front */
+  cx.save(); cx.translate(BH.x, BH.y);
+  const pass = (front) => {
+    for (const p of DISK) {
+      const ang = p.a + t * p.w;
+      const sy = Math.sin(ang);
+      if (front !== (sy > 0)) continue;
+      const px = Math.cos(ang) * p.r * R, py = sy * p.r * R * TILT;
+      const doppler = 0.55 + 0.45 * Math.cos(ang);                    // approaching side brighter
+      const hue = (p.h + t * 18) % 360;
+      cx.fillStyle = `hsla(${hue}, 95%, ${45 + doppler * 30}%, ${0.5 + doppler * 0.4})`;
+      const s = p.s * (0.8 + doppler * 0.6);
+      cx.fillRect(px, py, s, s);
+    }
+  };
+  pass(false);
+  /* photon ring + horizon */
+  cx.strokeStyle = "rgba(255,222,170,.85)"; cx.lineWidth = 2.2;
+  cx.shadowColor = "rgba(255,200,120,.9)"; cx.shadowBlur = 14;
+  cx.beginPath(); cx.arc(0, 0, R * 1.03, 0, Math.PI * 2); cx.stroke();
+  cx.shadowBlur = 0;
+  cx.fillStyle = "#000";
+  cx.beginPath(); cx.arc(0, 0, R, 0, Math.PI * 2); cx.fill();
+  pass(true);
+
+  /* the corpus, spiraling in */
+  cx.textAlign = "center"; cx.textBaseline = "middle";
+  for (let i = 0; i < falls.length; i++) {
+    const f = falls[i];
+    f.a += f.w * 0.016 * (2.2 / f.r);
+    f.r -= (0.16 + 0.5 / f.r) * 0.016 * 2.2;
+    if (f.r * R < R * 1.02) { falls[i] = newFall(false); continue; }
+    const px = Math.cos(f.a) * f.r * R, py = Math.sin(f.a) * f.r * R * (TILT + 0.28);
+    const heat = Math.max(0, Math.min(1, (4 - f.r) / 3));
+    cx.fillStyle = `hsla(${(f.h + heat * 140) % 360}, 90%, ${55 + heat * 25}%, ${0.35 + heat * 0.6})`;
+    cx.font = `${f.sz * (0.7 + heat * 0.5)}px ui-monospace, Menlo, monospace`;
+    cx.fillText(f.g, px, py);
+  }
+  cx.restore();
+
+  drawComputer(t);
+  if (!reduceMotion) requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

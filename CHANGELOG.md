@@ -5,6 +5,23 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+## [0.11.0] — 2026-08-02
+
+**🕳️ Easter egg: `/singularity`.** A tiny black hole in the site footer leads to a
+whimsical explainer page — how the archive works (distilled from the
+*BoardDocs, How It Works* write-up: PDF drawing-instructions, the
+summary-as-translation-layer trick, `TEXT_CAP`, figure verification), how the
+summaries bootstrap the speech-to-text vocabulary ("the paper trail teaches the
+ear"), a Shannon compression-is-intelligence primer (after 3Blue1Brown's
+*Reinventing Entropy*), and the black-holes-as-ultimate-computers coda
+(Bekenstein bound, Lloyd's ultimate laptop). Canvas art: colorful accretion disk
+with the corpus's glyphs spiraling in past the photon ring, a retro terminal in
+safe orbit, starfield; translucent content panels over it. Background music
+(Reznor & Ross, *Painted Sun in Abstract*) plays muted via a hidden **YouTube
+embed** — deliberately not re-hosted audio, so playback stays licensed — with a
+stylized equalizer and an unmute control. `prefers-reduced-motion` respected;
+`noindex`.
+
 ## [0.10.0] — 2026-08-02
 
 **Meeting recordings on the site + the transcription pipeline that feeds them.**
