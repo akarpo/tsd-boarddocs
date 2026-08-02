@@ -16,6 +16,11 @@ Usage
   python scripts/proper_nouns.py                      # -> ~/Desktop/Troy School District Proper Nouns.docx
   python scripts/proper_nouns.py --out out.docx --refresh     # re-pull summaries from D1
   python scripts/proper_nouns.py --qa                 # print validation digests (run as new years land)
+  python scripts/proper_nouns.py --dataset dataset/summaries-full.jsonl --since 2025-01-01 \
+      --flat-out vocab.txt                            # scoped flat keyterms list (txt + .json twin)
+
+AssemblyAI target (verified Aug 2026): `keyterms_prompt` on speech_model universal-3-5-pro
+(Universal-3.5 Pro) — up to 1,000 phrases, max 6 words each; word_boost and slam-1 are deprecated.
 
 As more (older) meeting years get summarized, re-run --qa: it prints the board roll-call
 timeline, flags names that look external, and surfaces new school/acronym candidates so the
@@ -34,14 +39,33 @@ DEFAULT_OUT = str(Path.home() / "Desktop" / "Troy School District Proper Nouns.d
 
 
 # ------------------------------------------------------------------ data loading
-def load_summaries(cache=CACHE, refresh=False):
-    """Return list of {url, paragraph, page, verbose}; cache the raw D1 dump locally."""
+_LEDGER = re.compile(r"check register|ach report|p ?card|wire transfer|financial statement", re.I)
+
+
+def load_summaries(cache=CACHE, refresh=False, dataset=None, since=None):
+    """Return list of {url, paragraph, page, verbose[, meeting_date]}.
+
+    With --dataset, read the local summaries-full.jsonl (has meeting_date inline) and
+    optionally filter to meetings >= --since. Ledger docs (check registers, ACH/P-card,
+    wire transfers, financial statements) are always excluded — they are noise here.
+    Without --dataset, fall back to the cached remote D1 dump (legacy path).
+    """
+    if dataset:
+        recs = [json.loads(l) for l in open(dataset, encoding="utf-8")]
+        recs = [r for r in recs if not _LEDGER.search(r.get("title") or "")]
+        if since:
+            recs = [r for r in recs if (r.get("meeting_date") or "") >= since]
+        return recs
     if refresh or not Path(cache).exists():
         r = subprocess.run(["wrangler", "d1", "execute", DB, "--remote", "--yes", "--json",
                             "--command", "SELECT url, paragraph, page, verbose FROM summaries"],
                            capture_output=True, text=True)
         Path(cache).write_text(r.stdout)
-    return json.load(open(cache))[0]["results"]
+    sums = json.load(open(cache))[0]["results"]
+    if since:
+        ud = load_url_dates()
+        sums = [s for s in sums if (ud.get(s.get("url"), "") or "9999") >= since]
+    return sums
 
 
 def load_url_dates():
@@ -67,12 +91,14 @@ def sumtext(sums):
 
 # ------------------------------------------------------------------ firm extraction (data-driven)
 GENERIC = {"apple", "an apple", "amazon", "amazon.com", "school district high", "school district",
-           "asphalt paving", "bricks"}      # last two are OCR fragments of longer names
+           "asphalt paving", "bricks",      # OCR fragments of longer names
+           "project architect"}             # role title, not a firm
 RENAME = {"TSACG-TSA Consulting Group": "TSA Consulting Group (TSACG)"}
 _ORG = re.compile(r"\b((?:[A-Z][A-Za-z.'&-]+\s+){1,4}(?:Inc\.?|LLC|L\.L\.C\.?|Company|Corporation|Corp\.?|"
                   r"Associates|Architects?|Architecture|Construction|Contracting|Group|Partners|Consulting|"
                   r"Consultants|Engineering|Engineers|Paving|Electric|Mechanical|Plumbing|Roofing|Landscape|"
-                  r"Solutions|Systems|Technologies|Publishing|Publishers))\b")
+                  r"Solutions|Systems|Technologies|Publishing|Publishers|Builders|Planners|Flooring|Floors|"
+                  r"Interiors|Supply|Asphalt|Relocations|Transit|Environmental))\b")
 _RETAIL = re.compile(r"amazon|home depot|staples|kroger|walmart|target|costco|meijer|sam's|best buy|"
                      r"office depot|lowe's|walgreens|cvs", re.I)
 
@@ -130,29 +156,66 @@ PEOPLE = [
     ("John Pagel", "Assistant Superintendent, Employee Services"),
  ]),
  ("Directors & administrators", [
+    # roster refreshed from the 22 Jul 2026 packet (6A contract-extension list + 6D appointment)
     ("Rob Carson", "Director of Maintenance & Operations (also ‘Robert Carson’)"),
     ("David Recker", "Director of Teaching & Learning (Ed.D.)"),
-    ("Aurel Malutan", "Director of Finance"),
+    ("Kyle Anderson", "Finance Director (appointed 1 Jul 2026; ex-Barton Malow, West Bloomfield, Anchor Bay)"),
+    ("Aurel Malutan", "Director of Finance (to ~2026)"),
     ("Kandice Moynihan", "Finance Director (former)"),
-    ("Troy Wissink", "Director of Technology & Data Services"),
+    ("Troy Wissink", "Director of Technology (to ~2025/26)"),
     ("Beth Soggs", "Director of Technology (former)"),
-    ("Saso Vasovski", "Director of Technology & Data Services"),
+    ("Saso Vasovski", "Director of Technology & Data Services (current)"),
     ("Alan Wilson", "Assistant Director of Technology"),
+    ("Brian Canfield", "Director of Employee Services"),
+    ("Erin Keyser", "Director, Early Childhood Program"),
+    ("Michael Munaco", "Supervisor, Career Readiness & Technical Education"),
     ("Shari Pawlus", "Supervisor of ELD (K-12)"),
-    ("Sara Smotherman", "Director of Special Education"),
-    ("Matt Jansen", "Director of Athletics"),
+    ("Sarah Smotherman", "Director of Special Education (older docs spell ‘Sara’)"),
+    ("Matt Jansen", "Director of Athletics, Continuing Ed, Enrichment"),
     ("Tim Fulcher", "Athletics"),
-    ("Kendra Montante", "Administrator"),
-    ("Patrick Griffin", "Administrator"),
-    ("Lindsay Keegan", "Administrator"),
+    ("Kendra Montante", "Director, Communications & Strategic Initiatives"),
+    ("Gayle Moran", "Director of Food Services (Sodexo liaison; in board roll-calls 2026)"),
+    ("Donna Havrilla", "Purchasing Department (copied on bid/contract memos)"),
  ]),
- ("Principals & building administrators", [
-    ("Jonathan Cross", "Principal"), ("Remo Roncone", "Principal"),
-    ("Vernon Burden", "Principal"), ("Kristin Crowe", "Principal"),
-    ("Harleen Singh", "Principal"), ("Angela Milanov", "Principal"),
-    ("Scott Keen", "Principal"), ("Brian Zawislak", "Principal"),
-    ("Kristy Hall", "Principal"), ("Mike Cottone", "Principal"),
-    ("Amy Wallace", "Principal (Wattles)"),
+ ("Principals (roster per 22 Jul 2026 packet)", [
+    ("Vernon Burden", "Athens High School"), ("Patrick Griffin", "International Academy-East"),
+    ("Angela Milanov", "Troy College & Career High School"), ("Remo Roncone", "Troy High School"),
+    ("Ryan Brinks", "Smith Middle School"), ("Jonathan Cross", "Baker Middle School"),
+    ("Anthony Morse", "Boulan Park Middle School (‘Tony Morse’)"), ("Brian Zawislak", "Larson Middle School"),
+    ("Ross Burdette", "Hill Elementary"), ("Karen Bush", "Barnard Elementary"),
+    ("Mike Cottone", "Troy Union Elementary"), ("Kristin Crowe", "Wass Elementary"),
+    ("Erin Detmer", "Leonard Elementary"), ("Tammy DiPonio", "Costello Elementary"),
+    ("Scott Keen", "Morse Elementary"), ("Lindsay Keegan", "Schroeder Elementary"),
+    ("Harleen Singh", "Bemis Elementary"), ("Amy Wallace", "Wattles Elementary"),
+    ("Kristy Hall", "Principal (former)"),
+ ]),
+ ("Assistant principals", [
+    ("Kerry Brennan", "Troy High School"), ("Dan House", "Troy High School"),
+    ("Ben Cronin", "Athens High School"), ("Megan Henry", "Athens High School"),
+    ("Gabrielle Naus", "International Academy-East"), ("Cassandra Conaton", "Smith Middle School"),
+    ("Melissa Palmeri", "Larson Middle School"), ("Kristy Pierce", "Boulan Park Middle School"),
+ ]),
+ ("Teachers, advisors & union leadership", [
+    ("Thomas Butcher", "Creative Guild advisor (student-spotlight segments)"),
+    ("Claire Murphy", "orchestra teacher (‘Mrs. Claire Murphy’)"),
+    ("Jennifer Martus", "TESA President (Costello Elementary secretary)"),
+ ]),
+ ("Student board representatives", [
+    ("Kristian Vitanovich", "Troy College & Career HS · 2025-26"),
+    ("Nurayda Albeez", "International Academy-East · 2025-26"),
+    ("Diana D'Aloisio", "Athens High School · 2025-26"),
+    ("Adam McManus", "Troy High School · 2025-26"),
+    ("Madie Miller", "Troy High School (fill-in) · 2025-26"),
+    ("Chloe Gentilini", "Troy College & Career HS · 2024-25"),
+    ("Ahyoung Song", "International Academy-East · 2024-25"),
+    ("Sara Graunstadt", "Athens High School · 2024-25"),
+    ("Isabella Doss", "Troy High School · 2024-25 (‘Bella Doss’)"),
+ ]),
+ ("Owner's-rep & construction-management team (bond program)", [
+    ("Brian Jessie", "Barton Malow, CTS — signs bid-recommendation letters"),
+    ("Josh Eisenman", "Barton Malow Builders"),
+    ("Brian Beck", "Barton Malow Builders"),
+    ("Michelle Kerns", "Lecole Planners"),
  ]),
 ]
 
@@ -163,7 +226,8 @@ BUILDINGS = [
  ("Middle schools", ["Baker Middle School", "Boulan Park Middle School", "Larson Middle School",
    "Smith Middle School (New Smith Middle School)"]),
  ("High schools & academies", ["Troy High School", "Athens High School (Troy Athens)", "International Academy",
-   "International Academy East (IA East)", "Troy Career Center (Troy School District Career Center)"]),
+   "International Academy East (IA East)", "Troy Career Center (Troy School District Career Center)",
+   "Troy College and Career High School"]),
  ("Facilities & centers", ["Administration Building (4400 Livernois)", "Services Building (4420 Livernois)",
    "School District Service Center", "Operations / Maintenance Department (1140 Rankin)",
    "Transportation Center", "Troy Learning Center", "Troy Center for Transition", "Early Childhood Center",
@@ -175,9 +239,17 @@ PROGRAMS = ["International Baccalaureate (IB)", "Middle Years Programme", "Advan
  "Career and Technical Education (CTE)", "Special Education", "Title I", "Section 31a", "Section 504",
  "Multi-Tiered System of Supports (MTSS)", "Positive Behavioral Interventions and Supports (PBIS)",
  "Restorative Practices", "Reading Recovery", "Units of Study", "STEM / STEAM", "Robotics",
- "M-STEP", "PSAT", "NWEA MAP Growth", "PowerSchool", "Schoology", "Canvas", "Clever"]
+ "M-STEP", "PSAT", "NWEA MAP Growth", "PowerSchool", "Schoology", "Canvas", "Clever",
+ "Creative Guild", "Mission Moment", "Language Power", "Supersite Plus", "Teacher Consultant", "Resource Room",
+ "Attendance Area Review Committee (AARC)", "EPIC System (Education Paging & Intercom Communications)",
+ "Robotics Foundation"]
 
-FIRMS_EXTRA = ["TMP Architecture (TMP Associates)", "Chartwells (Compass Group food service)"]
+FIRMS_EXTRA = ["TMP Architecture (TMP Associates)", "Chartwells (Compass Group food service)",
+ "Sodexo (food service, current)", "Lecole Planners", "Barton Malow Builders", "T&M Asphalt Paving",
+ "True North Asphalt", "Interkal", "Trist Creek Flooring", "VSC Inc.", "ISCG", "SICO",
+ "Great Lakes Hotel Supply", "Interior Environments", "NBS Commercial Interiors", "Miller Johnson (legal counsel)",
+ "Carnegie Learning", "Vista Higher Learning", "People Driven Technology", "Inacomp TSG",
+ "Digital Age Technologies", "TEL Systems", "Plante Moran", "Pentamation Enterprises"]
 
 ASSOC = ["Troy Education Association (TEA)", "Michigan Association of School Boards (MASB)",
  "Oakland County School Boards Association (OCSBA)", "National School Boards Association (NSBA)",
@@ -186,7 +258,10 @@ ASSOC = ["Troy Education Association (TEA)", "Michigan Association of School Boa
  "Michigan High School Athletic Association (MHSAA)", "Troy Foundation for Educational Excellence",
  "Troy Community Coalition", "PTO Presidents’ Council", "National Honor Society",
  "Regional Educational Media Center Association (REMC)", "American Arbitration Association",
- "Oakland County Superintendents Association", "Diversity Council", "Student Equity Council", "JEDI Council"]
+ "Oakland County Superintendents Association", "Diversity Council", "Student Equity Council", "JEDI Council",
+ "Troy Educational Secretaries Association (TESA)", "Troy Educational Support Personnel Association (TESPA)",
+ "Michigan Education Association (MEA)", "National Education Association (NEA)",
+ "Michigan Association of School Administrators (MASA)", "MiDEAL", "Sourcewell", "PEPPM"]
 
 GOV = ["City of Troy", "Oakland County", "Oakland Schools (Oakland Intermediate School District / ISD)",
  "Kenneth Gutman (Oakland Schools Superintendent)", "Michelle Saunders (Oakland Schools)",
@@ -196,7 +271,9 @@ GOV = ["City of Troy", "Oakland County", "Oakland Schools (Oakland Intermediate 
  "Birmingham Public Schools", "Rochester Community Schools", "Warren Consolidated Schools", "Clawson",
  "Royal Oak", "Bloomfield Hills", "Lamphere", "Avondale", "Berkley", "Lake Orion", "Walled Lake",
  "Utica Community Schools", "Oakland University", "Michigan State University", "University of Michigan",
- "Wayne State University", "Lawrence Technological University", "Walsh College"]
+ "Wayne State University", "Lawrence Technological University", "Walsh College",
+ "Central Michigan University", "Western Michigan University",
+ "West Bloomfield School District", "Anchor Bay School District"]
 
 STREETS = ["Livernois Road (4420 Livernois – district HQ)", "Big Beaver Road", "Long Lake Road",
  "Square Lake Road (West Square Lake Road)", "John R Road", "Coolidge Highway", "Northfield Parkway",
@@ -223,6 +300,12 @@ ACRONYMS = [
  ("OCR", "Office for Civil Rights"), ("FTE", "Full-Time Equivalent"),
  ("UAAL", "Unfunded Actuarial Accrued Liability"), ("PA", "Public Act"), ("MCL", "Michigan Compiled Laws"),
  ("DTE", "DTE Energy"), ("CPA", "Certified Public Accountant"),
+ ("BPMS", "Boulan Park Middle School"), ("TCCHS", "Troy College & Career High School"),
+ ("AARC", "Attendance Area Review Committee"), ("EPIC", "Education Paging & Intercom Communications"),
+ ("CBA", "Certified Boardmember Award / collective bargaining agreement"),
+ ("MASA", "Michigan Association of School Administrators"), ("ECP", "Early Childhood Program"),
+ ("TESA", "Troy Educational Secretaries Association"), ("TESPA", "Troy Educational Support Personnel Assoc."),
+ ("P-Card", "procurement card"),
 ]
 
 NAME_VARIANTS = {
@@ -235,7 +318,41 @@ NAME_VARIANTS = {
  "Rob Carson": ["Rob Carson", "Robert Carson"],
  "Beth Soggs": ["Beth Soggs", "Elizabeth Soggs"],
  "David Recker": ["David Recker", "Dave Recker"],
+ "Sarah Smotherman": ["Sarah Smotherman", "Sara Smotherman"],
+ "Anthony Morse": ["Anthony Morse", "Tony Morse"],
+ "Isabella Doss": ["Isabella Doss", "Bella Doss"],
+ "Kyle Anderson": ["Kyle Anderson", "Mr. Anderson"],
+ # bare surnames — how members are addressed in roll calls and votes
+ "Emina Alic": ["Emina Alic", "Alic"], "Matt Haupt": ["Matt Haupt", "Haupt"],
+ "Nancy Philippart": ["Nancy Philippart", "Philippart"], "Audra Melton": ["Audra Melton", "Melton"],
+ "Ayessa Potts": ["Ayessa Potts", "Potts"], "Stephanie Zendler": ["Stephanie Zendler", "Zendler"],
 }
+
+
+# ------------------------------------------------------------------ flat list (keyterms_prompt-ready)
+def flat_terms(firms):
+    """De-duplicated flat term list; every term capped at AssemblyAI's 6-words-per-phrase limit."""
+    flat = []
+    for _, entries in PEOPLE:
+        for name, _role in entries:
+            flat.extend(NAME_VARIANTS.get(name, [re.sub(r"\s*“.*?”\s*", " ", name).strip()]))
+    for _, items in BUILDINGS:
+        flat += [re.sub(r"\s*\(.*?\)", "", it).strip() for it in items]
+    for it in PROGRAMS + ASSOC + GOV:
+        flat.append(re.sub(r"\s*\(.*?\)", "", it).strip())
+        m = re.search(r"\(([^)]+)\)", it)
+        if m and len(m.group(1)) <= 8 and m.group(1).isupper():
+            flat.append(m.group(1))
+    flat += [re.sub(r"\s*\(.*?\)", "", f).strip() for f in FIRMS_EXTRA] + firms
+    flat += [re.sub(r"\s*\(.*?\)|\s*–.*", "", it).strip() for it in STREETS]
+    for ac, _ in ACRONYMS:
+        flat += [a.strip() for a in ac.split("/")]
+    seen, uniq = set(), []
+    for t in flat:
+        t = t.strip()
+        if t and t.lower() not in seen and len(t.split()) <= 6:
+            seen.add(t.lower()); uniq.append(t)
+    return uniq
 
 
 # ------------------------------------------------------------------ docx builder
@@ -244,15 +361,18 @@ def build_docx(sums, out):
     from docx.shared import Pt, RGBColor
 
     firms = extract_firms(sums)
-    ud = load_url_dates()
-    yrs = sorted({ud[s["url"]][:4] for s in sums if ud.get(s["url"])})
+    yrs = sorted({(s.get("meeting_date") or "")[:4] for s in sums if s.get("meeting_date")})
+    if not yrs:
+        ud = load_url_dates()
+        yrs = sorted({ud[s["url"]][:4] for s in sums if ud.get(s["url"])})
     span = f"{yrs[0]}–{yrs[-1]}" if yrs else "recent years"
 
     doc = Document()
     stl = doc.styles["Normal"]; stl.font.name = "Calibri"; stl.font.size = Pt(10.5)
 
     doc.add_heading("Troy School District — Board of Education Proper Nouns", level=0)
-    r = doc.add_paragraph().add_run("Custom-vocabulary reference for speech-to-text (AssemblyAI Universal-3.5 Pro)")
+    r = doc.add_paragraph().add_run("Custom-vocabulary reference for speech-to-text "
+                                    "(AssemblyAI keyterms_prompt · Universal-3.5 Pro)")
     r.italic = True; r.font.size = Pt(11)
     note = doc.add_paragraph(); note.add_run("Source: ").bold = True
     note.add_run(f"mined from {len(sums):,} AI-summarized Troy SD BoardDocs documents (meeting years {span}). "
@@ -302,28 +422,9 @@ def build_docx(sums, out):
     # flat paste-ready appendix
     doc.add_page_break()
     doc.add_heading("Appendix — Flat paste-ready list", level=1)
-    doc.add_paragraph("De-duplicated, one term per line. Includes common name variants. "
-                      "Paste directly into the custom-vocabulary / word-boost field.").italic = True
-    flat = []
-    for _, entries in PEOPLE:
-        for name, _role in entries:
-            flat.extend(NAME_VARIANTS.get(name, [re.sub(r"\s*“.*?”\s*", " ", name).strip()]))
-    for _, items in BUILDINGS:
-        flat += [re.sub(r"\s*\(.*?\)", "", it).strip() for it in items]
-    for it in PROGRAMS + ASSOC + GOV:
-        flat.append(re.sub(r"\s*\(.*?\)", "", it).strip())
-        m = re.search(r"\(([^)]+)\)", it)
-        if m and len(m.group(1)) <= 8 and m.group(1).isupper():
-            flat.append(m.group(1))
-    flat += FIRMS_EXTRA + firms
-    flat += [re.sub(r"\s*\(.*?\)|\s*–.*", "", it).strip() for it in STREETS]
-    for ac, _ in ACRONYMS:
-        flat += [a.strip() for a in ac.split("/")]
-    seen, uniq = set(), []
-    for t in flat:
-        t = t.strip()
-        if t and t.lower() not in seen:
-            seen.add(t.lower()); uniq.append(t)
+    doc.add_paragraph("De-duplicated, one term per line, max 6 words each. Includes common name variants. "
+                      "Paste directly into the keyterms_prompt / custom-vocabulary field.").italic = True
+    uniq = flat_terms(firms)
     for t in uniq:
         doc.add_paragraph(t, style="Normal").paragraph_format.space_after = Pt(0)
     foot = doc.add_paragraph().add_run(f"{len(uniq)} unique terms · generated from Troy SD BoardDocs archive")
@@ -395,12 +496,21 @@ def main():
     ap.add_argument("--cache", default=CACHE, help="local summaries cache (raw D1 json)")
     ap.add_argument("--refresh", action="store_true", help="re-pull summaries from D1")
     ap.add_argument("--qa", action="store_true", help="print validation digests instead of building")
+    ap.add_argument("--dataset", help="read summaries from a local summaries-full.jsonl instead of D1")
+    ap.add_argument("--since", help="only meetings on/after this YYYY-MM-DD date")
+    ap.add_argument("--flat-out", help="also write the flat keyterms list to this .txt (plus a .json twin)")
     a = ap.parse_args()
-    sums = load_summaries(a.cache, a.refresh)
+    sums = load_summaries(a.cache, a.refresh, dataset=a.dataset, since=a.since)
     if a.qa:
         qa(sums)
-    else:
-        build_docx(sums, a.out)
+        return
+    if a.flat_out:
+        uniq = flat_terms(extract_firms(sums))
+        Path(a.flat_out).write_text("\n".join(uniq) + "\n", encoding="utf-8")
+        Path(a.flat_out).with_suffix(".json").write_text(
+            json.dumps(uniq, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"flat keyterms: {len(uniq)} terms -> {a.flat_out} (+ .json)")
+    build_docx(sums, a.out)
 
 
 if __name__ == "__main__":

@@ -5,6 +5,12 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- `scripts/proper_nouns.py`: roster refresh from the 22 Jul 2026 packet (new principals/APs,
+  Kyle Anderson, Gayle Moran, student board reps, Barton Malow/Lecole team); new `--dataset`
+  (local summaries-full.jsonl), `--since` and `--flat-out` options producing an
+  AssemblyAI `keyterms_prompt`-ready flat list (≤6 words/term; word_boost is deprecated
+  upstream, keyterms on `universal-3-5-pro` verified Aug 2026). Ledger docs always excluded.
+
 - **Corrects a wrong conclusion recorded in the previous commit.** `w2_066` was
   reported as a genuine fabrication — an agent summing bid line items to invent a
   "Bid Total" of 3,488,377.00. That was wrong. The figure **is** in the source,
