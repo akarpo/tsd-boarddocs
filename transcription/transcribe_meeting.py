@@ -100,7 +100,10 @@ def identify(tid: str, spec: dict, key: str) -> dict:
                 headers={"Content-Type": "application/json"})
     si = (resp.get("speech_understanding") or {}).get("response", {}).get("speaker_identification", {})
     print("identification status:", si.get("status"), "mapping:", si.get("mapping"), flush=True)
-    return si.get("mapping") or {}
+    # The identifier sometimes returns literal "Unknown" for a cluster it can't place —
+    # drop those so the cluster honestly stays a Speaker letter instead of a fake name.
+    return {k: v for k, v in (si.get("mapping") or {}).items()
+            if v and v.lower() != "unknown" and v != k}
 
 
 def namer(mapping: dict, spec: dict):
