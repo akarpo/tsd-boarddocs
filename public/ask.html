@@ -27,6 +27,7 @@
   .tabs button.off{background:transparent;color:var(--fg);border-color:var(--line);font-weight:600}
   .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 9px;border-radius:999px;border:1px solid var(--line)}
   .pill.pending{color:var(--warn)} .pill.answering{color:var(--accent)} .pill.answered{color:var(--ok)} .pill.error{color:var(--err)}
+  .pill.awaiting_approval{color:var(--warn)} .pill.declined{color:var(--err)}
   .qa{border-top:1px solid var(--line);padding:14px 0}
   .qa .q{font-weight:600;margin-bottom:6px}
   .qa .a{white-space:pre-wrap;font-size:.94rem}
@@ -120,10 +121,12 @@ async function loadHistory(){
       <div class="q">${esc(q.question)}</div>
       ${q.status==="answered"?`<div class="a">${fmtA(q.answer)}</div>`:
         q.status==="error"?`<div class="a" style="color:var(--err)">The assistant hit an error: ${esc(q.error||"unknown")}. Ask again.</div>`:
+        q.status==="declined"?`<div class="a" style="color:var(--err)">This question was declined by the moderator.</div>`:
+        q.status==="awaiting_approval"?`<div class="a" style="color:var(--muted)">…waiting for the moderator to approve this question.</div>`:
         `<div class="a" style="color:var(--muted)">…the assistant is working on it. This usually takes a minute or two.</div>`}
       <div class="meta"><span class="pill ${esc(q.status)}">${esc(q.status)}</span> · asked ${esc((q.asked_at||"").replace("T"," ").slice(0,16))} UTC</div>
     </div>`).join("");
-  const open=qs.some(q=>q.status==="pending"||q.status==="answering");
+  const open=qs.some(q=>q.status==="pending"||q.status==="answering"||q.status==="awaiting_approval");
   clearTimeout(pollTimer);
   if(open) pollTimer=setTimeout(loadHistory,5000);
 }

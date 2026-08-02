@@ -5,6 +5,13 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- Assistant: optional **Twilio SMS moderation** — with `twilio_*` rows in
+  `bot_config`, each question from an approved account holds in
+  `awaiting_approval` and the owner gets an SMS with the question; reply
+  `YES <id>` / `NO <id>` (signature-verified, owner's number only) or use the
+  new `/admin` buttons. Unconfigured, questions flow straight through; failed
+  sends degrade to unmoderated instead of stranding the asker.
+
 ## [0.12.0] — 2026-08-02
 
 **🎓 Ask the Archive** — registration-gated public Q&A answered by a local

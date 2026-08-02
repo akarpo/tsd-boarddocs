@@ -20,6 +20,7 @@
   th{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
   .pill{display:inline-block;font-size:.7rem;font-weight:700;text-transform:uppercase;padding:1px 8px;border-radius:999px;border:1px solid var(--line)}
   .pending{color:var(--warn)} .approved{color:var(--ok)} .denied{color:var(--err)} .answered{color:var(--ok)} .error{color:var(--err)} .answering{color:var(--accent)}
+  .awaiting_approval{color:var(--warn)} .declined{color:var(--err)}
   .muted{color:var(--muted)} .q{max-width:340px} details{cursor:pointer}
 </style>
 </head>
@@ -60,9 +61,13 @@ async function load(){
   $("qs").tBodies[0].innerHTML=qs.map(q=>`
     <tr><td>${q.id}</td><td class="muted">${esc(q.email)}</td>
     <td class="q"><b>${esc(q.question)}</b>${q.answer?`<details><summary class="muted">answer</summary>${esc(q.answer)}</details>`:""}${q.error?`<div class="error">${esc(q.error)}</div>`:""}</td>
-    <td><span class="pill ${esc(q.status)}">${esc(q.status)}</span></td>
+    <td><span class="pill ${esc(q.status)}">${esc(q.status)}</span>
+      ${q.status==="awaiting_approval"?`<div style="margin-top:6px"><button data-m="approve" data-id="${q.id}">OK</button> <button class="deny" data-m="decline" data-id="${q.id}">✗</button></div>`:""}</td>
     <td>${q.tokens_used?esc(String(q.tokens_used)):"—"}</td>
     <td class="muted">${esc((q.asked_at||"").slice(5,16).replace("T"," "))}</td></tr>`).join("");
+  $("qs").querySelectorAll("button[data-m]").forEach(b=>b.onclick=async()=>{
+    await api("/moderate",{method:"POST",body:JSON.stringify({id:+b.dataset.id,decision:b.dataset.m})});load();
+  });
 }
 $("save").onclick=()=>{localStorage.setItem("tsd_admin_key",$("key").value.trim());load()};
 if(key())load();

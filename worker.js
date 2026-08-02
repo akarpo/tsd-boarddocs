@@ -234,13 +234,35 @@ function safeEq(a, b) {
   for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i);
   return d === 0;
 }
-let _cfg = null;
+let _cfg = null, _cfgAt = 0;
 async function botCfg(env) {
-  if (!_cfg) {
+  if (!_cfg || Date.now() - _cfgAt > 60000) {          // 60s TTL so new config lands without a redeploy
     const { results } = await env.DB.prepare("SELECT k, v FROM bot_config").all();
     _cfg = Object.fromEntries((results || []).map((r) => [r.k, r.v]));
+    _cfgAt = Date.now();
   }
   return _cfg;
+}
+function twilioReady(cfg) {
+  return !!(cfg.twilio_sid && cfg.twilio_token && cfg.twilio_from && cfg.twilio_to);
+}
+async function twilioSend(cfg, body) {
+  const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${cfg.twilio_sid}/Messages.json`, {
+    method: "POST",
+    headers: { authorization: "Basic " + btoa(`${cfg.twilio_sid}:${cfg.twilio_token}`),
+               "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({ To: cfg.twilio_to, From: cfg.twilio_from, Body: body }),
+  });
+  if (!r.ok) throw new Error(`twilio ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
+async function twilioSigValid(cfg, url, params) {
+  // X-Twilio-Signature = Base64(HMAC-SHA1(auth_token, url + concat(sorted k+v)))
+  let data = url;
+  for (const k of [...params.keys()].sort()) data += k + params.get(k);
+  const key = await crypto.subtle.importKey("raw", enc.encode(cfg.twilio_token),
+    { name: "HMAC", hash: "SHA-1" }, false, ["sign"]);
+  const mac = await crypto.subtle.sign("HMAC", key, enc.encode(data));
+  return btoa(String.fromCharCode(...new Uint8Array(mac)));
 }
 function cookieToken(request) {
   const m = /(?:^|;\s*)tsd_sess=([A-Za-z0-9-]+)/.exec(request.headers.get("cookie") || "");
@@ -317,10 +339,22 @@ async function handleAssistant(request, env, url) {
       "SELECT count(*) c FROM bot_questions WHERE user_id=?1 AND asked_at > ?2")
       .bind(u.id, new Date(Date.now() - 86400e3).toISOString()).first();
     if (today.c >= DAILY_CAP) return json({ error: `daily limit of ${DAILY_CAP} questions reached` }, 429);
+    const cfgA = await botCfg(env);
+    const moderate = twilioReady(cfgA);
     const r = await env.DB.prepare(
-      "INSERT INTO bot_questions (user_id,question,status,asked_at) VALUES (?1,?2,'pending',?3)")
-      .bind(u.id, q, nowIso()).run();
-    return json({ ok: true, id: r.meta.last_row_id });
+      "INSERT INTO bot_questions (user_id,question,status,asked_at) VALUES (?1,?2,?3,?4)")
+      .bind(u.id, q, moderate ? "awaiting_approval" : "pending", nowIso()).run();
+    const qid = r.meta.last_row_id;
+    if (moderate) {
+      try {
+        await twilioSend(cfgA,
+          `TSD Q&A #${qid} from ${u.email}:\n"${q.slice(0, 320)}"\n\nReply YES ${qid} to approve or NO ${qid} to decline.`);
+      } catch (e) {
+        // SMS failure must not strand the question — degrade to unmoderated
+        await env.DB.prepare("UPDATE bot_questions SET status='pending' WHERE id=?1").bind(qid).run();
+      }
+    }
+    return json({ ok: true, id: qid });
   }
 
   if (p === "/questions") {
@@ -330,6 +364,29 @@ async function handleAssistant(request, env, url) {
       "SELECT id,question,status,answer,error,asked_at,answered_at FROM bot_questions WHERE user_id=?1 ORDER BY id DESC LIMIT 30"
     ).bind(u.id).all();
     return json({ questions: results || [] });
+  }
+
+  // ----- Twilio inbound: SMS replies "YES 12" / "NO 12" from the owner's phone -----
+  if (p === "/twilio/inbound" && method === "POST") {
+    const cfgT = await botCfg(env);
+    const raw = await request.text();
+    const params = new URLSearchParams(raw);
+    const sig = request.headers.get("x-twilio-signature") || "";
+    const expected = twilioReady(cfgT) ? await twilioSigValid(cfgT, url.origin + url.pathname, params) : "";
+    const twiml = (m) => new Response(
+      `<?xml version="1.0" encoding="UTF-8"?><Response>${m ? `<Message>${m}</Message>` : ""}</Response>`,
+      { headers: { "content-type": "text/xml" } });
+    if (!expected || !safeEq(sig, expected) || params.get("From") !== cfgT.twilio_to)
+      return new Response("forbidden", { status: 403 });
+    const m = /^\s*(yes|no|y|n)\s*#?\s*(\d+)/i.exec(params.get("Body") || "");
+    if (!m) return twiml("Reply YES <id> or NO <id> (id from the question text).");
+    const approve = m[1].toLowerCase().startsWith("y"), qid = Number(m[2]);
+    const row = await env.DB.prepare("SELECT id,status FROM bot_questions WHERE id=?1").bind(qid).first();
+    if (!row) return twiml(`No question #${qid}.`);
+    if (row.status !== "awaiting_approval") return twiml(`#${qid} is already ${row.status}.`);
+    await env.DB.prepare("UPDATE bot_questions SET status=?1, error=?2 WHERE id=?3")
+      .bind(approve ? "pending" : "declined", approve ? null : "declined by the moderator", qid).run();
+    return twiml(approve ? `#${qid} approved — answering now.` : `#${qid} declined.`);
   }
 
   // ----- admin (X-Admin-Key) -----
@@ -346,6 +403,12 @@ async function handleAssistant(request, env, url) {
       .bind(decision, nowIso(), Number(body.id)).run();
     if (decision === "denied")
       await env.DB.prepare("DELETE FROM bot_sessions WHERE user_id=?1").bind(Number(body.id)).run();
+    return json({ ok: true });
+  }
+  if (p === "/admin/moderate" && method === "POST" && isAdmin) {
+    const approve = body.decision === "approve";
+    await env.DB.prepare("UPDATE bot_questions SET status=?1, error=?2 WHERE id=?3 AND status='awaiting_approval'")
+      .bind(approve ? "pending" : "declined", approve ? null : "declined by the moderator", Number(body.id)).run();
     return json({ ok: true });
   }
   if (p === "/admin/questions" && isAdmin) {

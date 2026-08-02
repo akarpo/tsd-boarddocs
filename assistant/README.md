@@ -42,6 +42,30 @@ approval → /admin ↑                    └ topic gate (Haiku) · ≤100K tok
   declared untrusted in the prompt.
 - **Rate caps** (Worker-side): 2 open questions, 10 per day per user, 600 chars.
 
+## SMS question moderation (Twilio, optional)
+
+With Twilio configured, every question from an approved account holds in
+`awaiting_approval` and you get an SMS with the question text — reply
+**`YES 12`** to release it to the runner or **`NO 12`** to decline (the `/admin`
+panel has equivalent buttons). Unconfigured, questions flow straight through.
+
+Enable it (run yourself; the values never need to leave your machine):
+
+```bash
+wrangler d1 execute tsd-boarddocs --remote --yes --command "INSERT OR REPLACE INTO bot_config VALUES
+  ('twilio_sid','ACxxxxxxxx'), ('twilio_token','your_auth_token'),
+  ('twilio_from','+1248xxxxxxx'), ('twilio_to','+1248yyyyyyy');"
+```
+
+- `twilio_from` = your Twilio number, `twilio_to` = your cell.
+- Use the **Auth Token** (not an API key) — inbound replies are verified against
+  it via `X-Twilio-Signature`, and only texts from `twilio_to` are honored.
+- In the Twilio console, set the number's messaging webhook (POST) to
+  `https://tsd-boarddocs.karpowitsch.org/api/assistant/twilio/inbound`.
+- Config is cached ~60 s in the Worker; changes apply without a redeploy.
+- If an SMS send fails, the question degrades to unmoderated rather than
+  stranding the asker.
+
 ## Ops notes
 
 - Questions stuck in `answering` >20 min (runner crash) are re-served to the
