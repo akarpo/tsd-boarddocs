@@ -23,7 +23,10 @@ if [ ! -s "$WD/$BASE.transcript.json" ]; then
     --speakers "$HERE/speakers_2026.json" --outdir "$WD"
 fi
 
-python3 "$HERE/make_anchors.py" "$WD/$BASE.transcript.json" -o "$WD/anchors_${DATE}.json"
+AG="$WD/agenda_${DATE}.json"
+curl -sG 'https://tsd-boarddocs.karpowitsch.org/api/meeting' \
+  --data-urlencode "date=$DATE" --data-urlencode "name=$NAME" -o "$AG" || echo '{}' > "$AG"
+python3 "$HERE/make_anchors.py" "$WD/$BASE.transcript.json" -o "$WD/anchors_${DATE}.json" --agenda "$AG"
 python3 "$HERE/upload_transcript.py" "$WD/$BASE.transcript.json" \
   --date "$DATE" --name "$NAME" --youtube "$YT" \
   --speakers "$WD/$BASE.speakers.json" --anchors "$WD/anchors_${DATE}.json"
