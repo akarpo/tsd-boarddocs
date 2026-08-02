@@ -219,6 +219,15 @@ addEventListener("message", (e) => {
   if (typeof info.muted === "boolean") muted = info.muted;
   if (typeof info.currentTime === "number") { curT = info.currentTime; curTAt = performance.now(); }
 });
+/* Muted autoplay doesn't always start a hidden embed (Chrome policy varies) — nudge it
+   until the player reports playing, and use the first interaction anywhere as a backstop. */
+let kicks = 0;
+const kick = setInterval(() => {
+  if (playing || kicks++ > 12) { clearInterval(kick); return; }
+  yt("playVideo");
+}, 900);
+addEventListener("pointerdown", () => { if (!playing) yt("playVideo"); }, { once: true, capture: true });
+
 const btn = document.getElementById("unmute");
 btn.addEventListener("click", () => {
   if (muted) { yt("unMute"); yt("setVolume", [70]); yt("playVideo"); muted = false; playing = true; }
@@ -248,8 +257,8 @@ for (let i = 0; i < BARS; i++) {
 }
 let eqT = 0;
 setInterval(() => {
-  const amp = playing !== false ? (muted ? 0.5 : 1) : 0;
-  const t = curTAt ? curT + (playing ? (performance.now() - curTAt) / 1000 : 0) : -1;
+  const amp = muted ? 0.55 : 1;
+  const t = (playing && curTAt) ? curT + (performance.now() - curTAt) / 1000 : -1;
   eqT += 0.1;
   for (let i = 0; i < BARS; i++) {
     let target;
@@ -263,7 +272,7 @@ setInterval(() => {
     bars[i].v += (target - bars[i].v) * 0.5;
     bars[i].el.style.height = bars[i].v.toFixed(1) + "px";
   }
-}, reduceMotion ? 400 : 50);
+}, 60);
 
 /* ---------------- the cosmos: starfield, black hole, colorful accretion, infalling corpus ---------------- */
 const cv = document.getElementById("cosmos"), cx = cv.getContext("2d");
@@ -288,7 +297,7 @@ const stars = Array.from({length: 230}, () => ({
 const DISK = Array.from({length: 900}, () => {
   const a = Math.random() * Math.PI * 2;
   return { a, r: 1.16 + Math.pow(Math.random(), 1.7) * 1.35,          // in units of R
-           w: 0.25 + 0.55 / (0.4 + Math.random()),                    // angular speed
+           w: 0.5 + 1.0 / (0.4 + Math.random()),                      // angular speed (fast!)
            s: 0.9 + Math.random() * 2.1, h: Math.random() * 360 };
 });
 const TILT = 0.34;                                                    // ellipse squash
@@ -323,9 +332,12 @@ function drawComputer(t) {
   cx.restore();
 }
 
+/* Reduced-motion preference slows the cosmos rather than freezing it — a frozen
+   accretion disk defeats the page (and reads as "broken" on Macs with Reduce Motion on). */
+const TIMESCALE = reduceMotion ? 0.45 : 1;
 let t0 = performance.now();
 function frame(now) {
-  const t = (now - t0) / 1000;
+  const t = (now - t0) / 1000 * TIMESCALE;
   cx.clearRect(0, 0, W, H);
 
   /* space */
@@ -348,8 +360,8 @@ function frame(now) {
       if (front !== (sy > 0)) continue;
       const px = Math.cos(ang) * p.r * R, py = sy * p.r * R * TILT;
       const doppler = 0.55 + 0.45 * Math.cos(ang);                    // approaching side brighter
-      const arm = 0.55 + 0.45 * Math.sin(2 * ang - t * 1.4 + p.r * 2.2);  // two sweeping density arms
-      const hue = (p.h + t * 18) % 360;
+      const arm = 0.55 + 0.45 * Math.sin(2 * ang - t * 2.6 + p.r * 2.2);  // two sweeping density arms
+      const hue = (p.h + t * 26) % 360;
       /* tangential streaks read as rotation far better than dots */
       const vx = -Math.sin(ang), vy = Math.cos(ang) * TILT;
       const L = (3 + doppler * 5) * (0.5 + arm);
@@ -385,7 +397,7 @@ function frame(now) {
   cx.restore();
 
   drawComputer(t);
-  if (!reduceMotion) requestAnimationFrame(frame);
+  requestAnimationFrame(frame);
 }
 requestAnimationFrame(frame);
 </script>
