@@ -280,7 +280,9 @@ const QUESTION_MAX = 600, OPEN_CAP = 2, DAILY_CAP = 10;
 async function handleAssistant(request, env, url) {
   const p = url.pathname.slice("/api/assistant".length);
   const method = request.method;
-  const body = method === "POST" ? await request.json().catch(() => ({})) : {};
+  // Twilio posts form-encoded and its handler reads the raw body itself — a body can only be read once
+  const body = (method === "POST" && p !== "/twilio/inbound")
+    ? await request.json().catch(() => ({})) : {};
 
   if (p === "/register" && method === "POST") {
     const email = String(body.email || "").trim().toLowerCase();
