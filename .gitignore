@@ -21,6 +21,10 @@
 !/docs/
 !/VERSION
 
+# Meeting-transcription pipeline: scripts, keyterms vocabulary, worked example.
+# Large raw artifacts (video, full transcript JSON) stay local — regenerable for ~$0.40.
+!/transcription/
+
 # Claude Code prompt-capture hook (travels with the repo; not local settings)
 !/.claude/
 /.claude/settings.local.json

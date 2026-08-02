@@ -27,6 +27,12 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
   toggle in the viewer switches tiers.
 - **Group by meeting** and a **📅 meeting-browse timeline** (year → meeting → its
   full document set, in agenda order).
+- **Meeting recordings with searchable, speaker-attributed transcripts** — a
+  meeting page embeds its YouTube recording with agenda-item chapter chips and a
+  full transcript (real names, not "Speaker A"); clicking any chapter or
+  transcript line seeks the video to that moment. Transcripts are produced with
+  AssemblyAI boosted by a district proper-noun vocabulary mined from this
+  archive — see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md).
 - **Inline document viewer** (same-origin PDF) with a **"View on BoardDocs"**
   deep-link to the source meeting agenda.
 
@@ -47,12 +53,14 @@ SERVE (Cloudflare Worker — worker.js)
   /api/fetch               id -> full passage text
   /api/summary             url -> the three summary tiers
   /api/meetings /api/meeting   the browse timeline
+  /api/recording           date+name -> YouTube id + agenda chapters + transcript
   /doc                     key -> R2 object, served same-origin (PDF viewer)
   /mcp                     remote MCP (search/fetch tools)
   else                     static site from public/
 
 DATA
-  D1 database "tsd-boarddocs"  — chunks (FTS5) + summaries; free tier
+  D1 database "tsd-boarddocs"  — chunks (FTS5) + summaries
+                                 + recordings / transcript_utts / transcript_anchors; free tier
   R2 media/troysd-boarddocs/   — source PDFs, public at media.karpowitsch.org
 ```
 
@@ -78,6 +86,8 @@ Full inventory + status in **[docs/TOOLING.md](docs/TOOLING.md)**. The active pi
 | `bd_links.js` | Generated map (from `boarddocs_unids.json`) of doc → BoardDocs meeting UNID for deep-links; bundled into the worker. |
 | `scripts/ingest_meeting.sh` | **Adding a new meeting** — wraps the whole incremental ingest in the right order and preps summary batches. `scripts/ingest_meeting.sh --dry-run` to preview. |
 | `verify_unids.py` | Drift check that the BoardDocs identifiers still resolve. Run on demand. |
+| `transcription/transcribe_meeting.py` | Meeting video → AssemblyAI transcript (proper-noun keyterms + diarization) → speaker-name attribution. ~$0.40/meeting. See [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). |
+| `transcription/upload_transcript.py` | Attributed transcript + YouTube id + agenda-item anchors → D1, powering the meeting page's recording section. |
 
 ## Data layout
 

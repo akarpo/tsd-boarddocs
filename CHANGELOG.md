@@ -5,11 +5,38 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
-- `scripts/proper_nouns.py`: roster refresh from the 22 Jul 2026 packet (new principals/APs,
-  Kyle Anderson, Gayle Moran, student board reps, Barton Malow/Lecole team); new `--dataset`
-  (local summaries-full.jsonl), `--since` and `--flat-out` options producing an
-  AssemblyAI `keyterms_prompt`-ready flat list (≤6 words/term; word_boost is deprecated
-  upstream, keyterms on `universal-3-5-pro` verified Aug 2026). Ledger docs always excluded.
+## [0.10.0] — 2026-08-02
+
+**Meeting recordings on the site + the transcription pipeline that feeds them.**
+Full guide: [docs/TRANSCRIPTION.md](TRANSCRIPTION.md).
+
+- **Site — recording & searchable transcript per meeting.** A meeting page now
+  shows its YouTube recording (privacy-enhanced embed) with agenda-item chapter
+  chips and the full speaker-attributed transcript; clicking a chapter or any
+  transcript line seeks the video to that moment (YouTube widget postMessage —
+  no external script). Live search over the transcript with match highlighting.
+  New Worker route `/api/recording`; new D1 tables `recordings`,
+  `transcript_utts`, `transcript_anchors`. First meeting ingested: 2026-07-22
+  regular meeting (439 utterances, 15 chapters, YouTube `v9EHA5_yT-8`).
+- **`transcription/` pipeline** (new): `transcribe_meeting.py` — video →
+  ffmpeg 16 kHz mono → AssemblyAI `speech_models: ["universal-3-5-pro",
+  "universal-2"]` + 361-term `keyterms_prompt` + diarization → native
+  speaker-identification (≤10 names/request) with manual `overrides`/`splits`
+  reconciliation → txt/srt/attributed outputs (~$0.40 per 85-min meeting);
+  `upload_transcript.py` — attributed transcript + hand-tuned agenda anchors →
+  D1 (`wrangler --remote`, idempotent). Worked example with verified
+  `speakers.json` under `transcription/examples/2026-07-22/`. API drift found by
+  probing (docs lag): singular `speech_model` 400s, `min/max_speakers_expected`
+  rejected, Slam-1 and `word_boost` deprecated. Key via `tsd_secrets`
+  (`ASSEMBLYAI_API_KEY`), never committed.
+- `scripts/proper_nouns.py`: roster refresh from the 22 Jul 2026 packet (new
+  principals/APs, Kyle Anderson, Gayle Moran, student board reps, Barton
+  Malow/Lecole team); new `--dataset` (local summaries-full.jsonl), `--since`
+  and `--flat-out` options producing the AssemblyAI `keyterms_prompt` flat list
+  (≤6 words/term). Ledger docs always excluded. Snapshot committed at
+  `transcription/keyterms/`. Known homophone trap: archival "Gary Hauff" vs
+  current trustee "Matt Haupt" (Hauff joined the Oakland Schools ISD board
+  June 2026).
 
 - **Corrects a wrong conclusion recorded in the previous commit.** `w2_066` was
   reported as a genuine fabrication — an agent summing bid line items to invent a

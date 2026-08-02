@@ -1,0 +1,43 @@
+{
+  "_comment": "Speaker-identification spec for the 2026-07-22 regular meeting (transcript bc229650-86f4-4bfd-892a-dc8b438b6ff2). speakers[] feeds the API (max 10, description guides matching); overrides/splits encode the manually verified corrections the API could not make on its own.",
+  "speakers": [
+    {"name": "Vital Anne", "description": "Board President; chairs the meeting, announces agenda items, asks for resolutions, calls and announces the votes; addressed as Mrs. Anne"},
+    {"name": "Matt Haupt", "description": "Trustee; reads the suggested resolutions aloud when the president asks; the STT sometimes wrote his name as Mr. Hauff"},
+    {"name": "Audra Melton", "description": "Trustee, addressed as Dr. Melton; moves and supports motions"},
+    {"name": "Ayessa Potts", "description": "Trustee, addressed as Ms. Potts; moves and supports motions"},
+    {"name": "Stephanie Zendler", "description": "Trustee attending virtually, addressed by first name Stephanie; participates in discussion but cannot vote today; drops off and rejoins"},
+    {"name": "Richard Machesky", "description": "Superintendent (Dr. Machesky); speaks on the lacrosse cooperative, district strategy and budget direction"},
+    {"name": "Dan Trudel", "description": "Assistant Superintendent for Business Services; presents the budget reduction scenario and finance items while sharing a screen; says a printout is on BoardDocs"},
+    {"name": "Brian Canfield", "description": "Director of Employee Services; reads the personnel considerations 6A-6D including the finance director appointment of Kyle Anderson; the president thanks him as Mr. Canfield"},
+    {"name": "Rob Carson", "description": "Director of Maintenance and Operations; reports on summer construction and facilities work such as the Athens gym and Boulan Park Middle School"},
+    {"name": "Public commenter", "description": "Member of the public during non-agenda public communication; says they speak as a parent and that being a vendor is a small side thing"}
+  ],
+  "overrides": {
+    "B": "Vital Anne (President)",
+    "A": "Vital Anne (President)",
+    "G": "Rob Carson",
+    "E": "Ayessa Potts"
+  },
+  "mapping": {
+    "A": "Vital Anne (President)",
+    "B": "Vital Anne (President)",
+    "C": "Dan Trudel",
+    "D": "Matt Haupt",
+    "E": "Ayessa Potts",
+    "F": "Dr. Richard Machesky",
+    "G": "Rob Carson",
+    "H": "Brian Canfield"
+  },
+  "splits": [
+    {"cluster": "I", "at_ms": 3900000,
+     "before": "Stephanie Zendler (virtual)", "after": "Public commenter"}
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification + manual verification against the packet rosters.",
+    "Diarization split the chair's voice into clusters A+B (merged as Vital Anne).",
+    "A few utterances by Dr. Audra Melton co-clustered with Ayessa Potts (e.g. the 8.C reading ~29:24).",
+    "Cluster I held two people; split by time: Stephanie Zendler (remote, early) / public commenter (67m+).",
+    "'Mr. Hauff' in the STT text = trustee Matt Haupt (Gary Hauff now sits on the Oakland Schools ISD board).",
+    "In-person board: Anne, Haupt, Melton, Potts; virtual non-voting: Zendler; absent: Alic, Philippart."
+  ]
+}

@@ -28,7 +28,18 @@ itself is not committed — see [ARCHITECTURE](ARCHITECTURE.md#data-flow-ingest-
 
 | Script | Role |
 |---|---|
-| `scripts/proper_nouns.py` | Generates the categorized proper-noun `.docx` (people, schools, programs, vendors, associations, governmental, streets, acronyms) for speech-to-text custom vocabulary — plus a flat paste-ready appendix. Pulls the clean `summaries` from D1, auto-extracts vendor firms, and merges QA-validated curated lists (financial ledgers excluded). `--qa` prints validation digests — board roll-call timeline, external-name flags, new school/acronym candidates — to extend the curated lists as older years get summarized. `--refresh` re-pulls from D1; default output is `~/Desktop`. |
+| `scripts/proper_nouns.py` | Generates the categorized proper-noun `.docx` (people, schools, programs, vendors, associations, governmental, streets, acronyms) for speech-to-text custom vocabulary — plus a flat paste-ready appendix. Pulls the clean `summaries` from D1 **or a local dataset** (`--dataset dataset/summaries-full.jsonl`), auto-extracts vendor firms, and merges QA-validated curated lists (financial ledgers excluded; rosters refreshed from the 22 Jul 2026 packet). `--since YYYY-MM-DD` scopes the corpus; `--flat-out vocab.txt` writes the flat AssemblyAI `keyterms_prompt` list (≤6 words/term, + `.json` twin). `--qa` prints validation digests — board roll-call timeline, external-name flags, new school/acronym candidates — to extend the curated lists as older years get summarized. `--refresh` re-pulls from D1; default output is `~/Desktop`. |
+
+## Transcription (active)
+
+Recording → named transcript → site. Full guide: [TRANSCRIPTION.md](TRANSCRIPTION.md).
+
+| Script | Role |
+|---|---|
+| `transcription/transcribe_meeting.py` | Meeting video/audio → AssemblyAI (`speech_models: ["universal-3-5-pro", "universal-2"]`, `keyterms_prompt` vocabulary, `speaker_labels`) → transcript JSON/txt/srt; `--speakers speakers.json` runs native speaker identification (≤10 names) + manual `overrides`/`splits`, writing the name-attributed transcript. `--transcript-id` reuses a completed transcript. Key: `ASSEMBLYAI_API_KEY` via `tsd_secrets`. |
+| `transcription/upload_transcript.py` | Transcript JSON + `speakers.json` + `anchors.json` + YouTube id → D1 (`recordings`, `transcript_utts`, `transcript_anchors`) via `wrangler --remote`. Idempotent per meeting; powers `/api/recording` and the meeting-page recording section. |
+| `transcription/keyterms/` | Generated 361-term vocabulary snapshot (Jan 2025 → Jul 2026); regenerate with `proper_nouns.py --since 2025-01-01 --flat-out …`. |
+| `transcription/examples/2026-07-22/` | Worked example: verified `speakers.json`, hand-tuned `anchors.json`, attributed transcript, `.srt`, meeting brief. |
 
 ## Secrets
 

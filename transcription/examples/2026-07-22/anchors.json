@@ -1,0 +1,17 @@
+[
+  {"start_ms": 0,       "label": "Call to order · Pledge of Allegiance"},
+  {"start_ms": 68000,   "label": "5 · Consent agenda (June minutes · May Treasurer's Report · lacrosse co-op)"},
+  {"start_ms": 297000,  "label": "6 · Personnel"},
+  {"start_ms": 324000,  "label": "6.A Administrator contract extensions"},
+  {"start_ms": 462000,  "label": "6.B Assistant-superintendent contract extensions"},
+  {"start_ms": 575000,  "label": "6.C Superintendent contract extension"},
+  {"start_ms": 742000,  "label": "6.D Finance Director appointment — Kyle Anderson"},
+  {"start_ms": 924000,  "label": "8 · Business items"},
+  {"start_ms": 951000,  "label": "8.A Boulan Park security & paging (Bid Pkg T3)"},
+  {"start_ms": 1286000, "label": "8.B Boulan Park classroom & specialty AV (Bid Pkg T4)"},
+  {"start_ms": 1471000, "label": "8.C Troy Robotics Center lease"},
+  {"start_ms": 2106000, "label": "8.D Budget update — General Fund scenarios"},
+  {"start_ms": 4054000, "label": "Public communication (non-agenda)"},
+  {"start_ms": 4311000, "label": "Other items — facilities & construction update"},
+  {"start_ms": 5090000, "label": "Adjournment"}
+]

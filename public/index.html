@@ -105,6 +105,25 @@
     .modal .bar{padding:12px 16px;gap:10px}
     .bar .links{gap:14px;flex-wrap:wrap}
   }
+  /* meeting recording + searchable transcript */
+  .recwrap{position:relative;aspect-ratio:16/9;background:#000}
+  .recwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line);background:var(--bg)}
+  .chip{font-size:.78rem;font-weight:600;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer;text-align:left}
+  .chip:hover{border-color:var(--accent);color:var(--accent)}
+  .chip .ct{color:var(--muted);font-variant-numeric:tabular-nums;margin-right:6px}
+  .tsearch{display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--line);background:var(--bg)}
+  .tsearch input{flex:1;padding:8px 12px;font-size:.9rem;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:8px}
+  .tsearch input:focus{outline:2px solid var(--accent);outline-offset:1px}
+  .tsearch .tcount{font-size:.8rem;color:var(--muted);white-space:nowrap}
+  .tpanel{position:relative;max-height:420px;overflow-y:auto;-webkit-overflow-scrolling:touch;background:var(--bg)}
+  .utt{display:flex;gap:10px;padding:7px 14px;font-size:.88rem;line-height:1.45;border-top:1px solid var(--line);cursor:pointer}
+  .utt:hover{background:var(--card)}
+  .utt .ut{color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
+  .utt .us{font-weight:700;white-space:nowrap}
+  .utt mark{background:rgba(255,200,0,.45);color:inherit;border-radius:3px;padding:0 1px}
+  .utt.flash{background:var(--card);box-shadow:inset 3px 0 0 var(--accent)}
+  @media (max-width:640px){.utt{flex-wrap:wrap}.tpanel{max-height:340px}}
   .note{font-size:.88rem;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:28px}
   .note code{background:rgba(127,127,127,.15);padding:1px 6px;border-radius:5px;font-size:.85em}
   .note h2{font-size:.95rem;margin:0 0 8px}
@@ -333,7 +352,58 @@ async function openMeeting(m, push){
     const list=document.createElement("div"); list.className="mitems";
     (data.docs||[]).forEach(d=>list.appendChild(card(d)));
     grp.appendChild(list); box.appendChild(grp);
+    // recording + transcript, when one has been ingested for this meeting
+    fetch(`/api/recording?date=${encodeURIComponent(m.date)}&name=${encodeURIComponent(m.name||"")}`)
+      .then(x=>x.ok?x.json():{}).then(rec=>{
+        if(rec&&rec.youtube_id&&currentView==="meeting") box.insertBefore(recordingSection(rec),grp);
+      }).catch(()=>{});
   }catch(e){ $("results").innerHTML=`<p class="status">Could not load meeting.</p>`; }
+}
+// ---- meeting recording + searchable transcript (click a line/chapter -> seek the video) ----
+function tstr(ms){const s=Math.floor(ms/1000),h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")}
+function ytSeek(iframe,ms){
+  const w=iframe.contentWindow; if(!w)return;
+  const msg=o=>w.postMessage(JSON.stringify(o),"*");
+  msg({event:"listening",id:"tsd",channel:"widget"});   // widget-API handshake; no external script needed
+  msg({event:"command",func:"seekTo",args:[ms/1000,true]});
+  msg({event:"command",func:"playVideo",args:[]});
+}
+function recordingSection(rec){
+  const sec=document.createElement("div"); sec.className="mgroup";
+  const utts=rec.utterances||[], anchors=rec.anchors||[];
+  sec.innerHTML=
+    `<div class="mhead">🎬 <span class="mname">Recording & transcript</span>`+
+    `<a class="mcount" href="https://www.youtube.com/watch?v=${esc(rec.youtube_id)}" target="_blank" rel="noopener">YouTube ↗</a></div>`+
+    `<div class="recwrap"><iframe src="https://www.youtube-nocookie.com/embed/${esc(rec.youtube_id)}?enablejsapi=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Meeting recording"></iframe></div>`+
+    (anchors.length?`<div class="chips">${anchors.map(a=>`<button class="chip" data-ms="${a.start_ms}"><span class="ct">${tstr(a.start_ms)}</span>${esc(a.label)}</button>`).join("")}</div>`:"")+
+    `<div class="tsearch"><input type="search" placeholder="Search this transcript… (${utts.length} passages)" aria-label="Search transcript"><span class="tcount"></span></div>`+
+    `<div class="tpanel"></div>`;
+  const iframe=sec.querySelector("iframe"), panel=sec.querySelector(".tpanel"),
+        input=sec.querySelector(".tsearch input"), count=sec.querySelector(".tcount");
+  const flash=el=>{panel.querySelectorAll(".utt.flash").forEach(x=>x.classList.remove("flash"));el.classList.add("flash")};
+  function renderRows(q){
+    panel.innerHTML="";
+    const needle=(q||"").trim().toLowerCase(); let shown=0;
+    utts.forEach(u=>{
+      if(needle && !u.text.toLowerCase().includes(needle) && !u.speaker.toLowerCase().includes(needle)) return;
+      const el=document.createElement("div"); el.className="utt"; el.dataset.ms=u.start_ms;
+      el.innerHTML=`<span class="ut">${tstr(u.start_ms)}</span><span class="us">${esc(u.speaker)}:</span><span class="ux">${esc(u.text)}</span>`;
+      if(needle){const rx=new RegExp(needle.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");el.querySelector(".ux").innerHTML=esc(u.text).replace(rx,m=>`<mark>${m}</mark>`)}
+      el.addEventListener("click",()=>{ytSeek(iframe,u.start_ms);flash(el)});
+      panel.appendChild(el); shown++;
+    });
+    count.textContent=needle?`${shown} match${shown===1?"":"es"}`:"";
+    if(!shown)panel.innerHTML=`<p class="status" style="padding:12px 14px">No transcript matches.</p>`;
+  }
+  renderRows("");
+  let deb; input.addEventListener("input",()=>{clearTimeout(deb);deb=setTimeout(()=>renderRows(input.value),150)});
+  sec.querySelectorAll(".chip").forEach(ch=>ch.addEventListener("click",()=>{
+    const ms=+ch.dataset.ms; ytSeek(iframe,ms);
+    if(input.value){input.value="";renderRows("")}
+    const target=[...panel.querySelectorAll(".utt")].find(r=>+r.dataset.ms>=ms)||panel.lastElementChild;
+    if(target){panel.scrollTop=Math.max(0,target.offsetTop-8);flash(target)}
+  }));
+  return sec;
 }
 async function openMeetingByKey(key, push){
   if(!allMeetings){ try{ const r=await fetch("/api/meetings"); allMeetings=(await r.json()).meetings||[]; }catch(e){} }

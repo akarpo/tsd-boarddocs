@@ -272,6 +272,27 @@ export default {
         }
         return json({ date, name, docs });
       }
+      if (p === "/api/recording") {
+        // Meeting recording (YouTube) + attributed transcript + agenda-item chapters.
+        // Empty object when no recording has been ingested for the meeting.
+        const date = url.searchParams.get("date") || "", name = url.searchParams.get("name") || "";
+        if (!date) return json({ error: "date required" }, 400);
+        let rec = null;
+        try {
+          rec = await env.DB.prepare(
+            "SELECT youtube_id, duration_s FROM recordings WHERE meeting_date=?1 AND meeting_name=?2"
+          ).bind(date, name).first();
+        } catch { return json({}); }              // tables not created yet
+        if (!rec) return json({});
+        const { results: anchors } = await env.DB.prepare(
+          "SELECT start_ms, label FROM transcript_anchors WHERE meeting_date=?1 AND meeting_name=?2 ORDER BY start_ms"
+        ).bind(date, name).all();
+        const { results: utts } = await env.DB.prepare(
+          "SELECT start_ms, end_ms, speaker, text FROM transcript_utts WHERE meeting_date=?1 AND meeting_name=?2 ORDER BY idx"
+        ).bind(date, name).all();
+        return json({ youtube_id: rec.youtube_id, duration_s: rec.duration_s,
+                      anchors: anchors || [], utterances: utts || [] });
+      }
       if (p === "/doc") {
         // Serve an R2 object same-origin (avoids cross-origin iframe issues).
         const key = url.searchParams.get("key");
