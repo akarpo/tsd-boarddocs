@@ -18,7 +18,7 @@ Config (env, else tsd-secrets.env via tsd_secrets.py):
   ASSISTANT_SITE        default https://tsd-boarddocs.karpowitsch.org
   ASSISTANT_OPUS_MODEL  default claude-opus-5
   ASSISTANT_GATE_MODEL  default claude-haiku-4-5-20251001
-  ASSISTANT_TOKEN_CAP   default 100000 (hard per-question total)
+  ASSISTANT_TOKEN_CAP   default 100000 weighted tokens per question (hard kill)
 
 Usage:  python3 assistant/runner.py [--once]   (see assistant/README.md for launchd setup)
 """
@@ -34,6 +34,14 @@ OPUS = os.environ.get("ASSISTANT_OPUS_MODEL", "claude-opus-5")
 GATE = os.environ.get("ASSISTANT_GATE_MODEL", "claude-haiku-4-5-20251001")
 TOKEN_CAP = int(os.environ.get("ASSISTANT_TOKEN_CAP", "100000"))
 ANSWER_TIMEOUT = 330
+
+def weight(u):
+    """Price-weighted token equivalents (input x1, cache-write x1.25, cache-read x0.1, output x5) —
+    raw sums are dominated by re-read cached system prompt and make an agentic cap meaningless."""
+    return (int(u.get("input_tokens") or 0)
+            + 1.25 * int(u.get("cache_creation_input_tokens") or 0)
+            + 0.1 * int(u.get("cache_read_input_tokens") or 0)
+            + 5 * int(u.get("output_tokens") or 0))
 
 GATE_PROMPT = """You are a strict topic classifier for a public Q&A service that ONLY answers \
 questions about the Troy School District (Troy, Michigan) and its Board of Education: meetings, \
@@ -83,15 +91,14 @@ def api(path, payload=None):
 
 def run_gate(question):
     """Stage 1: Haiku topic gate. Returns (on_topic, decline_text, tokens)."""
-    r = subprocess.run(["claude", "-p", GATE_PROMPT.format(q=question), "--model", GATE,
-                        "--max-turns", "1", "--output-format", "json"],
-                       capture_output=True, text=True, timeout=90)
+    with tempfile.TemporaryDirectory() as wd:      # clean cwd: no repo CLAUDE.md / memory in context
+        r = subprocess.run(["claude", "-p", GATE_PROMPT.format(q=question), "--model", GATE,
+                            "--max-turns", "1", "--output-format", "json"],
+                           capture_output=True, text=True, timeout=90, cwd=wd)
     try:
         d = json.loads(r.stdout)
         text = (d.get("result") or "").strip()
-        u = d.get("usage") or {}
-        toks = sum(int(u.get(k) or 0) for k in
-                   ("input_tokens", "cache_creation_input_tokens", "cache_read_input_tokens", "output_tokens"))
+        toks = int(weight(d.get("usage") or {}))
     except Exception:
         return True, "", 0                       # gate glitch → let the answer stage's own rules catch it
     if text.startswith("OFF_TOPIC"):
@@ -123,9 +130,7 @@ def run_answer(question, budget):
                 u = (ev.get("message") or {}).get("usage") if ev.get("type") == "assistant" else \
                     ev.get("usage") if ev.get("type") == "result" else None
                 if u:
-                    tokens += sum(int(u.get(k) or 0) for k in
-                                  ("input_tokens", "cache_creation_input_tokens",
-                                   "cache_read_input_tokens", "output_tokens"))
+                    tokens += int(weight(u))
                 if tokens > budget:
                     proc.kill()
                     return None, f"token budget exceeded ({tokens:,} > {budget:,})", tokens
