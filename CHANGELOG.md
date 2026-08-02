@@ -5,6 +5,12 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- Singularity polish: the accretion disk now visibly rotates (two sweeping
+  density arms + tangential motion streaks, additive blending); the equalizer
+  is **real** — a precomputed 12-band spectrum of the actual track (~10 KB of
+  derived band energies, no audio redistributed) synced to the YouTube player's
+  reported `currentTime`; the footer easter-egg 🕳️ gained a spinning conic
+  accretion ring so it catches the eye.
 - Batch transcription tooling: `transcription/run_meeting.sh` (YouTube upload →
   transcript → anchors → D1, one command, idempotent), `make_anchors.py`
   (heuristic agenda-chapter generator from transcript transition cues) and
