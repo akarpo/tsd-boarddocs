@@ -36,9 +36,13 @@ TOKEN_CAP = int(os.environ.get("ASSISTANT_TOKEN_CAP", "100000"))
 ANSWER_TIMEOUT = 330
 
 def weight(u):
-    """Total tokens, all kinds (the per-question cap is a literal raw-token bound)."""
-    return sum(int(u.get(k) or 0) for k in ("input_tokens", "cache_creation_input_tokens",
-                                            "cache_read_input_tokens", "output_tokens"))
+    """Price-weighted token equivalents: input x1, cache-write x1.25, cache-read x0.1, output x5.
+    Raw totals are dominated by re-reading the CLI's own cached baseline (~24K) every turn — a
+    successful frugal answer measures ~114K raw but ~42K weighted, so the cap binds on weighted."""
+    return (int(u.get("input_tokens") or 0)
+            + 1.25 * int(u.get("cache_creation_input_tokens") or 0)
+            + 0.1 * int(u.get("cache_read_input_tokens") or 0)
+            + 5 * int(u.get("output_tokens") or 0))
 
 GATE_PROMPT = """You are a strict topic classifier for a public Q&A service that ONLY answers \
 questions about the Troy School District (Troy, Michigan) and its Board of Education: meetings, \
@@ -112,7 +116,7 @@ def run_answer(question, budget):
            "--model", OPUS, "--max-turns", "8",
            "--allowedTools", "Bash(curl:*)",
            "--output-format", "stream-json", "--verbose"]
-    tokens, result, t0 = 0, None, time.time()
+    tokens, result, t0, last_sig = 0, None, time.time(), None
     with tempfile.TemporaryDirectory() as wd:
         proc = subprocess.Popen(cmd, cwd=wd, stdout=subprocess.PIPE,
                                 stderr=subprocess.DEVNULL, text=True)
@@ -127,11 +131,15 @@ def run_answer(question, budget):
                     continue
                 if ev.get("type") == "assistant":
                     u = (ev.get("message") or {}).get("usage")
-                    if u:
+                    # the CLI repeats a message's usage on every content block — count each
+                    # distinct API call once (the tuple changes when a new call lands)
+                    sig = u and (u.get("cache_creation_input_tokens"), u.get("cache_read_input_tokens"),
+                                 u.get("input_tokens"))
+                    if u and sig != last_sig:
+                        last_sig = sig
                         tokens += int(weight(u))
                 elif ev.get("type") == "result":
-                    # result usage is SESSION-CUMULATIVE — it replaces the running sum
-                    if ev.get("usage"):
+                    if ev.get("usage"):                     # authoritative session total — replaces estimate
                         tokens = int(weight(ev["usage"]))
                     result = ev.get("result")
                 if tokens > budget and result is None:
