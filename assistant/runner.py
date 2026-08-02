@@ -36,12 +36,9 @@ TOKEN_CAP = int(os.environ.get("ASSISTANT_TOKEN_CAP", "100000"))
 ANSWER_TIMEOUT = 330
 
 def weight(u):
-    """Price-weighted token equivalents (input x1, cache-write x1.25, cache-read x0.1, output x5) —
-    raw sums are dominated by re-read cached system prompt and make an agentic cap meaningless."""
-    return (int(u.get("input_tokens") or 0)
-            + 1.25 * int(u.get("cache_creation_input_tokens") or 0)
-            + 0.1 * int(u.get("cache_read_input_tokens") or 0)
-            + 5 * int(u.get("output_tokens") or 0))
+    """Total tokens, all kinds (the per-question cap is a literal raw-token bound)."""
+    return sum(int(u.get(k) or 0) for k in ("input_tokens", "cache_creation_input_tokens",
+                                            "cache_read_input_tokens", "output_tokens"))
 
 GATE_PROMPT = """You are a strict topic classifier for a public Q&A service that ONLY answers \
 questions about the Troy School District (Troy, Michigan) and its Board of Education: meetings, \
@@ -128,15 +125,18 @@ def run_answer(question, budget):
                     ev = json.loads(line)
                 except Exception:
                     continue
-                u = (ev.get("message") or {}).get("usage") if ev.get("type") == "assistant" else \
-                    ev.get("usage") if ev.get("type") == "result" else None
-                if u:
-                    tokens += int(weight(u))
-                if tokens > budget:
+                if ev.get("type") == "assistant":
+                    u = (ev.get("message") or {}).get("usage")
+                    if u:
+                        tokens += int(weight(u))
+                elif ev.get("type") == "result":
+                    # result usage is SESSION-CUMULATIVE — it replaces the running sum
+                    if ev.get("usage"):
+                        tokens = int(weight(ev["usage"]))
+                    result = ev.get("result")
+                if tokens > budget and result is None:
                     proc.kill()
                     return None, f"token budget exceeded ({tokens:,} > {budget:,})", tokens
-                if ev.get("type") == "result":
-                    result = ev.get("result")
             proc.wait(timeout=10)
         finally:
             if proc.poll() is None:
