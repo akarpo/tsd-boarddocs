@@ -258,6 +258,39 @@ async function twilioSend(cfg, body, to) {
 async function sha256hex(s) {
   return hex(await crypto.subtle.digest("SHA-256", enc.encode(s)));
 }
+// ----- Microsoft Graph mailer (send-only as mail_from, e.g. admin@karpowitsch.org).
+// Mirrors the FoxHall pattern: client-credentials + Mail.Send application permission.
+// Config rows in bot_config: graph_tenant_id, graph_client_id, graph_client_secret, mail_from.
+function emailReady(cfg) {
+  return !!(cfg.graph_tenant_id && cfg.graph_client_id && cfg.graph_client_secret && cfg.mail_from);
+}
+let _gTok = null, _gTokExp = 0;
+async function graphToken(cfg) {
+  if (_gTok && Date.now() < _gTokExp) return _gTok;
+  const r = await fetch(`https://login.microsoftonline.com/${cfg.graph_tenant_id}/oauth2/v2.0/token`, {
+    method: "POST",
+    headers: { "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({ grant_type: "client_credentials", client_id: cfg.graph_client_id,
+      client_secret: cfg.graph_client_secret, scope: "https://graph.microsoft.com/.default" }),
+  });
+  if (!r.ok) throw new Error(`graph token ${r.status}`);
+  const d = await r.json();
+  _gTok = d.access_token; _gTokExp = Date.now() + Math.max(60, (d.expires_in || 3600) - 300) * 1000;
+  return _gTok;
+}
+async function graphSendMail(cfg, to, subject, text) {
+  const tok = await graphToken(cfg);
+  const r = await fetch(
+    `https://graph.microsoft.com/v1.0/users/${encodeURIComponent(cfg.mail_from)}/sendMail`, {
+      method: "POST",
+      headers: { authorization: `Bearer ${tok}`, "content-type": "application/json" },
+      body: JSON.stringify({ message: {
+        subject, body: { contentType: "Text", content: text },
+        toRecipients: [{ emailAddress: { address: to } }],
+      }, saveToSentItems: false }),
+    });
+  if (!r.ok && r.status !== 202) throw new Error(`graph send ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
 function normPhone(raw) {
   const digits = String(raw || "").replace(/\D/g, "");
   if (digits.length < 10 || digits.length > 15) return null;
@@ -312,7 +345,9 @@ async function handleAssistant(request, env, url) {
     const phone = normPhone(body.phone);
     if (!phone) return json({ error: "valid mobile number required" }, 400);
     const cfgO = await botCfg(env);
-    if (!twilioReady(cfgO)) return json({ error: "sign-in isn't open yet — check back soon" }, 503);
+    // channel ladder: SMS once Twilio's campaign is armed; email via Graph meanwhile
+    if (!twilioReady(cfgO) && !emailReady(cfgO))
+      return json({ error: "sign-in isn't open yet — check back soon" }, 503);
     const u = await env.DB.prepare("SELECT * FROM bot_users WHERE phone=?1").bind(phone).first();
     // don't leak which numbers exist: unknown/unapproved get the same neutral reply
     if (!u || u.status !== "approved") return json({ ok: true, sent: true });
@@ -322,9 +357,20 @@ async function handleAssistant(request, env, url) {
     await env.DB.prepare(
       "UPDATE bot_users SET otp_hash=?1, otp_expires=?2, otp_sent_at=?3, otp_attempts=0 WHERE id=?4")
       .bind(await sha256hex(code + phone), new Date(Date.now() + 600e3).toISOString(), nowIso(), u.id).run();
-    try { await twilioSend(cfgO, `Your Troy SD Archive sign-in code is ${code}. Expires in 10 minutes.`, phone); }
-    catch { return json({ error: "could not send the code — try again later" }, 502); }
-    return json({ ok: true, sent: true });
+    const msg = `Your Troy SD Archive sign-in code is ${code}. It expires in 10 minutes.`;
+    let channel = null;
+    if (twilioReady(cfgO)) {
+      try { await twilioSend(cfgO, msg, phone); channel = "sms"; } catch { /* fall through to email */ }
+    }
+    if (!channel && emailReady(cfgO)) {
+      try {
+        await graphSendMail(cfgO, u.email, "Your Troy SD Archive sign-in code", msg +
+          "\n\nIf you didn't request this, you can ignore it.\n— tsd-boarddocs.karpowitsch.org");
+        channel = "email";
+      } catch { /* both failed */ }
+    }
+    if (!channel) return json({ error: "could not send the code — try again later" }, 502);
+    return json({ ok: true, sent: true, channel });
   }
 
   if (p === "/otp/verify" && method === "POST") {

@@ -66,6 +66,50 @@ wrangler d1 execute tsd-boarddocs --remote --yes --command "INSERT OR REPLACE IN
 - If an SMS send fails, the question degrades to unmoderated rather than
   stranding the asker.
 
+## Email sign-in codes (Microsoft Graph, optional)
+
+Sign-in codes follow a channel ladder: **SMS when Twilio is armed → email via
+Microsoft Graph meanwhile → closed if neither**. The email path mirrors the
+FoxHall mailer: an Entra app with the `Mail.Send` application permission sends
+as `admin@karpowitsch.org` (a shared mailbox — no license needed).
+
+**karpowitsch.org's inbound mail lives on iCloud (alex@…) — NEVER change MX.**
+Microsoft here is send-only; the domain verification is a TXT record and does
+not affect routing. If you want replies to admin@ to arrive, add `admin` as an
+address in your iCloud custom-domain settings.
+
+One-time setup:
+
+1. **Cloudflare DNS** (karpowitsch.org zone, all records DNS-only/grey-cloud):
+   - add the `MS=msXXXXXXXX` TXT (value from step 2's wizard);
+   - **replace** the SPF TXT `v=spf1 redirect=icloud.com` with
+     `v=spf1 include:icloud.com include:spf.protection.outlook.com ~all`;
+   - do NOT add MX or autodiscover records;
+   - later, optionally: the two DKIM CNAMEs from Defender → Email auth → DKIM,
+     and a `_dmarc` TXT `v=DMARC1; p=none; rua=mailto:akarpo@gmail.com`.
+2. **M365 admin** (admin.microsoft.com, same tenant as FoxHall): Settings →
+   Domains → Add `karpowitsch.org` → verify by TXT → on the records step choose
+   to manage DNS yourself and SKIP the Exchange/MX records. Then Teams & groups
+   → Shared mailboxes → add `admin@karpowitsch.org`.
+3. **Entra** (entra.microsoft.com): App registrations → new app
+   ("tsd-boarddocs mailer") → API permissions → Microsoft Graph → Application →
+   `Mail.Send` → Grant admin consent → Certificates & secrets → new secret
+   (24 months; calendar a renewal reminder — see the FoxHall renewal doc, the
+   procedure is identical).
+4. Enable (run yourself; values never leave your machine):
+
+```bash
+wrangler d1 execute tsd-boarddocs --remote --yes --command "INSERT OR REPLACE INTO bot_config VALUES
+  ('graph_tenant_id','45f44120-8603-4386-a285-85358109286b'),
+  ('graph_client_id','<new app id>'), ('graph_client_secret','<secret value>'),
+  ('mail_from','admin@karpowitsch.org');"
+```
+
+The Worker picks it up within a minute. (The FoxHall app's Mail.Send is
+tenant-wide, so reusing its app+secret also works — but a separate app keeps
+rotation and revocation independent, and either app can be locked to specific
+mailboxes later with an Exchange application access policy.)
+
 ## Ops notes
 
 - Questions stuck in `answering` >20 min (runner crash) are re-served to the
