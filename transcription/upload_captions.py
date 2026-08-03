@@ -52,16 +52,17 @@ def http(url, data=None, headers=None, method=None):
 
 def loopback_flow(cid, csec):
     """Desktop-app OAuth via localhost redirect (the flow that supports the captions scope)."""
-    import http.server, threading
+    import http.server as _hs
+    import threading
     port, got = 8765, {}
-    class H(http.server.BaseHTTPRequestHandler):
+    class H(_hs.BaseHTTPRequestHandler):
         def do_GET(self):
             got["code"] = (urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
                            .get("code") or [None])[0]
             self.send_response(200); self.send_header("content-type", "text/html"); self.end_headers()
             self.wfile.write(b"<h2>Authorized \xe2\x9c\x93 \xe2\x80\x94 you can close this tab.</h2>")
         def log_message(self, *a): pass
-    srv = http.server.HTTPServer(("127.0.0.1", port), H)
+    srv = _hs.HTTPServer(("127.0.0.1", port), H)
     t = threading.Thread(target=srv.handle_request, daemon=True); t.start()
     redirect = f"http://127.0.0.1:{port}"
     url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
