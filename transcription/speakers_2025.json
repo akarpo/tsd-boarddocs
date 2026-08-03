@@ -1,0 +1,19 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 — Trudel presents business items.",
+  "speakers": [
+    {"name": "Nancy Philippart", "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"},
+    {"name": "Vital Anne", "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"},
+    {"name": "Emina Alic", "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"},
+    {"name": "Matt Haupt", "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"},
+    {"name": "Audra Melton", "description": "Trustee, addressed as Dr. Melton; first year on the board"},
+    {"name": "Ayesha Potts", "description": "Trustee, addressed as Ms. Potts; first year on the board"},
+    {"name": "Stephanie Zendler", "description": "Trustee, addressed as Mrs. Zendler; first year on the board"},
+    {"name": "Richard Machesky", "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"},
+    {"name": "Dan Trudel", "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"},
+    {"name": "Christine DiPilato", "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"}
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass — cluster splits/merges are NOT hand-verified for this meeting."
+  ]
+}
