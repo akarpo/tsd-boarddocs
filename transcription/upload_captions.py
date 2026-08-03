@@ -11,10 +11,12 @@ One-time setup (≈5 min):
   2. OAuth consent screen → External → Testing → add your Google account as a
      test user (no app verification needed for personal use).
   3. Credentials → Create credentials → OAuth client ID → application type
-     **"TVs and Limited Input devices"** → copy the client ID and secret into
-     tsd-secrets.env as YT_CLIENT_ID / YT_CLIENT_SECRET.
-  4. Run this script: it shows a code, you approve once at google.com/device,
-     and the refresh token is appended to tsd-secrets.env for next time.
+     **"Desktop app"** → copy the client ID and secret into tsd-secrets.env as
+     YT_CLIENT_ID / YT_CLIENT_SECRET. (Device-flow/TV clients can't carry the
+     captions scope — Google's device flow rejects youtube.force-ssl.)
+  4. Run this script: it prints an accounts.google.com URL and listens on
+     127.0.0.1:8765; approve in the browser once and the refresh token is
+     appended to tsd-secrets.env for next time.
 
 Usage:  python3 transcription/upload_captions.py [--dry-run] [--only 2026-06-16]
 Re-runs update the existing track instead of duplicating it.
@@ -48,24 +50,30 @@ def http(url, data=None, headers=None, method=None):
         raise SystemExit(f"HTTP {e.code} {url}\n{e.read().decode('utf-8', 'replace')[:400]}")
 
 
-def device_flow(cid, csec):
-    d = http("https://oauth2.googleapis.com/device/code",
-             urllib.parse.urlencode({"client_id": cid, "scope": SCOPE}).encode())
-    print(f"\n→ Visit {d['verification_url']} and enter code: {d['user_code']}\n", flush=True)
-    while True:
-        time.sleep(d.get("interval", 5))
-        req = urllib.request.Request("https://oauth2.googleapis.com/token",
-            urllib.parse.urlencode({"client_id": cid, "client_secret": csec,
-                "device_code": d["device_code"],
-                "grant_type": "urn:ietf:params:oauth:grant-type:device_code"}).encode())
-        try:
-            with urllib.request.urlopen(req) as r:
-                return json.load(r)
-        except urllib.error.HTTPError as e:
-            err = json.loads(e.read()).get("error", "")
-            if err in ("authorization_pending", "slow_down"):
-                continue
-            raise SystemExit(f"device flow failed: {err}")
+def loopback_flow(cid, csec):
+    """Desktop-app OAuth via localhost redirect (the flow that supports the captions scope)."""
+    import http.server, threading
+    port, got = 8765, {}
+    class H(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):
+            got["code"] = (urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
+                           .get("code") or [None])[0]
+            self.send_response(200); self.send_header("content-type", "text/html"); self.end_headers()
+            self.wfile.write(b"<h2>Authorized \xe2\x9c\x93 \xe2\x80\x94 you can close this tab.</h2>")
+        def log_message(self, *a): pass
+    srv = http.server.HTTPServer(("127.0.0.1", port), H)
+    t = threading.Thread(target=srv.handle_request, daemon=True); t.start()
+    redirect = f"http://127.0.0.1:{port}"
+    url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
+        "client_id": cid, "redirect_uri": redirect, "response_type": "code",
+        "scope": SCOPE, "access_type": "offline", "prompt": "consent"})
+    print(f"\n→ Open and approve (listening on {redirect}):\n{url}\n", flush=True)
+    t.join(timeout=600)
+    if not got.get("code"):
+        raise SystemExit("no auth code received (timed out?)")
+    return http("https://oauth2.googleapis.com/token", urllib.parse.urlencode({
+        "client_id": cid, "client_secret": csec, "code": got["code"],
+        "redirect_uri": redirect, "grant_type": "authorization_code"}).encode())
 
 
 def access_token():
@@ -73,7 +81,7 @@ def access_token():
     csec = tsd_secrets.require("YT_CLIENT_SECRET")
     rt = tsd_secrets.get("YT_REFRESH_TOKEN")
     if not rt:
-        tok = device_flow(cid, csec)
+        tok = loopback_flow(cid, csec)
         rt = tok.get("refresh_token")
         if rt:
             with open(tsd_secrets.SECRETS_FILE, "a") as f:
