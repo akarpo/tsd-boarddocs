@@ -149,23 +149,73 @@ v0.8.9 changelog entry.
 
 ## Campaigns
 
-| campaign | scope | batches | agents |
-|---|---|---|---|
-| `fanout` | first hand-staged pass | 26 | done |
-| `wave2` | second hand-staged pass | 121 | done |
-| `remainder` | 2021-2026 | 76 | 68 outstanding |
-| `orphans` | 2024 documents dropped during `fanout` staging | 4 | 4 |
-| `packets` | 2010-2020 packet era | 151 | **552** |
+Status as of 2026-07-31:
 
-**`packets` is chunked far more finely than the others**: `--split-over 80000
---section 40000`, so 96 of its 151 batches fan into sections rather than handing
-one agent a 150K-token read. The packet era is 83% of the campaign's tokens at a
-median 96K tokens per document; under the default 170K threshold, 79 documents
-would each have had a single agent compress 40-170K tokens into ~1,600 words --
-re-enacting, at a larger scale, the lossiness this campaign exists to undo.
-Capping reads at 59K costs 552 agents instead of 220. Going finer buys nothing:
-below an 80K threshold the binding constraint becomes the unsplit 40-59K
-documents, so the max read stays 59K.
+| campaign | scope | batches | status |
+|---|---|---|---|
+| `fanout` | first hand-staged pass | 26 | **complete** |
+| `wave2` | second hand-staged pass | 121 | **complete** |
+| `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
+| `remainder` | 2021-2026 | 76 | **complete** |
+| `packets` | 2010-2020 packet era | 151 | **17 done, 134 pending** |
+
+Everything from 2021 onward is re-summarized from full text. What remains is the
+packet era, worked **newest-first**: 2020 is finished, 2019 is partly done.
+
+| year | batches | agents | source |
+|---|---|---|---|
+| 2019 | 13 | 45 | 1.28M |
+| 2018 | 12 | 51 | 1.47M |
+| 2017 | 14 | 60 | 1.77M |
+| 2016 | 15 | 59 | 1.67M |
+| 2015 | 13 | 52 | 1.43M |
+| 2014 | 14 | 48 | 1.32M |
+| 2013 | 12 | 38 | 0.94M |
+| 2012 | 13 | 45 | 1.20M |
+| 2011 | 13 | 48 | 1.27M |
+| 2010 | 15 | 50 | 1.33M |
+| **total** | **134** | **496** | **13.67M** |
+
+### `packets` is chunked far more finely
+
+Staged with `--split-over 80000 --section 40000`, so 96 of its 151 batches fan
+into sections rather than handing one agent a 150K-token read. The packet era is
+83% of the campaign's tokens at a median 96K tokens per document; under the
+default 170K threshold, 79 documents would each have had a single agent compress
+40-170K tokens into ~1,600 words — re-enacting, at a larger scale, the lossiness
+this campaign exists to undo. Capping reads at 59K costs 552 agents instead of
+220. Going finer buys nothing: below an 80K threshold the binding constraint
+becomes the unsplit 40-59K documents, so max read stays 59K.
+
+**The split path is proven.** The first two `packets` waves included 9 split
+batches (up to 7 sections for the Dec 2019 packet); all validated clean, so
+section-notes-then-synthesise preserves figure fidelity.
+
+## Measured costs
+
+Everything below is measured, not modelled. `PTS_PER_AGENT = 4.9` in the queue is
+conservative for most material and should be read as a ceiling, not an estimate.
+
+| material | pts/agent | tokens/agent | notes |
+|---|---|---|---|
+| `wave2` small documents | ~1.9 | ~85K | median 3,885-char docs |
+| `remainder` 2021-2022 | 2.35 | ~78K | lightest measured |
+| `remainder` 2023-2026 | 3.2 | ~105K | figure-dense financials |
+| `packets`, few splits | 2.92 | ~91K | 4 splits of 11 batches |
+| `packets`, split-heavy | **3.20** | ~97K | 5 splits of 6 batches |
+
+**Agent spend runs ~3.6x the batch's source tokens** — measured across four waves
+(3.2x, 3.5x, 3.7x, 4.0x). Use that to project a year: 2018's 1.47M source tokens
+is ~5.2M spent.
+
+**Size split-heavy waves at 3.2-3.5 pts/agent.** Sizing a 30-agent split-heavy
+wave at the 2.92 measured on a split-light one overshot the 90% release line and
+landed at 96%. Nothing was lost, but the margin was thinner than intended --
+section agents read ~40K each against ~24K for a normal batch.
+
+Split batches also **serialise**: every section must finish before its synthesis
+agent starts, so a split-heavy wave takes ~28 minutes where a comparable
+`remainder` wave takes ~10.
 
 ### The orphan gap
 
@@ -183,26 +233,27 @@ are unreachable by a batch.
 
 ## Scope
 
-Measured from the corpus (`stage_campaign.py --dry-run` reproduces it):
+Measured from the corpus, reconciled 2026-07-30:
 
 | | docs |
 |---|---|
 | exceeded the 6,000-char cap | **786** |
-| covered by `fanout` + `wave2` | 391 |
-| staged as `remainder` (2026-07-28) | 367 |
-| check registers, out of scope | 28 |
+| re-summarized | 359 + all of `remainder` and `orphans` |
+| remaining (all packet era) | 134 batches / 496 agents |
+| check registers, out of scope | 69 |
 
-The first two passes were staged by hand and between them missed **395**
-documents — the queue reported "empty" with half the campaign untouched. The
-`remainder` campaign closes that gap, and because its selection is derived from
-the corpus rather than remembered, the same command re-run later will surface
-anything new that qualifies.
+**Check registers are deliberately excluded.** A prose summary of a few thousand
+payment rows is the wrong instrument — that data is queryable in the separate
+check-register project.
 
-`remainder` is the expensive half: **17.0M tokens of source, 280 agents (~35
-waves)**, median document 45,541 chars against 3,885 for what came before. 144
-of its documents are packet-era (2010-2019) bundles.
+Three separate gaps were found by reconciling *what was supposed to be processed*
+against *what was*, rather than trusting any campaign's own done-count:
 
-**Check registers are deliberately excluded.** They are 17% of the remaining
-documents but 42% of the tokens (median 45,709 vs 3,885 for everything else), and
-a prose summary of a few thousand payment rows is the wrong instrument — that data
-is already queryable in the separate check-register project.
+1. **395 documents in no manifest at all** — `fanout` and `wave2` were staged by
+   hand and between them missed half the affected set. The queue reported "empty".
+2. **24 documents catalogued but never batched** (the orphan gap below).
+3. **14 clean batches reported as failed** — a path-coupling bug, not bad data.
+
+Each looked like completed work from the outside. `stage_campaign.py --dry-run`
+now reproduces the reconciliation on demand, and re-running it surfaces anything
+newly qualifying, so the gap cannot silently reopen.

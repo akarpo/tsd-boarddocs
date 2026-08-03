@@ -5,6 +5,30 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Re-summarization campaign — status 2026-07-31
+
+- **Four of five campaigns complete.** `fanout` (26), `wave2` (121), `orphans` (4)
+  and `remainder` (76) are all done; every document from 2021 onward is now
+  re-summarized from full text. `packets` (2010-2020) stands at 17/151, worked
+  newest-first: 2020 finished, 2019 partly done. 134 batches / 496 agents /
+  13.67M source tokens remain.
+- **The arithmetic ban held across every campaign** — 0 derived and 0 unknown in
+  every batch. The one apparent violation was a malformed thousands separator in
+  the source (`$3,488.377.00`), not a fabrication.
+- **The split path is proven.** Nine split batches ran across the first two
+  `packets` waves, up to 7 sections for the Dec 2019 packet, all clean —
+  section-notes-then-synthesise preserves figure fidelity.
+- **Measured costs recorded in docs/RESUMMARIZE.md.** Agent spend runs ~3.6x a
+  batch's source tokens. Cost per agent ranges 1.9 (small documents) to 3.2
+  (split-heavy packets); `PTS_PER_AGENT = 4.9` is a ceiling, not an estimate.
+  Sizing a split-heavy wave at a split-light rate overshot the 90% release line
+  to 96%.
+- Three gaps were found by reconciling what *should* have been processed against
+  what was: 395 documents in no manifest, 24 catalogued but never batched, and 14
+  clean batches misreported as failed. All closed; `stage_campaign.py --dry-run`
+  reproduces the reconciliation on demand.
+
+
 - Assistant: **email sign-in codes are LIVE** via Resend from
   `admin@karpowitsch.org` (domain DKIM/return-path verified 2026-08-03; apex
   MX/SPF untouched — iCloud receiving unaffected). Channel ladder active:

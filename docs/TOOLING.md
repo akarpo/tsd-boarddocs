@@ -98,6 +98,10 @@ ingested anything.
 | `scripts/resummarize_queue.py` | derives done/failed/pending from disk; emits the next wave sized against live usage |
 | `~/.claude/bin/usage5h.py` | reads the authoritative 5h/7d percentages and converts headroom into work units |
 
+Five campaigns: `fanout`, `wave2`, `orphans`, `remainder` (all complete) and
+`packets` (2010-2020, 17/151). Select one with `TSD_FAN_MANIFEST=<name>_manifest.json`;
+the batch dir, output dir and store dir all default off that stem.
+
 Full description in `docs/RESUMMARIZE.md`.
 
 **Usage measurement:** the live rate-limit percentages are already written to
