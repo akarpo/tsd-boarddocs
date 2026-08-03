@@ -66,7 +66,27 @@ wrangler d1 execute tsd-boarddocs --remote --yes --command "INSERT OR REPLACE IN
 - If an SMS send fails, the question degrades to unmoderated rather than
   stranding the asker.
 
-## Email sign-in codes (Microsoft Graph, optional)
+## Email sign-in codes (Resend, optional)
+
+Chosen path (2026-08-03): **Resend** — the Karpowitsch M365 tenant has no
+Exchange subscription, so Graph had nothing to send as. Setup:
+
+1. resend.com → Domains → add `karpowitsch.org`. It shows 3 records (a DKIM
+   TXT `resend._domainkey`, and an MX + TXT on `send.karpowitsch.org` for the
+   return path). Add them in the Cloudflare zone, DNS-only. **Apex MX and SPF
+   stay untouched — iCloud receiving is unaffected.**
+2. Create an API key (Sending access only), then enable:
+
+```bash
+wrangler d1 execute tsd-boarddocs --remote --yes --command "INSERT OR REPLACE INTO bot_config VALUES
+  ('resend_api_key','re_…'), ('mail_from','admin@karpowitsch.org');"
+```
+
+The channel ladder becomes: SMS when Twilio is armed → Resend email meanwhile.
+The Graph path below remains implemented (used only if `resend_api_key` is
+absent and `graph_*` rows are present) should the Microsoft route ever return.
+
+## Email sign-in codes (Microsoft Graph, dormant alternative)
 
 Sign-in codes follow a channel ladder: **SMS when Twilio is armed → email via
 Microsoft Graph meanwhile → closed if neither**. The email path mirrors the

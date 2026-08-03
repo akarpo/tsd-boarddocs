@@ -262,7 +262,20 @@ async function sha256hex(s) {
 // Mirrors the FoxHall pattern: client-credentials + Mail.Send application permission.
 // Config rows in bot_config: graph_tenant_id, graph_client_id, graph_client_secret, mail_from.
 function emailReady(cfg) {
-  return !!(cfg.graph_tenant_id && cfg.graph_client_id && cfg.graph_client_secret && cfg.mail_from);
+  return !!(cfg.mail_from && (cfg.resend_api_key ||
+    (cfg.graph_tenant_id && cfg.graph_client_id && cfg.graph_client_secret)));
+}
+async function resendSend(cfg, to, subject, text) {
+  const r = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { authorization: `Bearer ${cfg.resend_api_key}`, "content-type": "application/json" },
+    body: JSON.stringify({ from: `Troy SD Archive <${cfg.mail_from}>`, to: [to], subject, text }),
+  });
+  if (!r.ok) throw new Error(`resend ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
+async function sendEmail(cfg, to, subject, text) {
+  if (cfg.resend_api_key) return resendSend(cfg, to, subject, text);
+  return graphSendMail(cfg, to, subject, text);
 }
 let _gTok = null, _gTokExp = 0;
 async function graphToken(cfg) {
@@ -364,7 +377,7 @@ async function handleAssistant(request, env, url) {
     }
     if (!channel && emailReady(cfgO)) {
       try {
-        await graphSendMail(cfgO, u.email, "Your Troy SD Archive sign-in code", msg +
+        await sendEmail(cfgO, u.email, "Your Troy SD Archive sign-in code", msg +
           "\n\nIf you didn't request this, you can ignore it.\n— tsd-boarddocs.karpowitsch.org");
         channel = "email";
       } catch { /* both failed */ }
