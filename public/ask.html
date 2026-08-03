@@ -61,18 +61,21 @@
       <input id="r-phone" type="tel" autocomplete="tel" placeholder="+1 248 555 0123">
       <label>Why do you want access? <span style="font-weight:400">(shown to the approver)</span></label>
       <textarea id="r-reason" placeholder="e.g. Troy parent following the budget process"></textarea>
-      <label>Password <span style="font-weight:400">(8+ characters)</span></label>
-      <input id="r-pw" type="password" autocomplete="new-password">
-      <p class="note" style="margin-top:12px">By requesting access you agree to the
+      <p class="note" style="margin-top:12px">No password — once approved, you'll sign in with a
+      code texted to your phone. By requesting access you agree to the
       <a href="/terms" target="_blank">Terms of Use</a> and
       <a href="/privacy" target="_blank">Privacy Policy</a>.</p>
       <button id="btn-reg">Request access</button>
       <div class="msg" id="reg-msg"></div>
     </div>
     <div id="pane-log" hidden>
-      <label>Email</label><input id="l-email" type="email" autocomplete="email">
-      <label>Password</label><input id="l-pw" type="password" autocomplete="current-password">
-      <button id="btn-log">Sign in</button>
+      <label>Mobile phone</label><input id="l-phone" type="tel" autocomplete="tel" placeholder="+1 248 555 0123">
+      <button id="btn-send">Text me a code</button>
+      <div id="code-row" hidden>
+        <label>6-digit code</label>
+        <input id="l-code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="123456">
+        <button id="btn-verify">Sign in</button>
+      </div>
       <div class="msg" id="log-msg"></div>
     </div>
   </div>
@@ -140,17 +143,23 @@ $("tab-reg").onclick=()=>{$("pane-reg").hidden=false;$("pane-log").hidden=true;$
 $("tab-log").onclick=()=>{$("pane-reg").hidden=true;$("pane-log").hidden=false;$("tab-log").classList.remove("off");$("tab-reg").classList.add("off")};
 $("btn-reg").onclick=async()=>{
   $("reg-msg").className="msg";$("reg-msg").textContent="…";
-  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,phone:$("r-phone").value,reason:$("r-reason").value,password:$("r-pw").value})});
+  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,phone:$("r-phone").value,reason:$("r-reason").value})});
   const d=await r.json();
-  if(d.ok){$("reg-msg").className="msg ok";$("reg-msg").textContent="Request submitted — you'll be able to sign in once approved.";}
+  if(d.ok){$("reg-msg").className="msg ok";$("reg-msg").textContent="Request submitted — once approved, sign in with a code texted to your phone.";}
   else{$("reg-msg").className="msg err";$("reg-msg").textContent=d.error||"registration failed";}
 };
-$("btn-log").onclick=async()=>{
+$("btn-send").onclick=async()=>{
   $("log-msg").className="msg";$("log-msg").textContent="…";
-  const r=await api("/login",{method:"POST",body:JSON.stringify({email:$("l-email").value,password:$("l-pw").value})});
+  const r=await api("/otp/start",{method:"POST",body:JSON.stringify({phone:$("l-phone").value})});
+  const d=await r.json();
+  if(d.ok){$("code-row").hidden=false;$("log-msg").className="msg ok";$("log-msg").textContent="If that number is registered and approved, a code is on its way.";}
+  else{$("log-msg").className="msg err";$("log-msg").textContent=d.error||"could not send a code";}
+};
+$("btn-verify").onclick=async()=>{
+  $("log-msg").className="msg";$("log-msg").textContent="…";
+  const r=await api("/otp/verify",{method:"POST",body:JSON.stringify({phone:$("l-phone").value,code:$("l-code").value})});
   const d=await r.json();
   if(d.ok&&d.status==="approved"){location.reload();}
-  else if(d.ok){$("log-msg").className="msg err";$("log-msg").textContent=d.status==="pending"?"Still waiting for approval — check back later.":"Access was not approved.";}
   else{$("log-msg").className="msg err";$("log-msg").textContent=d.error||"sign-in failed";}
 };
 async function signout(){await api("/logout",{method:"POST"});location.reload();}

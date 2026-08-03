@@ -246,14 +246,22 @@ async function botCfg(env) {
 function twilioReady(cfg) {
   return !!(cfg.twilio_sid && cfg.twilio_token && cfg.twilio_from && cfg.twilio_to);
 }
-async function twilioSend(cfg, body) {
+async function twilioSend(cfg, body, to) {
   const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${cfg.twilio_sid}/Messages.json`, {
     method: "POST",
     headers: { authorization: "Basic " + btoa(`${cfg.twilio_sid}:${cfg.twilio_token}`),
                "content-type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({ To: cfg.twilio_to, From: cfg.twilio_from, Body: body }),
+    body: new URLSearchParams({ To: to || cfg.twilio_to, From: cfg.twilio_from, Body: body }),
   });
   if (!r.ok) throw new Error(`twilio ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
+async function sha256hex(s) {
+  return hex(await crypto.subtle.digest("SHA-256", enc.encode(s)));
+}
+function normPhone(raw) {
+  const digits = String(raw || "").replace(/\D/g, "");
+  if (digits.length < 10 || digits.length > 15) return null;
+  return "+" + (digits.length === 10 ? "1" + digits : digits);
 }
 async function twilioSigValid(cfg, url, params) {
   // X-Twilio-Signature = Base64(HMAC-SHA1(auth_token, url + concat(sorted k+v)))
@@ -288,28 +296,50 @@ async function handleAssistant(request, env, url) {
     const email = String(body.email || "").trim().toLowerCase();
     const name = String(body.name || "").trim().slice(0, 80);
     const reason = String(body.reason || "").trim().slice(0, 400);
-    const pw = String(body.password || "");
-    const digits = String(body.phone || "").replace(/\D/g, "");
+    const phone = normPhone(body.phone);
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: "valid email required" }, 400);
-    if (digits.length < 10 || digits.length > 15) return json({ error: "valid mobile number required" }, 400);
-    if (pw.length < 8) return json({ error: "password must be at least 8 characters" }, 400);
-    const phone = "+" + (digits.length === 10 ? "1" + digits : digits);   // E.164-ish, default US
-    const salt = hex(crypto.getRandomValues(new Uint8Array(16)).buffer);
-    const hash = await pbkdf2(pw, salt);
+    if (!phone) return json({ error: "valid mobile number required" }, 400);
     try {
       await env.DB.prepare(
-        "INSERT INTO bot_users (email,name,reason,phone,pw_hash,pw_salt,status,created_at) VALUES (?1,?2,?3,?4,?5,?6,'pending',?7)"
-      ).bind(email, name, reason, phone, hash, salt, nowIso()).run();
-    } catch { return json({ error: "that email is already registered" }, 409); }
+        "INSERT INTO bot_users (email,name,reason,phone,pw_hash,pw_salt,status,created_at) VALUES (?1,?2,?3,?4,'','','pending',?5)"
+      ).bind(email, name, reason, phone, nowIso()).run();
+    } catch { return json({ error: "that email or phone number is already registered" }, 409); }
     return json({ ok: true, status: "pending" });
   }
 
-  if (p === "/login" && method === "POST") {
-    const email = String(body.email || "").trim().toLowerCase();
-    const u = await env.DB.prepare("SELECT * FROM bot_users WHERE email=?1").bind(email).first();
-    const hash = u ? await pbkdf2(String(body.password || ""), u.pw_salt) : "";
-    if (!u || !safeEq(hash, u.pw_hash)) return json({ error: "wrong email or password" }, 401);
-    if (u.status !== "approved") return json({ ok: true, status: u.status });
+  // passwordless sign-in: a 6-digit code texted to the registered (and approved) phone
+  if (p === "/otp/start" && method === "POST") {
+    const phone = normPhone(body.phone);
+    if (!phone) return json({ error: "valid mobile number required" }, 400);
+    const cfgO = await botCfg(env);
+    if (!twilioReady(cfgO)) return json({ error: "sign-in isn't open yet — check back soon" }, 503);
+    const u = await env.DB.prepare("SELECT * FROM bot_users WHERE phone=?1").bind(phone).first();
+    // don't leak which numbers exist: unknown/unapproved get the same neutral reply
+    if (!u || u.status !== "approved") return json({ ok: true, sent: true });
+    if (u.otp_sent_at && Date.now() - Date.parse(u.otp_sent_at) < 60e3)
+      return json({ error: "code already sent — wait a minute before retrying" }, 429);
+    const code = String(crypto.getRandomValues(new Uint32Array(1))[0] % 1000000).padStart(6, "0");
+    await env.DB.prepare(
+      "UPDATE bot_users SET otp_hash=?1, otp_expires=?2, otp_sent_at=?3, otp_attempts=0 WHERE id=?4")
+      .bind(await sha256hex(code + phone), new Date(Date.now() + 600e3).toISOString(), nowIso(), u.id).run();
+    try { await twilioSend(cfgO, `Your Troy SD Archive sign-in code is ${code}. Expires in 10 minutes.`, phone); }
+    catch { return json({ error: "could not send the code — try again later" }, 502); }
+    return json({ ok: true, sent: true });
+  }
+
+  if (p === "/otp/verify" && method === "POST") {
+    const phone = normPhone(body.phone);
+    const code = String(body.code || "").replace(/\D/g, "");
+    if (!phone || code.length !== 6) return json({ error: "enter the 6-digit code" }, 400);
+    const u = await env.DB.prepare("SELECT * FROM bot_users WHERE phone=?1").bind(phone).first();
+    if (!u || u.status !== "approved" || !u.otp_hash) return json({ error: "wrong code" }, 401);
+    if (Date.parse(u.otp_expires || 0) < Date.now()) return json({ error: "code expired — request a new one" }, 401);
+    if ((u.otp_attempts || 0) >= 5) return json({ error: "too many attempts — request a new code" }, 429);
+    if (!safeEq(await sha256hex(code + phone), u.otp_hash)) {
+      await env.DB.prepare("UPDATE bot_users SET otp_attempts=otp_attempts+1 WHERE id=?1").bind(u.id).run();
+      return json({ error: "wrong code" }, 401);
+    }
+    await env.DB.prepare("UPDATE bot_users SET otp_hash=NULL, otp_expires=NULL WHERE id=?1").bind(u.id).run();
     const tok = crypto.randomUUID() + "-" + crypto.randomUUID();
     await env.DB.prepare("INSERT INTO bot_sessions (token,user_id,created_at) VALUES (?1,?2,?3)")
       .bind(tok, u.id, nowIso()).run();
