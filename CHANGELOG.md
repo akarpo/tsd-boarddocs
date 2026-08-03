@@ -5,6 +5,12 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+- Assistant: **email sign-in codes are LIVE** via Resend from
+  `admin@karpowitsch.org` (domain DKIM/return-path verified 2026-08-03; apex
+  MX/SPF untouched — iCloud receiving unaffected). Channel ladder active:
+  SMS once Twilio's 10DLC campaign is armed → email meanwhile. First real
+  account validated end-to-end (register → approve → emailed code).
+
 - Assistant: optional **Twilio SMS moderation** — with `twilio_*` rows in
   `bot_config`, each question from an approved account holds in
   `awaiting_approval` and the owner gets an SMS with the question; reply
