@@ -37,8 +37,38 @@ MEETINGS = [  # date, kind, youtube video id
     ("2026-04-21", "Regular", "EwTOp4oXVVM"), ("2026-04-28", "Workshop", "4r7_NtwEzLE"),
     ("2026-05-19", "Regular", "bsD_fLjzByY"), ("2026-06-01", "Workshop", "9tnu8oPKieM"),
     ("2026-06-16", "Regular", "53yIbCM0YYA"), ("2026-07-22", "Regular", "v9EHA5_yT-8"),
+    ("2025-02-11", "", "uorMc9xlNH4"),  # 2025: Part 1
+    ("2025-02-11", "", "4GUnzjMBZuA"),  # 2025: Part 2
+    ("2025-03-04", "", "07c94iVHEUE"),  # 2025: Workshop Meeting
+    ("2025-03-18", "", "kQiUHyXn6lI"),  # 2025: Regular Meeting
+    ("2025-04-01", "", "bmQU1_g5onU"),  # 2025: Workshop Meeting
+    ("2025-04-22", "", "BGOW_NIRTfQ"),  # 2025: Regular Meeting
+    ("2025-05-20", "", "GayEpU-LXHE"),  # 2025: Regular Meeting
+    ("2025-06-03", "", "XM0MoYkdd9g"),  # 2025: Workshop Meeting
+    ("2025-06-17", "", "IZ0c7Wyax34"),  # 2025: Regular Meeting
+    ("2025-09-02", "", "G_CB0Jo_0ig"),  # 2025: Workshop Meeting
+    ("2025-09-16", "", "WxP2_S6zn8w"),  # 2025: Regular Meeting
+    ("2025-10-07", "", "_loP9DZspq4"),  # 2025: Workshop Meeting
+    ("2025-11-11", "", "kXSehoFagAQ"),  # 2025: Workshop Meeting
+    ("2025-12-09", "", "MNKHsdr5otw"),  # 2025: Workshop Meeting
 ]
 SRT_DIR = Path(__file__).resolve().parent.parent / "transcripts"
+TITLE_BY_VID = {
+"uorMc9xlNH4": "2025-02-11 - Troy (MI) School District - Board of Education - Workshop Meeting - Part 1",
+"4GUnzjMBZuA": "2025-02-11 - Troy (MI) School District - Board of Education - Workshop Meeting - Part 2",
+"07c94iVHEUE": "2025-03-04 - Troy (MI) School District - Board of Education - Workshop Meeting",
+"kQiUHyXn6lI": "2025-03-18 - Troy (MI) School District - Board of Education - Regular Meeting",
+"bmQU1_g5onU": "2025-04-01 - Troy (MI) School District - Board of Education - Workshop Meeting",
+"BGOW_NIRTfQ": "2025-04-22 - Troy (MI) School District - Board of Education - Regular Meeting",
+"GayEpU-LXHE": "2025-05-20 - Troy (MI) School District - Board of Education - Regular Meeting",
+"XM0MoYkdd9g": "2025-06-03 - Troy (MI) School District - Board of Education - Workshop Meeting",
+"IZ0c7Wyax34": "2025-06-17 - Troy (MI) School District - Board of Education - Regular Meeting",
+"G_CB0Jo_0ig": "2025-09-02 - Troy (MI) School District - Board of Education - Workshop Meeting",
+"WxP2_S6zn8w": "2025-09-16 - Troy (MI) School District - Board of Education - Regular Meeting",
+"_loP9DZspq4": "2025-10-07 - Troy (MI) School District - Board of Education - Workshop Meeting",
+"kXSehoFagAQ": "2025-11-11 - Troy (MI) School District - Board of Education - Workshop Meeting",
+"MNKHsdr5otw": "2025-12-09 - Troy (MI) School District - Board of Education - Workshop Meeting"
+}
 
 
 def http(url, data=None, headers=None, method=None):
@@ -135,7 +165,8 @@ def main():
     a = ap.parse_args()
     jobs = [(d, k, v) for d, k, v in MEETINGS if not a.only or d == a.only]
     for d, k, v in jobs:
-        srt = SRT_DIR / f"{d} - Troy (MI) School District - Board of Education - {k} Meeting.srt"
+        srt = SRT_DIR / (f"{TITLE_BY_VID[v]}.srt" if v in TITLE_BY_VID
+                         else f"{d} - Troy (MI) School District - Board of Education - {k} Meeting.srt")
         if not srt.exists():
             print(f"{d}  MISSING {srt.name}"); continue
         if a.dry_run:
