@@ -1,12 +1,11 @@
-# Troy School Board Meeting - 2026-07-22 — Regular Meeting of the Board of Education (1:00 PM)
-# Transcribed with AssemblyAI universal-3-5-pro, 361-term keyterms_prompt, speaker_labels diarization.
-# Attribution: AssemblyAI speaker_identification (max 10 names/request) + manual verification
-# against the BoardDocs packet rosters. Notes:
-#  - diarization split the chair's voice into clusters A+B (merged here as Vital Anne)
-#  - a few utterances by Dr. Audra Melton co-clustered with Ayessa Potts (e.g. the 8.C reading ~29:24)
-#  - cluster I held two people; split by time: Stephanie Zendler (remote, to ~61m) / public commenter (67m+)
-#  - 'Mr. Hauff' in the STT text = trustee Matt Haupt (Gary Hauff now sits on the Oakland Schools ISD board)
-#  - in-person board: Anne, Haupt, Melton, Potts · virtual non-voting: Zendler · absent: Alic, Philippart
+# Troy School Board Meeting - 2026-07-22
+# AssemblyAI universal-3-5-pro+universal-2 · keyterms_prompt: 361 terms · duration 1:25:03 · diarized clusters: 9
+# Attribution: AssemblyAI speaker_identification + manual verification against the packet rosters.
+# Diarization split the chair's voice into clusters A+B (merged as Vital Anne).
+# A few utterances by Dr. Audra Melton co-clustered with Ayesha Potts (e.g. the 8.C reading ~29:24).
+# Cluster I held two people; split by time: Stephanie Zendler (remote, early) / public commenter (67m+).
+# 'Mr. Hauff' in the STT text = trustee Matt Haupt (Gary Hauff now sits on the Oakland Schools ISD board).
+# In-person board: Anne, Haupt, Melton, Potts; virtual non-voting: Zendler; absent: Alic, Philippart.
 
 [0:00:00] Vital Anne (President): The July 22nd, or July Board of Education meeting. We always start our meeting with the Pledge of Allegiance. Oh, there we go. I pledge allegiance to the flag of the United States of America and to the Republic for which it stands, one nation under God, indivisible, with liberty and justice for all. Right, I want to start off by saying, as you can see, we only have 4 board members here today. I guess the summer has caught up on us too. We have 1 board member who's joined virtually who can participate in discussions and in the meeting, but cannot vote on anything because she's not present.
 [0:00:46] Vital Anne (President): So we will go through our agenda. Just wanted to let everybody know.
@@ -19,7 +18,7 @@
 [0:01:58] Vital Anne (President): Okay, moved by Mr. Hauff, supported by Dr. Melton.
 [0:02:04] Vital Anne (President): May—
 [0:02:04] Vital Anne (President): do you have any questions or comments on the items in this agenda?
-[0:02:08] Ayessa Potts: Um, do we have a timeline on when I MHSAA will make a decision on that?
+[0:02:08] Ayesha Potts: Um, do we have a timeline on when I MHSAA will make a decision on that?
 [0:02:13] Dr. Richard Machesky: Uh, they've already indicated that it will— it's approved. Oh, as long as the board approves it, then they're okay. And then, um, by way of— from a budgetary standpoint, we'll be going down from 2 teams to 1, and there's a savings there associated. We built that savings into our budget number as well.
 [0:02:32] Vital Anne (President): Okay, so but for the sake of the community, can you explain a little bit of what that is? Um, the lacrosse cooperative agreement and what we're trying to do.
 [0:02:42] Dr. Richard Machesky: So from time to time when numbers from participation numbers at one building, uh, will go up and down, uh, lacrosse is one of those sports where ebbs and flows, participation numbers ebb and flow. We had been engaged in a cooperative agreement with other school districts Typically speaking, when you have 2 larger high schools, MHSAA does not allow for cooperative agreements. There's a cap in terms of the number based— and the numbers based upon enrollment in the high school. So typically, Troy, you won't see a cooperative agreement between Troy High and Athens because our numbers are just too high. And so they want to encourage you to cooperate, to have agreements with smaller schools.
@@ -28,7 +27,7 @@
 [0:04:08] Vital Anne (President): So this means that Troy Athens and Troy High would compete as one school?
 [0:04:13] Dr. Richard Machesky: As one school, similar to hockey, our United Hockey team, boys and girls.
 [0:04:17] Vital Anne (President): And, and that would save us about $50,000 or something?
-[0:04:21] Ayessa Potts: Yeah, it's about $40-ish, I believe.
+[0:04:21] Ayesha Potts: Yeah, it's about $40-ish, I believe.
 [0:04:23] Vital Anne (President): $40,000.
 [0:04:25] Vital Anne (President): Is that right? Around that.
 [0:04:27] Dr. Richard Machesky: Okay, that would take that total savings, um, in athletics over $100,000.
@@ -51,7 +50,7 @@
 [0:07:42] Brian Canfield: All right, for the next consideration is contract extensions for assistant superintendents for business services, employee services, elementary instruction, and secondary instruction. Superintendent recommends that the Troy Board of Education approve contract extensions for Dan Trudel, John Pagel, Kris Griffor, and Christine DiPilato. The current contracts for these administrators expire on June 30th, 2026. These 2-year successor contracts will commence on July 1st, 2026, and terminate on June 30th, 2028, subject to the provisions contained therein.
 [0:08:19] Rob Carson: Thank you.
 [0:08:22] Vital Anne (President): Um, may I have a resolution for extending the contracts for our 1, 2, 3, 4 assistant superintendents and business services employees? Ms. Potts.
-[0:08:32] Ayessa Potts: Be it therefore resolved that the Troy Board of Education approve the extension of the contracts of the aforementioned administrators through June 30th, 2028. Or as otherwise indicated in an administrator's individual contract without tenure in the administrative positions and subject to the layoff provision in the administrative handbook where applicable and as permitted by law.
+[0:08:32] Ayesha Potts: Be it therefore resolved that the Troy Board of Education approve the extension of the contracts of the aforementioned administrators through June 30th, 2028. Or as otherwise indicated in an administrator's individual contract without tenure in the administrative positions and subject to the layoff provision in the administrative handbook where applicable and as permitted by law.
 [0:08:52] Vital Anne (President): We have somebody to support it.
 [0:08:55] Matt Haupt: Okay.
 [0:08:56] Vital Anne (President): All right, moved by Ms. Potts, supported by Mr. Haupt.
@@ -60,7 +59,7 @@
 [0:09:15] Vital Anne (President): The resolution passes 4-0.
 [0:09:18] Vital Anne (President): I haven't been asking Stephanie, do you have any questions for any of those? Please do raise your hand if you do.
 [0:09:23] Stephanie Zendler (virtual): Sorry, I don't have any questions.
-[0:09:25] Ayessa Potts: I'll raise my hand. Thank you.
+[0:09:25] Ayesha Potts: I'll raise my hand. Thank you.
 [0:09:27] Vital Anne (President): Appreciate that.
 [0:09:28] Rob Carson: Thank you.
 [0:09:30] Vital Anne (President): All right, the next item on the agenda is—
@@ -69,12 +68,12 @@
 [0:09:35] Vital Anne (President): All right, that's item number C, which is superintendent's contract extension. The board has recently completed superintendent Dr. Machesky's performance evaluation and would like to share the following assessment to the community. The board's evaluation reflects strong, consistent confidence in Dr. Machesky's leadership across all the 6 categories assessed. The board members praised his visionary leadership in advancing the district strategic plan. While prioritizing students, inclusiveness, and instructional quality, even amid difficult budget negotiations, budget decisions. His policy and governance work was marked by transparency, compliance, and successful updates to key conduct codes. In instructional leadership, he was recognized for advancing a new literacy curriculum, strong professional development, and sustained focus on core academic priorities. Communication and community engagement have shown significant improvements with effective use of storytelling media and partnerships to build public trust and support. His organizational leadership stood out in navigating financial challenges, including budget reduction strategies, successful contract negotiations, On-time, on-budget bond project management. Finally, the board consistently affirmed his professionalism, integrity, and composure, describing him as a trustworthy, student-centered leader who fosters strong relationships across the district and the community. Overall, the superintendent's evaluation reflects a high level of board confidence in Dr. Machesky's leadership and supports the renewal of his contract.
 [0:11:30] Stephanie Zendler (virtual): Thank you.
 [0:11:32] Vital Anne (President): Right, may I have a resolution?
-[0:11:34] Ayessa Potts: Be it therefore resolved that the Troy Board of Education extend the contract of the superintendent of schools as mentioned above. This contract will be in effect from July 1st, 2026 through June 30th, 2030 without tenure in the administrative position and subject to provisions of the written agreement.
+[0:11:34] Ayesha Potts: Be it therefore resolved that the Troy Board of Education extend the contract of the superintendent of schools as mentioned above. This contract will be in effect from July 1st, 2026 through June 30th, 2030 without tenure in the administrative position and subject to provisions of the written agreement.
 [0:11:52] Matt Haupt: Support.
 [0:11:53] Vital Anne (President): All right, the resolution moved By Ms. Potts, supported by Mr. Haupt. All those in favor of the—
 [0:12:01] Vital Anne (President): does anyone have a comment or questions on this resolution?
 [0:12:06] Vital Anne (President): Okay, seeing none, those in favor of the resolution, please say yes.
-[0:12:10] Ayessa Potts: Yes.
+[0:12:10] Ayesha Potts: Yes.
 [0:12:11] Vital Anne (President): Those who oppose, say no. I think the resolution passes 4-0. Congratulations to all of you. You guys have new contracts, and thank you.
 [0:12:22] Brian Canfield: And for the last consideration for administrative appointment, finance director. I'm pleased to recommend the appointment of Mr. Kyle Anderson to the position of finance director. Mr. Anderson has an accomplished 30-year career in school business administration, financial management, and organizational leadership. He earned an education specialist degree in administration from Oakland University in 2006. A Master of Science in Administration with a concentration in Human Resource Management from Central Michigan University in 2002, and a Bachelor of Business Administration in Accounting from Western Michigan University in 1995. Mr. Anderson served as a financial manager and project accountant with Barton Malow Builders, providing financial consulting services to Michigan K-12 school districts and supporting Major district bond programs. He recently assisted Troy School District in an interim role in our business department. Previously, he held senior leadership roles including Assistant Superintendent of Business and Operations for both West Bloomfield School District and Anchor Bay School District, where he oversaw business services, transportation, food services, maintenance, facilities, budgeting, and long-range financial planning. He is also an active member in Michigan School Business Officials. With your approval, Mr. Anderson will begin his duties as finance director as of July 1st, 2026.
 [0:14:00] Vital Anne (President): Thank you, Mr. Canfield. Um, we are asked to vote on a resolution considering the appointment of the finance director, Mr. Kyle Anderson. May I have a resolution, please? Mr. Hauff.
@@ -90,11 +89,11 @@
 [0:15:22] Dr. Richard Machesky: There's none.
 [0:15:24] Vital Anne (President): All right, thank you. And that brings us to the 4 business items that we have on our agenda, first being Boulan Park Middle School security.
 [0:15:34] Dan Trudel: Stephanie, you should be able to see this, hopefully.
-[0:15:48] Ayessa Potts: And thank you.
+[0:15:48] Ayesha Potts: And thank you.
 [0:15:51] Dan Trudel: So we have 4 items under business for today's meeting, 2 of which are related to Boulan Park Middle School. So these are bond expenditures. So as part of all of our projects across the district, we're upgrading access control security, the EPIC paging systems as well. So Boulan and Larson and Athens are all getting EPIC as they progress through their renovation. So now that we are into the demolition phase and construction phase of Boulan Park Middle School, we want to get this ordered ahead of time. That way we have those pieces of equipment in time for the opening in August of 2027. So this bid was split into 2 parts. So People Driven Technology has the access control and the video surveillance, so camera upgrades to that building. So their bid was $217,634. And then VSC, who was also the same contractor installing the EPIC emergency and paging systems at the other buildings, also won this bid for $323,919. So the total would be $541,553.20, and then this would be funded out of the 2023 All right, wonderful.
 [0:17:04] Vital Anne (President): Um, may I have a resolution for the paging security and paging system?
 [0:17:10] Vital Anne (President): Dr. Melton.
-[0:17:10] Ayessa Potts: We therefore resolve that the bid for security paging and access controls be awarded as follows, and that this amount be approved as an expenditure of the 2023 Capital Projects Fund. People Driven Technology for access control video surveillance in the amount of $217,634.20. VSC Incorporated for the emergency notification and paging systems in the amount of $323,919, for a total of $541,553.20.
+[0:17:10] Ayesha Potts: We therefore resolve that the bid for security paging and access controls be awarded as follows, and that this amount be approved as an expenditure of the 2023 Capital Projects Fund. People Driven Technology for access control video surveillance in the amount of $217,634.20. VSC Incorporated for the emergency notification and paging systems in the amount of $323,919, for a total of $541,553.20.
 [0:17:38] Vital Anne (President): Okay, they have someone to support. Okay, all right, um, resolution moved by Dr. Melton, supported by Ms. Potts.
 [0:17:49] Vital Anne (President): Any questions or comments regarding this?
 [0:17:52] Matt Haupt: I assume we're gonna have to do this for Larson too, actually.
@@ -103,7 +102,7 @@
 [0:17:58] Vital Anne (President): And we've done this for Smith?
 [0:17:59] Dan Trudel: Yep. So the new Smith was on the last June package, and then the old— we actually got this last summer as well. So Boulan and Larson are both going to be utilizing this system, the EPIC system, in the old Smith. That way they can train and learn. That way when they go into their new building, it's going to be the exact same system.
 [0:18:17] Vital Anne (President): Is this the same system that was used for visitors You show your driver's license.
-[0:18:23] Ayessa Potts: That's Pick My Kid.
+[0:18:23] Ayesha Potts: That's Pick My Kid.
 [0:18:23] Dan Trudel: So that's—
 [0:18:24] Vital Anne (President): that's Pick My Kid.
 [0:18:25] Dan Trudel: That's visitor management. So what this one is, is it's a, a big display in the main office with a map of the building, and then it pages and you can intercom with each classroom individually. So every teacher in that classroom has a lanyard with a device on it.
@@ -114,34 +113,34 @@
 [0:19:07] Vital Anne (President): That's not part of this system?
 [0:19:09] Dan Trudel: Yeah, that's, that's the emergency paging system.
 [0:19:11] Vital Anne (President): Oh, that is also part of the system.
-[0:19:13] Ayessa Potts: Okay. Very good.
+[0:19:13] Ayesha Potts: Okay. Very good.
 [0:19:16] Vital Anne (President): Thank you. And does it have enough safeguards in place from, like, hacking and other stuff like that?
 [0:19:22] Dan Trudel: Yeah, these are fully secure systems.
 [0:19:26] Vital Anne (President): That's my concern when it comes to video surveillance and all, if there is any kind of—
 [0:19:30] Dan Trudel: Yeah, we have servers locally here that we connect to obtain the live footage.
 [0:19:35] Vital Anne (President): Okay, sounds good.
-[0:19:39] Ayessa Potts: Okay.
+[0:19:39] Ayesha Potts: Okay.
 [0:19:41] Vital Anne (President): Stephanie, did you have any questions? She's gone.
 [0:19:44] Matt Haupt: Oh, she's there.
-[0:19:45] Ayessa Potts: I don't have any questions. Thank you.
+[0:19:45] Ayesha Potts: I don't have any questions. Thank you.
 [0:19:49] Vital Anne (President): Any questions?
 [0:19:50] Vital Anne (President): Okay. All right. Uh, if no questions, then we can vote on it. All those in favor of this resolution, please say yes.
 [0:19:57] Dr. Richard Machesky: Yeah.
 [0:19:59] Vital Anne (President): Those who oppose, say no. Resolution passes 4-0.
-[0:20:03] Ayessa Potts: Thank you.
+[0:20:03] Ayesha Potts: Thank you.
 [0:20:04] Vital Anne (President): Right.
 [0:20:06] Vital Anne (President): The next is our Bowling Park Middle School classroom and Specialty AV systems.
 [0:20:12] Dan Trudel: So this bid pack went out, and this one primarily covers all of the classroom audiovisual technology. So this is going to be the screens and the speakers, everything within that, and then also covering the larger spaces, larger spaces such as gyms, music classrooms, the commons areas. So this is going to cover all of the technology inside of that building as well. So for this project in particular, We had Inacomp doing the classroom AV, so they've done all of the AV over at the new Smith Middle School as well. So their bid came in at $135,850. And then specialty AV is Digital Age Technologies, who's very prominent in the school world for specialty AV. So we've worked with them quite a bit in this district as well. So that came in at $315,001. We do like a small contingency with this, just as we get into different spaces in a new building. There's often adds requested by that building, so we typically reserve about 10%. The goal is obviously not to use all of that, but it provides us with some flexibility to work with the building directly, especially as they get into that space and start using it for the first time. So grand total bid, $495,937.18, and this is funded through our 2023 bond fund.
 [0:21:26] Vital Anne (President): Okay, we asked to bid on the classroom and specialty AV systems. May I have a resolution, please? Okay, Mr. Hauff.
 [0:21:33] Matt Haupt: It therefore resolved that the bid classroom audiovisual and specialty audiovisual will be awarded as follows, and that this amount be approved as expenditure of the 2023 Capital Projects Fund. Classroom AV, Inacomp TSG, for $135,850.98. Specialty— or yeah, specialty AV, Digital Age Technologies, for $315,000. $1, uh, contingency of 10%, $45,085.26, for a total of $495,937.18.
 [0:22:09] Vital Anne (President): All right, resolution moved by Mr. Haupt, supported by Ms. Potts. Any questions or comments regarding this?
-[0:22:22] Ayessa Potts: I just have one question with this particular contingency. Um, did the way you phrased it is, is it set aside so that once the teachers move in or staff moves in, if they find that they need something? So this is not something that's going in up front, it's like held kind of back?
+[0:22:22] Ayesha Potts: I just have one question with this particular contingency. Um, did the way you phrased it is, is it set aside so that once the teachers move in or staff moves in, if they find that they need something? So this is not something that's going in up front, it's like held kind of back?
 [0:22:42] Matt Haupt: Yep.
 [0:22:43] Dan Trudel: So we reserve those dollars as more pre-approved by the board. That way we have the flexibility if they enter that building in August and they say we need a TV in this space, then we just order it and charge it to that.
-[0:22:55] Ayessa Potts: Thank you.
+[0:22:55] Ayesha Potts: Thank you.
 [0:22:56] Vital Anne (President): Yeah, I also have a question. Can you elaborate a little bit on the classroom audiovisual? So other than the TV, what other kind of equipment are we talking about?
 [0:23:04] Dan Trudel: So every classroom has a clock. So it's not here in the hallways now, but so they're digital clocks that integrates in then with the EPIC system. So you can actually display things on those clocks. And then you also have the speaker mounted above if a teacher wants to project to the TV. In that classroom, we have the big screens in each classroom. And then from there, the individual microphone as well, that is part of the system, can serve as a microphone to the classroom speaker. So if it's a larger class and the teacher wants to amplify his or her voice, then they can do so.
-[0:23:37] Ayessa Potts: Okay.
+[0:23:37] Ayesha Potts: Okay.
 [0:23:38] Vital Anne (President): And these are in every single classroom, are also in the open areas?
 [0:23:42] Dan Trudel: Some in common areas as well. Just depends. Like, we don't have screens necessarily in every commons area, but We're going to have the speakers in the commons areas, the clocks with the digital signage on it, and then in the classrooms as well.
 [0:23:53] Vital Anne (President): Just curious, what are we doing with our old TVs that are in the old Boulan Park?
@@ -152,7 +151,7 @@
 [0:24:16] Vital Anne (President): Very good. Thank you. All right, any other questions? All right, if we don't have any, all those in favor of the resolution, please say yes.
 [0:24:25] Vital Anne (President): Yes.
 [0:24:26] Vital Anne (President): Those who oppose, say no. Resolution passes 4-0.
-[0:24:30] Ayessa Potts: Thank you.
+[0:24:30] Ayesha Potts: Thank you.
 [0:24:31] Vital Anne (President): All right, next on our agenda is Troy Robotics Center lease.
 [0:24:40] Dan Trudel: So we are—
 [0:24:41] Dr. Richard Machesky: so we are in the process.
@@ -171,33 +170,33 @@
 [0:27:53] Dan Trudel: So this one is going to come in around the $90,000 a year mark. And then there's some additionals, and that's where we want to get some firmer numbers of like, what would the property taxes be for us? That way we can get a total number. But it's, it's in line with what we were budgeting for. Um, we're going to use some of the capital maintenance funding for the next school year to pay for the first year of the lease as we transition through the buyout and everything too. So, um, but we're, we're comfortable as a team with that figure.
 [0:28:20] Vital Anne (President): And, and the place is conducive enough for a Younger minors, students.
 [0:28:26] Dan Trudel: Yeah, it's just under 8,200 square feet. So, I mean, it's a fairly large facility. It's got 20-foot ceilings. It's very open. It was actually a bounce house is what was in there previously. So it's a, it's, it's a good spot that happened to just come on the market, but also switching owners too, which put a little wrinkle in there, but nothing we can't work through.
-[0:28:45] Ayessa Potts: Okay.
+[0:28:45] Ayesha Potts: Okay.
 [0:28:46] Dr. Richard Machesky: Go ahead.
-[0:28:47] Ayessa Potts: Our robotics team taking a look at it? Have they seen it?
+[0:28:47] Ayesha Potts: Our robotics team taking a look at it? Have they seen it?
 [0:28:50] Dan Trudel: Yep, they've walked the facility too.
 [0:28:53] Matt Haupt: Yep.
 [0:28:53] Dan Trudel: You guys give a thumbs up for it?
 [0:28:54] Vital Anne (President): Yeah, they're all here. Would it be for all the robotics teams in Troy?
 [0:29:01] Dan Trudel: That's the goal. My understanding is a lot of the equipment would remain in the buildings. We don't want to get rid of those spaces, but this would just provide a more unified spot for them to gather as a larger team if they wanted to.
-[0:29:11] Ayessa Potts: Okay.
+[0:29:11] Ayesha Potts: Okay.
 [0:29:13] Vital Anne (President): All right, wonderful. Okay, we are asked to consider a resolution for leasing a space for the robotics program. May I have a resolution, please? Dr. Melton.
-[0:29:24] Ayessa Potts: Therefore be it resolved: number 1, the school district authorizes the lease of real property to house the program consistent with the budget. Number 2, the superintendent of the school district or his designee is hereby authorized to negotiate the terms and conditions of the lease and enter into a lease agreement, as well as any and all other documents necessary and incidental to the lease of the property for the program on behalf of the School District upon terms and conditions that are acceptable to the superintendent after consultation with legal counsel and consistent with the budget.
+[0:29:24] Ayesha Potts: Therefore be it resolved: number 1, the school district authorizes the lease of real property to house the program consistent with the budget. Number 2, the superintendent of the school district or his designee is hereby authorized to negotiate the terms and conditions of the lease and enter into a lease agreement, as well as any and all other documents necessary and incidental to the lease of the property for the program on behalf of the School District upon terms and conditions that are acceptable to the superintendent after consultation with legal counsel and consistent with the budget.
 [0:29:58] Vital Anne (President): Can I have someone to support it?
 [0:30:01] Dr. Richard Machesky: Support.
 [0:30:02] Vital Anne (President): Okay, moved by Dr. Melton, supported by Mr. Haupt.
-[0:30:06] Ayessa Potts: There's a little bit more to the—
+[0:30:06] Ayesha Potts: There's a little bit more to the—
 [0:30:10] Vital Anne (President): be it therefore— yeah, yeah.
-[0:30:11] Ayessa Potts: Be it further resolved that the full formal resolution shall be Included in its entirety in the official minutes of this board meeting.
+[0:30:11] Ayesha Potts: Be it further resolved that the full formal resolution shall be Included in its entirety in the official minutes of this board meeting.
 [0:30:19] Vital Anne (President): All right, I got it.
-[0:30:21] Ayessa Potts: Very good.
+[0:30:21] Ayesha Potts: Very good.
 [0:30:22] Vital Anne (President): Any questions or comments now?
-[0:30:24] Ayessa Potts: So when would this be available to our robotics team?
+[0:30:24] Ayesha Potts: So when would this be available to our robotics team?
 [0:30:28] Dan Trudel: Um, really, once we finalize the actual lease agreement, and then at that point, once we get the go-ahead from the landlord as to when they could occupy that building. There are— there is some language in the lease agreement because it's a new owner. The owner has plans. We had requested some flooring upgrades, uh, they're going to paint a little bit, they're going to paint the exterior of the building, some landscaping work as well. So some of that may happen after occupancy, um, if we come to a final agreement. So, um, our goal is hopefully within the next 30 days.
-[0:30:57] Ayessa Potts: Okay, good. So within the— for the school year, upcoming school year?
+[0:30:57] Ayesha Potts: Okay, good. So within the— for the school year, upcoming school year?
 [0:31:00] Dan Trudel: That's the goal, yes.
 [0:31:01] Vital Anne (President): So I have a more general question.
 [0:31:05] Vital Anne (President): I know this is a lease, and, um, would it, um, how would the Finances or numbers worked out if we had owned the property or have a property that could be used.
-[0:31:17] Ayessa Potts: I wondered.
+[0:31:17] Ayesha Potts: I wondered.
 [0:31:17] Dan Trudel: So in essence, what would a property like that cost?
 [0:31:20] Vital Anne (President): Or not that, but build something among our— in our own building?
 [0:31:25] Dan Trudel: Yeah, I mean, it really— it just depends on the size of what you're going to build. Um, you know, going right up a new build or even a renovation is probably $350 a square foot. So something like this will be $350 per square foot times 8,000. I mean, it'd be a pretty sizable number to build, which, as we look at Athens and other spaces around the district, and, you know, we're constantly assessing every year, but that's what we want to look into. Get this lease, get them the space to operate for now, and then let us kind of go through the entire district and ultimately decide what might be the most appropriate avenue internally.
@@ -214,17 +213,17 @@
 [0:33:52] Dan Trudel: Yeah, and then we can circle back as a board in the spring and assess if we want to do that for another year, depending on our finances at that time.
 [0:33:59] Vital Anne (President): The reason I ask is because general fund money is super important right now, so we're trying to see how to best use other funds for this.
 [0:34:08] Dan Trudel: So, yep, this felt like an appropriate use of those dollars. Just, it's not often you have to find a robotics space, so given that those dollars are sitting there, it helps buy us some time. You know, by not having to charge into the general fund next year, but then also look longer term at internally, do we have bond dollars that could support some type of project?
-[0:34:27] Ayessa Potts: Okay, wonderful.
+[0:34:27] Ayesha Potts: Okay, wonderful.
 [0:34:28] Rob Carson: Thank you.
 [0:34:29] Vital Anne (President): Stephanie, have any questions? I guess not.
 [0:34:34] Matt Haupt: I'm good.
-[0:34:35] Ayessa Potts: Thank you.
+[0:34:35] Ayesha Potts: Thank you.
 [0:34:35] Vital Anne (President): Thank you, Stephanie. All right, then we're going to vote on this resolution.
 [0:34:42] Vital Anne (President): All those in favor of the resolution, please say yes.
 [0:34:44] Brian Canfield: Yes.
 [0:34:45] Vital Anne (President): Those who oppose say no. Okay, resolution passes 4-0. Robotics has a new place. Yes, your persistence paid off.
 [0:35:02] Vital Anne (President): Thank you.
-[0:35:03] Ayessa Potts: All right.
+[0:35:03] Ayesha Potts: All right.
 [0:35:06] Vital Anne (President): Okay, so the final item in our business agenda is Budget update.
 [0:35:12] Dr. Richard Machesky: So we have, as we shared with the board, we have been watching, and we appreciate your patience as we've worked towards a, a more deep conversation around the budget and reductions and so forth. There were some important things that needed to take place, not the least of which was the finalization of the state budget, which we have now. So in conversation as a, as a team and working with Mr. Trudel, we thought it would be good to highlight kind of where we are now with, from a budget standpoint, with factoring in the actual numbers from the outcome of the budget, the state budget, and then as our board. Acutely aware, as is many of our community, there is a ballot initiative on August 4th that could have significant impact on our budget. That is the countywide enhancement millage. And although we don't know the outcome of that today, we'll know the outcome of that within the next couple of weeks. And so asked Mr. Trudel to kind of factor in what does our budget look like currently? What would that look like? And, and, and Keeping in mind the $12 million reduction that the board charged administration with finding. And then what would it look like without passage of the enhancement millage moving forward? As we think about reductions, the necessary reductions we would need to make in the '27-'28 and then ensuing '28-'29 school year. And then what about if it passed? What might that look like? So it provides the board and the community an idea of where we are short-term and then where we might be more long-term. So we thought that was a, a nice place to start, uh, to give us a basis for conversation and then, uh, an opportunity to, um, to get some input from the board, as was asked, regarding, uh, some of the proposed reductions. And then we'll take it from there.
 [0:37:28] Dan Trudel: So you have a printout of this here. This is on BoardDocs. We're also sharing it, obviously, so some of you can see it as well. So 3 scenarios at play. We'll kind of go through each one here pretty quickly, but at the top you'll see kind of our projected student FTE for each year. So the current year, '25-'26, that we just wrapped up, we were at 12,069. We're targeting around that 11,887 funded mark for the upcoming school year. And then thereafter, about a 200 FTE loss is what we've been seeing each year over the last couple of years. And then that's in line with the Plante Moran real point projections as well. So that's the basis for what those projected FTE numbers are. Foundation allowance. We had our $10,836 for the current year, and then the state of Michigan did bump that up. So all of the numbers here do reflect the revenue piece. Nothing has officially been sent to us, but based on the estimates that are being provided by the state of Michigan, those have been included in the '26 and '27 numbers as well. That way we have the most up-to-date information. From the budget side, we did come a little bit ahead from where we were from an original budget, which is good. The state of Michigan does provide some enrollment stabilization funding for districts that are losing FTE each year. Historically, that has been just looking back to the prior year. I respect that. And then you get a blend of the prior year and your current year, and then you get an additional pot of money. We've been getting around the $600,000 mark per year towards declining enrollment. The Senate pushed, and it went through into the final bill, a 3-year average of that now. So they're actually going back a few more years, and then they're blending that rate. So we went from $600,000 up to about $2 million in enrollment stabilization funding. So So about a $400,000 or $1.4 million increase there. And then there was a pretty large increase to 31a at-risk and our Section 41 bilingual funding as well for ELL students. So that was another $600,000 that was added. So what the state did there is they now have a weighted formula for at-risk and EL funding. They kind of went up to get it to where they believed it should be, and then going forward, it is supposed to get the same increase that the foundation gets then thereafter. So it was a pretty big jump this year coming up, and then after that it should be a pretty modest increase in line with the foundation as well.
@@ -235,31 +234,31 @@
 [0:40:16] Dan Trudel: Yeah, so there's just a specific weight added to that. Category.
 [0:40:20] Matt Haupt: Okay.
 [0:40:21] Dan Trudel: And then based on the enrollment, it would then apply those dollars. So that was codified into law now. So every year going forward, the foundation went up 2.5% this year, that will be applied to that categorical in the future years as well.
-[0:40:34] Ayessa Potts: Okay.
+[0:40:34] Ayesha Potts: Okay.
 [0:40:34] Dan Trudel: So all that to say that we're about $2.1 million higher than original budget on the revenue side. So that has been factored into the revenue piece here in Scenario 1 for the '26-'27 school year.
 [0:40:45] Matt Haupt: school year.
 [0:40:46] Dan Trudel: So we were at about $191 million, so now we're at that $193 million mark for budgeted revenue.
 [0:40:53] Vital Anne (President): So that brought up our fund balance slightly?
 [0:40:56] Dan Trudel: Yeah, it was around that 13.6% mark. Yeah, so we're just over 14 now, which is good.
 [0:41:01] Dr. Richard Machesky: So what was the—
-[0:41:04] Ayessa Potts: and I don't know where this might be on here, but the total savings that we had at the estimate of the severance incentive plan?
+[0:41:04] Ayesha Potts: and I don't know where this might be on here, but the total savings that we had at the estimate of the severance incentive plan?
 [0:41:13] Dan Trudel: So that would just— it's integrated into that $12 million number.
 [0:41:16] Vital Anne (President): Gotcha.
 [0:41:17] Dan Trudel: So you'll see in this Scenario 1, this assumes— this is what we've been using all along where there's no enhancement millage. And let's look out 3 years to see how do we have to restructure our expenditures. So you'll see nothing for the enhancement millage. And then under reductions, that $12 million is the number that was just embedded into the original budget. So that is based off our original budget there. And then in '27-'28 and then '28-'29, internally we have been looking at around $7 million in reductions over each year over the next 2 years after this school year. So that, that number is really largely driven by that fund balance percentage you see there on the bottom. So trying to slowly work our way back up to that 15% mark, obviously the only way to do that is to add back to fund balance. So We could cut more than that, but we wanted to find a number that we felt like would still be a sustainable number to actually hit in terms of that $7 million. But again, obviously, without an enhancement millage, you're looking at another $14 million over 2 years after this upcoming school year. So Scenario 2 looks at if we were to sustain that same reduction model over the next 3 years, so the $12 million this year, Coming up, and then $7 million each of the 2 years thereafter, but factoring in an enhancement millage. So if the enhancement millage passes for next year, it's approximately $8.1 million in the first year, and then that would go up typically by the rate of inflation each year. So that's factoring in a 2.9% increase for '27-'28 and then '28-'29. So I tried to highlight those in green just so you can see it broken out above our general revenue that we're currently getting. And then the reduction. So you can see there, if the enhancement millage passed, even with cutting $7 million in those last 2 years, you're going to be hovering around that 18% mark.
-[0:43:14] Ayessa Potts: Okay.
+[0:43:14] Ayesha Potts: Okay.
 [0:43:15] Dan Trudel: So Scenario 3, I said, okay, let's look at if we could reduce those future cuts from $7 million down to $3 million each year, assuming the enhancement millage passes. This is what your fund balance would look like then thereafter. So Getting us closer to that 15% mark. So, yes, the enhancement helps drastically, but we still have some restructuring to do then, even in those final 2 years, if we want to get that number back to that 15% mark. And then our goal is we do our audit typically in the month of August. So once we get our final numbers, we can plug those into the 25-26 column. And then that would then just update this model into the future years.
 [0:43:59] Vital Anne (President): Is there any more insight into that $12 million and where we stand to what sections we're looking at?
 [0:44:10] Dan Trudel: In terms of like—
 [0:44:12] Vital Anne (President): Yeah, so now that we have our teacher retirements finalized and we have those numbers, and there are a lot of things that were moving parts in that $12 million reduction, right? So do we have a little more solidification on that that you can share?
 [0:44:29] Dan Trudel: Yeah, so we, we had budgeted as part of that $12 million, we said there would be $1.5 million in savings from the buyout if we rehired everybody. So that number, because that number was based off of around 50 being fully replaced and taking it, our number came in just over 100.
-[0:44:49] Ayessa Potts: Okay.
+[0:44:49] Ayesha Potts: Okay.
 [0:44:49] Dan Trudel: Well, from the teachers, we had 67 teachers. Actually 64.
-[0:44:55] Ayessa Potts: Okay.
+[0:44:55] Ayesha Potts: Okay.
 [0:44:55] Dan Trudel: We had a couple revoked, but grand total across all groups was just over 100. So that number is likely going to be closer to $2.5 million from the $1.5 million. So that's where we as a team have to look at that $2.5 million, just kind of shifts up to where the $1.5 million was, and then that leaves about $1 million remaining that we can look at that pot of money in terms of whether or not we can sustain certain positions or Knowing we still have to cut $14 million in future years, we could just leave it as is as well.
 [0:45:28] Dr. Richard Machesky: Okay.
 [0:45:30] Vital Anne (President): I mean, I guess that's your thinking is you don't want to hire somebody who you need to let go next time. So you want to be very strategic in who you hire back, right?
 [0:45:38] Dan Trudel: Yes, because this— between the buyout and the $12 million we have, a lot of it was just simply through attrition. So as vacancies were occurring, we just didn't fill them.
-[0:45:50] Ayessa Potts: And taking into consideration also that even if the enhancement package were to pass, we're still looking at some significant cuts. So that's, I'm sure, part of your thoughts in terms of the staffing as well, right?
+[0:45:50] Ayesha Potts: And taking into consideration also that even if the enhancement package were to pass, we're still looking at some significant cuts. So that's, I'm sure, part of your thoughts in terms of the staffing as well, right?
 [0:46:10] Dr. Richard Machesky: Yeah, exactly. I mean, the reality that we're working with Is, and this is what happens after an— after you do any type of severance, a buyout fee, is you should expect, and the company told us that you should expect for the next, at minimum, the next 2 years, you're not going to have any attrition. You're going to have most— they told us next year we should expect for 3.
 [0:46:37] Vital Anne (President): Wow.
 [0:46:37] Dr. Richard Machesky: 3-ish, and then maybe 5 the next year. So very, very minimal. So any reductions moving forward are likely done through layoff. And we have been successful in— for the sake of the audience, we've been successful this go-round through the severance to not have to lay anyone off in any group.
@@ -268,15 +267,15 @@
 [0:48:59] Vital Anne (President): Okay.
 [0:49:00] Dan Trudel: From the board's perspective.
 [0:49:01] Dr. Richard Machesky: And what we recognize that this, the timing on this was such that, you know, we had to work through this severance process and it did not allow board members a lot of opportunity to provide input. So we recognize that and value that input and want to be able to utilize that input moving forward. And also acknowledging that we've got a couple of weeks here, the ballot initiative on August 4th. You know, that, that potentially changes a significant amount of this conversation, right? It changes this conversation one way or the other fairly significantly. And we certainly want to give ourselves the time to, to be able to, to see the outcome of that and factor that into the decisions that we make that impact us at the start of school year.
-[0:49:49] Ayessa Potts: Thank you.
+[0:49:49] Ayesha Potts: Thank you.
 [0:49:53] Vital Anne (President): Any comments from you?
-[0:49:54] Ayessa Potts: So I think what I'm hearing is that for, for now we have to assume that we have to go on the budget as is. Like, we can't, we can't make decisions on money we don't have, right?
+[0:49:54] Ayesha Potts: So I think what I'm hearing is that for, for now we have to assume that we have to go on the budget as is. Like, we can't, we can't make decisions on money we don't have, right?
 [0:50:10] Vital Anne (President): Um, and $7 million is a lot to cut in future years without laying off anybody.
-[0:50:17] Ayessa Potts: Well, I don't And tell me if this is incorrect, but in an organization where there's people are your main thing, 90%, I don't see a way in which you can reduce $7 million without affecting personnel. Am I wrong?
+[0:50:17] Ayesha Potts: Well, I don't And tell me if this is incorrect, but in an organization where there's people are your main thing, 90%, I don't see a way in which you can reduce $7 million without affecting personnel. Am I wrong?
 [0:50:33] Dan Trudel: No, I don't think so.
-[0:50:36] Ayessa Potts: Okay.
+[0:50:36] Ayesha Potts: Okay.
 [0:50:36] Dr. Richard Machesky: No, I mean, well, we can— we will continue to be strategic in terms of cutting around the edges and reducing, tightening. And that's where I think that's where important for folks to understand this go-round, we really tightened. So we tightened ratios where we could. We were able to work within current contractual agreements and so forth in order to kind of constrict.
-[0:51:13] Ayessa Potts: Okay.
+[0:51:13] Ayesha Potts: Okay.
 [0:51:16] Dr. Richard Machesky: But yes, it would likely— we're likely talking about programming cuts, which equates to people, as hard as that is to say.
 [0:51:26] Vital Anne (President): I have a general question.
 [0:51:30] Vital Anne (President): Um, this 12 million reduction here, um, the last table that you guys have shared with us had a whole lot of list of items in which the Teacher voluntary retirement was accounted for $1.5 million. But now that has increased to $2.5 million approximately, assuming you're replacing everybody. But if you don't, that would be a tiny bit more possibly, right?
@@ -326,14 +325,14 @@
 [0:59:36] Dan Trudel: So that would get us back to '22 for what '18-'19 had.
 [0:59:41] Matt Haupt: Correct. Yeah.
 [0:59:42] Dan Trudel: And then social workers, I believe, was 3, right? So we'd go back down to about 22, which is still slightly higher. Um, but we've also seen a slight increase on the social work side. That's why you're going to see a little bit more than 18, 19.
-[0:59:55] Ayessa Potts: Okay.
+[0:59:55] Ayesha Potts: Okay.
 [0:59:55] Dan Trudel: And largely these 2 categories, we have been able to sustain those levels over the last couple of years with 31AA money.
 [1:00:08] Dr. Richard Machesky: Yeah, you want to go a little more in depth on the 31 for the sake of the audience, uh, where— how we're assuring that we're utilizing those dollars appropriately?
 [1:00:19] Matt Haupt: Yep.
 [1:00:19] Dan Trudel: So a lot of our grants have, particularly our Title grants, have supported conferences and professional development. Our focus going into this school year is to take a lot of those conferences and just put them on the back burner for a little while and then put in staffing into those grants in order to sustain the positions that we do have. So something like guidance counselors, we can utilize 31AA money as well as 31A at-risk funding for a portion of those guidance counselors. So we're already— we've been doing that for the last number of years. As there's been budget pressure on the general fund, we've tried to shift it over. And then likewise with social workers, our 31AA grant has really helped support those.
 [1:01:03] Stephanie Zendler (virtual): Okay.
 [1:01:04] Dan Trudel: We do have some carryover into the upcoming school year that's been factored in, but we have been told that don't expect those dollars after this upcoming school year. So it seems like the state is going to start to pare back on those. A lot of those 31a monies were funded by ESSER funds that the state had. So those funds were essentially set aside and then they would pull on them over each year, and then that pot is starting to dry up on there.
-[1:01:27] Ayessa Potts: Yeah. With the new weighted formula, isn't that kind of like replacing them in a way?
+[1:01:27] Ayesha Potts: Yeah. With the new weighted formula, isn't that kind of like replacing them in a way?
 [1:01:33] Dan Trudel: More or less, yeah. So basically, you have— we probably have $2 million of 31AA expenditures. They gave us a $600,000 increase to at-risk funding, right? So we'll be able to keep some of those 31AA positions, but not all of them.
 [1:01:47] Dr. Richard Machesky: Yeah. Well, and from time to time I hear— well, um, I will hear, and it's appropriate, it's an appropriate question, why Why, why would you consider making a reduction here or keeping maintaining this and not that? And it goes directly to what, what Dan is mentioning right now. Because the state provides categoricals, they also have clear guardrails around how you— what can be spent within that categorical. So as the state provides categoricals, if it required— if we want to take advantage of that money, it requires us that we spend or that we're spending our resources within those areas. And so that's why in some cases we have to make choices. Why we're maintaining it in this particular group is because there's a categorical that supports that and doesn't allow us to insert a different group into that. And so it's another bit of the dance that we have to do with the state in terms of how they provide funding. And they're telling us they want us to They want us to prioritize funding in certain ways, correct? And we're required to do that. And so that's why—
 [1:02:59] Vital Anne (President): Were we going to get more 31a funding this year because a lot of schools didn't take advantage of it?
@@ -348,27 +347,27 @@
 [1:04:13] Dr. Richard Machesky: No, I think that there are more to come. Uh, I, I might take away a plea, I guess, for, for the community would be please pay attention to the information that has been provided, uh, by the district, uh, around that ballot initiative on August 4th. Um, pay close attention to it because it will have significant impact on not just Troy School District but all districts across Oakland County moving forward because we're not We're not the only district in this position. Every one of my colleagues is sitting at this— at a table like this right about now, having some real challenging conversations around what they're prioritizing for the coming school year and the school year after. And also, I think really important to note is that these are difficult decisions to make, and it's not about— it's not a— we're not placing a value on any one over another.
 [1:05:08] Vital Anne (President): Right.
 [1:05:09] Dr. Richard Machesky: It's, it's just in an effort to do the work that we need to do. There are some areas that need to be prioritized and others that, that will, will be looked at for reductions as we move forward. Yeah, these are hard decisions to make.
-[1:05:24] Ayessa Potts: Um, just a comment that I wanted to make, um, just kind of reading through the different concerns on social media. Um, one of the comments was, you know, that millage money coming back and supporting teacher staff and students. You know, obviously if we have more, you know, more money coming in per pupil, we can look at some of these proposed reductions, um, and make some decisions around that. But I think people aren't aware also that our, um, our 3 contracts with The TEA TESA and TESPA also include clauses that would increase their pay. So that is a solid in-contract commitment that those monies, that they would see a benefit from that. So I wanted to just bring that up because there was a concern that our staff would not receive a benefit from that.
+[1:05:24] Ayesha Potts: Um, just a comment that I wanted to make, um, just kind of reading through the different concerns on social media. Um, one of the comments was, you know, that millage money coming back and supporting teacher staff and students. You know, obviously if we have more, you know, more money coming in per pupil, we can look at some of these proposed reductions, um, and make some decisions around that. But I think people aren't aware also that our, um, our 3 contracts with The TEA TESA and TESPA also include clauses that would increase their pay. So that is a solid in-contract commitment that those monies, that they would see a benefit from that. So I wanted to just bring that up because there was a concern that our staff would not receive a benefit from that.
 [1:06:27] Vital Anne (President): Okay.
 [1:06:28] Dan Trudel: Yeah, and those, those projected increases, if it passes, are baked into the modeling that you saw.
 [1:06:34] Dr. Richard Machesky: Okay. Okay. Thank you for saying that. That's important.
 [1:06:40] Matt Haupt: Thank you.
 [1:06:40] Vital Anne (President): Are they baked in? Because I see the expenditure remain the same between enhanced millage passing or not.
 [1:07:00] Dan Trudel: Like, so each year when we look at— so the expenditure line item goes— it's going down because of reductions. Um, there's a lot at play with like, uh, MPSERS monies.
-[1:07:11] Ayessa Potts: Okay.
+[1:07:11] Ayesha Potts: Okay.
 [1:07:12] Dan Trudel: You know, that fluctuates pretty heavily each year. Um, but when we look at the actual increases to expenditures each year, um, we factored in the percentages per the contracts that were approved.
 [1:07:23] Vital Anne (President): Okay.
-[1:07:24] Ayessa Potts: All right.
+[1:07:24] Ayesha Potts: All right.
 [1:07:24] Vital Anne (President): Table, in short. So maybe—
 [1:07:26] Dan Trudel: yeah, there may be other details.
-[1:07:29] Ayessa Potts: Okay, thank you.
+[1:07:29] Ayesha Potts: Okay, thank you.
 [1:07:34] Vital Anne (President): All right, any other questions or comments? All right, that pretty much finishes our business items. We do have a public communication in a non-agenda item, so we have Mr. Jeffrey Switlipp.
 [1:07:52] Public commenter: You want me to stand?
 [1:07:57] Dr. Richard Machesky: You can come sit up.
 [1:07:57] Vital Anne (President): You can sit up.
-[1:07:58] Ayessa Potts: Oh, I can sit.
+[1:07:58] Ayesha Potts: Oh, I can sit.
 [1:07:59] Public commenter: Okay, so I got a 3-minute time limit. I'll try to go fast this time. This is the second time I've come before you guys, um, same, uh, same topic. I remember, remember last time I said I wouldn't bring it back up, and I'm not. I do want to make one small comment though, which is that, um, I, I took the money that I had to charge and I, I Bought— I invested it into the class to give away as freebies, and it really made the class a lot better. And so with all these young people in the room, I wanted to share with them that even when you don't get your way and you think you've lost, if you keep an open mind and a positive attitude, you can turn it into a win, because that's kind of what happened with that situation.
-[1:08:36] Ayessa Potts: Sure.
+[1:08:36] Ayesha Potts: Sure.
 [1:08:36] Public commenter: Um, when I speak before the board, I do want to be clear though, I'm speaking as a parent. Vendor is very much a small side thing for me. I think of it as being a coach. I'm not making any money on my class, and I don't plan on doing it after my son moves on to middle school. Um, if you guys have ever been in a situation, maybe where you feel like somebody is telling you that they don't want you to do something, and you keep hearing a lot of nos, and you keep dotting your T's and crossing your I's and thoroughly reading through the policies, but the vibe that you keep getting is go away. That is, to an extent, how I sort of feel about our enrichment program. In June, an email was sent out to all the vendors, about 90 in total, informing them in bold red at the top that the policies were going to change. The policy review was conducted closed door. I don't— I can't quite understand why that decision was made. I've spoken to Matt Jensen about it. I find him to be a person of integrity and honesty.
 [1:09:39] Dr. Richard Machesky: Thank you.
 [1:09:40] Public commenter: Um, but I just don't quite agree with that decision to conduct the policy review closed doors. It affects 90 vendors and lots and lots of students. So I thought that parents and vendors should have an input into what those policies will be. Um, I submitted my class stuff in late July. I received email back saying that the days that I want to enroll and to hold my class are not available. They're doing on a first-come, first-served basis.
@@ -386,7 +385,7 @@
 [1:11:38] Vital Anne (President): Your 3 minutes is up, but if we can talk outside.
 [1:11:43] Vital Anne (President): Thank you.
 [1:11:43] Dr. Richard Machesky: Thank you.
-[1:11:44] Ayessa Potts: Thank you.
+[1:11:44] Ayesha Potts: Thank you.
 [1:11:44] Dr. Richard Machesky: I look forward to talking to you tomorrow.
 [1:11:45] Dan Trudel: Thank you.
 [1:11:46] Dr. Richard Machesky: Thank you.
@@ -394,31 +393,31 @@
 [1:11:59] Vital Anne (President): We can go around the table.
 [1:12:00] Vital Anne (President): Ms. Potts?
 [1:12:03] Dr. Richard Machesky: No, Dr. Melton?
-[1:12:05] Ayessa Potts: Oh, go ahead.
+[1:12:05] Ayesha Potts: Oh, go ahead.
 [1:12:06] Dr. Richard Machesky: I did want to ask Mrs. DiPilato just to give a brief update where we are with bond projects, specifically Smith. Yes, as is typical. Still here, wait to finish.
 [1:12:18] Rob Carson: I have some great updates for you. Uh, I think it's important, and I'll frame it a little bit with there's more than just Smith going on in our bonds. So our community, um, you know, invest— made quite a significant investment, and we've been working very hard to, um, to, um, fulfill the commitments that have been made. So I will share just briefly some of the other things that are going on and then dive a little bit into Smith. So we are, um, underway with looking at some window replacement across the district. I think that's an important piece because our Facilities Review Committee, which did go into all of our schools, talked about ensuring that we have safe infrastructures for our students. So specifically right now, we're looking at Troy High School, which we all know is quite a, quite a bit of square footage to look at. So Troy High School and the inventory of needs that are going on there, as well as Troy Union and Wattles in specific spaces. So for window replacements that are coming up We've completed soffit work at 4 of our elementary schools, so Wass, Bemis, Hamilton, and Barnard. So Bemis's finishing touches are coming on this week, so that's really brightened the entrance for all of those elementary schools. Baker secure entrance is— that work is underway and will be complete and functional by August 10th. So that does secure the right side of the entrance when you walk into Baker Middle School, so there's a nice secure vestibule for our families as they come into Baker. At Troy High School and Barnard and Bemis, we're installing operable walls in between some spaces, so that work is underway. At 4 of our elementary schools, we've had toilet rooms being updated, so very exciting work. That's at Martell, Costello, Schroeder, and Troy Union. We are learning quite a bit during that process as we track for Phase 2. So Phase 2 is in the summer of '27, so this is summer work that will be going on across our elementary schools. At Troy High School this summer, we stripped and updated the auxiliary gym floor, and so that is fully functional. That happened at the beginning of the summer, so we're really happy to have that space for our Troy High students when they come back. We've put in place a fob system at Troy High with some new badges that will be used by our teachers to be able to access that building. So Troy High was one of our only buildings that didn't have fob access. And so that will be very helpful as we think about safety and security across the district. Those badges are also badges that we're using here at central office. We'll be using at services, and we will be rolling out across the district. So that links really to a lot of our safety and security work that we've been taking on this summer. Also at Troy High, the Troy High track is underway. So that began even before the end of the school year and will continue all the way through and Probably past tryouts. So as we hit mid-August, so we do anticipate a little bit of a disruption as we hit the beginning of tryouts, but we do know that by the week of August 24th, we'll be ready to go with the Troy High track. So before we start football season—
 [1:15:13] Vital Anne (President): That's the track around the football field?
 [1:15:15] Rob Carson: Correct.
 [1:15:15] Vital Anne (President): Yeah, that's right. We didn't replace that when we did the football field?
 [1:15:18] Rob Carson: Nope, we did Athens a couple years ago, so Troy High was up.
-[1:15:22] Ayessa Potts: Last year, maybe 2 years ago.
+[1:15:22] Ayesha Potts: Last year, maybe 2 years ago.
 [1:15:23] Rob Carson: At Athens this summer, we have taken on the Athens gym. So I do believe that our students and community will be pleasantly surprised when they are welcomed back into Athens. It's been updated in paint, moving to new shades of red and gold and gray. We've also replaced the railing. The gym floor has been stripped, and they're working through that process of painting the gym floor. There are new bleachers in that space. Space as well. It'll be ready for the start of school, so we're very excited about that. There'll be some dugout work underway at baseball. We have to replace some dugout issues, so we'll see some construction continuing on the outside of Athens over there, probably just through the month of September into early October. And then we have furniture being installed across the district. So Smith furniture is in progress. Troy High has some new furniture, and then the Troy Center for Transition. has new furniture being installed this summer. So we've taken on spaces that haven't yet been touched. And then Smith, we arrive at Smith. So Smith construction is hot underway. The building every day looks a little bit different. We are fully on track to have students in that building so that we can begin the school year at Smith. Our completion of that front entrance will likely be the week of August 17th. So as we are thinking about how close are we coming, we're coming close. But they're, they're working hard. The other place where we're going to see a lot of work over the next few weeks is the road coming in from Livernois. So right now, as you drive by, you'll see that's not quite ready. They're working very hard with the Road Commission and the City of Troy to be able to ensure that that pathway is ready when we start school. We do have a complete parking lot off the back of Smith, so off of Donaldson Road, that will eventually be our staff parking. That will likely be where we're welcoming folks for the next few weeks as people get into the building. That is a nice space for them to be while we wait for the formalization of that drive-in. The gym at Smith is one of the last spaces to be finished. That is underway, and in a minute here I'm going to show you some pictures of where that is. But we anticipate almost all of the significant components of Smith being complete that week of August 17th as we welcome students. Right now our learning communities, our classroom spaces, are complete. They're beautiful. The furniture is being delivered. They're cleaning their way out of those spaces. Our bathrooms rooms are fully functional, so we can host people over there. We just don't have full occupancy of that building yet, and we are trying to stay out of everyone's way so that they can go as fast as they can in order to get us ready. Um, we're working through all the safety and security in that building as well, building out maps, working with Troy Police Department, making sure that the partnerships with all of our different agencies are included as we get ready to have students in that building in that At Boulan, Boulan Park Middle School is a shell of a building, and I mean that in the kindest way possible. For anyone who's been over there, you can see right through it. We are very excited as they begin that work at Boulan over the next 14 months to build out a new school with learning communities for our middle school students. Larson is in the finalization process. Larson will be very similar to Boulan. There'll be a few tweaks because we A few programmatic differences between those 2 buildings, specifically in our categorical programs and special education. But we're also working on what might be enhancements on the outside and the outside spaces at Larson and at Boland. So those are under leg. And then finally, our bid for Athens and the new Athens build will go out at the end of September, and that is for the 3-story academic addition that will be built in that parking lot in the back. So lots of work going on with bond. It's been a very successful summer. I will show you some images just because I think it's always fun to see.
 [1:19:04] Vital Anne (President): 7166.
 [1:19:30] Rob Carson: So this is this morning. This is Smith's new gym. So it was just stained this morning. None of the lining is on, only the shading that you can see for the 3-point circle. But this is Smith's gym coming along. These are images inside of Smith. So you can see how far along we are in our learning community spaces. So our classrooms are ready to go with furniture in them, carpet.
 [1:19:55] Dr. Richard Machesky: Oh, wow.
 [1:19:55] Vital Anne (President): paint.
 [1:19:56] Rob Carson: So we're in pretty good space as we move forward at Smith. These are images of Boulan Park. We've shared even a video of Boulan Park that the demolition just cleared that building right out. So really moving along. These are our bathrooms. So we can see Martell, Costello, Schroeder is well underway. So great updates going on across the district in our elementary bathrooms. And then this is Troy High School and some of the new furniture that's going into Troy High. And you'll remember that we're taking on Troy High Wing by wing. So we're working through that building just kind of piece by piece. So those are just some of our pictures that I thought would be helpful as you guys start to see the progress across the district.
-[1:20:35] Ayessa Potts: So, thank you.
+[1:20:35] Ayesha Potts: So, thank you.
 [1:20:37] Vital Anne (President): Thank you.
 [1:20:38] Vital Anne (President): Quick question about the elementary school playgrounds and the additional equipment that we're going to go in. Any update on that one?
 [1:20:47] Rob Carson: Sure, I can.
-[1:20:48] Ayessa Potts: I'm going to look this way to my team. Dan and I have been working together, um, along with Rob Carson. And, uh, I think we talked to the board last night about getting feedback from students and feedback from the community as well. So we worked out kind of a timeline, and, um, the pace at which the other projects are currently based, and it did work out to be about $50,000 per building. They're working with, uh, Dan and his team to talk about when and how this project will fit into the timeline.
+[1:20:48] Ayesha Potts: I'm going to look this way to my team. Dan and I have been working together, um, along with Rob Carson. And, uh, I think we talked to the board last night about getting feedback from students and feedback from the community as well. So we worked out kind of a timeline, and, um, the pace at which the other projects are currently based, and it did work out to be about $50,000 per building. They're working with, uh, Dan and his team to talk about when and how this project will fit into the timeline.
 [1:21:18] Vital Anne (President): Oh, okay. So we haven't started on them at all, just planning still.
 [1:21:22] Dan Trudel: Yeah, so we'll have to, um, it's kind of twofold. Number one, we want our operations team who's going to handle primarily the install process to get Smith open.
 [1:21:33] Vital Anne (President): Okay, so they were busy with that.
 [1:21:36] Vital Anne (President): It's important.
 [1:21:39] Dan Trudel: September as a team kind of finalize a list of what we would like to add.
-[1:21:43] Ayessa Potts: Okay.
+[1:21:43] Ayesha Potts: Okay.
 [1:21:44] Dan Trudel: And at that point, in a similar manner, like if it is equipment like we ordered last time, so we would bring forth the recommendation to the board for approval, order the equipment, and then likely install it in the spring.
 [1:21:54] Vital Anne (President): So it won't— it'll happen in spring of 2020?
 [1:21:57] Dan Trudel: If it's equipment related, depending. I mean, if it's something where it's just loose equipment, like they want a little, you know, storage shed that can hold some balls and jump ropes and whatever it might be, we can do all of that now. So we'll work with the principal Once they return in September on those pieces. But anything larger scale, if it is like a national exhibit, then we'll get an approval likely in the fall for us to bring it to the school.
@@ -426,14 +425,14 @@
 [1:22:22] Rob Carson: Great, just 2 things to share. One, I think probably just to let the community know, Smith will be open to students for pictures and scheduling pickup, and that is going to be on August 13th, and that is when All of our middle schools are going to be hosting students, so we'll have an opportunity for students to be in the building at that time. Throughout that week, we will have— the following week, we will have an open space at all of our middles for students to be able to walk the building. So we know that Boulan Park will be an old Smith, so there will probably be some interest for some of our families to spend a little time in that new space, as well as the new Smith being open. But Larson and Boulan— or Larson and Baker follow that same process. We are going to be inviting our board for a little bit of a sneak peek into Smith on August 10th in the evening. And then when we start school, we'll have our regularly scheduled curriculum night for our students and our parents to be in that building. And then once we've gotten the school year open and going, our plan is in October to have a full community ribbon cutting and invite everyone into that grand opening of Smith.
 [1:23:26] Matt Haupt: Thank you.
 [1:23:26] Rob Carson: Smith Middle School to be able to see it. So that's our pace to be able to have everyone.
-[1:23:30] Ayessa Potts: Wonderful. Thank you.
+[1:23:30] Ayesha Potts: Wonderful. Thank you.
 [1:23:36] Vital Anne (President): Um, my only other, other is, um, this book that you guys all got today.
 [1:23:42] Vital Anne (President): Uh, we were gonna give you some time to read, whether you have time to review it next month as part of our book read or the month after. It's Up to us. We can decide.
 [1:23:54] Vital Anne (President): There's no urgency in that, so we can either do it in our August or September workshop.
 [1:24:02] Vital Anne (President): Okay, that's something we need to look at. When is our next meeting?
-[1:24:05] Ayessa Potts: August. August.
+[1:24:05] Ayesha Potts: August. August.
 [1:24:08] Vital Anne (President): There's a workshop by your meeting.
-[1:24:12] Ayessa Potts: We do not have any workshop.
+[1:24:12] Ayesha Potts: We do not have any workshop.
 [1:24:13] Vital Anne (President): Oh, in August it's just a meeting.
 [1:24:16] Vital Anne (President): Okay, so this Yeah, August 18th, Tuesday, 6 PM is our next meeting.
 [1:24:22] Matt Haupt: We'll do the book probably in September.

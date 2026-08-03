@@ -138,7 +138,7 @@ PEOPLE = [
     ("Matt Haupt", "current"),
     ("Nancy Philippart", "current  (16 yrs of service)"),
     ("Audra Melton", "current · elected Nov 2024"),
-    ("Ayessa Potts", "current · elected Nov 2024"),
+    ("Ayesha Potts", "current · elected Nov 2024"),
     ("Stephanie Zendler", "current · elected Nov 2024"),
     # --- former trustees (kept for archival transcription) ---
     ("Gary Hauff", "former, served to 2024 · 24 yrs  (also “Gary N. Hauff”)"),
@@ -325,7 +325,7 @@ NAME_VARIANTS = {
  # bare surnames — how members are addressed in roll calls and votes
  "Emina Alic": ["Emina Alic", "Alic"], "Matt Haupt": ["Matt Haupt", "Haupt"],
  "Nancy Philippart": ["Nancy Philippart", "Philippart"], "Audra Melton": ["Audra Melton", "Melton"],
- "Ayessa Potts": ["Ayessa Potts", "Potts"], "Stephanie Zendler": ["Stephanie Zendler", "Zendler"],
+ "Ayesha Potts": ["Ayesha Potts", "Potts"], "Stephanie Zendler": ["Stephanie Zendler", "Zendler"],
 }
 
 

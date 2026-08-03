@@ -7,7 +7,7 @@ BoardDocs and TelVue both date the meeting July 22.
 
 ## Actual attendance (verified from the transcript)
 
-In person: **Vital Anne** (chairing), **Matt Haupt**, **Dr. Audra Melton**, **Ayessa Potts** —
+In person: **Vital Anne** (chairing), **Matt Haupt**, **Dr. Audra Melton**, **Ayesha Potts** —
 votes passed 4-0. Virtual (non-voting): **Stephanie Zendler** (dropped ~19:41, rejoined ~34m).
 Absent: Emina Alic, Dr. Nancy Philippart. Speaking staff: Dan Trudel (budget scenarios),
 Dr. Machesky, Brian Canfield (personnel 6A-6D), Rob Carson (facilities photos: Smith gym,
@@ -23,7 +23,7 @@ the Oakland Schools ISD board (six-year term to 2032, Troy's vote cast by Kendra
 - Matt Haupt (*Mr. Haupt*) — absent June 16
 - Audra Melton (*Dr. Melton*)
 - Nancy Philippart (*Dr. Philippart*) — absent June 16; 2025 Board President
-- Ayessa Potts (*Mrs. Potts*)
+- Ayesha Potts (*Mrs. Potts*)
 - Stephanie Zendler (*Mrs. Zendler*)
 
 **Administration** (June 16 roll call: Machesky, DiPilato, Griffor, Moran, Anderson, Montante, Pagel, Trudel)

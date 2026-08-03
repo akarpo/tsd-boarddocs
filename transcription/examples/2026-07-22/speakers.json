@@ -4,7 +4,7 @@
     {"name": "Vital Anne", "description": "Board President; chairs the meeting, announces agenda items, asks for resolutions, calls and announces the votes; addressed as Mrs. Anne"},
     {"name": "Matt Haupt", "description": "Trustee; reads the suggested resolutions aloud when the president asks; the STT sometimes wrote his name as Mr. Hauff"},
     {"name": "Audra Melton", "description": "Trustee, addressed as Dr. Melton; moves and supports motions"},
-    {"name": "Ayessa Potts", "description": "Trustee, addressed as Ms. Potts; moves and supports motions"},
+    {"name": "Ayesha Potts", "description": "Trustee, addressed as Ms. Potts; moves and supports motions"},
     {"name": "Stephanie Zendler", "description": "Trustee attending virtually, addressed by first name Stephanie; participates in discussion but cannot vote today; drops off and rejoins"},
     {"name": "Richard Machesky", "description": "Superintendent (Dr. Machesky); speaks on the lacrosse cooperative, district strategy and budget direction"},
     {"name": "Dan Trudel", "description": "Assistant Superintendent for Business Services; presents the budget reduction scenario and finance items while sharing a screen; says a printout is on BoardDocs"},
@@ -16,14 +16,14 @@
     "B": "Vital Anne (President)",
     "A": "Vital Anne (President)",
     "G": "Rob Carson",
-    "E": "Ayessa Potts"
+    "E": "Ayesha Potts"
   },
   "mapping": {
     "A": "Vital Anne (President)",
     "B": "Vital Anne (President)",
     "C": "Dan Trudel",
     "D": "Matt Haupt",
-    "E": "Ayessa Potts",
+    "E": "Ayesha Potts",
     "F": "Dr. Richard Machesky",
     "G": "Rob Carson",
     "H": "Brian Canfield"
@@ -35,7 +35,7 @@
   "notes": [
     "Attribution: AssemblyAI speaker_identification + manual verification against the packet rosters.",
     "Diarization split the chair's voice into clusters A+B (merged as Vital Anne).",
-    "A few utterances by Dr. Audra Melton co-clustered with Ayessa Potts (e.g. the 8.C reading ~29:24).",
+    "A few utterances by Dr. Audra Melton co-clustered with Ayesha Potts (e.g. the 8.C reading ~29:24).",
     "Cluster I held two people; split by time: Stephanie Zendler (remote, early) / public commenter (67m+).",
     "'Mr. Hauff' in the STT text = trustee Matt Haupt (Gary Hauff now sits on the Oakland Schools ISD board).",
     "In-person board: Anne, Haupt, Melton, Potts; virtual non-voting: Zendler; absent: Alic, Philippart."
