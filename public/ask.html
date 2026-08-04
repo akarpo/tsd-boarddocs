@@ -61,8 +61,35 @@
       <input id="r-phone" type="tel" autocomplete="tel" placeholder="+1 248 555 0123">
       <label>Why do you want access? <span style="font-weight:400">(shown to the approver)</span></label>
       <textarea id="r-reason" placeholder="e.g. Troy parent following the budget process"></textarea>
+
+      <!-- EXPRESS SMS CONSENT. Required for the A2P 10DLC campaign, and it must be VISIBLE on page
+           load: the campaign's message flow points a human reviewer at this page, and if the call
+           to action is not plainly here the campaign is rejected (error 30909 — which is what
+           happened on 2026-08-02).
+
+           "By requesting access you agree to the Terms" is NOT consent to be texted. Carriers
+           require it to be express, affirmative and separately given, so this is its own unchecked
+           checkbox with the disclosures beside it rather than behind a link. Do not pre-check it
+           and do not hide it. -->
+      <div class="sms-consent">
+        <label class="chk" style="display:flex;gap:.5rem;align-items:flex-start;font-weight:600">
+          <input type="checkbox" id="r-sms-consent" style="margin-top:.25rem">
+          <span>Text me my sign-in codes</span>
+        </label>
+        <p class="note" style="margin-top:.45rem">
+          By ticking this box you agree to receive one-time sign-in codes by text message from the
+          <strong>Troy SD Archive</strong> (tsd-boarddocs.karpowitsch.org) at the number above.
+          Codes are sent only when you ask to sign in — roughly <strong>2&ndash;4 messages a
+          month</strong>, and never marketing. <strong>Msg &amp; data rates may apply.</strong>
+          Reply <strong>STOP</strong> to opt out or <strong>HELP</strong> for help. Consent is not a
+          condition of access — say no and we will email your codes instead. See our
+          <a href="/terms" target="_blank">Terms of Use</a> and
+          <a href="/privacy" target="_blank">Privacy Policy</a>.
+        </p>
+      </div>
+
       <p class="note" style="margin-top:12px">No password — once approved, you'll sign in with a
-      code texted to your phone. By requesting access you agree to the
+      one-time code. By requesting access you agree to the
       <a href="/terms" target="_blank">Terms of Use</a> and
       <a href="/privacy" target="_blank">Privacy Policy</a>.</p>
       <button id="btn-reg">Request access</button>
@@ -143,9 +170,9 @@ $("tab-reg").onclick=()=>{$("pane-reg").hidden=false;$("pane-log").hidden=true;$
 $("tab-log").onclick=()=>{$("pane-reg").hidden=true;$("pane-log").hidden=false;$("tab-log").classList.remove("off");$("tab-reg").classList.add("off")};
 $("btn-reg").onclick=async()=>{
   $("reg-msg").className="msg";$("reg-msg").textContent="…";
-  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,phone:$("r-phone").value,reason:$("r-reason").value})});
+  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,phone:$("r-phone").value,reason:$("r-reason").value,sms_consent:$("r-sms-consent").checked?1:0})});
   const d=await r.json();
-  if(d.ok){$("reg-msg").className="msg ok";$("reg-msg").textContent="Request submitted — once approved, sign in with a code texted to your phone.";}
+  if(d.ok){$("reg-msg").className="msg ok";$("reg-msg").textContent="Request submitted — once approved, sign in with a one-time code.";}
   else{$("reg-msg").className="msg err";$("reg-msg").textContent=d.error||"registration failed";}
 };
 $("btn-send").onclick=async()=>{

@@ -343,12 +343,16 @@ async function handleAssistant(request, env, url) {
     const name = String(body.name || "").trim().slice(0, 80);
     const reason = String(body.reason || "").trim().slice(0, 400);
     const phone = normPhone(body.phone);
+    // Express SMS consent from the checkbox on /ask. Recorded with its timestamp because consent
+    // without a date is not evidence, and the A2P campaign stands or falls on being able to show
+    // it. 0 (declined) and NULL (never asked) are deliberately different.
+    const smsConsent = body.sms_consent === 1 || body.sms_consent === true ? 1 : 0;
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: "valid email required" }, 400);
     if (!phone) return json({ error: "valid mobile number required" }, 400);
     try {
       await env.DB.prepare(
-        "INSERT INTO bot_users (email,name,reason,phone,pw_hash,pw_salt,status,created_at) VALUES (?1,?2,?3,?4,'','','pending',?5)"
-      ).bind(email, name, reason, phone, nowIso()).run();
+        "INSERT INTO bot_users (email,name,reason,phone,pw_hash,pw_salt,status,created_at,sms_consent,sms_consent_at) VALUES (?1,?2,?3,?4,'','','pending',?5,?6,?7)"
+      ).bind(email, name, reason, phone, nowIso(), smsConsent, smsConsent === 1 ? nowIso() : null).run();
     } catch { return json({ error: "that email or phone number is already registered" }, 409); }
     return json({ ok: true, status: "pending" });
   }
@@ -372,8 +376,23 @@ async function handleAssistant(request, env, url) {
       .bind(await sha256hex(code + phone), new Date(Date.now() + 600e3).toISOString(), nowIso(), u.id).run();
     const msg = `Your Troy SD Archive sign-in code is ${code}. It expires in 10 minutes.`;
     let channel = null;
-    if (twilioReady(cfgO)) {
-      try { await twilioSend(cfgO, msg, phone); channel = "sms"; } catch { /* fall through to email */ }
+    // THREE things must be true to text: a configured transport, and EXPRESS CONSENT from this
+    // user. A number in the database is not permission to use it -- texting without opt-in
+    // revokes the 10DLC campaign and is a per-message TCPA liability. Users who registered
+    // before the consent checkbox existed have sms_consent NULL and are emailed instead, which
+    // is the correct default: they were never asked.
+    if (twilioReady(cfgO) && u.sms_consent === 1) {
+      try { await twilioSend(cfgO, msg, phone); channel = "sms"; }
+      catch (e) {
+        // 21610 = the user replied STOP. Twilio enforces that at the carrier and will reject
+        // every later send; nothing tells us otherwise, so record the revocation here or we
+        // retry SMS forever and they silently lose access.
+        if (String(e && e.message || "").includes("21610")) {
+          await env.DB.prepare("UPDATE bot_users SET sms_consent=0, sms_consent_at=?1 WHERE id=?2")
+            .bind(nowIso(), u.id).run().catch(() => {});
+        }
+        /* fall through to email */
+      }
     }
     if (!channel && emailReady(cfgO)) {
       try {
