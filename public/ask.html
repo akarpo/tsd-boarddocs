@@ -15,7 +15,13 @@
   a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:18px}
   label{display:block;font-size:.82rem;font-weight:600;color:var(--muted);margin:12px 0 4px}
-  input,textarea{width:100%;padding:11px 13px;font:inherit;font-size:.95rem;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:10px}
+  input:not([type=checkbox]),textarea{width:100%;padding:11px 13px;font:inherit;font-size:.95rem;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:10px}
+  /* The rule above styles every text field full-width with a border; a checkbox caught by it
+     renders as a stretched bordered box. Keep the checkbox native and lay the row out here. */
+  .sms-consent{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-top:14px;background:var(--bg)}
+  .sms-consent .chk{display:flex;align-items:center;gap:.55rem;margin:0;font-size:.95rem;font-weight:600;color:var(--fg);cursor:pointer}
+  .sms-consent .chk input[type=checkbox]{flex:0 0 auto;width:18px;height:18px;margin:0;accent-color:var(--accent);cursor:pointer}
+  .sms-consent .note{margin:.5rem 0 0}
   input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
   textarea{resize:vertical;min-height:74px}
   button{font:inherit;font-size:.95rem;font-weight:700;padding:11px 20px;cursor:pointer;border:1px solid transparent;border-radius:10px;background:var(--accent);color:var(--accent-fg);margin-top:14px}
@@ -72,11 +78,11 @@
            checkbox with the disclosures beside it rather than behind a link. Do not pre-check it
            and do not hide it. -->
       <div class="sms-consent">
-        <label class="chk" style="display:flex;gap:.5rem;align-items:flex-start;font-weight:600">
-          <input type="checkbox" id="r-sms-consent" style="margin-top:.25rem">
+        <label class="chk">
+          <input type="checkbox" id="r-sms-consent">
           <span>Text me my sign-in codes</span>
         </label>
-        <p class="note" style="margin-top:.45rem">
+        <p class="note">
           By ticking this box you agree to receive one-time sign-in codes by text message from the
           <strong>Troy SD Archive</strong> (tsd-boarddocs.karpowitsch.org) at the number above.
           Codes are sent only when you ask to sign in — roughly <strong>2&ndash;4 messages a
