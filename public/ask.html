@@ -41,7 +41,11 @@
   .note{font-size:.84rem;color:var(--muted)}
   .topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
   .topbar .who{font-size:.85rem;color:var(--muted)}
+  /* Turnstile: always rendered, never invisible-mode. A visible human check is also what an
+     A2P 10DLC reviewer expects to see guarding a form that triggers SMS. */
+  .cf-turnstile{margin-top:14px;min-height:65px}
 </style>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
 </head>
 <body>
 <div class="wrap">
@@ -98,11 +102,13 @@
       one-time code. By requesting access you agree to the
       <a href="/terms" target="_blank">Terms of Use</a> and
       <a href="/privacy" target="_blank">Privacy Policy</a>.</p>
+      <div class="cf-turnstile" id="ts-reg"></div>
       <button id="btn-reg">Request access</button>
       <div class="msg" id="reg-msg"></div>
     </div>
     <div id="pane-log" hidden>
       <label>Mobile phone</label><input id="l-phone" type="tel" autocomplete="tel" placeholder="+1 248 555 0123">
+      <div class="cf-turnstile" id="ts-log"></div>
       <button id="btn-send">Text me a code</button>
       <div id="code-row" hidden>
         <label>6-digit code</label>
@@ -146,8 +152,32 @@ function fmtA(t){ // escape, then linkify + minimal markdown bold
 }
 let me=null, pollTimer=null;
 
+// ---------- Turnstile ----------
+// Rendered explicitly (not auto) so both widgets appear the moment the sitekey is known, and so
+// each can be reset independently: a token is single-use, so any failed submit must reset its
+// widget or the retry sends a token Cloudflare has already consumed.
+const tsIds={};
+function renderTurnstile(sitekey){
+  if(!sitekey||!window.turnstile) return;
+  for(const [slot,el] of [["reg","ts-reg"],["log","ts-log"]]){
+    const node=$(el);
+    if(!node||tsIds[slot]!==undefined) continue;
+    tsIds[slot]=window.turnstile.render(node,{sitekey,theme:"auto"});
+  }
+}
+function tsToken(slot){
+  return tsIds[slot]!==undefined ? window.turnstile.getResponse(tsIds[slot]) : "";
+}
+function tsReset(slot){
+  if(tsIds[slot]!==undefined) window.turnstile.reset(tsIds[slot]);
+}
+
 async function refreshMe(){
   me=await (await api("/me")).json();
+  if(me&&me.turnstile_sitekey){
+    if(window.turnstile) renderTurnstile(me.turnstile_sitekey);
+    else { let n=0; const iv=setInterval(()=>{ if(window.turnstile||++n>40){clearInterval(iv); renderTurnstile(me.turnstile_sitekey);} },150); }
+  }
   const authed=me&&me.status==="approved";
   $("auth-card").hidden=!!(me&&me.email);
   $("pending-card").hidden=!(me&&me.email&&!authed);
@@ -176,24 +206,24 @@ $("tab-reg").onclick=()=>{$("pane-reg").hidden=false;$("pane-log").hidden=true;$
 $("tab-log").onclick=()=>{$("pane-reg").hidden=true;$("pane-log").hidden=false;$("tab-log").classList.remove("off");$("tab-reg").classList.add("off")};
 $("btn-reg").onclick=async()=>{
   $("reg-msg").className="msg";$("reg-msg").textContent="…";
-  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,phone:$("r-phone").value,reason:$("r-reason").value,sms_consent:$("r-sms-consent").checked?1:0})});
+  const r=await api("/register",{method:"POST",body:JSON.stringify({name:$("r-name").value,email:$("r-email").value,phone:$("r-phone").value,reason:$("r-reason").value,sms_consent:$("r-sms-consent").checked?1:0,turnstile_token:tsToken("reg")})});
   const d=await r.json();
   if(d.ok){$("reg-msg").className="msg ok";$("reg-msg").textContent="Request submitted — once approved, sign in with a one-time code.";}
-  else{$("reg-msg").className="msg err";$("reg-msg").textContent=d.error||"registration failed";}
+  else{$("reg-msg").className="msg err"; tsReset("reg");$("reg-msg").textContent=d.error||"registration failed";}
 };
 $("btn-send").onclick=async()=>{
   $("log-msg").className="msg";$("log-msg").textContent="…";
-  const r=await api("/otp/start",{method:"POST",body:JSON.stringify({phone:$("l-phone").value})});
+  const r=await api("/otp/start",{method:"POST",body:JSON.stringify({phone:$("l-phone").value,turnstile_token:tsToken("log")})});
   const d=await r.json();
   if(d.ok){$("code-row").hidden=false;$("log-msg").className="msg ok";$("log-msg").textContent="If that number is registered and approved, a code is on its way.";}
-  else{$("log-msg").className="msg err";$("log-msg").textContent=d.error||"could not send a code";}
+  else{$("log-msg").className="msg err"; tsReset("log");$("log-msg").textContent=d.error||"could not send a code";}
 };
 $("btn-verify").onclick=async()=>{
   $("log-msg").className="msg";$("log-msg").textContent="…";
   const r=await api("/otp/verify",{method:"POST",body:JSON.stringify({phone:$("l-phone").value,code:$("l-code").value})});
   const d=await r.json();
   if(d.ok&&d.status==="approved"){location.reload();}
-  else{$("log-msg").className="msg err";$("log-msg").textContent=d.error||"sign-in failed";}
+  else{$("log-msg").className="msg err"; tsReset("log");$("log-msg").textContent=d.error||"sign-in failed";}
 };
 async function signout(){await api("/logout",{method:"POST"});location.reload();}
 $("btn-signout").onclick=signout;

@@ -243,6 +243,43 @@ async function botCfg(env) {
   }
   return _cfg;
 }
+// ---------- Cloudflare Turnstile ----------
+// Guards the two public, unauthenticated forms: /register and /otp/start. The rate limits and
+// this solve different halves of the same problem -- the challenge stops scripted abuse, the
+// per-number cooldown stops one person hammering "text me a code", and the cooldown is what caps
+// the SMS bill. Neither replaces the other.
+//
+// FAILS CLOSED. If turnstile_sitekey is configured but turnstile_secret is missing, the endpoint
+// refuses rather than quietly accepting unverified submissions -- a guard that silently disables
+// itself is worse than none, because the logs look identical to a working one. If neither is
+// configured the challenge is simply not enabled yet and the forms work as before.
+const TURNSTILE_VERIFY = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
+
+function turnstileEnabled(cfg) { return !!cfg.turnstile_sitekey; }
+
+async function verifyTurnstile(cfg, token, ip) {
+  if (!turnstileEnabled(cfg)) return { ok: true, skipped: true };
+  if (!cfg.turnstile_secret) {
+    console.error("[turnstile] sitekey set but turnstile_secret missing — refusing the submission");
+    return { ok: false, status: 503, message: "This form isn't fully configured yet. Please try again later." };
+  }
+  if (!token) return { ok: false, status: 400, message: "Please complete the human check." };
+
+  const form = new URLSearchParams({ secret: cfg.turnstile_secret, response: token });
+  if (ip) form.set("remoteip", ip);
+  try {
+    const r = await fetch(TURNSTILE_VERIFY, { method: "POST", body: form });
+    const d = await r.json();
+    if (d.success) return { ok: true };
+    console.warn("[turnstile] rejected:", d["error-codes"]);
+    return { ok: false, status: 400, message: "That human check didn't pass — please try again." };
+  } catch (e) {
+    // Cloudflare unreachable. Fail closed: this endpoint can send SMS and create accounts.
+    console.error("[turnstile] verify call failed:", e.message);
+    return { ok: false, status: 503, message: "Couldn't complete the human check. Please try again." };
+  }
+}
+
 function twilioReady(cfg) {
   return !!(cfg.twilio_sid && cfg.twilio_token && cfg.twilio_from && cfg.twilio_to);
 }
@@ -347,6 +384,9 @@ async function handleAssistant(request, env, url) {
     // without a date is not evidence, and the A2P campaign stands or falls on being able to show
     // it. 0 (declined) and NULL (never asked) are deliberately different.
     const smsConsent = body.sms_consent === 1 || body.sms_consent === true ? 1 : 0;
+
+    const tsR = await verifyTurnstile(await botCfg(env), body.turnstile_token, request.headers.get("cf-connecting-ip"));
+    if (!tsR.ok) return json({ error: tsR.message }, tsR.status);
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: "valid email required" }, 400);
     if (!phone) return json({ error: "valid mobile number required" }, 400);
     try {
@@ -365,6 +405,9 @@ async function handleAssistant(request, env, url) {
     // channel ladder: SMS once Twilio's campaign is armed; email via Graph meanwhile
     if (!twilioReady(cfgO) && !emailReady(cfgO))
       return json({ error: "sign-in isn't open yet — check back soon" }, 503);
+    const tsO = await verifyTurnstile(await botCfg(env), body.turnstile_token, request.headers.get("cf-connecting-ip"));
+    if (!tsO.ok) return json({ error: tsO.message }, tsO.status);
+
     const u = await env.DB.prepare("SELECT * FROM bot_users WHERE phone=?1").bind(phone).first();
     // don't leak which numbers exist: unknown/unapproved get the same neutral reply
     if (!u || u.status !== "approved") return json({ ok: true, sent: true });
@@ -436,7 +479,11 @@ async function handleAssistant(request, env, url) {
 
   if (p === "/me") {
     const u = await sessionUser(request, env);
-    return json(u ? { email: u.email, name: u.name, status: u.status } : {});
+    // The sitekey is public by design -- it is rendered into the page. Served here rather than
+    // hardcoded so rotating the widget needs no redeploy.
+    const c = await botCfg(env);
+    return json({ ...(u ? { email: u.email, name: u.name, status: u.status } : {}),
+                  turnstile_sitekey: c.turnstile_sitekey || null });
   }
 
   if (p === "/ask" && method === "POST") {
