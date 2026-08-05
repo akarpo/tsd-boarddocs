@@ -158,10 +158,21 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
       becomes usable (drop its `OptInKeywords`/`OptInMessage` first, see above).
 - [ ] **Arm SMS once approved.** Set the `twilio_*` rows in `bot_config` and confirm the channel
       ladder flips from Resend email to SMS. Test to a real handset — `201 queued` proves nothing.
-- [ ] **Turnstile is not live.** `assistant/README.md` says `/ask` renders a *visible* Cloudflare
-      Turnstile widget — "a human check a 10DLC reviewer expects to see in front of anything that
-      triggers SMS". As of 2026-08-05 no widget renders on the live page, so
-      `scripts/turnstile_enable.sh` has not been run and `turnstile_sitekey`/`turnstile_secret`
-      are unset in `bot_config`. Run it before the next review cycle.
+- [ ] **Turnstile: widget created 2026-08-05, not yet armed.** `assistant/README.md` says `/ask`
+      renders a *visible* Cloudflare Turnstile widget — "a human check a 10DLC reviewer expects to
+      see in front of anything that triggers SMS" — but no widget rendered on the live page,
+      because `turnstile_sitekey`/`turnstile_secret` were never set in `bot_config`.
+      A **Managed** widget named `tsd-boarddocs`, hostname `tsd-boarddocs.karpowitsch.org`,
+      pre-clearance off, now exists in Cloudflare (same account as the `foxhalltroy` widget —
+      Cloudflare is one account for both projects, unlike Twilio). Remaining step is one command,
+      which must be run by a human because it takes the **secret** key as an argument:
+
+          ./scripts/turnstile_enable.sh <sitekey> <secret>
+
+      Both keys are re-viewable at any time under Turnstile → the widget. Wait ~60s for the
+      Worker's config cache, then confirm `turnstile_sitekey` is non-null at
+      `/api/assistant/me` and that a widget renders on `/ask`.
+      Set both together — `verifyTurnstile()` fails **closed**, so a sitekey without a secret
+      returns 503 and takes the register and sign-in forms down.
 - [ ] Secrets file `tsd-boarddocs-keysandsupportingfiles/tsd-secrets.env` is macOS-side only; the
       `status`/`submit` subcommands cannot run from the Windows box.
