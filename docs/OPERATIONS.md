@@ -280,10 +280,11 @@ home IP succeeds with zero 403s, so ingest has to run from a residential connect
   Messaging Service; now in carrier review (2-3 weeks). SMS sign-in codes stay off
   until it is approved; Resend email covers it meanwhile. Watch for FAILURE, then
   fix in place. Full history and payload: **docs/TWILIO_A2P_10DLC.md**.
-- **Turnstile is not actually live on `/ask`.** `assistant/README.md` describes a
-  visible Cloudflare Turnstile widget on register and sign-in; no widget renders on
-  the live page as of 2026-08-05, so `scripts/turnstile_enable.sh` has not been run.
-  It matters for the next 10DLC review, not just for bots.
+- ~~Turnstile is not actually live on `/ask`.~~ **Done 2026-08-05** — widget created,
+  keys written to `bot_config`, verified rendering. `turnstile_enable.sh` had never
+  been run before and carried a latent bug: its multi-line `--command` value makes
+  wrangler 4.x on Windows abort with "Missing required option --command" before any
+  SQL executes. Fixed by putting the SQL on one line.
 - Convert the two remaining source formats the viewer links out (XLSX) if inline
   preview is ever wanted.
 - Prune the legacy `--vectors` / `retrieve.py` code paths (superseded since v0.4).

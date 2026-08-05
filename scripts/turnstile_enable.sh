@@ -38,11 +38,12 @@ if [[ "$SITEKEY" == "$SECRET" ]]; then
   exit 2
 fi
 
-npx wrangler d1 execute "$DB" --remote --yes --command "
-  INSERT INTO bot_config (k,v) VALUES ('turnstile_sitekey','$SITEKEY')
-    ON CONFLICT(k) DO UPDATE SET v=excluded.v;
-  INSERT INTO bot_config (k,v) VALUES ('turnstile_secret','$SECRET')
-    ON CONFLICT(k) DO UPDATE SET v=excluded.v;"
+# KEEP THIS SQL ON ONE LINE. A multi-line --command value makes wrangler 4.x on Windows abort
+# with "Missing required option --command or --file" followed by a libuv assertion failure, before
+# any SQL runs -- measured on 4.119.0, and it fails the same way with --command= as with
+# --command "…". Single-line multi-statement is fine, so both upserts still go in one call and the
+# atomicity this script exists for is preserved.
+npx wrangler d1 execute "$DB" --remote --yes --command "INSERT INTO bot_config (k,v) VALUES ('turnstile_sitekey','$SITEKEY') ON CONFLICT(k) DO UPDATE SET v=excluded.v; INSERT INTO bot_config (k,v) VALUES ('turnstile_secret','$SECRET') ON CONFLICT(k) DO UPDATE SET v=excluded.v;"
 
 echo
 echo "Turnstile enabled. Verify in ~60s (config is cached):"
