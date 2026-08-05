@@ -275,6 +275,15 @@ home IP succeeds with zero 403s, so ingest has to run from a residential connect
 
 ## Backlog
 
+- **A2P 10DLC campaign is stale and under review** (blocks SMS sign-in codes; email
+  via Resend covers it meanwhile). Verified 2026-08-05: profile approved, brand
+  registered, campaign `CM1084cf…` pending since 2026-08-02 with the placeholder
+  payload. Cannot be edited until it reaches FAILURE. Full state, the corrected
+  payload, and the wait-vs-recreate decision: **docs/TWILIO_A2P_10DLC.md**.
+- **Turnstile is not actually live on `/ask`.** `assistant/README.md` describes a
+  visible Cloudflare Turnstile widget on register and sign-in; no widget renders on
+  the live page as of 2026-08-05, so `scripts/turnstile_enable.sh` has not been run.
+  It matters for the next 10DLC review, not just for bots.
 - Convert the two remaining source formats the viewer links out (XLSX) if inline
   preview is ever wanted.
 - Prune the legacy `--vectors` / `retrieve.py` code paths (superseded since v0.4).

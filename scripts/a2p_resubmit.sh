@@ -2,14 +2,28 @@
 # a2p_resubmit.sh — correct the A2P 10DLC campaign for tsd-boarddocs.karpowitsch.org.
 #
 # WHY THIS EXISTS
-# Campaign QE2c6890 was submitted on 2026-08-02 with content that does not describe this site:
-# the description said "Two Factor Auth / Query validation for access to AI Prompt", both message
-# samples were the identical placeholder "Example: Your one time passcode is 123456", and it
-# declared HasEmbeddedLinks/HasEmbeddedPhone true when the OTP contains neither. Those are the
-# documented causes of errors 30893 and 30909 (see docs/TWILIO_A2P_10DLC.md).
+# The campaign (console sid CM1084cf…) was submitted on 2026-08-02 with content that does not
+# describe this site: the description said "Two Factor Auth / Query validation for access to AI
+# Prompt", both message samples were the identical placeholder "Example: Your one time passcode
+# is 123456", it declared HasEmbeddedLinks/HasEmbeddedPhone true when the OTP contains neither,
+# and the opt-in was described as "End users opt in by going to tsd-boarddocs.karpowitsch.org and
+# going to the AI Prompt mechanism and entering their phone number" -- a phone number typed into a
+# form, which is not consent. Those are the documented causes of errors 30893 and 30909
+# (see docs/TWILIO_A2P_10DLC.md, which lives in THIS repo as of 2026-08-05; it was previously
+# referenced here but only ever existed in the foxhalltroy repo).
 #
 # The payload below is corrected: samples copied byte-for-byte from worker.js, flags matching the
 # real message, and a MessageFlow quoting the consent checkbox that is now live on /ask.
+#
+# VERIFIED STATE 2026-08-05 (read from the console, akarpo@gmail.com / "Alex's Account")
+#   Starter Customer Profile ....... Approved
+#   Sole Proprietor Brand .......... Registered   (BN350b79…, brand "Alex Karpowitsch")
+#   Sole Proprietor Campaign ....... NOT registered -- status "In progress", i.e. under carrier
+#                                    review since 2026-08-02, quoted at 2-3 weeks
+#   Compliance Registration SID .... null      External Campaign ID .... null
+# The "You have an unfinished A2P 10DLC registration" banner on the A2P Overview is driven by that
+# third line. It is the expected state while a campaign is in review -- not a regression, and not
+# something you can clear by redoing steps 1 and 2.
 #
 # YOU CANNOT RUN THIS WHILE THE CAMPAIGN IS UNDER REVIEW.
 # Twilio only permits an update from a FAILURE state:
@@ -19,6 +33,12 @@
 # this immediately -- updating in place is cheaper than delete-and-recreate, which can re-trigger
 # vetting fees.
 #
+# The console's "Edit Campaign" modal exposes every field this script sets (description, the five
+# samples, the content-type checkboxes, the consent description, privacy/terms URLs) plus an
+# "I agree the above information is correct" attestation tied to the vetting fee. It is a second
+# route to the same API, so expect the same refusal while the state is not FAILURE -- but it costs
+# nothing to try, and it is the only route that does not need the secrets file.
+#
 #   ./scripts/a2p_resubmit.sh status     # campaign state + any rejection reasons
 #   ./scripts/a2p_resubmit.sh submit     # push the corrected payload (only works from FAILURE)
 #
@@ -26,9 +46,19 @@
 # whole account -- issue a Standard key and use that instead.
 #
 # WHICH campaign this touches is decided by TWILIO_MESSAGING_SERVICE_SID + the credentials, NOT by
-# the QE… sid. That sid is not unique: on 2026-08-04 two unrelated accounts both returned
-# QE2c6890da8086d771620e9b13fadeba0b for completely different campaigns (Fox Hall's resident OTP,
-# and this one). Point the MG at the wrong service and you will edit the wrong project's campaign.
+# the QE… sid. Two different identifiers are in play and they are easy to confuse:
+#   CM… is what the console calls the Campaign SID (CM1084cf… here).
+#   QE… is what GET /Services/$MG/Compliance/Usa2p returns as "sid" -- the compliance record, not
+#        the campaign. Note the console separately reports "Compliance Registration SID: null",
+#        so do not expect the two to line up.
+# A 2026-08-04 note claimed the QE value collided across two unrelated accounts. That has NOT been
+# re-verified since, and Twilio sids are meant to be globally unique -- treat it as unconfirmed.
+# The safe rule stands either way: identify a campaign by MG + credentials, never by QE.
+# Point the MG at the wrong service and you will edit the wrong project's campaign.
+#
+# THIS PROJECT'S ACCOUNT IS NOT FOX HALL'S. tsd-boarddocs is akarpo@gmail.com; foxhalltroy is
+# admin@foxhalltroy.com. Separate accounts, separate brands, separate campaigns, near-identical
+# OTP designs. Confirm the login email AND the account sid before touching anything.
 set -euo pipefail
 
 # Identifiers come from the secrets file outside the repo, never hardcoded: GitHub push
