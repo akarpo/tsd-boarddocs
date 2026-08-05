@@ -42,6 +42,65 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.13.0] — 2026-08-04
+
+**The 2025 meeting season, passwordless sign-in, and A2P-compliant SMS.**
+
+### Meeting recordings — 2025 season (and 2026 captions)
+- **All 19 recorded 2025 meetings transcribed** (~43 hours; the Jan 14, May 6,
+  Jul 15 and Aug 19 meetings were never televised) with the 2025 roster
+  (`transcription/speakers_2025.json` — Dr. Philippart chairing). Attribution
+  QA'd the same way as 2026: three degenerate-diarization meetings re-run with
+  hi-fi stereo + `speaker_options` hints (Jun 3: 2 clusters → 11, 2.7%
+  unattributed), nine more fixed by evidence (self-introductions, minutes
+  roll-calls, content ownership).
+- **12 meetings live on the site** with embed + named transcript + agenda
+  chapters. Season state machine-readable in
+  `transcription/manifest_2025.json` (src `yt:`/`telvue:`, site-eligibility,
+  channel title).
+- **`transcription/upload_videos.py`** (new): resumable `videos.insert` +
+  2-second title-card `thumbnails.set`, reusing the captions OAuth. Used to
+  publish the TelVue full recordings of Jun 3 + Nov 11 (`XM0MoYkdd9g`,
+  `kXSehoFagAQ`), replacing the two-part uploads; six more TelVue-only 2025
+  videos are downloaded and staged in `~/Downloads/youtube-upload/`.
+- **`transcription/upload_captions.py`** (new): batch `captions.insert/update`
+  of the speaker-attributed SRTs — all 12 × 2026 videos done (track "English
+  (speaker-attributed)"); 14 × 2025 queued. Desktop-app **loopback OAuth**
+  (Google's device flow rejects `youtube.force-ssl`); refresh token self-saves
+  to tsd-secrets.env. Pending work is **YouTube-quota-bound**: 10K units/day,
+  1,600/video upload, 400/caption.
+- **Trustee name corrected: Ayesha Potts** (was "Ayessa" — a typo the curated
+  roster inherited from two source documents). Fixed in roster/keyterms/specs/
+  transcripts/live D1 (179 speaker labels) and burned into the uploaded
+  captions. The spoken text was never affected — the two spellings are
+  homophones.
+
+### Ask the Archive — auth, moderation, compliance
+- **Passwordless sign-in**: registration drops the password (name, email,
+  mobile, reason); sign-in texts/emails a 6-digit one-time code (hashed at
+  rest, 10-min expiry, 5 attempts, 1 send/min, no account enumeration).
+  Channel ladder: **Twilio SMS when the A2P campaign is armed → Resend email
+  meanwhile → closed if neither**.
+- **Email codes are LIVE via Resend** from `admin@karpowitsch.org` (domain
+  verified 2026-08-03; DKIM + return-path in the Cloudflare zone; apex MX/SPF
+  untouched — iCloud receiving unaffected). Graph mailer kept dormant (the
+  tenant has no Exchange).
+- **Twilio SMS question moderation**: with `twilio_*` in `bot_config`, each
+  question holds `awaiting_approval` and the owner approves by SMS reply
+  (`YES <id>` / `NO <id>`, signature-verified, owner's number only) or /admin
+  buttons.
+- **A2P 10DLC compliance** (campaign rejection 30909 → fixed): express,
+  affirmative, unchecked **SMS-consent checkbox** on /ask with full carrier
+  disclosures (frequency, STOP/HELP, "consent is not a condition"); corrected
+  campaign payload as a runnable script; **Cloudflare Turnstile** on register
+  and sign-in (`scripts/turnstile_enable.sh` sets sitekey+secret atomically in
+  `bot_config`; worker verifies `turnstile_token` server-side).
+- **/privacy + /terms** pages (plain-language, FoxHall-style), linked from
+  registration, /ask footer, and the site footer.
+- **Search modes** on the main page: "📄 Document Search" (active) beside
+  "🎓 AI Search" with accretion-gradient animated text and a *coming soon*
+  pill linking to /ask.
+
 ## [0.12.0] — 2026-08-02
 
 **🎓 Ask the Archive** — registration-gated public Q&A answered by a local

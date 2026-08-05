@@ -108,6 +108,37 @@ chips, and the transcript panel with live search/highlight. Clicking a chapter
 or any transcript line seeks the player via the widget postMessage protocol —
 no YouTube script is loaded.
 
+## Season coverage (as of 2026-08-04)
+
+- **2026 — complete.** All 12 televised meetings (5 workshops, 7 regulars) live
+  on the site with embed + named transcript + chapters, and caption tracks
+  ("English (speaker-attributed)") on all 12 YouTube videos. Only the Mar 3
+  workshop was never recorded anywhere.
+- **2025 — transcribed; publishing in progress.** All 19 recorded meetings
+  transcribed and QA'd (Jan 14, May 6, Jul 15, Aug 19 were not televised);
+  12 live on the site. The remaining work is YouTube-quota-bound (10K
+  units/day; a video upload costs 1,600, a caption 400): six TelVue-only
+  videos are downloaded and staged in `~/Downloads/youtube-upload/` awaiting
+  `upload_videos.py`, after which their six meeting pages wire up and the
+  14 × 2025 caption tracks push via `upload_captions.py`.
+
+## Backfilling a season (the 2025 pattern)
+
+1. Build `transcription/manifest_<year>.json`: one row per meeting — D1
+   `name`, source (`yt:<id>` / `telvue:<mediaId>` / `local`), site-eligibility,
+   exact channel title. Enumerate the channel with
+   `yt-dlp --flat-playlist --print "%(id)s|%(title)s" <channel/videos>`;
+   TelVue media ids come from the player page's gallery HTML.
+2. Write `speakers_<year>.json` with that year's board (who chaired matters).
+3. Acquire audio per manifest (yt-dlp audio-only; for TelVue take the `worst`
+   video variant and extract audio) and transcribe in waves of ~5.
+4. Audit the attribution table (see "trust, but verify"); re-run degenerate
+   meetings (≤3 clusters) with hi-fi stereo audio + `--min-speakers/--max-speakers`;
+   fix the rest with evidence-based `overrides`.
+5. `make_anchors.py --agenda` per meeting → `upload_transcript.py` for every
+   site-eligible meeting → refresh `transcripts/` deliverables → extend
+   `upload_captions.py`'s manifest and run it (mind the quota).
+
 ## Adding a new meeting (checklist)
 
 1. Download the video (TelVue player page → grep the `master.m3u8` → `yt-dlp`),

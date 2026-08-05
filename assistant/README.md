@@ -66,6 +66,15 @@ wrangler d1 execute tsd-boarddocs --remote --yes --command "INSERT OR REPLACE IN
 - If an SMS send fails, the question degrades to unmoderated rather than
   stranding the asker.
 
+## Turnstile (bot check on /ask forms)
+
+Register and sign-in both render a **visible** Cloudflare Turnstile widget (a
+human check a 10DLC reviewer expects to see in front of anything that triggers
+SMS); the Worker verifies the token server-side. Enable with
+`scripts/turnstile_enable.sh` — it sets `turnstile_sitekey` + `turnstile_secret`
+in `bot_config` atomically (widget: dash.cloudflare.com → Turnstile, hostname
+`tsd-boarddocs.karpowitsch.org`). Unset = forms work without the check.
+
 ## Email sign-in codes (Resend, optional)
 
 Chosen path (2026-08-03): **Resend** — the Karpowitsch M365 tenant has no

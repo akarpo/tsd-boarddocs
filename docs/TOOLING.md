@@ -40,7 +40,10 @@ Recording → named transcript → site. Full guide: [TRANSCRIPTION.md](TRANSCRI
 | `transcription/upload_transcript.py` | Transcript JSON + `speakers.json` + `anchors.json` + YouTube id → D1 (`recordings`, `transcript_utts`, `transcript_anchors`) via `wrangler --remote`. Idempotent per meeting; powers `/api/recording` and the meeting-page recording section. |
 | `transcription/run_meeting.sh` | **Adding a meeting recording** — one command: YouTube id → audio → transcript → auto-anchors → D1. Idempotent per meeting; workdir `scratch/tsd-transcripts/` (repo-local, gitignored). |
 | `transcription/make_anchors.py` | Heuristic agenda-chapter generator (transition cues, item numbers) → `anchors.json`; hand-tune afterwards when a meeting deserves it. |
-| `transcription/speakers_2026.json` | Generic 2026 identification roster (board + cabinet, ≤10). Per-meeting resolved specs are written next to each transcript. |
+| `transcription/speakers_2026.json` / `speakers_2025.json` | Season identification rosters (≤10 names; 2025 has Dr. Philippart chairing). Per-meeting resolved specs are written next to each transcript. |
+| `transcription/manifest_2025.json` | The 2025 season, machine-readable: per meeting `src` (`yt:<id>` / `telvue:<mediaId>` / `local`), site-eligibility, exact channel title. Drives audio acquisition, site wiring, and the captions batch. |
+| `transcription/upload_captions.py` | Batch caption upload (Data API v3 `captions.insert`/`update`, 400/450 units) of the attributed SRTs to existing videos; re-runs update the track (use after transcript corrections). Desktop-app **loopback OAuth** — Google's device flow rejects the captions scope; `YT_CLIENT_ID/SECRET/REFRESH_TOKEN` via tsd-secrets.env, refresh token self-saves on first run. |
+| `transcription/upload_videos.py` | Full video upload (`videos.insert` resumable, 1,600 units) + 2-second title-card thumbnail; same OAuth. Used for TelVue-only meetings the channel lacks. |
 | `transcription/keyterms/` | Generated 361-term vocabulary snapshot (Jan 2025 → Jul 2026); regenerate with `proper_nouns.py --since 2025-01-01 --flat-out …`. |
 | `transcription/examples/2026-07-22/` | Worked example: verified `speakers.json`, hand-tuned `anchors.json`, attributed transcript, `.srt`, meeting brief. |
 

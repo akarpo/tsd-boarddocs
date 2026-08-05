@@ -32,7 +32,13 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
   full transcript (real names, not "Speaker A"); clicking any chapter or
   transcript line seeks the video to that moment. Transcripts are produced with
   AssemblyAI boosted by a district proper-noun vocabulary mined from this
-  archive — see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md).
+  archive, and the same SRTs are uploaded to YouTube as caption tracks. Coverage:
+  the full 2026 season and most of 2025 — see
+  [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md).
+- **Ask the Archive** (`/ask`) — a registration-gated AI Q&A over the corpus
+  (owner-approved accounts, passwordless one-time-code sign-in, human-moderated
+  questions, answered by a local Claude Code runner) — see
+  [assistant/README.md](assistant/README.md).
 - **Inline document viewer** (same-origin PDF) with a **"View on BoardDocs"**
   deep-link to the source meeting agenda.
 
