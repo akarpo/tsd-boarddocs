@@ -24,6 +24,11 @@
 #
 # Auth: prefers an API key (SK…/secret). TWILIO_AUTH_TOKEN works but is root-equivalent for the
 # whole account -- issue a Standard key and use that instead.
+#
+# WHICH campaign this touches is decided by TWILIO_MESSAGING_SERVICE_SID + the credentials, NOT by
+# the QE… sid. That sid is not unique: on 2026-08-04 two unrelated accounts both returned
+# QE2c6890da8086d771620e9b13fadeba0b for completely different campaigns (Fox Hall's resident OTP,
+# and this one). Point the MG at the wrong service and you will edit the wrong project's campaign.
 set -euo pipefail
 
 # Identifiers come from the secrets file outside the repo, never hardcoded: GitHub push
