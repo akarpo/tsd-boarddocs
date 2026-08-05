@@ -15,15 +15,20 @@
 # The payload below is corrected: samples copied byte-for-byte from worker.js, flags matching the
 # real message, and a MessageFlow quoting the consent checkbox that is now live on /ask.
 #
-# VERIFIED STATE 2026-08-05 (read from the console, akarpo@gmail.com / "Alex's Account")
+# RESOLVED 2026-08-05: the bad campaign was DELETED AND RECREATED.
 #   Starter Customer Profile ....... Approved
 #   Sole Proprietor Brand .......... Registered   (BN350b79…, brand "Alex Karpowitsch")
-#   Sole Proprietor Campaign ....... NOT registered -- status "In progress", i.e. under carrier
-#                                    review since 2026-08-02, quoted at 2-3 weeks
-#   Compliance Registration SID .... null      External Campaign ID .... null
-# The "You have an unfinished A2P 10DLC registration" banner on the A2P Overview is driven by that
-# third line. It is the expected state while a campaign is in review -- not a regression, and not
-# something you can clear by redoing steps 1 and 2.
+#   Sole Proprietor Campaign ....... CM83307937aa2983ca225bf6af8474ab99 -- created 2026-08-05 with
+#                                    the corrected payload, now "In progress" (carrier review,
+#                                    2-3 weeks). Linked to the same MG125c5d71… the Worker targets.
+# Waiting for the old submission to fail would have cost ~3 weeks before this could even be tried,
+# so it was deleted instead; the brand survived as Registered, so only the campaign fee (~$15 +
+# $2/month) was re-incurred. The "You have an unfinished A2P 10DLC registration" banner is still
+# showing and that is correct -- it tracks campaign approval, which is pending.
+#
+# NOTE: the recreated campaign leaves OptInKeywords/OptInMessage BLANK. Opt-in is web-only, and
+# the console says to leave them blank if you do not support opt-in by text. The payload below
+# still sets OptInKeywords=START -- drop those two fields before reusing it on this campaign.
 #
 # YOU CANNOT RUN THIS WHILE THE CAMPAIGN IS UNDER REVIEW.
 # Twilio only permits an update from a FAILURE state:

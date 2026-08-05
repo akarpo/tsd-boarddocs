@@ -275,11 +275,11 @@ home IP succeeds with zero 403s, so ingest has to run from a residential connect
 
 ## Backlog
 
-- **A2P 10DLC campaign is stale and under review** (blocks SMS sign-in codes; email
-  via Resend covers it meanwhile). Verified 2026-08-05: profile approved, brand
-  registered, campaign `CM1084cf…` pending since 2026-08-02 with the placeholder
-  payload. Cannot be edited until it reaches FAILURE. Full state, the corrected
-  payload, and the wait-vs-recreate decision: **docs/TWILIO_A2P_10DLC.md**.
+- **A2P 10DLC campaign resubmitted clean 2026-08-05** — the placeholder campaign
+  `CM1084cf…` was deleted and recreated as `CM8330793…` against the same brand and
+  Messaging Service; now in carrier review (2-3 weeks). SMS sign-in codes stay off
+  until it is approved; Resend email covers it meanwhile. Watch for FAILURE, then
+  fix in place. Full history and payload: **docs/TWILIO_A2P_10DLC.md**.
 - **Turnstile is not actually live on `/ask`.** `assistant/README.md` describes a
   visible Cloudflare Turnstile widget on register and sign-in; no widget renders on
   the live page as of 2026-08-05, so `scripts/turnstile_enable.sh` has not been run.
