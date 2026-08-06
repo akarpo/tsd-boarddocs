@@ -182,27 +182,35 @@ Status as of 2026-07-31:
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **17 done, 134 pending** |
+| `packets` | 2010-2020 packet era | 151 | **26 done, 125 pending** |
 
 Everything from 2021 onward is re-summarized from full text. What remains is the
 packet era, worked **newest-first** (see "Working order" above — the queue honours
 this from the manifest as of 2026-08-06; before that only hand-picked waves did).
-2020 is finished; 2019 has 2 of its 15 batches done, and the queue resumes at
-`pk_133`.
+2020 is finished and 2019 is 9 of 15; the queue resumes at `pk_127` (2019-06-04).
 
-| year | batches | agents | source |
-|---|---|---|---|
-| 2019 | 13 | 45 | 1.28M |
-| 2018 | 12 | 51 | 1.47M |
-| 2017 | 14 | 60 | 1.77M |
-| 2016 | 15 | 59 | 1.67M |
-| 2015 | 13 | 52 | 1.43M |
-| 2014 | 14 | 48 | 1.32M |
-| 2013 | 12 | 38 | 0.94M |
-| 2012 | 13 | 45 | 1.20M |
-| 2011 | 13 | 48 | 1.27M |
-| 2010 | 15 | 50 | 1.33M |
-| **total** | **134** | **496** | **13.67M** |
+**Count the packet era by filename date, not by folder date.** The 2010-12 and
+2018-19 packet folders carry placeholder dates (`YYYY-01-01`), which `build_index.py`
+repairs via `filename_meeting()` — so `101519RegMtg.pdf` is 2019-10-15 even though
+its folder says 2019-01-01. Batch ids were assigned off the *repaired* dates and are
+correctly chronological, but any tally computed from the url path is not: doing that
+put ten 2018 meetings in 2019 and reported 2019 complete when six batches remained.
+
+Remaining after the 2026-08-06 waves (batches/agents by filename date):
+
+| year | batches | agents |
+|---|---|---|
+| 2019 | 6 | 31 |
+| 2018 | 10 | 49 |
+| 2017 | 14 | 60 |
+| 2016 | 15 | 59 |
+| 2015 | 13 | 52 |
+| 2014 | 14 | 48 |
+| 2013 | 12 | 38 |
+| 2012 | 13 | 45 |
+| 2011 | 13 | 48 |
+| 2010 | 15 | 50 |
+| **total** | **125** | **480** |
 
 ### `packets` is chunked far more finely
 
