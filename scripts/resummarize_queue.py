@@ -41,6 +41,27 @@ OUT_NAME = os.environ.get("TSD_FAN_OUT", f"{STEM}_out")
 MAN = json.loads((DIR / MAN_NAME).read_text())
 OUT = DIR / OUT_NAME
 
+# Which END of the batch list to work from. Batch ids are always assigned in
+# chronological order by stage_campaign.py, so "newest" simply means walking them
+# descending.
+#
+# This lived nowhere until 2026-08-06, and `next` always walked ascending. The
+# `packets` campaign is documented as worked newest-first, and its first two waves
+# were launched from hand-picked batch lists that honoured that -- so the queue and
+# the campaign disagreed silently. Running `next` on it would have handed out 2010
+# while 2019 sat half-finished, and nothing would have reported anything wrong: the
+# done-count still climbs, every batch still validates. The same failure shape as
+# the path drift this file already guards against.
+#
+# So the order is a property OF THE CAMPAIGN, stored in its manifest, exactly like
+# the paths default off the manifest stem. Selecting a campaign selects its order;
+# there is no second thing to remember to set.
+ORDER = (os.environ.get("TSD_FAN_ORDER") or MAN.get("order") or "oldest").lower()
+if ORDER not in ("newest", "oldest"):
+    print(f"unknown order {ORDER!r} (expected newest|oldest)", file=sys.stderr)
+    sys.exit(1)
+NEWEST_FIRST = ORDER == "newest"
+
 # State is derived from disk, which cannot see work that is running but has not
 # written yet: an agent spends most of its life reading, so a batch handed out
 # 60 seconds ago still looks pending. Sequential waves hid this -- the previous
@@ -199,7 +220,10 @@ def drop_lease(batches):
 
 
 def state():
-    all_b = sorted(MAN["batches"])
+    # `all_b` carries the campaign's working order, so `pending` inherits it and
+    # every consumer (plan, next) walks the same end of the list. `done` is printed
+    # ascending regardless -- it is a report, not a work order.
+    all_b = sorted(MAN["batches"], reverse=NEWEST_FIRST)
     done = validated()
     written = {p.stem for p in OUT.glob("*.json")} if OUT.exists() else set()
     # An output whose batch is no longer in the manifest is EXCLUDED, not failed
@@ -240,6 +264,8 @@ def main():
     p5, p7, problem = usage()
 
     if cmd == "status":
+        print(f"campaign: {STEM}  order: {ORDER}-first "
+              f"(next up: {pending[0] if pending else '-'})")
         print(f"batches: {len(all_b)}  done {len(done)}  failed {len(failed)}  pending {len(pending)}")
         if done:
             print(f"  done:    {' '.join(done)}")
@@ -265,7 +291,8 @@ def main():
     if cmd == "plan":
         q = failed + pending
         waves = pack(q)
-        print(f"{len(q)} batches -> {len(waves)} waves of <= {WAVE} agents")
+        print(f"{len(q)} batches -> {len(waves)} waves of <= {WAVE} agents "
+              f"({ORDER}-first)")
         for i, w in enumerate(waves, 1):
             n = agent_count(w)
             print(f"  wave {i}: {len(w)} batches, {n:2d} agents, ~{n*PTS_PER_AGENT:4.0f} pts  {' '.join(w)}")

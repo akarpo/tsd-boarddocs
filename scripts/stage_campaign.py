@@ -124,6 +124,11 @@ def main():
                     help="split any document above this many tokens into sections")
     ap.add_argument("--section", type=int, default=None,
                     help="target tokens per section (default: half of --split-over)")
+    ap.add_argument("--order", choices=("newest", "oldest"), default="oldest",
+                    help="which end of the campaign resummarize_queue.py works from. "
+                         "Batch ids are always assigned oldest-to-newest; this only "
+                         "picks the end the queue starts at. Stored IN the manifest so "
+                         "the queue cannot disagree with how the campaign is being run")
     a = ap.parse_args()
 
     section = a.section or a.split_over // 2
@@ -225,7 +230,8 @@ def main():
         (outdir / f"{bid}.txt").write_text(text, encoding="utf-8")
         written += 1
 
-    man = {"batches": batches, "urlmap": urlmap, "split": split,
+    man = {"order": a.order,
+           "batches": batches, "urlmap": urlmap, "split": split,
            "excluded_check_registers": sorted(
                m["title"] for u, m in meta.items()
                if m["len"] > CAP and u not in done and CHECK_RE.search(m["title"]))}

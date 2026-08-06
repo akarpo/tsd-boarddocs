@@ -73,6 +73,31 @@ until 2026-07-28; the higher line buys ~3 more agents per window but spends most
 of the slack that absorbed a bad cost estimate, and `PTS_PER_AGENT` is a mean
 with real variance.
 
+### Working order
+
+Batch ids are always assigned oldest-to-newest by `stage_campaign.py` (`pk_000` is
+the 2010 end, `pk_150` the 2020 end). Which end the queue *works from* is a
+separate question, and it is stored in the manifest:
+
+    {"order": "newest", "batches": {...}}
+
+`resummarize_queue.py` reads it (`TSD_FAN_ORDER` overrides; default `oldest`), so
+selecting a campaign selects its order — the same reason the three campaign paths
+default off the manifest stem. `stage_campaign.py --order newest|oldest` sets it.
+
+This was missing until 2026-08-06, and it is worth understanding why it mattered.
+`packets` is documented as worked newest-first, and its first two waves *were* —
+but they had been launched from hand-picked batch lists, not from `next`, which
+only ever walked ascending. The two had disagreed from the start and nothing said
+so. The next `next` would have handed out **2010** while 2019 sat half-finished,
+and every signal would still have looked healthy: the done-count climbs, each
+batch validates clean, the campaign completes eventually. Only the *order* would
+have been wrong, and order is the one thing no per-batch check can see.
+
+The same shape as the path drift above and the orphan gap below — the tooling
+faithfully reports what it processed and has no opinion about what it was supposed
+to process. Putting the order in the manifest removes the second thing to remember.
+
 ### In-flight leases
 
 `next` writes a lease per batch it hands out (`resummarize/<campaign>_inflight.json`)
@@ -160,7 +185,10 @@ Status as of 2026-07-31:
 | `packets` | 2010-2020 packet era | 151 | **17 done, 134 pending** |
 
 Everything from 2021 onward is re-summarized from full text. What remains is the
-packet era, worked **newest-first**: 2020 is finished, 2019 is partly done.
+packet era, worked **newest-first** (see "Working order" above — the queue honours
+this from the manifest as of 2026-08-06; before that only hand-picked waves did).
+2020 is finished; 2019 has 2 of its 15 batches done, and the queue resumes at
+`pk_133`.
 
 | year | batches | agents | source |
 |---|---|---|---|
