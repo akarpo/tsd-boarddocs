@@ -1,0 +1,19 @@
+{
+  "_comment": "2024 candidate roster, first half of the year (API max 10) — identical to speakers_2024.json except that Business Services is Rick West, who is also the Board Treasurer appointed at the January 16, 2024 organizational meeting. He is recorded present through the July 16 meeting; Daniel Trudel holds the seat by September 17.",
+  "speakers": [
+    {"name": "Karl Schmidt", "description": "Board President 2024, addressed as Mr. Schmidt; chairs: calls the meeting to order, announces agenda items, asks for resolutions, calls votes"},
+    {"name": "Vital Anne", "description": "Vice President 2024, addressed as Mrs. Anne; chairs in the president's absence"},
+    {"name": "Gary Hauff", "description": "Board Secretary 2024, addressed as Mr. Hauff; moves and supports motions, signs the minutes"},
+    {"name": "Emina Alic", "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"},
+    {"name": "Matt Haupt", "description": "Trustee, addressed as Mr. Haupt; often reads the suggested resolutions aloud"},
+    {"name": "Nancy Philippart", "description": "Trustee, addressed as Dr. Philippart; committee and Oakland Schools reports"},
+    {"name": "Nicole Wilson", "description": "Trustee, addressed as Dr. Wilson; nominates officers, moves and supports motions"},
+    {"name": "Richard Machesky", "description": "Superintendent, Dr. Machesky; frames items, gives the superintendent update, strategy and budget direction"},
+    {"name": "Rick West", "description": "Assistant/Deputy Superintendent for Business Services and Board Treasurer for 2024; presents the budget, bond and finance items"},
+    {"name": "Christine DiPilato", "description": "Assistant Superintendent for Secondary Instruction; presents curriculum, assessment and program items"}
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2024 roster; unmapped voices stay Speaker letters.",
+    "Automated pass — cluster splits/merges are NOT hand-verified for this meeting."
+  ]
+}

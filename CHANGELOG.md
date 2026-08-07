@@ -42,6 +42,60 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.14.0] — 2026-08-07
+
+**The 2024 season opens, and speaker attribution gets a gate.**
+
+### Meeting recordings — 2024 season, first wave
+
+- **Five meetings live**: the newest recorded 2024 regular meetings — Jun 20,
+  Sep 17, Oct 15, Nov 19, Dec 17 — transcribed, audited and wired to the site
+  with embed, chapters and named transcript. 24 → 29 recordings in D1.
+- `transcription/manifest_2024.json` catalogues all 23 board meetings of 2024
+  against D1: ten have video on the channel, and 13 (every workshop, both June
+  specials, the Jul 16 and Aug 20 regulars) have no recording located anywhere —
+  recorded as `src: null` with a note rather than left as a silent gap.
+- Two rosters, because the season has two: `speakers_2024.json` and
+  `speakers_2024_h1.json`. The 2024 board is the pre-election seven (Schmidt
+  president, Anne vice president, Hauff secretary — Melton, Potts and Zendler
+  were not seated until 2025), and Business Services passes from Rick West to
+  Daniel Trudel mid-year. Each meeting's candidate list was then narrowed to
+  who the minutes record as present.
+
+### `audit_attribution.py` — the check that uses evidence the audio cannot supply
+
+- New: speaker word-shares plus four flags — DEGENERATE (≤3 clusters),
+  UNATTRIBUTED (>30% of words on bare Speaker letters), **ABSENT** (words
+  attributed to someone the minutes record as absent) and **MISSING** (a trustee
+  recorded present who never speaks). The last two are checkable only against the
+  roll call the minutes print, which is the point.
+- It earned itself on the first pass: on Dec 17 the vice president chaired
+  because the president was absent, and on two other nights a trustee was out.
+  Every out-of-roster name the identifier produced was then run against that
+  meeting's minutes — confirming presenters and student representatives,
+  correcting what the STT mangled (`Macy Justice` → Maisie Justes, `Kris Bunch`
+  → Chris Bunch, `Seo-Wee Kim` → Seowoo Kim), and demoting to `Public commenter`
+  the two names it had read off the chair's uncertain announcements.
+- `Ryan Zawislak` was the sharpest catch: a student introducing himself on camera,
+  pulled toward a district surname that sits in the keyterms vocabulary. The
+  minutes name him Ryan Stasinski.
+- Unattributed words after the pass: 0.5% / 9.1% / 10.8% / 16.1% / 27.5%.
+
+### Fixed — split-cluster indices were reaching readers
+
+- When one voice diarizes into several clusters, the identifier maps each to the
+  same candidate and disambiguates with a trailing index. Those indices were
+  being written verbatim, so a reader saw `Nancy Philippart - 1`, `- 2` and
+  `- 3` as three speakers. `clean_mapping()` strips the suffix and the clusters
+  collapse back onto the one person.
+- The same fix rescues the `Unknown` filter, which tested for equality and so
+  never caught the `Unknown - 1` the API actually returns.
+- **This is a pre-existing defect in published output**: nine 2025/2026
+  transcripts in `transcripts/`, their rows in `transcript_utts`, and their
+  YouTube caption tracks all carry the artifact. Re-running each meeting's
+  `transcribe_meeting.py --transcript-id` is free and offline; re-pushing the
+  captions is quota-bound.
+
 ## [0.13.0] — 2026-08-04
 
 **The 2025 meeting season, passwordless sign-in, and A2P-compliant SMS.**

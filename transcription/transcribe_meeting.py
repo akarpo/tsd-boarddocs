@@ -27,7 +27,7 @@ Usage
       --speakers speakers.json --outdir ~/Downloads
 """
 from __future__ import annotations
-import argparse, json, subprocess, sys, tempfile, time, urllib.error, urllib.request
+import argparse, json, re, subprocess, sys, tempfile, time, urllib.error, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -105,10 +105,30 @@ def identify(tid: str, spec: dict, key: str) -> dict:
                 headers={"Content-Type": "application/json"})
     si = (resp.get("speech_understanding") or {}).get("response", {}).get("speaker_identification", {})
     print("identification status:", si.get("status"), "mapping:", si.get("mapping"), flush=True)
-    # The identifier sometimes returns literal "Unknown" for a cluster it can't place —
-    # drop those so the cluster honestly stays a Speaker letter instead of a fake name.
-    return {k: v for k, v in (si.get("mapping") or {}).items()
-            if v and v.lower() != "unknown" and v != k}
+    return clean_mapping(si.get("mapping") or {})
+
+
+def clean_mapping(mapping: dict) -> dict:
+    """Normalise the identifier's raw mapping into names fit to show a reader.
+
+    Two artifacts have to come off first:
+
+    - When one voice diarizes into several clusters — the documented failure mode —
+      the identifier maps each to the same candidate and disambiguates them with a
+      trailing index: "Nancy Philippart - 1", "- 2", "- 3". Those indices are about
+      clusters, not people, and reading them as three speakers is simply wrong.
+      Strip the suffix and the clusters collapse back onto the one person.
+    - "Unknown" for a cluster it can't place. Strip first, then test: the raw value
+      is often "Unknown - 1", which no equality check against "unknown" ever catches.
+    """
+    out = {}
+    for k, v in mapping.items():
+        if not v:
+            continue
+        name = re.sub(r"\s*-\s*\d+$", "", v).strip()
+        if name and name.lower() != "unknown" and name != k:
+            out[k] = name
+    return out
 
 
 def namer(mapping: dict, spec: dict):
@@ -194,7 +214,9 @@ def main():
         if spec.get("mapping"):
             # A verified spec (like the committed examples) carries the resolved mapping —
             # reuse it: reproducible, offline, and no repeat identification charge.
-            mapping = spec["mapping"]
+            # Still normalise: specs resolved before clean_mapping existed carry raw
+            # "Name - 1" / "Unknown - 2" values.
+            mapping = clean_mapping(spec["mapping"])
             print("using resolved mapping from speakers spec (identification call skipped)", flush=True)
         else:
             try:

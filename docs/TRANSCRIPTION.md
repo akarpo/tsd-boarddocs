@@ -108,7 +108,61 @@ chips, and the transcript panel with live search/highlight. Clicking a chapter
 or any transcript line seeks the player via the widget postMessage protocol —
 no YouTube script is loaded.
 
-## Season coverage (as of 2026-08-04)
+## Audit every meeting against the minutes
+
+`transcription/audit_attribution.py TRANSCRIPT… [--absent NAME…] [--expect NAME…]`
+is the gate a transcript passes before it goes on the site. It prints each
+speaker's share of the spoken words and raises four flags: **DEGENERATE** (≤3
+clusters), **UNATTRIBUTED** (>30% of words still on Speaker letters), **ABSENT**
+(words attributed to someone the minutes record as absent) and **MISSING** (a
+trustee recorded present who never speaks).
+
+ABSENT and MISSING are the ones worth building a wave around, because they are
+checkable against a source outside the audio. Every meeting's minutes open with
+a roll call — "In addition to Mr. Schmidt, present were Board members Alic,
+Anne, Hauff, Haupt, and Wilson. Dr. Philippart was absent" — so pass that roll
+call in and the audit will tell you when the identifier has put words in an
+absent trustee's mouth. Better still, drop the absent members from that
+meeting's candidate list before transcribing: on a night the vice president
+chairs, leaving the usual chair among the candidates invites exactly the wrong
+answer.
+
+Fix what it finds with `overrides` / `splits` in the speakers spec, then re-run
+`transcribe_meeting.py --transcript-id` — offline, no new charge.
+
+## Names the identifier invents
+
+The identifier will happily return names that were never in your candidate
+list, mined from what it heard: presenters, student representatives, public
+commenters. They are often right and are exactly the proper nouns that make an
+archive searchable — but each one needs a source before it ships:
+
+- **The minutes name the officials and the students** (presenters with titles,
+  each student representative with their school), so most out-of-roster names
+  can be confirmed and, where the STT mangled them, corrected there: `Macy
+  Justice` → Maisie Justes, `Kris Bunch` → Chris Bunch, `Seo-Wee Kim` → Seowoo
+  Kim.
+- **The keyterms list can pull a name toward a district insider.** On
+  2024-12-17 the Student Spotlight senior introduced himself on camera and the
+  transcript wrote `Ryan Zawislak` — Zawislak being a district surname sitting
+  in the vocabulary. The minutes name him Ryan Stasinski.
+- **The minutes name no public commenters**, and neither should the transcript:
+  the identifier read one commenter's name off the chair's uncertain announcement
+  ("Mrs. Lauren Haroun … Anne Haroun?") and another as `Joseph Kolbe` when the
+  man said "Joseph Colby Bernhardt". They ship as `Public commenter`.
+
+## Season coverage (as of 2026-08-07)
+
+- **2024 — first wave live.** The five newest recorded regular meetings
+  (Jun 20, Sep 17, Oct 15, Nov 19, Dec 17) are transcribed, audited against
+  their minutes and live on the site. The 2024 board is the pre-election seven
+  (Schmidt president, Anne vice president, Hauff secretary) and Business
+  Services changes hands mid-year, so the season carries two rosters —
+  `speakers_2024.json` (Trudel) and `speakers_2024_h1.json` (West).
+  `manifest_2024.json` has the rest: five more regular meetings on the channel
+  (Jan 16, Feb 27, Mar 19, Apr 16, May 21), and 13 meetings — every workshop,
+  both June specials, and the Jul 16 and Aug 20 regulars — with no recording
+  located anywhere yet.
 
 - **2026 — complete.** All 12 televised meetings (5 workshops, 7 regulars) live
   on the site with embed + named transcript + chapters, and caption tracks
@@ -130,11 +184,18 @@ no YouTube script is loaded.
    `yt-dlp --flat-playlist --print "%(id)s|%(title)s" <channel/videos>`;
    TelVue media ids come from the player page's gallery HTML.
 2. Write `speakers_<year>.json` with that year's board (who chaired matters).
+   Read the roll call and the organizational meeting out of D1 rather than
+   guessing: the officer slate is in the January minutes, and the cabinet can
+   turn over mid-season. Then narrow it per meeting — drop whoever the minutes
+   record as absent, and spend the freed slots (the API caps at 10) on the
+   administrators that meeting's agenda says will present.
 3. Acquire audio per manifest (yt-dlp audio-only; for TelVue take the `worst`
-   video variant and extract audio) and transcribe in waves of ~5.
-4. Audit the attribution table (see "trust, but verify"); re-run degenerate
-   meetings (≤3 clusters) with hi-fi stereo audio + `--min-speakers/--max-speakers`;
-   fix the rest with evidence-based `overrides`.
+   video variant and extract audio) and transcribe in waves of ~5. They run
+   concurrently — five meetings finish in about the time the longest takes.
+4. Audit every meeting with `audit_attribution.py`, passing the attendance the
+   minutes record (see "Audit every meeting against the minutes"); re-run
+   degenerate meetings (≤3 clusters) with hi-fi stereo audio +
+   `--min-speakers/--max-speakers`; fix the rest with evidence-based `overrides`.
 5. `make_anchors.py --agenda` per meeting → `upload_transcript.py` for every
    site-eligible meeting → refresh `transcripts/` deliverables → extend
    `upload_captions.py`'s manifest and run it (mind the quota).
