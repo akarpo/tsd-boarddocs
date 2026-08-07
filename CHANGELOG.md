@@ -42,6 +42,33 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.17.0] — 2026-08-07
+
+**The 2025 season is whole: Feb 11 rejoined from its two part uploads.**
+
+- The Feb 11 workshop existed only as two YouTube parts, and **TelVue has no Feb 11
+  recording at all** — its catalogue jumps from Jan 21 to Feb 25 — so there was no
+  pristine single source to re-download. Both parts were pulled at full quality and
+  rejoined losslessly (concat demuxer, stream copy) into one 4:02:26 video, uploaded
+  as `1-P9EUyx9N0`. The minutes record the workshop running 6:00 p.m. to 10:00 p.m.,
+  which matches the joined runtime and confirms nothing is missing.
+- Re-transcribed as one meeting from the joined full-quality stereo audio (the muxed
+  360p track is weaker) using the new **2025 H1 era keyterms**: 12 clusters,
+  **7.7% unattributed**, and the identifier's three `Nancy Philippart - N` clusters
+  collapse correctly onto one person.
+- **All 19 recorded 2025 meetings are now live.** The two part videos remain on the
+  channel and can be deleted.
+- `docs/TRANSCRIPTION.md` now records that **the TelVue catalogue is the player
+  root** — one request with a browser UA returns the station's whole gallery with air
+  dates. Bisecting the id space does not work: ids are global across TelVue's
+  customers, so nearly every probe lands on another station and returns a blank title.
+
+### Found while enumerating
+
+- **2025-05-06 is on TelVue** (media 951580) but the season notes list it among the
+  meetings that "were not televised". That claim is wrong for at least this date; the
+  workshop exists in D1 and a recording exists. Not yet transcribed.
+
 ## [0.16.0] — 2026-08-07
 
 **The 2025 season is published — all six TelVue-only recordings are on the channel.**

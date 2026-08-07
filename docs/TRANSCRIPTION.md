@@ -203,8 +203,13 @@ speakers that had been demoted to `Public commenter` back into named teachers.
 1. Build `transcription/manifest_<year>.json`: one row per meeting — D1
    `name`, source (`yt:<id>` / `telvue:<mediaId>` / `local`), site-eligibility,
    exact channel title. Enumerate the channel with
-   `yt-dlp --flat-playlist --print "%(id)s|%(title)s" <channel/videos>`;
-   TelVue media ids come from the player page's gallery HTML.
+   `yt-dlp --flat-playlist --print "%(id)s|%(title)s" <channel/videos>`.
+   **The TelVue catalogue is the player root**, `https://videoplayer.telvue.com/player/<token>`
+   with a browser User-Agent: it returns the station's whole gallery as `/media/<id>`
+   links each followed by its air date, which is the authoritative list of what
+   TelVue actually holds. Do not try to bisect the id space — ids are global across
+   TelVue's customers, so almost every probe in a range belongs to another station
+   and returns a blank title.
 2. Write `speakers_<year>.json` with that year's board (who chaired matters).
    Read the roll call and the organizational meeting out of D1 rather than
    guessing: the officer slate is in the January minutes, and the cabinet can
