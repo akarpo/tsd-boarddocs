@@ -42,6 +42,26 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.15.1] — 2026-08-07
+
+**Cleared the split-cluster artifact out of everything already published.**
+
+- The nine 2025/2026 transcripts carrying `Nancy Philippart - 1` / `- 2` labels
+  (and 2025-11-18's nine `Unknown - N` clusters) were regenerated offline from
+  their stored transcript ids, so `clean_mapping()` now normalises what ships.
+  2025-11-18's unplaceable clusters correctly fall back to Speaker letters
+  instead of a fabricated "Unknown" name.
+- **`upload_transcript.py` had its own `namer()`** reading the raw mapping, so
+  fixing the transcriber alone would have left the site serving the artifact
+  after the deliverables were clean. It now shares `clean_mapping`. Seven live
+  meetings re-uploaded; `/api/recording` verified artifact-free on all seven.
+- Deliverables in `transcripts/` and the staged SRTs in the YouTube upload kit
+  refreshed for all nine. Caption tracks re-pushed for the seven with videos —
+  two updated, and five that turned out never to have been pushed at all, which
+  also clears five of the queued 2025 caption backlog.
+- 2025-02-25 and 2025-11-18 remain local-only: they are TelVue recordings whose
+  videos are still staged for upload, so they have no D1 rows and no captions.
+
 ## [0.15.0] — 2026-08-07
 
 **The rest of the 2024 season, and a vocabulary per era.**

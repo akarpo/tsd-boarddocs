@@ -25,8 +25,11 @@ so the meeting page can join the recording to its document set. Executes with
 for the deployed site).
 """
 from __future__ import annotations
-import argparse, json, subprocess, tempfile
+import argparse, json, subprocess, sys, tempfile
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from transcribe_meeting import clean_mapping
 
 DB = "tsd-boarddocs"
 
@@ -54,7 +57,12 @@ def q(s):  # SQL single-quote escape
 
 
 def namer(spec):
-    mapping = dict(spec.get("mapping") or {})
+    # Same normalisation the transcriber applies: strip the identifier's
+    # split-cluster indices ("Nancy Philippart - 2") and drop "Unknown - N",
+    # so what lands in D1 matches the committed transcript exactly. This file
+    # having its own namer is why the artifact reached the site as well as the
+    # deliverables — fix one, and the other still ships it.
+    mapping = clean_mapping(spec.get("mapping") or {})
     mapping.update(spec.get("overrides") or {})
     splits = {s["cluster"]: s for s in spec.get("splits") or []}
 
