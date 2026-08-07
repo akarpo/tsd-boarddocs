@@ -74,7 +74,13 @@ def agenda_candidates(agenda_path, utts):
             low = u["text"].lower()
             hits = sum(1 for t in toks if t in low)
             if hits >= 2:
-                label = (f"{item} " if item else "") + tidy(re.sub(r"^\d[\s.A-F]*", "", title))
+                # Strip an agenda-item prefix ("4.E. Establish Fund Depositories"), but only
+                # a complete one: the marker has to end in a dot before the whitespace.
+                # A looser class ate the title's own first letter whenever it fell in A-F —
+                # "4.E. Establish" became "Stablish", "5.F Food Service" became "Ood Service" —
+                # and a bare ^\d would swallow the year off "2024 Proposed Bylaws".
+                label = (f"{item} " if item else "") + tidy(
+                    re.sub(r"^\d{1,2}(?:\.[A-Za-z0-9]{1,3})*\.\s+", "", title))
                 out.append((u["start"], label.strip(), 1))
                 if item:
                     used_items.add(item)

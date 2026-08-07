@@ -42,6 +42,50 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.15.0] — 2026-08-07
+
+**The rest of the 2024 season, and a vocabulary per era.**
+
+### Meeting recordings — 2024 complete
+
+- The five first-half meetings — Jan 16 (organizational), Feb 27, Mar 19, Apr 16,
+  May 21 — are transcribed, audited and live. Every recording the channel holds
+  for 2024 is now on the site; D1 goes 29 → 34 recordings.
+- Two meetings needed the degenerate-diarization remedy, and one needed it twice.
+  Apr 16 came back as **2 clusters for 94 minutes**; full-fidelity stereo at
+  `--min-speakers 6` gave 9, and `--min-speakers 14` gave **30 clusters, 24
+  named**. Mar 19 returned 4 clusters for 2.5 hours — above the ≤3 flag but
+  plainly collapsed — and the hi-fi re-run doubled it. Cluster count has to be
+  judged against duration.
+- YouTube 403'd the two longest downloads. `-f 140/bestaudio` with retries fixes
+  it; overriding the player client does not (it leaves only image formats).
+
+### `era_keyterms.py` — the vocabulary has to match the era
+
+- New: harvests an era's people out of its own board minutes — attendance roll
+  calls, movers and supporters, presenters with titles, student representatives,
+  podium speakers — and merges them with the base vocabulary. One list per
+  six-month era.
+- The 2025-26 list does not merely omit older names, it **pulls unfamiliar ones
+  toward the district names it contains**: two 2024 meetings produced
+  `Ryan Zawislak` and `Brian Zawislak`, Zawislak being a district surname in that
+  list, where the minutes say Ryan Stasinski and Brian Fahnestock.
+- Run against 2024 H1 it recovered both speakers that had been demoted to
+  `Public commenter` for lack of a reliable name: **Brian Fahnestock** (Baker
+  Middle School teacher) and **Katie Starn**, whom the chair had announced as
+  "Katie Skarn". Run against 2024 H2 it confirmed the other three demotions were
+  right — those commenters are named nowhere.
+
+### Fixed — the anchor labeller was eating the first letter of titles
+
+- `^\d[\s.A-F]*` was meant to strip an agenda-item prefix but kept consuming
+  letters A-F from the title itself: "4.E. Establish Fund Depositories" became
+  "Stablish Fund Depositories", "5.F Food Service Contract" became "Ood Service
+  Contract", "2.A Athens Boys Soccer" became "Thens Boys Soccer". A bare `^\d`
+  also swallowed the year off "2024 Proposed Bylaws". Now the marker must be
+  complete — digits, optional letter, a dot, whitespace — before anything is
+  stripped. All ten 2024 meetings had their anchors regenerated and re-uploaded.
+
 ## [0.14.0] — 2026-08-07
 
 **The 2024 season opens, and speaker attribution gets a gate.**

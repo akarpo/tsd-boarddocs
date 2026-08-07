@@ -36,11 +36,18 @@ The docs and pricing pages lag the API — these were confirmed by probing:
 - **Diarization**: `speaker_labels: true` (+$0.02/hr) yields anonymous A/B/C…
   clusters. Speaker-count hints must be NESTED — `speaker_options:
   {min_speakers_expected, max_speakers_expected}` (top-level variants 400).
-  **When clustering degenerates** (the 2026-06-01 workshop — a different room's
-  mic chain — collapsed 3.4 hours into 2 clusters and the identifier labeled one
-  "Unknown"), re-run with `--min-speakers 6 --max-speakers 25` and
-  full-fidelity stereo audio instead of the 16 kHz mono downmix: that combination
-  took June 1 from 2 unusable clusters to 9, all identified.
+  **When clustering degenerates**, escalate in two steps. The 2026-06-01
+  workshop — a different room's mic chain — collapsed 3.4 hours into 2 clusters
+  and the identifier labeled one "Unknown"; full-fidelity stereo audio instead of
+  the 16 kHz mono downmix, plus `--min-speakers 6 --max-speakers 25`, took it to
+  9 clusters, all identified. 2024-04-16 needed the second step: hi-fi at
+  `--min-speakers 6` still merged 3,197 words of student and teacher remarks into
+  one cluster, and raising the floor to `--min-speakers 14` split the meeting into
+  30 clusters, 24 of them named. Set the floor from how many people the *minutes*
+  say spoke, not from how many the first pass found.
+  **Judge cluster count against duration**, not in absolute terms: 2024-03-19
+  returned 4 clusters for a 2.5-hour meeting with 300 people in the room — above
+  the ≤3 "degenerate" line, but plainly collapsed. Its re-run doubled it to 8.
 - **Speaker identification** (names, not letters): separate call, works on an
   already-completed transcript — `POST https://llm-gateway.assemblyai.com/v1/understanding`
   with `speech_understanding.request.speaker_identification =
@@ -151,18 +158,33 @@ archive searchable — but each one needs a source before it ships:
   ("Mrs. Lauren Haroun … Anne Haroun?") and another as `Joseph Kolbe` when the
   man said "Joseph Colby Bernhardt". They ship as `Public commenter`.
 
+## Era keyterms — build the vocabulary for the year you are transcribing
+
+`transcription/era_keyterms.py --start 2024-01-01 --end 2024-06-30 --label 2024H1`
+harvests that era's people out of its board minutes — attendance roll calls,
+movers and supporters, presenters with titles, student representatives, and the
+people the minutes name at the podium — and merges them with the base
+vocabulary. Build one per six-month era and pass it with `--keyterms`.
+
+This is not optional politeness to the older meetings. The committed 2025-26
+list actively *misleads* an older transcript: it pulls unfamiliar names toward
+the district names it contains. Two 2024 meetings produced `Ryan Zawislak` and
+`Brian Zawislak` — Zawislak being a district surname in that list — where the
+minutes say Ryan Stasinski and Brian Fahnestock. The era pass found Fahnestock,
+and found `Katie Starn` where the chair had announced "Katie Skarn", turning two
+speakers that had been demoted to `Public commenter` back into named teachers.
+
 ## Season coverage (as of 2026-08-07)
 
-- **2024 — first wave live.** The five newest recorded regular meetings
-  (Jun 20, Sep 17, Oct 15, Nov 19, Dec 17) are transcribed, audited against
-  their minutes and live on the site. The 2024 board is the pre-election seven
-  (Schmidt president, Anne vice president, Hauff secretary) and Business
-  Services changes hands mid-year, so the season carries two rosters —
-  `speakers_2024.json` (Trudel) and `speakers_2024_h1.json` (West).
-  `manifest_2024.json` has the rest: five more regular meetings on the channel
-  (Jan 16, Feb 27, Mar 19, Apr 16, May 21), and 13 meetings — every workshop,
-  both June specials, and the Jul 16 and Aug 20 regulars — with no recording
-  located anywhere yet.
+- **2024 — every recording on the channel is live.** All ten recorded regular
+  meetings (Jan 16 organizational, Feb 27, Mar 19, Apr 16, May 21, Jun 20,
+  Sep 17, Oct 15, Nov 19, Dec 17) are transcribed, audited against their minutes
+  and on the site. The 2024 board is the pre-election seven (Schmidt president,
+  Anne vice president, Hauff secretary) and Business Services changes hands
+  mid-year, so the season carries two rosters — `speakers_2024.json` (Trudel)
+  and `speakers_2024_h1.json` (West). 13 meetings — every workshop, both June
+  specials, and the Jul 16 and Aug 20 regulars — have no recording located
+  anywhere; `manifest_2024.json` records them as `src: null` with a note.
 
 - **2026 — complete.** All 12 televised meetings (5 workshops, 7 regulars) live
   on the site with embed + named transcript + chapters, and caption tracks
