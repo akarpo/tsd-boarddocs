@@ -135,6 +135,16 @@ clusters), **UNATTRIBUTED** (>30% of words still on Speaker letters), **ABSENT**
 (words attributed to someone the minutes record as absent) and **MISSING** (a
 trustee recorded present who never speaks).
 
+**Absence is not the same as non-attendance.** Trustees join remotely, and the
+minutes say so in prose the roll-call line does not contain: "Mrs. Alic connected
+via remote communications", "Dr. Philippart was not in attendance but connected to
+the workshop remotely", "Mrs. Hammond participated via phone conference". Read the
+whole attendance paragraph, not just the `present were` list — scoring 2025-10-07
+off the list alone flagged Emina Alic as absent when she was participating. A real
+absence reads the other way round: 2025-05-20's minutes say the vice president
+presided "for President Philippart who was not in attendance", with no remote
+language anywhere in the document.
+
 ABSENT and MISSING are the ones worth building a wave around, because they are
 checkable against a source outside the audio. Every meeting's minutes open with
 a roll call — "In addition to Mr. Schmidt, present were Board members Alic,

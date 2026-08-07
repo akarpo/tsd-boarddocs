@@ -42,6 +42,49 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.18.0] — 2026-08-07
+
+**Archive-wide attribution inspection: two trustees were quoted on nights they were absent.**
+
+- Built an attendance table for **96 meetings** by parsing every minutes document's
+  roll call, then checked all 41 transcripts against it. Five flags, three of them
+  false positives worth recording: Potts (2024-04-16) and Melton (2024-05-21) spoke
+  as residents *before* joining the board, and **Alic (2025-10-07) was participating
+  remotely** — the minutes say "connected via remote communications", which the
+  `present were` list does not contain.
+- **Two were real.** On 2025-05-20 and 2025-10-14 the vice president chaired while
+  President Philippart was absent, and the identifier — expecting the president to be
+  chairing — put 1,437 and 1,759 words in her mouth. Both clusters are Vital Anne;
+  on 2025-10-14 the speaker's own opening line is "welcome to the October 14th Board
+  of Education meeting. We have 6 of our 7 trustees present". Relabelled.
+- **Absence vs remote participation** is now documented as a distinct trap: read the
+  whole attendance paragraph, not the roll-call list.
+
+### The 13 unnamed-twin candidates
+
+Six resolved, seven deliberately left alone rather than guessed:
+
+| Meeting | Cluster | Resolution |
+| --- | --- | --- |
+| 2024-04-16 | C | Karl Schmidt — reads public-comment cards aloud |
+| 2024-05-21 | C | Karl Schmidt — "I'll read—", "Just get through it. Okay, moving on." |
+| 2025-03-18 | B | Nancy Philippart — calls each trustee for comments (one student line rides along mid-cluster and cannot be split out) |
+| 2025-05-20 | B | Vital Anne — opens the meeting alongside cluster A |
+| 2025-10-14 | B | Vital Anne — "Resolution passes.", "Mr. Haupt." |
+| 2026-02-24 | B | Vital Anne — recognitions floor management |
+| 2024-04-16 | D | left — interjections mixed with a student's remarks |
+| 2024-12-17 | F | left — chair vs Hauff unresolved |
+| 2025-02-25 | D | left — a recognitions reader the minutes do not name |
+| 2025-04-22 | E | left — mixed, includes a roll-call "I'm here." |
+| 2025-12-16 | F | left — reads honoree names; reader vs chair unresolved |
+| 2026-01-20 | C | left — merged: chair's roll calls plus a trustee's "Support." |
+| 2026-04-21 | B | left — chair-like, but the adjacency points at Machesky |
+
+- Unattributed after the pass: 0.0% on 2025-03-18, 2025-05-20 and 2026-05-19; 1.4%
+  on 2026-02-24; 9.2% on 2025-10-14.
+- **Pending:** the 2025-10-14 and 2026-02-24 caption tracks — YouTube's daily quota
+  hit 403 mid-run. Everything else is pushed.
+
 ## [0.17.1] — 2026-08-07
 
 **A second form of the split-cluster failure, which the earlier fix cannot catch.**
