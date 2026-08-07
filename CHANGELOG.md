@@ -42,6 +42,28 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.17.1] — 2026-08-07
+
+**A second form of the split-cluster failure, which the earlier fix cannot catch.**
+
+- On 2026-05-19 `Speaker B` was President Anne's own voice split into a second
+  cluster — 35 short floor-management turns that alternate with cluster A rather
+  than converse with it, on a night the minutes record Anne presiding. Fixed by
+  override; her share goes 2,243w → 2,358w.
+- The distinction that matters: `clean_mapping()` merges twins the identifier
+  *named* (`Nancy Philippart - 1` / `- 2`). When it names one twin and leaves the
+  other unlabelled, there is no suffix to strip and the twin ships as a bare
+  `Speaker` letter. Only an explicit override fixes that.
+- A scan of all 41 transcripts finds **13 clusters with the same profile** (≥12
+  turns averaging ≤6 words). They are *not* uniformly chair twins: sampling the
+  content shows some are the chair (2024-04-16 reading public-comment cards,
+  2025-10-14 calling on a trustee), one is a student introducing herself by name
+  (2025-03-18, "my name is Vanessa Liu"), and several are recognitions readers.
+  Each needs its own evidence pass; blanket-merging would fabricate attributions.
+- Also named 2026-05-19's award nominator from the minutes — Rebecca Roy, who
+  nominated honoree Matt Snitgen — via a timestamp split rather than labelling the
+  whole cluster, since its last turn is a different voice.
+
 ## [0.17.0] — 2026-08-07
 
 **The 2025 season is whole: Feb 11 rejoined from its two part uploads.**

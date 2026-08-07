@@ -80,7 +80,18 @@ The identifier is good, not infallible. On 2026-07-22 it mapped 6 of 9 clusters
 correctly, left one unmapped, and guessed one wrong. Diarization itself has two
 failure modes to check for:
 
-- **One voice, two clusters** — the chair's 85 minutes split into A + B.
+- **One voice, two clusters** — the chair's 85 minutes split into A + B. When the
+  identifier *names* both twins it marks them `Nancy Philippart - 1` / `- 2` and
+  `clean_mapping()` merges them. **When it names one twin and leaves the other
+  unlabelled there is no suffix to strip**, and the second twin ships as a bare
+  `Speaker B` — which is what happened on 2026-05-19, where B was President Anne's
+  own floor management ("Next up is Boulan Park Middle School"). An unnamed twin
+  needs an explicit `overrides` entry; nothing automatic will catch it.
+  The tell: a cluster with many turns but very few words each (≤6 words/line over
+  12+ turns) that *alternates* with a named speaker instead of conversing with them.
+  Read the content before merging — the same profile also fits a recognitions
+  reader or a student, and on 2025-03-18 that cluster turned out to be a student
+  introducing herself by name.
 - **Two voices, one cluster** — the remote trustee (phone audio) and the podium
   public commenter shared cluster I; a few utterances of a second trustee rode
   along with an adjacent one (E).
