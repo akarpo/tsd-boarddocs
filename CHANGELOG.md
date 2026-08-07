@@ -42,6 +42,22 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.18.2] — 2026-08-07
+
+**Correction: the YouTube quota is real, and we exhausted it.**
+
+- Measured consumption for the day is **~20,600 units**, about 2.1x the 10,000-unit
+  default — so this project has a raised quota, and the day's work spent all of it.
+  Seven `videos.insert` calls account for 11,200 (54%); the rest is ~8,000 in caption
+  inserts and updates plus verification reads.
+- The 0.16.0 note read the first six uploads succeeding as evidence the ceiling was
+  not binding. That was premature: it is binding, just further out than the default
+  arithmetic predicts. Once exhausted, **even a 50-unit `captions.list` read 403s**,
+  so verification is impossible until reset (midnight Pacific).
+- Practical budget for planning: ~1,650 per meeting to publish a video, ~400 for a
+  new caption track, ~450 to update one. A full backfill day is roughly a dozen
+  meetings, not unlimited.
+
 ## [0.18.1] — 2026-08-07
 
 **Caption coverage: the 2024 season was never in the captions manifest.**
@@ -162,9 +178,10 @@ Six resolved, seven deliberately left alone rather than guessed:
   transcript and an "English (speaker-attributed)" caption track — verified through
   the Data API, one track per video, 6 of 6. Only Feb 11 stays off: it exists on the
   channel as two part uploads rather than one recording.
-- The day's quota comfortably absorbed six `videos.insert` (1,600 each), six
-  thumbnails and thirteen caption pushes — the 10,000-unit ceiling was never the
-  binding constraint that the earlier notes assumed.
+- The day's quota absorbed six `videos.insert` (1,600 each), six thumbnails and
+  thirteen caption pushes. **Corrected in 0.18.2:** this was read at the time as
+  the 10,000-unit ceiling not being binding. It is binding — the project simply has
+  a raised quota, and later work in the same day exhausted it.
 - `manifest_2025.json` now records every meeting's real `yt:` source, and
   `upload_captions.py` carries all six new videos.
 
