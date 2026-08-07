@@ -42,6 +42,21 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.18.1] — 2026-08-07
+
+**Caption coverage: the 2024 season was never in the captions manifest.**
+
+- `upload_captions.py` listed 31 meetings — 12 from 2026, 19 from 2025, and **none
+  from 2024**. All ten 2024 videos have therefore never carried a caption track, and
+  the attribution fixes made to 2024-04-16 and 2024-05-21 had nothing to update.
+  All ten are now in the manifest with their titles; a dry run resolves each SRT to
+  its video.
+- Outstanding caption pushes, all blocked on YouTube's daily quota (403, exhausted
+  after the day's seven video uploads and ~20 caption operations):
+  the ten 2024 tracks, plus 2025-10-14 and 2026-02-24 whose attribution changed
+  today. Their transcripts and site pages are already correct — only the caption
+  files lag.
+
 ## [0.18.0] — 2026-08-07
 
 **Archive-wide attribution inspection: two trustees were quoted on nights they were absent.**

@@ -56,9 +56,29 @@ MEETINGS = [  # date, kind, youtube video id
     ("2025-12-16", "", "t1a1rKAYn4E"),  # 2025: Regular Meeting
     ("2025-10-14", "", "cjjyxD3_Z8A"),  # 2025: Regular Meeting
     ("2025-03-08", "", "ePCmC8TTgrw"),  # 2025: Winter Retreat
+    ("2024-01-16", "", "42C3J23nSgY"),  # 2024: Organizational and Regular Meeting
+    ("2024-02-27", "", "UOpDDauFT3Q"),  # 2024: Standing Meeting
+    ("2024-03-19", "", "kya2LJZ7JZA"),  # 2024: Standing Meeting
+    ("2024-04-16", "", "E8b2gueTz9E"),  # 2024: Standing Meeting
+    ("2024-05-21", "", "x5TY4kPciXA"),  # 2024: Standing Meeting
+    ("2024-06-20", "", "i08-yMRkGNE"),  # 2024: Standing Meeting
+    ("2024-09-17", "", "C2VBgy4VYrQ"),  # 2024: Standing Meeting
+    ("2024-10-15", "", "YhO8yLFhrAU"),  # 2024: Standing Meeting
+    ("2024-11-19", "", "8CQe-v76DBE"),  # 2024: Standing Meeting
+    ("2024-12-17", "", "y_9zekv7j2Y"),  # 2024: Standing Meeting
 ]
 SRT_DIR = Path(__file__).resolve().parent.parent / "transcripts"
 TITLE_BY_VID = {
+"42C3J23nSgY": "2024-01-16 - Troy (MI) School District - Board of Education - Organizational and Regular Meeting",
+"UOpDDauFT3Q": "2024-02-27 - Troy (MI) School District - Board of Education - Standing Meeting",
+"kya2LJZ7JZA": "2024-03-19 - Troy (MI) School District - Board of Education - Standing Meeting",
+"E8b2gueTz9E": "2024-04-16 - Troy (MI) School District - Board of Education - Standing Meeting",
+"x5TY4kPciXA": "2024-05-21 - Troy (MI) School District - Board of Education - Standing Meeting",
+"i08-yMRkGNE": "2024-06-20 - Troy (MI) School District - Board of Education - Standing Meeting",
+"C2VBgy4VYrQ": "2024-09-17 - Troy (MI) School District - Board of Education - Standing Meeting",
+"YhO8yLFhrAU": "2024-10-15 - Troy (MI) School District - Board of Education - Standing Meeting",
+"8CQe-v76DBE": "2024-11-19 - Troy (MI) School District - Board of Education - Standing Meeting",
+"y_9zekv7j2Y": "2024-12-17 - Troy (MI) School District - Board of Education - Standing Meeting",
 "1-P9EUyx9N0": "2025-02-11 - Troy (MI) School District - Board of Education - Workshop Meeting",
 "ePCmC8TTgrw": "2025-03-08 - Troy (MI) School District - Board of Education - Winter Retreat",
 "cjjyxD3_Z8A": "2025-10-14 - Troy (MI) School District - Board of Education - Regular Meeting",
