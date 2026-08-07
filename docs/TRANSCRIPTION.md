@@ -190,13 +190,13 @@ speakers that had been demoted to `Public commenter` back into named teachers.
   on the site with embed + named transcript + chapters, and caption tracks
   ("English (speaker-attributed)") on all 12 YouTube videos. Only the Mar 3
   workshop was never recorded anywhere.
-- **2025 — transcribed; publishing in progress.** All 19 recorded meetings
-  transcribed and QA'd (Jan 14, May 6, Jul 15, Aug 19 were not televised);
-  12 live on the site. The remaining work is YouTube-quota-bound (10K
-  units/day; a video upload costs 1,600, a caption 400): six TelVue-only
-  videos are downloaded and staged in `~/Downloads/youtube-upload/` awaiting
-  `upload_videos.py`, after which their six meeting pages wire up and the
-  14 × 2025 caption tracks push via `upload_captions.py`.
+- **2025 — complete.** All 19 recorded meetings are transcribed and QA'd (Jan 14,
+  May 6, Jul 15, Aug 19 were not televised), and **18 are live on the site** with
+  embed, chapters, named transcript and an "English (speaker-attributed)" caption
+  track. The six TelVue-only recordings — Jan 21 organizational, Feb 25, Mar 8
+  Winter Retreat, Oct 14, Nov 18 and Dec 16 — were uploaded to the channel on
+  2026-08-07 and wired the same day. Only the Feb 11 workshop stays off the site:
+  it exists on the channel as two separate part uploads rather than one recording.
 
 ## Backfilling a season (the 2025 pattern)
 

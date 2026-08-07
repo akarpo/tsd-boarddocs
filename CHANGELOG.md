@@ -42,6 +42,25 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   new `/admin` buttons. Unconfigured, questions flow straight through; failed
   sends degrade to unmoderated instead of stranding the asker.
 
+## [0.16.0] — 2026-08-07
+
+**The 2025 season is published — all six TelVue-only recordings are on the channel.**
+
+- Uploaded, wired and captioned in one pass: Jan 21 organizational (`sTzIheFJq-A`),
+  Feb 25 (`uhNHN8v5O2g`), Mar 8 Winter Retreat (`ePCmC8TTgrw`), Oct 14
+  (`cjjyxD3_Z8A`), Nov 18 (`MpmAQMClpiA`) and Dec 16 (`t1a1rKAYn4E`). Titles follow
+  the channel convention, `YYYY-MM-DD - Troy (MI) School District - Board of
+  Education - <Kind>`, taken from the staged filename so they match exactly.
+- **18 of the 19 recorded 2025 meetings are now live** with embed, chapters, named
+  transcript and an "English (speaker-attributed)" caption track — verified through
+  the Data API, one track per video, 6 of 6. Only Feb 11 stays off: it exists on the
+  channel as two part uploads rather than one recording.
+- The day's quota comfortably absorbed six `videos.insert` (1,600 each), six
+  thumbnails and thirteen caption pushes — the 10,000-unit ceiling was never the
+  binding constraint that the earlier notes assumed.
+- `manifest_2025.json` now records every meeting's real `yt:` source, and
+  `upload_captions.py` carries all six new videos.
+
 ## [0.15.1] — 2026-08-07
 
 **Cleared the split-cluster artifact out of everything already published.**

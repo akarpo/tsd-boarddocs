@@ -51,9 +51,21 @@ MEETINGS = [  # date, kind, youtube video id
     ("2025-10-07", "", "_loP9DZspq4"),  # 2025: Workshop Meeting
     ("2025-11-11", "", "kXSehoFagAQ"),  # 2025: Workshop Meeting
     ("2025-12-09", "", "MNKHsdr5otw"),  # 2025: Workshop Meeting
+    ("2025-02-25", "", "uhNHN8v5O2g"),  # 2025: Regular Meeting
+    ("2025-11-18", "", "MpmAQMClpiA"),  # 2025: Regular Meeting
+    ("2025-01-21", "", "sTzIheFJq-A"),  # 2025: Organizational and Regular Meeting
+    ("2025-12-16", "", "t1a1rKAYn4E"),  # 2025: Regular Meeting
+    ("2025-10-14", "", "cjjyxD3_Z8A"),  # 2025: Regular Meeting
+    ("2025-03-08", "", "ePCmC8TTgrw"),  # 2025: Winter Retreat
 ]
 SRT_DIR = Path(__file__).resolve().parent.parent / "transcripts"
 TITLE_BY_VID = {
+"ePCmC8TTgrw": "2025-03-08 - Troy (MI) School District - Board of Education - Winter Retreat",
+"cjjyxD3_Z8A": "2025-10-14 - Troy (MI) School District - Board of Education - Regular Meeting",
+"t1a1rKAYn4E": "2025-12-16 - Troy (MI) School District - Board of Education - Regular Meeting",
+"sTzIheFJq-A": "2025-01-21 - Troy (MI) School District - Board of Education - Organizational and Regular Meeting",
+"MpmAQMClpiA": "2025-11-18 - Troy (MI) School District - Board of Education - Regular Meeting",
+"uhNHN8v5O2g": "2025-02-25 - Troy (MI) School District - Board of Education - Regular Meeting",
 "uorMc9xlNH4": "2025-02-11 - Troy (MI) School District - Board of Education - Workshop Meeting - Part 1",
 "4GUnzjMBZuA": "2025-02-11 - Troy (MI) School District - Board of Education - Workshop Meeting - Part 2",
 "07c94iVHEUE": "2025-03-04 - Troy (MI) School District - Board of Education - Workshop Meeting",
