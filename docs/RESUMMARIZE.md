@@ -110,6 +110,32 @@ the event happened.
 Cheap pre-flight: after drafting, grep the draft for 4+-digit figures and confirm
 each appears in that batch's part files before running the validator.
 
+### What the validator cannot see, and what catches it instead
+
+`validate_fanout.py` checks **figures**. It has no view of whether a sentence
+means what the source means. On 2026-08-08 pk_092 rendered the Adair resolution as
+"rescinding the Board's May 12, 1998 action to withdraw as a participant" — which
+attaches "to withdraw" to the 1998 action instead of the 2016 one and thereby
+reverses the district's position in a Headlee suit against the State. The source
+reads: "rescinds its action of May 12, 1998 and hereby withdraws as a participant
+in the Adair lawsuit, effective the date of this action, October 18, 2016." 1998
+was joining; 2016 was leaving.
+
+That sentence contains exactly one figure — 1998 — and 1998 is in the source, so
+the batch validated **100% clean with the meaning inverted**. The page and verbose
+tiers were both correct; only the paragraph was wrong. No check in this pipeline
+can catch that class of error.
+
+What caught it was reading the year in order. Each packet reproduces the previous
+meeting's minutes on consent, so consecutive batches summarize many of the same
+events from two different source documents — and the two renderings disagreed.
+**That overlap is a free consistency check on the batch before**, and it is a
+better argument for ascending-within-year than legibility is. When two summaries
+of one event disagree, go to the source text; the answer is always there.
+
+Watch for it hardest on rescissions, withdrawals, reversals and anything with two
+dates in one sentence, where the grammar decides which party did what to whom.
+
 ## Pacing
 
 `scripts/resummarize_queue.py` derives state from disk — a batch is done when its
@@ -261,16 +287,16 @@ Status as of 2026-08-08:
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **65 done, 86 pending** |
+| `packets` | 2010-2020 packet era | 151 | **79 done, 72 pending** |
 
-**Every year from 2017 onward is complete.** Coverage by year, reconciled across
+**Every year from 2016 onward is complete.** Coverage by year, reconciled across
 *all five* manifests rather than any single campaign's done-count:
 
 | year | done/total | campaign(s) |
 |---|---|---|
-| 2017-2026 | **complete** | `packets` (2017-2020) + the four finished campaigns |
-| 2016 | 9/15 | `packets` |
-| 2010-2015 | 0/95 | `packets` |
+| 2016-2026 | **complete** | `packets` (2016-2020) + the four finished campaigns |
+| 2015 | 8/13 | `packets` |
+| 2010-2014 | 0/82 | `packets` |
 
 The one-line check, which is the only tally worth trusting:
 
@@ -300,14 +326,13 @@ Remaining after the 2026-08-08 waves (batches/agents by filename date):
 
 | year | batches | agents |
 |---|---|---|
-| 2016 | 6 | 31 |
-| 2015 | 13 | 52 |
+| 2015 | 5 | 21 |
 | 2014 | 14 | 48 |
 | 2013 | 12 | 38 |
 | 2012 | 13 | 45 |
 | 2011 | 13 | 48 |
 | 2010 | 15 | 50 |
-| **total** | **86** | **313** |
+| **total** | **72** | **261** |
 
 ### `packets` is chunked far more finely
 
