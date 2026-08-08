@@ -96,3 +96,5 @@ Each run should print 'inserted' or 'updated' — do not pipe it through tail, w
 5. A caution: once the quota is exhausted even a 50-unit captions.list read returns 403, so verification becomes impossible until the next reset.
 
 If the repository cloned successfully, you may read CHANGELOG.md entries v0.18.0 through v0.18.2 and transcription/upload_captions.py to confirm the twelve dates are still listed in MEETINGS, and say so. If the clone is unavailable, just deliver the reminder from the details above — do not treat that as a failure.
+
+- **(2026-08-08 16:45 UTC)** Would the Blaine Amendment be a hindrance to the federal tax credit that's being used for public schools, specifically the Blaine Amendment in Michigan? I just can't quite wrap my head around that because the... I presume the Blaine Amendment is something that was adopted legislatively. So the reference to it requiring an amendment to the state constitution doesn't make any sense to me.
