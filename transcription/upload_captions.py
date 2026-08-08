@@ -69,7 +69,7 @@ MEETINGS = [  # date, kind, youtube video id
 ]
 SRT_DIR = Path(__file__).resolve().parent.parent / "transcripts"
 TITLE_BY_VID = {
-"42C3J23nSgY": "2024-01-16 - Troy (MI) School District - Board of Education - Organizational and Regular Meeting",
+"42C3J23nSgY": "2024-01-16 - Troy (MI) School District - Board of Education - Standing Meeting",
 "UOpDDauFT3Q": "2024-02-27 - Troy (MI) School District - Board of Education - Standing Meeting",
 "kya2LJZ7JZA": "2024-03-19 - Troy (MI) School District - Board of Education - Standing Meeting",
 "E8b2gueTz9E": "2024-04-16 - Troy (MI) School District - Board of Education - Standing Meeting",
