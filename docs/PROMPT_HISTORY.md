@@ -196,3 +196,16 @@ The latest updates on your project. Learn more about [integrating Git with Worke
 | -|-|-|-|
 | 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/432eb7be-ade1-41ef-ae81-70381ad97f41) | tsd-boarddocs | 04dd73f3 | Aug 08 2026, 06:03 PM |</untrusted_external_data>
 </github-webhook-activity>
+
+- **(2026-08-08 18:04 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/4d02d79d-5333-4c1a-9bcc-2de8595b271b) | tsd-boarddocs | b4ebc25b | Aug 08 2026, 06:04 PM |</untrusted_external_data>
+</github-webhook-activity>
