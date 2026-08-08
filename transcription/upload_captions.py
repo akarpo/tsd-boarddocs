@@ -20,6 +20,21 @@ One-time setup (≈5 min):
 
 Usage:  python3 transcription/upload_captions.py [--dry-run] [--only 2026-06-16]
 Re-runs update the existing track instead of duplicating it.
+
+AUDIT FIRST — this script reports what it uploaded, never what it was supposed to.
+Before spending upload quota, ask the API which videos actually lack the track
+(captions.list is 50 units vs insert's 400, so auditing all ~41 costs ~5 uploads).
+On 2026-08-08 a remembered owed-list of 12 was wrong both ways: 2 had already
+landed before an earlier 403, and 5 more had never been captioned at all. See
+"Audit before you push captions" in docs/TRANSCRIPTION.md for the snippet.
+
+Quota: ~41 list calls + 15 inserts exhausted the day. Run any verification sweep
+BEFORE the uploads, or wait for the reset (midnight Pacific / 3am Eastern).
+
+TITLE_BY_VID below is a FILENAME map, not a title map — it only derives the local
+.srt path. An entry disagreeing with the file on disk makes this script print
+"MISSING <name>.srt" and skip that video silently rather than fail. Copy titles
+from manifest_<year>.json's `title` field, which records the real channel title.
 """
 from __future__ import annotations
 import argparse, json, os, sys, time, urllib.parse, urllib.request

@@ -34,6 +34,30 @@ over 170K tokens are split into sections, summarized separately, then synthesize
 `dir`/`inDir`/`outDir` are emitted by `resummarize_queue.py next`; everything
 lives under `resummarize/` in the repo (see "State" below).
 
+### Store, then prove it stored
+
+`validate_fanout.py` **rewrites the store file each run**, so validating batches in
+separate invocations leaves only the last one staged and `summarize.py` reports
+`stored 1 summaries` for a wave of four. Validate every batch of a wave in ONE
+invocation:
+
+    TSD_FAN_MANIFEST=packets_manifest.json TSD_FAN_IN=packets TSD_FAN_OUT=packets_out \
+      python3 scripts/validate_fanout.py --only pk_109 --only pk_110   # ...all of them
+    python3 summarize.py --store-dir resummarize/stores/packets
+
+Then confirm the write landed by comparing local and live `verbose` lengths.
+**Query D1 directly — not the site API.** Turnstile now 403s any server-side call
+to `/api/summary`, so `curl`/`urllib` verification silently fails:
+
+```bash
+npx wrangler d1 execute tsd-boarddocs --remote --json \
+  --command "SELECT substr(url,-20) AS u, length(verbose) AS v FROM summaries
+             WHERE url LIKE '%011618Org_RegMtg.pdf'"
+```
+
+The column is **`verbose`**, not `summary_verbose`; the table is
+`summaries(url TEXT PRIMARY KEY, paragraph, page, verbose, updated)`.
+
 ## The two rules that make it safe
 
 **1. Agents may not do arithmetic.** The prompt forbids writing any number that
@@ -56,6 +80,35 @@ Only clean batches are staged for D1. A failed batch is re-run alone.
 Matching is **substring** against a comma/space-stripped copy of the source. An
 earlier tokenized version destroyed digit boundaries where two numbers sat
 adjacent and produced 46 false alarms that hid 6 real ones.
+
+### The cross-document figure trap
+
+The validator checks each figure against **that batch's own source**, which is the
+correct scope and also the one an author working through a year in order keeps
+walking into. Once you have read March, it is natural to write in the December
+summary that the site "moved from the 8 acres of Section 16 named in March" — and
+just as natural to reach for the March dollar figure while doing it. That figure is
+true, and it is *not in December's packet*, so it validates as `unknown` and the
+batch fails FABRICATED.
+
+This happened three times in the 2018-2017 waves (pk_118/119, pk_097, pk_107/108),
+always the same way and always on connective narrative rather than on the packet's
+own numbers. The fix is never to drop the connection — cross-meeting continuity is
+most of what these summaries are for — but to make it **nominal, not numeric**:
+
+> ✗ "the same buyer that took Section 16 for $3,383,000.00 in March"
+> ✓ "the same buyer that took the Section 16 land in March"
+
+> ✗ "would be financed with $11,000,000 of bonds in 2018"
+> ✓ "would be financed by bond issue in 2018"
+
+Figures that *are* quoted inside the packet — a minutes section reproducing last
+month's resolution, a memo citing a prior award — validate fine, because they are
+genuinely in the source. The rule is about where the number is printed, not where
+the event happened.
+
+Cheap pre-flight: after drafting, grep the draft for 4+-digit figures and confirm
+each appears in that batch's part files before running the validator.
 
 ## Pacing
 
@@ -97,6 +150,32 @@ have been wrong, and order is the one thing no per-batch check can see.
 The same shape as the path drift above and the orphan gap below — the tooling
 faithfully reports what it processed and has no opinion about what it was supposed
 to process. Putting the order in the manifest removes the second thing to remember.
+
+#### What the 2018-2017 waves actually did: descend by year, ascend within it
+
+`next` packs a wave off the manifest order. From 2026-08-07 the waves stopped using
+it, because `pack()` seeds one wave per split batch and then fills with singles —
+and by 2018 *every* remaining batch is a split, so the packer kept reaching past
+the year in hand. The working rule became:
+
+**Go down the ladder by year, up it within the year.** 2019, then 2018, then 2017,
+then 2016 — but January to December inside each. A year read in order is a year
+whose story is legible: the March resolution that sites a building, the December
+one that moves it, the January one that corrects a contractor's name. Read
+newest-first those are three unrelated items.
+
+That means claiming batches by hand rather than via `next`. There is no `claim`
+subcommand; take the lease directly:
+
+```python
+import sys, os
+sys.path.insert(0, 'scripts'); os.environ['TSD_FAN_MANIFEST'] = 'packets_manifest.json'
+import resummarize_queue as q
+q.take_lease(['pk_109', 'pk_110'])
+```
+
+`release` still clears them, `status` still shows them as in-flight. The only thing
+skipped is the headroom guardrail, so check `status` for the 5h reading first.
 
 ### In-flight leases
 
@@ -174,7 +253,7 @@ v0.8.9 changelog entry.
 
 ## Campaigns
 
-Status as of 2026-07-31:
+Status as of 2026-08-08:
 
 | campaign | scope | batches | status |
 |---|---|---|---|
@@ -182,12 +261,33 @@ Status as of 2026-07-31:
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **26 done, 125 pending** |
+| `packets` | 2010-2020 packet era | 151 | **58 done, 93 pending** |
 
-Everything from 2021 onward is re-summarized from full text. What remains is the
-packet era, worked **newest-first** (see "Working order" above — the queue honours
-this from the manifest as of 2026-08-06; before that only hand-picked waves did).
-2020 is finished and 2019 is 9 of 15; the queue resumes at `pk_127` (2019-06-04).
+**Every year from 2017 onward is complete.** Coverage by year, reconciled across
+*all five* manifests rather than any single campaign's done-count:
+
+| year | done/total | campaign(s) |
+|---|---|---|
+| 2017-2026 | **complete** | `packets` (2017-2020) + the four finished campaigns |
+| 2016 | 2/15 | `packets` |
+| 2010-2015 | 0/95 | `packets` |
+
+The one-line check, which is the only tally worth trusting:
+
+```bash
+python3 - <<'EOF'
+import json, collections, glob, os
+b = json.load(open('resummarize/packets_manifest.json'))['batches']
+done = {os.path.basename(p)[:-5] for p in glob.glob('resummarize/packets_out/pk_*.json')}
+yr = collections.defaultdict(lambda: [0, 0])
+for bid, keys in b.items():
+    y = keys[0][:4]; yr[y][1] += 1; yr[y][0] += bid in done
+for y in sorted(yr): print(f"{y}: {yr[y][0]}/{yr[y][1]}")
+EOF
+```
+
+Note it keys the year off the **document key** (`2018_117_...`), not the URL path —
+see the folder-date warning below.
 
 **Count the packet era by filename date, not by folder date.** The 2010-12 and
 2018-19 packet folders carry placeholder dates (`YYYY-01-01`), which `build_index.py`
@@ -196,21 +296,18 @@ its folder says 2019-01-01. Batch ids were assigned off the *repaired* dates and
 correctly chronological, but any tally computed from the url path is not: doing that
 put ten 2018 meetings in 2019 and reported 2019 complete when six batches remained.
 
-Remaining after the 2026-08-06 waves (batches/agents by filename date):
+Remaining after the 2026-08-08 waves (batches/agents by filename date):
 
 | year | batches | agents |
 |---|---|---|
-| 2019 | 6 | 31 |
-| 2018 | 10 | 49 |
-| 2017 | 14 | 60 |
-| 2016 | 15 | 59 |
+| 2016 | 13 | 52 |
 | 2015 | 13 | 52 |
 | 2014 | 14 | 48 |
 | 2013 | 12 | 38 |
 | 2012 | 13 | 45 |
 | 2011 | 13 | 48 |
 | 2010 | 15 | 50 |
-| **total** | **125** | **480** |
+| **total** | **93** | **334** |
 
 ### `packets` is chunked far more finely
 

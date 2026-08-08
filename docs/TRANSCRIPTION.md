@@ -195,7 +195,12 @@ minutes say Ryan Stasinski and Brian Fahnestock. The era pass found Fahnestock,
 and found `Katie Starn` where the chair had announced "Katie Skarn", turning two
 speakers that had been demoted to `Public commenter` back into named teachers.
 
-## Season coverage (as of 2026-08-07)
+## Season coverage (as of 2026-08-08)
+
+**All 41 channel videos carry the "English (speaker-attributed)" caption track**
+as of 2026-08-08 — 2024, 2025 and 2026 complete. The last 15 were pushed that
+morning after an API audit found the owed list was wrong in both directions; see
+"Audit before you push captions" below.
 
 - **2024 — every recording on the channel is live.** All ten recorded regular
   meetings (Jan 16 organizational, Feb 27, Mar 19, Apr 16, May 21, Jun 20,
@@ -246,7 +251,47 @@ speakers that had been demoted to `Public commenter` back into named teachers.
    `--min-speakers/--max-speakers`; fix the rest with evidence-based `overrides`.
 5. `make_anchors.py --agenda` per meeting → `upload_transcript.py` for every
    site-eligible meeting → refresh `transcripts/` deliverables → extend
-   `upload_captions.py`'s manifest and run it (mind the quota).
+   `upload_captions.py`'s manifest and run it (see "Audit before you push
+   captions" below).
+
+## Audit before you push captions
+
+`upload_captions.py` reports what it uploaded. It has never reported what it was
+*supposed* to upload, and the difference is not academic: on 2026-08-08 the owed
+list carried in notes was 12, and a pre-flight audit against the API found **15**.
+It was wrong in both directions — two meetings believed owed (2025-10-14,
+2026-02-24) had actually landed before an earlier quota 403, and **five 2025
+videos had never been captioned at all** and appeared on nobody's list.
+
+So never work from a remembered list. Ask the API which videos lack the track:
+
+```python
+import sys
+sys.path.insert(0, 'transcription'); import upload_captions as uc
+tok = uc.access_token()
+for d, k, v in uc.MEETINGS:
+    data = uc.http(f"https://www.googleapis.com/youtube/v3/captions?part=snippet&videoId={v}",
+                   headers={"authorization": f"Bearer {tok}"})
+    ours = [i for i in data.get("items", [])
+            if i["snippet"].get("name") == uc.TRACK_NAME
+            and i["snippet"].get("trackKind") != "asr"]
+    print(f"{d} {v} {'HAVE' if ours else 'MISSING'}")
+```
+
+`captions.list` is only **50 units** against `insert`'s 400, so auditing all ~41
+videos costs about the same as five uploads and is the cheapest possible insurance.
+Budget the whole job: 41 lists + 15 inserts ≈ 8,050 units exhausted the daily
+quota, and the post-push re-audit only got through 27 videos before 403ing. If a
+verification sweep matters, run it *before* spending the quota on uploads, or wait
+for the reset (midnight Pacific / 3:00 a.m. Eastern).
+
+**`TITLE_BY_VID` is a filename map, not a title map.** It is used only to derive
+the local `.srt` path, so an entry that disagrees with the file on disk makes the
+script print `MISSING <name>.srt` and skip that video silently — it does not fail.
+That is how 2024-01-16 sat uncaptioned: the map called it "Organizational and
+Regular Meeting" while both the channel and `manifest_2024.json` title it
+"Standing Meeting". When adding rows, copy the title from the manifest's `title`
+field, which is the recorded channel title.
 
 ## Adding a new meeting (checklist)
 

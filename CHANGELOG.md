@@ -5,13 +5,75 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
-### Re-summarization campaign — status 2026-07-31
+### Re-summarization campaign — status 2026-08-08
 
-- **Four of five campaigns complete.** `fanout` (26), `wave2` (121), `orphans` (4)
-  and `remainder` (76) are all done; every document from 2021 onward is now
-  re-summarized from full text. `packets` (2010-2020) stands at 17/151, worked
-  newest-first: 2020 finished, 2019 partly done. 134 batches / 496 agents /
-  13.67M source tokens remain.
+- **`packets` at 58/151; every year from 2017 onward is complete.** 2020, 2019,
+  2018 and 2017 all closed out (2017 finished 2026-08-08), so with the four
+  finished campaigns the archive is fully re-summarized from **2017 through
+  2026**. What remains is 2010-2016: 93 batches / 334 agents, with 2016 at 2/15.
+- **Coverage is reconciled across all five manifests, not any one done-count.**
+  The per-year check in `docs/RESUMMARIZE.md` keys off the document key
+  (`2018_117_…`), never the URL path — packet-era folders carry placeholder
+  dates, and tallying by path once reported 2019 complete with six batches left.
+- **Working order changed to descend by year, ascend within it.** `pack()` seeds
+  one wave per split batch then fills with singles, and past 2018 every remaining
+  batch is a split, so `next` kept reaching outside the year in hand. Waves are
+  now hand-claimed via `take_lease()` (there is no `claim` subcommand) and run
+  January→December inside each year, because a year read in order is legible:
+  the March resolution siting a building, the December one moving it, the January
+  one correcting a contractor's name.
+- **The arithmetic ban still holds — 0 derived, 0 unknown across every batch this
+  session** (1,700+ figures over 17 batches). Three batches did fail FABRICATED
+  first, always the same way: cross-document figures quoted in connective
+  narrative. `validate_fanout.py` checks each figure against *that batch's own
+  source*, so "the same buyer that took Section 16 for $3,383,000.00 in March" is
+  true, absent from December's packet, and correctly rejected. Fix is to keep the
+  connection but make it nominal — "the Section 16 land" — not to drop it.
+  Documented with examples in `docs/RESUMMARIZE.md`.
+
+### Documentation of what the packets turned out to say
+
+Two findings worth recording because they resolve questions the earlier summaries
+raised without answering:
+
+- **The Early Childhood Center moved sites in Dec 2017, not later.** The Mar 21,
+  2017 resolution sited it on "approximately 8 acres of Section 16"; item 8.E of
+  Dec 19, 2017 relocates it to the Niles Continuing Education site, creates the
+  ECC Fund, transfers $4,700,000 from Capital Maintenance, restricts revenue from
+  *any* property sale through 2020-06-30 to it, appoints Barton Malow CM of
+  record, and supersedes all conflicting prior resolutions. That supersession is
+  why Section 16 could later be sold whole and why the preschool was built at
+  205 Square Lake Road.
+- **The Jan 2018 "corrected asbestos resolution" is confirmed at both ends.** The
+  original (Dec 19, 2017) names NOVA Environmental — the district's abatement
+  *consultant*, not a bidder — at "$82,700.00.00" with a doubled decimal. The
+  correction substitutes Qualified Abatement at $82,700.00.
+
+### Captions
+
+- **All 41 channel videos now carry the speaker-attributed SRT track.** The final
+  15 were pushed 2026-08-08.
+- **A pre-flight `captions.list` audit is now the documented first step**, because
+  the owed list carried in notes (12) was wrong in both directions: two videos
+  believed owed had already landed before an earlier quota 403, and five 2025
+  videos had never been captioned and were on no list. `captions.list` is 50
+  units against `insert`'s 400 — auditing every video costs about five uploads.
+- **Fixed `TITLE_BY_VID` for `42C3J23nSgY`.** It named the 2024-01-16 video
+  "Organizational and Regular Meeting" while the channel and `manifest_2024.json`
+  both title it "Standing Meeting". The map derives the local `.srt` filename, so
+  the mismatch made the script print `MISSING …srt` and skip the video silently
+  rather than fail — that video had been uncaptioned since the 2024 backfill.
+
+### Verification
+
+- **Turnstile 403s server-side calls to our own `/api/*`.** `curl`/`urllib`
+  against `/api/summary?...` now fails regardless of User-Agent, and returned a
+  plausible `0` length before the 403 was spotted — which reads exactly like "the
+  summary never stored". All read-back verification goes to D1 directly via
+  `wrangler d1 execute --remote`. The column is **`verbose`**, not
+  `summary_verbose`; schema is
+  `summaries(url TEXT PRIMARY KEY, paragraph, page, verbose, updated)`.
+  Recorded in `docs/OPERATIONS.md` and `docs/RESUMMARIZE.md`.
 - **The arithmetic ban held across every campaign** — 0 derived and 0 unknown in
   every batch. The one apparent violation was a malformed thousands separator in
   the source (`$3,488.377.00`), not a fabrication.

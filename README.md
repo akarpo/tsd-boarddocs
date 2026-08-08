@@ -33,8 +33,9 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
   transcript line seeks the video to that moment. Transcripts are produced with
   AssemblyAI boosted by a district proper-noun vocabulary mined from this
   archive, and the same SRTs are uploaded to YouTube as caption tracks. Coverage:
-  the full 2026 season and most of 2025 — see
-  [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md).
+  the 2024, 2025 and 2026 seasons — every recording located on the channel is
+  transcribed, audited against its minutes, and carries a speaker-attributed
+  caption track — see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md).
 - **Ask the Archive** (`/ask`) — a registration-gated AI Q&A over the corpus
   (owner-approved accounts, passwordless one-time-code sign-in, human-moderated
   questions, answered by a local Claude Code runner) — see

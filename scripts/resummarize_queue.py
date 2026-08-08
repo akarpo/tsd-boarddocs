@@ -14,6 +14,21 @@ pending automatically.
   python3 queue.py status            # what's done / failed / pending, with cost estimate
   python3 queue.py next [N]          # emit Workflow args for the next wave (default: fit the window)
   python3 queue.py plan              # full wave schedule against current headroom
+  python3 queue.py release           # clear all leases (escape hatch after a killed run)
+  python3 queue.py requeue <id>...   # drop a failed batch's lease + stale output
+
+There is no `claim` subcommand. To work a specific year in chronological order --
+which is how packets has been run since 2026-08-07, because pack() seeds one wave
+per split batch and past 2018 every remaining batch is a split, so `next` keeps
+reaching outside the year in hand -- take the lease directly:
+
+    import sys, os
+    sys.path.insert(0, 'scripts'); os.environ['TSD_FAN_MANIFEST'] = 'packets_manifest.json'
+    import resummarize_queue as q
+    q.take_lease(['pk_109', 'pk_110'])
+
+`release` and `status` behave normally afterwards. The only thing bypassed is the
+headroom guardrail, so read `status` for the 5h figure first.
 """
 from __future__ import annotations
 

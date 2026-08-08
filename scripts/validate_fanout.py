@@ -17,6 +17,16 @@ is not the same as "the document says it". `unknown` is always a failure.
 Matching is by substring against a comma/space-stripped copy of the source. The
 earlier tokenized approach (re.findall on the stripped text) destroyed digit
 boundaries wherever two numbers sat adjacent, and flagged real figures as missing.
+
+Scope is deliberately PER-BATCH: a figure is checked only against the source that
+batch read. This catches the commonest authoring slip on a chronological pass --
+quoting an earlier meeting's dollar figure in connective narrative ("the same
+buyer that took Section 16 for $X in March"). True, but not in December's packet,
+so it fails `unknown`. Keep the cross-meeting link; make it nominal, not numeric.
+
+Validate every batch of a wave in ONE invocation -- this script REWRITES the store
+file each run, so separate --only calls leave only the last batch staged and
+summarize.py will report "stored 1 summaries" for a wave of four.
 """
 from __future__ import annotations
 

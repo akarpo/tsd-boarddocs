@@ -165,6 +165,19 @@ match — the two must agree or every write returns 403.
 - **Cloudflare bot-blocks `python-urllib`** → send a browser `User-Agent`, or you
   get 403 on R2, the Worker, and BoardDocs. (`curl` default UA is fine; BoardDocs
   itself 403s any non-browser, so verify its deep-links in a real browser.)
+- **Turnstile now 403s server-side calls to our own `/api/*`.** Since Turnstile
+  went live, `curl`/`urllib` against `https://tsd-boarddocs.karpowitsch.org/api/summary?...`
+  returns 403 regardless of User-Agent — a browser challenge cannot be satisfied
+  from a script. Any check that reads back what the site is serving must go to D1
+  instead:
+
+      npx wrangler d1 execute tsd-boarddocs --remote --json \
+        --command "SELECT length(verbose) FROM summaries WHERE url LIKE '%<file>.pdf'"
+
+  The `summaries` schema is `(url TEXT PRIMARY KEY, paragraph, page, verbose, updated)`
+  — the column is **`verbose`**, not `summary_verbose`. This bit twice in one
+  session: the API returned a plausible `0` length before the 403 was noticed, which
+  reads exactly like "the summary never stored".
 - **BoardDocs rate-limits datacenter / CI IPs** → it intermittently `403`s the
   `list-files` call from GitHub-hosted runners — which is why ingest is not
   automated (see below). `download_troysd.py` retries with exponential backoff
