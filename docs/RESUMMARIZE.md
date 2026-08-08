@@ -261,7 +261,7 @@ Status as of 2026-08-08:
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **58 done, 93 pending** |
+| `packets` | 2010-2020 packet era | 151 | **65 done, 86 pending** |
 
 **Every year from 2017 onward is complete.** Coverage by year, reconciled across
 *all five* manifests rather than any single campaign's done-count:
@@ -269,7 +269,7 @@ Status as of 2026-08-08:
 | year | done/total | campaign(s) |
 |---|---|---|
 | 2017-2026 | **complete** | `packets` (2017-2020) + the four finished campaigns |
-| 2016 | 2/15 | `packets` |
+| 2016 | 9/15 | `packets` |
 | 2010-2015 | 0/95 | `packets` |
 
 The one-line check, which is the only tally worth trusting:
@@ -300,14 +300,14 @@ Remaining after the 2026-08-08 waves (batches/agents by filename date):
 
 | year | batches | agents |
 |---|---|---|
-| 2016 | 13 | 52 |
+| 2016 | 6 | 31 |
 | 2015 | 13 | 52 |
 | 2014 | 14 | 48 |
 | 2013 | 12 | 38 |
 | 2012 | 13 | 45 |
 | 2011 | 13 | 48 |
 | 2010 | 15 | 50 |
-| **total** | **93** | **334** |
+| **total** | **86** | **313** |
 
 ### `packets` is chunked far more finely
 
@@ -340,6 +340,28 @@ conservative for most material and should be read as a ceiling, not an estimate.
 **Agent spend runs ~3.6x the batch's source tokens** — measured across four waves
 (3.2x, 3.5x, 3.7x, 4.0x). Use that to project a year: 2018's 1.47M source tokens
 is ~5.2M spent.
+
+### Per-agent cost falls as the wave gets bigger
+
+The 2016 waves of 2026-08-08, measured off the 5-hour meter:
+
+| wave | agents | points | pts/agent | subagent tokens |
+|---|---|---|---|---|
+| 18 (pk_081-083) | 10 | 30 | 3.0 | 1.02M |
+| 19 (pk_084-086) | 11 | 29 | 2.6 | 0.96M |
+| 20 (pk_087) | 1 | 4 | 4.0 | 0.19M |
+
+Wave 20 burned 4 points for a single agent because **a wave costs 1-1.5 points
+before any agent runs**. Validation, the D1 store, the read-back, reading the
+summaries to write the commit and the commit itself are all main-loop turns
+against a large cached context, and they cost the same whether the wave held one
+batch or eleven. In tokens per point: 34K on wave 18, 49K on wave 20.
+
+So prefer the biggest wave the headroom allows, and treat a one-batch wave as
+what it is — a way to spend a remainder that would otherwise expire at the window
+roll, not an efficient unit of work. Sizing at 2.6-3.0 pts/agent held for the
+10-11 agent waves here, below the 3.2-3.5 the split-heavy 2017 waves needed;
+2016's packets split into 4-5 sections where 2017's ran to 7.
 
 **Size split-heavy waves at 3.2-3.5 pts/agent.** Sizing a 30-agent split-heavy
 wave at the 2.92 measured on a split-light one overshot the 90% release line and
