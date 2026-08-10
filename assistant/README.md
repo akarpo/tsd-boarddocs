@@ -19,9 +19,17 @@ approval → /admin ↑                    └ topic gate (Haiku) · ≤100K tok
 2. Test one question end-to-end:
    `python3 assistant/runner.py --once`
 3. Always-on: copy `assistant/com.tsd.assistant.plist` to
-   `~/Library/LaunchAgents/`, fix the two absolute paths inside, then
+   `~/Library/LaunchAgents/`, replace **all three** `/Users/CHANGEME/` paths — the two
+   program paths and the one inside `PATH` — then
    `launchctl load ~/Library/LaunchAgents/com.tsd.assistant.plist`.
    Logs land in `/tmp/tsd-assistant.log`.
+
+   The third one is the one that gets missed. `claude` installs to `~/.local/bin`, which
+   your shell profile puts on `PATH` interactively and launchd does not — launchd starts
+   from a bare environment. Get it wrong and the failure is quiet: the runner polls,
+   claims a question, flips it to `answering`, then dies on `claude: command not found`,
+   and the question hangs for the 20 minutes it takes to go stale and be re-offered.
+   Confirm with `command -v claude` on that machine.
 
 ## Guardrails
 

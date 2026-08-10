@@ -13,9 +13,15 @@
   <key>KeepAlive</key><true/>
   <key>StandardOutPath</key><string>/tmp/tsd-assistant.log</string>
   <key>StandardErrorPath</key><string>/tmp/tsd-assistant.log</string>
+  <!-- PATH must contain the `claude` binary. The installer puts it in ~/.local/bin, which is on
+       your PATH interactively via the shell profile and NOT under launchd, which starts from a
+       bare environment. Omit it and the runner looks perfectly healthy -- it polls, claims a
+       question, flips it to 'answering' -- then fails every answer with "claude: command not
+       found", and the question sits unanswered for the 20 minutes it takes to go stale.
+       Check `command -v claude` on the machine and make sure its directory is listed here. -->
   <key>EnvironmentVariables</key>
   <dict>
-    <key>PATH</key><string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+    <key>PATH</key><string>/Users/CHANGEME/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
   </dict>
 </dict>
 </plist>
