@@ -23,18 +23,30 @@ Before reading or changing anything, confirm **all three**:
 | Account SID | Manage account → General settings |
 | Messaging Service SID | on the campaign itself (`MG125c5d71…` for this project) |
 
-## Verified state — 2026-08-05
+## Verified state — 2026-08-10
 
-Read directly from the console.
+Read from the API (`./scripts/a2p_resubmit.sh status`), not the console.
 
 | stage | status |
 |---|---|
 | 1. Starter Customer Profile | ✅ Approved |
 | 2. Sole Proprietor Brand | ✅ Registered — `BN350b79…`, brand "Alex Karpowitsch" |
-| 3. Sole Proprietor Campaign | ⏳ In progress — **resubmitted clean 2026-08-05** |
+| 3. Sole Proprietor Campaign | ✅ **VERIFIED** — 0 errors, carrier review passed |
 
-**Current campaign: `CM83307937aa2983ca225bf6af8474ab99`**, created 2026-08-05, linked to
-`MG125c5d71…`, under carrier review.
+**Campaign `CM83307937aa2983ca225bf6af8474ab99`** (compliance record `QE2c6890…`, TCR campaign id
+`CJ6Z6E9`), created 2026-08-05, linked to `MG125c5d71…`. The corrected payload is what carriers
+approved: both distinct samples, no embedded links or phone, blank opt-in keywords.
+
+Note `date_updated` still reads `2026-08-05T19:22:20Z` — the same as `date_created`. **Twilio does
+not stamp the record when a campaign transitions to VERIFIED**, so an unchanged `date_updated` is
+not evidence that nothing happened. Read `campaign_status`, never the timestamp.
+
+Throughput granted (`rate_limits`): AT&T **0.25 msg/sec**, T-Mobile brand tier **STARTER**
+(≈2,000/day). Ample for sign-in codes; not a broadcast channel.
+
+**Approval does not arm anything.** The campaign being VERIFIED only means carriers will stop
+filtering. What still gates SMS is listed under Open items below — as of 2026-08-10 the Worker has
+no `twilio_*` config at all and is still on the Resend email ladder.
 
 The original campaign `CM1084cf…` (submitted 2026-08-02) carried the placeholder payload
 described below and could not be edited — Twilio refuses updates outside a FAILURE state, so a
@@ -152,12 +164,52 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
 
 - [x] ~~Campaign payload is stale.~~ Deleted and recreated clean on 2026-08-05 as
       `CM83307937aa2983ca225bf6af8474ab99`. Now waiting on carrier review (2-3 weeks).
-- [ ] **Watch the new campaign.** If it reaches FAILURE, the errors array names the exact fields:
-      `curl -sS -u "$AUTH" "https://messaging.twilio.com/v1/Services/$MG/Compliance/Usa2p"`.
-      From FAILURE the payload *can* be updated in place — that is when `a2p_resubmit.sh submit`
-      becomes usable (drop its `OptInKeywords`/`OptInMessage` first, see above).
-- [ ] **Arm SMS once approved.** Set the `twilio_*` rows in `bot_config` and confirm the channel
-      ladder flips from Resend email to SMS. Test to a real handset — `201 queued` proves nothing.
+- [x] ~~Watch the new campaign.~~ **VERIFIED, 0 errors** — confirmed 2026-08-10, five days after
+      submission rather than the 2-3 weeks budgeted. `a2p_resubmit.sh submit` is now moot unless
+      the campaign is ever re-opened; it only ever worked from FAILURE.
+- [ ] **Arm SMS.** Four `bot_config` rows, none of which exist yet — `SELECT k FROM bot_config`
+      returns only `admin_key`, `agent_key`, `mail_from`, `resend_api_key`, `turnstile_secret`,
+      `turnstile_sitekey`. `twilioReady()` needs **all four** or the Worker stays on email:
+
+      | key | value |
+      |---|---|
+      | `twilio_sid` | `ACf591b5dc…` (account sid; also goes in the Messages URL) |
+      | `twilio_token` | the auth token — see the rotation note below |
+      | `twilio_from` | `+12489271666` |
+      | `twilio_to` | the owner's mobile, E.164 — the moderation/approval handset |
+
+      Test to a real handset afterwards; `201 queued` proves nothing.
+- [ ] **Point the number's webhook at the Worker before arming.** `+12489271666` still has the
+      factory default `sms_url = https://demo.twilio.com/welcome/sms/reply`. It must be
+      `https://tsd-boarddocs.karpowitsch.org/twilio/inbound` (POST), or every `YES 12` / `NO 12`
+      reply hits Twilio's demo responder and questions sit in `awaiting_approval` forever. The
+      Messaging Service has `use_inbound_webhook_on_number = true` and no `inbound_request_url`,
+      so the **number-level** setting is the one that matters.
+- [ ] **Balance is $1.14.** The campaign carries a $2/month fee on top of per-message cost. Top up
+      or confirm auto-recharge, or the registration just bought could lapse for want of $2.
+
+### Arming flips question moderation on, too
+
+`twilioReady()` is read in two places, and the second one is easy to miss. In `/ask`,
+`const moderate = twilioReady(cfgA)` — so the moment those four rows exist, submitted questions
+land in `awaiting_approval` instead of `pending` and each one texts the owner for a YES/NO. That
+is the intended design, but it is a **live behaviour change for every user**, independent of OTP
+delivery, and it is why the webhook URL has to be right *first*.
+
+For sign-in codes specifically, arming changes nothing today: all three `bot_users` rows have
+`sms_consent` NULL or 0, and `/otp/start` texts only on `sms_consent === 1`. The first SMS this
+project sends will be a moderation alert to the owner, not a user's code.
+
+### The auth token cannot simply be swapped for an API key
+
+The header of `a2p_resubmit.sh` recommends an `SK…` Standard key over the root auth token, and for
+that script it is right. It does **not** generalise to the Worker: `twilioSigValid()` validates
+inbound webhooks as `HMAC-SHA1(cfg.twilio_token, …)`, and Twilio signs webhooks with the **account
+auth token** — an API key secret produces a signature that never matches. `twilioSend()` also
+reuses `twilio_sid` as both the Basic-auth username and the account in the URL, which an `SK…`
+pair breaks. So rotating to an API key means splitting the config into separate send credentials
+and a validation token, in code. Until then `twilio_token` must hold the real auth token, and
+rotating it means rotating in `bot_config` and `tsd-secrets.env` together.
 - [x] ~~Turnstile is not live.~~ **Armed 2026-08-05 and verified.** A **Managed** widget named
       `tsd-boarddocs` (hostname `tsd-boarddocs.karpowitsch.org`, pre-clearance off) was created and
       its keys written to `bot_config`; `/api/assistant/me` returns the sitekey and the widget
