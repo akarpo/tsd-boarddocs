@@ -25,8 +25,22 @@ approval → /admin ↑                    └ topic gate (Haiku) · ≤100K tok
 
 ## Guardrails
 
-- **Approval gate**: nobody asks anything until you approve them at `/admin`
-  (key = `ASSISTANT_ADMIN_KEY`; stored in the D1 `bot_config` table).
+- **Approval gate**: nobody asks anything until you approve them — at `/admin`, or by
+  replying `1` to the text the archive sends when someone registers.
+  `/admin` is **two-factor**: `ASSISTANT_ADMIN_KEY` (stored in the D1 `bot_config` table)
+  plus a six-digit code texted to `bot_config.twilio_to`. The key alone authenticates
+  nothing; it only gates *sending* the code. Sessions last 12 hours.
+
+  There is deliberately no header that bypasses this, so `curl -H "x-admin-key: …"` against
+  `/admin/*` now returns 401. For scripted reads, query D1 directly. If SMS is ever
+  unavailable, break glass by inserting a session by hand and sending it as
+  `x-admin-session`:
+
+  ```
+  npx wrangler d1 execute tsd-boarddocs --remote --command \
+    "INSERT INTO admin_sessions (token,created_at,expires) VALUES ('<random>', \
+     strftime('%Y-%m-%dT%H:%M:%fZ','now'), strftime('%Y-%m-%dT%H:%M:%fZ','now','+1 hour'))"
+  ```
 - **Topic gate**: every question first passes a Haiku classifier — strictly Troy
   School District / board business, or it gets a one-line decline (a few hundred
   tokens, no Opus run).

@@ -28,10 +28,19 @@
 <div class="wrap">
   <h1>🛂 Assistant Admin</h1>
   <div id="key-row">
-    <input id="key" type="password" placeholder="admin key">
-    <button id="save">Unlock</button>
+    <input id="key" type="password" placeholder="admin key" autocomplete="off">
+    <button id="send">Send code</button>
+    <p class="muted" style="font-size:.85rem">A six-digit code is texted to the number on file.</p>
   </div>
+  <div id="code-row" hidden>
+    <input id="code" type="text" inputmode="numeric" autocomplete="one-time-code" placeholder="6-digit code" style="width:180px">
+    <button id="verify">Sign in</button>
+    <button id="back" class="deny">Start over</button>
+    <p class="muted" style="font-size:.85rem">Expires in 10 minutes. Five wrong tries voids it.</p>
+  </div>
+  <p id="msg" class="muted" hidden></p>
   <div id="panel" hidden>
+    <p style="text-align:right;margin:0 0 -8px"><button id="logout" class="deny">Sign out</button></p>
     <h2>Registrations</h2>
     <table id="users"><thead><tr><th>Status</th><th>Email</th><th>Name</th><th>Phone</th><th>Reason</th><th>Registered</th><th></th></tr></thead><tbody></tbody></table>
     <h2>Recent questions</h2>
@@ -41,12 +50,20 @@
 <script>
 const $=i=>document.getElementById(i);
 const esc=s=>{const d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML};
-const key=()=>localStorage.getItem("tsd_admin_key")||"";
-const api=(p,o)=>fetch("/api/assistant/admin"+p,{headers:{"content-type":"application/json","x-admin-key":key()},...o});
+// Only the 12-hour session token is persisted. The admin key is held in a variable for the few
+// seconds between requesting a code and redeeming it, and never written to storage -- a stolen
+// browser profile is then worth one expiring session rather than the permanent key.
+let pendingKey="";
+const sess=()=>localStorage.getItem("tsd_admin_session")||"";
+const api=(p,o)=>fetch("/api/assistant/admin"+p,{headers:{"content-type":"application/json","x-admin-session":sess()},...o});
+const say=(t,bad)=>{const m=$("msg");m.hidden=!t;m.textContent=t||"";m.style.color=bad?"var(--err)":"var(--muted)"};
+function showStep(s){
+  $("key-row").hidden=s!=="key"; $("code-row").hidden=s!=="code"; $("panel").hidden=s!=="panel";
+}
 async function load(){
   const r=await api("/users");
-  if(r.status===401){$("panel").hidden=true;$("key-row").style.display="";localStorage.removeItem("tsd_admin_key");alert("bad admin key");return}
-  $("key-row").style.display="none";$("panel").hidden=false;
+  if(r.status===401){localStorage.removeItem("tsd_admin_session");showStep("key");say("Session expired — sign in again.",true);return}
+  showStep("panel");say("");
   const users=(await r.json()).users||[];
   $("users").tBodies[0].innerHTML=users.map(u=>`
     <tr><td><span class="pill ${esc(u.status)}">${esc(u.status)}</span></td>
@@ -69,9 +86,41 @@ async function load(){
     await api("/moderate",{method:"POST",body:JSON.stringify({id:+b.dataset.id,decision:b.dataset.m})});load();
   });
 }
-$("save").onclick=()=>{localStorage.setItem("tsd_admin_key",$("key").value.trim());load()};
-if(key())load();
-setInterval(()=>{if(key()&&!$("panel").hidden)load()},30000);
+const post=(p,b)=>fetch("/api/assistant/admin"+p,{method:"POST",
+  headers:{"content-type":"application/json","x-admin-session":sess()},body:JSON.stringify(b)});
+
+$("send").onclick=async()=>{
+  const k=$("key").value.trim();
+  if(!k)return say("Enter the admin key.",true);
+  $("send").disabled=true;say("Sending…");
+  const r=await post("/login/start",{key:k});
+  const d=await r.json().catch(()=>({}));
+  $("send").disabled=false;
+  if(!r.ok)return say(d.error||"could not send a code",true);
+  pendingKey=k;$("key").value="";showStep("code");say("Code sent. Check your phone.");$("code").focus();
+};
+$("verify").onclick=async()=>{
+  const c=$("code").value.trim();
+  if(!c)return say("Enter the code.",true);
+  $("verify").disabled=true;say("Verifying…");
+  const r=await post("/login/verify",{key:pendingKey,code:c});
+  const d=await r.json().catch(()=>({}));
+  $("verify").disabled=false;
+  if(!r.ok)return say(d.error||"wrong code",true);
+  pendingKey="";$("code").value="";
+  localStorage.setItem("tsd_admin_session",d.token);
+  load();
+};
+$("back").onclick=()=>{pendingKey="";$("code").value="";showStep("key");say("")};
+$("logout").onclick=async()=>{
+  await post("/logout",{}).catch(()=>{});
+  localStorage.removeItem("tsd_admin_session");showStep("key");say("Signed out.");
+};
+$("key").addEventListener("keydown",e=>{if(e.key==="Enter")$("send").click()});
+$("code").addEventListener("keydown",e=>{if(e.key==="Enter")$("verify").click()});
+
+if(sess())load(); else showStep("key");
+setInterval(()=>{if(sess()&&!$("panel").hidden)load()},30000);
 </script>
 </body>
 </html>

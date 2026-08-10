@@ -5,6 +5,38 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Admin login is now two-factor — 2026-08-10
+
+- `/admin` takes the admin key **and** a six-digit code texted to
+  `bot_config.twilio_to`. The key no longer authenticates anything on its own;
+  it gates *sending* the code, which is what stops an unauthenticated caller
+  billing SMS and ringing the owner's phone at will. Sessions last 12 hours.
+- **The browser no longer stores the admin key at all.** It lives in a JS
+  variable for the seconds between requesting and redeeming a code; only the
+  expiring session token is persisted. A stolen browser profile is now worth one
+  lapsing session rather than the permanent secret.
+- `x-admin-key` against `/admin/*` returns 401 by design — there is no bypass
+  header, because one would make the second factor decorative. Scripted reads go
+  to D1 directly; `assistant/README.md` documents the break-glass insert into
+  `admin_sessions` for when SMS is unavailable.
+- New tables in `schema/0012_admin_2fa.sql`. Both are read through `env.DB` and
+  never `botCfg()`: that cache has a 60s TTL and would let verify read back a
+  hash from before start wrote it — a login broken for exactly one minute.
+- Codes are single-use, expire in 10 minutes, allow five attempts, and the
+  attempt counter increments *before* the comparison so a crash mid-verify
+  cannot hand out a free guess.
+- **`--file` cannot apply migrations with the current token.** It uses D1's
+  import endpoint and fails `Authentication error [code: 10000]` where
+  `--command` succeeds against the query endpoint with the same credentials.
+- **Deploy propagation is slow enough to fool a verification sweep.** For several
+  minutes after `wrangler deploy`, the custom domain served a mix of old and new
+  code — old-key requests returned 200 about a third of the time while
+  `*.workers.dev` was already consistently 401. Cache-busting and
+  `deployments status` (100% one version) both ruled out the obvious
+  explanations and pointed the diagnosis the wrong way. **Sample an auth change
+  dozens of times over several minutes before believing it.** The final sweep was
+  0 leaks in 120 requests.
+
 ### Twilio A2P 10DLC approved; SMS staged but not yet armed — 2026-08-10
 
 - **The campaign is VERIFIED** (`CM8330793…`, TCR `CJ6Z6E9`, 0 errors), five days

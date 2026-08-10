@@ -367,6 +367,22 @@ async function sessionUser(request, env) {
   ).bind(tok).first();
 }
 const QUESTION_MAX = 600, OPEN_CAP = 2, DAILY_CAP = 10;
+const ADMIN_SESSION_HOURS = 12;
+
+// Admin sessions are checked against the table on every request rather than being self-signed,
+// so /admin/logout and an expiry sweep can actually revoke one. Expired rows are deleted on
+// sight: leaving them would let a clock change resurrect a session that has already lapsed.
+async function adminSessionValid(request, env) {
+  const tok = request.headers.get("x-admin-session") || "";
+  if (!tok) return false;
+  const row = await env.DB.prepare("SELECT token,expires FROM admin_sessions WHERE token=?1").bind(tok).first();
+  if (!row) return false;
+  if (Date.parse(row.expires || 0) < Date.now()) {
+    await env.DB.prepare("DELETE FROM admin_sessions WHERE token=?1").bind(tok).run().catch(() => {});
+    return false;
+  }
+  return true;
+}
 
 async function handleAssistant(request, env, url) {
   const p = url.pathname.slice("/api/assistant".length);
@@ -605,9 +621,58 @@ async function handleAssistant(request, env, url) {
     return twiml(approve ? `#${qid} approved — answering now.` : `#${qid} declined.`);
   }
 
-  // ----- admin (X-Admin-Key) -----
+  // ----- admin: two-factor login (key + code texted to twilio_to) -----
+  // The key alone opens nothing. It is the knowledge factor and it gates *sending* the code;
+  // possession of the handset is what actually authenticates. Everything under /admin/ therefore
+  // requires a session minted by completing both steps, and the browser never stores the key.
   const cfg = await botCfg(env);
-  const isAdmin = safeEq(request.headers.get("x-admin-key"), cfg.admin_key);
+
+  if (p === "/admin/login/start" && method === "POST") {
+    // Gating the send on the key matters twice over: an unauthenticated caller could otherwise
+    // bill SMS at will and ring the owner's phone at 3am, and the cooldown below would be the
+    // only thing standing between the panel and a paid denial-of-sleep attack.
+    if (!safeEq(String(body.key || ""), cfg.admin_key)) return json({ error: "bad admin key" }, 401);
+    if (!twilioReady(cfg)) return json({ error: "SMS isn't configured — cannot send an admin code" }, 503);
+    const cur = await env.DB.prepare("SELECT sent_at FROM admin_otp WHERE id=1").first();
+    if (cur && cur.sent_at && Date.now() - Date.parse(cur.sent_at) < 60e3)
+      return json({ error: "code already sent — wait a minute before retrying" }, 429);
+    const code = String(crypto.getRandomValues(new Uint32Array(1))[0] % 1000000).padStart(6, "0");
+    await env.DB.prepare("UPDATE admin_otp SET code_hash=?1, expires=?2, sent_at=?3, attempts=0 WHERE id=1")
+      .bind(await sha256hex(code + cfg.twilio_to), new Date(Date.now() + 600e3).toISOString(), nowIso()).run();
+    try {
+      await twilioSend(cfg, `Troy SD Archive admin sign-in code: ${code}\nExpires in 10 minutes. ` +
+        `If you did not request it, your admin key is compromised.`);
+    } catch { return json({ error: "could not send the code — try again later" }, 502); }
+    return json({ ok: true });
+  }
+
+  if (p === "/admin/login/verify" && method === "POST") {
+    if (!safeEq(String(body.key || ""), cfg.admin_key)) return json({ error: "bad admin key" }, 401);
+    const code = String(body.code || "").replace(/\D/g, "");
+    const row = await env.DB.prepare("SELECT code_hash,expires,attempts FROM admin_otp WHERE id=1").first();
+    if (!row || !row.code_hash) return json({ error: "request a code first" }, 400);
+    if (Date.parse(row.expires || 0) < Date.now()) return json({ error: "code expired — request a new one" }, 401);
+    if ((row.attempts || 0) >= 5) return json({ error: "too many attempts — request a new code" }, 429);
+    // Count the attempt before checking it, so a crash mid-verify cannot hand out a free guess.
+    await env.DB.prepare("UPDATE admin_otp SET attempts=attempts+1 WHERE id=1").run();
+    if (!safeEq(await sha256hex(code + cfg.twilio_to), row.code_hash)) return json({ error: "wrong code" }, 401);
+    // One use only: a code that survives its own redemption is a password with a short life.
+    await env.DB.prepare("UPDATE admin_otp SET code_hash=NULL, expires=NULL, attempts=0 WHERE id=1").run();
+    const tok = crypto.randomUUID() + crypto.randomUUID().replace(/-/g, "");
+    const exp = new Date(Date.now() + ADMIN_SESSION_HOURS * 3600e3).toISOString();
+    await env.DB.prepare("INSERT INTO admin_sessions (token,created_at,expires) VALUES (?1,?2,?3)")
+      .bind(tok, nowIso(), exp).run();
+    await env.DB.prepare("DELETE FROM admin_sessions WHERE expires < ?1").bind(nowIso()).run().catch(() => {});
+    return json({ ok: true, token: tok, expires: exp });
+  }
+
+  if (p === "/admin/logout" && method === "POST") {
+    const t = request.headers.get("x-admin-session") || "";
+    if (t) await env.DB.prepare("DELETE FROM admin_sessions WHERE token=?1").bind(t).run();
+    return json({ ok: true });
+  }
+
+  const isAdmin = await adminSessionValid(request, env);
   if (p === "/admin/users" && isAdmin) {
     const { results } = await env.DB.prepare(
       "SELECT id,email,name,reason,phone,status,created_at,decided_at FROM bot_users ORDER BY (status='pending') DESC, id DESC LIMIT 200").all();
@@ -632,7 +697,9 @@ async function handleAssistant(request, env, url) {
       "SELECT q.id,u.email,q.question,q.status,q.answer,q.error,q.asked_at,q.tokens_used FROM bot_questions q JOIN bot_users u ON u.id=q.user_id ORDER BY q.id DESC LIMIT 50").all();
     return json({ questions: results || [] });
   }
-  if (p.startsWith("/admin/")) return json({ error: "bad admin key" }, 401);
+  // Deliberately not "bad admin key" any more: the key is no longer what grants access, and a
+  // message naming it sends you off checking the wrong secret when the session has simply lapsed.
+  if (p.startsWith("/admin/")) return json({ error: "admin sign-in required" }, 401);
 
   // ----- agent (X-Agent-Key): the Claude Code runner on the owner's machine -----
   const isAgent = safeEq(request.headers.get("x-agent-key"), cfg.agent_key);
