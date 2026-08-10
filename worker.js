@@ -389,11 +389,29 @@ async function handleAssistant(request, env, url) {
     if (!tsR.ok) return json({ error: tsR.message }, tsR.status);
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: "valid email required" }, 400);
     if (!phone) return json({ error: "valid mobile number required" }, 400);
+    let rid;
     try {
-      await env.DB.prepare(
+      const ins = await env.DB.prepare(
         "INSERT INTO bot_users (email,name,reason,phone,pw_hash,pw_salt,status,created_at,sms_consent,sms_consent_at) VALUES (?1,?2,?3,?4,'','','pending',?5,?6,?7)"
       ).bind(email, name, reason, phone, nowIso(), smsConsent, smsConsent === 1 ? nowIso() : null).run();
+      rid = ins.meta.last_row_id;
     } catch { return json({ error: "that email or phone number is already registered" }, 409); }
+
+    // Text the owner so approving someone does not require opening the admin panel. Registration
+    // itself sends the applicant nothing -- their first message is the sign-in code, and only
+    // after approval, because /otp/start refuses anyone who is not 'approved'.
+    //
+    // Best-effort: the row is already committed, so a failed notification must not turn a
+    // successful registration into an error the applicant sees. /admin/users still lists them.
+    const cfgR = await botCfg(env);
+    if (twilioReady(cfgR)) {
+      try {
+        await twilioSend(cfgR,
+          `TSD Archive registration #${rid}\n${name || "(no name given)"} <${email}>\n${phone}` +
+          (reason ? `\n"${reason.slice(0, 120)}"` : "") +
+          `\n\nReply 1 to approve or 2 to decline.`);
+      } catch { /* admin panel remains the fallback */ }
+    }
     return json({ ok: true, status: "pending" });
   }
 
@@ -526,20 +544,58 @@ async function handleAssistant(request, env, url) {
     return json({ questions: results || [] });
   }
 
-  // ----- Twilio inbound: SMS replies "YES 12" / "NO 12" from the owner's phone -----
+  // ----- Twilio inbound from the owner's phone: "1"/"2" registrations, "YES 12"/"NO 12" questions -----
   if (p === "/twilio/inbound" && method === "POST") {
     const cfgT = await botCfg(env);
     const raw = await request.text();
     const params = new URLSearchParams(raw);
     const sig = request.headers.get("x-twilio-signature") || "";
     const expected = twilioReady(cfgT) ? await twilioSigValid(cfgT, url.origin + url.pathname, params) : "";
+    // Replies quote registrant emails back, which are user-controlled, so escape before they
+    // reach the XML. An unescaped & or < is enough to make Twilio drop the whole response.
+    const xmlEsc = (s) => String(s).replace(/[<>&'"]/g, (c) =>
+      ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;" }[c]));
     const twiml = (m) => new Response(
-      `<?xml version="1.0" encoding="UTF-8"?><Response>${m ? `<Message>${m}</Message>` : ""}</Response>`,
+      `<?xml version="1.0" encoding="UTF-8"?><Response>${m ? `<Message>${xmlEsc(m)}</Message>` : ""}</Response>`,
       { headers: { "content-type": "text/xml" } });
     if (!expected || !safeEq(sig, expected) || params.get("From") !== cfgT.twilio_to)
       return new Response("forbidden", { status: 403 });
-    const m = /^\s*(yes|no|y|n)\s*#?\s*(\d+)/i.exec(params.get("Body") || "");
-    if (!m) return twiml("Reply YES <id> or NO <id> (id from the question text).");
+    const bodyTxt = (params.get("Body") || "").trim();
+
+    // ----- registration approvals: "1" approve / "2" decline, optional id -----
+    // Digits rather than words on purpose. YES, START and UNSTOP are reserved carrier opt-in
+    // keywords on US long codes: a bare "YES" is intercepted upstream and the TwiML reply never
+    // reaches the handset, even though the webhook fires and looks healthy in the logs.
+    const reg = /^([12])\s*#?\s*(\d+)?$/.exec(bodyTxt);
+    if (reg) {
+      const approveReg = reg[1] === "1";
+      let uid = reg[2] ? Number(reg[2]) : null;
+      if (uid === null) {
+        const { results } = await env.DB.prepare(
+          "SELECT id,email FROM bot_users WHERE status='pending' ORDER BY id").all();
+        const pend = results || [];
+        // Never guess which one when several are waiting. A bare "1" is convenient exactly
+        // because there is usually one applicant; guessing wrong hands archive access to
+        // somebody who was never vetted, which is not a recoverable mistake by text message.
+        if (!pend.length) return twiml("No registrations are pending.");
+        if (pend.length > 1)
+          return twiml(`${pend.length} pending: ` + pend.map((u) => `#${u.id} ${u.email}`).join(", ") +
+            `. Reply "1 ${pend[0].id}" or "2 ${pend[0].id}".`);
+        uid = pend[0].id;
+      }
+      const ru = await env.DB.prepare("SELECT id,email,status FROM bot_users WHERE id=?1").bind(uid).first();
+      if (!ru) return twiml(`No registration #${uid}.`);
+      if (ru.status !== "pending") return twiml(`#${uid} ${ru.email} is already ${ru.status}.`);
+      const decision = approveReg ? "approved" : "denied";
+      await env.DB.prepare("UPDATE bot_users SET status=?1, decided_at=?2 WHERE id=?3")
+        .bind(decision, nowIso(), uid).run();
+      // Mirrors /admin/decide: a denial must not leave a live session behind.
+      if (!approveReg) await env.DB.prepare("DELETE FROM bot_sessions WHERE user_id=?1").bind(uid).run();
+      return twiml(`#${uid} ${ru.email} ${decision}.`);
+    }
+
+    const m = /^\s*(yes|no|y|n)\s*#?\s*(\d+)/i.exec(bodyTxt);
+    if (!m) return twiml('Reply "1"/"2" to approve or decline a registration, or "YES <id>"/"NO <id>" for a question.');
     const approve = m[1].toLowerCase().startsWith("y"), qid = Number(m[2]);
     const row = await env.DB.prepare("SELECT id,status FROM bot_questions WHERE id=?1").bind(qid).first();
     if (!row) return twiml(`No question #${qid}.`);
