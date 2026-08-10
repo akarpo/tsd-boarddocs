@@ -147,12 +147,18 @@ project — not affiliated with Troy School District.
 
 ## Documentation
 
+- [docs/ROADMAP.md](docs/ROADMAP.md) — **open work, and what is deliberately not being done**
 - [docs/DATASET.md](docs/DATASET.md) — the four downloadable artifacts (corpus map, summaries, figures)
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — system design, data flow, decisions
 - [docs/OPERATIONS.md](docs/OPERATIONS.md) — runbook: ingest, summaries, deploy, gotchas
+- [docs/ACCESS_CONTROL.md](docs/ACCESS_CONTROL.md) — registration → approval → sign-in → moderation → admin 2FA, all of it by SMS
+- [docs/TWILIO_A2P_10DLC.md](docs/TWILIO_A2P_10DLC.md) — carrier registration: state, payload, error codes
+- [docs/RESUMMARIZE.md](docs/RESUMMARIZE.md) — the re-summarization campaign: method, ordering, figure validation
+- [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md) — meeting video → speaker-attributed captions
 - [docs/TOOLING.md](docs/TOOLING.md) — every script + its status
 - [docs/PROMPT_HISTORY.md](docs/PROMPT_HISTORY.md) — the prompts that shaped the project
 - [CHANGELOG.md](CHANGELOG.md) — version history
+- [assistant/README.md](assistant/README.md) — the Mac Mini runner that answers questions
 
 ## License
 

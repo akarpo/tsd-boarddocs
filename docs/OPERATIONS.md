@@ -288,19 +288,17 @@ home IP succeeds with zero 403s, so ingest has to run from a residential connect
 
 ## Backlog
 
-- **A2P 10DLC campaign resubmitted clean 2026-08-05** — the placeholder campaign
-  `CM1084cf…` was deleted and recreated as `CM8330793…` against the same brand and
-  Messaging Service; now in carrier review (2-3 weeks). SMS sign-in codes stay off
-  until it is approved; Resend email covers it meanwhile. Watch for FAILURE, then
-  fix in place. Full history and payload: **docs/TWILIO_A2P_10DLC.md**.
-- ~~Turnstile is not actually live on `/ask`.~~ **Done 2026-08-05** — widget created,
-  keys written to `bot_config`, verified rendering. `turnstile_enable.sh` had never
-  been run before and carried a latent bug: its multi-line `--command` value makes
-  wrangler 4.x on Windows abort with "Missing required option --command" before any
-  SQL executes. Fixed by putting the SQL on one line.
-- Convert the two remaining source formats the viewer links out (XLSX) if inline
-  preview is ever wanted.
-- Prune the legacy `--vectors` / `retrieve.py` code paths (superseded since v0.4).
+**Moved to [ROADMAP.md](ROADMAP.md).** Open work is tracked there in one place; this section
+kept drifting out of date because it sat in the middle of a runbook nobody re-reads top to
+bottom — it still described the A2P campaign as "in carrier review" and SMS as off five days
+after both stopped being true.
+
+One item worth keeping here, because it is a runbook fact rather than planned work:
+
+- `turnstile_enable.sh` carried a latent bug until 2026-08-05 — a multi-line `--command` value
+  makes wrangler 4.x on Windows abort with "Missing required option --command" before any SQL
+  executes. Fixed by putting the SQL on one line. Applies to any script in this repo that shells
+  out to `wrangler d1 execute`.
 
 ## Pre-2020 extraction and the reorder pass
 
