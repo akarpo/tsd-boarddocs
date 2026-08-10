@@ -179,12 +179,28 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
       | `twilio_to` | the owner's mobile, E.164 — the moderation/approval handset |
 
       Test to a real handset afterwards; `201 queued` proves nothing.
-- [ ] **Point the number's webhook at the Worker before arming.** `+12489271666` still has the
-      factory default `sms_url = https://demo.twilio.com/welcome/sms/reply`. It must be
-      `https://tsd-boarddocs.karpowitsch.org/twilio/inbound` (POST), or every `YES 12` / `NO 12`
-      reply hits Twilio's demo responder and questions sit in `awaiting_approval` forever. The
-      Messaging Service has `use_inbound_webhook_on_number = true` and no `inbound_request_url`,
-      so the **number-level** setting is the one that matters.
+- [x] ~~Point the number's webhook at the Worker.~~ **Done 2026-08-10.** `+12489271666` had the
+      factory default `sms_url = https://demo.twilio.com/welcome/sms/reply`; it is now
+      `https://tsd-boarddocs.karpowitsch.org/api/assistant/twilio/inbound` (POST). Left as the
+      demo URL, every `YES 12` / `NO 12` reply would have hit Twilio's demo responder and
+      questions would have sat in `awaiting_approval` forever. The Messaging Service has
+      `use_inbound_webhook_on_number = true` and no `inbound_request_url`, so the **number-level**
+      setting is the one that matters.
+
+      **Mind the `/api/assistant` prefix.** `worker.js` routes on
+      `p = url.pathname.slice("/api/assistant".length)`, so the handler's `"/twilio/inbound"` is
+      reached at `/api/assistant/twilio/inbound`. The bare `/twilio/inbound` written in the source
+      is the *sliced* path, not a URL — it 404s. Probe before trusting it:
+
+      ```
+      POST /api/assistant/twilio/inbound  -> 403 forbidden   # correct: exists, fails closed
+      POST /twilio/inbound                -> 404             # what the handler string looks like
+      ```
+
+      403 is the right answer to an unsigned probe, and it is what an unarmed Worker returns too —
+      `twilioSigValid` is only called when `twilioReady()` is true, so `expected` is empty and the
+      request is refused. A 403 therefore confirms the route exists but says nothing about whether
+      signature validation works; only a real signed webhook does that.
 - [ ] **Balance is $1.14.** The campaign carries a $2/month fee on top of per-message cost. Top up
       or confirm auto-recharge, or the registration just bought could lapse for want of $2.
 
