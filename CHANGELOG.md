@@ -5,6 +5,52 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Twilio A2P 10DLC approved; SMS staged but not yet armed — 2026-08-10
+
+- **The campaign is VERIFIED** (`CM8330793…`, TCR `CJ6Z6E9`, 0 errors), five days
+  after the 2026-08-05 resubmission rather than the 2-3 weeks budgeted. The
+  corrected payload — distinct samples, no embedded links or phone, blank opt-in
+  keywords, a MessageFlow quoting the live consent checkbox — is what carriers
+  approved.
+- **`date_updated` is not stamped on the transition to VERIFIED.** It still reads
+  `2026-08-05T19:22:20Z`, identical to `date_created`, so the record looks
+  untouched even though the state changed. Read `campaign_status`; the timestamp
+  is not evidence of anything.
+- **Approval arms nothing.** Three separate things still gated SMS: no `twilio_*`
+  rows existed at all, the number was still on Twilio's demo responder, and the
+  balance ($1.14) was under the campaign's own $2/month fee.
+- **The inbound webhook was pointing at `demo.twilio.com`.** Now
+  `/api/assistant/twilio/inbound` — and the prefix is the trap. `worker.js` routes
+  on `p = url.pathname.slice("/api/assistant".length)`, so the `"/twilio/inbound"`
+  in the handler is the *sliced* path, not a URL. Set verbatim from the source it
+  404s, failing exactly like the demo URL it replaced: silently, with questions
+  stuck in `awaiting_approval`. Probed both paths to confirm (403 vs 404).
+- **A real message reached a real handset**: `SM1b57de5d…` → `delivered`, no error,
+  $0.0083, Verizon. Sent through the Messages API *before* arming the Worker, which
+  separates "is A2P working" from "is my code working" for the price of one
+  message. It also settles the `From:` question — sending from the number rather
+  than `MessagingServiceSid` does get A2P treatment, so `twilioSend()` is fine as
+  written. The message reported `queued` on POST and only `delivered` on the
+  follow-up read, which is the documented trap observed live.
+- **Arming is staged behind one row.** `twilio_sid`/`twilio_from`/`twilio_to` are
+  written; `twilio_token` is held back so `twilioReady()` stays false. That makes
+  the flip a single deliberate statement instead of a side effect of a four-row
+  batch.
+- **`twilioReady()` gates two things, not one.** Besides OTP delivery it drives
+  `const moderate = twilioReady(cfgA)` in `/ask`, so arming silently turns on
+  question moderation for every user. Worth knowing before deciding it is an
+  OTP-only change.
+- **Consent is not a phone number on file.** `/otp/start` requires
+  `sms_consent === 1`; row 6 carried the fictional placeholder `+12485550199` and
+  a NULL consent, and would have kept falling through to email. Moved to the real
+  handset with consent and a timestamp.
+- Recorded that the auth token **cannot** move to an `SK…` key without a code
+  change: `twilioSigValid()` HMACs webhooks with the account auth token, which is
+  what Twilio actually signs with, and `twilioSend()` reuses `twilio_sid` as both
+  Basic-auth user and URL account.
+- Deleted a junk registration (`asdc@gmail.com`, fictional number) after checking
+  the predicate hit exactly one row and no sessions or questions.
+
 ### Re-summarization campaign — status 2026-08-08
 
 - **`packets` at 58/151; every year from 2017 onward is complete.** 2020, 2019,

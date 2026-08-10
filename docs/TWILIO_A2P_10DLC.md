@@ -167,16 +167,40 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
 - [x] ~~Watch the new campaign.~~ **VERIFIED, 0 errors** — confirmed 2026-08-10, five days after
       submission rather than the 2-3 weeks budgeted. `a2p_resubmit.sh submit` is now moot unless
       the campaign is ever re-opened; it only ever worked from FAILURE.
-- [ ] **Arm SMS.** Four `bot_config` rows, none of which exist yet — `SELECT k FROM bot_config`
-      returns only `admin_key`, `agent_key`, `mail_from`, `resend_api_key`, `turnstile_secret`,
-      `turnstile_sitekey`. `twilioReady()` needs **all four** or the Worker stays on email:
+- [x] ~~Carrier delivery is unproven.~~ **A real message landed on a real handset 2026-08-10.**
+      `SM1b57de5d…` → `delivered`, no error code, $0.0083, 1 segment, Verizon. Sent straight
+      through the Messages API before the Worker was armed, which is the cheap way to separate
+      "is A2P working" from "is my code working" — had it been filtered, the answer would have
+      been error 30034 and nothing to do with `worker.js`.
 
-      | key | value |
-      |---|---|
-      | `twilio_sid` | `ACf591b5dc…` (account sid; also goes in the Messages URL) |
-      | `twilio_token` | the auth token — see the rotation note below |
-      | `twilio_from` | `+12489271666` |
-      | `twilio_to` | the owner's mobile, E.164 — the moderation/approval handset |
+      It also settles the `From:` question. `twilioSend()` posts `From: +12489271666` rather than
+      `MessagingServiceSid`, and that **does** get A2P treatment, because the number is
+      campaign-associated through `MG125c5d71…`. No code change needed. Twilio still recommends
+      the Messaging Service route in general; if delivery ever degrades, that is the first thing
+      to try.
+
+      Note the message reported `queued` on POST and only became `delivered` on the follow-up
+      read — exactly the trap the warning below describes, observed live.
+- [~] **Arm SMS.** Three of four `bot_config` rows written 2026-08-10; `twilio_token` deliberately
+      held back, so `twilioReady()` is still false and the Worker remains on the Resend ladder.
+
+      | key | value | state |
+      |---|---|---|
+      | `twilio_sid` | `ACf591b5dc…` (account sid; also goes in the Messages URL) | ✅ written |
+      | `twilio_from` | `+12489271666` | ✅ written |
+      | `twilio_to` | the owner's mobile, E.164 — the moderation/approval handset | ✅ written |
+      | `twilio_token` | the auth token — see the rotation note below | ⏳ **the switch** |
+
+      Staging it this way makes arming a single deliberate statement rather than a side effect of
+      a four-row batch, and the three harmless rows can be verified in place first.
+
+      `bot_users` row 6 was also moved off the fictional placeholder `+12485550199` onto the real
+      handset with `sms_consent=1` — without that, `/otp/start` falls through to email even with
+      Twilio armed, because it requires `sms_consent === 1` and not merely a phone on file.
+
+      Two numbers are in play and both are Michigan 248, which is a reliable source of confusion:
+      `twilio_from` is the Twilio number the archive sends *from*; `twilio_to` is the owner's
+      pocket phone, where moderation alerts land and which `/twilio/inbound` accepts replies from.
 
       Test to a real handset afterwards; `201 queued` proves nothing.
 - [x] ~~Point the number's webhook at the Worker.~~ **Done 2026-08-10.** `+12489271666` had the
@@ -201,8 +225,21 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
       `twilioSigValid` is only called when `twilioReady()` is true, so `expected` is empty and the
       request is refused. A 403 therefore confirms the route exists but says nothing about whether
       signature validation works; only a real signed webhook does that.
-- [ ] **Balance is $1.14.** The campaign carries a $2/month fee on top of per-message cost. Top up
-      or confirm auto-recharge, or the registration just bought could lapse for want of $2.
+- [x] ~~Balance is $1.14.~~ Topped up to **$21.14** on 2026-08-10, against a $2/month campaign fee
+      and ~$0.0083/segment. Still no auto-recharge configured — worth setting, since the failure
+      mode is a registration lapsing rather than a bounced message.
+- [ ] **Prove the inbound webhook.** Everything so far exercises the *outbound* path. Nothing has
+      yet tested `twilioSigValid()`, and it cannot be tested from a script: forging a valid
+      `X-Twilio-Signature` needs the auth token, so a self-signed probe only checks the code
+      against itself. It takes a human replying `YES <id>` from the handset.
+
+      The specific risk is that the HMAC covers `url.origin + url.pathname`, so if the request
+      ever arrives on an origin other than the configured webhook URL, every reply 403s. Watch it
+      with `npx wrangler tail` during the first real reply.
+
+      Escape hatch if it fails: `/api/assistant/admin/moderate` takes `{id, decision}` with an
+      `X-Admin-Key` header, is not Turnstile-gated, and was confirmed reachable server-side
+      (HTTP 200). Questions cannot get permanently stranded.
 
 ### Arming flips question moderation on, too
 
@@ -226,6 +263,11 @@ reuses `twilio_sid` as both the Basic-auth username and the account in the URL, 
 pair breaks. So rotating to an API key means splitting the config into separate send credentials
 and a validation token, in code. Until then `twilio_token` must hold the real auth token, and
 rotating it means rotating in `bot_config` and `tsd-secrets.env` together.
+
+Arming makes that worse, not better: the token now lives in **two** places that must change in
+lockstep, and the account has exactly one `SK…` key (`API-Key-2025-02`, created 2025-02-20) which
+cannot substitute for either use. Splitting the config into separate send credentials and a
+webhook-validation token is the prerequisite for ever rotating cleanly.
 - [x] ~~Turnstile is not live.~~ **Armed 2026-08-05 and verified.** A **Managed** widget named
       `tsd-boarddocs` (hostname `tsd-boarddocs.karpowitsch.org`, pre-clearance off) was created and
       its keys written to `bot_config`; `/api/assistant/me` returns the sitekey and the widget
