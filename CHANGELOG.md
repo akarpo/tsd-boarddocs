@@ -5,6 +5,29 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Approve registrations by text — 2026-08-10
+
+- `/register` now texts the owner the applicant's name, email, phone and reason.
+  Reply **`1`** to approve or **`2`** to decline, optionally with an id. Twelve
+  seconds from submitted form to approved account, measured end to end.
+- A bare `1`/`2` acts only when exactly one registration is pending; with several
+  it lists them and asks for an id. Guessing would grant archive access to
+  somebody never vetted, which no text message takes back.
+- **Digits, not words, because of reserved carrier keywords.** `YES`, `START`,
+  `UNSTOP` and the STOP family are intercepted on US long codes before a TwiML
+  reply is delivered. Observed live: a bare `YES` reached the Worker, validated
+  its signature and generated the correct reply, and the reply never arrived —
+  no error anywhere, a healthy-looking invocation in `wrangler tail`, and simply
+  no `outbound-reply` in the message log. A keyword *with* an id (`YES 4`) passes
+  through; only the bare word is caught.
+- TwiML replies quote registrant emails, the first user-controlled content to
+  reach that XML, so it is escaped now — a stray `&` is enough for Twilio to drop
+  the response.
+- New **`docs/ACCESS_CONTROL.md`** documents the whole gated path end to end:
+  registration → approval → sign-in → question moderation → admin 2FA, both SMS
+  reply grammars, the three call sites `twilioReady()` gates, a signed-probe
+  recipe for testing the webhook without a handset, and break-glass procedures.
+
 ### Admin login is now two-factor — 2026-08-10
 
 - `/admin` takes the admin key **and** a six-digit code texted to

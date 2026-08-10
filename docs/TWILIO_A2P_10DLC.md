@@ -146,6 +146,17 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
 | 30909 | Campaign rejected: CTA unverifiable | the live opt-in does not match what you described |
 | 20003 | Not authorised | usually an unapproved Trust Hub profile, not bad credentials |
 
+### The failure with no error code at all
+
+**A bare `YES`, `START`, `UNSTOP` or `STOP` from a handset is intercepted as a reserved opt-in /
+opt-out keyword.** Your webhook still fires and its TwiML reply is still generated — and never
+delivered. Nothing logs an error: `wrangler tail` shows a healthy invocation and the Twilio
+message log shows the inbound message with no `outbound-reply` beside it.
+
+Observed 2026-08-10 and the reason the registration flow replies to `1`/`2` rather than words.
+A keyword followed by an id (`YES 4`) passes through; only the bare word is caught. Full account
+in [ACCESS_CONTROL.md](ACCESS_CONTROL.md#why-registrations-use-digits-reserved-carrier-keywords).
+
 > **Unregistered A2P traffic fails silently.** Twilio returns `201 queued`; the carrier drops it.
 > An API success proves nothing — the only meaningful test is a message arriving on a handset.
 
@@ -228,18 +239,20 @@ rule holds either way: **identify a campaign by `MG…` + credentials, never by 
 - [x] ~~Balance is $1.14.~~ Topped up to **$21.14** on 2026-08-10, against a $2/month campaign fee
       and ~$0.0083/segment. Still no auto-recharge configured — worth setting, since the failure
       mode is a registration lapsing rather than a bounced message.
-- [ ] **Prove the inbound webhook.** Everything so far exercises the *outbound* path. Nothing has
-      yet tested `twilioSigValid()`, and it cannot be tested from a script: forging a valid
-      `X-Twilio-Signature` needs the auth token, so a self-signed probe only checks the code
-      against itself. It takes a human replying `YES <id>` from the handset.
+- [x] ~~Prove the inbound webhook.~~ **Proven end to end 2026-08-10.** A registration was approved
+      by text in 12 seconds: notification out at 21:38:51, `1` in at 21:39:03, `#9 … approved.`
+      delivered at 21:39:03, `decided_at` 21:39:03.500Z. `twilioSigValid()` is correct and the
+      origin matches.
 
-      The specific risk is that the HMAC covers `url.origin + url.pathname`, so if the request
-      ever arrives on an origin other than the configured webhook URL, every reply 403s. Watch it
-      with `npx wrangler tail` during the first real reply.
+      The signed-probe recipe — how to exercise the handler without a handset, using a nonexistent
+      id so it cannot approve anyone — is in
+      [ACCESS_CONTROL.md](ACCESS_CONTROL.md#verifying-the-inbound-webhook-without-a-handset).
 
-      Escape hatch if it fails: `/api/assistant/admin/moderate` takes `{id, decision}` with an
-      `X-Admin-Key` header, is not Turnstile-gated, and was confirmed reachable server-side
-      (HTTP 200). Questions cannot get permanently stranded.
+      Escape hatch: `/api/assistant/admin/moderate` takes `{id, decision}`. Note it now requires an
+      admin **session**, not the `X-Admin-Key` header — admin login became two-factor the same day.
+- [ ] **No auto-recharge on the Twilio balance.** $21.14 as of 2026-08-10 against a $2/month
+      campaign fee and ~$0.0083/segment. The failure mode worth avoiding is not a bounced text but
+      the registration lapsing for want of $2.
 
 ### Arming flips question moderation on, too
 
