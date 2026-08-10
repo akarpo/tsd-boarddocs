@@ -368,6 +368,73 @@ async function sessionUser(request, env) {
 }
 const QUESTION_MAX = 600, OPEN_CAP = 2, DAILY_CAP = 10;
 const ADMIN_SESSION_HOURS = 12;
+const RELAY_TIMEOUT_MS = 5000;   // Twilio abandons a webhook at ~10s; stay well inside it
+
+// ---------- inbound SMS routing ----------
+// One number, one webhook, several projects. See schema/0013_sms_routes.sql for the matching
+// rules. Returns the first enabled route that matches, or null.
+async function pickSmsRoute(env, cfg, { to, from, body }) {
+  const { results } = await env.DB.prepare(
+    "SELECT * FROM sms_routes WHERE enabled=1 ORDER BY priority, id").all();
+  const text = String(body || "").trim();
+  for (const r of results || []) {
+    if (r.to_number && r.to_number !== to) continue;
+    if (r.from_number) {
+      const want = r.from_number === "$owner" ? cfg.twilio_to : r.from_number;
+      if (!want || want !== from) continue;
+    }
+    if (r.pattern) {
+      // A bad pattern must not take the webhook down for every other project, so a route that
+      // will not compile is skipped and logged rather than thrown.
+      let re;
+      try { re = new RegExp(r.pattern, "i"); }
+      catch (e) { console.error(`[sms] route ${r.id} bad pattern: ${e.message}`); continue; }
+      if (!re.test(text)) continue;
+    }
+    return r;
+  }
+  return null;
+}
+
+// Relay a message to the project that owns it. The peer proves it holds the same secret by
+// verifying our signature; we prove nothing about the peer beyond TLS, which is why the secret
+// is per-route rather than shared account-wide.
+//
+// Signature is over `timestamp + "." + body` so a captured POST cannot be replayed later.
+async function relayToProject(route, payload) {
+  const bodyText = JSON.stringify(payload);
+  const ts = Math.floor(Date.now() / 1000).toString();
+  const key = await crypto.subtle.importKey("raw", enc.encode(route.secret || ""),
+    { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const mac = await crypto.subtle.sign("HMAC", key, enc.encode(`${ts}.${bodyText}`));
+  const sig = hex(new Uint8Array(mac));
+
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), RELAY_TIMEOUT_MS);
+  try {
+    const r = await fetch(route.endpoint, {
+      method: "POST", signal: ctl.signal,
+      headers: {
+        "content-type": "application/json",
+        "x-sms-relay-project": route.project,
+        "x-sms-relay-timestamp": ts,
+        "x-sms-relay-signature": `sha256=${sig}`,
+      },
+      body: bodyText,
+    });
+    const txt = (await r.text()).slice(0, 2000);
+    if (!r.ok) {
+      console.error(`[sms] relay ${route.project} -> ${r.status}: ${txt.slice(0, 200)}`);
+      return { ok: false, status: r.status };
+    }
+    let d = {};
+    try { d = txt ? JSON.parse(txt) : {}; } catch { /* a peer may legitimately reply empty */ }
+    return { ok: true, reply: typeof d.reply === "string" ? d.reply : "" };
+  } catch (e) {
+    console.error(`[sms] relay ${route.project} failed: ${e.name === "AbortError" ? "timeout" : e.message}`);
+    return { ok: false, status: 0 };
+  } finally { clearTimeout(timer); }
+}
 
 // Admin sessions are checked against the table on every request rather than being self-signed,
 // so /admin/logout and an expiry sweep can actually revoke one. Expired rows are deleted on
@@ -574,9 +641,34 @@ async function handleAssistant(request, env, url) {
     const twiml = (m) => new Response(
       `<?xml version="1.0" encoding="UTF-8"?><Response>${m ? `<Message>${xmlEsc(m)}</Message>` : ""}</Response>`,
       { headers: { "content-type": "text/xml" } });
-    if (!expected || !safeEq(sig, expected) || params.get("From") !== cfgT.twilio_to)
+    // Signature first, unconditionally. It is the only proof the request came from Twilio, and
+    // it is the one check that cannot be delegated to a peer project: verifying it needs the
+    // account auth token, which is exactly what we are not handing out.
+    if (!expected || !safeEq(sig, expected))
       return new Response("forbidden", { status: 403 });
+
     const bodyTxt = (params.get("Body") || "").trim();
+    const smsTo = params.get("To") || "", smsFrom = params.get("From") || "";
+
+    // Which project owns this message? Matching is by destination number, sender, and body --
+    // see schema/0013_sms_routes.sql. The old hardcoded `From === twilio_to` test now lives in
+    // the seeded routes as from_number='$owner'.
+    const route = await pickSmsRoute(env, cfgT, { to: smsTo, from: smsFrom, body: bodyTxt });
+    // Unclaimed traffic stays a 403, exactly as before routing existed. Inventing a reply for a
+    // stranger's text would put an outbound message on a campaign that never described one.
+    if (!route) return new Response("forbidden", { status: 403 });
+
+    if (route.endpoint) {
+      const out = await relayToProject(route, {
+        project: route.project, from: smsFrom, to: smsTo, body: bodyTxt,
+        message_sid: params.get("MessageSid") || params.get("SmsMessageSid") || "",
+        received_at: nowIso(),
+      });
+      // A peer being down must not look to the sender like their message was ignored.
+      if (!out.ok) return twiml("Sorry — that service isn't reachable right now. Please try again shortly.");
+      return twiml(out.reply || "");
+    }
+    // endpoint IS NULL -> handled below, in this Worker
 
     // ----- registration approvals: "1" approve / "2" decline, optional id -----
     // Digits rather than words on purpose. YES, START and UNSTOP are reserved carrier opt-in
@@ -692,6 +784,76 @@ async function handleAssistant(request, env, url) {
       .bind(approve ? "pending" : "declined", approve ? null : "declined by the moderator", Number(body.id)).run();
     return json({ ok: true });
   }
+  // ----- inbound SMS routes -----
+  if (p === "/admin/sms-routes" && method === "GET" && isAdmin) {
+    // Never return `secret`. Report only whether one is set and its length, which is enough to
+    // diagnose "we configured different secrets" without putting the value in a browser tab.
+    const { results } = await env.DB.prepare(
+      "SELECT id,project,to_number,from_number,pattern,endpoint,enabled,priority,note,created_at," +
+      "       CASE WHEN secret IS NULL OR secret='' THEN 0 ELSE length(secret) END AS secret_len" +
+      "  FROM sms_routes ORDER BY priority, id").all();
+    return json({ routes: results || [] });
+  }
+
+  if (p === "/admin/sms-routes" && method === "POST" && isAdmin) {
+    const b = body || {};
+    if (!b.project) return json({ error: "project is required" }, 400);
+    if (b.endpoint && !/^https:\/\//.test(b.endpoint))
+      return json({ error: "endpoint must be https" }, 400);
+    if (b.endpoint && !b.secret && !b.id)
+      return json({ error: "a forwarding route needs a secret" }, 400);
+    // Reject a pattern that will not compile here rather than at 2am on a live message.
+    if (b.pattern) {
+      try { new RegExp(b.pattern, "i"); }
+      catch (e) { return json({ error: `bad pattern: ${e.message}` }, 400); }
+    }
+    if (b.id) {
+      await env.DB.prepare(
+        "UPDATE sms_routes SET project=?1,to_number=?2,from_number=?3,pattern=?4,endpoint=?5," +
+        "secret=COALESCE(?6,secret),enabled=?7,priority=?8,note=?9 WHERE id=?10"
+      ).bind(b.project, b.to_number || null, b.from_number || null, b.pattern || null,
+             b.endpoint || null, b.secret || null, b.enabled === 0 ? 0 : 1,
+             Number(b.priority) || 100, b.note || null, Number(b.id)).run();
+      return json({ ok: true, id: Number(b.id) });
+    }
+    const r = await env.DB.prepare(
+      "INSERT INTO sms_routes (project,to_number,from_number,pattern,endpoint,secret,enabled,priority,note,created_at)" +
+      " VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10)"
+    ).bind(b.project, b.to_number || null, b.from_number || null, b.pattern || null,
+           b.endpoint || null, b.secret || null, b.enabled === 0 ? 0 : 1,
+           Number(b.priority) || 100, b.note || null, nowIso()).run();
+    return json({ ok: true, id: r.meta.last_row_id });
+  }
+
+  if (p === "/admin/sms-routes/delete" && method === "POST" && isAdmin) {
+    await env.DB.prepare("DELETE FROM sms_routes WHERE id=?1").bind(Number(body.id)).run();
+    return json({ ok: true });
+  }
+
+  // Credential check: does the peer actually hold the same secret we do? Sends a signed probe
+  // that carries no message, so it is safe to run any time and cannot approve or change anything.
+  // A peer is expected to verify the signature and answer {"ok":true}.
+  if (p === "/admin/sms-routes/check" && method === "POST" && isAdmin) {
+    const { results } = await env.DB.prepare(
+      "SELECT * FROM sms_routes WHERE enabled=1 AND endpoint IS NOT NULL" +
+      (body && body.id ? " AND id=?1" : "")).bind(...(body && body.id ? [Number(body.id)] : [])).all();
+    const out = [];
+    for (const r of results || []) {
+      if (!r.secret) { out.push({ id: r.id, project: r.project, ok: false, detail: "no secret stored on this side" }); continue; }
+      const res = await relayToProject(r, { probe: true, project: r.project, sent_at: nowIso() });
+      out.push({
+        id: r.id, project: r.project, endpoint: r.endpoint,
+        ok: res.ok,
+        detail: res.ok ? "peer accepted the signature"
+              : res.status === 401 || res.status === 403 ? "peer rejected the signature — secrets differ"
+              : res.status ? `peer returned HTTP ${res.status}`
+              : "unreachable or timed out",
+      });
+    }
+    if (!out.length) return json({ checked: [], note: "no enabled forwarding routes configured" });
+    return json({ checked: out });
+  }
+
   if (p === "/admin/questions" && isAdmin) {
     const { results } = await env.DB.prepare(
       "SELECT q.id,u.email,q.question,q.status,q.answer,q.error,q.asked_at,q.tokens_used FROM bot_questions q JOIN bot_users u ON u.id=q.user_id ORDER BY q.id DESC LIMIT 50").all();

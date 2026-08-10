@@ -5,6 +5,40 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Inbound SMS becomes a router — 2026-08-10
+
+- A phone number has exactly one `sms_url`, so the project holding it holds *all*
+  inbound traffic. `+12489271666` points here, and `tsdfeedback-2026` is about to
+  start texting **members of the public** for survey phone verification. Those
+  people reply — STOP, questions, the code sent back — and under the old handler
+  every one of those hit `From !== twilio_to` and got a silent 403 that the owning
+  project never saw.
+- New `sms_routes` table (`schema/0013_sms_routes.sql`). The first enabled route by
+  priority whose `to_number`, `from_number` and `pattern` all match wins; `NULL`
+  means "any". `endpoint IS NULL` handles it here, otherwise it relays.
+- **Seeded to reproduce the previous behaviour exactly**, verified after deploy:
+  owner `1 999` / `2 999` / `YES 99` / `hello` all answer as before, and a stranger
+  still gets 403 when no route claims them. The old hardcoded owner test now lives
+  in the data as `from_number='$owner'`.
+- **Signature validation stays first and unconditional.** It is the one check that
+  cannot be delegated to a peer, because verifying it needs the account auth token
+  — which is precisely what peers are not given.
+- Relay is an HMAC-SHA256 POST signed over `timestamp + "." + body`, so a captured
+  request cannot be replayed. 5s timeout, inside Twilio's ~10s abandonment. A dead
+  peer produces a plain apology to the sender, not a 500 and not silence —
+  exercised against a not-yet-existing endpoint.
+- `/admin/sms-routes` lists (secrets as a length, never a value), creates, updates
+  and deletes; `/admin/sms-routes/check` sends a signed probe carrying no message
+  and reports whether the peer holds the same secret, distinguishing *secrets
+  differ* from *unreachable*.
+- A route whose regex will not compile is skipped and logged, never thrown. One bad
+  pattern must not take the webhook down for every other project.
+- **First match wins, so a broad low-priority pattern silently swallows everything
+  below it.** Owner routes sit at 10/20 so a project added at 50 cannot capture `1`
+  or `YES 4`. Prefer `from_number` over body patterns: no pattern distinguishes two
+  projects that both want the word "STOP".
+- Contract for peers, with a verification snippet, in **`docs/SMS_ROUTING.md`**.
+
 ### Approve registrations by text — 2026-08-10
 
 - `/register` now texts the owner the applicant's name, email, phone and reason.

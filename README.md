@@ -152,6 +152,7 @@ project — not affiliated with Troy School District.
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — system design, data flow, decisions
 - [docs/OPERATIONS.md](docs/OPERATIONS.md) — runbook: ingest, summaries, deploy, gotchas
 - [docs/ACCESS_CONTROL.md](docs/ACCESS_CONTROL.md) — registration → approval → sign-in → moderation → admin 2FA, all of it by SMS
+- [docs/SMS_ROUTING.md](docs/SMS_ROUTING.md) — one Twilio number, several projects: the routing table and the relay contract
 - [docs/TWILIO_A2P_10DLC.md](docs/TWILIO_A2P_10DLC.md) — carrier registration: state, payload, error codes
 - [docs/RESUMMARIZE.md](docs/RESUMMARIZE.md) — the re-summarization campaign: method, ordering, figure validation
 - [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md) — meeting video → speaker-attributed captions
