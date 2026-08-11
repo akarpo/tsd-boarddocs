@@ -396,6 +396,73 @@ async function pickSmsRoute(env, cfg, { to, from, body }) {
   return null;
 }
 
+// Every inbound message is recorded, whichever way it was disposed of: handled here, relayed to
+// a peer, or claimed by nobody. Best-effort by construction -- a logging failure must never turn
+// a working reply into a 500, so this swallows its own errors.
+//
+// `from_number` is stored in full. tsdfeedback-2026 hashes the sender in its own copy, and that
+// is the right call for a store whose subjects are survey respondents; here the admin panel
+// already lists registrants' numbers, the panel is behind 2FA and single-user, and an inbound
+// log whose sender you cannot read does not answer the question you open it to ask.
+async function logSmsInbound(env, row) {
+  try {
+    await env.DB.prepare(
+      "INSERT INTO sms_inbound (received_at,from_number,to_number,body,message_sid,route_id,project,disposition,reply)" +
+      " VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9)"
+    ).bind(nowIso(), row.from || null, row.to || null, String(row.body || "").slice(0, 1600),
+           row.message_sid || null, row.route_id || null, row.project || null,
+           row.disposition, row.reply || null).run();
+  } catch (e) { console.error("[sms] log failed:", e.message); }
+}
+
+// The tsd-boarddocs command grammar, lifted out of the request handler so that every branch
+// returns a string instead of a Response. That is what lets the caller log the reply it is about
+// to send -- previously each branch returned TwiML directly and there was no single point where
+// the outcome was known.
+async function ownerCommandReply(env, bodyTxt) {
+  // ----- registration approvals: "1" approve / "2" decline, optional id -----
+  // Digits rather than words on purpose. YES, START and UNSTOP are reserved carrier opt-in
+  // keywords on US long codes: a bare "YES" is intercepted upstream and the TwiML reply never
+  // reaches the handset, even though the webhook fires and looks healthy in the logs.
+  const reg = /^([12])\s*#?\s*(\d+)?$/.exec(bodyTxt);
+  if (reg) {
+    const approveReg = reg[1] === "1";
+    let uid = reg[2] ? Number(reg[2]) : null;
+    if (uid === null) {
+      const { results } = await env.DB.prepare(
+        "SELECT id,email FROM bot_users WHERE status='pending' ORDER BY id").all();
+      const pend = results || [];
+      // Never guess which one when several are waiting. A bare "1" is convenient exactly
+      // because there is usually one applicant; guessing wrong hands archive access to
+      // somebody who was never vetted, which is not a recoverable mistake by text message.
+      if (!pend.length) return "No registrations are pending.";
+      if (pend.length > 1)
+        return `${pend.length} pending: ` + pend.map((u) => `#${u.id} ${u.email}`).join(", ") +
+          `. Reply "1 ${pend[0].id}" or "2 ${pend[0].id}".`;
+      uid = pend[0].id;
+    }
+    const ru = await env.DB.prepare("SELECT id,email,status FROM bot_users WHERE id=?1").bind(uid).first();
+    if (!ru) return `No registration #${uid}.`;
+    if (ru.status !== "pending") return `#${uid} ${ru.email} is already ${ru.status}.`;
+    const decision = approveReg ? "approved" : "denied";
+    await env.DB.prepare("UPDATE bot_users SET status=?1, decided_at=?2 WHERE id=?3")
+      .bind(decision, nowIso(), uid).run();
+    // Mirrors /admin/decide: a denial must not leave a live session behind.
+    if (!approveReg) await env.DB.prepare("DELETE FROM bot_sessions WHERE user_id=?1").bind(uid).run();
+    return `#${uid} ${ru.email} ${decision}.`;
+  }
+
+  const m = /^\s*(yes|no|y|n)\s*#?\s*(\d+)/i.exec(bodyTxt);
+  if (!m) return 'Reply "1"/"2" to approve or decline a registration, or "YES <id>"/"NO <id>" for a question.';
+  const approve = m[1].toLowerCase().startsWith("y"), qid = Number(m[2]);
+  const row = await env.DB.prepare("SELECT id,status FROM bot_questions WHERE id=?1").bind(qid).first();
+  if (!row) return `No question #${qid}.`;
+  if (row.status !== "awaiting_approval") return `#${qid} is already ${row.status}.`;
+  await env.DB.prepare("UPDATE bot_questions SET status=?1, error=?2 WHERE id=?3")
+    .bind(approve ? "pending" : "declined", approve ? null : "declined by the moderator", qid).run();
+  return approve ? `#${qid} approved — answering now.` : `#${qid} declined.`;
+}
+
 // Relay a message to the project that owns it. The peer proves it holds the same secret by
 // verifying our signature; we prove nothing about the peer beyond TLS, which is why the secret
 // is per-route rather than shared account-wide.
@@ -654,63 +721,36 @@ async function handleAssistant(request, env, url) {
     // see schema/0013_sms_routes.sql. The old hardcoded `From === twilio_to` test now lives in
     // the seeded routes as from_number='$owner'.
     const route = await pickSmsRoute(env, cfgT, { to: smsTo, from: smsFrom, body: bodyTxt });
-    // Unclaimed traffic stays a 403, exactly as before routing existed. Inventing a reply for a
-    // stranger's text would put an outbound message on a campaign that never described one.
-    if (!route) return new Response("forbidden", { status: 403 });
+    const msgSid = params.get("MessageSid") || params.get("SmsMessageSid") || "";
+    const logRow = { from: smsFrom, to: smsTo, body: bodyTxt, message_sid: msgSid,
+                     route_id: route ? route.id : null, project: route ? route.project : null };
+
+    // Every path below records the message before answering, so the admin panel shows what came
+    // in regardless of who ended up handling it. Unrouted traffic is the case that most needs
+    // recording: it is invisible everywhere else precisely because nobody claimed it.
+    if (!route) {
+      // Unclaimed traffic stays a 403, exactly as before routing existed. Inventing a reply for
+      // a stranger's text would put an outbound message on a campaign that never described one.
+      await logSmsInbound(env, { ...logRow, disposition: "unrouted" });
+      return new Response("forbidden", { status: 403 });
+    }
 
     if (route.endpoint) {
       const out = await relayToProject(route, {
         project: route.project, from: smsFrom, to: smsTo, body: bodyTxt,
-        message_sid: params.get("MessageSid") || params.get("SmsMessageSid") || "",
-        received_at: nowIso(),
+        message_sid: msgSid, received_at: nowIso(),
       });
       // A peer being down must not look to the sender like their message was ignored.
-      if (!out.ok) return twiml("Sorry — that service isn't reachable right now. Please try again shortly.");
-      return twiml(out.reply || "");
-    }
-    // endpoint IS NULL -> handled below, in this Worker
-
-    // ----- registration approvals: "1" approve / "2" decline, optional id -----
-    // Digits rather than words on purpose. YES, START and UNSTOP are reserved carrier opt-in
-    // keywords on US long codes: a bare "YES" is intercepted upstream and the TwiML reply never
-    // reaches the handset, even though the webhook fires and looks healthy in the logs.
-    const reg = /^([12])\s*#?\s*(\d+)?$/.exec(bodyTxt);
-    if (reg) {
-      const approveReg = reg[1] === "1";
-      let uid = reg[2] ? Number(reg[2]) : null;
-      if (uid === null) {
-        const { results } = await env.DB.prepare(
-          "SELECT id,email FROM bot_users WHERE status='pending' ORDER BY id").all();
-        const pend = results || [];
-        // Never guess which one when several are waiting. A bare "1" is convenient exactly
-        // because there is usually one applicant; guessing wrong hands archive access to
-        // somebody who was never vetted, which is not a recoverable mistake by text message.
-        if (!pend.length) return twiml("No registrations are pending.");
-        if (pend.length > 1)
-          return twiml(`${pend.length} pending: ` + pend.map((u) => `#${u.id} ${u.email}`).join(", ") +
-            `. Reply "1 ${pend[0].id}" or "2 ${pend[0].id}".`);
-        uid = pend[0].id;
-      }
-      const ru = await env.DB.prepare("SELECT id,email,status FROM bot_users WHERE id=?1").bind(uid).first();
-      if (!ru) return twiml(`No registration #${uid}.`);
-      if (ru.status !== "pending") return twiml(`#${uid} ${ru.email} is already ${ru.status}.`);
-      const decision = approveReg ? "approved" : "denied";
-      await env.DB.prepare("UPDATE bot_users SET status=?1, decided_at=?2 WHERE id=?3")
-        .bind(decision, nowIso(), uid).run();
-      // Mirrors /admin/decide: a denial must not leave a live session behind.
-      if (!approveReg) await env.DB.prepare("DELETE FROM bot_sessions WHERE user_id=?1").bind(uid).run();
-      return twiml(`#${uid} ${ru.email} ${decision}.`);
+      const reply = out.ok ? (out.reply || "")
+                           : "Sorry — that service isn't reachable right now. Please try again shortly.";
+      await logSmsInbound(env, { ...logRow, disposition: out.ok ? "relayed" : "relay_failed", reply });
+      return twiml(reply);
     }
 
-    const m = /^\s*(yes|no|y|n)\s*#?\s*(\d+)/i.exec(bodyTxt);
-    if (!m) return twiml('Reply "1"/"2" to approve or decline a registration, or "YES <id>"/"NO <id>" for a question.');
-    const approve = m[1].toLowerCase().startsWith("y"), qid = Number(m[2]);
-    const row = await env.DB.prepare("SELECT id,status FROM bot_questions WHERE id=?1").bind(qid).first();
-    if (!row) return twiml(`No question #${qid}.`);
-    if (row.status !== "awaiting_approval") return twiml(`#${qid} is already ${row.status}.`);
-    await env.DB.prepare("UPDATE bot_questions SET status=?1, error=?2 WHERE id=?3")
-      .bind(approve ? "pending" : "declined", approve ? null : "declined by the moderator", qid).run();
-    return twiml(approve ? `#${qid} approved — answering now.` : `#${qid} declined.`);
+    // endpoint IS NULL -> this project's own command grammar
+    const reply = await ownerCommandReply(env, bodyTxt);
+    await logSmsInbound(env, { ...logRow, disposition: "local", reply });
+    return twiml(reply);
   }
 
   // ----- admin: two-factor login (key + code texted to twilio_to) -----
@@ -784,6 +824,13 @@ async function handleAssistant(request, env, url) {
       .bind(approve ? "pending" : "declined", approve ? null : "declined by the moderator", Number(body.id)).run();
     return json({ ok: true });
   }
+  if (p === "/admin/sms-inbound" && isAdmin) {
+    const { results } = await env.DB.prepare(
+      "SELECT id,received_at,from_number,to_number,body,project,disposition,reply" +
+      "  FROM sms_inbound ORDER BY id DESC LIMIT 100").all();
+    return json({ messages: results || [] });
+  }
+
   // ----- inbound SMS routes -----
   if (p === "/admin/sms-routes" && method === "GET" && isAdmin) {
     // Never return `secret`. Report only whether one is set and its length, which is enough to

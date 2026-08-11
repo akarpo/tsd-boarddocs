@@ -5,6 +5,32 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Every inbound text is logged and shown in /admin — 2026-08-11
+
+- New `sms_inbound` table (`schema/0014_sms_inbound.sql`) and an **Inbound texts**
+  panel in `/admin`, showing sender, message, who handled it, and what we replied.
+- Records all four dispositions: `local` (handled here), `relayed` (a peer took
+  it), `relay_failed` (peer unreachable or rejected the signature), and
+  `unrouted` (nobody claimed it — a 403 and no reply). `unrouted` is the row type
+  most worth having, since those messages were previously invisible everywhere
+  except Twilio's own console, precisely because nothing claimed them.
+- Required lifting the command grammar out of the request handler into
+  `ownerCommandReply()`. Every branch used to `return twiml(...)` directly, so
+  there was no single point where the outcome was known and therefore nowhere to
+  log it. Branches now return a string and the handler logs once before replying.
+- Logging is best-effort and swallows its own errors: a failed insert must never
+  turn a working reply into a 500.
+- `from_number` is stored in full, unlike `tsdfeedback-2026`'s copy which hashes
+  it. Hashing is right there — its subjects are survey respondents and it only
+  needs to correlate. Here the panel already lists registrants' numbers, sits
+  behind 2FA, and has one user; a log whose sender you cannot read does not
+  answer the question you opened it to ask.
+- **Deploy propagation nearly produced a false bug report.** Two of the first six
+  test messages did not log, which looks exactly like a dropped write. They had
+  hit pre-deploy isolates with no logging code at all. A clean 12-of-12 run
+  minutes later confirmed no loss. Same lesson as the auth sweep: measure, don't
+  infer, and not immediately after deploying.
+
 ### Inbound SMS becomes a router — 2026-08-10
 
 - A phone number has exactly one `sms_url`, so the project holding it holds *all*
