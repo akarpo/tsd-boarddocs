@@ -64,6 +64,14 @@ falls back to email via Resend.
 cannot be used to discover who is registered. Expect "sent" and no text when an account is still
 pending — that is the privacy design working, not a fault.
 
+### 3b. Every inbound text is logged
+
+`sms_inbound` records each message the router sees — sender, body, which project handled it, and
+what was replied — surfaced in `/admin` under **Inbound texts**. Dispositions are `local`,
+`relayed`, `relay_failed` and `unrouted`; the last is the one to watch, since those messages are
+invisible everywhere but Twilio precisely because nothing claimed them. Details and the
+cross-project caveats: [SMS_ROUTING.md](SMS_ROUTING.md#seeing-what-came-in).
+
 ### 4. Question moderation (`POST /ask`)
 
 When Twilio is configured, questions land in `awaiting_approval` and text the owner. Reply

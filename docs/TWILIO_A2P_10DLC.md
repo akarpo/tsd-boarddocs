@@ -15,6 +15,25 @@ project uses a completely separate account under `admin@foxhalltroy.com`. The tw
 near-identical passwordless SMS-OTP designs, so their campaigns, samples and consent copy look
 alike — and acting on the wrong one edits a live carrier registration for the wrong project.
 
+**Since 2026-08-10 a third project, `tsdfeedback-2026`, shares this account** — the same
+campaign, the same number `+12489271666`, sending verification codes to survey respondents. So
+"which account" is no longer enough; ask which *project* too. Consequences worth holding in mind:
+
+- **One campaign and one number is the hard ceiling.** Verified against Twilio's documentation:
+  a Sole Proprietor entity gets exactly one of each. A second campaign is not available under
+  this brand, so projects share or they get nothing.
+- **Throughput is shared.** AT&T 0.25 msg/sec, T-Mobile STARTER ≈2,000/day across everything.
+  A burst from one project starves another's sign-in codes, and OTPs are the latency-sensitive
+  ones.
+- **Deleting the campaign or the Messaging Service now takes down both projects.** That was a
+  cheap move in early August when nothing was flowing. It is not any more.
+- **The number's `sms_url` belongs to tsd-boarddocs** and must stay pointed here; other projects
+  receive inbound by relay. See [SMS_ROUTING.md](SMS_ROUTING.md).
+- The owner decided on 2026-08-10 that running a second service's traffic on a campaign
+  registered for this one is acceptable at low volume. That is a live risk, not a resolved
+  question: if carriers object, the campaign is what gets flagged, and this project's sign-in
+  and admin 2FA go down with it.
+
 Before reading or changing anything, confirm **all three**:
 
 | check | where |

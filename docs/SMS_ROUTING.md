@@ -39,13 +39,34 @@ STOP, or a question, or the code back. Under the old handler every one of those 
 | `secret` | per-route HMAC secret, never returned by the admin API |
 | `priority` | lower wins; seeded 10/20/900 with gaps to slot projects between |
 
-Seeded routes reproduce exactly what the handler did before routing existed:
+### Live routes as of 2026-08-11
 
 ```
-10   tsd-boarddocs  $owner  ^[12](\s*#?\s*\d+)?$        local   registration approve/decline
-20   tsd-boarddocs  $owner  ^(yes|no|y|n)\s*#?\s*\d+    local   question moderation
-900  tsd-boarddocs  $owner  (any)                       local   help text
+10   tsd-boarddocs     $owner  ^[12](\s*#?\s*\d+)?$      local   registration approve/decline
+20   tsd-boarddocs     $owner  ^(yes|no|y|n)\s*#?\s*\d+  local   question moderation
+900  tsd-boarddocs     $owner  (any)                     local   help text
+950  tsdfeedback-2026  (any)   (any)                     relay   survey verification replies
 ```
+
+The first three reproduce exactly what the handler did before routing existed. **Route 950 is
+live and verified end to end** — a stranger's text relays to `tsdfeedback-2026`, which answers
+and stores it, while the owner's `1`/`2` and `YES <id>` continue to be handled here.
+
+Note how 950 works: it matches *everything*, and is safe only because it sits last. The owner's
+routes claim their traffic first and nothing but genuine strangers reaches it. Numbered below
+900 the same route would have swallowed every approval reply.
+
+Verified on 2026-08-11 by signing webhooks as Twilio would:
+
+| from | body | result |
+|---|---|---|
+| stranger | `what is this survey?` | relayed → *"Thanks — this is Alex's Troy schools survey…"* |
+| stranger | `482915` | relayed → *"That code goes in the box on the survey page…"* |
+| stranger | `STOP` | relayed → deliberately silent (carrier handles opt-out) |
+| owner | `1 999` / `YES 99` / `hello` | handled locally, unchanged |
+
+The peer's boundary was checked independently from outside: a direct POST to its endpoint with
+no signature, a bogus signature, or a stale timestamp all return `401 bad signature`.
 
 A route whose `pattern` will not compile is skipped and logged, never thrown — one bad regex
 must not take the webhook down for every other project.
@@ -114,6 +135,26 @@ message fields. Treat it as a credential test: verify the signature and return `
 It carries no message and can approve or change nothing, so it is safe to run any time.
 
 ---
+
+## Seeing what came in
+
+Every inbound message is recorded in `sms_inbound` and shown in `/admin` under **Inbound texts**:
+sender, message, who handled it, and what we replied. Four dispositions —
+
+| disposition | meaning |
+|---|---|
+| `local` | this project's command grammar handled it |
+| `relayed` | a peer took it; the reply column shows what *they* said |
+| `relay_failed` | peer unreachable, or it rejected the signature |
+| `unrouted` | nobody claimed it — 403, no reply |
+
+`unrouted` is the row type worth watching. Those messages are invisible everywhere except
+Twilio's own console, precisely because nothing claimed them, so they are what reveals a gap.
+
+Logging is best-effort and swallows its own errors: a failed insert must never turn a working
+reply into a 500. Because the router sees all traffic, this log includes peer projects' messages
+too — `tsdfeedback-2026`'s survey replies appear here as well as in its own store, and it hashes
+the sender where this table keeps it in full. Worth knowing before treating either as canonical.
 
 ## Operating it
 
