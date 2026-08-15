@@ -96,3 +96,238 @@ Each run should print 'inserted' or 'updated' — do not pipe it through tail, w
 5. A caution: once the quota is exhausted even a 50-unit captions.list read returns 403, so verification becomes impossible until the next reset.
 
 If the repository cloned successfully, you may read CHANGELOG.md entries v0.18.0 through v0.18.2 and transcription/upload_captions.py to confirm the twelve dates are still listed in MEETINGS, and say so. If the clone is unavailable, just deliver the reminder from the details above — do not treat that as a failure.
+
+- **(2026-08-08 16:45 UTC)** Would the Blaine Amendment be a hindrance to the federal tax credit that's being used for public schools, specifically the Blaine Amendment in Michigan? I just can't quite wrap my head around that because the... I presume the Blaine Amendment is something that was adopted legislatively. So the reference to it requiring an amendment to the state constitution doesn't make any sense to me.
+
+- **(2026-08-08 16:51 UTC)** <github-webhook-activity>
+You are now subscribed to PR activity for akarpo/tsd-boarddocs#8. You'll now receive events for CI failures and review comments. For each one, investigate whether it's tractable and what a fix would look like — then either make the fix if you're confident and it's small, ask me first if it's ambiguous or architecturally significant, or skip it if no action is needed. To start, check the current CI status and if there are any unresolved review comments. If so, address any that require attention. The subscription is not finished until the PR is merged or closed — webhooks don't reliably deliver CI success, new pushes, or merge-conflict transitions. If the `send_later` tool is available, schedule a self check-in roughly an hour out to re-check the PR, and re-arm it silently if nothing changed. If this is a PR you created, the drive-to-green posture applies: don't end a CI-failure wake on it without either pushing a fix or replying with the blocker.
+</github-webhook-activity>
+<github-webhook-activity>
+The following is a GitHub comment left on the PR. Review it and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| ✅ Deployment successful! &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/1ab2783d-b1e1-4d9a-95aa-b9c4c65ce38c) | tsd-boarddocs | fcb665fb | Aug 08 2026, 04:47 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 16:56 UTC)** <github-webhook-activity>
+You are now subscribed to PR activity for akarpo/tsd-boarddocs#8. You'll now receive events for CI failures and review comments. For each one, investigate whether it's tractable and what a fix would look like — then either make the fix if you're confident and it's small, ask me first if it's ambiguous or architecturally significant, or skip it if no action is needed. To start, check the current CI status and if there are any unresolved review comments. If so, address any that require attention. The subscription is not finished until the PR is merged or closed — webhooks don't reliably deliver CI success, new pushes, or merge-conflict transitions. If the `send_later` tool is available, schedule a self check-in roughly an hour out to re-check the PR, and re-arm it silently if nothing changed. If this is a PR you created, the drive-to-green posture applies: don't end a CI-failure wake on it without either pushing a fix or replying with the blocker.
+</github-webhook-activity>
+
+- **(2026-08-08 17:01 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:06 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:11 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:16 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:21 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:26 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:31 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:36 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:41 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:46 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:51 UTC)** Continue from where you left off.
+
+- **(2026-08-08 17:56 UTC)** Continue from where you left off.
+
+- **(2026-08-08 18:02 UTC)** Continue from where you left off.
+
+- **(2026-08-08 18:02 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/b258414c-e883-4d84-a312-83386de75138) | tsd-boarddocs | c8cc7497 | Aug 08 2026, 06:02 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:03 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/cb6f6bc4-2c0a-4129-aeeb-c816fc9332a5) | tsd-boarddocs | 3c9ed456 | Aug 08 2026, 06:03 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:03 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/703f954e-365e-484c-a570-af6928cdf454) | tsd-boarddocs | c1c6839a | Aug 08 2026, 06:03 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:04 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/432eb7be-ade1-41ef-ae81-70381ad97f41) | tsd-boarddocs | 04dd73f3 | Aug 08 2026, 06:03 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:04 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/4d02d79d-5333-4c1a-9bcc-2de8595b271b) | tsd-boarddocs | b4ebc25b | Aug 08 2026, 06:04 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:05 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/0654cce9-7622-427b-98a6-6f24f80c0a40) | tsd-boarddocs | fa633710 | Aug 08 2026, 06:05 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:05 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| 🔵 In progress &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/16a62f9d-3e8b-47eb-9d1f-0cde489af0c7) | tsd-boarddocs | 73863f1a | Aug 08 2026, 06:05 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-08 18:06 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| ✅ Deployment successful! &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/16a62f9d-3e8b-47eb-9d1f-0cde489af0c7) | tsd-boarddocs | 73863f1a | Aug 08 2026, 06:06 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-15 18:56 UTC)** <github-webhook-activity>
+An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it.
+
+PR: akarpo/tsd-boarddocs#8
+Author: cloudflare-workers-and-pages[bot]
+Comment: <untrusted_external_data source="pr_comment">## Deploying with &amp;nbsp;&lt;a href="https://workers.dev"&gt;&lt;img alt="Cloudflare Workers" src="https://workers.cloudflare.com/logo.svg" width="16"&gt;&lt;/a&gt; &amp;nbsp;Cloudflare Workers
+The latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
+
+| Status | Name | Latest Commit | Updated (UTC) |
+| -|-|-|-|
+| ✅ Deployment successful! &lt;br&gt;[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/16a62f9d-3e8b-47eb-9d1f-0cde489af0c7) | tsd-boarddocs | 73863f1a | Aug 08 2026, 06:06 PM |</untrusted_external_data>
+</github-webhook-activity>
+
+- **(2026-08-15 18:57 UTC)** <wake reason="external-event" current-time="2026-08-15T18:57:12Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/e95ce16f-801b-454d-9b58-0534d79edb46) | tsd-boarddocs | 30c00755 | Aug 15 2026, 06:57 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 18:57 UTC)** <wake reason="external-event" current-time="2026-08-15T18:57:52Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/36b21b81-ee44-4cd5-a3c8-a1874cc8baaa) | tsd-boarddocs | b5659704 | Aug 15 2026, 06:57 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 18:58 UTC)** <wake reason="external-event" current-time="2026-08-15T18:58:27Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/62c0c5f0-14e2-4444-91eb-af722041373f) | tsd-boarddocs | e16d3852 | Aug 15 2026, 06:58 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 18:58 UTC)** <wake reason="external-event" current-time="2026-08-15T18:58:51Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/8f50fed3-fe74-4850-88ad-a84c915cd51f) | tsd-boarddocs | d7706378 | Aug 15 2026, 06:58 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 18:59 UTC)** <wake reason="external-event" current-time="2026-08-15T18:59:15Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/67826b2e-9b92-49dc-ac1b-9002bb59f948) | tsd-boarddocs | 542d0549 | Aug 15 2026, 06:59 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 18:59 UTC)** <wake reason="external-event" current-time="2026-08-15T18:59:42Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/22cd0511-0fec-4529-aebd-3bc2666e6722) | tsd-boarddocs | 8a7cf45c | Aug 15 2026, 06:59 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 19:00 UTC)** <wake reason="external-event" current-time="2026-08-15T19:00:17Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/ab404a7f-1ee3-481f-80b9-bde99404c245) | tsd-boarddocs | 7f014048 | Aug 15 2026, 07:00 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 19:01 UTC)** <wake reason="external-event" current-time="2026-08-15T19:01:22Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/5e810fb0-4abc-4dfd-a985-510827bdbd0c) | tsd-boarddocs | c22b43f8 | Aug 15 2026, 07:01 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 19:01 UTC)** <wake reason="external-event" current-time="2026-08-15T19:01:54Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/f9666bef-6aae-41b5-8267-7414b0c25ccf) | tsd-boarddocs | f4b5d2f6 | Aug 15 2026, 07:01 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
+
+- **(2026-08-15 19:02 UTC)** <wake reason="external-event" current-time="2026-08-15T19:02:24Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/f3ef0421-33a5-4da8-9a64-986c2a9f303b) | tsd-boarddocs | f2c6636a | Aug 15 2026, 07:02 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
