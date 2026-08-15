@@ -268,3 +268,10 @@ The latest updates on your project. Learn more about [integrating Git with Worke
     {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/e95ce16f-801b-454d-9b58-0534d79edb46) | tsd-boarddocs | 30c00755 | Aug 15 2026, 06:57 PM |","pr":"akarpo/tsd-boarddocs#8"}
   </event>
 </wake>
+
+- **(2026-08-15 18:57 UTC)** <wake reason="external-event" current-time="2026-08-15T18:57:52Z">
+  <event source="github" kind="issue_comment.edited" from="system" trust="relay" untrusted-keys="author,file,comment,review_comments">
+    <!-- An existing GitHub comment on the PR was updated in place. Review the new content and determine what action (if any) is needed to address it. -->
+    {"author":"cloudflare-workers-and-pages[bot]","comment":"## Deploying with \u0026nbsp;\u003ca href=\"https://workers.dev\"\u003e\u003cimg alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"16\"\u003e\u003c/a\u003e \u0026nbsp;Cloudflare Workers\nThe latest updates on your project. Learn more about [integrating Git with Workers](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).\n\n| Status | Name | Latest Commit | Updated (UTC) |\n| -|-|-|-|\n| 🔵 In progress \u003cbr\u003e[View logs](https://dash.cloudflare.com/?to=/441404c330567750a5ca12287a929313/workers/services/view/tsd-boarddocs/production/builds/36b21b81-ee44-4cd5-a3c8-a1874cc8baaa) | tsd-boarddocs | b5659704 | Aug 15 2026, 06:57 PM |","pr":"akarpo/tsd-boarddocs#8"}
+  </event>
+</wake>
