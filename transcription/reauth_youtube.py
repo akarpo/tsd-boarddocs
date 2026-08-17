@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """Mint a fresh YT_REFRESH_TOKEN and write it back into tsd-secrets.env.
 
-The stored refresh token now returns `invalid_grant: Token has been expired or
-revoked`. Google expires refresh tokens after 7 days while the OAuth consent
-screen is still in *Testing*; publishing the app to *In production* (APIs &
-Services -> OAuth consent screen -> Publish) stops that from recurring.
+Google expires refresh tokens after 7 days while the OAuth consent screen sits in
+*Testing*, which is what stranded the token on 2026-08-17. The consent screen for
+project `river-inquiry-309911` ("My Project 63379" -- its number, 589628968274, is
+the prefix of YT_CLIENT_ID) was published to **In production** the same day, so
+tokens should now be long-lived and this script should rarely be needed.
+
+Reach for it if a call starts returning `invalid_grant`: the token is also
+revoked by changing the account password, revoking access in Google Account
+permissions, or 6 months of disuse. Publishing does *not* invalidate an existing
+refresh token -- the one minted before the switch kept working.
 
 Run it, approve in the browser that opens, and it rewrites the secrets file:
 
