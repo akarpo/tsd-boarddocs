@@ -83,10 +83,13 @@ def _rebuild_bg(arr: np.ndarray, y0: int, y1: int, pad: int = 9) -> None:
 
 
 def _draw_line(img: Image.Image, key: str, text: str) -> None:
+    """Relay one line. An empty `text` clears the row and leaves it blank."""
     y0, y1, x, size = LINES[key]
     a = np.asarray(img, dtype=np.float32)
     _rebuild_bg(a, y0, y1)
     img.paste(Image.fromarray(a.round().clip(0, 255).astype("uint8")))
+    if not text:
+        return
     m = Image.new("L", img.size, 0)
     ImageDraw.Draw(m).text((x, y0), text, font=ImageFont.truetype(FACE, size),
                            fill=255, anchor="la")
@@ -96,13 +99,17 @@ def _draw_line(img: Image.Image, key: str, text: str) -> None:
     img.paste(Image.new("RGB", img.size, (0, 0, 0)), mask=m)
 
 
-def synthesize(date: str, time_txt: str, kind: str = "regular",
+def synthesize(date: str, time_txt: str | None, kind: str = "regular",
                header: str | None = None) -> Image.Image:
-    """Retypeset the base card for one meeting."""
+    """Retypeset the base card for one meeting.
+
+    `time_txt=None` clears the time row rather than asserting an hour — used for
+    the handful of meetings with no BoardDocs record to read a start time from.
+    """
     y, mo, d = (int(v) for v in date.split("-"))
     img = Image.open(BASE_CARD).convert("RGB")
     _draw_line(img, "date", f"{MONTHS[mo - 1]} {d}, {y}")
-    _draw_line(img, "time", f"{time_txt} MEETING")
+    _draw_line(img, "time", f"{time_txt} MEETING" if time_txt else "")
     head = header or HEADERS.get(kind, HEADERS["regular"])
     if head != "REGULAR MEETING":             # already what the base card reads
         _draw_line(img, "hdr2", head)

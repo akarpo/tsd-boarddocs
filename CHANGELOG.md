@@ -5,6 +5,43 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Every board video carries the district's crest card — 2026-08-17
+
+- 62 thumbnails set; 82 of 86 board videos now show the crest card, verified
+  against the live CDN rather than the push's own success count.
+- **The cause was a fixed frame grab.** The city broadcast opens on a City of
+  Troy bumper ("City of Tomorrow, Today / 1955") and cuts to the crest card only
+  afterwards — sometimes at 2s, sometimes at 21s. `upload_videos.py` grabbed
+  `-ss 2`, so a late cut kept the bumper: one undated, byte-identical city
+  graphic on 52 videos, with 13 more showing a stray meeting frame.
+- New `transcription/thumbnails.py` **finds** the card instead of assuming it —
+  scans the opening at 2 fps against `assets/tsd_card_base.jpg` and lifts a hit at
+  full resolution (10 videos; that artwork is the district's own, so its
+  date/time/address are the ones that aired). Where none airs — no Workshop or
+  Retreat ever shows one — it retypesets the base card's header/date/time lines.
+- `verify_date()` reads the date back off every finished card and scores it
+  against the meeting's own date: 62/62 passed (typeset 0.97–0.99, extracted
+  0.78–0.93). It earned its place immediately, catching a frame lifted mid-fade
+  and a 2023-era striped card that could not be validated and was typeset instead.
+- **Start times come from the BoardDocs folder names, never a default.** A
+  7:00pm assumption would have mislabelled five cards: 2023-06-13 (7:30 PM),
+  2023-07-18 and 2024-07-16 (9:30 AM), 2023-08-15 and 2024-08-20 (6:00 PM), and
+  2026-07-22 (1:00 PM). Two workshops with no record carry a blank time row
+  rather than an asserted hour.
+- **The public listing was not the universe.** `yt-dlp` on `/videos` returned 64
+  videos; the authenticated uploads playlist returned 357. The real inventory was
+  86 board videos needing 66 cards, not 57 needing 39 — nine 2023–24 workshops,
+  two standing meetings and seven unlisted recordings were invisible until the
+  token existed. Scope drawn from an unauthenticated listing must be re-derived
+  once credentials do.
+- Left alone deliberately: two Meet-the-Candidates forums and one advocacy clip
+  (not board meetings, so a "REGULAR MEETING" card would misdescribe them), and
+  `_ZMz5-A7Pl4`, a 2025-03-08 upload stuck in `processingStatus: processing` with
+  `duration: P0D` and no thumbnails ever generated.
+- Adds `reauth_youtube.py`: the stored refresh token had expired, because the
+  OAuth consent screen is still in *Testing* — Google expires those weekly.
+- Prior thumbnails were backed up before any overwrite.
+
 ### Every inbound text is logged and shown in /admin — 2026-08-11
 
 - New `sms_inbound` table (`schema/0014_sms_inbound.sql`) and an **Inbound texts**

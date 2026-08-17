@@ -1,0 +1,584 @@
+[
+ {
+  "date": "2023-01-17",
+  "id": "f_40UqrpFcc",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@2s",
+  "meeting": "2023-01-17_Organizational and Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-01-17_f_40UqrpFcc.jpg"
+ },
+ {
+  "date": "2023-02-14",
+  "id": "fCQ7KIAEKAQ",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2023-02-14_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-02-14_fCQ7KIAEKAQ.jpg",
+  "note": "aired card is a different era design (striped, letterboxed); synthesized for consistency"
+ },
+ {
+  "date": "2023-03-21",
+  "id": "hCjCtQhbN_A",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2023-03-21_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-03-21_hCjCtQhbN_A.jpg"
+ },
+ {
+  "date": "2023-04-18",
+  "id": "i0kddIs6nU8",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@2s",
+  "meeting": "2023-04-18_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-04-18_i0kddIs6nU8.jpg"
+ },
+ {
+  "date": "2023-05-16",
+  "id": "N15SSEIuGC8",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2023-05-16_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-05-16_N15SSEIuGC8.jpg"
+ },
+ {
+  "date": "2023-09-19",
+  "id": "3m52N6F6h48",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@6.75s",
+  "meeting": "2023-09-19_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-09-19_3m52N6F6h48.jpg"
+ },
+ {
+  "date": "2023-10-17",
+  "id": "P2nNmqpfxo8",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2023-10-17_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-10-17_P2nNmqpfxo8.jpg"
+ },
+ {
+  "date": "2023-11-14",
+  "id": "Ayi_9ZjelVg",
+  "kind": "workshop",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2023-11-14_Board of Education Workshop 7_00 P.M. (FOLLOWING SPECIAL MEETING)",
+  "file": "2023-11-14_Ayi_9ZjelVg.jpg"
+ },
+ {
+  "date": "2023-12-12",
+  "id": "RMGz_lQYPGY",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@3s",
+  "meeting": "2023-12-12_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-12-12_RMGz_lQYPGY.jpg"
+ },
+ {
+  "date": "2024-01-16",
+  "id": "42C3J23nSgY",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2024-01-16_Organizational and Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-01-16_42C3J23nSgY.jpg"
+ },
+ {
+  "date": "2024-02-27",
+  "id": "UOpDDauFT3Q",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2024-02-27_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-02-27_UOpDDauFT3Q.jpg"
+ },
+ {
+  "date": "2024-03-19",
+  "id": "YutaFLH0sgo",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@5s",
+  "meeting": "2024-03-19_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-03-19_YutaFLH0sgo.jpg"
+ },
+ {
+  "date": "2024-03-19",
+  "id": "kya2LJZ7JZA",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "synth",
+  "meeting": "2024-03-19_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-03-19_kya2LJZ7JZA.jpg"
+ },
+ {
+  "date": "2024-04-16",
+  "id": "E8b2gueTz9E",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@9s",
+  "meeting": "2024-04-16_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-04-16_E8b2gueTz9E.jpg"
+ },
+ {
+  "date": "2024-05-21",
+  "id": "x5TY4kPciXA",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@6s",
+  "meeting": "2024-05-21_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-05-21_x5TY4kPciXA.jpg"
+ },
+ {
+  "date": "2024-06-20",
+  "id": "i08-yMRkGNE",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@4s",
+  "meeting": "2024-06-20_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-06-20_i08-yMRkGNE.jpg"
+ },
+ {
+  "date": "2024-09-17",
+  "id": "C2VBgy4VYrQ",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@6s",
+  "meeting": "2024-09-17_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-09-17_C2VBgy4VYrQ.jpg"
+ },
+ {
+  "date": "2024-10-15",
+  "id": "YhO8yLFhrAU",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "stream@21s",
+  "meeting": "2024-10-15_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-10-15_YhO8yLFhrAU.jpg"
+ },
+ {
+  "date": "2025-02-11",
+  "id": "1-P9EUyx9N0",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-02-11_Board of Education Workshop 6_00 PM",
+  "file": "2025-02-11_1-P9EUyx9N0.jpg"
+ },
+ {
+  "date": "2025-02-11",
+  "id": "4GUnzjMBZuA",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-02-11_Board of Education Workshop 6_00 PM",
+  "file": "2025-02-11_4GUnzjMBZuA.jpg"
+ },
+ {
+  "date": "2025-02-11",
+  "id": "uorMc9xlNH4",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-02-11_Board of Education Workshop 6_00 PM",
+  "file": "2025-02-11_uorMc9xlNH4.jpg"
+ },
+ {
+  "date": "2025-03-04",
+  "id": "07c94iVHEUE",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-03-04_Board of Education Workshop 6_00 PM",
+  "file": "2025-03-04_07c94iVHEUE.jpg"
+ },
+ {
+  "date": "2025-03-08",
+  "id": "ePCmC8TTgrw",
+  "kind": "retreat",
+  "time": "8:30am",
+  "source": "synth",
+  "meeting": "2025-03-08_Board of Education Winter Retreat 8_30 AM",
+  "file": "2025-03-08_ePCmC8TTgrw.jpg"
+ },
+ {
+  "date": "2025-04-01",
+  "id": "bmQU1_g5onU",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-04-01_Board of Education Workshop 6_00 PM",
+  "file": "2025-04-01_bmQU1_g5onU.jpg"
+ },
+ {
+  "date": "2025-06-03",
+  "id": "1LB-uQNLacs",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-06-03_Board of Education Workshop 6_00 P.M",
+  "file": "2025-06-03_1LB-uQNLacs.jpg"
+ },
+ {
+  "date": "2025-06-03",
+  "id": "LD5DkppIYhI",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-06-03_Board of Education Workshop 6_00 P.M",
+  "file": "2025-06-03_LD5DkppIYhI.jpg"
+ },
+ {
+  "date": "2025-06-03",
+  "id": "XM0MoYkdd9g",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-06-03_Board of Education Workshop 6_00 P.M",
+  "file": "2025-06-03_XM0MoYkdd9g.jpg"
+ },
+ {
+  "date": "2025-09-02",
+  "id": "G_CB0Jo_0ig",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-09-02_Board of Education Workshop 6_00 P.M",
+  "file": "2025-09-02_G_CB0Jo_0ig.jpg"
+ },
+ {
+  "date": "2025-10-07",
+  "id": "_loP9DZspq4",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-10-07_Board of Education Workshop 6_00 P.M",
+  "file": "2025-10-07__loP9DZspq4.jpg"
+ },
+ {
+  "date": "2025-11-11",
+  "id": "f7OVMUYi8R0",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-11-11_Board of Education Workshop 6_00 P.M",
+  "file": "2025-11-11_f7OVMUYi8R0.jpg"
+ },
+ {
+  "date": "2025-11-11",
+  "id": "kXSehoFagAQ",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-11-11_Board of Education Workshop 6_00 P.M",
+  "file": "2025-11-11_kXSehoFagAQ.jpg"
+ },
+ {
+  "date": "2025-11-11",
+  "id": "lZHyU97ZnOI",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-11-11_Board of Education Workshop 6_00 P.M",
+  "file": "2025-11-11_lZHyU97ZnOI.jpg"
+ },
+ {
+  "date": "2025-12-09",
+  "id": "MNKHsdr5otw",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2025-12-09_Board of Education Workshop 6_00 P.M",
+  "file": "2025-12-09_MNKHsdr5otw.jpg"
+ },
+ {
+  "date": "2026-01-13",
+  "id": "MBGaBQyQyMo",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2026-01-13_Board of Education Workshop 6_00 P.M",
+  "file": "2026-01-13_MBGaBQyQyMo.jpg"
+ },
+ {
+  "date": "2026-02-03",
+  "id": "SBV4mbIzKlk",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2026-02-03_Board of Education Workshop 6_00 PM",
+  "file": "2026-02-03_SBV4mbIzKlk.jpg"
+ },
+ {
+  "date": "2026-04-07",
+  "id": "aCTsYLcc2Ig",
+  "kind": "workshop",
+  "time": "6:15pm",
+  "source": "synth",
+  "meeting": "2026-04-07_Board of Education Workshop 6_15 PM",
+  "file": "2026-04-07_aCTsYLcc2Ig.jpg"
+ },
+ {
+  "date": "2026-04-28",
+  "id": "4r7_NtwEzLE",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2026-04-28_Board of Education Workshop 6_00 PM",
+  "file": "2026-04-28_4r7_NtwEzLE.jpg"
+ },
+ {
+  "date": "2026-06-01",
+  "id": "9tnu8oPKieM",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "synth",
+  "meeting": "2026-06-01_Board of Education Workshop 6_00 PM",
+  "file": "2026-06-01_9tnu8oPKieM.jpg"
+ },
+ {
+  "date": "2026-07-22",
+  "id": "v9EHA5_yT-8",
+  "kind": "regular",
+  "time": "1:00pm",
+  "source": "synth",
+  "meeting": "2026-07-22_Regular Meeting of the Board of Education 1_00 PM",
+  "file": "2026-07-22_v9EHA5_yT-8.jpg"
+ },
+ {
+  "date": "2023-09-05",
+  "id": "7fTney1Ew0E",
+  "kind": "workshop",
+  "time": "(omitted)",
+  "source": "typeset",
+  "meeting": "(no BoardDocs record)",
+  "file": "2023-09-05_7fTney1Ew0E.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2023-09-19",
+  "id": "1DuURLcwGDY",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "typeset",
+  "meeting": "2023-09-19_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-09-19_1DuURLcwGDY.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2023-10-03",
+  "id": "Ib7vymyU8H4",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2023-10-03_Board of Education Workshop 6_00 PM",
+  "file": "2023-10-03_Ib7vymyU8H4.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2023-10-17",
+  "id": "Tkm5thj7er8",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "typeset",
+  "meeting": "2023-10-17_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2023-10-17_Tkm5thj7er8.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2023-11-14",
+  "id": "8xj08l-0-9Y",
+  "kind": "workshop",
+  "time": "7:00pm",
+  "source": "typeset",
+  "meeting": "2023-11-14_Board of Education Workshop 7_00 P.M. (FOLLOWING SPECIAL MEETING)",
+  "file": "2023-11-14_8xj08l-0-9Y.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-01-09",
+  "id": "N_ZyXN2-TUk",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-01-09_Board of Education Workshop 6_00 P.M",
+  "file": "2024-01-09_N_ZyXN2-TUk.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-02-06",
+  "id": "XeCKWlQHrfc",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-02-06_Board of Education Workshop 6_00 P.M",
+  "file": "2024-02-06_XeCKWlQHrfc.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-03-05",
+  "id": "nPEx0HKKS2E",
+  "kind": "workshop",
+  "time": "(omitted)",
+  "source": "typeset",
+  "meeting": "(no BoardDocs record)",
+  "file": "2024-03-05_nPEx0HKKS2E.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-04-02",
+  "id": "1pyI1Enb0mw",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-04-02_Board of Education Workshop 6_00 P.M",
+  "file": "2024-04-02_1pyI1Enb0mw.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-05-07",
+  "id": "oQ5smGk_FsE",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-05-07_Board of Education Workshop 6_00 P.M",
+  "file": "2024-05-07_oQ5smGk_FsE.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-06-20",
+  "id": "zNazggjKEtE",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "typeset",
+  "meeting": "2024-06-20_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-06-20_zNazggjKEtE.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-07-16",
+  "id": "PgaoLMUKOdM",
+  "kind": "regular",
+  "time": "9:30am",
+  "source": "typeset",
+  "meeting": "2024-07-16_Regular Meeting of the Board of Education 9_30 AM",
+  "file": "2024-07-16_PgaoLMUKOdM.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-08-20",
+  "id": "fkjVvbu08rQ",
+  "kind": "regular",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-08-20_Regular Meeting of the Board of Education 6_00 PM",
+  "file": "2024-08-20_fkjVvbu08rQ.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-09-03",
+  "id": "I-e_9rR-OiU",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-09-03_Board of Education Workshop 6_00 PM",
+  "file": "2024-09-03_I-e_9rR-OiU.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-11-12",
+  "id": "l9laylOoSWk",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2024-11-12_Board of Education Workshop 6_00 PM",
+  "file": "2024-11-12_l9laylOoSWk.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-11-19",
+  "id": "knuMMIcg1eY",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "typeset",
+  "meeting": "2024-11-19_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-11-19_knuMMIcg1eY.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2024-12-17",
+  "id": "i8GWBALrK_Q",
+  "kind": "regular",
+  "time": "7:00pm",
+  "source": "typeset",
+  "meeting": "2024-12-17_Regular Meeting of the Board of Education 7_00 PM",
+  "file": "2024-12-17_i8GWBALrK_Q.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2025-01-14",
+  "id": "Y9FD-hbRs34",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2025-01-14_Board of Education Workshop 6_00 PM",
+  "file": "2025-01-14_Y9FD-hbRs34.jpg",
+  "privacy": "unlisted"
+ },
+ {
+  "date": "2025-01-14",
+  "id": "wCkocSV-cKI",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2025-01-14_Board of Education Workshop 6_00 PM",
+  "file": "2025-01-14_wCkocSV-cKI.jpg",
+  "privacy": "unlisted"
+ },
+ {
+  "date": "2025-01-14",
+  "id": "xkzbcK8TzfE",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2025-01-14_Board of Education Workshop 6_00 PM",
+  "file": "2025-01-14_xkzbcK8TzfE.jpg",
+  "privacy": "public"
+ },
+ {
+  "date": "2025-03-08",
+  "id": "iSckLyNgqjo",
+  "kind": "retreat",
+  "time": "8:30am",
+  "source": "typeset",
+  "meeting": "2025-03-08_Board of Education Winter Retreat 8_30 AM",
+  "file": "2025-03-08_iSckLyNgqjo.jpg",
+  "privacy": "unlisted"
+ },
+ {
+  "date": "2025-05-06",
+  "id": "Jaz_3u5mLrk",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2025-05-06_Board of Education Workshop 6_00 PM",
+  "file": "2025-05-06_Jaz_3u5mLrk.jpg",
+  "privacy": "unlisted"
+ },
+ {
+  "date": "2025-06-03",
+  "id": "vptCAUB52ZQ",
+  "kind": "workshop",
+  "time": "6:00pm",
+  "source": "typeset",
+  "meeting": "2025-06-03_Board of Education Workshop 6_00 P.M",
+  "file": "2025-06-03_vptCAUB52ZQ.jpg",
+  "privacy": "public"
+ }
+]
