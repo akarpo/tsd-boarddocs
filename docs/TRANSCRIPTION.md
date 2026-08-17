@@ -10,6 +10,9 @@ July 22, 2026 regular meeting.
 ```
 TelVue / YouTube video
   │  yt-dlp (TelVue player page exposes an HLS master.m3u8)
+  │
+  ├─ transcription/upload_videos.py MP4 --title … --date … --name …
+  │     └─ thumbnails.py: crest card found in the stream, else typeset  → thumbnails.set
   ▼
 transcription/transcribe_meeting.py MEDIA --date YYYY-MM-DD --speakers speakers.json
   │  1. ffmpeg → 16 kHz mono 64 kbps MP3 (1.4 GB video → ~40 MB)
@@ -296,10 +299,63 @@ field, which is the recorded channel title.
 ## Adding a new meeting (checklist)
 
 1. Download the video (TelVue player page → grep the `master.m3u8` → `yt-dlp`),
-   upload to YouTube, note the video id.
+   upload to YouTube with `upload_videos.py … --date YYYY-MM-DD --name "<meeting
+   name as in D1>"`, note the video id. Those two flags are what let the
+   thumbnail step typeset a card when the stream never shows one — see below.
 2. `transcribe_meeting.py MEDIA --date …` (~$0.40). Draft `speakers.json` from
    the roll call; run with `--speakers`; verify with the levers above.
 3. Hand-tune `anchors.json` from the transcript's transition lines
    ("That brings us to item…").
 4. `upload_transcript.py … --youtube ID` (wrangler `--remote`).
 5. Done — the meeting page picks it up on next load.
+
+## Thumbnails — why the frame grab is not a frame grab
+
+The city cable broadcast opens on a **City of Troy** bumper ("City of Tomorrow,
+Today / 1955") and cuts to the district's crest card only afterwards — sometimes
+at 2s, sometimes at 21s. `upload_videos.py` originally grabbed a fixed `-ss 2`,
+so whenever the cut came late the video kept the bumper: an undated,
+byte-identical city graphic that ended up on **35 of 57** board videos, alongside
+4 more showing a stray meeting frame.
+
+`transcription/thumbnails.py` therefore *finds* the card rather than assuming it:
+
+- **Scan** the opening at 2 fps and correlate each frame against
+  `assets/tsd_card_base.jpg` (normalised grayscale, 64×36). ≥0.80 is the card.
+  The hit is re-pulled at full resolution — that artwork is the district's own,
+  so its date, time and address are the ones that aired. Every Regular meeting
+  before Nov 2024 has one; **no Workshop or Retreat ever does** — they begin cold
+  on multi-camera meeting footage.
+- **Typeset** from the base card when nothing airs. Only the header/date/time
+  lines are relaid: the ground under a line is rebuilt by interpolating the clean
+  gap rows above and below it, then text is composited in the card's own face
+  (Arial Black 50 — matched at IoU 0.90, and it reproduces the card's
+  `7:00pm MEETING` line at exactly its measured 469×47 px).
+- **Verify** with `verify_date()`, which reads the date back off the finished
+  card and scores it against the date the meeting actually has. Typeset cards
+  land at 0.97–0.99, extracted ones at 0.78–0.93; anything under 0.60 wants an
+  eyeball. This is the check that catches a frame lifted mid-fade — 2023-09-19
+  first came back dimmed mid-transition, and 2023-02-14's aired card is an older
+  striped, letterboxed design that could not be validated at all and was typeset
+  instead.
+
+**Start time comes from the meeting record, never a default.** The Regular
+meetings are not all at 7:00pm — 2023-06-13 is 7:30 PM, 2023-07-18 is 9:30 AM,
+2023-08-15 is 6:00 PM, and 2026-07-22 is 1:00 PM. `parse_time()` reads it off the
+BoardDocs folder name (`…Workshop 6_15 PM`), the same string D1 stores as
+`recordings.meeting_name`. Getting this from a default is how a card ends up
+announcing a meeting for the wrong hour.
+
+**Generative fill is the wrong tool for this.** An Adobe Firefly pass on the
+2026-07-22 card returned 1376×768 instead of 1280×720, shifted the palette off
+the house blue, restyled the date to "July 22nd, 2026" against the card's own
+`MAR 17, 2026` convention — and, having no access to the meeting record, left the
+time line reading `7:00pm MEETING` for a meeting that started at 1:00 PM. The
+card is flat artwork on a near-solid ground; retypesetting one line is exact,
+free, and repeatable.
+
+```
+python3 transcription/thumbnails.py --audit                 # classify the channel
+python3 transcription/thumbnails.py --for-video ID \
+    --date 2026-02-03 --name "Board of Education Workshop 6 00 PM" --set
+```

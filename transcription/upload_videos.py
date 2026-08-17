@@ -1,20 +1,29 @@
 #!/usr/bin/env python3
-"""Upload meeting videos to YouTube via the Data API (resumable), set the 2-second
-title-card thumbnail, and print the new video id.
+"""Upload meeting videos to YouTube via the Data API (resumable), set the district's
+crest title card as the thumbnail, and print the new video id.
+
+The thumbnail is *found*, not assumed: the broadcast opens with a City of Troy
+bumper and cuts to the crest card only afterwards, so the old fixed `-ss 2` grab
+captured the wrong graphic whenever that cut came late. `thumbnails.py` scans the
+opening for the card and typesets one from the meeting record when none airs —
+pass `--date`/`--name` so it can (Workshops never show a card).
 
 Reuses the captions uploader's OAuth (YT_CLIENT_ID/SECRET/REFRESH_TOKEN in
 tsd-secrets.env — youtube.force-ssl covers videos.insert and thumbnails.set).
 Quota: videos.insert = 1600 units each; thumbnails.set = 50.
 
 Usage:
-  python3 transcription/upload_videos.py "PATH.mp4" --title "…" [--privacy public]
+  python3 transcription/upload_videos.py "PATH.mp4" --title "…" \
+      --date 2026-07-22 --name "Regular Meeting of the Board of Education 1 00 PM"
 """
 from __future__ import annotations
 import argparse, json, os, subprocess, sys, tempfile, urllib.parse, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import tsd_secrets
+import thumbnails
 
 CHUNK = 64 * 1024 * 1024
 
@@ -63,17 +72,27 @@ def upload(path: Path, title: str, privacy: str, description: str) -> str:
     raise SystemExit("upload ended without a video id")
 
 
-def set_thumbnail(vid: str, video_path: Path):
-    tok = access_token()
-    with tempfile.TemporaryDirectory() as td:
-        jpg = Path(td) / "thumb.jpg"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "2", "-i", str(video_path),
-                        "-frames:v", "1", "-q:v", "2", str(jpg)], check=True)
-        req = urllib.request.Request(
-            f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}",
-            data=jpg.read_bytes(), method="POST",
-            headers={"authorization": f"Bearer {tok}", "content-type": "image/jpeg"})
-        urllib.request.urlopen(req)
+def set_thumbnail(vid: str, video_path: Path, date: str = "", name: str = ""):
+    """Give the video the district's crest card -- found in the stream, else typeset.
+
+    A fixed `-ss 2` grab used to be enough, but the city broadcast opens with a
+    City of Troy bumper and only then cuts to the card, so the naive grab put an
+    undated city graphic on 35 of 57 board videos. See thumbnails.py.
+    """
+    img, at = thumbnails.card_from_file(video_path)
+    if img is None:
+        if not date:
+            raise SystemExit("no crest card in the stream and no --date to typeset one")
+        img = thumbnails.synthesize(date, thumbnails.parse_time(name),
+                                    thumbnails.kind_of(name))
+        print("  no card in stream -> typeset one", flush=True)
+    else:
+        print(f"  crest card found at {at}s", flush=True)
+    if date:
+        iou = thumbnails.verify_date(img, date)
+        print(f"  date check IoU={iou:.3f}"
+              f"{'' if iou > 0.60 else '  <-- VERIFY BY EYE'}", flush=True)
+    thumbnails.set_thumbnail(vid, img)
 
 
 def main():
@@ -81,6 +100,10 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("video")
     ap.add_argument("--title", required=True)
+    ap.add_argument("--date", default="", help="YYYY-MM-DD; lets the thumbnail be "
+                    "typeset (and date-checked) when the stream shows no card")
+    ap.add_argument("--name", default="", help="meeting name as in D1, e.g. "
+                    '"Board of Education Workshop 6 00 PM" -- carries the start time')
     ap.add_argument("--privacy", default="public", choices=["public", "unlisted", "private"])
     ap.add_argument("--description", default="Troy School District Board of Education public meeting. "
                     "Searchable transcript: https://tsd-boarddocs.karpowitsch.org")
@@ -88,7 +111,7 @@ def main():
     p = Path(a.video)
     print(f"uploading {p.name} ({p.stat().st_size/1e9:.2f} GB) as {a.privacy} …", flush=True)
     vid = upload(p, a.title, a.privacy, a.description)
-    set_thumbnail(vid, p)
+    set_thumbnail(vid, p, a.date, a.name)
     print(f"DONE https://youtu.be/{vid}")
 
 
