@@ -64,6 +64,9 @@ CHANNEL = "UCl7FMppdq35uQdiSPZz1GpA"
 # measured off the authentic card: (y0, y1, x_left, font_px)
 LINES = {"hdr1": (146, 182, 620, 46), "hdr2": (206, 242, 620, 49),
          "time": (443, 489, 642, 50), "date": (503, 549, 643, 50)}
+# Left bound for any repaint: just right of the vertical rule at x=610-612, so the
+# crest and the rule are never touched. Every text line starts at x>=620.
+TEXT_X0 = 616
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 HEADERS = {"regular": "REGULAR MEETING", "workshop": "WORKSHOP MEETING",
@@ -73,13 +76,21 @@ MATCH = 0.80            # correlation above which a frame *is* the crest card
 
 # ---------------------------------------------------------------- typesetting
 
-def _rebuild_bg(arr: np.ndarray, y0: int, y1: int, pad: int = 9) -> None:
-    top = arr[y0 - pad - 4:y0 - pad].mean(axis=0)
-    bot = arr[y1 + pad:y1 + pad + 4].mean(axis=0)
+def _rebuild_bg(arr: np.ndarray, y0: int, y1: int, pad: int = 9,
+                x0: int = TEXT_X0) -> None:
+    """Rebuild the ground under one text row, *right of the rule only*.
+
+    Repainting the full width smears the crest: the seal runs to y=435 with its
+    drop shadow below that, so the `time` band (y=443-489) and the `hdr2` band
+    (y=206-242) both overlap artwork on the left half. Clipping at `x0` keeps the
+    interpolation inside the text column, where the ground really is flat.
+    """
+    top = arr[y0 - pad - 4:y0 - pad, x0:].mean(axis=0)
+    bot = arr[y1 + pad:y1 + pad + 4, x0:].mean(axis=0)
     n = y1 - y0 + 1
     for i in range(n):
         t = (i + 1) / (n + 1)
-        arr[y0 + i] = top * (1 - t) + bot * t
+        arr[y0 + i, x0:] = top * (1 - t) + bot * t
 
 
 def _draw_line(img: Image.Image, key: str, text: str) -> None:
