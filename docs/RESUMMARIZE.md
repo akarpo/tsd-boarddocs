@@ -279,7 +279,7 @@ v0.8.9 changelog entry.
 
 ## Campaigns
 
-Status as of 2026-08-16:
+Status as of 2026-08-17:
 
 | campaign | scope | batches | status |
 |---|---|---|---|
@@ -287,15 +287,16 @@ Status as of 2026-08-16:
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **84 done, 67 pending** |
+| `packets` | 2010-2020 packet era | 151 | **99 done, 52 pending** |
 
-**Every year from 2015 onward is complete.** Coverage by year, reconciled across
+**Every year from 2014 onward is complete.** Coverage by year, reconciled across
 *all five* manifests rather than any single campaign's done-count:
 
 | year | done/total | campaign(s) |
 |---|---|---|
-| 2015-2026 | **complete** | `packets` (2015-2020) + the four finished campaigns |
-| 2010-2014 | 0/67 | `packets` |
+| 2014-2026 | **complete** | `packets` (2014-2020) + the four finished campaigns |
+| 2013 | 1/12 | `packets` |
+| 2010-2012 | 0/41 | `packets` |
 
 The one-line check, which is the only tally worth trusting:
 
@@ -321,18 +322,17 @@ its folder says 2019-01-01. Batch ids were assigned off the *repaired* dates and
 correctly chronological, but any tally computed from the url path is not: doing that
 put ten 2018 meetings in 2019 and reported 2019 complete when six batches remained.
 
-Remaining after wave 27 (2026-08-16), batches/agents by filename date:
+Remaining after wave 31 (2026-08-17), batches/agents by filename date:
 
 | year | batches | agents |
 |---|---|---|
-| 2014 | 14 | 48 |
-| 2013 | 12 | 38 |
+| 2013 | 11 | 34 |
 | 2012 | 13 | 45 |
 | 2011 | 13 | 48 |
 | 2010 | 15 | 50 |
-| **total** | **67** | **229** |
+| **total** | **52** | **177** |
 
-Ascending within 2014 starts at `pk_053`.
+Ascending within 2013 resumes at `pk_042` (2013-02-05).
 
 ### `packets` is chunked far more finely
 
@@ -362,11 +362,21 @@ conservative for most material and should be read as a ceiling, not an estimate.
 | `packets`, few splits | 2.92 | ~91K | 4 splits of 11 batches |
 | `packets`, split-heavy | **3.20** | ~97K | 5 splits of 6 batches |
 | `packets` 2015, split-heavy | 2.14 | ~92K | 4 splits of 5 batches, 21 agents |
+| `packets` 2014, few sections | **2.1-2.25** | ~90K | waves 28-30, 3-4 sections per split |
+| `packets` 2014, many sections | 2.40 | ~94K | wave 31, one batch fanned to 7 |
 
 The 2015 figure is the cheapest split-heavy wave measured and cuts against reading
 `--split-over` as the cost driver: wave 27 was 4 splits of 5 batches — the same
 shape as the 3.20 row — and ran a third cheaper. What moved was the material, not
 the fan-out. Size a year off its own first wave rather than off the split ratio.
+
+2014 then sharpened that. Waves 28, 29 and 30 held 2.1-2.25 pts/agent across 4, 8
+and 23 agents, so wave 31 was sized at 2.15 — and came in at 2.40, landing on 90%
+where 87% was projected. The difference was `pk_065`, which fans into **seven**
+sections where the rest of 2014 fans into three or four. A section agent reads
+~40K against a normal batch's ~24K, so the rate tracks sections per split, not
+splits per wave. Read the wave's own section counts before trusting a year's rate:
+one seven-way packet moved a 17-agent wave by three points.
 
 **Agent spend runs ~3.6x the batch's source tokens** — measured across four waves
 (3.2x, 3.5x, 3.7x, 4.0x). Use that to project a year: 2018's 1.47M source tokens
