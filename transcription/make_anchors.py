@@ -42,11 +42,50 @@ draft copy full suggested presentation overview 2024 2025 2026 fund funds regula
 special session public schools michigan""".split())
 
 
-def tidy(s, n=58):
+FILLER = re.compile(r"\b(i|we|you|they|he|she|my|our|your|kind of|sort of|you know|"
+                    r"i think|i mean|gonna|wanna|okay|yeah|thank you|please|let'?s|"
+                    r"if you could|maybe|really|just)\b", re.I)
+
+
+def looks_like_item(frag):
+    """Is this fragment an agenda item, or is it just the next thing someone said?
+
+    BRIDGE matches a transition phrase and takes the words after it, which is only
+    a label when the speaker actually names the item. When they carry on talking it
+    produced things like "The classics, if you could think about it, the great…" --
+    54 such labels across the corpus. Demand something title-shaped instead:
+    conversational, first-person or filler-laden text is prose, not an agenda item.
+    """
+    if not frag or len(frag.split()) < 3:
+        return False
+    if FILLER.search(frag):
+        return False
+    if frag.rstrip("…").rstrip().endswith((",", "and", "the", "a", "to", "of", "that")):
+        return False
+    words = frag.split()
+    capitals = sum(1 for w in words[1:] if w[:1].isupper())
+    return bool(ITEM.search(frag)) or capitals >= 1 or len(words) <= 8
+
+
+def tidy(s, n=90):
+    """Normalise a label. n=90 because 58 cut real agenda titles mid-phrase --
+    "RFP 2526-12 - BOND - Phase 1 Elementary Toilet Room…" told a viewer nothing
+    the untruncated title would not have. Cut on a separator when possible so the
+    label still ends on a complete thought, and only ellipsise a genuine trim."""
     s = re.sub(r"\s+", " ", s).strip(" ,.;:-—–")
     if len(s) > n:
-        s = s[:n].rsplit(" ", 1)[0] + "…"
+        head = s[:n]
+        cut = max(head.rfind(" - "), head.rfind(" — "), head.rfind(": "))
+        s = (head[:cut] if cut > n // 2 else head.rsplit(" ", 1)[0]).rstrip(" ,.;:-—–") + "…"
     return s[:1].upper() + s[1:] if s else s
+
+
+def dedupe_prefix(item, title):
+    """"4.c" + "C. RFP 2526-12 …" must not render as "4.c C. RFP 2526-12 …"."""
+    if item:
+        letter = item.rsplit(".", 1)[-1].strip().lower()
+        title = re.sub(rf"^{re.escape(letter)}[.)]\s+", "", title, flags=re.I)
+    return title
 
 
 def title_tokens(title):
@@ -68,8 +107,19 @@ def agenda_candidates(agenda_path, utts):
         toks = title_tokens(title)[:6]
         if len(toks) < 2:
             continue
+        # Anchor on the DENSEST cluster of mentions, not the first one. A single
+        # sentence often name-checks several upcoming items ("the toilet
+        # renovations… and then the gyms"), and first-match put every one of them
+        # on that same second, in the wrong order.
+        marks = [u["start"] for u in utts if u["start"] >= 60000
+                 and sum(1 for t in toks if t in u["text"].lower()) >= 2]
+        best_at, best_n = None, 0
+        for m in marks:
+            n_in = sum(1 for x in marks if m <= x < m + 600000)
+            if n_in > best_n:
+                best_at, best_n = m, n_in
         for u in utts:
-            if u["start"] < 60000:
+            if best_at is None or u["start"] < best_at:
                 continue
             low = u["text"].lower()
             hits = sum(1 for t in toks if t in low)
@@ -79,8 +129,8 @@ def agenda_candidates(agenda_path, utts):
                 # A looser class ate the title's own first letter whenever it fell in A-F —
                 # "4.E. Establish" became "Stablish", "5.F Food Service" became "Ood Service" —
                 # and a bare ^\d would swallow the year off "2024 Proposed Bylaws".
-                label = (f"{item} " if item else "") + tidy(
-                    re.sub(r"^\d{1,2}(?:\.[A-Za-z0-9]{1,3})*\.\s+", "", title))
+                stripped = re.sub(r"^\d{1,2}(?:\.[A-Za-z0-9]{1,3})*\.\s+", "", title)
+                label = (f"{item} " if item else "") + tidy(dedupe_prefix(item, stripped))
                 out.append((u["start"], label.strip(), 1))
                 if item:
                     used_items.add(item)
@@ -120,8 +170,10 @@ def main():
             m = BRIDGE.search(text)
             if m:
                 frag = tidy(text[m.end():])
-                # demand a substantive fragment; bridge phrasing loves to false-positive
-                if len(frag.split()) >= 3 and any(len(w) >= 5 for w in frag.split()):
+                # A bridge phrase marks a transition reliably; the words after it are
+                # only a *label* when the speaker names the item. Otherwise drop it and
+                # let the agenda titles carry the meeting.
+                if any(len(w) >= 5 for w in frag.split()) and looks_like_item(frag):
                     cands.append((u["start"], frag, 3))
 
     if a.agenda:
