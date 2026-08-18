@@ -64,11 +64,9 @@ Two limits, and they are different things:
   hour of silence per 429.
 
 **Done, for the record — do not redo any of this.** All 41 meetings' agenda anchors were
-re-authored (540 anchors, up from 422; zero prose, truncated or duplicate-prefix labels; zero
-discussed-but-unanchored items) and then **numbered from the published BoardDocs outline** —
-518 of 540 carry their agenda number, the 22 without being Call to Order / Adjournment on
-workshop agendas that have no such item. Numbering QA is clean: 0 EXISTS, 0 UNIQUE, 0 SEMANTIC
-across the corpus. `chunks.agenda_item` is **not** the authority here — it only exists for items
+re-authored (540 anchors, up from 422; zero prose, truncated or duplicate-prefix labels) and
+then **numbered from the published BoardDocs outline** — 518 of 540 carry their agenda number.
+`chunks.agenda_item` is **not** the authority here — it only exists for items
 with an attachment and its scheme disagrees with the outline (2026-01-13's purchase items are
 4.a/4.b/4.c there, 3.A/3.B/3.C on BoardDocs). The four year playlists are complete (2023: 11,
 2024: 19, 2025: 20, 2026: 12 = 62). Eleven redundant uploads were **permanently deleted** on
@@ -83,8 +81,32 @@ record of what they were.
 python3 transcription/thumbnails.py --audit          # only the 2 candidate forums
                                                      # + 1 advocacy clip may read WRONG;
                                                      # those are deliberately left alone
-python3 transcription/anchors/qa_numbers.py          # 0 EXISTS / UNIQUE / SEMANTIC
+python3 transcription/anchors/qa_numbers.py          # 0 EXISTS / UNIQUE / SEMANTIC / ORDER
 ```
+
+**The numbering was not clean, and the gate said it was.** Reviewed 2026-08-18: `qa_numbers.py`
+reported 0 EXISTS / 0 UNIQUE / 0 SEMANTIC while **seven anchors carried the wrong agenda
+number**, because every wrong claim happened to share a word with the item it claimed —
+"Furniture purchase — elementaries & middle schools" numbered 2.B, *"State Schools of Character -
+Larson **Middle School**"*; "**Closed** session" numbered 4.D, *"Schools **Closed** to Open
+Enrollment"*. A vocabulary test cannot separate those, and the two claims about coverage the
+earlier version of this section made — "zero discussed-but-unanchored items", "QA is clean" —
+were both reporting the gate's silence rather than the corpus's state.
+
+What actually separates them is position. A board working out of sequence moves a whole section
+and stays there; a number on the wrong chapter leaves one anchor sitting below the anchors on
+both sides of it. `qa_numbers.py` now has an **ORDER** pass for exactly that shape, plus a
+sentinel past the last anchor so a meeting ending below where it had got to is caught too. It
+finds all seven. The seven are fixed in `authored/` and in D1; ten ORDER flags remain and were
+each checked by hand against the outline — all are the board genuinely taking a section out of
+sequence, and ORDER is an eyeball flag like SEMANTIC, not a gate that must read zero.
+
+Left deliberately, as judgement calls rather than errors: 16 COVERED flags, mostly items
+discussed within a neighbouring chapter (two of them seconds into the video, where YouTube's
+10-second minimum makes a chapter impossible), and 2024-06-20's opening chapter, numbered 5.G
+where the published outline opens with 2.A *PUBLIC HEARING: 2024/2025 Proposed Budget* — the
+chapter covers both the hearing and the adoption, so which number it should carry is a real
+question and not a mistake to quietly overwrite.
 
 ### Decide whether the SMS layer is worth its cost
 **Raised 2026-08-11 and not yet answered.** The honest question is whether phone verification

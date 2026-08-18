@@ -4,14 +4,14 @@
   "items": [
    "1"
   ],
-  "label": "Call to order \u00b7 Pledge of Allegiance"
+  "label": "Call to order · Pledge of Allegiance"
  },
  {
   "t": "0:02:53",
   "items": [
    "2.A"
   ],
-  "label": "Recognition \u2014 Michigan All-State Bands & Orchestras"
+  "label": "Recognition — Michigan All-State Bands & Orchestras"
  },
  {
   "t": "0:08:02",
@@ -26,7 +26,7 @@
   "items": [
    "2.C"
   ],
-  "label": "Student Spotlight \u2014 podcast"
+  "label": "Student Spotlight — podcast"
  },
  {
   "t": "0:25:41",
@@ -54,12 +54,12 @@
   "items": [
    "8.C"
   ],
-  "label": "Furniture purchase \u2014 phase 2"
+  "label": "Furniture purchase — phase 2"
  },
  {
   "t": "0:34:55",
   "items": [
-   "3"
+   "9"
   ],
   "label": "Public communication"
  },

@@ -69,3 +69,6 @@ issue_body.txt
 # chunks.jsonl in about a minute, 82 MB raw, and served gzipped from R2 -- so
 # the repo carries the builder, not its output.
 /dataset/
+
+# wrangler drops an account-id cache wherever it is invoked from
+.wrangler/

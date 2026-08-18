@@ -6,8 +6,9 @@ this checks the assignment rather than trusting it:
 
   EXISTS      every number an anchor claims is really in that meeting's outline
   UNIQUE      no sub-item (level 2) is claimed by two different chapters
-  ORDER       category numbers move forward through the meeting, allowing the
-              genuine jumps boards make within a category
+  ORDER       one anchor's category dips below BOTH its neighbours -- the shape
+              a mis-assignment makes, as distinct from the sustained excursion a
+              board makes when it genuinely takes a section out of sequence
   SEMANTIC    the chapter label and the outline title it claims share vocabulary;
               a claim with no overlap at all is flagged for eyeballing
   COVERED     every outline sub-item the transcript shows being DISCUSSED has a
@@ -82,14 +83,48 @@ def check(date):
                     problems.append(("UNIQUE", r["t"],
                                      f"{it} also claimed at {seen[it]} — {r['label'][:40]}"))
                 seen[it] = r["t"]
-            # No ORDER check. Boards genuinely work the agenda out of sequence --
-            # 2026-01-13 took 3.C and 3.B before 3.A, and workshops routinely take
-            # public communication (category 1) after business. Chapters are
-            # chronological, so a "regression" is usually the meeting, not an error.
+            # Sub-item order within a category is deliberately NOT checked:
+            # 2026-01-13 took 3.C and 3.B before 3.A, which is the meeting, not an
+            # error. The ORDER pass below works on categories and only on the
+            # isolated-dip shape, for the same reason.
             ov = toks(r["label"]) & toks(valid[it])
             if "." in it and not ov and len(toks(valid[it])) >= 2:
                 problems.append(("SEMANTIC", r["t"],
                                  f"{it} '{valid[it][:34]}' shares nothing with '{r['label'][:34]}'"))
+
+    # ORDER -- an isolated backward dip in category number.
+    #
+    # A board working out of sequence moves a whole section and stays there, so
+    # its categories still run forward on either side of the move. A number
+    # applied to the wrong chapter does something different: one anchor sits
+    # below the anchors on BOTH sides of it, then the meeting carries on where it
+    # left off. That shape is what this looks for, and it is the check that would
+    # have caught 2024-03-19's furniture purchase -- numbered 2.B, "State Schools
+    # of Character", between 8.E and 9.
+    #
+    # SEMANTIC could not: "Furniture purchase -- elementaries & middle schools"
+    # and "State Schools of Character - Larson Middle School" share "middle" and
+    # "school", so a vocabulary test passes a claim that is plainly wrong. Every
+    # one of the seven mis-numberings found on 2026-08-18 shared that property --
+    # an incidental token in common, and a category out of place.
+    #
+    # The last anchor is compared against a sentinel above every category, so a
+    # meeting that ends below where it had got to is flagged too; that is how
+    # 2024-02-27's closed session was found, numbered 4.D for "Schools Closed to
+    # Open Enrollment" on the strength of the word "closed".
+    def _cat(i):
+        try: return int(str(i).split(".")[0])
+        except ValueError: return None
+    seq = [(c, r) for r, c in ((r, _cat((r.get("items") or [None])[0])) for r in rows)
+           if c is not None]
+    for i, (cur, r) in enumerate(seq):
+        prev = seq[i - 1][0] if i else None
+        nxt = seq[i + 1][0] if i + 1 < len(seq) else 10 ** 6
+        if prev is not None and cur < prev and cur < nxt:
+            it = r["items"][0]
+            after = "the end" if nxt == 10 ** 6 else nxt
+            problems.append(("ORDER", r["t"],
+                             f"{it} dips below {prev} and {after} — {r['label'][:40]}"))
 
     anchored = {i for r in rows for i in r.get("items", [])}
     cats = {i.split(".")[0] for i in anchored}
