@@ -279,7 +279,7 @@ v0.8.9 changelog entry.
 
 ## Campaigns
 
-Status as of 2026-08-17:
+Status as of 2026-08-17 (evening):
 
 | campaign | scope | batches | status |
 |---|---|---|---|
@@ -287,16 +287,16 @@ Status as of 2026-08-17:
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **99 done, 52 pending** |
+| `packets` | 2010-2020 packet era | 151 | **116 done, 35 pending** |
 
-**Every year from 2014 onward is complete.** Coverage by year, reconciled across
+**Every year from 2013 onward is complete.** Coverage by year, reconciled across
 *all five* manifests rather than any single campaign's done-count:
 
 | year | done/total | campaign(s) |
 |---|---|---|
-| 2014-2026 | **complete** | `packets` (2014-2020) + the four finished campaigns |
-| 2013 | 1/12 | `packets` |
-| 2010-2012 | 0/41 | `packets` |
+| 2013-2026 | **complete** | `packets` (2013-2020) + the four finished campaigns |
+| 2012 | 6/13 | `packets` |
+| 2010-2011 | 0/28 | `packets` |
 
 The one-line check, which is the only tally worth trusting:
 
@@ -322,17 +322,17 @@ its folder says 2019-01-01. Batch ids were assigned off the *repaired* dates and
 correctly chronological, but any tally computed from the url path is not: doing that
 put ten 2018 meetings in 2019 and reported 2019 complete when six batches remained.
 
-Remaining after wave 31 (2026-08-17), batches/agents by filename date:
+Remaining after wave 33 (2026-08-17), batches/agents by filename date:
 
 | year | batches | agents |
 |---|---|---|
-| 2013 | 11 | 34 |
-| 2012 | 13 | 45 |
+| 2012 | 7 | 27 |
 | 2011 | 13 | 48 |
 | 2010 | 15 | 50 |
-| **total** | **52** | **177** |
+| **total** | **35** | **125** |
 
-Ascending within 2013 resumes at `pk_042` (2013-02-05).
+Ascending within 2012 resumes at `pk_034` — which is the year's seven-section
+batch, so it is also the next wave's sizing risk.
 
 ### `packets` is chunked far more finely
 
@@ -364,6 +364,8 @@ conservative for most material and should be read as a ceiling, not an estimate.
 | `packets` 2015, split-heavy | 2.14 | ~92K | 4 splits of 5 batches, 21 agents |
 | `packets` 2014, few sections | **2.1-2.25** | ~90K | waves 28-30, 3-4 sections per split |
 | `packets` 2014, many sections | 2.40 | ~94K | wave 31, one batch fanned to 7 |
+| `packets` 2013 | 2.30 | ~94K | wave 32, 23 agents, max 5 sections |
+| `packets` 2012, 1-5 sections | **2.36** | ~93K | wave 33, 29 agents, pk_034 held out |
 
 The 2015 figure is the cheapest split-heavy wave measured and cuts against reading
 `--split-over` as the cost driver: wave 27 was 4 splits of 5 batches — the same
