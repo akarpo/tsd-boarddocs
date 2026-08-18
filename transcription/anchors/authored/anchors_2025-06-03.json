@@ -1,15 +1,99 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:01:23","label":"Agenda overview — business services & budget"},
- {"t":"0:09:57","label":"Read by Grade 3 & dyslexia legislation (Dr. Kim St. Martin)"},
- {"t":"0:37:34","label":"Dyslexia identification & reading intervention plans"},
- {"t":"1:42:57","label":"3.b Transportation contract renewal (First Student)"},
- {"t":"1:55:44","label":"3.e Asphalt crack seal & lot striping (RFP 2425-17)"},
- {"t":"1:58:26","label":"3.f Troy Preschool pavilion"},
- {"t":"2:00:59","label":"2025-26 budget presentation"},
- {"t":"2:20:17","label":"2019 capital projects fund"},
- {"t":"2:27:51","label":"Food service budget"},
- {"t":"2:46:59","label":"Theater programs — response to board questions"},
- {"t":"2:59:54","label":"Public comment — theater program merger"},
- {"t":"4:01:44","label":"Closing remarks"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:01:23",
+  "items": [
+   "2"
+  ],
+  "label": "Agenda overview \u2014 business services & budget"
+ },
+ {
+  "t": "0:09:57",
+  "label": "Read by Grade 3 & dyslexia legislation (Dr. Kim St. Martin)",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:37:34",
+  "label": "Dyslexia identification & reading intervention plans",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:42:57",
+  "label": "Transportation contract renewal (First Student)",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:55:44",
+  "label": "Asphalt crack seal & lot striping (RFP 2425-17)",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:58:26",
+  "label": "Troy Preschool pavilion",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:00:59",
+  "label": "2025-26 budget presentation",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:20:17",
+  "label": "2019 capital projects fund",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:27:51",
+  "label": "Food service budget",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:46:59",
+  "label": "Theater programs \u2014 response to board questions",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:59:54",
+  "items": [
+   "2.A"
+  ],
+  "label": "Public comment \u2014 theater program merger"
+ },
+ {
+  "t": "4:01:44",
+  "label": "Closing remarks"
+ }
 ]

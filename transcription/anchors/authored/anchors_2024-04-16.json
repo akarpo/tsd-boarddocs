@@ -1,14 +1,87 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:01:46","label":"Recognition — staff awards"},
- {"t":"0:17:28","label":"Mission Moment — Autism Acceptance Month, Morse peer-to-peer"},
- {"t":"0:25:17","label":"Resolution — Autism Acceptance Month"},
- {"t":"0:28:06","label":"Student Spotlight"},
- {"t":"0:40:18","label":"Recognition — volunteer appreciation"},
- {"t":"0:44:07","label":"Consent agenda (incl. 5.E budget amendment)"},
- {"t":"0:45:09","label":"8.A Bid Package 3D award recommendation"},
- {"t":"0:46:57","label":"Public communication — non-agenda items"},
- {"t":"1:11:15","label":"Student representative reports"},
- {"t":"1:19:47","label":"Board member comments"},
- {"t":"1:33:48","label":"Adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:01:46",
+  "items": [
+   "2"
+  ],
+  "label": "Recognition \u2014 staff awards"
+ },
+ {
+  "t": "0:17:28",
+  "items": [
+   "2.B"
+  ],
+  "label": "Mission Moment \u2014 Autism Acceptance Month, Morse peer-to-peer"
+ },
+ {
+  "t": "0:25:17",
+  "label": "Resolution \u2014 Autism Acceptance Month",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:28:06",
+  "items": [
+   "2.C"
+  ],
+  "label": "Student Spotlight"
+ },
+ {
+  "t": "0:40:18",
+  "items": [
+   "2.D"
+  ],
+  "label": "Recognition \u2014 volunteer appreciation"
+ },
+ {
+  "t": "0:44:07",
+  "items": [
+   "4.G"
+  ],
+  "label": "Consent agenda (incl. 5.E budget amendment)"
+ },
+ {
+  "t": "0:45:09",
+  "items": [
+   "8.A"
+  ],
+  "label": "Bid Package 3D award recommendation"
+ },
+ {
+  "t": "0:46:57",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:11:15",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "1:19:47",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "1:33:48",
+  "items": [
+   "11"
+  ],
+  "label": "Adjournment"
+ }
 ]

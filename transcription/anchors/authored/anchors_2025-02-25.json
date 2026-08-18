@@ -1,17 +1,107 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:01:49","label":"Recognition — all-state student athletes"},
- {"t":"0:12:05","label":"Mission Moment — student mental-health app"},
- {"t":"0:22:27","label":"Mission Moment — SSAB Executive Board"},
- {"t":"0:30:35","label":"Student Spotlight"},
- {"t":"0:45:54","label":"Consent agenda (items A through F)"},
- {"t":"0:47:26","label":"8.A Athletics Phase 2"},
- {"t":"0:50:30","label":"8.B Moving services (RFP 2425-10)"},
- {"t":"0:51:50","label":"8.C Network & wireless upgrades"},
- {"t":"0:54:35","label":"8.D EPIC PA, bell & security system"},
- {"t":"0:58:31","label":"8.E Cafeteria tables — Martell Elementary"},
- {"t":"0:59:52","label":"Public communication"},
- {"t":"1:14:04","label":"Other — board items"},
- {"t":"1:18:18","label":"2025 MASB Board of Directors slate"},
- {"t":"1:47:44","label":"Adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:01:49",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 all-state student athletes"
+ },
+ {
+  "t": "0:12:05",
+  "items": [
+   "2"
+  ],
+  "label": "Mission Moment \u2014 student mental-health app"
+ },
+ {
+  "t": "0:22:27",
+  "items": [
+   "2.C"
+  ],
+  "label": "Mission Moment \u2014 SSAB Executive Board"
+ },
+ {
+  "t": "0:30:35",
+  "items": [
+   "2.D"
+  ],
+  "label": "Student Spotlight"
+ },
+ {
+  "t": "0:45:54",
+  "items": [
+   "4.G"
+  ],
+  "label": "Consent agenda (items A through F)"
+ },
+ {
+  "t": "0:47:26",
+  "items": [
+   "8.A"
+  ],
+  "label": "Athletics Phase 2"
+ },
+ {
+  "t": "0:50:30",
+  "items": [
+   "8.B"
+  ],
+  "label": "Moving services (RFP 2425-10)"
+ },
+ {
+  "t": "0:51:50",
+  "items": [
+   "8.C"
+  ],
+  "label": "Network & wireless upgrades"
+ },
+ {
+  "t": "0:54:35",
+  "items": [
+   "8.D"
+  ],
+  "label": "EPIC PA, bell & security system"
+ },
+ {
+  "t": "0:58:31",
+  "items": [
+   "8.E"
+  ],
+  "label": "Cafeteria tables \u2014 Martell Elementary"
+ },
+ {
+  "t": "0:59:52",
+  "items": [
+   "3"
+  ],
+  "label": "Public communication"
+ },
+ {
+  "t": "1:14:04",
+  "items": [
+   "10"
+  ],
+  "label": "Other \u2014 board items"
+ },
+ {
+  "t": "1:18:18",
+  "items": [
+   "10.B"
+  ],
+  "label": "2025 MASB Board of Directors slate"
+ },
+ {
+  "t": "1:47:44",
+  "items": [
+   "11"
+  ],
+  "label": "Adjournment"
+ }
 ]

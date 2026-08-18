@@ -1,14 +1,89 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:02:15","label":"2.a Smith Middle School site work & signage"},
- {"t":"0:05:48","label":"2.b Interior painting services (RFP 2425-14)"},
- {"t":"0:28:58","label":"CTE & career readiness update"},
- {"t":"0:34:05","label":"CTE programme investment history"},
- {"t":"1:08:20","label":"CTE staffing & industry partnerships"},
- {"t":"1:26:17","label":"Superintendent evaluation training"},
- {"t":"1:39:10","label":"Evaluation tool & reporting requirements"},
- {"t":"1:54:45","label":"Evaluation goals & timing"},
- {"t":"2:11:18","label":"Final rating process"},
- {"t":"2:25:42","label":"Community communication & outreach"},
- {"t":"2:33:10","label":"Meeting scheduling & retreat planning"}
+ {
+  "t": "0:00:00",
+  "label": "Call to order"
+ },
+ {
+  "t": "0:02:15",
+  "items": [
+   "2.A"
+  ],
+  "label": "Smith Middle School site work & signage"
+ },
+ {
+  "t": "0:05:48",
+  "items": [
+   "2.B"
+  ],
+  "label": "Interior painting services (RFP 2425-14)"
+ },
+ {
+  "t": "0:28:58",
+  "items": [
+   "3.A"
+  ],
+  "label": "CTE & career readiness update"
+ },
+ {
+  "t": "0:34:05",
+  "label": "CTE programme investment history",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:08:20",
+  "label": "CTE staffing & industry partnerships",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:26:17",
+  "items": [
+   "4.A"
+  ],
+  "label": "Superintendent evaluation training"
+ },
+ {
+  "t": "1:39:10",
+  "label": "Evaluation tool & reporting requirements",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:54:45",
+  "label": "Evaluation goals & timing",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:11:18",
+  "label": "Final rating process",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:25:42",
+  "items": [
+   "1"
+  ],
+  "label": "Community communication & outreach"
+ },
+ {
+  "t": "2:33:10",
+  "label": "Meeting scheduling & retreat planning",
+  "items": [
+   "1"
+  ],
+  "_inherited": true
+ }
 ]

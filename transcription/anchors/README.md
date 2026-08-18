@@ -62,3 +62,55 @@ on the wrong item entirely (1:22:21 is the traffic signal, not security systems)
 Anchor writes go to D1 and cost no YouTube quota; only the description rebuild
 does (`videos.update`, 50 units). That is why they are decoupled — keep correcting
 anchors while writes are blocked, then drain `pending_push.json`.
+
+## Agenda numbering
+
+Every chapter carries its BoardDocs agenda number — `8.A`, `4.G`, `6` — because a
+partly-numbered chapter list reads as an oversight. 518 of 540 anchors are
+numbered; the 22 that are not are meeting bookends (Call to Order, Adjournment) on
+workshop agendas that genuinely have no such item, and inventing one for them
+would assert something false.
+
+**The numbers come from BoardDocs, not from `chunks`.** `chunks.agenda_item` only
+exists for items that carry an attachment, so numbering from it covered about a
+fifth of chapters — Pledge, Recognition, Public Communication and Adjournment have
+no document and therefore no number anywhere in D1. `fetch_agenda.py` reads
+`BD-GetAgenda` for the complete outline, structural items included. Where the two
+disagree the outline wins: 2026-01-13's purchase items are 4.a/4.b/4.c in `chunks`
+and **3.A/3.B/3.C** on BoardDocs.
+
+```
+python3 anchors/fetch_agenda.py 2026-07-22          # one meeting's outline
+python3 anchors/fetch_agenda.py --all -o agenda_outlines.json
+python3 anchors/number_anchors.py 2026-01-13        # preview the assignment
+python3 anchors/number_anchors.py --all --write     # write `items` into authored/
+python3 anchors/qa_numbers.py                       # QA the whole corpus
+```
+
+Assignment is a global best-pairing, not sequential: matching in order mis-assigned
+in both directions, penalising 2026-01-13's 3.B because the board took 3.C first
+(they really did jump) and handing 2.B to the chapter before the one that matched
+it. Titles are compared after alias expansion and light stemming — "THS Main & Aux
+Gym Remodel" and "Athens & Troy High gym renovations" otherwise shared one word.
+
+The authored file keeps `items` and a clean `label`; `apply_anchors.py` joins them
+when writing to D1, so the site's chapter chips and the YouTube description show
+the same numbering a viewer sees on BoardDocs.
+
+### What `qa_numbers.py` checks
+
+| check | question |
+|---|---|
+| EXISTS | is every number an anchor claims really in that meeting's outline? |
+| UNIQUE | is any sub-item claimed by two chapters? |
+| SEMANTIC | does the chapter share vocabulary with the outline title it claims? |
+| COVERED | does every outline sub-item the transcript discusses have a chapter? |
+
+There is deliberately **no order check**. Boards work the agenda out of sequence —
+2026-01-13 took 3.C and 3.B before 3.A, and workshops routinely take public
+communication after business. Chapters are chronological, so a "regression" is
+usually the meeting, not an error.
+
+Corpus QA: **0 EXISTS, 0 UNIQUE, 0 SEMANTIC**. The 15 remaining COVERED flags are
+brief procedural items (electing an acting chair, a first reading) folded into a
+neighbouring chapter rather than given their own — a judgement call, not an error.

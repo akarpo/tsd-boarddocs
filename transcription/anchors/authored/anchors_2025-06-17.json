@@ -1,16 +1,100 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:01:38","label":"2.A Preliminary budget hearing — 2025-26"},
- {"t":"0:08:52","label":"Public comment on the budget"},
- {"t":"0:11:30","label":"Mission Moment — student documentary"},
- {"t":"0:18:30","label":"Mission Moment — student achievement"},
- {"t":"0:24:45","label":"Student Spotlight"},
- {"t":"0:35:50","label":"Recognition — resolution"},
- {"t":"0:40:11","label":"Consent agenda (items A through K)"},
- {"t":"0:41:38","label":"Personnel"},
- {"t":"0:44:45","label":"Administrative appointment — Director of Teaching & Learning"},
- {"t":"0:51:28","label":"Curriculum — K-5 writing curriculum adoption"},
- {"t":"1:00:36","label":"9.A Smith Middle School EPIC system resolution"},
- {"t":"1:14:47","label":"Public communication — non-agenda items"},
- {"t":"1:32:03","label":"Other — board comments & reports"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:01:38",
+  "items": [
+   "2.A"
+  ],
+  "label": "Preliminary budget hearing \u2014 2025-26"
+ },
+ {
+  "t": "0:08:52",
+  "items": [
+   "10.A"
+  ],
+  "label": "Public comment on the budget"
+ },
+ {
+  "t": "0:11:30",
+  "items": [
+   "3.A"
+  ],
+  "label": "Mission Moment \u2014 student documentary"
+ },
+ {
+  "t": "0:18:30",
+  "items": [
+   "3.B"
+  ],
+  "label": "Mission Moment \u2014 student achievement"
+ },
+ {
+  "t": "0:24:45",
+  "items": [
+   "3.C"
+  ],
+  "label": "Student Spotlight"
+ },
+ {
+  "t": "0:35:50",
+  "items": [
+   "3"
+  ],
+  "label": "Recognition \u2014 resolution"
+ },
+ {
+  "t": "0:40:11",
+  "items": [
+   "6.L"
+  ],
+  "label": "Consent agenda (items A through K)"
+ },
+ {
+  "t": "0:41:38",
+  "items": [
+   "7"
+  ],
+  "label": "Personnel"
+ },
+ {
+  "t": "0:44:45",
+  "items": [
+   "7.B"
+  ],
+  "label": "Administrative appointment \u2014 Director of Teaching & Learning"
+ },
+ {
+  "t": "0:51:28",
+  "items": [
+   "8.A"
+  ],
+  "label": "Curriculum \u2014 K-5 writing curriculum adoption"
+ },
+ {
+  "t": "1:00:36",
+  "items": [
+   "9.A"
+  ],
+  "label": "Smith Middle School EPIC system resolution"
+ },
+ {
+  "t": "1:14:47",
+  "items": [
+   "10"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:32:03",
+  "items": [
+   "11"
+  ],
+  "label": "Other \u2014 board comments & reports"
+ }
 ]

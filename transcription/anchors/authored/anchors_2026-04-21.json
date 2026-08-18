@@ -1,14 +1,86 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:00:43","label":"Recognition — Teachers of the Year"},
- {"t":"0:17:16","label":"Mission Moment — Shamrock Shakedown"},
- {"t":"0:26:13","label":"Resolution — Autism Acceptance Month"},
- {"t":"0:29:35","label":"Public communication on agenda items"},
- {"t":"0:34:48","label":"Consent agenda (items A through M)"},
- {"t":"0:37:07","label":"8.A Boulan Park Middle School renovation (2 of 3)"},
- {"t":"0:41:25","label":"8.B Troy High, Bemis, Barnard & Baker renovations"},
- {"t":"0:43:49","label":"Public communication — non-agenda items"},
- {"t":"0:51:14","label":"Student representative reports"},
- {"t":"1:03:16","label":"Board member comments"},
- {"t":"1:24:26","label":"Closing remarks & adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:00:43",
+  "items": [
+   "2"
+  ],
+  "label": "Recognition \u2014 Teachers of the Year"
+ },
+ {
+  "t": "0:17:16",
+  "items": [
+   "2.B"
+  ],
+  "label": "Mission Moment \u2014 Shamrock Shakedown"
+ },
+ {
+  "t": "0:26:13",
+  "items": [
+   "2.C"
+  ],
+  "label": "Resolution \u2014 Autism Acceptance Month"
+ },
+ {
+  "t": "0:29:35",
+  "items": [
+   "4"
+  ],
+  "label": "Public communication on agenda items"
+ },
+ {
+  "t": "0:34:48",
+  "items": [
+   "5.N"
+  ],
+  "label": "Consent agenda (items A through M)"
+ },
+ {
+  "t": "0:37:07",
+  "items": [
+   "8.A"
+  ],
+  "label": "Boulan Park Middle School renovation (2 of 3)"
+ },
+ {
+  "t": "0:41:25",
+  "items": [
+   "8.B"
+  ],
+  "label": "Troy High, Bemis, Barnard & Baker renovations"
+ },
+ {
+  "t": "0:43:49",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "0:51:14",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "1:03:16",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "1:24:26",
+  "items": [
+   "11"
+  ],
+  "label": "Closing remarks & adjournment"
+ }
 ]

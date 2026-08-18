@@ -1,21 +1,137 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:00:58","label":"Recognition — new student representatives"},
- {"t":"0:07:41","label":"Recognition — student athletes"},
- {"t":"0:12:25","label":"Mission Moment"},
- {"t":"0:28:24","label":"Student Spotlight"},
- {"t":"0:39:29","label":"Resolution — National Suicide Prevention Month"},
- {"t":"0:46:18","label":"Public communication on agenda items"},
- {"t":"0:49:32","label":"Consent agenda (items A and B)"},
- {"t":"0:50:12","label":"Personnel"},
- {"t":"0:55:07","label":"8.A Business services — administrative items"},
- {"t":"1:00:45","label":"8.B Elementary soffit replacement (RFP 2526-04)"},
- {"t":"1:02:44","label":"8.C Operable wall partitions — Hamilton & Wass gyms (RFP 2526-05)"},
- {"t":"1:10:58","label":"Playground replacement programme"},
- {"t":"1:38:08","label":"Other — resolution"},
- {"t":"1:41:41","label":"Board participation — NSBA Advocacy Institute"},
- {"t":"1:43:49","label":"Attendance Area Review Committee report"},
- {"t":"2:00:28","label":"Student representative reports"},
- {"t":"2:20:25","label":"Board member comments"},
- {"t":"2:26:43","label":"President's remarks"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:00:58",
+  "items": [
+   "2"
+  ],
+  "label": "Recognition \u2014 new student representatives"
+ },
+ {
+  "t": "0:07:41",
+  "items": [
+   "2"
+  ],
+  "label": "Recognition \u2014 student athletes"
+ },
+ {
+  "t": "0:12:25",
+  "items": [
+   "2.C"
+  ],
+  "label": "Mission Moment"
+ },
+ {
+  "t": "0:28:24",
+  "items": [
+   "2.D"
+  ],
+  "label": "Student Spotlight"
+ },
+ {
+  "t": "0:39:29",
+  "items": [
+   "2.E"
+  ],
+  "label": "Resolution \u2014 National Suicide Prevention Month"
+ },
+ {
+  "t": "0:46:18",
+  "items": [
+   "4"
+  ],
+  "label": "Public communication on agenda items"
+ },
+ {
+  "t": "0:49:32",
+  "items": [
+   "5.C"
+  ],
+  "label": "Consent agenda (items A and B)"
+ },
+ {
+  "t": "0:50:12",
+  "items": [
+   "6"
+  ],
+  "label": "Personnel"
+ },
+ {
+  "t": "0:55:07",
+  "items": [
+   "8"
+  ],
+  "label": "Business services \u2014 administrative items"
+ },
+ {
+  "t": "1:00:45",
+  "items": [
+   "8.B"
+  ],
+  "label": "Elementary soffit replacement (RFP 2526-04)"
+ },
+ {
+  "t": "1:02:44",
+  "items": [
+   "8.C"
+  ],
+  "label": "Operable wall partitions \u2014 Hamilton & Wass gyms (RFP 2526-05)"
+ },
+ {
+  "t": "1:10:58",
+  "label": "Playground replacement programme",
+  "items": [
+   "8"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:38:08",
+  "items": [
+   "10"
+  ],
+  "label": "Other \u2014 resolution"
+ },
+ {
+  "t": "1:41:41",
+  "items": [
+   "10.B"
+  ],
+  "label": "Board participation \u2014 NSBA Advocacy Institute"
+ },
+ {
+  "t": "1:43:49",
+  "label": "Attendance Area Review Committee report",
+  "items": [
+   "10"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:00:28",
+  "items": [
+   "2.A"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "2:20:25",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "2:26:43",
+  "items": [
+   "10"
+  ],
+  "label": "President's remarks"
+ }
 ]

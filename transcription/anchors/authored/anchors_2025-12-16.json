@@ -1,16 +1,97 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:00:41","label":"Recognition — state champion boys tennis team"},
- {"t":"0:09:51","label":"Consent agenda (items A through E)"},
- {"t":"0:11:04","label":"Personnel"},
- {"t":"0:16:00","label":"8.A Food service equipment purchase — Troy High"},
- {"t":"0:16:42","label":"8.B Electrical & utility gear pre-purchase (RFP 2526-13)"},
- {"t":"0:18:17","label":"8.C 2026 roof replacement project (RFP 2526-11)"},
- {"t":"0:20:35","label":"8.D Paving replacement project (RFP 2526-10)"},
- {"t":"0:23:15","label":"Public communication — non-agenda items"},
- {"t":"0:25:24","label":"Other — formal resolution"},
- {"t":"0:32:32","label":"Student representative reports"},
- {"t":"0:43:55","label":"Board member comments"},
- {"t":"0:47:51","label":"Superintendent's report"},
- {"t":"0:48:58","label":"President's closing remarks"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:00:41",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 state champion boys tennis team"
+ },
+ {
+  "t": "0:09:51",
+  "items": [
+   "5.F"
+  ],
+  "label": "Consent agenda (items A through E)"
+ },
+ {
+  "t": "0:11:04",
+  "items": [
+   "6"
+  ],
+  "label": "Personnel"
+ },
+ {
+  "t": "0:16:00",
+  "items": [
+   "8.A"
+  ],
+  "label": "Food service equipment purchase \u2014 Troy High"
+ },
+ {
+  "t": "0:16:42",
+  "items": [
+   "8.B"
+  ],
+  "label": "Electrical & utility gear pre-purchase (RFP 2526-13)"
+ },
+ {
+  "t": "0:18:17",
+  "items": [
+   "8.C"
+  ],
+  "label": "2026 roof replacement project (RFP 2526-11)"
+ },
+ {
+  "t": "0:20:35",
+  "items": [
+   "8.D"
+  ],
+  "label": "Paving replacement project (RFP 2526-10)"
+ },
+ {
+  "t": "0:23:15",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "0:25:24",
+  "items": [
+   "10"
+  ],
+  "label": "Other \u2014 formal resolution"
+ },
+ {
+  "t": "0:32:32",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "0:43:55",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "0:47:51",
+  "items": [
+   "10"
+  ],
+  "label": "Superintendent's report"
+ },
+ {
+  "t": "0:48:58",
+  "label": "President's closing remarks"
+ }
 ]

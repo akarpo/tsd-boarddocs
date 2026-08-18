@@ -1,12 +1,76 @@
 [
- {"t":"0:00:00","label":"Public communication"},
- {"t":"0:02:15","label":"2.a 2025 audit presentation"},
- {"t":"0:31:43","label":"2.b Transportation & bell time study"},
- {"t":"1:20:48","label":"2.c/2.e/2.f Business services updates — iPads, BP#3F, BP T3x"},
- {"t":"1:32:30","label":"2.g Series II bond issuance"},
- {"t":"1:41:19","label":"Student achievement data review"},
- {"t":"2:45:34","label":"Testing participation"},
- {"t":"2:57:24","label":"Special education data breakout"},
- {"t":"3:20:14","label":"Data presentation & reporting scale"},
- {"t":"3:37:14","label":"Student engagement & connection"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Public communication"
+ },
+ {
+  "t": "0:02:15",
+  "items": [
+   "2.A"
+  ],
+  "label": "2025 audit presentation"
+ },
+ {
+  "t": "0:31:43",
+  "items": [
+   "2.B"
+  ],
+  "label": "Transportation & bell time study"
+ },
+ {
+  "t": "1:20:48",
+  "items": [
+   "2"
+  ],
+  "label": "Business services updates \u2014 iPads, BP#3F, BP T3x"
+ },
+ {
+  "t": "1:32:30",
+  "items": [
+   "2.G"
+  ],
+  "label": "Series II bond issuance"
+ },
+ {
+  "t": "1:41:19",
+  "items": [
+   "3.A"
+  ],
+  "label": "Student achievement data review"
+ },
+ {
+  "t": "2:45:34",
+  "label": "Testing participation",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:57:24",
+  "label": "Special education data breakout",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "3:20:14",
+  "label": "Data presentation & reporting scale",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "3:37:14",
+  "label": "Student engagement & connection",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ }
 ]

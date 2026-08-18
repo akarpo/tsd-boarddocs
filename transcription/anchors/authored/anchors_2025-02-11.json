@@ -1,15 +1,88 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:03:37","label":"Resource allocation study (District Management Group)"},
- {"t":"0:54:52","label":"Secondary staffing & scheduling analysis"},
- {"t":"1:24:39","label":"Secondary course description book"},
- {"t":"1:48:18","label":"3.a Athletics Phase 2 renovation (RFP 2425-09)"},
- {"t":"1:57:17","label":"3.c Network & wireless project"},
- {"t":"2:01:24","label":"3.d EPIC PA & security system"},
- {"t":"2:13:08","label":"School of Choice update"},
- {"t":"2:48:33","label":"School of Choice — regional considerations"},
- {"t":"3:05:00","label":"Board communication practices"},
- {"t":"3:30:00","label":"NSBA Advocacy Institute report"},
- {"t":"3:46:36","label":"Community relations & board training"},
- {"t":"3:54:36","label":"Snow day decision process"}
+ {
+  "t": "0:00:00",
+  "label": "Call to order"
+ },
+ {
+  "t": "0:03:37",
+  "label": "Resource allocation study (District Management Group)"
+ },
+ {
+  "t": "0:54:52",
+  "label": "Secondary staffing & scheduling analysis"
+ },
+ {
+  "t": "1:24:39",
+  "items": [
+   "2.B"
+  ],
+  "label": "Secondary course description book"
+ },
+ {
+  "t": "1:48:18",
+  "items": [
+   "3.A"
+  ],
+  "label": "Athletics Phase 2 renovation (RFP 2425-09)"
+ },
+ {
+  "t": "1:57:17",
+  "items": [
+   "3.C"
+  ],
+  "label": "Network & wireless project"
+ },
+ {
+  "t": "2:01:24",
+  "items": [
+   "3.D"
+  ],
+  "label": "EPIC PA & security system"
+ },
+ {
+  "t": "2:13:08",
+  "items": [
+   "4.A"
+  ],
+  "label": "School of Choice update"
+ },
+ {
+  "t": "2:48:33",
+  "label": "School of Choice \u2014 regional considerations",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "3:05:00",
+  "items": [
+   "1"
+  ],
+  "label": "Board communication practices"
+ },
+ {
+  "t": "3:30:00",
+  "label": "NSBA Advocacy Institute report",
+  "items": [
+   "1"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "3:46:36",
+  "label": "Community relations & board training",
+  "items": [
+   "1"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "3:54:36",
+  "label": "Snow day decision process",
+  "items": [
+   "1"
+  ],
+  "_inherited": true
+ }
 ]

@@ -1,14 +1,88 @@
 [
- {"t":"0:00:00","label":"Call to order — start of school year"},
- {"t":"0:07:33","label":"Staffing & teacher hires"},
- {"t":"0:15:10","label":"4.a Administration building renovation (RFP 2526-03)"},
- {"t":"0:26:22","label":"4.c Hamilton & Wass operable wall partitions (RFP 2526-05)"},
- {"t":"0:45:33","label":"Playground replacement projects"},
- {"t":"0:57:13","label":"District data & goal reporting"},
- {"t":"1:15:41","label":"MTSS process & building-level data"},
- {"t":"1:20:57","label":"District goals review"},
- {"t":"1:29:56","label":"CTE programming"},
- {"t":"1:48:56","label":"Enrollment & community turnover"},
- {"t":"2:07:34","label":"NSBA Advocacy Institute"},
- {"t":"2:29:23","label":"Recognitions & awards"}
+ {
+  "t": "0:00:00",
+  "label": "Call to order \u2014 start of school year"
+ },
+ {
+  "t": "0:07:33",
+  "items": [
+   "2.A"
+  ],
+  "label": "Staffing & teacher hires"
+ },
+ {
+  "t": "0:15:10",
+  "items": [
+   "3.A"
+  ],
+  "label": "Administration building renovation (RFP 2526-03)"
+ },
+ {
+  "t": "0:26:22",
+  "items": [
+   "3.C"
+  ],
+  "label": "Hamilton & Wass operable wall partitions (RFP 2526-05)"
+ },
+ {
+  "t": "0:45:33",
+  "items": [
+   "3.B"
+  ],
+  "label": "Playground replacement projects"
+ },
+ {
+  "t": "0:57:13",
+  "items": [
+   "4.A"
+  ],
+  "label": "District data & goal reporting"
+ },
+ {
+  "t": "1:15:41",
+  "label": "MTSS process & building-level data",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:20:57",
+  "label": "District goals review",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:29:56",
+  "label": "CTE programming",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:48:56",
+  "label": "Enrollment & community turnover",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:07:34",
+  "items": [
+   "5.B"
+  ],
+  "label": "NSBA Advocacy Institute"
+ },
+ {
+  "t": "2:29:23",
+  "label": "Recognitions & awards",
+  "items": [
+   "5"
+  ],
+  "_inherited": true
+ }
 ]

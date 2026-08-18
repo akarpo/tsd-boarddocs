@@ -1,14 +1,86 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:00:49","label":"Election of acting chairperson"},
- {"t":"0:02:15","label":"Appointment of officers"},
- {"t":"0:08:33","label":"4.E Fund depositories & investments"},
- {"t":"0:12:52","label":"Committee membership appointments"},
- {"t":"0:17:51","label":"Turtle Woods update"},
- {"t":"0:31:50","label":"Public communication"},
- {"t":"0:53:24","label":"Consent agenda (items A, B and C)"},
- {"t":"0:54:17","label":"12.A Troy High kitchen servery remodel"},
- {"t":"0:59:10","label":"12.B Site work — paving replacement (RFP 2425-01)"},
- {"t":"1:01:39","label":"12.C Flooring replacement & polishing (Bid 2425-03)"},
- {"t":"1:07:57","label":"Attendance Area Review Committee presentation"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:00:49",
+  "items": [
+   "2"
+  ],
+  "label": "Election of acting chairperson"
+ },
+ {
+  "t": "0:02:15",
+  "items": [
+   "4.D"
+  ],
+  "label": "Appointment of officers"
+ },
+ {
+  "t": "0:08:33",
+  "items": [
+   "4.E"
+  ],
+  "label": "Fund depositories & investments"
+ },
+ {
+  "t": "0:12:52",
+  "items": [
+   "3"
+  ],
+  "label": "Committee membership appointments"
+ },
+ {
+  "t": "0:17:51",
+  "items": [
+   "6"
+  ],
+  "label": "Turtle Woods update"
+ },
+ {
+  "t": "0:31:50",
+  "items": [
+   "8"
+  ],
+  "label": "Public communication"
+ },
+ {
+  "t": "0:53:24",
+  "items": [
+   "9.D"
+  ],
+  "label": "Consent agenda (items A, B and C)"
+ },
+ {
+  "t": "0:54:17",
+  "items": [
+   "12.A"
+  ],
+  "label": "Troy High kitchen servery remodel"
+ },
+ {
+  "t": "0:59:10",
+  "items": [
+   "12.B"
+  ],
+  "label": "Site work \u2014 paving replacement (RFP 2425-01)"
+ },
+ {
+  "t": "1:01:39",
+  "items": [
+   "12.C"
+  ],
+  "label": "Flooring replacement & polishing (Bid 2425-03)"
+ },
+ {
+  "t": "1:07:57",
+  "items": [
+   "4.J"
+  ],
+  "label": "Attendance Area Review Committee presentation"
+ }
 ]

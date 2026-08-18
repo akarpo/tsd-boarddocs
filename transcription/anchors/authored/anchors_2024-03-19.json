@@ -1,19 +1,123 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:02:36","label":"Recognitions"},
- {"t":"0:14:42","label":"Student representative reports"},
- {"t":"0:23:48","label":"Mission Moment — Clean Water Calendar winners"},
- {"t":"0:32:02","label":"Public communication on agenda items"},
- {"t":"0:40:36","label":"Consent agenda (incl. 5.D retention pond bid)"},
- {"t":"0:48:11","label":"Business items — introduction"},
- {"t":"0:49:08","label":"8.A Resolution certifying ballot language — operating millage"},
- {"t":"0:56:19","label":"8.B Asbestos abatement"},
- {"t":"0:57:49","label":"8.C/8.D Smith MS foundations, steel & temporary fence"},
- {"t":"1:02:04","label":"8.E Cellular WAN"},
- {"t":"1:05:56","label":"8.F Furniture purchase — elementaries & middle schools"},
- {"t":"1:12:25","label":"Public communication — non-agenda items"},
- {"t":"1:51:40","label":"Lansing appropriations visit"},
- {"t":"1:59:28","label":"Superintendent's report"},
- {"t":"2:17:33","label":"Board member comments"},
- {"t":"2:29:41","label":"Adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:02:36",
+  "items": [
+   "2"
+  ],
+  "label": "Recognitions"
+ },
+ {
+  "t": "0:14:42",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "0:23:48",
+  "items": [
+   "2.A"
+  ],
+  "label": "Mission Moment \u2014 Clean Water Calendar winners"
+ },
+ {
+  "t": "0:32:02",
+  "items": [
+   "3"
+  ],
+  "label": "Public communication on agenda items"
+ },
+ {
+  "t": "0:40:36",
+  "items": [
+   "4.E"
+  ],
+  "label": "Consent agenda (incl. 5.D retention pond bid)"
+ },
+ {
+  "t": "0:48:11",
+  "items": [
+   "8"
+  ],
+  "label": "Business items \u2014 introduction"
+ },
+ {
+  "t": "0:49:08",
+  "label": "Resolution certifying ballot language \u2014 operating millage",
+  "items": [
+   "8"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:56:19",
+  "items": [
+   "8.B"
+  ],
+  "label": "Asbestos abatement"
+ },
+ {
+  "t": "0:57:49",
+  "items": [
+   "8.C"
+  ],
+  "label": "Smith MS foundations, steel & temporary fence"
+ },
+ {
+  "t": "1:02:04",
+  "items": [
+   "8.E"
+  ],
+  "label": "Cellular WAN"
+ },
+ {
+  "t": "1:05:56",
+  "items": [
+   "2.B"
+  ],
+  "label": "Furniture purchase \u2014 elementaries & middle schools"
+ },
+ {
+  "t": "1:12:25",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:51:40",
+  "label": "Lansing appropriations visit",
+  "items": [
+   "9"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:59:28",
+  "items": [
+   "10"
+  ],
+  "label": "Superintendent's report"
+ },
+ {
+  "t": "2:17:33",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "2:29:41",
+  "items": [
+   "11"
+  ],
+  "label": "Adjournment"
+ }
 ]

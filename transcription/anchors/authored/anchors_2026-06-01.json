@@ -1,17 +1,110 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:02:49","label":"2.a Device refresh — staff MacBooks & student iPads"},
- {"t":"0:13:50","label":"2.b Bus purchases (15 buses)"},
- {"t":"0:17:43","label":"2.c Printer purchase — Smith Middle School & district"},
- {"t":"0:25:59","label":"2.d Food service — Chartwells contract renewal"},
- {"t":"1:13:49","label":"2.e Budget Amendment 3 & capital projects"},
- {"t":"1:49:07","label":"Budget reductions — SEC director restructure"},
- {"t":"1:54:33","label":"Budget reductions — attendance secretaries"},
- {"t":"1:58:33","label":"Budget reductions — media aides"},
- {"t":"2:02:55","label":"Budget reductions — ELD specialists & receptionist"},
- {"t":"2:15:52","label":"Budget reductions — general education sections"},
- {"t":"2:26:20","label":"Budget reductions — teacher & ECP sections"},
- {"t":"2:34:13","label":"Budget reductions — resource room & TC staff"},
- {"t":"3:08:52","label":"OCSBA proposed bylaws amendments"},
- {"t":"3:23:24","label":"Closed session scheduling & next meeting"}
+ {
+  "t": "0:00:00",
+  "label": "Call to order"
+ },
+ {
+  "t": "0:02:49",
+  "items": [
+   "3.A"
+  ],
+  "label": "Device refresh \u2014 staff MacBooks & student iPads"
+ },
+ {
+  "t": "0:13:50",
+  "items": [
+   "3.B"
+  ],
+  "label": "Bus purchases (15 buses)"
+ },
+ {
+  "t": "0:17:43",
+  "items": [
+   "3.C"
+  ],
+  "label": "Printer purchase \u2014 Smith Middle School & district"
+ },
+ {
+  "t": "0:25:59",
+  "items": [
+   "3.D"
+  ],
+  "label": "Food service \u2014 Chartwells contract renewal"
+ },
+ {
+  "t": "1:13:49",
+  "items": [
+   "3.E"
+  ],
+  "label": "Budget Amendment 3 & capital projects"
+ },
+ {
+  "t": "1:49:07",
+  "label": "Budget reductions \u2014 SEC director restructure",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:54:33",
+  "label": "Budget reductions \u2014 attendance secretaries",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:58:33",
+  "items": [
+   "3.F"
+  ],
+  "label": "Budget reductions \u2014 media aides"
+ },
+ {
+  "t": "2:02:55",
+  "label": "Budget reductions \u2014 ELD specialists & receptionist",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:15:52",
+  "items": [
+   "3.G"
+  ],
+  "label": "Budget reductions \u2014 general education sections"
+ },
+ {
+  "t": "2:26:20",
+  "label": "Budget reductions \u2014 teacher & ECP sections",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:34:13",
+  "label": "Budget reductions \u2014 resource room & TC staff",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "3:08:52",
+  "items": [
+   "4.A"
+  ],
+  "label": "OCSBA proposed bylaws amendments"
+ },
+ {
+  "t": "3:23:24",
+  "label": "Closed session scheduling & next meeting",
+  "items": [
+   "4"
+  ],
+  "_inherited": true
+ }
 ]

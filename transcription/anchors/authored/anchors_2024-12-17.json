@@ -1,11 +1,65 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:00:50","label":"Recognition — Athens High School & American Red Cross"},
- {"t":"0:04:38","label":"Recognition — Troy High student leaders"},
- {"t":"0:15:50","label":"Recognition — athletics"},
- {"t":"0:35:36","label":"Consent agenda (items A through D)"},
- {"t":"0:36:43","label":"8.A/8.B Elementary playground Phase 2 & equipment award (BP#1B)"},
- {"t":"0:42:20","label":"Public communication — non-agenda items"},
- {"t":"1:19:18","label":"Board member comments"},
- {"t":"1:30:25","label":"President's remarks & adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:00:50",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 Athens High School & American Red Cross"
+ },
+ {
+  "t": "0:04:38",
+  "items": [
+   "2.B"
+  ],
+  "label": "Recognition \u2014 Troy High student leaders"
+ },
+ {
+  "t": "0:15:50",
+  "items": [
+   "2"
+  ],
+  "label": "Recognition \u2014 athletics"
+ },
+ {
+  "t": "0:35:36",
+  "items": [
+   "5.E"
+  ],
+  "label": "Consent agenda (items A through D)"
+ },
+ {
+  "t": "0:36:43",
+  "items": [
+   "8.A"
+  ],
+  "label": "Elementary playground Phase 2 & equipment award (BP#1B)"
+ },
+ {
+  "t": "0:42:20",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:19:18",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "1:30:25",
+  "items": [
+   "11"
+  ],
+  "label": "President's remarks & adjournment"
+ }
 ]

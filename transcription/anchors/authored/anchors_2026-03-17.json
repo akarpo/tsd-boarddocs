@@ -1,16 +1,100 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:00:58","label":"Recognition — All-State Band & Orchestra"},
- {"t":"0:06:53","label":"Mission Moment — Athens students' documentary"},
- {"t":"0:23:47","label":"Consent agenda (incl. 5.D Budget Amendment 2)"},
- {"t":"0:26:45","label":"8.A Enrollment projection report"},
- {"t":"0:38:43","label":"8.B E-Rate bid package — network equipment"},
- {"t":"0:42:14","label":"8.C Boulan Park Middle School renovation (1 of 2)"},
- {"t":"0:49:38","label":"8.D Troy High stadium paving & track replacement"},
- {"t":"0:52:04","label":"8.E Furniture package — Smith, Troy High & TCTL"},
- {"t":"1:00:55","label":"Public communication — non-agenda items"},
- {"t":"1:04:09","label":"Student representative reports"},
- {"t":"1:09:12","label":"Board member comments"},
- {"t":"1:16:08","label":"President's remarks"},
- {"t":"1:18:16","label":"Adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:00:58",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 All-State Band & Orchestra"
+ },
+ {
+  "t": "0:06:53",
+  "items": [
+   "2.B"
+  ],
+  "label": "Mission Moment \u2014 Athens students' documentary"
+ },
+ {
+  "t": "0:23:47",
+  "items": [
+   "5.G"
+  ],
+  "label": "Consent agenda (incl. 5.D Budget Amendment 2)"
+ },
+ {
+  "t": "0:26:45",
+  "items": [
+   "8.A"
+  ],
+  "label": "Enrollment projection report"
+ },
+ {
+  "t": "0:38:43",
+  "items": [
+   "8.B"
+  ],
+  "label": "E-Rate bid package \u2014 network equipment"
+ },
+ {
+  "t": "0:42:14",
+  "items": [
+   "8.C"
+  ],
+  "label": "Boulan Park Middle School renovation (1 of 2)"
+ },
+ {
+  "t": "0:49:38",
+  "items": [
+   "8.D"
+  ],
+  "label": "Troy High stadium paving & track replacement"
+ },
+ {
+  "t": "0:52:04",
+  "items": [
+   "8.E"
+  ],
+  "label": "Furniture package \u2014 Smith, Troy High & TCTL"
+ },
+ {
+  "t": "1:00:55",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:04:09",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "1:09:12",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "1:16:08",
+  "items": [
+   "10"
+  ],
+  "label": "President's remarks"
+ },
+ {
+  "t": "1:18:16",
+  "items": [
+   "11"
+  ],
+  "label": "Adjournment"
+ }
 ]

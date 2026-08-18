@@ -1,16 +1,100 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:01:25","label":"Recognition — Athens boys soccer state champions"},
- {"t":"0:04:02","label":"Recognition — Coach of the Year"},
- {"t":"0:10:52","label":"Recognitions"},
- {"t":"0:34:06","label":"Mission Moment — SSAB Executive Committee & MLK"},
- {"t":"0:38:56","label":"Student representative reports"},
- {"t":"0:56:07","label":"Consent agenda (incl. 5.H lawn mowing & leaf removal)"},
- {"t":"0:59:20","label":"8.A/8.B Moving services & elementary playground site work"},
- {"t":"1:05:07","label":"8.C Athens turf & Baker track (RFP 2324-13)"},
- {"t":"1:07:57","label":"8.D Troy High athletics temporary fence (RFP 2324-14)"},
- {"t":"1:13:08","label":"Public communication — non-agenda items"},
- {"t":"1:37:56","label":"Other — 2024 MASB Board of Directors election"},
- {"t":"1:44:42","label":"Board member comments"},
- {"t":"1:58:29","label":"Closed session"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:01:25",
+  "items": [
+   "2.B"
+  ],
+  "label": "Recognition \u2014 Athens boys soccer state champions"
+ },
+ {
+  "t": "0:04:02",
+  "items": [
+   "2.F"
+  ],
+  "label": "Recognition \u2014 Coach of the Year"
+ },
+ {
+  "t": "0:10:52",
+  "items": [
+   "2"
+  ],
+  "label": "Recognitions"
+ },
+ {
+  "t": "0:34:06",
+  "items": [
+   "2.D"
+  ],
+  "label": "Mission Moment \u2014 SSAB Executive Committee & MLK"
+ },
+ {
+  "t": "0:38:56",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "0:56:07",
+  "items": [
+   "4.J"
+  ],
+  "label": "Consent agenda (incl. 5.H lawn mowing & leaf removal)"
+ },
+ {
+  "t": "0:59:20",
+  "items": [
+   "8.B"
+  ],
+  "label": "Moving services & elementary playground site work"
+ },
+ {
+  "t": "1:05:07",
+  "items": [
+   "8.C"
+  ],
+  "label": "Athens turf & Baker track (RFP 2324-13)"
+ },
+ {
+  "t": "1:07:57",
+  "items": [
+   "8.D"
+  ],
+  "label": "Troy High athletics temporary fence (RFP 2324-14)"
+ },
+ {
+  "t": "1:13:08",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:37:56",
+  "items": [
+   "10.A"
+  ],
+  "label": "Other \u2014 2024 MASB Board of Directors election"
+ },
+ {
+  "t": "1:44:42",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "1:58:29",
+  "items": [
+   "4.D"
+  ],
+  "label": "Closed session"
+ }
 ]

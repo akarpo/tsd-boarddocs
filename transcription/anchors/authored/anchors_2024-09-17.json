@@ -1,13 +1,80 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:00:56","label":"Introduction of student representatives"},
- {"t":"0:05:22","label":"Recognition — spring 2024 all-state athletes"},
- {"t":"0:15:47","label":"Student Spotlight"},
- {"t":"0:26:32","label":"Resolution — National Suicide Prevention Month"},
- {"t":"0:28:43","label":"Recognition — board honours"},
- {"t":"0:40:35","label":"Consent agenda (items A through D)"},
- {"t":"0:41:09","label":"Curriculum — student opportunities"},
- {"t":"1:01:49","label":"Curriculum discussion"},
- {"t":"1:21:43","label":"Student representative reports"},
- {"t":"1:36:54","label":"Board member comments"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:00:56",
+  "label": "Introduction of student representatives",
+  "items": [
+   "1"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:05:22",
+  "items": [
+   "2.B"
+  ],
+  "label": "Recognition \u2014 spring 2024 all-state athletes"
+ },
+ {
+  "t": "0:15:47",
+  "items": [
+   "2.C"
+  ],
+  "label": "Student Spotlight"
+ },
+ {
+  "t": "0:26:32",
+  "items": [
+   "2.D"
+  ],
+  "label": "Resolution \u2014 National Suicide Prevention Month"
+ },
+ {
+  "t": "0:28:43",
+  "items": [
+   "2"
+  ],
+  "label": "Recognition \u2014 board honours"
+ },
+ {
+  "t": "0:40:35",
+  "items": [
+   "5.E"
+  ],
+  "label": "Consent agenda (items A through D)"
+ },
+ {
+  "t": "0:41:09",
+  "items": [
+   "7"
+  ],
+  "label": "Curriculum \u2014 student opportunities"
+ },
+ {
+  "t": "1:01:49",
+  "items": [
+   "7"
+  ],
+  "label": "Curriculum discussion"
+ },
+ {
+  "t": "1:21:43",
+  "items": [
+   "2.A"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "1:36:54",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ }
 ]

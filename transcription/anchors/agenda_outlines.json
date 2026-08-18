@@ -1,0 +1,5264 @@
+{
+ "2026-07-22": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the June 1, 2026, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the June 16, 2026, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Minutes of the June 16, 2026, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Minutes of the June 16, 2026, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Treasurer\u2019s Report \u2013 May 2026",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Boys Lacrosse Cooperative Agreement",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Extension of Administrative Contracts",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "CONSIDERATION: Extension of Assistant Superintendent Contracts",
+   "level": 2
+  },
+  {
+   "item": "6.C",
+   "title": "CONSIDERATION: Extension of Superintendent Contract",
+   "level": 2
+  },
+  {
+   "item": "6.D",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Finance Director",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Boulan Park Security and Paging",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Boulan Park Specialty AV Systems",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Troy Robotics Center Lease",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "REPORT: Budget Update",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2026-01-13": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Secondary Course Description Book",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Middle School Math Enrollment/Subgroup Data Update",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Budget Amendment #1",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "THS Main & Aux Gym Remodel",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Elementary Toilet Room Renovations",
+   "level": 2
+  },
+  {
+   "item": "3.D",
+   "title": "Fiscal Year 26/27 Budget Planning",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Governance Core Book Discussion",
+   "level": 2
+  }
+ ],
+ "2026-02-03": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Curriculum Review Process Update",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Flooring",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Abatement \u2013 Boulan Park Middle School",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Athens - Auxiliary Parking Lot",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "SUPERINTENDENT'S UPDATE",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Enhancement Millage Update",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Middle School Math Data",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Governance Core Book Discussion",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Board Self-Evaluation",
+   "level": 2
+  }
+ ],
+ "2026-04-07": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Boulan Park Renovation Project (Rec 2 of 2)",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "THS, Barnard, Bemis, Baker Renovation Projects",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "World Language Curriculum Recommendation (Spanish & German)",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "SEAB Video - Elementary",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Code of Conduct Update Review",
+   "level": 2
+  },
+  {
+   "item": "3.D",
+   "title": "Geometry Materials Adoption",
+   "level": 2
+  },
+  {
+   "item": "3.E",
+   "title": "Middle School Math Next Steps",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Strategic Planning Overview",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "First Reading of New/Revised Board Policies",
+   "level": 2
+  }
+ ],
+ "2026-04-28": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Boulan Park Building Renovation Project \u2013 Rec 3 of 3",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Food Service & Operations Delivery Vehicle Purchase",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "K-8 Reading Adoption Plan",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Middle School Math",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "SE \u2013 Specifically Designed Instruction Update",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Strategic Plan Update",
+   "level": 2
+  }
+ ],
+ "2026-06-01": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "TROY SCHOOL DISTRICT RETIREES",
+   "level": 1
+  },
+  {
+   "item": "3",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "MacBook/iPad Purchases",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Bus Purchase",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Smith MS Printers",
+   "level": 2
+  },
+  {
+   "item": "3.D",
+   "title": "Food Service Contract Renewal",
+   "level": 2
+  },
+  {
+   "item": "3.E",
+   "title": "2025-26 Final Budget Amendments \u2013 All Funds",
+   "level": 2
+  },
+  {
+   "item": "3.F",
+   "title": "2026-27 Budget Adoption \u2013 All Funds",
+   "level": 2
+  },
+  {
+   "item": "3.G",
+   "title": "2026-27 Budget Reductions",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Proposed OCSBA Bylaws Amendments",
+   "level": 2
+  }
+ ],
+ "2026-03-17": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "All-State Band & Orchestra Students",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Athens Students\u2019 Documentary",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the February 3, 2026, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the February 24, 2026, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer\u2019s Report \u2013 January 2026",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Budget Amendment #2",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Schools Closed to Open Enrollment",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Sex Education Advisory Board (SEAB) Membership Approval",
+   "level": 2
+  },
+  {
+   "item": "5.G",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Elementary and Secondary",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "REPORT: Enrollment Projections",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: E-rate Bid Pack",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Boulan Park Building Renovation Project",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: THS Stadium Paving and Running Track",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: Furniture Package - Smith, TCT, and Troy High",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2026-06-16": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "PUBLIC HEARING: 2026/2027 Proposed Budget",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Resolution in Support of Gun Safety and Safe Gun Storage",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Resolution urging the governor and the legislature to pass the 2026/2027 school aid budget by July 1st",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "5",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "Minutes of the May 19, 2026, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "Treasurer\u2019s Report \u2013 April 2026",
+   "level": 2
+  },
+  {
+   "item": "6.C",
+   "title": "Food Service Contract Renewal",
+   "level": 2
+  },
+  {
+   "item": "6.D",
+   "title": "Michigan High School Athletic Association (MHSAA) Membership Resolution \u2013 2026/2027",
+   "level": 2
+  },
+  {
+   "item": "6.E",
+   "title": "2025/2026 Budget Amendment",
+   "level": 2
+  },
+  {
+   "item": "6.F",
+   "title": "2026/2027 Budget Appropriations Resolution",
+   "level": 2
+  },
+  {
+   "item": "6.G",
+   "title": "Common Debt Fund Resolution",
+   "level": 2
+  },
+  {
+   "item": "6.H",
+   "title": "Approval of OCSBA Association Bylaws Amendment",
+   "level": 2
+  },
+  {
+   "item": "6.I",
+   "title": "Approval of OCSBA New Resolution opposing tying any school funding to waiving the attorney-client privilege",
+   "level": 2
+  },
+  {
+   "item": "6.J",
+   "title": "AP Precalculus Textbook Adoption",
+   "level": 2
+  },
+  {
+   "item": "6.K",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "9",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "CONSIDERATION: MacBook/iPad Purchases",
+   "level": 2
+  },
+  {
+   "item": "9.B",
+   "title": "CONSIDERATION: Bus Purchase",
+   "level": 2
+  },
+  {
+   "item": "9.C",
+   "title": "CONSIDERATION: Smith Printers",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "13",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-04-01": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Enrollment Projections \u2013 Plante Moran",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "iPad Purchase",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Transportation Report",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Smith Middle School Pilot Furniture",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Attendance Area Review Update",
+   "level": 2
+  }
+ ],
+ "2025-04-22": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Troy School District\u2019s Outstanding Teachers \u2013 Award Winners",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: THS Model UN",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "TSD Mission Moment: Science Fair Students",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Robertson Homes Donation to TFEE",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.F",
+   "title": "Volunteer Appreciation",
+   "level": 2
+  },
+  {
+   "item": "2.G",
+   "title": "Autism Acceptance Month",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the March 4, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the March March 8, 2025, Board of Education Winter Retreat",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Minutes of the March 18, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Treasurer\u2019s Report \u2013 February 2025",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: iPad Purchase",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Athletics Temporary Fencing",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Smith Middle School Pilot Furniture",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-06-03": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "CLOSED SESSION",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "CONSIDERATION: Superintendent Evaluation",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-10-07": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "ELD Materials",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Furniture - Administration Building",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Cafeteria Tables \u2013 Barnard",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Technology Upgrades and Access Control",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Policy Update Review",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Special Education Update",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Book Study: The Disengaged Teen",
+   "level": 2
+  }
+ ],
+ "2025-12-09": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "AP French & AP Spanish Resources Business Services",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "SUPERINTENDENT'S UPDATE",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Athletics Program Update",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Schools of Choice 105 & 105C",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Food Service Equipment Purchase",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Electrical & Utility Gear Pre-purchase",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Roofing Replacement Project",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Paving Replacement Project",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Board Officers & Committee Assignments",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "OCSBA \u2013 Proposed New Resolutions",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "MASB Conference Recap",
+   "level": 2
+  }
+ ],
+ "2024-01-16": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Agenda Memo",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "ELECTION OF ACTING CHAIRPERSON",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Elect an acting chairperson who will conduct the meeting unitl such time as a president has been elected.",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "APPOINTMENT OF TEMPORARY SECRETARY",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Appoint Judy Holmes to act as temporary secretary until such time as the secretary to the Board has been elected.",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "ANNUAL ORGANIZATIONAL MEETING OF THE BOARD OF EDUCATION",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Nomination and Election of Officers - President",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Nomination and Election of Officers - Vice President",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Nomination and Election of Officers -Secretary",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Appointment of Treasurer",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Establish Fund Depositories and Investment Resolution for 23/24 and 24/25",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Designation of Board and District Legal Counsel",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Designation of Superintendent to be Deputy Secretary",
+   "level": 2
+  },
+  {
+   "item": "4.H",
+   "title": "Designation of a Person for Posting Notices of Meetings",
+   "level": 2
+  },
+  {
+   "item": "4.I",
+   "title": "Meeting Schedule for 2024 Calendar Year",
+   "level": 2
+  },
+  {
+   "item": "4.J",
+   "title": "Board Committee Assignments for 2024",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "TSD Mission Moment: SSAB Executive Committee MLK Day of Service",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Board Recognition Month",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "Minutes of the December 5, 2023, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "Minutes of the December 5, 2023, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "Minutes of the December 5, 2023, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "Minutes of the December 12, 2023, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "Treasurer\u2019s Report \u2013 November 2023",
+   "level": 2
+  },
+  {
+   "item": "8.F",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "CONSIDERATION: Elementary and Secondary",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "11.A",
+   "title": "CONSIDERATION: Flooring Replacement Project (Sinking Fund)",
+   "level": 2
+  },
+  {
+   "item": "11.B",
+   "title": "CONSIDERATION: Playgrounds (Bond)",
+   "level": 2
+  },
+  {
+   "item": "11.C",
+   "title": "CONSIDERATION: Athletic Complex Upgrade (Bond and/or Sinking Fund)",
+   "level": 2
+  },
+  {
+   "item": "11.D",
+   "title": "CONSIDERATION: Fiber Maintenance Agreement",
+   "level": 2
+  },
+  {
+   "item": "12",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "12.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "13",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "14",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "15",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-03-19": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "TSD Mission Moment: Clean Water Calendar Winners 2024",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "State Schools of Character - Larson Middle School",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "All-State Band & Orchestra Students",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the February 6, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the February 27, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Treasurer\u2019s Report \u2013 January 2024",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Retention Pond Budget Modification",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Elementary and Secondary",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "CONSIDERATION: Director of Athletics, Continuing Education, and Enrichment",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Non-Homestead Renewal",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Wattles Abatement",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: New Smith MS Foundations & Steel",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: Troy HS Athletics Temporary Fencing",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: Cellular WAN",
+   "level": 2
+  },
+  {
+   "item": "8.F",
+   "title": "CONSIDERATION: 2024 Furniture Package K-5 Classrooms, Baker & IAE Classrooms",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-06-20": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "PUBLIC HEARING: 2024/2025 Proposed Budget",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Troy United Synchronized Swim Team 2024 State Champions",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "ASBO Excellence in Financial Reporting for FY2023",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Resolution in Support of Gun Safety and Safe Gun Storage",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the May 7, 2024, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the May 7, 2024, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Minutes of the May 7, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Minutes of the May 21, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Treasurer\u2019s Report \u2013 April 2024",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Michigan High School Athletic Association (MHSAA) Membership Resolution \u2013 2024/2025",
+   "level": 2
+  },
+  {
+   "item": "5.G",
+   "title": "2023/2024 Budget Amendment",
+   "level": 2
+  },
+  {
+   "item": "5.H",
+   "title": "2024/2025 Budget Appropriations Resolution",
+   "level": 2
+  },
+  {
+   "item": "5.I",
+   "title": "Approval of Committee for Instructional Minutes",
+   "level": 2
+  },
+  {
+   "item": "5.J",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "CONSIDERATION: Administrative Appointment - Special Education Supervisor",
+   "level": 2
+  },
+  {
+   "item": "7.B",
+   "title": "CONSIDERATION: Assistant Superintendent, Business Services",
+   "level": 2
+  },
+  {
+   "item": "7.C",
+   "title": "CONSIDERATION: TEA Contract Ratification",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "9",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "CONSIDERATION: Serving Lines for Boulan, Larson and Wass Elementary School",
+   "level": 2
+  },
+  {
+   "item": "9.B",
+   "title": "CONSIDERATION: UNOX Ovens for IAE, Larson and Smith Middle School",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "13",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-09-17": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Student Representatives for Board Meetings",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "All-State Athletes Spring Sports 2024",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "National Suicide Prevention Month",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "MASB Awards: Emina Alic \u2013 Certified Board member Award, Award of Merit, Vital Anne \u2013 Master Board member Award, Matt Haupt \u2013 certified Board member Award, Award of Merit, Karl Schmidt \u2013 12 Years of Service, and Nancy Philippart \u2013 16 Years of Service, TSD Board \u2013 Standard of Excellence",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "SECTION 1 UPDATE: Chris Bunch, Executive Director of Six Rivers Land Conservancy 4.A. PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the August 20, 2024, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the August 20, 2024, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Minutes of the August 20, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Treasurer's Report - July 2024",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "REPORT: Staffing Update",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "CONSIDERATION: Elementary and Secondary",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "REPORT: Summer Learning",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: TSD Board Reps to the MASB 2024 Delegate Assembly",
+   "level": 2
+  },
+  {
+   "item": "10.B",
+   "title": "CONSIDERATION: NSBA Advocacy Institute, Washington, DC February 2 - 4, 2025",
+   "level": 2
+  },
+  {
+   "item": "10.C",
+   "title": "CONSIDERATION: NSBA 2025 Annual Conference, New Orleans April 4-6, 2025",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-10-15": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Learning Disabilities Awareness Month",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "2024 Principals Appreciation Month",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "2024 National School Public Relations (NSPRA) Awards",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "2025 National Merit Scholarship Semifinalists",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the September 3, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the September 17, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer's Report - August 2024",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Oakland County Special Education Parent Advisory Committee Representatives",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "OCSBA Bylaws Amendment",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: New Smith Middle School Construction Items",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Cafeteria Tables - Leonard Elementary School",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-11-19": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "TSD Mission Moment: National Blue Ribbon Award - Hamilton Elementary School",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "MSPRA Awards",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the October 1, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the October 15, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer's Report - September 2024",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Reschedule January 7, 2025 Board Workshop to January 14, 2025",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "REPORT: Student Achievement Data Review",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "REPORT: 2023/2024 Audit Report",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: 2023/2024 Audit",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Oven Replacement for Hill, Leonard, and Troy Union",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: New Smith Middle School \u2013 Landscape Category",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: 2025 Roof Replacement Project",
+   "level": 2
+  },
+  {
+   "item": "8.F",
+   "title": "CONSIDERATION: Infrastructure Upgrades",
+   "level": 2
+  },
+  {
+   "item": "8.G",
+   "title": "CONSIDERATION: Electric Busses Purchase",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-12-17": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "American Red Cross - Athens High School Blood Drives",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Troy High Students - Leadership Summit in Germany",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the November 12, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the November 19, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer's Report - October 2024",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Budget Amendment #1",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Playground Equipment Purchase Phase 2",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Playground Site Work",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "AARC Update provided by Superintendent Machesky",
+   "level": 2
+  },
+  {
+   "item": "9.B",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-02-27": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "All-State Athletes Fall 2023",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Athens Boys Soccer State Champions",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Coaches of the Year \u2013 Andrew Shipp (Boys Tennis) and Todd Heugh (Boys Soccer)",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "TSD Mission Moment: SSAB Executive Committee MLK Day of Service",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.F",
+   "title": "Board Recognition Month",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the January 9, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the January 16, 2024, Organizational and Regular Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Treasurer\u2019s Report \u2013 December 2023",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Schools Closed to Open Enrollment",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Schools of Choice 105 & 105c",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Course Description Book & New Graduation Requirements",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Updated Section 1 Resolution",
+   "level": 2
+  },
+  {
+   "item": "4.H",
+   "title": "Districtwide Lawn Mowing 2024-2026",
+   "level": 2
+  },
+  {
+   "item": "4.I",
+   "title": "Cancellation of the March 9, 2024 Board of Education Winter Retreat",
+   "level": 2
+  },
+  {
+   "item": "4.J",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Summer 2024 Moving",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Elementary Playgrounds \u2013 Site Work",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Athens HS Stadium Turf & Baker MS Track Replacement Projects",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: Troy HS Athletics Temporary Fencing",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: MASB Board of Directors\u2019 Election \u2013 Region 8",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-03-04": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Sitework and Signage \u2013 Smith",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Interior Painting Services \u2013 District",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Bus Time Study Update",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Furniture Purchase (THS, Elementary Phase II)",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "CTE/Career Readiness Update",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Superintendent Evaluation Training for Board Members",
+   "level": 2
+  }
+ ],
+ "2025-06-17": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "PUBLIC HEARING: 2025/2026 Proposed Budget",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Mission Moment: TSD Student \u2013 Girl Scout Gold Award \u2013 Ava Bunao",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Mission Moment: TSD Student \u2013 Bemis Math Pentathlon Team",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "3.D",
+   "title": "Resolution in Support of Gun Safety and Safe Gun Storage",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "5",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "Minutes of the May 6, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "Minutes of the May 20, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "6.C",
+   "title": "Treasurer\u2019s Report \u2013 April 2025",
+   "level": 2
+  },
+  {
+   "item": "6.D",
+   "title": "Food Service Contract Renewal",
+   "level": 2
+  },
+  {
+   "item": "6.E",
+   "title": "Michigan High School Athletic Association (MHSAA) Membership Resolution \u2013 2025/2026",
+   "level": 2
+  },
+  {
+   "item": "6.F",
+   "title": "2024/2025 Budget Amendment",
+   "level": 2
+  },
+  {
+   "item": "6.G",
+   "title": "2025/2026 Budget Appropriations Resolution",
+   "level": 2
+  },
+  {
+   "item": "6.H",
+   "title": "District Pavement Crackfill & Striping",
+   "level": 2
+  },
+  {
+   "item": "6.I",
+   "title": "Troy Preschool Playground Pavillion Purchase/Installation",
+   "level": 2
+  },
+  {
+   "item": "6.J",
+   "title": "Schools of Choice 2025-26",
+   "level": 2
+  },
+  {
+   "item": "6.K",
+   "title": "First Student Contract Renewal",
+   "level": 2
+  },
+  {
+   "item": "6.L",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "CONSIDERATION: Administrative Appointment - Assistant Principal, Baker Middle School",
+   "level": 2
+  },
+  {
+   "item": "7.B",
+   "title": "CONSIDERATION: Administrative Appointment - Director, Teaching & Learning",
+   "level": 2
+  },
+  {
+   "item": "7.C",
+   "title": "CONSIDERATION: Administrative Appointment - Principal, Hamilton Elementary School",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Updated Writing Curriculum Adoption",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "CONSIDERATION: Smith Middle School EPIC System",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "13",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-09-02": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "EMPLOYEE SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Staffing Update",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Administration Building Renovation",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Elementary Soffit Replacement",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Hamilton & Wass Operable Wall Replacement",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "SUPERINTENDENT'S UPDATE",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Data Dashboard",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "AARC Recommendation",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Bond Update",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "MASB ALC 2025 Registration and TSD Board Reps for Delegate Assembly",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "NSBA Advocacy Institute 2026, Washington, DC February 1 - 3, 2026",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "NSBA 2026 Annual Conference, San Antonio, TX April 10 \u2013 12, 2026",
+   "level": 2
+  }
+ ],
+ "2025-09-16": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Student Representatives for Board Meetings",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "All-State Athletes Spring Sports 2025",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Mission Moment: Girl Botz Global Team of the Year Award",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "National Suicide Prevention Month",
+   "level": 2
+  },
+  {
+   "item": "2.F",
+   "title": "ASBO Awards",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the August 19, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Treasurer's Report - July 2025",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "REPORT: Staffing Update",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "CONSIDERATION: Elementary and Secondary",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Administration Building Renovation",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Elementary Soffit Replacement",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Hamilton & Wass Operable Wall Replacement",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "REPORT: Bond Showcase",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: TSD Board Reps to the MASB 2025 Delegate Assembly",
+   "level": 2
+  },
+  {
+   "item": "10.B",
+   "title": "CONSIDERATION: NSBA Advocacy Institute 2026, Washington, DC February 1 - 3, 2026",
+   "level": 2
+  },
+  {
+   "item": "10.C",
+   "title": "CONSIDERATION: NSBA 2026 Annual Conference, San Antonio, TX April 10 - 12, 2026",
+   "level": 2
+  },
+  {
+   "item": "10.D",
+   "title": "REPORT: AARC Recommendation",
+   "level": 2
+  },
+  {
+   "item": "10.E",
+   "title": "CONSIDERATION: Acceptance of AARC Recommendation",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-11-11": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Audit Presentation",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Transportation Study Review",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "iPad Purchases",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Garage Door Purchase \u2013 Troy High School",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Security and Technology Systems",
+   "level": 2
+  },
+  {
+   "item": "2.F",
+   "title": "Traffic Improvement \u2013 Smith MS",
+   "level": 2
+  },
+  {
+   "item": "2.G",
+   "title": "Series II Bond Authorization Resolution",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Student Achievement Data Review",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  }
+ ],
+ "2026-01-20": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Agenda Memo",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "ELECTION OF ACTING CHAIRPERSON",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Elect an acting chairperson who will conduct the meeting unitl the Organizational Meeting has been completed.",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "APPOINTMENT OF TEMPORARY SECRETARY",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Appoint Judy Holmes to act as temporary secretary until such time as the secretary to the Board has been elected.",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "ANNUAL ORGANIZATIONAL MEETING OF THE BOARD OF EDUCATION",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Nomination and Election of Officers - President",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Nomination and Election of Officers - Vice President",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Nomination and Election of Officers -Secretary",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Nomination and Election of Officers - Treasurer",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Establish Fund Depositories and Investment Resolution for 25/26 and 26/27",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Designation of Board and District Legal Counsel",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Designation of Superintendent to be Deputy Secretary",
+   "level": 2
+  },
+  {
+   "item": "4.H",
+   "title": "Designation of a Person for Posting Notices of Meetings",
+   "level": 2
+  },
+  {
+   "item": "4.I",
+   "title": "Meeting Schedule for 2026 Calendar Year",
+   "level": 2
+  },
+  {
+   "item": "4.J",
+   "title": "Board Committee Assignments for 2026",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "TSD Mission Moment: SSAB Executive Committee MLK Day of Service",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Board Recognition Month",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "Minutes of the December 9, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "Minutes of the December 16, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "Treasurer\u2019s Report \u2013 November 2025",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "Budget Amendment #1",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "Secondary Course Description Book",
+   "level": 2
+  },
+  {
+   "item": "8.F",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "CONSIDERATION: EXTENSION OF TESA CONTRACT",
+   "level": 2
+  },
+  {
+   "item": "9.B",
+   "title": "CONSIDERATION: EXTENSION OF TESPA CONTRACT",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "11.A",
+   "title": "CONSIDERATION: AHS & THS Main and Aux Gym Remodel",
+   "level": 2
+  },
+  {
+   "item": "11.B",
+   "title": "CONSIDERATION: Elementary Bathroom Renovations",
+   "level": 2
+  },
+  {
+   "item": "11.C",
+   "title": "CONSIDERATION: Resolution to Opt-In to Receive 31aa Funds",
+   "level": 2
+  },
+  {
+   "item": "12",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "12.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "13",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "14",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "15",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2026-04-21": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Troy School District\u2019s Outstanding Teachers \u2013 Award Winners",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Shamrock Shakedown",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Autism Acceptance Month",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the March 3, 2026, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the March 7, 2026, Board of Education Winter Retreat",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Minutes of the March 17, 2026, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Minutes of the March 17, 2026, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Minutes of the March 17, 2026, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Treasurer\u2019s Report \u2013 February 2026",
+   "level": 2
+  },
+  {
+   "item": "5.G",
+   "title": "Second Reading and Adoption of New/Revised Board Policies",
+   "level": 2
+  },
+  {
+   "item": "5.H",
+   "title": "E-Rate Voluntary Alternate 2",
+   "level": 2
+  },
+  {
+   "item": "5.I",
+   "title": "World Language Purchase - Spanish, French & German",
+   "level": 2
+  },
+  {
+   "item": "5.J",
+   "title": "Geometry Materials Purchase",
+   "level": 2
+  },
+  {
+   "item": "5.K",
+   "title": "SEAB Video \u2013 Elementary",
+   "level": 2
+  },
+  {
+   "item": "5.L",
+   "title": "Code of Conduct",
+   "level": 2
+  },
+  {
+   "item": "5.M",
+   "title": "Athletics Handbook",
+   "level": 2
+  },
+  {
+   "item": "5.N",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Boulan Park Renovation Project (Rec 2 of 2)",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: THS, Barnard, Bemis, Baker Renovation Projects",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-02-25": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "All-State Athletes Fall 2024",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: IA-East Capstone Experience - IB Middle Years Programme",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "TSD Mission Moment: SSAB Executive Committee MLK Day of Service",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the January 14, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the January 21, 2025, Organizational and Regular Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Treasurer\u2019s Report \u2013 December 2024",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Schools Closed to Open Enrollment",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Schools of Choice 105 & 105c",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Secondary Course Description Book",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Athletics Phase 2",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Moving Bid",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: District Network and WiFi Replacement",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: Epic PA, Bell, and Security System",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: Martell Cafeteria Tables",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: IDEA Full Funding Act Resolution",
+   "level": 2
+  },
+  {
+   "item": "10.B",
+   "title": "CONSIDERATION: 2025 MASB Board of Directors\u2019 Election \u2013 Region 8",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-11-18": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "National Blue-Ribbon - Wass Elementary School",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "MSPRA & NSPRA Awards",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the October 7, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the October 14, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer's Report - September 2025",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Garage Door Purchase \u2013 Troy High School",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "REPORT: Student Achievement Data Review",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "REPORT: 2024/2025 Audit",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: 2024/2025 Audit",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Series II Bond Authorization Resolution",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: iPad Purchases",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: Security and Technology Systems",
+   "level": 2
+  },
+  {
+   "item": "8.F",
+   "title": "CONSIDERATION: Traffic Improvement - Smith MS",
+   "level": 2
+  },
+  {
+   "item": "8.G",
+   "title": "CONSIDERATION: ELD Materials Purchase",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-01-21": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Agenda Memo",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "ELECTION OF ACTING CHAIRPERSON",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Elect an acting chairperson who will conduct the meeting unitl such time as a president has been elected.",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "APPOINTMENT OF TEMPORARY SECRETARY",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Appoint Judy Holmes to act as temporary secretary until such time as the secretary to the Board has been elected.",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "ANNUAL ORGANIZATIONAL MEETING OF THE BOARD OF EDUCATION",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Nomination and Election of Officers - President",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Nomination and Election of Officers - Vice President",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Nomination and Election of Officers -Secretary",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Appointment of Treasurer",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Establish Fund Depositories and Investment Resolution for 24/25 and 25/26",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Designation of Board and District Legal Counsel",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Designation of Superintendent to be Deputy Secretary",
+   "level": 2
+  },
+  {
+   "item": "4.H",
+   "title": "Designation of a Person for Posting Notices of Meetings",
+   "level": 2
+  },
+  {
+   "item": "4.I",
+   "title": "Meeting Schedule for 2025 Calendar Year",
+   "level": 2
+  },
+  {
+   "item": "4.J",
+   "title": "Board Committee Assignments for 2025",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "TSD Mission Moment: IA-East Capstone Experience IB Middle Years Programme",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Board Recognition Month",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "TURTLE WOODS UPDATE",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "Chris Bunch, Executive Director, Six Rivers Land Conservancy",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Minutes of the December 3, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "9.B",
+   "title": "Minutes of the December 17, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "9.C",
+   "title": "Treasurer\u2019s Report \u2013 November 2024",
+   "level": 2
+  },
+  {
+   "item": "9.D",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "12.A",
+   "title": "CONSIDERATION: Kitchen Server Project",
+   "level": 2
+  },
+  {
+   "item": "12.B",
+   "title": "CONSIDERATION: Site Work - Paving Projects",
+   "level": 2
+  },
+  {
+   "item": "12.C",
+   "title": "CONSIDERATION: Flooring Replacement and Polishing Project",
+   "level": 2
+  },
+  {
+   "item": "13",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "13.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "14",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "14.A",
+   "title": "REPORT: AARC Update",
+   "level": 2
+  },
+  {
+   "item": "15",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "16",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-12-16": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "TSD Mission Moment: Troy High Boys\u2019 Tennis Team",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the November 11, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the November 18, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer's Report - October 2025",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "AP French & Spanish Resources",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Schools of Choice 105 & 105C",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Administrative Appointment - Supervisor of Data & Research",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Food Service Equipment Purchase",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Electrical & Utility Gear Pre-purchase",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Roofing Replacement Project",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: Paving Replacement Project",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: Approval of Proposed OCSBA Resolutions",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-03-08": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Budget",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "General Fund Amendment Update",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Proposed 25/26 Expenditures and Revenues",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Budget Building Overview",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "OTHER",
+   "level": 1
+  }
+ ],
+ "2025-02-11": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "MTSS Update \u2013 NSK-12",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Secondary Course Description Book Update",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Athletics Phase 2",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Moving Bid",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "District Network and WiFi Replacement",
+   "level": 2
+  },
+  {
+   "item": "3.D",
+   "title": "Epic PA, Bell, and Security System",
+   "level": 2
+  },
+  {
+   "item": "3.E",
+   "title": "Martell Cafeteria Tables",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "SUPERINTENDENT'S UPDATE",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Discussion on Schools of Choice 105 & 105c",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "IDEA Full Funding Act",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "MASB Board of Directors\u2019 Elections \u2013 Region 8",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Board Communications/Recording Workshops",
+   "level": 2
+  }
+ ],
+ "2026-05-19": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Troy School District\u2019s Outstanding Support Staff \u2013 Award Winner",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "CAP Students Report",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Schools of Character",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Volunteer Appreciation",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Teacher Appreciation Week",
+   "level": 2
+  },
+  {
+   "item": "2.F",
+   "title": "Mental Health Awareness Month",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the April 7, 2026, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the April 7, 2026, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Minutes of the April 14, 2026, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Minutes of the April 21, 2026, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Minutes of the April 28, 2026, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Minutes of the April 28, 2026, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.G",
+   "title": "Minutes of the April 28, 2026, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.H",
+   "title": "Treasurer\u2019s Report \u2013 March 2026",
+   "level": 2
+  },
+  {
+   "item": "5.I",
+   "title": "Approve Oakland Intermediate School District Budget",
+   "level": 2
+  },
+  {
+   "item": "5.J",
+   "title": "Resolution to Hold a Public Hearing on the Proposed 2026/2027 School Year Budget",
+   "level": 2
+  },
+  {
+   "item": "5.K",
+   "title": "IA Budget Approval for 2026/2027 School Year",
+   "level": 2
+  },
+  {
+   "item": "5.L",
+   "title": "K-8 Literacy Pilots Purchase",
+   "level": 2
+  },
+  {
+   "item": "5.M",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Boulan Park Building Renovation Project \u2013 Rec 3 of 3",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Food Service & Operations Delivery Vehicle Purchase",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: Oakland Schools Biennial Election",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-04-16": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Troy School District\u2019s Outstanding Teachers \u2013 Award Winners",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Autism Acceptance Month",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Volunteer Appreciation",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the March 5, 2024, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the March 5, 2024, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Minutes of the March 5, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Minutes of the March 19, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Treasurer\u2019s Report \u2013 February 2024",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Ancillary Fund(s) Budget Amendment",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Smith Middle School Switchgear Package",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2024-05-21": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Troy School District\u2019s Outstanding Support Staff \u2013 Award Winner",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Troy School District Retirees",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Teacher Appreciation Week",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Mental Health Awareness Month 2024",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the April 2, 2024, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the April 16, 2024, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Treasurer\u2019s Report \u2013 March 2024",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Approve Oakland Intermediate School District Budget",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Resolution to Hold a Public Hearing on the Proposed 2024/2025 School Year Budget",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Food Service Contract",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "IA Budget Approval for 2024/2025 School Year",
+   "level": 2
+  },
+  {
+   "item": "4.H",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Finance Director",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Athens High School Assistant Principal",
+   "level": 2
+  },
+  {
+   "item": "6.C",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Wass Elementary School",
+   "level": 2
+  },
+  {
+   "item": "6.D",
+   "title": "CONSIDERATION: Elementary and Secondary",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "7.A",
+   "title": "CONSIDERATION: Algebra 1 Curriculum Adoption",
+   "level": 2
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Smith MS Ground Stabilization Improvements",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Wass Oven Purchase",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Epic Communication & Security Platform Leonard and Bemis",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: iPads for Freshmen",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: Athens & Troy High Stadium Scoreboards & Audio Systems",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "10.A",
+   "title": "CONSIDERATION: Oakland Schools Board of Education Election",
+   "level": 2
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-03-18": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "All-State Band & Orchestra Students",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Larson Student -2025 Oakland County Spelling Bee",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Student Spotlight",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the February 11, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the February 25, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Treasurer\u2019s Report \u2013 January 2025",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Budget Amendment #2",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Reschedule April 15, 2025 Board of Education Meeting to April 22, 2025",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Site Work and Signage \u2013 Smith MS",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Interior Painting Services",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Furniture Purchase (THS, Elementary Phase II)",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-05-20": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Troy School District\u2019s Outstanding Support Staff \u2013 Award Winner",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Troy School District Retirees",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Mission Moment: Athens Girls\u2019 Powerlifting Champs",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Legislative CAP Students Report to Board",
+   "level": 2
+  },
+  {
+   "item": "2.E",
+   "title": "Teacher Appreciation Week",
+   "level": 2
+  },
+  {
+   "item": "2.F",
+   "title": "Mental Health Awareness Month 2025",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Minutes of the April 1, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "Minutes of the April 22, 2025, Special Board Meeting & Closed Session",
+   "level": 2
+  },
+  {
+   "item": "4.C",
+   "title": "Minutes of the April 22, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "4.D",
+   "title": "Treasurer\u2019s Report \u2013 March 2025",
+   "level": 2
+  },
+  {
+   "item": "4.E",
+   "title": "Approve Oakland Intermediate School District Budget",
+   "level": 2
+  },
+  {
+   "item": "4.F",
+   "title": "Resolution to Hold a Public Hearing on the Proposed 2024/2025 School Year Budget",
+   "level": 2
+  },
+  {
+   "item": "4.G",
+   "title": "IA Budget Approval for 2025/2026 School Year",
+   "level": 2
+  },
+  {
+   "item": "4.H",
+   "title": "OCSBA Amendment to Bylaws",
+   "level": 2
+  },
+  {
+   "item": "4.I",
+   "title": "Troy High Kitchen Upgrades",
+   "level": 2
+  },
+  {
+   "item": "4.J",
+   "title": "Transportation Parking Lot Lighting",
+   "level": 2
+  },
+  {
+   "item": "4.K",
+   "title": "Beverage Cooler Replacement \u2013 Baker MS",
+   "level": 2
+  },
+  {
+   "item": "4.L",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Martell Elementary School Principal",
+   "level": 2
+  },
+  {
+   "item": "6.B",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Hill Elementary School Principal",
+   "level": 2
+  },
+  {
+   "item": "6.C",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Troy High School Assistant Principal",
+   "level": 2
+  },
+  {
+   "item": "6.D",
+   "title": "CONSIDERATION: Administrative Appointment \u2013 Special Education Supervisor",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2025-10-14": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "TSD Mission Moment: Apple Distinguished Schools Award",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Learning Disabilities Awareness Month",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "2025 Principals Appreciation Month",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "2026 National Merit Scholarship Semifinalists",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the September 2, 2025, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the September 16, 2025, Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Treasurer's Report - August 2025",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Second Reading & Adoption - Board Policy Revisions",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "6.A",
+   "title": "CONSIDERATION: Administrative Appointment - Director of Technology",
+   "level": 2
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "CONSIDERATION: Furniture \u2013 Administration Building",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Cafeteria Tables \u2013 Barnard",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Technology Upgrades & Access Control",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ],
+ "2026-02-24": [
+  {
+   "item": "1",
+   "title": "PLEDGE OF ALLEGIANCE",
+   "level": 1
+  },
+  {
+   "item": "2",
+   "title": "RECOGNITION",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "All-State Athletes Fall 2025",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "TSD Mission Moment: Schroeder Students\u2019 Persuasive Essays",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "ADDITIONS & DELETIONS",
+   "level": 1
+  },
+  {
+   "item": "4",
+   "title": "PUBLIC COMMUNICATION (AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "5",
+   "title": "GENERAL - CONSENT AGENDA",
+   "level": 1
+  },
+  {
+   "item": "5.A",
+   "title": "Minutes of the January 13, 2026, Special Board of Education Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.B",
+   "title": "Minutes of the January 13, 2026, Closed Session Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.C",
+   "title": "Minutes of the January 13, 2026, Board of Education Workshop",
+   "level": 2
+  },
+  {
+   "item": "5.D",
+   "title": "Minutes of the January 20, 2026, Board of Education Organizational & Regular Meeting",
+   "level": 2
+  },
+  {
+   "item": "5.E",
+   "title": "Treasurer\u2019s Report \u2013 December 2025",
+   "level": 2
+  },
+  {
+   "item": "5.F",
+   "title": "Resolution to Approve Consent Agenda Items",
+   "level": 2
+  },
+  {
+   "item": "6",
+   "title": "PERSONNEL",
+   "level": 1
+  },
+  {
+   "item": "7",
+   "title": "CURRICULUM",
+   "level": 1
+  },
+  {
+   "item": "8",
+   "title": "BUSINESS",
+   "level": 1
+  },
+  {
+   "item": "8.A",
+   "title": "REPORT: Countywide Enhancement Millage",
+   "level": 2
+  },
+  {
+   "item": "8.B",
+   "title": "CONSIDERATION: Countywide Enhancement Millage",
+   "level": 2
+  },
+  {
+   "item": "8.C",
+   "title": "CONSIDERATION: Flooring",
+   "level": 2
+  },
+  {
+   "item": "8.D",
+   "title": "CONSIDERATION: Abatement \u2013 Boulan Park Middle School",
+   "level": 2
+  },
+  {
+   "item": "8.E",
+   "title": "CONSIDERATION: Athens Auxiliary Parking Lot",
+   "level": 2
+  },
+  {
+   "item": "9",
+   "title": "PUBLIC COMMUNICATION (NON-AGENDA ITEMS)",
+   "level": 1
+  },
+  {
+   "item": "9.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "10",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "11",
+   "title": "ADJOURNMENT",
+   "level": 1
+  },
+  {
+   "item": "12",
+   "title": "Individuals with Disabilities Act Information",
+   "level": 1
+  }
+ ]
+}

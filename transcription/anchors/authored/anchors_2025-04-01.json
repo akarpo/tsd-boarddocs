@@ -1,11 +1,62 @@
 [
- {"t":"0:00:00","label":"Library & media program review"},
- {"t":"0:07:30","label":"International Academy enrollment"},
- {"t":"0:14:41","label":"Enrollment projection methodology"},
- {"t":"0:15:40","label":"2.b iPad purchase & technology update"},
- {"t":"0:29:22","label":"Transportation review"},
- {"t":"0:30:40","label":"Route logistics study (School Bus Logistics)"},
- {"t":"0:45:23","label":"Transportation scenarios & bell times"},
- {"t":"1:13:01","label":"Furniture & facilities items"},
- {"t":"1:29:13","label":"Board training follow-up"}
+ {
+  "t": "0:00:00",
+  "label": "Library & media program review"
+ },
+ {
+  "t": "0:07:30",
+  "label": "International Academy enrollment"
+ },
+ {
+  "t": "0:14:41",
+  "items": [
+   "2.A"
+  ],
+  "label": "Enrollment projection methodology"
+ },
+ {
+  "t": "0:15:40",
+  "items": [
+   "2.B"
+  ],
+  "label": "IPad purchase & technology update"
+ },
+ {
+  "t": "0:29:22",
+  "items": [
+   "2.C"
+  ],
+  "label": "Transportation review"
+ },
+ {
+  "t": "0:30:40",
+  "label": "Route logistics study (School Bus Logistics)",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:45:23",
+  "label": "Transportation scenarios & bell times",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:13:01",
+  "items": [
+   "2.D"
+  ],
+  "label": "Furniture & facilities items"
+ },
+ {
+  "t": "1:29:13",
+  "label": "Board training follow-up",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ }
 ]

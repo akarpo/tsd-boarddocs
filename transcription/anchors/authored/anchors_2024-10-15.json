@@ -1,14 +1,86 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:00:38","label":"Student Spotlight"},
- {"t":"0:10:51","label":"Mission Moment — Learning Disabilities Awareness"},
- {"t":"0:14:47","label":"Resolution — Principals Appreciation Month"},
- {"t":"0:17:32","label":"Recognition — 2024 NSPRA awards"},
- {"t":"0:21:14","label":"Recognition — 2025 National Merit semifinalists"},
- {"t":"0:27:50","label":"Consent agenda (items A through E)"},
- {"t":"0:30:42","label":"Personnel"},
- {"t":"0:38:26","label":"8.A/8.B Cafeteria table purchase — Leonard Elementary"},
- {"t":"0:42:02","label":"Public communication — non-agenda items"},
- {"t":"0:42:26","label":"Superintendent's report"},
- {"t":"1:01:14","label":"Board member comments"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:00:38",
+  "items": [
+   "2.A"
+  ],
+  "label": "Student Spotlight"
+ },
+ {
+  "t": "0:10:51",
+  "items": [
+   "2.B"
+  ],
+  "label": "Mission Moment \u2014 Learning Disabilities Awareness"
+ },
+ {
+  "t": "0:14:47",
+  "items": [
+   "2.C"
+  ],
+  "label": "Resolution \u2014 Principals Appreciation Month"
+ },
+ {
+  "t": "0:17:32",
+  "items": [
+   "2.D"
+  ],
+  "label": "Recognition \u2014 2024 NSPRA awards"
+ },
+ {
+  "t": "0:21:14",
+  "items": [
+   "2.E"
+  ],
+  "label": "Recognition \u2014 2025 National Merit semifinalists"
+ },
+ {
+  "t": "0:27:50",
+  "items": [
+   "5.F"
+  ],
+  "label": "Consent agenda (items A through E)"
+ },
+ {
+  "t": "0:30:42",
+  "items": [
+   "6"
+  ],
+  "label": "Personnel"
+ },
+ {
+  "t": "0:38:26",
+  "items": [
+   "8.B"
+  ],
+  "label": "Cafeteria table purchase \u2014 Leonard Elementary"
+ },
+ {
+  "t": "0:42:02",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "0:42:26",
+  "items": [
+   "10"
+  ],
+  "label": "Superintendent's report"
+ },
+ {
+  "t": "1:01:14",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ }
 ]

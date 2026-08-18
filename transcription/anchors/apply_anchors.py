@@ -10,6 +10,12 @@ sys_path_hack = None
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+# Transcript exports, agenda keyword sets and the anchor cache are bulk data
+# regenerable from D1, so they are NOT committed -- they live in a workdir.
+# Override with ANCHORS_DATA if you keep them elsewhere.
+import os as _os
+DATA = Path(_os.environ.get("ANCHORS_DATA")
+            or (Path(__file__).resolve().parent.parent.parent / "scratch" / "anchors-rebuild"))
 REPO = HERE.parent.parent
 
 def secs(t):
@@ -49,6 +55,9 @@ def main():
         if L.endswith("…"): errs.append(f"truncated label: {L}")
         if re.match(r"^\d+\.[a-z]\s+[A-Za-z]\.", L): errs.append(f"duplicated prefix: {L}")
         if re.match(r"^[a-z]", L): errs.append(f"lowercase (prose?) label: {L}")
+        if re.match(r"^\d{1,2}(\.[A-Za-z0-9]{1,3})?\s", L):
+            errs.append(f"authored label must not carry the number inline "
+                        f"(put it in `items`): {L}")
         if len(L) > 100: errs.append(f"label over 100 chars: {L[:40]}…")
     if errs:
         print("VALIDATION FAILED:"); [print("  -", e) for e in errs]; return 1
@@ -57,9 +66,16 @@ def main():
     for r in rows: print(f"   {r['t']:>8}  {r['label']}")
     if a.dry_run: return 0
 
+    # The authored file keeps `items` and a clean `label`; D1 stores them joined, so
+    # the site's chapter chips and the YouTube description both show the same
+    # numbering a viewer sees on BoardDocs.
+    for r in rows:
+        it = r.get("items") or []
+        r["_display"] = (f"{'/'.join(it)} " if it else "") + r["label"]
+
     esc = lambda s: s.replace("'", "''")
     d1(f"DELETE FROM transcript_anchors WHERE meeting_date='{a.date}' AND meeting_name='{esc(name)}'")
-    vals = ",".join(f"('{a.date}','{esc(name)}',{secs(r['t'])*1000},'{esc(r['label'])}')" for r in rows)
+    vals = ",".join(f"('{a.date}','{esc(name)}',{secs(r['t'])*1000},'{esc(r['_display'])}')" for r in rows)
     d1(f"INSERT INTO transcript_anchors (meeting_date,meeting_name,start_ms,label) VALUES {vals}")
     n = d1(f"SELECT COUNT(*) n FROM transcript_anchors WHERE meeting_date='{a.date}'")[0]["n"]
     print(f"written: {n} anchors now in D1")
@@ -69,19 +85,22 @@ def main():
     # took it up -- which is a claim about the transcript, so check it against the
     # transcript. This caught a roof-replacement item and a traffic-signal item
     # that had been hand-authored out of two meetings.
-    json.dump([{"start_ms": secs(r["t"])*1000, "label": r["label"]} for r in rows],
-              open(HERE / f"cur_{a.date}.json", "w"))
+    json.dump([{"start_ms": secs(r["t"])*1000, "label": r["label"],
+                "items": r.get("items", [])} for r in rows],
+              open(DATA / f"cur_{a.date}.json", "w"))
+    # Gate on the published BoardDocs outline, not on `chunks`: chunks only knows
+    # items that carry an attachment, and its numbering disagrees with the outline.
     try:
-        import coverage
-        miss = [r for r in coverage.check(a.date) if r[1] == "DISCUSSED" and not r[4]]
-        if miss:
-            print("  COVERAGE GAPS — discussed but not anchored:")
-            for item, verdict, where, n_, cov, title in miss:
-                print(f"    {item:<7} at {where}  {title}")
+        import qa_numbers
+        probs = qa_numbers.check(a.date)
+        if probs:
+            print(f"  QA: {len(probs)} to review")
+            for k, t, msg in probs[:6]:
+                print(f"    {k:<9} {t:>8}  {msg}")
         else:
-            print("  coverage: every discussed agenda item is anchored")
+            print("  QA: numbering valid, every discussed item has a chapter")
     except Exception as e:                                   # noqa: BLE001
-        print(f"  (coverage check unavailable: {type(e).__name__})")
+        print(f"  (QA unavailable: {type(e).__name__}: {e})")
 
     # queue the YouTube description rebuild; it costs API quota, D1 does not
     q = HERE / "pending_push.json"

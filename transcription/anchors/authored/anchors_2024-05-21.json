@@ -1,16 +1,100 @@
 [
- {"t":"0:00:00","label":"Call to order"},
- {"t":"0:00:55","label":"Recognition — Outstanding Support Staff Award"},
- {"t":"0:11:49","label":"Recognition — retirees"},
- {"t":"0:19:48","label":"Resolution — Teacher Appreciation Week"},
- {"t":"0:23:24","label":"Student representative reports"},
- {"t":"0:35:07","label":"Resolution — Mental Health Awareness Month"},
- {"t":"0:37:08","label":"Public communication"},
- {"t":"0:41:27","label":"8.B Wass Elementary serving line"},
- {"t":"0:43:01","label":"Personnel — special education hires"},
- {"t":"0:45:35","label":"Curriculum — 2024 Algebra 1 adoption"},
- {"t":"0:57:48","label":"8.A Smith ground improvements (RFP 2324-21, BP#3E)"},
- {"t":"1:01:07","label":"8.C EPIC system purchase"},
- {"t":"1:04:33","label":"8.D iPad purchase"},
- {"t":"1:06:17","label":"8.E Stadium scoreboards"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order"
+ },
+ {
+  "t": "0:00:55",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 Outstanding Support Staff Award"
+ },
+ {
+  "t": "0:11:49",
+  "items": [
+   "2.B"
+  ],
+  "label": "Recognition \u2014 retirees"
+ },
+ {
+  "t": "0:19:48",
+  "items": [
+   "2.C"
+  ],
+  "label": "Resolution \u2014 Teacher Appreciation Week"
+ },
+ {
+  "t": "0:23:24",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "0:35:07",
+  "items": [
+   "2.E"
+  ],
+  "label": "Resolution \u2014 Mental Health Awareness Month"
+ },
+ {
+  "t": "0:37:08",
+  "items": [
+   "3"
+  ],
+  "label": "Public communication"
+ },
+ {
+  "t": "0:41:27",
+  "items": [
+   "6.C"
+  ],
+  "label": "Wass Elementary serving line"
+ },
+ {
+  "t": "0:43:01",
+  "items": [
+   "6"
+  ],
+  "label": "Personnel \u2014 special education hires"
+ },
+ {
+  "t": "0:45:35",
+  "items": [
+   "7.A"
+  ],
+  "label": "Curriculum \u2014 2024 Algebra 1 adoption"
+ },
+ {
+  "t": "0:57:48",
+  "items": [
+   "8.A"
+  ],
+  "label": "Smith ground improvements (RFP 2324-21, BP#3E)"
+ },
+ {
+  "t": "1:01:07",
+  "items": [
+   "8.B"
+  ],
+  "label": "EPIC system purchase"
+ },
+ {
+  "t": "1:04:33",
+  "items": [
+   "8.D"
+  ],
+  "label": "IPad purchase"
+ },
+ {
+  "t": "1:06:17",
+  "items": [
+   "8.E"
+  ],
+  "label": "Stadium scoreboards"
+ }
 ]

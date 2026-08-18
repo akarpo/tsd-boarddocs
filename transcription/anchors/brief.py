@@ -11,6 +11,12 @@ distinctive words.
 import json, re, sys
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
+# Transcript exports, agenda keyword sets and the anchor cache are bulk data
+# regenerable from D1, so they are NOT committed -- they live in a workdir.
+# Override with ANCHORS_DATA if you keep them elsewhere.
+import os as _os
+DATA = Path(_os.environ.get("ANCHORS_DATA")
+            or (Path(__file__).resolve().parent.parent.parent / "scratch" / "anchors-rebuild"))
 sys.path.insert(0, str(HERE))
 from digest import digest            # noqa: E402
 
@@ -26,7 +32,7 @@ def hms(ms):
 def main():
     date = sys.argv[1]
     full = "--full" in sys.argv
-    ag = json.load(open(HERE/"agendas.json")).get(date, {})
+    ag = json.load(open(DATA/"agendas.json")).get(date, {})
     print(f"===== {date}  {ag.get('name','?')} =====\n")
     print("--- authoritative agenda ---")
     seen = set()
@@ -36,9 +42,9 @@ def main():
         seen.add(k)
         print(f"  {d['item']:<7} {d['title'][:78]}")
     print("\n--- anchors currently in D1 ---")
-    for a in json.load(open(HERE/f"cur_{date}.json")):
+    for a in json.load(open(DATA/f"cur_{date}.json")):
         print(f"  {hms(a['start_ms']):>8}  {a['label']}")
-    utts = json.load(open(HERE/f"utts_{date}.json"))
+    utts = json.load(open(DATA/f"utts_{date}.json"))
     # keywords: each agenda item's distinctive words
     kw = {}
     for d in ag.get("agenda", []):

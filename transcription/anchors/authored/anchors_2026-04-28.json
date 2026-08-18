@@ -1,15 +1,94 @@
 [
- {"t":"0:00:00","label":"Call to order · public communication"},
- {"t":"0:05:13","label":"2.a Boulan Park Middle School renovation (Bid Package 7)"},
- {"t":"0:09:39","label":"2.b Operations vehicle replacement"},
- {"t":"0:14:01","label":"Teaching & Learning — K-8 literacy review"},
- {"t":"0:16:46","label":"Elementary reading review rubric"},
- {"t":"0:41:26","label":"K-8 literacy vision statement"},
- {"t":"0:43:42","label":"Curriculum review rubric"},
- {"t":"1:26:17","label":"Middle school literacy pilot data"},
- {"t":"1:43:02","label":"Public communication"},
- {"t":"2:36:21","label":"English course pathways & supplanted classes"},
- {"t":"2:57:12","label":"Strategic planning — facilitator engagement"},
- {"t":"3:10:07","label":"Board book read discussion"},
- {"t":"3:18:12","label":"Wrap-up & next meeting"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 public communication"
+ },
+ {
+  "t": "0:05:13",
+  "items": [
+   "2.A"
+  ],
+  "label": "Boulan Park Middle School renovation (Bid Package 7)"
+ },
+ {
+  "t": "0:09:39",
+  "items": [
+   "2.B"
+  ],
+  "label": "Operations vehicle replacement"
+ },
+ {
+  "t": "0:14:01",
+  "items": [
+   "3"
+  ],
+  "label": "Teaching & Learning \u2014 K-8 literacy review"
+ },
+ {
+  "t": "0:16:46",
+  "label": "Elementary reading review rubric",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:41:26",
+  "label": "K-8 literacy vision statement",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:43:42",
+  "label": "Curriculum review rubric",
+  "items": [
+   "3"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "1:26:17",
+  "items": [
+   "3.B"
+  ],
+  "label": "Middle school literacy pilot data"
+ },
+ {
+  "t": "1:43:02",
+  "items": [
+   "1"
+  ],
+  "label": "Public communication"
+ },
+ {
+  "t": "2:36:21",
+  "label": "English course pathways & supplanted classes",
+  "items": [
+   "1"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "2:57:12",
+  "items": [
+   "4.A"
+  ],
+  "label": "Strategic planning \u2014 facilitator engagement"
+ },
+ {
+  "t": "3:10:07",
+  "items": [
+   "3.A"
+  ],
+  "label": "Board book read discussion"
+ },
+ {
+  "t": "3:18:12",
+  "label": "Wrap-up & next meeting"
+ }
 ]

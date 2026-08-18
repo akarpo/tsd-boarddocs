@@ -1,16 +1,100 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:00:42","label":"Recognition — all-state athletes"},
- {"t":"0:07:03","label":"Mission Moment — Schroeder student essay"},
- {"t":"0:22:45","label":"Public communication on agenda items"},
- {"t":"0:26:12","label":"Consent agenda (items A through E)"},
- {"t":"0:27:36","label":"8.A/8.B Countywide enhancement millage resolution"},
- {"t":"0:44:31","label":"8.C Flooring replacement (RFP 2526-15)"},
- {"t":"0:46:37","label":"8.D Boulan Park asbestos abatement (RFP 2526-20)"},
- {"t":"0:48:32","label":"8.E Athens front auxiliary parking lot (RFP 2526-23)"},
- {"t":"0:51:23","label":"Public communication — non-agenda items"},
- {"t":"1:00:41","label":"Student representative reports"},
- {"t":"1:14:27","label":"Board member comments"},
- {"t":"1:23:34","label":"President's remarks"},
- {"t":"1:25:39","label":"Adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:00:42",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 all-state athletes"
+ },
+ {
+  "t": "0:07:03",
+  "items": [
+   "2.B"
+  ],
+  "label": "Mission Moment \u2014 Schroeder student essay"
+ },
+ {
+  "t": "0:22:45",
+  "items": [
+   "4"
+  ],
+  "label": "Public communication on agenda items"
+ },
+ {
+  "t": "0:26:12",
+  "items": [
+   "5.F"
+  ],
+  "label": "Consent agenda (items A through E)"
+ },
+ {
+  "t": "0:27:36",
+  "items": [
+   "8.B"
+  ],
+  "label": "Countywide enhancement millage resolution"
+ },
+ {
+  "t": "0:44:31",
+  "items": [
+   "8.C"
+  ],
+  "label": "Flooring replacement (RFP 2526-15)"
+ },
+ {
+  "t": "0:46:37",
+  "items": [
+   "8.D"
+  ],
+  "label": "Boulan Park asbestos abatement (RFP 2526-20)"
+ },
+ {
+  "t": "0:48:32",
+  "items": [
+   "8.E"
+  ],
+  "label": "Athens front auxiliary parking lot (RFP 2526-23)"
+ },
+ {
+  "t": "0:51:23",
+  "items": [
+   "9"
+  ],
+  "label": "Public communication \u2014 non-agenda items"
+ },
+ {
+  "t": "1:00:41",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "1:14:27",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "1:23:34",
+  "items": [
+   "10"
+  ],
+  "label": "President's remarks"
+ },
+ {
+  "t": "1:25:39",
+  "items": [
+   "11"
+  ],
+  "label": "Adjournment"
+ }
 ]

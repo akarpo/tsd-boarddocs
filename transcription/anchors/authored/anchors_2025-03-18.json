@@ -1,14 +1,87 @@
 [
- {"t":"0:00:00","label":"Call to order · Pledge of Allegiance"},
- {"t":"0:02:53","label":"Recognition — Michigan All-State Bands & Orchestras"},
- {"t":"0:08:02","label":"Larson Middle School principal introduction"},
- {"t":"0:16:36","label":"Student Spotlight — podcast"},
- {"t":"0:25:41","label":"Consent agenda (incl. 5.H budget amendment)"},
- {"t":"0:26:58","label":"8.A Smith Middle School award (Bid Package 3G)"},
- {"t":"0:30:45","label":"8.B Interior painting services (RFP 2425-14)"},
- {"t":"0:32:14","label":"8.C Furniture purchase — phase 2"},
- {"t":"0:34:55","label":"Public communication"},
- {"t":"0:38:50","label":"Student representative reports"},
- {"t":"0:48:25","label":"Board member comments"},
- {"t":"0:58:37","label":"President's remarks & adjournment"}
+ {
+  "t": "0:00:00",
+  "items": [
+   "1"
+  ],
+  "label": "Call to order \u00b7 Pledge of Allegiance"
+ },
+ {
+  "t": "0:02:53",
+  "items": [
+   "2.A"
+  ],
+  "label": "Recognition \u2014 Michigan All-State Bands & Orchestras"
+ },
+ {
+  "t": "0:08:02",
+  "label": "Larson Middle School principal introduction",
+  "items": [
+   "2"
+  ],
+  "_inherited": true
+ },
+ {
+  "t": "0:16:36",
+  "items": [
+   "2.C"
+  ],
+  "label": "Student Spotlight \u2014 podcast"
+ },
+ {
+  "t": "0:25:41",
+  "items": [
+   "4.F"
+  ],
+  "label": "Consent agenda (incl. 5.H budget amendment)"
+ },
+ {
+  "t": "0:26:58",
+  "items": [
+   "8.A"
+  ],
+  "label": "Smith Middle School award (Bid Package 3G)"
+ },
+ {
+  "t": "0:30:45",
+  "items": [
+   "8.B"
+  ],
+  "label": "Interior painting services (RFP 2425-14)"
+ },
+ {
+  "t": "0:32:14",
+  "items": [
+   "8.C"
+  ],
+  "label": "Furniture purchase \u2014 phase 2"
+ },
+ {
+  "t": "0:34:55",
+  "items": [
+   "3"
+  ],
+  "label": "Public communication"
+ },
+ {
+  "t": "0:38:50",
+  "items": [
+   "10"
+  ],
+  "label": "Student representative reports"
+ },
+ {
+  "t": "0:48:25",
+  "items": [
+   "10"
+  ],
+  "label": "Board member comments"
+ },
+ {
+  "t": "0:58:37",
+  "items": [
+   "11"
+  ],
+  "label": "President's remarks & adjournment"
+ }
 ]
