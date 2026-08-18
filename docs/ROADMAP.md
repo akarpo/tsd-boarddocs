@@ -29,18 +29,24 @@ Both backlogs exist because the corrections outran the API, not because anything
 
 | outstanding | count | command |
 |---|---|---|
-| Descriptions to rebuild from current D1 anchors | **21** | `python3 transcription/anchors/push_pending.py` |
+| Descriptions to rebuild from current D1 anchors | **41 (all of them)** | `python3 transcription/anchors/push_pending.py` |
 | Thumbnails still showing the crest smear | **10** | `nohup python3 transcription/set_thumbnails.py --daemon >/dev/null 2>&1 &` |
+
+It is all 41, not the 21 an earlier version of this item said: every chapter label changed when
+the agenda numbering was added on 2026-08-18, so every description needs regenerating from D1.
+Cost is ~2,550 units against the 10,000/day ceiling, so both fit in a single window.
 
 `--check` / `--list` on either reports state without changing anything. Both are resumable and
 save progress after every success, so a reboot costs nothing. A detached job armed 2026-08-18
-(`scratch/anchors-rebuild/finish_youtube.py`) drains both after the 03:34 EDT reset, but it does
-**not** survive a restart — if the Mac rebooted, just run the two commands.
+(`scratch/anchors-rebuild/finish_youtube.py`, drains descriptions then thumbnails) fires after
+the 03:34 EDT reset, but it does **not** survive a restart — if the Mac rebooted, run the two
+commands. `scratch/anchors-rebuild/pending_push.json` is a symlink to the committed queue, so
+the armed job and the committed tool cannot report different backlogs.
 
 Two limits, and they are different things:
 
 - **Daily quota, 10,000 units.** `videos.update` and `thumbnails.set` are 50 each. Resets
-  midnight Pacific. This is what is blocking the 21 descriptions.
+  midnight Pacific. This is what is blocking the 41 descriptions.
 - **A rolling per-user cap on `thumbnails.set`**, separate from the quota and far longer-lived:
   ~100 sets on 2026-08-17 exhausted it and it still refused 20 hours later, in a run where
   playlist writes succeeded 5/5. **Failed attempts count against it**, so retrying hard makes it
@@ -49,11 +55,15 @@ Two limits, and they are different things:
 
 **Done, for the record — do not redo any of this.** All 41 meetings' agenda anchors were
 re-authored (540 anchors, up from 422; zero prose, truncated or duplicate-prefix labels; zero
-discussed-but-unanchored items — see `transcription/anchors/`). All 75 board-video descriptions
-carry the searchable-transcript link. The four year playlists are complete (2023: 11, 2024: 19,
-2025: 20, 2026: 12 = 62). Eleven redundant uploads were **permanently deleted** on 2026-08-18
-(YouTube has no undo) — the two-part halves of the 2025-01-14, 2025-02-11, 2025-06-03 and
-2025-11-11 workshops, a duplicate 2025-03-08 retreat plus the sibling stuck in
+discussed-but-unanchored items) and then **numbered from the published BoardDocs outline** —
+518 of 540 carry their agenda number, the 22 without being Call to Order / Adjournment on
+workshop agendas that have no such item. Numbering QA is clean: 0 EXISTS, 0 UNIQUE, 0 SEMANTIC
+across the corpus. `chunks.agenda_item` is **not** the authority here — it only exists for items
+with an attachment and its scheme disagrees with the outline (2026-01-13's purchase items are
+4.a/4.b/4.c there, 3.A/3.B/3.C on BoardDocs). The four year playlists are complete (2023: 11,
+2024: 19, 2025: 20, 2026: 12 = 62). Eleven redundant uploads were **permanently deleted** on
+2026-08-18 (YouTube has no undo) — the two-part halves of the 2025-01-14, 2025-02-11, 2025-06-03
+and 2025-11-11 workshops, a duplicate 2025-03-08 retreat plus the sibling stuck in
 `processingStatus`, and `vptCAUB52ZQ`; `transcription/deleted_videos.json` is the only surviving
 record of what they were.
 
@@ -63,7 +73,7 @@ record of what they were.
 python3 transcription/thumbnails.py --audit          # only the 2 candidate forums
                                                      # + 1 advocacy clip may read WRONG;
                                                      # those are deliberately left alone
-python3 transcription/anchors/coverage.py --all      # must print 0 unanchored items
+python3 transcription/anchors/qa_numbers.py          # 0 EXISTS / UNIQUE / SEMANTIC
 ```
 
 ### Decide whether the SMS layer is worth its cost
