@@ -23,38 +23,48 @@ work, not loose ends.
 
 ## Now
 
-### Finish the last 11 crest thumbnails
-**Blocked on a YouTube rate limit, not on any decision.** The four year playlists are complete
-(2023: 11, 2024: 19, 2025: 20, 2026: 12 = 62 videos). **10 thumbnails still show the crest
-smear** that `thumbnails.py` was fixed for — nine Workshops plus 2026-07-22; everything else on
-the channel is clean.
+### Drain the YouTube backlog (thumbnails + descriptions)
+**Blocked only on YouTube's daily quota — no decision needed, nothing to design.**
+Both backlogs exist because the corrections outran the API, not because anything is unresolved.
 
-`thumbnails.set` enforces a rolling per-user cap that is **separate from the daily quota and
-far longer-lived**. Roughly 100 sets on 2026-08-17 exhausted it; it was still refusing 20 hours
-later, in a run where playlist writes succeeded 5/5. Failed attempts appear to count against
-the cap too, so retrying hard makes it worse: 65 retries over 80 minutes recovered nothing.
+| outstanding | count | command |
+|---|---|---|
+| Descriptions to rebuild from current D1 anchors | **21** | `python3 transcription/anchors/push_pending.py` |
+| Thumbnails still showing the crest smear | **10** | `nohup python3 transcription/set_thumbnails.py --daemon >/dev/null 2>&1 &` |
 
-Resume with the drip — one attempt at a time, an hour of silence per 429, progress saved after
-every success so a reboot costs nothing:
+`--check` / `--list` on either reports state without changing anything. Both are resumable and
+save progress after every success, so a reboot costs nothing. A detached job armed 2026-08-18
+(`scratch/anchors-rebuild/finish_youtube.py`) drains both after the 03:34 EDT reset, but it does
+**not** survive a restart — if the Mac rebooted, just run the two commands.
+
+Two limits, and they are different things:
+
+- **Daily quota, 10,000 units.** `videos.update` and `thumbnails.set` are 50 each. Resets
+  midnight Pacific. This is what is blocking the 21 descriptions.
+- **A rolling per-user cap on `thumbnails.set`**, separate from the quota and far longer-lived:
+  ~100 sets on 2026-08-17 exhausted it and it still refused 20 hours later, in a run where
+  playlist writes succeeded 5/5. **Failed attempts count against it**, so retrying hard makes it
+  worse — 65 retries over 80 minutes recovered nothing. Hence the one-at-a-time drip with an
+  hour of silence per 429.
+
+**Done, for the record — do not redo any of this.** All 41 meetings' agenda anchors were
+re-authored (540 anchors, up from 422; zero prose, truncated or duplicate-prefix labels; zero
+discussed-but-unanchored items — see `transcription/anchors/`). All 75 board-video descriptions
+carry the searchable-transcript link. The four year playlists are complete (2023: 11, 2024: 19,
+2025: 20, 2026: 12 = 62). Eleven redundant uploads were **permanently deleted** on 2026-08-18
+(YouTube has no undo) — the two-part halves of the 2025-01-14, 2025-02-11, 2025-06-03 and
+2025-11-11 workshops, a duplicate 2025-03-08 retreat plus the sibling stuck in
+`processingStatus`, and `vptCAUB52ZQ`; `transcription/deleted_videos.json` is the only surviving
+record of what they were.
+
+**When the two commands report empty, verify and close this item:**
 
 ```
-python3 transcription/set_thumbnails.py --check     # what is left
-nohup python3 transcription/set_thumbnails.py --daemon >/dev/null 2>&1 &
+python3 transcription/thumbnails.py --audit          # only the 2 candidate forums
+                                                     # + 1 advocacy clip may read WRONG;
+                                                     # those are deliberately left alone
+python3 transcription/anchors/coverage.py --all      # must print 0 unanchored items
 ```
-
-It regenerates each card from `assets/tsd_card_base.jpg` + `thumbnails_manifest.json`, so it
-needs nothing outside the repo. `thumbnails_pending.json` shrinks as they land; when it is
-empty this item is done. Verify with `transcription/thumbnails.py --audit`; the only board
-videos that should ever read `WRONG` are two Meet-the-Candidates forums and one advocacy clip,
-which are deliberately left alone because a "REGULAR MEETING" card would misdescribe them.
-
-On 2026-08-18 eleven redundant uploads were **permanently deleted** (YouTube has no undo):
-the two-part halves of the 2025-01-14, 2025-02-11, 2025-06-03 and 2025-11-11 workshops, now
-that a single combined upload carries each one; a duplicate copy of the 2025-03-08 retreat and
-its sibling stuck in `processingStatus: processing`; and `vptCAUB52ZQ`, a 259m cut of
-2025-06-03 with 523 views that was 15 minutes longer than the version D1 points at.
-`transcription/deleted_videos.json` is the only surviving record of what they were. Every
-affected date now has exactly one upload, and no `recordings` row was orphaned.
 
 ### Decide whether the SMS layer is worth its cost
 **Raised 2026-08-11 and not yet answered.** The honest question is whether phone verification
