@@ -23,6 +23,32 @@ work, not loose ends.
 
 ## Now
 
+### Finish the last 11 crest thumbnails
+**Blocked on a YouTube rate limit, not on any decision.** 62 of 62 cards are built and
+validated and the four year playlists are complete (2023: 11, 2024: 19, 2025: 20, 2026: 12).
+51 of the 62 thumbnails are live and clean. The remaining **11 still show the crest smear**
+that `thumbnails.py` was fixed for — ten Workshops plus 2026-07-22.
+
+`thumbnails.set` enforces a rolling per-user cap that is **separate from the daily quota and
+far longer-lived**. Roughly 100 sets on 2026-08-17 exhausted it; it was still refusing 20 hours
+later, in a run where playlist writes succeeded 5/5. Failed attempts appear to count against
+the cap too, so retrying hard makes it worse: 65 retries over 80 minutes recovered nothing.
+
+Resume with the drip — one attempt at a time, an hour of silence per 429, progress saved after
+every success so a reboot costs nothing:
+
+```
+python3 transcription/set_thumbnails.py --check     # what is left
+nohup python3 transcription/set_thumbnails.py --daemon >/dev/null 2>&1 &
+```
+
+It regenerates each card from `assets/tsd_card_base.jpg` + `thumbnails_manifest.json`, so it
+needs nothing outside the repo. `thumbnails_pending.json` shrinks as they land; when it is
+empty this item is done. Verify with `transcription/thumbnails.py --audit` — 82 of 86 board
+videos should read `ok` (the other four are two candidate forums, an advocacy clip, and
+`_ZMz5-A7Pl4`, an upload stuck in `processingStatus: processing` since 2025-03-08 that can
+never take a thumbnail and is worth deleting and re-uploading).
+
 ### Decide whether the SMS layer is worth its cost
 **Raised 2026-08-11 and not yet answered.** The honest question is whether phone verification
 earns its keep, and it splits in two:
