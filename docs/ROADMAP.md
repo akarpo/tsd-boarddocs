@@ -61,9 +61,13 @@ failure worth avoiding is not a bounced text but the A2P registration lapsing fo
 dollars, after the work it took to get approved.
 
 ### Finish the re-summarization campaign
-`packets` at **79/151**; the other four campaigns are complete (fanout 26/26, remainder 76/76,
-wave2 121/121, orphans 4/4). Years 2016–2026 are done; **2010–2015 remain**, next up `pk_079`.
-Method, ordering rules and the figure-validation traps: [RESUMMARIZE.md](RESUMMARIZE.md).
+`packets` at **125/151**; the other four campaigns are complete (fanout 26/26, remainder 76/76,
+wave2 121/121, orphans 4/4). Years 2012–2026 are done; **2010–2011 remain** — 26 batches / 91
+agents — next up `pk_017` (2011-03-01), ascending within the year.
+
+Size the wave that reaches `pk_021` around its seven sections rather than off the preceding
+wave's rate; section count within a wave, not split count, is what moves the price. Method,
+ordering rules and the figure-validation traps: [RESUMMARIZE.md](RESUMMARIZE.md).
 
 ---
 
