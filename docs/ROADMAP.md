@@ -4,7 +4,7 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-08-13**.
+Last reviewed **2026-08-18**.
 
 ---
 
@@ -36,12 +36,22 @@ It is all 41, not the 21 an earlier version of this item said: every chapter lab
 the agenda numbering was added on 2026-08-18, so every description needs regenerating from D1.
 Cost is ~2,550 units against the 10,000/day ceiling, so both fit in a single window.
 
-`--check` / `--list` on either reports state without changing anything. Both are resumable and
-save progress after every success, so a reboot costs nothing. A detached job armed 2026-08-18
-(`scratch/anchors-rebuild/finish_youtube.py`, drains descriptions then thumbnails) fires after
-the 03:34 EDT reset, but it does **not** survive a restart — if the Mac rebooted, run the two
-commands. `scratch/anchors-rebuild/pending_push.json` is a symlink to the committed queue, so
-the armed job and the committed tool cannot report different backlogs.
+**`--list` reports state; `--check` does not exist and is not read-only.** Neither script
+defines it, so `push_pending.py --check` falls through to the drain path and pushes the whole
+queue for real — it only *looked* like a status flag on 2026-08-18 because the quota was
+exhausted and the first call failed. Use `--list`. Both scripts are resumable and save progress
+after every success, so an interrupted run costs nothing.
+`scratch/anchors-rebuild/pending_push.json` is a symlink to the committed queue, so the armed
+job and the committed tool cannot report different backlogs.
+
+**The armed job dies with the machine, and that has now happened twice.**
+`scratch/anchors-rebuild/finish_youtube.py` (drains descriptions, then thumbnails) waits for the
+03:34 EDT reset in memory — nothing on disk, no launchd job. The Mac rebooted at ~14:42 EDT on
+2026-08-18 while it was waiting, and the separate thumbnail drip died with it; neither left a
+trace beyond a log that simply stops. **Check `uptime` against the tail of
+`finish_youtube.log` before assuming the drain is armed** — a log that ends mid-countdown means
+it is not. Re-arm with `nohup python3 scratch/anchors-rebuild/finish_youtube.py &`, plus
+`caffeinate -imsu -t 50400` or the Mac sleeps through the window. Re-armed 2026-08-18 14:52 EDT.
 
 Two limits, and they are different things:
 
