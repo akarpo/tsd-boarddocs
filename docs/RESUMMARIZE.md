@@ -58,6 +58,32 @@ npx wrangler d1 execute tsd-boarddocs --remote --json \
 The column is **`verbose`**, not `summary_verbose`; the table is
 `summaries(url TEXT PRIMARY KEY, paragraph, page, verbose, updated)`.
 
+Use `--command`. The `--file` form returns *execution statistics* — "Total queries
+executed", "Rows read" — and not the result rows, so a read-back written that way
+greps for its own column names, finds nothing, and reads as a transient failure.
+
+#### The length check is a write-landed check, not a content check
+
+Comparing local and live `verbose` lengths proves a write reached D1. It does not
+prove *which* text arrived, and on 2026-08-18 that distinction nearly mattered.
+pk_035's paragraph called a regular meeting a special one; the fix replaced
+`special` with `regular` — same seven characters — so the read-back returned
+14475 = 14475 and would have reported OK whether or not the corrected row ever
+landed. The batch also validated 61/61 exact before *and* after, because a word is
+not a figure.
+
+For a length-neutral edit, verify the content itself:
+
+```bash
+npx wrangler d1 execute tsd-boarddocs --remote --json --command \
+  "SELECT instr(paragraph,'special meeting') AS stale,
+          instr(paragraph,'regular meeting') AS fixed
+   FROM summaries WHERE url LIKE '%071012RegMtg.pdf'"
+```
+
+Every other check in this pipeline degrades gracefully when it cannot see
+something. This one degrades into a tautology, and it does so silently.
+
 ## The two rules that make it safe
 
 **1. Agents may not do arithmetic.** The prompt forbids writing any number that
@@ -279,7 +305,7 @@ v0.8.9 changelog entry.
 
 ## Campaigns
 
-Status as of 2026-08-17 (evening):
+Status as of 2026-08-18:
 
 | campaign | scope | batches | status |
 |---|---|---|---|
@@ -287,16 +313,16 @@ Status as of 2026-08-17 (evening):
 | `wave2` | second hand-staged pass | 121 | **complete** |
 | `orphans` | 2024 documents dropped during `fanout` staging | 4 | **complete** |
 | `remainder` | 2021-2026 | 76 | **complete** |
-| `packets` | 2010-2020 packet era | 151 | **116 done, 35 pending** |
+| `packets` | 2010-2020 packet era | 151 | **125 done, 26 pending** |
 
-**Every year from 2013 onward is complete.** Coverage by year, reconciled across
+**Every year from 2012 onward is complete.** Coverage by year, reconciled across
 *all five* manifests rather than any single campaign's done-count:
 
 | year | done/total | campaign(s) |
 |---|---|---|
-| 2013-2026 | **complete** | `packets` (2013-2020) + the four finished campaigns |
-| 2012 | 6/13 | `packets` |
-| 2010-2011 | 0/28 | `packets` |
+| 2012-2026 | **complete** | `packets` (2012-2020) + the four finished campaigns |
+| 2011 | 2/13 | `packets` |
+| 2010 | 0/15 | `packets` |
 
 The one-line check, which is the only tally worth trusting:
 
@@ -322,17 +348,17 @@ its folder says 2019-01-01. Batch ids were assigned off the *repaired* dates and
 correctly chronological, but any tally computed from the url path is not: doing that
 put ten 2018 meetings in 2019 and reported 2019 complete when six batches remained.
 
-Remaining after wave 33 (2026-08-17), batches/agents by filename date:
+Remaining after wave 34 (2026-08-18), batches/agents by filename date:
 
 | year | batches | agents |
 |---|---|---|
-| 2012 | 7 | 27 |
-| 2011 | 13 | 48 |
+| 2011 | 11 | 41 |
 | 2010 | 15 | 50 |
-| **total** | **35** | **125** |
+| **total** | **26** | **91** |
 
-Ascending within 2012 resumes at `pk_034` — which is the year's seven-section
-batch, so it is also the next wave's sizing risk.
+Ascending within 2011 resumes at `pk_017` (2011-03-01). The heaviest remaining
+fan-out is seven sections (`pk_021`), so size the wave that reaches it with that
+in mind rather than off a preceding wave's rate.
 
 ### `packets` is chunked far more finely
 
@@ -366,6 +392,7 @@ conservative for most material and should be read as a ceiling, not an estimate.
 | `packets` 2014, many sections | 2.40 | ~94K | wave 31, one batch fanned to 7 |
 | `packets` 2013 | 2.30 | ~94K | wave 32, 23 agents, max 5 sections |
 | `packets` 2012, 1-5 sections | **2.36** | ~93K | wave 33, 29 agents, pk_034 held out |
+| `packets` 2012-2011, 1-6 sections | 2.19 | ~96K | wave 34, 34 agents, the largest run yet |
 
 The 2015 figure is the cheapest split-heavy wave measured and cuts against reading
 `--split-over` as the cost driver: wave 27 was 4 splits of 5 batches — the same
