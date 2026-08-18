@@ -304,10 +304,56 @@ field, which is the recorded channel title.
    thumbnail step typeset a card when the stream never shows one — see below.
 2. `transcribe_meeting.py MEDIA --date …` (~$0.40). Draft `speakers.json` from
    the roll call; run with `--speakers`; verify with the levers above.
-3. Hand-tune `anchors.json` from the transcript's transition lines
-   ("That brings us to item…").
+3. Build the agenda anchors — **`make_anchors.py` output is a draft, not an
+   answer**. Run `anchors/brief.py DATE`, author the anchor set, apply it with
+   `anchors/apply_anchors.py`, which validates the set and runs the coverage gate.
+   See [transcription/anchors/README.md](../transcription/anchors/README.md).
 4. `upload_transcript.py … --youtube ID` (wrangler `--remote`).
 5. Done — the meeting page picks it up on next load.
+
+## Agenda anchors — why the generator's output is a draft
+
+`transcript_anchors` drives the meeting page's chapter chips and the YouTube
+description's clickable agenda, and `make_anchors.py` cannot finish the job alone.
+Across the 41-meeting corpus its output carried **54 labels that were raw
+transcript prose**, 73 truncated into ellipses, 19 with duplicated prefixes
+(`4.c C. RFP …`), leading characters eaten off titles (`4.E Establish` →
+`Stablish`, `2026 Spring` → `026 Spring`), and whole agenda items with no anchor —
+2026-02-03 had nothing for 3.c, 2026-01-20 nothing for 11.A/11.B/11.C.
+
+The reason is that the evidence deciding where an item was taken up is
+conversational — *"we're just gonna tackle these 2 purchase items first, and then
+we'll jump into budget"*. A regex cannot hear that. So the anchors are authored
+from a digest and then **checked against the transcript**:
+
+- `anchors/brief.py DATE` — agenda, current anchors, and the ~70 utterances of ~800
+  that carry a signal (motions, votes, transitions, item references, item keywords).
+- `anchors/apply_anchors.py DATE FILE` — validates (first at 0:00, ascending, ≥3,
+  ≥10s apart, within duration, no truncated/duplicate-prefix/prose labels), writes
+  to D1, runs the coverage gate, queues the description rebuild.
+- `anchors/coverage.py [--all]` — for every agenda item in `chunks`, decides from
+  the transcript whether it was DISCUSSED / MENTIONED / IN CONSENT / ABSENT /
+  UNSEARCHABLE, and asserts anything DISCUSSED has an anchor.
+
+**The coverage gate is the part that matters.** Omitting an item is only defensible
+if the board genuinely never took it up — which is a claim about the transcript, so
+it gets checked against the transcript. It caught 18 meetings with a discussed item
+that had no anchor, two of which had already been hand-authored and signed off:
+2025-12-16's roof replacement (0:18:17, omitted as "couldn't locate"), and
+2025-11-18 where an anchor sat on the wrong item entirely — 1:22:21 is the traffic
+signal, not the security systems it was labelled.
+
+**Out-of-numeric-order agenda items are usually not an error.** Chapters are
+chronological; on 2026-01-13 the board really did take 4.c and 4.b before 4.a.
+Do not "fix" that by re-sorting.
+
+Anchor writes cost no YouTube quota (D1); the description rebuild does
+(`videos.update`, 50 units), so the two are decoupled and the rebuilds queue in
+`anchors/pending_push.json` — drain with `anchors/push_pending.py`.
+
+Corpus after the 2026-08-18 rebuild: 540 anchors across 41 meetings (from 422),
+zero prose labels, zero truncated, zero duplicated prefixes, zero
+discussed-but-unanchored items.
 
 ## Thumbnails — why the frame grab is not a frame grab
 
