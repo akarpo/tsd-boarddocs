@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Rebuild one meeting's YouTube description from its current D1 anchors."""
-import json, subprocess, sys, urllib.parse, urllib.request
+import json, subprocess, sys, urllib.parse, urllib.request, time
 from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO))
@@ -9,10 +9,33 @@ SITE = "https://tsd-boarddocs.karpowitsch.org"
 MON = ["January","February","March","April","May","June","July","August",
        "September","October","November","December"]
 
-def d1(sql):
-    r = subprocess.run(["npx","wrangler","d1","execute","tsd-boarddocs","--remote",
-                        "--json","--command",sql], cwd=REPO, capture_output=True, text=True)
-    return json.loads(r.stdout)[0]["results"]
+def d1(sql, tries=3):
+    """Read D1, retrying the transient failures that cost a push on 2026-08-19.
+
+    This used to be one unchecked `json.loads(r.stdout)[0]["results"]`. wrangler
+    occasionally returns "account is not authorized" and other transient errors,
+    and it reports them on stdout rather than stderr -- so the parse found no
+    "results" key and the caller saw a bare KeyError with no cause attached. In
+    an unattended drain that read as a corrupt meeting rather than a bad minute:
+    2024-01-16 was left queued overnight and pushed first try the next morning.
+
+    So: check the return code, say what actually happened, and retry -- the
+    caller requeues a date it cannot read, and requeuing a whole meeting over a
+    blip that clears in two seconds is the wrong trade.
+    """
+    for attempt in range(tries):
+        r = subprocess.run(["npx","wrangler","d1","execute","tsd-boarddocs","--remote",
+                            "--json","--command",sql], cwd=REPO, capture_output=True, text=True)
+        if r.returncode == 0:
+            try:
+                return json.loads(r.stdout)[0]["results"]
+            except (ValueError, KeyError, IndexError) as e:
+                why = f"unparseable output ({type(e).__name__}): {r.stdout[:300]}"
+        else:
+            why = f"rc={r.returncode} stdout: {r.stdout[:300]} stderr: {r.stderr[:200]}"
+        if attempt < tries - 1:
+            time.sleep(2 * (attempt + 1))
+    raise RuntimeError(f"D1 read failed after {tries} tries — {why}")
 
 def token():
     d = urllib.parse.urlencode({"client_id": tsd_secrets.require("YT_CLIENT_ID"),

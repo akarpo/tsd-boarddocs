@@ -4,14 +4,17 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-08-18**.
+Last reviewed **2026-08-19**.
 
 ---
 
 ## Where things stand
 
-Everything SMS-related is built and verified. Nothing is half-finished; the items below are new
-work, not loose ends.
+Everything SMS-related is built and verified. The YouTube channel is finished too, as of
+2026-08-19: all 41 descriptions rebuilt from the corrected D1 anchors, the thumbnail backlog
+cleared with `thumbnails.py --audit` reading 51/51 crest cards, and the agenda numbering fixed
+and gated by a check that can now see the class of error that slipped past it. Nothing is
+half-finished; the items below are new work, not loose ends.
 
 - A2P campaign VERIFIED, SMS armed, delivery proven to a real handset.
 - Sign-in codes by text; registration approval by replying `1`; question moderation by
@@ -22,91 +25,6 @@ work, not loose ends.
 ---
 
 ## Now
-
-### Drain the YouTube backlog (thumbnails + descriptions)
-**Blocked only on YouTube's daily quota — no decision needed, nothing to design.**
-Both backlogs exist because the corrections outran the API, not because anything is unresolved.
-
-| outstanding | count | command |
-|---|---|---|
-| Descriptions to rebuild from current D1 anchors | **41 (all of them)** | `python3 transcription/anchors/push_pending.py` |
-| Thumbnails still showing the crest smear | **10** | `nohup python3 transcription/set_thumbnails.py --daemon >/dev/null 2>&1 &` |
-
-It is all 41, not the 21 an earlier version of this item said: every chapter label changed when
-the agenda numbering was added on 2026-08-18, so every description needs regenerating from D1.
-Cost is ~2,550 units against the 10,000/day ceiling, so both fit in a single window.
-
-**`--list` reports state; `--check` does not exist and is not read-only.** Neither script
-defines it, so `push_pending.py --check` falls through to the drain path and pushes the whole
-queue for real — it only *looked* like a status flag on 2026-08-18 because the quota was
-exhausted and the first call failed. Use `--list`. Both scripts are resumable and save progress
-after every success, so an interrupted run costs nothing.
-`scratch/anchors-rebuild/pending_push.json` is a symlink to the committed queue, so the armed
-job and the committed tool cannot report different backlogs.
-
-**The armed job dies with the machine, and that has now happened twice.**
-`scratch/anchors-rebuild/finish_youtube.py` (drains descriptions, then thumbnails) waits for the
-03:34 EDT reset in memory — nothing on disk, no launchd job. The Mac rebooted at ~14:42 EDT on
-2026-08-18 while it was waiting, and the separate thumbnail drip died with it; neither left a
-trace beyond a log that simply stops. **Check `uptime` against the tail of
-`finish_youtube.log` before assuming the drain is armed** — a log that ends mid-countdown means
-it is not. Re-arm with `nohup python3 scratch/anchors-rebuild/finish_youtube.py &`, plus
-`caffeinate -imsu -t 50400` or the Mac sleeps through the window. Re-armed 2026-08-18 14:52 EDT.
-
-Two limits, and they are different things:
-
-- **Daily quota, 10,000 units.** `videos.update` and `thumbnails.set` are 50 each. Resets
-  midnight Pacific. This is what is blocking the 41 descriptions.
-- **A rolling per-user cap on `thumbnails.set`**, separate from the quota and far longer-lived:
-  ~100 sets on 2026-08-17 exhausted it and it still refused 20 hours later, in a run where
-  playlist writes succeeded 5/5. **Failed attempts count against it**, so retrying hard makes it
-  worse — 65 retries over 80 minutes recovered nothing. Hence the one-at-a-time drip with an
-  hour of silence per 429.
-
-**Done, for the record — do not redo any of this.** All 41 meetings' agenda anchors were
-re-authored (540 anchors, up from 422; zero prose, truncated or duplicate-prefix labels) and
-then **numbered from the published BoardDocs outline** — 518 of 540 carry their agenda number.
-`chunks.agenda_item` is **not** the authority here — it only exists for items
-with an attachment and its scheme disagrees with the outline (2026-01-13's purchase items are
-4.a/4.b/4.c there, 3.A/3.B/3.C on BoardDocs). The four year playlists are complete (2023: 11,
-2024: 19, 2025: 20, 2026: 12 = 62). Eleven redundant uploads were **permanently deleted** on
-2026-08-18 (YouTube has no undo) — the two-part halves of the 2025-01-14, 2025-02-11, 2025-06-03
-and 2025-11-11 workshops, a duplicate 2025-03-08 retreat plus the sibling stuck in
-`processingStatus`, and `vptCAUB52ZQ`; `transcription/deleted_videos.json` is the only surviving
-record of what they were.
-
-**When the two commands report empty, verify and close this item:**
-
-```
-python3 transcription/thumbnails.py --audit          # only the 2 candidate forums
-                                                     # + 1 advocacy clip may read WRONG;
-                                                     # those are deliberately left alone
-python3 transcription/anchors/qa_numbers.py          # 0 EXISTS / UNIQUE / SEMANTIC / ORDER
-```
-
-**The numbering was not clean, and the gate said it was.** Reviewed 2026-08-18: `qa_numbers.py`
-reported 0 EXISTS / 0 UNIQUE / 0 SEMANTIC while **seven anchors carried the wrong agenda
-number**, because every wrong claim happened to share a word with the item it claimed —
-"Furniture purchase — elementaries & middle schools" numbered 2.B, *"State Schools of Character -
-Larson **Middle School**"*; "**Closed** session" numbered 4.D, *"Schools **Closed** to Open
-Enrollment"*. A vocabulary test cannot separate those, and the two claims about coverage the
-earlier version of this section made — "zero discussed-but-unanchored items", "QA is clean" —
-were both reporting the gate's silence rather than the corpus's state.
-
-What actually separates them is position. A board working out of sequence moves a whole section
-and stays there; a number on the wrong chapter leaves one anchor sitting below the anchors on
-both sides of it. `qa_numbers.py` now has an **ORDER** pass for exactly that shape, plus a
-sentinel past the last anchor so a meeting ending below where it had got to is caught too. It
-finds all seven. The seven are fixed in `authored/` and in D1; ten ORDER flags remain and were
-each checked by hand against the outline — all are the board genuinely taking a section out of
-sequence, and ORDER is an eyeball flag like SEMANTIC, not a gate that must read zero.
-
-Left deliberately, as judgement calls rather than errors: 16 COVERED flags, mostly items
-discussed within a neighbouring chapter (two of them seconds into the video, where YouTube's
-10-second minimum makes a chapter impossible), and 2024-06-20's opening chapter, numbered 5.G
-where the published outline opens with 2.A *PUBLIC HEARING: 2024/2025 Proposed Budget* — the
-chapter covers both the hearing and the adoption, so which number it should carry is a real
-question and not a mistake to quietly overwrite.
 
 ### Decide whether the SMS layer is worth its cost
 **Raised 2026-08-11 and not yet answered.** The honest question is whether phone verification

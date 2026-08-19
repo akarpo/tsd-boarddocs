@@ -5,6 +5,33 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Both YouTube backlogs drained; agenda numbering corrected — 2026-08-19
+
+- **All 41 descriptions rebuilt and all 10 remaining thumbnails set.** The armed
+  drain fired at the 03:34 EDT quota reset: 40 descriptions pushed, then the
+  thumbnail drip cleared 10/10 — the rolling per-user cap on `thumbnails.set`
+  had recovered on its own after ~20 hours of leaving it alone, which is what
+  the one-at-a-time drip was for. `thumbnails.py --audit` reads 51/51 crest
+  cards, no WRONG.
+- **Seven anchors carried the wrong agenda number while QA read clean.**
+  `qa_numbers.py` reported 0 EXISTS / 0 UNIQUE / 0 SEMANTIC because every wrong
+  claim shared a word with the item it named — "**Closed** session" numbered
+  4.D, *"Schools **Closed** to Open Enrollment"*; a furniture purchase numbered
+  2.B, *"State Schools of Character - Larson **Middle School**"*. Corrected in
+  `authored/` and D1, and shipped with the same push rather than costing a
+  second one.
+- New **ORDER** pass finds that class: a board taking a section out of sequence
+  moves it and stays there, so categories still run forward on both sides; a
+  number on the wrong chapter leaves one anchor below the anchors on *both*
+  sides of it. A sentinel past the last anchor catches a meeting ending below
+  where it had got to. Ten flags remain, all checked by hand and all genuine
+  reordering — ORDER is an eyeball flag like SEMANTIC, not a gate that reads zero.
+- **`push_desc.d1()` no longer turns a bad minute into a bad meeting.** It was
+  one unchecked `json.loads(...)[0]["results"]`; wrangler reports transient
+  errors on stdout, so the parse raised a bare `KeyError` with no cause and
+  2024-01-16 sat queued overnight. It now checks the return code, says what
+  happened, and retries — the date pushed first try the next morning.
+
 ### Every board video carries the district's crest card — 2026-08-17
 
 - 62 thumbnails set; 82 of 86 board videos now show the crest card, verified

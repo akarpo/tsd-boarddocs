@@ -37,7 +37,10 @@ def main():
                 break
             print(f"{date}: HTTP {e.code}"); left.append(date)
         except Exception as e:                       # noqa: BLE001
-            print(f"{date}: {type(e).__name__}"); left.append(date)
+            # The type alone is not a diagnosis. An unattended run that printed
+            # bare "2024-01-16: KeyError" gave no way to tell a corrupt meeting
+            # from a transient D1 blip -- which is what it turned out to be.
+            print(f"{date}: {type(e).__name__}: {e}"); left.append(date)
         time.sleep(1)
     save(left)
     print(f"\n{len(q)-len(left)} pushed, {len(left)} still queued")
