@@ -33,7 +33,14 @@ SUMPUT = os.environ.get("SUMMARYPUT_URL", "https://tsd-ingest.akarpo.workers.dev
 SECRET = tsd_secrets.get("R2PUT_SECRET")  # env, else ~/Downloads/tsd-secrets.env
 BATCH_JSON = Path("/tmp/tsd_batch.json")
 STORE_BATCH = 10
-TEXT_CAP = 6000
+# A safety ceiling on how much of one document is handed to a single agent --
+# NOT a summarization budget. It was 6,000, which is the bug the whole
+# re-summarization campaign existed to undo: a 100-page budget book was
+# summarized from its cover page and table of contents, and nothing failed, so
+# it stayed that way for 788 documents. Anything at or near a document's real
+# length belongs here; batching, not truncation, is what keeps context bounded
+# (see --batch-chars). Only one document in the corpus exceeds 153K characters.
+TEXT_CAP = 200_000
 
 
 def _post(rows):
@@ -108,7 +115,10 @@ def main():
     ap.add_argument("--store")
     ap.add_argument("--store-dir", help="store every batch_*.json summary file in DIR to D1")
     ap.add_argument("--prep-batches", type=int, metavar="N", help="write next N pending docs into batch files for the workflow")
-    ap.add_argument("--size", type=int, default=10, help="docs per batch file (default 10)")
+    ap.add_argument("--size", type=int, default=10, help="docs per batch file (legacy; --batch-chars packs better)")
+    ap.add_argument("--batch-chars", type=int, default=96_000,
+                    help="pack batches to about this many characters of source (default 96,000 "
+                         "= ~24K tokens, matching the resummarize campaign's batch target)")
     ap.add_argument("--batch-dir", default="/tmp/tsd_batches")
     a = ap.parse_args()
 
@@ -182,12 +192,33 @@ def main():
         for f in bdir.glob("batch_*.json"):
             f.unlink()
         sel = pending[:a.prep_batches]
+        # Pack by CHARACTERS, not by document count. A fixed --size mixes a
+        # 153K-char budget book with nine one-page agendas into the same agent,
+        # so the batch that most needs room is the one that gets least. A
+        # document larger than the target gets a batch to itself rather than
+        # being cut.
         nb = 0
-        for i in range(0, len(sel), a.size):
+        batch, used = [], 0
+        def flush():
+            nonlocal batch, used, nb
+            if not batch:
+                return
             (bdir / f"batch_{nb:03d}.json").write_text(
-                json.dumps(sel[i:i + a.size], ensure_ascii=False, indent=1))
+                json.dumps(batch, ensure_ascii=False, indent=1))
             nb += 1
-        print(f"prepped {len(sel)} docs -> {nb} batch files in {bdir}  ({len(pending):,} pending total)")
+            batch, used = [], 0
+        for e in sel:
+            n = len(e.get("text") or "")
+            if batch and used + n > a.batch_chars:
+                flush()
+            batch.append(e)
+            used += n
+            if used >= a.batch_chars:
+                flush()
+        flush()
+        chars = sum(len(e.get("text") or "") for e in sel)
+        print(f"prepped {len(sel)} docs ({chars:,} chars) -> {nb} batch files in {bdir}  "
+              f"({len(pending):,} pending total)")
         return 0
 
     if a.stats:
