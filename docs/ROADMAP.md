@@ -4,7 +4,7 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-08-19**.
+Last reviewed **2026-08-21**.
 
 ---
 
@@ -64,13 +64,24 @@ failure worth avoiding is not a bounced text but the A2P registration lapsing fo
 dollars, after the work it took to get approved.
 
 ### Finish the re-summarization campaign
-`packets` at **125/151**; the other four campaigns are complete (fanout 26/26, remainder 76/76,
-wave2 121/121, orphans 4/4). Years 2012–2026 are done; **2010–2011 remain** — 26 batches / 91
-agents — next up `pk_017` (2011-03-01), ascending within the year.
+`packets` at **145/151**; the other four campaigns are complete (fanout 26/26, remainder 76/76,
+wave2 121/121, orphans 4/4). Years 2011–2026 are done and 2010 is 9/15. What is left is the
+whole remainder of the campaign: **6 batches / 16 agents**, `pk_009` (2010-09-07) through
+`pk_014` (2010-12-06), ascending within the year.
 
-Size the wave that reaches `pk_021` around its seven sections rather than off the preceding
-wave's rate; section count within a wave, not split count, is what moves the price. Method,
-ordering rules and the figure-validation traps: [RESUMMARIZE.md](RESUMMARIZE.md).
+That is **~36 points** by the measured per-split prices — three singles at ~2, two three-way
+splits at ~9 and one four-way at ~12 — so a single wave finishes it. Ignore the queue's own
+78-point estimate: it applies `PTS_PER_AGENT = 4.9` as a flat ceiling and runs ~2x high on
+cheap splits. Size a wave off its largest fan-out, never off its mean; section count within a
+wave, not split count, is what moves the price. Method, ordering rules and the
+figure-validation traps: [RESUMMARIZE.md](RESUMMARIZE.md).
+
+**One loose end survives the campaign.** `resummarize/alt_runs/` holds a second, independent
+run of pk_006 and pk_008 that turned up uncommitted after wave 38. Both runs validate 100%
+clean, the committed one is richer and stays canonical, but the alternate corrects a framing
+error the validator is structurally blind to and carries figures the committed run omits.
+Reconciling them is a synthesis pass over both plus the source, then a re-validate and
+re-store — see that directory's README.
 
 ---
 
