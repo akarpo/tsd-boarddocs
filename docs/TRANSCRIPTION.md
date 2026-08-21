@@ -27,6 +27,42 @@ site  /api/recording → meeting page: embed + chapter chips + searchable transc
       every line and chapter seeks the YouTube player (widget postMessage API)
 ```
 
+## Before you transcribe: refresh the keyterm index
+
+`run_meeting.sh` runs `scripts/keyterms_index.py --meeting <date> --add` ahead of
+transcription, and the ordering is the entire point — vocabulary added afterwards
+does nothing for the recording you just processed.
+
+The index grows from each meeting's own packet and never evicts. That replaces
+`proper_nouns.py`'s corpus-wide top-40 firms for this purpose, which failed the
+2026-08-18 meeting three separate ways: the 40 cap is ours rather than the API's
+(1,000 phrases allowed, 361 being sent), `_ORG` matches only names ending in a
+corporate suffix so "L Mason Capitani" and "MI Works!" were invisible at any cap,
+and ranking fifteen years of history buries the meeting about to be transcribed.
+
+**Keyterms only help where a word is spoken.** That same meeting's winning bidder
+appears throughout the packet and twice in 71 minutes of audio, so a fuller list
+changed its transcript not at all. Count the term in an existing transcript before
+assuming vocabulary is the problem.
+
+## After you transcribe: name the leftover clusters
+
+Speaker identification returns some clusters as bare letters. Run
+`transcription/name_unknown_speakers.py --d1 <date>`; it reads the chair's
+introduction out of the transcript, which is how public commenters get named at
+all — they are never on the roster, since their names come off a sign-in sheet at
+the meeting and the API caps at 10 names.
+
+It is report-only. Verify, then `UPDATE transcript_utts` (check the predicate as a
+`SELECT COUNT(*)` against a predicted number first), relabel the local
+`.transcript.json` / `.attributed.txt` / `.srt`, and re-run `upload_captions.py`
+so YouTube matches.
+
+**Do not re-transcribe a good transcript to chase an improvement.** Speaker
+identification is a separate, non-deterministic call: two runs of the same audio
+for 2026-08-18 named 7 of 8 clusters and 5 of 8, the worse one losing 96
+attributions. A re-run is only worth it against a defect you can name and measure.
+
 ## AssemblyAI specifics (verified against the live API, Aug 2026)
 
 The docs and pricing pages lag the API — these were confirmed by probing:

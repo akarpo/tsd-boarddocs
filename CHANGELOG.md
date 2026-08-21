@@ -5,6 +5,56 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Meeting 2026-08-18 ingested end to end — 2026-08-21
+
+- **BoardDocs**: 14 documents extracted, chunked (185 chunks), pushed to R2 and
+  summarized. Three were `.doc` files that would have been skipped outright a day
+  earlier, and the new OCR fallback fired on two PDFs.
+- **Check register**: the June 2026 register handed to `tsd-checkregister` — 1,574
+  rows, parsed total $16,866,250.64 against the same figure printed as the PDF's own
+  TOTAL REPORT. Dataset 227,066 → 228,640 lines, 155 → 156 registers.
+- **Video**: TelVue media 1041694 (1:11:25) → YouTube `ciIdYBDoQjw`, transcribed to
+  358 utterances, captions uploaded, 16 authored chapters, transcript and anchors in
+  D1.
+- **`scripts/check_register_handoff.py`** reconciles registers in the corpus against
+  the check-register dataset and can stage/parse new ones; step 7/7 of
+  `ingest_meeting.sh`, report-only. A parsed total that disagrees with the printed
+  TOTAL REPORT refuses the append rather than warning.
+- **Site**: a document whose title says "check register" now links to
+  tsd-checkregister — prose summarization has a ceiling on 1,500 rows of payments.
+- **`transcription/name_unknown_speakers.py`** names clusters the identifier left as
+  letters, by reading the chair's introduction out of the transcript.
+- **`scripts/keyterms_index.py`** grows the speech-to-text vocabulary from each
+  meeting's own packet, with provenance per term. `run_meeting.sh` refreshes it
+  before transcribing.
+
+### The 489 documents the archive could not read — 2026-08-21
+
+- **The corpus is fully scanned: 3,287/3,287 extracted, indexed and summarized**,
+  reconciled both directions against D1 with zero drift. It was 2,798 that morning.
+- **489 documents had never been parsed at all** — no text, no chunks, no summary,
+  invisible to search — and nothing reported them, because a file with no extractor
+  is logged once to `_text/_skipped.txt` and never counted again. Another 92 held
+  text that was present and worthless. 1.78M characters recovered.
+- `extract_all.py` gained `.doc` (macOS `textutil`), legacy `.ppt` (`soffice`),
+  images (`tesseract`), image-bodied `.docx`, magic-byte sniffing for wrong
+  extensions, and an OCR fallback for PDFs with no usable text layer.
+- **`summarize.py`'s `TEXT_CAP` was still 6,000** — the cap the entire
+  re-summarization campaign existed to undo. It never touched the campaign (that
+  path reads `_text/` directly), but it truncates every *newly ingested* document,
+  and would have discarded 923,462 of 1,899,424 recovered characters. Raised;
+  batching now packs by characters instead of a fixed document count.
+- Full listing with cause, fix and outcome per document: `docs/parse-gaps/`.
+
+### Re-summarization campaign complete — 2026-08-21
+
+- **All five campaigns done**: fanout 26/26, remainder 76/76, wave2 121/121,
+  orphans 4/4, packets 151/151 — 720 document urls, median `verbose` 10,489 chars.
+- **Eight documents read as done and had never reached D1** — the FY24/FY25 budget
+  books, the 0623/0624 ACFRs, the 0623 single audit, the end-of-audit letter. `done`
+  is derived from the output file existing, so no counter could see it. Stored and
+  verified.
+
 ### Both YouTube backlogs drained; agenda numbering corrected — 2026-08-19
 
 - **All 41 descriptions rebuilt and all 10 remaining thumbnails set.** The armed

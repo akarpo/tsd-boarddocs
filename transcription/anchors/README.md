@@ -21,6 +21,23 @@ set, and tooling checks the claim.
 **Agenda items appearing out of numeric order is usually NOT an error.** Chapters
 are chronological. Leave them in the order things happened.
 
+## First time anchoring a NEW meeting
+
+`brief.py` reads a workdir (`scratch/anchors-rebuild/`, or `ANCHORS_DATA`) that is
+regenerable from D1 and therefore not committed. For a meeting that has never been
+anchored it simply raises `FileNotFoundError`, which reads like a broken tool
+rather than a missing input. Build the two files first:
+
+```bash
+python3 anchors/fetch_agenda.py 2026-08-18        # the full numbered outline
+# agendas.json  <- {"<date>": {"name": ..., "agenda": [{"item","title"}, ...]}}
+# cur_<date>.json <- SELECT start_ms,label FROM transcript_anchors WHERE meeting_date=...
+```
+
+Note that BoardDocs' own outline carries typos ("Budget Reducations Update",
+"Bond Projecgts Status Update"). Spell the chapter labels correctly; they are what
+the public reads in the YouTube description.
+
 ## The loop
 
 ```

@@ -162,6 +162,36 @@ match — the two must agree or every write returns 403.
 
 ## Gotchas (learned the hard way)
 
+**A file with no extractor is reported once and then never counted again.** It goes
+to `_text/_skipped.txt` and drops out of every subsequent total, which is how 489
+documents — 14.9% of the corpus — stayed invisible to search for months while every
+counter read complete. Reconcile the corpus against D1, not against the tooling's
+own bookkeeping.
+
+**"Extracted" is not "usable."** A scanned page returns its header; a subset font
+with no ToUnicode CMap returns glyph ids (`/16/17/18/i255`) that have the right
+shape and no words. Neither asserts a figure, so figure validation is blind to
+both. And a per-page character floor is not enough on its own — a 2.3MB PDF that
+yielded 302 characters clears any floor and is still a photograph, which is why
+`_needs_ocr()` also tests source bytes per extracted character.
+
+**Longer is not better when the incumbent is nonsense.** "Keep whichever result is
+longer" is right for a thin scan and wrong for glyph garbage: 82,353 characters of
+glyph ids beat 31,257 characters of real OCR text on length alone.
+
+**`convert_office.py` read `R2PUT_SECRET` straight from the environment** while the
+rest of the pipeline had moved to `tsd_secrets`, so step 6 of the ingest wrapper
+uploaded with an empty secret and every PUT came back 403 — per file, on stdout,
+with the run still exiting 0. It uses `tsd_secrets.require()` now, which says what
+is missing instead.
+
+**A batch output file can keep changing after it appears.** Wave 39 wrote
+`pk_013.json` three times, each shorter, all after the file first landed and with
+the workflow reporting no errors. Wait for the Workflow completion notification
+before validating, not for the output files to exist.
+
+
+
 - **Cloudflare bot-blocks `python-urllib`** → send a browser `User-Agent`, or you
   get 403 on R2, the Worker, and BoardDocs. (`curl` default UA is fine; BoardDocs
   itself 403s any non-browser, so verify its deep-links in a real browser.)
@@ -226,9 +256,51 @@ downloaded, and finishes by prepping summary batches for exactly the pending cou
 Summary generation itself is not automated (it needs Opus); the script prints the
 two remaining commands. `--no-prep` stops after ingest.
 
-Once the meeting's recording is on YouTube, the transcription pipeline adds the
-embed + searchable named transcript to its meeting page — the 4-step checklist is
-in [TRANSCRIPTION.md](TRANSCRIPTION.md#adding-a-new-meeting-checklist).
+### The whole chain, in the order it has to run
+
+Worked end to end for 2026-08-18. Each step assumes the one above it.
+
+```bash
+# 1. documents
+scripts/ingest_meeting.sh 2026-08-10            # crawl -> extract -> R2 -> D1 -> prep
+Workflow summaries_workflow.js {batches: N}     # needs Opus
+python3 summarize.py --store-dir /tmp/tsd_out
+
+# 2. check register, if the packet carried one (step 7/7 reports it)
+python3 scripts/check_register_handoff.py --stage --parse
+#   then in tsd-checkregister: rebuild.py --assemble-only, validate.py,
+#   check_published_figures.py, commit (Pages deploys from main)
+
+# 3. video: find the recording on TelVue, series 4132
+yt-dlp -f 2390 -o "tsd_<date>.%(ext)s" \
+  https://videoplayer.telvue.com/player/i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa/media/<id>
+python3 transcription/upload_videos.py <mp4> --title "<channel title>" \
+  --date <date> --name "<D1 meeting_name>"
+
+# 4. transcript (refreshes the keyterm index first, then skips what already exists)
+transcription/run_meeting.sh <date> "<D1 meeting_name>" <youtube-id> <workdir>
+python3 transcription/name_unknown_speakers.py --d1 <date>   # public commenters
+cp <workdir>/"Troy School Board Meeting - <date>".srt \
+   transcripts/"<channel title>.srt"                          # captions read from here
+python3 transcription/upload_captions.py --only <date>        # add the id to MEETINGS first
+
+# 5. chapters — the YouTube description IS the anchors
+python3 transcription/anchors/fetch_agenda.py <date>
+python3 transcription/anchors/brief.py <date>                 # author from this
+python3 transcription/anchors/apply_anchors.py <date> transcription/anchors/authored/anchors_<date>.json
+python3 transcription/anchors/push_pending.py
+```
+
+**Order that matters, each learned by getting it wrong:** R2 before D1, or
+`--new-only` treats "in D1" as "in R2" and the viewer 404s. Keyterms before
+transcription, or the vocabulary helps the next meeting instead of this one.
+Summaries before the keyterm refresh, since it reads the meeting's summaries.
+Anchors before the description push, because the description is generated from
+them — a meeting left on `make_anchors.py`'s draft gets a five-line agenda and at
+least one chapter pointing at the wrong place.
+
+The 4-step transcription checklist is in
+[TRANSCRIPTION.md](TRANSCRIPTION.md#adding-a-new-meeting-checklist).
 
 The manual sequence follows, for when you need to run a step on its own.
 
