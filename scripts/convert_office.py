@@ -2,16 +2,25 @@
 the site can preview them inline. Excel is intentionally skipped (the viewer links
 those out). Resumable via a done-list; re-run to pick up new files.
 
-  R2PUT_SECRET=... TSD_BOE_ROOT=<repo>/data/tsd-boe-data python scripts/convert_office.py
+  TSD_BOE_ROOT=<repo>/data/tsd-boe-data python scripts/convert_office.py
+
+The ingest-worker secret comes from tsd_secrets (env var, else the secrets file
+outside the repo), the same as every other uploader. It used to be read straight
+from os.environ, which meant step 6 of ingest_meeting.sh uploaded with an empty
+secret and every PUT came back 403 -- silently, because the failures print per
+file and the run still exits 0.
 """
 import os, sys, shutil, tempfile, subprocess, urllib.request, urllib.parse
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import tsd_secrets
 
 ROOT = Path(os.environ.get("TSD_BOE_ROOT") or
         Path(__file__).resolve().parent.parent / "data" / "tsd-boe-data")
 SOFFICE = os.environ.get("SOFFICE", "/opt/homebrew/bin/soffice")
 R2PUT = "https://tsd-ingest.akarpo.workers.dev/r2put"
-SECRET = os.environ.get("R2PUT_SECRET", "")
+SECRET = tsd_secrets.require("R2PUT_SECRET")
 PREFIX = "troysd-boarddocs"
 EXTS = (".docx", ".doc", ".pptx", ".ppt")
 DONE = ROOT / "_index" / "converted_pdf.done"

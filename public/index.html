@@ -225,6 +225,7 @@
     <div class="bar">
       <span class="links">
         <a id="v-bd" target="_blank" rel="noopener">View on BoardDocs ↗</a>
+        <a id="v-cr" target="_blank" rel="noopener" style="display:none">Explore this spending ↗</a>
         <a id="v-open" href="#" target="_blank" rel="noopener">PDF ↗</a>
       </span>
       <button class="x" id="v-close">Close</button>
@@ -478,6 +479,15 @@ function openViewer(r){
   $("v-open").textContent=(isPdf?"PDF ↗":"Download original ↗");
   const bd=$("v-bd");
   if(r.boarddocs_url){bd.href=r.boarddocs_url;bd.style.display="";}else{bd.style.display="none";}
+  // A check register is 1,500 rows of payments rendered as a 55-page PDF. The
+  // summary tiers above can say what it is and roughly what it totals, and that is
+  // the ceiling of what prose does for tabular data — send the reader to the site
+  // that has the same lines as queryable rows.
+  const cr=$("v-cr");
+  if(/check\s*register/i.test(r.title||r.file||"")){
+    cr.href="https://tsd-checkregister.karpowitsch.org/";
+    cr.style.display="";
+  } else { cr.style.display="none"; }
   const notice=()=>{
     const kind={docx:"Word",doc:"Word",pptx:"PowerPoint",ppt:"PowerPoint",xlsx:"Excel",xls:"Excel"}[ext];
     return `<div class="fallback">`+(kind

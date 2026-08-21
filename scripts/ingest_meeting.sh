@@ -128,12 +128,19 @@ python3 upload_cloudflare.py --r2 --new-only
 step "5/6 Load chunks into D1"
 python3 upload_d1.py --all --new-only
 
-step "6/6 Convert new Office documents to preview PDFs"
+step "6/7 Convert new Office documents to preview PDFs"
 if command -v soffice >/dev/null; then
   python3 scripts/convert_office.py
 else
   echo "skipped — soffice not on PATH"
 fi
+
+step "7/7 Check for a new monthly check register"
+# BoardDocs posts the Pentamation register as an ordinary attachment, so it lands
+# in this archive as one more PDF and nothing tells the spending site about it.
+# Report-only here: staging and parsing rewrite a second repo's committed
+# deliverables, which is not something an ingest run should do unasked.
+python3 scripts/check_register_handoff.py || true
 
 # ------------------------------------------------------------ summary prep ----
 if [ "$DO_PREP" = "0" ]; then
@@ -153,7 +160,7 @@ if [ "$PENDING" = "0" ]; then
 fi
 
 rm -rf "$OUT_DIR" && mkdir -p "$OUT_DIR"
-python3 summarize.py --prep-batches "$PENDING" --size 10 --batch-dir "$BATCH_DIR"
+python3 summarize.py --prep-batches "$PENDING" --batch-chars 96000 --batch-dir "$BATCH_DIR"
 
 cat <<EOF
 
