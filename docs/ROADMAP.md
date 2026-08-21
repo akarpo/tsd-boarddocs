@@ -76,7 +76,7 @@ Every document in the corpus now has text and is in the search index -- 3,287 of
 up from 2,798 -- so this is the prose layer, not retrieval. The remaining documents are
 already findable; they just have no `paragraph`/`page`/`verbose` summary yet.
 
-**State: 2,939 / 3,287 summarized (89.4%). 348 pending, 15 batches.**
+**State: 2,954 / 3,287 summarized (89.9%). 333 pending, ~15 batches.**
 
     python3 summarize.py --stats
     python3 summarize.py --prep-batches 500 --batch-chars 96000 --batch-dir /tmp/tsd_batches
