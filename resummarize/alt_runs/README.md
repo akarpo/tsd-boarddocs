@@ -1,26 +1,31 @@
-# Alternate runs held for reconciliation
+# Alternate runs — merged 2026-08-21
 
 A second summarization run of pk_006 (2010-05-18) and pk_008 (2010-08-17) was left
-uncommitted in the working tree after wave 38 and is preserved here. It is **not** a
-superseded draft and **not** the version in D1.
+uncommitted in the working tree after wave 38. It was not a stale draft; it was a
+complete independent run, and both runs validated 100% clean, so nothing in the
+pipeline would have flagged the difference.
 
-Both runs validate 100% clean. The committed run is richer overall — 524 exact figures
-against 431, verbose 14441/19709 against 12666/12152 — so it stays canonical and is what
-`packets_out/` and D1 hold.
+**pk_008 was merged.** The alternate contributed four figures the committed run
+lacked — the Food Service ($925,233) and Adult and Community Education ($1,103,654)
+fund balances, the July uncollected total ($133,236,042), and the Wattles easement
+parcel (88-20-22-252-036, $1.00) — plus Bid #9687's August 3, 2010 open date and a
+clearer reading of the August action items, where the award went to the VSC
+microphones and the extension to the RKA fuel contract. The merged record is a
+strict superset of both runs at 305 figures and is what D1 now holds.
 
-The alternate run is kept because it is not a strict subset:
+Note on that last point: the committed phrasing ("awarding a diesel fuel contract
+extension to RKA") was loose, not wrong — `page` and `verbose` both described the
+extension correctly. The alternate's sentence was adopted for clarity, not as a
+correction.
 
-* **It corrects a framing error.** Committed pk_008 reads "awarding a diesel fuel contract
-  extension to RKA Petroleum"; the alternate reads "extending the diesel fuel contract with
-  RKA Petroleum ... and awarding infrared classroom microphones to VSC". The award applied to
-  the microphones, the extension to the fuel. `validate_fanout.py` cannot see this — the
-  figures are identical in both — and it is the semantic-inversion class described in
-  RESUMMARIZE.md.
-* **It carries facts the committed run omits**, among them the Wattles easement parcel
-  (88-20-22-252-036, $1.00), Bid #9687 opened 2010-08-03, the Food Service ($925,233) and
-  Adult and Community Education ($1,103,654) fund balances, General Fund total revenue
-  ($136,169,515 budgeted / $135,916,301 actual), Student Activity ($210,379.74) and Debt
-  Funds ($29,971.77) ACH totals, and the 110/27/5 unit split behind the $74,641.00 VSC award.
+**pk_006 was left alone, deliberately.** Its alternate adds no figure and no proper
+noun the committed text does not already carry, and drops sixteen figures. Every
+difference is wording. Merging it could only have removed information. The check
+that established this is worth repeating before trusting any future alternate:
 
-Reconciling the two means a synthesis pass over both plus the source, then re-validating and
-re-storing the merged text. Until that runs, the committed version stands.
+    # figures, normalised the way validate_fanout does
+    figs = lambda s: set(re.findall(r'\d{4,}(?:\.\d+)?', re.sub(r'[,\s]', '', s)))
+    figs(alt) - figs(committed)          # empty  -> alternate adds nothing
+    set(re.findall(r"\b[A-Z][a-zA-Z&'.-]{2,}\b", alt)) - same_for(committed)
+
+Both files are kept as the record of what was compared.

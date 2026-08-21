@@ -13,8 +13,16 @@ Last reviewed **2026-08-21**.
 Everything SMS-related is built and verified. The YouTube channel is finished too, as of
 2026-08-19: all 41 descriptions rebuilt from the corrected D1 anchors, the thumbnail backlog
 cleared with `thumbnails.py --audit` reading 51/51 crest cards, and the agenda numbering fixed
-and gated by a check that can now see the class of error that slipped past it. Nothing is
-half-finished; the items below are new work, not loose ends.
+and gated by a check that can now see the class of error that slipped past it.
+
+**The re-summarization campaign finished 2026-08-21.** All five campaigns are complete —
+fanout 26/26, remainder 76/76, wave2 121/121, orphans 4/4, packets 151/151 — across 720
+document urls, median live `verbose` 10,489 characters. Closing it out turned up eight
+documents that every campaign counter reported as done and that had never reached D1,
+including the FY24 and FY25 budget books and the 0623 and 0624 ACFRs; those are stored and
+verified now. See [RESUMMARIZE.md](RESUMMARIZE.md) for why the done-count could not see them.
+
+Nothing is half-finished; the items below are new work, not loose ends.
 
 - A2P campaign VERIFIED, SMS armed, delivery proven to a real handset.
 - Sign-in codes by text; registration approval by replying `1`; question moderation by
@@ -63,25 +71,17 @@ Still not configured. Console → **Billing → Billing Overview → Enable auto
 failure worth avoiding is not a bounced text but the A2P registration lapsing for want of two
 dollars, after the work it took to get approved.
 
-### Finish the re-summarization campaign
-`packets` at **145/151**; the other four campaigns are complete (fanout 26/26, remainder 76/76,
-wave2 121/121, orphans 4/4). Years 2011–2026 are done and 2010 is 9/15. What is left is the
-whole remainder of the campaign: **6 batches / 16 agents**, `pk_009` (2010-09-07) through
-`pk_014` (2010-12-06), ascending within the year.
+### Re-extract the PEPS report so it is actually searchable
+`TSD PEPS Report - March 2025` (wave2 `w2_053`) is in the archive but not really in it.
+The PDF extracts as CID font-glyph indices rather than text — an embedded subset font with
+no ToUnicode CMap — so its 96KB of source is unreadable and its summary is a 3,444-character
+description of the header. It validated clean because text that asserts no figures cannot
+fail figure validation.
 
-That is **~36 points** by the measured per-split prices — three singles at ~2, two three-way
-splits at ~9 and one four-way at ~12 — so a single wave finishes it. Ignore the queue's own
-78-point estimate: it applies `PTS_PER_AGENT = 4.9` as a flat ceiling and runs ~2x high on
-cheap splits. Size a wave off its largest fan-out, never off its mean; section count within a
-wave, not split count, is what moves the price. Method, ordering rules and the
-figure-validation traps: [RESUMMARIZE.md](RESUMMARIZE.md).
-
-**One loose end survives the campaign.** `resummarize/alt_runs/` holds a second, independent
-run of pk_006 and pk_008 that turned up uncommitted after wave 38. Both runs validate 100%
-clean, the committed one is richer and stays canonical, but the alternate corrects a framing
-error the validator is structurally blind to and carries figures the committed run omits.
-Reconciling them is a synthesis pass over both plus the source, then a re-validate and
-re-store — see that directory's README.
+It is the **only** file of its kind in all 720 campaign documents, so this is one document,
+not a class. Fixing it means OCR-ing the PDF and re-running that single batch, not changing
+the pipeline. Worth doing because a PEPS report is exactly the kind of document someone
+would search for and find nothing.
 
 ---
 

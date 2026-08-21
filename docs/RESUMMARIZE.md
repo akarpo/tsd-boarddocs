@@ -84,6 +84,72 @@ npx wrangler d1 execute tsd-boarddocs --remote --json --command \
 Every other check in this pipeline degrades gracefully when it cannot see
 something. This one degrades into a tautology, and it does so silently.
 
+## The campaign is complete (2026-08-21)
+
+All five campaigns are done: fanout 26/26, remainder 76/76, wave2 121/121, orphans 4/4,
+packets 151/151 — **720 document urls**, median live `verbose` 10,489 characters.
+
+### Done-count is not coverage, and this is where that bit
+
+Every campaign read 100% done, and eight documents were still serving the truncated
+July summary. They were summarized, validated, written to `fanout_out/`, marked done —
+and never stored. `done` is derived from the output file existing, so the queue could
+not see it, and these were the highest-value documents in the archive: the FY24 and
+FY25 budget books, the 0623 and 0624 ACFRs, the 0623 single audit and the end-of-audit
+letter. The documents the campaign was created for.
+
+Neither obvious check finds this. The queue says 151/151. A store-time read-back
+compares only what was just written. What finds it is reconciling **intended coverage
+against D1**, and the reconciliation itself has a trap:
+
+```python
+# WRONG -- 'updated >= campaign start' also matches the original ingest,
+# which ran the same week. Reports 2798/2798 and means nothing.
+SELECT SUM(CASE WHEN updated >= '2026-07-27' THEN 1 ELSE 0 END) FROM summaries
+
+# RIGHT -- compare live length against the length the campaign actually produced,
+# url by url, via each manifest's own urlmap.
+stale = [u for u in local if d1[u] < local[u]]
+```
+
+The first query returned a clean 2,798/2,798. Grouping by day instead exposed it at
+once: 2,119 rows at an average `verbose` of 1,872 (the original truncated ingest)
+against 679 in the 8,000-15,000 range. **Pair any zero-reading gate with an orthogonal
+signal** — here, the length distribution — before believing it.
+
+### A batch file can keep changing after its batch looks finished
+
+Wave 39 wrote `pk_013.json` three times. The first version — 16,833 characters of
+`verbose`, 318 figures, 100% clean — is the one that got validated and stored. Later
+writes replaced it with 14,742 and then 12,885 characters. `pk_010` did the same thing,
+13,927 down to 13,313. The workflow reported 16/16 agents, zero errors.
+
+So "the output file exists" is not "the batch is finished", and a wave that validates the
+moment its files appear can bank one version while the repo ends up holding another. Here
+D1 kept the good text and the repo drifted to the worse text, which is the benign
+direction; the reverse would have been invisible.
+
+Two habits that make this safe:
+
+* **Wait for the Workflow completion notification before validating**, not for the output
+  files to appear. The files appear first.
+* **Reconcile the repo against D1 after committing**, comparing lengths per url. If they
+  disagree, D1 is authoritative — it holds what was validated — so pull the live text back
+  into the batch file rather than re-running the batch:
+
+      SELECT url, paragraph, page, verbose FROM summaries WHERE url LIKE '%<doc>.pdf'
+
+  Then re-validate the restored file. Matching figure counts (270 and 318 here) confirm it
+  is the same text that was staged, not a third version.
+
+### One document the campaign cannot fix
+
+`TSD PEPS Report - March 2025` (wave2 `w2_053`) extracts as CID font-glyph indices
+(`/0/1/2/3/i255/...`), not text — an embedded subset font with no ToUnicode CMap. Its
+96KB of "source" is unreadable, so its 3,444-character summary is the honest result of
+summarizing nothing, and it validated clean because gibberish asserts no figures. It is
+the only such file in all 720; fixing it needs OCR, not a re-run.
+
 ## The two rules that make it safe
 
 **1. Agents may not do arithmetic.** The prompt forbids writing any number that
