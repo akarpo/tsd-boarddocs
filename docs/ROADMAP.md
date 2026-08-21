@@ -71,17 +71,31 @@ Still not configured. Console → **Billing → Billing Overview → Enable auto
 failure worth avoiding is not a bounced text but the A2P registration lapsing for want of two
 dollars, after the work it took to get approved.
 
-### Re-extract the PEPS report so it is actually searchable
-`TSD PEPS Report - March 2025` (wave2 `w2_053`) is in the archive but not really in it.
-The PDF extracts as CID font-glyph indices rather than text — an embedded subset font with
-no ToUnicode CMap — so its 96KB of source is unreadable and its summary is a 3,444-character
-description of the header. It validated clean because text that asserts no figures cannot
-fail figure validation.
+### Finish summaries for the 348 recovered documents
+Every document in the corpus now has text and is in the search index -- 3,287 of 3,287,
+up from 2,798 -- so this is the prose layer, not retrieval. The remaining documents are
+already findable; they just have no `paragraph`/`page`/`verbose` summary yet.
 
-It is the **only** file of its kind in all 720 campaign documents, so this is one document,
-not a class. Fixing it means OCR-ing the PDF and re-running that single batch, not changing
-the pipeline. Worth doing because a PEPS report is exactly the kind of document someone
-would search for and find nothing.
+**State: 2,939 / 3,287 summarized (89.4%). 348 pending, 15 batches.**
+
+    python3 summarize.py --stats
+    python3 summarize.py --prep-batches 500 --batch-chars 96000 --batch-dir /tmp/tsd_batches
+    Workflow({scriptPath: 'scripts/summaries_workflow.js',
+              args: {batches: N, inDir: '/tmp/tsd_batches', outDir: '/tmp/tsd_out'}})
+    python3 summarize.py --store-dir /tmp/tsd_out
+
+**Cost tracks documents, not batches** -- roughly **0.16-0.20 points per document**, so
+348 documents is ~60 points and fits in one window with room to spare. Sizing a wave off
+the batch count is what goes wrong: a batch here holds anywhere from 1 to 49 documents,
+and the agent's cost is its *output*, which is three summary tiers per document. The first
+wave (96 docs in 4 batches) cost 15 points and the second (45 docs in 4 batches) cost 9.
+Re-prep between waves rather than reusing batch files -- `--prep-batches` re-derives from
+what D1 still lacks, so a stored wave simply disappears from the queue.
+
+One agent split its 33-document batch into `part1..4.json` instead of writing
+`batch_002.json`; the store step globs `batch_*.json` and silently ignored them. Merging
+the parts recovered all 33. **Check for stray `part*.json` in the out dir before concluding
+a batch failed.**
 
 ---
 
