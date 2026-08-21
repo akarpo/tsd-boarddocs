@@ -15,6 +15,12 @@ Everything SMS-related is built and verified. The YouTube channel is finished to
 cleared with `thumbnails.py --audit` reading 51/51 crest cards, and the agenda numbering fixed
 and gated by a check that can now see the class of error that slipped past it.
 
+**The corpus is fully scanned as of 2026-08-21.** All 3,287 documents have extracted
+text, are in the FTS index, and carry three summary tiers — reconciled in both directions
+against D1, zero drift. That is up from 2,798 the same morning: 489 documents had never
+been parsed at all and were invisible to search. See
+[parse-gaps/](parse-gaps/README.md).
+
 **The re-summarization campaign finished 2026-08-21.** All five campaigns are complete —
 fanout 26/26, remainder 76/76, wave2 121/121, orphans 4/4, packets 151/151 — across 720
 document urls, median live `verbose` 10,489 characters. Closing it out turned up eight
@@ -71,33 +77,6 @@ Still not configured. Console → **Billing → Billing Overview → Enable auto
 failure worth avoiding is not a bounced text but the A2P registration lapsing for want of two
 dollars, after the work it took to get approved.
 
-### Finish summaries for the 348 recovered documents
-Every document in the corpus now has text and is in the search index -- 3,287 of 3,287,
-up from 2,798 -- so this is the prose layer, not retrieval. The remaining documents are
-already findable; they just have no `paragraph`/`page`/`verbose` summary yet.
-
-**State: 2,954 / 3,287 summarized (89.9%). 333 pending, ~15 batches.**
-
-    python3 summarize.py --stats
-    python3 summarize.py --prep-batches 500 --batch-chars 96000 --batch-dir /tmp/tsd_batches
-    Workflow({scriptPath: 'scripts/summaries_workflow.js',
-              args: {batches: N, inDir: '/tmp/tsd_batches', outDir: '/tmp/tsd_out'}})
-    python3 summarize.py --store-dir /tmp/tsd_out
-
-**Cost tracks documents, not batches** -- roughly **0.16-0.20 points per document**, so
-348 documents is ~60 points and fits in one window with room to spare. Sizing a wave off
-the batch count is what goes wrong: a batch here holds anywhere from 1 to 49 documents,
-and the agent's cost is its *output*, which is three summary tiers per document. The first
-wave (96 docs in 4 batches) cost 15 points and the second (45 docs in 4 batches) cost 9.
-Re-prep between waves rather than reusing batch files -- `--prep-batches` re-derives from
-what D1 still lacks, so a stored wave simply disappears from the queue.
-
-One agent split its 33-document batch into `part1..4.json` instead of writing
-`batch_002.json`; the store step globs `batch_*.json` and silently ignored them. Merging
-the parts recovered all 33. **Check for stray `part*.json` in the out dir before concluding
-a batch failed.**
-
----
 
 ## Next
 
