@@ -233,7 +233,16 @@ morning after an API audit found the owed list was wrong in both directions; see
    `name`, source (`yt:<id>` / `telvue:<mediaId>` / `local`), site-eligibility,
    exact channel title. Enumerate the channel with
    `yt-dlp --flat-playlist --print "%(id)s|%(title)s" <channel/videos>`.
-   **The TelVue catalogue is the player root**, `https://videoplayer.telvue.com/player/<token>`
+   **The TelVue catalogue is the player root**, and Troy's is
+
+       https://connect.telvue.com/player/i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa/series/4132
+
+   — token `i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa`, board meetings are series `4132`,
+   and a single recording is `/player/<token>/media/<mediaId>`, which `yt-dlp`
+   resolves to an HLS master offering 416x234 / 640x360 / 1280x720. Take 720p
+   (`-f 2390`) for a YouTube upload. This token was documented as `<token>` for
+   months and had to be re-found by search each time; it is not a secret, it is
+   the address of a public access channel.
    with a browser User-Agent: it returns the station's whole gallery as `/media/<id>`
    links each followed by its air date, which is the authoritative list of what
    TelVue actually holds. Do not try to bisect the id space — ids are global across

@@ -52,6 +52,7 @@ MEETINGS = [  # date, kind, youtube video id
     ("2026-04-21", "Regular", "EwTOp4oXVVM"), ("2026-04-28", "Workshop", "4r7_NtwEzLE"),
     ("2026-05-19", "Regular", "bsD_fLjzByY"), ("2026-06-01", "Workshop", "9tnu8oPKieM"),
     ("2026-06-16", "Regular", "53yIbCM0YYA"), ("2026-07-22", "Regular", "v9EHA5_yT-8"),
+    ("2026-08-18", "Regular", "ciIdYBDoQjw"),
     ("2025-02-11", "", "1-P9EUyx9N0"),  # 2025: Workshop Meeting (rejoined single recording)
     ("2025-03-04", "", "07c94iVHEUE"),  # 2025: Workshop Meeting
     ("2025-03-18", "", "kQiUHyXn6lI"),  # 2025: Regular Meeting
