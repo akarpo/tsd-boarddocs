@@ -185,6 +185,13 @@ uploaded with an empty secret and every PUT came back 403 — per file, on stdou
 with the run still exiting 0. It uses `tsd_secrets.require()` now, which says what
 is missing instead.
 
+**The Office-to-PDF done-list holds absolute paths, and a missing done-list is
+not a missing conversion.** `_index/converted_pdf.done` is derived state: if it is
+empty, `convert_office.py` reports "to convert 1452" even though all but a handful
+are already in R2. Rebuild it by probing R2 for `<key>.pdf` rather than re-rendering
+the corpus — and seed it with absolute paths, since relative ones match nothing and
+silently re-upload 1,452 identical files. The script now normalises either form.
+
 **A batch output file can keep changing after it appears.** Wave 39 wrote
 `pk_013.json` three times, each shorter, all after the file first landed and with
 the workflow reporting no errors. Wait for the Workflow completion notification

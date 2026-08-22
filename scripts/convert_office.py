@@ -39,7 +39,12 @@ def upload(pdf: Path, key: str):
 
 
 def main():
-    done = set(DONE.read_text().splitlines()) if DONE.exists() else set()
+    # The done-list holds ABSOLUTE paths, because ROOT is resolved absolute above.
+    # Seeding it with relative paths silently matches nothing and re-converts the
+    # whole corpus -- 1,452 files re-rendered and re-uploaded to replace identical
+    # bytes. Normalise on read so either form works.
+    done = {str(Path(l) if Path(l).is_absolute() else (ROOT.parent.parent / l))
+            for l in (DONE.read_text().splitlines() if DONE.exists() else []) if l.strip()}
     files = [p for p in ROOT.rglob("*") if p.suffix.lower() in EXTS
              and not any(x.startswith("_") for x in p.relative_to(ROOT).parts)]
     todo = [p for p in files if str(p) not in done]
