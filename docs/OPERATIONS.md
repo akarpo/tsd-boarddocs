@@ -303,7 +303,11 @@ python3 transcription/anchors/push_pending.py
 the `.docx` + `.pdf` in the 2024 layout from a spec (title block, questions with
 timestamps, notes) and an attributed-utterance JSON. The 2026 edition's spec, keyterms and
 hand-off repair script are under `transcription/examples/lwv-2026-09-24/`. Vimeo audio:
-see the memory note on the embed `playerConfig` + `curl_cffi` path. The audit gate's
+see the memory note on the embed `playerConfig` + `curl_cffi` path. To put a forum on the site, upload the video without `--date`/`--name`
+(the uploader now prints the id before its thumbnail step), then
+`upload_transcript.py <repaired transcript.json> --date <date> --name "<name>" --youtube <id>
+--speakers <spec> --anchors <anchors.json>`; a meeting with no documents is listed
+because `/api/meetings` unions `recordings`. The audit gate's
 `--absent` takes several names, so the transcript path goes **first**:
 `audit_attribution.py <transcript.json> --absent "Nancy Philippart"`.
 

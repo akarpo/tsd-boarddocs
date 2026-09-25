@@ -18,9 +18,11 @@ and gated by a check that can now see the class of error that slipped past it.
 **The 2026-09-22 regular meeting is ingested through chapters** (2026-09-25): 33
 documents summarized, the July check register handed across, TelVue on YouTube as
 `bao5FaflxhI`, a 1:38 transcript with all 26 clusters resolved (0 audit flags), captions,
-24 numbered chapters, description pushed. The 2026-09-24 LWV candidate forum is transcribed
-and delivered as a document (`transcription/forum_doc.py`); whether it also goes on the
-channel and the site waits on the League's usage restriction. See the changelog.
+24 numbered chapters, description pushed. The 2026-09-24 LWV candidate forum is transcribed,
+delivered as a document (`transcription/forum_doc.py`), on the channel as `Nv1yNV4Mwos`
+and on the site as a recording-only meeting (the meetings API unions `recordings`). The
+2024 forum (`qQarjWMwXTI`) is on the channel but not the site; its transcript exists only
+as the 2024 .docx. See the changelog.
 
 **The 2026-09-01 workshop is ingested through chapters** (2026-09-04): 10 documents
 summarized, a 3:48 transcript with all ten speakers named from evidence, 22 numbered

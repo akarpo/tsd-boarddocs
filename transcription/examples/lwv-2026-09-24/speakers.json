@@ -1,0 +1,38 @@
+{
+ "_comment": "League of Women Voters candidate forum 2026-09-24 (transcript bc573ce7-b643-4670-8995-6d29dfe14e7f). Five clusters: the moderator and four candidates, each fixed by a self-introduction. The utterances uploaded are the repaired ones from repair.py (moderator hand-offs moved back, misheard names corrected), with the cluster letters kept.",
+ "speakers": [
+  {
+   "name": "Anjelica Miller",
+   "description": "League of Women Voters of Troy moderator; reads the questions and calls on candidates"
+  },
+  {
+   "name": "Vital Anne",
+   "description": "Candidate; incumbent board president"
+  },
+  {
+   "name": "Walt Cook",
+   "description": "Candidate; economist of education"
+  },
+  {
+   "name": "Mary Gunn",
+   "description": "Candidate; nurse"
+  },
+  {
+   "name": "Beau Taylor",
+   "description": "Candidate; Detroit city administrator"
+  }
+ ],
+ "mapping": {
+  "A": "Anjelica Miller",
+  "B": "Mary Gunn",
+  "C": "Vital Anne",
+  "D": "Walt Cook",
+  "E": "Beau Taylor"
+ },
+ "splits": [],
+ "utterance_splits": [],
+ "reassign": [],
+ "notes": [
+  "Ballot: two six-year seats on 2026-11-03. Michele Maleszyk was announced but did not take part."
+ ]
+}

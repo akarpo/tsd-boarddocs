@@ -111,8 +111,14 @@ def main():
     p = Path(a.video)
     print(f"uploading {p.name} ({p.stat().st_size/1e9:.2f} GB) as {a.privacy} …", flush=True)
     vid = upload(p, a.title, a.privacy, a.description)
-    set_thumbnail(vid, p, a.date, a.name)
-    print(f"DONE https://youtu.be/{vid}")
+    # The id is the one thing a 2 GB upload must never lose: print it before the
+    # thumbnail step, which exits when the stream has no crest card and no --date
+    # was given (a candidate forum, 2026-09-25). Set that thumbnail separately.
+    print(f"DONE https://youtu.be/{vid}", flush=True)
+    try:
+        set_thumbnail(vid, p, a.date, a.name)
+    except SystemExit as e:
+        print(f"  thumbnail not set: {e}", flush=True)
 
 
 if __name__ == "__main__":

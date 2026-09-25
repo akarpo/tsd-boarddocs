@@ -33,6 +33,17 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   ("Masada", "Ms. Gummel") and are repaired by index-asserted edits that move a fragment
   only when the person named speaks on the other side of the boundary. Not uploaded to
   the channel or the site: the League's usage restriction is the owner's call.
+- **The forum is on the channel and the site (owner's decision, same evening)**: 1080p
+  from the Vimeo HLS (`-N 8` pulled 2.3 GB in under a minute) uploaded as `Nv1yNV4Mwos`
+  with a hand-written description (questions as chapters), in the 2026 playlist, caption
+  track pushed, poster frame as the thumbnail. D1 rows under
+  `2026-09-24 | Meet the Candidates Night - League of Women Voters of Troy` (85
+  utterances, 10 chapters) from the *repaired* utterances with their cluster letters, so
+  the uploader's resolver still applies the spec. `/api/meetings` now unions
+  recordings that have no BoardDocs documents (docs=0, no BoardDocs link) and the list
+  reads "recording" for them. `upload_videos.py` prints the video id **before** the
+  thumbnail step, which used to exit — and lose the id — when a stream has no crest card
+  and no `--date` was given.
 - **Gotchas**: `audit_attribution.py --absent NAME <transcript>` swallows the transcript
   path (nargs) — put the transcript first. `yt-dlp` on the Vimeo HLS ran at ~470 KB/s
   tonight, five times the rate the notes expected. The image-proxy hook's subprocess
