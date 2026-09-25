@@ -5,6 +5,39 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Meeting 2026-09-22 end to end; the LWV candidate forum as a document — 2026-09-25
+
+- **2026-09-22 Regular Meeting ingested through chapters**: 33 documents (R2, D1, 15
+  Office previews, 33 deep-link ids), 33 three-tier summaries, TelVue 1047541 on YouTube
+  as `bao5FaflxhI` in the 2026 playlist, transcript, captions, 24 authored chapters
+  (numbering valid, every discussed item covered), description pushed. Six trustees
+  present; Philippart absent (the chair: "I'm forgetting that Nancy's not here").
+- **26 diarized clusters, six named by the identifier, all resolved from evidence.** The
+  chair's voice split into A+B+C (one sentence spans two clusters at 45:44); Principal
+  Ryan Brinks landed in Trudel's cluster and Melissa Prowse in Melton's; the Six Rivers
+  land-protection director sat across Jansen's and Alic's clusters; two students shared
+  the podium during one public comment (an `utterance_splits` cut at the word). Student
+  representatives are spelled from their name plates (frames at 1:11:17 and 1:13:57:
+  `Shyanne Kurzynski`, not the STT's "Cheyenne Kerszynski"). Spec and notes in
+  `transcription/examples/2026-09-22/speakers.json`; audit 0 flags, 0.0% unattributed.
+- **The July 2026 check register opened FY27 in tsd-checkregister**, whose dashboard
+  derived a `FY11-FY27` download link while the workbook and the published-figures check
+  both hardcoded FY26 — fixed there (workbook named from the data, link-vs-file check).
+- **League of Women Voters forum, 2026-09-24 (Vimeo 1230311838, 1:02:08)** transcribed
+  and delivered as `~/Desktop/Troy/TSD/2026-09-24 Troy School Board Candidate Forum -
+  League of Women Voters.{docx,pdf}` (15 pp, 7 questions, 85 lines). New reusable
+  builder `transcription/forum_doc.py` (python-docx + headless-Chrome PDF) with the
+  edition's spec, keyterms and hand-off repair script under
+  `transcription/examples/lwv-2026-09-24/`. Five clusters = moderator + four candidates;
+  fourteen moderator hand-offs were glued onto candidates' clusters or misheard
+  ("Masada", "Ms. Gummel") and are repaired by index-asserted edits that move a fragment
+  only when the person named speaks on the other side of the boundary. Not uploaded to
+  the channel or the site: the League's usage restriction is the owner's call.
+- **Gotchas**: `audit_attribution.py --absent NAME <transcript>` swallows the transcript
+  path (nargs) — put the transcript first. `yt-dlp` on the Vimeo HLS ran at ~470 KB/s
+  tonight, five times the rate the notes expected. The image-proxy hook's subprocess
+  prompts were logged into `docs/PROMPT_HISTORY.md` by the prompt hook; reverted.
+
 ### 2026-09-01 attribution corrected: Alic was cluster F, Melton was merged into Zendler's — 2026-09-04
 
 - **The owner's read was right: the trustee labelled Audra Melton was Emina Alic**, and

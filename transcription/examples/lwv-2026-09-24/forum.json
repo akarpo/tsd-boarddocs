@@ -1,0 +1,23 @@
+{
+  "basename": "2026-09-24 Troy School Board Candidate Forum - League of Women Voters",
+  "title": "Meet the Candidates Night",
+  "subtitle": "Troy School District Board of Education",
+  "host_line": "Hosted by the League of Women Voters of Troy",
+  "date_line": "September 24, 2026",
+  "ballot_line": "Four candidates, two six-year seats on the November 3, 2026 ballot",
+  "recording_line": "Recording: vimeo.com/1230311838  ·  running time 1:02:08",
+  "questions_intro": "Candidates gave two-minute opening statements in alphabetical order and had two minutes to answer each question; the candidate answering first rotated with each question. Audience members could submit written questions during the forum, screened by League members for duplication and appropriateness; the sixth question was introduced as an audience submission. The forum closed at about 1:02 without closing statements. Timestamps mark where the moderator put the question to the panel.",
+  "questions": [
+    {"ts_ms": 560000, "text": "School board members make decisions that affect nearly every family in our community. What experiences have prepared you to serve on the board, and what principles would guide your decision-making if elected?"},
+    {"ts_ms": 986000, "text": "Troy is widely regarded as one of Michigan's strongest school districts, but every district has room for improvement. What are the district's greatest strengths, and where is the greatest opportunity for improvement?"},
+    {"ts_ms": 1487000, "text": "School boards must balance community input with educational expertise and legal requirements. What do transparency and parental involvement mean to you, and how would you balance that input with the district's responsibility to educate all students?"},
+    {"ts_ms": 1883000, "text": "Like many districts across Michigan, Troy can face difficult financial decisions. As the district makes difficult decisions, what would your top priority be to protect, and what would guide potential reductions?"},
+    {"ts_ms": 2332000, "text": "Troy students consistently outperform state averages on standardized assessments, often by a significant margin, yet there are still concerns about literacy, learning loss, and college readiness. Should the Troy School District be satisfied with its current academic performance, or should it be aiming for something more? What specific outcomes would you prioritize to measure that success?",
+     "note": "The moderator called on Ms. Anne first; Ms. Gunn briefly took the call as hers."},
+    {"ts_ms": 2771000, "text": "How will you help the school district attract and retain top teachers, including supporting them? What does that specifically mean to you?",
+     "note": "Introduced as a question from the audience. Ms. Anne asked whether it was hers; the moderator directed it to Mr. Cook first."},
+    {"ts_ms": 3241000, "text": "Troy is one of the most diverse communities in Michigan. What role should the school district play in ensuring every student feels safe, heard, seen, respected, and able to succeed?",
+     "note": "Repeated in full at Ms. Anne's request [57:41]."}
+  ],
+  "transcript_note": "Machine transcription (AssemblyAI universal-3-5-pro) with speaker attribution; boosted with a 2025-26 Troy School District proper-noun vocabulary. Lightly reviewed, not a certified record."
+}

@@ -1,0 +1,151 @@
+{
+ "_comment": "Speaker spec for the 2026-09-22 regular meeting (transcript 7e259c19-eeca-4c35-8091-81f87f4ecbf7). 26 diarized clusters; the identifier named six. Every name below is settled by evidence in the transcript (the chair's hand-off, a self-introduction, or a name plate on camera) \u2014 see notes.",
+ "speakers": [
+  {
+   "name": "Vital Anne",
+   "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"
+  },
+  {
+   "name": "Emina Alic",
+   "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+  },
+  {
+   "name": "Matt Haupt",
+   "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+  },
+  {
+   "name": "Audra Melton",
+   "description": "Trustee, addressed as Dr. Melton"
+  },
+  {
+   "name": "Nancy Philippart",
+   "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"
+  },
+  {
+   "name": "Ayesha Potts",
+   "description": "Trustee, addressed as Ms. Potts"
+  },
+  {
+   "name": "Stephanie Zendler",
+   "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"
+  },
+  {
+   "name": "Richard Machesky",
+   "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+  },
+  {
+   "name": "Dan Trudel",
+   "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"
+  },
+  {
+   "name": "Christine DiPilato",
+   "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"
+  }
+ ],
+ "mapping": {
+  "A": "Vital Anne",
+  "B": "Vital Anne",
+  "C": "Vital Anne",
+  "D": "Unidentified speaker",
+  "E": "Matt Jansen",
+  "F": "John Pagel",
+  "G": "Dan Trudel",
+  "H": "Miranda (Troy High School student rep)",
+  "I": "Thomas Butcher",
+  "J": "Audra Melton",
+  "K": "Kendra Montante",
+  "L": "Christine DiPilato",
+  "M": "Stephanie Zendler",
+  "N": "Dr. Richard Machesky",
+  "O": "Sahibajit Singh",
+  "P": "Matt Haupt",
+  "Q": "Chris Bunch",
+  "R": "Walt Cook",
+  "S": "Tim Hughes",
+  "T": "Emina Alic",
+  "U": "Ayesha Potts",
+  "V": "Karl Schmidt",
+  "W": "Casey Conaton",
+  "X": "Ahyoung Song",
+  "Y": "Alex Smith",
+  "Z": "Shyanne Kurzynski"
+ },
+ "splits": [],
+ "utterance_splits": [
+  {
+   "start_ms": 3619238,
+   "at_ms": 3625020,
+   "after": "Emily Byrne",
+   "note": "1:00:19 two students at the podium: 'My name is Alex' then 'I'm Emily Byrne, I'm a sophomore at Athens'; the speech that follows (#236, 'currently attending Troy High School') is Alex Smith's"
+  }
+ ],
+ "reassign": [
+  {
+   "name": "Melissa Prowse",
+   "start_ms": [
+    1194192,
+    1216741
+   ]
+  },
+  {
+   "name": "Brian (Six Rivers Land Conservancy)",
+   "start_ms": [
+    1312690,
+    1328000,
+    1330966
+   ]
+  },
+  {
+   "name": "Ryan Brinks",
+   "start_ms": [
+    1837295
+   ]
+  },
+  {
+   "name": "Alex Smith",
+   "start_ms": [
+    3800477
+   ]
+  },
+  {
+   "name": "Emily Byrne",
+   "start_ms": [
+    3625500
+   ]
+  },
+  {
+   "name": "Unidentified speaker",
+   "start_ms": [
+    478958,
+    588653,
+    666427,
+    668139,
+    780630,
+    871909,
+    915185,
+    1090643,
+    1124462,
+    1153785,
+    1280889,
+    1348179,
+    1575002,
+    2011269,
+    2099464,
+    2190000,
+    2847252
+   ]
+  }
+ ],
+ "notes": [
+  "Roll call from the chair: 'Resolution passes 6-0 ... I'm forgetting that Nancy's not here' (39:19) \u2014 Philippart absent, six trustees present.",
+  "A+B+C are one voice: the chair, split three ways (A 'supported by Ms.' / C 'Alic. Any questions' at 45:44 is one sentence). Vital Anne chairs (forum 2026-09-24: 'currently as a board president').",
+  "N = Machesky: the chair asks 'Dr. Machesky?' (1:32:18) and N answers 'Yes, Miss Anne, and thank you, Miss Alic'; frame at 1:32:34 shows a man speaking beside the president's plate.",
+  "J = Melton: 'Dr. Melton?' (1:22:16) -> J; J's 19:54 turn ('thank the board for sticking with us', talked to Oakland County Parks staff) is Melissa Prowse, the only Melissa Chris Bunch named as present.",
+  "E = Jansen ('I invite Mr. Matt Jansen' 7:14). E/T lines at 21:52-22:10 are Brian, Six Rivers land protection director and Auburn Hills mayor per Bunch ('as Kris mentioned, born and raised in the city of Troy'); surname not spoken, so not added.",
+  "G = Trudel ('Mr. Trudel' 43:17); G's 30:37 turn ('this awesome team that Casey and I have had the pleasure to work with') is Principal Ryan Brinks. W = Casey Conaton ('Ryan and I were both new to Smith').",
+  "Student reps by name plate (frames 1:11:17, 1:13:57): Landon Ibrahim / Sahibajit Singh; Shyanne Kurzynski / Ahyoung Song. The STT wrote 'Cheyenne Kerszynski'; the plate spelling is used. Miranda spoke for Landon ('since Miranda is our guest' 1:09:05); her surname was not given.",
+  "Public commenters as announced by the chair: Tim Hughes (35:08), Walt Cook (57:00, self-identified), Alex Smith (1:00:07; Haupt thanks 'Alex'). C's 'Do the right thing and ban AI' (1:03:20) closes Smith's speech.",
+  "V = Karl Schmidt (former board president: 'weird to be standing here talking to all of you', divesting since 2014); Q = Chris Bunch (Six Rivers executive director, lists who could not attend).",
+  "D is interjection dust from several people (79 words in 35 turns) and stays unidentified; the other unidentified lines are one-to-three-word strays inside a cluster whose owner was not speaking at that moment."
+ ]
+}

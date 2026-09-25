@@ -298,6 +298,15 @@ python3 transcription/anchors/apply_anchors.py <date> transcription/anchors/auth
 python3 transcription/anchors/push_pending.py
 ```
 
+**Candidate forums (LWV, every even September)** are a document, not a meeting:
+`transcription/forum_doc.py SPEC.json ATTRIBUTED.json --out-dir ~/Desktop/Troy/TSD` builds
+the `.docx` + `.pdf` in the 2024 layout from a spec (title block, questions with
+timestamps, notes) and an attributed-utterance JSON. The 2026 edition's spec, keyterms and
+hand-off repair script are under `transcription/examples/lwv-2026-09-24/`. Vimeo audio:
+see the memory note on the embed `playerConfig` + `curl_cffi` path. The audit gate's
+`--absent` takes several names, so the transcript path goes **first**:
+`audit_attribution.py <transcript.json> --absent "Nancy Philippart"`.
+
 **Two traps from 2026-09-04.** BoardDocs now serves attachments under
 `/pfiles/<UNID>/$file/`; a crawler that only recognises `/files/` downloads every
 document and records no identifier, and the only symptom is that the site's "open on

@@ -4,7 +4,7 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-09-04**.
+Last reviewed **2026-09-25**.
 
 ---
 
@@ -14,6 +14,13 @@ Everything SMS-related is built and verified. The YouTube channel is finished to
 2026-08-19: all 41 descriptions rebuilt from the corrected D1 anchors, the thumbnail backlog
 cleared with `thumbnails.py --audit` reading 51/51 crest cards, and the agenda numbering fixed
 and gated by a check that can now see the class of error that slipped past it.
+
+**The 2026-09-22 regular meeting is ingested through chapters** (2026-09-25): 33
+documents summarized, the July check register handed across, TelVue on YouTube as
+`bao5FaflxhI`, a 1:38 transcript with all 26 clusters resolved (0 audit flags), captions,
+24 numbered chapters, description pushed. The 2026-09-24 LWV candidate forum is transcribed
+and delivered as a document (`transcription/forum_doc.py`); whether it also goes on the
+channel and the site waits on the League's usage restriction. See the changelog.
 
 **The 2026-09-01 workshop is ingested through chapters** (2026-09-04): 10 documents
 summarized, a 3:48 transcript with all ten speakers named from evidence, 22 numbered
