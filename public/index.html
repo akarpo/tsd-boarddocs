@@ -334,7 +334,7 @@ function renderMeetingList(){
         `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
         `<span class="mdate">${esc(fmtDate(m.date))}</span>`+
         `<span class="mnm">${esc(fmtTime(m.name||""))}</span>`+
-        `<span class="mdocs">${m.docs} doc${m.docs>1?"s":""}</span>`;
+        `<span class="mdocs">${m.docs?`${m.docs} doc${m.docs>1?"s":""}`:"recording"}</span>`;
       row.addEventListener("click",()=>openMeeting(m));
       rows.appendChild(row);
     });
@@ -372,7 +372,7 @@ async function openMeeting(m, push){
       `<span class="badge" style="background:var(${BADGE[type]||'--b-meeting'})">${esc(type)}</span>`+
       `<span class="date">${esc(fmtDate(m.date))}</span>`+
       `<span class="mname">${esc(fmtTime(m.name||""))}</span>`+
-      (m.boarddocs_url?`<a class="mcount" href="${esc(m.boarddocs_url)}" target="_blank" rel="noopener">BoardDocs ↗</a>`:`<span class="mcount">${(data.docs||[]).length} docs</span>`);
+      (m.boarddocs_url?`<a class="mcount" href="${esc(m.boarddocs_url)}" target="_blank" rel="noopener">BoardDocs ↗</a>`:`<span class="mcount">${(data.docs||[]).length?`${(data.docs||[]).length} docs`:"recording and transcript"}</span>`);
     grp.appendChild(hd);
     const list=document.createElement("div"); list.className="mitems";
     (data.docs||[]).forEach(d=>list.appendChild(card(d)));

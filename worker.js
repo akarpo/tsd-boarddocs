@@ -969,13 +969,25 @@ export default {
       }
       if (p === "/api/meetings") {
         // Timeline: one row per meeting (newest first) with a document count.
-        const { results } = await env.DB.prepare(
-          "SELECT meeting_date, meeting_name, meeting_type, count(DISTINCT file) AS docs, min(file) AS samplefile " +
-          "FROM chunks WHERE source!='summary' AND meeting_date!='' GROUP BY meeting_date, meeting_name ORDER BY meeting_date DESC, meeting_name"
-        ).all();
+        // A recording with no BoardDocs documents (the League of Women Voters candidate
+        // forum) is still a meeting here: it has a transcript and chapters, so it is
+        // listed with docs=0. The fallback query is for a database without `recordings`.
+        const DOCS = "SELECT meeting_date, meeting_name, meeting_type, count(DISTINCT file) AS docs, min(file) AS samplefile " +
+          "FROM chunks WHERE source!='summary' AND meeting_date!='' GROUP BY meeting_date, meeting_name";
+        let results;
+        try {
+          ({ results } = await env.DB.prepare(
+            DOCS + " UNION ALL SELECT r.meeting_date, r.meeting_name, 'Recording' AS meeting_type, 0 AS docs, NULL AS samplefile " +
+            "FROM recordings r WHERE NOT EXISTS (SELECT 1 FROM chunks c WHERE c.source!='summary' " +
+            "AND c.meeting_date=r.meeting_date AND c.meeting_name=r.meeting_name) " +
+            "ORDER BY meeting_date DESC, meeting_name"
+          ).all());
+        } catch {
+          ({ results } = await env.DB.prepare(DOCS + " ORDER BY meeting_date DESC, meeting_name").all());
+        }
         const meetings = (results || []).map((m) => ({
           date: m.meeting_date, name: m.meeting_name, type: m.meeting_type, docs: m.docs,
-          boarddocs_url: bdLink({ meeting_date: m.meeting_date, file: m.samplefile }),
+          boarddocs_url: m.samplefile ? bdLink({ meeting_date: m.meeting_date, file: m.samplefile }) : null,
         }));
         return json({ meetings });
       }
