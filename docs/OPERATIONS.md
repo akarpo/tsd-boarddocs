@@ -308,8 +308,8 @@ see the memory note on the embed `playerConfig` + `curl_cffi` path. To put a for
 `upload_transcript.py <repaired transcript.json> --date <date> --name "<name>" --youtube <id>
 --speakers <spec> --anchors <anchors.json>`; a meeting with no documents is listed
 because `/api/meetings` unions `recordings`. The audit gate's
-`--absent` takes several names, so the transcript path goes **first**:
-`audit_attribution.py <transcript.json> --absent "Nancy Philippart"`.
+`--absent`/`--expect` are repeatable single-name flags
+(`audit_attribution.py --absent "Nancy Philippart" <transcript.json>`).
 
 **Two traps from 2026-09-04.** BoardDocs now serves attachments under
 `/pfiles/<UNID>/$file/`; a crawler that only recognises `/files/` downloads every

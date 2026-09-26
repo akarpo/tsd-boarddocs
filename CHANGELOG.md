@@ -5,6 +5,31 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Documentation and QA pass — 2026-09-25
+
+- **D1 integrity clean**: 3,344 documents = 3,344 summaries = 3,344 `sum:` rows; 0
+  duplicate chunk ids; 46 recordings, each with utterances (21,464) and anchors (624), and
+  no utterances without a recording; 0 orphan or missing summaries. Channel: every
+  `MEETINGS` video in its year playlist (2024=20, 2025=20, 2026=16), thumbnails 54/54,
+  captions on all 46 recordings. `qa_numbers.py` unchanged at 16 COVERED / 11 ORDER
+  over 44 board meetings, so 2026-09-22 added no flags.
+- **The keyterm emit would have crashed at the cap.** Its over-cap branch sorted every
+  term by its index entry, and curated terms have none — a KeyError the first time the
+  merged list passed 1,000, which the 2026-09-22 packet brought within a meeting of
+  happening (877 after it added 311 terms, many of them fleet-lease boilerplate such as
+  "Entire Agreement" and "Service Charge Due"). The emit now keeps the curated list
+  whole, applies the shape test to indexed terms (so improving stoplists retire old
+  junk without touching the index's provenance), ranks the rest by recurrence, and says
+  what it drops; the generic-word list gained the contract and job-posting vocabulary.
+- **Prompt history hook**: ignores the image-proxy subprocess's prompts, which had been
+  logged as user prompts.
+- **Audit gate**: `--absent`/`--expect` are repeatable single-name flags; the greedy
+  form swallowed the transcript path.
+- **Docs**: caption and anchor coverage restated for 46 recordings (TRANSCRIPTION, with a
+  new "Candidate forums" section), document count 3,344 (ROADMAP), forums on the timeline
+  (README), TOOLING rows for `forum_doc.py`, the uploader's id-first change and the audit
+  flags, PROMPT_HISTORY brought current.
+
 ### Meeting 2026-09-22 end to end; the LWV candidate forum as a document — 2026-09-25
 
 - **2026-09-22 Regular Meeting ingested through chapters**: 33 documents (R2, D1, 15

@@ -283,11 +283,13 @@ minutes say Ryan Stasinski and Brian Fahnestock. The era pass found Fahnestock,
 and found `Katie Starn` where the chair had announced "Katie Skarn", turning two
 speakers that had been demoted to `Public commenter` back into named teachers.
 
-## Season coverage (as of 2026-09-04)
+## Season coverage (as of 2026-09-25)
 
-**All 43 channel videos carry the "English (speaker-attributed)" caption track**
-as of 2026-09-04 — 2024, 2025 and 2026 complete (41 as of 2026-08-08, plus the
-2026-08-18 regular and 2026-09-01 workshop). The last 15 were pushed that
+**All 46 channel recordings carry the "English (speaker-attributed)" caption track**
+as of 2026-09-25 — 44 board meetings (2024, 2025 and 2026 complete through the
+2026-09-22 regular) and the two League of Women Voters candidate forums (2024-09-25,
+2026-09-24). 43 as of 2026-09-04 (41 as of 2026-08-08, plus the 2026-08-18 regular
+and 2026-09-01 workshop). The last 15 were pushed that
 morning after an API audit found the owed list was wrong in both directions; see
 "Audit before you push captions" below.
 
@@ -464,7 +466,24 @@ zero prose labels, zero truncated, zero duplicated prefixes, zero
 discussed-but-unanchored items. As of 2026-09-04: 578 anchors across 43 meetings,
 556 of them numbered; `qa_numbers.py` reads 16 COVERED and 11 ORDER, all
 eyeballed (procedural items folded into a neighbour, and genuine out-of-sequence
-agendas).
+agendas). As of 2026-09-25: 624 anchors across 46 recordings — 602 on 44 board
+meetings (the 2026-09-22 regular added 24, numbering valid, and left the QA counts at
+16 COVERED / 11 ORDER) plus 22 forum chapters, which carry no agenda numbers.
+
+## Candidate forums (League of Women Voters)
+
+A forum is a recording, not a meeting: one mic per speaker diarizes cleanly (5 clusters
+= moderator + 4 candidates in 2026), every voice is fixed by its own self-introduction
+and the moderator's hand-off, and the characteristic defect is that hand-off — "Mr.
+Cook." — glued onto the front or back of an answer or misheard ("Masada", "Ms.
+Gummel"). Repair it with index-asserted edits that move a fragment only when the
+person named is the speaker on the other side of the boundary; never by hand-keyed
+offsets. The deliverable is the .docx/.pdf that `transcription/forum_doc.py` builds
+from a spec, and the site rows come from the *repaired* utterances with their cluster
+letters kept, so `upload_transcript.py` still resolves names through the spec. Worked
+examples: `transcription/examples/lwv-2026-09-24/` (spec, keyterms, `repair.py`) and
+`lwv-2024-09-25/` (rebuilt from the delivered .docx). Neither the coverage gate nor
+`qa_numbers.py` applies — there is no agenda — and `meetings.tsv` does not list them.
 
 ## Thumbnails — why the frame grab is not a frame grab
 

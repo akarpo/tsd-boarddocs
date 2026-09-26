@@ -92,7 +92,31 @@ GENERIC = {
     "policy", "procedure", "contract", "agreement", "amendment", "letter", "rec",
     "office", "space", "center", "centre", "north", "south", "east", "west",
     "new", "old", "first", "second", "third", "fourth", "year", "years", "term",
+    # Contract and job-posting boilerplate that the 2026-09-22 packet (a fleet-lease
+    # agreement, a hire list) pushed through: "Entire Agreement", "No Warranty",
+    # "Service Charge Due", "Resource Room Teacher" are categories, not names.
+    "entire", "no", "its", "who", "we", "warranty", "registration", "inquiries",
+    "charge", "due", "risk", "vehicle", "vehicles", "rental", "sell", "form",
+    "consignment", "auction", "customer", "owned", "termination", "maintenance",
+    "limitations", "beyond", "invite", "physical", "mental", "illness", "social",
+    "worker", "pathologist", "speech", "resource", "room", "odometer", "act", "full",
+    "entities", "applicant", "central", "documentation", "additional", "options",
+    "showcase", "update", "intro", "final", "list", "agreements",
 }
+
+
+def is_name(term: str) -> bool:
+    """The shape test the packet scan applies, reusable at emit time.
+
+    Emitting also filters, because the index keeps every term it ever admitted
+    (provenance is the point) while the stoplists improve over time: a phrase the
+    2026-09-22 scan admitted under an older GENERIC list should not keep costing one
+    of the 1,000 slots forever.
+    """
+    low = [w.lower().strip("'&!.-") for w in term.split()]
+    if not low or low[0] in STOP or low[-1] in STOP:
+        return False
+    return not all(w in STOP or w in GENERIC for w in low)
 
 
 def d1(sql: str) -> list[dict]:
@@ -201,15 +225,24 @@ def main() -> int:
         base = []
         if a.base and Path(a.base).exists():
             base = json.loads(Path(a.base).read_text())
-        terms = sorted(set(ix) | set(base))
+        # The curated list is never subject to the cap or the shape test; only
+        # indexed terms compete for the remaining slots, most-recurrent first, then
+        # most recent. (The previous cap branch sorted every term by its index entry
+        # and curated terms have none — a KeyError the first time the list passed
+        # 1,000, which the 2026-09-22 packet brought within one meeting of happening.)
+        indexed = [t for t in ix if t not in set(base)]
+        shaped = [t for t in indexed if is_name(t)]
+        if len(shaped) < len(indexed):
+            print(f"filtered {len(indexed) - len(shaped)} indexed terms that no longer pass the shape test")
+        budget = max(a.limit - len(base), 0)
+        shaped.sort(key=lambda t: (-ix[t].get("seen", 1), ix[t].get("last_meeting") or ix[t].get("first_meeting") or "", t))
+        if len(shaped) > budget:
+            print(f"NOTE: {len(shaped)} indexed terms exceed the {budget} slots left under the {a.limit} cap — "
+                  f"keeping the most-recurrent, dropping {len(shaped) - budget}", file=sys.stderr)
+            shaped = shaped[:budget]
+        terms = sorted(set(base) | set(shaped))
         if base:
-            print(f"merged {len(base)} curated + {len(ix)} indexed -> {len(terms)} unique")
-        if len(terms) > a.limit:
-            # Never silently truncate: say what was dropped and on what rule.
-            terms.sort(key=lambda t: (-ix[t].get("seen", 1), t))
-            print(f"NOTE: {len(ix)} terms exceeds the {a.limit} cap — "
-                  f"emitting the {a.limit} most-seen, dropping {len(ix)-a.limit}", file=sys.stderr)
-            terms = sorted(terms[:a.limit])
+            print(f"merged {len(base)} curated + {len(shaped)} indexed -> {len(terms)} unique")
         Path(a.emit).write_text(json.dumps(terms, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"emitted {len(terms)} keyterms -> {a.emit}")
         return 0

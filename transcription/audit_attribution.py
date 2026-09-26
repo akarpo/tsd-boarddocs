@@ -116,10 +116,12 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("transcripts", nargs="+", type=Path)
-    ap.add_argument("--absent", nargs="*", default=[],
-                    help="names the minutes record as absent (any words = misattribution)")
-    ap.add_argument("--expect", nargs="*", default=[],
-                    help="names the minutes record as present (silence = a cluster went unnamed)")
+    # `action="append"` rather than `nargs="*"`: a greedy flag swallowed the transcript
+    # path when it followed (`--absent "Nancy Philippart" x.json` -> "transcripts required").
+    ap.add_argument("--absent", action="append", default=[], metavar="NAME",
+                    help="a name the minutes record as absent (any words = misattribution); repeatable")
+    ap.add_argument("--expect", action="append", default=[], metavar="NAME",
+                    help="a name the minutes record as present (silence = a cluster went unnamed); repeatable")
     ap.add_argument("--samples", type=int, default=0,
                     help="show N long sample lines per unattributed cluster, to identify it by content")
     a = ap.parse_args()

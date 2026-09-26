@@ -175,3 +175,8 @@ open up the TSD-Boarddocs project and scan for the latest meetings, and also add
 ---
 Yes, upload the forum to YouTube and add it to the site
 ---
+3. **"Yes, upload the forum to YouTube and add it to the site"** → 1080p from the Vimeo HLS (`-N 8`, ~48 MB/s) uploaded as `Nv1yNV4Mwos` with a hand-written description, 2026 playlist, caption track, poster-frame thumbnail; D1 rows under a forum meeting name; `/api/meetings` extended to union recording-only meetings; `upload_videos.py` fixed to print the id before its thumbnail step (which would have exited and lost the id — caught at 2% and restarted).
+4. **"Yes, add the 2024 forum to the site too"** → The 2024 .docx parsed back into utterances and questions, loaded to D1 (143 lines, 12 chapters); `qQarjWMwXTI` (unlisted) got a description, captions and its 2024 playlist slot.
+5. **"Can you generate a Facebook post .docx for the 2026 LOWV on the desktop?"** (mid-turn) → `~/Desktop/LWV Candidate Forum Facebook Post 2026-09-24.docx`: per question, one bullet per candidate, plus the description body as the first comment.
+6. **"Great, perform a documentation and QA pass"** → D1 integrity clean (3,344 = 3,344 = 3,344; 46 recordings ↔ utterances ↔ anchors; 0 duplicate ids); playlists and captions complete; thumbnails 54/54; `qa_numbers.py` unchanged at 16 COVERED / 11 ORDER over 44 meetings. Fixed: the keyterm emit's cap branch (KeyError on curated terms, and no filter on already-indexed boilerplate — the 09-22 packet had pushed the list to 877 of 1,000); the prompt hook now ignores the image-proxy subprocess; the audit gate's flags are repeatable. Counts and claims refreshed in README, TRANSCRIPTION, ROADMAP, TOOLING; a "Candidate forums" section added to TRANSCRIPTION.
+
