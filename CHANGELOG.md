@@ -44,6 +44,14 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   reads "recording" for them. `upload_videos.py` prints the video id **before** the
   thumbnail step, which used to exit — and lose the id — when a stream has no crest card
   and no `--date` was given.
+- **The 2024 forum joined the site too** (owner's request): its transcript exists only as
+  the delivered .docx, so `[m:ss] Name: text` lines and the question list were parsed
+  back into an AssemblyAI-shaped transcript (one letter per name; ends = next start) and
+  loaded under `2024-09-25 | Meet the Candidates Night - League of Women Voters of Troy`
+  (143 lines, 12 chapters). `qQarjWMwXTI` got a real description, a caption track and its
+  2024 playlist slot; it stays unlisted. Spec and chapters under
+  `transcription/examples/lwv-2024-09-25/`. A Facebook post for the 2026 forum, per
+  question and candidate, is drafted on the Desktop.
 - **Gotchas**: `audit_attribution.py --absent NAME <transcript>` swallows the transcript
   path (nargs) — put the transcript first. `yt-dlp` on the Vimeo HLS ran at ~470 KB/s
   tonight, five times the rate the notes expected. The image-proxy hook's subprocess

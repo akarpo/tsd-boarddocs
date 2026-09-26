@@ -56,6 +56,7 @@ MEETINGS = [  # date, kind, youtube video id
     ("2026-09-01", "Workshop", "3pJjVfmMOT4"),
     ("2026-09-22", "Regular", "bao5FaflxhI"),
     ("2026-09-24", "", "Nv1yNV4Mwos"),  # LWV candidate forum (not a board meeting)
+    ("2024-09-25", "", "qQarjWMwXTI"),  # LWV candidate forum 2024 (rebuilt from the .docx)
     ("2025-02-11", "", "1-P9EUyx9N0"),  # 2025: Workshop Meeting (rejoined single recording)
     ("2025-03-04", "", "07c94iVHEUE"),  # 2025: Workshop Meeting
     ("2025-03-18", "", "kQiUHyXn6lI"),  # 2025: Regular Meeting
@@ -88,6 +89,7 @@ MEETINGS = [  # date, kind, youtube video id
 ]
 SRT_DIR = Path(__file__).resolve().parent.parent / "transcripts"
 TITLE_BY_VID = {
+    "qQarjWMwXTI": "2024-09-25 - Troy School Board - Meet the Candidates Night - League of Women Voters of Troy",
     "Nv1yNV4Mwos": "2026-09-24 - Troy School Board - Meet the Candidates Night - League of Women Voters of Troy",
 "42C3J23nSgY": "2024-01-16 - Troy (MI) School District - Board of Education - Standing Meeting",
 "UOpDDauFT3Q": "2024-02-27 - Troy (MI) School District - Board of Education - Standing Meeting",

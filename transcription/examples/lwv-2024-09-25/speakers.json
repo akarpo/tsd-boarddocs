@@ -1,0 +1,54 @@
+{
+ "_comment": "2024-09-25 LWV forum, rebuilt from the delivered .docx; letters are one per name, so mapping is the whole spec.",
+ "speakers": [
+  {
+   "name": "Alex Karpowitsch",
+   "description": "candidate"
+  },
+  {
+   "name": "Audra Melton",
+   "description": "candidate"
+  },
+  {
+   "name": "Ayesha Potts",
+   "description": "candidate"
+  },
+  {
+   "name": "Gary Hauff",
+   "description": "candidate"
+  },
+  {
+   "name": "Karen Fabian",
+   "description": "moderator (LWV Voter Service Chair)"
+  },
+  {
+   "name": "Karl Schmidt",
+   "description": "candidate"
+  },
+  {
+   "name": "Nicole Wilson",
+   "description": "candidate"
+  },
+  {
+   "name": "Stephanie Zendler",
+   "description": "candidate"
+  }
+ ],
+ "mapping": {
+  "A": "Alex Karpowitsch",
+  "B": "Audra Melton",
+  "C": "Ayesha Potts",
+  "D": "Gary Hauff",
+  "E": "Karen Fabian",
+  "F": "Karl Schmidt",
+  "G": "Nicole Wilson",
+  "H": "Stephanie Zendler",
+  "I": "Unidentified speaker"
+ },
+ "splits": [],
+ "utterance_splits": [],
+ "reassign": [],
+ "notes": [
+  "Seven candidates for three six-year seats on the 2024-11-05 ballot; moderator Karen Fabian; source YouTube qQarjWMwXTI (1:30:40). No closing statements were taken; the last question ran to the moderator's thanks."
+ ]
+}

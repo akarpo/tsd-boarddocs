@@ -21,8 +21,7 @@ documents summarized, the July check register handed across, TelVue on YouTube a
 24 numbered chapters, description pushed. The 2026-09-24 LWV candidate forum is transcribed,
 delivered as a document (`transcription/forum_doc.py`), on the channel as `Nv1yNV4Mwos`
 and on the site as a recording-only meeting (the meetings API unions `recordings`). The
-2024 forum (`qQarjWMwXTI`) is on the channel but not the site; its transcript exists only
-as the 2024 .docx. See the changelog.
+2024 forum (`qQarjWMwXTI`, unlisted) is on the site as well, rebuilt from its .docx. See the changelog.
 
 **The 2026-09-01 workshop is ingested through chapters** (2026-09-04): 10 documents
 summarized, a 3:48 transcript with all ten speakers named from evidence, 22 numbered
