@@ -5,6 +5,70 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Documentation and QA pass — 2026-10-10
+
+- **D1 was not the index, chunk by chunk, and the document-level checks could not see it.**
+  Twelve documents re-extracted with more text in the 2026-08-21 parse-gap recovery still
+  had only their first chunk in D1 — 38 chunks missing, 19 of them from one 20-chunk
+  article — because `upload_d1.py --new-only` skips any url already present. And the PEPS
+  report (March 2025) carried its 46 glyph-garbage chunks beside its 26 OCR'd ones,
+  because nothing removes an old extraction's rows. New `scripts/reconcile_chunks.py`
+  diffs D1 against the index by chunk id; `--fix` inserted the 38 and deleted the 46.
+  D1 now equals the index at 45,139 chunks, 0 duplicate ids.
+- **The PEPS report is summarized from its text for the first time.** Its 3,444-character
+  summary had been written from glyph ids ("the honest result of summarizing nothing",
+  RESUMMARIZE.md); the OCR'd study now gives Plante Moran's projections (Method 1 K-12 FTE
+  11,598 in 2024 to 10,617 in 2029). The grade-band figures were checked by summing to the
+  K-12 totals, which caught one misread row before it was stored.
+- **A second shape of glyph garbage.** The 2026-10-06 Baker oven packet decoded to raw
+  control characters (70% of the text, 0.4% words), which `_is_glyph_garbage()` did not
+  recognise; it now does, and across the corpus it flags exactly that one file. Re-extracted
+  by OCR (38,858 characters) and its D1 rows replaced.
+- **Runbook fixes found by running it:** TelVue workshops are series `5075`, not `4132`
+  (regular meetings only); the yt-dlp format id is bitrate-derived and changed (2389), so
+  the runbook selects by height; a sentence in TRANSCRIPTION's TelVue note had lost its
+  subject (fetch the player root). `extract_all.py` takes no arguments, so `--help` runs a
+  full pass (harmless — it skips existing outputs); TOOLING says so.
+- Counts: 3,353 documents = summaries = `sum:` rows; 47 recordings, 22,276 utterances,
+  649 anchors, 0 orphan utterances; `qa_numbers.py` unchanged at 16 COVERED / 11 ORDER over
+  45 board meetings; every thumbnail a crest card (the new one at 0.978).
+
+### Meeting 2026-10-06 (workshop) end to end — 2026-10-10
+
+- 9 documents crawled, extracted, in R2 and D1, summarized (no check register in the
+  packet). TelVue `1050058` (workshops series `5075`) on YouTube as `7JyXa8h7WrA`, typeset
+  crest card, 2026 playlist, caption track, 25 numbered chapters, description pushed.
+- Transcript `df86af51…`, 8 clusters, every one resolved with evidence (spec in
+  `transcription/examples/2026-10-06/speakers.json`, 0 audit flags). Alic and Haupt
+  attended by Microsoft Teams; Paul Crane, the new director of safety and security,
+  introduced himself. **Cluster B held Zendler and Melton all evening** — the second
+  time after 2026-09-01 — and was split per utterance by seeded ECAPA embeddings, with two
+  mid-turn hand-offs cut at the word boundary and two of its lines returned to staff.
+  The identifier's own mapping had split DiPilato and Haupt across two clusters each.
+
+### Sign-in and admin codes by Twilio Verify — 2026-10-10
+
+- **Codes are delivered by Twilio Verify** (service `VA86c587d1…`, "Troy SD Archive", on the
+  same akarpo@gmail.com account), from Twilio's pooled senders, which are exempt from A2P
+  10DLC. Resident sign-in and admin 2FA no longer depend on the Sole Proprietor campaign,
+  which keeps the owner-facing texts and the inbound router. (`foxhalltroy` is moving to
+  Verify too, on its own account, because its campaign keeps being rejected. This
+  campaign is VERIFIED; the point here is that sign-in no longer depends on it.)
+- **Verify only delivers** (`CustomCodeEnabled`). Generation, hashing, expiry and attempt
+  counting stay in D1, so SMS and the email fallback keep one checking path. `sendCode()`
+  cancels the number's pending verification before each send and falls back to the
+  Messages API if Verify refuses; a correct entry marks the verification `approved` via
+  `waitUntil` (the Worker's `ctx` is now passed to `handleAssistant`). Both updates address
+  the verification by phone number, so no schema change. Armed by one `bot_config` row,
+  `twilio_verify_sid`; deleting it restores the old path.
+- **Inbound STOP now clears `sms_consent`** (was a ROADMAP item). A STOP to the archive's
+  number no longer blocks codes at the carrier, because they come from other numbers, so the
+  webhook records the opt-out itself before routing. `START` is not read as consent.
+- **Verified live:** the first admin code (`VE9b16…`) was delivered by Verify to Verizon with
+  nothing in the Messages log; a second request inside the window turned it `canceled` and
+  created `VE5f84…`; the superseded code got 401; our own 60-second cooldown refused a
+  request 46 s after the first.
+
 ### Documentation and QA pass — 2026-09-25
 
 - **D1 integrity clean**: 3,344 documents = 3,344 summaries = 3,344 `sum:` rows; 0

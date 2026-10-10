@@ -274,8 +274,24 @@ def _have(binary: str) -> bool:
 
 
 def _is_glyph_garbage(txt: str) -> bool:
-    """Text that decoded to font glyph ids rather than characters."""
-    return bool(txt) and len(CID_RUN.findall(txt)) * 12 > len(txt) * 0.25
+    """Text that decoded to font glyph ids rather than characters.
+
+    Two shapes. A subset font with no ToUnicode CMap can decode to id runs
+    ("/16/17/18"), or to the raw glyph bytes themselves -- control characters
+    and stray punctuation with almost no letters in them. The second shape
+    passed as text until 2026-10-06's Baker Unox oven packet: 70% control
+    characters, 0.4% of the text in words of three or more letters. Across the
+    other 3,336 extracted documents nothing exceeds 30% control characters, and
+    the ones near that are spreadsheet tabulations, which have words.
+    """
+    if not txt:
+        return False
+    if len(CID_RUN.findall(txt)) * 12 > len(txt) * 0.25:
+        return True
+    n = len(txt)
+    ctrl = sum(1 for c in txt if (ord(c) < 32 and c not in "\t\n\r") or 0x7f <= ord(c) < 0xa0)
+    words = sum(len(w) for w in re.findall(r"[A-Za-z]{3,}", txt))
+    return ctrl > n * 0.2 and words < n * 0.05
 
 
 def _needs_ocr(txt: str, pages: int, src_bytes: int = 0) -> bool:

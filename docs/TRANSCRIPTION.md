@@ -171,6 +171,16 @@ at_ms, after). The sub-second interjections are the least certain lines. The
 scripts, with a README of the order they ran in, are kept as the worked example in
 `transcription/examples/2026-09-01/voice_split/`; the spec they produced is beside them.
 
+**It happened again on 2026-10-06** — the same two trustees, cluster B this time, 85
+turns. Unseeded clustering of the embeddings did *not* separate them (76 turns in one
+group); the seeded comparison did, with within-person cosine 0.82–0.95 against 0.45–0.69
+across. Seeds came from name plates (Melton) and the chair's hand-off plus camera preset
+(Zendler, "Stephanie?"). Two further lessons: check a merged cluster's turns against the
+*staff* centroids too (two of B's lines were Crane's and Griffor's, at 0.80), and for
+remote trustees the **Teams active-speaker label** in the broadcast's tile column is as
+good as a name plate. Scripts take their paths as arguments in
+`transcription/examples/2026-10-06/voice_split/`; making them a tool is on the ROADMAP.
+
 **A first name in a sentence about someone else is not evidence.** The same night,
 "she's going to stick around as long as she can, but Dan is out of town on business
 … she's got to take care of the kids" was the superintendent explaining why DiPilato
@@ -285,7 +295,7 @@ speakers that had been demoted to `Public commenter` back into named teachers.
 
 ## Season coverage (as of 2026-09-25)
 
-**All 46 channel recordings carry the "English (speaker-attributed)" caption track**
+**All 47 channel recordings carry the "English (speaker-attributed)" caption track**
 as of 2026-09-25 — 44 board meetings (2024, 2025 and 2026 complete through the
 2026-09-22 regular) and the two League of Women Voters candidate forums (2024-09-25,
 2026-09-24). 43 as of 2026-09-04 (41 as of 2026-08-08, plus the 2026-08-18 regular
@@ -326,15 +336,20 @@ morning after an API audit found the owed list was wrong in both directions; see
 
        https://connect.telvue.com/player/i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa/series/4132
 
-   — token `i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa`, board meetings are series `4132`,
-   and a single recording is `/player/<token>/media/<mediaId>`, which `yt-dlp`
+   — token `i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa`. **Regular meetings are series `4132`;
+   workshops are series `5075`** ("Troy School Board Workshops" — the 2026-09-01 and
+   2026-10-06 workshops are there, not in 4132). A single recording is
+   `/player/<token>/media/<mediaId>`, which `yt-dlp`
    resolves to an HLS master offering 416x234 / 640x360 / 1280x720. Take 720p
-   (`-f 2390`) for a YouTube upload. This token was documented as `<token>` for
+   (`-f "b[height=720]"`) for a YouTube upload — the format *id* is derived from the
+   bitrate and changes (2390 for most of 2026, 2389 for 2026-10-06), so select by height. This token was documented as `<token>` for
    months and had to be re-found by search each time; it is not a secret, it is
    the address of a public access channel.
+   Fetch the player root itself (`https://connect.telvue.com/player/<token>`)
    with a browser User-Agent: it returns the station's whole gallery as `/media/<id>`
-   links each followed by its air date, which is the authoritative list of what
-   TelVue actually holds. Do not try to bisect the id space — ids are global across
+   links, each with its duration and every series' latest title and air date. That is the
+   authoritative list of what TelVue actually holds, and the quickest way to see whether
+   a new meeting has posted. Do not try to bisect the id space — ids are global across
    TelVue's customers, so almost every probe in a range belongs to another station
    and returns a blank title.
 2. Write `speakers_<year>.json` with that year's board (who chaired matters).
@@ -468,7 +483,9 @@ discussed-but-unanchored items. As of 2026-09-04: 578 anchors across 43 meetings
 eyeballed (procedural items folded into a neighbour, and genuine out-of-sequence
 agendas). As of 2026-09-25: 624 anchors across 46 recordings — 602 on 44 board
 meetings (the 2026-09-22 regular added 24, numbering valid, and left the QA counts at
-16 COVERED / 11 ORDER) plus 22 forum chapters, which carry no agenda numbers.
+16 COVERED / 11 ORDER) plus 22 forum chapters, which carry no agenda numbers. As of 2026-10-10: 649 anchors across
+47 recordings — the 2026-10-06 workshop added 25, numbering valid, QA counts unchanged at
+16 COVERED / 11 ORDER over 45 board meetings.
 
 ## Candidate forums (League of Women Voters)
 

@@ -4,11 +4,26 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-09-25**.
+Last reviewed **2026-10-10**.
 
 ---
 
 ## Where things stand
+
+**The 2026-10-06 workshop is ingested through chapters** (2026-10-10): 9 documents
+summarized, on YouTube as `7JyXa8h7WrA` (TelVue `1050058`, workshops series `5075`), a
+2:49 transcript with every cluster resolved (0 audit flags), captions, 25 numbered chapters,
+description pushed. Alic and Haupt attended by Microsoft Teams. **Zendler and Melton shared
+one diarization cluster all evening for the second time in five weeks** (after 2026-09-01);
+it was split per utterance with seeded ECAPA embeddings — scripts and method in
+`transcription/examples/2026-10-06/voice_split/`. The Baker oven packet extracted as control
+characters and was OCR'd once the garbage detector learned that shape.
+
+**Sign-in and admin codes moved to Twilio Verify** (2026-10-10). Both are delivered by the
+Verify service `VA86c587d1…`, from Twilio's pooled senders, so they no longer depend on the
+campaign; the campaign keeps the owner-facing texts. Verified live with two admin codes, and
+the old code was refused after the cancel. Inbound STOP now clears `sms_consent`. See
+[ACCESS_CONTROL.md](ACCESS_CONTROL.md#codes-go-by-twilio-verify).
 
 Everything SMS-related is built and verified. The YouTube channel is finished too, as of
 2026-08-19: all 41 descriptions rebuilt from the corrected D1 anchors, the thumbnail backlog
@@ -41,7 +56,7 @@ register handed to `tsd-checkregister`, and the TelVue recording on YouTube as
 `ciIdYBDoQjw` with transcript, captions and 16 authored chapters. That is the whole
 new-meeting pipeline exercised end to end; see `docs/OPERATIONS.md`.
 
-**The corpus is fully scanned as of 2026-08-21** (3,344 documents as of 2026-09-25, all summarized). All 3,287 documents then had extracted
+**The corpus is fully scanned as of 2026-08-21** (3,353 documents as of 2026-10-10, all summarized). All 3,287 documents then had extracted
 text, are in the FTS index, and carry three summary tiers — reconciled in both directions
 against D1, zero drift. That is up from 2,798 the same morning: 489 documents had never
 been parsed at all and were invisible to search. See
@@ -97,14 +112,27 @@ not two, and the failure is silent — the runner polls, claims a question, mark
 then dies on `claude: command not found` and the question hangs 20 minutes.
 
 ### Turn on Twilio auto-recharge
-Still not configured. Console → **Billing → Billing Overview → Enable auto recharge**; suggested
-`$10` trigger, recharge to `$25`. Balance was $21.14 with a burn of roughly $3.15/month fixed
-($2 campaign + ~$1.15 number), so nothing fires immediately — this is arming it for later. The
-failure worth avoiding is not a bounced text but the A2P registration lapsing for want of two
-dollars, after the work it took to get approved.
+Still not configured, and now closer to mattering. Console → **Billing → Billing Overview →
+Enable auto recharge**; suggested `$10` trigger, recharge to `$25`. The balance went from $21.14
+(2026-08-10) to **$13.16 (2026-10-10)** — about $4/month of fixed cost ($2 campaign + number)
+with almost no texts — so it reaches zero around the turn of the year. Verify draws on the same
+balance, so an empty account stops sign-in and admin codes as well as the alerts, and the A2P
+registration can lapse for want of two dollars after the work it took to get approved.
 
 
 ## Next
+
+### Make the voice split a tool — the trigger has fired
+The roadmap said to build it if a second merged-cluster meeting turned up, and 2026-10-06
+was one: the same two trustees, Zendler and Melton, in one cluster all evening. Both runs
+are worked examples (`transcription/examples/2026-09-01/voice_split/` and
+`…/2026-10-06/voice_split/`, the second taking its paths as arguments). The tool is
+`transcription/split_cluster.py DATE --cluster B --seed NAME=H:MM:SS …` that embeds, runs
+the seeded assignment and the window scan, and writes `reassign` / `utterance_splits` into
+the spec for review. Two lessons from the second run belong in it: unseeded clustering does
+not separate these two voices (76 of 85 turns in one group), and a cluster's turns should
+also be checked against the *staff* centroids — two of B's lines were Crane and Griffor. The
+pair recurring suggests checking every 2025-26 meeting where both attended.
 
 ### Tell approved applicants they are approved
 Nothing notifies them. They register, wait, and have to guess when to come back — and approval
@@ -112,18 +140,15 @@ now takes five seconds by text, so the silence is more conspicuous than it was. 
 and `sendEmail()` exists; this is a few lines in `/admin/decide` and in the registration branch
 of `ownerCommandReply()`. Pre-existing gap, not a regression.
 
-### Record inbound STOP against `sms_consent`
-`sms_consent` only clears when a *send* fails with 21610. An archive user who texts STOP is
-opted out at the carrier — correctly — but this project's row still says `1`, so it keeps trying
-SMS first and silently falls back to email every time. Now that inbound is logged, the fix is
-small: on an `unrouted` or `local` inbound matching a STOP keyword, clear consent for that number.
-
 ### Split the Twilio credentials so the auth token can rotate
 Rotation has been open a while and is now harder: the token lives in **both** `tsd-secrets.env`
 and `bot_config`, and they must change together. It cannot simply move to an `SK…` API key —
 `twilioSigValid()` HMACs inbound webhooks with the **account auth token**, which is what Twilio
 signs with, and `twilioSend()` reuses `twilio_sid` as both Basic-auth username and URL account.
-Doing it properly means separate config for send credentials and the webhook validation token.
+Since 2026-10-10 `verifyPost()` (Twilio Verify, which delivers every code) authenticates the same
+way — one more caller on the same token, and the one `/admin` sign-in depends on.
+Doing it properly means separate config for send credentials and the webhook validation token;
+Verify accepts an `SK…` key, so the send side can move to one.
 (`tsdfeedback-2026` already sends with an API key, which is the safer pattern — it has no inbound
 webhook to validate.)
 
@@ -144,11 +169,6 @@ would remove the class of error. Only worth it if it bites again.
 - **The prompt-capture hook only fires when Claude is launched inside the repo.** Sessions
   started from `~` (this one) leave no trace; their entries are reconstructed by hand.
   A user-level hook keyed on the working directory would close that.
-- **The voice split is a set of session scripts, not a tool.** `examples/2026-09-01/voice_split/`
-  has hardcoded paths and this meeting's seeds. If a second merged-cluster meeting turns
-  up, make it `transcription/split_cluster.py DATE --cluster E --seed NAME=H:MM:SS …`
-  that writes `reassign`/`utterance_splits` into the spec; until then the README there is
-  the procedure.
 - **Older transcripts may carry the same class of error** — a mapping settled on two
   matching lines with the rest of the persona unread. Two lines seen in passing on
   2026-09-04 contradict their speaker: 2026-02-03 0:53:56 "Emina Alic: … even back when my

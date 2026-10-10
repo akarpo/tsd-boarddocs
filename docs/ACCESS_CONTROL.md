@@ -10,11 +10,14 @@ live in [TWILIO_A2P_10DLC.md](TWILIO_A2P_10DLC.md); the runner that answers ques
   ───────                                ─────────────────────────────────
   /ask → Register  ──────────────────▶   "registration #9 … reply 1 or 2"
                                           └─ 1 approves, 2 declines
-  /ask → Sign in   ──── OTP by SMS ──▶   "sign-in code is 481920"
+  /ask → Sign in   ── code, Verify ──▶   "Troy SD Archive verification code is: 481920"
   /ask → Ask       ──────────────────▶   "Q&A #4 … reply YES 4 or NO 4"
                                           └─ YES queues it for the Opus runner
-  /admin           ──── 2FA code ────▶   "admin sign-in code: 629514"
+  /admin           ── code, Verify ──▶   "Troy SD Archive verification code is: 629514"
 ```
+
+Codes come by **Twilio Verify** from a pooled number; everything else comes from the archive's
+own number on the A2P campaign. See [Codes go by Twilio Verify](#codes-go-by-twilio-verify).
 
 Four gates, in order: **registration → approval → sign-in → question moderation**, with admin
 access itself two-factored. None of them can be skipped, and the last three all send SMS.
@@ -53,7 +56,8 @@ never vetted, and no text message takes that back. Declining also clears any ses
 
 ### 3. Sign-in (`POST /otp/start`, `/otp/verify`)
 
-Six digits, ten minutes, one per minute per number, Turnstile-protected.
+Six digits, ten minutes, one per minute per number, Turnstile-protected. Texted by Twilio Verify
+when it is configured — see below.
 
 Three things must be true to text a code: Twilio configured, the user `approved`, and
 `sms_consent === 1`. **A phone number on file is not permission to use it** — texting without
@@ -80,7 +84,7 @@ to unmoderated rather than stranding it.
 
 ### 5. Admin — two factors
 
-`/admin` needs the admin key **and** a six-digit code texted to `twilio_to`. The key alone
+`/admin` needs the admin key **and** a six-digit code texted to `twilio_to` by Twilio Verify. The key alone
 authenticates nothing; it gates *sending* the code, which is what stops an unauthenticated caller
 billing SMS and ringing the phone at 3am. Sessions last 12 hours. Codes are single-use, expire in
 ten minutes, and allow five attempts — counted *before* the comparison, so a crash mid-verify
@@ -91,6 +95,56 @@ expiring session token is persisted.
 
 There is no bypass header. `curl -H "x-admin-key: …"` against `/admin/*` returns 401 by design —
 leaving it working would make the second factor decorative.
+
+The admin text used to say *"If you did not request it, your admin key is compromised."* Verify
+sends its own template, so that line now appears only when a code falls back to the Messages API.
+An unrequested Troy SD Archive code on the owner's phone still means the same thing.
+
+---
+
+## Codes go by Twilio Verify
+
+Since 2026-10-10 both kinds of code — resident sign-in and admin 2FA — are **delivered** by the
+Verify service `VA86c587d1783db82d6d03bdd50bf20dbc` ("Troy SD Archive", same account). Verify sends
+from Twilio's pooled senders, which are exempt from A2P 10DLC, so sign-in and admin access no
+longer depend on the Sole Proprietor campaign. The campaign still carries everything else:
+registration alerts, question moderation, command replies, and the inbound router.
+
+**Verify only delivers.** The service has `CustomCodeEnabled`; the Worker still generates, hashes,
+expires and attempt-counts each code in D1 exactly as before, and passes it as `CustomCode`. So
+the email fallback and SMS share one checking path, and neither verify endpoint calls Twilio to
+decide anything. Custom codes carry two obligations, both best-effort:
+
+- **Cancel before re-sending.** `sendCode()` sets the number's pending verification to
+  `canceled` before creating the next one. Verified live on 2026-10-10: the first verification
+  went to `canceled`, a new one was created, and the superseded code was refused.
+- **Report the outcome.** A correct entry sets it to `approved` (in `waitUntil`, so it never delays
+  sign-in). Twilio uses that for routing.
+
+Both calls address the verification **by phone number**, which the update endpoint accepts in place
+of the `VE…` sid, so nothing new is stored. A 404 there means nothing was pending and is ignored.
+
+**Fallback:** if Verify refuses — e.g. `60203`, its own cap of five sends per number per ten
+minutes — `sendCode()` sends the old way through the Messages API, and then email as before.
+Delete the `twilio_verify_sid` row and every code goes back to the Messages API unchanged.
+
+**Seeing what was sent:** Verify texts do **not** appear in the account's Messages log. Look up
+the number's current verification with
+`GET https://verify.twilio.com/v2/Services/<VA…>/Verifications/%2B1…` (status `pending`,
+`canceled` or `approved`), and its carrier delivery with `GET https://verify.twilio.com/v2/Attempts`.
+
+**Cost:** custom-code sends are billed per attempted send, not per approved verification. At this
+archive's volume (no texts at all in the 30 days before the move) that is noise.
+
+### STOP no longer reaches the codes by itself
+
+An opt-out keyword sent to `+12489271666` is enforced by Twilio and the carrier **for that number
+only**. Codes now come from other numbers, so the carrier block no longer covers them. The inbound
+webhook therefore clears `sms_consent` itself when a registered number texts `STOP`, `STOPALL`,
+`UNSUBSCRIBE`, `CANCEL`, `END`, `QUIT`, `REVOKE` or `OPTOUT`, or when Twilio marks the message
+`OptOutType=STOP`. This happens before routing, whoever ends up handling the message. `START` is
+deliberately **not** read back as consent: the checkbox is the only opt-in, and email keeps working.
+The old 21610 path is kept for the Messages fallback.
 
 ---
 
@@ -140,6 +194,12 @@ makes arming one deliberate statement rather than a side effect of a four-row wr
 
 `twilio_from` is the archive's Twilio number; `twilio_to` is the owner's pocket phone. Both are
 Michigan 248 numbers, which is a reliable source of confusion.
+
+A fifth row, **`twilio_verify_sid`**, changes only *how* codes are delivered (`verifyReady()`), never
+*whether*: with it, `sendCode()` uses Verify; without it, the Messages API. It gates nothing on its
+own, and `twilioReady()` still decides whether codes go by text at all. It is also in
+`tsd-secrets.env` as `TWILIO_VERIFY_SID`. Verify authenticates with `twilio_sid` + `twilio_token`,
+so a token rotation now has a third consumer to keep working.
 
 ---
 

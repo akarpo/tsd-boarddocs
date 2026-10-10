@@ -202,9 +202,16 @@ delivered message — with no error anywhere. Do not build a flow whose only com
 reserved word; see
 [ACCESS_CONTROL.md](ACCESS_CONTROL.md#why-registrations-use-digits-reserved-carrier-keywords).
 
+Twilio still forwards opt-out messages to the webhook. Since 2026-10-10 the router acts on them
+once, **before** routing: a STOP-family keyword (or `OptOutType=STOP`) clears `sms_consent` for any
+archive account with that phone number, whichever route then handles the message. This project's
+codes come from Verify's pooled senders, which the carrier's block on this number does not reach.
+It touches `bot_users` only; peers still decide for themselves what a relayed STOP means.
+
 ### Shared throughput
 
 Sole Proprietor brand: AT&T **0.25 msg/sec**, T-Mobile STARTER ≈2,000/day, and the account holds
 **one campaign and one number** — that limit is per sole-proprietor entity, so a second campaign
 is not available under this brand. Every project shares that budget. A burst from one starves
-sign-in codes in another, and OTPs are the latency-sensitive ones.
+sign-in codes in another, and OTPs are the latency-sensitive ones. (This project's own codes have
+gone by Twilio Verify since 2026-10-10 and draw on none of it.)

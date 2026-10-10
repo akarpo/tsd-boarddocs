@@ -1,7 +1,10 @@
 # Twilio A2P 10DLC — registration state and playbook
 
-Sign-in codes for **Ask the Archive** (`/ask`) go out by SMS once this registration completes.
-Until then the Worker falls back to email via Resend, which is live — see `assistant/README.md`.
+This registration (VERIFIED 2026-08-10) carries the archive's owner-facing texts: registration
+alerts, question moderation and command replies, plus the inbound router. **Since 2026-10-10 the
+codes do not use it** — resident sign-in and admin 2FA are delivered by Twilio Verify, which is
+exempt from 10DLC (see [ACCESS_CONTROL.md](ACCESS_CONTROL.md#codes-go-by-twilio-verify)). The
+Messages API on this campaign is their fallback, and email via Resend is the fallback after that.
 
 `scripts/a2p_resubmit.sh` holds the corrected campaign payload and is the thing you actually run.
 This file explains what state we are in and why.
@@ -31,8 +34,9 @@ campaign, the same number `+12489271666`, sending verification codes to survey r
   receive inbound by relay. See [SMS_ROUTING.md](SMS_ROUTING.md).
 - The owner decided on 2026-08-10 that running a second service's traffic on a campaign
   registered for this one is acceptable at low volume. That is a live risk, not a resolved
-  question: if carriers object, the campaign is what gets flagged, and this project's sign-in
-  and admin 2FA go down with it.
+  question: if carriers object, the campaign is what gets flagged. Since 2026-10-10 this
+  project's sign-in and admin 2FA no longer go down with it (they are delivered by Verify);
+  registration alerts, moderation texts and owner command replies still would.
 
 Before reading or changing anything, confirm **all three**:
 

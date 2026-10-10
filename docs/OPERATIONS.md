@@ -273,8 +273,9 @@ python3 scripts/check_register_handoff.py --stage --parse
 #   then in tsd-checkregister: rebuild.py --assemble-only, validate.py,
 #   check_published_figures.py, commit (Pages deploys from main)
 
-# 3. video: find the recording on TelVue, series 4132
-yt-dlp -f 2390 -o "tsd_<date>.%(ext)s" \
+# 3. video: find the recording on TelVue -- series 4132 = regular meetings, 5075 = workshops
+#    (the player root lists both; see TRANSCRIPTION.md "Backfilling a season")
+yt-dlp -N 8 -f "b[height=720]/bv*[height=720]+ba" -o "tsd_<date>.%(ext)s" \
   https://videoplayer.telvue.com/player/i-P7YFZryO9zQNfciKbAQTp5wv5_PLoa/media/<id>
 python3 transcription/upload_videos.py <mp4> --title "<channel title>" \
   --date <date> --name "<D1 meeting_name>"
@@ -454,6 +455,12 @@ era from summary-backed search. Always exclude them:
     for y in 2010..2019; do python3 upload_d1.py --year $y; done
 
 `upload_d1.py` needs `R2PUT_SECRET` or every insert returns HTTP 403.
+
+**Or let `scripts/reconcile_chunks.py --fix` do it.** It diffs D1 against the rebuilt
+index chunk by chunk, inserts what is missing and deletes stale non-summary rows. A
+re-extracted document gets new chunk ids, and nothing else removes the old ones: on
+2026-10-10 the PEPS report still carried 46 glyph-garbage chunks beside its OCR'd text,
+seven weeks after the OCR, and twelve documents had only their first chunk loaded.
 
 **Verify afterwards.** `chunks` is FTS5 with no unique key, so a partial delete
 plus a full reload silently doubles rows:
