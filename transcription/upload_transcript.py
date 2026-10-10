@@ -72,7 +72,8 @@ def main():
     ap.add_argument("--name", required=True, help="meeting_name exactly as stored in D1 chunks")
     ap.add_argument("--youtube", required=True, help="YouTube video id (e.g. v9EHA5_yT-8)")
     ap.add_argument("--speakers", help="speakers.json (mapping/overrides/splits) for name attribution")
-    ap.add_argument("--anchors", help="anchors.json: [{start_ms,label},…] agenda-item chapters")
+    ap.add_argument("--anchors", help="anchors.json: [{start_ms,label},…] agenda-item chapters; "
+                    "omit it to leave the meeting's chapters in D1 untouched")
     ap.add_argument("--dry-run", action="store_true", help="write SQL, don't execute")
     a = ap.parse_args()
 
@@ -92,8 +93,13 @@ def main():
     sql = [DDL,
            f"DELETE FROM recordings WHERE meeting_date={d} AND meeting_name={n};",
            f"DELETE FROM transcript_utts WHERE meeting_date={d} AND meeting_name={n};",
-           f"DELETE FROM transcript_anchors WHERE meeting_date={d} AND meeting_name={n};",
            f"INSERT INTO recordings VALUES ({d},{n},{q(a.youtube)},{int(r.get('audio_duration') or 0)});"]
+    # Chapters are replaced only when --anchors is given. Re-pushing utterances after a
+    # spec fix must not wipe the authored chapters (2026-10-10: a re-push nearly replaced
+    # 25 authored chapters with nothing; the authored file is a different format and is
+    # applied by anchors/apply_anchors.py, not here).
+    if a.anchors:
+        sql.append(f"DELETE FROM transcript_anchors WHERE meeting_date={d} AND meeting_name={n};")
     for an in anchors:
         sql.append(f"INSERT INTO transcript_anchors VALUES ({d},{n},{int(an['start_ms'])},{q(an['label'])});")
     for i in range(0, len(utts), 40):

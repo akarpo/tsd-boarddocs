@@ -133,8 +133,15 @@ the number's current verification with
 `GET https://verify.twilio.com/v2/Services/<VA…>/Verifications/%2B1…` (status `pending`,
 `canceled` or `approved`), and its carrier delivery with `GET https://verify.twilio.com/v2/Attempts`.
 
-**Cost:** custom-code sends are billed per attempted send, not per approved verification. At this
-archive's volume (no texts at all in the 30 days before the move) that is noise.
+**Cost:** with custom codes Twilio charges the $0.05 verification fee on **every verification
+created** — resends and cancelled ones included — plus the SMS (about $0.013 to Verizon), so
+about $0.06 per code sent ([Verify pricing](https://www.twilio.com/en-us/verify/pricing)).
+Verify-generated codes are charged only on success; that rule does not apply here. At this
+archive's volume (no texts at all in the 30 days before the move) it is noise.
+
+**After `approved`, Twilio deletes the verification** (confirmed live on the foxhalltroy account
+2026-10-10: the attempt flips to `converted` within a few seconds, then a lookup returns 404). A
+cancelled one stays readable. Either way a later by-number lookup 404s, which the code ignores.
 
 ### STOP no longer reaches the codes by itself
 

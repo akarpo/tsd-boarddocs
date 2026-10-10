@@ -29,6 +29,15 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   the runbook selects by height; a sentence in TRANSCRIPTION's TelVue note had lost its
   subject (fetch the player root). `extract_all.py` takes no arguments, so `--help` runs a
   full pass (harmless — it skips existing outputs); TOOLING says so.
+- **`upload_transcript.py` no longer deletes chapters it was not given.** It wiped a meeting's
+  `transcript_anchors` on every push and re-inserted only `--anchors`, so re-pushing utterances
+  after a spec fix silently removed the authored chapters unless they were passed back in (in
+  the workdir format, which the authored files are not). Chapters are now replaced only when
+  `--anchors` is given; verified on 2026-10-06 (25 chapters kept).
+- 2026-10-06 attribution, second look while drafting the Facebook notes: three replies to the
+  chair's roll of the remote trustees were filed under staff (two Alic, one Haupt), and the
+  service had emitted two of Anne's sentences a second time as zero-length staff utterances.
+  All pinned in the spec; D1 and captions re-pushed, 0 audit flags.
 - Counts: 3,353 documents = summaries = `sum:` rows; 47 recordings, 22,276 utterances,
   649 anchors, 0 orphan utterances; `qa_numbers.py` unchanged at 16 COVERED / 11 ORDER over
   45 board meetings; every thumbnail a crest card (the new one at 0.978).

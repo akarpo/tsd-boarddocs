@@ -101,6 +101,8 @@
    "name": "Vital Anne",
    "start_ms": [
     7127141,
+    8605320,
+    8605640,
     9141236
    ]
   },
@@ -130,6 +132,19 @@
    "start_ms": [
     9689695
    ]
+  },
+  {
+   "name": "Emina Alic",
+   "start_ms": [
+    1745450,
+    7125074
+   ]
+  },
+  {
+   "name": "Matt Haupt",
+   "start_ms": [
+    5833245
+   ]
   }
  ],
  "notes": [
@@ -144,6 +159,7 @@
   "Short B interjections (under ~3 s) with no voice margin stay with the cluster default, Zendler; 'Matt?' (1:58:47) and 'Okay. All right, Matt.' (2:32:21) are the chair calling on Haupt and go to Vital Anne. A 2:08:05 and A 2:43:48 are staff by voice (Griffor 0.64, DiPilato 0.64).",
   "Lines under 3 s move off the cluster default only with voice margin and context: 0:58:41 'that is it' closes Melton's questions just before the chair turns to Stephanie, and 2:03:37 sits inside Melton's 2:03 run; 'Back later' (0:08:12) and 'I'm just lingering' (0:32:26) are left with B.",
   "D's 1:56:04 turn (ELD screening of kindergartners) is Griffor: the room camera singles out the same presenter at 1:56:16-19, mouth open, and the content is elementary; the voice match is weak for every candidate (D 0.41, H 0.17), so camera and content decide it.",
-  "Two B lines belong to staff by voice (cosine >=0.80, >=0.45 above both trustee centroids): 0:05:28 'I've been working with Alan Wilson IT' is Crane, and 2:08:15 'just feel free to reach out' is Griffor closing the presentation."
+  "Two B lines belong to staff by voice (cosine >=0.80, >=0.45 above both trustee centroids): 0:05:28 'I've been working with Alan Wilson IT' is Crane, and 2:08:15 'just feel free to reach out' is Griffor closing the presentation.",
+  "Replies to the chair's roll of the remote trustees: 0:29:05 'No, I'm good' (C) and 1:58:45 'No, that's it' (C, after 'Emina, any others?') are Alic (closest voice G 0.40 / 0.30), 1:37:13 'Same' (D, after 'Matt. Matt.') is Haupt (F 0.40). At 2:23:25 the service emitted Anne's 2:22:56 sentences a second time as zero-length H and C utterances; they are pinned to Vital Anne (closest voice A 0.42)."
  ]
 }
