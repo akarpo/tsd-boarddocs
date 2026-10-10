@@ -280,6 +280,8 @@ async function verifyTurnstile(cfg, token, ip) {
   }
 }
 
+// Twilio's default opt-out keywords on US long codes.
+const SMS_OPT_OUT = new Set(["STOP", "STOPALL", "UNSUBSCRIBE", "CANCEL", "END", "QUIT", "REVOKE", "OPTOUT"]);
 function twilioReady(cfg) {
   return !!(cfg.twilio_sid && cfg.twilio_token && cfg.twilio_from && cfg.twilio_to);
 }
@@ -291,6 +293,56 @@ async function twilioSend(cfg, body, to) {
     body: new URLSearchParams({ To: to || cfg.twilio_to, From: cfg.twilio_from, Body: body }),
   });
   if (!r.ok) throw new Error(`twilio ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
+// ---------- Twilio Verify: delivery for one-time codes (sign-in and admin 2FA) ----------
+// Verify sends from Twilio's pooled senders, which are exempt from A2P 10DLC, so codes no longer
+// depend on this project's Sole Proprietor campaign. The campaign keeps everything else: the
+// owner's registration alerts, question moderation, command replies and the inbound router.
+//
+// Verify only DELIVERS. The service has CustomCodeEnabled, and this worker still generates,
+// hashes, expires and attempt-counts every code in D1 exactly as before -- so the email fallback
+// and SMS share one checking path, and /otp/verify and /admin/login/verify never call Twilio to
+// decide anything. Custom codes come with two obligations, both best-effort:
+//   - cancel the number's pending verification before sending a new code, so the new code is
+//     the one delivered rather than a re-send of the old one, and
+//   - mark it approved after a correct entry; Twilio uses that outcome for routing.
+// Both address the verification by phone number, which the update endpoint accepts in place of
+// the VE... sid, so nothing new is stored.
+//
+// Delete the `twilio_verify_sid` row and codes go back through the Messages API, unchanged.
+function verifyReady(cfg) {
+  return !!(cfg.twilio_sid && cfg.twilio_token && cfg.twilio_verify_sid);
+}
+async function verifyPost(cfg, path, params) {
+  const r = await fetch(`https://verify.twilio.com/v2/Services/${cfg.twilio_verify_sid}${path}`, {
+    method: "POST",
+    headers: { authorization: "Basic " + btoa(`${cfg.twilio_sid}:${cfg.twilio_token}`),
+               "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(params),
+  });
+  if (!r.ok) throw new Error(`verify ${r.status}: ${(await r.text()).slice(0, 200)}`);
+}
+// Work the response should not wait for: Twilio's answer changes nothing the user sees.
+function later(ctx, pr) { if (ctx) ctx.waitUntil(pr); }
+async function verifySettle(cfg, to, status) {
+  // 404 = nothing pending for this number (expired, already settled, or sent by email): fine.
+  try { await verifyPost(cfg, `/Verifications/${encodeURIComponent(to)}`, { Status: status }); }
+  catch (e) { if (!e.message.startsWith("verify 404")) console.warn(`[verify] ${status}:`, e.message); }
+}
+// Text a one-time code: by Verify when it is configured, otherwise -- or when Verify refuses, e.g.
+// 60203, its own cap of five sends per number per ten minutes -- by the Messages API as before.
+// Throws only when every SMS path failed, and then with the Messages error, because that is the
+// one that carries 21610 (the user replied STOP).
+async function sendCode(cfg, to, code, body) {
+  if (verifyReady(cfg)) {
+    try {
+      await verifySettle(cfg, to, "canceled");
+      await verifyPost(cfg, "/Verifications", { To: to, Channel: "sms", CustomCode: code });
+      return "verify";
+    } catch (e) { console.error("[verify] send failed, falling back to Messages:", e.message); }
+  }
+  await twilioSend(cfg, body, to);
+  return "messages";
 }
 async function sha256hex(s) {
   return hex(await crypto.subtle.digest("SHA-256", enc.encode(s)));
@@ -518,7 +570,7 @@ async function adminSessionValid(request, env) {
   return true;
 }
 
-async function handleAssistant(request, env, url) {
+async function handleAssistant(request, env, url, ctx) {
   const p = url.pathname.slice("/api/assistant".length);
   const method = request.method;
   // Twilio posts form-encoded and its handler reads the raw body itself — a body can only be read once
@@ -593,7 +645,7 @@ async function handleAssistant(request, env, url) {
     // before the consent checkbox existed have sms_consent NULL and are emailed instead, which
     // is the correct default: they were never asked.
     if (twilioReady(cfgO) && u.sms_consent === 1) {
-      try { await twilioSend(cfgO, msg, phone); channel = "sms"; }
+      try { await sendCode(cfgO, phone, code, msg); channel = "sms"; }
       catch (e) {
         // 21610 = the user replied STOP. Twilio enforces that at the carrier and will reject
         // every later send; nothing tells us otherwise, so record the revocation here or we
@@ -629,6 +681,8 @@ async function handleAssistant(request, env, url) {
       return json({ error: "wrong code" }, 401);
     }
     await env.DB.prepare("UPDATE bot_users SET otp_hash=NULL, otp_expires=NULL WHERE id=?1").bind(u.id).run();
+    const cfgV = await botCfg(env);
+    if (verifyReady(cfgV)) later(ctx, verifySettle(cfgV, phone, "approved"));
     const tok = crypto.randomUUID() + "-" + crypto.randomUUID();
     await env.DB.prepare("INSERT INTO bot_sessions (token,user_id,created_at) VALUES (?1,?2,?3)")
       .bind(tok, u.id, nowIso()).run();
@@ -717,6 +771,19 @@ async function handleAssistant(request, env, url) {
     const bodyTxt = (params.get("Body") || "").trim();
     const smsTo = params.get("To") || "", smsFrom = params.get("From") || "";
 
+    // An opt-out keyword sent to this number is enforced by Twilio and the carrier for this
+    // number only. Sign-in codes come from Verify's pooled senders, which that block does not
+    // reach, so record the revocation against the archive account as well -- otherwise the next
+    // code arrives from a number they never blocked. Twilio still forwards the message here, and
+    // adds OptOutType when Advanced Opt-Out is on. START is deliberately not read back as consent:
+    // the checkbox is the only opt-in, and email keeps working either way.
+    if (params.get("OptOutType") === "STOP" || SMS_OPT_OUT.has(bodyTxt.toUpperCase())) {
+      const who = normPhone(smsFrom);
+      if (who) await env.DB.prepare(
+        "UPDATE bot_users SET sms_consent=0, sms_consent_at=?1 WHERE phone=?2 AND sms_consent=1")
+        .bind(nowIso(), who).run().catch(() => {});
+    }
+
     // Which project owns this message? Matching is by destination number, sender, and body --
     // see schema/0013_sms_routes.sql. The old hardcoded `From === twilio_to` test now lives in
     // the seeded routes as from_number='$owner'.
@@ -771,9 +838,11 @@ async function handleAssistant(request, env, url) {
     const code = String(crypto.getRandomValues(new Uint32Array(1))[0] % 1000000).padStart(6, "0");
     await env.DB.prepare("UPDATE admin_otp SET code_hash=?1, expires=?2, sent_at=?3, attempts=0 WHERE id=1")
       .bind(await sha256hex(code + cfg.twilio_to), new Date(Date.now() + 600e3).toISOString(), nowIso()).run();
+    // By Verify this arrives as Twilio's template ("Your Troy SD Archive verification code is"),
+    // from a pooled number; the body below is only used when it falls back to the Messages API.
     try {
-      await twilioSend(cfg, `Troy SD Archive admin sign-in code: ${code}\nExpires in 10 minutes. ` +
-        `If you did not request it, your admin key is compromised.`);
+      await sendCode(cfg, cfg.twilio_to, code, `Troy SD Archive admin sign-in code: ${code}\n` +
+        `Expires in 10 minutes. If you did not request it, your admin key is compromised.`);
     } catch { return json({ error: "could not send the code — try again later" }, 502); }
     return json({ ok: true });
   }
@@ -790,6 +859,7 @@ async function handleAssistant(request, env, url) {
     if (!safeEq(await sha256hex(code + cfg.twilio_to), row.code_hash)) return json({ error: "wrong code" }, 401);
     // One use only: a code that survives its own redemption is a password with a short life.
     await env.DB.prepare("UPDATE admin_otp SET code_hash=NULL, expires=NULL, attempts=0 WHERE id=1").run();
+    if (verifyReady(cfg)) later(ctx, verifySettle(cfg, cfg.twilio_to, "approved"));
     const tok = crypto.randomUUID() + crypto.randomUUID().replace(/-/g, "");
     const exp = new Date(Date.now() + ADMIN_SESSION_HOURS * 3600e3).toISOString();
     await env.DB.prepare("INSERT INTO admin_sessions (token,created_at,expires) VALUES (?1,?2,?3)")
@@ -938,7 +1008,7 @@ async function handleAssistant(request, env, url) {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const p = url.pathname;
     if (request.method === "OPTIONS") return new Response(null, { headers: CORS });
@@ -1029,7 +1099,7 @@ export default {
         return json({ youtube_id: rec.youtube_id, duration_s: rec.duration_s,
                       anchors: anchors || [], utterances: utts || [] });
       }
-      if (p.startsWith("/api/assistant/")) return await handleAssistant(request, env, url);
+      if (p.startsWith("/api/assistant/")) return await handleAssistant(request, env, url, ctx);
       if (p === "/doc") {
         // Serve an R2 object same-origin (avoids cross-origin iframe issues).
         const key = url.searchParams.get("key");
