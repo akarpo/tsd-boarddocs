@@ -1,0 +1,149 @@
+{
+ "_comment": "Speaker spec for the 2026-10-06 workshop (transcript df86af51-2c25-492b-a0ca-4471d421b268). 8 diarized clusters; the identifier's own mapping split DiPilato and Haupt across two clusters each and is replaced here. Every name is settled by a name plate on camera, the Teams active-speaker label, the chair's hand-off, or a self-introduction — see notes. Cluster B held two trustees interleaved all evening (Zendler and Melton) and is split per utterance from ECAPA voice embeddings seeded on camera-confirmed turns, as on 2026-09-01.",
+ "speakers": [
+  {
+   "name": "Vital Anne"
+  },
+  {
+   "name": "Emina Alic"
+  },
+  {
+   "name": "Matt Haupt"
+  },
+  {
+   "name": "Audra Melton"
+  },
+  {
+   "name": "Ayesha Potts"
+  },
+  {
+   "name": "Stephanie Zendler"
+  },
+  {
+   "name": "Dan Trudel"
+  },
+  {
+   "name": "Christine DiPilato"
+  },
+  {
+   "name": "Kristine Griffor"
+  },
+  {
+   "name": "Paul Crane"
+  }
+ ],
+ "mapping": {
+  "A": "Vital Anne",
+  "B": "Stephanie Zendler",
+  "C": "Christine DiPilato",
+  "D": "Dan Trudel",
+  "E": "Paul Crane",
+  "F": "Matt Haupt",
+  "G": "Emina Alic",
+  "H": "Kristine Griffor"
+ },
+ "splits": [],
+ "utterance_splits": [
+  {
+   "start_ms": 7989992,
+   "at_ms": 8111160,
+   "after": "Stephanie Zendler",
+   "note": "2:13:09 Melton answers the chair's 'Audra?' on the work-plan timeline; from 'Um, so I feel like we have an elementary plan in place' (2:15:11) Zendler continues to 2:17:21 (4-s window scan: 58 windows M, then Z)."
+  },
+  {
+   "start_ms": 7030219,
+   "at_ms": 7037360,
+   "after": "Audra Melton",
+   "note": "1:57:10 Zendler finishes her dual-enrollment point ('a huge money savings to families'); from 'And I know that, um, the state had allocated' (1:57:17) Melton."
+  }
+ ],
+ "reassign": [
+  {
+   "name": "Audra Melton",
+   "start_ms": [
+    3042198,
+    3118756,
+    3229315,
+    3237661,
+    3330426,
+    3396330,
+    3424854,
+    3463084,
+    3521159,
+    3815394,
+    3835387,
+    3845627,
+    3861450,
+    3866270,
+    4003771,
+    5586780,
+    5643481,
+    5673301,
+    7396637,
+    7417178,
+    7421518,
+    7943929,
+    7982641,
+    7989992,
+    9068740,
+    9755919,
+    9849730,
+    10118016
+   ]
+  },
+  {
+   "name": "Ayesha Potts",
+   "start_ms": [
+    3034792
+   ]
+  },
+  {
+   "name": "Vital Anne",
+   "start_ms": [
+    7127141,
+    9141236
+   ]
+  },
+  {
+   "name": "Paul Crane",
+   "start_ms": [
+    50113,
+    328150
+   ]
+  },
+  {
+   "name": "Christine DiPilato",
+   "start_ms": [
+    9828675
+   ]
+  },
+  {
+   "name": "Kristine Griffor",
+   "start_ms": [
+    6964788,
+    7685150,
+    7695358
+   ]
+  },
+  {
+   "name": "Stephanie Zendler",
+   "start_ms": [
+    9689695
+   ]
+  }
+ ],
+ "notes": [
+  "Attendance: Emina Alic and Matt Haupt attended remotely via Microsoft Teams (owner confirmed 2026-10-10; every frame shows them only as Teams tiles, and the 'Alic, Emina' / 'Matt Haupt' labels are the highlighted active speaker during G's and F's turns). In the room: Vital Anne, Audra Melton, Stephanie Zendler and Ayesha Potts. Nancy Philippart is never addressed or heard. Dr. Machesky is not heard ('I'll make sure to loop Rich into that', 2:49:42).",
+  "A = Vital Anne: plate VITAL ANNE / BOARD PRESIDENT with her speaking at 0:00:25 and 2:24:18; she chairs ('Any questions for Paul?').",
+  "G = Emina Alic and F = Matt Haupt: the chair's 'Mina, Matt, do you have any questions?' (7:26) is answered G then F; Teams labels highlighted as above; G: 'kind of weird not being there physically', 'when Matt and I first got on the board'.",
+  "E = Paul Crane, new director of safety and security (self-introduction 0:00:33: Saginaw police deputy chief, then Kettering University). D's 0:00:50 'my predecessor Todd' is Crane (voice 0.68 to E vs 0.40 own).",
+  "D = Dan Trudel: presents the oven, furniture, chiller and enrollment-study items from the 'Trudel, Daniel' Teams account (frames 0:09:07, 0:17:34) and is the bearded man at the MacBook on camera; 'Kyle, our finance director, and I' (0:14:34).",
+  "C = Christine DiPilato: plate CHRISTINE DiPILATO / ASST SUPT SECONDARY INSTRUCTION with her speaking on camera at 2:09:09 and 2:28:40, seated beside the president; presents the secondary achievement data and the Digital Delusion work plan. H = Kristine Griffor, Assistant Superintendent for Elementary Education (TMP's 2026-10-01 letter), who opens the achievement presentation with the elementary data — C at 1:12:46: 'I know Kris did say it when she began'; Crane at 0:02:18: 'Christine and Chris, Assistant Superintendents'. Her plate is never legible; the camera singles out the same presenter (dark hair pulled back, dark blazer, lanyard, seat in front of the wall screen) at 0:32:15 and 2:04:35. 'Kristine and I' in H's 0:39:09 line is the STT spelling of 'Christine and I'.",
+  "B split: seeds are Melton at 2:31:08 (plate DR. AUDRA MELTON / BOARD TREASURER, speaking on camera at 2:31:26) plus 0:51:58 and 0:57:43 (her follow-up after 'I believe Audra has the answer'), and Zendler at 2:45:56 (speaking on camera, same seat and camera preset as the 0:58:44 answer to the chair's 'Stephanie?') plus 0:58:44, 0:59:52 and the dual-enrollment turn 1:56:41. Within-person cosine 0.82-0.95, across 0.45-0.69. The special-education questions 1:25:46-1:33:16 are Zendler by voice and by content ('my same question ... disaggregating the NWEA data', her 0:58:44 question). Melton also takes C 1:03:55, C 1:04:21, H 1:33:06 and H 2:13:02 (the reply to 'Audra?'), each 0.71-0.82 to her centroid.",
+  "Ayesha Potts: 'Ayesha, any questions?' (0:50:33) is answered 'I don't think I have any for this one' — a one-second line whose voice matches no other cluster; it is her only attributed line.",
+  "Short B interjections (under ~3 s) with no voice margin stay with the cluster default, Zendler; 'Matt?' (1:58:47) and 'Okay. All right, Matt.' (2:32:21) are the chair calling on Haupt and go to Vital Anne. A 2:08:05 and A 2:43:48 are staff by voice (Griffor 0.64, DiPilato 0.64).",
+  "Lines under 3 s move off the cluster default only with voice margin and context: 0:58:41 'that is it' closes Melton's questions just before the chair turns to Stephanie, and 2:03:37 sits inside Melton's 2:03 run; 'Back later' (0:08:12) and 'I'm just lingering' (0:32:26) are left with B.",
+  "D's 1:56:04 turn (ELD screening of kindergartners) is Griffor: the room camera singles out the same presenter at 1:56:16-19, mouth open, and the content is elementary; the voice match is weak for every candidate (D 0.41, H 0.17), so camera and content decide it.",
+  "Two B lines belong to staff by voice (cosine >=0.80, >=0.45 above both trustee centroids): 0:05:28 'I've been working with Alan Wilson IT' is Crane, and 2:08:15 'just feel free to reach out' is Griffor closing the presentation."
+ ]
+}

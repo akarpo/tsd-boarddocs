@@ -13520,6 +13520,42 @@
     "DY6SQ673BD7A": {
       "meeting_unid": "DXYKP452C5FB",
       "name": "NSBA Annual Conference 2027.png"
+    },
+    "DYGRJH6E3968": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "Baker Unox Oven Recommendation Packet_1.pdf"
+    },
+    "DYGRJV6E470C": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "Digital Delusion - Proposed Work Plan_1.pdf"
+    },
+    "DYGRKU6E6BD0": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "Safety & Security.png"
+    },
+    "DYLQ7P67F417": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "2.c. 2026 Letter of Recommendation_Board Workshop.pdf"
+    },
+    "DYLQ7R67F5A4": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "2.c. 2026 Letter of Recommendation_October Board Workshop.pdf"
+    },
+    "DYLQ7T67F779": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "2.c. Costello Elementary - Media Center Furniture Design.pdf"
+    },
+    "DYLQ7Y67FD7C": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "2.d. Troy Morse Elem Chiller Prepurchase - ThermalNetics Proposal_ OMNIA 408010.pdf"
+    },
+    "DYLQ8C67F951": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "2.c. Martell Elementary - Storage Pilot Design.pdf"
+    },
+    "DYLSU2744E3C": {
+      "meeting_unid": "DYGJYM4F7BA3",
+      "name": "FINAL DRAFT 2026 Academic Data Board Presentation.pdf"
     }
   },
   "meetings": {
@@ -14926,6 +14962,10 @@
     "DXYKP452C5FB": {
       "date": "2026-09-22",
       "name": "Regular Meeting of the Board of Education 7:00 PM"
+    },
+    "DYGJYM4F7BA3": {
+      "date": "2026-10-06",
+      "name": "Board of Education Workshop 6:00 PM"
     }
   }
 }
