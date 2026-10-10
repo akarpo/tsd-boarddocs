@@ -5,6 +5,18 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Facebook notes: format recorded, generator added — 2026-10-10
+
+- **`docs/FACEBOOK_NOTES.md`** records the post-meeting Facebook format as read from the
+  posted 2026-09-01 and 09-22 notes (title line, recording line, bold lede, bold headings,
+  `·` bullets, italic stand-alone quotes, "Also at this meeting", bold "One important
+  caveat" over an italic paragraph) and the first comment (the YouTube description,
+  verbatim), with the content rules that came from caught errors.
+- **`scripts/facebook_notes.py`** builds both as paste-ready Word files from
+  `facebook/<date>.md` and D1, and refuses a post whose quotes are not word for word in the
+  attributed transcript; mutation-tested (a changed quote and a dropped caveat both fail).
+  `facebook/2026-10-06.md` is the first source kept in the repo; 16 quotes checked.
+
 ### Documentation and QA pass — 2026-10-10
 
 - **D1 was not the index, chunk by chunk, and the document-level checks could not see it.**

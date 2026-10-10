@@ -297,6 +297,10 @@ python3 transcription/anchors/prep_meeting.py <date>          # workdir inputs: 
 python3 transcription/anchors/brief.py <date>                 # author from this
 python3 transcription/anchors/apply_anchors.py <date> transcription/anchors/authored/anchors_<date>.json
 python3 transcription/anchors/push_pending.py
+
+# 6. Facebook notes (post + first comment) — write facebook/<date>.md, then
+python3 scripts/facebook_notes.py facebook/<date>.md --date <date> \
+  --transcript "transcripts/<channel title>.txt"           # format: docs/FACEBOOK_NOTES.md
 ```
 
 **Candidate forums (LWV, every even September)** are a document, not a meeting:
