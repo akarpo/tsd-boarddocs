@@ -178,8 +178,48 @@ across. Seeds came from name plates (Melton) and the chair's hand-off plus camer
 (Zendler, "Stephanie?"). Two further lessons: check a merged cluster's turns against the
 *staff* centroids too (two of B's lines were Crane's and Griffor's, at 0.80), and for
 remote trustees the **Teams active-speaker label** in the broadcast's tile column is as
-good as a name plate. Scripts take their paths as arguments in
-`transcription/examples/2026-10-06/voice_split/`; making them a tool is on the ROADMAP.
+good as a name plate. The session scripts are kept in
+`transcription/examples/2026-10-06/voice_split/`.
+
+**`transcription/split_cluster.py` does this now** (2026-10-10). Give it the merged cluster and
+one or more seed times per person, and it reports — or with `--write` merges into the spec —
+the per-line split, mid-turn hand-offs, staff lines inside the cluster, and the person's lines
+filed under other clusters:
+
+```bash
+# one-time: a venv with the voice model (scratch/ is gitignored)
+python3 -m venv scratch/venv-voice
+scratch/venv-voice/bin/pip install speechbrain torch torchaudio soundfile numpy scikit-learn
+
+scratch/venv-voice/bin/python transcription/split_cluster.py 2026-10-06 --cluster B \
+  --seed "Audra Melton=2:31:08,0:51:58,0:57:43" \
+  --seed "Stephanie Zendler=2:45:56,0:58:44,0:59:52,1:56:41"          # report; add --write
+```
+
+- **Seeds are evidence, not guesses.** Take them from a name plate on camera, a lit Teams
+  label, or the line answering the chair's "Stephanie?" — never from what a line says. A seed
+  time means the line *labelled* with that second in the attributed transcript (labels are
+  floored), else the line containing it (a time read off a frame).
+- **Read the seed check first.** It prints the lowest same-person and highest
+  different-person cosine. On the first test a seed landed on the neighbouring line (Melton's
+  "that is it", which ends a fraction before Zendler's answer starts): same-person fell to 0.32
+  and the tool printed SEEDS DO NOT SEPARATE. With the right seeds: 0.80 against 0.69.
+- **What it decides and what it leaves.** A line moves to the closer seed only with a clear
+  margin (0.08; 0.15 under 3 s), to a staff voice only when that is clearly closer (≥ 0.6 and
+  0.15 above both seeds). Everything else is listed for review and keeps the cluster default.
+  Context calls — the one-second "I don't think I have any" after "Ayesha?" — stay hand-made
+  rows in the spec, and hand-made rows win over the tool's (they are tagged `_split_cluster`
+  and replaced on each run).
+- **A line whose start time is shared** with another utterance (the API does emit these) is
+  never moved: `reassign` is keyed by start time and would move both.
+- Voiceprints are cached as `<transcript>.ecapa.json`; the first run is ~15 minutes of CPU for a
+  three-hour meeting, later runs take seconds.
+
+Tested against the hand-made 2026-10-06 spec, from the raw (unsplit) transcript: the same two
+hand-offs at the same words, the same two staff lines, the same four Melton lines under staff
+clusters, and — merged with `--write` and re-attributed — 811 of 812 lines identical to what
+was published; the one difference is a 1.8-s "Oh, I'm just lingering" the tool gives to Melton
+(0.15 margin) and the hand pass had left with the cluster.
 
 **A first name in a sentence about someone else is not evidence.** The same night,
 "she's going to stick around as long as she can, but Dan is out of town on business

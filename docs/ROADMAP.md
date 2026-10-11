@@ -122,17 +122,14 @@ registration can lapse for want of two dollars after the work it took to get app
 
 ## Next
 
-### Make the voice split a tool — the trigger has fired
-The roadmap said to build it if a second merged-cluster meeting turned up, and 2026-10-06
-was one: the same two trustees, Zendler and Melton, in one cluster all evening. Both runs
-are worked examples (`transcription/examples/2026-09-01/voice_split/` and
-`…/2026-10-06/voice_split/`, the second taking its paths as arguments). The tool is
-`transcription/split_cluster.py DATE --cluster B --seed NAME=H:MM:SS …` that embeds, runs
-the seeded assignment and the window scan, and writes `reassign` / `utterance_splits` into
-the spec for review. Two lessons from the second run belong in it: unseeded clustering does
-not separate these two voices (76 of 85 turns in one group), and a cluster's turns should
-also be checked against the *staff* centroids — two of B's lines were Crane and Griffor. The
-pair recurring suggests checking every 2025-26 meeting where both attended.
+### Back-check the meetings where Zendler and Melton both attended
+They merged into one cluster on 2026-09-01 and 2026-10-06, and nothing would have caught it on
+meetings attributed before the frame-grab rule: two lines are already known to contradict their
+speaker (2026-02-03 0:53:56, 2025-12-09 0:21:13). `transcription/split_cluster.py` makes the check
+cheap: for each 2025-26 meeting both attended, fetch the audio, pick seeds from frames (name
+plates) or the chair's hand-offs, and run it in report mode. A meeting needs fixing only when
+the seed check separates and the cluster labelled with one of them holds a block of the other.
+About 15 minutes of CPU per meeting plus the seed-finding; the audio comes from the channel.
 
 ### Tell approved applicants they are approved
 Nothing notifies them. They register, wait, and have to guess when to come back — and approval

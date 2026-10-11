@@ -5,6 +5,23 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### `transcription/split_cluster.py` — the voice split as a tool — 2026-10-10
+
+- Splits a diarization cluster holding two or more people from ECAPA voiceprints seeded at
+  evidence-backed times: per-line assignment with margins, mid-turn hand-offs cut at the
+  longest pause, staff lines returned, and the person's lines found under other clusters.
+  Report-only by default; `--write` merges tagged rows into the spec, hand-made rows winning.
+  Persistent venv `scratch/venv-voice`; voiceprints cached per transcript.
+- **Tested against the hand-made 2026-10-06 spec** from the raw transcript: identical hand-offs
+  (same words), staff lines and other-cluster lines; re-attributed through `--write`, 811 of
+  812 lines identical to what was published.
+- The test found two bugs before anything was written, both in seed resolution, and the
+  tool's seed-separation check flagged the first on its own (same-person cosine 0.32). A seed
+  time now means the line labelled with that second, then the line containing it. Lines
+  whose start time is shared with another utterance are never moved.
+- ROADMAP: the tool item is done; the back-check of meetings where both trustees attended is
+  the next item.
+
 ### Admin sign-in without the key — 2026-10-10
 
 - **`/admin` no longer has an admin key** (owner's request). Sign-in is a code texted to the

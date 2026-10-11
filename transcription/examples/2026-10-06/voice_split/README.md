@@ -1,5 +1,8 @@
 # Splitting cluster B (Zendler + Melton), 2026-10-06
 
+*Superseded by `transcription/split_cluster.py`, which reproduces this run (TRANSCRIPTION.md);
+kept as the record of how it was first done.*
+
 The second meeting in five weeks where the diarizer put Stephanie Zendler and Audra Melton
 in one cluster for the whole evening (the first was 2026-09-01, `../../2026-09-01/voice_split/`).
 Same method; these scripts take their paths as arguments, which the 09-01 ones did not.
