@@ -5,6 +5,18 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Admin sign-in without the key — 2026-10-10
+
+- **`/admin` no longer has an admin key** (owner's request). Sign-in is a code texted to the
+  owner's phone, sent only when the admin phone number is typed in (any format; compared
+  after `normPhone()`), the Turnstile check passes (required for this endpoint, 503 without
+  it), no code went out in the last minute, and fewer than 10 went out today
+  (`ADMIN_CODES_PER_DAY`, migration `0015_admin_otp_daily_cap.sql`, applied before deploy).
+  A wrong number gets the same neutral reply and sends nothing. One factor now —
+  possession of the phone — where there were two; ACCESS_CONTROL §5 sets out the trade.
+- The owner's number is out of the docs (it is the typed gate now); the webhook test recipe
+  takes it as `$OWNER`. `admin_key` / `ASSISTANT_ADMIN_KEY` retired.
+
 ### Facebook notes: format recorded, generator added — 2026-10-10
 
 - **`docs/FACEBOOK_NOTES.md`** records the post-meeting Facebook format as read from the

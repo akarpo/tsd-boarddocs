@@ -6,7 +6,7 @@ live in [TWILIO_A2P_10DLC.md](TWILIO_A2P_10DLC.md); the runner that answers ques
 [../assistant/README.md](../assistant/README.md).
 
 ```
-  visitor                                owner's handset (+1 248 840 3123)
+  visitor                                owner's handset (twilio_to)  
   ───────                                ─────────────────────────────────
   /ask → Register  ──────────────────▶   "registration #9 … reply 1 or 2"
                                           └─ 1 approves, 2 declines
@@ -20,7 +20,7 @@ Codes come by **Twilio Verify** from a pooled number; everything else comes from
 own number on the A2P campaign. See [Codes go by Twilio Verify](#codes-go-by-twilio-verify).
 
 Four gates, in order: **registration → approval → sign-in → question moderation**, with admin
-access itself two-factored. None of them can be skipped, and the last three all send SMS.
+access itself behind a code to the owner's phone. None of them can be skipped, and the last three all send SMS.
 
 ---
 
@@ -82,23 +82,38 @@ When Twilio is configured, questions land in `awaiting_approval` and text the ow
 **`YES <id>`** or **`NO <id>`** — the id is in the message. An SMS failure degrades the question
 to unmoderated rather than stranding it.
 
-### 5. Admin — two factors
+### 5. Admin — a code texted to the owner's phone
 
-`/admin` needs the admin key **and** a six-digit code texted to `twilio_to` by Twilio Verify. The key alone
-authenticates nothing; it gates *sending* the code, which is what stops an unauthenticated caller
-billing SMS and ringing the phone at 3am. Sessions last 12 hours. Codes are single-use, expire in
-ten minutes, and allow five attempts — counted *before* the comparison, so a crash mid-verify
+Since 2026-10-10 `/admin` has **no key**. Sign-in is one factor, possession of the owner's
+handset: type the admin phone number, pass the Turnstile check, and a six-digit code is texted
+to `twilio_to` by Twilio Verify. Sessions last 12 hours. Codes are single-use, expire in ten
+minutes, and allow five attempts — counted *before* the comparison, so a crash mid-verify
 cannot hand out a free guess.
 
-The browser never stores the key: it lives in a JS variable between the two steps, and only the
-expiring session token is persisted.
+The key used to gate *sending* the code, which is what kept an unauthenticated caller from
+billing SMS and ringing the phone at 3am. With it gone the button is public, so four checks
+stand in its place, all before a text goes out:
 
-There is no bypass header. `curl -H "x-admin-key: …"` against `/admin/*` returns 401 by design —
-leaving it working would make the second factor decorative.
+| check | what it stops |
+|---|---|
+| Turnstile, **required** for this endpoint even if it is ever switched off elsewhere (503 without it) | scripted use of the button |
+| the typed number must match `twilio_to` (any format: `2485551234`, `(248) 555-1234`, `+1 …`); a wrong number gets the same neutral reply and sends nothing | casual use, and confirming whose number it is |
+| one code per 60 seconds | hammering |
+| `ADMIN_CODES_PER_DAY` = 10 per UTC day (`admin_otp.sends_day/sends_count`, migration 0015) | the bill and the buzzing, if something gets past the challenge |
 
-The admin text used to say *"If you did not request it, your admin key is compromised."* Verify
-sends its own template, so that line now appears only when a code falls back to the Messages API.
-An unrequested Troy SD Archive code on the owner's phone still means the same thing.
+Worst case for a guesser: ten codes a day, five tries each — 50 guesses against a million.
+
+The owner's number is therefore not written in these docs any more (it is in `bot_config` and
+the secrets file); the typed number is a convenience gate, not a secret, since it is also in the
+repo's history.
+
+There is no bypass header: `/admin/*` accepts only a session minted by redeeming a code. For
+scripted reads go to D1; if SMS is unavailable, break glass by inserting an `admin_sessions`
+row (below). The `admin_key` row and `ASSISTANT_ADMIN_KEY` were retired with the key.
+
+The fallback (Messages API) admin text reads *"If you did not request it, someone is trying to
+sign in to /admin."* Verify sends its own template; an unrequested Troy SD Archive code on the
+owner's phone means the same thing.
 
 ---
 
@@ -221,19 +236,20 @@ without a phone:
 
 ```bash
 . ~/Downloads/tsd-boarddocs-keysandsupportingfiles/tsd-secrets.env
+OWNER="+1XXXXXXXXXX"   # bot_config.twilio_to, the owner's handset
 BODY="1 999"
 URL=https://tsd-boarddocs.karpowitsch.org/api/assistant/twilio/inbound
-SIG=$(python3 - "$TWILIO_AUTH_TOKEN" "$BODY" <<'PY'
+SIG=$(python3 - "$TWILIO_AUTH_TOKEN" "$BODY" "$OWNER" <<'PY'
 import sys, hmac, hashlib, base64
-tok, body = sys.argv[1].encode(), sys.argv[2]
+tok, body, owner = sys.argv[1].encode(), sys.argv[2], sys.argv[3]
 url = "https://tsd-boarddocs.karpowitsch.org/api/assistant/twilio/inbound"
-p = {"From": "+12488403123", "Body": body}
+p = {"From": owner, "Body": body}
 data = url + "".join(k + p[k] for k in sorted(p))
 print(base64.b64encode(hmac.new(tok, data.encode(), hashlib.sha1).digest()).decode())
 PY
 )
 curl -sS -X POST "$URL" -H "x-twilio-signature: $SIG" \
-  --data-urlencode "From=+12488403123" --data-urlencode "Body=$BODY"
+  --data-urlencode "From=$OWNER" --data-urlencode "Body=$BODY"
 ```
 
 Use a nonexistent id (`999`) so the probe cannot approve anyone. Expect

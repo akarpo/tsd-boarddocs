@@ -35,12 +35,13 @@ approval → /admin ↑                    └ topic gate (Haiku) · ≤100K tok
 
 - **Approval gate**: nobody asks anything until you approve them — at `/admin`, or by
   replying `1` to the text the archive sends when someone registers.
-  `/admin` is **two-factor**: `ASSISTANT_ADMIN_KEY` (stored in the D1 `bot_config` table)
-  plus a six-digit code texted to `bot_config.twilio_to`. The key alone authenticates
-  nothing; it only gates *sending* the code. Sessions last 12 hours.
+  `/admin` signs in with a six-digit code texted to `bot_config.twilio_to` — sent only after
+  the admin phone number is typed in and the Turnstile check passes, at most once a minute and
+  ten times a day. There has been no admin key since 2026-10-10 (`ASSISTANT_ADMIN_KEY` is
+  retired). Sessions last 12 hours; see docs/ACCESS_CONTROL.md §5.
 
-  There is deliberately no header that bypasses this, so `curl -H "x-admin-key: …"` against
-  `/admin/*` now returns 401. For scripted reads, query D1 directly. If SMS is ever
+  There is deliberately no header that bypasses this, so `curl` against `/admin/*` returns 401
+  without a session. For scripted reads, query D1 directly. If SMS is ever
   unavailable, break glass by inserting a session by hand and sending it as
   `x-admin-session`:
 

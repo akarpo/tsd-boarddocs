@@ -22,15 +22,18 @@
   .pending{color:var(--warn)} .approved{color:var(--ok)} .denied{color:var(--err)} .answered{color:var(--ok)} .error{color:var(--err)} .answering{color:var(--accent)}
   .awaiting_approval{color:var(--warn)} .declined{color:var(--err)}
   .muted{color:var(--muted)} .q{max-width:340px} details{cursor:pointer}
+  .cf-turnstile{margin:0 0 12px;min-height:65px}
 </style>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
 </head>
 <body>
 <div class="wrap">
   <h1>🛂 Assistant Admin</h1>
   <div id="key-row">
-    <input id="key" type="password" placeholder="admin key" autocomplete="off">
-    <button id="send">Send code</button>
-    <p class="muted" style="font-size:.85rem">A six-digit code is texted to the number on file.</p>
+    <input id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="admin mobile number, 10 digits" style="margin-bottom:12px">
+    <div class="cf-turnstile" id="ts-admin"></div>
+    <button id="send">Text me a code</button>
+    <p class="muted" style="font-size:.85rem">Enter the admin phone number on file; a six-digit code is texted to it.</p>
   </div>
   <div id="code-row" hidden>
     <input id="code" type="text" inputmode="numeric" autocomplete="one-time-code" placeholder="6-digit code" style="width:180px">
@@ -52,10 +55,20 @@
 <script>
 const $=i=>document.getElementById(i);
 const esc=s=>{const d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML};
-// Only the 12-hour session token is persisted. The admin key is held in a variable for the few
-// seconds between requesting a code and redeeming it, and never written to storage -- a stolen
-// browser profile is then worth one expiring session rather than the permanent key.
-let pendingKey="";
+// Sign-in is a code texted to the owner's phone, sent only when that number is typed in;
+// there is no key (removed 2026-10-10). Only the
+// 12-hour session token is persisted. The Turnstile check gates sending the code, because the
+// button is otherwise open to anyone; the sitekey comes from /me so rotating it needs no deploy.
+let tsId;
+function renderTs(){
+  fetch("/api/assistant/me").then(r=>r.json()).then(me=>{
+    const k=me&&me.turnstile_sitekey; if(!k)return;
+    let n=0;const iv=setInterval(()=>{ if(window.turnstile||++n>40){clearInterval(iv);
+      if(window.turnstile&&tsId===undefined) tsId=window.turnstile.render($("ts-admin"),{sitekey:k,theme:"auto"}); } },150);
+  }).catch(()=>{});
+}
+const tsToken=()=>tsId!==undefined?window.turnstile.getResponse(tsId):"";
+const tsReset=()=>{ if(tsId!==undefined) window.turnstile.reset(tsId); };
 const sess=()=>localStorage.getItem("tsd_admin_session")||"";
 const api=(p,o)=>fetch("/api/assistant/admin"+p,{headers:{"content-type":"application/json","x-admin-session":sess()},...o});
 const say=(t,bad)=>{const m=$("msg");m.hidden=!t;m.textContent=t||"";m.style.color=bad?"var(--err)":"var(--muted)"};
@@ -105,35 +118,38 @@ const post=(p,b)=>fetch("/api/assistant/admin"+p,{method:"POST",
   headers:{"content-type":"application/json","x-admin-session":sess()},body:JSON.stringify(b)});
 
 $("send").onclick=async()=>{
-  const k=$("key").value.trim();
-  if(!k)return say("Enter the admin key.",true);
+  const ph=$("phone").value.trim();
+  if(ph.replace(/\D/g,"").length<10)return say("Enter the admin phone number.",true);
+  const t=tsToken();
+  if(!t)return say("Complete the human check first.",true);
   $("send").disabled=true;say("Sending…");
-  const r=await post("/login/start",{key:k});
+  const r=await post("/login/start",{phone:ph,turnstile_token:t});
   const d=await r.json().catch(()=>({}));
-  $("send").disabled=false;
+  $("send").disabled=false;tsReset();
   if(!r.ok)return say(d.error||"could not send a code",true);
-  pendingKey=k;$("key").value="";showStep("code");say("Code sent. Check your phone.");$("code").focus();
+  showStep("code");say("If that is the admin number, a code is on its way.");$("code").focus();
 };
 $("verify").onclick=async()=>{
   const c=$("code").value.trim();
   if(!c)return say("Enter the code.",true);
   $("verify").disabled=true;say("Verifying…");
-  const r=await post("/login/verify",{key:pendingKey,code:c});
+  const r=await post("/login/verify",{code:c});
   const d=await r.json().catch(()=>({}));
   $("verify").disabled=false;
   if(!r.ok)return say(d.error||"wrong code",true);
-  pendingKey="";$("code").value="";
+  $("code").value="";
   localStorage.setItem("tsd_admin_session",d.token);
   load();
 };
-$("back").onclick=()=>{pendingKey="";$("code").value="";showStep("key");say("")};
+$("back").onclick=()=>{$("code").value="";showStep("key");tsReset();say("")};
 $("logout").onclick=async()=>{
   await post("/logout",{}).catch(()=>{});
   localStorage.removeItem("tsd_admin_session");showStep("key");say("Signed out.");
 };
-$("key").addEventListener("keydown",e=>{if(e.key==="Enter")$("send").click()});
+$("phone").addEventListener("keydown",e=>{if(e.key==="Enter")$("send").click()});
 $("code").addEventListener("keydown",e=>{if(e.key==="Enter")$("verify").click()});
 
+renderTs();
 if(sess())load(); else showStep("key");
 setInterval(()=>{if(sess()&&!$("panel").hidden)load()},30000);
 </script>

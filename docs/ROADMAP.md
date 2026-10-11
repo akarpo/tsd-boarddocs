@@ -73,7 +73,7 @@ Nothing is half-finished; the items below are new work, not loose ends.
 
 - A2P campaign VERIFIED, SMS armed, delivery proven to a real handset.
 - Sign-in codes by text; registration approval by replying `1`; question moderation by
-  `YES <id>`; admin login behind two factors.
+  `YES <id>`; admin login by a code to the owner's phone (no key since 2026-10-10).
 - Inbound is a router: `tsd-boarddocs` handles the owner's commands, `tsdfeedback-2026` receives
   survey replies by relay, and every message is logged to `/admin`.
 
@@ -86,7 +86,7 @@ Nothing is half-finished; the items below are new work, not loose ends.
 earns its keep, and it splits in two:
 
 - **Owner-facing SMS is cheap and clearly worth it.** Approving a registration by replying `1`
-  takes five seconds against unlocking a panel; admin 2FA is a real security gain. Costs
+  takes five seconds against unlocking a panel; the admin sign-in code is a real security gain. Costs
   pennies. Keep.
 - **Respondent-facing phone verification is the doubtful half.** It is the largest friction
   increase available on a survey, it collects a phone number from every participant, it carries
@@ -202,8 +202,8 @@ would remove the class of error. Only worth it if it bites again.
 
 ## Deliberately not doing
 
-- **A bypass header for `/admin/*`.** `x-admin-key` alone returning 401 is the feature; an escape
-  hatch would make the second factor decorative. Scripted reads go to D1 directly, and
+- **A bypass header for `/admin/*`.** Only a session minted by redeeming a texted code opens it;
+  an escape hatch would make the code decorative. Scripted reads go to D1 directly, and
   [ACCESS_CONTROL.md](ACCESS_CONTROL.md#break-glass) documents inserting an `admin_sessions` row
   when SMS is unavailable.
 - **Sending with `MessagingServiceSid` instead of `From`.** Tested 2026-08-10: the number is

@@ -216,7 +216,7 @@ async function handleMcp(request, env) {
 // ---------- assistant: registration-gated public Q&A, answered by a Claude Code
 // runner polling from the owner's machine (outbound only — no tunnel). Tables:
 // bot_users (status pending/approved/denied), bot_sessions, bot_questions,
-// bot_config (admin_key / agent_key). See assistant/README.md.
+// bot_config (agent_key). See assistant/README.md.
 const enc = new TextEncoder();
 const hex = (buf) => [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
 const nowIso = () => new Date().toISOString();
@@ -420,6 +420,9 @@ async function sessionUser(request, env) {
 }
 const QUESTION_MAX = 600, OPEN_CAP = 2, DAILY_CAP = 10;
 const ADMIN_SESSION_HOURS = 12;
+// Admin codes per UTC day. The owner signs in a few times a week; ten leaves room for typos and
+// expiries while bounding what a script that gets past Turnstile can cost or ring.
+const ADMIN_CODES_PER_DAY = 10;
 const RELAY_TIMEOUT_MS = 5000;   // Twilio abandons a webhook at ~10s; stay well inside it
 
 // ---------- inbound SMS routing ----------
@@ -820,35 +823,46 @@ async function handleAssistant(request, env, url, ctx) {
     return twiml(reply);
   }
 
-  // ----- admin: two-factor login (key + code texted to twilio_to) -----
-  // The key alone opens nothing. It is the knowledge factor and it gates *sending* the code;
-  // possession of the handset is what actually authenticates. Everything under /admin/ therefore
-  // requires a session minted by completing both steps, and the browser never stores the key.
+  // ----- admin: sign-in by a code texted to the owner's phone (twilio_to) -----
+  // One factor: possession of the owner's handset. Until 2026-10-10 an admin key gated sending
+  // the code; the owner asked for the phone alone. That makes "text me a code" public, so four
+  // things now stand where the key did, all checked before a text goes out: Turnstile (required
+  // here even if it is ever switched off elsewhere -- this endpoint pages the owner), the admin
+  // phone number typed in (not a secret; it stops casual use of the button), the 60-second
+  // cooldown, and ADMIN_CODES_PER_DAY. A code still allows five guesses. Everything under /admin/ requires a session minted by redeeming it.
   const cfg = await botCfg(env);
 
   if (p === "/admin/login/start" && method === "POST") {
-    // Gating the send on the key matters twice over: an unauthenticated caller could otherwise
-    // bill SMS at will and ring the owner's phone at 3am, and the cooldown below would be the
-    // only thing standing between the panel and a paid denial-of-sleep attack.
-    if (!safeEq(String(body.key || ""), cfg.admin_key)) return json({ error: "bad admin key" }, 401);
     if (!twilioReady(cfg)) return json({ error: "SMS isn't configured — cannot send an admin code" }, 503);
-    const cur = await env.DB.prepare("SELECT sent_at FROM admin_otp WHERE id=1").first();
+    if (!turnstileEnabled(cfg)) return json({ error: "the human check isn't configured — cannot send an admin code" }, 503);
+    const tsA = await verifyTurnstile(cfg, body.turnstile_token, request.headers.get("cf-connecting-ip"));
+    if (!tsA.ok) return json({ error: tsA.message }, tsA.status);
+    // The caller must also type the admin phone number. It is not a secret -- it gates *sending*,
+    // not signing in -- so a wrong number gets the same reply as a right one and sends nothing:
+    // the page cannot be used to confirm whose number it is.
+    const asked = normPhone(body.phone);
+    if (!asked || !safeEq(asked, normPhone(cfg.twilio_to) || "")) return json({ ok: true });
+    const cur = await env.DB.prepare("SELECT sent_at, sends_day, sends_count FROM admin_otp WHERE id=1").first();
     if (cur && cur.sent_at && Date.now() - Date.parse(cur.sent_at) < 60e3)
       return json({ error: "code already sent — wait a minute before retrying" }, 429);
+    const today = nowIso().slice(0, 10);
+    const sentToday = cur && cur.sends_day === today ? (cur.sends_count || 0) : 0;
+    if (sentToday >= ADMIN_CODES_PER_DAY)
+      return json({ error: "too many admin codes today — try again tomorrow" }, 429);
     const code = String(crypto.getRandomValues(new Uint32Array(1))[0] % 1000000).padStart(6, "0");
-    await env.DB.prepare("UPDATE admin_otp SET code_hash=?1, expires=?2, sent_at=?3, attempts=0 WHERE id=1")
-      .bind(await sha256hex(code + cfg.twilio_to), new Date(Date.now() + 600e3).toISOString(), nowIso()).run();
+    await env.DB.prepare("UPDATE admin_otp SET code_hash=?1, expires=?2, sent_at=?3, attempts=0, sends_day=?4, sends_count=?5 WHERE id=1")
+      .bind(await sha256hex(code + cfg.twilio_to), new Date(Date.now() + 600e3).toISOString(), nowIso(),
+            today, sentToday + 1).run();
     // By Verify this arrives as Twilio's template ("Your Troy SD Archive verification code is"),
     // from a pooled number; the body below is only used when it falls back to the Messages API.
     try {
       await sendCode(cfg, cfg.twilio_to, code, `Troy SD Archive admin sign-in code: ${code}\n` +
-        `Expires in 10 minutes. If you did not request it, your admin key is compromised.`);
+        `Expires in 10 minutes. If you did not request it, someone is trying to sign in to /admin.`);
     } catch { return json({ error: "could not send the code — try again later" }, 502); }
     return json({ ok: true });
   }
 
   if (p === "/admin/login/verify" && method === "POST") {
-    if (!safeEq(String(body.key || ""), cfg.admin_key)) return json({ error: "bad admin key" }, 401);
     const code = String(body.code || "").replace(/\D/g, "");
     const row = await env.DB.prepare("SELECT code_hash,expires,attempts FROM admin_otp WHERE id=1").first();
     if (!row || !row.code_hash) return json({ error: "request a code first" }, 400);
