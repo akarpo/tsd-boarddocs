@@ -134,7 +134,8 @@ decide anything. Custom codes carry two obligations, both best-effort:
   `canceled` before creating the next one. Verified live on 2026-10-10: the first verification
   went to `canceled`, a new one was created, and the superseded code was refused.
 - **Report the outcome.** A correct entry sets it to `approved` (in `waitUntil`, so it never delays
-  sign-in). Twilio uses that for routing.
+  sign-in). Twilio uses that for routing. Verified live 2026-10-11: the owner's admin sign-in moved
+  the attempt to `converted` / `CONFIRMED`; codes nobody entered stay `unconverted`.
 
 Both calls address the verification **by phone number**, which the update endpoint accepts in place
 of the `VE…` sid, so nothing new is stored. A 404 there means nothing was pending and is ignored.

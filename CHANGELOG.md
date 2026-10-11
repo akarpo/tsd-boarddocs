@@ -16,6 +16,9 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   possession of the phone — where there were two; ACCESS_CONTROL §5 sets out the trade.
 - The owner's number is out of the docs (it is the typed gate now); the webhook test recipe
   takes it as `$OWNER`. `admin_key` / `ASSISTANT_ADMIN_KEY` retired.
+- **Verified live 2026-10-11 00:30 UTC:** the owner signed in with the number + Turnstile +
+  code; Verify's attempt moved to `converted` / `CONFIRMED` (the `approved` settle, by phone
+  number, works), nothing fell back to the Messages API, `admin_otp` counted 1 for the day.
 
 ### Facebook notes: format recorded, generator added — 2026-10-10
 
