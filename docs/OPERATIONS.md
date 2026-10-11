@@ -287,6 +287,8 @@ python3 transcription/playlists.py --add <youtube-id> --date <date>   # year pla
 ffmpeg -i tsd_<date>.mp4 -vn -ac 1 -ar 16000 -b:a 64k <workdir>/tsd_<date>.mp3
 transcription/run_meeting.sh <date> "<D1 meeting_name>" <youtube-id> <workdir>
 python3 transcription/name_unknown_speakers.py --d1 <date>   # public commenters
+#    a cluster holding two people: scratch/venv-voice/bin/python transcription/split_cluster.py <date> --cluster X --seed "NAME=H:MM:SS" …
+#    then re-attribute (transcribe_meeting.py --transcript-id …), audit_attribution.py, upload_transcript.py
 cp <workdir>/"Troy School Board Meeting - <date>".srt \
    transcripts/"<channel title>.srt"                          # captions read from here
 python3 transcription/upload_captions.py --only <date>        # add the id to MEETINGS first

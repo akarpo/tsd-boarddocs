@@ -158,7 +158,8 @@ the sender where this table keeps it in full. Worth knowing before treating eith
 
 ## Operating it
 
-All of these need an admin session (`x-admin-session`), not the admin key — see
+All of these need an admin session (`x-admin-session`), minted by signing in at `/admin` with the
+code texted to the owner's phone (there is no admin key since 2026-10-10) — see
 [ACCESS_CONTROL.md](ACCESS_CONTROL.md).
 
 ```

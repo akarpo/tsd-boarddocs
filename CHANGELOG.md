@@ -5,6 +5,19 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Closing QA pass — 2026-10-10
+
+- Clean: D1 = index at 45,139 chunks (`reconcile_chunks.py`), 3,353 documents = summaries =
+  `sum:` rows, 47 recordings / 22,276 utterances / 649 anchors, 0 orphan utterances; 10-06
+  audit 0 flags; `qa_numbers.py` unchanged (16 COVERED / 11 ORDER over 45 meetings); `/`,
+  `/admin`, `/ask` 200; `/admin/login/start` refuses without Turnstile; no `admin_key` row.
+- AssemblyAI: the pre-recorded API rejects `universal-3-6-pro` (accepts `universal-3-pro`,
+  `universal-2`, `universal-3-5-pro`); the pipeline stays on 3.5 Pro. 3.6 is streaming-only.
+- Docs: the split tool added to the new-meeting checklists (TRANSCRIPTION, OPERATIONS); the
+  roadmap's status brought current; SMS_ROUTING no longer mentions the admin key; prompt
+  history completed by hand (this session started from `~`).
+- Twilio balance still $13.16; auto-recharge still off (ROADMAP).
+
 ### `transcription/split_cluster.py` — the voice split as a tool — 2026-10-10
 
 - Splits a diarization cluster holding two or more people from ECAPA voiceprints seeded at

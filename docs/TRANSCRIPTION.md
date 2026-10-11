@@ -465,7 +465,10 @@ field, which is the recorded channel title.
    turn** (`ffmpeg -ss H:MM:SS -i tsd_<date>.mp4 -frames:v 1 f.jpg`) — the name plate
    on camera is the one lever that does not depend on reading the transcript right —
    then verify with the levers above and write `mapping` back into the spec. A trustee
-   with no cluster is a merged cluster until proven absent.
+   with no cluster is a merged cluster until proven absent — and when a cluster holds two
+   people (two personas, or the chair's "Stephanie?" and "Audra?" both answered by it), run
+   `transcription/split_cluster.py` with seeds from name plates or hand-offs (see "It happened
+   again on 2026-10-06" above).
 3. Build the agenda anchors — **`make_anchors.py` output is a draft, not an
    answer**. Run `anchors/prep_meeting.py DATE --transcript <the .transcript.json>`
    to build the workdir inputs, then `anchors/brief.py DATE`, author the anchor set
