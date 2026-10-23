@@ -32,14 +32,14 @@ Read from the posted 2026-09-01 workshop and 2026-09-22 regular-meeting notes on
 
 | block | formatting | what goes in it |
 |---|---|---|
-| Title line | *italic* | `Troy School Board — Workshop Meeting, October 6, 2026` (regular: `— Regular Meeting, …`; a forum: the forum's own name) |
+| Title line | *italic* | `Troy School Board: Regular Meeting, October 20, 2026` (workshop: `: Workshop Meeting, …`; a forum: the forum's own name). Posts through 2026-10-06 used an em dash here; see rule 7. |
 | Recording line | *`Meeting Recording - `* italic, link plain | `Meeting Recording - https://youtu.be/<id>` (a forum: `Forum Recording - `) |
 | Lede | **bold**, one paragraph | What most of the meeting was about, then the rest in one sentence. Length in plain words ("this three hour, 48 minute workshop"). Remote attendance or an absence only when it is settled (see the rules). |
 | Section headings | **bold**, plain language | One per topic, in meeting order. May make the point: "Commencement 2027 moves to weeknights", "The Digital Delusion: three years is too long". |
 | Body | plain | Reporting prose. A person's full name on first mention, then the surname (Vital Anne → Anne). Figures as said or as printed in the packet. |
 | Lists | `· ` at the start of the line | Purchases, calendars, trustee-by-trustee positions. The middle dot is literal text, not a Word list. |
 | Short quotes | inline, in "double quotes" | A phrase or one sentence, attributed in the sentence. |
-| Long quotes | own paragraph, *italic* | `"…" — Name`. One or two per post, for the line that carries a position. |
+| Long quotes | own paragraph, *italic* | `"…" (Name)`. One or two per post, for the line that carries a position. |
 | Also at this meeting | **bold** heading, then `· ` lines | Public comment (or none), small items, the adjournment time. |
 | One important caveat | **bold** heading, then one *italic* paragraph | What the reader should not over-read: a workshop votes on nothing and what comes back when; whose figures these are (the district's slides, a vendor's estimate, pre-Count Day counts); what was withheld. It is about the content, not about the transcript. |
 
@@ -90,6 +90,19 @@ These come from errors that were caught, some of them only after publication.
    them; the lede may say what most of the board wanted ("most trustees said it is too slow")
    only when the transcript shows it.
 6. **A workshop votes on nothing.** Say which items come back to which regular meeting.
+7. **No em or en dashes anywhere in the post** (the owner's preference, applied from
+   2026-10-20). Use commas, colons, periods and parentheses, and plain hyphens in ranges
+   and votes (`6-0`, `grades 3-5`). The first comment is the YouTube description, and
+   `push_desc.py` opens it with a colon for the same reason. The script does not check
+   this: run `grep -nE '—|–' facebook/<date>.md` before generating.
+8. **The owner's own public comment is reported in the first person**, since the post goes
+   out under his name ("I spoke, asking the board for three things: …"). Summarize what was
+   said, as for any other commenter; no grading of the reply.
+9. **Know what a slide's number counts.** On 2026-10-20 DiPilato said 89.7 percent of AP
+   students scored a 3 or higher; the 10-06 post's 86.1 percent was a different measure. The
+   slide titles say which: "Individual Students Scoring 3 or Higher" against "AP Exam Scores
+   of 3 or Higher". Name the unit in the post (students, exams, graduates), and leave out a
+   comparison whose two sides count different things.
 
 ## Source syntax (`facebook/<date>.md`)
 

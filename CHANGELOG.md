@@ -5,6 +5,31 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Documentation pass — 2026-10-23
+
+- Counts, checked against D1: 3,382 documents = 3,382 summaries = 3,382 `sum:` rows, 0
+  documents without a summary; D1 = index at 45,346 chunks (`reconcile_chunks.py`, 0
+  missing / stale / duplicate); 48 recordings (46 board meetings + 2 forums) / 22,581
+  utterances / 672 anchors, 0 orphan utterances; `qa_numbers.py` unchanged at 16 COVERED /
+  11 ORDER over 46 board meetings.
+- TRANSCRIPTION: the keyterm cap policy and the 10-20 tie-break bug; "Two presenters whose
+  names sound alike" (the cross-meeting voiceprint check) and "Guest clusters keep
+  collecting after the guest leaves"; how the chair's unnamed "6 of our 7" plus six
+  in-room trustees settles an absence; the checklist points to both; season coverage
+  through 2026-10-20, and the 2025-02-11 workshop recorded as live (the section had said
+  it stayed off the site since v0.17.0 rejoined it); anchor counts.
+- OPERATIONS: why a regular meeting's summaries went to parallel agents, and the two
+  checks before storing (figures trace to the source; computed aggregates reconcile to a
+  printed total). FACEBOOK_NOTES: rules 7-9 (no dashes, the owner's own comment in the
+  first person, name what a slide's number counts) and the colon title format. TOOLING:
+  the emit's cap policy; 46 authored anchor sets, one per board meeting. ROADMAP: document
+  count; re-pushing the 47 older descriptions without the em dash, awaiting the owner.
+- `transcription/examples/2026-10-20/voice_check/`: the two voiceprint scripts as run,
+  with paths made repo-relative and a README.
+- PROMPT_HISTORY: this session added by hand; three image-proxy subprocess prompts logged
+  on 2026-09-25 (before the hook learned to skip them) removed from between that
+  session's items 2 and 3.
+
 ### Meeting 2026-10-20 (regular) end to end — 2026-10-23
 
 - 29 documents crawled, extracted, in R2 and D1 (14 Office previews, 29 deep-link ids),

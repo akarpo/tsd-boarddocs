@@ -114,67 +114,6 @@ Reconstructed by hand: this session ran from `~`, so the repo's `UserPromptSubmi
 
 1. **"open up the TSD-Boarddocs project and scan for the latest meetings, and also add the LOWV that was last night - League of Women Voters' candidate forum for TSD: https://vimeo.com/1230311838"** → One new meeting online: 2026-09-22 Regular. Ran the whole chain: 33 documents ingested (R2, D1, 15 preview PDFs, deep-link ids), 33 summaries (one agent per batch file), the July 2026 check register handed to tsd-checkregister (which had to learn that a new fiscal year moves the workbook's name), TelVue 1047541 uploaded as `bao5FaflxhI`, transcript with all 26 clusters resolved (chair split three ways; podium speakers merged into staff clusters; student reps by name plate), captions, 24 authored chapters, description pushed. The forum: Vimeo audio via the embed `playerConfig` + `curl_cffi`, AssemblyAI, moderator hand-offs repaired by an index-asserted script, and the `.docx`/`.pdf` built by the new `transcription/forum_doc.py` to `~/Desktop/Troy/TSD/`. The forum is *not* on the channel or the site pending the owner's call on the League's usage restriction.
 2. **"Who were the five individuals that are candidates for two open board of education trustee positions?"** (mid-turn) → Vital Anne, Walt Cook, Mary Gunn, Michele Maleszyk, Beau Taylor per the League's event listing; the county's 8/18 unofficial list shows only Anne, Cook and Taylor as filed; four took part in the forum (no Maleszyk).
-
-
-- **(2026-09-25 23:44 UTC)** Below is a conversation excerpt for context. IGNORE all file paths mentioned in it — do NOT read any files from the conversation.
-The ONLY file you must read and analyze is: /tmp/claude-safe-2423-30683.jpg
-
-Describe the image in detail:
-1. Overall dimensions and aspect ratio
-2. All visible text (exact wording)
-3. Layout — positioning of elements (centered, left/right aligned, top/bottom)
-4. Colors, backgrounds, gradients, contrast
-5. Visual quality — any clipping, overflow, misalignment, blurriness
-6. For logos/icons: shape, style, proportions
-Be precise and thorough. This text description replaces direct visual inspection.
-
-CONVERSATION CONTEXT (use ONLY to understand what the user wants to know about the image above):
-<local-command-stdout>Set effort level to xhigh (saved as your default for new sessions): Deeper reasoning than high, just below maximum (Fable 5, Opus 4.7+, Sonnet 5)</local-command-stdout>
----
-open up the TSD-Boarddocs project and scan for the latest meetings, and also add the LOWV that was last night - League of Women Voters' candidate forum for TSD: https://vimeo.com/1230311838?fl=pl&fe=sh
----
-Yes, upload the forum to YouTube and add it to the site
----
-
-- **(2026-09-25 23:44 UTC)** Below is a conversation excerpt for context. IGNORE all file paths mentioned in it — do NOT read any files from the conversation.
-The ONLY file you must read and analyze is: /tmp/claude-safe-2472-20631.jpg
-
-Describe the image in detail:
-1. Overall dimensions and aspect ratio
-2. All visible text (exact wording)
-3. Layout — positioning of elements (centered, left/right aligned, top/bottom)
-4. Colors, backgrounds, gradients, contrast
-5. Visual quality — any clipping, overflow, misalignment, blurriness
-6. For logos/icons: shape, style, proportions
-Be precise and thorough. This text description replaces direct visual inspection.
-
-CONVERSATION CONTEXT (use ONLY to understand what the user wants to know about the image above):
-<local-command-stdout>Set effort level to xhigh (saved as your default for new sessions): Deeper reasoning than high, just below maximum (Fable 5, Opus 4.7+, Sonnet 5)</local-command-stdout>
----
-open up the TSD-Boarddocs project and scan for the latest meetings, and also add the LOWV that was last night - League of Women Voters' candidate forum for TSD: https://vimeo.com/1230311838?fl=pl&fe=sh
----
-Yes, upload the forum to YouTube and add it to the site
----
-
-- **(2026-09-25 23:44 UTC)** Below is a conversation excerpt for context. IGNORE all file paths mentioned in it — do NOT read any files from the conversation.
-The ONLY file you must read and analyze is: /tmp/claude-safe-2529-14213.jpg
-
-Describe the image in detail:
-1. Overall dimensions and aspect ratio
-2. All visible text (exact wording)
-3. Layout — positioning of elements (centered, left/right aligned, top/bottom)
-4. Colors, backgrounds, gradients, contrast
-5. Visual quality — any clipping, overflow, misalignment, blurriness
-6. For logos/icons: shape, style, proportions
-Be precise and thorough. This text description replaces direct visual inspection.
-
-CONVERSATION CONTEXT (use ONLY to understand what the user wants to know about the image above):
-<local-command-stdout>Set effort level to xhigh (saved as your default for new sessions): Deeper reasoning than high, just below maximum (Fable 5, Opus 4.7+, Sonnet 5)</local-command-stdout>
----
-open up the TSD-Boarddocs project and scan for the latest meetings, and also add the LOWV that was last night - League of Women Voters' candidate forum for TSD: https://vimeo.com/1230311838?fl=pl&fe=sh
----
-Yes, upload the forum to YouTube and add it to the site
----
 3. **"Yes, upload the forum to YouTube and add it to the site"** → 1080p from the Vimeo HLS (`-N 8`, ~48 MB/s) uploaded as `Nv1yNV4Mwos` with a hand-written description, 2026 playlist, caption track, poster-frame thumbnail; D1 rows under a forum meeting name; `/api/meetings` extended to union recording-only meetings; `upload_videos.py` fixed to print the id before its thumbnail step (which would have exited and lost the id — caught at 2% and restarted).
 4. **"Yes, add the 2024 forum to the site too"** → The 2024 .docx parsed back into utterances and questions, loaded to D1 (143 lines, 12 chapters); `qQarjWMwXTI` (unlisted) got a description, captions and its 2024 playlist slot.
 5. **"Can you generate a Facebook post .docx for the 2026 LOWV on the desktop?"** (mid-turn) → `~/Desktop/LWV Candidate Forum Facebook Post 2026-09-24.docx`: per question, one bullet per candidate, plus the description body as the first comment.
@@ -199,3 +138,11 @@ Reconstructed by hand: the session started from `~`, so the capture hook did not
 12. **"tell me about this proposed voice seperation tool?"** / **"Go ahead and build it. Also, are we using Whisper 3.6 …"** / **"Sorry, meant to say Assembly AI 3.6"** → `transcription/split_cluster.py`, tested against the hand-made 10-06 spec (811/812 lines); AssemblyAI stays on `universal-3-5-pro`.
 13. **"Please check the summaries you generated on the Desktop please. Also - we are using Assembly AI 3.6 now, yes?"** → Fixed "pull-out" → "supplanted"; the pre-recorded API rejects `universal-3-6-pro` (tested with a 20-s clip).
 14. **"Please perform a documentation and QA pass so I can close this prompt"** → This entry, the checklist and roadmap updates, and the QA results in the changelog.
+
+## 2026-10-23 — the 2026-10-20 regular meeting, the description template, documentation pass
+
+Reconstructed by hand: the session started from `~`, so the capture hook did not fire.
+
+1. **"please open the tsd-boarddocs project and add the october 20 meeting"** → The whole chain. 29 documents (R2, D1, 14 Office previews, 29 deep-link ids); summaries by four parallel agents, checked before storing (every figure traced to its source or labelled computed; the P-card and check-register aggregates reconcile to their printed totals). The August 2026 check register went to tsd-checkregister (743 rows = printed TOTAL REPORT; validate and published-figures checks pass). TelVue `1054054` → `f5taR4cWg8g`, 2026 playlist, captions. Before transcribing, the keyterm emit was found dropping 180 of this meeting's own terms at the 1,000 cap (a reversed tie-break) and fixed. 16 clusters resolved from chair hand-offs, name plates read in subagents, and ECAPA voiceprints, including a cross-meeting check against 10-06 that caught the identifier's DiPilato/Griffor swap; audit 0 flags. 23 numbered chapters, description pushed; Facebook post and first comment on the Desktop, written without em dashes, the owner's own public comment in the first person.
+2. **"remove the em dash from the description template too"** → `push_desc.py` opens "Board of Education: …"; 10-20 re-pushed and the first comment regenerated; re-pushing the other 47 descriptions offered (about 2,400 quota units), now a ROADMAP item.
+3. **"Go ahead and do a documentation pass"** → This entry; TRANSCRIPTION (keyterm cap policy, sound-alike presenters and the cross-meeting check, guest clusters, season coverage through 10-20, the 2025-02-11 line stale since v0.17.0), OPERATIONS (agents and figure checks for a regular meeting's summaries), FACEBOOK_NOTES (no dashes, first person, what a slide's number counts), TOOLING, ROADMAP; three image-proxy prompts logged on 2026-09-25 removed from this file; the voice scripts kept under `transcription/examples/2026-10-20/voice_check/`.

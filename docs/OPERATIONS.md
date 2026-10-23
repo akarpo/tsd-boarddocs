@@ -85,6 +85,23 @@ The subagent fan-out earns its overhead on a 150-doc drip. For a single new meet
 subagents. Validate before storing — every input url present, no extras, all three
 tiers non-empty — because `--store-dir` silently skips a file it can't parse.
 
+A regular meeting is not always small. Its packet carries the monthly P-card report and
+check register, each about 150,000 characters of transaction lines, so the 2026-09-22
+and 2026-10-20 meetings were summarized by parallel agents (10-20: one per heavy listing,
+one for the 19 short documents, one for the rest), which also kept a single session's
+context free for the transcript work that follows. Two checks were added to the
+validation on 10-20, and both are worth keeping:
+
+- **Every figure traces to its source.** For each summary, every number of three or more
+  digits must appear in that document's extracted text (commas removed), or the summary
+  must say it is computed. On 10-20 the only misses were the year, dates taken from file
+  titles, and computed aggregates that were labelled as such.
+- **A computed aggregate reconciles to a printed total.** Extracted listings repeat lines
+  where pages overlap, so summing extracted lines overcounts. The P-card agent dropped the
+  repeats and matched the printed $334,099.07 exactly; the check-register agent used the
+  printed per-check totals, which add up to all 13 fund totals and the $10,530,877.28
+  report total.
+
 ## BoardDocs deep-link map
 
 `bd_links.js` (bundled into the worker) is generated from `boarddocs_unids.json`;

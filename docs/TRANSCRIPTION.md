@@ -40,6 +40,15 @@ The index grows from each meeting's own packet and never evicts. That replaces
 corporate suffix so "L Mason Capitani" and "MI Works!" were invisible at any cap,
 and ranking fifteen years of history buries the meeting about to be transcribed.
 
+**The 1,000-phrase cap is shared, and the newest meeting has to win the ties.**
+`--emit` keeps the curated list whole and gives the remaining slots to indexed terms,
+most-recurrent first, then most recent; a term that misses the cut stays in the index
+and returns if it recurs. The cap first bit on 2026-10-20 (314 curated + 866 indexed for
+686 slots), and the tie-break then sorted dates ascending, so all 180 dropped terms came
+from the packet about to be transcribed, among them the students' names the chair read
+aloud from the National Merit resolution. Fixed the same day. Read the `NOTE:` line the
+emit prints, and spot-check a few of the meeting's own names in the emitted file.
+
 **Keyterms only help where a word is spoken.** That same meeting's winning bidder
 appears throughout the packet and twice in 71 minutes of audio, so a fuller list
 changed its transcript not at all. Count the term in an existing transcript before
@@ -227,7 +236,31 @@ was published; the one difference is a 1.8-s "Oh, I'm just lingering" the tool g
 would leave early — her husband — and it was read as Trudel being remote. Trudel had
 finished the superintendent's previous sentence from the table four seconds earlier.
 Presence is proven by a person's own in-room turns; absence needs the chair's word or
-the minutes, never an inference, and never before it reaches a public post.
+the minutes, never an inference, and never before it reaches a public post. The chair's
+word need not carry the name: on 2026-10-20 she said only "We have 6 of our 7 board
+members present … she's not able to be here", and the other six each spoke in board
+comments, which leaves one trustee on a seven-member roster.
+
+**Two presenters whose names sound alike (2026-10-20).** Christine DiPilato and Kristine
+Griffor are homophones, so the chair's "Thanks, Kristine" names either one, and the
+identifier swapped them. Content decides first: Griffor (Assistant Superintendent,
+Elementary) presents the elementary data and DiPilato (Secondary Instruction) middle and
+high school. A **cross-meeting voiceprint check** confirms it when no frame can (that
+night's presentation frames were all slides): a centroid per settled cluster of the last
+meeting from its cached `.ecapa.json`, the same for the new one, and every pair's cosine.
+Cluster I scored 0.82 against 10-06 Griffor and D 0.63 against 10-06 DiPilato, each about
+0 against the other, while four control voices matched themselves at 0.69-0.79. The
+scripts are in `transcription/examples/2026-10-20/voice_check/`.
+
+**Guest clusters keep collecting after the guest leaves.** The diarizer gives a podium
+guest, or a group of children, a cluster of their own and then files the evening's
+one-word interjections there too, so mapping the cluster to the guest labels a vote's
+"Yes." as a Schroeder student or as the public commenter. Close a guest cluster with a
+time `split` at the moment the guest leaves (`after: "Unidentified speaker"`), then pin
+the few later lines that context does identify (the chair's "supported by Mr. Haupt"
+names the "Support." before it). The same night one student rep's nine lines sat in three
+clusters (DiPilato's, Melton's and the Troy High rep's); the name plate on camera and one
+voice (0.44-0.74 to her first line) brought them back together.
 
 `speakers.json` (see `transcription/examples/2026-07-22/`) is the reconciliation
 record: `speakers[]` feeds the API (`description` strongly guides matching),
@@ -333,15 +366,15 @@ minutes say Ryan Stasinski and Brian Fahnestock. The era pass found Fahnestock,
 and found `Katie Starn` where the chair had announced "Katie Skarn", turning two
 speakers that had been demoted to `Public commenter` back into named teachers.
 
-## Season coverage (as of 2026-09-25)
+## Season coverage (as of 2026-10-23)
 
-**All 47 channel recordings carry the "English (speaker-attributed)" caption track**
-as of 2026-09-25 — 44 board meetings (2024, 2025 and 2026 complete through the
-2026-09-22 regular) and the two League of Women Voters candidate forums (2024-09-25,
-2026-09-24). 43 as of 2026-09-04 (41 as of 2026-08-08, plus the 2026-08-18 regular
-and 2026-09-01 workshop). The last 15 were pushed that
-morning after an API audit found the owed list was wrong in both directions; see
-"Audit before you push captions" below.
+**48 recordings are on the site, and each has the "English (speaker-attributed)" caption
+track on YouTube**: 46 board meetings (2024 and 2025 complete, 2026 through the
+2026-10-20 regular) and the two League of Women Voters candidate forums (2024-09-25,
+2026-09-24). Each new meeting is captioned as it is added
+(`upload_captions.py --only <date>`). The 2026-09-25 audit pushed 15 tracks
+after finding the owed list wrong in both directions; see "Audit before you push
+captions" below.
 
 - **2024 — every recording on the channel is live.** All ten recorded regular
   meetings (Jan 16 organizational, Feb 27, Mar 19, Apr 16, May 21, Jun 20,
@@ -353,18 +386,19 @@ morning after an API audit found the owed list was wrong in both directions; see
   specials, and the Jul 16 and Aug 20 regulars — have no recording located
   anywhere; `manifest_2024.json` records them as `src: null` with a note.
 
-- **2026 — complete through September 1.** All 14 televised meetings (6 workshops,
-  8 regulars) live on the site with embed + named transcript + chapters, and
-  caption tracks ("English (speaker-attributed)") on all 14 YouTube videos. Only
+- **2026 — complete through October 20.** All 17 televised meetings (7 workshops,
+  10 regulars) live on the site with embed + named transcript + chapters, and
+  caption tracks ("English (speaker-attributed)") on all 17 YouTube videos. Only
   the Mar 3 workshop was never recorded anywhere. New meetings follow
   [OPERATIONS.md](OPERATIONS.md#the-whole-chain-in-the-order-it-has-to-run).
 - **2025 — complete.** All 19 recorded meetings are transcribed and QA'd (Jan 14,
-  May 6, Jul 15, Aug 19 were not televised), and **18 are live on the site** with
+  May 6, Jul 15, Aug 19 were not televised), and **all 19 are live on the site** with
   embed, chapters, named transcript and an "English (speaker-attributed)" caption
   track. The six TelVue-only recordings — Jan 21 organizational, Feb 25, Mar 8
   Winter Retreat, Oct 14, Nov 18 and Dec 16 — were uploaded to the channel on
-  2026-08-07 and wired the same day. Only the Feb 11 workshop stays off the site:
-  it exists on the channel as two separate part uploads rather than one recording.
+  2026-08-07 and wired the same day. The Feb 11 workshop, which existed only as two
+  part uploads, was rejoined into one recording (`1-P9EUyx9N0`) in v0.17.0; this
+  section said it stayed off the site until 2026-10-23.
 
 ## Backfilling a season (the 2025 pattern)
 
@@ -468,7 +502,10 @@ field, which is the recorded channel title.
    with no cluster is a merged cluster until proven absent — and when a cluster holds two
    people (two personas, or the chair's "Stephanie?" and "Audra?" both answered by it), run
    `transcription/split_cluster.py` with seeds from name plates or hand-offs (see "It happened
-   again on 2026-10-06" above).
+   again on 2026-10-06" above). When two staff presenters could be confused (DiPilato and
+   Griffor sound alike by name), compare the new clusters with the last meeting's settled
+   voices, and close guest clusters with a time split when the guest leaves (both above,
+   2026-10-20).
 3. Build the agenda anchors — **`make_anchors.py` output is a draft, not an
    answer**. Run `anchors/prep_meeting.py DATE --transcript <the .transcript.json>`
    to build the workdir inputs, then `anchors/brief.py DATE`, author the anchor set
@@ -528,7 +565,9 @@ agendas). As of 2026-09-25: 624 anchors across 46 recordings — 602 on 44 board
 meetings (the 2026-09-22 regular added 24, numbering valid, and left the QA counts at
 16 COVERED / 11 ORDER) plus 22 forum chapters, which carry no agenda numbers. As of 2026-10-10: 649 anchors across
 47 recordings — the 2026-10-06 workshop added 25, numbering valid, QA counts unchanged at
-16 COVERED / 11 ORDER over 45 board meetings.
+16 COVERED / 11 ORDER over 45 board meetings. As of 2026-10-23: 672 anchors across 48
+recordings — the 2026-10-20 regular added 23, numbering valid, QA counts unchanged at
+16 COVERED / 11 ORDER over 46 board meetings.
 
 ## Candidate forums (League of Women Voters)
 

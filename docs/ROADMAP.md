@@ -71,7 +71,7 @@ register handed to `tsd-checkregister`, and the TelVue recording on YouTube as
 `ciIdYBDoQjw` with transcript, captions and 16 authored chapters. That is the whole
 new-meeting pipeline exercised end to end; see `docs/OPERATIONS.md`.
 
-**The corpus is fully scanned as of 2026-08-21** (3,353 documents as of 2026-10-10, all summarized). All 3,287 documents then had extracted
+**The corpus is fully scanned as of 2026-08-21** (3,382 documents as of 2026-10-23, all summarized). All 3,287 documents then had extracted
 text, are in the FTS index, and carry three summary tiers — reconciled in both directions
 against D1, zero drift. That is up from 2,798 the same morning: 489 documents had never
 been parsed at all and were invisible to search. See
@@ -173,6 +173,13 @@ would remove the class of error. Only worth it if it bites again.
 ---
 
 ## Later
+
+### Re-push the older YouTube descriptions without the em dash
+The description template opens with a colon since 2026-10-23 (the owner's no-dash rule;
+the description is also the Facebook first comment). Only 2026-10-20 has been re-pushed;
+the other 47 videos keep "Board of Education — …" until their next push. Queue them all
+and drain with `anchors/push_pending.py`: 50 units each, about 2,400 of the 10,000 daily.
+Waiting on the owner's go-ahead.
 
 ### Loose ends from 2026-09-04
 - **`claude/blaine-amendment-tax-credits-wr2b0v`** on GitHub is a cloud session's
