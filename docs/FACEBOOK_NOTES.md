@@ -51,7 +51,7 @@ Exactly the YouTube description (`transcription/anchors/push_desc.py`'s `build()
 the script fetches from D1:
 
 ```
-Troy School District Board of Education — Workshop Meeting, October 6, 2026.
+Troy School District Board of Education: Workshop Meeting, October 6, 2026.
 
 Full searchable transcript, agenda and board packet:
 https://tsd-boarddocs.karpowitsch.org/?meeting=…

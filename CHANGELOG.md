@@ -30,8 +30,10 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   because the "then most recent" sort key sorted date strings ascending. Fixed with stable
   passes; the drop now falls on one-off terms from 2026-08-18 and 09-01, which stay indexed.
 - Facebook notes source `facebook/2026-10-20.md` (7 quotes checked against the transcript),
-  written without em or en dashes per the owner's preference; the first comment is still
-  the description verbatim, whose header line carries one.
+  written without em or en dashes per the owner's preference. The description template
+  (`push_desc.py`) now opens "Board of Education: Regular Meeting, …" instead of an em dash,
+  so the first comment carries none either; 10-20 re-pushed, other videos keep the old line
+  until their next push.
 
 ### Closing QA pass — 2026-10-10
 

@@ -60,7 +60,7 @@ def build(date):
         s = ms // 1000
         return "0:00" if ms == 0 else (f"{s//3600}:{s%3600//60:02d}:{s%60:02d}" if use_h
                                        else f"{s//60}:{s%60:02d}")
-    lines = [f"Troy School District Board of Education — {kind}, {MON[int(m)-1]} {int(d_)}, {y}.", "",
+    lines = [f"Troy School District Board of Education: {kind}, {MON[int(m)-1]} {int(d_)}, {y}.", "",
              "Full searchable transcript, agenda and board packet:", url, "",
              "Every line is speaker-attributed and searchable, and links to the agenda",
              "item and packet documents it refers to.", "", "Agenda"]
