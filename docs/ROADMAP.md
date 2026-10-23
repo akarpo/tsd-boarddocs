@@ -4,11 +4,19 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-10-10**.
+Last reviewed **2026-10-23**.
 
 ---
 
 ## Where things stand
+
+**The 2026-10-20 regular meeting is ingested through chapters** (2026-10-23): 29 documents
+summarized, the August check register handed across, TelVue `1054054` on YouTube as
+`f5taR4cWg8g`, a 1:50 transcript with all 16 clusters resolved (0 audit flags), captions, 23
+numbered chapters, description pushed, Facebook notes on the Desktop. The identifier had
+the two achievement presenters swapped (I = Griffor, D = DiPilato), caught by content and a
+cross-meeting voiceprint check, and the keyterm emit had been dropping the newest meeting's
+terms at the cap (fixed). See the changelog.
 
 **The 2026-10-06 workshop is ingested through chapters** (2026-10-10): 9 documents
 summarized, on YouTube as `7JyXa8h7WrA` (TelVue `1050058`, workshops series `5075`), a

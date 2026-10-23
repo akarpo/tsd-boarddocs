@@ -5,6 +5,34 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Meeting 2026-10-20 (regular) end to end — 2026-10-23
+
+- 29 documents crawled, extracted, in R2 and D1 (14 Office previews, 29 deep-link ids),
+  summarized by four agents and checked before storing: every url present, every figure
+  traced to its source or labelled as computed (the P-card and check-register aggregates
+  reconcile exactly to their printed totals, $334,099.07 and $10,530,877.28). The August 2026
+  check register went across to tsd-checkregister (743 rows = printed TOTAL REPORT).
+  `reconcile_chunks.py`: D1 = index at 45,346 chunks.
+- TelVue `1054054` (series 4132, 1:50:01) on YouTube as `f5taR4cWg8g`: crest-card
+  thumbnail, 2026 playlist, caption track, 23 numbered chapters (gates clean), description
+  pushed.
+- Transcript `c1f10cb6…`, 16 clusters, all resolved (spec in
+  `transcription/examples/2026-10-20/speakers.json`; audit 0 flags, 0.0% unattributed).
+  **The identifier swapped the two presenters**: it named the elementary presenter DiPilato.
+  Content (elementary vs secondary) and a cross-meeting voiceprint check against 2026-10-06
+  (I↔Griffor 0.82, D↔DiPilato 0.63, each ~0 for the other; controls 0.69–0.79) settled it;
+  "Christine" and "Kristine" sound alike, so the chair's hand-offs could not. The TCCHS rep's
+  lines were spread over three clusters (D, K, M) and come back to one speaker by name plate
+  and voice. Philippart absent (the chair's 6 of 7, and the six others all spoke).
+- **Keyterm cap: the tie-break kept the oldest terms.** The first time the merged list hit
+  1,000 (923 indexed + 314 curated), the emit dropped 180 terms — all of them from this
+  meeting's packet, including student names read aloud in the National Merit resolution —
+  because the "then most recent" sort key sorted date strings ascending. Fixed with stable
+  passes; the drop now falls on one-off terms from 2026-08-18 and 09-01, which stay indexed.
+- Facebook notes source `facebook/2026-10-20.md` (7 quotes checked against the transcript),
+  written without em or en dashes per the owner's preference; the first comment is still
+  the description verbatim, whose header line carries one.
+
 ### Closing QA pass — 2026-10-10
 
 - Clean: D1 = index at 45,139 chunks (`reconcile_chunks.py`), 3,353 documents = summaries =

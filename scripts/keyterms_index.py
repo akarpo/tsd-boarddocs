@@ -235,10 +235,17 @@ def main() -> int:
         if len(shaped) < len(indexed):
             print(f"filtered {len(indexed) - len(shaped)} indexed terms that no longer pass the shape test")
         budget = max(a.limit - len(base), 0)
-        shaped.sort(key=lambda t: (-ix[t].get("seen", 1), ix[t].get("last_meeting") or ix[t].get("first_meeting") or "", t))
+        # Three stable passes, because "most recent" is a descending date string. The
+        # one-key form sorted dates ascending, so the first time the cap bit (2026-10-20)
+        # it kept the oldest one-off terms and dropped 180 of the meeting about to be
+        # transcribed — student names from its own resolutions among them.
+        last = lambda t: ix[t].get("last_meeting") or ix[t].get("first_meeting") or ""
+        shaped.sort()
+        shaped.sort(key=last, reverse=True)
+        shaped.sort(key=lambda t: -ix[t].get("seen", 1))
         if len(shaped) > budget:
             print(f"NOTE: {len(shaped)} indexed terms exceed the {budget} slots left under the {a.limit} cap — "
-                  f"keeping the most-recurrent, dropping {len(shaped) - budget}", file=sys.stderr)
+                  f"keeping the most-recurrent, then most recent, dropping {len(shaped) - budget}", file=sys.stderr)
             shaped = shaped[:budget]
         terms = sorted(set(base) | set(shaped))
         if base:

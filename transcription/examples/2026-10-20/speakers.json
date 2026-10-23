@@ -1,0 +1,218 @@
+{
+ "_comment": "2026-10-20 Regular Meeting. Resolved from evidence: chair hand-offs, readers of resolutions, name plates on camera, and ECAPA voiceprints seeded from evidence-anchored turns (this meeting) plus a cross-meeting check against 2026-10-06. Short interjections with no voice margin keep their cluster's default, as on 2026-10-06.",
+ "speakers": [
+  {
+   "name": "Vital Anne",
+   "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"
+  },
+  {
+   "name": "Emina Alic",
+   "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+  },
+  {
+   "name": "Matt Haupt",
+   "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+  },
+  {
+   "name": "Audra Melton",
+   "description": "Trustee, addressed as Dr. Melton"
+  },
+  {
+   "name": "Nancy Philippart",
+   "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"
+  },
+  {
+   "name": "Ayesha Potts",
+   "description": "Trustee, addressed as Ms. Potts"
+  },
+  {
+   "name": "Stephanie Zendler",
+   "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"
+  },
+  {
+   "name": "Richard Machesky",
+   "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+  },
+  {
+   "name": "Dan Trudel",
+   "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"
+  },
+  {
+   "name": "Christine DiPilato",
+   "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"
+  }
+ ],
+ "mapping": {
+  "A": "Vital Anne",
+  "B": "Ayesha Potts",
+  "C": "Dr. Richard Machesky",
+  "D": "Christine DiPilato",
+  "E": "Schroeder student",
+  "F": "Unidentified speaker",
+  "G": "Lindsay Keegan",
+  "H": "Schroeder student",
+  "I": "Kristine Griffor",
+  "J": "Emina Alic",
+  "K": "Audra Melton",
+  "L": "Stephanie Zendler",
+  "M": "Troy High School student rep",
+  "N": "Dan Trudel",
+  "O": "Alex Karpowitsch",
+  "P": "Matt Haupt"
+ },
+ "splits": [
+  {
+   "cluster": "E",
+   "at_ms": 810000,
+   "before": "Schroeder student",
+   "after": "Unidentified speaker",
+   "note": "the Schroeder students left the podium at 0:13:30; E's later lines are one-word interjections from the table"
+  },
+  {
+   "cluster": "G",
+   "at_ms": 810000,
+   "before": "Lindsay Keegan",
+   "after": "Unidentified speaker",
+   "note": "Keegan's segment ends at 0:13:18"
+  },
+  {
+   "cluster": "H",
+   "at_ms": 810000,
+   "before": "Schroeder student",
+   "after": "Unidentified speaker",
+   "note": "as E"
+  },
+  {
+   "cluster": "O",
+   "at_ms": 1710000,
+   "before": "Alex Karpowitsch",
+   "after": "Unidentified speaker",
+   "note": "the public commenter spoke once, 0:26:01-0:28:24, at the podium"
+  }
+ ],
+ "reassign": [
+  {
+   "name": "Lindsay Keegan",
+   "start_ms": [
+    142960,
+    512344,
+    549877,
+    129889
+   ]
+  },
+  {
+   "name": "Schroeder student",
+   "start_ms": [
+    414502,
+    485964,
+    314626,
+    642721
+   ]
+  },
+  {
+   "name": "Unidentified speaker",
+   "start_ms": [
+    116233,
+    133424,
+    174633,
+    325944,
+    818590,
+    1181064,
+    1484224,
+    5503620,
+    476006,
+    4864316,
+    129070,
+    754200,
+    1165426
+   ]
+  },
+  {
+   "name": "Ahyoung Song",
+   "start_ms": [
+    5043192,
+    5041988
+   ]
+  },
+  {
+   "name": "Shyanne Kurzynski",
+   "start_ms": [
+    5133896,
+    5156730,
+    5183812,
+    5200597,
+    5203792,
+    5144796,
+    5173775,
+    5153038,
+    5163969
+   ]
+  },
+  {
+   "name": "Dan Trudel",
+   "start_ms": [
+    4437594,
+    5003327
+   ]
+  },
+  {
+   "name": "Kristine Griffor",
+   "start_ms": [
+    2616045
+   ]
+  },
+  {
+   "name": "Ayesha Potts",
+   "start_ms": [
+    1466608
+   ]
+  },
+  {
+   "name": "Audra Melton",
+   "start_ms": [
+    869364
+   ]
+  },
+  {
+   "name": "Stephanie Zendler",
+   "start_ms": [
+    5518810
+   ]
+  },
+  {
+   "name": "Matt Haupt",
+   "start_ms": [
+    4530850,
+    6131766
+   ]
+  },
+  {
+   "name": "Vital Anne",
+   "start_ms": [
+    5424430
+   ]
+  }
+ ],
+ "utterance_splits": [
+  {
+   "start_ms": 5424430,
+   "at_ms": 5425833,
+   "after": "Troy High School student rep",
+   "note": "1:30:24 the chair's 'How many trunks do you' runs into the rep's 'Currently we have a little over 70' (voice of the head: Anne 0.44)"
+  }
+ ],
+ "notes": [
+  "Roll call from the chair (0:00:05): 'We have 6 of our 7 board members present. Our 7th board member ... she's not able to be here.' The six who spoke in board-member comments are Zendler, Potts, Melton, Haupt, Alic and Anne, so the absent trustee is Nancy Philippart. Every vote is announced 6-0.",
+  "A = Vital Anne, chair ('Hi, my name is Vital' 0:00:05). Cross-meeting voiceprint vs 2026-10-06 Anne 0.72.",
+  "I = Kristine Griffor and D = Christine DiPilato -- the identifier had I as DiPilato. I presented the ELEMENTARY data ('Questions for elementary?' 0:42:59) and D middle and high school ('excited to ... talk a little bit about middle school ... and then into high school' 0:44:56); the chair addresses D as 'Christine' (0:55:10). On 2026-10-06 Griffor (Asst. Supt. Elementary) presented elementary and DiPilato (plate CHRISTINE DiPILATO / ASST SUPT SECONDARY INSTRUCTION) secondary. ECAPA cross-meeting: I vs 10-06 Griffor 0.82 (vs DiPilato -0.01); D vs 10-06 DiPilato 0.63 (vs Griffor 0.01). Controls: Trudel 0.79, Anne 0.72, Alic 0.69, Haupt 0.78. 'Christine' and 'Kristine' sound alike, so the chair's 1:13:31 'Thanks, Kristine' cannot decide it.",
+  "C = Dr. Richard Machesky (answers 'Dr. Machesky' at 0:25:44 and 1:43:23). N = Dan Trudel (presents 8.A-8.D; 'Mr. Trudel' 1:13:47). J = Emina Alic (reads the 8.A and 8.D resolutions when the chair asks 'Miss Alicia'; election reminder 1:42:32). K = Audra Melton (reads the Learning Disabilities resolution after 'Dr. Melton'; frame 0:15:30 shows a trustee reading from a sheet, seated by plate order at DR. AUDRA MELTON; the dais is curved, so plate-to-seat is inferred). L = Stephanie Zendler (Principal Appreciation resolution after 'Ms. Zandler'; board comments after 'Ms. Zender'). B = Ayesha Potts ('Ms. Cotts' reads 8.B; board comments; plate AYESHA POTTS). P = Matt Haupt (consent resolution after 'Mr. Haupt'; board comments after 'Mr. Haunt'; 0:29:09 vs his other lines 0.79; cross-meeting 0.78).",
+  "G = Lindsay Keegan, Schroeder principal (Machesky: 'Schroeder principal, Mrs. Lindsay Keegan'); frame 0:03:30 shows a woman with a handheld mic beside the podium leading the students. Her lines filed under D (0:02:22, 0:08:32, 0:09:09) by voice (0.38-0.47 vs <=0.25), and F 0:02:09 ('Thanks, Dr. [Machesky], and the board') by context.",
+  "E/H = Schroeder students (Nicholas, Remy, Audrey, Veeram, Dean, by their own introductions). The children's voices are too alike to separate per child (centroids 0.57-0.76), so they share one label.",
+  "O = Alex Karpowitsch, the only public commenter (chair: 'Mr. Alex Karpowitz'; self: 'my name is Alex Karpowicz ... 2004 Troy High graduate'); the STT spelling is wrong, Karpowitsch is the archive owner's name. O's later one-word lines are not his (he spoke at the podium once): 1:15:30 'Support.' is Haupt (chair: 'supported by Mr. Hauff'), 1:42:11 'That's great.' is Haupt by voice (0.38 vs 0.18).",
+  "Student reps by name plate (frames 1:24:30-1:26:25): Ahyoung Song / INTERNATIONAL ACADEMY EAST, Shyanne Kurzynski / TROY COLLEGE & CAREER HIGH SCHOOL. The chair's 'Shane' is Shyanne. TCCHS is one speaker: the camera shows the Kurzynski seat speaking at 1:25:36, 1:25:47 and 1:26:25, and every TCCHS line -- filed under D, K and M -- matches the 1:25:33 voice (0.44-0.74). Athens had no rep ('We do not have an Athens rep today').",
+  "M = the Troy High rep, sitting behind the LANDON IBRAHIM / TROY HIGH SCHOOL plate (frame 1:27:30), but introduced by the chair as a substitute heard as 'Leah Bozeman'; that spelling appears nowhere in the archive, so the label is the role.",
+  "Context calls: J 0:14:29 'Sure.' answers 'Dr. Melton, you said you were going to do that?' (Melton); I 0:24:26 'Support.' (chair: 'supported by Ms. Potts'); B 0:43:36 'We sure have.' answers the chair's question to the presenters (Griffor by voice 0.31 vs 0.19, and Griffor's 'Our team has.' follows); G 1:23:23 'Yep.' answers the chair's sinking-fund question to Trudel; G 1:31:58 'Sure.' answers 'Ms. Zender, do you want to kick it off?'; D 1:13:57 'I wish I could say this was more exciting' is Trudel by voice (0.64).",
+  "Unidentified speaker: one-to-three-word interjections and vote 'Yes.'es in clusters whose owner was not speaking (guest clusters after the guest left, staff clusters during votes), where neither voice nor context names anyone.",
+  "Presentation frames (0:33:00-1:05:00) are slide-only and identify neither presenter; the voiceprints and the agenda split (elementary vs secondary) decide I and D."
+ ]
+}
