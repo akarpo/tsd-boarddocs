@@ -104,6 +104,15 @@ These come from errors that were caught, some of them only after publication.
    of 3 or Higher". Name the unit in the post (students, exams, graduates), and leave out a
    comparison whose two sides count different things.
 
+10. **Blank line between blocks** (the owner's layout from the 2026-11-12 post on): an empty
+    paragraph after the title, the recording line, the lede, every section title, every body
+    paragraph and every list; consecutive `· ` bullets stay together. Section titles are bold on
+    their own line. `facebook_notes.py` writes the empty paragraphs into the .docx.
+11. **Posting from Chrome** (2026-11-13): in the group composer, paste HTML (`<p>` per block,
+    `<p><br></p>` for each blank line, `<strong>`/`<em>`) with a synthetic `paste` event after a
+    real click in the editor; Facebook keeps the bold, italics and empty paragraphs. Verify the
+    editor's block, bold and italic counts before pressing Post.
+
 ## Source syntax (`facebook/<date>.md`)
 
 One block per line; blank lines are ignored.

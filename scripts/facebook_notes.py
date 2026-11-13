@@ -94,7 +94,13 @@ def write_post(blocks, path: Path) -> None:
     st = doc.styles["Normal"]
     st.font.name, st.font.size = "Calibri", Pt(11)
     st.paragraph_format.space_after = Pt(6)
+    prev = None
     for kind, text in blocks:
+        # The owner's layout since 2026-11-12: an empty line between every block, so each
+        # bold section title stands alone; consecutive bullets stay together as a list.
+        if prev is not None and not (kind == "bullet" and prev == "bullet"):
+            doc.add_paragraph()
+        prev = kind
         p = doc.add_paragraph()
         if kind == "recording":
             m = REC.match(text)
