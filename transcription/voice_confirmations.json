@@ -1,0 +1,6 @@
+{
+  "_comment": "Cluster names confirmed by video or content where the voice-library rule held back (propose_fixes.py applies these after its own rules). Each entry: date -> cluster -> [name, evidence].",
+  "2025-01-21": {"B": ["Nancy Philippart", "video: she chairs 'Appointment of Temporary Secretary' (the 2025 president); voice 0.56, 69 of 75 lines"]},
+  "2026-01-13": {"A": ["Nancy Philippart", "video: DR. NANCY PHILIPPART plate in the close-up; voice 0.73, 39 of 44 lines"]},
+  "2025-12-09": {"E": ["Matt Jansen", "content: an athletics presentation (athlet* 68, sport 60, coach 50); voice Jansen 0.65; video shows a man at the presenters' table, not Haupt"]}
+}
