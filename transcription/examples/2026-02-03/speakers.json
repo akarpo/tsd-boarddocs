@@ -1,0 +1,117 @@
+{
+  "_comment": "Generic 2026 candidate roster for speaker identification (API max 10). No overrides/splits \u2014 those are per-meeting verification results; add them after reviewing a specific transcript. transcribe_meeting.py persists the per-meeting resolved spec next to its outputs.",
+  "speakers": [
+    {
+      "name": "Vital Anne",
+      "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton"
+    },
+    {
+      "name": "Nancy Philippart",
+      "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the generic 2026 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting (the 2026-07-22 example shows what verification adds).",
+    "QA pass 2026-08-02: remaining clusters attributed from in-transcript evidence (self-introductions, minutes roll-call, content ownership); generic labels where identity is not stated.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Christine DiPilato -> unidentified (voice matches 0/35; top Matt Haupt 35); cluster D: Emina Alic -> Nancy Philippart (55/67 lines, median 0.81 >= 0.73); cluster B: Nancy Philippart -> Emina Alic (38/41 lines, median 0.77 >= 0.59); cluster I: David Recker -> Christine DiPilato (30/30 lines, median 0.86 >= 0.59); 30 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "D": "Emina Alic",
+    "E": "Christine DiPilato",
+    "F": "Matt Haupt",
+    "G": "Audra Melton",
+    "H": "Dan Trudel",
+    "A": "Vital Anne",
+    "C": "C",
+    "I": "I",
+    "B": "Nancy Philippart"
+  },
+  "overrides": {
+    "C": "Dr. Richard Machesky",
+    "I": "Christine DiPilato",
+    "E": "Unidentified speaker",
+    "D": "Nancy Philippart",
+    "B": "Emina Alic"
+  },
+  "reassign": [
+    {
+      "name": "Christine DiPilato",
+      "start_ms": [
+        1893680,
+        2876572,
+        4748210
+      ]
+    },
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        9180383
+      ]
+    },
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        1464644,
+        1770051,
+        3184510,
+        3207956,
+        4425411,
+        4448785,
+        5374361,
+        6890382,
+        7218829,
+        8277483,
+        8285384,
+        8298835,
+        8318185,
+        8473919,
+        8812100,
+        9427920,
+        9467581,
+        9522030,
+        9751685,
+        9768550,
+        10643201,
+        10682560,
+        10707807,
+        10712902,
+        11218059,
+        11663505
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

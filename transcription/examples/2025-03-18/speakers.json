@@ -1,0 +1,94 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "Cluster B is the chair: it calls each trustee for comments ('Ms. Potts.', 'Ms. Zendler.', 'Audra?', 'Matt?') and runs the recognitions ('Now on to our students', 'come right up in front here'), and the minutes record President Philippart presiding. KNOWN EXCEPTION: the single line at 0:17:xx ('my name is Vanessa Liu, and we are your co-hosts for the Life Unfiltered podcast') is a student whose turn rode along in this cluster; it sits mid-cluster so a timestamp split cannot isolate it.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): 6 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "A": "Nancy Philippart",
+    "M": "Thomas Butcher",
+    "D": "Christine DiPilato",
+    "F": "Dan Trudel",
+    "I": "Ayesha Potts",
+    "L": "Vanessa Liu",
+    "N": "Kristian",
+    "R": "Audra Melton",
+    "T": "Mr. Apahidian",
+    "E": "Richard Machesky",
+    "H": "Gabrielle Robinson",
+    "J": "Brian Zawislak",
+    "P": "Stephanie Zendler",
+    "S": "Nurayda",
+    "C": "Emina Alic",
+    "G": "Matt Haupt",
+    "K": "Sanvi Menonvakkar",
+    "O": "Diana D'Aloisio",
+    "Q": "Adam"
+  },
+  "overrides": {
+    "B": "Nancy Philippart"
+  },
+  "reassign": [
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        1360041
+      ]
+    },
+    {
+      "name": "Vital Anne",
+      "start_ms": [
+        1301620,
+        1806508,
+        2027896,
+        3247503,
+        3260207
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

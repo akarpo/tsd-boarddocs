@@ -1,0 +1,74 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "QA pass: large unmapped clusters attributed from in-transcript evidence; generic labels where identity is not stated.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster A: Nancy Philippart -> Vital Anne (21/22 lines, median 0.66 >= 0.60); cluster B: Vital Anne -> unidentified (voice matches 0/75; top Nancy Philippart 69); cluster D: Audra Melton -> unidentified (voice matches 2/19; top Audra Melton 2); cluster B -> Nancy Philippart (confirmed: video: she chairs 'Appointment of Temporary Secretary' (the 2025 president); voice 0.56, 69 of 75 lines)"
+  ],
+  "mapping": {
+    "B": "Vital Anne",
+    "D": "Audra Melton",
+    "G": "Stephanie Zendler",
+    "H": "Ayesha Potts",
+    "M": "Richard Machesky",
+    "A": "Nancy Philippart",
+    "I": "Matt Haupt",
+    "N": "Dan Trudel",
+    "E": "Emina Alic"
+  },
+  "overrides": {
+    "F": "AARC consultant presenter",
+    "P": "Guest presenter",
+    "C": "Public commenter",
+    "K": "Public commenter",
+    "Q": "Public commenter",
+    "A": "Vital Anne",
+    "B": "Nancy Philippart",
+    "D": "Unidentified speaker"
+  },
+  "reassign": [],
+  "_quality": "voice-pass"
+}

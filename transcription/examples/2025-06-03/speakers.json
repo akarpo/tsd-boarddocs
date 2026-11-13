@@ -1,0 +1,129 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Stephanie Zendler -> unidentified (voice matches 2/55; top Ayesha Potts 9); 36 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "B": "Emina Alic",
+    "D": "Kim St. Martin",
+    "E": "Stephanie Zendler",
+    "F": "Audra Melton",
+    "G": "Christine DiPilato",
+    "K": "Dan Trudel",
+    "A": "Nancy Philippart",
+    "C": "Richard Machesky",
+    "H": "Matt Haupt",
+    "I": "Ayesha Potts"
+  },
+  "overrides": {
+    "E": "Unidentified speaker"
+  },
+  "reassign": [
+    {
+      "name": "Christine DiPilato",
+      "start_ms": [
+        10019087,
+        10495362,
+        10603295,
+        10666799,
+        10719457
+      ]
+    },
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        802688,
+        3739101,
+        4102358,
+        5730719,
+        6281809,
+        10699313
+      ]
+    },
+    {
+      "name": "Matt Haupt",
+      "start_ms": [
+        14504360
+      ]
+    },
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        3922362,
+        14352397
+      ]
+    },
+    {
+      "name": "Vital Anne",
+      "start_ms": [
+        232596,
+        589364,
+        1209535,
+        3586881,
+        4347510,
+        4700620,
+        4821622,
+        4877948,
+        6177506,
+        6738551,
+        6779752,
+        7040540,
+        8649425,
+        8838745,
+        9096651,
+        9149308,
+        9495493,
+        9898159,
+        9928280,
+        10481650,
+        11806552,
+        14524707
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

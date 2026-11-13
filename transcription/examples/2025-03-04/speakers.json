@@ -1,0 +1,86 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster A: Speaker A -> Richard Machesky (17/18 lines, median 0.67 >= 0.56); cluster F: Matt Haupt -> Vital Anne (37/40 lines, median 0.61 >= 0.56); cluster G: Ayesha Potts -> Emina Alic (23/24 lines, median 0.63 >= 0.56); cluster B: Audra Melton -> unidentified (voice matches 4/70; top Nancy Philippart 13); cluster L: Speaker L -> Stephanie Zendler (14/16 lines, median 0.57 >= 0.56); cluster K: Stephanie Zendler -> unidentified (voice matches 0/24; top Audra Melton 1); cluster E: Audra Melton -> unidentified (voice matches 0/35; top ? 0); 2 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "D": "Dan Trudel",
+    "E": "Audra Melton",
+    "I": "Mike Munaco",
+    "J": "Christine DiPilato",
+    "K": "Stephanie Zendler",
+    "C": "Nancy Philippart",
+    "B": "Audra Melton",
+    "G": "Ayesha Potts",
+    "H": "Kathy",
+    "F": "Matt Haupt"
+  },
+  "overrides": {
+    "A": "Richard Machesky",
+    "F": "Vital Anne",
+    "G": "Emina Alic",
+    "B": "Unidentified speaker",
+    "L": "Stephanie Zendler",
+    "K": "Unidentified speaker",
+    "E": "Unidentified speaker"
+  },
+  "reassign": [
+    {
+      "name": "Audra Melton",
+      "start_ms": [
+        1329964
+      ]
+    },
+    {
+      "name": "Nancy Philippart",
+      "start_ms": [
+        10510620
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

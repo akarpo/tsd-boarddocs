@@ -1,0 +1,119 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "QA pass: large unmapped clusters attributed from in-transcript evidence; generic labels where identity is not stated.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Emina Alic -> Vital Anne (28/31 lines, median 0.71 >= 0.62); 27 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "E": "Emina Alic",
+    "F": "Richard Machesky",
+    "H": "Shari Pawlus",
+    "B": "Hillary Colliam",
+    "A": "Nancy Philippart",
+    "G": "Sarah Smotherman"
+  },
+  "overrides": {
+    "J": "Parent advisory (ELD PAC) speaker",
+    "C": "Dan Trudel",
+    "E": "Vital Anne"
+  },
+  "reassign": [
+    {
+      "name": "Audra Melton",
+      "start_ms": [
+        791543,
+        798679
+      ]
+    },
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        973333,
+        2584468,
+        7388052,
+        8082149
+      ]
+    },
+    {
+      "name": "Kristine Griffor",
+      "start_ms": [
+        10954788,
+        10967261
+      ]
+    },
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        833858,
+        887844,
+        894436,
+        1306874,
+        2097293,
+        2131392,
+        2885584,
+        2914427,
+        2957170,
+        2961670,
+        3068957,
+        5686901,
+        6157733,
+        6184713,
+        6228857,
+        7176610,
+        7612969,
+        7621043
+      ]
+    },
+    {
+      "name": "Vital Anne",
+      "start_ms": [
+        3019955
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

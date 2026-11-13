@@ -1,0 +1,207 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster D: Stephanie Zendler -> Emina Alic (81/83 lines, median 0.69 >= 0.59); cluster F: Matt Haupt -> Vital Anne (67/69 lines, median 0.67 >= 0.62); cluster E: Stephanie Zendler -> unidentified (voice matches 3/32; top Emina Alic 13); 110 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "D": "Stephanie Zendler",
+    "E": "Stephanie Zendler",
+    "F": "Matt Haupt",
+    "G": "Audra Melton",
+    "I": "Christine DiPilato",
+    "A": "Nancy Philippart",
+    "C": "Dan Trudel"
+  },
+  "overrides": {
+    "D": "Emina Alic",
+    "F": "Vital Anne",
+    "E": "Unidentified speaker"
+  },
+  "reassign": [
+    {
+      "name": "Christine DiPilato",
+      "start_ms": [
+        6357980,
+        9373970
+      ]
+    },
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        1473669,
+        3582912,
+        8459839,
+        10922884,
+        12952627,
+        13962440,
+        14142760
+      ]
+    },
+    {
+      "name": "Kristine Griffor",
+      "start_ms": [
+        6366960,
+        6506163,
+        6872595,
+        6878864,
+        7164510,
+        7182257,
+        7332077,
+        7496587,
+        7633738,
+        8437134,
+        8467136,
+        8504130,
+        8513346,
+        9379909,
+        9454474,
+        9541697,
+        9618088
+      ]
+    },
+    {
+      "name": "Matt Haupt",
+      "start_ms": [
+        3557308,
+        3614869
+      ]
+    },
+    {
+      "name": "Richard Machesky",
+      "start_ms": [
+        1028856,
+        1061985,
+        1229410,
+        1378373,
+        1420516,
+        1515341,
+        1541252,
+        1577743,
+        1621998,
+        1636572,
+        1674581,
+        1744109,
+        1760791,
+        1783797,
+        1911638,
+        1997937,
+        2027859,
+        2060251,
+        2078549,
+        2265681,
+        2366133,
+        2405799,
+        2597270,
+        2958862,
+        3042303,
+        3838703,
+        4752247,
+        5500652,
+        5527530,
+        6024831,
+        6062740,
+        6091800,
+        6259467,
+        8441334,
+        9238608,
+        9273725,
+        10758959,
+        11156430,
+        11392655,
+        11475805,
+        11936130,
+        11999656,
+        12124800,
+        12884524,
+        13726487,
+        14223385,
+        14316809
+      ]
+    },
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        2240320,
+        2548509,
+        2710650,
+        2717230,
+        2727073,
+        4240587,
+        4262403,
+        4276052,
+        4282635,
+        4292205,
+        4303662,
+        4805398,
+        4827360,
+        5282593,
+        5317963,
+        7765924,
+        9318854,
+        9335670,
+        9349290,
+        10750071,
+        10832641,
+        10956439,
+        10964797,
+        10973351,
+        10979421,
+        12105182,
+        12825729,
+        14242180,
+        14246751,
+        14252204,
+        14276674,
+        14280992,
+        14366044,
+        14392977,
+        14397234
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

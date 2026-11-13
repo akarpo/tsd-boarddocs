@@ -1,0 +1,130 @@
+{
+  "_comment": "2025 candidate roster (API max 10). Same seven trustees as 2026, but Dr. Nancy Philippart held the presidency and chaired; Vital Anne was Vice President. Rick West (Deputy Supt, Business) departed in 2024 \u2014 Trudel presents business items.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Matt Haupt -> unidentified (voice matches 0/46; top Matt Jansen 40); cluster H: Audra Melton -> Emina Alic (36/43 lines, median 0.67 >= 0.59); cluster C: Stephanie Zendler -> Vital Anne (47/47 lines, median 0.77 >= 0.62); 41 lines moved on voice (>= 0.60, margin 0.15); cluster E -> Matt Jansen (confirmed: content: an athletics presentation (athlet* 68, sport 60, coach 50); voice Jansen 0.65; video shows a man at the presenters' table, not Haupt)"
+  ],
+  "mapping": {
+    "C": "Stephanie Zendler",
+    "D": "Richard Machesky",
+    "E": "Matt Haupt",
+    "F": "Dan Trudel",
+    "G": "Christine DiPilato",
+    "A": "Nancy Philippart",
+    "H": "Audra Melton",
+    "I": "Emina Alic",
+    "K": "Ayesha Potts"
+  },
+  "overrides": {
+    "E": "Matt Jansen",
+    "H": "Emina Alic",
+    "C": "Vital Anne"
+  },
+  "reassign": [
+    {
+      "name": "Audra Melton",
+      "start_ms": [
+        5245040,
+        9541990,
+        9590406
+      ]
+    },
+    {
+      "name": "Christine DiPilato",
+      "start_ms": [
+        108786,
+        1071265,
+        10147368,
+        10219795,
+        10223521
+      ]
+    },
+    {
+      "name": "Matt Haupt",
+      "start_ms": [
+        6277116,
+        7022306
+      ]
+    },
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        934375,
+        1016190,
+        4116818,
+        5279113,
+        5313600,
+        5324310,
+        5334230,
+        6289249,
+        6300529,
+        6354858,
+        6393180,
+        6405229,
+        6483814,
+        6489023,
+        6604283,
+        7602464,
+        7619766,
+        7765230,
+        7800510,
+        7810600,
+        7817840,
+        8583596,
+        8607378,
+        8671830,
+        8692777,
+        8718812,
+        8770626,
+        10265600,
+        10295529,
+        10398606,
+        10421814
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}

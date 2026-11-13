@@ -1,0 +1,90 @@
+{
+  "_comment": "2025-02-11 workshop \u2014 the 2025 roster; the minutes record all seven trustees present.",
+  "speakers": [
+    {
+      "name": "Nancy Philippart",
+      "description": "Board President 2025, addressed as Dr. Philippart; chairs: announces agenda items, asks for resolutions, calls votes"
+    },
+    {
+      "name": "Vital Anne",
+      "description": "Vice President 2025, addressed as Mrs. Anne; chairs some meetings in the president's absence"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton; first year on the board"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts; first year on the board"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler; first year on the board"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum items"
+    }
+  ],
+  "notes": [
+    "Minutes: President Philippart called the workshop to order at 6:00 p.m. and it adjourned at 10:00 p.m.; present Philippart, Alic, Anne, Haupt, Melton, Potts, Zendler; administrators Machesky, Montante, DiPilato, Griffor, Pagel, Trudel; three student board representatives and approximately 10 members of the audience. Emina Alic signed as Secretary.",
+    "Single recording rejoined from the channel's two part uploads (uorMc9xlNH4 + 4GUnzjMBZuA) \u2014 TelVue has no Feb 11 recording at all. Transcribed from the joined full-quality stereo audio.",
+    "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
+    "Cluster C is the NSK-12 consultant. The board's minutes and agenda items spell him 'Mr. Levinson from NSK-12' / 'Levinson Report'; his own slide bibliography in this packet cites 'Levenson, N. (2011)'. The district's spelling is used here for consistency with the searchable record.",
+    "Clusters K (2,294w, worked with the consultant on scheduling and special education) and L (352w, livestream viewership during the recording-workshops discussion) are left unattributed \u2014 the minutes do not name who spoke on those items.",
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Nancy Philippart -> Richard Machesky (66/71 lines, median 0.67 >= 0.55); cluster F: Ayesha Potts -> Emina Alic (55/67 lines, median 0.57 >= 0.55); cluster I: Nancy Philippart -> Vital Anne (60/72 lines, median 0.57 >= 0.55); cluster H: Matt Haupt -> unidentified (voice matches 0/15; top Ayesha Potts 6); cluster K: Speaker K -> Christine DiPilato (22/29 lines, median 0.56 >= 0.55); cluster D: Christine DiPilato -> unidentified (voice matches 0/11; top ? 0); 5 lines moved on voice (>= 0.60, margin 0.15)"
+  ],
+  "mapping": {
+    "H": "Matt Haupt",
+    "I": "Nancy Philippart",
+    "J": "Stephanie Zendler",
+    "A": "Nancy Philippart",
+    "C": "Nate Levinson",
+    "E": "Nancy Philippart",
+    "F": "Ayesha Potts",
+    "G": "Dan Trudel"
+  },
+  "overrides": {
+    "D": "Unidentified speaker",
+    "B": "Public commenter",
+    "E": "Richard Machesky",
+    "F": "Emina Alic",
+    "I": "Vital Anne",
+    "H": "Unidentified speaker",
+    "K": "Christine DiPilato"
+  },
+  "reassign": [
+    {
+      "name": "Kristine Griffor",
+      "start_ms": [
+        3878438,
+        9592780,
+        9623119
+      ]
+    },
+    {
+      "name": "Matt Haupt",
+      "start_ms": [
+        10190126,
+        12532890
+      ]
+    }
+  ],
+  "_quality": "voice-pass"
+}
