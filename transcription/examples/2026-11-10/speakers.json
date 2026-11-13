@@ -1,0 +1,189 @@
+{
+  "_comment": "Speaker spec for the 2026-11-10 workshop (transcript 94f26be6-1867-4402-8214-5a0734dbb204; Teams room-camera recording, 3:13:53, 12 diarized clusters). Mapping settled from content and name plates in the speaker-tracking close-ups; the identifier's I = Matt Haupt was wrong (frames show Emina Alic speaking during I's turns).",
+  "speakers": [
+    {
+      "name": "Vital Anne",
+      "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton"
+    },
+    {
+      "name": "Nancy Philippart",
+      "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"
+    }
+  ],
+  "mapping": {
+    "A": "Vital Anne",
+    "B": "Jamie Evans",
+    "C": "Dan Trudel",
+    "D": "Richard Machesky",
+    "E": "Keith McDonald",
+    "F": "Kyle Anderson",
+    "G": "Stephanie Zendler",
+    "H": "Hillary Pulliam",
+    "I": "Emina Alic",
+    "J": "Christine DiPilato",
+    "K": "Sarah Smotherman",
+    "L": "Erica Conklin"
+  },
+  "splits": [
+    {
+      "cluster": "E",
+      "at_ms": 3080000,
+      "before": "Keith McDonald",
+      "after": "Unidentified speaker",
+      "note": "McDonald presented 0:21:10-0:51:18 and left; E's later lines are one-word interjections from the table (his pre-arrival E lines are reassigned)"
+    },
+    {
+      "cluster": "F",
+      "at_ms": 1240000,
+      "before": "Kyle Anderson",
+      "after": "Unidentified speaker",
+      "note": "Anderson co-presented the audit 0:03:45-0:20:36; F's later lines are 'Okay'/'Right' interjections no voiceprint can place"
+    },
+    {
+      "cluster": "K",
+      "at_ms": 7515000,
+      "before": "Sarah Smotherman",
+      "after": "Unidentified speaker",
+      "note": "Smotherman led the special education update 1:03:04-2:05:11; K's later lines are short and unplaced (2:44:34 is reassigned to Alic)"
+    },
+    {
+      "cluster": "B",
+      "at_ms": 7515000,
+      "before": "Jamie Evans",
+      "after": "Unidentified speaker",
+      "note": "Evans presented within the special education update; B's later lines are other voices"
+    },
+    {
+      "cluster": "H",
+      "at_ms": 7515000,
+      "before": "Hillary Pulliam",
+      "after": "Unidentified speaker",
+      "note": "Pulliam presented early childhood 1:12:15-1:20:40"
+    },
+    {
+      "cluster": "L",
+      "at_ms": 7515000,
+      "before": "Erica Conklin",
+      "after": "Unidentified speaker",
+      "note": "Conklin presented behavior supports 1:22:27-1:46:29; L's later lines are one-word interjections"
+    }
+  ],
+  "utterance_splits": [],
+  "reassign": [
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        2917271,
+        2936732,
+        2556594,
+        8628853,
+        9416110
+      ]
+    },
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        4515470,
+        9327269,
+        11391800,
+        8988361,
+        10131950,
+        11524791,
+        9874227
+      ]
+    },
+    {
+      "name": "Hillary Pulliam",
+      "start_ms": [
+        4799130
+      ]
+    },
+    {
+      "name": "Richard Machesky",
+      "start_ms": [
+        6098522
+      ]
+    },
+    {
+      "name": "Sarah Smotherman",
+      "start_ms": [
+        6303690
+      ]
+    },
+    {
+      "name": "Dan Trudel",
+      "start_ms": [
+        8619350
+      ]
+    },
+    {
+      "name": "Matt Haupt",
+      "start_ms": [
+        3209562
+      ]
+    },
+    {
+      "name": "Unidentified speaker",
+      "start_ms": [
+        129042,
+        165818,
+        197189,
+        244275,
+        352908,
+        977950,
+        617880,
+        618940,
+        1156232,
+        2867878,
+        3332647,
+        3373424,
+        10083,
+        2940757,
+        411830
+      ]
+    }
+  ],
+  "notes": [
+    "Recording: a Microsoft Teams recording of the board-room speaker-tracking camera (a close-up of the current speaker over a wide strip of the room); name plates are legible in the close-ups. TelVue had no broadcast copy (checked 2026-11-13).",
+    "Seen at the table, by name plate: Vital Anne (Board President), Emina Alic (Board Vice President), Matt Haupt; Stephanie Zendler in the next seat (black hoodie, 2:50:40); Dr. Machesky at the head. No roll call was taken on the recording and Melton, Potts and Philippart are neither heard nor addressed; that is not recorded as an absence here.",
+    "A = Vital Anne: chairs and opens the meeting; plate VITAL ANNE / BOARD PRESIDENT beside her at 2:53:50; 'You're stuck with me for another 6 years' after re-election.",
+    "I = Emina Alic, NOT Matt Haupt as the identifier said: in every close-up during I's turns (1:17:05, 1:19:30, 2:09:30, 2:18:00, 2:20:40, 2:30:35, 2:34:20, 2:48:42, 2:56:27, 3:09:25, 3:11:58) the speaker is the woman at the EMINA ALIC plate while Haupt, at the MATT HAUPT plate beside her, listens. Content agrees: she went to Athens, has a middle schooler, joined the board two years before the 2024 trustees, and says 'Matt just says' (3:11:53). split_cluster.py seeded from five of those turns: 53 of 63 lines Alic, seed check 0.66 same vs 0.46 different.",
+    "Matt Haupt: 0:53:29 'Do you know if this is somebody we use for Smith' -- the camera cuts to Haupt (arms crossed, plate) right after it, and its voice (0.50) is unlike Alic's turns. His only line on the recording.",
+    "G = Stephanie Zendler: addressed as Stephanie and answers (1:32:04 -> 'I haven't analyzed that, Stephanie'); camera on her during 2:50:40.",
+    "C = Dan Trudel ('You want to hit those last 2 items, Dan?'), D = Dr. Machesky ('since I've been superintendent'), J = Christine DiPilato ('Christine had sent them out'; answers 'Christine, just to clarify').",
+    "Guests: F = Kyle Anderson, Finance Director (Trudel: 'I have Kyle Anderson, our Finance Director ... tag team'); E = Keith McDonald, Plante Moran Realpoint (self-introduction, STT 'Kimmie Daron with Plant Randall Point'; Trudel: 'that's why we have Keith here'); K = Sarah Smotherman, Director of Special Education (DiPilato: 'Sarah, get over to you'); B = Jamie Evans (Smotherman: 'Jamie talked a little bit about our categorical continuum expansion'); H = Hillary Pulliam (introduced as supervisor who 'also supports the preschool'; H presents early childhood -- by elimination among the three supervisors Smotherman introduced); L = Erica Conklin, supervisor of behavioral supports (self-description; the 2025-10-07 packet lists her as Behavior Support Coordinator).",
+    "Reassignments come from ECAPA voiceprints (cache Troy School Board Meeting - 2026-11-10.ecapa.json; centroids from each settled cluster's own 3-s+ lines) where the margin was clear AND the context agreed: e.g. 0:48:37/0:48:56 are Zendler's study questions (0.64/0.61), 2:36:56 'in lieu of sheltered classes' is Zendler (0.72; she adds 'I keep calling it the wrong word'), 2:29:48 'I as a parent' is Alic (0.57), 2:23:39 is Trudel finishing his own sentence (0.75). Left as diarized: 1:33:12 (G, Jamie 0.55 vs own 0.43, context ambiguous) and 2:28:47 (A; DiPilato's 'The other is' runs into Anne's question)."
+  ]
+}

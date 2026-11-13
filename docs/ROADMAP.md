@@ -10,6 +10,15 @@ Last reviewed **2026-10-23**.
 
 ## Where things stand
 
+**The 2026-11-10 workshop is ingested through chapters** (2026-11-13): 9 documents summarized
+(the tenth, an Athens award recommendation, 400s on BoardDocs itself), the owner's Microsoft
+Teams recording on YouTube as `gQwqU5icsIo`, a 3:14 transcript with every cluster resolved (0
+audit flags), captions, 40 numbered chapters, description pushed, Facebook notes on the Desktop.
+The identifier had put Matt Haupt's name on Emina Alic's cluster; name plates in the room
+camera's close-ups settled it. The 2026-11-10 5 PM special meeting has no attachments and no
+recording, and the 2026-11-14 strategic planning retreat was left for after it happens (a
+meeting already in D1 is skipped by `--skip-ingested`). See the changelog.
+
 **The 2026-10-20 regular meeting is ingested through chapters** (2026-10-23): 29 documents
 summarized, the August check register handed across, TelVue `1054054` on YouTube as
 `f5taR4cWg8g`, a 1:50 transcript with all 16 clusters resolved (0 audit flags), captions, 23

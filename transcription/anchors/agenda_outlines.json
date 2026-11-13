@@ -5810,5 +5810,82 @@
    "title": "Individuals with Disabilities Act Information",
    "level": 1
   }
+ ],
+ "2026-11-10": [
+  {
+   "item": "1",
+   "title": "PUBLIC COMMUNICATION",
+   "level": 1
+  },
+  {
+   "item": "1.A",
+   "title": "Guidelines for Public Comment",
+   "level": 2
+  },
+  {
+   "item": "2",
+   "title": "TEACHING & LEARNING",
+   "level": 1
+  },
+  {
+   "item": "2.A",
+   "title": "Speical Education Update",
+   "level": 2
+  },
+  {
+   "item": "2.B",
+   "title": "Digital Delusion Update",
+   "level": 2
+  },
+  {
+   "item": "2.C",
+   "title": "Update - Teacher Feedback",
+   "level": 2
+  },
+  {
+   "item": "2.D",
+   "title": "Grade Modifications",
+   "level": 2
+  },
+  {
+   "item": "3",
+   "title": "BUSINESS SERVICES",
+   "level": 1
+  },
+  {
+   "item": "3.A",
+   "title": "Facilities Study Proposal: Plante Moran Realpoint",
+   "level": 2
+  },
+  {
+   "item": "3.B",
+   "title": "Audit Presentation",
+   "level": 2
+  },
+  {
+   "item": "3.C",
+   "title": "Athens Bids",
+   "level": 2
+  },
+  {
+   "item": "3.D",
+   "title": "Enterprise Lease Agreements",
+   "level": 2
+  },
+  {
+   "item": "4",
+   "title": "OTHER",
+   "level": 1
+  },
+  {
+   "item": "4.A",
+   "title": "Schools of Choice Numbers Discussion",
+   "level": 2
+  },
+  {
+   "item": "4.B",
+   "title": "MASB ALC Feedback",
+   "level": 2
+  }
  ]
 }

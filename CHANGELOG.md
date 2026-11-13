@@ -5,6 +5,33 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Meeting 2026-11-10 (workshop) end to end — 2026-11-13
+
+- 9 documents crawled, extracted, in R2 and D1 (130 chunks, 1 Office preview, 10 deep-link
+  ids), summarized inline and checked before storing (every figure traced to its source; the one
+  computed sum labelled). The tenth attachment, `1.b. BP#4A Athens High School - Award Rec
+  11.5.26 (8%).docx`, returns HTTP 400 from BoardDocs itself for every encoding of its name (the
+  `%` in it); nothing to fetch. The file prefixes (1.a-1.d) are not the agenda numbers; summaries
+  cite the published outline (3.A-3.D, 2.A, 2.D).
+- **`extract_all.py`: trailing empty spreadsheet cells are dropped.** The Athens bid tabulation's
+  sheets run to column XFD, so each row carried 16,000+ tabs: 3.2 MB of text holding 17 KB of
+  content, which would have been 303 chunks instead of 17. Older .xlsx documents already in D1
+  were extracted the old way.
+- The recording is the **Microsoft Teams recording of the board-room camera** (owner supplied;
+  TelVue still had nothing after 2026-10-20). It speaker-tracks: a close-up of whoever is talking
+  over a wide strip of the room, and the name plates are legible in the close-ups. On YouTube as
+  `gQwqU5icsIo` (typeset card, 2026 playlist, caption track, 40 numbered chapters, description
+  pushed).
+- Transcript `94f26be6…`, 12 clusters. **The identifier named Emina Alic's cluster Matt Haupt**:
+  every close-up during cluster I's turns shows the woman at the EMINA ALIC plate speaking while
+  Haupt listens beside her, and the cluster says "Matt just says". `split_cluster.py` seeded from
+  those turns put 53 of 63 lines on Alic. Voiceprints against each settled cluster, read with context, then moved 16
+  lines to their speaker (Zendler's two study questions sat in guest clusters; four of Alic's lines
+  sat under Anne); guest clusters close with time splits, and 57 interjections (130 words) stay
+  unidentified. Audit: 0 flags, 0.0% unattributed. Spec in
+  `transcription/examples/2026-11-10/speakers.json`.
+- Facebook notes source `facebook/2026-11-10.md` (no dashes; quotes checked by the script).
+
 ### Documentation pass — 2026-10-23
 
 - Counts, checked against D1: 3,382 documents = 3,382 summaries = 3,382 `sum:` rows, 0

@@ -262,6 +262,15 @@ names the "Support." before it). The same night one student rep's nine lines sat
 clusters (DiPilato's, Melton's and the Troy High rep's); the name plate on camera and one
 voice (0.44-0.74 to her first line) brought them back together.
 
+**A Teams recording of the room camera (2026-11-10).** When no broadcast exists, the owner may
+supply the district's Microsoft Teams recording. Its camera speaker-tracks (a close-up of the
+talker over a wide strip of the room) and cuts a second or two late, so grab frames a few seconds
+into a turn; the name plates are legible in the close-ups, not in the strip. That night the
+identifier put Matt Haupt's name on Emina Alic's cluster (they sit side by side, and the cluster
+even says "Matt just says"); eleven close-ups of her speaking settled it, and Haupt has one line.
+A trustee the identifier names can still be the wrong trustee: check the named clusters, not
+only the letters.
+
 `speakers.json` (see `transcription/examples/2026-07-22/`) is the reconciliation
 record: `speakers[]` feeds the API (`description` strongly guides matching),
 `mapping` stores the resolved result, `overrides` pins corrections,

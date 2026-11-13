@@ -246,7 +246,9 @@ def text_xlsx(p: Path) -> str:
         for row in ws.iter_rows(values_only=True):
             cells = ["" if v is None else str(v) for v in row]
             if any(cells):
-                parts.append("\t".join(cells))
+                # A sheet whose dimension runs to column XFD pads every row with
+                # 16,000+ empty cells (2026-11-10 bid tabs: 3.2 MB, 17 KB of text).
+                parts.append("\t".join(cells).rstrip("\t"))
     wb.close()
     return "\n".join(parts).strip()
 
