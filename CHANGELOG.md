@@ -5,6 +5,23 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Archive corrected by the voice library — 2026-11-13
+
+- 32 meetings (2025-01-21 to 2026-08-18) voiceprinted from the channel's audio and checked cluster by
+  cluster against the hand-settled library (`cluster_check.py`, `propose_fixes.py`). The 2025 backfill's
+  automatic namer had often put a wrong name on a whole cluster: president and vice president swapped
+  (2025-01-21), the Athletics Director's presentation under a trustee who shares his first name
+  (2025-12-09, ~8,000 words), recognitions presenters and outside trainers labeled as trustees.
+- Rules: rename only on a 60% majority with a median above a per-person, per-meeting bar; trustee labels
+  the voice contradicts become `Unidentified speaker`; line moves cannot undo a held rename; automatic
+  targets are the board and cabinet regulars only; Potts's reference is unusable (own lines 0.30) and
+  excluded. Ten renames held; on video/content three were rightly held (presenters, not Haupt), three were
+  real errors confirmed by hand (`voice_confirmations.json`), one inconclusive.
+- Published with owner approval: 26 meetings, ~174k of 592k words changed speaker (140k renamed, 34k
+  unidentified); every audit clean; D1 and transcripts/ updated, chapters untouched, prior outputs in
+  scratch/backups/. Caption tracks drain by quota (`scratch/caption-drain/`).
+- `/transcription` ("Who Said That?"): the method, the back-test and this review, linked from /singularity.
+
 ### Voice-library back-test — 2026-11-13
 
 - `transcription/backtest_voice.py`: leave-one-out over the four settled 2026 meetings (2,449
