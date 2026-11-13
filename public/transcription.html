@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Who Said That? · Troy SD BoardDocs</title>
+<style>
+  :root{
+    --fg:#e8ecf4; --muted:#9aa4b5; --accent:#6fc3ff; --accent2:#ff9d5c; --accent3:#d17bff; --ok:#7be3a6;
+    --panel:rgba(9,11,20,.72); --panel-line:rgba(255,255,255,.09);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#04050a;color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  #voices{position:fixed;inset:0;width:100vw;height:100vh;z-index:0}
+  .wrap{position:relative;z-index:2;max-width:880px;margin:0 auto;padding:9vh 22px 90px}
+  .panel{background:var(--panel);border:1px solid var(--panel-line);border-radius:18px;
+    padding:26px 30px;margin:0 0 26px;backdrop-filter:blur(7px) saturate(130%);
+    -webkit-backdrop-filter:blur(7px) saturate(130%)}
+  h1{font-size:clamp(1.9rem,4.5vw,2.9rem);margin:0 0 6px;letter-spacing:-.02em;
+     background:linear-gradient(92deg,#fff 10%,var(--accent) 45%,var(--accent3) 75%,var(--accent2));
+     -webkit-background-clip:text;background-clip:text;color:transparent}
+  .kicker{font-size:.8rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+  h2{font-size:1.22rem;margin:0 0 12px;letter-spacing:-.01em}
+  h2 .g{margin-right:8px}
+  p{margin:0 0 12px;color:var(--fg)}
+  p.dim,li.dim{color:var(--muted)}
+  ul{margin:4px 0 12px;padding-left:1.2em} li{margin:0 0 7px}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .lesson{border-left:3px solid var(--accent2);padding:2px 0 2px 14px;margin:14px 0;color:#ffd9bd;font-style:italic}
+  .cascade{display:flex;flex-direction:column;gap:8px;margin:16px 0 4px}
+  .cstep{display:flex;align-items:baseline;gap:12px;font-variant-numeric:tabular-nums}
+  .cstep .n{font-weight:800;font-size:1.05rem;min-width:7.2ch;text-align:right;color:var(--accent2)}
+  .cstep .arrow{color:var(--muted)}
+  .cstep .what{color:var(--muted);font-size:.92rem}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0 12px}
+  .stat{background:rgba(255,255,255,.045);border:1px solid var(--panel-line);border-radius:12px;padding:10px 12px}
+  .stat b{display:block;font-size:1.25rem;color:var(--accent)}
+  .stat span{font-size:.78rem;color:var(--muted)}
+  .signals{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:14px 0 12px}
+  .sigcard{background:rgba(255,255,255,.04);border:1px solid var(--panel-line);border-radius:12px;padding:12px 14px}
+  .sigcard b{display:block;color:var(--fg);margin-bottom:4px}
+  .sigcard span{font-size:.88rem;color:var(--muted)}
+  .rule{border:1px solid rgba(123,227,166,.35);background:rgba(123,227,166,.07);border-radius:12px;padding:12px 16px;margin:14px 0}
+  .rule b{color:var(--ok)}
+  .tag{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;
+       border:1px solid var(--panel-line);color:var(--muted);margin-left:6px;vertical-align:middle}
+  .sig{color:var(--muted);font-size:.86rem;margin-top:18px}
+  code{background:rgba(127,160,255,.14);padding:1px 7px;border-radius:6px;font-size:.88em}
+  @media (max-width:640px){ .panel{padding:20px 18px} .wrap{padding-top:6vh} .cstep .n{min-width:6ch} }
+</style>
+</head>
+<body>
+<canvas id="voices" aria-hidden="true"></canvas>
+
+<div class="wrap">
+  <div class="panel">
+    <p class="kicker">🎙️ how the archive learns to hear</p>
+    <h1>Who Said That?</h1>
+    <p>Every recorded board meeting on this site comes with a transcript where each line carries a name.
+    Getting the <em>words</em> right turned out to be the easy part. Getting the <em>names</em> right is the
+    work, and this page is the honest account of how we do it, what went wrong, and how we now grade ourselves.</p>
+    <p class="dim">Behind this text: one glowing cloud per voice in the room. Every so often two of them drift
+    together and become one blob. Pulling them back apart, correctly, is the whole job.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">📝</span>The words: the easy part (now)</h2>
+    <p>Recordings are transcribed by AssemblyAI's Universal&#8209;3.5&nbsp;Pro, the best model its
+    pre-recorded service offers (we re-check: on November 13, 2026 it still accepted only that model and its
+    predecessor). A speech model on its own has never heard of Boulan Park or Kristine Griffor, so before it
+    listens to a meeting it is handed up to <b>1,000 key terms</b>: a curated roster of trustees, administrators,
+    schools and acronyms, plus every proper noun mined from <em>that meeting's own board packet</em>: the
+    vendors on the bid tab, the presenters, the students named in a resolution.</p>
+    <p>The November&nbsp;10, 2026 workshop, start to finish:</p>
+    <div class="cascade">
+      <div class="cstep"><span class="n">1.56&nbsp;GB</span><span class="arrow">→</span><span>the Teams recording <span class="what">(3 hours, 14 minutes of room camera)</span></span></div>
+      <div class="cstep"><span class="n">93&nbsp;MB</span><span class="arrow">→</span><span>the audio track</span></div>
+      <div class="cstep"><span class="n">32,272</span><span class="arrow">→</span><span>words, in 875 lines <span class="what">(more than 350 new key terms came from its packet)</span></span></div>
+      <div class="cstep"><span class="n">12</span><span class="arrow">→</span><span>anonymous voice clusters <span class="what">("Speaker A" through "Speaker L")</span></span></div>
+      <div class="cstep"><span class="n">40</span><span class="arrow">→</span><span>agenda chapters that seek the video</span></div>
+    </div>
+    <p class="dim" style="margin-top:12px">Cost of the transcription itself: about ninety cents. The expensive part is everything after.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🗣️</span>The names: the hard part</h2>
+    <p>The speech model does not know who anyone is. It hears <em>voices</em>, groups them into clusters, and
+    labels them A, B, C. Turning "Speaker F" into a person happens afterward, and every step of that can fail
+    quietly. Three failure modes cover nearly everything we have found:</p>
+    <ul>
+      <li><b>Two voices, one cluster.</b> Two trustees who sit apart but sound alike were merged into a single
+      "speaker" at three consecutive meetings (September&nbsp;1, October&nbsp;6, November&nbsp;10).</li>
+      <li><b>One voice, two clusters.</b> A chair who speaks for 85 minutes can come back as two or three
+      "people."</li>
+      <li><b>The right cluster, the wrong name.</b> The automatic naming step is a <em>text</em> model: it reads
+      the transcript and guesses who is talking from context. It once gave the Director of Athletics' entire
+      presentation, about 8,000 words, to a trustee who happens to share his first name.</li>
+    </ul>
+    <p class="lesson">A transcript that says "Unidentified speaker" is honest. A transcript that puts a
+    trustee's name on someone else's words is worse than no name at all, and it reads just as confidently.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🧩</span>The evidence stack</h2>
+    <p>No single signal is trustworthy, so a name has to survive several that fail in different ways:</p>
+    <div class="signals">
+      <div class="sigcard"><b>📜 Content</b><span>Who answers when the chair says "Stephanie?" The trustee who
+      reads a resolution is the one who moves it. A presenter talks about "our principals"; a trustee talks
+      about "my middle schooler."</span></div>
+      <div class="sigcard"><b>🎥 The camera</b><span>The board room's speaker-tracking camera cuts to whoever is
+      talking, and the name plates are legible in the close-ups. Remote trustees' Teams tiles show who is
+      muted.</span></div>
+      <div class="sigcard"><b>🔊 The voice library</b><span>Every line gets a 192-number voiceprint (an
+      ECAPA-TDNN speaker model). Each person's reference voice is built from meetings we have already settled
+      by hand.</span></div>
+      <div class="sigcard"><b>📋 The minutes</b><span>The roll call says who was in the room, so the audit can
+      flag words put in the mouth of someone who was absent.</span></div>
+    </div>
+    <p>At the November&nbsp;10 workshop each signal caught something another missed. Content and the
+    automatic namer agreed one cluster was a trustee, Matt; eleven camera close-ups showed it was the trustee
+    sitting next to him. Then the camera and that meeting's own voices both missed that another cluster held
+    <em>two</em> trustees. The voice library caught it: one woman's lines matched her voice from earlier
+    meetings at <b>0.84 to 0.98</b>, and the other trustee's at <b>0.48</b>.</p>
+    <p class="lesson">Re-running the same check does not make it more right. Adding a check that fails
+    differently does.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">⚖️</span>The confidence rule</h2>
+    <div class="rule"><b>A line gets a name only when the voice and the context agree.</b> When they conflict
+    and a video frame does not settle it, the line is published as "Unidentified speaker," and a quote that is
+    not settled stays out of anything we post.</div>
+    <p>For the November&nbsp;10 workshop that meant scoring every one of the 875 lines against the voice
+    library: 478 confirmed, 17 moved to the person whose voice they clearly were, and the rest checked by
+    context. In the end <b>2.4% of the words</b> (mostly "okay," "thank you" and "sure") are unidentified.
+    That number is not a failure. It is the part we refuse to guess.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">📏</span>Grading ourselves: the back-test</h2>
+    <p>A method you cannot measure is a method you cannot trust. So we hid the answers: for each of four
+    meetings settled line by line by hand, reference voices were built from the <em>other three</em>, every line
+    was scored blind, and the result was compared with the human answer key (2,449 lines in all).</p>
+    <div class="stats">
+      <div class="stat"><b>99.3%</b><span>of lines it names are named correctly (score ≥ 0.60)</span></div>
+      <div class="stat"><b>64%</b><span>of lines it is confident enough to name</span></div>
+      <div class="stat"><b>1.4%</b><span>of guest lines wrongly given a library voice</span></div>
+      <div class="stat"><b>2</b><span>real errors it found in an already-published transcript, now fixed</span></div>
+    </div>
+    <p>Lower the bar to 0.50 and it names more lines (72%) but starts mistaking guests, people with no reference
+    voice like a visiting presenter, for board members almost six percent of the time. That trade-off is why the
+    bar sits where it does, and why it is adjusted per person: each regular's own lines score between 0.69 and
+    0.82 against their reference, so a "match" far below someone's usual score is treated as a stranger. (One
+    reference turned out to be unusable, its own owner scoring 0.30 against it, and it is excluded entirely.)</p>
+    <p class="lesson">The one false alarm was itself instructive: a voice that "matched" a trustee who, the
+    video showed, was a muted Teams tile at the time. A reference built from six lines is not a reference.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🗄️</span>What it found in the archive <span class="tag">under review</span></h2>
+    <p>Then we pointed the same method at the 32 meetings transcribed between January&nbsp;2025 and
+    August&nbsp;2026, most of them named by the automatic step and spot-audited at the time. It turned out the
+    automatic namer had often put the wrong name on a <em>whole cluster</em>: a board president and vice
+    president swapped at an organizational meeting; recognitions presenters labeled as board members; outside
+    trainers labeled as trustees; a cabinet member's voice under a trustee's name.</p>
+    <div class="cascade">
+      <div class="cstep"><span class="n">591,604</span><span class="arrow">→</span><span>words in those meetings</span></div>
+      <div class="cstep"><span class="n">139,919</span><span class="arrow">→</span><span>words whose speaker would be corrected</span></div>
+      <div class="cstep"><span class="n">34,401</span><span class="arrow">→</span><span>words that would become "Unidentified speaker" <span class="what">(a wrong name removed, no right one provable)</span></span></div>
+      <div class="cstep"><span class="n">5</span><span class="arrow">→</span><span>meetings that came back clean</span></div>
+    </div>
+    <p style="margin-top:12px">Every proposed change is held to the same rule: a cluster is renamed only when a
+    clear majority of its lines match one person's voice above that person's and that meeting's bar. Ten
+    renames fell short and were held back, and we checked the held ones on video and by content. Three would
+    have turned a visiting presenter into a trustee, and the bar was right to stop them. Three others were real
+    errors the bar was simply too cautious to fix (among them the "trustee" whose cluster said "athletics" 68
+    times), and those were confirmed by hand, with the evidence written down. One could not be settled either
+    way and stays unidentified.</p>
+    <p class="dim">As of November&nbsp;13, 2026 these corrections are proposed and under review; none of the
+    older transcripts have been changed yet. When they are, the site, the YouTube caption tracks and the
+    downloadable transcripts all update together.</p>
+  </div>
+
+  <div class="panel">
+    <h2><span class="g">🔭</span>Where this goes next</h2>
+    <ul>
+      <li><b>A library that grows.</b> Every meeting settled by hand becomes another reference for every voice
+      in it, and the back-test re-runs after each one, so the method keeps checking its own past work.</li>
+      <li><b>Second opinions.</b> A local transcription (Whisper) diffed against AssemblyAI to flag names and
+      numbers where the two disagree, and a second speaker-separation model (pyannote) to flag lines where the
+      two split the voices differently. AssemblyAI stays the source; disagreement just tells us where to look.</li>
+      <li><b>Further back.</b> The same check for the 2024 recordings.</li>
+    </ul>
+    <p class="dim">All of it is in the open: the
+    <a href="https://github.com/akarpo/tsd-boarddocs/tree/main/transcription" target="_blank" rel="noopener"><code>transcription/</code></a>
+    folder holds the pipeline, the back-test (<code>backtest_voice.py</code>), the cluster check and the fix
+    proposals, and every meeting's speaker evidence, with the method written up in
+    <a href="https://github.com/akarpo/tsd-boarddocs/blob/main/docs/TRANSCRIPTION.md" target="_blank" rel="noopener">docs/TRANSCRIPTION.md</a>.</p>
+    <p class="sig">↩ <a href="/">Back to the archive</a> · 🕳️ <a href="/singularity">The Singularity</a>, for how the rest of it works<br>
+    ⚙️ <a href="https://github.com/akarpo/tsd-boarddocs" target="_blank" rel="noopener">github.com/akarpo/tsd-boarddocs</a><br>
+    No voices were harmed in the separation of these clusters.</p>
+  </div>
+</div>
+
+<script>
+"use strict";
+/* Background: one glowing cloud of points per voice. Clouds drift on slow orbits; when two pass close
+   their points blend into one color (a merged cluster); a sweep ring periodically passes and every
+   point snaps back to its own voice's color: diarization, sorted out. */
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const TIMESCALE = reduceMotion ? 0.45 : 1;
+const cv = document.getElementById("voices"), cx = cv.getContext("2d");
+const DPR = Math.min(devicePixelRatio || 1, 2);
+let W, H;
+function size() {
+  W = innerWidth; H = innerHeight;
+  cv.width = W * DPR; cv.height = H * DPR; cv.style.width = W + "px"; cv.style.height = H + "px";
+  cx.setTransform(DPR, 0, 0, DPR, 0, 0);
+}
+size(); addEventListener("resize", size);
+
+const HUES = [200, 280, 25, 145, 330, 55, 175, 255];
+const voices = HUES.map((h, i) => ({
+  h, ox: 0.18 + 0.64 * ((i * 0.37) % 1), oy: 0.2 + 0.6 * ((i * 0.61 + 0.13) % 1),
+  ax: 0.08 + 0.06 * Math.random(), ay: 0.06 + 0.05 * Math.random(),
+  w: 0.05 + 0.05 * Math.random(), ph: Math.random() * 6.28, r: 55 + Math.random() * 45
+}));
+const pts = [];
+voices.forEach((v, vi) => { for (let k = 0; k < 120; k++) pts.push({ v: vi, a: Math.random() * 6.28,
+  d: Math.pow(Math.random(), 0.7), sp: 0.3 + Math.random() * 0.9, hue: v.h, tw: Math.random() * 6.28 }); });
+const stars = Array.from({length: 160}, () => ({ x: Math.random(), y: Math.random(), r: Math.random() * 1.2 + .3,
+  tw: Math.random() * 6.28, sp: 0.3 + Math.random() }));
+
+let sweep = -1, nextSweep = 6;
+const t0 = performance.now();
+function center(v, t) {
+  return { x: (v.ox + v.ax * Math.cos(t * v.w + v.ph)) * W, y: (v.oy + v.ay * Math.sin(t * v.w * 1.3 + v.ph)) * H };
+}
+function frame(now) {
+  const t = (now - t0) / 1000 * TIMESCALE;
+  const bg = cx.createRadialGradient(W * .5, H * .45, 0, W * .5, H * .45, Math.max(W, H));
+  bg.addColorStop(0, "#0b0d1c"); bg.addColorStop(.5, "#070812"); bg.addColorStop(1, "#03040a");
+  cx.fillStyle = bg; cx.fillRect(0, 0, W, H);
+  for (const s of stars) {
+    cx.fillStyle = `rgba(220,230,255,${0.3 + 0.5 * Math.abs(Math.sin(s.tw + t * s.sp))})`;
+    cx.fillRect(s.x * W, s.y * H, s.r, s.r);
+  }
+  const C = voices.map(v => center(v, t));
+  /* the sweep ring: a classifier pass that sorts every point back to its own voice */
+  if (sweep < 0 && t > nextSweep) sweep = 0;
+  let ringR = -1;
+  if (sweep >= 0) {
+    sweep += 0.016 * TIMESCALE; ringR = sweep * Math.max(W, H) * 0.9;
+    cx.strokeStyle = `rgba(123,227,166,${Math.max(0, 0.5 - sweep * 0.35)})`; cx.lineWidth = 2;
+    cx.beginPath(); cx.arc(W * .5, H * .45, ringR, 0, 6.28); cx.stroke();
+    if (sweep > 1.5) { sweep = -1; nextSweep = t + 9 + Math.random() * 6; }
+  }
+  cx.globalCompositeOperation = "lighter";
+  voices.forEach((v, i) => {                    // a soft glow under each voice cloud
+    const c = C[i], g = cx.createRadialGradient(c.x, c.y, 0, c.x, c.y, v.r * 1.6);
+    g.addColorStop(0, `hsla(${v.h}, 90%, 60%, .16)`); g.addColorStop(1, `hsla(${v.h}, 90%, 60%, 0)`);
+    cx.fillStyle = g; cx.beginPath(); cx.arc(c.x, c.y, v.r * 1.6, 0, 6.28); cx.fill();
+  });
+  for (const p of pts) {
+    const v = voices[p.v], c = C[p.v];
+    p.a += p.sp * 0.012 * TIMESCALE;
+    const x = c.x + Math.cos(p.a) * p.d * v.r, y = c.y + Math.sin(p.a * 1.1) * p.d * v.r;
+    /* nearest other voice: if close, this point's color drifts toward it (a merge) */
+    let near = -1, nd = 1e9;
+    for (let j = 0; j < C.length; j++) if (j !== p.v) {
+      const dd = Math.hypot(C[j].x - c.x, C[j].y - c.y); if (dd < nd) { nd = dd; near = j; }
+    }
+    const pull = Math.max(0, 1 - nd / 120);
+    if (ringR > 0 && Math.abs(Math.hypot(x - W * .5, y - H * .45) - ringR) < 30) p.hue = v.h;   // sorted
+    else if (pull > 0) p.hue += ((voices[near].h - p.hue + 540) % 360 - 180) * 0.02 * pull;      // merging
+    else p.hue += ((v.h - p.hue + 540) % 360 - 180) * 0.004;                                      // settling
+    const a = 0.45 + 0.45 * Math.abs(Math.sin(p.tw + t * 1.3));
+    cx.fillStyle = `hsla(${(p.hue + 360) % 360}, 90%, 64%, ${a})`;
+    cx.beginPath(); cx.arc(x, y, 2.1, 0, 6.28); cx.fill();
+  }
+  cx.globalCompositeOperation = "source-over";
+  /* a waveform along the bottom: the audio all of this is made from */
+  cx.strokeStyle = "rgba(111,195,255,.35)"; cx.lineWidth = 1.5; cx.beginPath();
+  for (let x = 0; x <= W; x += 4) {
+    const y = H - 46 + Math.sin(x * 0.018 + t * 2.1) * 9 * Math.sin(x * 0.004 + t * 0.7)
+            + Math.sin(x * 0.07 + t * 5) * 3 * Math.abs(Math.sin(t * 0.9 + x * 0.002));
+    x ? cx.lineTo(x, y) : cx.moveTo(x, y);
+  }
+  cx.stroke();
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
