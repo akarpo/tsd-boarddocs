@@ -5,6 +5,13 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### /transcription share card — 2026-11-13
+
+- Link previews for /transcription: `public/transcription-card.html` (1200×630, the page's voice-cloud
+  background with the three headline numbers) rendered to `public/transcription-og.png` by
+  `scripts/build_transcription_card.py`, which stamps the PNG's sha256[:10] into the og:image and
+  twitter:image `?v=` so Facebook re-fetches it when the card changes. Re-run it after editing the card.
+
 ### Archive corrected by the voice library — 2026-11-13
 
 - 32 meetings (2025-01-21 to 2026-08-18) voiceprinted from the channel's audio and checked cluster by

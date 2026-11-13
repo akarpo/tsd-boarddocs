@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Who Said That? (share card)</title>
+<!-- The 1200x630 link preview for /transcription. scripts/build_transcription_card.py screenshots
+     this page to public/transcription-og.png and stamps its hash into transcription.html's tags. -->
+<style>
+  html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:#04050a;color:#e8ecf4;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  canvas{position:absolute;inset:0}
+  .card{position:absolute;left:56px;top:48px;width:776px;height:534px;padding:40px 46px 34px;box-sizing:border-box;
+    display:flex;flex-direction:column;
+    background:rgba(9,11,20,.74);border:1px solid rgba(255,255,255,.1);border-radius:24px}
+  .kicker{font-size:17px;letter-spacing:.24em;text-transform:uppercase;color:#6fc3ff;margin:0 0 18px}
+  h1{font-size:96px;line-height:1.02;margin:0 0 18px;letter-spacing:-.025em;
+    background:linear-gradient(92deg,#fff 10%,#6fc3ff 48%,#d17bff 78%,#ff9d5c);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:28px;line-height:1.35;color:#c9d1df;margin:0 0 28px}
+  .stats{display:flex;gap:14px}
+  .stat{flex:1;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:14px 16px}
+  .stat b{display:block;font-size:44px;line-height:1.15;color:#ff9d5c;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+  .stat span{font-size:18px;line-height:1.3;color:#9aa4b5}
+  .url{margin-top:auto;font-size:20px;color:#9aa4b5;letter-spacing:.01em}
+  .url b{color:#6fc3ff;font-weight:600}
+</style>
+</head>
+<body>
+<canvas id="c" width="1200" height="630"></canvas>
+<div class="card">
+  <p class="kicker">🎙️ Troy SD BoardDocs</p>
+  <h1>Who Said That?</h1>
+  <p class="sub">How the board-meeting archive checks who said every line: video, voiceprints, and a blind back-test.</p>
+  <div class="stats">
+    <div class="stat"><b>99.3%</b><span>of named lines right in a blind back-test</span></div>
+    <div class="stat"><b>174,000</b><span>words now with the right speaker, or none</span></div>
+    <div class="stat"><b>32</b><span>older meetings re&#8209;checked</span></div>
+  </div>
+  <div class="url"><b>tsd-boarddocs.karpowitsch.org</b>/transcription</div>
+</div>
+<script>
+/* The page's background, frozen: one glowing cloud of points per voice, two of them merging. */
+const cx = document.getElementById("c").getContext("2d");
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const bg = cx.createRadialGradient(900, 280, 0, 900, 280, 1100);
+bg.addColorStop(0, "#0d1022"); bg.addColorStop(.5, "#070812"); bg.addColorStop(1, "#03040a");
+cx.fillStyle = bg; cx.fillRect(0, 0, 1200, 630);
+for (let i = 0; i < 220; i++) { cx.fillStyle = `rgba(220,230,255,${.25 + rnd() * .55})`; const r = rnd() * 1.3 + .3; cx.fillRect(rnd() * 1200, rnd() * 630, r, r); }
+const voices = [[905, 120, 200, 62], [1085, 205, 280, 58], [960, 330, 25, 70], [1040, 345, 55, 66],
+                [880, 500, 145, 64], [1110, 480, 330, 56], [1000, 585, 175, 46], [860, 300, 255, 40]];
+cx.globalCompositeOperation = "lighter";
+voices.forEach(([x, y, h, r], i) => {
+  const g = cx.createRadialGradient(x, y, 0, x, y, r * 1.7);
+  g.addColorStop(0, `hsla(${h},90%,60%,.2)`); g.addColorStop(1, `hsla(${h},90%,60%,0)`);
+  cx.fillStyle = g; cx.beginPath(); cx.arc(x, y, r * 1.7, 0, 6.28); cx.fill();
+  for (let k = 0; k < 150; k++) {
+    const a = rnd() * 6.28, d = Math.pow(rnd(), .7) * r;
+    /* the two clouds in the middle are merging: their points blend toward each other's color */
+    let hue = h; if (i === 2 || i === 3) hue = h + (i === 2 ? 1 : -1) * 30 * rnd() * (1 - d / r);
+    cx.fillStyle = `hsla(${hue},90%,${60 + rnd() * 12}%,${.45 + rnd() * .5})`;
+    cx.beginPath(); cx.arc(x + Math.cos(a) * d, y + Math.sin(a) * d, 1.6 + rnd() * 1.4, 0, 6.28); cx.fill();
+  }
+});
+cx.globalCompositeOperation = "source-over";
+cx.strokeStyle = "rgba(123,227,166,.45)"; cx.lineWidth = 2;             // the sorting sweep
+cx.beginPath(); cx.arc(1000, 338, 150, -1.1, 1.4); cx.stroke();
+cx.strokeStyle = "rgba(111,195,255,.4)"; cx.lineWidth = 2; cx.beginPath();  // the audio
+for (let x = 0; x <= 1200; x += 3) { const y = 604 + Math.sin(x * .02) * 9 * Math.sin(x * .005 + 1) + Math.sin(x * .09) * 3;
+  x ? cx.lineTo(x, y) : cx.moveTo(x, y); }
+cx.stroke();
+document.body.dataset.ready = "1";
+</script>
+</body>
+</html>
