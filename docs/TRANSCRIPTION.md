@@ -271,6 +271,20 @@ even says "Matt just says"); eleven close-ups of her speaking settled it, and Ha
 A trustee the identifier names can still be the wrong trustee: check the named clusters, not
 only the letters.
 
+**Second pass: a voice library and a confidence rule (2026-11-13).** The owner found the
+11-10 attribution still full of errors after the first pass, and it was: cluster G was
+Zendler and Melton merged (a third time), and the camera alone could not see it because the two
+sit apart and the camera lags. What found it was scoring every line against **one reference
+voice per person built from the settled specs of earlier meetings** (10-06, 10-20), blended with
+this meeting's camera-confirmed turns: Melton's MASB lines scored 0.84-0.98 against her earlier
+voice and 0.48 against Zendler's. `transcription/examples/2026-11-10/reattrib.py` classes every
+line KEEP / MOVE / UNSURE / SHORT. The rule the owner set for publishing: **a line is named only
+when the voice and the context agree**; a conflict that a frame does not settle becomes
+`Unidentified speaker`, and so does every sub-1.5 s line in a cluster known to be mixed and every
+near-tie (< 0.08) between two voices that sound alike. A quote that is not settled stays out of
+the Facebook post. Expect 2-3% of words to end up unidentified on a hard recording; that is the
+honest number, not a failure.
+
 `speakers.json` (see `transcription/examples/2026-07-22/`) is the reconciliation
 record: `speakers[]` feeds the API (`description` strongly guides matching),
 `mapping` stores the resolved result, `overrides` pins corrections,

@@ -31,6 +31,13 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   unidentified. Audit: 0 flags, 0.0% unattributed. Spec in
   `transcription/examples/2026-11-10/speakers.json`.
 - Facebook notes source `facebook/2026-11-10.md` (no dashes; quotes checked by the script).
+- **Second attribution pass (same day, after the owner reported errors).** Cluster G was Zendler and
+  Audra Melton merged; Melton was present (black hoodie beside Haupt) and her lines (MASB report,
+  growth percentiles, "Christine, just to clarify" and 11 more) were filed under Zendler. A voice
+  library from the 10-06/10-20 specs plus camera-confirmed turns re-scored every line: 17 moved, and
+  under the owner's confidence rule 191 lines (756 words, 2.3%) are now `Unidentified speaker`,
+  including the one line once given to Haupt. D1, `transcripts/` and the caption track re-pushed;
+  the live Facebook post corrected (Melton's MASB line; one unsettled quote removed).
 
 ### Documentation pass — 2026-10-23
 
