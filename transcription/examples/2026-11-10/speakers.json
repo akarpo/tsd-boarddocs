@@ -109,9 +109,7 @@
         2599470,
         2755133,
         2791423,
-        3216807,
         5848648,
-        7443431,
         7447096,
         7466086,
         7489967,
@@ -154,12 +152,6 @@
       "start_ms": [
         4342070,
         4799130
-      ]
-    },
-    {
-      "name": "Jamie Evans",
-      "start_ms": [
-        5592177
       ]
     },
     {
@@ -232,6 +224,7 @@
         3126757,
         3147029,
         3209562,
+        3216807,
         3220759,
         3224455,
         3268016,
@@ -253,6 +246,7 @@
         5160461,
         5353709,
         5575916,
+        5592177,
         5810514,
         5817984,
         5824412,
@@ -272,6 +266,7 @@
         6510281,
         7334571,
         7431062,
+        7443431,
         7510202,
         7512314,
         7661867,
@@ -346,6 +341,7 @@
     "C = Dan Trudel ('You want to hit those last 2 items, Dan?'), D = Dr. Machesky ('since I've been superintendent'), J = Christine DiPilato ('Christine had sent them out'; answers 'Christine, just to clarify').",
     "Guests: F = Kyle Anderson, Finance Director (Trudel: 'I have Kyle Anderson, our Finance Director ... tag team'); E = Keith McDonald, Plante Moran Realpoint (self-introduction, STT 'Kimmie Daron with Plant Randall Point'; Trudel: 'that's why we have Keith here'); K = Sarah Smotherman, Director of Special Education (DiPilato: 'Sarah, get over to you'); B = Jamie Evans (Smotherman: 'Jamie talked a little bit about our categorical continuum expansion'); H = Hillary Pulliam (introduced as supervisor who 'also supports the preschool'; H presents early childhood -- by elimination among the three supervisors Smotherman introduced); L = Erica Conklin, supervisor of behavioral supports (self-description; the 2025-10-07 packet lists her as Behavior Support Coordinator).",
     "Reassignments come from ECAPA voiceprints (cache Troy School Board Meeting - 2026-11-10.ecapa.json; centroids from each settled cluster's own 3-s+ lines) where the margin was clear AND the context agreed: e.g. 0:48:37/0:48:56 are Zendler's study questions (0.64/0.61), 2:36:56 'in lieu of sheltered classes' is Zendler (0.72; she adds 'I keep calling it the wrong word'), 2:29:48 'I as a parent' is Alic (0.57), 2:23:39 is Trudel finishing his own sentence (0.75). Left as diarized: 1:33:12 (G, Jamie 0.55 vs own 0.43, context ambiguous) and 2:28:47 (A; DiPilato's 'The other is' runs into Anne's question).",
-    "SECOND PASS (2026-11-13), after the owner reported attribution errors: cluster G was Zendler AND Melton merged (the third meeting in a row; 2026-09-01, 10-06). Every line was scored against one reference voice per person (prior-meeting settled voices blended with this meeting's camera-confirmed turns; script kept in this folder as reattrib.py) and classed KEEP 478 / MOVE 17 / UNSURE 100 / SHORT 280. MOVE lines were reassigned (14 to Melton). Confidence rule from the owner: a line is named only where voice and context agree; UNSURE lines resolved by context or set to 'Unidentified speaker'; every sub-1.5 s line diarized into G (80) and every Zendler/Melton near-tie (<0.08) is unidentified. Matt Haupt: present by name plate, but no line on the recording matches his voice (the 0:53:29 line the camera cut to him on scores 0.08 against his 10-20 voice), so none is attributed to him. 2:30:41 'We got our tests back' is unidentified (Anne/Alic tie; camera on Alic)."
+    "SECOND PASS (2026-11-13), after the owner reported attribution errors: cluster G was Zendler AND Melton merged (the third meeting in a row; 2026-09-01, 10-06). Every line was scored against one reference voice per person (prior-meeting settled voices blended with this meeting's camera-confirmed turns; script kept in this folder as reattrib.py) and classed KEEP 478 / MOVE 17 / UNSURE 100 / SHORT 280. MOVE lines were reassigned (14 to Melton). Confidence rule from the owner: a line is named only where voice and context agree; UNSURE lines resolved by context or set to 'Unidentified speaker'; every sub-1.5 s line diarized into G (80) and every Zendler/Melton near-tie (<0.08) is unidentified. Matt Haupt: present by name plate, but no line on the recording matches his voice (the 0:53:29 line the camera cut to him on scores 0.08 against his 10-20 voice), so none is attributed to him. 2:30:41 'We got our tests back' is unidentified (Anne/Alic tie; camera on Alic).",
+    "BACK-TEST (2026-11-13, transcription/backtest_voice.py, 4 settled meetings, leave-one-out): a line moved on voice alone needs >= 0.60 (99.3% precision, 1.4% of guest lines falsely named, with 2 seed turns per person). Three moves above were 0.51-0.57 and are now unidentified: 0:53:36, 1:33:12, 2:04:03."
   ]
 }

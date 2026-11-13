@@ -5,6 +5,21 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Voice-library back-test — 2026-11-13
+
+- `transcription/backtest_voice.py`: leave-one-out over the four settled 2026 meetings (2,449
+  lines). With 2 seed turns per person, a 0.60 score names 64% of lines at 99.3% precision and
+  names 1.4% of guest lines as a library person; that is now the bar for moving a line on voice
+  alone. Three 11-10 moves at 0.51-0.57 reverted to unidentified (Melton 12 lines; unidentified
+  2.4%); D1, transcripts/ and captions re-pushed.
+- Reviewing its five confident disagreements against video found **two real errors in the
+  published 09-01 transcript**: 2:28:14 is Kristine Griffor, not Melton (camera on the presenters'
+  table, "our principals", voice 0.81); 3:45:18 is Audra Melton, not Alic (Alic listening at her
+  plate). 1:40:08 and 2:19:08 are now unidentified; the 10-06 flag was a false alarm (both remote
+  trustees muted on their Teams tiles). 09-01 re-attributed offline (exactly 4 lines changed),
+  re-pushed to D1, transcripts/ and its caption track.
+- Voiceprint caches built for 09-01 and 09-22.
+
 ### Meeting 2026-11-10 (workshop) end to end — 2026-11-13
 
 - 9 documents crawled, extracted, in R2 and D1 (130 chunks, 1 Office preview, 10 deep-link

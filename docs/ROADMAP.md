@@ -146,14 +146,14 @@ registration can lapse for want of two dollars after the work it took to get app
 
 ## Next
 
-### Back-test the voice-library attribution on settled meetings
-Raised by the owner 2026-11-13. Run `reattrib.py`'s method blind on 09-01, 09-22, 10-06 and 10-20
-(leave each meeting out of its own reference voices) and measure agreement with their hand-settled
-specs; tune the thresholds from that, and treat disagreements as candidate errors in the old
-transcripts (the Zendler/Melton back-check below is one case). Then grow the library meeting by
-meeting. Two optional cross-checks the owner floated: a local Whisper transcript diffed against
-AssemblyAI to flag names and numbers, and a local diarizer (pyannote; needs a Hugging Face token
-the owner would create) as a second opinion on speaker turns. AssemblyAI stays the source.
+### Grow the voice library and re-run the back-test each meeting
+The back-test ran 2026-11-13 (see TRANSCRIPTION.md, `backtest_voice.py`): 99.3% precision at 64%
+coverage with the 0.60 rule, and it found two real errors in 09-01 (fixed). Next: add each newly
+settled meeting to `SOURCES`, extend it to 2025-26 (needs voiceprints per meeting, ~1 s per line),
+and give Haupt and Machesky real references (Haupt's has 6 lines; Machesky's comes only from
+11-10). Optional cross-checks the owner floated: a local Whisper transcript diffed against
+AssemblyAI to flag names and numbers, and pyannote as a second diarizer (needs a Hugging Face
+token the owner would create). AssemblyAI stays the source.
 
 ### Back-check the meetings where Zendler and Melton both attended
 They merged into one cluster on 2026-09-01 and 2026-10-06, and nothing would have caught it on

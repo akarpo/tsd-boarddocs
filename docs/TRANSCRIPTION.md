@@ -285,6 +285,22 @@ near-tie (< 0.08) between two voices that sound alike. A quote that is not settl
 the Facebook post. Expect 2-3% of words to end up unidentified on a hard recording; that is the
 honest number, not a failure.
 
+**Back-tested (2026-11-13): `transcription/backtest_voice.py`.** Leave one settled meeting out,
+build reference voices from the other settled specs (09-01, 09-22, 10-06, 10-20; 2,449 named
+lines), score every line, compare with the hand-settled speaker. With 2 seed turns per person
+from the meeting itself (what camera-confirmed turns give): **a score of 0.60 names 64% of
+lines at 99.3% precision, and names 1.4% of guest lines (people not in the library) as someone
+who is**; at 0.50 it is 72% / 98.7% / 5.9%; without seeds, 0.60 gives 57% / 98.6% / 2.8%. So:
+move a line on voice alone only at >= 0.60; a line whose voice merely agrees with its cluster can
+be kept at a lower score, since two independent signals agree. A reference built from very few
+lines is not one: Haupt's (6 lines) produced the only false alarm, a 10-06 line where both
+remote trustees' Teams tiles show muted microphones. The run's five confident disagreements
+were reviewed against video: two were real errors in the published 09-01 transcript (2:28:14 is
+Griffor, not Melton; 3:45:18 is Melton, not Alic), two are now unidentified, one was the false
+alarm. Run it after every settled meeting; it grows the library and re-checks the old ones.
+Voiceprints for a meeting: `split_cluster.embeddings()` over its transcript (the 09-01/09-22
+caches were built that way).
+
 `speakers.json` (see `transcription/examples/2026-07-22/`) is the reconciliation
 record: `speakers[]` feeds the API (`description` strongly guides matching),
 `mapping` stores the resolved result, `overrides` pins corrections,

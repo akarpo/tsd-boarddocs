@@ -1,223 +1,218 @@
 {
- "_comment": "Speaker spec for the 2026-09-01 workshop (transcript d7c1cc96-ca51-4149-b4cf-9e6090a7d27b). Re-verified 2026-09-04 against the video and voice embeddings: the first pass had cluster F as Audra Melton and Alic absent; the name plate on camera during F's turns reads EMINA ALIC, and Melton was in the room the whole evening with her voice merged into cluster E alongside Zendler. E is split per utterance below (ECAPA speaker embeddings seeded from turns where the camera is on the speaker, checked against content); four utterances that change speaker mid-way are cut at the word boundary in utterance_splits.",
- "speakers": [
-  {
-   "name": "Vital Anne",
-   "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"
+  "_comment": "Speaker spec for the 2026-09-01 workshop (transcript d7c1cc96-ca51-4149-b4cf-9e6090a7d27b). Re-verified 2026-09-04 against the video and voice embeddings: the first pass had cluster F as Audra Melton and Alic absent; the name plate on camera during F's turns reads EMINA ALIC, and Melton was in the room the whole evening with her voice merged into cluster E alongside Zendler. E is split per utterance below (ECAPA speaker embeddings seeded from turns where the camera is on the speaker, checked against content); four utterances that change speaker mid-way are cut at the word boundary in utterance_splits.",
+  "speakers": [
+    {
+      "name": "Vital Anne",
+      "description": "Board President 2026; usually chairs: announces agenda items, asks for resolutions, calls votes; addressed as Mrs. Anne"
+    },
+    {
+      "name": "Emina Alic",
+      "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
+    },
+    {
+      "name": "Matt Haupt",
+      "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
+    },
+    {
+      "name": "Audra Melton",
+      "description": "Trustee, addressed as Dr. Melton"
+    },
+    {
+      "name": "Nancy Philippart",
+      "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"
+    },
+    {
+      "name": "Ayesha Potts",
+      "description": "Trustee, addressed as Ms. Potts"
+    },
+    {
+      "name": "Stephanie Zendler",
+      "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"
+    },
+    {
+      "name": "Richard Machesky",
+      "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
+    },
+    {
+      "name": "Dan Trudel",
+      "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"
+    },
+    {
+      "name": "Christine DiPilato",
+      "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"
+    }
+  ],
+  "mapping": {
+    "A": "Vital Anne",
+    "B": "Nancy Philippart",
+    "C": "Greg Janicki",
+    "D": "Dr. Richard Machesky",
+    "E": "Stephanie Zendler",
+    "F": "Emina Alic",
+    "G": "Christine DiPilato",
+    "H": "Matt Haupt",
+    "I": "Dan Trudel"
   },
-  {
-   "name": "Emina Alic",
-   "description": "Trustee, addressed as Mrs. Alic; moves and supports motions"
-  },
-  {
-   "name": "Matt Haupt",
-   "description": "Trustee; often reads the suggested resolutions aloud; STT may write his name as Mr. Hauff"
-  },
-  {
-   "name": "Audra Melton",
-   "description": "Trustee, addressed as Dr. Melton"
-  },
-  {
-   "name": "Nancy Philippart",
-   "description": "Trustee, addressed as Dr. Philippart; 2025 Board President"
-  },
-  {
-   "name": "Ayesha Potts",
-   "description": "Trustee, addressed as Ms. Potts"
-  },
-  {
-   "name": "Stephanie Zendler",
-   "description": "Trustee, addressed as Mrs. Zendler or Stephanie; sometimes attends virtually"
-  },
-  {
-   "name": "Richard Machesky",
-   "description": "Superintendent, Dr. Machesky; frames items, strategy and budget direction"
-  },
-  {
-   "name": "Dan Trudel",
-   "description": "Assistant Superintendent for Business Services; presents budget, finance and construction items, often sharing a screen"
-  },
-  {
-   "name": "Christine DiPilato",
-   "description": "Assistant Superintendent for Secondary Instruction; presents curriculum and instruction items"
-  }
- ],
- "mapping": {
-  "A": "Vital Anne",
-  "B": "Nancy Philippart",
-  "C": "Greg Janicki",
-  "D": "Dr. Richard Machesky",
-  "E": "Stephanie Zendler",
-  "F": "Emina Alic",
-  "G": "Christine DiPilato",
-  "H": "Matt Haupt",
-  "I": "Dan Trudel"
- },
- "splits": [
-  {
-   "cluster": "C",
-   "at_ms": 5680000,
-   "before": "Greg Janicki",
-   "after": "John Pagel"
-  }
- ],
- "utterance_splits": [
-  {
-   "start_ms": 7192415,
-   "at_ms": 7224504,
-   "after": "Stephanie Zendler",
-   "note": "1:59:52 Audra on schedulers/summer-school lists; from 'Well, especially the in-seat option' Zendler continues into 2:00:36"
-  },
-  {
-   "start_ms": 12619365,
-   "at_ms": 12648080,
-   "after": "Stephanie Zendler",
-   "note": "3:30:19 Audra's son-and-homework story; Zendler picks up at 'So yeah, and not all kids have the support'"
-  },
-  {
-   "start_ms": 5924494,
-   "at_ms": 5928792,
-   "after": "Christine DiPilato",
-   "note": "1:38:44 Zendler asks how long a delay; DiPilato answers from 'No, because if we have permits tomorrow'"
-  },
-  {
-   "start_ms": 13500092,
-   "at_ms": 13504022,
-   "after": "Audra Melton",
-   "note": "3:45:00 Zendler 'I agree'; Audra from 'I think it's, um, pendulum has slipped'"
-  }
- ],
- "reassign": [
-  {
-   "name": "Audra Melton",
-   "start_ms": [
-    200950,
-    888619,
-    2754920,
-    3457814,
-    3690570,
-    4155769,
-    4441980,
-    4474040,
-    4545624,
-    4734119,
-    5629420,
-    5657731,
-    5680370,
-    5718288,
-    5911858,
-    6007298,
-    6352328,
-    6477930,
-    7128556,
-    7160587,
-    7187378,
-    7192415,
-    7343509,
-    7422673,
-    7461499,
-    7477619,
-    7607330,
-    7893405,
-    7898370,
-    7908910,
-    7974290,
-    7993104,
-    7998239,
-    8006664,
-    8016080,
-    8353480,
-    8449771,
-    8538150,
-    8551149,
-    8818609,
-    8894700,
-    9589524,
-    9626168,
-    9987920,
-    10032050,
-    10079601,
-    10084845,
-    10218258,
-    10424574,
-    10505215,
-    10740770,
-    10777369,
-    10785824,
-    10887992,
-    12272468,
-    12606049,
-    12613590,
-    12619365,
-    13076080,
-    13080990,
-    13094520,
-    13235850,
-    13609943
-   ]
-  },
-  {
-   "name": "Nancy Philippart",
-   "start_ms": [
-    5233966,
-    5385546,
-    8580462
-   ]
-  },
-  {
-   "name": "Christine DiPilato",
-   "start_ms": [
-    6462715,
-    7312790,
-    7978050
-   ]
-  },
-  {
-   "name": "Emina Alic",
-   "start_ms": [
-    3545376
-   ]
-  },
-  {
-   "name": "Christine DiPilato",
-   "start_ms": [
-    5928792
-   ],
-   "_from_split": true
-  },
-  {
-   "name": "Stephanie Zendler",
-   "start_ms": [
-    7224504
-   ],
-   "_from_split": true
-  },
-  {
-   "name": "Stephanie Zendler",
-   "start_ms": [
-    12648080
-   ],
-   "_from_split": true
-  },
-  {
-   "name": "Audra Melton",
-   "start_ms": [
-    13504022
-   ],
-   "_from_split": true
-  }
- ],
- "notes": [
-  "A chairs (opens the workshop; addressed as Vital at 3:21:53 and answers).",
-  "B = Nancy Philippart: the chair follows up 'what Nancy said' right after B (0:26:51); Janicki addresses 'Nancy' and B replies (0:37:02); B's kids graduated Troy High ~20 years ago; on camera during B's long turns (dark hair, sticker laptop, seated beside Zendler).",
-  "C = Greg Janicki (MASB consultant) until he signs off at 1:34:31; the same cluster carries the Employee Services staffing update at 2:33 ('statistics that I sent you', 'north of 50 teachers hired') = John Pagel, Asst Supt of Human Resources. Split at 1:34:40.",
-  "D = Machesky: introduces Janicki, gives the enrollment update (2:14).",
-  "E = two trustees the diarizer merged for the whole evening. Stephanie Zendler (black-and-white top): 'I would love to be' a delegate at 2:45:50 and Machesky lists 'Stephanie' next; her daughter reads on an iPad because turning pages is hard (3:13:32), 'when I taught 3rd grade' (3:11:30), refers to 'what Audra was saying' (2:52:12). Audra Melton (green top, seated beside Matt Haupt): 'our in-state PD through MASB' (2:48:04), which Zendler then echoes as Audra's point; 'in my experience as an administrator and even like a teacher' (2:59:00); the son-and-homework story (3:30:19). Everything not listed under reassign is Zendler.",
-  "F = Emina Alic, NOT Audra Melton: the name plate on camera during F's long turns (1:07:40, 1:50:40, 2:49:40, 3:05:00) reads EMINA ALIC, Board Vice President, seated between Vital Anne and Matt Haupt. Content agrees: 'my own junior kid ... she' at Troy High (Alic 2024-10-15: 'my kid now goes to Troy High'; 2025-09-16: 'one of my daughter's teachers'), an 8th grader taking Algebra 1 (the summer packet, 1:06:43), her kindergartner with classroom iPads (Melton's children are TSD graduates, older than the iPad), 'I've never had families reach out to me in all of these years', 'I've been talking about this for years'. 'You guys know who have been on the board for the last year and a half' (3:04:30) addresses the newer trustees; it is not her own tenure.",
-  "G = Christine DiPilato: addressed by name three times (1:48:59, 1:54:10, 2:01:14) and answers; gave the bond/construction update; on camera alone (blonde, white blouse) during G's long turns.",
-  "H = Matt Haupt: 'Okay, Matt.' (2:48:29) and 'Matt?' (3:02:20) are both followed by H.",
-  "I = Dan Trudel, in the room: presents fleet management and residency/pupil accounting; answers when addressed 'Dan' (3:39:06); DiPilato thanks 'Dan' at 2:44:29. ('Dan is out of town on business… she's got to take care of the kids' at 1:34:50 is Machesky on why DiPilato would leave early — her husband, not Trudel.)",
-  "Absent: Ayesha Potts only (never addressed, no plate on camera, no unmatched voice). Six of seven trustees present. Rob Carson is referred to but never speaks.",
-  "Method for the E split (2026-09-04): speechbrain ECAPA-TDNN embeddings per utterance; seeds = turns where the broadcast camera is on the speaker; sinks for Anne/Philippart/Alic/DiPilato catch turns the diarizer dropped into E; sub-second interjections assigned by the same embeddings and are the least certain lines. 2:28:14 ('our principals are sharing similar feedback ... 10 new secretaries') matches Melton's voice best but weakly (0.54 vs 0.76 typical) — DiPilato was the alternative."
- ]
+  "splits": [
+    {
+      "cluster": "C",
+      "at_ms": 5680000,
+      "before": "Greg Janicki",
+      "after": "John Pagel"
+    }
+  ],
+  "utterance_splits": [
+    {
+      "start_ms": 7192415,
+      "at_ms": 7224504,
+      "after": "Stephanie Zendler",
+      "note": "1:59:52 Audra on schedulers/summer-school lists; from 'Well, especially the in-seat option' Zendler continues into 2:00:36"
+    },
+    {
+      "start_ms": 12619365,
+      "at_ms": 12648080,
+      "after": "Stephanie Zendler",
+      "note": "3:30:19 Audra's son-and-homework story; Zendler picks up at 'So yeah, and not all kids have the support'"
+    },
+    {
+      "start_ms": 5924494,
+      "at_ms": 5928792,
+      "after": "Christine DiPilato",
+      "note": "1:38:44 Zendler asks how long a delay; DiPilato answers from 'No, because if we have permits tomorrow'"
+    },
+    {
+      "start_ms": 13500092,
+      "at_ms": 13504022,
+      "after": "Audra Melton",
+      "note": "3:45:00 Zendler 'I agree'; Audra from 'I think it's, um, pendulum has slipped'"
+    }
+  ],
+  "reassign": [
+    {
+      "name": "Audra Melton",
+      "start_ms": [
+        200950,
+        888619,
+        2754920,
+        3457814,
+        3690570,
+        4155769,
+        4441980,
+        4474040,
+        4545624,
+        4734119,
+        5629420,
+        5657731,
+        5680370,
+        5718288,
+        5911858,
+        6007298,
+        6352328,
+        6477930,
+        7128556,
+        7160587,
+        7187378,
+        7192415,
+        7343509,
+        7422673,
+        7461499,
+        7477619,
+        7607330,
+        7893405,
+        7898370,
+        7908910,
+        7974290,
+        7993104,
+        7998239,
+        8006664,
+        8016080,
+        8353480,
+        8449771,
+        8538150,
+        8551149,
+        8818609,
+        9589524,
+        9626168,
+        9987920,
+        10032050,
+        10079601,
+        10084845,
+        10218258,
+        10424574,
+        10505215,
+        10740770,
+        10777369,
+        10785824,
+        10887992,
+        12272468,
+        12606049,
+        12613590,
+        12619365,
+        13076080,
+        13080990,
+        13094520,
+        13235850,
+        13504022,
+        13518610,
+        13609943
+      ]
+    },
+    {
+      "name": "Christine DiPilato",
+      "start_ms": [
+        5928792,
+        6462715,
+        7312790,
+        7978050
+      ]
+    },
+    {
+      "name": "Emina Alic",
+      "start_ms": [
+        3545376
+      ]
+    },
+    {
+      "name": "Kristine Griffor",
+      "start_ms": [
+        8894700
+      ]
+    },
+    {
+      "name": "Nancy Philippart",
+      "start_ms": [
+        5233966,
+        5385546,
+        8580462
+      ]
+    },
+    {
+      "name": "Stephanie Zendler",
+      "start_ms": [
+        7224504,
+        12648080
+      ]
+    },
+    {
+      "name": "Unidentified speaker",
+      "start_ms": [
+        6008454,
+        8348875
+      ]
+    }
+  ],
+  "notes": [
+    "A chairs (opens the workshop; addressed as Vital at 3:21:53 and answers).",
+    "B = Nancy Philippart: the chair follows up 'what Nancy said' right after B (0:26:51); Janicki addresses 'Nancy' and B replies (0:37:02); B's kids graduated Troy High ~20 years ago; on camera during B's long turns (dark hair, sticker laptop, seated beside Zendler).",
+    "C = Greg Janicki (MASB consultant) until he signs off at 1:34:31; the same cluster carries the Employee Services staffing update at 2:33 ('statistics that I sent you', 'north of 50 teachers hired') = John Pagel, Asst Supt of Human Resources. Split at 1:34:40.",
+    "D = Machesky: introduces Janicki, gives the enrollment update (2:14).",
+    "E = two trustees the diarizer merged for the whole evening. Stephanie Zendler (black-and-white top): 'I would love to be' a delegate at 2:45:50 and Machesky lists 'Stephanie' next; her daughter reads on an iPad because turning pages is hard (3:13:32), 'when I taught 3rd grade' (3:11:30), refers to 'what Audra was saying' (2:52:12). Audra Melton (green top, seated beside Matt Haupt): 'our in-state PD through MASB' (2:48:04), which Zendler then echoes as Audra's point; 'in my experience as an administrator and even like a teacher' (2:59:00); the son-and-homework story (3:30:19). Everything not listed under reassign is Zendler.",
+    "F = Emina Alic, NOT Audra Melton: the name plate on camera during F's long turns (1:07:40, 1:50:40, 2:49:40, 3:05:00) reads EMINA ALIC, Board Vice President, seated between Vital Anne and Matt Haupt. Content agrees: 'my own junior kid ... she' at Troy High (Alic 2024-10-15: 'my kid now goes to Troy High'; 2025-09-16: 'one of my daughter's teachers'), an 8th grader taking Algebra 1 (the summer packet, 1:06:43), her kindergartner with classroom iPads (Melton's children are TSD graduates, older than the iPad), 'I've never had families reach out to me in all of these years', 'I've been talking about this for years'. 'You guys know who have been on the board for the last year and a half' (3:04:30) addresses the newer trustees; it is not her own tenure.",
+    "G = Christine DiPilato: addressed by name three times (1:48:59, 1:54:10, 2:01:14) and answers; gave the bond/construction update; on camera alone (blonde, white blouse) during G's long turns.",
+    "H = Matt Haupt: 'Okay, Matt.' (2:48:29) and 'Matt?' (3:02:20) are both followed by H.",
+    "I = Dan Trudel, in the room: presents fleet management and residency/pupil accounting; answers when addressed 'Dan' (3:39:06); DiPilato thanks 'Dan' at 2:44:29. ('Dan is out of town on business\u2026 she's got to take care of the kids' at 1:34:50 is Machesky on why DiPilato would leave early \u2014 her husband, not Trudel.)",
+    "Absent: Ayesha Potts only (never addressed, no plate on camera, no unmatched voice). Six of seven trustees present. Rob Carson is referred to but never speaks.",
+    "Method for the E split (2026-09-04): speechbrain ECAPA-TDNN embeddings per utterance; seeds = turns where the broadcast camera is on the speaker; sinks for Anne/Philippart/Alic/DiPilato catch turns the diarizer dropped into E; sub-second interjections assigned by the same embeddings and are the least certain lines. 2:28:14 ('our principals are sharing similar feedback ... 10 new secretaries') matches Melton's voice best but weakly (0.54 vs 0.76 typical) \u2014 DiPilato was the alternative.",
+    "BACK-TEST REVIEW (2026-11-13, transcription/backtest_voice.py): 2:28:14 is Kristine Griffor, not Melton (voice 0.81 vs 0.62; the camera is on the presenters' table; 'our principals'); 3:45:18 is Audra Melton, not Alic (voice 0.67 vs 0.50; Alic at her plate is listening while the woman beside Haupt speaks); 1:40:08 and 2:19:08 are unidentified (voice disagrees with the old label at 0.64-0.65 and the frames do not decide)."
+  ]
 }
