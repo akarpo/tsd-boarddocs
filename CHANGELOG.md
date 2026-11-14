@@ -23,13 +23,24 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   17:58:02, plus 3:13:53).
 - **Live post = source, word for word,** except the lede, which the owner had posted as "three hour
   and fourteen minute"; the source now matches (1,694 words both). `facebook_notes.py` passes.
-- **Left as is, for the owner:** "Over $1 million in support has been restored" is Machesky's figure;
-  he said the reported number is "just under a million" until the extra aides are hired (0:14:45).
-- FACEBOOK_NOTES rules 12 (a figure about a past decision comes from that decision's document) and
-  13 (the source stays equal to the live post); rule 1 now says the quote check sees only quotes.
+- **The restored-support bullet now names its speakers.** It had no speaker, under a section that
+  opens "Dan Trudel presented", and it merged two men's statements. Now: Machesky gave the over-$1
+  million figure, the secretaries and TCs, and his own note that the reported figure is "just under
+  a million" until more aides are hired (0:14:45; voice 0.90 vs Trudel 0.46, on camera at 0:15:05);
+  Trudel gave the eight aides and the January amendment (0:17:05, 0:18:45; 0.94 and 0.90). Source
+  and live post (1,721 words both).
+- **The schools of choice $1 million is Trudel's** (2:49:08 and 2:49:35): voice 0.82/0.81 vs
+  Machesky 0.51/0.50, he opens "And Rich, just for the record too", and the camera at 2:49:20 and
+  2:49:45 shows Machesky listening. The post's "Trudel said" stands.
+- FACEBOOK_NOTES rules 12 (a figure about a past decision comes from that decision's document),
+  13 (the source stays equal to the live post) and 14 (a claim names its speaker when a reader
+  could guess wrong); rule 1 now says the quote check sees only quotes.
 - A reply to a group member's question about the schools of choice $1 million (enrollment
   stabilization now counts three years of enrollment, about $1 million unbudgeted; 2:49:08) was
-  drafted for the owner to post; nothing was posted on his behalf.
+  drafted; the owner posted it. At his request its last clause ("so pausing new schools of choice
+  seats for 2027-28 shouldn't cost the District that revenue", more than Trudel said) was replaced
+  from Chrome with Trudel's words: "I think we're comfortable knowing that they're going to
+  compensate us," meaning the state. The link (t=10148) kept.
 
 ### Handoff for the next session — 2026-11-14
 

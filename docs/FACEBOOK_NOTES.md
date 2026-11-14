@@ -130,6 +130,11 @@ These come from errors that were caught, some of them only after publication.
     and bring the source into line: strip `**`/`*` markers, collapse whitespace, and compare
     word by word inside the page (the extension truncates long returns). The 11-14 QA found
     one drift this way: the owner had posted the lede as "three hour and fourteen minute".
+14. **A claim names its speaker when a reader could guess wrong.** A bullet without a name reads
+    as the presenter's when its section opens "Dan Trudel presented…". The 11-10 restored-support
+    bullet merged Machesky's figure (0:14:45) with Trudel's aide count and amendment date (0:17:05,
+    0:18:45) and named neither; it now says who said what. Put a claimant's own qualifier with it
+    (Machesky: the reported figure is "just under a million" until more aides are hired).
 
 ## Source syntax (`facebook/<date>.md`)
 
