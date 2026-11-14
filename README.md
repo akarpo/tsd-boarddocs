@@ -16,7 +16,7 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
 
 ## What you can do
 
-- **Full-text search** (D1 FTS5 / BM25) over ~3,300 documents (2010–2026) with
+- **Full-text search** (D1 FTS5 / BM25) over ~3,400 documents (2010–2026) with
   filters: meeting type (Regular / Workshop / Special), document type
   (Resolution / Financial / Budget / Policy / Presentation / Contract / Other),
   year (multi-select), and sort (relevance / newest / oldest). Board acronyms
@@ -35,7 +35,9 @@ Cloudflare's **free tier** (D1 + R2 + Workers).
   archive, and the same SRTs are uploaded to YouTube as caption tracks. Coverage:
   the 2024, 2025 and 2026 seasons — every recording located on the channel is
   transcribed, audited against its minutes, and carries a speaker-attributed
-  caption track — see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). The League of Women Voters candidate
+  caption track — see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). Who said each line is checked
+  against the room camera and a library of reference voices, graded by a blind back-test, and a line
+  stays "Unidentified speaker" when voice and context disagree (`/transcription` explains it). The League of Women Voters candidate
   forums (2024 and 2026) sit on the timeline as recordings without a packet.
 - **Ask the Archive** (`/ask`) — a registration-gated AI Q&A over the corpus
   (owner-approved accounts, passwordless one-time-code sign-in, human-moderated

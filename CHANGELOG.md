@@ -5,6 +5,60 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Documentation and QA pass — 2026-11-14
+
+- **Clean:** 3,391 documents = 3,391 summaries = 3,391 `sum:` rows; 48,867 chunks, 0 duplicate
+  ids, 0 documents without a summary or summaries without a document (two short summaries are of
+  one-paragraph source files). 11-10's 130 chunks equal the local index chunk for chunk (the local
+  index holds only 11-10, so `reconcile_chunks.py` was scoped to it). 49 recordings / 23,456
+  utterances / 712 chapters, every recording with both, 0 orphans. `qa_numbers.py` unchanged
+  (16 COVERED / 11 ORDER over 47 meetings). The audit's 5 flags are raw workdir files (a backup,
+  the two forums, 07-22 and 09-24 before naming); all three meetings are named in D1.
+- **Speaker attribution re-verified end to end:** every corrected meeting rebuilt through the shared
+  namer equals D1 line for line (29 meetings, 16,975 lines) and `transcripts/` byte for byte; one
+  caption track downloaded and compared cue for cue (2025-12-09: 821 cues, identical speaker tags,
+  the corrected names live).
+- **2026-07-22 was wrong, and it was the hand-settled one.** Cluster G's 1,793-word facilities
+  update is Christine DiPilato, not Rob Carson: the superintendent hands over with "I did want to
+  ask Mrs. DiPilato" (1:12:06), G's lines score 0.68-0.92 against her voice (next 0.44), and the
+  camera shows a woman presenting from 1:12 to 1:23. The identifier had said DiPilato; the July
+  check overruled it on topic. G's early interjections, "Sure, I can." and one 96-word
+  administrator's line filed under trustee Potts (Griffor 0.70 vs Melton 0.67) are now
+  unidentified. D1, `transcripts/`, the example copies and the caption track re-pushed.
+- **2026-08-18 had regressed in the 11-13 republish:** the public commenter "Beau Taylor" (720
+  words; the chair: "Thank you, Mr. Taylor") had been written into the workdir JSON's speaker
+  field, not the spec, and offline re-attribution re-fetches the raw transcript, so he became
+  "Speaker E". Restored through the spec. Found by diffing each `scratch/backups/<date>/` file
+  against the published one: every other meeting matched the proposal to the word.
+  `publish_fix.py` now stops when the workdir JSON carries a name the spec does not.
+- **12 more lines placed** in six meetings (2025-09-02, 2025-10-07, 2025-12-09, 2026-02-03,
+  2026-04-07, 2026-08-18): with one stray line out of Potts's 07-22 lines, her unusable reference
+  stopped shadowing Melton's voice, and the 0.60 / 0.15 rule now moves nine lines to Melton
+  (0.75-0.94) and one each to Zendler, Haupt and Griffor, each read in context. Added as `reassign`
+  rows (not `--write`, which would have dropped the hand corrections). D1 and `transcripts/` are
+  current; **three caption tracks (02-03, 04-07, 08-18; one line each) are queued** for the 11-15
+  quota reset: the 03:15 drain had spent most of 11-14's quota, which this pass first misjudged.
+- `propose_fixes.py`: HELD lines name the bar actually missed ("not an automatic target" printed
+  as "median 0.83 < 0.56" before).
+- **/transcription:** "591,604 words in those meetings" sat under "the 32 meetings" but was the 26
+  corrected ones; now 673,688 for all 32, with 142,894 renamed and 34,277 unidentified across 27
+  corrected meetings (recomputed from the backups; the 11-13 tally had missed the 08-18 loss).
+  "Three consecutive meetings" is "three workshops in a row" (10-20 sat between); Potts's reference
+  0.37 (was 0.30, before the 07-22 fix); the captions sentence and a paragraph on 07-22 ("a hand
+  check is one more signal, not the last word"). Share card and tags 177,000. The back-test figures
+  were reproduced exactly from the blind run (`7bf3868`, pre-fix 09-01 key: 2,449 lines; 64.0% /
+  99.3% / 1.4% at 0.60, margin 0.10); today's script on the corrected key gives 61.9% / 100% / 1.6%.
+- **Text sizes:** /transcription's tag and stat captions, /singularity's stat captions and the home
+  page's "coming soon", type labels, badges, counts, pills, chips and the MCP address were 10.2-12.5
+  px; all now 12.8 px (the owner's 12.5 px floor). 360 and 402 px renders: no horizontal overflow
+  on `/`, `/transcription`, `/singularity`.
+- **Docs:** TRANSCRIPTION (the 07-22 story corrected, "The archive pass" and its QA lessons, content
+  ownership as a prior not proof, reproducing the back-test, season coverage to 11-14), TOOLING (six
+  voice-library tools, the 11-10 example, the page and its card), ROADMAP (status; held renames and
+  speaker spellings as items). Closed: **the Zendler/Melton back-check**, superseded by the archive
+  pass, which scored every 2025-26 line against both voices; its two known contradictions
+  (2026-02-03 0:53:56, 2025-12-09 0:21:13) now read Philippart (0.72) and Anne (0.81).
+
 ### /transcription share card — 2026-11-13
 
 - Link previews for /transcription: `public/transcription-card.html` (1200×630, the page's voice-cloud

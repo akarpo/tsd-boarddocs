@@ -4,22 +4,27 @@ Open work, newest planning first. This is the single forward-looking list — `C
 records what happened, this records what has not. When an item ships, move a line to the
 changelog and delete it here rather than leaving a checked box behind.
 
-Last reviewed **2026-10-23**.
+Last reviewed **2026-11-14**.
 
 ---
 
 ## Where things stand
 
-**The archive's speaker attribution was corrected on 2026-11-13** by the voice library: 26 meetings from
-2025-01-21 to 2026-08-18, ~174k words (see the changelog and /transcription). All 26 caption tracks
-are on YouTube (15 on 11-13, the last 11 at the 2026-11-14 quota reset; each track's lastUpdated checked).
+**The archive's speaker attribution was corrected on 2026-11-13/14** by the voice library: 27 of the
+32 meetings from 2025-01-21 to 2026-08-18, 177,171 words changed speaker (see the changelog and
+/transcription). The 2026-11-14 QA pass found the one hand-settled meeting in the span (07-22) wrong,
+a name the 11-13 republish had dropped (08-18), and 12 more lines the corrected library could place.
+D1 and `transcripts/` match every spec line for line. **Three caption tracks are queued**
+(2026-02-03, 2026-04-07, 2026-08-18: one line each) for the 2026-11-15 03:15 ET quota reset
+(`scratch/caption-drain/arm.sh`, nohup; if the machine slept or rebooted, run `drain.sh` after 3 a.m.).
 
 **The 2026-11-10 workshop is ingested through chapters** (2026-11-13): 9 documents summarized
 (the tenth, an Athens award recommendation, 400s on BoardDocs itself), the owner's Microsoft
 Teams recording on YouTube as `gQwqU5icsIo`, a 3:14 transcript with every cluster resolved (0
-audit flags), captions, 40 numbered chapters, description pushed, Facebook notes on the Desktop.
-The identifier had put Matt Haupt's name on Emina Alic's cluster; name plates in the room
-camera's close-ups settled it. The 2026-11-10 5 PM special meeting has no attachments and no
+audit flags), captions, 40 numbered chapters, description pushed, Facebook post and first comment
+published in the group (`facebook/2026-11-10.md`). The identifier had put Matt Haupt's name on Emina
+Alic's cluster; name plates in the room camera's close-ups settled it, and a second pass the owner
+asked for split Melton out of Zendler's cluster and left 194 unsettled lines unidentified. The 2026-11-10 5 PM special meeting has no attachments and no
 recording, and the 2026-11-14 strategic planning retreat was left for after it happens (a
 meeting already in D1 is skipped by `--skip-ingested`). See the changelog.
 
@@ -150,23 +155,37 @@ registration can lapse for want of two dollars after the work it took to get app
 
 ## Next
 
-### Grow the voice library and re-run the back-test each meeting
-The back-test ran 2026-11-13 (see TRANSCRIPTION.md, `backtest_voice.py`): 99.3% precision at 64%
-coverage with the 0.60 rule, and it found two real errors in 09-01 (fixed). Next: add each newly
-settled meeting to `SOURCES`, extend it to 2025-26 (needs voiceprints per meeting, ~1 s per line),
-and give Haupt and Machesky real references (Haupt's has 6 lines; Machesky's comes only from
-11-10). Optional cross-checks the owner floated: a local Whisper transcript diffed against
-AssemblyAI to flag names and numbers, and pyannote as a second diarizer (needs a Hugging Face
-token the owner would create). AssemblyAI stays the source.
+### Grow the voice library and re-run the checks each meeting
+Settled references come from 07-22, 09-01, 09-22, 10-06 and 10-20; `discover()` picks up any new
+`examples/<date>/speakers.json` with a voiceprint cache. **11-10 is skipped by a hard-coded
+exception** ("the meeting being worked on") although its spec is final: drop the exception (and
+give it a cache next to its workdir transcript), then re-run `backtest_voice.py` and
+`propose_fixes.py` over the auto meetings, comparing with the published specs as TRANSCRIPTION.md
+describes. Weak references: Potts (own lines 0.37, excluded) and Haupt (22 lines). After each new
+settled meeting, also run `propose_fixes.py <settled dates>`: a hand check can be wrong (07-22).
+Optional cross-checks the owner floated: a local Whisper transcript diffed against AssemblyAI, and
+pyannote as a second diarizer (needs a Hugging Face token the owner would create). AssemblyAI stays
+the source.
 
-### Back-check the meetings where Zendler and Melton both attended
-They merged into one cluster on 2026-09-01 and 2026-10-06, and nothing would have caught it on
-meetings attributed before the frame-grab rule: two lines are already known to contradict their
-speaker (2026-02-03 0:53:56, 2025-12-09 0:21:13). `transcription/split_cluster.py` makes the check
-cheap: for each 2025-26 meeting both attended, fetch the audio, pick seeds from frames (name
-plates) or the chair's hand-offs, and run it in report mode. A meeting needs fixing only when
-the seed check separates and the cluster labelled with one of them holds a block of the other.
-About 15 minutes of CPU per meeting plus the seed-finding; the audio comes from the channel.
+### Settle the eight held renames on video
+`propose_fixes.py` holds these (TRANSCRIPTION.md, "The archive pass"); each needs a frame sheet or a
+content check before it is named, under the confidence rule. 2025-02-25 E "Speaker E" → Matt Jansen
+(11/12 lines at 0.83; held only because directors are not automatic targets); just under the bar:
+2025-03-08 D → Vital Anne (0.50), 2025-04-01 C → Emina Alic (0.55), and five → Matt Haupt
+(2025-09-02 H "David Dorton" 0.58, 2025-11-11 H 0.58, 2026-02-03 E 0.60, 2026-04-07 J "Tyler
+Hansick" 0.64, 2026-04-28 B "David Recker" 0.61). Haupt's thin reference is the likely reason
+five land on him; three of them carry a presenter's name the identifier read off the podium.
+
+### Pick one spelling per speaker (owner decision)
+D1 carries 234 distinct speaker strings, with variants of the same person: "Dr. Richard Machesky"
+(7 meetings) vs "Richard Machesky" (37), "Vital Anne (President)" (2) vs "Vital Anne",
+"Stephanie Zendler (virtual)", "Kris Griffor" (2) vs "Kristine Griffor" (9), "Dr. Recker" vs
+"Dr. David Recker", "Trustee (unidentified)" (2) vs "Unidentified speaker", and bare
+"Speaker A".."Speaker Z" left in 2024-25. The page filter matches substrings, so search still
+finds them; it is a display inconsistency. Choosing canonical names is the owner's call; applying
+them is a spec edit plus `publish_fix.py` per meeting (450 quota units per caption track).
+`backtest_voice.ALIASES` already maps the variants for the voice tools.
+
 
 ### Tell approved applicants they are approved
 Nothing notifies them. They register, wait, and have to guess when to come back — and approval

@@ -125,8 +125,12 @@ meetings.
 ## Speaker attribution: trust, but verify
 
 The identifier is good, not infallible. On 2026-07-22 it mapped 6 of 9 clusters
-correctly, left one unmapped, and guessed one wrong. Diarization itself has two
-failure modes to check for:
+the way the hand check accepted, left one unmapped, and was overruled on one: it named
+cluster G Christine DiPilato, and the July check renamed it Rob Carson because the
+lines were facilities photos. **The overrule was the error** (found 2026-11-14: the
+superintendent hands over with "I did want to ask Mrs. DiPilato", her voice scores
+0.92, and the camera shows her presenting). A hand check is one more signal, not ground
+truth. Diarization itself has two failure modes to check for:
 
 - **One voice, two clusters** — the chair's 85 minutes split into A + B. When the
   identifier *names* both twins it marks them `Nancy Philippart - 1` / `- 2` and
@@ -301,6 +305,41 @@ alarm. Run it after every settled meeting; it grows the library and re-checks th
 Voiceprints for a meeting: `split_cluster.embeddings()` over its transcript (the 09-01/09-22
 caches were built that way).
 
+*Reproducing those numbers.* They are the blind run as it happened: `backtest_voice.py` at
+`7bf3868` with the 09-01 spec from before that commit's two fixes, margin 0.10 (1,106 + 265 +
+808 + 270 lines). Today's script, with the corrected answer key and the archive pass's
+`ALIASES`/`SKIP`, gives 2,447 lines and, at 0.60 / 0.15, 61.9% coverage, 100.0% precision, 1.6%
+of guest lines. The public page quotes the blind run, which is the honest grade.
+
+**The archive pass (2026-11-13) and the QA that followed (2026-11-14).** `propose_fixes.py` ran
+the same rules over the 31 automatically named meetings of 2025-01-21..2026-08-18; 26 changed and
+were published through `publish_fix.py`, 5 were clean. The QA pass a day later found two things
+no audit flag showed:
+
+- **The one hand-settled meeting in that span was wrong** (07-22, above). `propose_fixes.py`
+  only proposes for `auto` meetings unless given dates, so settled meetings are never re-checked
+  by default. Name them: `propose_fixes.py 2026-07-22 2026-09-01 ...` in every QA pass. A settled
+  meeting also feeds the library; this one did not poison it only because Carson had too few
+  lines to form a reference, so DiPilato's lines were simply missing from hers.
+- **A name stored only in the workdir JSON was lost.** 08-18's public commenter had been written
+  straight into `transcript.json`'s speaker field ("Beau Taylor"), not into any spec. Offline
+  re-attribution re-fetches the raw transcript, so the republish showed "Speaker E" for his
+  720 words. The chair's "Thank you, Mr. Taylor" restored it; `publish_fix.py` now stops when
+  the workdir JSON carries a name the spec does not. The check that found it: diff each
+  `scratch/backups/<date>/` attributed file against the published one and compare with what
+  the proposal predicted. Every other meeting matched its prediction to the word.
+
+- **Fixing a settled meeting changes the library, so re-run the proposals after it.** Removing
+  one non-Potts line from Potts's 07-22 lines (her reference was already unusable, and it scores
+  0.6-0.8 against Melton's voice) let 12 lines in six auto meetings clear the 0.15 margin: nine to
+  Melton at 0.75-0.94, and one each to Zendler, Haupt and Griffor, each read against its context.
+  Compare the proposal with the published spec line by line (not with `--write`, which rebuilds
+  the spec from the workdir one and would drop hand corrections such as 08-18's), add the moves as
+  `reassign` rows, and republish.
+
+`propose_fixes.py`'s HELD lines now say which bar a rename missed (a non-target such as a
+director, an unusable reference, or the score); it used to print "median 0.83 < 0.56" for all three.
+
 `speakers.json` (see `transcription/examples/2026-07-22/`) is the reconciliation
 record: `speakers[]` feeds the API (`description` strongly guides matching),
 `mapping` stores the resolved result, `overrides` pins corrections,
@@ -320,7 +359,10 @@ Verification levers that settle disputes fast:
 2. **Absence windows** — speech while someone is confirmed absent/dropped rules
    them out ("Stephanie, did you have any questions? She's gone.").
 3. **Content ownership** — facilities photos belong to M&O, budget scenarios to
-   Business Services, personnel readings to Employee Services.
+   Business Services, personnel readings to Employee Services. A prior, not proof:
+   on 2026-07-22 the facilities update was the assistant superintendent's, for her own
+   secondary buildings, and the hand-off ("I did want to ask Mrs. DiPilato…") said so.
+   A named hand-off outranks a guess from the topic.
 
 ## Site integration
 
@@ -405,12 +447,13 @@ minutes say Ryan Stasinski and Brian Fahnestock. The era pass found Fahnestock,
 and found `Katie Starn` where the chair had announced "Katie Skarn", turning two
 speakers that had been demoted to `Public commenter` back into named teachers.
 
-## Season coverage (as of 2026-10-23)
+## Season coverage (as of 2026-11-14)
 
-**48 recordings are on the site, and each has the "English (speaker-attributed)" caption
-track on YouTube**: 46 board meetings (2024 and 2025 complete, 2026 through the
-2026-10-20 regular) and the two League of Women Voters candidate forums (2024-09-25,
-2026-09-24). Each new meeting is captioned as it is added
+**49 recordings are on the site, and each has the "English (speaker-attributed)" caption
+track on YouTube**: 47 board meetings (2024 and 2025 complete, 2026 through the
+2026-11-10 workshop) and the two League of Women Voters candidate forums (2024-09-25,
+2026-09-24). Attribution for 2025-01-21..2026-08-18 was corrected by the voice library on
+2026-11-13/14 (27 meetings, 177,171 words changed speaker; see "The archive pass" above). Each new meeting is captioned as it is added
 (`upload_captions.py --only <date>`). The 2026-09-25 audit pushed 15 tracks
 after finding the owed list wrong in both directions; see "Audit before you push
 captions" below.
@@ -425,10 +468,12 @@ captions" below.
   specials, and the Jul 16 and Aug 20 regulars — have no recording located
   anywhere; `manifest_2024.json` records them as `src: null` with a note.
 
-- **2026 — complete through October 20.** All 17 televised meetings (7 workshops,
+- **2026 — complete through November 10.** All 18 recorded meetings (8 workshops,
   10 regulars) live on the site with embed + named transcript + chapters, and
-  caption tracks ("English (speaker-attributed)") on all 17 YouTube videos. Only
-  the Mar 3 workshop was never recorded anywhere. New meetings follow
+  caption tracks ("English (speaker-attributed)") on all 18 YouTube videos. The
+  Nov 10 workshop came from the owner's Teams recording of the room camera (no
+  broadcast after Oct 20); the Nov 10 5 PM special meeting has no recording or
+  documents. Only the Mar 3 workshop was never recorded anywhere. New meetings follow
   [OPERATIONS.md](OPERATIONS.md#the-whole-chain-in-the-order-it-has-to-run).
 - **2025 — complete.** All 19 recorded meetings are transcribed and QA'd (Jan 14,
   May 6, Jul 15, Aug 19 were not televised), and **all 19 are live on the site** with
