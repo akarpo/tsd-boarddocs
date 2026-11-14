@@ -537,7 +537,10 @@ It was wrong in both directions — two meetings believed owed (2025-10-14,
 2026-02-24) had actually landed before an earlier quota 403, and **five 2025
 videos had never been captioned at all** and appeared on nobody's list.
 
-So never work from a remembered list. Ask the API which videos lack the track:
+So never work from a remembered list. Ask the API. For tracks that exist but may be older than
+a re-attributed SRT, `transcription/caption_status.py DATE …` compares each track's `lastUpdated`
+with the local file (2026-11-14 left three such pushes for the next session). For videos that
+lack the track entirely:
 
 ```python
 import sys

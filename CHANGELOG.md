@@ -5,6 +5,17 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### Handoff for the next session — 2026-11-14
+
+- `transcription/caption_status.py`: read-only check of each caption track's `lastUpdated` against
+  its local SRT (STALE / current / NO TRACK); tested against a stubbed API, since the day's quota
+  was spent (a live call 403s, as its docstring says).
+- ROADMAP opens with "Next session: start here": the three owed caption tracks (02-03, 04-07,
+  08-18) with the exact commands, the 11-14 retreat to ingest, and the two owner decisions.
+- Re-checked before writing it: D1 still equals every corrected spec line for line (29 meetings,
+  16,975 lines); 3,391 summaries, 48,867 chunks, 49 recordings / 23,456 utterances / 712 chapters;
+  git clean and pushed.
+
 ### Documentation and QA pass — 2026-11-14
 
 - **Clean:** 3,391 documents = 3,391 summaries = 3,391 `sum:` rows; 48,867 chunks, 0 duplicate

@@ -10,6 +10,22 @@ Last reviewed **2026-11-14**.
 
 ## Where things stand
 
+### Next session: start here (written 2026-11-14)
+
+1. **Three caption tracks owe one line each: 2026-02-03, 2026-04-07, 2026-08-18.** A drain was
+   armed for 2026-11-15 03:15 ET (`scratch/caption-drain/`, gitignored). First look:
+   `tail -3 scratch/caption-drain/drain.log`. Then confirm against YouTube (50 units a date):
+   `python3 transcription/caption_status.py 2026-02-03 2026-04-07 2026-08-18`. For each STALE:
+   `python3 transcription/upload_captions.py --only DATE` (450 units). A 403 means the day's quota
+   is spent; it resets at 3 a.m. ET, and anything a 3:15 drain pushes counts against that day.
+   D1 and `transcripts/` already carry these lines; only the YouTube tracks lag.
+2. **The 2026-11-14 strategic planning retreat** happened after this pass: once BoardDocs has its
+   documents, `scripts/ingest_meeting.sh 2026-11-14` (the chain in OPERATIONS.md; it skips meetings
+   already in D1), and look for a recording (the owner's Teams file, as for 11-10, if there is no
+   broadcast). The 2026-11-10 5 PM special meeting has neither documents nor a recording.
+3. **Owner decisions waiting** (items under "Next"): one spelling per speaker, and the eight held
+   renames to settle on video.
+
 **The archive's speaker attribution was corrected on 2026-11-13/14** by the voice library: 27 of the
 32 meetings from 2025-01-21 to 2026-08-18, 177,171 words changed speaker (see the changelog and
 /transcription). The 2026-11-14 QA pass found the one hand-settled meeting in the span (07-22) wrong,
