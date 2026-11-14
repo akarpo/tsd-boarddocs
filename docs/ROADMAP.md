@@ -42,7 +42,9 @@ published in the group (`facebook/2026-11-10.md`). The identifier had put Matt H
 Alic's cluster; name plates in the room camera's close-ups settled it, and a second pass the owner
 asked for split Melton out of Zendler's cluster and left 194 unsettled lines unidentified. The 2026-11-10 5 PM special meeting has no attachments and no
 recording, and the 2026-11-14 strategic planning retreat was left for after it happens (a
-meeting already in D1 is skipped by `--skip-ingested`). See the changelog.
+meeting already in D1 is skipped by `--skip-ingested`). See the changelog. On 2026-11-14 the
+post's aide figure was corrected (158 to 104, not "almost 160" cut), every other figure was traced,
+and the live post was diffed word for word against the source (FACEBOOK_NOTES rules 12-13).
 
 **The 2026-10-20 regular meeting is ingested through chapters** (2026-10-23): 29 documents
 summarized, the August check register handed across, TelVue `1054054` on YouTube as
@@ -170,6 +172,15 @@ registration can lapse for want of two dollars after the work it took to get app
 
 
 ## Next
+
+### Give `facebook_notes.py` a figure check
+The quote check sees only text in quotation marks, which is how the 11-10 post's wrong aide figure
+(FACEBOOK_NOTES rule 12) went out. Add a `--figures` pass: list every number in the source, mark
+each as found in the transcript, found in the meeting's own D1 chunks, or neither, and print the
+"neither" lines for a person to trace to the deciding meeting's document. The 2026-11-14 QA did this
+by hand (a throwaway script plus `wrangler d1 execute`); 16 of the post's figures were not in the
+transcript as written; 15 traced to a file and the 16th was the transcript's "$200 grand". It is a prompt to look, not a gate: a number can be in the
+transcript and still be misread, as "almost 160" was.
 
 ### Grow the voice library and re-run the checks each meeting
 Settled references come from 07-22, 09-01, 09-22, 10-06 and 10-20; `discover()` picks up any new

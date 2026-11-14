@@ -5,6 +5,32 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
 
 ## [Unreleased]
 
+### 11-10 Facebook post: the aide figure corrected, and a figure QA — 2026-11-14
+
+- **The post overstated the aide cut about threefold.** "(almost 160 aide positions were part of
+  the $12 million in cuts)" came from Trudel's "almost 160 across this district" (0:17:05), which
+  was the headcount before the cuts. The June 1 reduction list (`Board_Budget_Reduction_Communication
+  6-1-26.pdf`; also the 07-22 special education narrative) has "Student Support Aide – Gen Ed (from
+  158 to 104 FTE)", $1,334,362. Now "(the $12 million in cuts took student support aides from 158
+  to 104)" in `facebook/2026-11-10.md` and in the live post, edited from Chrome (that phrase the only
+  change in the editor; persisted after a reload, bold intact).
+- **Every other figure in the post re-checked:** each number either appears in the transcript or in
+  the meeting's own files (audit 1.a, steel 1.b, leases 1.c, the special education slides), and the
+  claims about earlier states were traced: Level 2 none → 5 and Level 3 three → 8 (slide read with
+  `pdftotext -layout`; the database copy has the columns scrambled), 100 schools of choice students
+  with IEPs and 26 in categorical programs (the slide; the transcript's "126" is a speech-to-text
+  slip), Tier 3 cases 11 → 35, 70 move-ins last year, the 9:12 p.m. end (the Teams file starts at
+  17:58:02, plus 3:13:53).
+- **Live post = source, word for word,** except the lede, which the owner had posted as "three hour
+  and fourteen minute"; the source now matches (1,694 words both). `facebook_notes.py` passes.
+- **Left as is, for the owner:** "Over $1 million in support has been restored" is Machesky's figure;
+  he said the reported number is "just under a million" until the extra aides are hired (0:14:45).
+- FACEBOOK_NOTES rules 12 (a figure about a past decision comes from that decision's document) and
+  13 (the source stays equal to the live post); rule 1 now says the quote check sees only quotes.
+- A reply to a group member's question about the schools of choice $1 million (enrollment
+  stabilization now counts three years of enrollment, about $1 million unbudgeted; 2:49:08) was
+  drafted for the owner to post; nothing was posted on his behalf.
+
 ### Handoff for the next session — 2026-11-14
 
 - `transcription/caption_status.py`: read-only check of each caption track's `lastUpdated` against

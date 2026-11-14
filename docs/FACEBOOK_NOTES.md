@@ -75,7 +75,8 @@ These come from errors that were caught, some of them only after publication.
 
 1. **Every quote is in the transcript, word for word.** The script checks each quoted passage
    of four or more words against the attributed transcript and refuses (exit 1) when one is
-   missing. Trim a quote with an ellipsis rather than tidy its grammar.
+   missing. Trim a quote with an ellipsis rather than tidy its grammar. It checks nothing
+   outside quotation marks: paraphrased figures need rule 12.
 2. **Attribute only from the settled speaker spec.** Read the whole attributed transcript
    first; if a line reads as the wrong person, fix the spec and re-push before quoting it
    (2026-10-06: two of Anne's sentences had been duplicated under staff names).
@@ -112,6 +113,23 @@ These come from errors that were caught, some of them only after publication.
     `<p><br></p>` for each blank line, `<strong>`/`<em>`) with a synthetic `paste` event after a
     real click in the editor; Facebook keeps the bold, italics and empty paragraphs. Verify the
     editor's block, bold and italic counts before pressing Post.
+12. **A figure about an earlier decision comes from that decision's document, not from a
+    sentence at this meeting.** The 11-10 post said "(almost 160 aide positions were part of the
+    $12 million in cuts)". Trudel had said the aides "were part of the overall $12 million in
+    reductions. So you had a large number, almost 160 across this district": 158 was the
+    headcount before the cuts, and the June 1 reduction list cut them to 104 (54 FTE,
+    $1,334,362). Corrected in the live post on 2026-11-14. No check could catch it: the script
+    checks only quoted text, this was a paraphrase, and both numbers are in the transcript.
+    For each number in a draft, ask whether it is about tonight or about a past decision (cuts,
+    staffing counts, votes, prior years). For a past one, find the meeting where it was decided
+    in D1 (`SELECT url, substr(text, …) FROM chunks WHERE lower(text) LIKE '%…%'`) and write
+    what the document says. When a sentence puts a count next to a total, settle which one the
+    count measures before using it.
+13. **The source file stays equal to the live post.** After any edit to the live post (a
+    correction, or the owner's own wording), diff the live text against `facebook/<date>.md`
+    and bring the source into line: strip `**`/`*` markers, collapse whitespace, and compare
+    word by word inside the page (the extension truncates long returns). The 11-14 QA found
+    one drift this way: the owner had posted the lede as "three hour and fourteen minute".
 
 ## Source syntax (`facebook/<date>.md`)
 

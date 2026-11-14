@@ -165,3 +165,14 @@ Reconstructed by hand: the session started from `~`, so the capture hook did not
 12. **"I think the YouTube limit reset"** → The overnight drain had already pushed the last 11 tracks; all 26 confirmed by `lastUpdated`.
 13. **"Do a documentation and QA pass"** → D1, files and a caption track re-verified; found the hand-settled 07-22 wrong (DiPilato, not Carson), 08-18's public commenter dropped by the 11-13 republish (guard added to `publish_fix.py`), and 12 more lines the corrected library could place; page figures recomputed (one was mislabelled), text sizes raised to 12.8 px; docs and roadmap current. Three caption tracks queued for the 11-15 reset.
 14. **"Please do a documentation and QA pass so we can upload these the next time I work on the TSD BoardDocs project"** → `transcription/caption_status.py`, a "Next session: start here" block at the top of the roadmap (the three owed caption tracks with commands, the 11-14 retreat, the owner decisions), integrity re-checked.
+
+## 2026-11-14 — the 11-10 post's aide figure, a reply to a comment, a figure QA
+
+Reconstructed by hand: the session started from `~`, so the capture hook did not fire.
+
+1. **"For the TSD Facebook Post summary of the 11/10 meeting, it was written - '· Over $1 million in support has been restored this year, … (almost 160 aide positions were part of the $12 million in cuts). …' Can you give more context to this and the meeting recording timestamp for when this was discussed"** → 0:13:51-0:19:03 (Machesky 0:14:45, Trudel 0:17:05, the January amendment 0:18:45), with the spring background from June 1, June 16 and Aug 18. The parenthetical was wrong: 158 was the starting headcount and the June 1 list cut aides to 104.
+2. **"yes, update the source file"** (+ mid-turn **"Please edit the post as well please with Chrome"**) → `facebook/2026-11-10.md` and the live post corrected; the editor diff showed only that phrase.
+3. **"Im honestly wondering how this was missed, in terms of the mistake that was made for the 11/10 post"** → One ambiguous sentence read as the number cut; the script checks only quotes; the deciding document was from another meeting; the 11-13 review checked attribution only. Now FACEBOOK_NOTES rule 12.
+4. **A draft reply to a group member's comment about the $1 million** (mid-turn) → Her question was about the schools of choice line (enrollment stabilization, 2:49:08), not the $1 million restored; drafted, not posted.
+5. **"Include a YoUTube link with that timestamp to Dan's comment in the initial sentence"** → The link moved into the opening sentence.
+6. **"Good job, do a documentation and QA pass so we can close this out"** → Every figure in the post traced to the transcript, the meeting's files or the deciding document; the live post diffed word for word against the source (one owner wording synced); FACEBOOK_NOTES rules 12-13, changelog, roadmap.
