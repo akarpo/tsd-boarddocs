@@ -6,22 +6,22 @@
 <meta name="robots" content="noindex">
 <title>Who Said That? · Troy SD BoardDocs</title>
 <!-- Share card: public/transcription-card.html, rendered by scripts/build_transcription_card.py (which stamps ?v=). -->
-<meta name="description" content="How the Troy School District board-meeting archive checks who said every line, using the video, voiceprints, and a blind back-test. 99.3% of the lines it names are named right, and 174,000 words now carry the right speaker, or none.">
+<meta name="description" content="How the Troy School District board-meeting archive checks who said every line, using the video, voiceprints, and a blind back-test. 99.3% of the lines it names are named right, and 177,000 words now carry the right speaker, or none.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Troy SD BoardDocs">
 <meta property="og:url" content="https://tsd-boarddocs.karpowitsch.org/transcription">
 <meta property="og:title" content="Who Said That? How the Troy board-meeting archive names its speakers">
-<meta property="og:description" content="Video, voiceprints, and a blind back-test: 99.3% of the lines it names are named right, and 174,000 words across the 2025 and 2026 meetings now carry the right speaker, or none.">
-<meta property="og:image" content="https://tsd-boarddocs.karpowitsch.org/transcription-og.png?v=1a78b0dec6">
+<meta property="og:description" content="Video, voiceprints, and a blind back-test: 99.3% of the lines it names are named right, and 177,000 words across the 2025 and 2026 meetings now carry the right speaker, or none.">
+<meta property="og:image" content="https://tsd-boarddocs.karpowitsch.org/transcription-og.png?v=083689a78f">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Who Said That? Glowing clouds of points, one per voice, beside three numbers: 99.3% of named lines right in a blind back-test, 174,000 words corrected, 32 older meetings re-checked.">
+<meta property="og:image:alt" content="Who Said That? Glowing clouds of points, one per voice, beside three numbers: 99.3% of named lines right in a blind back-test, 177,000 words corrected, 32 older meetings re-checked.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Who Said That? How the Troy board-meeting archive names its speakers">
-<meta name="twitter:description" content="Video, voiceprints, and a blind back-test: 99.3% of the lines it names are named right, and 174,000 words now carry the right speaker, or none.">
-<meta name="twitter:image" content="https://tsd-boarddocs.karpowitsch.org/transcription-og.png?v=1a78b0dec6">
-<meta name="twitter:image:alt" content="Who Said That? Glowing clouds of points, one per voice, beside three numbers: 99.3% of named lines right in a blind back-test, 174,000 words corrected, 32 older meetings re-checked.">
+<meta name="twitter:description" content="Video, voiceprints, and a blind back-test: 99.3% of the lines it names are named right, and 177,000 words now carry the right speaker, or none.">
+<meta name="twitter:image" content="https://tsd-boarddocs.karpowitsch.org/transcription-og.png?v=083689a78f">
+<meta name="twitter:image:alt" content="Who Said That? Glowing clouds of points, one per voice, beside three numbers: 99.3% of named lines right in a blind back-test, 177,000 words corrected, 32 older meetings re-checked.">
 <style>
   :root{
     --fg:#e8ecf4; --muted:#9aa4b5; --accent:#6fc3ff; --accent2:#ff9d5c; --accent3:#d17bff; --ok:#7be3a6;
@@ -55,14 +55,14 @@
   .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0 12px}
   .stat{background:rgba(255,255,255,.045);border:1px solid var(--panel-line);border-radius:12px;padding:10px 12px}
   .stat b{display:block;font-size:1.25rem;color:var(--accent)}
-  .stat span{font-size:.78rem;color:var(--muted)}
+  .stat span{font-size:.8rem;color:var(--muted)}
   .signals{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:14px 0 12px}
   .sigcard{background:rgba(255,255,255,.04);border:1px solid var(--panel-line);border-radius:12px;padding:12px 14px}
   .sigcard b{display:block;color:var(--fg);margin-bottom:4px}
   .sigcard span{font-size:.88rem;color:var(--muted)}
   .rule{border:1px solid rgba(123,227,166,.35);background:rgba(123,227,166,.07);border-radius:12px;padding:12px 16px;margin:14px 0}
   .rule b{color:var(--ok)}
-  .tag{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;
+  .tag{display:inline-block;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;
        border:1px solid var(--panel-line);color:var(--muted);margin-left:6px;vertical-align:middle}
   .sig{color:var(--muted);font-size:.86rem;margin-top:18px}
   code{background:rgba(127,160,255,.14);padding:1px 7px;border-radius:6px;font-size:.88em}
@@ -109,7 +109,7 @@
     quietly. Three failure modes cover nearly everything we have found:</p>
     <ul>
       <li><b>Two voices, one cluster.</b> Two trustees who sit apart but sound alike were merged into a single
-      "speaker" at three consecutive meetings (September&nbsp;1, October&nbsp;6, November&nbsp;10).</li>
+      "speaker" at three workshops in a row (September&nbsp;1, October&nbsp;6, November&nbsp;10).</li>
       <li><b>One voice, two clusters.</b> A chair who speaks for 85 minutes can come back as two or three
       "people."</li>
       <li><b>The right cluster, the wrong name.</b> The automatic naming step is a <em>text</em> model: it reads
@@ -171,7 +171,7 @@
     voice like a visiting presenter, for board members almost six percent of the time. That trade-off is why the
     bar sits where it does, and why it is adjusted per person: each regular's own lines score between 0.69 and
     0.82 against their reference, so a "match" far below someone's usual score is treated as a stranger. (One
-    reference turned out to be unusable, its own owner scoring 0.30 against it, and it is excluded entirely.)</p>
+    reference turned out to be unusable, its own owner scoring 0.37 against it, and it is excluded entirely.)</p>
     <p class="lesson">The one false alarm was itself instructive: a voice that "matched" a trustee who, the
     video showed, was a muted Teams tile at the time. A reference built from six lines is not a reference.</p>
   </div>
@@ -184,9 +184,9 @@
     president swapped at an organizational meeting; recognitions presenters labeled as board members; outside
     trainers labeled as trustees; a cabinet member's voice under a trustee's name.</p>
     <div class="cascade">
-      <div class="cstep"><span class="n">591,604</span><span class="arrow">→</span><span>words in those meetings</span></div>
-      <div class="cstep"><span class="n">139,919</span><span class="arrow">→</span><span>words whose speaker was corrected</span></div>
-      <div class="cstep"><span class="n">34,401</span><span class="arrow">→</span><span>words that became "Unidentified speaker" <span class="what">(a wrong name removed, no right one provable)</span></span></div>
+      <div class="cstep"><span class="n">673,688</span><span class="arrow">→</span><span>words in those meetings</span></div>
+      <div class="cstep"><span class="n">142,894</span><span class="arrow">→</span><span>words whose speaker was corrected</span></div>
+      <div class="cstep"><span class="n">34,277</span><span class="arrow">→</span><span>words that became "Unidentified speaker" <span class="what">(a wrong name removed, no right one provable)</span></span></div>
       <div class="cstep"><span class="n">5</span><span class="arrow">→</span><span>meetings that came back clean</span></div>
     </div>
     <p style="margin-top:12px">Every proposed change is held to the same rule: a cluster is renamed only when a
@@ -196,10 +196,18 @@
     errors the bar was simply too cautious to fix (among them the "trustee" whose cluster said "athletics" 68
     times), and those were confirmed by hand, with the evidence written down. One could not be settled either
     way and stays unidentified.</p>
-    <p class="dim">Published November&nbsp;13, 2026: the corrected transcripts are live on every meeting page and
-    in the downloadable files, and the YouTube caption tracks follow over two days (YouTube rations caption
-    uploads). Every meeting's previous version is kept, and every change is recorded with its evidence in the
-    repository.</p>
+    <p>A day later the check reached the one meeting in that span that had been settled by hand, July&nbsp;22,
+    and it was wrong too. A three-minute update on summer construction at Athens, Smith and Boulan Park had been
+    credited to the maintenance director. The superintendent had introduced it as Mrs.&nbsp;DiPilato's update,
+    her voice matched at <b>0.92</b>, and the camera showed her presenting. The automatic namer had said
+    DiPilato; the hand check in July overruled it.</p>
+    <p class="lesson">A hand check is one more signal, not the last word.</p>
+    <p class="dim">Published November&nbsp;13, 2026, with the July&nbsp;22 correction on November&nbsp;14, along
+    with 12 more lines the corrected library could now place and a public commenter's name that the
+    November&nbsp;13 republish had dropped from August&nbsp;18. The corrected transcripts are live on every meeting
+    page and in the downloadable files; the YouTube caption tracks follow, the last three queued for
+    November&nbsp;15 (YouTube rations caption uploads). Every meeting's previous version is kept, and every change
+    is recorded with its evidence in the repository.</p>
   </div>
 
   <div class="panel">

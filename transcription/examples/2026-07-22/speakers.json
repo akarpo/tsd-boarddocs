@@ -15,7 +15,7 @@
   "overrides": {
     "B": "Vital Anne (President)",
     "A": "Vital Anne (President)",
-    "G": "Rob Carson",
+    "G": "Christine DiPilato",
     "E": "Ayesha Potts"
   },
   "mapping": {
@@ -32,12 +32,17 @@
     {"cluster": "I", "at_ms": 3900000,
      "before": "Stephanie Zendler (virtual)", "after": "Public commenter"}
   ],
+  "reassign": [
+    {"name": "Unidentified speaker",
+     "start_ms": [499580, 568749, 575325, 2068257, 2408141, 4847309, 4848239]}
+  ],
   "notes": [
     "Attribution: AssemblyAI speaker_identification + manual verification against the packet rosters.",
     "Diarization split the chair's voice into clusters A+B (merged as Vital Anne).",
     "A few utterances by Dr. Audra Melton co-clustered with Ayesha Potts (e.g. the 8.C reading ~29:24).",
     "Cluster I held two people; split by time: Stephanie Zendler (remote, early) / public commenter (67m+).",
     "'Mr. Hauff' in the STT text = trustee Matt Haupt (Gary Hauff now sits on the Oakland Schools ISD board).",
-    "In-person board: Anne, Haupt, Melton, Potts; virtual non-voting: Zendler; absent: Alic, Philippart."
+    "In-person board: Anne, Haupt, Melton, Potts; virtual non-voting: Zendler; absent: Alic, Philippart.",
+    "CORRECTION 2026-11-14 (QA pass): cluster G is Christine DiPilato, not Rob Carson. At 1:12:06 the superintendent asks 'Mrs. DiPilato' for the bond-project update and G answers for 3 minutes; G's seven voiced lines score 0.68-0.92 against her library voice (next best 0.44); the camera shows a woman presenting from 1:12 to 1:23; Athens, Smith and Boulan Park are secondary buildings, her portfolio. The identifier had said DiPilato; the July hand check overruled it on content, wrongly. G's five early interjections (0:08-0:40) and 'Sure, I can.' (1:20:47) have no voice match: Unidentified speaker. 1:20:48 (cluster E, 'my team. Dan and I have been working together'): an administrator, not trustee Potts; voice Griffor 0.70 vs Melton 0.67, too close to name: Unidentified speaker."
   ]
 }

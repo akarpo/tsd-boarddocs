@@ -12,6 +12,9 @@ votes passed 4-0. Virtual (non-voting): **Stephanie Zendler** (dropped ~19:41, r
 Absent: Emina Alic, Dr. Nancy Philippart. Speaking staff: Dan Trudel (budget scenarios),
 Dr. Machesky, Brian Canfield (personnel 6A-6D), Rob Carson (facilities photos: Smith gym,
 Boulan Park, Athens gym). One public commenter (parent/vendor, enrichment classes at Hamilton).
+**Correction (2026-11-14):** the facilities photos were presented by Christine DiPilato, not Rob
+Carson (the superintendent hands over to "Mrs. DiPilato" at 1:12:06; voice 0.92; camera). See the
+CORRECTION note in `speakers.json`.
 STT note: "Mr. Hauff" in the transcript = Matt Haupt; Gary Hauff was elected June 1, 2026 to
 the Oakland Schools ISD board (six-year term to 2032, Troy's vote cast by Kendra Montante).
 

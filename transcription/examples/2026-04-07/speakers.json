@@ -46,7 +46,8 @@
     "Attribution: AssemblyAI speaker_identification with the generic 2026 roster; unmapped voices stay Speaker letters.",
     "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting (the 2026-07-22 example shows what verification adds).",
     "QA pass 2026-08-02: remaining clusters attributed from in-transcript evidence (self-introductions, minutes roll-call, content ownership); generic labels where identity is not stated.",
-    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster F: Audra Melton -> Stephanie Zendler (34/35 lines, median 0.75 >= 0.59); cluster H: Richard Machesky -> Emina Alic (47/52 lines, median 0.74 >= 0.59); cluster B: Matt Haupt -> Richard Machesky (19/22 lines, median 0.79 >= 0.66); 10 lines moved on voice (>= 0.60, margin 0.15)"
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster F: Audra Melton -> Stephanie Zendler (34/35 lines, median 0.75 >= 0.59); cluster H: Richard Machesky -> Emina Alic (47/52 lines, median 0.74 >= 0.59); cluster B: Matt Haupt -> Richard Machesky (19/22 lines, median 0.79 >= 0.66); 10 lines moved on voice (>= 0.60, margin 0.15)",
+    "QA PASS 2026-11-14: 3 more line(s) moved on voice (>= 0.60, margin 0.15) after the library correction of 2026-07-22 (a non-Potts line removed from Potts's reference let these clear the margin); each read against its context."
   ],
   "mapping": {
     "E": "Christine DiPilato",
@@ -73,9 +74,12 @@
     {
       "name": "Audra Melton",
       "start_ms": [
+        4954294,
         6496037,
         6522781,
-        9741061
+        9267310,
+        9741061,
+        9893230
       ]
     },
     {

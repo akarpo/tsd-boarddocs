@@ -3,15 +3,18 @@
 
     python3 transcription/publish_fix.py DATE [--captions]
 
+0. stop if the workdir transcript JSON carries a speaker name the spec does not hold (re-attribution
+   re-fetches the raw transcript and would drop it)
 1. back up the workdir outputs (scratch/backups/<date>/)
 2. re-attribute offline: transcribe_meeting.py --transcript-id <id from the workdir JSON>
 3. audit_attribution.py (prints its flags; a DEGENERATE/UNATTRIBUTED flag stops here)
 4. copy .srt / .attributed.txt into transcripts/ under the channel-title name upload_captions uses
 5. upload_transcript.py to D1 (chapters untouched)
-6. --captions: upload_captions.py --only DATE (450 quota units; ~20 a day fit)
+6. --captions: upload_captions.py --only DATE (450 quota units; ~20 a day fit, counting anything
+   an overnight drain already pushed after the 3 a.m. ET reset)
 """
 from __future__ import annotations
-import json, shutil, subprocess, sys
+import json, re, shutil, subprocess, sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -29,7 +32,19 @@ def main() -> int:
     d = sys.argv[1]; caps = "--captions" in sys.argv
     base = W / f"Troy School Board Meeting - {d}"
     spec = REPO / "transcription" / "examples" / d / "speakers.json"
-    tid = json.load(open(f"{base}.transcript.json")).get("id")
+    tj = json.load(open(f"{base}.transcript.json"))
+    tid = tj.get("id")
+    # Re-attribution re-fetches the raw transcript (speaker letters only). A name written straight
+    # into the workdir JSON's speaker field, and nowhere in the spec, would silently fall back to
+    # "Speaker E": 2026-08-18 lost "Beau Taylor" that way on 2026-11-13. Move such names into the
+    # spec (overrides / reassign) first.
+    s = json.load(open(spec))
+    known = set((s.get("mapping") or {}).values()) | set((s.get("overrides") or {}).values()) \
+        | {r["name"] for r in s.get("reassign") or []}
+    embedded = sorted({u["speaker"] for u in tj.get("utterances") or []
+                       if not re.fullmatch(r"[A-Z]{1,2}", u["speaker"]) and u["speaker"] not in known})
+    if embedded:
+        print(f"{d}: STOP: names only in the workdir JSON, not the spec: {embedded}"); return 1
     bak = REPO / "scratch" / "backups" / d; bak.mkdir(parents=True, exist_ok=True)
     for ext in (".transcript.json", ".transcript.attributed.txt", ".srt"):
         if Path(f"{base}{ext}").exists() and not (bak / Path(f"{base}{ext}").name).exists():

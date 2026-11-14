@@ -45,7 +45,8 @@
   "notes": [
     "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
     "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
-    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster B: Richard Machesky -> unidentified (voice matches 1/16; top Greg Janicki 3); cluster E: Nancy Philippart -> Emina Alic (51/60 lines, median 0.70 >= 0.59); cluster F: Richard Machesky -> unidentified (voice matches 0/42; top Christine DiPilato 15); cluster G: Nancy Philippart -> Vital Anne (77/79 lines, median 0.69 >= 0.62); 30 lines moved on voice (>= 0.60, margin 0.15)"
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster B: Richard Machesky -> unidentified (voice matches 1/16; top Greg Janicki 3); cluster E: Nancy Philippart -> Emina Alic (51/60 lines, median 0.70 >= 0.59); cluster F: Richard Machesky -> unidentified (voice matches 0/42; top Christine DiPilato 15); cluster G: Nancy Philippart -> Vital Anne (77/79 lines, median 0.69 >= 0.62); 30 lines moved on voice (>= 0.60, margin 0.15)",
+    "QA PASS 2026-11-14: 3 more line(s) moved on voice (>= 0.60, margin 0.15) after the library correction of 2026-07-22 (a non-Potts line removed from Potts's reference let these clear the margin); each read against its context."
   ],
   "mapping": {
     "A": "Nancy Philippart",
@@ -65,6 +66,13 @@
   },
   "reassign": [
     {
+      "name": "Audra Melton",
+      "start_ms": [
+        4484892,
+        7952583
+      ]
+    },
+    {
       "name": "Christine DiPilato",
       "start_ms": [
         2257012,
@@ -79,6 +87,12 @@
         5317990,
         8594930,
         8627610
+      ]
+    },
+    {
+      "name": "Matt Haupt",
+      "start_ms": [
+        6423542
       ]
     },
     {

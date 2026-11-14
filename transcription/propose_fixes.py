@@ -109,7 +109,12 @@ def propose(M, src, REF, SELF=None):
             overrides[c] = top; actions.append(f"cluster {c}: {name} -> {top} ({k}/{tot} lines, median {med:.2f} >= {thr(top):.2f})")
             continue
         if tot >= 8 and top != name and k / tot >= 0.60 and top != "?":
-            actions.append(f"HELD cluster {c}: {name} -> {top}? ({k}/{tot}, median {med:.2f} < {thr(top):.2f})")
+            # Say which bar it missed: an unusable or non-target reference, or the score itself.
+            # (It once printed "median 0.83 < 0.56" for a non-target, which reads as a bug.)
+            why = (f"reference unusable (own lines {SELF[top]:.2f})" if top in SELF and SELF[top] < 0.50
+                   else "not an automatic target" if top in unreliable
+                   else f"median {med:.2f} < {thr(top):.2f}")
+            actions.append(f"HELD cluster {c}: {name} -> {top}? ({k}/{tot}, median {med:.2f}; {why})")
             held.add((c, top))
         if tot >= 8 and name in REF and name not in unreliable and vc.get(name, 0) / tot < 0.15:
             overrides[c] = U_; actions.append(f"cluster {c}: {name} -> unidentified (voice matches {vc.get(name, 0)}/{tot}; top {top} {k})")

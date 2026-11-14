@@ -45,7 +45,8 @@
   "notes": [
     "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
     "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
-    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Matt Haupt -> unidentified (voice matches 0/46; top Matt Jansen 40); cluster H: Audra Melton -> Emina Alic (36/43 lines, median 0.67 >= 0.59); cluster C: Stephanie Zendler -> Vital Anne (47/47 lines, median 0.77 >= 0.62); 41 lines moved on voice (>= 0.60, margin 0.15); cluster E -> Matt Jansen (confirmed: content: an athletics presentation (athlet* 68, sport 60, coach 50); voice Jansen 0.65; video shows a man at the presenters' table, not Haupt)"
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Matt Haupt -> unidentified (voice matches 0/46; top Matt Jansen 40); cluster H: Audra Melton -> Emina Alic (36/43 lines, median 0.67 >= 0.59); cluster C: Stephanie Zendler -> Vital Anne (47/47 lines, median 0.77 >= 0.62); 41 lines moved on voice (>= 0.60, margin 0.15); cluster E -> Matt Jansen (confirmed: content: an athletics presentation (athlet* 68, sport 60, coach 50); voice Jansen 0.65; video shows a man at the presenters' table, not Haupt)",
+    "QA PASS 2026-11-14: 3 more line(s) moved on voice (>= 0.60, margin 0.15) after the library correction of 2026-07-22 (a non-Potts line removed from Potts's reference let these clear the margin); each read against its context."
   ],
   "mapping": {
     "C": "Stephanie Zendler",
@@ -67,7 +68,10 @@
     {
       "name": "Audra Melton",
       "start_ms": [
+        4852485,
         5245040,
+        7088160,
+        7990452,
         9541990,
         9590406
       ]

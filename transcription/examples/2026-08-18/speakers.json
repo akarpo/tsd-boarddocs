@@ -45,7 +45,9 @@
   "notes": [
     "Attribution: AssemblyAI speaker_identification with the generic 2026 roster; unmapped voices stay Speaker letters.",
     "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting (the 2026-07-22 example shows what verification adds).",
-    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster F: Nancy Philippart -> Emina Alic (13/13 lines, median 0.78 >= 0.59); cluster B: Matt Haupt -> Richard Machesky (34/36 lines, median 0.85 >= 0.66); 11 lines moved on voice (>= 0.60, margin 0.15)"
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster F: Nancy Philippart -> Emina Alic (13/13 lines, median 0.78 >= 0.59); cluster B: Matt Haupt -> Richard Machesky (34/36 lines, median 0.85 >= 0.66); 11 lines moved on voice (>= 0.60, margin 0.15)",
+    "CORRECTION 2026-11-14 (QA pass): cluster E's public comment (0:34:11-0:37:16) is Beau Taylor; the chair closes it with 'Thank you, Mr. Taylor. All right, Mr. Walter Cook.' The name had been written into the workdir transcript JSON's speaker field, not this spec, so the 2026-11-13 offline re-attribution (which re-fetches the raw transcript) dropped it to 'Speaker E'. E's 'so. Okay.' at 0:03:59 is outside the comment: Unidentified speaker.",
+    "QA PASS 2026-11-14: 1 more line(s) moved on voice (>= 0.60, margin 0.15) after the library correction of 2026-07-22 (a non-Potts line removed from Potts's reference let these clear the margin); each read against its context."
   ],
   "mapping": {
     "D": "Dan Trudel",
@@ -58,12 +60,14 @@
   },
   "overrides": {
     "F": "Emina Alic",
-    "B": "Richard Machesky"
+    "B": "Richard Machesky",
+    "E": "Beau Taylor"
   },
   "reassign": [
     {
       "name": "Audra Melton",
       "start_ms": [
+        1771272,
         2618372,
         2962411,
         3342091
@@ -85,6 +89,12 @@
         3692838,
         4075168,
         4102504
+      ]
+    },
+    {
+      "name": "Unidentified speaker",
+      "start_ms": [
+        239906
       ]
     }
   ],

@@ -46,7 +46,8 @@
     "Attribution: AssemblyAI speaker_identification with the generic 2026 roster; unmapped voices stay Speaker letters.",
     "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting (the 2026-07-22 example shows what verification adds).",
     "QA pass 2026-08-02: remaining clusters attributed from in-transcript evidence (self-introductions, minutes roll-call, content ownership); generic labels where identity is not stated.",
-    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Christine DiPilato -> unidentified (voice matches 0/35; top Matt Haupt 35); cluster D: Emina Alic -> Nancy Philippart (55/67 lines, median 0.81 >= 0.73); cluster B: Nancy Philippart -> Emina Alic (38/41 lines, median 0.77 >= 0.59); cluster I: David Recker -> Christine DiPilato (30/30 lines, median 0.86 >= 0.59); 30 lines moved on voice (>= 0.60, margin 0.15)"
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Christine DiPilato -> unidentified (voice matches 0/35; top Matt Haupt 35); cluster D: Emina Alic -> Nancy Philippart (55/67 lines, median 0.81 >= 0.73); cluster B: Nancy Philippart -> Emina Alic (38/41 lines, median 0.77 >= 0.59); cluster I: David Recker -> Christine DiPilato (30/30 lines, median 0.86 >= 0.59); 30 lines moved on voice (>= 0.60, margin 0.15)",
+    "QA PASS 2026-11-14: 1 more line(s) moved on voice (>= 0.60, margin 0.15) after the library correction of 2026-07-22 (a non-Potts line removed from Potts's reference let these clear the margin); each read against its context."
   ],
   "mapping": {
     "D": "Emina Alic",
@@ -109,7 +110,8 @@
         10707807,
         10712902,
         11218059,
-        11663505
+        11663505,
+        11772508
       ]
     }
   ],

@@ -46,7 +46,8 @@
     "Attribution: AssemblyAI speaker_identification with the 2025 roster; unmapped voices stay Speaker letters.",
     "Automated pass \u2014 cluster splits/merges are NOT hand-verified for this meeting.",
     "QA pass: large unmapped clusters attributed from in-transcript evidence; generic labels where identity is not stated.",
-    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Emina Alic -> Vital Anne (28/31 lines, median 0.71 >= 0.62); 27 lines moved on voice (>= 0.60, margin 0.15)"
+    "VOICE-LIBRARY PASS (2026-11-13, transcription/propose_fixes.py): cluster E: Emina Alic -> Vital Anne (28/31 lines, median 0.71 >= 0.62); 27 lines moved on voice (>= 0.60, margin 0.15)",
+    "QA PASS 2026-11-14: 1 more line(s) moved on voice (>= 0.60, margin 0.15) after the library correction of 2026-07-22 (a non-Potts line removed from Potts's reference let these clear the margin); each read against its context."
   ],
   "mapping": {
     "E": "Emina Alic",
@@ -82,7 +83,8 @@
       "name": "Kristine Griffor",
       "start_ms": [
         10954788,
-        10967261
+        10967261,
+        10997603
       ]
     },
     {
