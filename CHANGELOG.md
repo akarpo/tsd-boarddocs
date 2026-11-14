@@ -26,7 +26,8 @@ Versioning is loosely semantic; tags are pushed to GitHub (`git tag vX.Y.Z`).
   real errors confirmed by hand (`voice_confirmations.json`), one inconclusive.
 - Published with owner approval: 26 meetings, ~174k of 592k words changed speaker (140k renamed, 34k
   unidentified); every audit clean; D1 and transcripts/ updated, chapters untouched, prior outputs in
-  scratch/backups/. Caption tracks drain by quota (`scratch/caption-drain/`).
+  scratch/backups/. Caption tracks: 15 pushed 11-13, the last 11 at the 2026-11-14 03:15 ET quota reset
+  (`scratch/caption-drain/`); all 26 confirmed on YouTube by each track's lastUpdated.
 - `/transcription` ("Who Said That?"): the method, the back-test and this review, linked from /singularity.
 
 ### Voice-library back-test — 2026-11-13

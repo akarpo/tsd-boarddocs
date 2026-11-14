@@ -11,9 +11,8 @@ Last reviewed **2026-10-23**.
 ## Where things stand
 
 **The archive's speaker attribution was corrected on 2026-11-13** by the voice library: 26 meetings from
-2025-01-21 to 2026-08-18, ~174k words (see the changelog and /transcription). Caption tracks drain
-over two days: `scratch/caption-drain/queue.txt` holds what is left and `drain.sh` resumes it (check
-`drain.log`; if the overnight run died with the machine, run `drain.sh` again after 3 a.m. Eastern).
+2025-01-21 to 2026-08-18, ~174k words (see the changelog and /transcription). All 26 caption tracks
+are on YouTube (15 on 11-13, the last 11 at the 2026-11-14 quota reset; each track's lastUpdated checked).
 
 **The 2026-11-10 workshop is ingested through chapters** (2026-11-13): 9 documents summarized
 (the tenth, an Athens award recommendation, 400s on BoardDocs itself), the owner's Microsoft
